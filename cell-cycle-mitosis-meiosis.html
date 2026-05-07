@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cell Cycle, Mitosis and Meiosis — Cyclin-CDK, Checkpoints, Recombination | Evagene</title>
+    <meta name="description" content="Educational guide to the cell cycle: cyclin-CDK regulation, the four checkpoints, mitosis, meiosis I and II, SPO11-induced recombination, PRDM9 hotspots, and the origin of non-disjunction.">
+    <meta name="keywords" content="cell cycle, mitosis, meiosis, cyclin, CDK, Hartwell Hunt Nurse, p53, RB E2F, spindle assembly checkpoint, SPO11, synaptonemal complex, recombination, PRDM9, non-disjunction, aneuploidy, MLH1 foci">
+
+    <meta property="og:title" content="Cell Cycle, Mitosis and Meiosis — Cyclin-CDK, Checkpoints, Recombination | Evagene">
+    <meta property="og:description" content="Cyclin-CDK regulation, the four cell-cycle checkpoints, mitotic mechanics, meiosis I and II, SPO11 and PRDM9, and the origin of non-disjunction.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/cell-cycle-mitosis-meiosis">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cell Cycle, Mitosis and Meiosis — Cyclin-CDK, Checkpoints, Recombination">
+    <meta name="twitter:description" content="The cell cycle, mitosis, meiosis, recombination, and the origin of aneuploidy.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/cell-cycle-mitosis-meiosis">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Cell Cycle, Mitosis and Meiosis: Cyclin-CDK Regulation, Checkpoints, and Recombination",
+        "description":"Educational article on the cell cycle, mitotic and meiotic mechanics, the cyclin-CDK control system, the four checkpoints, SPO11-induced double-strand breaks, PRDM9 hotspots, and the origin of non-disjunction.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/cell-cycle-mitosis-meiosis"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["cell cycle","mitosis","meiosis","cyclin","CDK","SPO11","PRDM9","non-disjunction","recombination"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Cell Cycle, Mitosis and Meiosis",
+        "description":"An educational article on cell-cycle regulation, mitotic and meiotic division, recombination, and the origin of aneuploidy, suitable for students and instructors of genetics and cell biology.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Tertiary education",
+        "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+        "inLanguage":"en-GB",
+        "url":"https://evagene.com/cell-cycle-mitosis-meiosis",
+        "isAccessibleForFree":true,
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Chromosomes and Cell Division","item":"https://evagene.com/chromosomes-and-cell-division"},
+            {"@type":"ListItem","position":3,"name":"Cell Cycle, Mitosis and Meiosis","item":"https://evagene.com/cell-cycle-mitosis-meiosis"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="chromosomes-and-cell-division.html" class="hover:text-brand-600 dark:hover:text-brand-300">Chromosomes and Cell Division</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Cell Cycle, Mitosis and Meiosis</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Cell cycle, mitosis and meiosis</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Cell division has two flavours. Mitosis copies a diploid cell into two diploid daughters; meiosis produces haploid gametes from diploid germ cells through one round of replication and two rounds of division. Both are gated by the same fundamental control system &mdash; cyclin-dependent kinases switching on and off in regular oscillations &mdash; and both are watched by checkpoint machinery that holds the cycle whenever DNA is damaged or chromosomes are not properly attached to the spindle. This page covers cell-cycle regulation, the four checkpoints, mitotic mechanics, the meiotic programme, the SPO11-driven recombination machinery, the PRDM9-determined hotspots that target it, and the origin of non-disjunction in human gametes.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>11 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> The cell cycle alternates four phases &mdash; G1, S, G2, M &mdash; driven by cyclin-CDK oscillations, gated at four checkpoints (G1/S restriction point, intra-S, G2/M, spindle assembly checkpoint). Mitosis partitions duplicated chromosomes equally into two diploid daughters. Meiosis halves the chromosome number through two divisions, generating genetic diversity in two ways: independent assortment of homologues and crossover recombination between homologues. The recombination machinery is initiated by SPO11-induced double-strand breaks, targeted by the PRDM9 zinc-finger protein, and visualised cytologically as MLH1 foci on the synaptonemal complex. Errors at meiosis I &mdash; failure of crossover, premature loss of cohesion, or merotelic spindle attachment &mdash; are the source of most aneuploidy in human pregnancy.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The cell cycle: four phases, four control points</h2>
+
+            <p>A dividing somatic cell progresses through four phases. <strong>G1</strong> is the period of growth between mitosis and the next round of DNA synthesis, during which cells decide whether to commit to another division. <strong>S phase</strong> is the period during which the genome is replicated, producing two sister chromatids per chromosome. <strong>G2</strong> is the second growth phase, during which the cell prepares for division. <strong>M phase</strong> is mitosis itself, divided into prophase, prometaphase, metaphase, anaphase, and telophase, followed by cytokinesis. Cells not actively dividing are said to be in G0 &mdash; reversibly quiescent (most adult somatic cells most of the time) or permanently post-mitotic (neurons, mature cardiomyocytes).</p>
+
+            <p>The engine of the cell cycle is the cyclin-dependent kinase (CDK) family. CDK activity is controlled in three ways: by association with a cyclin partner (without which CDK is inactive); by phosphorylation of activating and inhibitory residues; and by binding of CDK inhibitors. The cyclins themselves are synthesised and destroyed in regular oscillations: cyclin D in mid-G1, cyclin E at the G1/S boundary, cyclin A through S and G2, and cyclin B at the G2/M boundary. The cyclin/CDK pairs and the substrates they phosphorylate drive each transition forward and erase the substrates of the previous phase.</p>
+
+            <p>The genetic logic of this system was worked out in budding yeast (<a href="https://pubmed.ncbi.nlm.nih.gov/5165276/" rel="noopener">Hartwell 1971</a> and successors) and fission yeast (Nurse and colleagues, including <a href="https://pubmed.ncbi.nlm.nih.gov/2320111/" rel="noopener">Nurse 1990</a>); the cyclin component was discovered biochemically in sea urchin and clam embryos by Tim Hunt (<a href="https://pubmed.ncbi.nlm.nih.gov/2476898/" rel="noopener">Hunt 1989</a>; the original observation, that a protein synthesised after fertilisation was destroyed each cleavage cycle, was reported in 1983). The three shared the 2001 Nobel Prize in Physiology or Medicine. The textbook reference for cell-cycle control is <a href="https://www.newscienceinternational.com/cellcycle" rel="noopener">Morgan, <em>The Cell Cycle: Principles of Control</em> (2007)</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The four checkpoints</h2>
+
+            <p>Checkpoints are surveillance systems that pause the cycle until specific conditions are satisfied. There are four classical checkpoints in mammalian cells.</p>
+
+            <p><strong>1. G1/S restriction point (RB-E2F).</strong> The decision to commit to a division cycle is taken in G1 at the restriction point. Mitogen-driven cyclin D-CDK4/6 activity, followed by cyclin E-CDK2, phosphorylates the retinoblastoma protein (RB), releasing the E2F transcription factors that drive expression of S-phase genes. The CDK inhibitors p21 (CDKN1A), p27 (CDKN1B), and the INK4 family (p16<sup>INK4a</sup>) brake this progression in response to stress, antimitogenic signals, and DNA damage. <a href="https://pubmed.ncbi.nlm.nih.gov/10385618/" rel="noopener">Sherr and Roberts (1999)</a> review the G1 control system in detail. Loss of RB or p16<sup>INK4a</sup> is among the most frequent events in human cancer and corresponds to loss of the restriction-point gate.</p>
+
+            <p><strong>2. Intra-S checkpoint.</strong> Stalled or damaged replication forks activate the ATR kinase, which phosphorylates CHK1 to slow further origin firing, stabilise stalled forks, and prevent entry into mitosis until replication is completed.</p>
+
+            <p><strong>3. G2/M DNA-damage checkpoint.</strong> Double-strand breaks activate the ATM kinase, which phosphorylates CHK2; both ATR/CHK1 and ATM/CHK2 inhibit the CDC25 phosphatase that activates CDK1, holding cells in G2 until breaks are repaired. The transcription factor <strong>p53</strong> (TP53) is a central node: it is stabilised by ATM/ATR-mediated phosphorylation and induces p21 (a CDK inhibitor), apoptotic effectors, and senescence regulators. p53 is the most frequently mutated gene in human cancer, and germline TP53 mutations cause Li-Fraumeni syndrome.</p>
+
+            <p><strong>4. Spindle assembly checkpoint (SAC).</strong> At metaphase, anaphase is held until every kinetochore has formed a stable, bipolar attachment to the spindle. Unattached kinetochores generate a diffusible "wait anaphase" signal &mdash; the mitotic checkpoint complex (BUBR1, BUB3, MAD2, CDC20) &mdash; that inhibits the anaphase-promoting complex/cyclosome (APC/C) and so prevents securin destruction. When all kinetochores are attached, the signal extinguishes, the APC/C activates, securin is destroyed, separase is unleashed, cohesin is cleaved, and sisters separate. <a href="https://pubmed.ncbi.nlm.nih.gov/17426725/" rel="noopener">Musacchio and Salmon (2007)</a> review the SAC mechanism.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mitosis: equal division</h2>
+
+            <p>Mitosis is conventionally divided into five stages.</p>
+
+            <ul>
+                <li><strong>Prophase.</strong> Chromosomes condense, the nucleolus disassembles, and the centrosomes migrate to opposite poles, beginning to nucleate microtubules.</li>
+                <li><strong>Prometaphase.</strong> The nuclear envelope breaks down, and microtubules invade the nuclear region. Kinetochores assembled on the centromeres of each sister chromatid capture microtubules; correct (amphitelic) attachment requires that the two sister kinetochores attach to opposite poles. Erroneous attachments &mdash; syntelic (both sisters to one pole), monotelic (one sister attached, one not), merotelic (one kinetochore attached to both poles) &mdash; are corrected by the Aurora B kinase, which destabilises tensionless attachments.</li>
+                <li><strong>Metaphase.</strong> Chromosomes align at the metaphase plate. The spindle assembly checkpoint holds the cell here until all kinetochores are attached and under tension.</li>
+                <li><strong>Anaphase.</strong> Cohesin is cleaved by separase. Sister chromatids move to opposite poles. Anaphase A is the shortening of kinetochore microtubules; anaphase B is the elongation of the spindle itself.</li>
+                <li><strong>Telophase.</strong> Chromosomes decondense, the nuclear envelope reforms, and the spindle disassembles. Cytokinesis &mdash; the physical division of the cytoplasm by the actomyosin contractile ring &mdash; partitions the daughter cells.</li>
+            </ul>
+
+            <p>The result is two diploid daughter cells, each with the same complement of chromosomes as the parent.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Meiosis: reductional and equational division</h2>
+
+            <p>Meiosis is the cell division that produces haploid gametes (sperm and oocytes) from diploid germline cells. It comprises one round of DNA replication followed by two divisions, meiosis I and meiosis II. Meiosis I (the reductional division) separates homologous chromosomes; meiosis II (the equational division) separates sister chromatids. The net effect is to halve the chromosome number, from 2n=46 to n=23.</p>
+
+            <p>Meiosis I is where the special biology happens. After S phase, each chromosome consists of two sister chromatids, paired at the centromere. In <strong>leptotene</strong>, chromosomes begin to condense. In <strong>zygotene</strong>, homologous chromosomes pair and align along their length, forming the synaptonemal complex &mdash; a tripartite proteinaceous structure with two lateral elements (one per homologue) and a central element. By <strong>pachytene</strong>, synapsis is complete and recombination is in progress. <strong>Diplotene</strong> sees the synaptonemal complex disassemble while homologues remain held together at chiasmata &mdash; the cytological manifestation of crossovers. In <strong>diakinesis</strong> the chromosomes condense further. Metaphase I aligns homologues (not sisters) at the spindle equator; anaphase I separates homologues to opposite poles; meiosis II then separates sisters in a mitosis-like division.</p>
+
+            <p>The genetic consequence of meiosis I is twofold. <strong>Independent assortment</strong>: maternal and paternal homologues align at the equator independently of one another, so the 2<sup>23</sup> possible combinations of maternal and paternal contributions are sampled. <strong>Recombination</strong>: each pair of homologues experiences at least one crossover, and on average two to three crossovers, mixing alleles from the two parental haplotypes. The genetic distance between two loci on the same chromosome &mdash; measured in centiMorgans &mdash; is essentially the recombination probability between them, the foundation of linkage analysis used in <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculation</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">SPO11, double-strand breaks, and PRDM9 hotspots</h2>
+
+            <p>Recombination is initiated, not by accident, but by a programmed double-strand break introduced into one DNA strand by the topoisomerase-VI-like enzyme <strong>SPO11</strong>. <a href="https://pubmed.ncbi.nlm.nih.gov/9039264/" rel="noopener">Keeney, Giroux and Kleckner (1997)</a> identified SPO11 as the catalytic core, covalently linked to the broken end via a 5' phosphotyrosyl bond. The break is resected to expose a 3' single-stranded tail, which invades the homologous chromosome to form a displacement loop. Resolution of the resulting recombination intermediates produces either a crossover (an exchange of flanking sequence between homologues) or a non-crossover (a local patch of gene conversion).</p>
+
+            <p>SPO11 does not target the genome uniformly. In humans and mice, recombination is concentrated at hotspots a few kilobases wide, separated by recombination "deserts". The DNA-binding specificity of these hotspots is determined by <strong>PRDM9</strong>, a fast-evolving zinc-finger protein with histone H3 lysine 4/36 methyltransferase activity. <a href="https://pubmed.ncbi.nlm.nih.gov/20044539/" rel="noopener">Baudat et al. (2010)</a> identified PRDM9 as the locus controlling the fine-scale distribution of recombination in mice and humans; the rapid evolution of PRDM9's DNA-binding zinc fingers explains why hotspot locations differ between closely related species and even between PRDM9 alleles within a population.</p>
+
+            <p>The cytological output of meiotic recombination is countable. MLH1, a component of one of the major crossover-resolution pathways, accumulates at maturing crossover sites and can be visualised as discrete foci on the synaptonemal complex of pachytene cells. MLH1 foci correspond approximately one-to-one with crossovers; foci counts are used as a proxy for recombination frequency in research on meiotic regulation and on the impact of age, sex, and genotype.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The origin of non-disjunction</h2>
+
+            <p>Errors in chromosome segregation produce gametes with too many or too few chromosomes &mdash; the substrate of human aneuploidy. The frequency and origin of these errors are striking. <a href="https://pubmed.ncbi.nlm.nih.gov/11283700/" rel="noopener">Hassold and Hunt (2001)</a> reviewed the molecular cytogenetic evidence that the great majority of human aneuploidies originate at female meiosis I, and that the frequency rises sharply with maternal age &mdash; from a few per cent below age 25 to more than 30% above age 40. Two non-exclusive mechanisms are proposed:</p>
+
+            <ul>
+                <li><strong>Failure of recombination.</strong> A homologue pair without a crossover (an "achiasmate" bivalent) lacks the physical chiasma that normally holds homologues together until anaphase I, and is at high risk of mis-segregation. Susceptible chromosomes (notably chromosome 21) and susceptible regions tend to be those with the lowest recombination frequency.</li>
+                <li><strong>Premature loss of cohesion.</strong> Human oocytes are arrested in late prophase I from foetal life, sometimes for decades. Cohesin loaded onto bivalents in foetal life must remain functional until ovulation. Age-related loss of cohesin or its regulators is thought to predispose bivalents to premature separation, leading to mis-segregation at meiosis I or II.</li>
+            </ul>
+
+            <p>Errors at male meiosis and at meiosis II contribute a smaller fraction of human aneuploidy, and post-zygotic errors give rise to mosaic aneuploidies. The downstream cytogenetic consequences &mdash; trisomies 21, 18, 13; sex-chromosome aneuploidies; structural rearrangements arising from mis-repair of meiotic breaks &mdash; are the subject of <a href="chromosomal-abnormalities.html">chromosomal abnormalities</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why this matters for pedigree analysis</h2>
+
+            <p>Mendel's laws are statements about meiosis. The 50:50 ratio at the heart of segregation reflects the equal probability that a heterozygous parent passes on either allele at any locus. Independent assortment between unlinked loci reflects the random orientation of bivalents at metaphase I. Linkage between nearby loci reflects the finite probability of crossover between them. When a pedigree shows linkage, segregation distortion, or recurrence of an aneuploidy, the underlying biology is meiotic. Educational tools that compute Mendelian ratios &mdash; for example, our <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a>, <a href="punnett-square-calculator.html">Punnett square calculator</a>, or the family-history component of <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk modelling</a> &mdash; are surface-level interfaces to the meiotic biology described on this page.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">References</h2>
+
+            <ul>
+                <li>Hartwell LH. <a href="https://pubmed.ncbi.nlm.nih.gov/5165276/" rel="noopener">Genetic control of the cell division cycle in yeast II. Genes controlling DNA replication and its initiation</a>. <em>Journal of Molecular Biology</em> 1971;59:183.</li>
+                <li>Hunt T. <a href="https://pubmed.ncbi.nlm.nih.gov/2476898/" rel="noopener">Maturation promoting factor, cyclin and the control of M-phase</a>. <em>Current Opinion in Cell Biology</em> 1989;1:268.</li>
+                <li>Nurse P. <a href="https://pubmed.ncbi.nlm.nih.gov/2320111/" rel="noopener">Universal control mechanism regulating onset of M-phase</a>. <em>Nature</em> 1990;344:503.</li>
+                <li>Keeney S, Giroux CN, Kleckner N. <a href="https://pubmed.ncbi.nlm.nih.gov/9039264/" rel="noopener">Meiosis-specific DNA double-strand breaks are catalyzed by Spo11, a member of a widely conserved protein family</a>. <em>Cell</em> 1997;88:375.</li>
+                <li>Sherr CJ, Roberts JM. <a href="https://pubmed.ncbi.nlm.nih.gov/10385618/" rel="noopener">CDK inhibitors: positive and negative regulators of G1-phase progression</a>. <em>Genes &amp; Development</em> 1999;13:1501.</li>
+                <li>Hassold T, Hunt P. <a href="https://pubmed.ncbi.nlm.nih.gov/11283700/" rel="noopener">To err (meiotically) is human: the genesis of human aneuploidy</a>. <em>Nature Reviews Genetics</em> 2001;2:280.</li>
+                <li>Musacchio A, Salmon ED. <a href="https://pubmed.ncbi.nlm.nih.gov/17426725/" rel="noopener">The spindle-assembly checkpoint in space and time</a>. <em>Nature Reviews Molecular Cell Biology</em> 2007;8:379.</li>
+                <li>Baudat F, Buard J, Grey C et al. <a href="https://pubmed.ncbi.nlm.nih.gov/20044539/" rel="noopener">PRDM9 is a major determinant of meiotic recombination hotspots in humans and mice</a>. <em>Science</em> 2010;327:836.</li>
+                <li>Morgan DO. <em>The Cell Cycle: Principles of Control</em>. New Science Press / Sinauer 2007.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="chromosomes-and-cell-division.html">Chromosomes and cell division (pillar)</a></li>
+                <li><a href="chromosome-structure-and-mapping.html">Chromosome structure and mapping</a></li>
+                <li><a href="chromosomal-abnormalities.html">Chromosomal abnormalities</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="punnett-square-calculator.html">Punnett square calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+            </ul>
+
+            <p class="mt-12 text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-brand-800 pt-6">Evagene is an academic, research, and educational pedigree modelling platform. It is not a medical device, not clinical decision support, and not a diagnostic or screening tool. The cell biology described here is foundational material taught in genetics and cell biology courses; the platform itself does not interpret a particular pregnancy or gamete for individual patient care.</p>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="chromosomes-and-cell-division.html" class="hover:text-white transition-colors">Chromosomes pillar</a></li><li><a href="chromosome-structure-and-mapping.html" class="hover:text-white transition-colors">Chromosome structure</a></li><li><a href="chromosomal-abnormalities.html" class="hover:text-white transition-colors">Chromosomal abnormalities</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polygenic Models — Additive Effects, PRS, LDpred, PRS-CS | Evagene</title>
+    <meta name="description" content="Polygenic models in human genetics: Fisher's infinitesimal model; additive, dominance, and epistatic effects; narrow- and broad-sense heritability; polygenic risk scores; LDpred, P+T, PRS-CS; UK Biobank; the portability problem; PGS Catalog. For research and education.">
+    <meta name="keywords" content="polygenic models, polygenic risk score, PRS, infinitesimal model, additive genetic variance, dominance variance, narrow sense heritability, broad sense heritability, LDpred, PRS-CS, P+T pruning thresholding, PGS Catalog, Khera 2018, Martin 2019, portability problem, UK Biobank, Choi PRS-CS, Lambert 2021">
+
+    <meta property="og:title" content="Polygenic Models — Additive Effects, PRS, LDpred, PRS-CS">
+    <meta property="og:description" content="An educational treatment of polygenic models: Fisher's infinitesimal framework, additive vs non-additive effects, polygenic risk score construction (LDpred, P+T, PRS-CS), and the portability problem.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/polygenic-models">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Polygenic Models — Additive Effects, PRS, LDpred, PRS-CS">
+    <meta name="twitter:description" content="Fisher's infinitesimal model, polygenic risk scores, the portability problem, and the PGS Catalog. Educational treatment.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/polygenic-models">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Polygenic Models: Additive vs Non-Additive Effects and Polygenic Risk Scores",
+        "description":"Fisher's infinitesimal model; the additive (a) and dominance (d) effects; epistasis; narrow- and broad-sense heritability; polygenic risk scores constructed via LDpred, P+T, and PRS-CS; the PGS Catalog; UK Biobank applications; the cross-ancestry portability problem. Educational use only; not a medical device.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/polygenic-models"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["polygenic models","polygenic risk score","PRS","infinitesimal model","LDpred","PRS-CS","PGS Catalog","portability problem"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Polygenic Models — Additive Effects, PRS, LDpred, PRS-CS",
+        "description":"Educational treatment of polygenic inheritance and the construction, evaluation, and limits of polygenic risk scores.",
+        "url":"https://evagene.com/polygenic-models",
+        "learningResourceType":"Topic article",
+        "educationalLevel":"Postgraduate / advanced undergraduate",
+        "audience":{"@type":"Audience","audienceType":"Students, researchers, and educators in human and quantitative genetics"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "isPartOf":{"@type":"LearningResource","name":"Quantitative and Complex Traits","url":"https://evagene.com/quantitative-and-complex-traits"},
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Quantitative and complex traits","item":"https://evagene.com/quantitative-and-complex-traits"},
+            {"@type":"ListItem","position":3,"name":"Polygenic models","item":"https://evagene.com/polygenic-models"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="quantitative-and-complex-traits.html" class="hover:text-brand-600 dark:hover:text-brand-300">Quantitative &amp; complex traits</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Polygenic models</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-clinical-50 dark:bg-clinical-500/10 text-clinical-600 dark:text-clinical-400 text-xs font-semibold tracking-wider uppercase rounded-full border border-clinical-200 dark:border-clinical-500/20 mb-4">
+                Subtopic &middot; Quantitative genetics
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Polygenic models: additive effects, non-additive effects, and polygenic risk scores</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A polygenic model treats a phenotype as the sum of small contributions from many independent loci. The framework was set out by <a href="https://royalsocietypublishing.org/doi/10.1017/S0080456800012163" rel="noopener">Fisher 1918</a> and is the foundation of the modern polygenic risk score. This page covers the additive (<em>a</em>) and dominance (<em>d</em>) effects, narrow- vs broad-sense heritability, the construction of PRS by LDpred / P+T / PRS-CS, the cap on PRS performance set by trait heritability, and the portability problem documented across ancestries. Educational treatment; outputs of any PRS computation in this framework are illustrative for research and education, not clinical.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>10 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> A polygenic risk score (PRS) is the genome-wide sum of risk-allele dosages weighted by GWAS effect sizes. It is the operational descendant of Fisher's 1918 infinitesimal model. Its theoretical accuracy is capped by the trait's narrow-sense heritability, and its empirical accuracy degrades sharply when applied across the ancestry boundary the discovery cohort used. None of the framing on this page is clinical &mdash; PRS results in research and education are summary statistics, not medical recommendations.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Fisher's infinitesimal model</h2>
+
+            <p>Fisher's <em>Transactions of the Royal Society of Edinburgh</em> 52:399 paper of <a href="https://royalsocietypublishing.org/doi/10.1017/S0080456800012163" rel="noopener">1918</a> set out a model in which a continuous phenotype is the sum of the genetic contributions from a (notionally infinite) collection of independently segregating Mendelian loci, each with a small additive effect on the trait, plus an environmental term. The central limit theorem then guarantees that the population distribution of phenotypes is approximately Gaussian, that the population variance decomposes into V<sub>P</sub>&nbsp;=&nbsp;V<sub>A</sub>&nbsp;+&nbsp;V<sub>D</sub>&nbsp;+&nbsp;V<sub>I</sub>&nbsp;+&nbsp;V<sub>E</sub> (additive, dominance, epistatic, environmental), and that the parent-offspring correlation under additive variance equals 0.5, the full-sib correlation 0.5, the half-sib correlation 0.25, and the monozygotic-twin correlation 1.0 in expectation.</p>
+
+            <p>The <em>infinitesimal</em> label reflects the limit of large locus number with small per-locus effect. Real genetic architectures fall on a continuum: at one end, single-locus Mendelian disorders; at the other, height (estimated to involve thousands of common variants) and behavioural traits whose architecture is even more diffuse. The polygenic synthesis does not require all traits to lie at the infinitesimal limit, only that the sum of small contributions across many loci is the right framing for the trait of interest. Lynch &amp; Walsh (1998) <em>Genetics and Analysis of Quantitative Traits</em> develops the underlying mathematics in textbook form and remains the canonical reference for the variance-decomposition machinery.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Additive (a), dominance (d), and epistatic effects</h2>
+
+            <p>For a single biallelic locus with alleles A<sub>1</sub> and A<sub>2</sub>, three genotypic values are defined: the homozygote A<sub>1</sub>A<sub>1</sub> phenotype is +<em>a</em>, the heterozygote A<sub>1</sub>A<sub>2</sub> phenotype is +<em>d</em>, and the homozygote A<sub>2</sub>A<sub>2</sub> phenotype is &minus;<em>a</em>, all measured from the midpoint between the two homozygotes. The additive effect <em>a</em> is the half-difference between homozygote phenotypes; the dominance deviation <em>d</em> is the deviation of the heterozygote from the homozygote midpoint. When d&nbsp;=&nbsp;0 the locus is purely additive; d&nbsp;=&nbsp;a is full dominance of A<sub>1</sub>; d&nbsp;=&nbsp;&minus;a is full dominance of A<sub>2</sub>; d&nbsp;&gt;&nbsp;a is overdominance.</p>
+
+            <p>Across loci, two further sources of non-additivity matter. <em>Epistasis</em> is the dependence of one locus's effect on the genotype at another locus &mdash; the genetic equivalent of an interaction term in regression. <em>Linkage</em> creates non-independence of allele transmission within a chromosomal region; under linkage disequilibrium, the variance contributions of nearby loci cannot be cleanly separated. The variance components are conventionally written V<sub>A</sub> (additive), V<sub>D</sub> (dominance), V<sub>I</sub> (epistatic interaction), and the broad-sense genetic variance V<sub>G</sub>&nbsp;=&nbsp;V<sub>A</sub>&nbsp;+&nbsp;V<sub>D</sub>&nbsp;+&nbsp;V<sub>I</sub>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Narrow-sense vs broad-sense heritability</h2>
+
+            <p>Two heritability statistics matter. The <em>narrow-sense</em> heritability h<sup>2</sup>&nbsp;=&nbsp;V<sub>A</sub>&nbsp;/&nbsp;V<sub>P</sub> is the proportion of phenotypic variance attributable to additive genetic variance, and is the quantity that determines parent-offspring resemblance and the response of a trait to selection. The <em>broad-sense</em> heritability H<sup>2</sup>&nbsp;=&nbsp;V<sub>G</sub>&nbsp;/&nbsp;V<sub>P</sub> is the proportion attributable to all genetic variance and is the quantity recovered (in principle) from monozygotic-twin concordance. h<sup>2</sup>&nbsp;&le;&nbsp;H<sup>2</sup> by definition.</p>
+
+            <p>The distinction matters operationally for polygenic risk scoring: the theoretical ceiling on a PRS's predictive R<sup>2</sup> is the narrow-sense heritability h<sup>2</sup>, because GWAS effect-size estimates are additive coefficients fitted in a linear model. A trait with h<sup>2</sup>&nbsp;=&nbsp;0.4 has a theoretical PRS R<sup>2</sup> ceiling of 0.4 in the discovery population; in practice PRS achieves a fraction of this because of finite GWAS sample size, allele-frequency shrinkage, and LD imperfections.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Polygenic risk scores: definition and construction</h2>
+
+            <p>A polygenic risk score for an individual is the sum across SNPs of the dose of the risk allele (0, 1, or 2 copies) weighted by the SNP's effect size estimate from a GWAS:</p>
+
+            <p style="text-align:center; font-style:italic;">PRS<sub>i</sub> = &sum;<sub>j</sub> &beta;<sub>j</sub> &middot; X<sub>ij</sub></p>
+
+            <p>where &beta;<sub>j</sub> is the effect size at SNP <em>j</em> (typically the log-odds-ratio for a binary trait or the per-allele effect for a continuous trait), and X<sub>ij</sub> &isin; {0, 1, 2} is the dosage of the risk allele in individual <em>i</em>. The score is a scalar number that locates the individual on a population distribution of polygenic burden. Three families of construction methods dominate the literature.</p>
+
+            <ul>
+                <li><strong>Clumping and thresholding (P+T, also called pruning and thresholding)</strong>. Select SNPs by GWAS p-value at a chosen threshold; LD-clump to remove correlated SNPs; sum the effect sizes of the clumped, threshold-passing variants. Simple, transparent, and robust; less efficient at extracting signal than the Bayesian methods.</li>
+                <li><strong>LDpred</strong>. <a href="https://pubmed.ncbi.nlm.nih.gov/26773131/" rel="noopener">Vilhj&aacute;lmsson et al. 2015</a> introduced LDpred, a Bayesian shrinkage method that updates each SNP's effect size by a posterior under a point-normal mixture prior, conditioned on an LD reference panel. LDpred-funct, LDpred2, and related variants extend the method.</li>
+                <li><strong>PRS-CS</strong>. <a href="https://pubmed.ncbi.nlm.nih.gov/30992449/" rel="noopener">Ge et al. 2019</a> introduced PRS-CS, which uses a continuous-shrinkage prior on effect sizes and is empirically robust across architectures. Methodological detail in <a href="https://pubmed.ncbi.nlm.nih.gov/32709988/" rel="noopener">Choi, Mak &amp; O'Reilly 2020</a> (<em>Nat Protoc</em> 15:2759), which is a good practical guide for both LDpred and PRS-CS.</li>
+            </ul>
+
+            <p>The <a href="https://www.pgscatalog.org/" rel="noopener">PGS Catalog</a> (Lambert et al. 2021, <em>Nat Genet</em> 53:420; <a href="https://pubmed.ncbi.nlm.nih.gov/33692568/" rel="noopener">PMID 33692568</a>) is the central public registry of published polygenic scores, providing standardised metadata for each score's discovery population, training method, and validation cohort. As of late 2025 it indexes more than four thousand scores across hundreds of phenotypes.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">UK Biobank and the canonical demonstrations</h2>
+
+            <p>The UK Biobank's ~500,000 genotyped, deeply phenotyped participants made large-scale PRS demonstrations practical. <a href="https://pubmed.ncbi.nlm.nih.gov/30104762/" rel="noopener">Khera et al. 2018</a> (<em>Nat Genet</em> 50:1219; PMID 30104762) is the canonical paper, demonstrating that a coronary-artery-disease PRS computed on UK Biobank data identifies individuals at the top 8&#37; of the polygenic distribution with risk approximately threefold the population mean &mdash; comparable in magnitude to that of monogenic familial-hypercholesterolaemia carriers. The same paper extended the analysis to atrial fibrillation, type&nbsp;2 diabetes, inflammatory bowel disease, and breast cancer.</p>
+
+            <p>Subsequent work has refined and qualified these results. PRS performance for any single trait is bounded by the heritability captured by the GWAS, and improvements with additional GWAS sample size are sublinear. PRS results in any setting are summary statistics, not recommendations; on this site and in the Evagene help catalogue PRS framing is research and education, never clinical.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The portability problem</h2>
+
+            <p>The single most important caveat in the PRS literature is the cross-ancestry portability problem. <a href="https://pubmed.ncbi.nlm.nih.gov/30940768/" rel="noopener">Martin et al. 2019</a> (<em>Nat Genet</em> 51:584; PMID 30940768) showed that PRS computed using effect sizes estimated in one ancestry group lose substantial predictive accuracy &mdash; often more than half &mdash; when applied to a different ancestry group. The causes are well-understood: differences in allele frequencies, differences in LD patterns (so a tag-SNP's effect estimate no longer reflects the causal variant equally), and differences in the population-specific genetic architecture of the trait.</p>
+
+            <p>Because the GWAS literature is overwhelmingly European-ancestry, this means PRS as currently published transfer poorly to non-European populations. Martin and colleagues argued that uncritical deployment of these scores risks exacerbating health disparities. The correct response is investment in non-European GWAS &mdash; under way at scale through the All of Us Research Program, the Million Veteran Program, and large East Asian and African biobanks &mdash; and in cross-ancestry methods such as PRS-CSx and Bayesian multi-ancestry meta-analysis.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Performance metrics: AUC and R<sup>2</sup></h2>
+
+            <p>For a binary disease phenotype, PRS performance is most often reported as AUC (area under the ROC curve), the probability that a randomly chosen case has a higher PRS than a randomly chosen control. AUC of 0.5 is no better than chance; 1.0 is perfect classification. PRS for highly heritable common diseases in well-powered European GWAS reach AUC in the range 0.65&ndash;0.80 in the discovery population. AUC is bounded above by the trait's heritability and the prevalence; the precise ceiling is given by Wray, Yang and colleagues' work on PRS upper limits.</p>
+
+            <p>For continuous traits, PRS performance is reported as R<sup>2</sup> (proportion of phenotypic variance explained). An R<sup>2</sup> ceiling equal to the narrow-sense heritability is a useful intuition, though the empirical ceiling depends on GWAS sample size, the LD pattern in the validation cohort, and the construction method.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mendelian vs polygenic inheritance &mdash; a plain comparison</h2>
+
+            <p>The <a href="mendelian-inheritance-calculator.html">Mendelian inheritance</a> framework treats a phenotype as the consequence of one or two pathogenic alleles at a single locus, with segregation ratios determined by the inheritance pattern (50&#37; in autosomal dominant, 25&#37; in autosomal recessive, etc.). Pedigrees with this architecture show clean segregation. A polygenic / multifactorial framework treats the same kind of binary phenotype as the consequence of an underlying continuous liability summed across many loci plus environment; pedigrees show familial clustering without single-locus segregation ratios.</p>
+
+            <p>The two frameworks coexist for many real diseases. Breast cancer is a useful illustration: <em>BRCA1</em> and <em>BRCA2</em> pathogenic variants are Mendelian (autosomal dominant with reduced penetrance); the residual familial clustering not explained by these is well-described by a polygenic component. Modern integrated models such as BOADICEA combine both. (BOADICEA is licensed by the University of Cambridge and is not bundled in Evagene; the platform exports a CanRisk-formatted pedigree file that the user uploads at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a> for off-platform computation.) For complex diseases without a Mendelian backbone &mdash; type&nbsp;2 diabetes, schizophrenia, hypertension &mdash; the polygenic / multifactorial framework is the only one that fits, and Evagene's <a href="complex-disease-pedigree-software.html">complex-disease pedigree software</a> implements the Falconer / Carter version of that framework with research- and education-grade framing.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Limits, framing, and what PRS does not do</h2>
+
+            <p>A PRS is a population-level summary statistic. It locates an individual on a polygenic-burden distribution that has been derived from the discovery cohort. Several limits are widely acknowledged in the literature:</p>
+
+            <ul>
+                <li><strong>The heritability ceiling.</strong> No PRS can predict more variance than h<sup>2</sup>; current PRS reach a fraction of that ceiling.</li>
+                <li><strong>The portability problem</strong> (Martin et al. 2019) &mdash; cross-ancestry transfer loses substantial accuracy.</li>
+                <li><strong>Cohort-specific calibration.</strong> Quantile thresholds derived in the discovery cohort do not transfer cleanly to other populations or to other recruiting strategies.</li>
+                <li><strong>No causal interpretation.</strong> A PRS includes effects of variants in linkage with causal variants; it does not isolate causal biology.</li>
+                <li><strong>No environmental information.</strong> Environment, lifestyle, and clinical context are separate from PRS by construction; the polygenic framework explicitly models V<sub>G</sub> and V<sub>E</sub> as additive, not interacting (the <a href="gene-environment-interaction.html">GxE</a> page covers what happens when this assumption breaks).</li>
+            </ul>
+
+            <p>The framing on this page, on the rest of the Evagene site, and in the help catalogue treats PRS as a research and education construct. PRS outputs in any of these contexts are illustrative, not recommendations. Decisions about screening, testing, referral, or treatment are matters of professional clinical judgement and not the output of any tool on this platform.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Canonical references</h2>
+
+            <ul>
+                <li><a href="https://royalsocietypublishing.org/doi/10.1017/S0080456800012163" rel="noopener">Fisher RA. 1918. <em>The Correlation between Relatives on the Supposition of Mendelian Inheritance.</em> Trans R Soc Edinb 52:399&ndash;433.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/30104762/" rel="noopener">Khera AV et&nbsp;al. 2018. <em>Genome-wide polygenic scores for common diseases identify individuals with risk equivalent to monogenic mutations.</em> Nat Genet 50:1219&ndash;1224.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/30940768/" rel="noopener">Martin AR et&nbsp;al. 2019. <em>Clinical use of current polygenic risk scores may exacerbate health disparities.</em> Nat Genet 51:584&ndash;591.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/33692568/" rel="noopener">Lambert SA et&nbsp;al. 2021. <em>The Polygenic Score Catalog as an open database for reproducibility and systematic evaluation.</em> Nat Genet 53:420&ndash;425.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/32709988/" rel="noopener">Choi SW, Mak TS-H, O'Reilly PF. 2020. <em>Tutorial: a guide to performing polygenic risk score analyses.</em> Nat Protoc 15:2759&ndash;2772.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/26773131/" rel="noopener">Vilhj&aacute;lmsson BJ et&nbsp;al. 2015. <em>Modeling linkage disequilibrium increases accuracy of polygenic risk scores.</em> AJHG 97:576&ndash;592.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/30992449/" rel="noopener">Ge T, Chen C-Y, Ni Y, Feng Y-CA, Smoller JW. 2019. <em>Polygenic prediction via Bayesian regression and continuous shrinkage priors.</em> Nat Commun 10:1776.</a></li>
+                <li>Lynch M, Walsh B. 1998. <em>Genetics and Analysis of Quantitative Traits.</em> Sinauer.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="quantitative-and-complex-traits.html">Quantitative and complex traits (pillar)</a></li>
+                <li><a href="heritability-and-liability.html">Heritability and the liability-threshold model</a></li>
+                <li><a href="gene-environment-interaction.html">Gene-environment interaction</a></li>
+                <li><a href="complex-disease-pedigree-software.html">Complex-disease pedigree software</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Use Evagene for teaching and research on polygenic traits</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, a research- and education-grade liability-threshold engine, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. Educational use only; not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="quantitative-and-complex-traits.html" class="hover:text-white transition-colors">Quantitative &amp; complex traits</a></li><li><a href="polygenic-models.html" class="hover:text-white transition-colors">Polygenic models</a></li><li><a href="heritability-and-liability.html" class="hover:text-white transition-colors">Heritability &amp; liability</a></li><li><a href="gene-environment-interaction.html" class="hover:text-white transition-colors">Gene-environment interaction</a></li><li><a href="complex-disease-pedigree-software.html" class="hover:text-white transition-colors">Complex-disease software</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Population Genetics Applications — Carrier Screening & Ethics | Evagene</title>
+    <meta name="description" content="An educational overview of how population-genetics findings inform carrier-screening models, the move from ancestry-based to pan-ethnic panels, screening-programme criteria (Wilson and Jungner 1968), and ELSI of population screening.">
+    <meta name="keywords" content="carrier screening, expanded carrier screening, pan-ethnic carrier screening, ACOG 691, Tay-Sachs, cystic fibrosis, sickle cell screening, thalassaemia, Wilson Jungner criteria, GINA, 100000 Genomes Project, NHS Genomic Medicine Service, ELSI">
+
+    <meta property="og:title" content="Population Genetics Applications — Carrier Screening & Ethics | Evagene">
+    <meta property="og:description" content="An educational overview of carrier-screening models, the field's move from ancestry-based to pan-ethnic panels, the Wilson and Jungner 1968 screening criteria, and the ELSI of population screening.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/population-genetics-applications">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Population Genetics Applications — Carrier Screening & Ethics">
+    <meta name="twitter:description" content="An educational overview of carrier-screening models, ancestry-based versus pan-ethnic panels, screening-programme criteria, and ELSI.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/population-genetics-applications">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Population Genetics Applications: Carrier Screening and Population Screening Ethics",
+        "description":"An educational overview of the population-genetics literature on carrier-screening panel design, ancestry-based versus pan-ethnic approaches, the Wilson and Jungner 1968 screening criteria, and the ELSI of population screening programmes.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/population-genetics-applications"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["carrier screening","expanded carrier screening","pan-ethnic","Tay-Sachs","cystic fibrosis","sickle cell","thalassaemia","Wilson Jungner","GINA","100000 Genomes Project","NHS Genomic Medicine Service","ELSI"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Population Genetics Applications — Carrier Screening and Ethics",
+        "description":"An educational page on the population-genetics literature behind carrier-screening panel design, programme criteria, and the ethical, legal, and social context of population screening.",
+        "learningResourceType":"Educational article",
+        "educationalLevel":"Specialist / postgraduate",
+        "audience":{"@type":"Audience","audienceType":"Researchers, educators, students, clinical geneticists"},
+        "inLanguage":"en-GB",
+        "provider":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "url":"https://evagene.com/population-genetics-applications"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Population and Evolutionary Genetics","item":"https://evagene.com/population-and-evolutionary-genetics"},
+            {"@type":"ListItem","position":3,"name":"Population Genetics Applications","item":"https://evagene.com/population-genetics-applications"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="population-and-evolutionary-genetics.html" class="hover:text-brand-600 dark:hover:text-brand-300">Population and Evolutionary Genetics</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Applications</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Population genetics applications: carrier screening and population-screening ethics</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">This page surveys the literature on how population-genetics findings have been applied to carrier-screening panel design, the historical move from ancestry-based to pan-ethnic panels, and the ethical, legal, and social issues raised by population screening programmes. The page is educational. It is a description of the field as it is documented in the published literature; it is not advice to any individual reader, and Evagene is not a screening platform.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>14 min read</span>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>Educational content &mdash; not medical advice</span>
+            </div>
+            <div class="mt-6 p-5 rounded-lg bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900 text-sm text-amber-900 dark:text-amber-200">
+                <strong>Educational scope.</strong> This page describes published literature on population screening and carrier-testing programmes. It is not a clinical guide and does not constitute medical advice. Decisions about whether or how to seek genetic testing belong to the reader and their healthcare provider, in their jurisdiction. Evagene is an academic, research, and educational pedigree-modelling platform; it is not a screening tool, not a diagnostic tool, and not a medical device.
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Several Mendelian-disease alleles segregate at substantially elevated frequencies in specific populations &mdash; Tay-Sachs disease in Ashkenazi Jewish, Sephardi, French-Canadian, and Cajun populations; cystic fibrosis in northern European populations; sickle-cell anaemia in populations of African origin; the &alpha;- and &beta;-thalassaemias in Mediterranean, South Asian, and South-East Asian populations. The published literature has historically organised carrier-testing panels around population-of-ancestry. Over the past decade the published consensus has moved towards pan-ethnic expanded carrier panels (Bell et al. 2011; ACOG Committee Opinion 691 2017). The Wilson and Jungner 1968 criteria remain the canonical starting point for evaluating any population-screening programme, and the ELSI literature on consent, equity, stigma, and discrimination has shaped programme design throughout.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mendelian-disease epidemiology by population</h2>
+
+            <p>Recessive Mendelian-disease alleles vary substantially in frequency between human populations. The patterns reflect demographic history (founder effects, drift in small populations) and, in a smaller number of well-documented cases, balancing selection. The published epidemiology informs both research and the design of any screening programme; it does not in itself prescribe whether a programme should exist.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Tay-Sachs disease</h3>
+            <p>Tay-Sachs disease (HEXA, OMIM <a href="https://omim.org/entry/606869" rel="noopener">606869</a>) is a lysosomal storage disorder caused by deficiency of &beta;-hexosaminidase A. Carrier frequency in Ashkenazi Jewish populations is approximately 1 in 27, compared with approximately 1 in 250 to 300 in non-founder populations. Elevated carrier frequencies are also documented in Sephardi Jewish, French-Canadian (notably in the Saguenay-Lac-Saint-Jean and Bas-Saint-Laurent regions of Qu&eacute;bec), and Cajun (Louisiana, descended from Acadian French settlers) populations. The Tay-Sachs carrier-screening programmes initiated in the 1970s in the United States and Israel are among the earliest published examples of community-led carrier testing.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Cystic fibrosis</h3>
+            <p>Cystic fibrosis (CFTR, OMIM <a href="https://omim.org/entry/602421" rel="noopener">602421</a>) carrier frequency in northern European populations is approximately 1 in 25; in Latino populations, approximately 1 in 60 to 70; in African-ancestry and East Asian populations, lower still. The most common pathogenic variant in northern European populations is F508del (c.1521_1523delCTT, p.Phe508del), which accounts for approximately 70 per cent of pathogenic CFTR alleles in that population; the variant spectrum differs across populations. Population-genetics models for the elevated cystic-fibrosis frequency in northern Europe have included historical balancing selection, but the published evidence is mixed.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Sickle-cell anaemia</h3>
+            <p>Sickle-cell anaemia (HBB Glu6Val, OMIM <a href="https://omim.org/entry/603903" rel="noopener">603903</a>) carrier frequency in populations of African origin is approximately 1 in 12 in West Africa and 1 in 13 in the African-American population, with regional variation. The elevated frequency reflects balancing selection through heterozygote protection from severe <em>Plasmodium falciparum</em> malaria, documented in the classical work of Allison 1954 (Br Med J 1:290). Sickle-cell trait is also at elevated frequency in some Mediterranean, Middle Eastern, and South Asian populations whose history overlaps with malaria endemic regions.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Thalassaemias</h3>
+            <p>The &alpha;-thalassaemias and &beta;-thalassaemias are at elevated frequency in Mediterranean (Cyprus, Sardinia, Greece, southern Italy), Middle Eastern, South Asian, and South-East Asian populations &mdash; the geographical distribution again overlapping with historical malaria endemicity. Published carrier frequencies in Cyprus and Sardinia exceed 10 per cent in some regions; the Cyprus &beta;-thalassaemia programme initiated in the 1970s is one of the most-cited examples of a sustained, community-supported carrier-testing programme in the literature. Carrier frequencies in South-East Asia for haemoglobin E (HbE) are also substantial.</p>
+
+            <p>Other conditions with documented population-specific elevation include Canavan disease, Niemann-Pick disease type A, Gaucher disease, familial dysautonomia, and several others in Ashkenazi Jewish populations; congenital adrenal hyperplasia in Yupik Eskimo populations; and a long list of conditions in the Finnish disease heritage covered on the <a href="demography-and-population-structure.html">demography page</a>. The OMIM and GeneReviews catalogues are the canonical references for population-specific epidemiology.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Carrier-screening models</h2>
+
+            <p>The published literature distinguishes several models of carrier-testing panel design.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Single-condition testing</h3>
+            <p>Testing for a single condition for which there is a population-specific elevated risk and an established programme &mdash; for example sickle-cell disease, cystic fibrosis, or Tay-Sachs &mdash; is the historical model. Single-condition testing reflects the era when sequencing was expensive and panel design was constrained. The model is well-documented in the published literature on the early Tay-Sachs and Cyprus &beta;-thalassaemia programmes.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Ancestry-based panels</h3>
+            <p>Ancestry-based panels group conditions by population-of-ancestry and offer a different panel to individuals from different ancestral backgrounds. The classical example is the multi-condition Ashkenazi panel offered through community programmes in the 1990s and 2000s. The model is internally consistent &mdash; it offers each individual a panel calibrated to the highest-prevalence conditions in their population &mdash; but it depends on accurate self-reported ancestry, which is unreliable in admixed populations and increasingly inadequate as populations mix.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Expanded pan-ethnic carrier panels</h3>
+            <p><a href="https://www.science.org/doi/10.1126/scitranslmed.3001756" rel="noopener">Bell et al. 2011 (Sci Transl Med 3:65ra4)</a> demonstrated the technical feasibility of testing simultaneously for hundreds of recessive conditions on a pan-ethnic panel using next-generation sequencing. The published consensus has subsequently moved towards pan-ethnic panels: <a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/03/carrier-screening-for-genetic-conditions" rel="noopener">ACOG Committee Opinion 691 (2017)</a> in the United States explicitly endorses ethnic-and-pan-ethnic carrier-screening models, and the European Society of Human Genetics has issued comparable guidance. The arguments are that pan-ethnic panels avoid the practical and ethical problems of using self-reported ancestry to allocate testing, that they are equitable across admixed populations, and that the marginal cost of additional conditions on a sequencing-based panel is low. The arguments against are that pan-ethnic panels can produce more findings of uncertain significance, raise concerns about pre-test counselling burden, and may reduce attention to high-frequency conditions in specific populations. The published literature is active and evolving on these trade-offs.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pre-conception, prenatal, and newborn timing</h2>
+
+            <p>The published literature on screening-programme design distinguishes timing relative to reproduction:</p>
+
+            <ul>
+                <li><strong>Pre-conception</strong> testing identifies carriers before pregnancy. The full range of reproductive options remains available to a couple identified as both carriers, including (per the published literature) natural conception with prenatal testing, donor conception, in vitro fertilisation with pre-implantation genetic testing, adoption, or no further intervention.</li>
+                <li><strong>Prenatal</strong> testing identifies affected pregnancies. The available options are narrower than at the pre-conception stage and the time pressure greater. Prenatal testing has its own established literature on consent, counselling, and choice.</li>
+                <li><strong>Newborn screening</strong> identifies affected newborns for conditions where early intervention can change outcomes (the published examples include phenylketonuria, congenital hypothyroidism, sickle-cell disease, and a range of others). Newborn-screening panels in the United Kingdom, the United States, and other jurisdictions are programmatic, jurisdiction-specific, and are not addressed further on this page.</li>
+            </ul>
+
+            <p>This page does not advise the reader on whether or when to seek any of these. The literature on the timing trade-offs is a matter for textbook and guideline reading; the choice belongs to individuals and couples, in conversation with their healthcare provider, in their jurisdiction.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Wilson and Jungner: criteria for screening programmes</h2>
+
+            <p>The canonical published framework for evaluating whether a screening programme should exist is <a href="https://apps.who.int/iris/handle/10665/37650" rel="noopener">Wilson and Jungner 1968 (WHO Public Health Papers 34, <em>Principles and Practice of Screening for Disease</em>)</a>, which sets out ten classical criteria. In summary, a population-screening programme is evaluated against:</p>
+
+            <ol>
+                <li>The condition is an important health problem.</li>
+                <li>An accepted intervention exists for affected individuals.</li>
+                <li>Diagnostic and treatment facilities are available.</li>
+                <li>The condition has a recognisable latent or early symptomatic stage.</li>
+                <li>A suitable test or examination exists.</li>
+                <li>The test is acceptable to the population.</li>
+                <li>The natural history of the condition is adequately understood.</li>
+                <li>An agreed policy for whom to treat exists.</li>
+                <li>The cost of case-finding is balanced against the overall expenditure on healthcare.</li>
+                <li>Case-finding is a continuing process, not a one-off campaign.</li>
+            </ol>
+
+            <p>The criteria have been updated and elaborated &mdash; notably in the 2008 WHO update by Andermann and colleagues to take account of genomic technology, asymptomatic carrier status, and the ELSI considerations that did not feature prominently in the 1968 framing &mdash; but the ten Wilson-Jungner criteria remain the starting point for any published evaluation of a screening programme.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Ethical, legal, and social issues</h2>
+
+            <p>The ELSI literature on population genetic screening is substantial. The principal threads:</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Consent</h3>
+            <p>Consent for screening must be informed and voluntary. The published debate has covered the appropriate threshold for "informed" in the context of a screening test offered population-wide (where opt-out designs may dilute genuine informed consent), the boundaries of consent for incidental findings, and the special considerations for testing in children and in research. The Council of Europe Convention on Human Rights and Biomedicine and the UNESCO Universal Declaration on Bioethics and Human Rights are international reference frameworks; specific national legislation varies.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Equity</h3>
+            <p>Equity considerations have been central since the early Tay-Sachs programmes and have intensified with expanded pan-ethnic panels. Equity issues include access to testing, access to follow-up testing and counselling, the diversity of reference cohorts and variant catalogues, the portability of polygenic risk scores across populations (substantially lower in non-European populations than in European-ancestry populations), and the historical under-representation of non-European populations in genetic research. The H3Africa initiative and All of Us cohort (covered on the <a href="demography-and-population-structure.html">demography page</a>) are responses to the diversity gap.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Stigma</h3>
+            <p>The published literature on population genetic screening includes documented cases where carrier-testing programmes produced stigma against carriers within communities. The Cyprus &beta;-thalassaemia programme, the early Tay-Sachs programmes, and the United States sickle-cell trait screening of the 1970s are case studies. Subsequent programme design has emphasised pre-test education and the carrier-status framing (carrier status is not disease) in part as a response to the stigma literature.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Insurance and discrimination</h3>
+            <p>Genetic information has at various times been used as a basis for insurance underwriting and employment decisions. The United States Genetic Information Nondiscrimination Act of 2008 (GINA) prohibits discrimination on the basis of genetic information in health insurance and employment, with exceptions; the Patient Protection and Affordable Care Act 2010 narrowed the gaps. The United Kingdom operates a moratorium on the use of predictive genetic test results by life and health insurers, agreed between the Association of British Insurers and the UK Government. Other jurisdictions (Canada, Australia, several European countries) have differing legal frameworks. The published literature notes that the protections vary by jurisdiction, by line of insurance, and over time.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">National-scale programmes</h2>
+
+            <p>Two large national programmes are well-documented in the published literature:</p>
+
+            <p>The <strong>100,000 Genomes Project</strong> (United Kingdom, 2013 to 2018), described in <a href="https://www.bmj.com/content/361/bmj.k1687" rel="noopener">Caulfield et al. 2017 (BMJ 361:k1687)</a> and successor papers, sequenced approximately 100,000 whole genomes from National Health Service patients with rare disease and cancer. The project established the infrastructure for the subsequent NHS Genomic Medicine Service, which integrated whole-genome sequencing into NHS clinical care for specified indications from 2018 onwards. The project's published outputs include diagnostic yields by disease category, infrastructure papers, and a substantial ELSI literature on consent, recontact, and findings.</p>
+
+            <p>The <strong>NHS Genomic Medicine Service</strong>, the operational successor, delivers genomic testing across England with a published National Genomic Test Directory listing approved indications and panel content. Comparable national-scale programmes exist in France (Plan France M&eacute;decine G&eacute;nomique 2025), Germany (genomDE), Australia (Australian Genomics), and other jurisdictions, with documented differences in scope, governance, and integration with healthcare systems.</p>
+
+            <p>The <a href="https://www.nature.com/articles/nature15393" rel="noopener">1000 Genomes Project (Auton et al. 2015, Nature 526:68)</a> sits alongside as a research-cohort reference rather than a screening programme. Its published variant catalogues underpin much of the technical infrastructure for both clinical variant interpretation and research-cohort analysis worldwide.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pedigree documentation in the population-screening context</h2>
+
+            <p>Family-history documentation pre-dates and exists alongside population genetic screening. A pedigree records biological relationships and observed disease occurrences in a family; it is the canonical artefact of family-history-based assessment regardless of whether population screening or targeted testing is also under consideration. Pedigree documentation is described on the <a href="pedigree-chart.html">pedigree chart</a>, <a href="clinical-pedigree-drawing.html">clinical pedigree drawing</a>, and <a href="pedigree-drawing-tool.html">pedigree drawing tool</a> pages.</p>
+
+            <p>Evagene is an academic, research, and educational pedigree-modelling platform. Its implementations of published risk-model algorithms (Claus 1994, Couch 1997, Frank 2002, Tyrer / Duffy / Cuzick 2004 in IBIS-style approximation, BayesMendel BRCAPRO / MMRpro / PancPRO, family-history scoring) consume the carrier-frequency, penetrance, and prior-probability inputs that the population-genetics literature has produced. Outputs are illustrative and for educational and research use; Evagene is not a screening tool, not a diagnostic tool, and not a medical device. Where a clinical computation exists off-platform &mdash; for example BOADICEA at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a>, hosted by the University of Cambridge and not bundled in Evagene &mdash; Evagene exports a CanRisk 2.0 pedigree file that the user can choose to upload there, an architectural separation that this page documents rather than minimises.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the difference between ancestry-based and pan-ethnic carrier screening?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Ancestry-based screening offers a panel calibrated to the population a person identifies with; pan-ethnic screening offers the same expanded panel to everyone. The published consensus, including ACOG Committee Opinion 691 (2017), has moved towards expanded panel models, motivated by the unreliability of self-reported ancestry in admixed populations and the falling marginal cost of additional conditions on sequencing-based panels.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What are the Wilson and Jungner criteria?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">A set of ten criteria published in 1968 by the World Health Organization for evaluating whether a population-screening programme should exist, covering the importance of the condition, availability of an accepted intervention, suitability and acceptability of the test, understood natural history, agreed policy on who to treat, and continuing case-finding. The criteria have been updated for the genomic era but remain the starting point.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is GINA and what does it cover?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">The Genetic Information Nondiscrimination Act of 2008 is United States federal legislation prohibiting discrimination on the basis of genetic information in health insurance and employment, with specific exceptions. It does not cover life, disability, or long-term-care insurance. Other jurisdictions have differing frameworks; the United Kingdom operates a separate moratorium between the Association of British Insurers and the UK Government.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Does Evagene perform carrier screening?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. Evagene is an academic, research, and educational pedigree-modelling platform. It is not a screening tool, not a diagnostic tool, and not a medical device. The educational pages on this site describe the population-genetics literature behind screening-programme design as a topic of professional and student interest, not as a service offered through the platform.</p>
+                </div>
+                <div class="pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Where can a reader interested in screening go?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Decisions about whether or when to seek genetic testing belong to the reader and their healthcare provider, in their jurisdiction. National references include the NHS Genomic Medicine Service (United Kingdom), the National Society of Genetic Counselors (United States), and equivalent national bodies. International references include the European Society of Human Genetics, the American College of Medical Genetics and Genomics, and the World Health Organization.</p>
+                </div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="population-and-evolutionary-genetics.html">Population and evolutionary genetics (pillar)</a></li>
+                <li><a href="allele-frequency-dynamics.html">Allele frequency dynamics</a></li>
+                <li><a href="demography-and-population-structure.html">Demography and population structure</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="autosomal-recessive-calculator.html">Autosomal recessive calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="population-and-evolutionary-genetics.html" class="hover:text-white transition-colors">Population &amp; evolutionary genetics</a></li><li><a href="allele-frequency-dynamics.html" class="hover:text-white transition-colors">Allele frequency dynamics</a></li><li><a href="demography-and-population-structure.html" class="hover:text-white transition-colors">Demography &amp; population structure</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

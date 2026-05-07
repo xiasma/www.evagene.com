@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C"></script>
-    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');</script>
-    <!-- Microsoft Clarity -->
-    <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","wc26ock5ta");</script>
+    <!-- Analytics are loaded ONLY after cookie consent — see loadAnalytics() in the consent banner script at the bottom of the page -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinical Genetics Pedigree Tool — Software for Genetic Counsellors | Evagene</title>
-    <meta name="description" content="Discover what clinical geneticists and genetic counsellors need from pedigree software: standard ISCN notation, integrated risk models (BRCAPRO, MMRpro, PancPRO), AI interpretation, and clinical reporting. Compare leading clinical genetics tools.">
-    <meta name="keywords" content="clinical genetics software, genetic counseling software, clinical pedigree tool, genetics software for hospitals, pedigree software for genetic counselors, clinical genetics pedigree, genetic counselling tool, pedigree drawing clinical, ISCN pedigree notation, genetic risk assessment software">
+    <title>Clinical Pedigree Drawing — Pedigree Tool for Genetic Counsellors and Clinical Geneticists | Evagene</title>
+    <meta name="description" content="Clinical pedigree drawing for genetic counsellors and clinical geneticists: NSGC 2022 notation, three-generation family-history capture, BayesMendel risk-model implementations (BRCAPRO, MMRpro, PancPRO), and a CanRisk export bridge. For research, education, and family-history documentation — not a medical device.">
+    <meta name="keywords" content="clinical pedigree drawing, clinical pedigree tool, pedigree tool for genetic counsellors, pedigree drawing for clinical genetics, NSGC pedigree notation, ISCN pedigree symbols, three-generation family history, consanguinity loops, BayesMendel pedigree, BRCAPRO MMRpro PancPRO, CanRisk export, GEDCOM pedigree, family-history documentation">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Clinical Genetics Pedigree Tool — Software for Genetic Counsellors | Evagene">
-    <meta property="og:description" content="What clinical geneticists and genetic counsellors need from pedigree software: standard notation, integrated risk models, AI interpretation, and clinical reporting.">
+    <meta property="og:title" content="Clinical Pedigree Drawing — Pedigree Tool for Genetic Counsellors and Clinical Geneticists | Evagene">
+    <meta property="og:description" content="Clinical pedigree drawing with NSGC 2022 notation, three-generation family history, BayesMendel risk-model implementations, and a CanRisk export bridge. For research, education, and family-history documentation; not a medical device.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://evagene.com/clinical-genetics-pedigree-tool">
     <meta property="og:image" content="https://evagene.com/og-image.png">
@@ -23,8 +19,8 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Clinical Genetics Pedigree Tool — Software for Genetic Counsellors">
-    <meta name="twitter:description" content="What clinical geneticists and genetic counsellors need from pedigree software: standard notation, integrated risk models, AI interpretation, and clinical reporting.">
+    <meta name="twitter:title" content="Clinical Pedigree Drawing — Pedigree Tool for Genetic Counsellors and Clinical Geneticists">
+    <meta name="twitter:description" content="NSGC 2022 notation, three-generation family history, BayesMendel risk-model implementations, CanRisk export bridge. For research, education, and family-history documentation.">
     <meta name="twitter:image" content="https://evagene.com/og-image.png">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -38,44 +34,16 @@
             theme: {
                 extend: {
                     colors: {
-                        brand: {
-                            50: '#eef3fb',
-                            100: '#d9e4f5',
-                            200: '#b3c9eb',
-                            300: '#8aaddf',
-                            400: '#5e8fd2',
-                            500: '#3b6fb5',
-                            600: '#2f5a94',
-                            700: '#264a7a',
-                            800: '#1e3a5f',
-                            900: '#152a45',
-                            950: '#0d1a2d',
-                        },
-                        accent: {
-                            400: '#e85d6f',
-                            500: '#c8102e',
-                            600: '#a60d25',
-                        },
-                        clinical: {
-                            50: '#f0fdf4',
-                            100: '#dcfce7',
-                            200: '#bbf7d0',
-                            400: '#4ade80',
-                            500: '#22c55e',
-                            600: '#16a34a',
-                        }
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
                     },
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-                        display: ['Inter', 'system-ui', 'sans-serif'],
-                        mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
-                    }
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
                 }
             }
         }
     </script>
 
-    <!-- Inter Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -85,28 +53,15 @@
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "Pedigree Tools for Clinical Genetics: What Genetic Counsellors Need",
-        "description": "A comprehensive guide to clinical genetics pedigree software: standard notation, integrated risk models, AI interpretation, clinical reporting, and data governance for genetic counsellors and clinical geneticists.",
-        "author": {
-            "@type": "Organization",
-            "name": "Evagene",
-            "url": "https://evagene.com"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Evagene",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://evagene.com/logo.png"
-            }
-        },
+        "headline": "Clinical Pedigree Drawing: A Pedigree Tool for Genetic Counsellors and Clinical Geneticists",
+        "description": "Clinical pedigree drawing for genetic counsellors and clinical geneticists: NSGC 2022 notation, three-generation family-history capture, BayesMendel risk-model implementations, and a CanRisk export bridge. For research, education, and family-history documentation; not a medical device.",
+        "author": { "@type": "Organization", "name": "Evagene", "url": "https://evagene.com" },
+        "publisher": { "@type": "Organization", "name": "Evagene", "url": "https://evagene.com", "logo": { "@type": "ImageObject", "url": "https://evagene.com/logo.png" } },
         "datePublished": "2026-04-15",
-        "dateModified": "2026-04-15",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://evagene.com/clinical-genetics-pedigree-tool"
-        },
-        "image": "https://evagene.com/og-image.png"
+        "dateModified": "2026-05-06",
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://evagene.com/clinical-genetics-pedigree-tool" },
+        "image": "https://evagene.com/og-image.png",
+        "keywords": ["clinical pedigree drawing", "pedigree tool for genetic counsellors", "NSGC pedigree notation", "BayesMendel pedigree", "CanRisk export"]
     }
     </script>
 
@@ -116,18 +71,9 @@
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://evagene.com"
-            },
-            {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "Clinical Genetics Pedigree Tool",
-                "item": "https://evagene.com/clinical-genetics-pedigree-tool"
-            }
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://evagene.com" },
+            { "@type": "ListItem", "position": 2, "name": "Pedigree Drawing", "item": "https://evagene.com/pedigree-drawing-software" },
+            { "@type": "ListItem", "position": 3, "name": "Clinical Pedigree Drawing", "item": "https://evagene.com/clinical-genetics-pedigree-tool" }
         ]
     }
     </script>
@@ -138,86 +84,15 @@
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is clinical genetics pedigree software?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Clinical genetics pedigree software is a specialised tool used by genetic counsellors and clinical geneticists to draw, annotate, and analyse family pedigree charts using standardised notation. Unlike general drawing tools, clinical pedigree software enforces ISCN-compliant symbols, supports disease annotation with ontology codes (ICD-10, OMIM), integrates risk assessment models, and generates clinical reports suitable for patient records."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What pedigree notation standard do clinical geneticists use?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Clinical geneticists use the standardised pedigree nomenclature defined by the National Society of Genetic Counselors (NSGC) and historically aligned with recommendations from the International System for Human Cytogenomic Nomenclature (ISCN). This includes specific symbols for sex, affected status, deceased individuals, pregnancies, miscarriages, consanguinity, and proband designation. Good clinical pedigree software enforces these symbols automatically."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can pedigree software calculate cancer risk?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Advanced clinical pedigree tools integrate statistical risk models such as BRCAPRO (breast and ovarian cancer), MMRpro (Lynch syndrome / colorectal cancer), and PancPRO (pancreatic cancer). These BayesMendel models use the family structure and disease annotations recorded in the pedigree to calculate carrier probabilities and future cancer risk without requiring data re-entry."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is the difference between clinical pedigree software and general genealogy software?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Clinical pedigree software is designed for healthcare settings and uses standardised genetic notation (ISCN symbols), supports disease annotation with clinical ontologies, integrates risk models, generates clinical reports, and addresses data governance requirements. Genealogy software focuses on historical family trees, date tracking, and ancestor discovery. While both record family relationships, clinical tools are purpose-built for genetic assessment and counselling."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does clinical pedigree software integrate with hospital systems?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Some clinical genetics tools offer integration with hospital electronic health records (EHRs) via standards such as HL7 FHIR. Integration capabilities vary by product: enterprise solutions like Progeny focus on deep EHR integration, while browser-based tools like Evagene prioritise data portability through GEDCOM export, PDF reporting, and interoperability standards that can be consumed by downstream systems."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What risk models should clinical genetics software support?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "At a minimum, clinical genetics software should support the BayesMendel suite: BRCAPRO for BRCA1/BRCA2 carrier probability and breast/ovarian cancer risk, MMRpro for mismatch repair gene mutations and Lynch syndrome risk, and PancPRO for pancreatic cancer. Some tools also support Mendelian inheritance models for monogenic conditions, autosomal dominant/recessive and X-linked trait analysis, and batch screening across multiple patients."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is cloud-based pedigree software secure enough for clinical use?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Cloud-based pedigree software can be appropriate for clinical use provided it implements adequate security measures including encryption at rest and in transit, role-based access controls, audit logging, and compliance with relevant data protection regulations. Some browser-based tools process data client-side, meaning patient data never leaves the clinician's device, which can simplify compliance considerations."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can genetic counsellors use pedigree software to generate patient reports?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Clinical pedigree software typically generates multiple report types including patient-friendly summaries, clinical reports for the referring physician, carrier probability reports, and risk assessment summaries. Advanced tools can also generate AI-assisted clinical interpretations that describe the pedigree structure and highlight relevant patterns in plain language."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is GEDCOM and why does it matter for clinical genetics?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "GEDCOM (Genealogical Data Communication) is a standard file format for exchanging family structure data between different software systems. In clinical genetics, GEDCOM support allows pedigrees to be transferred between institutions, imported from genealogy software that patients may have used, and archived in a vendor-neutral format. This interoperability is essential for multi-site collaborations and long-term data preservation."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does AI interpretation work in clinical pedigree tools?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "AI interpretation in clinical pedigree tools uses large language models to analyse the structure and disease annotations of a family pedigree and generate a narrative clinical description. This can include identifying inheritance patterns, flagging features suggestive of specific syndromes, summarising risk factors, and drafting preliminary clinical impressions. AI interpretation is intended to assist clinicians, not replace clinical judgement."
-                }
-            }
+            { "@type": "Question", "name": "What is clinical pedigree drawing?", "acceptedAnswer": { "@type": "Answer", "text": "Clinical pedigree drawing is the practice of recording a family's structure and disease history using the standardised symbols, conventions, and notation conventions adopted by the genetics community — most prominently the National Society of Genetic Counselors (NSGC) recommendations updated in 2022. A clinical pedigree is the dense, structured artefact that genetic counsellors and clinical geneticists rely on to teach, document, and exchange family-history information across institutions." } },
+            { "@type": "Question", "name": "Which notation standard should clinical pedigree drawing follow?", "acceptedAnswer": { "@type": "Answer", "text": "The current reference is the 2022 NSGC update to the Pedigree Standardization Work Group conventions originally published by Bennett and colleagues in 1995. The 2022 update clarifies the use of squares, circles, and diamonds in relation to sex assigned at birth versus gender identity, and adds explicit guidance for trans and non-binary individuals. ISCN remains the broader cytogenomic nomenclature; HGNC governs gene symbols." } },
+            { "@type": "Question", "name": "How many generations should a clinical pedigree include?", "acceptedAnswer": { "@type": "Answer", "text": "A clinically useful pedigree typically captures three generations from the proband: the proband's generation, their parents' generation, and their grandparents' generation, including aunts, uncles, and first cousins where information is available. Three generations is the minimum recommended for hereditary cancer family-history documentation; extending further improves the inputs available to family-history risk models." } },
+            { "@type": "Question", "name": "What is the difference between clinical pedigree drawing and genealogy software?", "acceptedAnswer": { "@type": "Answer", "text": "Clinical pedigree drawing uses NSGC notation to record sex, affected status, deceased status, consanguinity, pregnancy outcomes, and proband designation, in a layout that supports inheritance-pattern analysis. Genealogy software focuses on dates, lineage, and historical research without enforcing genetic notation. The two domains overlap at the data-structure level — GEDCOM is shared — but the conventions and use cases differ." } },
+            { "@type": "Question", "name": "Does clinical pedigree drawing software run risk models?", "acceptedAnswer": { "@type": "Answer", "text": "Some platforms include implementations of published risk-model algorithms. Evagene includes implementations of BayesMendel BRCAPRO, MMRpro, and PancPRO, plus Mendelian inheritance calculations and an IBIS-style approximation of the published Tyrer-Cuzick algorithm. Outputs are illustrative and intended for research, teaching, and family-history documentation. For clinical-grade computation of BOADICEA, Evagene exports a CanRisk-format pedigree file that the user uploads at canrisk.org; for the official Tyrer-Cuzick computation, the IBIS Breast Cancer Risk Evaluator binary is the authoritative source." } },
+            { "@type": "Question", "name": "How does Evagene approach the CanRisk and BOADICEA workflow?", "acceptedAnswer": { "@type": "Answer", "text": "Evagene exports a ##CanRisk 2.0 pedigree file containing the family structure, ages, cancer history, and any pathogenic-variant annotations. The file is a self-contained record that the user uploads to canrisk.org for the BOADICEA computation. BOADICEA itself is licensed by the University of Cambridge and is not bundled in Evagene; the export bridge is the canonical, off-platform integration pattern, and architectural separation is part of Evagene's research- and education-focused positioning." } },
+            { "@type": "Question", "name": "What file formats does a clinical pedigree tool need to support?", "acceptedAnswer": { "@type": "Answer", "text": "GEDCOM 5.5.1 is the de facto interchange format for family-structure data and is supported in both directions by Evagene. PED is supported for linkage and population-genetics workflows. Phenopackets v2 (GA4GH) is supported for phenotype-aware exchange. PDF, PNG, and SVG export are supported for printable artefacts. The CanRisk format is the off-platform bridge to BOADICEA. HL7 FHIR FamilyMemberHistory is supported for downstream consumption by systems that choose to receive structured family-history data." } },
+            { "@type": "Question", "name": "Is browser-based pedigree drawing appropriate for research and educational use?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Browser-based deployment removes installation friction for trainees, students, and visiting researchers, and pedigree data can be processed client-side so that family-history records do not leave the user's device. Evagene runs entirely in the browser, with no server-side patient-data storage during alpha; the CanRisk export bridge keeps risk computations that warrant clinical-grade tooling architecturally separate." } },
+            { "@type": "Question", "name": "Does Evagene generate clinician-direct outputs?", "acceptedAnswer": { "@type": "Answer", "text": "Evagene produces educational and research artefacts: a printable pedigree (PDF, PNG, SVG), a structured family-history record (GEDCOM, PED, Phenopackets, CanRisk), and AI-assisted draft summaries that the user reviews and uses for teaching, research notes, or personal documentation. Outputs are not intended to replace, augment, or support professional clinical judgement, and Evagene does not generate diagnostic, screening, or referral recommendations." } }
         ]
     }
     </script>
@@ -256,256 +131,164 @@
             <ol class="flex items-center gap-2">
                 <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300 transition-colors">Home</a></li>
                 <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
-                <li class="text-gray-700 dark:text-gray-300 font-medium">Clinical Genetics Pedigree Tool</li>
+                <li><a href="pedigree-drawing-software.html" class="hover:text-brand-600 dark:hover:text-brand-300 transition-colors">Pedigree Drawing</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Clinical Pedigree Drawing</li>
             </ol>
         </nav>
     </div>
 </div>
 
 <!-- Article -->
-<main class="pt-24 pb-16">
+<main class="pt-8 pb-16">
     <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <!-- Header -->
         <header class="mb-12">
-            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Pedigree Tools for Clinical Genetics: What Genetic Counsellors Need</h1>
-            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">
-                A comprehensive guide to clinical genetics pedigree software — from standard notation and risk modelling to AI-assisted interpretation and data governance.
-            </p>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Clinical pedigree drawing: a pedigree tool for genetic counsellors and clinical geneticists</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Clinical pedigree drawing is the structured documentation of a family's history using the conventions adopted by the genetics community &mdash; primarily the NSGC 2022 update to the Pedigree Standardization Work Group recommendations. This page explains what clinical pedigree drawing demands of a tool, how Evagene addresses those demands as a research- and education-focused platform, and where Evagene routes to canonical clinical computation off-platform.</p>
+            <p class="mt-4 text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Written for genetic counsellors, clinical geneticists, and trainees evaluating pedigree-drawing tools for teaching, research, and family-history documentation. Evagene is an academic, research, and educational pedigree modelling platform; it is not a medical device, not clinical decision support, and not a diagnostic or screening tool.</p>
             <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
-                <time datetime="2026-04-15">15 April 2026</time>
+                <time datetime="2026-05-06">6 May 2026</time>
                 <span class="text-gray-300 dark:text-gray-600">|</span>
-                <span>12 min read</span>
+                <span>13 min read</span>
             </div>
         </header>
 
-        <!-- Article body -->
-        <div class="prose prose-lg dark:prose-invert max-w-none
-                    prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold
-                    prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed
-                    prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500
-                    prose-strong:text-gray-900 dark:prose-strong:text-white
-                    prose-li:text-gray-700 dark:prose-li:text-gray-300">
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
 
-            <p>The family pedigree is the cornerstone of clinical genetics. Long before genome sequencing became routine, geneticists relied on carefully drawn pedigree charts to trace inheritance patterns, identify at-risk relatives, and guide testing decisions. Today, even as molecular diagnostics advance at pace, the pedigree remains the single most efficient way to capture a family's genetic architecture in a format that is both clinically actionable and immediately interpretable by any trained professional.</p>
+            <p><strong>Short version.</strong> Clinical pedigree drawing demands a tool that enforces NSGC 2022 notation, captures three generations efficiently, supports consanguinity loops and pregnancy outcomes, exports in standards-grade formats (GEDCOM, PED, Phenopackets v2, CanRisk), and keeps the boundary between drawing/documentation and clinical-grade risk computation explicit. Evagene addresses this brief from the research-and-education side of that boundary, and routes to canrisk.org for clinical-grade BOADICEA and to the IBIS binary for the official Tyrer-Cuzick.</p>
 
-            <p>Yet the tools available to draw and analyse pedigrees have not always kept pace with clinical expectations. Many genetics services still rely on hand-drawn charts, generic diagramming software, or legacy desktop applications that were never designed for the demands of modern precision medicine. The result is a gap between what clinical geneticists need and what their software delivers — a gap that affects accuracy, efficiency, and ultimately patient care.</p>
+            <h2 class="text-3xl mt-16 mb-6">What clinical pedigree drawing demands of a tool</h2>
 
-            <p>This guide examines what clinical genetics professionals should expect from pedigree software, how the clinical workflow shapes software requirements, and how the current generation of tools addresses (or fails to address) these needs. Whether you are a genetic counsellor evaluating new software, a clinical genetics service manager planning a procurement, or a trainee trying to understand the landscape, this article aims to provide a thorough, practical overview.</p>
+            <p>The clinical pedigree is denser than a genealogy tree. Each individual carries sex assigned at birth, gender identity (where relevant), affected status for each catalogued condition, age at diagnosis, deceased status with cause and age, carrier status, consanguinity links, pregnancy outcomes (live birth, miscarriage, termination, stillbirth) with gestational age, adoption status, and the proband marker. The structural relationships have to encode partner connections, sibship birth order, monozygotic and dizygotic twins, and consanguineous unions drawn as double horizontal lines. Drawing all of this by hand is slow and inconsistent; drawing it in generic diagram software is worse. The tool category emerged because the cognitive load of correct notation outstrips what an unstructured canvas can support.</p>
 
-            <!-- The Clinical Genetics Workflow -->
-            <h2 class="text-3xl mt-16 mb-6">The Clinical Genetics Workflow</h2>
-
-            <p>To understand what pedigree software must do, it helps to trace the journey of a typical clinical genetics case. The workflow varies between services, but the broad shape is remarkably consistent across healthcare systems worldwide.</p>
-
-            <p><strong>Referral and triage.</strong> A patient is referred to clinical genetics — typically by a GP, oncologist, cardiologist, or obstetrician — because of a personal or family history suggestive of a hereditary condition. The referral letter may contain limited family history information. The genetics service triages the referral based on urgency and clinical indication.</p>
-
-            <p><strong>Pre-consultation data gathering.</strong> Before the consultation, the genetic counsellor or genetics registrar may contact the patient to gather preliminary family history. This is often done by telephone or through a patient-facing questionnaire. The information is used to construct an initial pedigree, which will be refined during the face-to-face (or video) consultation.</p>
-
-            <p><strong>The clinical consultation.</strong> During the consultation, the clinician interviews the patient in detail about their family history: who has been affected by which conditions, at what ages, which relatives are deceased, and of what causes. The pedigree is drawn or updated in real time. This is where software usability matters most — the tool must allow rapid, fluid entry of family members and conditions without breaking the flow of the clinical conversation.</p>
-
-            <p><strong>Risk assessment.</strong> Based on the pedigree, the clinician assesses the patient's risk of carrying a pathogenic variant or developing a condition. For hereditary cancer syndromes, this frequently involves running formal risk models such as BRCAPRO or MMRpro. The pedigree is the primary input to these models. If the software requires the clinician to re-enter family data into a separate risk calculator, this creates friction, introduces transcription errors, and wastes clinical time.</p>
-
-            <p><strong>Genetic testing and results.</strong> If testing is indicated, samples are collected and sent to a molecular genetics laboratory. Results are returned to the clinical team, who update the pedigree with genotype information and communicate findings to the patient. The pedigree becomes a living document that is amended as new information becomes available.</p>
-
-            <p><strong>Reporting and communication.</strong> The clinical team generates reports for the referring clinician, the patient's medical record, and often for the patient themselves. A well-constructed pedigree diagram is typically included in these reports. The software must be capable of producing publication-quality pedigree images and structured clinical summaries.</p>
-
-            <p><strong>Cascade testing and follow-up.</strong> When a pathogenic variant is identified, at-risk relatives are offered predictive testing. The pedigree guides the identification of these relatives and tracks their testing status over time. The software must support updating the pedigree as new family members come to attention and as test results are returned.</p>
-
-            <p>At every stage of this workflow, the pedigree is central. It is simultaneously a data collection instrument, a clinical reasoning tool, a risk model input, a communication aid, and a medical record. Software that treats pedigree drawing as a simple diagramming task fundamentally misunderstands the clinical context.</p>
-
-            <!-- What Clinical Geneticists Need from Pedigree Software -->
-            <h2 class="text-3xl mt-16 mb-6">What Clinical Geneticists Need from Pedigree Software</h2>
-
-            <p>Based on the workflow above, the requirements for clinical pedigree software become clear. They extend well beyond the ability to draw circles and squares on a screen.</p>
-
-            <p><strong>Standard notation.</strong> Clinical pedigrees must use standardised symbols as defined by the National Society of Genetic Counselors (NSGC) and aligned with the broader conventions used in genetic literature. This includes specific shapes for sex (squares for male, circles for female, diamonds for unknown or other), shading for affected status, diagonal lines for deceased individuals, arrow designation for the proband, and specialised symbols for pregnancies, miscarriages, stillbirths, adoption, consanguinity, and twins. Software must enforce these conventions — not merely offer them as options — so that every pedigree produced is immediately interpretable by any genetics professional.</p>
-
-            <p><strong>Disease annotation with clinical ontologies.</strong> Each affected individual in the pedigree needs to be annotated with their condition(s). In a clinical setting, these annotations should map to recognised ontology codes: ICD-10 for general diagnoses, OMIM for Mendelian conditions, and ideally HPO (Human Phenotype Ontology) for phenotypic features. Free-text annotations are insufficient because they cannot be reliably used for computational risk analysis or cross-institutional data exchange.</p>
-
-            <p><strong>Integrated risk modelling.</strong> The most significant advantage of digital pedigree tools over paper is the ability to compute genetic risk directly from the recorded family structure. The BayesMendel suite — BRCAPRO for BRCA1/BRCA2-associated breast and ovarian cancer, MMRpro for mismatch repair gene mutations and Lynch syndrome, and PancPRO for pancreatic cancer — represents the gold standard for pedigree-based risk assessment in hereditary cancer genetics. Software that integrates these models eliminates the need for manual data re-entry into separate calculators, reducing errors and saving time.</p>
-
-            <p><strong>Report generation.</strong> Clinicians need to produce multiple types of output: a clean pedigree diagram for inclusion in medical records, a clinical summary for the referring physician, a risk assessment report, and often a patient-friendly letter. The software should support these outputs natively, with appropriate formatting and the ability to customise content for different audiences.</p>
-
-            <p><strong>Data governance and consent management.</strong> Family history data is inherently multi-person: a single pedigree contains health information about many individuals, most of whom have not consented to its recording. Clinical genetics services must navigate complex consent requirements, and software should support consent-to-share flags, access controls, and audit trails. Compliance with data protection regulations — GDPR in Europe, HIPAA in the United States, the Privacy Act in Australia — is a baseline expectation.</p>
-
-            <p><strong>Interoperability.</strong> Pedigrees must be shareable between software systems, institutions, and over time. The GEDCOM format, originally developed for genealogy, has become the de facto standard for pedigree data exchange in clinical genetics. HL7 FHIR (Fast Healthcare Interoperability Resources) is an emerging standard for broader healthcare data exchange. Clinical software should support at least GEDCOM import and export, with FHIR capabilities becoming increasingly important.</p>
-
-            <!-- Standard Pedigree Notation in Clinical Practice -->
-            <h2 class="text-3xl mt-16 mb-6">Standard Pedigree Notation in Clinical Practice</h2>
-
-            <p>Standardised pedigree notation is not merely an aesthetic preference — it is a patient safety issue. When a pedigree is drawn using non-standard symbols, there is a genuine risk of misinterpretation. A clinician at a receiving institution may misread the inheritance pattern, overlook an affected individual, or fail to recognise a consanguineous union. Standards eliminate this ambiguity.</p>
-
-            <p>The core conventions, as codified by the NSGC and widely adopted in clinical practice, include the following elements:</p>
+            <p>Specialists evaluating a pedigree-drawing tool typically check the following:</p>
 
             <ul>
-                <li><strong>Squares</strong> represent male individuals; <strong>circles</strong> represent female individuals; <strong>diamonds</strong> represent individuals of unknown, unspecified, or other sex.</li>
-                <li><strong>Filled (shaded) symbols</strong> denote affected individuals. When multiple conditions are present in a family, different shading patterns or quadrant fills distinguish between conditions.</li>
-                <li>A <strong>diagonal line</strong> through a symbol indicates that the individual is deceased.</li>
-                <li>The <strong>proband</strong> (the individual through whom the family came to clinical attention) is indicated by an arrow.</li>
-                <li><strong>Horizontal lines</strong> connect partners; <strong>vertical lines</strong> descend to offspring. <strong>Double horizontal lines</strong> indicate a consanguineous relationship.</li>
-                <li><strong>Pregnancy symbols</strong> (small circles or diamonds) represent ongoing pregnancies. Triangles indicate miscarriages or terminations, with gestational age annotated where known.</li>
-                <li><strong>Carrier status</strong> is indicated by a central dot within the symbol for autosomal recessive conditions, or by a half-filled symbol depending on the convention in use.</li>
-                <li><strong>Adoption</strong> is shown by brackets around the individual symbol, with dashed lines indicating the adoptive relationship and solid lines for biological relationships where known.</li>
+                <li><strong>Notation enforcement.</strong> The tool produces NSGC-compliant symbols by default, not as an option, so that the artefact is immediately interpretable by any clinician trained on the standard.</li>
+                <li><strong>Three-generation capture.</strong> Adding the proband's generation, parents, and grandparents (with sibships, partners, and offspring) is fast and stays visually clean as the family grows.</li>
+                <li><strong>Consanguinity, twins, pregnancy outcomes.</strong> The tool draws double horizontal lines for consanguinity, distinguishes monozygotic from dizygotic twins, and represents miscarriage / termination / stillbirth with gestational-age annotation.</li>
+                <li><strong>Disease annotation against a structured catalogue.</strong> Affected-status annotations should resolve against ICD-10, OMIM, HPO, and gene symbols (HGNC), not free text. Free-text disease names break downstream analysis.</li>
+                <li><strong>Risk-model implementations.</strong> The tool runs published family-history risk-model algorithms directly on the pedigree without re-entry, while being explicit about which computations are illustrative and which are routed off-platform to canonical sources.</li>
+                <li><strong>Standards-grade export.</strong> GEDCOM 5.5.1, PED, Phenopackets v2, CanRisk, and PDF/PNG/SVG, so that the pedigree leaves the tool in a vendor-neutral form.</li>
+                <li><strong>Sensible defaults around data residency.</strong> Family-history information involves multiple individuals; a tool that processes pedigrees client-side avoids the question of whether third-party storage is appropriate for teaching, research, or family-documentation use.</li>
             </ul>
 
-            <p>Good clinical pedigree software enforces these conventions by default. When a clinician adds a new individual, the correct symbol is automatically applied based on the recorded sex. When a condition is annotated, the shading is applied consistently. When a death is recorded, the diagonal line appears without additional effort. This is fundamentally different from general-purpose drawing tools, which require the clinician to manually select and position every symbol — a process that is slow, error-prone, and produces inconsistent results.</p>
+            <h2 class="text-3xl mt-16 mb-6">NSGC 2022 notation, in practice</h2>
 
-            <p>Beyond individual symbols, the <strong>layout</strong> of the pedigree matters. Generations should be aligned horizontally, with consistent spacing. Sibships should be ordered logically (typically by birth order). Mating lines should be clear and unambiguous. Automated layout algorithms in clinical software handle these requirements, producing pedigrees that are both clinically correct and visually clean. For more on pedigree drawing approaches, see our guide to <a href="pedigree-drawing-software.html">pedigree drawing software</a>.</p>
+            <p>The NSGC update published in 2022 is the current reference. It builds on Bennett and colleagues (1995, with subsequent updates) and addresses a long-standing tension in pedigree drawing: the square / circle / diamond convention maps to sex assigned at birth and tracks inheritance through the X and Y chromosomes, but it had sometimes been applied as a statement about gender identity. The 2022 update keeps the structural meaning of the symbols, adds explicit notation for trans and non-binary individuals, and clarifies when separate annotation for sex assigned at birth and gender identity is appropriate. The detail is covered in our <a href="nsgc-pedigree-notation.html">NSGC pedigree notation</a> guide and in the broader <a href="standard-pedigree-nomenclature.html">standard pedigree nomenclature</a> reference.</p>
 
-            <!-- Integrated Risk Analysis -->
-            <h2 class="text-3xl mt-16 mb-6">Integrated Risk Analysis</h2>
+            <p>The core conventions remain stable across the 1995, 2008, and 2022 updates: squares for males, circles for females, diamonds for unknown or unspecified sex; filled (shaded) symbols for affected individuals; a diagonal line for the deceased; an arrow for the proband; horizontal lines for partner connections; double horizontal lines for consanguineous unions; vertical descent lines from the partner line to the sibship; small triangles for miscarriage and termination, with gestational-age annotation; brackets for adoption; central dot or half-fill for carrier status, depending on the carrier convention in use. A clinical pedigree tool encodes all of these as first-class structural elements, not as decorative annotations.</p>
 
-            <p>One of the most compelling reasons to use dedicated clinical genetics software rather than a generic drawing tool is the ability to run risk models directly from the pedigree data. The family structure, disease annotations, and ages at diagnosis that are recorded during pedigree construction are precisely the inputs required by genetic risk models. When these models are integrated into the software, risk assessment becomes a natural extension of pedigree drawing rather than a separate, manual process.</p>
+            <h2 class="text-3xl mt-16 mb-6">Risk-model implementations: where the boundary sits</h2>
 
-            <p>The <strong>BayesMendel</strong> suite of risk models is the most widely used in hereditary cancer genetics. Developed at Johns Hopkins University and maintained by the BayesMendel Lab, these models use Bayesian statistical methods to calculate the probability that an individual carries a pathogenic variant in a specific gene, and to estimate their future risk of developing cancer.</p>
+            <p>Pedigree-based risk-model algorithms originated as research code; some have been wrapped into clinical-grade web applications that the genetics community uses directly. The boundary between an in-tool implementation (suitable for research, teaching, and exploration of published methods) and the canonical clinical-grade computation matters, and Evagene draws that boundary explicitly.</p>
 
-            <p><strong>BRCAPRO</strong> calculates the probability of carrying a pathogenic BRCA1 or BRCA2 variant based on family history of breast and ovarian cancer. It considers the number of affected and unaffected relatives, ages at diagnosis, and whether genetic testing has been performed on any family member. BRCAPRO is one of the most extensively validated risk models in clinical genetics and is recommended by multiple clinical guidelines for use in assessing eligibility for genetic testing.</p>
+            <p><strong>BayesMendel BRCAPRO, MMRpro, PancPRO.</strong> Evagene includes implementations of these BayesMendel algorithms running directly on the pedigree. BRCAPRO estimates the probability of carrying a pathogenic BRCA1 or BRCA2 variant from the family-history pattern of breast and ovarian cancer; MMRpro does the analogous calculation for MLH1 / MSH2 / MSH6 / PMS2 in Lynch syndrome; PancPRO addresses familial pancreatic cancer. Outputs are illustrative and intended for research and teaching. The original BayesMendel R packages remain the authoritative source.</p>
 
-            <p><strong>MMRpro</strong> performs a similar calculation for the mismatch repair genes (MLH1, MSH2, MSH6, PMS2) associated with Lynch syndrome. It uses family history of colorectal, endometrial, and other Lynch-associated cancers to estimate carrier probability. Given the high lifetime risk of cancer in Lynch syndrome carriers and the availability of effective surveillance, accurate risk assessment is clinically critical.</p>
+            <p><strong>Tyrer-Cuzick approximation.</strong> Evagene's Tyrer-Cuzick implementation is an IBIS-style approximation of the published Tyrer / Duffy / Cuzick 2004 algorithm. The official IBIS Breast Cancer Risk Evaluator binary &mdash; whose full coefficients are not public &mdash; is the authoritative implementation, and it is the appropriate tool when a Tyrer-Cuzick computation is needed for clinical purposes. We label this on every page that mentions the model.</p>
 
-            <p><strong>PancPRO</strong> addresses familial pancreatic cancer, calculating the probability that a family harbours a susceptibility gene based on the number and distribution of pancreatic cancer cases in the pedigree.</p>
+            <p><strong>BOADICEA via CanRisk export.</strong> BOADICEA is licensed by the University of Cambridge and is not bundled in Evagene. Evagene exports a <code>##CanRisk 2.0</code> pedigree file that the user uploads at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a> for the canonical computation. The off-platform pattern is positive evidence of architectural separation between pedigree drawing / documentation and clinical-grade computation, and it is the canonical workflow when BOADICEA output is needed.</p>
 
-            <p>Beyond the BayesMendel models, clinical genetics software may also support <strong>Mendelian inheritance analysis</strong>. For monogenic conditions with known inheritance patterns — autosomal dominant, autosomal recessive, X-linked dominant, X-linked recessive, Y-linked, and mitochondrial — the software can calculate carrier probabilities and expected phenotype ratios for offspring. This is particularly useful in reproductive genetics counselling, where couples need to understand the probability that a future pregnancy will be affected. A deeper discussion of these calculations is available in our article on the <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a>.</p>
+            <p><strong>Mendelian inheritance and family-history scoring.</strong> Evagene includes Mendelian inheritance calculators (autosomal dominant, autosomal recessive, X-linked dominant, X-linked recessive, Y-linked, mitochondrial) and a set of family-history scoring tools described in published literature (Manchester scoring, Amsterdam II, revised Bethesda, NICE CG164 / NG101 referral criteria as illustrative thresholds). All outputs are framed as illustrative descriptions of what the published algorithm produces from the family-history pattern; they are not platform recommendations.</p>
 
-            <p>The key advantage of integrated risk analysis is the elimination of <strong>data re-entry</strong>. When a clinician must manually extract family history data from a pedigree and re-enter it into a separate risk calculator, there is an opportunity for transcription error at every step. Ages may be misrecorded. Relatives may be omitted. The relationship structure may be simplified in ways that affect the calculation. Integrated software eliminates these risks by using the pedigree data directly — the same data that was collected during the clinical consultation. For more on hereditary cancer risk workflows, see our guide to <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk assessment</a>.</p>
+            <p>Detailed worked examples for each model are available in <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk assessment</a> and the <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a> page; for the BOADICEA bridge specifically, see <a href="canrisk-vs-evagene.html">CanRisk vs Evagene</a>.</p>
 
-            <!-- Clinical Reporting and AI Interpretation -->
-            <h2 class="text-3xl mt-16 mb-6">Clinical Reporting and AI Interpretation</h2>
+            <h2 class="text-3xl mt-16 mb-6">Three-generation capture and consanguinity</h2>
 
-            <p>The output of a clinical genetics consultation is not merely a pedigree diagram — it is a suite of reports that serve different audiences and purposes. Effective clinical genetics software must support this diversity of output.</p>
+            <p>The minimum effective family-history record is a three-generation pedigree from the proband. Evagene's gesture-based drawing mode is designed to make three-generation capture fast in real time during a teaching session, a research-data review, or an alpha-tester walkthrough; partners, parents, siblings, aunts, uncles, and first cousins can be added with a small number of consistent gestures, and the tool maintains a clean layout as the family grows.</p>
 
-            <p><strong>Clinical reports</strong> are directed to the referring physician and the patient's medical record. They typically include the pedigree diagram, a narrative description of the family history, the risk assessment results, and the clinical team's recommendations regarding genetic testing, surveillance, or referral. These reports must be professionally formatted, factually accurate, and suitable for inclusion in formal medical correspondence.</p>
+            <p>Consanguinity loops are a notable test case for any pedigree tool. A double-horizontal-line union between cousins, plus the resulting offspring with their carrier-state implications, has to render correctly without manual intervention; Wright's coefficient of inbreeding is then computable directly from the structure. Evagene includes consanguinity detection with Wright's coefficient as part of its standard family-structure analysis. Where a closed loop produces ambiguous descent, the tool flags it for the user to resolve rather than rendering an incorrect structure silently.</p>
 
-            <p><strong>Patient-friendly summaries</strong> are written in accessible language and explain the family history findings, the implications for the patient's health, and the recommended next steps. Patients increasingly expect to receive written information after their consultation, and generating these summaries efficiently is important for service capacity.</p>
+            <h2 class="text-3xl mt-16 mb-6">Disease annotation against the catalogue</h2>
 
-            <p><strong>Carrier probability reports</strong> present the numerical outputs of risk models in a format that is useful for clinical decision-making. These may include carrier probabilities for specific genes, lifetime risk estimates for specific cancers, and comparisons to population risk. Tabular and graphical presentations are both valuable.</p>
+            <p>Affected status by itself is not enough; specialists need to know <em>which</em> condition. Evagene annotates affected individuals against a curated catalogue of more than 200 monogenic, complex, and polygenic conditions, mapped to ICD-10, OMIM, and HPO codes; the broader help-catalogue extends to over 1,900 entries across diseases, traits, allergies, clinical tests, markers / genes, and treatments, with cross-references to LOINC, NCBI Gene, ClinVar, RxNorm, BNF, and DrugBank. Annotation against a structured catalogue is what enables downstream analysis; free-text disease labels break batch family-history risk screening, inheritance-pattern identification, and any computation that depends on knowing the condition's expected inheritance.</p>
 
-            <p><strong>AI-assisted clinical interpretation</strong> is an emerging capability that uses large language models to generate narrative descriptions of a pedigree's clinical significance. Given the family structure and disease annotations, an AI interpretation engine can identify apparent inheritance patterns, flag features suggestive of specific syndromes, summarise the key risk factors, and draft a preliminary clinical impression. This is not intended to replace clinical judgement — it is a drafting aid that saves the clinician time and helps ensure that no significant feature is overlooked. The AI-generated text serves as a starting point that the clinician reviews, edits, and approves before it enters the clinical record.</p>
+            <p>The catalogue is browseable at <a href="https://evagene.net/help/#browse" rel="noopener">evagene.net/help</a>. For a research view of how it covers complex/polygenic conditions, see <a href="complex-disease-pedigree-software.html">complex-disease pedigree software</a>.</p>
 
-            <p>A related capability is the <strong>pedigree description engine</strong>: software that can generate a structured natural-language description of the pedigree itself. For example: "The proband is a 42-year-old female with a maternal family history of breast cancer affecting two first-degree relatives (mother, diagnosed at age 48; maternal aunt, diagnosed at age 52). The maternal grandmother died of ovarian cancer at age 61." This type of structured description is useful for clinical letters, for communicating with colleagues who may not have access to the pedigree diagram, and for accessibility purposes.</p>
+            <h2 class="text-3xl mt-16 mb-6">Standards-grade interoperability</h2>
 
-            <!-- Data Governance and Consent -->
-            <h2 class="text-3xl mt-16 mb-6">Data Governance and Consent</h2>
-
-            <p>Family pedigree data presents unique data governance challenges. A single pedigree contains health information about multiple individuals — typically spanning three or more generations — most of whom have not been seen by the clinical genetics service and have not provided consent for their information to be recorded.</p>
-
-            <p>In most jurisdictions, the recording of family history information by a healthcare professional during a clinical consultation is permitted as part of legitimate clinical care. However, the sharing of that information — between institutions, with researchers, or even with other family members — requires careful consideration of consent and legal requirements.</p>
-
-            <p>Clinical pedigree software should support <strong>consent-to-share flags</strong> at the individual level, allowing clinicians to record which family members have consented to their information being shared and for what purposes. When a pedigree is exported or included in a report, the software should respect these flags and, where appropriate, redact or anonymise information about individuals who have not consented.</p>
-
-            <p><strong>Access controls</strong> are essential in multi-user environments. Different members of the clinical team may need different levels of access to pedigree data. Clinicians may need full read-write access; administrative staff may need read-only access for scheduling purposes; researchers may need access to de-identified data only. Role-based access control (RBAC) is the standard approach to managing these requirements.</p>
-
-            <p><strong>Audit trails</strong> record who accessed or modified a pedigree and when. This is a regulatory requirement in many healthcare settings and is essential for maintaining the integrity of the clinical record. Every addition, modification, or deletion of data should be logged with a timestamp and user identifier.</p>
-
-            <p>The regulatory landscape for genetic data is evolving rapidly. The European Union's GDPR classifies genetic data as a "special category" requiring additional protections. The United States' GINA (Genetic Information Nondiscrimination Act) addresses discrimination based on genetic information. Australia's Privacy Act includes specific provisions for health information. Clinical genetics software must be designed with regulatory compliance in mind, even if full compliance with every jurisdiction's requirements is an ongoing process rather than a fixed state.</p>
-
-            <!-- How Evagene Serves Clinical Genetics -->
-            <h2 class="text-3xl mt-16 mb-6">How Evagene Serves Clinical Genetics</h2>
-
-            <p><a href="https://evagene.com">Evagene</a> is a web-based pedigree management system for clinicians, researchers, counsellors, educators, and families. It addresses the clinical genetics requirements outlined above through a set of integrated features that run entirely in the browser, with no software installation required.</p>
-
-            <p><strong>Gesture-based pedigree drawing.</strong> Evagene uses a natural gesture drawing interface that allows clinicians to construct pedigrees rapidly during consultations. Rather than dragging and dropping symbols from a palette, clinicians draw the family structure using intuitive gestures that the software recognises and converts into standard notation. This approach preserves the fluid, conversational quality of pedigree construction that clinicians value, while ensuring that the output is always standards-compliant.</p>
-
-            <p><strong>Standard notation enforcement.</strong> Every pedigree drawn in Evagene uses ISCN-compliant symbols automatically. There is no option to use non-standard symbols — the software enforces clinical standards by design, not by policy.</p>
-
-            <p><strong>Comprehensive disease catalogue.</strong> Evagene includes a curated catalogue of over 200 genetic conditions, mapped to both ICD-10 and OMIM codes. Clinicians can search by condition name, code, or keyword, and the software handles the annotation and shading automatically. The catalogue covers the conditions most commonly encountered in clinical genetics practice, including hereditary cancer syndromes, cardiac genetic conditions, connective tissue disorders, and metabolic conditions.</p>
-
-            <p><strong>Integrated BayesMendel risk models.</strong> BRCAPRO, MMRpro, and PancPRO are built into Evagene and run directly on the pedigree data. Clinicians can calculate risk for the proband or for any individual in the pedigree without leaving the application or re-entering any data. Batch risk screening allows multiple individuals to be assessed simultaneously, which is particularly useful when evaluating large families.</p>
-
-            <p><strong>AI-powered clinical interpretation.</strong> Evagene includes an AI interpretation engine that generates narrative clinical descriptions of the pedigree, identifies apparent inheritance patterns, and drafts preliminary clinical impressions. This feature is designed as a clinician support tool — the AI output is always presented for review and approval before being included in any report.</p>
-
-            <p><strong>Karyogram viewer.</strong> For cases involving chromosomal abnormalities, Evagene includes a karyogram viewer that allows clinicians to visualise and annotate chromosome-level findings alongside the family pedigree.</p>
-
-            <p><strong>Differential diagnosis mode.</strong> When a family presents with an unclear phenotype, Evagene's differential diagnosis mode helps clinicians explore possible genetic explanations by matching the observed pattern of conditions and features against known syndromes.</p>
-
-            <p><strong>GEDCOM export.</strong> Evagene supports GEDCOM export for data portability, allowing pedigrees to be transferred to other software systems or archived in a vendor-neutral format. For more on GEDCOM interoperability, see our guide to <a href="gedcom-pedigree-software.html">GEDCOM pedigree software</a>.</p>
-
-            <p><strong>Clinical reporting.</strong> Evagene generates multiple report types including clinical summaries, patient-friendly letters, carrier probability reports, and AI-assisted interpretation reports. Reports can be exported as PDF for inclusion in medical records or clinical correspondence.</p>
-
-            <p>Full documentation for Evagene's clinical features is available at <a href="https://evagene.net/help">evagene.net/help</a>.</p>
-
-            <!-- Choosing the Right Clinical Genetics Software -->
-            <h2 class="text-3xl mt-16 mb-6">Choosing the Right Clinical Genetics Software</h2>
-
-            <p>The market for clinical genetics pedigree software includes several established products, each with different strengths and design philosophies. Understanding these differences is important when evaluating options for your clinical service.</p>
-
-            <p><strong>Progeny</strong> is an enterprise-grade genetics software platform with a strong focus on hospital EHR integration. It is well-suited to large clinical genetics services that need deep integration with existing hospital information systems, including two-way data exchange with electronic health records. Progeny's strength lies in its maturity as an enterprise product and its established presence in hospital procurement frameworks.</p>
-
-            <p><strong>PhenoTips</strong> takes a genomic health records approach, with particular strength in phenotype-driven analysis using the Human Phenotype Ontology (HPO). It is well-regarded for its ability to link phenotypic features to candidate genes and diagnoses, making it especially useful in diagnostic genetics and rare disease settings where deep phenotyping is central to the clinical workflow.</p>
-
-            <p><strong>TrakGene</strong> is a cloud-based genetic data management system with notable support for HL7 FHIR interoperability standards. It offers a comprehensive suite of features for managing genetic testing workflows, from referral through to results and reporting, with a focus on interoperability with modern healthcare data exchange standards.</p>
-
-            <p><strong>Evagene</strong> distinguishes itself through the integration of pedigree drawing, BayesMendel risk models, and AI-powered clinical interpretation in a single browser-based application. Its gesture drawing interface is designed for real-time use during clinical consultations, and its zero-install deployment model means it can be used on any device with a web browser. Evagene is particularly well-suited to clinical geneticists and genetic counsellors who want an all-in-one tool that combines pedigree construction, risk assessment, and clinical reporting without the overhead of enterprise EHR integration.</p>
-
-            <p>When evaluating clinical genetics software, the following considerations are relevant:</p>
+            <p>A clinical pedigree should never be locked into a single tool. Evagene supports interchange in both directions:</p>
 
             <ul>
-                <li><strong>Clinical workflow fit:</strong> Does the software support the way your team actually works? Can it be used during live consultations, or is it primarily a back-office documentation tool?</li>
-                <li><strong>Risk model integration:</strong> Does the software integrate the risk models your service uses, or will you need separate calculators?</li>
-                <li><strong>Standards compliance:</strong> Does the software enforce standard pedigree notation, or merely offer it as an option?</li>
-                <li><strong>Interoperability:</strong> Can you import and export data in standard formats? Does the software integrate with your existing systems?</li>
-                <li><strong>Deployment model:</strong> Is the software cloud-based, on-premise, or browser-based? What are the implications for data governance and IT support?</li>
-                <li><strong>Reporting capabilities:</strong> Can the software generate the types of reports your service needs, for the audiences you serve?</li>
-                <li><strong>Cost and licensing:</strong> Is the pricing model sustainable for your service? Are there per-user fees, per-patient fees, or enterprise licensing agreements?</li>
+                <li><strong>GEDCOM 5.5.1</strong> import and export &mdash; the <a href="gedcom-pedigree-software.html">de facto interchange format</a> for family-structure data.</li>
+                <li><strong>PED</strong> for linkage and population-genetics workflows.</li>
+                <li><strong>Phenopackets v2</strong> (GA4GH) for phenotype-aware exchange &mdash; see <a href="phenopackets-pedigree.html">phenopackets and pedigree data</a>.</li>
+                <li><strong>HL7 FHIR FamilyMemberHistory</strong> for downstream consumption by systems that choose to receive structured family-history data &mdash; see <a href="hl7-fhir-pedigree.html">HL7 FHIR and pedigree data</a>. This is a static export pattern; Evagene does not present itself as a clinical-workflow integration.</li>
+                <li><strong>CanRisk 2.0</strong> for the off-platform BOADICEA bridge.</li>
+                <li><strong>23andMe import</strong> as a structured starting point for trait and ancestry context &mdash; see <a href="23andme-pedigree-import.html">23andMe pedigree import</a>.</li>
+                <li><strong>Pedigree OCR</strong> for reconstructing structured pedigrees from a hand-drawn or scanned pedigree image &mdash; see <a href="pedigree-ocr.html">pedigree OCR</a>.</li>
+                <li><strong>PDF, PNG, SVG</strong> exports for printable artefacts and inclusion in slides, teaching materials, and research notes.</li>
             </ul>
 
-            <p>There is no single "best" clinical genetics software — the right choice depends on your service's specific requirements, existing infrastructure, and clinical priorities.</p>
+            <p>The <a href="pedigree-api.html">REST API</a> and the <a href="pedigree-mcp-server.html">Model Context Protocol server</a> provide programmatic access for research and tooling-integration use cases.</p>
 
-            <!-- Frequently Asked Questions -->
-            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently Asked Questions</h2>
+            <h2 class="text-3xl mt-16 mb-6">Outputs: what Evagene generates and what it does not</h2>
+
+            <p>Evagene produces educational and research artefacts:</p>
+
+            <ul>
+                <li>A printable pedigree (PDF, PNG, SVG) with full NSGC-compliant notation.</li>
+                <li>A structured family-history record (GEDCOM, PED, Phenopackets v2, CanRisk, HL7 FHIR FamilyMemberHistory).</li>
+                <li>Illustrative outputs of published family-history risk-model algorithms.</li>
+                <li>AI-assisted draft summaries that describe the pedigree structure and the inheritance patterns visible in the recorded family. Draft summaries are presented for the user to review and use for teaching, research notes, or family-history documentation; they are not intended to replace, augment, or support professional clinical judgement, and they do not generate diagnostic, screening, or referral recommendations.</li>
+            </ul>
+
+            <p>Evagene does not generate clinical decision support, prescriptive screening recommendations, prescriptive testing recommendations, or any output framed as a recommendation issued by the platform. Where published guidelines describe thresholds (for example, NICE CG164 / NG101 referral criteria), Evagene illustrates how the family-history pattern relates to those published thresholds; it does not issue referral instructions of its own.</p>
+
+            <p>For the canonical positioning statement, see the <a href="https://evagene.com/terms.html">terms of service</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">How Evagene compares with other clinical pedigree tools</h2>
+
+            <p>Evagene sits in a market with several established platforms. The <a href="compare.html">comparison index</a> covers the full set; a brief positioning summary follows.</p>
+
+            <ul>
+                <li><strong><a href="progeny-vs-evagene.html">Progeny</a></strong> &mdash; established enterprise pedigree platform, widely deployed in hospital genetics services. Strong on EHR-integrated workflows; markets itself as clinical software. Where Progeny ticks rows that depend on clinical-workflow integration, Evagene does not, by design.</li>
+                <li><strong><a href="phenotips-vs-evagene.html">PhenoTips</a></strong> &mdash; phenotyping-first platform anchored on the Human Phenotype Ontology. Strong fit for diagnostic genetics and rare-disease research where deep phenotyping drives the case.</li>
+                <li><strong><a href="trakgene-vs-evagene.html">TrakGene</a></strong> &mdash; cloud-based clinical-genetics platform with HL7 FHIR support; strong on managing the testing workflow.</li>
+                <li><strong><a href="famgenix-vs-evagene.html">FamGenix</a></strong> &mdash; patient-facing family-history intake with automatic pedigree generation; positioned for scaled intake before a clinical encounter.</li>
+                <li><strong><a href="canrisk-vs-evagene.html">CanRisk</a></strong> &mdash; not a competitor in the pedigree-drawing sense but a complementary platform: BOADICEA is computed there, and Evagene's CanRisk export is the bridge.</li>
+            </ul>
+
+            <p>Evagene's distinguishing combination is gesture-based pedigree drawing, in-tool implementations of multiple published risk-model algorithms framed as illustrative, a 1,900-entry help catalogue, GEDCOM/PED/Phenopackets/CanRisk interoperability, and a research- and education-grade positioning that is consistent across every page of the site.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Choosing a pedigree tool: questions to ask</h2>
+
+            <ul>
+                <li>Does the tool enforce NSGC 2022 notation by default?</li>
+                <li>Does it handle three-generation capture, consanguinity loops, twins, and pregnancy outcomes natively?</li>
+                <li>Does it annotate affected individuals against a structured catalogue (ICD-10, OMIM, HPO, HGNC), not free text?</li>
+                <li>Does it export GEDCOM, PED, Phenopackets v2, CanRisk, and PDF/PNG/SVG?</li>
+                <li>Does it run published family-history risk-model algorithms directly on the pedigree, and is the boundary between in-tool computation and canonical clinical-grade computation explicit?</li>
+                <li>Does it have a sensible answer to data residency and consent for multi-person family-history records?</li>
+                <li>Is the tool's regulatory positioning clear and consistent across its marketing, documentation, and outputs?</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
 
             <div class="space-y-8 not-prose">
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is clinical genetics pedigree software?</h3>
-                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Clinical genetics pedigree software is a specialised tool used by genetic counsellors and clinical geneticists to draw, annotate, and analyse family pedigree charts using standardised notation. Unlike general drawing tools, clinical pedigree software enforces ISCN-compliant symbols, supports disease annotation with ontology codes (ICD-10, OMIM), integrates risk assessment models, and generates clinical reports suitable for patient records.</p>
-                </div>
-
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What pedigree notation standard do clinical geneticists use?</h3>
-                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Clinical geneticists use the standardised pedigree nomenclature defined by the National Society of Genetic Counselors (NSGC) and historically aligned with recommendations from the International System for Human Cytogenomic Nomenclature (ISCN). This includes specific symbols for sex, affected status, deceased individuals, pregnancies, miscarriages, consanguinity, and proband designation. Good clinical pedigree software enforces these symbols automatically.</p>
-                </div>
-
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Can pedigree software calculate cancer risk?</h3>
-                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes. Advanced clinical pedigree tools integrate statistical risk models such as BRCAPRO (breast and ovarian cancer), MMRpro (Lynch syndrome / colorectal cancer), and PancPRO (pancreatic cancer). These BayesMendel models use the family structure and disease annotations recorded in the pedigree to calculate carrier probabilities and future cancer risk without requiring data re-entry.</p>
-                </div>
-
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the difference between clinical pedigree software and general genealogy software?</h3>
-                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Clinical pedigree software is designed for healthcare settings and uses standardised genetic notation (ISCN symbols), supports disease annotation with clinical ontologies, integrates risk models, generates clinical reports, and addresses data governance requirements. Genealogy software focuses on historical family trees, date tracking, and ancestor discovery. While both record family relationships, clinical tools are purpose-built for genetic assessment and counselling.</p>
-                </div>
-
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Does clinical pedigree software integrate with hospital systems?</h3>
-                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Some clinical genetics tools offer integration with hospital electronic health records (EHRs) via standards such as HL7 FHIR. Integration capabilities vary by product: enterprise solutions like Progeny focus on deep EHR integration, while browser-based tools like Evagene prioritise data portability through GEDCOM export, PDF reporting, and interoperability standards that can be consumed by downstream systems.</p>
-                </div>
-
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What risk models should clinical genetics software support?</h3>
-                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">At a minimum, clinical genetics software should support the BayesMendel suite: BRCAPRO for BRCA1/BRCA2 carrier probability and breast/ovarian cancer risk, MMRpro for mismatch repair gene mutations and Lynch syndrome risk, and PancPRO for pancreatic cancer. Some tools also support Mendelian inheritance models for monogenic conditions, autosomal dominant/recessive and X-linked trait analysis, and batch screening across multiple patients.</p>
-                </div>
-
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is cloud-based pedigree software secure enough for clinical use?</h3>
-                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Cloud-based pedigree software can be appropriate for clinical use provided it implements adequate security measures including encryption at rest and in transit, role-based access controls, audit logging, and compliance with relevant data protection regulations. Some browser-based tools process data client-side, meaning patient data never leaves the clinician's device, which can simplify compliance considerations.</p>
-                </div>
-
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Can genetic counsellors use pedigree software to generate patient reports?</h3>
-                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes. Clinical pedigree software typically generates multiple report types including patient-friendly summaries, clinical reports for the referring physician, carrier probability reports, and risk assessment summaries. Advanced tools can also generate AI-assisted clinical interpretations that describe the pedigree structure and highlight relevant patterns in plain language.</p>
-                </div>
-
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is GEDCOM and why does it matter for clinical genetics?</h3>
-                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">GEDCOM (Genealogical Data Communication) is a standard file format for exchanging family structure data between different software systems. In clinical genetics, GEDCOM support allows pedigrees to be transferred between institutions, imported from genealogy software that patients may have used, and archived in a vendor-neutral format. This interoperability is essential for multi-site collaborations and long-term data preservation.</p>
-                </div>
-
-                <div class="pb-6">
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How does AI interpretation work in clinical pedigree tools?</h3>
-                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">AI interpretation in clinical pedigree tools uses large language models to analyse the structure and disease annotations of a family pedigree and generate a narrative clinical description. This can include identifying inheritance patterns, flagging features suggestive of specific syndromes, summarising risk factors, and drafting preliminary clinical impressions. AI interpretation is intended to assist clinicians, not replace clinical judgement.</p>
-                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is clinical pedigree drawing?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Clinical pedigree drawing is the structured documentation of a family's history using NSGC 2022 conventions: standard symbols for sex, affected status, deceased status, consanguinity, pregnancy outcomes, and proband designation, in a layout that supports inheritance-pattern analysis.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Which standard governs clinical pedigree drawing?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The 2022 NSGC update to the Pedigree Standardization Work Group recommendations, building on Bennett 1995. ISCN governs broader cytogenomic nomenclature; HGNC governs gene symbols.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How many generations should be captured?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Three generations from the proband, including aunts, uncles, and first cousins, is the minimum recommended for hereditary-cancer family-history documentation.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Does Evagene compute BOADICEA in-tool?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. Evagene exports a <code>##CanRisk 2.0</code> pedigree file for upload at canrisk.org. BOADICEA is licensed by the University of Cambridge; the off-platform bridge is the canonical workflow.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What about Tyrer-Cuzick?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Evagene includes an IBIS-style approximation of the published Tyrer / Duffy / Cuzick 2004 algorithm. The official IBIS Breast Cancer Risk Evaluator binary is the authoritative implementation when an official Tyrer-Cuzick computation is required.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is Evagene a medical device?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. Evagene is an academic, research, and educational pedigree modelling platform. It is not intended to diagnose, prevent, monitor, predict, treat, or manage disease; determine eligibility for screening, testing, referral, or treatment; or replace professional clinical judgement.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What file formats does Evagene support?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">GEDCOM 5.5.1, PED, Phenopackets v2, HL7 FHIR FamilyMemberHistory, CanRisk 2.0, PDF, PNG, and SVG.</p></div>
             </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="pedigree-drawing-software.html">Pedigree drawing software</a></li>
+                <li><a href="pedigree-drawing-tool.html">Pedigree drawing tool</a></li>
+                <li><a href="clinical-pedigree-drawing.html">Clinical pedigree drawing (overview)</a></li>
+                <li><a href="clinical-pedigree-drawing-guidelines.html">Clinical pedigree drawing guidelines (NSGC 1995/2008/2022)</a></li>
+                <li><a href="pedigree-chart.html">Pedigree chart</a></li>
+                <li><a href="nsgc-pedigree-notation.html">NSGC pedigree notation</a></li>
+                <li><a href="how-to-draw-a-pedigree-chart.html">How to draw a pedigree chart</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+            </ul>
 
         </div>
     </article>
@@ -514,8 +297,8 @@
 <!-- CTA Section -->
 <section class="py-20 bg-brand-50 dark:bg-brand-900/30">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Ready to modernise your clinical genetics workflow?</h2>
-        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">Evagene brings together pedigree drawing, BayesMendel risk models, AI-powered clinical interpretation, and comprehensive reporting in a single browser-based application. No installation required.</p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Evaluate Evagene for your service</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">A research- and education-focused pedigree drawing tool with NSGC notation, twenty published risk-model implementations, and a CanRisk export bridge to canonical BOADICEA computation. Free during alpha for clinicians, researchers, educators, and students.</p>
         <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">
             Join the Alpha Waiting List
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
@@ -529,10 +312,10 @@
         <div class="grid md:grid-cols-4 gap-8 mb-12">
             <div class="md:col-span-2">
                 <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
-                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Integrated BayesMendel risk models. Universal data exchange. Zero installs.</p>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
             </div>
             <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
-            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="pedigree-drawing-software.html" class="hover:text-white transition-colors">Pedigree Drawing</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer Risk Assessment</a></li><li><a href="gedcom-pedigree-software.html" class="hover:text-white transition-colors">GEDCOM &amp; Genealogy</a></li><li><a href="clinical-genetics-pedigree-tool.html" class="hover:text-white transition-colors">Clinical Genetics</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian Inheritance</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="pedigree-drawing-software.html" class="hover:text-white transition-colors">Pedigree drawing</a></li><li><a href="pedigree-drawing-tool.html" class="hover:text-white transition-colors">Pedigree drawing tool</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li><li><a href="clinical-pedigree-drawing.html" class="hover:text-white transition-colors">Clinical pedigree drawing</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
         </div>
         <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
             <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
@@ -543,22 +326,7 @@
 
 <!-- Dark mode toggle -->
 <script>
-(function() {
-    'use strict';
-    const html = document.documentElement;
-    const themeToggle = document.getElementById('theme-toggle');
-    const sunIcon = document.getElementById('sun-icon');
-    const moonIcon = document.getElementById('moon-icon');
-    function setTheme(dark) {
-        html.classList.toggle('dark', dark);
-        sunIcon.classList.toggle('hidden', !dark);
-        moonIcon.classList.toggle('hidden', dark);
-        localStorage.setItem('evagene-theme', dark ? 'dark' : 'light');
-    }
-    const saved = localStorage.getItem('evagene-theme');
-    if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) setTheme(true);
-    themeToggle.addEventListener('click', () => setTheme(!html.classList.contains('dark')));
-})();
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
 </script>
 
 <!-- Cookie Consent Banner -->
@@ -567,7 +335,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
             <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
                 <div class="flex-1 text-sm text-gray-300 leading-relaxed">
-                    <p>We use cookies to analyse site traffic and improve your experience. See our <a href="https://evagene.com/privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
                 </div>
                 <div class="flex items-center gap-3 shrink-0">
                     <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
@@ -578,29 +346,7 @@
     </div>
 </div>
 <script>
-(function() {
-    var CONSENT_KEY = 'evagene-cookie-consent';
-    var banner = document.getElementById('cookie-banner');
-    var consent = localStorage.getItem(CONSENT_KEY);
-    function loadAnalytics() {
-        var s = document.createElement('script'); s.async = true;
-        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';
-        document.head.appendChild(s);
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date()); gtag('config', 'G-8GQLEPQ47C');
-        (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);
-    }
-    if (consent === 'accepted') loadAnalytics();
-    else if (consent !== 'rejected') banner.classList.remove('hidden');
-    document.getElementById('cookie-accept').addEventListener('click', function() {
-        localStorage.setItem(CONSENT_KEY, 'accepted'); banner.classList.add('hidden'); loadAnalytics();
-    });
-    document.getElementById('cookie-reject').addEventListener('click', function() {
-        localStorage.setItem(CONSENT_KEY, 'rejected'); banner.classList.add('hidden');
-    });
-})();
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
 </script>
-
 </body>
 </html>

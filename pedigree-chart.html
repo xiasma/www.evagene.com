@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedigree Chart — Symbols, Generations & How to Draw One | Evagene</title>
+    <meta name="description" content="A pedigree chart records a family's biological structure and disease history using NSGC-standard symbols. This guide explains the symbols, three-generation capture, inheritance patterns visible in a pedigree, and how a pedigree chart is drawn today.">
+    <meta name="keywords" content="pedigree chart, pedigree chart symbols, pedigree chart generations, pedigree chart maker, how to draw a pedigree chart, NSGC pedigree chart, ISCN pedigree symbols, family pedigree chart, pedigree diagram, pedigree chart for genetics, pedigree chart for biology">
+
+    <meta property="og:title" content="Pedigree Chart — Symbols, Generations & How to Draw One | Evagene">
+    <meta property="og:description" content="A pedigree chart records a family's biological structure and disease history using NSGC-standard symbols. This guide covers the symbols, three-generation capture, and how a pedigree chart is drawn today.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/pedigree-chart">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pedigree Chart — Symbols, Generations & How to Draw One">
+    <meta name="twitter:description" content="A pedigree chart in plain language: symbols, generations, inheritance patterns, software.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/pedigree-chart">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Pedigree Chart: Symbols, Generations, and How to Draw One",
+        "description":"A pedigree chart records a family's biological structure and disease history using NSGC-standard symbols. This page explains the symbols, three-generation capture, the inheritance patterns visible in a pedigree, and how a pedigree chart is drawn today.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/pedigree-chart"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["pedigree chart","pedigree chart symbols","NSGC pedigree chart","family pedigree chart","pedigree diagram"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Pedigree Drawing","item":"https://evagene.com/pedigree-drawing-software"},
+            {"@type":"ListItem","position":3,"name":"Pedigree Chart","item":"https://evagene.com/pedigree-chart"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is a pedigree chart?","acceptedAnswer":{"@type":"Answer","text":"A pedigree chart is a standardised diagram that records a family's biological structure and disease history. It uses defined symbols (squares, circles, diamonds, fills, lines) to represent sex, affected status, deceased status, partner relationships, descent, and the proband. The current symbol reference is the 2022 update to the National Society of Genetic Counselors (NSGC) Pedigree Standardization Work Group recommendations."}},
+            {"@type":"Question","name":"What do the symbols on a pedigree chart mean?","acceptedAnswer":{"@type":"Answer","text":"Squares represent males; circles represent females; diamonds represent individuals of unknown or unspecified sex. Filled symbols indicate affected individuals; a diagonal line indicates the deceased; an arrow marks the proband. Horizontal lines connect partners; double horizontal lines indicate consanguinity; vertical lines descend to offspring. Triangles are used for miscarriage and termination, with gestational age annotated."}},
+            {"@type":"Question","name":"How many generations should a pedigree chart cover?","acceptedAnswer":{"@type":"Answer","text":"Three generations from the proband (the proband's generation, parents, and grandparents, including aunts, uncles, and first cousins) is the minimum recommended for family-history documentation. Four generations is preferred where information is available."}},
+            {"@type":"Question","name":"How is a pedigree chart different from a family tree?","acceptedAnswer":{"@type":"Answer","text":"A family tree records relationships and lineage and is typically used in genealogy. A pedigree chart records the same relationships using a defined symbol set that also encodes affected status, sex assigned at birth, deceased status, consanguinity, pregnancy outcomes, and proband designation, in a layout that supports inheritance-pattern analysis."}},
+            {"@type":"Question","name":"Can I draw a pedigree chart online?","acceptedAnswer":{"@type":"Answer","text":"Yes. Several online tools draw pedigree charts; some are free, some are paid. Evagene is an in-browser pedigree drawing tool with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue, free during alpha for clinicians, researchers, educators, and students."}},
+            {"@type":"Question","name":"What inheritance patterns are visible in a pedigree chart?","acceptedAnswer":{"@type":"Answer","text":"A pedigree can suggest autosomal dominant, autosomal recessive, X-linked dominant, X-linked recessive, Y-linked, and mitochondrial inheritance, depending on the pattern of affected individuals across generations and sexes. The pattern is suggestive rather than definitive; molecular confirmation and / or formal segregation analysis is the next step where a specific inheritance pattern is in question."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="pedigree-drawing-software.html" class="hover:text-brand-600 dark:hover:text-brand-300">Pedigree Drawing</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Pedigree Chart</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Pedigree chart: symbols, generations, and how to draw one</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A pedigree chart is the standardised diagram that records a family's biological structure and disease history. This page explains what a pedigree chart is, the symbols defined by the National Society of Genetic Counselors (NSGC) and updated in 2022, the three-generation convention, the inheritance patterns visible in a pedigree, and how pedigree charts are drawn today using software rather than paper.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>10 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> A pedigree chart is a family diagram drawn with a defined symbol set so that anyone trained on the standard can read it the same way. Squares are males, circles are females, diamonds are unknown or unspecified sex; filled means affected, a diagonal line means deceased, an arrow marks the proband. The current reference is the 2022 NSGC update; the minimum useful family-history record is three generations.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">What a pedigree chart is</h2>
+
+            <p>A pedigree chart is a structured diagram of a family's biological relationships, drawn using a notation set agreed by the genetics community. Each individual is represented by a shape encoding sex assigned at birth; the shape's fill encodes affected status for the catalogued condition; lines connect partners, descend to offspring, and connect siblings into a sibship; an arrow marks the proband &mdash; the individual through whom the family came to attention. A pedigree chart is dense: in one diagram it captures who is related to whom, who is affected, who has died, who is a carrier, and the structure that lets a reader follow a possible inheritance pattern across generations.</p>
+
+            <p>The same word &mdash; "pedigree" &mdash; appears in animal breeding, in genealogy, and in human genetics. The notation differs between domains. This page is about the human-genetics pedigree chart, which uses NSGC-standard symbols and is the basis for clinical, research, and educational documentation of family-history information.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The symbol set, in plain language</h2>
+
+            <p>The current symbol reference is the 2022 update to the NSGC Pedigree Standardization Work Group recommendations, which build on the original Bennett 1995 paper and the 2008 update. The conventions that matter most in routine pedigree drawing:</p>
+
+            <ul>
+                <li><strong>Square</strong>: male.</li>
+                <li><strong>Circle</strong>: female.</li>
+                <li><strong>Diamond</strong>: unknown or unspecified sex.</li>
+                <li><strong>Filled / shaded shape</strong>: affected for the catalogued condition. Quadrant fills (top-left, top-right, bottom-left, bottom-right) distinguish multiple conditions on the same individual.</li>
+                <li><strong>Diagonal line through a shape</strong>: deceased. Cause and age at death are annotated below the shape.</li>
+                <li><strong>Arrow</strong>: proband (the individual through whom the family came to attention).</li>
+                <li><strong>Horizontal line between two shapes</strong>: partner / mating connection.</li>
+                <li><strong>Double horizontal line</strong>: consanguineous union.</li>
+                <li><strong>Vertical line descending from a partner line</strong>: parental descent to a sibship.</li>
+                <li><strong>Horizontal line connecting siblings</strong>: sibship; siblings are placed in birth order from left to right.</li>
+                <li><strong>Triangle</strong>: pregnancy, miscarriage, or termination, with gestational age annotated.</li>
+                <li><strong>Central dot or half-fill</strong>: carrier status (the convention chosen depends on the family / publication).</li>
+                <li><strong>Brackets around a shape</strong>: adopted individual.</li>
+                <li><strong>Roman numerals along the left margin</strong>: generation (I, II, III, IV).</li>
+                <li><strong>Arabic numerals within a generation</strong>: individual identifier (II-3 for the third individual in the second generation).</li>
+            </ul>
+
+            <p>For the full reference and the detail of the 2022 update on sex versus gender, see <a href="nsgc-pedigree-notation.html">NSGC pedigree notation</a> and <a href="pedigree-symbols-reference.html">pedigree symbols reference</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Generations</h2>
+
+            <p>A pedigree chart is laid out in generations. Each generation occupies a horizontal row, with the oldest generation at the top. Roman numerals down the left margin number the generations: I (great-grandparents or grandparents), II (parents and their siblings), III (proband and siblings, cousins), IV (children of the proband, where applicable). Within a generation, individuals are numbered with Arabic numerals (1, 2, 3...) so that any person can be referred to by an unambiguous identifier such as III-2.</p>
+
+            <p>The minimum useful record for family-history documentation is three generations from the proband. Three generations is the threshold at which a pattern across affected and unaffected individuals starts to be informative; with two generations, almost any pattern can be incidental. Four generations is preferred where information is available, and pedigrees that span five or six generations are not unusual in research contexts.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Inheritance patterns visible in a pedigree</h2>
+
+            <p>The pattern of affected and unaffected individuals across generations and sexes is what makes a pedigree chart informative. The classic patterns:</p>
+
+            <ul>
+                <li><strong>Autosomal dominant</strong>: affected in every generation, both sexes affected, vertical transmission, ~50&#37; of offspring of an affected parent are affected.</li>
+                <li><strong>Autosomal recessive</strong>: affected individuals typically appear in a single generation (sibship), unaffected parents who are obligate carriers, both sexes affected, often associated with consanguinity.</li>
+                <li><strong>X-linked dominant</strong>: affected in every generation, affected males pass the trait to all daughters but no sons, affected females pass to ~50&#37; of children regardless of sex.</li>
+                <li><strong>X-linked recessive</strong>: predominantly affected males, affected males inherit from carrier mothers, no male-to-male transmission, daughters of affected males are obligate carriers.</li>
+                <li><strong>Y-linked</strong>: exclusively male transmission, all sons of an affected father are affected, no female transmission.</li>
+                <li><strong>Mitochondrial</strong>: maternal transmission, affected mothers transmit to all offspring, no paternal transmission.</li>
+            </ul>
+
+            <p>Real pedigrees rarely fit a single pattern cleanly. Reduced penetrance, variable expressivity, de novo variants, germline mosaicism, X-inactivation, imprinting, and sex-differential severity all complicate the picture. Pattern recognition from a pedigree is suggestive; confirmation requires molecular testing and / or formal segregation analysis. Specific patterns are covered in detail in our <a href="pedigree-chart-examples.html">pedigree chart examples</a> page.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">How a pedigree chart is drawn today</h2>
+
+            <p>Hand-drawn pedigrees on paper or whiteboard remain part of teaching and bedside use. For documentation, research, and exchange, software is the standard medium. Pedigree-drawing software enforces NSGC notation by default, lays out the family automatically as it grows, exports the result as PDF / PNG / SVG for the printable artefact, and exports the structured data as GEDCOM, PED, Phenopackets, or CanRisk for downstream consumption. The advantage over generic diagram software is enforcement of the symbol set and the structural relationships; the advantage over hand-drawing is consistency and exchange.</p>
+
+            <p>Evagene's <a href="pedigree-drawing-tool.html">pedigree drawing tool</a> runs in the browser and draws via a gesture-based interface that is designed to keep up with the conversational pace of family-history collection. The output is NSGC-compliant by default. The structured pedigree can be exported in GEDCOM 5.5.1 for genealogy interchange, PED for linkage workflows, Phenopackets v2 for phenotype-aware exchange, or CanRisk 2.0 for upload at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a> when BOADICEA computation is wanted. PDF / PNG / SVG export covers the printable artefact for slides, teaching, or research notes.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pedigree chart in teaching</h2>
+
+            <p>Pedigree charts are core to introductory genetics teaching: students learn the symbol set, work through inheritance-pattern examples, and interpret published pedigrees from research papers. Pen-and-paper exercises remain valuable at the introduction stage; software exercises take over once the symbol set is internalised. Our <a href="pedigree-chart-biology-class.html">pedigree charts for biology class</a> page collects worked examples by inheritance pattern, and our <a href="pedigree-chart-template.html">pedigree chart template</a> page covers printable templates and when a paper template is appropriate.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pedigree chart for clinical genetics</h2>
+
+            <p>In clinical genetics, the pedigree chart is the primary documentation artefact for family-history information collected during a consultation. Genetic counsellors and clinical geneticists draw a pedigree during the consultation, refine it across follow-up visits, and use it as the input to family-history risk-model algorithms (BRCAPRO, MMRpro, PancPRO, Tyrer-Cuzick, BOADICEA via CanRisk). Detail on the clinical-genetics view is in <a href="clinical-pedigree-drawing.html">clinical pedigree drawing</a> and <a href="clinical-genetics-pedigree-tool.html">clinical genetics pedigree tool</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a pedigree chart?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A standardised diagram of a family's biological structure and disease history, using NSGC-defined symbols.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What do the symbols on a pedigree chart mean?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Squares = male, circles = female, diamonds = unknown / unspecified sex; filled = affected, diagonal line = deceased, arrow = proband; double horizontal line = consanguinity.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How many generations should a pedigree chart cover?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Three generations from the proband is the minimum recommended; four is preferred where information is available.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How is a pedigree chart different from a family tree?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A family tree records relationships and lineage; a pedigree chart adds a defined symbol set encoding sex, affected status, deceased status, and other clinically relevant attributes.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Can a pedigree chart be drawn online?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes. Evagene draws pedigree charts in the browser using NSGC-compliant notation, with PDF / PNG / SVG and GEDCOM / CanRisk export.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What inheritance patterns can a pedigree chart show?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Autosomal dominant, autosomal recessive, X-linked dominant, X-linked recessive, Y-linked, and mitochondrial &mdash; suggestively. Confirmation requires molecular testing or formal segregation analysis.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="pedigree-drawing-tool.html">Pedigree drawing tool</a></li>
+                <li><a href="pedigree-drawing-software.html">Pedigree drawing software</a></li>
+                <li><a href="how-to-draw-a-pedigree-chart.html">How to draw a pedigree chart</a></li>
+                <li><a href="pedigree-chart-examples.html">Pedigree chart examples</a></li>
+                <li><a href="pedigree-chart-template.html">Pedigree chart template</a></li>
+                <li><a href="pedigree-chart-maker.html">Pedigree chart maker</a></li>
+                <li><a href="pedigree-symbols-reference.html">Pedigree symbols reference</a></li>
+                <li><a href="nsgc-pedigree-notation.html">NSGC pedigree notation</a></li>
+                <li><a href="clinical-pedigree-drawing.html">Clinical pedigree drawing</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree chart tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="pedigree-drawing-software.html" class="hover:text-white transition-colors">Pedigree drawing</a></li><li><a href="pedigree-drawing-tool.html" class="hover:text-white transition-colors">Pedigree drawing tool</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li><li><a href="clinical-pedigree-drawing.html" class="hover:text-white transition-colors">Clinical pedigree drawing</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

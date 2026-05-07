@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedigree Analysis & Variable Expression — Penetrance, Mosaicism, Bayes | Evagene</title>
+    <meta name="description" content="Educational reference on pedigree analysis: NSGC notation, reduced penetrance, variable expressivity, age-dependent penetrance, somatic and germline mosaicism, locus heterogeneity, phenocopies, and Bayesian carrier-probability calculation.">
+    <meta name="keywords" content="pedigree analysis, variable expressivity, reduced penetrance, age-dependent penetrance, somatic mosaicism, germline mosaicism, pleiotropy, locus heterogeneity, allelic heterogeneity, phenocopy, Bayesian pedigree analysis, carrier probability, Hardy-Weinberg, NSGC notation, Bennett 1995, Bennett 2008, Bennett 2022">
+
+    <meta property="og:title" content="Pedigree Analysis & Variable Expression — Penetrance, Mosaicism, Bayes | Evagene">
+    <meta property="og:description" content="Reduced penetrance, variable expressivity, age-dependent penetrance, mosaicism, locus heterogeneity, phenocopies, and Bayesian carrier-probability calculation in pedigree analysis.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/pedigree-analysis-and-variable-expression">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pedigree Analysis & Variable Expression — Evagene">
+    <meta name="twitter:description" content="Penetrance, expressivity, mosaicism, and Bayesian carrier-probability arithmetic in pedigree analysis.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/pedigree-analysis-and-variable-expression">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Pedigree Analysis and Variable Expression: Penetrance, Mosaicism, and Bayesian Risk",
+        "description":"Educational reference on pedigree analysis: NSGC notation, reduced penetrance, variable expressivity, age-dependent penetrance, somatic and germline mosaicism, pleiotropy, locus and allelic heterogeneity, phenocopies, and the Bayesian arithmetic for refining a carrier probability given pedigree information.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/pedigree-analysis-and-variable-expression"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["pedigree analysis","penetrance","expressivity","mosaicism","Bayesian risk","carrier probability"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Pedigree Analysis and Variable Expression",
+        "description":"Educational reference on pedigree analysis with reduced penetrance, variable expressivity, mosaicism, and Bayesian carrier-probability calculation.",
+        "url":"https://evagene.com/pedigree-analysis-and-variable-expression",
+        "learningResourceType":"Article",
+        "educationalUse":["Teaching","Self-study","Research"],
+        "audience":{"@type":"EducationalAudience","educationalRole":["student","researcher","educator"]},
+        "isPartOf":{"@type":"CreativeWork","name":"Mendelian Genetics and Gene Discovery","url":"https://evagene.com/mendelian-genetics-and-gene-discovery"},
+        "inLanguage":"en-GB",
+        "provider":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Mendelian Genetics & Gene Discovery","item":"https://evagene.com/mendelian-genetics-and-gene-discovery"},
+            {"@type":"ListItem","position":3,"name":"Pedigree Analysis & Variable Expression","item":"https://evagene.com/pedigree-analysis-and-variable-expression"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="mendelian-genetics-and-gene-discovery.html" class="hover:text-brand-600 dark:hover:text-brand-300">Mendelian Genetics & Gene Discovery</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Pedigree Analysis & Variable Expression</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Pedigree analysis and variable expression</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Real pedigrees rarely fit the textbook patterns cleanly. Reduced penetrance, variable expressivity, age-dependent penetrance, somatic and germline mosaicism, pleiotropy, locus and allelic heterogeneity, and phenocopies all complicate inheritance-pattern recognition. This page covers each, with worked loci, and walks through the standard Bayesian arithmetic for refining a carrier probability given pedigree information. For research, education, and teaching.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>14 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> A pedigree drawn in NSGC notation is the input to inheritance-pattern recognition and to Bayesian carrier-probability arithmetic. Recognising departures from the textbook pattern &mdash; reduced penetrance, variable expressivity, age-dependent penetrance, mosaicism, locus heterogeneity, phenocopies &mdash; is the analytic skill the page covers. The arithmetic combines a population-derived prior with conditional information from the pedigree to produce a posterior probability; the standard textbook example is the X-linked recessive carrier probability given unaffected sons.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pedigree analysis fundamentals: NSGC notation</h2>
+
+            <p>The reference for the symbol set is the National Society of Genetic Counselors (NSGC) Pedigree Standardization Work Group, originally published as Bennett et al. 1995 in <em>Journal of Genetic Counseling</em> 4:267-279 (<a href="https://pubmed.ncbi.nlm.nih.gov/24234812/" rel="noopener">PMID 24234812</a>), updated as Bennett et al. 2008 (<em>J Genet Couns</em> 17:424-433, <a href="https://pubmed.ncbi.nlm.nih.gov/18792771/" rel="noopener">PMID 18792771</a>), and most recently revised as Bennett et al. 2022 to incorporate sex-and-gender-inclusive notation (<em>J Genet Couns</em> 31:1238-1248, <a href="https://pubmed.ncbi.nlm.nih.gov/36106433/" rel="noopener">PMID 36106433</a>). The 2022 update separates sex assigned at birth (encoded by the shape) from gender identity (encoded by symbol annotation), and is the current reference for new pedigree work; see <a href="nsgc-pedigree-notation.html">NSGC pedigree notation</a> and <a href="gender-inclusive-pedigree-drawing.html">gender-inclusive pedigree drawing</a>.</p>
+
+            <p>Three fundamentals of pedigree analysis matter for everything that follows. First, the proband &mdash; the individual through whom the family came to attention &mdash; is marked with an arrow; ascertainment bias is the systematic effect of the proband's affected status on the apparent rate of affected individuals in the family, and Bayesian carrier-probability arithmetic must condition on the proband's status. Second, the minimum useful pedigree is three generations from the proband; two-generation patterns are almost always uninformative. Third, the pedigree is the input to formal segregation analysis, linkage analysis, and the family-history risk-model algorithms (BRCAPRO, MMRpro, PancPRO, Tyrer-Cuzick, BOADICEA via the CanRisk file bridge). The drawing tool is at <a href="pedigree-drawing-tool.html">pedigree drawing tool</a>; the chart conventions are at <a href="pedigree-chart.html">pedigree chart</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Reduced penetrance</h2>
+
+            <p>Penetrance is the probability that an individual carrying a particular genotype expresses the associated phenotype within the observation window. A penetrance of 1.0 means every carrier is affected; reduced penetrance means a fraction of carriers are unaffected at the time of observation. Reduced penetrance is the single most important reason that real autosomal dominant pedigrees fail to show vertical transmission across every generation: an apparently &quot;skipped&quot; generation is often a non-penetrant carrier rather than a true non-carrier.</p>
+
+            <p>Worked examples: <em>BRCA1</em>-associated breast cancer has approximately 60-70&#37; penetrance by age 80 (Antoniou et al. 2003, <em>Am J Hum Genet</em> 72:1117) &mdash; meaning that a third of <em>BRCA1</em> carriers do not develop breast cancer in their lifetime. <em>HNF1A</em> in MODY3 has approximately 60-70&#37; penetrance by age 25. <em>RYR1</em> in malignant hyperthermia susceptibility has even lower penetrance, because the phenotype is conditional on exposure to triggering anaesthetics. Reduced penetrance has direct consequences for pedigree analysis: an unaffected obligate carrier should not be misclassified as a non-carrier on the basis of phenotype alone, and the recurrence-risk arithmetic must use the conditional probability of affected status given carrier status, not the unconditional ratio.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Variable expressivity versus reduced penetrance</h2>
+
+            <p>Variable expressivity is the variation in phenotype severity, organ involvement, or symptom combination among individuals with the same genotype. It is distinct from reduced penetrance: a fully penetrant condition may show extreme variable expressivity, and a partially penetrant condition may show stereotyped expression in those who are penetrant. Neurofibromatosis type 1 (<em>NF1</em>) is the canonical example of variable expressivity: penetrance is essentially complete by age 5, but the combination of caf&eacute;-au-lait macules, axillary or inguinal freckling, neurofibromas, optic glioma, Lisch nodules, learning difficulty, and skeletal abnormalities varies dramatically between members of the same family carrying the same <em>NF1</em> variant. Marfan syndrome (<em>FBN1</em>) is similar: cardiovascular, skeletal, and ocular features in different proportions in different individuals.</p>
+
+            <p>Three mechanisms underlie variable expressivity: modifier loci elsewhere in the genome, environmental exposures, and stochastic developmental processes (the same individual sometimes shows the phenotype on one side of the body and not the other &mdash; for example unilateral vestibular schwannoma in <em>NF2</em>).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Age-dependent penetrance</h2>
+
+            <p>Several conditions show penetrance that is a strong function of age. Huntington disease (<em>HTT</em> CAG repeat expansion) has near-zero penetrance by age 20 and approaches 1.0 by age 70; the precise age-of-onset curve is a function of repeat length. <em>BRCA1</em> and <em>BRCA2</em> breast and ovarian cancer risk increases steadily across decades, with the age-stratified penetrance curves underlying every BRCAPRO and BOADICEA computation. Familial adenomatous polyposis (<em>APC</em>) shows polyp burden and colorectal cancer risk that rise steeply through the third and fourth decades of life. Age-dependent penetrance has direct consequences for pedigree analysis: a young unaffected obligate carrier of a late-onset condition cannot be reclassified on the basis of being currently unaffected, and the &quot;has not yet expressed&quot; arithmetic must use the carrier's current age-stratified conditional probability of being unaffected given the genotype.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Somatic mosaicism</h2>
+
+            <p>Somatic mosaicism is the presence of two or more genetically distinct cell populations within an individual, arising from a post-zygotic mutation. The earlier in development the mutation occurs, the larger the fraction of cells affected, and the more body tissues involved. Somatic mosaicism explains the partial or asymmetric phenotypes seen in conditions where a fully constitutional mutation would be lethal: the segmental forms of <em>NF1</em>, McCune-Albright syndrome (<em>GNAS</em>, post-zygotic activating mutation, with caf&eacute;-au-lait, fibrous dysplasia, and endocrine hyperfunction in a mosaic distribution), Proteus syndrome (<em>AKT1</em> p.Glu17Lys post-zygotically). Detection of somatic mosaicism requires deep sequencing of multiple tissues and is increasingly the explanation for previously unexplained de novo phenotypes.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Germline mosaicism &mdash; worked example</h2>
+
+            <p>Germline mosaicism is the presence of a mutation in a fraction of the gametes of an apparently unaffected (and somatically uninvolved) parent. Germline mosaicism is the explanation for the empirical observation that two affected siblings can be born to two unaffected parents in conditions where the underlying mutation appears, on parental sequencing, to be absent.</p>
+
+            <p>The textbook worked example is paternal germline mosaicism in osteogenesis imperfecta type II (lethal perinatal form, <em>COL1A1</em> or <em>COL1A2</em> dominant negative variants; <a href="https://omim.org/entry/166210" rel="noopener">OMIM 166210</a>). The classical paper is Cohn et al. 1990 (<em>Am J Hum Genet</em> 46:591) which documented recurrence of OI type II in two pregnancies of an apparently unaffected couple, with the <em>COL1A1</em> variant detectable in the father's sperm at low allele fraction but absent from his blood. The empirical observation drove the introduction of an explicit germline-mosaicism term into recurrence-risk counselling for autosomal dominant lethal conditions: even when neither parent is somatically affected, the recurrence risk after one affected child is empirically of order 5-7&#37;, not zero. The arithmetic for the recurrence-risk computation given germline mosaicism is at <a href="germline-mosaicism-calculator.html">germline mosaicism calculator</a>; see also <a href="osteogenesis-imperfecta-pedigree.html">osteogenesis imperfecta pedigree</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pleiotropy, locus heterogeneity, allelic heterogeneity, phenocopies</h2>
+
+            <p>Four further phenomena complicate pedigree analysis:</p>
+
+            <ul>
+                <li><strong>Pleiotropy.</strong> A single gene affects multiple phenotypic features, often in apparently unrelated organ systems. Marfan syndrome (cardiovascular, skeletal, ocular features all from <em>FBN1</em>) is the standard example.</li>
+                <li><strong>Locus heterogeneity.</strong> The same phenotype is produced by variants at any of several different loci. Hereditary non-syndromic deafness has more than 100 known loci; retinitis pigmentosa has more than 80; Lynch syndrome / hereditary non-polyposis colorectal cancer is associated with germline variants in <em>MLH1</em>, <em>MSH2</em>, <em>MSH6</em>, <em>PMS2</em>, and <em>EPCAM</em>. A pedigree consistent with autosomal dominant transmission gives no information about which locus is responsible without molecular testing. See <a href="lynch-syndrome-risk-calculator.html">Lynch syndrome risk calculator</a> for one example.</li>
+                <li><strong>Allelic heterogeneity.</strong> Many different variants at the same locus produce the same or related phenotypes. <em>CFTR</em> has over 2,000 reported variants, <em>BRCA1</em> over 3,000; the variant catalogue is curated in <a href="https://www.ncbi.nlm.nih.gov/clinvar/" rel="noopener">ClinVar</a>.</li>
+                <li><strong>Phenocopies.</strong> Affected individuals in a family do not all share the genetic cause. A breast cancer in a woman who is not a <em>BRCA1</em> carrier in a <em>BRCA1</em> family is a phenocopy &mdash; a sporadic case occurring in a high-risk family by chance. Phenocopy probability is informed by the population incidence of the phenotype.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Bayesian risk calculation in pedigree analysis</h2>
+
+            <p>The standard textbook framework for pedigree-based risk computation is Bayes's rule applied as a before-and-after probability table. The framework was systematised in genetic-counselling textbooks (Murphy &amp; Chase, <em>Principles of Genetic Counseling</em>, 1975; Young, <em>Introduction to Risk Calculation in Genetic Counseling</em>, current standard text), with earlier antecedents in Edwards 1960 (<em>Acta Genet Stat Med</em> 10:63) and the wider statistical-genetics literature.</p>
+
+            <h3 class="text-2xl mt-12 mb-4">Worked example: X-linked recessive carrier probability</h3>
+
+            <p>Consider a woman whose maternal uncle has Duchenne muscular dystrophy (X-linked recessive, <em>DMD</em>). Her mother is therefore an obligate carrier with prior probability close to 1 (subject to the de novo argument; we will set that aside for the worked example). The woman herself has a prior probability of 1/2 of being a carrier, inherited from her mother. The woman has three unaffected sons.</p>
+
+            <p>The Bayesian table:</p>
+
+            <table>
+                <thead>
+                    <tr><th>Hypothesis</th><th>Carrier (Cc)</th><th>Non-carrier (CC)</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Prior probability</td><td>1/2</td><td>1/2</td></tr>
+                    <tr><td>Conditional probability of three unaffected sons</td><td>(1/2)<sup>3</sup> = 1/8</td><td>1</td></tr>
+                    <tr><td>Joint probability</td><td>1/16</td><td>1/2 = 8/16</td></tr>
+                    <tr><td>Posterior probability</td><td>1/9</td><td>8/9</td></tr>
+                </tbody>
+            </table>
+
+            <p>The conditional column captures the information added by the pedigree: a non-carrier mother transmits no <em>DMD</em> alleles to any son (probability of three unaffected sons given non-carrier = 1), whereas a carrier mother has a 1/2 chance of transmitting per son (probability of three unaffected sons given carrier = 1/8). The posterior probability of carrier status, given three unaffected sons, drops from the prior of 1/2 to 1/9. The arithmetic generalises: each additional unaffected son multiplies the conditional probability of carrier-status by 1/2 and the posterior of carrier-status by approximately 1/2. The interactive computation, with adjustments for de novo events and partial penetrance, is at <a href="carrier-probability-calculator.html">carrier probability calculator</a>; the wider Mendelian arithmetic is at <a href="mendelian-inheritance-calculator.html">mendelian inheritance calculator</a>.</p>
+
+            <h3 class="text-2xl mt-12 mb-4">Hardy-Weinberg-derived priors</h3>
+
+            <p>For autosomal recessive priors, the carrier frequency in a population is approximately 2&radic;<em>q</em>(1-<em>q</em>) ~ 2<em>q</em> where <em>q</em> is the disease-allele frequency, under Hardy-Weinberg equilibrium. The prior probability that a randomly sampled individual from a population is a carrier of an autosomal recessive condition is therefore 2<em>pq</em> where <em>p</em> + <em>q</em> = 1. In a counselling scenario, the prior on the partner of a known carrier of cystic fibrosis (<em>CFTR</em>) is the population-specific carrier frequency for <em>CFTR</em> &mdash; approximately 1 in 25 in northern European populations, 1 in 65 in African populations, lower in East Asian populations. Population-specific allele frequencies are tabulated in <a href="https://gnomad.broadinstitute.org" rel="noopener">gnomAD</a> and are the source of the population-stratified prior in any computation.</p>
+
+            <p>For autosomal dominant priors, the relevant population parameter is the disease-allele frequency itself, and for X-linked priors the carrier frequency in females is 2<em>q</em>. De novo rates &mdash; particularly relevant for X-linked lethal conditions &mdash; are an empirical input. For <em>DMD</em>, the standard de novo / inherited equilibrium argument gives an a priori expectation that approximately 1/3 of cases are de novo (the Haldane equilibrium), and the Bayesian table can be extended to incorporate this.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Knudson's two-hit model in pedigree analysis</h2>
+
+            <p>For dominantly inherited cancer-predisposition syndromes, Knudson's two-hit model (Knudson 1971, <em>PNAS</em> 68:820, <a href="https://pubmed.ncbi.nlm.nih.gov/5279523/" rel="noopener">PMID 5279523</a>) provides the framework that connects germline carrier status to lifetime cancer risk. The first hit is the inherited variant; the second hit is a somatic event in the affected tissue. The two-hit model explains the apparent &quot;dominant&quot; transmission of recessive-at-the-cellular-level tumour suppressors (<em>RB1</em>, <em>TP53</em>, <em>BRCA1</em>, <em>BRCA2</em>, <em>NF1</em>, <em>NF2</em>, <em>APC</em>, <em>VHL</em>, the Lynch-syndrome MMR genes), the age-of-onset distribution (the second hit takes time), and the unilateral / bilateral asymmetry seen in retinoblastoma (bilateral retinoblastoma is the carrier signature). The two-hit model is the framework that underlies BRCAPRO, MMRpro, and PancPRO, and is summarised in the standard genetics textbook <em>Genes in Medicine</em> (Wright et al.).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Putting it together</h2>
+
+            <p>Pedigree analysis combines symbol-set documentation (NSGC), pattern recognition (the patterns covered on <a href="inheritance-patterns.html">inheritance patterns</a>), and Bayesian arithmetic for refining recurrence and carrier-status probabilities given the observed pedigree. The challenge in real families is that several non-textbook mechanisms are usually at play simultaneously: a <em>BRCA1</em> family typically shows reduced penetrance, age-dependent penetrance, and at least one phenocopy, all of which need to be accommodated in the recurrence-risk arithmetic. Risk-model implementations &mdash; BRCAPRO, MMRpro, PancPRO &mdash; are the systematic application of Bayesian arithmetic across thousands of pedigree configurations; the family-history scoring criteria (Manchester for BRCA, Amsterdam II and Bethesda for Lynch, Vasen 1999, Umar 2004) are heuristic shortcuts to the same posterior. Each of these is implemented in Evagene as illustrative / for-research / for-teaching computation; the IBIS-style approximation of Tyrer / Duffy / Cuzick 2004 used by Evagene is not the official IBIS Breast Cancer Risk Evaluator binary, and BOADICEA is licensed by the University of Cambridge and is not bundled in Evagene &mdash; Evagene exports a CanRisk 2.0 pedigree file for upload at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a>.</p>
+
+            <p>Evagene is an academic, research, and educational pedigree modelling platform; outputs are illustrative and for educational and research purposes only. Disease-specific pedigree pages collect the worked examples by condition: <a href="achondroplasia-pedigree.html">achondroplasia pedigree</a>, <a href="duchenne-muscular-dystrophy-pedigree.html">Duchenne muscular dystrophy pedigree</a>, <a href="osteogenesis-imperfecta-pedigree.html">osteogenesis imperfecta pedigree</a>, <a href="hereditary-cardiac-pedigree.html">hereditary cardiac pedigree</a>, <a href="dravet-syndrome-pedigree.html">Dravet syndrome pedigree</a>, <a href="imprinting-upd-pedigree.html">imprinting and UPD pedigree</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="references">Key references</h2>
+
+            <ul>
+                <li>Bennett RL, Steinhaus KA, Uhrich SB, et al. 1995. Recommendations for standardized human pedigree nomenclature. <em>J Genet Couns</em> 4:267-279. <a href="https://pubmed.ncbi.nlm.nih.gov/24234812/" rel="noopener">PMID 24234812</a>.</li>
+                <li>Bennett RL, French KS, Resta RG, Doyle DL. 2008. Standardized human pedigree nomenclature: update and assessment of the recommendations of the National Society of Genetic Counselors. <em>J Genet Couns</em> 17:424-433. <a href="https://pubmed.ncbi.nlm.nih.gov/18792771/" rel="noopener">PMID 18792771</a>.</li>
+                <li>Bennett RL, French KS, Resta RG, Austin J. 2022. Practice resource-focused revision: standardized pedigree nomenclature update centered on sex and gender inclusivity. <em>J Genet Couns</em> 31:1238-1248. <a href="https://pubmed.ncbi.nlm.nih.gov/36106433/" rel="noopener">PMID 36106433</a>.</li>
+                <li>Knudson AG. 1971. Mutation and cancer: statistical study of retinoblastoma. <em>PNAS</em> 68:820-823. <a href="https://pubmed.ncbi.nlm.nih.gov/5279523/" rel="noopener">PMID 5279523</a>.</li>
+                <li>Edwards JH. 1960. The simulation of mendelism. <em>Acta Genet Stat Med</em> 10:63-70.</li>
+                <li>Murphy EA, Chase GA. 1975. <em>Principles of Genetic Counseling</em>. Year Book Medical Publishers.</li>
+                <li>Wright CF, FitzPatrick DR, Firth HV. <em>Genes in Medicine: A Practical Guide</em>.</li>
+                <li>Antoniou A, Pharoah PDP, Narod S, et al. 2003. Average risks of breast and ovarian cancer associated with <em>BRCA1</em> or <em>BRCA2</em> mutations. <em>Am J Hum Genet</em> 72:1117-1130. <a href="https://pubmed.ncbi.nlm.nih.gov/12677558/" rel="noopener">PMID 12677558</a>.</li>
+                <li>gnomAD &mdash; Genome Aggregation Database. <a href="https://gnomad.broadinstitute.org" rel="noopener">gnomad.broadinstitute.org</a>.</li>
+                <li>ClinVar. <a href="https://www.ncbi.nlm.nih.gov/clinvar/" rel="noopener">ncbi.nlm.nih.gov/clinvar</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related Evagene pages</h2>
+
+            <ul>
+                <li><a href="mendelian-genetics-and-gene-discovery.html">Mendelian genetics and gene discovery</a> &mdash; pillar</li>
+                <li><a href="inheritance-patterns.html">Inheritance patterns</a></li>
+                <li><a href="mapping-and-gene-identification.html">Mapping and gene identification</a></li>
+                <li><a href="germline-mosaicism-calculator.html">Germline mosaicism calculator</a></li>
+                <li><a href="carrier-probability-calculator.html">Carrier probability calculator</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="consanguinity-calculator.html">Consanguinity calculator</a></li>
+                <li><a href="lynch-syndrome-risk-calculator.html">Lynch syndrome risk calculator</a></li>
+                <li><a href="pedigree-drawing-tool.html">Pedigree drawing tool</a></li>
+                <li><a href="pedigree-chart.html">Pedigree chart</a></li>
+                <li><a href="nsgc-pedigree-notation.html">NSGC pedigree notation</a></li>
+                <li><a href="achondroplasia-pedigree.html">Achondroplasia pedigree</a></li>
+                <li><a href="duchenne-muscular-dystrophy-pedigree.html">Duchenne muscular dystrophy pedigree</a></li>
+                <li><a href="osteogenesis-imperfecta-pedigree.html">Osteogenesis imperfecta pedigree</a></li>
+                <li><a href="hereditary-cardiac-pedigree.html">Hereditary cardiac pedigree</a></li>
+                <li><a href="dravet-syndrome-pedigree.html">Dravet syndrome pedigree</a></li>
+                <li><a href="imprinting-upd-pedigree.html">Imprinting and UPD pedigree</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's Bayesian carrier-probability tools</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, educational implementations of the Bayesian carrier-probability and germline-mosaicism arithmetic, and links to the wider Mendelian inheritance calculator. Free during alpha for clinicians, researchers, educators, and students. Outputs are illustrative and for educational / research purposes only.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="mendelian-genetics-and-gene-discovery.html" class="hover:text-white transition-colors">Mendelian genetics & gene discovery</a></li><li><a href="inheritance-patterns.html" class="hover:text-white transition-colors">Inheritance patterns</a></li><li><a href="pedigree-analysis-and-variable-expression.html" class="hover:text-white transition-colors">Pedigree analysis</a></li><li><a href="mapping-and-gene-identification.html" class="hover:text-white transition-colors">Mapping and gene identification</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="pedigree-drawing-tool.html" class="hover:text-white transition-colors">Pedigree drawing tool</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

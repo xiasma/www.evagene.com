@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNA Replication and Repair — Polymerases, MMR, NER, BER, HR, NHEJ | Evagene</title>
+    <meta name="description" content="Replication fork dynamics, polymerases, primase, Okazaki fragments, fork collapse and restart. Mismatch repair (Lynch), nucleotide excision repair (xeroderma pigmentosum), base excision repair, double-strand break repair (BRCA1/2, RAD51, NHEJ).">
+    <meta name="keywords" content="DNA replication, replication fork, replisome, ORC, MCM2-7, DNA polymerase, primase, Okazaki fragments, mismatch repair, MMR, MSH2, MLH1, Lynch syndrome, nucleotide excision repair, NER, xeroderma pigmentosum, base excision repair, BER, double strand break repair, homologous recombination, BRCA1, BRCA2, RAD51, NHEJ, KU70, DNA-PKcs">
+
+    <meta property="og:title" content="DNA Replication and Repair — Polymerases, MMR, NER, BER, HR, NHEJ | Evagene">
+    <meta property="og:description" content="Replication fork dynamics, polymerases, primase, Okazaki fragments, mismatch repair, nucleotide and base excision repair, double-strand break repair (HR vs NHEJ).">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/dna-replication-and-repair">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DNA Replication and Repair — Polymerases, MMR, NER, BER, HR, NHEJ">
+    <meta name="twitter:description" content="From the replisome to repair: an educational reference on DNA maintenance.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/dna-replication-and-repair">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"DNA Replication and Repair: Polymerases, Mismatch Repair, NER, BER, HR, and NHEJ",
+        "description":"Replication fork dynamics, polymerases and priming, Okazaki fragments, fork collapse and restart. Mismatch repair (the Lynch-syndrome pathway), nucleotide excision repair (xeroderma pigmentosum), base excision repair, and double-strand break repair through homologous recombination and non-homologous end joining.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/dna-replication-and-repair"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["DNA replication","DNA repair","mismatch repair","Lynch syndrome","nucleotide excision repair","xeroderma pigmentosum","BRCA1","BRCA2","RAD51","NHEJ"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"DNA Replication and Repair",
+        "description":"Educational reference on the replisome and the four major DNA-damage repair pathways (MMR, NER, BER, double-strand break repair).",
+        "learningResourceType":"Article",
+        "educationalLevel":"Undergraduate, Postgraduate, Professional",
+        "audience":{"@type":"EducationalAudience","educationalRole":"Student, Researcher, Educator, Clinician"},
+        "url":"https://evagene.com/dna-replication-and-repair",
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Molecular Architecture of Genes","item":"https://evagene.com/molecular-architecture-of-genes"},
+            {"@type":"ListItem","position":3,"name":"DNA Replication and Repair","item":"https://evagene.com/dna-replication-and-repair"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What licenses replication origins?","acceptedAnswer":{"@type":"Answer","text":"In G1 phase, the origin recognition complex (ORC) binds replication origins and recruits CDC6 and CDT1, which together load the inactive MCM2-7 helicase as a head-to-head double hexamer encircling double-stranded DNA. This loading is licensing. At the G1/S transition, kinase activity (DDK and CDK) activates a subset of licensed origins by recruiting CDC45 and the GINS complex to convert MCM2-7 into the active CMG helicase. Once-per-cell-cycle replication is enforced by the strict separation of licensing (G1) and firing (S)."}},
+            {"@type":"Question","name":"Which polymerase replicates the leading strand?","acceptedAnswer":{"@type":"Answer","text":"In humans, DNA polymerase ε (epsilon) is the principal leading-strand polymerase. The lagging strand is primarily synthesised by DNA polymerase δ (delta), with each Okazaki fragment initiated by an RNA-DNA primer made by the Pol α-primase complex. Pol α leaves a short hybrid primer that is extended by Pol δ until it encounters the previous fragment, where flap structures are processed by FEN1 and the nick is sealed by DNA ligase 1."}},
+            {"@type":"Question","name":"What is mismatch repair and how does it relate to Lynch syndrome?","acceptedAnswer":{"@type":"Answer","text":"Mismatch repair (MMR) is the post-replicative pathway that corrects single base-base mismatches and short insertion-deletion loops missed by polymerase proofreading. The MutSα heterodimer (MSH2-MSH6) recognises base-base mismatches; MutSβ (MSH2-MSH3) recognises insertion-deletion loops; the MutLα heterodimer (MLH1-PMS2) is recruited and licenses excision and resynthesis. Heterozygous germline pathogenic variants in MLH1, MSH2, MSH6, or PMS2 underlie Lynch syndrome, which is associated with elevated lifetime risk of colorectal, endometrial, and several other cancers."}},
+            {"@type":"Question","name":"What is the difference between homologous recombination and non-homologous end joining?","acceptedAnswer":{"@type":"Answer","text":"Both repair double-strand breaks. Homologous recombination (HR) uses a sister chromatid as a template, requires resection of the broken ends to single-stranded 3' overhangs, and is essentially error-free; it is restricted to S and G2 phases when a sister chromatid is available, and is BRCA1/BRCA2/RAD51-dependent. Non-homologous end joining (NHEJ) directly ligates the broken ends with little or no homology and is operative throughout the cell cycle; it depends on KU70/80, DNA-PKcs, Artemis, XRCC4, XLF, and DNA ligase 4, and can introduce small insertions or deletions at the junction."}},
+            {"@type":"Question","name":"What is xeroderma pigmentosum?","acceptedAnswer":{"@type":"Answer","text":"Xeroderma pigmentosum (XP) is a rare recessive disorder caused by germline biallelic loss-of-function variants in any of seven nucleotide excision repair genes (XPA-XPG) or in the translesion polymerase POLH (XP-V). NER removes bulky helix-distorting lesions, including UV-induced cyclobutane pyrimidine dimers and 6-4 photoproducts. XP is characterised by extreme photosensitivity and high cumulative incidence of UV-induced skin cancers."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="molecular-architecture-of-genes.html" class="hover:text-brand-600 dark:hover:text-brand-300">Molecular Architecture of Genes</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">DNA Replication and Repair</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">DNA replication and repair: replisome, polymerases, MMR, NER, BER, and double-strand break repair</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Every human cell division copies ~6 billion base pairs at fork rates of around 1&ndash;2 kb per minute. The fidelity demanded of that copy &mdash; ~1 mistake per 10<sup>9</sup>&ndash;10<sup>10</sup> nucleotides after proofreading and repair &mdash; is the product of a layered system: licensed origins, replicative polymerases with proofreading exonucleases, post-replicative mismatch repair, and damage-specific repair pathways for lesions introduced by metabolism, radiation, and chemicals. This page covers the replisome and the four major repair pathways, and connects each to its associated genetic conditions.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>14 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Replication is licensed in G1 by ORC and the MCM2-7 helicase, fired in S phase, and executed by the replisome &mdash; CMG helicase, Pol &alpha;-primase, Pol &epsilon; on the leading strand, Pol &delta; on the lagging strand, PCNA, FEN1, and DNA ligase 1. Repair is layered: mismatch repair corrects post-replicative errors (Lynch syndrome biology); nucleotide excision repair removes bulky helix-distorting lesions (xeroderma pigmentosum); base excision repair handles small base lesions; double-strand breaks are repaired by homologous recombination (BRCA1/BRCA2/RAD51) or non-homologous end joining (KU70/80, DNA-PKcs, LIG4).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Origin licensing and firing</h2>
+
+            <p>Replication initiates at thousands of origins distributed across each chromosome. In late mitosis and through G1, the six-subunit origin recognition complex (ORC1&ndash;ORC6) binds DNA at potential origins, recruits CDC6 and CDT1, and loads the inactive MCM2-7 helicase as a head-to-head double hexamer encircling double-stranded DNA. This is licensing &mdash; the loading is permitted only when CDK activity is low. At the G1/S transition, the Dbf4-dependent kinase (DDK) and S-phase cyclin-CDK activities phosphorylate MCM subunits and recruit CDC45 and the four-subunit GINS complex to convert each MCM2-7 hexamer into a CMG (CDC45-MCM-GINS) helicase. CMG opens the duplex and translocates 3'&rarr;5' on the leading-strand template. Once-per-cell-cycle replication is enforced by the strict temporal separation of licensing (low CDK) and firing (high CDK). <a href="https://pubmed.ncbi.nlm.nih.gov/12045100/" rel="noopener">Bell and Dutta 2002</a> remains a canonical review of eukaryotic origin biology.</p>
+
+            <p>Origin choice in metazoans is flexible. Most mammalian origins are not strictly sequence-defined &mdash; they are populations of potential origins, only a fraction of which fire in any given cell cycle. Replication timing across the genome is highly reproducible: A-compartment chromatin replicates early, B-compartment late, with replication-timing domains coinciding partially with TADs.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The replisome</h2>
+
+            <p>At a fork, the replisome carries: the CMG helicase unwinding the duplex; Pol &alpha;-primase synthesising short RNA-DNA hybrid primers (~25&ndash;30 nucleotides) on each Okazaki fragment; Pol &epsilon; (epsilon) extending the leading strand continuously; Pol &delta; (delta) extending each lagging-strand Okazaki fragment to the next; PCNA loaded by RFC as the sliding clamp that tethers Pol &delta;/&epsilon; to DNA; FEN1 cleaving the 5' flap as Pol &delta; reaches the previous fragment; and DNA ligase 1 sealing the resulting nick. Topoisomerase I and II act ahead of and behind the fork to relieve positive supercoiling and decatenate sister chromatids.</p>
+
+            <p>The four families of human replicative and repair polymerases:</p>
+
+            <ul>
+                <li><strong>Pol &alpha; (POLA1 catalytic, plus PRIM1/PRIM2 primase, POLA2 accessory)</strong>: primer synthesis. Low fidelity; lacks a proofreading exonuclease. Each Okazaki fragment begins with a Pol &alpha; primer of ~25&ndash;30 nucleotides which is later excised by FEN1.</li>
+                <li><strong>Pol &delta; (POLD1 catalytic, POLD2/3/4 accessory)</strong>: lagging-strand replication and intermediate repair. High fidelity; carries a 3'&rarr;5' proofreading exonuclease. Germline POLD1 exonuclease-domain pathogenic variants are associated with polymerase-proofreading-associated polyposis.</li>
+                <li><strong>Pol &epsilon; (POLE catalytic, POLE2/3/4 accessory)</strong>: leading-strand replication. High fidelity; 3'&rarr;5' proofreading exonuclease. Germline POLE exonuclease-domain pathogenic variants similarly produce polymerase-proofreading polyposis.</li>
+                <li><strong>Pol &beta; (POLB)</strong>: short-patch base excision repair. No proofreading. Gap-filling polymerase.</li>
+                <li><strong>Pol &eta;, &kappa;, &iota;, &zeta;, REV1, &nu;, &theta;, &mu;, &lambda;</strong>: translesion synthesis and specialised repair. Pol &eta; (POLH) bypasses UV-induced cyclobutane pyrimidine dimers; loss of Pol &eta; causes the variant form of xeroderma pigmentosum (XP-V).</li>
+                <li><strong>Pol &gamma; (POLG)</strong>: mitochondrial DNA replication. POLG variants are associated with several mitochondrial disorders including Alpers syndrome and progressive external ophthalmoplegia.</li>
+            </ul>
+
+            <p>Polymerase fidelity is reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/10966476/" rel="noopener">Kunkel and Bebenek 2000</a>. Replicative polymerases achieve a base-substitution error rate of ~10<sup>&minus;5</sup> per base; with proofreading, ~10<sup>&minus;7</sup>; with mismatch repair downstream, ~10<sup>&minus;9</sup> to 10<sup>&minus;10</sup>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Lagging-strand mechanics: Okazaki fragments</h2>
+
+            <p>Because all DNA polymerases extend 5'&rarr;3', the lagging strand cannot be copied continuously. Each segment of the lagging strand is initiated by a Pol &alpha; primer and extended by Pol &delta; until it reaches the 5' end of the previous fragment, where Pol &delta; performs limited strand displacement to create a 5' flap. FEN1 cleaves the flap and DNA ligase 1 seals the resulting nick. The Okazaki fragment is the unit of lagging-strand synthesis; in mammalian cells, fragment length matches roughly one nucleosome (~165 bp), reflecting the integration of replisome and chromatin assembly.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Fork stalling, collapse, and restart</h2>
+
+            <p>Replication forks routinely encounter obstacles: damaged template bases, transcription complexes, R-loops, repetitive sequences, and protein-bound DNA. A stalled fork is initially stabilised by ATR-CHK1 signalling, which suppresses late origin firing, stabilises replication-protein A (RPA) on exposed single-stranded DNA, and allows time for repair. Persistent stalling can lead to fork reversal (regression of the fork into a four-way "chicken-foot" intermediate, a controlled state that can be restarted) or fork collapse (loss of the replisome, often accompanied by a one-ended double-strand break). Restart pathways depend on context: BRCA1/BRCA2/RAD51-mediated homologous recombination is the principal restart route; the FANC pathway processes interstrand crosslinks; Pol &eta; and other translesion polymerases bypass small-footprint lesions in a tolerance pathway that may leave a damaged base for later repair.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mismatch repair and the Lynch-syndrome pathway</h2>
+
+            <p>Mismatch repair (MMR) corrects post-replicative errors that escape polymerase proofreading: single base-base mismatches and short insertion-deletion loops at slipped repeats. The pathway is conserved from <em>E. coli</em> MutS/MutL/MutH to the eukaryotic MutS&alpha; / MutS&beta; / MutL&alpha; system. In humans:</p>
+
+            <ul>
+                <li><strong>MutS&alpha; (MSH2-MSH6)</strong>: recognises base-base mismatches and small insertion-deletion loops (1&ndash;2 nucleotides).</li>
+                <li><strong>MutS&beta; (MSH2-MSH3)</strong>: recognises larger insertion-deletion loops.</li>
+                <li><strong>MutL&alpha; (MLH1-PMS2)</strong>: recruited by MutS, has endonuclease activity that nicks the daughter strand to license excision and resynthesis.</li>
+                <li><strong>EXO1, RPA, Pol &delta;, DNA ligase 1</strong>: process the nick into an excised tract, resynthesise across the gap, and seal.</li>
+            </ul>
+
+            <p>Strand discrimination in eukaryotic MMR uses pre-existing nicks on the nascent strand (the most recent replication-fork nick on the lagging strand and a similar signal on the leading strand) rather than the methylation-based GATC discrimination used by <em>E. coli</em> MutH. Mechanism is reviewed by <a href="https://pubmed.ncbi.nlm.nih.gov/16905530/" rel="noopener">Modrich 2006</a>; biological context by <a href="https://pubmed.ncbi.nlm.nih.gov/18406447/" rel="noopener">Hsieh and Yamane 2008</a>.</p>
+
+            <p>Heterozygous germline pathogenic variants in MLH1, MSH2, MSH6, or PMS2 (or in EPCAM, which silences MSH2 in cis) underlie <strong>Lynch syndrome</strong>. Tumours from MMR-deficient cells exhibit microsatellite instability (slipped-strand insertions and deletions at simple-sequence repeats) and a high tumour mutation burden. Lynch syndrome is associated with elevated lifetime risk of colorectal, endometrial, ovarian, gastric, urinary-tract, pancreatic, brain, hepatobiliary, and small-bowel cancers. The educational <a href="lynch-syndrome-risk-calculator.html">Lynch syndrome risk calculator</a> page on this site illustrates how published family-history risk models (MMRpro from the BayesMendel suite; PREMM5; and family-history scoring) can be implemented for research and teaching purposes; outputs are illustrative and not a clinical recommendation.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Nucleotide excision repair and xeroderma pigmentosum</h2>
+
+            <p>Nucleotide excision repair (NER) removes bulky, helix-distorting lesions that span the duplex: UV-induced cyclobutane pyrimidine dimers and 6-4 photoproducts, bulky chemical adducts (benzo[a]pyrene-DNA, cisplatin), and several oxidatively generated lesions. NER has two sub-pathways that converge on the same downstream machinery:</p>
+
+            <ul>
+                <li><strong>Global genome NER</strong>: lesion detection by XPC-RAD23B (with UV-DDB / DDB1-DDB2 enhancing detection of UV photoproducts in chromatin).</li>
+                <li><strong>Transcription-coupled NER</strong>: lesion detection through stalled RNA polymerase II, with CSA and CSB recruiting the downstream machinery; defects produce Cockayne syndrome.</li>
+            </ul>
+
+            <p>Both routes recruit TFIIH (containing the XPB and XPD helicases), which opens a ~25&ndash;30 nt bubble around the lesion. XPA verifies the lesion. RPA coats the undamaged strand. Two structure-specific endonucleases &mdash; XPF-ERCC1 (5' incision) and XPG (3' incision) &mdash; excise an oligonucleotide containing the lesion. Pol &delta; or Pol &epsilon; with PCNA fills the gap, and DNA ligase 1 or LIG3 seals it.</p>
+
+            <p>Germline biallelic loss-of-function variants in XPA, XPB (ERCC3), XPC, XPD (ERCC2), XPE (DDB2), XPF (ERCC4), XPG (ERCC5), or in POLH (XP-V) cause <strong>xeroderma pigmentosum</strong>. NER is reviewed by <a href="https://pubmed.ncbi.nlm.nih.gov/10583944/" rel="noopener">Lindahl and Wood 1999</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Base excision repair</h2>
+
+            <p>Base excision repair (BER) handles small base lesions that do not greatly distort the helix: oxidised bases (8-oxoguanine), deaminated bases (uracil from cytosine deamination), alkylated bases, and abasic sites. The pathway begins with a damage-specific DNA glycosylase (OGG1 for 8-oxoguanine, UNG for uracil, MUTYH for adenine paired with 8-oxoguanine, MPG for 3-methyladenine, several others), which cleaves the N-glycosidic bond and releases the damaged base, leaving an abasic site. AP endonuclease 1 (APE1) cleaves the backbone 5' to the abasic site. Short-patch BER fills a single nucleotide using Pol &beta; and seals with the XRCC1-LIG3 complex; long-patch BER displaces 2&ndash;10 nucleotides using Pol &delta; and PCNA, with FEN1 cleaving the displaced flap and DNA ligase 1 sealing.</p>
+
+            <p>Germline biallelic pathogenic variants in MUTYH cause MUTYH-associated polyposis (a recessive colorectal cancer predisposition). MUTYH removes adenine mis-incorporated opposite 8-oxoguanine, an oxidative lesion abundant in high-replication tissues. <a href="https://pubmed.ncbi.nlm.nih.gov/19847258/" rel="noopener">Jackson and Bartek 2009</a> review the integrated DNA damage response.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Double-strand break repair: HR vs NHEJ</h2>
+
+            <p>Double-strand breaks (DSBs) are produced by ionising radiation, replication fork collapse, programmed events at meiosis (SPO11), V(D)J recombination at immunoglobulin loci, and topoisomerase failure. Two principal pathways repair DSBs in mammalian cells.</p>
+
+            <p><strong>Homologous recombination (HR)</strong>. Active in S and G2 phases when a sister chromatid is available as a template. The DNA ends are recognised by the MRE11-RAD50-NBN (MRN) complex, which recruits ATM kinase. CtIP, BRCA1, and EXO1/DNA2 perform 5'&rarr;3' end resection to generate long 3' single-stranded overhangs, initially coated by RPA. BRCA2 (via PALB2 and BRCA1) loads the RAD51 recombinase onto the resected ends, displacing RPA. The RAD51 nucleoprotein filament searches for and invades a homologous duplex, capturing the sister chromatid as a template for repair. After D-loop formation and synthesis, the resulting joint molecule is resolved by Holliday-junction processing or synthesis-dependent strand annealing. HR is essentially error-free.</p>
+
+            <p>Heterozygous germline pathogenic variants in BRCA1, BRCA2, PALB2, RAD51C, RAD51D, and several other HR components are associated with elevated lifetime risk of breast, ovarian, pancreatic, and prostate cancers. The educational pedigree-modelling pages for <a href="brcapro-calculator.html">BRCAPRO</a>, <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk assessment</a>, and <a href="breast-cancer-family-history-calculator.html">breast cancer family history</a> illustrate how published Mendelian-risk and family-history models can be implemented; outputs are illustrative and for research and teaching only. BOADICEA is licensed by the University of Cambridge and is not bundled in Evagene; the platform exports a `##CanRisk 2.0` pedigree file for upload at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a> when BOADICEA computation is wanted. The Tyrer-Cuzick implementation is an IBIS-style approximation of the published Tyrer/Duffy/Cuzick 2004 algorithm, not the official IBIS Breast Cancer Risk Evaluator binary.</p>
+
+            <p><strong>Non-homologous end joining (NHEJ)</strong>. Active throughout the cell cycle; the dominant DSB-repair pathway in G1 and in non-cycling cells. The KU70-KU80 (XRCC6-XRCC5) heterodimer binds the broken ends and recruits DNA-PKcs (PRKDC) to form the DNA-PK holoenzyme. Artemis (DCLRE1C) processes hairpin-capped or otherwise blocked ends. Pol &mu; and Pol &lambda; perform any minimal gap-filling. The XRCC4-LIG4-XLF complex ligates the ends. NHEJ can introduce small insertions or deletions at the junction and is the basis for V(D)J recombination at immunoglobulin and T-cell-receptor loci. Germline pathogenic variants in LIG4, NHEJ1 (XLF), DCLRE1C, and PRKDC cause radiosensitive severe combined immunodeficiency phenotypes and the related LIG4 syndrome.</p>
+
+            <p>Pathway choice between HR and NHEJ is regulated by cell-cycle phase (CDK activity drives end resection in S/G2), chromatin context, and the antagonistic activities of 53BP1-RIF1-Shieldin (favouring NHEJ) and BRCA1-CtIP (favouring resection and HR).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why this matters for pedigree-modelling teaching</h2>
+
+            <p>The repair pathway underlying a cancer-predisposition syndrome dictates the molecular signature of the tumour, the kinds of variants likely to be observed in the family, and the structure of the published risk models that are taught alongside pedigree analysis. Mismatch repair deficiency produces microsatellite instability and underlies the family-history pattern characteristic of <a href="lynch-syndrome-risk-calculator.html">Lynch syndrome</a>. Homologous recombination deficiency underlies the breast-and-ovarian-cancer family-history pattern characteristic of <a href="brcapro-calculator.html">BRCAPRO</a> and BOADICEA. Evagene's pedigree-modelling tools are educational and research tools; outputs from any of the 20 implemented risk models are illustrative and not a clinical recommendation. See also the companion pages on <a href="dna-and-chromatin-organization.html">DNA and chromatin organisation</a> and <a href="genome-structure-and-variation.html">genome structure and variation</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Key references</h2>
+
+            <ul>
+                <li>Bell SP, Dutta A. DNA replication in eukaryotic cells. <em>Annu Rev Biochem</em> 71:333&ndash;374 (2002). <a href="https://pubmed.ncbi.nlm.nih.gov/12045100/" rel="noopener">PMID 12045100</a>.</li>
+                <li>Kunkel TA, Bebenek K. DNA replication fidelity. <em>Annu Rev Biochem</em> 69:497&ndash;529 (2000). <a href="https://pubmed.ncbi.nlm.nih.gov/10966476/" rel="noopener">PMID 10966476</a>.</li>
+                <li>Modrich P. Mechanisms in eukaryotic mismatch repair. <em>J Biol Chem</em> 281:30305&ndash;30309 (2006). <a href="https://pubmed.ncbi.nlm.nih.gov/16905530/" rel="noopener">PMID 16905530</a>.</li>
+                <li>Hsieh P, Yamane K. DNA mismatch repair: molecular mechanism, cancer, and ageing. <em>Mech Ageing Dev</em> 129:391&ndash;407 (2008). <a href="https://pubmed.ncbi.nlm.nih.gov/18406447/" rel="noopener">PMID 18406447</a>.</li>
+                <li>Lindahl T, Wood RD. Quality control by DNA repair. <em>Science</em> 286:1897&ndash;1905 (1999). <a href="https://pubmed.ncbi.nlm.nih.gov/10583944/" rel="noopener">PMID 10583944</a>.</li>
+                <li>Jackson SP, Bartek J. The DNA-damage response in human biology and disease. <em>Nature</em> 461:1071&ndash;1078 (2009). <a href="https://pubmed.ncbi.nlm.nih.gov/19847258/" rel="noopener">PMID 19847258</a>.</li>
+                <li>OMIM: <a href="https://omim.org/entry/120435" rel="noopener">Lynch syndrome (120435)</a>; <a href="https://omim.org/entry/278700" rel="noopener">Xeroderma pigmentosum complementation group A (278700)</a>; <a href="https://omim.org/entry/113705" rel="noopener">BRCA1 (113705)</a>; <a href="https://omim.org/entry/600185" rel="noopener">BRCA2 (600185)</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What licenses replication origins?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">ORC, CDC6, and CDT1 load the inactive MCM2-7 helicase as a double hexamer in G1; DDK and CDK activate firing in S phase by recruiting CDC45 and GINS to form CMG.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Which polymerase replicates the leading strand?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">DNA polymerase &epsilon; (epsilon) is the principal leading-strand polymerase in humans. The lagging strand is synthesised mainly by Pol &delta;, with each Okazaki fragment primed by Pol &alpha;-primase.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is mismatch repair and how does it relate to Lynch syndrome?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">MMR corrects post-replicative base-base mismatches and short insertion-deletion loops; the human pathway uses MutS&alpha; (MSH2-MSH6), MutS&beta; (MSH2-MSH3), and MutL&alpha; (MLH1-PMS2). Heterozygous germline pathogenic variants in these genes (or EPCAM) cause Lynch syndrome.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the difference between HR and NHEJ?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">HR uses a sister chromatid as a template, requires end resection, is restricted to S/G2, and is BRCA1/BRCA2/RAD51-dependent; it is essentially error-free. NHEJ ligates broken ends directly using KU70/80, DNA-PKcs, Artemis, XRCC4, XLF, and LIG4; it operates throughout the cell cycle and can introduce small insertions or deletions.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is xeroderma pigmentosum?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A rare recessive disorder caused by germline biallelic loss-of-function variants in any of seven NER genes (XPA-XPG) or in POLH (XP-V), characterised by extreme photosensitivity and a high cumulative incidence of UV-induced skin cancers.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="molecular-architecture-of-genes.html">Molecular architecture of genes</a> (pillar)</li>
+                <li><a href="dna-and-chromatin-organization.html">DNA and chromatin organisation</a></li>
+                <li><a href="genome-structure-and-variation.html">Genome structure and variation</a></li>
+                <li><a href="lynch-syndrome-risk-calculator.html">Lynch syndrome risk calculator</a></li>
+                <li><a href="brcapro-calculator.html">BRCAPRO calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="mmrpro-calculator.html">MMRpro calculator</a></li>
+                <li><a href="pancpro-calculator.html">PancPRO calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree modelling platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, 20 published risk models for research and teaching, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. Not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="molecular-architecture-of-genes.html" class="hover:text-white transition-colors">Molecular architecture of genes</a></li><li><a href="dna-and-chromatin-organization.html" class="hover:text-white transition-colors">DNA &amp; chromatin organisation</a></li><li><a href="genome-structure-and-variation.html" class="hover:text-white transition-colors">Genome structure &amp; variation</a></li><li><a href="lynch-syndrome-risk-calculator.html" class="hover:text-white transition-colors">Lynch syndrome calculator</a></li><li><a href="brcapro-calculator.html" class="hover:text-white transition-colors">BRCAPRO calculator</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

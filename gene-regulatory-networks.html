@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gene Regulatory Networks — Motifs, Feedback, ncRNAs, Perturb-seq | Evagene</title>
+    <meta name="description" content="Educational guide to gene regulatory networks: feed-forward loops, negative feedback, bistability, network motifs (Milo et al. 2002), microRNAs and lncRNAs (XIST, HOTAIR, MALAT1), CRISPR perturbation screens, and Perturb-seq.">
+    <meta name="keywords" content="gene regulatory networks, GRN, network motifs, feed-forward loop, negative feedback, bistability, Lac operon, p53 oscillator, NF-kB, circadian clock, microRNA, lncRNA, XIST, HOTAIR, MALAT1, CRISPR screen, Perturb-seq, single-cell RNA-seq, network inference">
+
+    <meta property="og:title" content="Gene Regulatory Networks — Motifs, Feedback, ncRNAs, Perturb-seq | Evagene">
+    <meta property="og:description" content="An educational deep-dive into gene regulatory network structure, feedback dynamics, non-coding RNAs in regulation, and the modern CRISPR-perturbation toolkit.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/gene-regulatory-networks">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gene Regulatory Networks — Motifs, Feedback, ncRNAs, Perturb-seq">
+    <meta name="twitter:description" content="Network motifs, feedback, bistability, miRNAs, lncRNAs, CRISPR screens, Perturb-seq — educational guide.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/gene-regulatory-networks">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Gene Regulatory Networks: Motifs, Feedback, Non-coding RNAs, and Perturb-seq",
+        "description":"An educational deep-dive into the system-level architecture of gene regulation: feed-forward loops, negative-feedback oscillators, bistable switches, network motifs, microRNAs and long non-coding RNAs, CRISPR-based perturbation screens, and Perturb-seq.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/gene-regulatory-networks"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["gene regulatory networks","GRN","network motifs","feed-forward loop","feedback","bistability","Lac operon","microRNA","lncRNA","Perturb-seq","CRISPR screen","single-cell RNA-seq"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Gene Regulatory Networks",
+        "description":"Educational deep-dive into network motifs, feedback dynamics, non-coding RNAs in regulation, and the modern CRISPR-perturbation toolkit.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Undergraduate, Postgraduate",
+        "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+        "inLanguage":"en-GB",
+        "url":"https://evagene.com/gene-regulatory-networks",
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "isPartOf":{"@type":"CreativeWork","name":"Regulation of Gene Activity","url":"https://evagene.com/regulation-of-gene-activity"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Education","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Regulation of Gene Activity","item":"https://evagene.com/regulation-of-gene-activity"},
+            {"@type":"ListItem","position":4,"name":"Gene Regulatory Networks","item":"https://evagene.com/gene-regulatory-networks"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is a gene regulatory network?","acceptedAnswer":{"@type":"Answer","text":"A gene regulatory network (GRN) is the directed graph of regulatory relationships in which transcription factors and non-coding RNAs are nodes, and the regulatory effect of one node on another (activation or repression) is an edge. The network determines how the system responds dynamically to inputs over time."}},
+            {"@type":"Question","name":"What is a feed-forward loop?","acceptedAnswer":{"@type":"Answer","text":"A feed-forward loop is a three-node motif in which an upstream regulator activates (or represses) both a downstream target and an intermediate, with the intermediate also acting on the downstream target. Mangan and Alon (2003 PNAS 100:11980) characterised the eight FFL types and their dynamical properties; the coherent FFL filters out short input pulses while the incoherent FFL accelerates response or generates pulses."}},
+            {"@type":"Question","name":"What is bistability?","acceptedAnswer":{"@type":"Answer","text":"Bistability is the dynamical property by which a network has two stable steady states between which it can switch in response to an input but in which it persists once a state is established. The Lac operon and phage lambda lysis/lysogeny decision are canonical examples; Ozbudak and colleagues (2004) demonstrated bistability quantitatively in the Lac system."}},
+            {"@type":"Question","name":"What is a microRNA?","acceptedAnswer":{"@type":"Answer","text":"A microRNA is a small (~22 nt) non-coding RNA that pairs with sequences in the 3' untranslated region of target mRNAs and recruits the silencing machinery to reduce translation and/or transcript stability. Bartel (2018 Cell 173:20) is the canonical review."}},
+            {"@type":"Question","name":"What is Perturb-seq?","acceptedAnswer":{"@type":"Answer","text":"Perturb-seq is a method that combines CRISPR-based gene perturbation with single-cell RNA sequencing, allowing the transcriptional consequences of thousands of single-gene perturbations to be read out simultaneously at single-cell resolution. Dixit et al. (2016 Cell 167:1853) introduced the approach; Replogle et al. (2022 Cell 185:2559) scaled it to genome-wide perturbation atlases."}},
+            {"@type":"Question","name":"Is this a clinical resource?","acceptedAnswer":{"@type":"Answer","text":"No. Evagene is an academic, research, and educational pedigree modelling platform. This page is educational content for students, researchers, and educators; it is not medical advice and does not constitute clinical decision support."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="regulation-of-gene-activity.html" class="hover:text-brand-600 dark:hover:text-brand-300">Regulation of Gene Activity</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Gene Regulatory Networks</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Gene regulatory networks: motifs, feedback, non-coding RNAs, and Perturb-seq</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">An educational deep-dive into the system-level architecture of gene regulation. Covers GRN structure, recurrent network motifs (feed-forward loops, negative feedback, autoregulation), bistability and the canonical biological switches, microRNAs and long non-coding RNAs as regulatory players, and the modern CRISPR-perturbation experimental toolkit (Perturb-seq, single-cell RNA-seq, genome-wide functional screens). Written for students, researchers, and educators.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>10 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> A gene regulatory network is the directed graph in which transcription factors and regulatory RNAs are nodes and their regulatory effects are edges. Network topology is non-random: a small set of motifs &mdash; feed-forward loops, negative-feedback oscillators, bistable switches, autoregulation &mdash; recur far more often than expected by chance. These motifs have characteristic dynamical properties (filtering, oscillation, switching, response acceleration), and each is realised in canonical biological systems: the Lac operon, phage lambda, NF-&kappa;B, p53, the circadian clock. Modern perturbation methods such as Perturb-seq read network responses to thousands of single-gene knockdowns at single-cell resolution.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">From cis-elements to networks</h2>
+
+            <p>The cis- and trans-element view of regulation (covered in <a href="cis-and-trans-regulatory-elements.html">cis- and trans-regulatory elements</a>) is local: a transcription factor binds an enhancer; the enhancer contacts a promoter; the target gene is transcribed. The network view zooms out. The transcription factor itself is the product of another regulated gene, whose enhancer is bound by yet other transcription factors, and so on. The result is a directed graph in which each node is a regulator and each edge encodes an activating or repressive regulatory relationship. This is a gene regulatory network (GRN). The GRN is the substrate on which the system's dynamics &mdash; how it responds to input over time &mdash; play out.</p>
+
+            <p>The conceptual roots of GRN thinking are again in the work of Jacob and Monod (<a href="https://pubmed.ncbi.nlm.nih.gov/13718526/" rel="noopener">Jacob &amp; Monod 1961, J Mol Biol 3:318</a>). Their operon model contained the smallest possible GRN: two repressor states (bound to operator vs sequestered by inducer) generating two transcriptional outputs. Adding more components &mdash; multiple operons, cross-regulation, autoregulation &mdash; expands the network and produces qualitatively new behaviours such as bistability, oscillation, and pattern formation. Eric Davidson's developmental GRNs in sea-urchin embryogenesis and Uri Alon's work on bacterial transcription networks established the modern theoretical and empirical framework.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Network motifs</h2>
+
+            <p>Milo, Shen-Orr, Itzkovitz, Kashtan, Chklovskii, and Alon (Milo et al. 2002, Science 298:824) showed that across diverse networks &mdash; transcriptional, protein-protein interaction, neuronal &mdash; certain small sub-graph patterns occur far more often than they would in randomised networks with the same node-degree distribution. These statistically over-represented patterns were called <strong>network motifs</strong>. The most extensively studied motifs in GRNs are:</p>
+
+            <ul>
+                <li><strong>Feed-forward loop (FFL)</strong>. A three-node motif in which X regulates both Y and Z, and Y also regulates Z. Eight types of FFL exist depending on the sign (activating or repressing) of each edge. Mangan and Alon (Mangan &amp; Alon 2003, PNAS 100:11980) classified them into coherent (signs of the two paths from X to Z agree) and incoherent (signs disagree) variants. The coherent FFL with AND-logic at Z acts as a sign-sensitive delay element that filters out short input pulses. The incoherent FFL accelerates response or generates a transient pulse. Both are over-represented in real transcription networks.</li>
+                <li><strong>Single-input module (SIM)</strong>. One regulator controls a group of targets, with no other regulators in common. Used for coordinated, ordered expression of a regulon (e.g. the SOS response in <em>E. coli</em>).</li>
+                <li><strong>Dense overlapping regulons (DOR)</strong>. A set of regulators jointly controls a set of overlapping targets &mdash; the typical architecture of higher-level regulatory layers.</li>
+                <li><strong>Negative autoregulation</strong>. A transcription factor represses its own expression, accelerating response time and reducing steady-state noise. Seen for many bacterial transcription factors.</li>
+                <li><strong>Positive autoregulation</strong>. A transcription factor activates its own expression. Combined with negative regulation by another factor, this is the basic ingredient of bistability and cell-fate switches.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Negative feedback and oscillators</h2>
+
+            <p>A negative-feedback loop &mdash; X activates Y, and Y represses X &mdash; produces homeostasis when fast and oscillation when delayed. Several canonical mammalian regulatory systems are negative-feedback oscillators. <strong>NF-&kappa;B</strong> is activated by inflammatory signals, induces transcription of its inhibitor I&kappa;B&alpha;, which then sequesters NF-&kappa;B back to the cytoplasm; the resulting oscillation is observed in single-cell imaging on a 100-minute timescale. <strong>p53</strong> is induced by DNA damage and induces its inhibitor MDM2, generating digital pulses of p53 activity following damage. The <strong>circadian clock</strong> in mammals is built around the negative-feedback loop in which CLOCK/BMAL1 induces transcription of <em>Per</em> and <em>Cry</em>, and PER/CRY proteins return to the nucleus to repress CLOCK/BMAL1, generating ~24 h oscillation. In each case the period and amplitude of oscillation is set by the transcription, translation, and degradation kinetics of the components.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Bistability and switches</h2>
+
+            <p>A circuit with positive feedback and sufficient cooperativity (or with mutual repression between two factors) can support two stable steady states for the same parameters &mdash; bistability. Bistable systems exhibit hysteresis and serve as molecular memory: once the system has flipped from one state to the other, it persists in that state in the absence of the original input. Two canonical examples:</p>
+
+            <ul>
+                <li><strong>The Lac operon</strong>. The positive-feedback loop is established by lactose permease (LacY), which imports more inducer once expressed; the steady state is bistable in a defined range of inducer concentrations. Ozbudak and colleagues (2004) demonstrated this quantitatively at the single-cell level using fluorescent reporters, showing the predicted hysteresis loop directly.</li>
+                <li><strong>Phage lambda lysis/lysogeny decision</strong>. The mutual repression between the cI repressor (lysogenic state) and the Cro repressor (lytic state) generates a bistable switch in which the phage commits to one developmental fate or the other based on host-cell physiology and multiplicity of infection. Phage lambda is the textbook example of a developmental binary decision implemented as a bistable molecular switch.</li>
+            </ul>
+
+            <p>Beyond these two, bistability underlies many cell-fate decisions in development &mdash; the choice between erythroid and myeloid lineages, between Th1 and Th2 T-helper subsets, between progenitor self-renewal and differentiation. The general principle is that mutual cross-repression between lineage-defining transcription factors, combined with cell-autonomous positive feedback, produces a bistable two-state system.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">microRNAs as regulatory layer</h2>
+
+            <p>MicroRNAs (miRNAs) are short (~22 nt) non-coding RNAs that pair with partially complementary sites in the 3&prime; untranslated regions of target mRNAs and recruit the Argonaute-containing RNA-induced silencing complex to reduce translation and/or accelerate transcript decay. A single miRNA typically targets hundreds of mRNAs simultaneously, and a typical mRNA is targeted by multiple miRNAs &mdash; producing a many-to-many regulatory layer overlaid on the transcription-factor network. The biology has been thoroughly reviewed by David Bartel (<a href="https://pubmed.ncbi.nlm.nih.gov/29570994/" rel="noopener">Bartel 2018, Cell 173:20</a>). miRNAs frequently participate in network motifs &mdash; coherent and incoherent feed-forward loops with transcription factors are common &mdash; and contribute to noise reduction and to robust binary cell-fate decisions in many developmental contexts.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Long non-coding RNAs</h2>
+
+            <p>Long non-coding RNAs (lncRNAs) are transcripts longer than 200 nt that do not encode functional proteins. Mammalian genomes transcribe tens of thousands of lncRNAs, of which a few hundred have been functionally characterised in detail. Quinn and Chang (<a href="https://pubmed.ncbi.nlm.nih.gov/26666209/" rel="noopener">Quinn &amp; Chang 2016, Nat Rev Genet 17:47</a>) reviewed the evidence and the analytical strategies. Three lncRNAs deserve mention as canonical examples:</p>
+
+            <ul>
+                <li><strong>XIST</strong>. The master regulator of X-inactivation. Coats the inactive X in cis, recruits Polycomb and SPEN-HNRNPK-LBR machinery, establishes a heritable silenced state across an entire chromosome.</li>
+                <li><strong>HOTAIR</strong>. Transcribed from the HOXC locus, recruits PRC2 in trans to silence the HOXD locus. A canonical example of a lncRNA acting as a chromatin-modifier scaffold; HOTAIR over-expression has been associated with metastasis in several research cancer contexts.</li>
+                <li><strong>MALAT1</strong>. Highly abundant nuclear-localised lncRNA that interacts with splicing-factor speckles and regulates alternative splicing of a defined set of pre-mRNAs.</li>
+            </ul>
+
+            <p>More broadly, lncRNAs participate in regulatory networks as scaffolds that recruit chromatin-modifying complexes to specific loci, as decoys that titrate transcription factors or miRNAs, and as transcribed enhancer-RNA-like elements whose own transcription contributes to active enhancer state. The functional interpretation of any individual lncRNA still typically requires direct biochemical and genetic experiments.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">CRISPR perturbation screens and Perturb-seq</h2>
+
+            <p>The classical strategy for inferring network structure was correlation-based: infer a regulatory edge between two genes if their expression correlates across many conditions. Correlation-based inference has known limits &mdash; it cannot distinguish direct from indirect regulation, and it cannot recover causality. The modern approach is direct perturbation at scale.</p>
+
+            <p>CRISPR-based pooled screens provide the perturbation. A library of guide RNAs &mdash; typically targeting all protein-coding genes (~20,000) or all transcription factors (~1,600) &mdash; is delivered at low multiplicity, so that each cell receives one perturbation. A phenotype is then read out at population scale (proliferation, apoptosis, differentiation, or, increasingly, transcriptional state).</p>
+
+            <p><strong>Perturb-seq</strong> couples CRISPR perturbation with single-cell RNA sequencing: each cell's transcriptome is sequenced together with the identity of the guide RNA it received, so that the transcriptional consequences of each perturbation are read out at single-cell resolution. The approach was introduced concurrently by Dixit and colleagues (<a href="https://pubmed.ncbi.nlm.nih.gov/27984732/" rel="noopener">Dixit et al. 2016, Cell 167:1853</a>) and by other groups (Adamson et al. 2016; Jaitin et al. 2016). Replogle and colleagues (<a href="https://pubmed.ncbi.nlm.nih.gov/35688146/" rel="noopener">Replogle et al. 2022, Cell 185:2559</a>) scaled the method to genome-wide perturbation atlases &mdash; perturbing every expressed gene in K562 and RPE-1 cells with CRISPR-interference and reading out the transcriptional consequences in millions of single cells. The result is the most direct map yet available of the human GRN: for each gene, a fingerprint of the transcriptional effects of its loss; for each fingerprint, a candidate position in a regulatory module.</p>
+
+            <p>Single-cell RNA-seq alone, even without explicit perturbation, supports a complementary class of network-inference methods. Pseudotime analysis orders cells along developmental trajectories; RNA-velocity inference uses the ratio of nascent (intronic) to mature transcripts to infer the direction of expression change; gene-regulatory-network inference methods such as SCENIC combine motif-enrichment in candidate target promoters with co-expression to nominate transcription-factor &mdash; target relationships.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why this matters for pedigree-level analysis</h2>
+
+            <p>Pedigree-based modelling is concerned with how phenotypes segregate across families, not with how regulatory networks compute. But network-level thinking helps explain several phenomena that pedigree analysis encounters: incomplete penetrance frequently reflects stochastic flipping of a bistable switch in a regulatory module containing the affected locus; oligogenic and polygenic inheritance reflects the convergence of many small effects through a regulatory network; the relationship between a coding variant and an organismal phenotype is mediated by network-level computation. The pillar <a href="regulation-of-gene-activity.html">regulation of gene activity</a> places this layer in its broader regulatory context; the companion pages on <a href="cis-and-trans-regulatory-elements.html">cis-regulatory elements</a> and <a href="epigenetics-and-chromatin-dynamics.html">epigenetics</a> cover the molecular substrates on which the network operates.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a gene regulatory network?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A directed graph in which transcription factors and non-coding regulatory RNAs are nodes, and the regulatory effect of one node on another (activation or repression) is an edge. The network determines how the system responds dynamically to input.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a feed-forward loop?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A three-node motif in which an upstream regulator activates (or represses) both a downstream target and an intermediate, with the intermediate also acting on the downstream target. Mangan and Alon 2003 classified the eight FFL types and their dynamics.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is bistability?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The dynamical property by which a network has two stable steady states between which it can switch but in which it persists once a state is established. The Lac operon and phage lambda are canonical examples.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a microRNA?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A small (~22 nt) non-coding RNA that pairs with sequences in the 3&prime; UTR of target mRNAs and recruits silencing machinery to reduce translation and transcript stability. Bartel 2018 is the canonical review.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is Perturb-seq?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A method that combines CRISPR-based gene perturbation with single-cell RNA sequencing, allowing the transcriptional consequences of thousands of single-gene perturbations to be measured simultaneously. Dixit et al. 2016 introduced it; Replogle et al. 2022 scaled it to genome-wide atlases.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is this a clinical resource?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. Evagene is an academic, research, and educational pedigree modelling platform. This page is educational content for students, researchers, and educators; it is not medical advice and does not constitute clinical decision support.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="regulation-of-gene-activity.html">Regulation of gene activity (pillar)</a></li>
+                <li><a href="cis-and-trans-regulatory-elements.html">Cis- and trans-regulatory elements</a></li>
+                <li><a href="epigenetics-and-chromatin-dynamics.html">Epigenetics and chromatin dynamics</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="complex-disease-pedigree-software.html">Complex disease pedigree software</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="regulation-of-gene-activity.html" class="hover:text-white transition-colors">Regulation pillar</a></li><li><a href="cis-and-trans-regulatory-elements.html" class="hover:text-white transition-colors">Cis/trans elements</a></li><li><a href="epigenetics-and-chromatin-dynamics.html" class="hover:text-white transition-colors">Epigenetics &amp; chromatin</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

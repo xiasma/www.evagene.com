@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Consequences of Mutation: LoF, GoF, Dominant Negative | Evagene</title>
+    <meta name="description" content="Educational reference on the functional consequences of mutation: loss of function, gain of function, dominant negative, haploinsufficiency, splice and regulatory variants, and allele-frequency interpretation with gnomAD.">
+    <meta name="keywords" content="functional consequences mutation, loss of function, LoF, gain of function, GoF, dominant negative, haploinsufficiency, recessive, FGFR3 G380R, achondroplasia, type I collagen, osteogenesis imperfecta, Alport syndrome, splice mutation, SpliceAI, regulatory variant, TERT promoter, eQTL, gnomAD, MacArthur 2014, Veitia 2002, Karczewski 2020">
+
+    <meta property="og:title" content="Functional Consequences of Mutation: LoF, GoF, Dominant Negative | Evagene">
+    <meta property="og:description" content="Educational reference covering loss-of-function and gain-of-function variants, dominant-negative effects, splice and regulatory mutations, and allele-frequency interpretation.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/functional-consequences-of-mutation">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Functional Consequences of Mutation: LoF, GoF, Dominant Negative">
+    <meta name="twitter:description" content="Loss of function, gain of function, dominant negative; splice and regulatory mutations; gnomAD allele-frequency interpretation.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/functional-consequences-of-mutation">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Functional Consequences of Mutation: Loss of Function, Gain of Function, Dominant Negative",
+        "description":"Educational reference on the functional consequences of mutation, covering loss of function, gain of function, dominant-negative effects, haploinsufficiency, splice and regulatory variation, and the use of population allele frequencies in variant interpretation.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/functional-consequences-of-mutation"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["functional consequences","loss of function","gain of function","dominant negative","haploinsufficiency","splice mutation","regulatory variation","gnomAD"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Functional Consequences of Mutation",
+        "description":"Educational subtopic page introducing the functional consequences of mutation, including loss of function, gain of function, dominant-negative, splice and regulatory variation.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Higher education",
+        "audience":{"@type":"Audience","audienceType":"Genetics students, researchers, clinicians, educators"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "isPartOf":{"@type":"CreativeWork","name":"Mutation Biology and Consequences","url":"https://evagene.com/mutation-biology-and-consequences"},
+        "url":"https://evagene.com/functional-consequences-of-mutation"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Mutation Biology","item":"https://evagene.com/mutation-biology-and-consequences"},
+            {"@type":"ListItem","position":3,"name":"Functional Consequences of Mutation","item":"https://evagene.com/functional-consequences-of-mutation"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="mutation-biology-and-consequences.html" class="hover:text-brand-600 dark:hover:text-brand-300">Mutation Biology</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Functional Consequences of Mutation</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Functional consequences of mutation</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">An educational reference on the functional consequences of mutation. The page covers loss of function, gain of function, dominant-negative effects, haploinsufficiency vs recessive inheritance, splice and regulatory variation, and the role of population allele frequency (gnomAD) in variant interpretation. Examples are drawn from the published literature and from canonical pedigree-textbook conditions.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>12 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> A variant's molecular consequence is one question; its functional consequence is another. Loss-of-function (LoF) variants reduce or abolish protein output: their phenotypic impact depends on whether one functional allele is enough (haploinsufficient genes produce dominant phenotypes from a single LoF variant; non-haploinsufficient genes need both alleles knocked out, producing a recessive phenotype). Gain-of-function variants change protein behaviour rather than removing it. Dominant-negative variants poison a multimeric complex with a defective subunit. Splice-site and regulatory variants act on the production rather than the protein product. Population allele frequency &mdash; from <a href="https://gnomad.broadinstitute.org/" rel="noopener">gnomAD</a> &mdash; is a foundational variant-interpretation input.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Loss of function</h2>
+
+            <p>Loss-of-function (LoF) variants reduce or abolish the protein product of the affected allele. The molecular categories are well defined: nonsense (premature termination codon), frameshift (insertion or deletion not a multiple of three), canonical splice-site disrupting (the GT donor or AG acceptor of an intron), large deletions removing an exon or the whole gene, and in some genes start-loss variants destroying the initiator methionine. Most LoF transcripts are degraded by nonsense-mediated decay (NMD), which surveys the position of the premature stop codon relative to the last exon-junction complex; transcripts whose stop falls in the last exon (or within ~50 nt of the final exon-junction complex) escape NMD and may produce truncated protein.</p>
+
+            <p>The systematic survey of LoF in healthy human exomes by <a href="https://pubmed.ncbi.nlm.nih.gov/24482476/" rel="noopener">MacArthur et al. 2014 (<em>Nature</em> 508:469)</a> showed that even healthy individuals carry roughly 100 LoF variants, of which approximately 20 affect both copies of a gene &mdash; a foundational observation that destroyed the assumption that any nonsense or frameshift variant is automatically pathogenic. The follow-up large-scale work, culminating in the <a href="https://pubmed.ncbi.nlm.nih.gov/32461654/" rel="noopener">gnomAD v2 paper (Karczewski et al. 2020, <em>Nature</em> 581:434)</a>, derived gene-level LoF intolerance metrics (LOEUF, the upper bound of the observed-to-expected ratio of LoF variants) that allow a researcher to ask whether a gene is depleted of LoF variation in the healthy population &mdash; a strong indicator that LoF is selected against and therefore likely to cause disease when it occurs.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Haploinsufficiency vs recessive</h2>
+
+            <p>Whether a single LoF allele produces a phenotype is a property of the gene. Genes with very tight dosage requirements (transcription factors at narrow concentration optima, structural proteins making fixed-stoichiometry complexes, secreted proteins where a 50&#37; reduction crosses a clinical threshold) are <strong>haploinsufficient</strong>: one wild-type allele is not enough, and a single LoF variant produces a dominant phenotype. Most genes are not haploinsufficient: a single LoF reduces output by 50&#37; without phenotypic consequence, and the disease state requires both alleles to be lost (autosomal recessive inheritance).</p>
+
+            <p>The conceptual framework for haploinsufficiency was articulated by <a href="https://pubmed.ncbi.nlm.nih.gov/11835283/" rel="noopener">Reiner Veitia in 2002 (<em>BioEssays</em> 24:175)</a>, building on earlier work by Sture Karlsson and others, and tied to the dosage-balance hypothesis: complexes assembled from multiple subunits in fixed ratios are vulnerable to changes in any one subunit's dose. The empirical mapping of haploinsufficient genes is now operationalised through gnomAD's pLI score (probability of LoF intolerance) and LOEUF metric, which rank genes by the strength of selection against LoF in the healthy population.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Gain of function</h2>
+
+            <p>Gain-of-function (GoF) variants change protein behaviour in a way that produces a phenotype. The mechanisms are heterogeneous: <strong>constitutive activation</strong> of a signalling component (the canonical example is FGFR3 G380R in <a href="achondroplasia-pedigree.html">achondroplasia</a> &mdash; a single recurrent missense substitution that produces ligand-independent receptor activation); <strong>novel function</strong>, where the mutant protein gains an activity its wild-type counterpart does not have (the polyglutamine-expanded huntingtin protein in Huntington disease is a paradigmatic example); <strong>increased expression or stability</strong>, where the same protein product accumulates to higher levels with phenotypic consequence; and <strong>change in localisation or partner specificity</strong>, where the mutant protein operates in the wrong cellular compartment or interacts with the wrong substrates.</p>
+
+            <p>Operationally, GoF variants are recognised by their tendency to recur at specific residues across unrelated families (a hotspot pattern that the underlying biology cannot explain by random LoF), by their inheritance (almost always dominant), and by the failure of LoF variants in the same gene to produce the same phenotype. <em>FGFR3</em> illustrates this clearly: G380R causes <a href="achondroplasia-pedigree.html">achondroplasia</a>, K650E and K650M cause thanatophoric dysplasia type II, and complete loss of <em>FGFR3</em> causes a different syndrome (CATSHL syndrome, with overgrowth) &mdash; a classic GoF/LoF dichotomy at the same locus.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Dominant-negative effects</h2>
+
+            <p>A dominant-negative (DN) variant is one whose mutant protein interferes with the function of the wild-type protein produced by the other allele &mdash; typically by being incorporated into a multimeric complex and destabilising it, or by binding a substrate non-productively and sequestering it. Dominant-negative variants behave like loss of function on the surface (the gene's activity is reduced), but they are more severe than simple haploinsufficiency, because the mutant subunit actively interferes rather than merely failing to contribute.</p>
+
+            <p>The canonical examples come from collagens. Type I collagen is a triple helix of two pro-&alpha;1 chains (encoded by <em>COL1A1</em>) and one pro-&alpha;2 chain (encoded by <em>COL1A2</em>); a glycine-substitution missense variant in either chain is incorporated into the helix and destabilises it, with three-quarters of helices containing at least one mutant chain. This is the molecular basis of <a href="osteogenesis-imperfecta-pedigree.html">osteogenesis imperfecta</a> types II, III, and IV. Type IV collagen, the principal protein of basement membranes, behaves similarly in Alport syndrome: glycine-substitution variants in <em>COL4A3</em>, <em>COL4A4</em>, or <em>COL4A5</em> destabilise the [&alpha;3.&alpha;4.&alpha;5] heterotrimer.</p>
+
+            <p>The TGF-&beta; pathway provides a second class of dominant-negative examples. Marfan syndrome is caused by missense variants in <em>FBN1</em> (fibrillin-1) that have both a structural-microfibril effect and a TGF-&beta;-pathway dysregulation effect. Loeys-Dietz syndrome (variants in <em>TGFBR1</em>, <em>TGFBR2</em>, <em>SMAD3</em>) shares pathway biology and produces a related connective-tissue phenotype with vascular involvement. Veitia's framework treats DN as the most severe of three dosage-related failure modes (haploinsufficiency, dominant-negative, and gain of function) of the same dosage-sensitive complex.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Splice mutations</h2>
+
+            <p>Most exons are flanked by canonical splice-site sequences: the GT donor at the 5&#8242; end of the intron, the AG acceptor at the 3&#8242; end, the branch-point adenosine inside the intron, and a polypyrimidine tract just upstream of the acceptor. Variants disrupting any of these tend to abolish or shift splicing of the affected exon. Beyond the canonical sites, splicing depends on a host of <strong>exonic splicing enhancers</strong> (ESEs), <strong>exonic splicing silencers</strong> (ESSs), <strong>intronic splicing enhancers</strong> (ISEs), and <strong>intronic splicing silencers</strong> (ISSs) recognised by SR proteins and hnRNPs; missense or synonymous variants that disrupt these can have a splicing effect indistinguishable in consequence from a canonical splice-site variant.</p>
+
+            <p>Predicting splicing impact has been transformed by deep learning. <a href="https://pubmed.ncbi.nlm.nih.gov/30661751/" rel="noopener">SpliceAI (Jaganathan et al. 2019, <em>Cell</em> 176:535)</a> is a residual neural network trained on intron/exon boundaries that scores any candidate variant for the probability of altering a splice site within a 10kb window; SpliceAI has been incorporated into ACMG/AMP supplementary frameworks (the ClinGen splicing-impact framework of Walker et al. 2023). The practical effect is that variants previously dismissed as missense or as deep-intronic and ignored are now systematically re-evaluated for splicing consequence.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Regulatory variation</h2>
+
+            <p>Most of the genome is non-coding and most common variation is regulatory. Variants in promoters, enhancers, silencers, and chromatin-architecture elements can change gene expression without changing protein sequence. The mapping of expression quantitative trait loci (eQTLs) by the GTEx consortium across more than 50 human tissues established that the great majority of common-disease-associated variants identified in genome-wide association studies fall in regulatory rather than coding regions, and that their effect is typically modest (a small fold-change in expression of one or a few nearby genes).</p>
+
+            <p>Rare regulatory variants have been harder to demonstrate as Mendelian causes, but a handful of cancer-associated promoter mutations are by now textbook. <a href="https://pubmed.ncbi.nlm.nih.gov/23348503/" rel="noopener">Horn et al. 2013 (<em>Science</em> 339:959)</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/23348506/" rel="noopener">Huang et al. 2013 (<em>Science</em> 339:957)</a> independently identified two recurrent somatic substitutions in the <em>TERT</em> promoter (C228T and C250T) in melanoma; each substitution creates a novel ETS-family transcription-factor binding site that drives <em>TERT</em> expression and confers replicative immortality. The same <em>TERT</em>-promoter mutations are now recognised across glioblastoma, hepatocellular carcinoma, and bladder cancer, and are among the most frequent recurrent point mutations in human cancer.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Allele frequency in variant interpretation</h2>
+
+            <p>A variant present in 2&#37; of the healthy population cannot be highly penetrant for a serious early-onset Mendelian disorder; the maths of selection forbids it. The corollary &mdash; that very rare variants in genes with strong selection are more likely to be pathogenic than common ones &mdash; underpins the use of population allele-frequency catalogues in variant interpretation.</p>
+
+            <p>The reference catalogue is <a href="https://gnomad.broadinstitute.org/" rel="noopener">gnomAD</a> (the Genome Aggregation Database), which aggregates exome and genome sequencing data from hundreds of thousands of individuals across populations and reports allele frequencies for hundreds of millions of variants. <a href="https://pubmed.ncbi.nlm.nih.gov/32461654/" rel="noopener">Karczewski et al. 2020 (<em>Nature</em> 581:434)</a>, the gnomAD v2 paper, also publishes gene-level constraint metrics: <strong>pLI</strong> (probability of LoF intolerance, ranging 0 to 1, with values &gt; 0.9 indicating selection against LoF), <strong>LOEUF</strong> (upper bound of the observed/expected LoF ratio, with values &lt; 0.35 indicating intolerance), and <strong>missense Z-scores</strong>. These constraint metrics are used in the ACMG/AMP framework as the basis of the PVS1 (very strong pathogenic) criterion for null variants in haploinsufficient genes, and as supporting evidence for missense pathogenicity in genes where missense variation is depleted overall.</p>
+
+            <p>The frequency-based filter rules out variants that are too common to be pathogenic given the prevalence and inheritance of the disorder under consideration. ClinGen variant-curation expert panels publish gene-specific frequency thresholds (typically of the order 0.01&#37; to 0.1&#37; for autosomal recessive carrier-state, lower for autosomal dominant) that calibrate the BS1 / BA1 (benign) ACMG/AMP criteria for each gene. The interpretive framework is covered on the <a href="mutation-detection-and-interpretation.html">mutation detection and interpretation</a> page.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Where Evagene fits</h2>
+
+            <p>Evagene is an educational, research, and academic pedigree modelling platform. The platform draws pedigrees and runs implementations of published family-history-based risk-model algorithms; it does not interpret variants, return ACMG/AMP classifications, or filter sequencing output by allele frequency. Where this page touches the platform, it is via the inheritance patterns produced by different functional categories of variant: dominant-negative collagen variants in <a href="osteogenesis-imperfecta-pedigree.html">osteogenesis imperfecta</a>, gain-of-function FGFR3 in <a href="achondroplasia-pedigree.html">achondroplasia</a>, loss-of-function in many of the conditions documented across our disease pages, and de novo mutation patterns visible in the corresponding pedigree examples.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Sources cited on this page</h2>
+
+            <ul>
+                <li>MacArthur DG, et al. <em>A systematic survey of loss-of-function variants in human protein-coding genes. Nature</em> 2014;508:469 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/24482476/" rel="noopener">PMID 24482476</a>.</li>
+                <li>Karczewski KJ, et al. <em>The mutational constraint spectrum quantified from variation in 141,456 humans. Nature</em> 2020;581:434 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/32461654/" rel="noopener">PMID 32461654</a> (gnomAD v2).</li>
+                <li>Veitia RA. <em>Exploring the etiology of haploinsufficiency. BioEssays</em> 2002;24:175 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/11835283/" rel="noopener">PMID 11835283</a>.</li>
+                <li>Jaganathan K, et al. <em>Predicting splicing from primary sequence with deep learning. Cell</em> 2019;176:535 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/30661751/" rel="noopener">PMID 30661751</a> (SpliceAI).</li>
+                <li>Horn S, et al. <em>TERT promoter mutations in familial and sporadic melanoma. Science</em> 2013;339:959 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/23348503/" rel="noopener">PMID 23348503</a>.</li>
+                <li>Huang FW, et al. <em>Highly recurrent TERT promoter mutations in human melanoma. Science</em> 2013;339:957 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/23348506/" rel="noopener">PMID 23348506</a>.</li>
+                <li>gnomAD &mdash; <a href="https://gnomad.broadinstitute.org/" rel="noopener">gnomad.broadinstitute.org</a> (Broad Institute).</li>
+                <li>OMIM entries: <a href="https://omim.org/entry/100800" rel="noopener">achondroplasia (100800)</a>; <a href="https://omim.org/entry/166210" rel="noopener">osteogenesis imperfecta type II (166210)</a>; <a href="https://omim.org/entry/301050" rel="noopener">Alport syndrome X-linked (301050)</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="mutation-biology-and-consequences.html">Mutation biology and consequences (pillar)</a></li>
+                <li><a href="types-of-mutation.html">Types of mutation</a></li>
+                <li><a href="mutation-detection-and-interpretation.html">Mutation detection and interpretation</a></li>
+                <li><a href="achondroplasia-pedigree.html">Achondroplasia pedigree (FGFR3 G380R, gain of function)</a></li>
+                <li><a href="osteogenesis-imperfecta-pedigree.html">Osteogenesis imperfecta pedigree (collagen, dominant negative)</a></li>
+                <li><a href="germline-mosaicism-calculator.html">Germline mosaicism calculator</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Pedigree drawing for teaching and research</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="mutation-biology-and-consequences.html" class="hover:text-white transition-colors">Mutation biology (pillar)</a></li><li><a href="types-of-mutation.html" class="hover:text-white transition-colors">Types of mutation</a></li><li><a href="mutation-detection-and-interpretation.html" class="hover:text-white transition-colors">Detection and interpretation</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="germline-mosaicism-calculator.html" class="hover:text-white transition-colors">Germline mosaicism</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacogenetics, Gene Therapy, and Genome Editing: Educational Guide | Evagene</title>
+    <meta name="description" content="Educational guide to pharmacogenetics and the emerging therapeutic stack: CYP polymorphisms, HLA-drug associations, CPIC, PharmGKB, AAV gene therapy, antisense oligonucleotides, CRISPR-Cas9, base and prime editing.">
+    <meta name="keywords" content="pharmacogenetics, drug metabolism genes, CYP2D6, CYP2C19, CYP2C9, CYP3A4, CYP3A5, codeine, clopidogrel, warfarin, VKORC1, HLA-B*57:01, abacavir, HLA-B*15:02, carbamazepine, TPMT, NUDT15, UGT1A1, irinotecan, DPYD, 5-FU, CPIC, PharmGKB, gene therapy, AAV, Luxturna, Zolgensma, Spinraza, nusinersen, antisense oligonucleotides, CRISPR-Cas9, base editing, prime editing, Casgevy, exa-cel, Frangoul, Anzalone, Komor, Doudna, Charpentier, Jinek">
+
+    <meta property="og:title" content="Pharmacogenetics, Gene Therapy, and Genome Editing | Evagene">
+    <meta property="og:description" content="Drug-metabolising enzyme variation, CPIC and PharmGKB, AAV gene therapy, antisense oligonucleotides, CRISPR-Cas9, base and prime editing — an educational guide.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/pharmacogenetics-and-precision-therapy">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pharmacogenetics, Gene Therapy, and Genome Editing">
+    <meta name="twitter:description" content="CYP polymorphisms, HLA-drug associations, CPIC, AAV gene therapy, antisense oligonucleotides, CRISPR-Cas9, base and prime editing.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/pharmacogenetics-and-precision-therapy">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Pharmacogenetics, Gene Therapy, and Genome Editing",
+        "description":"An educational reference covering pharmacogenetics, the canonical gene-drug pairs codified by CPIC and PharmGKB, and the emerging therapeutic stack from AAV gene therapy and antisense oligonucleotides through CRISPR-Cas9, base editing, and prime editing.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/pharmacogenetics-and-precision-therapy"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["pharmacogenetics","CYP2D6","CYP2C19","HLA-B*57:01","CPIC","PharmGKB","gene therapy","AAV","CRISPR","base editing","prime editing"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Pharmacogenetics, Gene Therapy, and Genome Editing",
+        "description":"Educational reference covering drug-metabolising enzyme variation and the published research literature on AAV gene therapy, antisense oligonucleotides, and CRISPR-derived genome editing.",
+        "learningResourceType":"Educational article",
+        "educationalLevel":"Undergraduate, postgraduate, and continuing professional education",
+        "audience":{"@type":"EducationalAudience","educationalRole":"Student, researcher, educator"},
+        "isAccessibleForFree":true,
+        "inLanguage":"en-GB",
+        "url":"https://evagene.com/pharmacogenetics-and-precision-therapy",
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "about":[
+            {"@type":"DefinedTerm","name":"Pharmacogenetics"},
+            {"@type":"DefinedTerm","name":"Cytochrome P450 polymorphism"},
+            {"@type":"DefinedTerm","name":"AAV gene therapy"},
+            {"@type":"DefinedTerm","name":"CRISPR-Cas9"},
+            {"@type":"DefinedTerm","name":"Base editing"},
+            {"@type":"DefinedTerm","name":"Prime editing"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Metabolic genetics and therapeutics","item":"https://evagene.com/metabolic-genetics-and-therapeutics"},
+            {"@type":"ListItem","position":3,"name":"Pharmacogenetics and emerging therapeutics","item":"https://evagene.com/pharmacogenetics-and-precision-therapy"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="metabolic-genetics-and-therapeutics.html" class="hover:text-brand-600 dark:hover:text-brand-300">Metabolic genetics</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Pharmacogenetics and emerging therapeutics</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Pharmacogenetics and emerging therapeutics</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Drug-metabolising enzyme variation, the canonical CPIC gene-drug pairs, and the published research literature on AAV gene therapy, antisense oligonucleotides, and CRISPR-derived genome editing &mdash; an educational reference for students, researchers, and educators. This page is not clinical decision support and not a recommendation about pharmacogenetic testing or any therapy; it summarises the published research literature.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>13 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Pharmacogenetics studies how heritable variation in drug-metabolising enzymes, transporters, targets, and HLA alleles shapes individual response to a small-molecule or biologic therapy. Friedrich Vogel coined the term in 1959 (<em>Acta Genetica</em> 9:312); Werner Kalow's 1962 textbook <em>Pharmacogenetics: Heredity and the Response to Drugs</em> consolidated the field. Sixty years later, the canonical pharmacogenetic axes have been mapped in detail across the cytochrome P450 system and the HLA locus, codified in CPIC guidelines and curated in PharmGKB. In parallel, the therapeutic stack has expanded to include AAV-delivered gene therapy, antisense oligonucleotides, ex vivo gene-modified cell therapies, and CRISPR-derived genome editing. This page is an educational summary of the published research literature on both threads.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Origins of the field</h2>
+
+            <p>The first observations of heritable drug response collected in the late 1940s and 1950s. <strong>Pseudocholinesterase deficiency</strong>, identified after prolonged apnoea following suxamethonium anaesthesia, was traced to inherited variants of butyrylcholinesterase. <strong>Primaquine-induced haemolysis</strong> in some African-American soldiers during the 1950s was linked to glucose-6-phosphate dehydrogenase deficiency, an X-linked enzymopathy that turned out to be the most common enzyme defect in humans. <strong>Slow versus rapid acetylation of isoniazid</strong>, the cornerstone tuberculosis drug, was shown by Evans and others to be a bimodally distributed trait reflecting NAT2 polymorphism. The pattern across these examples &mdash; an enzyme-mediated step in drug disposition, varying between individuals on a heritable basis &mdash; pointed at a unified field.</p>
+
+            <p>Friedrich Vogel introduced the term <em>Pharmakogenetik</em> in a 1959 review in <em>Ergebnisse der Inneren Medizin und Kinderheilkunde</em> (republished in <em>Acta Genetica et Statistica Medica</em> 9:312, 1959), and Werner Kalow's textbook <em>Pharmacogenetics: Heredity and the Response to Drugs</em> (W. B. Saunders, 1962) consolidated what was then known. The contemporary literature builds directly on that synthesis, with the cytochrome P450 system as the dominant locus.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The cytochrome P450 system</h2>
+
+            <p>The cytochromes P450 (CYP) are a superfamily of haem-containing mono-oxygenases. Five isoforms &mdash; CYP3A4, CYP2D6, CYP2C9, CYP2C19, and CYP3A5 &mdash; between them metabolise a substantial fraction of marketed small-molecule drugs. Each carries common variant alleles whose effects on substrate clearance have been mapped in detail and are catalogued by phenotype: poor metaboliser (PM), intermediate (IM), normal (NM), rapid (RM), and ultrarapid (UM).</p>
+
+            <p><strong>CYP2D6</strong> is unusual in showing very large between-individual variation, with copy-number variants on top of the more usual SNV polymorphism. The <em>CYP2D6*4</em> null allele is common in European populations; full gene duplication produces the ultrarapid-metaboliser phenotype, more common in some North African and Middle Eastern populations. Codeine is a prodrug bioactivated by CYP2D6 O-demethylation to morphine; ultrarapid metabolisers convert more aggressively, and the published literature includes case reports of opioid toxicity in nursing infants of ultrarapid-metaboliser mothers. Tamoxifen activation to endoxifen is also CYP2D6-mediated, although the magnitude of the clinical effect on outcomes has been debated. Tricyclic antidepressants and many antipsychotics are also CYP2D6 substrates.</p>
+
+            <p><strong>CYP2C19</strong> activates the antiplatelet prodrug <strong>clopidogrel</strong>; loss-of-function alleles (<em>CYP2C19*2</em>, <em>*3</em>) reduce active-metabolite formation and have been associated with reduced antiplatelet effect after percutaneous coronary intervention. CYP2C19 is also the principal metaboliser of proton-pump inhibitors and of voriconazole; the literature on dose adjustment by genotype is more developed for PPIs and voriconazole than for clopidogrel.</p>
+
+            <p><strong>CYP2C9 and VKORC1 + warfarin</strong>. Warfarin dose requirement is jointly influenced by CYP2C9 (clearance of the more pharmacologically active S-warfarin) and VKORC1 (the warfarin target, vitamin K epoxide reductase). Several pharmacogenetic dosing algorithms have been published; the comparative-effectiveness trials have produced mixed results, and the clinical question of whether genotype-guided initiation outperforms clinical-only algorithms remains contested in the literature.</p>
+
+            <p><strong>CYP3A4 and CYP3A5</strong>. CYP3A4 is the highest-abundance hepatic P450 and metabolises a very broad substrate range; the principal sources of variation are environmental (induction and inhibition by drugs and food). CYP3A5 is more polymorphic, with the <em>CYP3A5*3</em> non-expresser allele common in European populations and minority status in some sub-Saharan African populations. The published-literature application is most developed for tacrolimus dosing in transplantation.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">HLA-drug associations</h2>
+
+            <p>Severe cutaneous adverse drug reactions are over-represented for particular drug-HLA-allele pairings. Two associations are textbook. <strong>HLA-B*57:01 and abacavir hypersensitivity</strong> (<a href="https://pubmed.ncbi.nlm.nih.gov/18256392/" rel="noopener">Mallal et al. 2008, NEJM 358:568</a>; the PREDICT-1 trial) showed that excluding HLA-B*57:01 carriers from abacavir initiation eliminated immunologically confirmed hypersensitivity in the prospectively screened arm. <strong>HLA-B*15:02 and carbamazepine-associated Stevens-Johnson syndrome / toxic epidermal necrolysis</strong> in some Asian populations is a parallel association, with strong genetic predisposition concentrated in populations of Han Chinese, Thai, and Malay ancestry.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Other canonical gene-drug pairs</h2>
+
+            <ul>
+                <li><strong>TPMT and NUDT15 + thiopurines.</strong> Thiopurine methyltransferase (TPMT) and NUDT15 variants attenuate clearance of azathioprine, 6-mercaptopurine, and thioguanine; homozygous loss-of-function carriers face severe myelosuppression on standard doses. NUDT15 risk variants are more frequent in East Asian populations than in European populations.</li>
+                <li><strong>UGT1A1 + irinotecan.</strong> The <em>UGT1A1*28</em> promoter TA repeat polymorphism (Gilbert syndrome) reduces glucuronidation of the SN-38 active metabolite of irinotecan, raising the risk of severe diarrhoea and neutropenia.</li>
+                <li><strong>DPYD + 5-fluorouracil and capecitabine.</strong> Variants in dihydropyrimidine dehydrogenase (the rate-limiting catabolic enzyme for fluoropyrimidines) reduce clearance and predispose to severe mucositis, diarrhoea, and myelotoxicity.</li>
+                <li><strong>SLCO1B1 + simvastatin.</strong> The <em>SLCO1B1</em> c.521T&gt;C variant reduces hepatic uptake of simvastatin (and other statins to a lesser extent) and is associated with increased simvastatin myopathy risk.</li>
+                <li><strong>G6PD + oxidative-stress drugs.</strong> G6PD deficiency, a common X-linked enzymopathy, predisposes to haemolysis on exposure to a defined list of drugs including primaquine, dapsone, rasburicase, and methylene blue.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">CPIC, PharmGKB, and structured guidelines</h2>
+
+            <p>The <a href="https://cpicpgx.org/" rel="noopener">Clinical Pharmacogenetics Implementation Consortium (CPIC)</a> publishes structured, peer-reviewed guideline documents for individual gene-drug pairs &mdash; describing the variant nomenclature (mostly the star-allele system maintained by PharmVar), the phenotype mapping, and the published evidence on dosing or therapeutic alternatives. The development process is described in <a href="https://pubmed.ncbi.nlm.nih.gov/24960519/" rel="noopener">Caudle et al. 2014, Clin Pharmacol Ther 96:542</a>. CPIC documents are educational and reference resources; their adoption into clinical use, where it occurs, sits with healthcare systems and prescribers, not with the published guideline itself.</p>
+
+            <p>The <a href="https://www.pharmgkb.org/" rel="noopener">Pharmacogenomics Knowledge Base (PharmGKB)</a> at Stanford curates the underlying evidence base, with allele-function tables, evidence summaries, and gene-drug dosing guidelines. Variant nomenclature is maintained at <a href="https://www.pharmvar.org/" rel="noopener">PharmVar</a>. These three resources together &mdash; CPIC, PharmGKB, PharmVar &mdash; are the standard educational references for pharmacogenetic content.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Therapeutic strategies based on genetic mechanism</h2>
+
+            <p>Pharmacogenetics describes how a heritable variant changes the response to an existing drug. The complementary direction &mdash; using genetic mechanism to design new therapies &mdash; has produced an expanding stack over the past two decades. The categories below summarise published research-literature reports, not recommendations.</p>
+
+            <h3 class="text-2xl mt-12 mb-4">Antisense oligonucleotides</h3>
+
+            <p>Synthetic short oligonucleotides bind a target RNA and modulate splicing, translation, or transcript stability. <strong>Nusinersen (Spinraza)</strong> for spinal muscular atrophy is the canonical example: an intrathecally delivered antisense oligonucleotide that promotes inclusion of <em>SMN2</em> exon 7, raising production of full-length SMN protein in motor neurones. Trial outcomes were reported by Finkel et al. for the infant-onset population (<a href="https://pubmed.ncbi.nlm.nih.gov/29091570/" rel="noopener">Finkel et al. 2017, NEJM 377:1723</a>) and by Mercuri et al. for the later-onset population. Other published antisense agents include eteplirsen and golodirsen for exon-skipping in <em>DMD</em>-mutated Duchenne muscular dystrophy and inotersen for hereditary transthyretin amyloidosis.</p>
+
+            <h3 class="text-2xl mt-12 mb-4">AAV gene therapy</h3>
+
+            <p>Recombinant adeno-associated virus (AAV) vectors deliver a functional copy of a gene to non-dividing cells, with serotype selection driving tissue tropism. The therapeutic gene typically integrates only at low frequency and persists episomally; the published-literature concern is durability over the lifetime of the recipient.</p>
+
+            <p><strong>Voretigene neparvovec (Luxturna)</strong> for biallelic <em>RPE65</em>-mediated Leber congenital amaurosis was the first in vivo AAV gene therapy with a published phase 3 trial (<a href="https://pubmed.ncbi.nlm.nih.gov/28712537/" rel="noopener">Russell et al. 2017, Lancet 390:849</a>): a subretinal AAV2 vector restoring functional RPE65 to retinal pigment epithelium. <strong>Onasemnogene abeparvovec (Zolgensma)</strong> for SMN1-deficient spinal muscular atrophy delivers an SMN1 cDNA via an AAV9 capsid that crosses the blood-brain barrier (<a href="https://pubmed.ncbi.nlm.nih.gov/29091557/" rel="noopener">Mendell et al. 2017, NEJM 377:1713</a>; the START trial). Subsequent published AAV programmes target haemophilia A and B (factor VIII and IX), Duchenne muscular dystrophy (micro-dystrophin constructs), and a number of metabolic disorders.</p>
+
+            <h3 class="text-2xl mt-12 mb-4">Ex vivo gene-modified cell therapy</h3>
+
+            <p>Cells &mdash; usually CD34+ haematopoietic stem and progenitor cells, or T cells &mdash; are removed from the patient, modified ex vivo using lentivirus, gamma-retrovirus, or genome editing, and re-infused after conditioning. The established clinical examples are <strong>CAR-T cells</strong> for B-cell lymphoid malignancies (tisagenlecleucel, axicabtagene ciloleucel, brexucabtagene autoleucel, lisocabtagene maraleucel, idecabtagene vicleucel for myeloma) and <strong>lentivirally modified haematopoietic stem cells</strong> for &beta;-thalassaemia and sickle cell disease. The lentiviral programmes from bluebird bio, including betibeglogene autotemcel (Zynteglo) and lovotibeglogene autotemcel (Lyfgenia), and the related approaches for cerebral adrenoleukodystrophy and metachromatic leukodystrophy, are reported in the published trial literature.</p>
+
+            <h3 class="text-2xl mt-12 mb-4">CRISPR-Cas9 genome editing</h3>
+
+            <p>The CRISPR-Cas9 system, characterised biochemically by <a href="https://pubmed.ncbi.nlm.nih.gov/22745249/" rel="noopener">Jinek et al. 2012, Science 337:816</a> and reviewed by <a href="https://pubmed.ncbi.nlm.nih.gov/25430774/" rel="noopener">Doudna and Charpentier 2014, Science 346:1258</a>, uses a single guide RNA to direct the Cas9 endonuclease to a defined genomic site, where it produces a double-strand break. Repair via non-homologous end joining typically introduces small insertions or deletions, disabling the targeted sequence; homology-directed repair, with a supplied template, can install precise edits but is much less efficient in non-dividing cells.</p>
+
+            <p>The first published CRISPR-derived therapy in the human-trial literature is <strong>exagamglogene autotemcel (exa-cel, marketed as Casgevy)</strong> for sickle cell disease and transfusion-dependent &beta;-thalassaemia. The approach uses ex vivo Cas9 editing of the <em>BCL11A</em> erythroid enhancer in autologous CD34+ cells, releasing fetal-haemoglobin transcriptional repression and elevating &gamma;-globin expression after re-infusion. Phase 1/2 trial results were reported by <a href="https://pubmed.ncbi.nlm.nih.gov/33283989/" rel="noopener">Frangoul et al. 2021, NEJM 384:252</a>. Casgevy received its first regulatory authorisation in 2023.</p>
+
+            <h3 class="text-2xl mt-12 mb-4">Base editing and prime editing</h3>
+
+            <p>Two refinements of CRISPR architecture extend its scope without requiring a double-strand break. <strong>Base editing</strong>, introduced by David Liu's group (<a href="https://pubmed.ncbi.nlm.nih.gov/27096365/" rel="noopener">Komor et al. 2016, Nature 533:420</a>), fuses a catalytically impaired Cas9 nickase to a cytidine deaminase (or, in subsequent adenine base editors, an evolved adenine deaminase), enabling targeted C-to-T or A-to-G transitions at the protospacer-proximal window. <strong>Prime editing</strong> (<a href="https://pubmed.ncbi.nlm.nih.gov/31634902/" rel="noopener">Anzalone et al. 2019, Nature 576:149</a>) fuses a Cas9 nickase to a reverse transcriptase, with a "prime editing guide RNA" (pegRNA) that both directs the editor and templates the desired edit. Both technologies have moved into early-phase trial reports; the literature on long-term durability and off-target effects is still maturing. Casgevy is editing-by-disruption rather than editing-to-restore; published base- and prime-editing programmes targeting causative variants in inherited retinal disease, hypercholesterolaemia (<em>PCSK9</em>), and other disorders are at earlier trial stages at the time of writing.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Off-target effects, durability, and the open questions</h2>
+
+            <p>The published literature emphasises three open questions across the editing platforms. <strong>Off-target editing</strong>, especially at near-cognate genomic sites, has been characterised by genome-wide assays (GUIDE-seq, CIRCLE-seq, Discover-seq) and by deep sequencing of predicted off-targets; refinements of Cas9 (high-fidelity variants, Cas12 orthologues) and base / prime editors continue to be reported. <strong>Bystander editing</strong> within the protospacer window is a base-editing-specific concern. <strong>Durability</strong>, particularly for AAV-delivered in vivo gene therapy in growing tissues and for CD34+ ex vivo programmes after transplant, remains a longitudinal-data question; published follow-up extends to several years for the earliest programmes but not yet to a lifetime. The emerging-therapeutics literature is moving fast, and the educational reading list needs to be refreshed against the current literature on each programme rather than a static citation list.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Educational and research framing</h2>
+
+            <p>This page is an educational summary of the published research literature, written for students, researchers, and educators. It is not a recommendation about pharmacogenetic testing for any individual patient, and it is not a recommendation about any therapy. Genetic-testing decisions and therapeutic decisions belong with a qualified clinical-genetics, pharmacology, or specialist clinical service. Approval status of named therapeutic agents varies between regulatory jurisdictions, and the description above is a snapshot of the published trial and approval literature at the time this page was written; readers should consult the relevant primary source and the current regulatory status before drawing conclusions about availability.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Selected references</h2>
+
+            <ul>
+                <li>Vogel, F. (1959). Moderne Probleme der Humangenetik. <em>Ergebnisse der Inneren Medizin und Kinderheilkunde</em> 12:52&ndash;125; <em>Acta Genetica et Statistica Medica</em> 9:312.</li>
+                <li>Kalow, W. (1962). <em>Pharmacogenetics: Heredity and the Response to Drugs</em>. W. B. Saunders, Philadelphia.</li>
+                <li>Mallal, S. et al. (2008). HLA-B*5701 screening for hypersensitivity to abacavir. <em>NEJM</em> 358:568&ndash;579 (PREDICT-1). <a href="https://pubmed.ncbi.nlm.nih.gov/18256392/" rel="noopener">PubMed</a></li>
+                <li>Caudle, K. E. et al. (2014). Incorporation of pharmacogenomics into routine clinical practice: the CPIC guideline development process. <em>Clin Pharmacol Ther</em> 96:542&ndash;548. <a href="https://pubmed.ncbi.nlm.nih.gov/24960519/" rel="noopener">PubMed</a></li>
+                <li>Russell, S. et al. (2017). Efficacy and safety of voretigene neparvovec (AAV2-hRPE65v2) in patients with RPE65-mediated inherited retinal dystrophy. <em>Lancet</em> 390:849&ndash;860. <a href="https://pubmed.ncbi.nlm.nih.gov/28712537/" rel="noopener">PubMed</a></li>
+                <li>Mendell, J. R. et al. (2017). Single-dose gene-replacement therapy for spinal muscular atrophy. <em>NEJM</em> 377:1713&ndash;1722. <a href="https://pubmed.ncbi.nlm.nih.gov/29091557/" rel="noopener">PubMed</a></li>
+                <li>Finkel, R. S. et al. (2017). Nusinersen versus sham control in infantile-onset spinal muscular atrophy. <em>NEJM</em> 377:1723&ndash;1732. <a href="https://pubmed.ncbi.nlm.nih.gov/29091570/" rel="noopener">PubMed</a></li>
+                <li>Jinek, M. et al. (2012). A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity. <em>Science</em> 337:816&ndash;821. <a href="https://pubmed.ncbi.nlm.nih.gov/22745249/" rel="noopener">PubMed</a></li>
+                <li>Doudna, J. A., and Charpentier, E. (2014). Genome editing: the new frontier of genome engineering with CRISPR-Cas9. <em>Science</em> 346:1258096. <a href="https://pubmed.ncbi.nlm.nih.gov/25430774/" rel="noopener">PubMed</a></li>
+                <li>Komor, A. C. et al. (2016). Programmable editing of a target base in genomic DNA without double-stranded DNA cleavage. <em>Nature</em> 533:420&ndash;424. <a href="https://pubmed.ncbi.nlm.nih.gov/27096365/" rel="noopener">PubMed</a></li>
+                <li>Anzalone, A. V. et al. (2019). Search-and-replace genome editing without double-strand breaks or donor DNA. <em>Nature</em> 576:149&ndash;157. <a href="https://pubmed.ncbi.nlm.nih.gov/31634902/" rel="noopener">PubMed</a></li>
+                <li>Frangoul, H. et al. (2021). CRISPR-Cas9 gene editing for sickle cell disease and &beta;-thalassemia. <em>NEJM</em> 384:252&ndash;260. <a href="https://pubmed.ncbi.nlm.nih.gov/33283989/" rel="noopener">PubMed</a></li>
+                <li>Clinical Pharmacogenetics Implementation Consortium (CPIC). <a href="https://cpicpgx.org/" rel="noopener">cpicpgx.org</a></li>
+                <li>Pharmacogenomics Knowledge Base (PharmGKB). <a href="https://www.pharmgkb.org/" rel="noopener">pharmgkb.org</a></li>
+                <li>PharmVar (variant nomenclature). <a href="https://www.pharmvar.org/" rel="noopener">pharmvar.org</a></li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading on Evagene</h2>
+            <ul>
+                <li><a href="metabolic-genetics-and-therapeutics.html">Metabolic genetics and therapeutics</a> &mdash; pillar guide</li>
+                <li><a href="inborn-errors-of-metabolism.html">Inborn errors of metabolism</a></li>
+                <li><a href="mitochondrial-inheritance-pedigree.html">Mitochondrial inheritance pedigree</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="autosomal-recessive-calculator.html">Autosomal recessive calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Use Evagene for the family-history side</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing, NSGC notation, autosomal recessive and consanguinity calculators, and a 1,900-entry educational help catalogue. Free during alpha for clinicians, researchers, educators, and students. Evagene is an academic, research, and educational pedigree modelling platform &mdash; not a medical device, not clinical decision support, not a diagnostic tool.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="metabolic-genetics-and-therapeutics.html" class="hover:text-white transition-colors">Metabolic genetics pillar</a></li><li><a href="inborn-errors-of-metabolism.html" class="hover:text-white transition-colors">Inborn errors of metabolism</a></li><li><a href="mitochondrial-inheritance-pedigree.html" class="hover:text-white transition-colors">Mitochondrial inheritance</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="autosomal-recessive-calculator.html" class="hover:text-white transition-colors">Autosomal recessive</a></li><li><a href="consanguinity-calculator.html" class="hover:text-white transition-colors">Consanguinity</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

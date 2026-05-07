@@ -430,8 +430,17 @@ Evagene computes parental germline mosaicism posterior probability from pedigree
 - [Achondroplasia pedigree](https://evagene.com/achondroplasia-pedigree.html) — FGFR3 c.1138G>A, paternal-age effect, measurable sperm VAF
 - [Tuberous sclerosis pedigree](https://evagene.com/tuberous-sclerosis-pedigree.html) — three-affected-children scenario with mosaic vs reduced-penetrance posterior split
 
-### Pedigree notation and tutorial guides
+### Pedigree notation, tutorial, and pillar guides
 
+The pedigree pillar pages are the canonical entry points for the four highest-volume search queries in this space:
+
+- [Pedigree drawing tool](https://evagene.com/pedigree-drawing-tool.html) — pillar for "pedigree drawing tool"; in-browser pedigree drawing tool with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and twenty published risk-model algorithm implementations
+- [Pedigree chart](https://evagene.com/pedigree-chart.html) — pillar for "pedigree chart"; definition, symbols, three-generation capture, inheritance patterns visible in a pedigree
+- [Clinical pedigree drawing](https://evagene.com/clinical-pedigree-drawing.html) — pillar for "clinical pedigree drawing"; NSGC 2022 conventions, three-generation capture, consanguinity loops, pregnancy outcomes, and the boundary between in-tool and canonical computation
+- [Pedigree drawing software](https://evagene.com/pedigree-drawing-software.html) — pillar for "pedigree drawing"; complete guide with software comparison
+- [Pedigree chart maker](https://evagene.com/pedigree-chart-maker.html) — supporting page for the "pedigree chart maker" variant query
+- [Pedigree drawing online](https://evagene.com/pedigree-drawing-online.html) — supporting page for the "pedigree drawing online" variant query
+- [Clinical pedigree drawing guidelines](https://evagene.com/clinical-pedigree-drawing-guidelines.html) — NSGC 1995, 2008, 2022 standards, plus ISCN, HGNC, HPO context
 - [NSGC pedigree notation](https://evagene.com/nsgc-pedigree-notation.html) — NSGC 1995 / 2008 / 2022 standards
 - [ISCN pedigree symbols](https://evagene.com/iscn-pedigree-symbols.html)
 - [Standard pedigree nomenclature](https://evagene.com/standard-pedigree-nomenclature.html)
@@ -490,6 +499,102 @@ Evagene computes parental germline mosaicism posterior probability from pedigree
 
 - [Pedigree software for the NHS](https://evagene.com/pedigree-software-nhs.html)
 - [Pedigree software for UK clinicians](https://evagene.com/pedigree-software-uk-clinicians.html)
+
+---
+
+## Learning Hub
+
+- [Learn Genetics — reading pathways](https://evagene.com/learn-genetics.html) — Microsoft-Learn-style pathway hub that organises the educational library into seven structured reading pathways. Each pathway has a defined audience, prerequisite, time estimate, and ordered reading list with one-line page descriptions; an Apply What You've Learned section routes to twenty risk-model calculator pages and the in-browser pedigree drawing tool. Pathways: (1) Foundations &mdash; genetics from scratch; (2) Molecular biology deep dive; (3) Clinical genetics; (4) Cancer genetics; (5) Population & quantitative; (6) Therapeutics & gene therapy; (7) Refresher: recent advances. Free in the browser, no registration, no paywall. The page also includes a topic browser that lists every page organised under the 12 major topics for self-directed reading.
+
+## Educational Topic Library
+
+A 46-page educational library covering the molecular, clinical, quantitative, population, and ethical genetics topics taught at MSc / FRCPath / equivalent level. Each page is a 1,300–2,000-word survey with inline citations to peer-reviewed papers, NCBI / OMIM / GeneReviews / ClinVar / gnomAD entries, and the standards-body resources (NSGC, ACMG/AMP, ISCN, HGNC, HPO, GA4GH).
+
+The library is structured as 12 major topics, each with a pillar page and 2-3 subtopic pages. Citations span Mendel 1866 → Watson & Crick 1953 → Pauling 1949 → Jacob & Monod 1961 → Knudson 1971 → Bennett 1995/2008/2022 → ENCODE 2012 → gnomAD 2020 → AlphaMissense 2023 → Casgevy 2023.
+
+Positioning is consistent with the rest of the site: research, education, and family-history documentation; not clinical decision support, not a medical device.
+
+### Molecular Architecture of Genes
+
+- [Molecular Architecture of Genes](https://evagene.com/molecular-architecture-of-genes.html) — pillar
+- [DNA and Chromatin Organization](https://evagene.com/dna-and-chromatin-organization.html) — nucleotide chemistry, base pairing thermodynamics (SantaLucia 1998), DNA supercoiling, nucleosomes (Luger 1997), Hi-C (Lieberman-Aiden 2009), TADs (Dixon 2012; Nora 2012)
+- [DNA Replication and Repair](https://evagene.com/dna-replication-and-repair.html) — origin licensing, polymerases (Kunkel & Bebenek 2000), Okazaki fragments, MMR (Modrich 2006) → Lynch syndrome, NER → xeroderma pigmentosum, BER, HR (BRCA1/BRCA2/RAD51), NHEJ
+- [Genome Structure and Variation](https://evagene.com/genome-structure-and-variation.html) — repetitive DNA, transposons (Cordaux & Batzer 2009), CNV (Sebat 2004; Conrad 2010; Sudmant 2015), structural variant detection (Collins 2020 gnomAD-SV; Chaisson 2019 long-read)
+
+### Gene Expression Mechanisms
+
+- [Gene Expression Mechanisms](https://evagene.com/gene-expression-mechanisms.html) — pillar; central dogma (Crick 1970), splicing discovery (Berget/Moore/Sharp 1977; Chow 1977)
+- [Transcriptional Machinery](https://evagene.com/transcriptional-machinery.html) — Pol I/II/III, Pol II structure (Cramer 2001), CTD cycle (Buratowski 2009), promoters (Smale & Kadonaga 2003), Mediator (Allen & Taatjes 2015), enhancer-promoter contact (Schoenfelder & Fraser 2019)
+- [RNA Processing and Stability](https://evagene.com/rna-processing-and-stability.html) — spliceosome (Will & Lührmann 2011), alternative splicing (Wang 2008; Pan 2008), polyadenylation (Tian & Manley 2017), NMD (Lykke-Andersen & Jensen 2015)
+- [Translation and Post-Translational Control](https://evagene.com/translation-and-post-translational-control.html) — ribosome structure (Ban 2000; Wimberly 2000), eIFs (Jackson 2010; Sonenberg & Hinnebusch 2009), ribosome profiling (Ingolia 2009), chaperones (Hartl 2011), PTMs
+
+### Regulation of Gene Activity
+
+- [Regulation of Gene Activity](https://evagene.com/regulation-of-gene-activity.html) — pillar; Lac operon (Jacob & Monod 1961); ENCODE 2012; Roadmap Epigenomics (Kundaje 2015)
+- [Cis and Trans Regulatory Elements](https://evagene.com/cis-and-trans-regulatory-elements.html) — first enhancer (Banerji 1981), CTCF (Phillips & Corces 2009), super-enhancers (Whyte 2013; Hnisz 2013), JASPAR, ATAC-seq (Buenrostro 2013), GTEx eQTLs
+- [Epigenetics and Chromatin Dynamics](https://evagene.com/epigenetics-and-chromatin-dynamics.html) — DNA methylation (Bird 2002), TET (Tahiliani 2009), Polycomb (Margueron & Reinberg 2011), X-inactivation (Lyon 1961), TADs, loop extrusion (Sanborn 2015; Fudenberg 2016)
+- [Gene Regulatory Networks](https://evagene.com/gene-regulatory-networks.html) — network motifs (Milo 2002), feed-forward loops (Mangan & Alon 2003), miRNAs (Bartel 2018), lncRNAs (Quinn & Chang 2016), Perturb-seq (Dixit 2016; Replogle 2022)
+
+### Mutation Biology and Consequences
+
+- [Mutation Biology and Consequences](https://evagene.com/mutation-biology-and-consequences.html) — pillar; Auerbach & Robson 1947; Drake 1991
+- [Types of Mutation](https://evagene.com/types-of-mutation.html) — point mutations, indels, repeat expansions (Mirkin 2007; La Spada & Taylor 2010), de novo SNV rate (Kong 2012), mutational signatures (Alexandrov 2013), paternal-age effect
+- [Functional Consequences of Mutation](https://evagene.com/functional-consequences-of-mutation.html) — LoF (MacArthur 2014), gain-of-function, dominant negative (Veitia 2002), splice mutations (Jaganathan 2019 SpliceAI), TERT promoter (Horn 2013; Huang 2013), gnomAD allele-frequency filtering (Karczewski 2020)
+- [Mutation Detection and Interpretation](https://evagene.com/mutation-detection-and-interpretation.html) — Illumina (Bentley 2008), DeepVariant (Poplin 2018), Ensembl VEP (McLaren 2016), ACMG/AMP (Richards 2015), ClinVar (Landrum 2018), AlphaMissense (Cheng 2023), CADD (Rentzsch 2019), REVEL (Ioannidis 2016)
+
+### Chromosomes and Cell Division
+
+- [Chromosomes and Cell Division](https://evagene.com/chromosomes-and-cell-division.html) — pillar; Tjio & Levan 1956; Lejeune 1959; Nowell & Hungerford 1960; Caspersson 1970
+- [Chromosome Structure and Mapping](https://evagene.com/chromosome-structure-and-mapping.html) — telomerase (Greider & Blackburn 1985), shelterin (de Lange 2005), centromeres (Cleveland 2003), T2T-CHM13 (Nurk 2022)
+- [Cell Cycle, Mitosis, Meiosis](https://evagene.com/cell-cycle-mitosis-meiosis.html) — cyclin-CDK (Hartwell, Hunt, Nurse Nobel work), G1 control (Sherr & Roberts 1999), spindle assembly checkpoint (Musacchio & Salmon 2007), SPO11 (Keeney 1997), PRDM9 (Baudat 2010)
+- [Chromosomal Abnormalities](https://evagene.com/chromosomal-abnormalities.html) — meiotic non-disjunction (Hassold & Hunt 2001), Down/Edwards/Patau/Turner/Klinefelter, BCR-ABL1, microdeletion / microduplication syndromes, NIPT (Bianchi 2014)
+
+### Mendelian Genetics and Gene Discovery
+
+- [Mendelian Genetics and Gene Discovery](https://evagene.com/mendelian-genetics-and-gene-discovery.html) — pillar; Mendel 1866, Garrod 1902, Morgan 1910, Botstein 1980
+- [Inheritance Patterns](https://evagene.com/inheritance-patterns.html) — autosomal dominant / recessive, X-linked, mitochondrial, imprinting (Reik & Walter 2001), Knudson two-hit
+- [Pedigree Analysis and Variable Expression](https://evagene.com/pedigree-analysis-and-variable-expression.html) — NSGC nomenclature (Bennett 1995, 2008, 2022), penetrance, expressivity, mosaicism, Bayesian carrier-probability calculation
+- [Mapping and Gene Identification](https://evagene.com/mapping-and-gene-identification.html) — LOD scores (Morton 1955), CFTR positional cloning (Riordan 1989; Kerem 1989), Risch & Merikangas 1996, GWAS (WTCCC 2007), exome sequencing (Ng 2009; Ng 2010), Matchmaker Exchange (Philippakis 2015)
+
+### Quantitative and Complex Traits
+
+- [Quantitative and Complex Traits](https://evagene.com/quantitative-and-complex-traits.html) — pillar; Fisher 1918; Falconer 1965; Carter 1961; Lynch & Walsh 1998
+- [Polygenic Models](https://evagene.com/polygenic-models.html) — additive / dominance / epistatic effects, narrow- vs broad-sense heritability, PRS (LDpred — Vilhjálmsson 2015; PRS-CS — Ge 2019; PGS Catalog — Lambert 2021), polygenic CAD (Khera 2018), portability (Martin 2019)
+- [Heritability and Liability](https://evagene.com/heritability-and-liability.html) — twin h² (Falconer's formula), GREML (Yang 2010, 2011), LDSC (Bulik-Sullivan 2015), missing heritability (Manolio 2009; Visscher 2008), Falconer threshold model, Carter 1961 multifactorial threshold
+- [Gene-Environment Interaction](https://evagene.com/gene-environment-interaction.html) — GxE designs (Hunter 2005), Mendelian randomisation (Davey Smith & Hemani 2014), epigenetic mediation (Heijmans 2008 Dutch Hunger Winter)
+
+### Population and Evolutionary Genetics
+
+- [Population and Evolutionary Genetics](https://evagene.com/population-and-evolutionary-genetics.html) — pillar; Hardy 1908, Wright 1931, Fisher 1930, Kimura 1968 (neutral theory)
+- [Allele Frequency Dynamics](https://evagene.com/allele-frequency-dynamics.html) — Hardy-Weinberg, mutation-selection balance, sickle/malaria balancing selection (Allison 1954), lactase persistence (Tishkoff 2007), positive selection (Sabeti 2007), the coalescent (Kingman 1982)
+- [Demography and Population Structure](https://evagene.com/demography-and-population-structure.html) — F-statistics, PCA (Patterson, Price & Reich 2006), ADMIXTURE (Alexander 2009), Ashkenazi BRCA founders (Roa 1996), demographic inference (Schiffels & Durbin 2014), 1000 Genomes (Auton 2015)
+- [Population Genetics Applications](https://evagene.com/population-genetics-applications.html) — pan-ethnic carrier screening (ACOG 2017), Wilson-Jungner 1968 criteria, expanded carrier screening (Bell 2011), 100,000 Genomes (Caulfield 2017), ELSI
+
+### Haemoglobin and Development
+
+- [Haemoglobin and Development Genetics](https://evagene.com/haemoglobin-and-development-genetics.html) — pillar; Pauling 1949 sickle as the first molecular disease; Ingram 1957; Nüsslein-Volhard & Wieschaus 1980 (1995 Nobel)
+- [Haemoglobin Biology and Disorders](https://evagene.com/haemoglobin-biology-and-disorders.html) — α2β2 / γ / δ chains, the haemoglobin switch, sickle cell HBB c.20A>T β6 Glu→Val, balancing selection (Allison 1954), α- and β-thalassaemia genetics, Casgevy / exa-cel CRISPR therapy (Frangoul 2021)
+- [Genes in Development](https://evagene.com/genes-in-development.html) — WNT, SHH, Notch, BMP/TGF-β, FGF, Hippo signalling; holoprosencephaly (Roessler 1996); FGFR3 dysplasia series (achondroplasia, hypochondroplasia, thanatophoric); RASopathies (Roberts & Tartaglia 2010); Marfan / Loeys-Dietz; CADASIL (Joutel 1996); Hedgehog medulloblastoma
+
+### Cancer Genetics and Somatic Variation
+
+- [Cancer Genetics and Somatic Variation](https://evagene.com/cancer-genetics-and-somatic-variation.html) — pillar; Knudson 1971; Hanahan & Weinberg 2000, 2011, 2022; Vogelstein 2013; PCAWG 2020
+- [Oncogenes and Tumour Suppressors](https://evagene.com/oncogenes-and-tumour-suppressors.html) — RAS / MYC / BCR-ABL1 / HER2 / EGFR / BRAF activation routes; RB1, TP53, APC, BRCA1/2 tumour suppressors; gatekeeper / caretaker / landscaper (Kinzler & Vogelstein 1997); driver vs passenger
+- [Inherited Cancer Predisposition](https://evagene.com/inherited-cancer-predisposition.html) — HBOC (Antoniou 2003; Kuchenbaecker 2017); Lynch (Vasen 1999; Umar 2004; Møller 2018 PLSD); FAP / MAP; Li-Fraumeni (Frebourg 2020); Cowden; Peutz-Jeghers (Beggs 2010); juvenile polyposis (Blair 2020); HDGC; VHL; MEN1/2; NF1/2; TSC; retinoblastoma
+- [Somatic Genomics](https://evagene.com/somatic-genomics.html) — clonal evolution (Nowell 1976); ctDNA (Wan 2017); CHIP (Genovese 2014); mutational signatures (Alexandrov 2013, 2020); HRD (Davies 2017); MSI; TMB; targeted-therapy biomarkers; MSI-H + checkpoint inhibitors (Le 2015); TRACERx (Jamal-Hanjani 2017)
+
+### Metabolic Genetics and Therapeutics
+
+- [Metabolic Genetics and Therapeutics](https://evagene.com/metabolic-genetics-and-therapeutics.html) — pillar; Garrod 1902, Beadle & Tatum 1941, Vogel 1959
+- [Inborn Errors of Metabolism](https://evagene.com/inborn-errors-of-metabolism.html) — IEM categories (amino-acid, urea-cycle, organic-acidaemia, fatty-acid-oxidation, lysosomal storage, peroxisomal, mitochondrial, GSD, CDG); newborn screening (Guthrie 1963; Levy 2010); diagnostic exome (Yang 2013)
+- [Pharmacogenetics and Precision Therapy](https://evagene.com/pharmacogenetics-and-precision-therapy.html) — CYP2D6 / 2C19 / 2C9 / 3A4 / 3A5; HLA-B*57:01 / abacavir (Mallal 2008); CPIC (Caudle 2014); Luxturna (Russell 2017); Zolgensma (Mendell 2017); Spinraza (Finkel 2017); CRISPR-Cas9 (Jinek 2012; Doudna & Charpentier 2014); base editing (Komor 2016); prime editing (Anzalone 2019); exa-cel / Casgevy (Frangoul 2021)
+
+### Clinical Practice, Ethics, and Communication
+
+- [Clinical Practice, Ethics, and Communication](https://evagene.com/clinical-practice-ethics-communication.html) — pillar; Reed 1947, Resta 2006 definition of genetic counseling, NSGC founded 1979
+- [Clinical Genetic Skills](https://evagene.com/clinical-genetic-skills.html) — structured family-history interview, three-generation pedigree, NSGC 2022 (Bennett 2022), red-flag features per NICE CG164 / NG101, dysmorphology, case vignettes
+- [Diagnostics and Counselling](https://evagene.com/diagnostics-and-counselling.html) — test taxonomy, ACMG/AMP (Richards 2015), secondary findings (Kalia 2017; Miller 2023 SF v3.2), Reciprocal-Engagement Model (Veach 2007), cascade testing (Sturm 2018), duty to warn (ASHG 1998)
+- [Ethics, Legal and Social Issues](https://evagene.com/ethics-legal-social-issues.html) — NHGRI ELSI 1990; GINA 2008; GDPR Article 9; ABC v St George's [2020] EWHC 455 (QB); familial DNA searching (Bieber 2006); FDA / 23andMe 2013; Sirugo 2019 missing diversity; H3Africa; All of Us; Our Future Health; Newborn Genomes Programme; polygenic embryo selection (Karavani 2019; Turley 2021)
 
 ---
 

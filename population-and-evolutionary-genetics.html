@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Population and Evolutionary Genetics — Pillar Guide | Evagene</title>
+    <meta name="description" content="Population and evolutionary genetics in plain language: allele frequencies, Hardy-Weinberg, Wright's F-statistics, drift, selection, the neutral theory, and applications to human disease genetics.">
+    <meta name="keywords" content="population genetics, evolutionary genetics, allele frequency, Hardy-Weinberg, Wright F-statistics, genetic drift, neutral theory, Kimura, Fisher, population structure, founder effect, carrier screening">
+
+    <meta property="og:title" content="Population and Evolutionary Genetics — Pillar Guide | Evagene">
+    <meta property="og:description" content="A specialist-facing pillar overview of population and evolutionary genetics: allele frequency dynamics, demography and population structure, and applications to human disease genetics.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/population-and-evolutionary-genetics">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Population and Evolutionary Genetics — Pillar Guide">
+    <meta name="twitter:description" content="Allele frequencies, population structure, drift, selection, the neutral theory, and applications to human disease genetics — a specialist-facing pillar.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/population-and-evolutionary-genetics">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Population and Evolutionary Genetics: A Pillar Guide",
+        "description":"A specialist-facing pillar overview of population and evolutionary genetics: allele frequency dynamics, demography and population structure, and applications to human disease genetics.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/population-and-evolutionary-genetics"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["population genetics","evolutionary genetics","allele frequency","Hardy-Weinberg","Wright F-statistics","genetic drift","neutral theory","founder effect"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Population and Evolutionary Genetics — Pillar Guide",
+        "description":"A pillar educational resource introducing allele frequencies, population structure, evolutionary forces, and applications to human disease genetics.",
+        "learningResourceType":"Educational article",
+        "educationalLevel":"Specialist / postgraduate",
+        "audience":{"@type":"Audience","audienceType":"Researchers, educators, students, clinical geneticists"},
+        "inLanguage":"en-GB",
+        "provider":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "url":"https://evagene.com/population-and-evolutionary-genetics"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Learn","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Population and Evolutionary Genetics","item":"https://evagene.com/population-and-evolutionary-genetics"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="https://evagene.com/#resources" class="hover:text-brand-600 dark:hover:text-brand-300">Learn</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Population and Evolutionary Genetics</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Population and evolutionary genetics</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Population genetics is the study of how allele frequencies change in populations across generations under the joint action of mutation, selection, drift, recombination, and migration. Evolutionary genetics is the same subject viewed over longer timescales: the genetic record of demographic history, adaptation, and lineage. This pillar page is an entry-point overview for researchers, educators, students, and clinical geneticists, and it links out to three subtopic pages covering allele-frequency dynamics, demography and population structure, and applications to human disease genetics.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>13 min read</span>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>Educational content &mdash; not medical advice</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Population genetics treats a population as a sample from a probability distribution over allele frequencies and asks how that distribution evolves. The mathematical scaffolding was laid by Hardy 1908 and Weinberg 1908 (the equilibrium law), Fisher 1930 and Wright 1931 (the diffusion and drift framework), and Kimura 1968 (the neutral theory). Modern human population genetics layers genome-scale data, coalescent inference, and admixture modelling on top of that scaffolding. The field is where epidemiology of Mendelian disease, polygenic architecture, ancestry inference, and demographic history all meet.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">What population genetics is, and why it sits next to clinical genetics</h2>
+
+            <p>A clinical-genetics question is typically about an individual or a family: what is the inheritance pattern of this disease, what variant is segregating, what is the recurrence risk in this sibship. A population-genetics question is about the distribution of variants across a population: how common is this allele, how strongly is it under selection, what does its frequency tell us about the demographic history of the population that carries it. The two views inform each other. The carrier frequency of a recessive disease allele in a population &mdash; a population-genetics quantity &mdash; is what makes a recurrence-risk calculation in a particular family possible. The pattern of variants associated with a complex trait in a genome-wide association study is interpretable only against a model of how those variants segregate in the population that was sampled.</p>
+
+            <p>The shared substrate is the concept of an <strong>allele frequency</strong>: the proportion of chromosomes in a population that carry a given allele at a locus. Diploid genotype frequencies follow from allele frequencies under specific assumptions, and departures from those assumptions are themselves informative.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Hardy-Weinberg: the null model</h2>
+
+            <p>The foundational result of population genetics is the Hardy-Weinberg principle, derived independently by <a href="https://www.science.org/doi/10.1126/science.28.706.49" rel="noopener">Hardy 1908 (Science 28:49)</a> and Weinberg 1908 (Jahresheft des Vereins f&uuml;r vaterl&auml;ndische Naturkunde in W&uuml;rttemberg 64:368). For a biallelic locus with allele frequencies p and q (p + q = 1), the expected genotype frequencies under random mating, no selection, no migration, no mutation, and an effectively infinite population are p&sup2; (homozygous for the major allele), 2pq (heterozygous), and q&sup2; (homozygous for the minor allele). These frequencies are reached after one generation of random mating and are stable thereafter.</p>
+
+            <p>Hardy-Weinberg is the null model. Its real value is that <em>departures</em> from it are diagnostic. Excess homozygotes can indicate population structure (the Wahlund effect), inbreeding, or genotyping artefact. Deficit of homozygotes for a recessive disease allele can indicate lethality before reproduction. Departures restricted to cases in a case-control study can flag selection or association. The chi-square test for Hardy-Weinberg equilibrium is one of the routine quality-control filters applied to any genome-wide genotyping dataset.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The four forces: mutation, selection, drift, migration</h2>
+
+            <p>Allele frequencies change between generations under four classical forces.</p>
+
+            <ul>
+                <li><strong>Mutation</strong> introduces new alleles. The per-base, per-generation human germline mutation rate is around 1.2 &times; 10&#8315;&#8312;, calibrated by trio sequencing and ancient-DNA estimates. Mutation is the ultimate source of all variation but is a slow per-locus force compared with selection and drift.</li>
+                <li><strong>Selection</strong> is differential reproductive success of genotypes. Positive selection raises the frequency of beneficial alleles; negative (purifying) selection removes deleterious alleles; balancing selection maintains polymorphism, classically through heterozygote advantage. Selection coefficients (s) measure the relative fitness disadvantage; mutation-selection balance for a recessive disease allele predicts an equilibrium frequency of approximately the square root of (mutation rate / selection coefficient).</li>
+                <li><strong>Genetic drift</strong> is the random sampling of alleles from one generation to the next in a finite population. The strength of drift scales inversely with effective population size (Ne). Drift fixes neutral alleles with probability equal to their starting frequency. <a href="https://www.genetics.org/content/16/2/97" rel="noopener">Wright 1931 (Genetics 16:97)</a> formalised drift as a diffusion process, and the diffusion framework remains the workhorse of theoretical population genetics.</li>
+                <li><strong>Migration</strong> moves alleles between populations and homogenises frequencies between connected demes. The classical island model and stepping-stone model frame migration in tractable form; modern human-genetics work uses richer demographic graphs.</li>
+            </ul>
+
+            <p><a href="https://archive.org/details/geneticaltheoryo031631mbp" rel="noopener">Fisher 1930</a> in <em>The Genetical Theory of Natural Selection</em> developed the analytical framework for selection in continuous populations and articulated the fundamental theorem of natural selection. Wright 1931 introduced the diffusion approach and the concept of effective population size, and his "shifting balance" theory framed how populations might explore an adaptive landscape. The Fisher-Wright debate &mdash; selection-dominated versus drift-dominated views of evolution &mdash; runs through twentieth-century theory.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The neutral theory</h2>
+
+            <p>The single largest reframing of the field came with <a href="https://www.nature.com/articles/217624a0" rel="noopener">Kimura 1968 (Nature 217:624)</a>, the neutral theory of molecular evolution. Kimura argued that the rate of molecular evolution at most loci is set not by positive selection but by the rate at which neutral mutations drift to fixation, and that most polymorphism segregating in a population is neutral or nearly so. The neutral theory does not deny that selection acts; it proposes that selection acts on a small fraction of variants and that the bulk of molecular variation is governed by mutation, drift, and demographic history. Ohta 1973 extended the framework to nearly neutral variation, where weak selection and drift interact in a way that depends on Ne. The neutral and nearly neutral framework is the modern null model against which selection is detected.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Three subtopics, one field</h2>
+
+            <p>The pillar splits into three subtopic pages, each treated in depth.</p>
+
+            <h3 class="text-2xl mt-10 mb-4"><a href="allele-frequency-dynamics.html">Allele frequency dynamics</a></h3>
+            <p>Hardy-Weinberg in detail; the chi-square test for HWE in case-control data; the Wahlund effect; selection (positive, negative, balancing) with selection coefficients and worked examples; mutation-selection balance for recessive disease (&micro;/s); the Wright-Fisher model; drift in finite populations and effective population size; the coalescent; the neutral and nearly neutral theory; diffusion theory. Worked examples include sickle-cell anaemia and the heterozygote-advantage relationship to malaria, lactase persistence as recent positive selection, and G6PD deficiency.</p>
+
+            <h3 class="text-2xl mt-10 mb-4"><a href="demography-and-population-structure.html">Demography and population structure</a></h3>
+            <p>Wright's F-statistics (Fst, Fis, Fit) and what each measures; principal component analysis applied to genetic data; ADMIXTURE and STRUCTURE-style clustering; founder effects with worked examples (Ashkenazi Jewish founder variants in BRCA1 and BRCA2, Finnish heritage diseases, French-Canadian founders); bottlenecks and expansions; Out-of-Africa demographic history and PSMC; admixture in African-American and Latino populations; ancient DNA insights; the diversity of cohorts (UK Biobank, H3Africa, the 1000 Genomes Project).</p>
+
+            <h3 class="text-2xl mt-10 mb-4"><a href="population-genetics-applications.html">Population genetics applications</a></h3>
+            <p>Mendelian-disease epidemiology by population (Tay-Sachs, cystic fibrosis, sickle-cell, the thalassaemias); carrier-screening models (single-condition versus expanded panels, ethnicity-based versus pan-ethnic); pre-conception, prenatal, and newborn timing; the WHO / Wilson and Jungner 1968 criteria for screening programmes; the ELSI of population screening (consent, equity, stigma, insurance protections such as GINA in the United States); the 100,000 Genomes Project and the NHS Genomic Medicine Service. The page is framed as field-education throughout.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">How population genetics shows up in pedigree work</h2>
+
+            <p>Family-history documentation is fundamentally about a single pedigree, but population-genetics quantities sit underneath every recurrence-risk calculation. The carrier frequency in the relevant population sets the prior probability that a partner of an obligate carrier carries the same allele; the population frequency of a polygenic risk score sets the percentile against which a family-specific score is interpreted; the founder-allele structure of certain populations explains why Ashkenazi-ancestry individuals are documented as having distinct prior probabilities for BRCA1 and BRCA2 variants. None of those quantities are attributes of the family being drawn; they are properties of the population the family is sampled from. That distinction is what makes population-genetics literacy a routine skill for clinical geneticists and counsellors, not a niche interest.</p>
+
+            <p>Within Evagene, the documentation pages on <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk assessment</a>, <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculation</a>, and the <a href="complex-disease-pedigree-software.html">complex-disease tooling</a> all rely on population-genetics inputs &mdash; allele frequencies, penetrance estimates derived from population samples, and recurrence priors estimated against population baselines. The illustrative outputs in those pages are educational; the population-genetics layer beneath them is field-standard.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Where to read further</h2>
+
+            <p>Foundational papers worth reading in the original:</p>
+
+            <ul>
+                <li>Hardy, G. H. (1908). Mendelian proportions in a mixed population. <a href="https://www.science.org/doi/10.1126/science.28.706.49" rel="noopener">Science 28:49&ndash;50</a>.</li>
+                <li>Weinberg, W. (1908). &Uuml;ber den Nachweis der Vererbung beim Menschen. Jahreshefte des Vereins f&uuml;r vaterl&auml;ndische Naturkunde in W&uuml;rttemberg 64:368&ndash;382.</li>
+                <li>Fisher, R. A. (1930). <em>The Genetical Theory of Natural Selection</em>. Clarendon Press, Oxford.</li>
+                <li>Wright, S. (1931). Evolution in Mendelian populations. <a href="https://www.genetics.org/content/16/2/97" rel="noopener">Genetics 16:97&ndash;159</a>.</li>
+                <li>Kimura, M. (1968). Evolutionary rate at the molecular level. <a href="https://www.nature.com/articles/217624a0" rel="noopener">Nature 217:624&ndash;626</a>.</li>
+                <li>Ohta, T. (1973). Slightly deleterious mutant substitutions in evolution. <a href="https://www.nature.com/articles/246096a0" rel="noopener">Nature 246:96&ndash;98</a>.</li>
+            </ul>
+
+            <p>Modern textbook references include Gillespie 2004 (<em>Population Genetics: A Concise Guide</em>), Hartl &amp; Clark 2007 (<em>Principles of Population Genetics</em>), and Charlesworth &amp; Charlesworth 2010 (<em>Elements of Evolutionary Genetics</em>). For human-genetics specialisation, Reich 2018 (<em>Who We Are and How We Got Here</em>) covers the ancient-DNA-driven reframing of the past decade, and the published flagship papers of the <a href="https://www.nature.com/articles/nature15393" rel="noopener">1000 Genomes Project (Auton et al. 2015, Nature 526:68)</a> and <a href="https://www.nature.com/articles/s41586-022-04965-x" rel="noopener">gnomAD (Karczewski et al. 2020, Nature 581:434)</a> are the modern reference cohorts.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the difference between population genetics and evolutionary genetics?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Population genetics is the mathematical theory of allele-frequency change within and between populations under mutation, selection, drift, recombination, and migration. Evolutionary genetics is the same subject extended over longer timescales and integrated with phylogenetics, comparative genomics, and the molecular record of adaptation. The two are continuous; the boundary is conventional rather than substantive.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Why does Hardy-Weinberg matter clinically?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Hardy-Weinberg gives the expected genotype frequencies (p&sup2; : 2pq : q&sup2;) from allele frequencies under random mating and no selection, and is the null model used in genome-wide quality control, in case-control association testing, and in deriving carrier frequencies from the homozygous-affected frequency of recessive disease alleles in published epidemiology.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the neutral theory of molecular evolution?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Kimura 1968 proposed that most molecular variation segregating in a population is neutral or nearly so, and that the rate of molecular evolution is set primarily by the rate of neutral mutation and the action of genetic drift, not by positive selection. The neutral and nearly neutral theory is the modern null model against which signals of selection are detected.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Why is population structure important for genetic-association studies?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">When cases and controls in a study are drawn from genetically distinct subpopulations, allele-frequency differences between those subpopulations can produce spurious associations with any trait that also differs between the subpopulations. Principal component correction, mixed-model approaches, and within-family designs are routine controls for population stratification.</p>
+                </div>
+                <div class="pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Does Evagene do population genetics?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Evagene is a pedigree-modelling platform for academic, research, and educational use. Population-genetics quantities &mdash; allele frequencies, carrier frequencies, penetrance estimates &mdash; sit underneath the implementations of published risk-model algorithms (Claus 1994, Couch 1997, Frank 2002, Tyrer / Duffy / Cuzick 2004, BayesMendel BRCAPRO / MMRpro / PancPRO, family-history scoring), but Evagene is not a population-genetics analysis platform. The educational pages collected here treat the field as background literacy for users of the platform.</p>
+                </div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="allele-frequency-dynamics.html">Allele frequency dynamics: Hardy-Weinberg, selection, and drift</a></li>
+                <li><a href="demography-and-population-structure.html">Demography and population structure: migration, founder effects, and admixture</a></li>
+                <li><a href="population-genetics-applications.html">Population genetics applications: carrier screening and population screening ethics</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="complex-disease-pedigree-software.html">Complex disease pedigree software</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="allele-frequency-dynamics.html" class="hover:text-white transition-colors">Allele frequency dynamics</a></li><li><a href="demography-and-population-structure.html" class="hover:text-white transition-colors">Demography &amp; population structure</a></li><li><a href="population-genetics-applications.html" class="hover:text-white transition-colors">Population genetics applications</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="complex-disease-pedigree-software.html" class="hover:text-white transition-colors">Complex disease software</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

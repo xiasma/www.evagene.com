@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Genetics — Reading Pathways from Foundations to Advanced | Evagene</title>
+    <meta name="description" content="A free, structured reading pathway through the molecular, clinical, population, and quantitative genetics covered across the Evagene educational library. Seven pathways for foundations, molecular biology, clinical genetics, cancer, population, therapeutics, and refresher reading.">
+    <meta name="keywords" content="learn genetics, genetics reading pathway, study genetics online, genetic counselling reading list, clinical genetics curriculum, molecular biology pathway, cancer genetics reading, population genetics study, refresher genetics, genetics for students, genetics for trainees, genetics for educators">
+
+    <meta property="og:title" content="Learn Genetics — Reading Pathways from Foundations to Advanced | Evagene">
+    <meta property="og:description" content="Seven structured reading pathways through molecular, clinical, population, quantitative, cancer, and therapeutic genetics — for students, trainees, educators, and practitioners refreshing their knowledge.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/learn-genetics">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Learn Genetics — Reading Pathways from Foundations to Advanced">
+    <meta name="twitter:description" content="Seven structured pathways through Evagene's 46-page educational library.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/learn-genetics">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Learn Genetics: Reading Pathways from Foundations to Advanced",
+        "description":"Seven structured reading pathways through the Evagene educational library covering molecular, clinical, population, quantitative, cancer, and therapeutic genetics. For students, trainees, educators, and practitioners.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-07","dateModified":"2026-05-07",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/learn-genetics"},
+        "image":"https://evagene.com/og-image.png"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Learn Genetics — Reading Pathways",
+        "description":"Seven structured reading pathways covering foundations, molecular biology, clinical genetics, cancer genetics, population and quantitative genetics, therapeutics, and recent advances. Free, in-browser, no registration required.",
+        "url":"https://evagene.com/learn-genetics",
+        "provider":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "educationalLevel":["Secondary","Undergraduate","Postgraduate","Continuing professional development"],
+        "audience":{"@type":"EducationalAudience","educationalRole":["student","trainee","educator","practitioner"]},
+        "learningResourceType":"Reading list",
+        "isAccessibleForFree":true,
+        "inLanguage":"en-GB",
+        "license":"https://evagene.com/terms.html"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Learn Genetics","item":"https://evagene.com/learn-genetics"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"Who is this learning library for?","acceptedAnswer":{"@type":"Answer","text":"It is written for students with secondary-school or undergraduate biology, trainees in clinical and laboratory genetics, MSc and FRCPath candidates, educators preparing teaching material, genetic counsellors and clinical geneticists wanting a structured refresher, and curious practitioners from adjacent fields (oncology, paediatrics, reproductive medicine, primary care). The pathways are layered so the same library serves a beginner working from foundations and a practitioner skimming recent advances."}},
+            {"@type":"Question","name":"How much background knowledge do I need to start?","acceptedAnswer":{"@type":"Answer","text":"The Foundations pathway assumes secondary-school biology only — DNA, genes, chromosomes, basic Mendelian dominance and recessiveness. The Molecular Biology, Cancer Genetics, and Population pathways assume undergraduate-level biology. The Clinical Genetics and Refresher pathways assume working knowledge of pedigree drawing and inheritance patterns; if you don't have that, start with the Foundations pathway and the Pedigree Chart page."}},
+            {"@type":"Question","name":"How long does each pathway take?","acceptedAnswer":{"@type":"Answer","text":"Each page is around 1,000 to 2,000 words and takes 15 to 30 minutes to read carefully. A complete pathway is typically 5 to 12 pages, so 2 to 6 hours of reading per pathway. Many readers spread a pathway over several sessions; nothing is timed and there is no enrolment."}},
+            {"@type":"Question","name":"Are the pages free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every page is free to read in the browser. No registration, no paywall. The educational content is for academic, research, and teaching use; it is not clinical decision support and is not a medical device."}},
+            {"@type":"Question","name":"Can I cite Evagene's pages in my own teaching material?","acceptedAnswer":{"@type":"Answer","text":"Yes. Each page cites primary peer-reviewed sources (PubMed, NCBI, OMIM, GeneReviews, Nature, NEJM, Annual Reviews, ENCODE, gnomAD). When using the pages in teaching, the most rigorous practice is to cite the primary sources directly; Evagene pages can be referenced as a teaching summary."}},
+            {"@type":"Question","name":"How does this differ from a textbook?","acceptedAnswer":{"@type":"Answer","text":"The pages are deliberately shorter and more focused than textbook chapters, organised for the web rather than print. Each page targets one topic, covers it in depth with citations, and links to related pages. The Apply What You've Learned sections route to Evagene's risk-model implementations and pedigree-drawing tool so readers can connect the theory to a working example. Use the pages alongside a textbook (Strachan & Read, Korf & Irons, Nussbaum / McInnes / Willard) rather than as a replacement for one."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="learn-genetics.html" class="px-3 py-2 text-sm font-medium text-brand-600 dark:text-brand-300 rounded-lg">Learn</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Learn Genetics</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <p class="text-sm font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide mb-3">Learn Genetics</p>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Learn genetics — reading pathways from foundations to advanced</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A free, structured reading library through molecular, clinical, population, quantitative, cancer, and therapeutic genetics. Seven pathways take a reader from secondary-school biology to MSc / FRCPath-equivalent material; each pathway pairs ordered reading with Evagene's working calculators and pedigree-drawing tool so the theory stays attached to a worked example.</p>
+            <p class="mt-4 text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Free to read in the browser. No registration, no enrolment, no paywall. For academic, research, and teaching use; not clinical decision support, not a medical device.</p>
+        </header>
+
+        <section class="mb-16 not-prose">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">How this page works</h2>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">Each <strong>pathway</strong> is an ordered sequence of pages with a defined audience and a stated prerequisite. Reading times are estimates for careful reading (15&ndash;30 min per page); a full pathway runs 5&ndash;12 pages or 2&ndash;6 hours. After the pathway sections, a <strong>topic browser</strong> lists every page organised by major topic, so anyone who prefers to dip in can browse freely. An <strong>Apply What You've Learned</strong> section routes to Evagene's working risk-model calculators and pedigree-drawing tool. Inspired by learn.microsoft.com's structured-pathway approach, but for genetics.</p>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Every educational page cites primary peer-reviewed sources (PubMed, NCBI, OMIM, GeneReviews, Nature, NEJM, Annual Reviews, ENCODE, gnomAD). Evagene is a research-, education-, and family-history-focused platform; the pages are educational summaries, not clinical advice.</p>
+        </section>
+
+        <section class="mb-16 not-prose">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Pick your pathway</h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <a href="#path-foundations" class="block p-5 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-950 transition-colors">
+                    <span class="text-xs font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 1</span>
+                    <h3 class="mt-1 text-lg font-bold text-gray-900 dark:text-white">Foundations</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">Genetics from scratch. From DNA structure to inheritance patterns. ~6&ndash;7 hours, 11 pages.</p>
+                </a>
+                <a href="#path-molecular" class="block p-5 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-950 transition-colors">
+                    <span class="text-xs font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 2</span>
+                    <h3 class="mt-1 text-lg font-bold text-gray-900 dark:text-white">Molecular biology deep dive</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">DNA, transcription, translation, regulation, epigenetics, networks. ~10&ndash;12 hours, 13 pages.</p>
+                </a>
+                <a href="#path-clinical" class="block p-5 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-950 transition-colors">
+                    <span class="text-xs font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 3</span>
+                    <h3 class="mt-1 text-lg font-bold text-gray-900 dark:text-white">Clinical genetics</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">Pedigree-taking, ACMG/AMP variant interpretation, counselling, ELSI. ~8&ndash;10 hours, 12 pages.</p>
+                </a>
+                <a href="#path-cancer" class="block p-5 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-950 transition-colors">
+                    <span class="text-xs font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 4</span>
+                    <h3 class="mt-1 text-lg font-bold text-gray-900 dark:text-white">Cancer genetics</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">Oncogenes / tumour suppressors, hereditary syndromes, somatic genomics. ~7&ndash;9 hours, 9 pages.</p>
+                </a>
+                <a href="#path-population" class="block p-5 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-950 transition-colors">
+                    <span class="text-xs font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 5</span>
+                    <h3 class="mt-1 text-lg font-bold text-gray-900 dark:text-white">Population &amp; quantitative</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">Hardy-Weinberg, polygenic risk scores, heritability, GxE, ELSI. ~6&ndash;8 hours, 8 pages.</p>
+                </a>
+                <a href="#path-therapeutics" class="block p-5 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-950 transition-colors">
+                    <span class="text-xs font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 6</span>
+                    <h3 class="mt-1 text-lg font-bold text-gray-900 dark:text-white">Therapeutics &amp; gene therapy</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">IEM, pharmacogenetics, haemoglobin disorders, CRISPR, Casgevy. ~5&ndash;6 hours, 6 pages.</p>
+                </a>
+                <a href="#path-refresher" class="block p-5 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-950 transition-colors">
+                    <span class="text-xs font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 7</span>
+                    <h3 class="mt-1 text-lg font-bold text-gray-900 dark:text-white">Refresher: recent advances</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">For practitioners. AlphaMissense, ACMG SF v3.2, NSGC 2022, PRS, Casgevy, polygenic embryo selection. ~4&ndash;5 hours, 7 pages.</p>
+                </a>
+                <a href="#topic-browser" class="block p-5 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-gradient-to-br from-brand-50 to-white dark:from-brand-900 dark:to-brand-950 transition-colors">
+                    <span class="text-xs font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Alternative</span>
+                    <h3 class="mt-1 text-lg font-bold text-gray-900 dark:text-white">Browse by topic</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">All 46 educational pages organised under the 12 major topics. Self-directed reading.</p>
+                </a>
+                <a href="#apply" class="block p-5 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-gradient-to-br from-brand-50 to-white dark:from-brand-900 dark:to-brand-950 transition-colors">
+                    <span class="text-xs font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Practice</span>
+                    <h3 class="mt-1 text-lg font-bold text-gray-900 dark:text-white">Apply what you've learned</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">Twenty risk-model calculators plus the in-browser pedigree drawing tool. Theory meets practice.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Pathway 1: Foundations -->
+        <section id="path-foundations" class="mb-20 scroll-mt-24">
+            <div class="border-l-4 border-brand-500 pl-6 mb-6">
+                <p class="text-sm font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 1</p>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-1">Foundations &mdash; genetics from scratch</h2>
+                <p class="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Audience:</strong> students with secondary-school biology, beginning undergraduates, curious adults, anyone returning to genetics after a long gap. <strong>Prerequisite:</strong> familiarity with the concepts of "DNA", "gene", and "chromosome" at school-leaving level. <strong>Time:</strong> ~6&ndash;7 hours of careful reading. <strong>Outcome:</strong> ability to read a pedigree, identify common inheritance patterns, explain how mutations cause disease, and follow most undergraduate genetics teaching.</p>
+            </div>
+            <ol class="space-y-3 not-prose">
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">1.</span><div><a href="pedigree-chart.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Pedigree chart</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 10 min</span><p class="text-sm text-gray-600 dark:text-gray-400">A visual entry to genetics. The diagrammatic vocabulary used by every clinician and most textbooks.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">2.</span><div><a href="inheritance-patterns.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Inheritance patterns</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 15 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Autosomal dominant / recessive, X-linked, Y-linked, mitochondrial, imprinting. The classical Mendelian set.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">3.</span><div><a href="dna-and-chromatin-organization.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">DNA and chromatin organisation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Watson-Crick base pairing, the double helix, packaging into chromatin and chromosomes.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">4.</span><div><a href="mendelian-genetics-and-gene-discovery.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Mendelian genetics and gene discovery</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Mendel 1866 to GWAS 2007. How specific genes are found.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">5.</span><div><a href="chromosomes-and-cell-division.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Chromosomes and cell division</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Mitosis, meiosis, recombination, the cell cycle.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">6.</span><div><a href="chromosomal-abnormalities.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Chromosomal abnormalities</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Aneuploidy (Down, Edwards, Patau, Turner, Klinefelter), translocations, microdeletion syndromes.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">7.</span><div><a href="mutation-biology-and-consequences.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Mutation biology and consequences</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">What a mutation is, what causes one, what the consequences are.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">8.</span><div><a href="types-of-mutation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Types of mutation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Point mutations, indels, repeat expansions (Huntington, fragile X), structural variants.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">9.</span><div><a href="gene-expression-mechanisms.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Gene expression mechanisms</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">DNA &rarr; RNA &rarr; protein, in plain language. Read for the headlines, not the detail.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">10.</span><div><a href="pedigree-analysis-and-variable-expression.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Pedigree analysis and variable expression</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Penetrance, expressivity, mosaicism, Bayesian risk calculation. Where pedigrees become quantitative.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">11.</span><div><a href="allele-frequency-dynamics.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Allele frequency dynamics</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Hardy-Weinberg, selection, drift. Why sickle cell is common in malaria-endemic regions.</p></div></li>
+            </ol>
+            <div class="mt-6 p-5 rounded-xl bg-clinical-50 dark:bg-clinical-600/10 border border-clinical-200 dark:border-clinical-600/30">
+                <p class="text-sm font-semibold text-clinical-600 dark:text-clinical-400 uppercase tracking-wide mb-2">Apply</p>
+                <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">Try the <a href="mendelian-inheritance-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Mendelian inheritance calculator</a>, the <a href="autosomal-dominant-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">autosomal dominant</a> and <a href="autosomal-recessive-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">recessive</a> calculators, and draw your first pedigree with the <a href="pedigree-drawing-tool.html" class="text-brand-600 dark:text-brand-300 hover:underline">pedigree drawing tool</a>.</p>
+            </div>
+        </section>
+
+        <!-- Pathway 2: Molecular biology deep dive -->
+        <section id="path-molecular" class="mb-20 scroll-mt-24">
+            <div class="border-l-4 border-brand-500 pl-6 mb-6">
+                <p class="text-sm font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 2</p>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-1">Molecular biology deep dive</h2>
+                <p class="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Audience:</strong> undergraduate molecular biology / biochemistry students, MSc candidates, anyone who wants to understand how genes are read, regulated, and repaired at the molecular level. <strong>Prerequisite:</strong> Foundations Pathway or equivalent undergraduate biology. <strong>Time:</strong> ~10&ndash;12 hours. <strong>Outcome:</strong> ability to explain transcription, splicing, translation, chromatin regulation, and DNA repair pathways at a level appropriate for first-year postgraduate work.</p>
+            </div>
+            <ol class="space-y-3 not-prose">
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">1.</span><div><a href="molecular-architecture-of-genes.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Molecular architecture of genes</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Survey of the molecular topics. Read first to map the territory.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">2.</span><div><a href="dna-and-chromatin-organization.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">DNA and chromatin organisation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Watson-Crick / Hoogsteen, base-pairing energetics, supercoiling, nucleosomes, TADs.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">3.</span><div><a href="dna-replication-and-repair.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">DNA replication and repair</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Replisome, polymerases, MMR, NER, BER, HR vs NHEJ. The wiring behind Lynch syndrome and BRCA-related cancer.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">4.</span><div><a href="genome-structure-and-variation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Genome structure and variation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Repetitive DNA, transposons, CNV, SV detection, gnomAD-SV, long-read sequencing.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">5.</span><div><a href="gene-expression-mechanisms.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Gene expression mechanisms</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pillar overview &mdash; central dogma, the four stages.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">6.</span><div><a href="transcriptional-machinery.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Transcriptional machinery</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pol I/II/III, the CTD cycle, promoters, Mediator, enhancer-promoter contact.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">7.</span><div><a href="rna-processing-and-stability.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">RNA processing and stability</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Spliceosome, alternative splicing, polyadenylation, NMD.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">8.</span><div><a href="translation-and-post-translational-control.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Translation and post-translational control</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Ribosome structure, eIFs, mTOR, ribosome profiling, chaperones, PTMs.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">9.</span><div><a href="regulation-of-gene-activity.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Regulation of gene activity</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pillar overview of the three regulatory layers.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">10.</span><div><a href="cis-and-trans-regulatory-elements.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Cis and trans regulatory elements</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Enhancers, silencers, insulators, super-enhancers; ChIP-seq / ATAC-seq; eQTLs.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">11.</span><div><a href="epigenetics-and-chromatin-dynamics.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Epigenetics and chromatin dynamics</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">DNA methylation, histone marks, ChromHMM, Polycomb, X-inactivation, loop extrusion.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">12.</span><div><a href="gene-regulatory-networks.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Gene regulatory networks</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Network motifs, miRNAs, lncRNAs, Perturb-seq.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">13.</span><div><a href="functional-consequences-of-mutation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Functional consequences of mutation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">LoF, GoF, dominant negative, splice and regulatory mutations. Closing the molecular-to-disease loop.</p></div></li>
+            </ol>
+        </section>
+
+        <!-- Pathway 3: Clinical genetics -->
+        <section id="path-clinical" class="mb-20 scroll-mt-24">
+            <div class="border-l-4 border-brand-500 pl-6 mb-6">
+                <p class="text-sm font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 3</p>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-1">Clinical genetics &mdash; for trainees and counsellors</h2>
+                <p class="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Audience:</strong> genetic counselling MSc students, clinical genetics specialty trainees, FRCPath molecular pathology candidates, GPs and oncologists adding genetics to their practice. <strong>Prerequisite:</strong> Foundations Pathway or equivalent undergraduate biology + a clinical / counselling role context. <strong>Time:</strong> ~8&ndash;10 hours. <strong>Outcome:</strong> a working understanding of how a clinical genetics consultation captures family history, classifies variants under the published ACMG/AMP framework, and routes to counselling and disclosure. Pages describe the published professional literature; they are not clinical advice.</p>
+            </div>
+            <ol class="space-y-3 not-prose">
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">1.</span><div><a href="clinical-pedigree-drawing.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Clinical pedigree drawing</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 15 min</span><p class="text-sm text-gray-600 dark:text-gray-400">NSGC 2022 conventions, three-generation capture, consanguinity, pregnancy outcomes.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">2.</span><div><a href="nsgc-pedigree-notation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">NSGC pedigree notation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 15 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Symbol set in detail: 1995 / 2008 / 2022.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">3.</span><div><a href="clinical-genetic-skills.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Clinical genetic skills</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">The structured family-history interview, dysmorphology, ethnically informed history.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">4.</span><div><a href="inheritance-patterns.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Inheritance patterns</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Recap; you will use these recurrently in clinic.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">5.</span><div><a href="pedigree-analysis-and-variable-expression.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Pedigree analysis and variable expression</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Bayesian carrier-probability calculation; penetrance, expressivity, mosaicism.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">6.</span><div><a href="mutation-detection-and-interpretation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Mutation detection and interpretation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">NGS pipelines, ACMG/AMP 5-tier classification, gnomAD, ClinVar, AlphaMissense.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">7.</span><div><a href="diagnostics-and-counselling.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Diagnostics and counselling</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Test taxonomy, secondary findings (ACMG SF v3.2), Reciprocal-Engagement Model, cascade testing, duty to warn.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">8.</span><div><a href="cancer-genetics-and-somatic-variation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Cancer genetics and somatic variation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pillar overview &mdash; oncogenes / tumour suppressors / inherited / somatic.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">9.</span><div><a href="inherited-cancer-predisposition.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Inherited cancer predisposition</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">HBOC, Lynch, FAP, Li-Fraumeni, the major hereditary syndromes; published surveillance literature.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">10.</span><div><a href="clinical-practice-ethics-communication.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Clinical practice, ethics, and communication</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pillar overview of the consultation, counselling, and ELSI dimensions.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">11.</span><div><a href="ethics-legal-social-issues.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Ethics, legal, and social issues</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">NHGRI ELSI, GINA, GDPR, duty to warn, equity in genomics.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">12.</span><div><a href="clinical-pedigree-drawing-guidelines.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Clinical pedigree drawing guidelines</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 15 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Bennett 1995 / 2008 / 2022, ISCN, HGNC, HPO &mdash; the standards reference.</p></div></li>
+            </ol>
+            <div class="mt-6 p-5 rounded-xl bg-clinical-50 dark:bg-clinical-600/10 border border-clinical-200 dark:border-clinical-600/30">
+                <p class="text-sm font-semibold text-clinical-600 dark:text-clinical-400 uppercase tracking-wide mb-2">Apply</p>
+                <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">Use the <a href="pedigree-drawing-tool.html" class="text-brand-600 dark:text-brand-300 hover:underline">pedigree drawing tool</a> on a real family-history scenario. Try the <a href="brcapro-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">BRCAPRO</a>, <a href="mmrpro-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">MMRpro</a>, and <a href="lynch-syndrome-risk-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Lynch syndrome risk</a> calculators on a worked pedigree. Review <a href="hereditary-cancer-risk-assessment.html" class="text-brand-600 dark:text-brand-300 hover:underline">hereditary cancer risk assessment</a> for the integrated workflow.</p>
+            </div>
+        </section>
+
+        <!-- Pathway 4: Cancer genetics -->
+        <section id="path-cancer" class="mb-20 scroll-mt-24">
+            <div class="border-l-4 border-brand-500 pl-6 mb-6">
+                <p class="text-sm font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 4</p>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-1">Cancer genetics</h2>
+                <p class="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Audience:</strong> oncology, cancer-genetics counsellors, molecular-pathology trainees, researchers in tumour biology. <strong>Prerequisite:</strong> Foundations or undergraduate biology, plus the Mutation Biology subset of the Molecular Biology pathway. <strong>Time:</strong> ~7&ndash;9 hours. <strong>Outcome:</strong> ability to read a tumour sequencing report, distinguish driver from passenger mutations, recognise the major hereditary cancer syndromes, and follow the published literature on mutational signatures and biomarker-targeted therapy.</p>
+            </div>
+            <ol class="space-y-3 not-prose">
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">1.</span><div><a href="cancer-genetics-and-somatic-variation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Cancer genetics and somatic variation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pillar &mdash; Knudson, Hanahan & Weinberg hallmarks, the three sub-themes.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">2.</span><div><a href="mutation-biology-and-consequences.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Mutation biology and consequences</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pillar &mdash; types and consequences of mutation.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">3.</span><div><a href="types-of-mutation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Types of mutation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">SNVs, indels, repeat expansions, mutational signatures, paternal age effect.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">4.</span><div><a href="functional-consequences-of-mutation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Functional consequences of mutation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">LoF / GoF / dominant negative; splice and regulatory mutations; TERT promoter.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">5.</span><div><a href="oncogenes-and-tumour-suppressors.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Oncogenes and tumour suppressors</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">RAS / MYC / BCR-ABL / HER2 / EGFR / BRAF; RB1, TP53, APC, BRCA1/2; gatekeeper / caretaker / landscaper.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">6.</span><div><a href="inherited-cancer-predisposition.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Inherited cancer predisposition</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">HBOC, Lynch, FAP, MAP, Li-Fraumeni, Cowden, Peutz-Jeghers, HDGC, VHL, MEN1/2, NF, TSC, retinoblastoma.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">7.</span><div><a href="somatic-genomics.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Somatic genomics</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Clonal evolution, ctDNA, CHIP, mutational signatures, HRD, MSI, TMB, biomarker-targeted therapy.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">8.</span><div><a href="mutation-detection-and-interpretation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Mutation detection and interpretation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">NGS pipeline, ACMG/AMP, in-silico predictors, ClinVar, gnomAD.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">9.</span><div><a href="hereditary-cancer-risk-assessment.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Hereditary cancer risk assessment</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 30 min</span><p class="text-sm text-gray-600 dark:text-gray-400">The integrated workflow: family history &rarr; published risk-model algorithms &rarr; published referral thresholds.</p></div></li>
+            </ol>
+            <div class="mt-6 p-5 rounded-xl bg-clinical-50 dark:bg-clinical-600/10 border border-clinical-200 dark:border-clinical-600/30">
+                <p class="text-sm font-semibold text-clinical-600 dark:text-clinical-400 uppercase tracking-wide mb-2">Apply</p>
+                <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">Run worked examples through <a href="brcapro-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">BRCAPRO</a>, <a href="mmrpro-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">MMRpro</a>, <a href="pancpro-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">PancPRO</a>, and the <a href="lynch-syndrome-risk-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Lynch syndrome risk calculator</a>. Compare <a href="boadicea-vs-brcapro.html" class="text-brand-600 dark:text-brand-300 hover:underline">BOADICEA vs BRCAPRO</a>. Explore the <a href="germline-mosaicism-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">germline mosaicism calculator</a> for de-novo-mutation counselling.</p>
+            </div>
+        </section>
+
+        <!-- Pathway 5: Population & quantitative -->
+        <section id="path-population" class="mb-20 scroll-mt-24">
+            <div class="border-l-4 border-brand-500 pl-6 mb-6">
+                <p class="text-sm font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 5</p>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-1">Population &amp; quantitative genetics</h2>
+                <p class="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Audience:</strong> population-genetics researchers, statistical-genetics MSc students, epidemiologists, anyone working with PRS or GWAS. <strong>Prerequisite:</strong> Foundations Pathway plus comfort with basic statistics. <strong>Time:</strong> ~6&ndash;8 hours. <strong>Outcome:</strong> ability to read GWAS / PRS literature, evaluate heritability estimates, recognise the limits of polygenic prediction, and engage with the equity / portability debates.</p>
+            </div>
+            <ol class="space-y-3 not-prose">
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">1.</span><div><a href="population-and-evolutionary-genetics.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Population and evolutionary genetics</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pillar &mdash; Hardy 1908, Wright 1931, Kimura 1968, the conceptual map.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">2.</span><div><a href="allele-frequency-dynamics.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Allele frequency dynamics</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Hardy-Weinberg, selection, drift, the coalescent.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">3.</span><div><a href="demography-and-population-structure.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Demography and population structure</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">F-statistics, PCA, ADMIXTURE, founder effects, demographic inference, ancient DNA.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">4.</span><div><a href="quantitative-and-complex-traits.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Quantitative and complex traits</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pillar &mdash; Fisher's polygenic synthesis, Falconer's threshold model.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">5.</span><div><a href="polygenic-models.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Polygenic models</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Fisher's infinitesimal model, polygenic risk scores, PGS Catalog, portability.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">6.</span><div><a href="heritability-and-liability.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Heritability and liability</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Twin / SNP heritability, GREML, LDSC, missing heritability, threshold model, Carter effect.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">7.</span><div><a href="gene-environment-interaction.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Gene-environment interaction</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">GxE designs, Mendelian randomisation, epigenetic mediation.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">8.</span><div><a href="population-genetics-applications.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Population genetics applications</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Carrier-screening epidemiology, Wilson-Jungner criteria, ELSI of population screening.</p></div></li>
+            </ol>
+            <div class="mt-6 p-5 rounded-xl bg-clinical-50 dark:bg-clinical-600/10 border border-clinical-200 dark:border-clinical-600/30">
+                <p class="text-sm font-semibold text-clinical-600 dark:text-clinical-400 uppercase tracking-wide mb-2">Apply</p>
+                <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">Explore <a href="complex-disease-pedigree-software.html" class="text-brand-600 dark:text-brand-300 hover:underline">complex-disease pedigree software</a> for the liability-threshold engine in practice. Use the <a href="consanguinity-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">consanguinity calculator</a> for Wright's coefficient on a worked pedigree.</p>
+            </div>
+        </section>
+
+        <!-- Pathway 6: Therapeutics -->
+        <section id="path-therapeutics" class="mb-20 scroll-mt-24">
+            <div class="border-l-4 border-brand-500 pl-6 mb-6">
+                <p class="text-sm font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 6</p>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-1">Therapeutics &amp; gene therapy</h2>
+                <p class="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Audience:</strong> pharmacy / clinical pharmacology trainees, paediatricians and metabolic specialists, anyone interested in CRISPR and gene therapy. <strong>Prerequisite:</strong> Foundations or undergraduate biology. <strong>Time:</strong> ~5&ndash;6 hours. <strong>Outcome:</strong> a working understanding of inborn errors of metabolism, the published pharmacogenetic evidence base (CPIC), and the current generation of approved gene-therapy products (Casgevy, Luxturna, Zolgensma, Spinraza). Pages describe the published research literature; nothing here is a treatment recommendation.</p>
+            </div>
+            <ol class="space-y-3 not-prose">
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">1.</span><div><a href="metabolic-genetics-and-therapeutics.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Metabolic genetics and therapeutics</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pillar &mdash; Garrod 1902 to CRISPR 2024.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">2.</span><div><a href="inborn-errors-of-metabolism.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Inborn errors of metabolism</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pathway-block reasoning, NBS, IEM categories.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">3.</span><div><a href="pharmacogenetics-and-precision-therapy.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Pharmacogenetics and precision therapy</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">CYP polymorphisms, HLA-B*57:01 and abacavir, CPIC, Luxturna, Zolgensma, Spinraza, CRISPR-Cas9, base / prime editing, exa-cel.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">4.</span><div><a href="haemoglobin-and-development-genetics.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Haemoglobin and development genetics</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Pillar &mdash; Pauling 1949, Ingram 1957, Nüsslein-Volhard 1980.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">5.</span><div><a href="haemoglobin-biology-and-disorders.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Haemoglobin biology and disorders</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">α / β / γ / δ chains, the haemoglobin switch, sickle cell, thalassaemia genetics, CRISPR exa-cel.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">6.</span><div><a href="genes-in-development.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Genes in development</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">WNT, SHH, Notch, BMP/TGF-β, FGF, Hippo signalling; congenital malformation genetics.</p></div></li>
+            </ol>
+        </section>
+
+        <!-- Pathway 7: Refresher -->
+        <section id="path-refresher" class="mb-20 scroll-mt-24">
+            <div class="border-l-4 border-brand-500 pl-6 mb-6">
+                <p class="text-sm font-semibold text-brand-600 dark:text-brand-300 uppercase tracking-wide">Pathway 7</p>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-1">Refresher &mdash; recent advances</h2>
+                <p class="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed"><strong>Audience:</strong> qualified clinicians, counsellors, researchers, and educators who learned the foundations several years ago and want a tightly focused update on what has changed since 2020. <strong>Prerequisite:</strong> existing working knowledge of clinical genetics. <strong>Time:</strong> ~4&ndash;5 hours. <strong>Outcome:</strong> caught up on AlphaMissense, ACMG SF v3.2, NSGC 2022, mutational signatures (PCAWG), Casgevy, polygenic embryo selection, and the equity-in-genomics literature.</p>
+            </div>
+            <ol class="space-y-3 not-prose">
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">1.</span><div><a href="mutation-detection-and-interpretation.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Mutation detection and interpretation</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">AlphaMissense (Cheng 2023), AlphaFold-derived predictors, gnomAD v4, ACMG/AMP refinements (Tavtigian 2018; Brnich 2019).</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">2.</span><div><a href="diagnostics-and-counselling.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Diagnostics and counselling</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">ACMG SF v3.2 (Miller 2023). The list keeps growing.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">3.</span><div><a href="pedigree-analysis-and-variable-expression.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Pedigree analysis and variable expression</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 20 min</span><p class="text-sm text-gray-600 dark:text-gray-400">NSGC 2022 (Bennett 2022) on sex versus gender; the symbol-set update most likely to land in your clinic.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">4.</span><div><a href="somatic-genomics.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Somatic genomics</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Mutational signatures (Alexandrov 2020 PCAWG), HRD, MSI-H + checkpoint inhibitors (Le 2015), TRACERx clonal evolution.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">5.</span><div><a href="polygenic-models.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Polygenic models</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">PRS construction (LDpred, PRS-CS), Khera 2018 CAD score, Martin 2019 portability, the PGS Catalog.</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">6.</span><div><a href="pharmacogenetics-and-precision-therapy.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Pharmacogenetics and precision therapy</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">CRISPR-Cas9 editing in clinical use, base / prime editing, the Casgevy / exa-cel approval (Frangoul 2021; FDA / MHRA 2023).</p></div></li>
+                <li class="flex items-start gap-3"><span class="font-semibold text-brand-600 dark:text-brand-300 w-6 flex-shrink-0">7.</span><div><a href="ethics-legal-social-issues.html" class="font-medium text-brand-700 dark:text-brand-300 hover:underline">Ethics, legal, and social issues</a> <span class="text-xs text-gray-500 dark:text-gray-500">&middot; 25 min</span><p class="text-sm text-gray-600 dark:text-gray-400">Polygenic embryo selection (Karavani 2019; Turley 2021), the Genomics England Newborn Genomes Programme, ABC v St George's [2020], equity in genomics (Sirugo 2019).</p></div></li>
+            </ol>
+        </section>
+
+        <!-- Topic browser -->
+        <section id="topic-browser" class="mb-20 scroll-mt-24">
+            <div class="border-l-4 border-gray-400 dark:border-gray-600 pl-6 mb-6">
+                <p class="text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wide">Alternative</p>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-1">Browse by topic</h2>
+                <p class="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed">All 46 educational pages organised under the 12 major topics. For self-directed reading or for finding a specific page outside the pathway structure.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-8">
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Molecular architecture of genes</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="molecular-architecture-of-genes.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="dna-and-chromatin-organization.html" class="text-brand-600 dark:text-brand-300 hover:underline">DNA and chromatin organisation</a></li>
+                        <li><a href="dna-replication-and-repair.html" class="text-brand-600 dark:text-brand-300 hover:underline">DNA replication and repair</a></li>
+                        <li><a href="genome-structure-and-variation.html" class="text-brand-600 dark:text-brand-300 hover:underline">Genome structure and variation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Gene expression mechanisms</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="gene-expression-mechanisms.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="transcriptional-machinery.html" class="text-brand-600 dark:text-brand-300 hover:underline">Transcriptional machinery</a></li>
+                        <li><a href="rna-processing-and-stability.html" class="text-brand-600 dark:text-brand-300 hover:underline">RNA processing and stability</a></li>
+                        <li><a href="translation-and-post-translational-control.html" class="text-brand-600 dark:text-brand-300 hover:underline">Translation and post-translational control</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Regulation of gene activity</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="regulation-of-gene-activity.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="cis-and-trans-regulatory-elements.html" class="text-brand-600 dark:text-brand-300 hover:underline">Cis and trans regulatory elements</a></li>
+                        <li><a href="epigenetics-and-chromatin-dynamics.html" class="text-brand-600 dark:text-brand-300 hover:underline">Epigenetics and chromatin dynamics</a></li>
+                        <li><a href="gene-regulatory-networks.html" class="text-brand-600 dark:text-brand-300 hover:underline">Gene regulatory networks</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Mutation biology and consequences</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="mutation-biology-and-consequences.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="types-of-mutation.html" class="text-brand-600 dark:text-brand-300 hover:underline">Types of mutation</a></li>
+                        <li><a href="functional-consequences-of-mutation.html" class="text-brand-600 dark:text-brand-300 hover:underline">Functional consequences of mutation</a></li>
+                        <li><a href="mutation-detection-and-interpretation.html" class="text-brand-600 dark:text-brand-300 hover:underline">Mutation detection and interpretation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Chromosomes and cell division</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="chromosomes-and-cell-division.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="chromosome-structure-and-mapping.html" class="text-brand-600 dark:text-brand-300 hover:underline">Chromosome structure and mapping</a></li>
+                        <li><a href="cell-cycle-mitosis-meiosis.html" class="text-brand-600 dark:text-brand-300 hover:underline">Cell cycle, mitosis, meiosis</a></li>
+                        <li><a href="chromosomal-abnormalities.html" class="text-brand-600 dark:text-brand-300 hover:underline">Chromosomal abnormalities</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Mendelian genetics and gene discovery</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="mendelian-genetics-and-gene-discovery.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="inheritance-patterns.html" class="text-brand-600 dark:text-brand-300 hover:underline">Inheritance patterns</a></li>
+                        <li><a href="pedigree-analysis-and-variable-expression.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pedigree analysis and variable expression</a></li>
+                        <li><a href="mapping-and-gene-identification.html" class="text-brand-600 dark:text-brand-300 hover:underline">Mapping and gene identification</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Quantitative and complex traits</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="quantitative-and-complex-traits.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="polygenic-models.html" class="text-brand-600 dark:text-brand-300 hover:underline">Polygenic models</a></li>
+                        <li><a href="heritability-and-liability.html" class="text-brand-600 dark:text-brand-300 hover:underline">Heritability and liability</a></li>
+                        <li><a href="gene-environment-interaction.html" class="text-brand-600 dark:text-brand-300 hover:underline">Gene-environment interaction</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Population and evolutionary genetics</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="population-and-evolutionary-genetics.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="allele-frequency-dynamics.html" class="text-brand-600 dark:text-brand-300 hover:underline">Allele frequency dynamics</a></li>
+                        <li><a href="demography-and-population-structure.html" class="text-brand-600 dark:text-brand-300 hover:underline">Demography and population structure</a></li>
+                        <li><a href="population-genetics-applications.html" class="text-brand-600 dark:text-brand-300 hover:underline">Population genetics applications</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Haemoglobin and development</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="haemoglobin-and-development-genetics.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="haemoglobin-biology-and-disorders.html" class="text-brand-600 dark:text-brand-300 hover:underline">Haemoglobin biology and disorders</a></li>
+                        <li><a href="genes-in-development.html" class="text-brand-600 dark:text-brand-300 hover:underline">Genes in development</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Cancer genetics and somatic variation</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="cancer-genetics-and-somatic-variation.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="oncogenes-and-tumour-suppressors.html" class="text-brand-600 dark:text-brand-300 hover:underline">Oncogenes and tumour suppressors</a></li>
+                        <li><a href="inherited-cancer-predisposition.html" class="text-brand-600 dark:text-brand-300 hover:underline">Inherited cancer predisposition</a></li>
+                        <li><a href="somatic-genomics.html" class="text-brand-600 dark:text-brand-300 hover:underline">Somatic genomics</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Metabolic genetics and therapeutics</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="metabolic-genetics-and-therapeutics.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="inborn-errors-of-metabolism.html" class="text-brand-600 dark:text-brand-300 hover:underline">Inborn errors of metabolism</a></li>
+                        <li><a href="pharmacogenetics-and-precision-therapy.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pharmacogenetics and precision therapy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">Clinical practice, ethics, and communication</h3>
+                    <ul class="space-y-1 text-sm">
+                        <li><a href="clinical-practice-ethics-communication.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pillar overview</a></li>
+                        <li><a href="clinical-genetic-skills.html" class="text-brand-600 dark:text-brand-300 hover:underline">Clinical genetic skills</a></li>
+                        <li><a href="diagnostics-and-counselling.html" class="text-brand-600 dark:text-brand-300 hover:underline">Diagnostics and counselling</a></li>
+                        <li><a href="ethics-legal-social-issues.html" class="text-brand-600 dark:text-brand-300 hover:underline">Ethics, legal, and social issues</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apply -->
+        <section id="apply" class="mb-20 scroll-mt-24">
+            <div class="border-l-4 border-clinical-500 pl-6 mb-6">
+                <p class="text-sm font-semibold text-clinical-600 dark:text-clinical-400 uppercase tracking-wide">Practice</p>
+                <h2 class="text-3xl font-bold text-gray-900 dark:text-white mt-1">Apply what you've learned</h2>
+                <p class="mt-3 text-gray-700 dark:text-gray-300 leading-relaxed">The pages explain the published methods; the pages below let you run them. All twenty risk-model algorithm implementations and the pedigree drawing tool are free during alpha. Outputs are illustrative and intended for research, teaching, and family-history documentation.</p>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-x-8 gap-y-6">
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3">Draw &amp; document</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="pedigree-drawing-tool.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pedigree drawing tool</a> &mdash; in-browser, gesture-driven, NSGC-compliant</li>
+                        <li><a href="how-to-draw-a-pedigree-chart.html" class="text-brand-600 dark:text-brand-300 hover:underline">How to draw a pedigree chart</a></li>
+                        <li><a href="pedigree-symbols-reference.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pedigree symbols reference</a></li>
+                        <li><a href="three-generation-family-history.html" class="text-brand-600 dark:text-brand-300 hover:underline">Three-generation family history</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3">Mendelian inheritance</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="mendelian-inheritance-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Mendelian inheritance calculator</a></li>
+                        <li><a href="autosomal-dominant-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Autosomal dominant calculator</a></li>
+                        <li><a href="autosomal-recessive-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Autosomal recessive calculator</a></li>
+                        <li><a href="x-linked-recessive-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">X-linked recessive calculator</a></li>
+                        <li><a href="carrier-probability-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Carrier probability calculator</a></li>
+                        <li><a href="inheritance-pattern-identifier.html" class="text-brand-600 dark:text-brand-300 hover:underline">Inheritance pattern identifier</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3">Cancer family-history risk</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="hereditary-cancer-risk-assessment.html" class="text-brand-600 dark:text-brand-300 hover:underline">Hereditary cancer risk assessment</a></li>
+                        <li><a href="brcapro-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">BRCAPRO</a> &middot; <a href="mmrpro-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">MMRpro</a> &middot; <a href="pancpro-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">PancPRO</a></li>
+                        <li><a href="lynch-syndrome-risk-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Lynch syndrome risk calculator</a></li>
+                        <li><a href="breast-cancer-family-history-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Breast cancer family-history calculator</a></li>
+                        <li><a href="ovarian-cancer-family-history-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Ovarian</a> &middot; <a href="pancreatic-cancer-family-history.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pancreatic</a></li>
+                        <li><a href="boadicea-alternative.html" class="text-brand-600 dark:text-brand-300 hover:underline">BOADICEA via CanRisk export</a> &middot; <a href="tyrer-cuzick-alternative.html" class="text-brand-600 dark:text-brand-300 hover:underline">Tyrer-Cuzick (IBIS-style approximation)</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3">Specialised tools</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="germline-mosaicism-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Germline mosaicism calculator</a></li>
+                        <li><a href="consanguinity-calculator.html" class="text-brand-600 dark:text-brand-300 hover:underline">Consanguinity calculator (Wright's coefficient)</a></li>
+                        <li><a href="karyogram-viewer.html" class="text-brand-600 dark:text-brand-300 hover:underline">Karyogram viewer</a></li>
+                        <li><a href="pedigree-ocr.html" class="text-brand-600 dark:text-brand-300 hover:underline">Pedigree OCR</a></li>
+                        <li><a href="batch-pedigree-risk-screening.html" class="text-brand-600 dark:text-brand-300 hover:underline">Batch pedigree risk screening</a></li>
+                        <li><a href="complex-disease-pedigree-software.html" class="text-brand-600 dark:text-brand-300 hover:underline">Complex-disease pedigree software</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3">Worked condition examples</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="achondroplasia-pedigree.html" class="text-brand-600 dark:text-brand-300 hover:underline">Achondroplasia &mdash; FGFR3, paternal age</a></li>
+                        <li><a href="duchenne-muscular-dystrophy-pedigree.html" class="text-brand-600 dark:text-brand-300 hover:underline">Duchenne muscular dystrophy</a></li>
+                        <li><a href="dravet-syndrome-pedigree.html" class="text-brand-600 dark:text-brand-300 hover:underline">Dravet syndrome &mdash; SCN1A de novo</a></li>
+                        <li><a href="rett-syndrome-pedigree.html" class="text-brand-600 dark:text-brand-300 hover:underline">Rett syndrome &mdash; MECP2, female bias</a></li>
+                        <li><a href="osteogenesis-imperfecta-pedigree.html" class="text-brand-600 dark:text-brand-300 hover:underline">Osteogenesis imperfecta</a></li>
+                        <li><a href="tuberous-sclerosis-pedigree.html" class="text-brand-600 dark:text-brand-300 hover:underline">Tuberous sclerosis &mdash; mosaic vs penetrance</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3">Inheritance-model deep dives</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="x-linked-dominant-pedigree.html" class="text-brand-600 dark:text-brand-300 hover:underline">X-linked dominant (5 sub-modes)</a></li>
+                        <li><a href="mitochondrial-inheritance-pedigree.html" class="text-brand-600 dark:text-brand-300 hover:underline">Mitochondrial inheritance</a></li>
+                        <li><a href="digenic-inheritance-pedigree.html" class="text-brand-600 dark:text-brand-300 hover:underline">Digenic inheritance</a></li>
+                        <li><a href="imprinting-upd-pedigree.html" class="text-brand-600 dark:text-brand-300 hover:underline">Imprinting &amp; UPD</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="mb-12" id="faq">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-6">Frequently asked questions</h2>
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Who is this learning library for?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Students with secondary-school or undergraduate biology, trainees in clinical and laboratory genetics, MSc and FRCPath candidates, educators preparing teaching material, genetic counsellors and clinical geneticists wanting a structured refresher, and curious practitioners from adjacent fields. The pathways are layered so the same library serves a beginner working from foundations and a practitioner skimming recent advances.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How much background knowledge do I need to start?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The Foundations pathway assumes secondary-school biology only. The Molecular Biology, Cancer Genetics, and Population pathways assume undergraduate-level biology. The Clinical and Refresher pathways assume working knowledge of pedigree drawing and inheritance patterns; if you don't have that, start with Foundations.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How long does each pathway take?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Each page is 1,000 to 2,000 words and takes 15 to 30 minutes to read carefully. A pathway is typically 5 to 12 pages, so 2 to 6 hours. Many readers spread a pathway over several sessions; nothing is timed.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Are the pages free to use?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes. Free in the browser, no registration, no paywall. For academic, research, and teaching use; not clinical decision support, not a medical device.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Can I cite Evagene's pages in my own teaching?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes. Each page cites primary peer-reviewed sources (PubMed, NCBI, OMIM, GeneReviews, Nature, NEJM, Annual Reviews, ENCODE, gnomAD). The most rigorous practice is to cite the primary sources directly; Evagene pages can be referenced as a teaching summary.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How does this differ from a textbook?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Pages are deliberately shorter and more focused than textbook chapters. Each targets one topic and links to related pages. The Apply What You've Learned sections route to working risk-model implementations and the pedigree drawing tool. Use alongside a textbook (Strachan & Read; Korf & Irons; Nussbaum / McInnes / Willard), not as a replacement.</p></div>
+            </div>
+        </section>
+
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Ready to apply what you've learned?</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">Draw your first pedigree, run a worked example through twenty published risk-model algorithm implementations, and explore the 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn</h4><ul class="space-y-2 text-sm"><li><a href="learn-genetics.html" class="hover:text-white transition-colors">Learn genetics (pathways)</a></li><li><a href="pedigree-drawing-tool.html" class="hover:text-white transition-colors">Pedigree drawing tool</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li><li><a href="clinical-pedigree-drawing.html" class="hover:text-white transition-colors">Clinical pedigree drawing</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

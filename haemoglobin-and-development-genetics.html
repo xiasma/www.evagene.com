@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Genetics of Haemoglobin and Development | Evagene</title>
+    <meta name="description" content="An educational survey of how molecular genetics translates to disease and to development: haemoglobin biology, the first molecular disease, and the developmental signalling pathways uncovered in Drosophila and vertebrates.">
+    <meta name="keywords" content="haemoglobin genetics, developmental genetics, molecular disease, sickle cell anaemia, thalassaemia, Drosophila genetic screen, signalling pathways, Pauling 1949, Ingram 1957, Nusslein-Volhard, clinical genetics teaching, pedigree education">
+
+    <meta property="og:title" content="Clinical Genetics of Haemoglobin and Development | Evagene">
+    <meta property="og:description" content="A teaching survey of haemoglobin disorders as the first molecular diseases and the Drosophila-derived developmental signalling pathways behind congenital malformation genetics.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/haemoglobin-and-development-genetics">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Clinical Genetics of Haemoglobin and Development">
+    <meta name="twitter:description" content="Haemoglobin biology, the first molecular disease, and the developmental signalling pathways behind congenital malformation genetics.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/haemoglobin-and-development-genetics">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Clinical Genetics of Haemoglobin and Development",
+        "description":"An educational survey of how molecular genetics translates into disease and into development. Pillar overview connecting the haemoglobinopathies (the first molecular diseases) and the Drosophila-derived developmental signalling pathways behind congenital malformation genetics.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/haemoglobin-and-development-genetics"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["haemoglobin genetics","developmental genetics","molecular disease","sickle cell anaemia","thalassaemia","Drosophila genetic screen","signalling pathways","clinical genetics teaching"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Clinical Genetics of Haemoglobin and Development",
+        "description":"Pillar teaching survey of how molecular genetics applies to disease (haemoglobinopathies) and to development (signalling pathways and congenital malformation genetics). Educational and research use only.",
+        "learningResourceType":"Topic survey",
+        "educationalLevel":"Undergraduate, postgraduate, professional CPD",
+        "audience":{"@type":"Audience","audienceType":"Students, clinicians, researchers, educators"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "url":"https://evagene.com/haemoglobin-and-development-genetics"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Learn","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Haemoglobin and Development Genetics","item":"https://evagene.com/haemoglobin-and-development-genetics"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="https://evagene.com/#resources" class="hover:text-brand-600 dark:hover:text-brand-300">Learn</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Haemoglobin and Development Genetics</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Clinical genetics of haemoglobin and development</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A pillar survey of how molecular genetics translates to disease and to development. Two flagship case studies of classical teaching genetics &mdash; the haemoglobinopathies as the first molecular diseases, and the developmental signalling pathways uncovered by Drosophila genetic screens &mdash; sit at opposite ends of the same intellectual project: connecting genotype, protein, cell biology, and phenotype.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>13 min read</span>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>Educational survey</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> The haemoglobinopathies are where molecular genetics began: <a href="https://pubmed.ncbi.nlm.nih.gov/15395398/" rel="noopener">Pauling et al. 1949</a> identified sickle cell anaemia as the first "molecular disease" by electrophoretic mobility, and <a href="https://pubmed.ncbi.nlm.nih.gov/13464827/" rel="noopener">Ingram 1957</a> showed at protein-sequence level that a single amino-acid substitution &mdash; β6 Glu&rarr;Val &mdash; explains the phenotype. Developmental genetics is where the same logic was scaled up to whole organisms: the Heidelberg saturation screens of <a href="https://pubmed.ncbi.nlm.nih.gov/6776413/" rel="noopener">N&uuml;sslein-Volhard &amp; Wieschaus 1980</a> uncovered the master regulators of body plan in Drosophila, and the same pathway components turned out to govern human development. This pillar page introduces the two subtopics; deeper coverage lives in the dedicated pages.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why these two topics share a page</h2>
+
+            <p>Classical clinical-genetics teaching pairs the haemoglobinopathies and the developmental signalling pathways for a reason. They are the two areas where the chain from <em>gene &rarr; protein &rarr; cellular function &rarr; tissue phenotype &rarr; whole-organism disease</em> can be told end-to-end in a way that students and trainees can remember. Sickle cell anaemia is the textbook example of how a single nucleotide substitution becomes a clinical phenotype; achondroplasia, holoprosencephaly, and the RASopathies are the textbook examples of how perturbing a developmental signalling pathway disturbs a body plan. The two case studies bracket the field: one is biochemistry made clinical, the other is embryology made clinical.</p>
+
+            <p>The historical arc also rhymes. Both fields were unlocked by an unfashionable methodological choice. Pauling chose to look at sickle cell haemoglobin as a protein on a gel rather than as a clinical syndrome; N&uuml;sslein-Volhard and Wieschaus chose to mutate Drosophila embryos rather than to dissect a vertebrate. In each case, the technique came first and the clinical relevance was reverse-engineered later. Both projects were eventually recognised by Nobel Prizes &mdash; Pauling 1954 (Chemistry, partly for his protein work) and the 1995 Physiology or Medicine prize to <a href="https://www.nobelprize.org/prizes/medicine/1995/summary/" rel="noopener">N&uuml;sslein-Volhard, Wieschaus, and Lewis</a> for early embryonic development.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The first molecular disease: haemoglobin</h2>
+
+            <p>In 1949, Linus Pauling, Harvey Itano, S. J. Singer, and Ibert Wells reported that haemoglobin from patients with sickle cell anaemia migrated differently on electrophoresis from haemoglobin in unaffected individuals (<a href="https://pubmed.ncbi.nlm.nih.gov/15395398/" rel="noopener">Pauling et al. 1949, Science 110:543</a>). The paper named sickle cell anaemia as a "molecular disease" &mdash; the first time a clinical phenotype had been traced to an alteration of a specific protein. The molecular detail had to wait for sequencing methods. In 1957, Vernon Ingram showed by tryptic peptide fingerprinting that the difference between HbA and HbS was a single amino acid: glutamic acid at the sixth position of the β chain replaced by valine (<a href="https://pubmed.ncbi.nlm.nih.gov/13464827/" rel="noopener">Ingram 1957, Nature 180:326</a>). The substitution &mdash; <span class="font-mono text-sm">HBB:c.20A&gt;T (p.Glu6Val)</span> in modern HGVS notation &mdash; remains the textbook example of a Mendelian disease caused by a single point mutation.</p>
+
+            <p>The biology built outwards from there. The polymerisation of deoxygenated HbS in red cells, the rheological consequences for the microcirculation, the heterozygote-advantage explanation for the high allele frequency in regions of historical malaria endemism (<a href="https://pubmed.ncbi.nlm.nih.gov/13115700/" rel="noopener">Allison 1954</a>), and the population genetics of the African, Mediterranean, Middle Eastern, and South Asian sickle cell and thalassaemia haplotypes are now standard teaching content. The thalassaemias &mdash; α and β &mdash; sit alongside the structural haemoglobinopathies as quantitative disorders of haemoglobin chain synthesis, with their own characteristic geographic distributions and genotype&ndash;phenotype correlations. The deep reference textbook for the field is Weatherall &amp; Clegg, <em>The Thalassaemia Syndromes</em> (4th edition, 2001).</p>
+
+            <p>Modern haemoglobin genetics has two new strands. The first is the developmental switch from foetal haemoglobin (α<sub>2</sub>γ<sub>2</sub>, HbF) to adult haemoglobin (α<sub>2</sub>β<sub>2</sub>, HbA), regulated by the <em>BCL11A</em> repressor of the γ-globin genes and reactivable as a research strategy for sickle cell disease and β-thalassaemia. The second is gene therapy. <a href="https://pubmed.ncbi.nlm.nih.gov/33283989/" rel="noopener">Frangoul et al. 2021 (NEJM 384:252)</a> reported the first patients treated with CTX001 / exa-cel (now Casgevy), a CRISPR-Cas9 disruption of the <em>BCL11A</em> erythroid enhancer that derepresses γ-globin and raises HbF. Casgevy received conditional approval from the UK MHRA in November 2023 and from the US FDA in December 2023 for sickle cell disease, and shortly thereafter for transfusion-dependent β-thalassaemia. We discuss this neutrally as research literature, not as a treatment recommendation.</p>
+
+            <p>For the full molecular and clinical detail of haemoglobin biology and the haemoglobinopathies, see <a href="haemoglobin-biology-and-disorders.html">haemoglobin biology and disorders</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Genes in development: signalling pathways</h2>
+
+            <p>The genetics of development was opened up by a single experiment. Christiane N&uuml;sslein-Volhard and Eric Wieschaus, working at the European Molecular Biology Laboratory in Heidelberg in the late 1970s, ran a saturation mutagenesis screen of <em>Drosophila melanogaster</em> embryos and looked at the resulting cuticle phenotypes for systematic disturbances of the body plan. Their 1980 paper (<a href="https://pubmed.ncbi.nlm.nih.gov/6776413/" rel="noopener">N&uuml;sslein-Volhard &amp; Wieschaus 1980, Nature 287:795</a>) catalogued the gap, pair-rule, and segment-polarity genes. Edward Lewis's parallel work at Caltech on the bithorax complex established that homeotic genes specify the identity of body segments. The 1995 Nobel Prize in Physiology or Medicine to all three formalised what was already obvious to the field: the genes that build a fly build a vertebrate.</p>
+
+            <p>The pathways that fell out of those screens &mdash; Wingless / WNT, Hedgehog, Notch, Decapentaplegic / BMP / TGF-β, FGF, and the later Hippo pathway &mdash; form the core grammar of vertebrate development and a large fraction of human congenital malformation genetics. <em>SHH</em> heterozygous loss-of-function causes holoprosencephaly (<a href="https://pubmed.ncbi.nlm.nih.gov/8896572/" rel="noopener">Roessler et al. 1996, Nat Genet 14:357</a>); <em>NOTCH3</em> missense variants cause CADASIL; <em>FGFR3</em> gain-of-function variants cause achondroplasia, hypochondroplasia, and thanatophoric dysplasia (see <a href="achondroplasia-pedigree.html">achondroplasia pedigree</a>); the RASopathies (Noonan syndrome and its allelic and locus-related disorders) are caused by germline activating variants in components of the RAS&ndash;MAPK pathway (<a href="https://pubmed.ncbi.nlm.nih.gov/20736950/" rel="noopener">Roberts &amp; Tartaglia 2010</a>); <em>FBN1</em> haploinsufficiency causes Marfan syndrome via dysregulated TGF-β signalling. The full survey is in <a href="genes-in-development.html">genes in development</a>.</p>
+
+            <p>The teaching point is that the same pathway behaves differently depending on dosage and timing. <em>SHH</em> haploinsufficiency causes a midline forebrain defect; <em>SHH</em> gain-of-function (via patched-1 loss) causes basal cell carcinoma and medulloblastoma (<a href="https://pubmed.ncbi.nlm.nih.gov/18948956/" rel="noopener">Foulkes et al. 2008, Nat Rev Cancer 8:851</a>). The mechanism &mdash; haploinsufficiency, dominant negative, gain-of-function, or loss-of-function recessive &mdash; is part of the diagnostic signature, and it is what makes inheritance-pattern recognition from the pedigree informative even before molecular testing.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">What this pair teaches the genetics student</h2>
+
+            <p>Three lessons:</p>
+
+            <ul>
+                <li><strong>Genotype to phenotype is not magic.</strong> Sickle cell anaemia gives the cleanest worked example in human disease: a single nucleotide change, a single amino-acid substitution, a polymerisation defect under hypoxia, a microvascular consequence, a clinical syndrome.</li>
+                <li><strong>The same gene products do different jobs in different contexts.</strong> The α-globin and β-globin loci illustrate developmental gene switching; <em>SHH</em> illustrates dosage-dependent and tissue-dependent biology; <em>FGFR3</em> illustrates how the same gene yields a graded phenotypic series (hypochondroplasia, achondroplasia, thanatophoric dysplasia).</li>
+                <li><strong>Inheritance patterns are diagnostic clues.</strong> Autosomal recessive transmission, parental consanguinity, ethnic-specific allele frequencies, sex-differential expression, and de novo dominant transmission are all visible in the pedigree before any DNA is sequenced. The pedigree is the integrating diagram. See <a href="pedigree-chart.html">pedigree chart</a> and <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">How Evagene fits</h2>
+
+            <p>Evagene is an academic, research, and educational pedigree modelling platform. For the topics on this page, the platform is a teaching aid: students draw three- and four-generation pedigrees of fictional families to illustrate autosomal-recessive transmission of β-thalassaemia in a Mediterranean kindred, autosomal-dominant transmission of achondroplasia in an FGFR3-affected family, X-linked transmission of haemophilia, or de novo dominant patterns in a sporadic SHH holoprosencephaly case. The <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a> walks through carrier and offspring probabilities for these worked examples. The <a href="complex-disease-pedigree-software.html">complex disease pedigree software</a> page covers the recurrence-risk pages relevant to multifactorial congenital malformation. Outputs are illustrative and for educational and research purposes only; they are not clinical outputs and Evagene is not a medical device.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Subtopic pages</h2>
+
+            <ul>
+                <li><a href="haemoglobin-biology-and-disorders.html"><strong>Haemoglobin biology and disorders</strong></a> &mdash; tetramer structure, HBB and HBA loci, sickle cell, α- and β-thalassaemia, HbF reactivation, gene therapy literature.</li>
+                <li><a href="genes-in-development.html"><strong>Genes in development</strong></a> &mdash; WNT, SHH, Notch, BMP/TGF-β, FGF, Hippo signalling and the human congenital malformations they cause, including the RASopathies and the skeletal dysplasias.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Key references</h2>
+
+            <ul>
+                <li>Pauling L, Itano HA, Singer SJ, Wells IC. Sickle cell anemia, a molecular disease. <em>Science</em> 1949; 110:543&ndash;548. <a href="https://pubmed.ncbi.nlm.nih.gov/15395398/" rel="noopener">PMID 15395398</a>.</li>
+                <li>Ingram VM. Gene mutations in human haemoglobin: the chemical difference between normal and sickle cell haemoglobin. <em>Nature</em> 1957; 180:326&ndash;328. <a href="https://pubmed.ncbi.nlm.nih.gov/13464827/" rel="noopener">PMID 13464827</a>.</li>
+                <li>Allison AC. Protection afforded by sickle-cell trait against subtertian malarial infection. <em>BMJ</em> 1954; 1:290. <a href="https://pubmed.ncbi.nlm.nih.gov/13115700/" rel="noopener">PMID 13115700</a>.</li>
+                <li>N&uuml;sslein-Volhard C, Wieschaus E. Mutations affecting segment number and polarity in <em>Drosophila</em>. <em>Nature</em> 1980; 287:795&ndash;801. <a href="https://pubmed.ncbi.nlm.nih.gov/6776413/" rel="noopener">PMID 6776413</a>.</li>
+                <li>Roessler E, Belloni E, Gaudenz K, et al. Mutations in the human Sonic Hedgehog gene cause holoprosencephaly. <em>Nat Genet</em> 1996; 14:357&ndash;360. <a href="https://pubmed.ncbi.nlm.nih.gov/8896572/" rel="noopener">PMID 8896572</a>.</li>
+                <li>The Nobel Assembly. The Nobel Prize in Physiology or Medicine 1995. <a href="https://www.nobelprize.org/prizes/medicine/1995/summary/" rel="noopener">nobelprize.org</a>.</li>
+                <li>Frangoul H, Altshuler D, Cappellini MD, et al. CRISPR-Cas9 gene editing for sickle cell disease and β-thalassemia. <em>NEJM</em> 2021; 384:252&ndash;260. <a href="https://pubmed.ncbi.nlm.nih.gov/33283989/" rel="noopener">PMID 33283989</a>.</li>
+                <li>Foulkes WD. Inherited susceptibility to common cancers. <em>Nat Rev Cancer</em> 2008; 8:851&ndash;860 (Hedgehog medulloblastoma). <a href="https://pubmed.ncbi.nlm.nih.gov/18948956/" rel="noopener">PMID 18948956</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Why is sickle cell anaemia called the first "molecular disease"?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Pauling et al. 1949 showed by electrophoresis that the haemoglobin from patients with sickle cell anaemia migrated differently from normal haemoglobin, naming it the first disease traced to an alteration of a specific protein. Ingram 1957 then identified the substitution at protein-sequence level &mdash; β6 Glu&rarr;Val.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What did the N&uuml;sslein-Volhard&ndash;Wieschaus screen actually do?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A saturation mutagenesis screen of Drosophila embryos, looking at cuticle phenotypes to systematically catalogue genes that pattern the early embryo. The 1980 paper grouped them into gap, pair-rule, and segment-polarity classes, and the genes identified turned out to be vertebrate developmental regulators (Wingless / WNT, Hedgehog, Notch, etc.).</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Why pair haemoglobin and developmental signalling on one page?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Both are flagship teaching cases of how molecular genetics scales from a nucleotide change to a clinical phenotype. Haemoglobin is the cleanest worked example for biochemistry; developmental signalling pathways are the cleanest worked example for embryology and congenital malformation genetics.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is Casgevy / exa-cel a treatment recommendation?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. We cite Frangoul et al. 2021 (NEJM 384:252) and the 2023 MHRA / FDA approvals neutrally as part of the research literature on γ-globin reactivation. Evagene is an educational platform; treatment decisions are made by clinicians with their patients.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What can a genetics student do with Evagene for these topics?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Draw fictional pedigrees that illustrate autosomal-recessive transmission of β-thalassaemia, autosomal-dominant achondroplasia, X-linked haemophilia, and de novo dominant SHH-associated holoprosencephaly. Use the Mendelian inheritance calculator to walk through carrier and offspring probabilities. Outputs are illustrative for teaching, not clinical.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="haemoglobin-biology-and-disorders.html">Haemoglobin biology and disorders</a></li>
+                <li><a href="genes-in-development.html">Genes in development</a></li>
+                <li><a href="achondroplasia-pedigree.html">Achondroplasia pedigree</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="complex-disease-pedigree-software.html">Complex disease pedigree software</a></li>
+                <li><a href="pedigree-chart.html">Pedigree chart</a></li>
+                <li><a href="clinical-pedigree-drawing.html">Clinical pedigree drawing</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene for genetics teaching</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="haemoglobin-biology-and-disorders.html" class="hover:text-white transition-colors">Haemoglobin disorders</a></li><li><a href="genes-in-development.html" class="hover:text-white transition-colors">Genes in development</a></li><li><a href="achondroplasia-pedigree.html" class="hover:text-white transition-colors">Achondroplasia pedigree</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

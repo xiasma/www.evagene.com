@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancer Genetics and Somatic Variation — Oncogenes, Predisposition, Tumour Genomics | Evagene</title>
+    <meta name="description" content="A specialist-facing educational pillar covering oncogenes and tumour suppressors, inherited cancer predisposition syndromes, and somatic genomics — clonal evolution, mutational signatures, and targeted therapy biomarkers. For research and education.">
+    <meta name="keywords" content="cancer genetics, somatic variation, oncogene, tumour suppressor, hereditary cancer predisposition, hallmarks of cancer, Knudson two-hit hypothesis, Hanahan Weinberg, TCGA, somatic mutation, clonal evolution, mutational signatures, BRCA1 BRCA2, Lynch syndrome, BayesMendel, BRCAPRO, MMRpro, PancPRO, driver mutation, passenger mutation">
+
+    <meta property="og:title" content="Cancer Genetics and Somatic Variation — Oncogenes, Predisposition, Tumour Genomics | Evagene">
+    <meta property="og:description" content="Specialist-facing pillar across the three pillars of contemporary cancer genetics: oncogenes and tumour suppressors, inherited predisposition, and somatic tumour genomics. Foundational papers cited inline.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/cancer-genetics-and-somatic-variation">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cancer Genetics and Somatic Variation">
+    <meta name="twitter:description" content="Oncogenes and tumour suppressors, inherited cancer predisposition, somatic genomics — a specialist-facing educational pillar.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/cancer-genetics-and-somatic-variation">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Cancer genetics and somatic variation: a specialist-facing educational pillar",
+        "description":"An educational pillar across oncogenes and tumour suppressors, inherited cancer predisposition syndromes, and the somatic genomics of established tumours. Cites foundational figures Knudson 1971, Hanahan & Weinberg 2000 / 2011 / 2022, Vogelstein et al. 2013, the TCGA consortium, and the Pan-Cancer Analysis of Whole Genomes.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/cancer-genetics-and-somatic-variation"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["cancer genetics","somatic variation","oncogene","tumour suppressor","hereditary cancer predisposition","hallmarks of cancer","Knudson two-hit","Hanahan Weinberg","TCGA","mutational signatures","clonal evolution"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Cancer genetics and somatic variation",
+        "description":"Educational pillar covering the three branches of cancer genetics: oncogenes and tumour suppressors, inherited predisposition syndromes, and somatic tumour genomics. Specialist-facing, citation-led, for research and education.",
+        "learningResourceType":"Article","educationalLevel":"Postgraduate","inLanguage":"en-GB",
+        "audience":{"@type":"Audience","audienceType":"Researchers, clinicians, educators, and graduate students in genetics and oncology"},
+        "url":"https://evagene.com/cancer-genetics-and-somatic-variation"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Educational Topics","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Cancer Genetics and Somatic Variation","item":"https://evagene.com/cancer-genetics-and-somatic-variation"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is the relationship between germline and somatic mutation in cancer?","acceptedAnswer":{"@type":"Answer","text":"Germline variants are inherited and present in every nucleated cell, including the gametes; they shape lifetime susceptibility but rarely cause cancer on their own. Somatic mutations are acquired in the cell lineages that ultimately become a tumour, and are the proximate genetic cause of malignancy. In hereditary cancer syndromes the germline variant typically supplies one inactivating event in a tumour suppressor (per Knudson's two-hit hypothesis), with a second somatic event completing biallelic loss in the cell of origin."}},
+            {"@type":"Question","name":"What are the hallmarks of cancer?","acceptedAnswer":{"@type":"Answer","text":"The hallmarks of cancer are a small set of acquired capabilities that together define malignant transformation. The original six (Hanahan & Weinberg 2000, Cell 100:57) are sustained proliferative signalling, evasion of growth suppressors, resistance to cell death, replicative immortality, induced angiogenesis, and activated invasion / metastasis. The 2011 update added two enabling characteristics (genome instability and tumour-promoting inflammation) and two emerging hallmarks (deregulated metabolism and immune evasion). The 2022 update (Hanahan, Cancer Discovery 12:31) adds phenotypic plasticity, non-mutational epigenetic reprogramming, polymorphic microbiomes, and senescent cells as new hallmarks."}},
+            {"@type":"Question","name":"What is the difference between an oncogene and a tumour suppressor?","acceptedAnswer":{"@type":"Answer","text":"An oncogene is the activated, gain-of-function form of a normal cellular gene (a proto-oncogene) and is dominant at the cellular level: a single activating event suffices to drive the malignant phenotype. A tumour suppressor is a gene whose normal function restrains proliferation, maintains genome integrity, or promotes apoptosis; tumour suppressors are typically recessive at the cellular level, requiring biallelic inactivation to release their constraint, as Knudson 1971 first inferred from the bimodal age-of-onset distribution in retinoblastoma."}},
+            {"@type":"Question","name":"Does Evagene compute somatic-tumour mutational signatures?","acceptedAnswer":{"@type":"Answer","text":"No. Evagene is an academic, research, and educational pedigree modelling platform. It documents family-history information, applies published risk-model algorithms to that pedigree (BayesMendel BRCAPRO, MMRpro, PancPRO; Tyrer-Cuzick IBIS-style approximation; Claus, Couch, Frank, Manchester, NICE; Gail; Amsterdam II / revised Bethesda; CanRisk file export for off-platform BOADICEA), and surfaces educational summaries. Somatic-genomics topics covered on this site are educational reference, not platform output. Outputs are illustrative and for research / education purposes; Evagene is not a medical device."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5"><img src="logo.png" alt="Evagene logo" class="h-8 w-auto"><span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span></a>
+            <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="https://evagene.com/#resources" class="hover:text-brand-600 dark:hover:text-brand-300">Educational Topics</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Cancer Genetics and Somatic Variation</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Cancer genetics and somatic variation</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Cancer is a disease of the genome. Contemporary cancer genetics treats it as the joint outcome of three processes: gain-of-function activation of <em>oncogenes</em>, loss-of-function inactivation of <em>tumour suppressors</em>, and the cell-by-cell accumulation of somatic mutations under selection. This page is the entry point to an educational pillar covering all three, with foundational citations and links to the published risk-model algorithms Evagene implements for the inherited-predisposition arm.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>12 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Cancer biology stands on three pillars: gain-of-function activation of proto-oncogenes; loss-of-function inactivation of tumour suppressors; and somatic genomic evolution under Darwinian selection. The hallmarks-of-cancer framework (<a href="https://pubmed.ncbi.nlm.nih.gov/10647931/" rel="noopener">Hanahan &amp; Weinberg 2000</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/21376230/" rel="noopener">2011</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/35022204/" rel="noopener">2022</a>) ties them to acquired capabilities; the Knudson two-hit hypothesis (<a href="https://pubmed.ncbi.nlm.nih.gov/5279523/" rel="noopener">Knudson 1971</a>) connects germline predisposition to somatic biallelic loss; and the TCGA / ICGC / PCAWG datasets give the cross-cancer mutational landscape. Each pillar has its own page, linked below.</p>
+
+            <div class="not-prose my-8 p-5 bg-brand-50 dark:bg-brand-900/30 border border-brand-200 dark:border-brand-800 rounded-lg">
+                <p class="text-sm text-brand-900 dark:text-brand-100 m-0 leading-relaxed"><strong>Educational positioning.</strong> Evagene is an academic, research, and educational pedigree modelling platform; it is <strong>not</strong> a medical device, not a diagnostic, and not a screening or decision-support tool. The risk models implemented (BayesMendel <a href="brcapro-calculator.html">BRCAPRO</a>, <a href="mmrpro-calculator.html">MMRpro</a>, <a href="pancpro-calculator.html">PancPRO</a>; Tyrer-Cuzick IBIS-style approximation; Claus, Couch, Frank, Manchester, NICE; Gail; Amsterdam II / revised Bethesda; <a href="boadicea-vs-brcapro.html">CanRisk export for off-platform BOADICEA</a>) produce illustrative outputs for research and teaching only, not clinical recommendations. Where this page references published surveillance or testing guidelines, it does so neutrally &mdash; <em>the published guidelines describe X</em>, not <em>the patient should X</em>.</p>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">The three pillars at a glance</h2>
+
+            <p>Cancer genetics is not a single field; it is the convergence of three. Understanding any specific tumour requires drawing on all three.</p>
+
+            <ol>
+                <li><strong>Oncogenes and tumour suppressors</strong> &mdash; the gene-level mechanisms by which mutation causes the cellular phenotype of cancer. Read about activation by point mutation, amplification, and translocation; the Knudson two-hit model for tumour-suppressor inactivation; the gatekeeper / caretaker / landscaper distinction; and the driver-versus-passenger problem in <a href="oncogenes-and-tumour-suppressors.html">oncogenes and tumour suppressors</a>.</li>
+                <li><strong>Inherited cancer predisposition</strong> &mdash; the syndromes in which a germline pathogenic variant elevates lifetime cancer risk in defined organ systems. Read about HBOC, Lynch syndrome, FAP, MAP, Li-Fraumeni, Cowden, Peutz-Jeghers, juvenile polyposis, hereditary diffuse gastric cancer, von Hippel-Lindau, MEN1 and MEN2, NF1, NF2, tuberous sclerosis, and retinoblastoma in <a href="inherited-cancer-predisposition.html">inherited cancer predisposition</a>. The Evagene <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk assessment</a> page covers the published risk-model algorithms relevant to these syndromes.</li>
+                <li><strong>Somatic genomics</strong> &mdash; the molecular landscape of established tumours: clonal evolution, mutational signatures, tumour mutational burden, microsatellite instability, homologous-recombination deficiency, and the targeted-therapy biomarkers (HER2, BCR-ABL, BRAF V600E, KRAS G12C, MSI-H / dMMR, BRCA1/2 / HRD) that link genotype to therapeutic response. Read about clonal evolution, mutational signatures, and biomarker landscape in <a href="somatic-genomics.html">somatic genomics</a>.</li>
+            </ol>
+
+            <h2 class="text-3xl mt-16 mb-6">Foundational figures and frameworks</h2>
+
+            <p>Five foundational pieces of work shape the way contemporary cancer genetics is taught and read. None is older than 1971; none is fully superseded.</p>
+
+            <h3 class="mt-10">Knudson's two-hit hypothesis (1971)</h3>
+
+            <p>Reasoning from the bimodal age-of-onset distribution in retinoblastoma, <a href="https://pubmed.ncbi.nlm.nih.gov/5279523/" rel="noopener">Knudson 1971 (PNAS 68:820)</a> proposed that the heritable form of the disease arises when an individual inherits one inactivating event at a tumour-suppressor locus &mdash; what would later be identified as RB1 &mdash; and acquires a second somatic event in a single retinal cell. The non-heritable form requires both events to be acquired somatically in the same cell, a much rarer occurrence. The two-hit model became the conceptual scaffold for tumour-suppressor genetics, was directly verified at the RB1 locus in the 1980s, and remains the framework used to interpret loss of heterozygosity (LOH) in tumour DNA today.</p>
+
+            <h3 class="mt-10">Bishop on cellular oncogenes (1991)</h3>
+
+            <p>The discovery that the transforming sequences in acutely transforming retroviruses derive from cellular genes &mdash; that the v-src of Rous sarcoma virus has a cellular homologue c-src &mdash; reframed the oncogene from a viral peculiarity to a normal cellular gene whose dysregulation drives malignancy. Mike Bishop's review <a href="https://pubmed.ncbi.nlm.nih.gov/1988146/" rel="noopener">Bishop 1991 (Cell 64:235)</a> consolidated this picture, anchored the concept of the proto-oncogene, and set up the next two decades of work on RAS, MYC, ERBB2 / HER2, EGFR, BRAF, and the rest of the canonical oncogene catalogue.</p>
+
+            <h3 class="mt-10">Hanahan and Weinberg's hallmarks of cancer (2000, 2011, 2022)</h3>
+
+            <p><a href="https://pubmed.ncbi.nlm.nih.gov/10647931/" rel="noopener">Hanahan &amp; Weinberg 2000 (Cell 100:57)</a> proposed that the genotypic complexity of cancer collapses to a small set of acquired capabilities: sustained proliferative signalling, evasion of growth suppressors, resistance to cell death, replicative immortality, induced angiogenesis, and activated invasion and metastasis. The 2011 update <a href="https://pubmed.ncbi.nlm.nih.gov/21376230/" rel="noopener">Hanahan &amp; Weinberg 2011 (Cell 144:646)</a> added genome instability and tumour-promoting inflammation as enabling characteristics, and deregulated cellular energetics and immune evasion as emerging hallmarks. The 2022 update <a href="https://pubmed.ncbi.nlm.nih.gov/35022204/" rel="noopener">Hanahan 2022 (Cancer Discovery 12:31)</a> adds phenotypic plasticity, non-mutational epigenetic reprogramming, polymorphic microbiomes, and senescent cells as further hallmarks. The framework is the standard organising principle for graduate-level oncology teaching and for translational drug-discovery programmes alike.</p>
+
+            <h3 class="mt-10">Vogelstein, Kinzler, and the cancer-genome landscape (2013)</h3>
+
+            <p><a href="https://pubmed.ncbi.nlm.nih.gov/23539594/" rel="noopener">Vogelstein et al. 2013 (Science 339:1546)</a> synthesised a decade of large-scale tumour-sequencing studies into a working model of the cancer genome: a small number of <em>driver</em> mutations in a curated set of ~140 cancer genes, recurrent across tumour types, plus a long tail of <em>passenger</em> mutations that contribute nothing to the malignant phenotype. The earlier <a href="https://pubmed.ncbi.nlm.nih.gov/9126724/" rel="noopener">Kinzler &amp; Vogelstein 1997 (Nature 386:761)</a> distinction between gatekeeper genes (which directly restrain growth) and caretaker genes (which maintain genome stability) survives as part of the standard taxonomy.</p>
+
+            <h3 class="mt-10">The Cancer Genome Atlas and the Pan-Cancer Analysis of Whole Genomes</h3>
+
+            <p>The Cancer Genome Atlas (<a href="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga" rel="noopener">TCGA</a>) and the International Cancer Genome Consortium / Pan-Cancer Analysis of Whole Genomes (<a href="https://pubmed.ncbi.nlm.nih.gov/32025007/" rel="noopener">ICGC/TCGA PCAWG Consortium 2020, Nature 578:82</a>) collectively sequenced tens of thousands of tumours across dozens of organ systems. The result is the empirical mutational landscape that anchors contemporary cancer genomics: per-tumour-type driver-gene catalogues, mutational-signature decompositions, structural-variant typologies, and the cross-tissue comparisons that ground statements such as "BRAF V600E is the dominant driver in cutaneous melanoma" or "TP53 is mutated in roughly half of all sequenced solid tumours". The PCAWG companion paper on signatures (<a href="https://pubmed.ncbi.nlm.nih.gov/32025018/" rel="noopener">Alexandrov et al. 2020, Nature 578:94</a>) is covered in detail on the <a href="somatic-genomics.html">somatic genomics</a> page.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Germline meets somatic</h2>
+
+            <p>The cleanest illustration of how the germline and somatic worlds intersect is the inherited cancer-predisposition syndromes. In a BRCA1-associated breast cancer, the germline pathogenic BRCA1 variant supplies one inactivating allele in every cell of the body, including every breast epithelial cell. The second allele is lost somatically in the cell of origin &mdash; typically by loss of heterozygosity, sometimes by point mutation or epigenetic silencing. The resulting cell now lacks functional BRCA1, is homologous-recombination deficient, accumulates the kind of structural-variant burden captured by mutational signature 3, and is selectively sensitive to PARP inhibition. The germline event without the somatic event yields a phenotypically normal cell; the somatic event alone in a non-carrier yields the same phenotype but at much lower per-cell rates, hence the population frequency difference between hereditary and sporadic disease.</p>
+
+            <p>The same template applies to RB1 in retinoblastoma, MLH1 / MSH2 / MSH6 / PMS2 in Lynch-syndrome colorectal and endometrial cancer (where the somatic second hit produces the microsatellite instability seen by IHC and MSI testing), APC in FAP-associated colorectal cancer, TP53 in Li-Fraumeni-spectrum tumours, and most other dominantly-inherited cancer-predisposition genes. The pedigree captures the germline; the tumour molecular profile captures the somatic. Both are needed to reason about a family.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">What Evagene contributes (and what it does not)</h2>
+
+            <p>Evagene's contribution sits cleanly in the family-history / pedigree-modelling layer:</p>
+
+            <ul>
+                <li><strong>Pedigree drawing</strong> with NSGC-standard notation, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. See <a href="pedigree-drawing-tool.html">pedigree drawing tool</a>.</li>
+                <li><strong>Implementations of published cancer-risk algorithms</strong> &mdash; BayesMendel <a href="brcapro-calculator.html">BRCAPRO</a>, <a href="mmrpro-calculator.html">MMRpro</a>, <a href="pancpro-calculator.html">PancPRO</a>; <a href="breast-cancer-family-history-calculator.html">breast cancer family-history scoring</a>; <a href="ovarian-cancer-family-history-calculator.html">ovarian cancer family-history scoring</a>; <a href="pancreatic-cancer-family-history.html">pancreatic cancer family history</a>; <a href="lynch-syndrome-risk-calculator.html">Lynch-syndrome family-history scoring</a>; Tyrer-Cuzick (IBIS-style approximation, not the official IBIS Breast Cancer Risk Evaluator binary); Gail NCI BCRAT; Manchester scoring; NICE CG164 / NG101 family-history triage representation; Amsterdam II / revised Bethesda criteria representation.</li>
+                <li><strong>CanRisk file export</strong> for off-platform BOADICEA computation. BOADICEA is licensed by the University of Cambridge and is <strong>not bundled</strong> in Evagene; Evagene exports a <code>##CanRisk 2.0</code> pedigree file that the user uploads at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a>. See <a href="boadicea-vs-brcapro.html">BOADICEA vs BRCAPRO</a> for the architectural rationale.</li>
+            </ul>
+
+            <p>Evagene does <em>not</em> compute somatic-tumour mutational signatures, perform variant-classification against ClinVar, or run tumour-genomic interpretation. It is a research and teaching tool, not a diagnostic or decision-support platform. The somatic-genomics content on this site is educational reference. Where this page or its sub-topics describe a published surveillance protocol or guideline (NCCN, ESMO, EHTG, NICE), the framing is consistently <em>the guideline describes X</em>, not <em>the patient should X</em>; Evagene does not issue surveillance, screening, or testing recommendations.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">How to read the rest of the pillar</h2>
+
+            <p>The three sub-topic pages can be read in order or independently:</p>
+
+            <ul>
+                <li><a href="oncogenes-and-tumour-suppressors.html"><strong>Oncogenes and tumour suppressors</strong></a> &mdash; mechanisms of activation and inactivation; canonical examples (RAS family, MYC, BCR-ABL1, ERBB2 / HER2, EGFR, BRAF, RB1, TP53, APC, BRCA1 / BRCA2, PTEN, CDKN2A, the MMR genes, STK11, NF1, NF2, VHL); haploinsufficiency; gatekeeper / caretaker / landscaper; driver versus passenger.</li>
+                <li><a href="inherited-cancer-predisposition.html"><strong>Inherited cancer predisposition</strong></a> &mdash; HBOC, Lynch, FAP, MAP, Li-Fraumeni, Cowden, Peutz-Jeghers, juvenile polyposis, HDGC, VHL, MEN1 and MEN2, NF1, NF2, tuberous sclerosis, retinoblastoma; lifetime risk estimates from the published cohorts; how the published guidelines describe surveillance for each.</li>
+                <li><a href="somatic-genomics.html"><strong>Somatic genomics</strong></a> &mdash; clonal evolution, multi-region sequencing and tumour phylogenetics, ctDNA, CHIP, mutational signatures (SBS / DBS / ID), HRD scoring, MSI, TMB, and the targeted-therapy biomarker landscape.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Selected sources</h2>
+
+            <ul>
+                <li>Knudson AG. Mutation and cancer: statistical study of retinoblastoma. <em>PNAS</em> 1971; 68:820. <a href="https://pubmed.ncbi.nlm.nih.gov/5279523/" rel="noopener">PMID 5279523</a>.</li>
+                <li>Bishop JM. Molecular themes in oncogenesis. <em>Cell</em> 1991; 64:235. <a href="https://pubmed.ncbi.nlm.nih.gov/1988146/" rel="noopener">PMID 1988146</a>.</li>
+                <li>Kinzler KW, Vogelstein B. Gatekeepers and caretakers. <em>Nature</em> 1997; 386:761. <a href="https://pubmed.ncbi.nlm.nih.gov/9126724/" rel="noopener">PMID 9126724</a>.</li>
+                <li>Hanahan D, Weinberg RA. The hallmarks of cancer. <em>Cell</em> 2000; 100:57. <a href="https://pubmed.ncbi.nlm.nih.gov/10647931/" rel="noopener">PMID 10647931</a>.</li>
+                <li>Hanahan D, Weinberg RA. Hallmarks of cancer: the next generation. <em>Cell</em> 2011; 144:646. <a href="https://pubmed.ncbi.nlm.nih.gov/21376230/" rel="noopener">PMID 21376230</a>.</li>
+                <li>Hanahan D. Hallmarks of cancer: new dimensions. <em>Cancer Discovery</em> 2022; 12:31. <a href="https://pubmed.ncbi.nlm.nih.gov/35022204/" rel="noopener">PMID 35022204</a>.</li>
+                <li>Vogelstein B, Papadopoulos N, Velculescu VE, Zhou S, Diaz LA, Kinzler KW. Cancer genome landscapes. <em>Science</em> 2013; 339:1546. <a href="https://pubmed.ncbi.nlm.nih.gov/23539594/" rel="noopener">PMID 23539594</a>.</li>
+                <li>ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium. Pan-cancer analysis of whole genomes. <em>Nature</em> 2020; 578:82. <a href="https://pubmed.ncbi.nlm.nih.gov/32025007/" rel="noopener">PMID 32025007</a>.</li>
+                <li>The Cancer Genome Atlas Program. <a href="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga" rel="noopener">cancer.gov/tcga</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the relationship between germline and somatic mutation in cancer?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Germline variants are inherited and present in every nucleated cell, shaping lifetime susceptibility but rarely sufficient on their own. Somatic mutations are acquired in tumour-precursor cell lineages and are the proximate genetic cause of malignancy. In hereditary cancer, the germline variant typically supplies one inactivating event in a tumour suppressor (per Knudson 1971) and a second somatic event completes biallelic loss in the cell of origin.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What are the hallmarks of cancer?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Acquired capabilities defining malignant transformation: the original six (Hanahan &amp; Weinberg 2000) plus genome instability and tumour-promoting inflammation as enabling characteristics (2011) and phenotypic plasticity, non-mutational epigenetic reprogramming, polymorphic microbiomes, and senescent cells in the 2022 update.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Oncogene versus tumour suppressor &mdash; what is the difference?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">An oncogene is the activated, gain-of-function form of a normal cellular gene; it is dominant at the cellular level. A tumour suppressor restrains proliferation, maintains genome integrity, or promotes apoptosis; tumour suppressors are typically recessive, requiring biallelic inactivation per Knudson's two-hit model.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Does Evagene compute somatic-tumour mutational signatures?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. Evagene is an academic, research, and educational pedigree modelling platform. It documents family history, applies published risk-model algorithms (BRCAPRO, MMRpro, PancPRO, Tyrer-Cuzick IBIS-style approximation, Claus, Couch, Frank, Manchester, NICE, Gail, Amsterdam II / revised Bethesda) and exports CanRisk pedigree files for off-platform BOADICEA. Somatic-genomics content here is educational reference, not platform output.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related Evagene pages</h2>
+
+            <ul>
+                <li><a href="oncogenes-and-tumour-suppressors.html">Oncogenes and tumour suppressors</a></li>
+                <li><a href="inherited-cancer-predisposition.html">Inherited cancer predisposition</a></li>
+                <li><a href="somatic-genomics.html">Somatic genomics</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="brcapro-calculator.html">BRCAPRO calculator</a> &middot; <a href="mmrpro-calculator.html">MMRpro calculator</a> &middot; <a href="pancpro-calculator.html">PancPRO calculator</a></li>
+                <li><a href="lynch-syndrome-risk-calculator.html">Lynch syndrome family-history scoring</a></li>
+                <li><a href="breast-cancer-family-history-calculator.html">Breast cancer family-history</a> &middot; <a href="ovarian-cancer-family-history-calculator.html">Ovarian cancer family-history</a> &middot; <a href="pancreatic-cancer-family-history.html">Pancreatic cancer family-history</a></li>
+                <li><a href="boadicea-vs-brcapro.html">BOADICEA vs BRCAPRO</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, 20 published risk-model algorithms, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. For research, education, and family-history documentation; not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="oncogenes-and-tumour-suppressors.html" class="hover:text-white transition-colors">Oncogenes &amp; tumour suppressors</a></li><li><a href="inherited-cancer-predisposition.html" class="hover:text-white transition-colors">Inherited cancer predisposition</a></li><li><a href="somatic-genomics.html" class="hover:text-white transition-colors">Somatic genomics</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

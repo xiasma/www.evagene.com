@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epigenetics &amp; Chromatin Dynamics — DNA Methylation, Histones, TADs | Evagene</title>
+    <meta name="description" content="Educational guide to epigenetics: DNA methylation, TET demethylation, histone marks, ChromHMM, ATP-dependent remodellers, Polycomb/Trithorax, X-inactivation, imprinting, TADs, A/B compartments, and the loop-extrusion model.">
+    <meta name="keywords" content="epigenetics, chromatin dynamics, DNA methylation, 5mC, 5hmC, CpG island, DNMT1, DNMT3A, DNMT3B, TET, bisulfite sequencing, histone modifications, H3K4me3, H3K27ac, H3K27me3, ChromHMM, SWI/SNF, ISWI, CHD, INO80, Polycomb, PRC2, Trithorax, X-inactivation, imprinting, TAD, A/B compartments, loop extrusion, Hi-C">
+
+    <meta property="og:title" content="Epigenetics &amp; Chromatin Dynamics — DNA Methylation, Histones, TADs | Evagene">
+    <meta property="og:description" content="An educational deep-dive into DNA methylation, histone modifications, chromatin remodellers, Polycomb/Trithorax, X-inactivation, imprinting, and three-dimensional genome organisation.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/epigenetics-and-chromatin-dynamics">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Epigenetics &amp; Chromatin Dynamics — DNA Methylation, Histones, TADs">
+    <meta name="twitter:description" content="DNA methylation, histones, ChromHMM, remodellers, Polycomb, X-inactivation, imprinting, TADs, loop extrusion — educational guide.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/epigenetics-and-chromatin-dynamics">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Epigenetics and Chromatin Dynamics: DNA Methylation, Histones, Remodellers, and 3D Genome Organisation",
+        "description":"An educational guide to the layers of epigenetic regulation: DNA methylation and TET demethylation, histone modifications and ChromHMM chromatin states, ATP-dependent chromatin remodellers, Polycomb and Trithorax complexes, X-inactivation, genomic imprinting, topologically associating domains, and the loop-extrusion model.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/epigenetics-and-chromatin-dynamics"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["epigenetics","chromatin dynamics","DNA methylation","TET","histone modifications","ChromHMM","SWI/SNF","Polycomb","X-inactivation","imprinting","TAD","loop extrusion"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Epigenetics and Chromatin Dynamics",
+        "description":"Educational deep-dive into DNA methylation, histone modifications, chromatin remodellers, Polycomb/Trithorax, X-inactivation, imprinting, and 3D genome organisation.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Undergraduate, Postgraduate",
+        "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+        "inLanguage":"en-GB",
+        "url":"https://evagene.com/epigenetics-and-chromatin-dynamics",
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "isPartOf":{"@type":"CreativeWork","name":"Regulation of Gene Activity","url":"https://evagene.com/regulation-of-gene-activity"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Education","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Regulation of Gene Activity","item":"https://evagene.com/regulation-of-gene-activity"},
+            {"@type":"ListItem","position":4,"name":"Epigenetics and Chromatin Dynamics","item":"https://evagene.com/epigenetics-and-chromatin-dynamics"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is epigenetics?","acceptedAnswer":{"@type":"Answer","text":"Epigenetics is the study of heritable or persistent changes in gene activity that do not involve changes to the underlying DNA sequence. The principal molecular layers are DNA methylation (predominantly cytosine methylation at CpG dinucleotides), covalent histone modifications, ATP-dependent chromatin remodelling, and three-dimensional chromatin organisation."}},
+            {"@type":"Question","name":"What is the difference between DNMT1 and DNMT3A/3B?","acceptedAnswer":{"@type":"Answer","text":"DNMT1 is the maintenance methyltransferase: it copies the methylation pattern of the parental strand onto the newly synthesised daughter strand at hemi-methylated CpGs after DNA replication. DNMT3A and DNMT3B are de novo methyltransferases that establish new methylation patterns, particularly during gametogenesis and early embryogenesis."}},
+            {"@type":"Question","name":"What does H3K4me3 mark?","acceptedAnswer":{"@type":"Answer","text":"Trimethylation of lysine 4 on histone H3 is associated with active or poised RNA polymerase II promoters. ChIP-seq for H3K4me3 produces sharp peaks centred on active transcription start sites."}},
+            {"@type":"Question","name":"What is a topologically associating domain?","acceptedAnswer":{"@type":"Answer","text":"A topologically associating domain (TAD) is a sub-megabase chromatin region within which DNA-DNA contacts are enriched and across whose boundaries contacts are depleted. TADs were described in mouse and human in 2012 (Dixon et al. Nature 485:376; Nora et al. Nature 485:381) and the loop-extrusion model accounts for their formation (Sanborn et al. 2015 PNAS; Fudenberg et al. 2016 Cell Rep)."}},
+            {"@type":"Question","name":"How does X-inactivation work?","acceptedAnswer":{"@type":"Answer","text":"In female placental mammals, one of the two X chromosomes is transcriptionally silenced early in development (Lyon 1961, Nature 190:372). The silencing is initiated by the long non-coding RNA XIST, which coats the inactive X in cis and recruits Polycomb and other repressive machinery to establish a heterochromatic state that is then propagated through cell divisions."}},
+            {"@type":"Question","name":"Is this a clinical resource?","acceptedAnswer":{"@type":"Answer","text":"No. Evagene is an academic, research, and educational pedigree modelling platform. This page is educational content for students, researchers, and educators; it is not medical advice and does not constitute clinical decision support."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="regulation-of-gene-activity.html" class="hover:text-brand-600 dark:hover:text-brand-300">Regulation of Gene Activity</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Epigenetics &amp; Chromatin Dynamics</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Epigenetics and chromatin dynamics: DNA methylation, histones, remodellers, and 3D genome organisation</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">An educational deep-dive into the chromatin layer of gene regulation. Covers DNA methylation (5mC, 5hmC, CpG islands; DNMT1 maintenance vs DNMT3A/3B de novo methylation; TET-mediated demethylation; bisulfite sequencing); covalent histone modifications and ChromHMM chromatin-state models; ATP-dependent chromatin remodellers (SWI/SNF, ISWI, CHD, INO80); Polycomb (PRC1, PRC2) and Trithorax complexes; X-inactivation and genomic imprinting; topologically associating domains (TADs), A/B compartments, and the loop-extrusion model.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>10 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Epigenetics is the study of heritable or persistent changes in gene activity that do not involve changes in DNA sequence. The principal layers are DNA methylation, covalent histone modifications, ATP-dependent chromatin remodelling, and three-dimensional chromatin organisation. Together they specify which subset of the genome is accessible and active in a given cell. The Roadmap Epigenomics reference epigenomes (Kundaje et al. 2015) provide the genome-scale catalogue across human tissues; the loop-extrusion model (Sanborn 2015; Fudenberg 2016) provides the mechanistic account of TADs.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">DNA methylation</h2>
+
+            <p>The most extensively studied DNA modification in mammals is 5-methylcytosine (5mC) at CpG dinucleotides. Genome-wide, around 70 to 80% of CpGs in human somatic tissues are methylated; the unmethylated minority is concentrated at CpG islands &mdash; CG-dense regions of about 1 kb that overlap roughly 60% of mammalian gene promoters and that are typically kept unmethylated by transcriptional machinery. CpG-island methylation is associated with stable transcriptional silencing, classically illustrated by tumour-suppressor gene silencing in cancer and by the establishment of imprinting. The biology is reviewed comprehensively in <a href="https://pubmed.ncbi.nlm.nih.gov/11782440/" rel="noopener">Bird 2002, Genes Dev 16:6</a>.</p>
+
+            <p>Three DNA methyltransferases write the modification. <strong>DNMT1</strong> is the maintenance enzyme: it preferentially methylates hemi-methylated CpG sites, copying the methylation pattern of the parental strand onto the newly synthesised daughter strand after replication. This is the molecular mechanism by which methylation patterns are heritable through cell division. <strong>DNMT3A</strong> and <strong>DNMT3B</strong> are the de novo methyltransferases that establish new methylation patterns, especially during gametogenesis and early post-implantation development. <strong>DNMT3L</strong> is a non-catalytic regulatory cofactor.</p>
+
+            <p>Active demethylation is catalysed by the TET family of dioxygenases (TET1, TET2, TET3), which oxidise 5mC to 5-hydroxymethylcytosine (5hmC), then to 5-formylcytosine and 5-carboxylcytosine, which are removed by base-excision repair (<a href="https://pubmed.ncbi.nlm.nih.gov/19372391/" rel="noopener">Tahiliani et al. 2009, Science 324:930</a>). 5hmC has additional roles as a stable mark, particularly in neurons and embryonic stem cells. The standard genome-wide assay for cytosine methylation is <strong>bisulfite sequencing</strong>, which deaminates unmethylated cytosines to uracil while leaving 5mC intact; high-resolution variants include whole-genome bisulfite sequencing (WGBS), reduced-representation bisulfite sequencing (RRBS), and oxidative bisulfite sequencing for distinguishing 5mC from 5hmC.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Histone modifications</h2>
+
+            <p>Histone proteins package DNA into nucleosomes (147 bp wrapped around a histone octamer of two each of H2A, H2B, H3, and H4). The histone tails project outward from the nucleosome and are subject to a large vocabulary of covalent modifications &mdash; acetylation, methylation, phosphorylation, ubiquitination, sumoylation &mdash; written, read, and erased by dedicated enzymes. A handful of marks dominate functional-genomics interpretation:</p>
+
+            <ul>
+                <li><strong>H3K4me3</strong> &mdash; trimethylation of lysine 4 on histone H3 &mdash; marks active or poised RNA polymerase II promoters; ChIP-seq peaks are sharp and centred on transcription start sites.</li>
+                <li><strong>H3K4me1</strong> &mdash; monomethylation of the same residue &mdash; marks enhancers (poised or active).</li>
+                <li><strong>H3K27ac</strong> &mdash; acetylation of lysine 27 on H3 &mdash; distinguishes active enhancers from poised ones (which carry H3K4me1 but lack H3K27ac).</li>
+                <li><strong>H3K27me3</strong> &mdash; trimethylation of the same residue &mdash; is the canonical Polycomb-repressive mark deposited by PRC2.</li>
+                <li><strong>H3K9me3</strong> &mdash; trimethylation of lysine 9 on H3 &mdash; marks constitutive heterochromatin (pericentromeric, telomeric, transposon-rich).</li>
+                <li><strong>H3K36me3</strong> &mdash; trimethylation of lysine 36 on H3 &mdash; marks transcribed gene bodies.</li>
+            </ul>
+
+            <p><strong>ChromHMM</strong> is the standard hidden-Markov model approach for integrating these marks into a small number of discrete chromatin states ("active TSS", "strong enhancer", "Polycomb repressed", "weak transcription", "constitutive heterochromatin", and so on) at high genome-wide resolution. The <a href="https://egg2.wustl.edu/roadmap/web_portal/" rel="noopener">Roadmap Epigenomics Consortium</a> applied ChromHMM to histone-modification, DNA methylation, and accessibility data across 111 reference epigenomes (<a href="https://pubmed.ncbi.nlm.nih.gov/25693563/" rel="noopener">Kundaje et al. 2015, Nature 518:317</a>) to produce the per-tissue chromatin-state annotations now in routine use.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">ATP-dependent chromatin remodellers</h2>
+
+            <p>Nucleosome positioning is dynamic, and four families of ATP-dependent chromatin remodellers actively reposition, evict, or restructure nucleosomes: <strong>SWI/SNF (BAF and PBAF in mammals)</strong> uses ATP hydrolysis to slide or evict nucleosomes, opening regulatory regions; <strong>ISWI</strong> spaces nucleosomes regularly along chromatin and assembles chromatin during replication; <strong>CHD</strong> remodellers include the NuRD complex (which couples remodelling to histone deacetylation); <strong>INO80</strong> remodellers exchange canonical H2A for the variant H2A.Z at promoters and play roles in DNA-damage response. The biology is reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/25164755/" rel="noopener">Ho et al. 2014, Nature 512:449</a>, and a striking proportion of human malignancies harbour mutations in SWI/SNF subunits (notably ARID1A, SMARCA4, SMARCB1), establishing chromatin remodelling as a major axis of disease biology in research contexts.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Polycomb and Trithorax</h2>
+
+            <p>Polycomb-group (PcG) and Trithorax-group (TrxG) complexes are the canonical machinery of long-range, heritable transcriptional memory in metazoans. <strong>PRC2</strong> contains EZH1/EZH2 (the catalytic subunit), SUZ12, and EED, and trimethylates H3K27 to deposit the H3K27me3 repressive mark. <strong>PRC1</strong> contains BMI1 (and paralogues), CBX, RING1A/B, and ubiquitinates H2AK119; classical PRC1 reads H3K27me3 via its CBX subunit, anchoring repression at PRC2-marked sites. The two complexes together produce stable, heritable repression of developmental regulators &mdash; classically the <em>Hox</em> gene clusters &mdash; that is propagated through cell divisions. The biology is reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/21248841/" rel="noopener">Margueron &amp; Reinberg 2011, Nature 469:343</a>. Trithorax complexes (the MLL/COMPASS family) deposit H3K4me3 and counteract Polycomb repression, maintaining the active state of genes in which their resolution has gone the active-direction.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">X-inactivation</h2>
+
+            <p>X-chromosome inactivation is the canonical case of heritable, monoallelic, chromosome-wide silencing, and was first described in genetic terms by Mary Lyon (<a href="https://pubmed.ncbi.nlm.nih.gov/13764598/" rel="noopener">Lyon 1961, Nature 190:372</a>). In female placental mammals, one of the two X chromosomes is transcriptionally silenced early in development. Initiation is driven by the long non-coding RNA <em>XIST</em>, which is transcribed from the future inactive X and coats the chromosome in cis. XIST recruits PRC2 and other repressive machinery (HNRNPK, SPEN, LBR, etc.), excludes RNA polymerase II, and establishes a heterochromatic state with H3K27me3, H3K9me3, and DNA methylation that is then propagated through cell divisions. Because the choice of which X is silenced is stochastic and clonally heritable, female mammals are mosaic for X-linked variation &mdash; the mechanism behind tortoiseshell coat patterns in cats and the variable expression of X-linked recessive variants in heterozygous females. This is relevant to several pedigree analyses; <a href="mendelian-inheritance-calculator.html">Mendelian inheritance</a> covers the inheritance-pattern implications.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Genomic imprinting</h2>
+
+            <p>Imprinting is the phenomenon by which a small set of mammalian genes (around 100 in humans) is expressed exclusively from the maternally or paternally inherited allele. The parental-origin information is set as differential DNA methylation at imprinting control regions in the germline (DNMT3A and DNMT3L play central roles in establishing this), and propagated through somatic divisions. The classical disease consequences are Prader-Willi and Angelman syndromes (loss of paternal or maternal expression at chromosome 15q11-q13, respectively) and Beckwith-Wiedemann syndrome (chromosome 11p15.5). Imprinting is the mechanism by which the same DNA sequence can produce different phenotypes depending on parental origin &mdash; a phenomenon visible in pedigrees and accommodated explicitly in some inheritance analyses.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Topologically associating domains and 3D genome organisation</h2>
+
+            <p>The genome is not a linear string; in three-dimensional space it folds into a hierarchical structure visible in Hi-C contact maps. At the megabase scale, the genome partitions into A and B compartments &mdash; A predominantly active, gene-rich, and accessible; B predominantly inactive and heterochromatic. At the sub-megabase scale, the genome partitions into <strong>topologically associating domains (TADs)</strong>: regions within which DNA-DNA contacts are enriched and across whose boundaries contacts are depleted. TADs were described independently in mouse and human (Dixon et al. 2012, Nature 485:376; Nora et al. 2012, Nature 485:381) and are remarkably conserved across cell types and species &mdash; suggesting that they reflect a fundamental aspect of chromosome folding rather than a cell-specific regulatory phenomenon.</p>
+
+            <p>The mechanistic explanation for TADs is the <strong>loop-extrusion model</strong>. Cohesin loads onto chromatin and extrudes a loop, reeling DNA through itself bidirectionally until it stalls at a CTCF-bound site oriented in the appropriate direction (CTCF motifs at TAD boundaries are convergent). The model was articulated computationally by Sanborn and colleagues (Sanborn et al. 2015, PNAS 112:E6456) and by Fudenberg and colleagues (Fudenberg et al. 2016, Cell Rep 15:2038), and reproduces Hi-C contact maps with high fidelity. Live-cell imaging and single-molecule biophysical experiments subsequently confirmed that purified cohesin extrudes DNA loops in vitro. TAD boundaries constrain which enhancers contact which promoters, and disrupting boundaries can reroute regulatory contacts &mdash; the molecular basis of several developmental disorders studied at research scale.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why this matters for pedigree-level analysis</h2>
+
+            <p>Several pedigree-visible phenomena are epigenetic in origin: imprinting disorders show non-Mendelian inheritance patterns that depend on parental origin; X-linked recessive variants show variable expressivity in heterozygous females because of stochastic X-inactivation; some forms of variable expressivity reflect epigenetic modifier loci. Family-history-based pedigree modelling does not directly model methylation states, but understanding these mechanisms is essential context. The educational pillar <a href="regulation-of-gene-activity.html">regulation of gene activity</a> and the companion pages on <a href="cis-and-trans-regulatory-elements.html">cis-regulatory elements</a> and <a href="gene-regulatory-networks.html">gene regulatory networks</a> place the chromatin layer in its broader regulatory context.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is epigenetics?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The study of heritable or persistent changes in gene activity that do not involve changes in DNA sequence. Principal layers: DNA methylation, histone modifications, chromatin remodelling, and 3D chromatin organisation.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the difference between DNMT1 and DNMT3A/3B?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">DNMT1 maintains existing methylation patterns through DNA replication; DNMT3A and DNMT3B establish de novo methylation, particularly in germline and early development.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What does H3K4me3 mark?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Active or poised RNA polymerase II promoters. ChIP-seq peaks are sharp and centred on transcription start sites.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a topologically associating domain?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A sub-megabase chromatin region within which DNA-DNA contacts are enriched and across whose boundaries contacts are depleted. Described in 2012 (Dixon et al.; Nora et al.); explained mechanistically by the loop-extrusion model.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How does X-inactivation work?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">In female placental mammals, one of the two X chromosomes is transcriptionally silenced early in development (Lyon 1961). XIST coats the chromosome in cis, recruits Polycomb and other repressive machinery, and establishes a heritable heterochromatic state.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is this a clinical resource?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. Evagene is an academic, research, and educational pedigree modelling platform. This page is educational content for students, researchers, and educators; it is not medical advice and does not constitute clinical decision support.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="regulation-of-gene-activity.html">Regulation of gene activity (pillar)</a></li>
+                <li><a href="cis-and-trans-regulatory-elements.html">Cis- and trans-regulatory elements</a></li>
+                <li><a href="gene-regulatory-networks.html">Gene regulatory networks</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="complex-disease-pedigree-software.html">Complex disease pedigree software</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="regulation-of-gene-activity.html" class="hover:text-white transition-colors">Regulation pillar</a></li><li><a href="cis-and-trans-regulatory-elements.html" class="hover:text-white transition-colors">Cis/trans elements</a></li><li><a href="gene-regulatory-networks.html" class="hover:text-white transition-colors">Gene regulatory networks</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

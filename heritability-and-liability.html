@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritability and the Liability-Threshold Model — h², GREML, LDSC, Falconer | Evagene</title>
+    <meta name="description" content="Heritability estimation methods (twin studies, Falconer's formula, GREML, LD-score regression) and the Falconer 1965 liability-threshold model for binary traits. Carter 1961 multifactorial threshold; sex-differential thresholds (Carter effect). For research and education.">
+    <meta name="keywords" content="heritability, narrow sense heritability, broad sense heritability, twin studies, Falconer formula, GREML, LD score regression, LDSC, missing heritability, Manolio 2009, liability threshold model, Falconer 1965, Carter 1961, recurrence risk, lambda R, sex differential threshold, Carter effect, pyloric stenosis, Visscher 2008, Yang 2010, Yang 2011, Bulik-Sullivan 2015">
+
+    <meta property="og:title" content="Heritability and the Liability-Threshold Model — h², GREML, LDSC, Falconer">
+    <meta property="og:description" content="Twin-study heritability, SNP heritability via GREML and LD-score regression, the missing heritability problem, and Falconer's liability-threshold model with Carter's sex-differential thresholds.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/heritability-and-liability">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Heritability and the Liability-Threshold Model">
+    <meta name="twitter:description" content="Heritability estimation (Falconer's formula, GREML, LDSC), the missing heritability problem, and the Falconer / Carter liability-threshold model.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/heritability-and-liability">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Heritability and the Liability-Threshold Model: Estimation, Twin Studies, GREML, LDSC, and Falconer's Threshold Framework",
+        "description":"Heritability h-squared (narrow- and broad-sense), Falconer's twin-study formula, SNP heritability via GREML (Yang et al. 2010, 2011) and LD-score regression (Bulik-Sullivan et al. 2015), the missing heritability problem (Manolio et al. 2009), and Falconer's liability-threshold model (1965) with Carter's sex-differential extension (1961). Educational use only; not a medical device.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/heritability-and-liability"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["heritability","liability threshold","Falconer 1965","Carter 1961","GREML","LD-score regression","missing heritability","twin studies","Visscher 2008"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Heritability and the Liability-Threshold Model",
+        "description":"Educational treatment of heritability definition, estimation methods (twin studies, GREML, LDSC), the missing heritability problem, and the liability-threshold model.",
+        "url":"https://evagene.com/heritability-and-liability",
+        "learningResourceType":"Topic article",
+        "educationalLevel":"Postgraduate / advanced undergraduate",
+        "audience":{"@type":"Audience","audienceType":"Students, researchers, and educators in human and quantitative genetics"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "isPartOf":{"@type":"LearningResource","name":"Quantitative and Complex Traits","url":"https://evagene.com/quantitative-and-complex-traits"},
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Quantitative and complex traits","item":"https://evagene.com/quantitative-and-complex-traits"},
+            {"@type":"ListItem","position":3,"name":"Heritability and liability","item":"https://evagene.com/heritability-and-liability"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="quantitative-and-complex-traits.html" class="hover:text-brand-600 dark:hover:text-brand-300">Quantitative &amp; complex traits</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Heritability and liability</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-clinical-50 dark:bg-clinical-500/10 text-clinical-600 dark:text-clinical-400 text-xs font-semibold tracking-wider uppercase rounded-full border border-clinical-200 dark:border-clinical-500/20 mb-4">
+                Subtopic &middot; Quantitative genetics
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Heritability and the liability-threshold model</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Heritability h<sup>2</sup> is the proportion of phenotypic variance attributable to additive genetic variance. For binary disease phenotypes, the relevant heritability is defined on an underlying continuous liability that determines who crosses a threshold and is affected. This page covers heritability estimation (twin studies, GREML, LD-score regression), the missing heritability problem of <a href="https://pubmed.ncbi.nlm.nih.gov/19812666/" rel="noopener">Manolio et al. 2009</a>, and the liability-threshold model of <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1965.tb00500.x" rel="noopener">Falconer 1965</a> with the sex-differential extension of <a href="https://academic.oup.com/bmb/article-abstract/17/3/251/315523" rel="noopener">Carter 1961</a>.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>10 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Heritability h<sup>2</sup> is V<sub>A</sub>&nbsp;/&nbsp;V<sub>P</sub> &mdash; the proportion of phenotypic variance attributable to additive genetic variance. It is estimated from twin studies (Falconer's formula h<sup>2</sup>&nbsp;=&nbsp;2(r<sub>MZ</sub>&nbsp;&minus;&nbsp;r<sub>DZ</sub>)), from genotyped SNPs in unrelated individuals (GREML, Yang et al. 2010), or from GWAS summary statistics (LD-score regression, Bulik-Sullivan et al. 2015). For binary disease phenotypes, the liability-threshold model of Falconer 1965 maps a population's prevalence and the recurrence-risk pattern in relatives onto an underlying continuous liability; Carter's 1961 multifactorial-threshold framing extends this to sex-differential thresholds (the Carter effect, classically observed in pyloric stenosis). All framing is research and education; outputs of these computations on this site are illustrative.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Defining heritability</h2>
+
+            <p>Heritability decomposes the variance of an observable phenotype into a genetic and an environmental part. The decomposition is V<sub>P</sub>&nbsp;=&nbsp;V<sub>G</sub>&nbsp;+&nbsp;V<sub>E</sub>, where V<sub>G</sub>&nbsp;=&nbsp;V<sub>A</sub>&nbsp;+&nbsp;V<sub>D</sub>&nbsp;+&nbsp;V<sub>I</sub> separates additive, dominance, and epistatic-interaction variance components. Two heritability statistics are routinely used.</p>
+
+            <ul>
+                <li><strong>Narrow-sense heritability</strong> h<sup>2</sup> = V<sub>A</sub> / V<sub>P</sub>. The proportion of variance attributable to additive effects only. Determines parent-offspring resemblance and the response of the trait to artificial or natural selection.</li>
+                <li><strong>Broad-sense heritability</strong> H<sup>2</sup> = V<sub>G</sub> / V<sub>P</sub>. The proportion of variance attributable to the total genetic contribution including dominance and epistasis. Recovered, in principle, from monozygotic-twin concordance.</li>
+            </ul>
+
+            <p>By construction h<sup>2</sup>&nbsp;&le;&nbsp;H<sup>2</sup>. Both are population-specific quantities &mdash; heritability depends on the allele-frequency distribution and the environmental variance in the reference population, and is not a property of the trait or the gene set in isolation. <a href="https://pubmed.ncbi.nlm.nih.gov/18319743/" rel="noopener">Visscher, Hill &amp; Wray 2008</a> (<em>Nat Rev Genet</em> 9:255) is the canonical review of heritability misconceptions and the careful interpretation of these statistics.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Twin-study estimation: Falconer's formula</h2>
+
+            <p>The classical estimator of human heritability is Falconer's formula, derived from the contrast between monozygotic (MZ) and dizygotic (DZ) twin correlations:</p>
+
+            <p style="text-align:center; font-style:italic;">h<sup>2</sup> = 2 &middot; (r<sub>MZ</sub> &minus; r<sub>DZ</sub>)</p>
+
+            <p>The intuition is simple. MZ twins share 100&#37; of their genome and (under the equal-environments assumption) the same shared environment as DZ twins; DZ twins share, on average, 50&#37; of additive genetic variance and the same shared environment. The difference (r<sub>MZ</sub>&nbsp;&minus;&nbsp;r<sub>DZ</sub>) therefore reflects half of the additive genetic variance, and doubling gives h<sup>2</sup>.</p>
+
+            <p>The equal-environments assumption is the standard caveat: MZ and DZ twin pairs are assumed to share environment to the same degree, which can be questioned for traits where MZ co-twins are treated more similarly than DZ co-twins (effects on adolescent behavioural traits are a recurring controversy). Adoption studies, multi-generational pedigree studies, and structural-equation modelling (the ACE / ADE / ACDE model families) extend the basic Falconer-formula machinery. <a href="https://pubmed.ncbi.nlm.nih.gov/28051310/" rel="noopener">Mayhew &amp; Meyre 2017</a> review the modern landscape of heritability estimation in human disease genetics.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">SNP heritability: GREML</h2>
+
+            <p>Twin-study heritability is a property of the whole genome. SNP heritability is the heritability captured by a particular set of genotyped variants. <a href="https://pubmed.ncbi.nlm.nih.gov/20562875/" rel="noopener">Yang et al. 2010</a> (<em>Nat Genet</em> 42:565; PMID 20562875) introduced GREML &mdash; genomic-relatedness-matrix restricted maximum likelihood &mdash; which estimates the proportion of phenotypic variance explained by all genotyped SNPs simultaneously, in samples of unrelated individuals. The procedure builds a genomic relationship matrix (GRM) from genotyped SNPs and estimates the proportion of phenotypic variance attributable to the GRM by REML, implemented in the GCTA software package.</p>
+
+            <p>Applied to height, GREML recovered SNP heritability of approximately 0.45 from common SNPs in unrelated UK adults &mdash; substantial, but well below the twin-study heritability of ~0.8. <a href="https://pubmed.ncbi.nlm.nih.gov/21167468/" rel="noopener">Yang et al. 2011</a> (<em>AJHG</em> 88:76; PMID 21167468) extended the same approach to multiple complex diseases, recovering SNP heritabilities consistent with the polygenic synthesis but well short of twin-study estimates. The shortfall is the missing-heritability gap.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">LD-score regression</h2>
+
+            <p>GREML requires individual-level genotype data. <a href="https://pubmed.ncbi.nlm.nih.gov/25642630/" rel="noopener">Bulik-Sullivan et al. 2015</a> (<em>Nat Genet</em> 47:291; PMID 25642630) introduced LD-score regression (LDSC), which estimates SNP heritability directly from GWAS summary statistics. The method exploits the observation that, under polygenic inheritance, a SNP's GWAS test statistic is correlated with the sum of LD-scores at that SNP &mdash; the number and strength of correlated SNPs in its neighbourhood. The slope of the regression of test statistic on LD-score gives the SNP heritability; the intercept distinguishes polygenic signal from confounding by population stratification.</p>
+
+            <p>LDSC is computationally cheap, scales to any GWAS with summary statistics, and underlies a large family of follow-on methods including stratified LDSC for partitioning heritability across functional categories, cross-trait LDSC for genetic correlations, and partitioning-by-cell-type analyses. The LD Hub repository hosts LDSC-derived heritability estimates and genetic correlations across hundreds of traits.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The missing heritability problem</h2>
+
+            <p><a href="https://pubmed.ncbi.nlm.nih.gov/19812666/" rel="noopener">Manolio et al. 2009</a> (<em>Nature</em> 461:747; PMID 19812666) framed the missing-heritability problem: even after the first decade of GWAS, the genome-wide significant variants for most complex traits accounted for only a small fraction of the trait's twin-study heritability. For height, ~40 GWAS-significant loci circa 2009 explained ~5&#37; of phenotypic variance against a twin-study h<sup>2</sup> of ~0.8 &mdash; a gap of more than an order of magnitude.</p>
+
+            <p>The candidate explanations have largely been validated in the years since. Most of the gap reflects a long polygenic tail of variants below GWAS significance: when the burden of all common SNPs is summed (GREML, LDSC), most of the missing heritability is recovered. The remainder is divided across rare variants of moderate effect, structural variation poorly captured by SNP arrays, gene-environment interaction, gene-gene interaction (epistasis), parent-of-origin effects, and miscalibration of the twin-study heritability itself (the equal-environments assumption, assortative mating).</p>
+
+            <p>The contemporary consensus is that the gap is not "missing" but distributed across the genome at sub-significance and across genetic architectures the early GWAS designs were not powered to detect. The polygenic synthesis was right; the empirical signal-to-noise ratio per locus was lower than first hoped.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The liability-threshold model</h2>
+
+            <p>For a binary disease phenotype, heritability is not defined directly on the observable affected/unaffected dichotomy &mdash; the variance of a 0/1 indicator is just K(1&minus;K) and is not a useful target for genetic decomposition. <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1965.tb00500.x" rel="noopener">Falconer 1965</a> (<em>Ann Hum Genet</em> 29:51) introduced the device of an underlying continuous <em>liability</em> &mdash; an unobserved Gaussian latent trait that determines who is affected and who is not. The population's liability is normally distributed with mean zero and unit variance; the affected fraction K is the area in the right tail above a threshold T such that &Phi;(T) = 1&nbsp;&minus;&nbsp;K, where &Phi; is the standard normal cumulative distribution.</p>
+
+            <p>Heritability is defined on the liability scale, h<sup>2</sup><sub>L</sub>, as the proportion of liability variance attributable to additive genetic variance. The recurrence risk to a relative R is the integral of the conditional liability distribution above T given the relative's expected genetic resemblance to the proband &mdash; a one-line normal-distribution computation for any pair of related individuals once h<sup>2</sup><sub>L</sub> and K are known. Conversion between liability-scale and observed-scale heritability uses the standard Robertson formula, which depends on K and the threshold height &phi;(T)/&Phi;(T).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Recurrence risks to relatives: lambda<sub>R</sub></h2>
+
+            <p>The relative recurrence risk &lambda;<sub>R</sub> is defined as P(affected&nbsp;|&nbsp;relative-of-class-R-affected) divided by K. &lambda;<sub>1</sub> for first-degree relatives, &lambda;<sub>2</sub> for second-degree, and so on. Empirically, &lambda;<sub>R</sub> declines geometrically with kinship under purely additive polygenic inheritance, with the precise pattern determined by h<sup>2</sup><sub>L</sub>. Departures from this pattern (e.g. &lambda;<sub>1</sub> much higher than the polygenic prediction implies) suggest dominance variance, epistasis, shared environment, or major-locus contributions on top of the polygenic background &mdash; a source of clues to a trait's genetic architecture. The original treatment of &lambda;<sub>R</sub> in human disease genetics is in Risch's 1990 paper sequence in <em>AJHG</em>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Carter 1961 and sex-differential thresholds</h2>
+
+            <p><a href="https://academic.oup.com/bmb/article-abstract/17/3/251/315523" rel="noopener">Carter 1961</a> (<em>Br Med Bull</em> 17:251) studied congenital pyloric stenosis, a disorder with a marked sex bias (~5:1 male:female in mid-twentieth-century British studies). Carter observed that recurrence risk in relatives of an affected proband depended on the sex of the proband: relatives of an affected female had higher recurrence risk than relatives of an affected male, even after conditioning on the relative's own sex. The interpretation, set out in the multifactorial-threshold framework of Carter 1961, is that female cases require a higher liability to cross a sex-specific threshold &mdash; reflecting either a higher absolute threshold for females or a lower female prevalence at any given liability &mdash; so an affected female carries on average more genetic load than an affected male and her relatives inherit a correspondingly larger share of that load.</p>
+
+            <p>The Carter effect is now the canonical illustration of sex-differential thresholds in multifactorial inheritance and is observed in cleft lip with or without cleft palate, in autism (with the well-known male:female prevalence ratio and the corresponding "female protective effect"), in some forms of congenital heart defect, and in several other multifactorial disorders. The phenomenon is reproduced in Evagene's <a href="complex-disease-pedigree-software.html">complex-disease pedigree software</a> as one of the four classical counselling modifiers applied on top of the empirical recurrence-risk table or the Falconer-1965 fallback.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Putting it together: a worked example</h2>
+
+            <p>Consider a hypothetical multifactorial condition with population prevalence K&nbsp;=&nbsp;0.005 and liability-scale heritability h<sup>2</sup><sub>L</sub>&nbsp;=&nbsp;0.6. Under the additive liability model:</p>
+
+            <ul>
+                <li>The threshold T satisfies &Phi;(T) = 0.995, so T &asymp; 2.576 standard deviations above the population mean.</li>
+                <li>A first-degree relative of an affected proband shares 0.5 of additive genetic variance and inherits, in expectation, half the proband's genetic liability above the population mean. Their conditional liability distribution remains normal but is shifted right by an amount proportional to h<sup>2</sup><sub>L</sub> and the proband's expected liability.</li>
+                <li>Integrating the shifted conditional distribution above T gives the recurrence risk to a first-degree relative &mdash; for the parameters above, an order of magnitude greater than K.</li>
+                <li>If the proband is an affected female in a sex-biased disorder, the conditional liability distribution shifts further right (because she crossed a higher threshold), and the implied recurrence risk in her relatives is larger than for an affected male's relatives at the same overall prevalence.</li>
+            </ul>
+
+            <p>Evagene's complex-disease engine implements the Falconer-1965 fallback for any catalogued condition where prevalence and liability-scale heritability are recorded, with the four classical counselling modifiers (severity grade, sex bias by Carter, multiple affected relatives, parental consanguinity) applied on top. The Smith / Carter / Harper empirical recurrence-risk tables take precedence where they exist; Falconer's calculation is the fallback. As stated throughout this site, all such outputs are research and education only.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Heritability is not destiny &mdash; the standard caveats</h2>
+
+            <p>Several caveats deserve attention because they are routinely misunderstood in the secondary literature:</p>
+
+            <ul>
+                <li><strong>Heritability is a population statistic, not a personal one.</strong> A height heritability of 0.8 does not mean that 80&#37; of an individual's height is "genetic" &mdash; it means that 80&#37; of the population's variance in height is attributable to additive genetic variance.</li>
+                <li><strong>Heritability does not measure malleability.</strong> A high heritability is consistent with strong environmental modifiability of the trait; the classical example is phenylketonuria, which has very high heritability and is also fully manageable by dietary intervention.</li>
+                <li><strong>Heritability is environment-conditional.</strong> Reduce environmental variance and heritability rises; introduce a new environmental factor and heritability falls. Twentieth-century changes in childhood nutrition are estimated to have reshaped the heritability of adult height across decades.</li>
+                <li><strong>Liability-threshold heritability is conventional.</strong> Reporting h<sup>2</sup> on the liability scale rather than the observed scale matters; the conversion depends on prevalence K, and observed-scale heritabilities can be very small for rare diseases even when liability-scale h<sup>2</sup> is high.</li>
+            </ul>
+
+            <p>None of this content is clinical recommendation; on this site and on this platform, heritability and liability-threshold computations are research and education materials.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Canonical references</h2>
+
+            <ul>
+                <li><a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1965.tb00500.x" rel="noopener">Falconer DS. 1965. <em>The inheritance of liability to certain diseases, estimated from the incidence among relatives.</em> Ann Hum Genet 29:51&ndash;76.</a></li>
+                <li><a href="https://academic.oup.com/bmb/article-abstract/17/3/251/315523" rel="noopener">Carter CO. 1961. <em>The inheritance of congenital pyloric stenosis.</em> Br Med Bull 17:251&ndash;254.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/20562875/" rel="noopener">Yang J et&nbsp;al. 2010. <em>Common SNPs explain a large proportion of the heritability for human height.</em> Nat Genet 42:565&ndash;569.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/21167468/" rel="noopener">Yang J et&nbsp;al. 2011. <em>GCTA: a tool for genome-wide complex trait analysis.</em> AJHG 88:76&ndash;82.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/25642630/" rel="noopener">Bulik-Sullivan B et&nbsp;al. 2015. <em>LD Score regression distinguishes confounding from polygenicity in genome-wide association studies.</em> Nat Genet 47:291&ndash;295.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/19812666/" rel="noopener">Manolio TA et&nbsp;al. 2009. <em>Finding the missing heritability of complex diseases.</em> Nature 461:747&ndash;753.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/18319743/" rel="noopener">Visscher PM, Hill WG, Wray NR. 2008. <em>Heritability in the genomics era &mdash; concepts and misconceptions.</em> Nat Rev Genet 9:255&ndash;266.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/28051310/" rel="noopener">Mayhew AJ, Meyre D. 2017. <em>Assessing the heritability of complex traits in humans: methodological challenges and opportunities.</em> Curr Genomics 18:332&ndash;340.</a></li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="quantitative-and-complex-traits.html">Quantitative and complex traits (pillar)</a></li>
+                <li><a href="polygenic-models.html">Polygenic models &mdash; additive vs non-additive effects, polygenic risk scores</a></li>
+                <li><a href="gene-environment-interaction.html">Gene-environment interaction</a></li>
+                <li><a href="complex-disease-pedigree-software.html">Complex-disease pedigree software</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Use Evagene for teaching liability-threshold models</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, an explicit Falconer-1965 liability-threshold engine and Smith / Carter / Harper recurrence-risk tables for 20+ catalogued multifactorial conditions, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. Educational use only; not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="quantitative-and-complex-traits.html" class="hover:text-white transition-colors">Quantitative &amp; complex traits</a></li><li><a href="polygenic-models.html" class="hover:text-white transition-colors">Polygenic models</a></li><li><a href="heritability-and-liability.html" class="hover:text-white transition-colors">Heritability &amp; liability</a></li><li><a href="gene-environment-interaction.html" class="hover:text-white transition-colors">Gene-environment interaction</a></li><li><a href="complex-disease-pedigree-software.html" class="hover:text-white transition-colors">Complex-disease software</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

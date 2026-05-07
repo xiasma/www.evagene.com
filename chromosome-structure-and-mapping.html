@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chromosome Structure and Mapping — Centromeres, Telomeres, Banding | Evagene</title>
+    <meta name="description" content="Educational guide to chromosome structure: packaging, centromere and CENP-A, telomeres and shelterin, G-banding and FISH, chromosomal microarray, ISCN nomenclature, and the T2T-CHM13 telomere-to-telomere assembly.">
+    <meta name="keywords" content="chromosome structure, centromere, CENP-A, kinetochore, telomere, shelterin, telomerase, G-banding, karyotype, FISH, spectral karyotyping, chromosomal microarray, aCGH, SNP array, ISCN, T2T-CHM13">
+
+    <meta property="og:title" content="Chromosome Structure and Mapping — Centromeres, Telomeres, Banding | Evagene">
+    <meta property="og:description" content="Centromere and telomere biology, banding and molecular cytogenetics, microarrays, ISCN nomenclature, and the telomere-to-telomere human reference.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/chromosome-structure-and-mapping">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chromosome Structure and Mapping — Centromeres, Telomeres, Banding">
+    <meta name="twitter:description" content="Educational guide to chromosome structure, banding, FISH, microarrays, ISCN, and the T2T human reference.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/chromosome-structure-and-mapping">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Chromosome Structure and Mapping: Centromeres, Telomeres, Banding, FISH, Microarray, T2T",
+        "description":"Educational guide to chromosome structure, the cytogenetic and molecular methods used to map it, ISCN nomenclature, and the telomere-to-telomere CHM13 assembly.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/chromosome-structure-and-mapping"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["chromosome structure","centromere","telomere","G-banding","FISH","chromosomal microarray","ISCN","T2T-CHM13"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Chromosome Structure and Mapping",
+        "description":"An educational article on chromosome packaging, centromere and telomere biology, the techniques used to map chromosomes (banding, FISH, spectral karyotyping, chromosomal microarray, long-read assembly), and ISCN nomenclature.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Tertiary education",
+        "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+        "inLanguage":"en-GB",
+        "url":"https://evagene.com/chromosome-structure-and-mapping",
+        "isAccessibleForFree":true,
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Chromosomes and Cell Division","item":"https://evagene.com/chromosomes-and-cell-division"},
+            {"@type":"ListItem","position":3,"name":"Chromosome Structure and Mapping","item":"https://evagene.com/chromosome-structure-and-mapping"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="chromosomes-and-cell-division.html" class="hover:text-brand-600 dark:hover:text-brand-300">Chromosomes and Cell Division</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Chromosome Structure and Mapping</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Chromosome structure and mapping</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A chromosome is the highly compacted package in which a linear DNA molecule is stored, replicated, and segregated. Two structural elements &mdash; the centromere and the telomeres &mdash; do most of the work that distinguishes a chromosome from a long piece of chromatin. This page covers the packaging hierarchy, the molecular biology of centromeres and telomeres, the cytogenetic and molecular techniques used to read chromosomes (G-banding, FISH, spectral karyotyping, chromosomal microarray), the ISCN nomenclature in which findings are recorded, and the T2T-CHM13 long-read assembly that finally completed the human reference.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>11 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> A human chromosome is one continuous linear DNA molecule, packaged in nucleosomes, looped onto a protein scaffold, and folded into the rod-shaped metaphase chromosome that is photographed in karyotypes. The centromere is an epigenetically defined region marked by CENP-A nucleosomes, where the kinetochore assembles to attach to the spindle. Telomeres are TTAGGG repeats bound by the shelterin complex; they protect chromosome ends and are extended by telomerase, the enzyme whose discovery won the 2009 Nobel Prize. The chromosome is read at progressively higher resolution by G-banding (megabase scale), FISH (gene-locus scale), chromosomal microarray (kilobase scale), and short- and long-read sequencing (base scale). The 2022 T2T-CHM13 assembly completed the first end-to-end human reference.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Packaging: from DNA to metaphase chromosome</h2>
+
+            <p>If the ~2 metres of DNA in a human cell were unwound, it would be roughly 250,000 times longer than the nucleus that contains it. The packaging that makes this geometrically possible is hierarchical:</p>
+
+            <ul>
+                <li><strong>Nucleosome (~11 nm fibre).</strong> Approximately 146 base pairs of DNA wrap 1.65 times around a histone octamer (two each of H2A, H2B, H3, H4). Linker DNA of 20-80 base pairs separates one nucleosome from the next. This is the "beads on a string" structure visible by electron microscopy of unfolded chromatin.</li>
+                <li><strong>Higher-order chromatin folding.</strong> Nucleosome arrays fold into compact fibres and into loops anchored to a protein scaffold. The historical "30 nm fibre" model has been complicated by in-cellulo imaging suggesting more irregular and dynamic packing, but the principle &mdash; that nucleosome arrays form loops and domains &mdash; remains.</li>
+                <li><strong>Topologically associating domains (TADs) and compartments.</strong> Hi-C and related methods reveal that interphase chromatin organises into self-interacting domains and into A/B compartments correlating with active and inactive chromatin.</li>
+                <li><strong>Mitotic compaction.</strong> At entry into mitosis, condensin complexes (condensin I and II) extrude chromatin into loops and compact each chromatid into a stiff rod, while cohesin holds sister chromatids together. The metaphase chromosome occupies roughly 1/10,000 the volume of its linear DNA.</li>
+            </ul>
+
+            <p>Each metaphase chromosome consists of two sister chromatids, joined at the centromere, with the short arm "p" above and the long arm "q" below by convention. The autosomes are numbered 1 to 22 in approximately decreasing size; the sex chromosomes are X and Y. The diploid count of 46 was established by <a href="https://doi.org/10.1111/j.1601-5223.1956.tb03010.x" rel="noopener">Tjio and Levan in 1956</a>, replacing a long-standing erroneous count of 48.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The centromere</h2>
+
+            <p>The centromere is the region of a chromosome where sister chromatids are held together and where the kinetochore &mdash; the protein machine that captures spindle microtubules &mdash; is built. In humans, centromeric DNA consists of megabase-scale arrays of <em>alpha-satellite</em> (alphoid) repeats, organised into higher-order repeat units that are chromosome-specific. Centromeres are not, however, defined by DNA sequence alone. <a href="https://pubmed.ncbi.nlm.nih.gov/12600316/" rel="noopener">Cleveland and colleagues (2003)</a> review the evidence that centromere identity is propagated epigenetically by the histone H3 variant <em>CENP-A</em> (also known as CENH3). CENP-A nucleosomes mark the active centromere and recruit a hierarchy of constitutive centromere-associated proteins (the CCAN), which in turn recruit the outer-kinetochore KMN network (KNL1, the Mis12 complex, the Ndc80 complex) at mitosis to make the actual microtubule attachments.</p>
+
+            <p>Cohesion between sister chromatids is established by cohesin, a ring-shaped complex (SMC1, SMC3, RAD21, SA1/SA2) loaded onto chromosomes during S phase. Cohesin holds sisters together until anaphase, when separase cleaves the RAD21 subunit and sisters are pulled apart. Loss of cohesion is one of the proposed contributors to age-related non-disjunction in human oocytes.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The telomere</h2>
+
+            <p>Linear chromosomes have ends, and ends are a problem for two reasons. First, conventional DNA polymerases cannot fully replicate the lagging-strand 3' end, so each round of replication shortens the chromosome &mdash; the "end-replication problem". Second, a free DNA end looks like a double-strand break and would be repaired (badly) if not protected. Both problems are solved at the telomere.</p>
+
+            <p>Human telomeres are tandem repeats of the hexamer TTAGGG, extending several kilobases from each chromosome end and ending in a single-stranded G-rich overhang that folds back to form a "t-loop". The repeats and the overhang are bound by the <strong>shelterin complex</strong> (TRF1, TRF2, TIN2, RAP1, TPP1, POT1), reviewed in detail by <a href="https://pubmed.ncbi.nlm.nih.gov/16166375/" rel="noopener">de Lange (2005)</a>. Shelterin both protects the end from being recognised as damage and regulates access of telomerase, the reverse-transcriptase enzyme that adds new TTAGGG repeats and so compensates for end-replication loss. <a href="https://pubmed.ncbi.nlm.nih.gov/3907856/" rel="noopener">Greider and Blackburn's 1985 Cell paper</a> reporting telomerase activity in <em>Tetrahymena</em>, together with Szostak's earlier yeast work, was recognised by the 2009 Nobel Prize in Physiology or Medicine.</p>
+
+            <p>Most somatic human cells express little or no telomerase; they undergo progressive telomere shortening with each division, and when telomeres become critically short they signal a DNA-damage response that drives the cell into replicative senescence (the "Hayflick limit"). Germline cells, stem cells, and most cancers maintain telomerase activity; a minority of cancers maintain telomeres by an alternative recombination-based mechanism (ALT). Inherited mutations affecting telomere maintenance components (e.g. <em>TERT</em>, <em>TERC</em>, <em>DKC1</em>) underlie the telomere biology disorders catalogued in OMIM, including dyskeratosis congenita.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Reading chromosomes by light microscopy: G-banding</h2>
+
+            <p>The dominant cytogenetic technique for over fifty years is karyotype analysis by G-banding. Cultured cells (typically lymphocytes for a constitutional karyotype, or bone marrow for haematological neoplasms) are arrested in metaphase with colchicine or its analogue Colcemid, swollen in hypotonic solution, fixed, dropped onto slides, denatured briefly with trypsin, and stained with Giemsa. The trypsin pre-treatment differentially digests chromosomal proteins, producing the reproducible pattern of dark and light bands along each chromosome. Q-banding with quinacrine, introduced by <a href="https://pubmed.ncbi.nlm.nih.gov/5512535/" rel="noopener">Caspersson and colleagues in 1970</a>, was the original demonstration that chromosomes carry reproducible longitudinal patterns; G-banding gives essentially the same pattern with light microscopy and a conventional stain.</p>
+
+            <p>Resolution is reported as the number of bands visible per haploid set in metaphase: 450-band karyotypes are routine, 550-band is standard for prenatal cytogenetics, and 700-band requires earlier mitotic arrest (prometaphase), giving more elongated chromosomes. Resolution of around 5-10 megabases is achievable; smaller imbalances are below the detection limit of any banding technique and require molecular methods.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Reading chromosomes by hybridisation: FISH and SKY</h2>
+
+            <p>Fluorescence in situ hybridisation (FISH) uses fluorescently labelled DNA probes to detect specific sequences on chromosomes. Locus-specific probes detect the presence, absence, or rearrangement of a chosen genomic region (e.g. a deletion in 22q11.2, or a fusion signal across the t(9;22) translocation breakpoint). Centromeric probes count copies of a given chromosome. Painting probes label whole chromosomes for translocation analysis. Spectral karyotyping (SKY) and multiplex FISH (M-FISH) use combinatorial labelling to paint all 24 chromosome types in different colours simultaneously, making complex rearrangements much easier to interpret.</p>
+
+            <p>FISH offers higher resolution than banding for the regions covered by the probe (kilobase scale for locus-specific probes), but requires that the abnormality is in a region for which a probe has been chosen. It complements rather than replaces banding.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Reading chromosomes by array: aCGH and SNP arrays</h2>
+
+            <p>Chromosomal microarray analysis &mdash; array comparative genomic hybridisation (aCGH) and SNP arrays &mdash; covers the genome in tens to hundreds of thousands of probes and detects copy-number gains and losses at sub-megabase resolution. aCGH compares test and reference DNA labelled with different dyes hybridised to a probe array; SNP arrays simultaneously type single-nucleotide polymorphisms, allowing detection of copy-neutral runs of homozygosity (relevant to consanguinity and uniparental disomy) as well as copy-number variation. The systematic association between recurrent copy-number variants and developmental phenotypes was established at scale by <a href="https://pubmed.ncbi.nlm.nih.gov/21841781/" rel="noopener">Cooper and colleagues (2011)</a> in a morbidity map covering more than 15,000 cases. Microarray is now the recommended first-tier test in much of constitutional cytogenetics for unexplained intellectual disability or congenital anomalies, alongside or in place of karyotype.</p>
+
+            <p>Microarray cannot detect balanced rearrangements (which involve no net gain or loss of material), low-level mosaicism below ~10-20%, or single-base changes; for these, banding and sequencing remain complementary.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Reading chromosomes by sequencing</h2>
+
+            <p>Short-read sequencing (Illumina) detects copy-number variation by read depth, structural variation by paired-end and split-read signals, and uniparental disomy by allelic imbalance. Long-read sequencing (PacBio HiFi, Oxford Nanopore) reads tens to hundreds of kilobases per molecule, resolving repeats and structural variants that short reads cannot span. Whole-genome sequencing increasingly substitutes for microarray as cost falls.</p>
+
+            <p>The most striking demonstration of the long-read era is the completion of a gapless human reference. <a href="https://pubmed.ncbi.nlm.nih.gov/35357919/" rel="noopener">Nurk et al. (2022)</a> reported the T2T-CHM13 assembly of a homozygous hydatidiform mole &mdash; a genome with two identical haploid sets &mdash; sequenced with Oxford Nanopore ultra-long and PacBio HiFi reads. T2T-CHM13 added approximately 200 megabases of previously unassembled sequence to GRCh38, including all centromeric alpha-satellite arrays, the short arms of the acrocentric chromosomes, and the rDNA arrays. For the first time, every human chromosome had a complete, end-to-end sequence: telomere to telomere.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">ISCN: the language for cytogenetic findings</h2>
+
+            <p>An International System for Human Cytogenomic Nomenclature (ISCN) is the standardised language used to describe karyotypes, FISH, microarray, and sequencing-based cytogenomic findings. The current edition is <a href="https://karger.com/books/book/3122/An-International-System-for-Human-Cytogenomic" rel="noopener">ISCN 2024</a>. ISCN provides:</p>
+
+            <ul>
+                <li>Format for karyotype designation: total chromosome count, sex chromosomes, abnormalities (e.g. <code>47,XX,+21</code> for trisomy 21 in a female; <code>46,XY,t(9;22)(q34;q11.2)</code> for a male with the Philadelphia translocation).</li>
+                <li>Band-level addressing: chromosome arm + region + band + sub-band (e.g. <code>17q21.31</code>).</li>
+                <li>Specific operators for translocations (<code>t</code>), inversions (<code>inv</code>), deletions (<code>del</code>), duplications (<code>dup</code>), insertions (<code>ins</code>), isochromosomes (<code>i</code>), and ring chromosomes (<code>r</code>).</li>
+                <li>Microarray and sequence formats integrating coordinate-based descriptions with karyotype-style designations.</li>
+            </ul>
+
+            <p>ISCN-format descriptions are interoperable across cytogenetic laboratories worldwide and are the basis on which findings can be searched, compared, and exchanged. Evagene's pedigree drawing tool stores cytogenetic findings in ISCN-format strings against the relevant pedigree node; see <a href="iscn-pedigree-symbols.html">ISCN pedigree symbols</a> for the way ISCN findings are integrated with NSGC pedigree notation, and the <a href="karyogram-viewer.html">karyogram viewer</a> for educational visualisation of named bands and rearrangements.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">References</h2>
+
+            <ul>
+                <li>Tjio JH, Levan A. <a href="https://doi.org/10.1111/j.1601-5223.1956.tb03010.x" rel="noopener">The chromosome number of man</a>. <em>Hereditas</em> 1956;42:1.</li>
+                <li>Caspersson T, Zech L, Johansson C, Modest EJ. <a href="https://pubmed.ncbi.nlm.nih.gov/5512535/" rel="noopener">Identification of human chromosomes by DNA-binding fluorescent agents</a>. <em>Experimental Cell Research</em> 1970;60:315.</li>
+                <li>Greider CW, Blackburn EH. <a href="https://pubmed.ncbi.nlm.nih.gov/3907856/" rel="noopener">Identification of a specific telomere terminal transferase activity in Tetrahymena extracts</a>. <em>Cell</em> 1985;43:405.</li>
+                <li>Cleveland DW, Mao Y, Sullivan KF. <a href="https://pubmed.ncbi.nlm.nih.gov/12600316/" rel="noopener">Centromeres and kinetochores: from epigenetics to mitotic checkpoint signaling</a>. <em>Cell</em> 2003;112:407.</li>
+                <li>de Lange T. <a href="https://pubmed.ncbi.nlm.nih.gov/16166375/" rel="noopener">Shelterin: the protein complex that shapes and safeguards human telomeres</a>. <em>Genes &amp; Development</em> 2005;19:2100.</li>
+                <li>Cooper GM, Coe BP, Girirajan S et al. <a href="https://pubmed.ncbi.nlm.nih.gov/21841781/" rel="noopener">A copy number variation morbidity map of developmental delay</a>. <em>Nature Genetics</em> 2011;43:838.</li>
+                <li>Nurk S, Koren S, Rhie A et al. <a href="https://pubmed.ncbi.nlm.nih.gov/35357919/" rel="noopener">The complete sequence of a human genome</a>. <em>Science</em> 2022;376:44.</li>
+                <li><a href="https://karger.com/books/book/3122/An-International-System-for-Human-Cytogenomic" rel="noopener">ISCN 2024: An International System for Human Cytogenomic Nomenclature</a>. Karger.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="chromosomes-and-cell-division.html">Chromosomes and cell division (pillar)</a></li>
+                <li><a href="cell-cycle-mitosis-meiosis.html">Cell cycle, mitosis and meiosis</a></li>
+                <li><a href="chromosomal-abnormalities.html">Chromosomal abnormalities</a></li>
+                <li><a href="iscn-pedigree-symbols.html">ISCN pedigree symbols</a></li>
+                <li><a href="karyogram-viewer.html">Karyogram viewer</a></li>
+                <li><a href="nsgc-pedigree-notation.html">NSGC pedigree notation</a></li>
+            </ul>
+
+            <p class="mt-12 text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-brand-800 pt-6">Evagene is an academic, research, and educational pedigree modelling platform. It is not a medical device, not clinical decision support, and not a diagnostic or screening tool. The cytogenetic concepts described here are taught at undergraduate and postgraduate level in genetics; the platform itself does not interpret cytogenetic findings for individual patient care.</p>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, ISCN-format cytogenetic annotation, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="chromosomes-and-cell-division.html" class="hover:text-white transition-colors">Chromosomes pillar</a></li><li><a href="cell-cycle-mitosis-meiosis.html" class="hover:text-white transition-colors">Cell cycle and meiosis</a></li><li><a href="chromosomal-abnormalities.html" class="hover:text-white transition-colors">Chromosomal abnormalities</a></li><li><a href="iscn-pedigree-symbols.html" class="hover:text-white transition-colors">ISCN pedigree symbols</a></li><li><a href="karyogram-viewer.html" class="hover:text-white transition-colors">Karyogram viewer</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

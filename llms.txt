@@ -97,13 +97,97 @@ Full platform documentation: https://evagene.net/help/platform_overview
 
 ## Topic Guides
 
+- [Pedigree Drawing Tool](https://evagene.com/pedigree-drawing-tool.html) — In-browser pedigree drawing tool with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and twenty published risk-model algorithm implementations
+- [Pedigree Chart](https://evagene.com/pedigree-chart.html) — Definitional pillar: symbols, three-generation capture, inheritance patterns visible in a pedigree
+- [Clinical Pedigree Drawing](https://evagene.com/clinical-pedigree-drawing.html) — NSGC 2022 conventions, three-generation capture, consanguinity loops, pregnancy outcomes, and the boundary between in-tool and canonical computation
 - [Pedigree Drawing Software](https://evagene.com/pedigree-drawing-software.html) — Complete guide to pedigree drawing, standard notation, and pedigree software comparison
+- [Pedigree Chart Maker](https://evagene.com/pedigree-chart-maker.html) — Free in-browser NSGC-compliant chart maker
+- [Pedigree Drawing Online](https://evagene.com/pedigree-drawing-online.html) — Browser-based pedigree drawing with no install
+- [Clinical Pedigree Drawing Guidelines](https://evagene.com/clinical-pedigree-drawing-guidelines.html) — NSGC 1995, 2008, and 2022 standards, plus ISCN, HGNC, HPO context
 - [Hereditary Cancer Risk Assessment](https://evagene.com/hereditary-cancer-risk-assessment.html) — BRCAPRO, MMRpro, PancPRO, and Bayesian cancer risk modelling
 - [GEDCOM & Genealogy](https://evagene.com/gedcom-pedigree-software.html) — GEDCOM import/export, 23andMe integration, and genealogy interoperability
 - [Clinical Genetics Pedigree Tool](https://evagene.com/clinical-genetics-pedigree-tool.html) — Pedigree software for clinical geneticists and genetic counsellors
 - [Mendelian Inheritance Calculator](https://evagene.com/mendelian-inheritance-calculator.html) — Autosomal dominant, autosomal recessive, and X-linked inheritance models
 - [Platform & Integrations](https://evagene.com/platform.html) — API keys, BYOK LLM, webhooks, analysis templates, MCP server, embeddable viewer
 - [Pedigree Builder GPT](https://evagene.com/pedigree-builder-gpt.html) — ChatGPT Custom GPT that converts a plain-English family description into an Evagene-compatible pedigree JSON file. Route A (produces a file the user loads at evagene.net); Route B (live Evagene API Actions) planned but not yet built. Paid ChatGPT subscription required (OpenAI's policy for all Custom GPTs). Live at https://chatgpt.com/g/g-69ea28b554b8819191ae0f8fd2406d52-evagene-pedigree-builder
+
+## Learning Hub
+
+- [Learn Genetics — reading pathways](https://evagene.com/learn-genetics.html) — Microsoft-Learn-style pathway page that organises the 46 educational pages plus the 20 risk-model calculators into seven structured reading pathways: Foundations (genetics from scratch), Molecular biology deep dive, Clinical genetics, Cancer genetics, Population & quantitative, Therapeutics & gene therapy, and Refresher (recent advances). Each pathway has a defined audience, prerequisite, time estimate, and ordered reading list with one-line page descriptions; an Apply What You've Learned section routes to working calculators and the pedigree drawing tool. Free in the browser, no registration, no paywall.
+
+## Educational Topics
+
+A curated set of educational landing pages on the molecular, clinical, and population-genetics topics taught at MSc / FRCPath / equivalent level. Each page is a 1,300–2,000-word survey with citations to peer-reviewed papers, NCBI / OMIM / GeneReviews entries, and standards-body resources. Framed throughout as research, education, and family-history documentation; not clinical decision support, not a medical device.
+
+### Molecular Architecture of Genes
+- [Molecular Architecture of Genes](https://evagene.com/molecular-architecture-of-genes.html) — pillar
+- [DNA and Chromatin Organization](https://evagene.com/dna-and-chromatin-organization.html) — nucleotide chemistry, base pairing, supercoiling, nucleosomes, TADs
+- [DNA Replication and Repair](https://evagene.com/dna-replication-and-repair.html) — replisome, polymerases, MMR, NER, BER, HR, NHEJ
+- [Genome Structure and Variation](https://evagene.com/genome-structure-and-variation.html) — repetitive DNA, transposons, CNV, structural variant detection
+
+### Gene Expression Mechanisms
+- [Gene Expression Mechanisms](https://evagene.com/gene-expression-mechanisms.html) — pillar
+- [Transcriptional Machinery](https://evagene.com/transcriptional-machinery.html) — Pol I/II/III, CTD cycle, promoters, enhancer-promoter contact
+- [RNA Processing and Stability](https://evagene.com/rna-processing-and-stability.html) — spliceosome, alternative splicing, polyadenylation, NMD
+- [Translation and Post-Translational Control](https://evagene.com/translation-and-post-translational-control.html) — ribosome, eIFs, ribosome profiling, chaperones, PTMs
+
+### Regulation of Gene Activity
+- [Regulation of Gene Activity](https://evagene.com/regulation-of-gene-activity.html) — pillar
+- [Cis and Trans Regulatory Elements](https://evagene.com/cis-and-trans-regulatory-elements.html) — enhancers, silencers, insulators, super-enhancers, ChIP-seq, ATAC-seq, eQTLs
+- [Epigenetics and Chromatin Dynamics](https://evagene.com/epigenetics-and-chromatin-dynamics.html) — DNA methylation, histone marks, ChromHMM, Polycomb, X-inactivation, TADs, loop extrusion
+- [Gene Regulatory Networks](https://evagene.com/gene-regulatory-networks.html) — network motifs, miRNAs, lncRNAs, Perturb-seq
+
+### Mutation Biology and Consequences
+- [Mutation Biology and Consequences](https://evagene.com/mutation-biology-and-consequences.html) — pillar
+- [Types of Mutation](https://evagene.com/types-of-mutation.html) — point mutations, indels, repeat expansions, mutational signatures
+- [Functional Consequences of Mutation](https://evagene.com/functional-consequences-of-mutation.html) — LoF, gain-of-function, dominant negative, splice and regulatory mutations
+- [Mutation Detection and Interpretation](https://evagene.com/mutation-detection-and-interpretation.html) — NGS, ACMG/AMP framework, in silico predictors
+
+### Chromosomes and Cell Division
+- [Chromosomes and Cell Division](https://evagene.com/chromosomes-and-cell-division.html) — pillar
+- [Chromosome Structure and Mapping](https://evagene.com/chromosome-structure-and-mapping.html) — centromeres, telomeres, banding, FISH, T2T-CHM13
+- [Cell Cycle, Mitosis, Meiosis](https://evagene.com/cell-cycle-mitosis-meiosis.html) — cyclin-CDK, checkpoints, recombination, PRDM9
+- [Chromosomal Abnormalities](https://evagene.com/chromosomal-abnormalities.html) — aneuploidy, structural rearrangements, microdeletion / microduplication syndromes
+
+### Mendelian Genetics and Gene Discovery
+- [Mendelian Genetics and Gene Discovery](https://evagene.com/mendelian-genetics-and-gene-discovery.html) — pillar
+- [Inheritance Patterns](https://evagene.com/inheritance-patterns.html) — autosomal dominant / recessive, X-linked, mitochondrial, imprinting
+- [Pedigree Analysis and Variable Expression](https://evagene.com/pedigree-analysis-and-variable-expression.html) — penetrance, expressivity, mosaicism, Bayesian risk calculation
+- [Mapping and Gene Identification](https://evagene.com/mapping-and-gene-identification.html) — linkage, GWAS, exome / WGS, Matchmaker Exchange
+
+### Quantitative and Complex Traits
+- [Quantitative and Complex Traits](https://evagene.com/quantitative-and-complex-traits.html) — pillar
+- [Polygenic Models](https://evagene.com/polygenic-models.html) — Fisher's infinitesimal model, polygenic risk scores, PGS Catalog, portability
+- [Heritability and Liability](https://evagene.com/heritability-and-liability.html) — twin / SNP heritability, GREML, LDSC, Falconer threshold model, Carter effect
+- [Gene-Environment Interaction](https://evagene.com/gene-environment-interaction.html) — GxE designs, Mendelian randomisation, epigenetic mediation
+
+### Population and Evolutionary Genetics
+- [Population and Evolutionary Genetics](https://evagene.com/population-and-evolutionary-genetics.html) — pillar
+- [Allele Frequency Dynamics](https://evagene.com/allele-frequency-dynamics.html) — Hardy-Weinberg, selection, drift, neutral theory
+- [Demography and Population Structure](https://evagene.com/demography-and-population-structure.html) — F-statistics, PCA, ADMIXTURE, founder effects
+- [Population Genetics Applications](https://evagene.com/population-genetics-applications.html) — carrier-screening epidemiology, Wilson-Jungner criteria, ELSI
+
+### Haemoglobin and Development
+- [Haemoglobin and Development Genetics](https://evagene.com/haemoglobin-and-development-genetics.html) — pillar
+- [Haemoglobin Biology and Disorders](https://evagene.com/haemoglobin-biology-and-disorders.html) — HbA / HbF / HbA2, sickle cell, α- and β-thalassaemia, Casgevy / exa-cel
+- [Genes in Development](https://evagene.com/genes-in-development.html) — WNT, SHH, Notch, BMP/TGF-β, FGF, Hippo, RASopathies, FGFR3 dysplasia series
+
+### Cancer Genetics and Somatic Variation
+- [Cancer Genetics and Somatic Variation](https://evagene.com/cancer-genetics-and-somatic-variation.html) — pillar
+- [Oncogenes and Tumour Suppressors](https://evagene.com/oncogenes-and-tumour-suppressors.html) — Knudson two-hit, RAS/MYC/BCR-ABL/HER2/EGFR/BRAF, gatekeeper / caretaker / landscaper
+- [Inherited Cancer Predisposition](https://evagene.com/inherited-cancer-predisposition.html) — HBOC, Lynch, FAP, MAP, Li-Fraumeni, Cowden, Peutz-Jeghers, HDGC, VHL, MEN1/2, NF1/2, TSC, retinoblastoma
+- [Somatic Genomics](https://evagene.com/somatic-genomics.html) — clonal evolution, mutational signatures, HRD, MSI, TMB, targeted-therapy biomarkers
+
+### Metabolic Genetics and Therapeutics
+- [Metabolic Genetics and Therapeutics](https://evagene.com/metabolic-genetics-and-therapeutics.html) — pillar
+- [Inborn Errors of Metabolism](https://evagene.com/inborn-errors-of-metabolism.html) — Garrod, pathway-block reasoning, NBS, IEM categories
+- [Pharmacogenetics and Precision Therapy](https://evagene.com/pharmacogenetics-and-precision-therapy.html) — CYP polymorphisms, HLA-B*57:01, CPIC, gene therapy, CRISPR / base / prime editing
+
+### Clinical Practice, Ethics, and Communication
+- [Clinical Practice, Ethics, and Communication](https://evagene.com/clinical-practice-ethics-communication.html) — pillar
+- [Clinical Genetic Skills](https://evagene.com/clinical-genetic-skills.html) — structured family-history interview, three-generation pedigree, NSGC 2022, dysmorphology
+- [Diagnostics and Counselling](https://evagene.com/diagnostics-and-counselling.html) — test taxonomy, ACMG/AMP, secondary findings, Reciprocal-Engagement Model, cascade testing
+- [Ethics, Legal and Social Issues](https://evagene.com/ethics-legal-social-issues.html) — NHGRI ELSI, GINA, GDPR, duty-to-warn, equity in genomics, polygenic embryo selection
 
 ## Comparisons & Alternatives
 

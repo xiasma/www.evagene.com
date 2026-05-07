@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutation Biology and Consequences | Evagene</title>
+    <meta name="description" content="An educational pillar on mutation biology: types of mutation, functional consequences, and detection and interpretation. Foundational papers from Auerbach and Robson 1947 to the ACMG/AMP variant interpretation framework.">
+    <meta name="keywords" content="mutation biology, types of mutation, mutation consequences, variant interpretation, mutation rate, ACMG AMP guidelines, point mutation, indel, repeat expansion, mutational signature, loss of function, gain of function, dominant negative, splice mutation, sequencing, variant annotation, pathogenicity prediction">
+
+    <meta property="og:title" content="Mutation Biology and Consequences | Evagene">
+    <meta property="og:description" content="Educational pillar covering mutation types, functional consequences, and detection and interpretation. From Auerbach and Robson 1947 to the ACMG/AMP framework.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/mutation-biology-and-consequences">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mutation Biology and Consequences | Evagene">
+    <meta name="twitter:description" content="Educational pillar on mutation types, consequences, and interpretation, with citations from Auerbach 1947 to ACMG/AMP 2015.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/mutation-biology-and-consequences">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Mutation Biology and Consequences",
+        "description":"Educational pillar covering the three pillars of mutation biology: types of mutation, functional consequences, and detection and interpretation. Foundational citations from Auerbach and Robson 1947 to the ACMG/AMP framework.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/mutation-biology-and-consequences"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["mutation biology","mutation types","variant interpretation","ACMG/AMP","mutation rate","DNA damage","mutational signature"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Mutation Biology and Consequences",
+        "description":"An educational pillar introducing the biology of mutation, the functional consequences of variants on protein and regulatory output, and the framework by which variants are detected and interpreted today.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Higher education",
+        "audience":{"@type":"Audience","audienceType":"Genetics students, researchers, clinicians, educators"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "url":"https://evagene.com/mutation-biology-and-consequences"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Education","item":"https://evagene.com/mutation-biology-and-consequences"},
+            {"@type":"ListItem","position":3,"name":"Mutation Biology and Consequences","item":"https://evagene.com/mutation-biology-and-consequences"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="https://evagene.com/#resources" class="hover:text-brand-600 dark:hover:text-brand-300">Education</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Mutation Biology and Consequences</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Mutation biology and consequences</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">An educational pillar on mutation. The page introduces the three concerns that any working geneticist returns to: what types of mutation exist and how they arise; what their functional consequences are at the protein and regulatory level; and how they are detected and interpreted. The page is for students, researchers, clinicians, and educators. It is for teaching and study, not for clinical advice.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>13 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> A mutation is a heritable change in DNA sequence. Mutations vary in scale (a single nucleotide to entire chromosomes), in mechanism (replication error, chemical damage, repair failure, retrotransposition, slippage at repeats), and in consequence (silent, regulatory, protein-altering, structural, dominant, recessive, lethal). Modern variant interpretation rests on a published framework (the ACMG/AMP 2015 guidelines, refined by ClinGen) that combines population-frequency, computational, segregation, and functional evidence into a five-tier classification. This pillar introduces three subtopics: <a href="types-of-mutation.html">types of mutation</a>; <a href="functional-consequences-of-mutation.html">functional consequences of mutation</a>; and <a href="mutation-detection-and-interpretation.html">mutation detection and interpretation</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">A short history</h2>
+
+            <p>The modern study of mutation is a twentieth-century discipline. Hermann Muller's 1927 demonstration that X-rays could induce heritable variation in <em>Drosophila</em> established that mutation rates are not fixed by nature but are sensitive to the environment. Two decades later, <a href="https://www.nature.com/articles/157302a0" rel="noopener">Charlotte Auerbach and J. M. Robson, working in Edinburgh during the Second World War, showed in 1947 that nitrogen mustard (an alkylating agent used as a chemical weapon) was strongly mutagenic</a> — the first chemical demonstrated to act like ionising radiation in inducing genetic change. Their work, classified during the war and published only after, founded chemical mutagenesis and grounded the field in mechanism rather than phenomenology.</p>
+
+            <p>The discovery that DNA is the genetic material (Avery, MacLeod, McCarty 1944; Hershey-Chase 1952) and the elucidation of the double helix (Watson, Crick, Franklin, Wilkins 1953) gave mutation a chemical address. By the 1960s, Benzer's fine-structure mapping of the rII locus in T4 phage had reduced mutation to base-pair resolution, and the demonstration that the genetic code was universal allowed any nucleotide change to be read as a protein-level event. The molecular era of mutation biology had begun.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">How often does mutation happen?</h2>
+
+            <p>The mutation rate is not a single number. It varies by organism, by genomic region, by sequence context, and by the kind of mutation under consideration. The most-cited synthesis for the spontaneous rate across organisms is <a href="https://pubmed.ncbi.nlm.nih.gov/1831267/" rel="noopener">John Drake's 1991 paper in <em>PNAS</em> (88:7160)</a>, which proposed a roughly constant rate of about 0.003 mutations per genome per generation across DNA-based microbes — a regularity that has come to be called Drake's rule.</p>
+
+            <p>For humans, the analogous figure was established by direct measurement only with the arrival of trio whole-genome sequencing. <a href="https://pubmed.ncbi.nlm.nih.gov/22914163/" rel="noopener">Kong et al. 2012 (<em>Nature</em> 488:471), sequencing 78 Icelandic trios, estimated the de novo single-nucleotide variant (SNV) rate at approximately 1.2 &times; 10<sup>&minus;8</sup> per site per generation</a>, equivalent to roughly 60&ndash;80 new SNVs in each newborn relative to their parents. They also showed that paternal age increases the rate substantially: roughly two additional mutations per year of paternal age, because spermatogonial stem cells divide repeatedly across the male reproductive lifespan. Maternal age has a smaller effect on de novo SNVs but a larger effect on aneuploidy.</p>
+
+            <p>Mutation rates differ by class. Single-nucleotide changes are common; small indels are roughly an order of magnitude rarer; structural variants rarer still per genome but each contributes far more sequence change. Repeat expansions, mitochondrial mutations, and somatic mutations follow their own dynamics, addressed in the <a href="types-of-mutation.html">types of mutation</a> page.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Subtopic 1: Types of mutation</h2>
+
+            <p>The first concern of mutation biology is descriptive: what kinds of change exist, and at what scale? The conventional taxonomy starts with point mutations &mdash; single base substitutions, classified as transitions (purine&#8594;purine, pyrimidine&#8594;pyrimidine) or transversions (purine&#8594;pyrimidine and back). Substitutions are then classified by coding consequence: synonymous (no amino-acid change), missense (one amino-acid change), nonsense (premature stop codon), or splice-site disrupting.</p>
+
+            <p>Insertions and deletions (indels) are the next scale up. Small indels can preserve the reading frame (in-frame, multiples of three) or disrupt it (frameshifts). Microsatellite slippage at short tandem repeats produces a characteristic class of indels. Trinucleotide repeat expansion, a peculiar class of dynamic mutation, gives rise to disorders such as Huntington disease, fragile X syndrome, Friedreich ataxia, myotonic dystrophy, and the spinocerebellar ataxias; the expansion size grows across generations, producing the phenomenon of anticipation.</p>
+
+            <p>Above the indel scale lie structural variants &mdash; large deletions, duplications, inversions, translocations &mdash; and copy-number variants. Mosaicism, the presence of multiple cell-genotype lineages within an individual, is a crosscutting category: somatic mosaicism arises during development and is a major substrate of cancer; germline mosaicism (covered on our <a href="germline-mosaicism-calculator.html">germline mosaicism calculator</a> page) explains apparent de novo recurrences within a sibship. Mutational signatures &mdash; the patterns of trinucleotide context that different mutagenic processes produce &mdash; were characterised systematically by <a href="https://pubmed.ncbi.nlm.nih.gov/23945592/" rel="noopener">Alexandrov et al. 2013 (<em>Nature</em> 500:415)</a> and form the basis of the COSMIC mutational signatures catalogue. The full taxonomy is on the <a href="types-of-mutation.html">types of mutation</a> subtopic page.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Subtopic 2: Functional consequences of mutation</h2>
+
+            <p>Description is not enough. The geneticist also asks what a mutation does. Loss of function (LoF) variants &mdash; nonsense, frameshift, large deletion, canonical splice-site disrupting &mdash; abolish or severely reduce the protein product of the affected allele. Whether this is consequential depends on dosage sensitivity: if the gene is haploinsufficient, a single LoF allele produces a phenotype (autosomal dominant); if not, two LoF alleles are needed (autosomal recessive). The systematic survey of LoF in healthy human exomes by <a href="https://pubmed.ncbi.nlm.nih.gov/24482476/" rel="noopener">MacArthur et al. 2014 (<em>Nature</em> 508:469)</a> showed that even healthy individuals carry roughly 100 LoF variants, of which about 20 affect both copies of the gene &mdash; a foundational observation for population-level interpretation.</p>
+
+            <p>Gain-of-function variants change protein behaviour rather than removing it. Constitutive activation, novel binding partners, increased expression, and stabilisation of a dosage-sensitive product can all produce a gain-of-function phenotype. The classic example is FGFR3 G380R in <a href="achondroplasia-pedigree.html">achondroplasia</a>, where a single recurrent missense substitution produces ligand-independent activation of the receptor.</p>
+
+            <p>Dominant-negative variants are a third category: a mutant subunit poisons the function of a multimeric complex. Type I and type IV collagen variants in <a href="osteogenesis-imperfecta-pedigree.html">osteogenesis imperfecta</a> and Alport syndrome are textbook examples; mutant subunits are incorporated into the triple helix and destabilise it. Splice-disrupting and regulatory variants form a fourth category whose interpretation has been transformed by deep-learning predictors such as <a href="https://pubmed.ncbi.nlm.nih.gov/30661751/" rel="noopener">SpliceAI (Jaganathan et al. 2019, <em>Cell</em> 176:535)</a>. The full treatment is on the <a href="functional-consequences-of-mutation.html">functional consequences of mutation</a> subtopic page.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Subtopic 3: Detection and interpretation</h2>
+
+            <p>The third pillar of mutation biology is methodological. How are variants detected, and how are they interpreted? Sanger sequencing, which dominated the 1980s and 1990s, has largely been replaced for screening purposes by short-read next-generation sequencing on Illumina platforms (described in <a href="https://pubmed.ncbi.nlm.nih.gov/18987734/" rel="noopener">Bentley et al. 2008, <em>Nature</em> 456:53</a>) and is increasingly supplemented by long-read platforms (PacBio HiFi, Oxford Nanopore) that resolve repeat expansions and structural variants short reads miss.</p>
+
+            <p>Variant interpretation has been standardised. The <a href="https://pubmed.ncbi.nlm.nih.gov/25741868/" rel="noopener">ACMG/AMP 2015 guidelines (Richards et al., <em>Genetics in Medicine</em> 17:405)</a> define a five-tier classification &mdash; pathogenic, likely pathogenic, uncertain significance, likely benign, benign &mdash; built from population-frequency evidence (gnomAD), computational predictors (REVEL, CADD, AlphaMissense), segregation evidence within families, and functional evidence at the bench. ClinGen variant-curation expert panels apply and refine these criteria gene-by-gene, and ClinVar publishes the resulting interpretations. The full treatment, including the interpretive frameworks, the major databases, and how the field has converged on a shared vocabulary, is on the <a href="mutation-detection-and-interpretation.html">mutation detection and interpretation</a> page.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Where Evagene fits</h2>
+
+            <p>Evagene is an academic, research, and educational pedigree modelling platform. It is not a sequencing service; it is not a variant-calling pipeline; it does not return classifications under the ACMG/AMP framework. The platform draws pedigrees, manages family-history information, and runs implementations of published family-history-based risk-model algorithms (Claus 1994, Couch 1997, Frank 2002, Evans 2004, Vasen 1999, Umar 2004, Gail 1989, Tyrer / Duffy / Cuzick 2004 as an IBIS-style approximation, BayesMendel BRCAPRO / MMRpro / PancPRO, and family-history scoring) for teaching, research, and exploratory use. Where computation against the canonical BOADICEA implementation is wanted, Evagene exports a <code>##CanRisk 2.0</code> pedigree file the user uploads at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a>; BOADICEA is licensed by the University of Cambridge and is not bundled in Evagene.</p>
+
+            <p>The connection between this educational pillar and the platform is conceptual. A pedigree records the segregation of phenotypes across generations &mdash; the very pattern that mutation produces. Reading a pedigree well requires knowing what kinds of mutation exist, what their consequences are, and how a candidate variant moves from "found by sequencing" to "interpreted with confidence". The three subtopic pages elaborate.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Three subtopic pages</h2>
+
+            <ul>
+                <li><a href="types-of-mutation.html"><strong>Types of mutation</strong></a> &mdash; substitutions, indels, repeat expansions, structural variants, copy-number variants, mosaicism, de novo mutation, the paternal age effect, and mutational signatures.</li>
+                <li><a href="functional-consequences-of-mutation.html"><strong>Functional consequences of mutation</strong></a> &mdash; loss of function, gain of function, dominant negative, haploinsufficiency, splice and regulatory variants, allele-frequency interpretation.</li>
+                <li><a href="mutation-detection-and-interpretation.html"><strong>Mutation detection and interpretation</strong></a> &mdash; sequencing platforms, variant calling, annotation, the ACMG/AMP five-tier framework, gnomAD, ClinVar, in silico predictors.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Caveats and educational positioning</h2>
+
+            <p>This page and the three subtopic pages are educational. They present published frameworks and cite the original literature so a student or researcher can follow the chain of evidence and read the original papers. The pages do not return a clinical interpretation, do not advise on testing decisions, and do not replace the work of a clinical geneticist or genetic counsellor. The ACMG/AMP framework is the published interpretive standard the field uses; it is not a service Evagene offers. Where a specific variant is in question, the appropriate route is a genetic-testing laboratory operating under the framework, not a marketing page.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="types-of-mutation.html">Types of mutation</a></li>
+                <li><a href="functional-consequences-of-mutation.html">Functional consequences of mutation</a></li>
+                <li><a href="mutation-detection-and-interpretation.html">Mutation detection and interpretation</a></li>
+                <li><a href="germline-mosaicism-calculator.html">Germline mosaicism calculator</a></li>
+                <li><a href="achondroplasia-pedigree.html">Achondroplasia pedigree</a></li>
+                <li><a href="osteogenesis-imperfecta-pedigree.html">Osteogenesis imperfecta pedigree</a></li>
+                <li><a href="dravet-syndrome-pedigree.html">Dravet syndrome pedigree</a></li>
+                <li><a href="rett-syndrome-pedigree.html">Rett syndrome pedigree</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Foundational sources cited</h2>
+
+            <ul>
+                <li>Auerbach C, Robson JM. <em>Production of mutations by allyl isothiocyanate. Nature</em> 1947 &mdash; <a href="https://www.nature.com/articles/157302a0" rel="noopener">nature.com/articles/157302a0</a> (mustard-gas mutagenesis foundational paper).</li>
+                <li>Drake JW. <em>A constant rate of spontaneous mutation in DNA-based microbes. PNAS</em> 1991;88:7160 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/1831267/" rel="noopener">PMID 1831267</a>.</li>
+                <li>Kong A, et al. <em>Rate of de novo mutations and the importance of father's age. Nature</em> 2012;488:471 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/22914163/" rel="noopener">PMID 22914163</a>.</li>
+                <li>Alexandrov LB, et al. <em>Signatures of mutational processes in human cancer. Nature</em> 2013;500:415 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/23945592/" rel="noopener">PMID 23945592</a>.</li>
+                <li>MacArthur DG, et al. <em>A systematic survey of loss-of-function variants in human protein-coding genes. Nature</em> 2014;508:469 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/24482476/" rel="noopener">PMID 24482476</a>.</li>
+                <li>Richards S, et al. <em>Standards and guidelines for the interpretation of sequence variants. Genetics in Medicine</em> 2015;17:405 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/25741868/" rel="noopener">PMID 25741868</a> (the ACMG/AMP guidelines).</li>
+                <li>Jaganathan K, et al. <em>Predicting splicing from primary sequence with deep learning. Cell</em> 2019;176:535 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/30661751/" rel="noopener">PMID 30661751</a> (SpliceAI).</li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Pedigree drawing for teaching and research</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="types-of-mutation.html" class="hover:text-white transition-colors">Types of mutation</a></li><li><a href="functional-consequences-of-mutation.html" class="hover:text-white transition-colors">Functional consequences</a></li><li><a href="mutation-detection-and-interpretation.html" class="hover:text-white transition-colors">Detection and interpretation</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="germline-mosaicism-calculator.html" class="hover:text-white transition-colors">Germline mosaicism</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somatic Genomics — Clonal Evolution, Mutational Signatures, Targeted Therapy | Evagene</title>
+    <meta name="description" content="Educational reference on tumour somatic genomics: clonal evolution (Nowell 1976), tumour phylogenetics, ctDNA, CHIP, mutational signatures (SBS/DBS/ID; signature 3 HRD, 6 MMR, 4 tobacco, 7 UV, 2/13 APOBEC), HRD scoring, MSI, TMB, and targeted-therapy biomarkers.">
+    <meta name="keywords" content="somatic genomics, clonal evolution, Nowell 1976, tumour phylogenetics, multi-region sequencing, ctDNA liquid biopsy, clonal haematopoiesis CHIP, mutational signatures, COSMIC signatures, Alexandrov 2013 2020, PCAWG, signature 3 HRD homologous recombination deficiency, MMR-deficient signature 6, UV signature 7, tobacco signature 4, APOBEC signatures 2 13, HRD score Davies 2017, microsatellite instability MSI, tumour mutational burden TMB, targeted therapy biomarker, HER2 trastuzumab, BCR-ABL imatinib, BRAF V600E vemurafenib, KRAS G12C sotorasib, PARP inhibitor BRCA, immune checkpoint inhibitor MSI">
+
+    <meta property="og:title" content="Somatic Genomics — Clonal Evolution, Mutational Signatures, Targeted Therapy | Evagene">
+    <meta property="og:description" content="Specialist-facing reference on tumour somatic genomics: clonal evolution, mutational-signature decomposition, HRD / MSI / TMB biomarkers, and the targeted-therapy biomarker landscape.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/somatic-genomics">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Somatic Genomics">
+    <meta name="twitter:description" content="Clonal evolution, mutational signatures, ctDNA, CHIP, HRD / MSI / TMB, and targeted-therapy biomarkers.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/somatic-genomics">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Somatic genomics: clonal evolution, mutational signatures, and targeted-therapy biomarkers",
+        "description":"Specialist-facing educational reference on the somatic genomics of established tumours: clonal evolution under Darwinian selection (Nowell 1976), multi-region sequencing and tumour phylogenetics, ctDNA, CHIP, mutational signatures (Alexandrov 2013, 2020 PCAWG), HRD scoring (Davies 2017), MSI and TMB, and the targeted-therapy biomarker landscape (HER2, BCR-ABL, BRAF V600E, KRAS G12C, PARP/BRCA, MSI-H/dMMR checkpoint inhibitors).",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/somatic-genomics"},
+        "image":"https://evagene.com/og-image.png"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Somatic genomics","learningResourceType":"Article","educationalLevel":"Postgraduate","inLanguage":"en-GB",
+        "url":"https://evagene.com/somatic-genomics",
+        "audience":{"@type":"Audience","audienceType":"Researchers, clinicians, educators, and graduate students in genetics and oncology"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Cancer Genetics and Somatic Variation","item":"https://evagene.com/cancer-genetics-and-somatic-variation"},
+            {"@type":"ListItem","position":3,"name":"Somatic Genomics","item":"https://evagene.com/somatic-genomics"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5"><img src="logo.png" alt="Evagene logo" class="h-8 w-auto"><span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span></a>
+            <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="cancer-genetics-and-somatic-variation.html" class="hover:text-brand-600 dark:hover:text-brand-300">Cancer Genetics</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Somatic Genomics</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Somatic genomics</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A tumour is a population of cells under selection. The somatic genome captures the history of that population: the order of driver acquisition, the mutational processes operating in the cell of origin, the clonal architecture, and the molecular features that link the tumour to therapeutic vulnerabilities. This page is an educational reference on clonal evolution, mutational signatures, and the targeted-therapy biomarker landscape.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>13 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Tumour evolution is Darwinian (<a href="https://pubmed.ncbi.nlm.nih.gov/959840/" rel="noopener">Nowell 1976</a>): mutations arise stochastically in a clonal lineage, and the variants that confer a selective advantage rise in frequency. Multi-region sequencing reveals subclonal architecture; ctDNA gives a longitudinal liquid-biopsy view; CHIP (<a href="https://pubmed.ncbi.nlm.nih.gov/25426837/" rel="noopener">Genovese et al. 2014</a>) shows that clonal expansion of haematopoietic precursors is common and ageing-related. The mutational-signature framework (<a href="https://pubmed.ncbi.nlm.nih.gov/23945592/" rel="noopener">Alexandrov et al. 2013</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/32025018/" rel="noopener">2020 PCAWG</a>) decomposes the somatic mutation landscape into reproducible processes (UV, tobacco, APOBEC, HRD, MMR-deficiency, ageing). HRD scoring (<a href="https://pubmed.ncbi.nlm.nih.gov/28288110/" rel="noopener">Davies et al. 2017</a>), MSI, and TMB are the major aggregate biomarkers; they map to PARP inhibitors (HRD/BRCA), immune-checkpoint inhibitors (MSI-H/dMMR; <a href="https://pubmed.ncbi.nlm.nih.gov/26028255/" rel="noopener">Le et al. 2015</a>), and oncogene-targeted therapies (HER2, BCR-ABL, BRAF V600E, KRAS G12C).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Clonal evolution: tumours as Darwinian populations</h2>
+
+            <p><a href="https://pubmed.ncbi.nlm.nih.gov/959840/" rel="noopener">Peter Nowell&rsquo;s 1976 paper (Science 194:23)</a> reframed the cancer cell as a member of an evolving population. A founder clone acquires a sequence of mutations; each mutation is acted on by selection in the local microenvironment; the population diversifies into subclones; immune pressure, hypoxia, and (eventually) treatment apply additional selection; the surviving clones expand. The Darwinian view supplies the explanation for several otherwise-puzzling clinical observations: intratumoural heterogeneity, primary resistance to a targeted agent at first contact, acquired resistance to that agent on treatment, and the differential metastatic competence of subclones within the same primary tumour.</p>
+
+            <p>The framework is now operationalised through multi-region sequencing of resected tumours: independent biopsies from spatially separated regions of a single tumour are sequenced, shared mutations placed on the trunk of an inferred phylogenetic tree, and region-specific mutations placed on subclonal branches. Studies including the TRACERx programme in non-small-cell lung cancer (<a href="https://pubmed.ncbi.nlm.nih.gov/28445112/" rel="noopener">Jamal-Hanjani et al. 2017, NEJM 376:2109</a>) demonstrate that a substantial fraction of mutations &mdash; including some drivers &mdash; are subclonal, present in only a subset of regions, with implications for the kind of mutation a tissue biopsy can or cannot detect.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Circulating tumour DNA (ctDNA) and liquid biopsies</h2>
+
+            <p>Tumour cells release fragmented DNA into the bloodstream, where it can be quantified and sequenced. <a href="https://pubmed.ncbi.nlm.nih.gov/28233803/" rel="noopener">Wan et al. 2017 (Nat Rev Cancer 17:223)</a> reviewed the analytical and applied landscape. ctDNA assays span deep targeted sequencing of cancer-gene panels, methylation profiling for tissue-of-origin inference, and whole-genome low-coverage approaches for copy-number readout. Applications described in the published literature include early detection (multi-cancer early-detection panels), molecular residual disease monitoring after curative-intent surgery, longitudinal tracking of resistance-associated subclones during targeted therapy, and tissue-agnostic biomarker assessment when a fresh tissue biopsy is unavailable. Sensitivity is the principal limitation: low tumour fraction in plasma constrains detection of low-allele-frequency variants and limits the resolution of subclonal architecture compared with tissue-based multi-region sequencing.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Clonal haematopoiesis of indeterminate potential (CHIP)</h2>
+
+            <p><a href="https://pubmed.ncbi.nlm.nih.gov/25426837/" rel="noopener">Genovese et al. 2014 (NEJM 371:2477)</a> and the contemporaneous Jaiswal et al. 2014 paper showed that healthy older adults frequently carry expanded haematopoietic clones bearing somatic mutations in genes recurrently mutated in haematological malignancy &mdash; DNMT3A, TET2, ASXL1, JAK2 in particular. Clones reach detectable variant allele frequencies (typically &gt;2&#37;) without progressing to overt leukaemia, hence &ldquo;indeterminate potential&rdquo;. CHIP is age-associated, with prevalence on the order of 10&#37; in the seventh decade and higher above. CHIP carries a small but measurable progression risk to myeloid malignancy and is also associated with cardiovascular disease independent of conventional risk factors. For tumour-genomic analyses CHIP is a confounder &mdash; ctDNA assays sequencing only plasma can detect CHIP variants and mistakenly attribute them to a solid tumour; matched-buffy-coat or matched-germline sequencing is the published mitigation.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mutational signatures</h2>
+
+            <p>The somatic mutation catalogue of a tumour is not random. Different mutational processes &mdash; ultraviolet damage, tobacco-smoke metabolites, APOBEC cytidine deamination, defective mismatch repair, defective homologous recombination, age-related cytosine deamination &mdash; leave different fingerprints in the trinucleotide context distribution of single-base substitutions, in the spectrum of doublet-base substitutions, and in the indel size distribution. <a href="https://pubmed.ncbi.nlm.nih.gov/23945592/" rel="noopener">Alexandrov et al. 2013 (Nature 500:415)</a> introduced the framework: non-negative matrix factorisation of the 96-channel SBS spectrum across thousands of tumours yields a small set of reproducible signatures, each interpretable in terms of an underlying mutational process. The <a href="https://pubmed.ncbi.nlm.nih.gov/32025018/" rel="noopener">Pan-Cancer Analysis of Whole Genomes companion (Alexandrov et al. 2020, Nature 578:94)</a> extended the catalogue to whole-genome data and added doublet-base substitution (DBS) and small-insertion-deletion (ID) signature types. The COSMIC database (<a href="https://cancer.sanger.ac.uk/signatures/" rel="noopener">cancer.sanger.ac.uk/signatures</a>) is the canonical, regularly-updated public catalogue.</p>
+
+            <p>The signatures whose biology is most reliably interpreted in published research and teaching:</p>
+
+            <ul>
+                <li><strong>SBS1 / SBS5</strong> &mdash; clock-like signatures correlating with patient age at diagnosis; SBS1 reflects spontaneous deamination of 5-methylcytosine.</li>
+                <li><strong>SBS2 and SBS13</strong> &mdash; APOBEC cytidine deamination, common in breast, bladder, cervical, head-and-neck, and lung cancers; characterised by C&gt;T and C&gt;G substitutions in TpCpN trinucleotide contexts.</li>
+                <li><strong>SBS3</strong> &mdash; homologous-recombination deficiency, the BRCA1/2-associated signature; flat across the 96 channels with characteristic indels and large structural-variant features. The basis for HRD scoring (see below).</li>
+                <li><strong>SBS4</strong> &mdash; tobacco-smoke-related, with C&gt;A transversions reflecting bulky-adduct misrepair; dominant in tobacco-driven lung cancer, with a transcribed-strand bias from transcription-coupled repair.</li>
+                <li><strong>SBS6, SBS15, SBS20, SBS26</strong> &mdash; mismatch-repair deficiency signatures, found in MSI-H tumours from Lynch-syndrome germline carriers (see <a href="inherited-cancer-predisposition.html">inherited cancer predisposition</a>) or somatic dMMR contexts.</li>
+                <li><strong>SBS7a / SBS7b / SBS7c / SBS7d</strong> &mdash; ultraviolet light, dominant in cutaneous melanoma; characterised by C&gt;T transitions at dipyrimidine sites and CC&gt;TT doublet substitutions (the hallmark UV fingerprint).</li>
+                <li><strong>SBS9</strong> &mdash; somatic hypermutation by activation-induced cytidine deaminase (AID), found in B-cell lymphomas.</li>
+                <li><strong>SBS22, SBS24</strong> &mdash; environmental aristolochic acid and aflatoxin exposure respectively; clinically relevant in upper-tract urothelial cancers (Balkan endemic nephropathy regions) and hepatocellular carcinoma in regions with aflatoxin exposure.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">HRD, MSI, and TMB as aggregate biomarkers</h2>
+
+            <p>Three aggregate biomarkers derived from the somatic genome are routinely discussed in published research and treatment-decision frameworks. None is a property of a single variant; each is a property of the genome.</p>
+
+            <h3 class="mt-10">HRD (homologous-recombination deficiency)</h3>
+
+            <p>Loss of homologous-recombination repair &mdash; through germline or somatic biallelic inactivation of BRCA1, BRCA2, PALB2, RAD51 paralogues, or other HR-pathway genes &mdash; produces a characteristic genome-wide footprint that includes mutational signature 3, large structural variants, and chromosomal-instability features (loss of heterozygosity, telomeric allelic imbalance, large-scale state transitions). <a href="https://pubmed.ncbi.nlm.nih.gov/28288110/" rel="noopener">Davies et al. 2017 (Nat Med 23:517)</a> introduced HRDetect, a supervised classifier that scores HRD probability from whole-genome sequencing. Composite HRD scores combining LOH, telomeric-allelic-imbalance, and large-scale-state-transition counts (Myriad myChoice, Foundation HRD) underlie published reporting frameworks. HRD-positive tumours are described in the published literature as a population with selective sensitivity to PARP inhibitors and to platinum chemotherapy &mdash; a finding extensively studied in ovarian and breast cancer.</p>
+
+            <h3 class="mt-10">Microsatellite instability (MSI)</h3>
+
+            <p>Loss of mismatch repair &mdash; through germline biallelic loss in Lynch syndrome or somatic biallelic loss including MLH1 promoter hypermethylation &mdash; causes runaway insertion / deletion errors at microsatellite repeats. MSI is detected by PCR (the Bethesda panel and successors) or by IHC for the MMR proteins MLH1, MSH2, MSH6, PMS2; sequencing-based MSI scores from large amplicon panels are a common alternative. MSI-H tumours show extreme TMB, an SBS6/15/20/26 signature profile, and a characteristic indel signature. MSI-H is the foundational biomarker for the published response of dMMR colorectal cancer (and cross-tumour-type MSI-H disease) to immune-checkpoint inhibition, established in <a href="https://pubmed.ncbi.nlm.nih.gov/26028255/" rel="noopener">Le et al. 2015 (NEJM 372:2509)</a> and extended in subsequent FDA / EMA tissue-agnostic approvals of pembrolizumab.</p>
+
+            <h3 class="mt-10">Tumour mutational burden (TMB)</h3>
+
+            <p>TMB is the count of non-synonymous somatic mutations per megabase of sequenced exome. High TMB associates with mutational processes that mass-produce mutations (UV, tobacco, MMR-deficiency, POLE/POLD1 exonuclease loss). The biological logic for the immunotherapy connection is that high TMB increases neoantigen load, increasing the probability of T-cell-mediated tumour recognition. Published thresholds (10 mutations/Mb is one widely-cited cutoff; assay-specific calibration applies) have been used in tissue-agnostic checkpoint-inhibitor approval frameworks. TMB is correlated with but distinct from MSI; high TMB without MSI occurs in UV-driven and tobacco-driven cancers.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Targeted-therapy biomarker landscape</h2>
+
+            <p>The single-variant biomarkers that map a tumour-genomic finding to a targeted therapy are the operational endpoint of much of cancer genomics. The canonical examples covered in published research and standard oncology teaching:</p>
+
+            <ul>
+                <li><strong>HER2 (ERBB2) amplification &rarr; trastuzumab</strong> in breast and gastric cancer, and the antibody-drug conjugates trastuzumab emtansine and trastuzumab deruxtecan in HER2-low and HER2-positive disease.</li>
+                <li><strong>BCR-ABL1 fusion &rarr; imatinib</strong> in chronic myeloid leukaemia (CML); subsequent generation TKIs (dasatinib, nilotinib, ponatinib) cover resistance mutations including the gatekeeper T315I.</li>
+                <li><strong>BRAF V600E &rarr; vemurafenib / dabrafenib</strong> in cutaneous melanoma (and BRAF V600E colorectal cancer in combination with EGFR blockade); MEK inhibitor combinations (trametinib, cobimetinib, binimetinib) extend duration of response.</li>
+                <li><strong>KRAS G12C &rarr; sotorasib / adagrasib</strong> in lung adenocarcinoma; the first selective inhibitor of an activated KRAS allele after decades of an &ldquo;undruggable&rdquo; reputation.</li>
+                <li><strong>EGFR L858R / exon-19 deletion &rarr; osimertinib</strong> and predecessor EGFR-TKIs in NSCLC; T790M and C797S as published resistance mutations.</li>
+                <li><strong>EML4-ALK / EML4-ROS1 fusions &rarr; crizotinib, alectinib, lorlatinib, brigatinib</strong> in NSCLC.</li>
+                <li><strong>FLT3-ITD &rarr; midostaurin / gilteritinib</strong> in AML.</li>
+                <li><strong>NTRK fusions &rarr; larotrectinib / entrectinib</strong> in tissue-agnostic settings.</li>
+                <li><strong>BRCA1/2 / HRD &rarr; PARP inhibitors</strong> (olaparib, talazoparib, niraparib, rucaparib) in ovarian, breast, pancreatic, and prostate cancer; the published mechanism is synthetic lethality between PARP inhibition and HR deficiency.</li>
+                <li><strong>MSI-H / dMMR &rarr; immune-checkpoint inhibitors</strong> (pembrolizumab, dostarlimab, nivolumab) tissue-agnostically (<a href="https://pubmed.ncbi.nlm.nih.gov/26028255/" rel="noopener">Le et al. 2015</a>).</li>
+                <li><strong>PD-L1 expression / TMB-high &rarr; immune-checkpoint inhibitors</strong> in numerous solid tumours; thresholds and assay calibration are tissue and assay specific in the published frameworks.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Cross-link: the Lynch / MMRpro / MSI pathway</h2>
+
+            <p>The Lynch-syndrome / dMMR / MSI-H axis is the cleanest worked example of how the three pillars of cancer genetics intersect.</p>
+
+            <ol>
+                <li><strong>Germline.</strong> A pathogenic variant in MLH1, MSH2, MSH6, or PMS2 supplies one inactivating allele in every cell, including every colonic / endometrial epithelial cell. Family-history modelling for the carrier probability uses BayesMendel <a href="mmrpro-calculator.html">MMRpro</a>; family-history pattern recognition uses the <a href="lynch-syndrome-risk-calculator.html">Amsterdam II / revised Bethesda criteria</a> as published frameworks.</li>
+                <li><strong>Somatic.</strong> Loss of the second allele &mdash; by LOH, point mutation, or epigenetic silencing &mdash; produces a dMMR cell. Microsatellite instability accumulates rapidly; the cell becomes hypermutated; SBS6/15/20/26 mutational signatures are evident; TMB is very high.</li>
+                <li><strong>Therapeutic.</strong> The same dMMR / MSI-H phenotype confers selective sensitivity to immune-checkpoint inhibition, established for colorectal cancer in <a href="https://pubmed.ncbi.nlm.nih.gov/26028255/" rel="noopener">Le et al. 2015</a> and extended tissue-agnostically.</li>
+            </ol>
+
+            <p>The same template (germline first hit &rarr; somatic second hit &rarr; characteristic mutational signature &rarr; therapeutic vulnerability) applies, with adaptations, to BRCA1/2 / HR-deficiency / signature 3 / PARP inhibition. Two foundational pathways, two clean illustrations of how somatic genomics is interpreted in the context of inherited predisposition.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Where Evagene fits (and does not)</h2>
+
+            <p>Evagene is an academic, research, and educational pedigree modelling platform. It documents family-history information, applies published risk-model algorithms (<a href="brcapro-calculator.html">BRCAPRO</a>, <a href="mmrpro-calculator.html">MMRpro</a>, <a href="pancpro-calculator.html">PancPRO</a>, Tyrer-Cuzick IBIS-style approximation, Claus, Couch, Frank, Manchester, NICE family-history triage representation, Gail, Amsterdam II / revised Bethesda representations) to that pedigree, and exports CanRisk pedigree files for off-platform <a href="boadicea-vs-brcapro.html">BOADICEA</a>. Outputs are illustrative and for research / education purposes.</p>
+
+            <p>Evagene <strong>does not</strong> compute somatic-tumour mutational signatures, decompose a SBS / DBS / ID spectrum, calculate HRD scores from sequencing data, run MSI calling, compute TMB, or interpret tumour-genomic variants for therapeutic relevance. The somatic-genomics content here is educational reference. Tumour-genomic computation is performed by dedicated bioinformatics pipelines and reporting platforms operated by clinical genomic laboratories; this page links to the published methods and standards rather than implementing them.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Selected sources</h2>
+
+            <ul>
+                <li>Nowell PC. The clonal evolution of tumor cell populations. <em>Science</em> 1976; 194:23. <a href="https://pubmed.ncbi.nlm.nih.gov/959840/" rel="noopener">PMID 959840</a>.</li>
+                <li>Alexandrov LB, Nik-Zainal S, Wedge DC, et al. Signatures of mutational processes in human cancer. <em>Nature</em> 2013; 500:415. <a href="https://pubmed.ncbi.nlm.nih.gov/23945592/" rel="noopener">PMID 23945592</a>.</li>
+                <li>Alexandrov LB, Kim J, Haradhvala NJ, et al. The repertoire of mutational signatures in human cancer. <em>Nature</em> 2020; 578:94. <a href="https://pubmed.ncbi.nlm.nih.gov/32025018/" rel="noopener">PMID 32025018</a>.</li>
+                <li>ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium. Pan-cancer analysis of whole genomes. <em>Nature</em> 2020; 578:82. <a href="https://pubmed.ncbi.nlm.nih.gov/32025007/" rel="noopener">PMID 32025007</a>.</li>
+                <li>Genovese G, K&auml;hler AK, Handsaker RE, et al. Clonal hematopoiesis and blood-cancer risk inferred from blood DNA sequence. <em>NEJM</em> 2014; 371:2477. <a href="https://pubmed.ncbi.nlm.nih.gov/25426837/" rel="noopener">PMID 25426837</a>.</li>
+                <li>Davies H, Glodzik D, Morganella S, et al. HRDetect is a predictor of BRCA1 and BRCA2 deficiency based on mutational signatures. <em>Nat Med</em> 2017; 23:517. <a href="https://pubmed.ncbi.nlm.nih.gov/28288110/" rel="noopener">PMID 28288110</a>.</li>
+                <li>Wan JCM, Massie C, Garcia-Corbacho J, et al. Liquid biopsies come of age: towards implementation of circulating tumour DNA. <em>Nat Rev Cancer</em> 2017; 17:223. <a href="https://pubmed.ncbi.nlm.nih.gov/28233803/" rel="noopener">PMID 28233803</a>.</li>
+                <li>Le DT, Uram JN, Wang H, et al. PD-1 blockade in tumors with mismatch-repair deficiency. <em>NEJM</em> 2015; 372:2509. <a href="https://pubmed.ncbi.nlm.nih.gov/26028255/" rel="noopener">PMID 26028255</a>.</li>
+                <li>Jamal-Hanjani M, Wilson GA, McGranahan N, et al. Tracking the evolution of non-small-cell lung cancer (TRACERx). <em>NEJM</em> 2017; 376:2109. <a href="https://pubmed.ncbi.nlm.nih.gov/28445112/" rel="noopener">PMID 28445112</a>.</li>
+                <li>COSMIC mutational signatures &mdash; <a href="https://cancer.sanger.ac.uk/signatures/" rel="noopener">cancer.sanger.ac.uk/signatures</a>.</li>
+                <li>The Cancer Genome Atlas Program &mdash; <a href="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga" rel="noopener">cancer.gov/tcga</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related Evagene pages</h2>
+
+            <ul>
+                <li><a href="cancer-genetics-and-somatic-variation.html">Cancer genetics and somatic variation (pillar)</a></li>
+                <li><a href="oncogenes-and-tumour-suppressors.html">Oncogenes and tumour suppressors</a></li>
+                <li><a href="inherited-cancer-predisposition.html">Inherited cancer predisposition</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="brcapro-calculator.html">BRCAPRO</a> &middot; <a href="mmrpro-calculator.html">MMRpro</a> &middot; <a href="pancpro-calculator.html">PancPRO</a></li>
+                <li><a href="lynch-syndrome-risk-calculator.html">Lynch syndrome family-history calculator</a></li>
+                <li><a href="boadicea-vs-brcapro.html">BOADICEA vs BRCAPRO</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene&rsquo;s pedigree platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, 20 published risk-model algorithms, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. For research, education, and family-history documentation; not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="cancer-genetics-and-somatic-variation.html" class="hover:text-white transition-colors">Cancer genetics pillar</a></li><li><a href="oncogenes-and-tumour-suppressors.html" class="hover:text-white transition-colors">Oncogenes &amp; tumour suppressors</a></li><li><a href="inherited-cancer-predisposition.html" class="hover:text-white transition-colors">Inherited predisposition</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

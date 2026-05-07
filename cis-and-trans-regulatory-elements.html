@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cis- and Trans-Regulatory Elements — Enhancers, TFs, ChIP/ATAC | Evagene</title>
+    <meta name="description" content="Cis-regulatory elements (promoters, enhancers, silencers, insulators), super-enhancers, transcription-factor motifs, ChIP-seq, ATAC-seq, ENCODE, GTEx eQTLs, and the JASPAR motif database — an educational guide for students, researchers, and educators.">
+    <meta name="keywords" content="cis-regulatory elements, trans-regulatory elements, enhancer, silencer, insulator, CTCF, super-enhancer, transcription factor, JASPAR, ChIP-seq, ATAC-seq, DNase-seq, ENCODE, GTEx, eQTL, position weight matrix, promoter, cohesin loop">
+
+    <meta property="og:title" content="Cis- and Trans-Regulatory Elements — Enhancers, TFs, ChIP/ATAC | Evagene">
+    <meta property="og:description" content="An educational deep-dive into cis-regulatory elements, transcription-factor binding motifs, ChIP-seq, ATAC-seq, ENCODE, GTEx eQTLs, and JASPAR — written for students, researchers, and educators.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/cis-and-trans-regulatory-elements">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cis- and Trans-Regulatory Elements — Enhancers, TFs, ChIP/ATAC">
+    <meta name="twitter:description" content="Promoters, enhancers, silencers, insulators, super-enhancers, ChIP-seq, ATAC-seq, ENCODE, GTEx, JASPAR — educational guide.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/cis-and-trans-regulatory-elements">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Cis- and Trans-Regulatory Elements: Enhancers, Transcription Factors, ChIP-seq, ATAC-seq",
+        "description":"An educational guide to cis-regulatory elements, transcription-factor binding motifs, super-enhancers, ChIP-seq, ATAC-seq, ENCODE, GTEx, and JASPAR for students, researchers, and educators.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/cis-and-trans-regulatory-elements"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["cis-regulatory elements","enhancer","silencer","insulator","CTCF","super-enhancer","transcription factor","JASPAR","ChIP-seq","ATAC-seq","ENCODE","GTEx","eQTL"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Cis- and Trans-Regulatory Elements",
+        "description":"Educational deep-dive into cis-regulatory DNA elements, transcription-factor motifs, and the experimental and computational toolkit for mapping them.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Undergraduate, Postgraduate",
+        "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+        "inLanguage":"en-GB",
+        "url":"https://evagene.com/cis-and-trans-regulatory-elements",
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "isPartOf":{"@type":"CreativeWork","name":"Regulation of Gene Activity","url":"https://evagene.com/regulation-of-gene-activity"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Education","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Regulation of Gene Activity","item":"https://evagene.com/regulation-of-gene-activity"},
+            {"@type":"ListItem","position":4,"name":"Cis/Trans Regulatory Elements","item":"https://evagene.com/cis-and-trans-regulatory-elements"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is a cis-regulatory element?","acceptedAnswer":{"@type":"Answer","text":"A cis-regulatory element is a non-coding DNA sequence on the same chromosome as the gene it regulates that influences that gene's transcription. Promoters, enhancers, silencers, and insulators are the four canonical classes."}},
+            {"@type":"Question","name":"What is a super-enhancer?","acceptedAnswer":{"@type":"Answer","text":"A super-enhancer is a cluster of enhancer elements occupied by exceptionally high densities of transcription factors and coactivators (notably Mediator and BRD4), characterised by Whyte et al. 2013 (Cell 153:307) and Hnisz et al. 2013 (Cell 155:934). Super-enhancers tend to mark cell-identity genes and are highly cell-type specific."}},
+            {"@type":"Question","name":"How does CTCF establish regulatory boundaries?","acceptedAnswer":{"@type":"Answer","text":"CTCF binds defined DNA motifs and, together with cohesin, anchors chromatin loops that bring enhancers into contact with target promoters and prevent contact across loop boundaries. The architecture is summarised in Phillips and Corces 2009 (Cell 137:1194) and is the structural basis of topologically associating domains."}},
+            {"@type":"Question","name":"What does ATAC-seq measure?","acceptedAnswer":{"@type":"Answer","text":"ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing; Buenrostro et al. 2013 Nat Methods 10:1213) maps regions of accessible chromatin by transposing sequencing adapters into nucleosome-free DNA. It identifies candidate active regulatory regions in any cell type from low input."}},
+            {"@type":"Question","name":"What is an eQTL?","acceptedAnswer":{"@type":"Answer","text":"An expression quantitative trait locus is a DNA sequence variant whose genotype correlates with the expression level of a gene. The GTEx Consortium (Science 369:1318, 2020) catalogued cis- and trans-eQTLs across 49 human tissues, providing a population-scale link between regulatory variation and gene expression."}},
+            {"@type":"Question","name":"Is this a clinical resource?","acceptedAnswer":{"@type":"Answer","text":"No. Evagene is an academic, research, and educational pedigree modelling platform. This page is educational content for students, researchers, and educators; it is not medical advice and does not constitute clinical decision support."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="regulation-of-gene-activity.html" class="hover:text-brand-600 dark:hover:text-brand-300">Regulation of Gene Activity</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Cis/Trans Regulatory Elements</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Cis- and trans-regulatory elements: enhancers, silencers, insulators, and the transcription-factor toolkit</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">An educational guide to the DNA elements that locally control transcription &mdash; promoters, enhancers, silencers, insulators, and super-enhancers &mdash; and to the trans-acting transcription factors that bind them. Covers position weight matrices, JASPAR, ChIP-seq for transcription-factor mapping, ATAC-seq and DNase-seq for chromatin accessibility, expression QTLs, and how to interrogate ENCODE and GTEx for cis-regulatory annotation.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>10 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Cis-regulatory elements are non-coding DNA sequences on the same chromosome as the gene they regulate. Four canonical classes &mdash; promoters, enhancers, silencers, and insulators &mdash; together with super-enhancers, define the local DNA architecture of transcriptional control. Trans-acting transcription factors recognise short DNA motifs (captured as position weight matrices in databases like JASPAR), and the in-vivo occupancy and accessibility of these elements is mapped at genome scale by ChIP-seq, ATAC-seq, and DNase-seq. ENCODE provides the integrated catalogue; GTEx provides the population-scale eQTL view.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">What "cis" and "trans" mean</h2>
+
+            <p>The terminology is inherited from classical genetics. A cis-regulatory element acts on a gene located on the same DNA molecule (the same chromosome). A trans-acting factor &mdash; typically a diffusible protein or RNA &mdash; can act on any target sequence anywhere in the genome, regardless of which chromosome encoded the factor. An autoregulatory transcription factor binds in trans to a cis-element on its own gene, completing a feedback loop. The cis/trans distinction maps cleanly onto the two genetic-experiment paradigms by which regulatory architecture is interrogated: cis-elements are revealed by sequence-level mutations that affect a single nearby gene; trans-acting factors are revealed by mutations that affect many genes in coordinated ways.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Promoters</h2>
+
+            <p>The promoter is the cis-element at which the basal transcription machinery assembles. For RNA polymerase II in metazoans, this includes the core promoter (often containing a TATA-box, BRE, INR, DPE, or some combination), where TFIID and the rest of the general transcription factor complex anchors. Many promoters are CpG-island associated and lack a canonical TATA-box, instead recruiting the polymerase via interactions with sequence-specific transcription factors bound in the proximal promoter. RNA-seq and CAGE (cap analysis of gene expression) provide complementary views of promoter activity at single-base resolution; CAGE peaks define active transcription start sites.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Enhancers</h2>
+
+            <p>Enhancers are cis-regulatory sequences that activate transcription of a target gene from a distance, often tens or hundreds of kilobases away, with no requirement for a fixed orientation or position. The first enhancer was characterised by Banerji and colleagues in the SV40 viral genome (Banerji et al. 1981, Cell 27:299), where a 72-bp repeat upstream of the early promoter increased transcription regardless of where in the construct it was placed. The metazoan enhancer concept generalised rapidly: by the 1990s tissue-specific enhancers had been mapped for many genes, and by the 2000s the typical mammalian gene was understood to be regulated by multiple enhancers acting combinatorially.</p>
+
+            <p>The modern enhancer is a packed regulatory element: it binds a combination of cell-type-specific transcription factors, recruits the Mediator complex, makes physical contact with its target promoter via three-dimensional chromatin looping, and is itself often transcribed into short, unstable enhancer RNAs (eRNAs). Active enhancers are marked by H3K4me1 and H3K27ac in the surrounding chromatin and are accessible (DNase- or ATAC-positive). Levine, Cattoglio, and Tjian (2014, Cell 157:13) reviewed the biology comprehensively and argued for the central role of long-range looping in enhancer function.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Super-enhancers</h2>
+
+            <p>Whyte and colleagues (Whyte et al. 2013, Cell 153:307) and Hnisz and colleagues (Hnisz et al. 2013, Cell 155:934) characterised super-enhancers as clusters of enhancer elements with exceptionally high densities of transcription factor and coactivator binding (notably Mediator and BRD4). Super-enhancers tend to mark cell-identity genes (master transcription factors, pluripotency factors in embryonic stem cells, lineage-defining factors in differentiated cells), are highly cell-type specific, and are unusually sensitive to perturbations that disrupt the cooperative binding architecture (BRD4 inhibition with JQ1 was the prototypical demonstration). The super-enhancer concept has been clarified and contested in subsequent work, but the empirical observation &mdash; that some loci attract many-fold higher binding densities than typical enhancers &mdash; is robust.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Silencers</h2>
+
+            <p>Silencers are cis-elements that repress transcription of a target gene, mirroring the enhancer in directionality but inverted in effect. Mechanistically silencers recruit repressive transcription factors and chromatin modifiers (such as Polycomb complexes or HDACs), establishing a repressive chromatin environment over the target. Silencers are less well catalogued at genome scale than enhancers because the standard active-mark signatures (H3K27ac, accessible chromatin) are absent or muted; massively parallel reporter assays and CRISPR-interference tiling screens are now being used to map silencer activity systematically.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Insulators and CTCF</h2>
+
+            <p>Insulators block cis-regulatory contacts that cross them. They prevent enhancers in one chromatin neighbourhood from inappropriately activating promoters in an adjacent neighbourhood. The mammalian insulator protein is CTCF, a zinc-finger transcription factor that binds sequences with a defined motif throughout the genome. Cohesin, the ring-shaped complex that holds sister chromatids together during mitosis, also extrudes chromatin loops in interphase; the loops anchor at convergent CTCF sites, producing the characteristic "loop domains" visible in Hi-C contact maps. The architecture is reviewed in Phillips and Corces (2009, Cell 137:1194); the loop-extrusion mechanism is treated in the companion <a href="epigenetics-and-chromatin-dynamics.html">epigenetics and chromatin dynamics</a> page. CTCF binding sites are now annotated at high resolution across cell types in <a href="https://www.encodeproject.org/" rel="noopener">ENCODE</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Transcription-factor binding motifs and JASPAR</h2>
+
+            <p>A transcription factor recognises a short DNA sequence &mdash; typically 6 to 20 bp &mdash; with some tolerance for variation. The standard mathematical representation of motif preference is the position weight matrix (PWM) or position-specific scoring matrix (PSSM), which gives, for each position in the motif, the log-likelihood ratio of each base relative to a background. PWMs are derived empirically from collections of bound sequences (originally curated; now, predominantly, from ChIP-seq peak sequences) and are catalogued in <a href="https://jaspar.genereg.net/" rel="noopener">JASPAR</a> (<a href="https://pubmed.ncbi.nlm.nih.gov/34850907/" rel="noopener">Castro-Mondragon et al. 2022, Nucleic Acids Res 50:D165</a>). JASPAR 2022 catalogued motifs for hundreds of transcription factors across multiple taxa and is the standard reference for motif scanning in non-coding sequence interpretation.</p>
+
+            <p>Motif scanning a candidate regulatory region against JASPAR identifies plausible transcription-factor binding sites, but motif occurrence alone is a poor predictor of in-vivo occupancy &mdash; chromatin accessibility, cooperative binding, and cofactor availability all matter. Motif analysis is therefore typically combined with experimental data: ChIP-seq peaks are scanned for the cognate motif to localise the binding event within the peak; differential ATAC-seq peaks are tested for enrichment of motifs to nominate the transcription factors driving the change.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">ChIP-seq, ATAC-seq, and DNase-seq</h2>
+
+            <p>The experimental toolkit for mapping cis-regulatory elements has three pillars. <strong>ChIP-seq</strong> uses a transcription-factor-specific or histone-modification-specific antibody to immunoprecipitate cross-linked chromatin fragments bearing the target, then sequences the recovered DNA. The result is a genome-wide map of where the target was bound at the moment of cross-linking. ChIP-seq for sequence-specific transcription factors localises binding to within tens of base-pairs around the cognate motif; ChIP-seq for histone modifications identifies broader regulatory regions.</p>
+
+            <p><strong>ATAC-seq</strong> (<a href="https://pubmed.ncbi.nlm.nih.gov/24097267/" rel="noopener">Buenrostro et al. 2013, Nat Methods 10:1213</a>) uses a hyperactive Tn5 transposase loaded with sequencing adapters; the transposase preferentially inserts adapters into accessible (nucleosome-free) DNA, producing a library that, when sequenced, reveals open chromatin at base-pair resolution. ATAC-seq requires far less input material than DNase-seq (~50,000 cells, with single-cell variants down to one), is faster than DNase-seq, and has become the standard chromatin-accessibility assay. <strong>DNase-seq</strong> uses DNase I to cleave accessible DNA preferentially; it remains the historical reference for accessible-chromatin mapping and is still used where deep coverage and high signal-to-noise are required.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">ENCODE and GTEx as cis-regulatory data resources</h2>
+
+            <p><a href="https://www.encodeproject.org/" rel="noopener">ENCODE</a> (<a href="https://pubmed.ncbi.nlm.nih.gov/22955616/" rel="noopener">ENCODE Project Consortium 2012, Nature 489:57</a>) is the canonical integrated atlas of cis-regulatory annotation for the human and mouse genomes. The candidate cis-Regulatory Elements (cCRE) registry classifies several million regions by chromatin signature into categories such as "promoter-like", "proximal enhancer-like", "distal enhancer-like", and "CTCF-only". For any genomic region, the cCRE registry provides an immediate hypothesis about its likely regulatory role; ENCODE also provides per-element ChIP-seq, ATAC-seq, DNase-seq, and histone-modification tracks across hundreds of cell types and tissues.</p>
+
+            <p><a href="https://gtexportal.org/" rel="noopener">GTEx</a> (<a href="https://pubmed.ncbi.nlm.nih.gov/32913098/" rel="noopener">GTEx Consortium 2020, Science 369:1318</a>) provides a complementary population-scale view. GTEx genotyped and RNA-sequenced 49 human tissues across hundreds of donors, and computed expression quantitative trait loci (eQTLs) and splicing QTLs (sQTLs). For a given gene in a given tissue, GTEx returns the cis-regulatory variants (within 1 Mb of the gene) whose genotype correlates with expression level. Combining ENCODE annotation with GTEx eQTL data is the standard pipeline for assigning a non-coding variant to a candidate regulatory mechanism: the variant is checked for overlap with an annotated cCRE in the relevant tissue, motif disruption is assessed against JASPAR, and the eQTL evidence is checked for causality of expression effect.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why this matters for pedigree-level analysis</h2>
+
+            <p>Family-history-based pedigree modelling does not directly model cis-regulatory variation, but the existence of regulatory variation underlies several phenomena that pedigree analysis routinely encounters: variable expressivity, where individuals with the same coding variant differ in phenotypic severity, often reflects modifier alleles in regulatory regions; reduced penetrance has the same root cause; the contribution of common-variant polygenic risk in multifactorial disease is dominated by regulatory rather than coding variation. Polygenic risk scores in <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk assessment</a> are weighted sums over hundreds to thousands of regulatory variants, the bulk of which fall in cCREs annotated by ENCODE.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a cis-regulatory element?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A non-coding DNA sequence on the same chromosome as the gene it regulates that influences that gene's transcription. Promoters, enhancers, silencers, and insulators are the four canonical classes.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a super-enhancer?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A cluster of enhancer elements occupied by exceptionally high densities of transcription factors and coactivators (notably Mediator and BRD4). Whyte et al. 2013 and Hnisz et al. 2013 are the foundational descriptions.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How does CTCF establish regulatory boundaries?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">CTCF binds defined DNA motifs and, with cohesin, anchors chromatin loops that bring enhancers into contact with target promoters and prevent contact across loop boundaries. Phillips and Corces 2009 reviews the architecture.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What does ATAC-seq measure?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Accessible chromatin, mapped by transposing sequencing adapters into nucleosome-free DNA. Buenrostro et al. 2013, Nat Methods 10:1213, is the foundational paper.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is an eQTL?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">An expression quantitative trait locus &mdash; a DNA sequence variant whose genotype correlates with the expression level of a gene. The GTEx Consortium catalogued eQTLs across 49 human tissues.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is this a clinical resource?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. Evagene is an academic, research, and educational pedigree modelling platform. This page is educational content for students, researchers, and educators; it is not medical advice and does not constitute clinical decision support.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="regulation-of-gene-activity.html">Regulation of gene activity (pillar)</a></li>
+                <li><a href="epigenetics-and-chromatin-dynamics.html">Epigenetics and chromatin dynamics</a></li>
+                <li><a href="gene-regulatory-networks.html">Gene regulatory networks</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="complex-disease-pedigree-software.html">Complex disease pedigree software</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="regulation-of-gene-activity.html" class="hover:text-white transition-colors">Regulation pillar</a></li><li><a href="epigenetics-and-chromatin-dynamics.html" class="hover:text-white transition-colors">Epigenetics &amp; chromatin</a></li><li><a href="gene-regulatory-networks.html" class="hover:text-white transition-colors">Gene regulatory networks</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

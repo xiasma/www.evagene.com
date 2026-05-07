@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oncogenes and Tumour Suppressors — Activation, Inactivation, Knudson Two-Hit | Evagene</title>
+    <meta name="description" content="Mechanisms of oncogene activation (point mutation, amplification, translocation) and tumour-suppressor inactivation (Knudson two-hit, LOH, haploinsufficiency). RAS, MYC, BCR-ABL1, HER2, EGFR, BRAF, RB1, TP53, APC, BRCA1/2, PTEN, CDKN2A, MMR genes — for research and education.">
+    <meta name="keywords" content="oncogene, tumour suppressor, proto-oncogene, Knudson two-hit hypothesis, loss of heterozygosity LOH, RAS KRAS NRAS HRAS, MYC, BCR-ABL1, ERBB2 HER2, EGFR L858R, BRAF V600E, RB1, TP53, APC, BRCA1 BRCA2, PTEN, CDKN2A, MLH1 MSH2 MSH6 PMS2, STK11, NF1 NF2, VHL, gatekeeper caretaker, driver passenger mutation, Vogelstein cancer genome, Bishop cellular oncogene">
+
+    <meta property="og:title" content="Oncogenes and Tumour Suppressors — Activation, Inactivation, Knudson Two-Hit | Evagene">
+    <meta property="og:description" content="Specialist-facing reference on oncogene activation and tumour-suppressor inactivation mechanisms, with the canonical examples and the gatekeeper / caretaker / landscaper taxonomy.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/oncogenes-and-tumour-suppressors">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Oncogenes and Tumour Suppressors">
+    <meta name="twitter:description" content="Mechanisms of activation and inactivation; canonical examples; gatekeeper / caretaker / landscaper; driver versus passenger.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/oncogenes-and-tumour-suppressors">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Oncogenes and tumour suppressors: mechanisms of activation and inactivation",
+        "description":"Educational reference on oncogene activation (point mutation, amplification, translocation, retroviral insertion) and tumour-suppressor inactivation (Knudson two-hit, LOH, haploinsufficiency); canonical examples from RAS to BRCA; the gatekeeper / caretaker / landscaper taxonomy; driver versus passenger mutations.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/oncogenes-and-tumour-suppressors"},
+        "image":"https://evagene.com/og-image.png"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Oncogenes and tumour suppressors","learningResourceType":"Article","educationalLevel":"Postgraduate","inLanguage":"en-GB",
+        "url":"https://evagene.com/oncogenes-and-tumour-suppressors",
+        "audience":{"@type":"Audience","audienceType":"Researchers, clinicians, educators, and graduate students in genetics and oncology"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Cancer Genetics and Somatic Variation","item":"https://evagene.com/cancer-genetics-and-somatic-variation"},
+            {"@type":"ListItem","position":3,"name":"Oncogenes and Tumour Suppressors","item":"https://evagene.com/oncogenes-and-tumour-suppressors"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5"><img src="logo.png" alt="Evagene logo" class="h-8 w-auto"><span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span></a>
+            <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="cancer-genetics-and-somatic-variation.html" class="hover:text-brand-600 dark:hover:text-brand-300">Cancer Genetics</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Oncogenes and Tumour Suppressors</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Oncogenes and tumour suppressors</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">The genes whose mutation drives cancer fall into two complementary categories. Oncogenes are activated forms of normal cellular genes (proto-oncogenes) and behave as dominant gain-of-function alleles at the cellular level: a single activating event suffices. Tumour suppressors restrain proliferation, maintain genome integrity, or promote apoptosis; they are typically recessive, requiring biallelic inactivation per Knudson&rsquo;s two-hit model. This page is the mechanism-and-examples reference.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>11 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Oncogenes are gain-of-function and dominant: one allele is enough. Tumour suppressors are loss-of-function and (with the haploinsufficient exceptions noted below) recessive at the cellular level; biallelic inactivation, per <a href="https://pubmed.ncbi.nlm.nih.gov/5279523/" rel="noopener">Knudson 1971</a>, is the rule. The mechanism of activation or inactivation maps to the gene class and to the kind of evidence that supports it: missense hotspots and amplification for oncogenes, frameshift / nonsense / splice variants plus LOH for tumour suppressors. <a href="https://pubmed.ncbi.nlm.nih.gov/23539594/" rel="noopener">Vogelstein et al. 2013</a> consolidated these into the cancer-genome landscape; <a href="https://pubmed.ncbi.nlm.nih.gov/9126724/" rel="noopener">Kinzler &amp; Vogelstein 1997</a> distinguished gatekeeper from caretaker functions.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Oncogenes: gain-of-function, dominant</h2>
+
+            <p>An oncogene is the activated form of a proto-oncogene &mdash; a normal cellular gene encoding a component of a growth-signalling pathway, a transcription factor, a survival regulator, or a chromatin remodelling factor. The discovery that the transforming sequences in acutely transforming retroviruses (v-src, v-myc, v-ras, v-erbB) derive from cellular homologues, recounted in <a href="https://pubmed.ncbi.nlm.nih.gov/1988146/" rel="noopener">Bishop 1991 (Cell 64:235)</a>, established the proto-oncogene as the unit of analysis: cancer arises when the cellular gene is dysregulated, not when a foreign sequence is introduced.</p>
+
+            <p>Four mechanistic routes account for the bulk of oncogene activation:</p>
+
+            <ul>
+                <li><strong>Activating point mutation.</strong> A missense substitution at a recurrent residue locks the protein in an active conformation, blocks an inactivating modification, or destabilises the off-state. RAS-family GTPases are the archetype: <strong>KRAS</strong> codon 12 (G12C, G12D, G12V), codon 13, and codon 61 substitutions impair intrinsic and GAP-stimulated GTP hydrolysis; <strong>NRAS</strong> and <strong>HRAS</strong> show the same hotspot pattern in different tumour spectra. <strong>BRAF V600E</strong> in cutaneous melanoma (and in a fraction of colorectal, papillary thyroid, and hairy-cell leukaemia cases) constitutively activates the kinase; <strong>EGFR L858R</strong> and exon-19 deletions activate the receptor in lung adenocarcinoma; <strong>PIK3CA</strong> H1047R, E545K, and E542K are common in breast, endometrial, and colorectal cancer.</li>
+                <li><strong>Gene amplification.</strong> An increase in copy number scales protein expression beyond the threshold for malignant signalling. <strong>MYC</strong> amplification in neuroblastoma (MYCN) and small-cell lung cancer is the textbook example; <strong>ERBB2 / HER2</strong> amplification in 15&ndash;20&#37; of breast cancers (and a fraction of gastric, oesophageal, and salivary cancers) defines a distinct molecular subtype with therapeutic implications via trastuzumab; <strong>EGFR</strong> amplification in glioblastoma; <strong>CCND1</strong> in mantle cell lymphoma. Amplification is often visualised as homogeneously staining regions or double minutes on a karyogram &mdash; relevant to the <a href="karyogram-viewer.html">karyogram viewer</a> page on this site.</li>
+                <li><strong>Chromosomal translocation.</strong> A reciprocal translocation creates a fusion gene whose product is constitutively active or whose normal regulation is bypassed by an alien promoter. The <strong>BCR-ABL1</strong> fusion arising from t(9;22)(q34;q11) &mdash; the Philadelphia chromosome &mdash; was first identified by <a href="https://pubmed.ncbi.nlm.nih.gov/13860198/" rel="noopener">Nowell &amp; Hungerford 1960</a> and is the diagnostic hallmark of chronic myeloid leukaemia (CML); <strong>EML4-ALK</strong> and <strong>EML4-ROS1</strong> fusions in lung adenocarcinoma; <strong>PML-RARA</strong> in acute promyelocytic leukaemia; <strong>EWSR1-FLI1</strong> in Ewing sarcoma; <strong>MYC</strong> juxtaposition to immunoglobulin enhancers in Burkitt lymphoma t(8;14).</li>
+                <li><strong>Insertional mutagenesis.</strong> A retrovirus or transposon integrates near a proto-oncogene and brings its enhancer into range. Historically important in the slow-transforming retroviruses (the avian leukosis virus / c-myc story is the canonical case) and a recurring concern in retroviral and lentiviral gene-therapy vectors.</li>
+            </ul>
+
+            <p>An oncogene is dominant at the cellular level: an activating mutation in one allele is sufficient to confer the phenotype, because the abnormal protein imposes its activity in the presence of the normal protein from the other allele. This is what makes hotspot point mutations such a strong evidentiary signal in tumour-sequencing data &mdash; the same residue is hit again and again, in tumour after tumour, because no other class of variant satisfies the gain-of-function constraint.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Tumour suppressors: loss-of-function, recessive (mostly)</h2>
+
+            <p>A tumour suppressor encodes a protein whose normal function restrains the malignant phenotype. The mechanisms of restraint vary &mdash; cell-cycle gatekeeping, DNA-damage response, apoptosis induction, signalling pathway termination, chromosome segregation fidelity &mdash; but the genetic logic is the same: malignancy requires inactivation of <em>both</em> alleles, because as long as one functional copy remains, the protein continues to do its job.</p>
+
+            <p>This is the genetic content of <a href="https://pubmed.ncbi.nlm.nih.gov/5279523/" rel="noopener">Knudson&rsquo;s 1971 two-hit hypothesis</a>. In the heritable form of retinoblastoma, the proband inherits one inactivating event in <strong>RB1</strong> on chromosome 13q14, and the second event is acquired somatically in a single retinal cell &mdash; commonly by mitotic recombination, deletion, or point mutation, all visible as loss of heterozygosity (LOH) at flanking polymorphisms. In the non-heritable form, both events occur somatically in the same cell, a much less likely scenario, with correspondingly later age of onset and unilateral disease. The bimodal age distribution Knudson observed is the population-level evidence for the two-hit model; LOH analysis of paired germline-tumour DNA is the molecular evidence at the locus.</p>
+
+            <p>The canonical tumour suppressors and their associated tumour spectra:</p>
+
+            <ul>
+                <li><strong>RB1</strong> (13q14) &mdash; retinoblastoma; osteosarcoma in retinoblastoma survivors; small-cell lung cancer (somatic).</li>
+                <li><strong>TP53</strong> (17p13) &mdash; the most-mutated gene in human cancer; germline inactivation underlies <a href="inherited-cancer-predisposition.html">Li-Fraumeni syndrome</a>; somatic mutation in roughly half of all sequenced solid tumours.</li>
+                <li><strong>APC</strong> (5q22) &mdash; familial adenomatous polyposis (germline); colorectal adenoma &ndash; carcinoma sequence (somatic), as a near-obligate first hit.</li>
+                <li><strong>BRCA1</strong> (17q21) and <strong>BRCA2</strong> (13q12) &mdash; <a href="brcapro-calculator.html">hereditary breast and ovarian cancer (BRCAPRO)</a>; pancreatic cancer; male breast cancer; prostate cancer. BRCA-deficient tumours are homologous-recombination deficient and show mutational signature 3 (see <a href="somatic-genomics.html">somatic genomics</a>).</li>
+                <li><strong>PTEN</strong> (10q23) &mdash; Cowden / PTEN hamartoma tumour syndrome (germline); somatic loss in glioblastoma, endometrial, prostate, breast.</li>
+                <li><strong>CDKN2A</strong> (9p21, encoding p16<sup>INK4A</sup> and p14<sup>ARF</sup>) &mdash; familial melanoma; familial pancreatic cancer (FAMMM); somatic loss in many cancers.</li>
+                <li><strong>NF1</strong> (17q11) &mdash; <a href="https://www.ncbi.nlm.nih.gov/books/NBK1109/" rel="noopener">neurofibromatosis type 1</a>; encodes neurofibromin, a RAS GAP.</li>
+                <li><strong>NF2</strong> (22q12) &mdash; neurofibromatosis type 2; encodes merlin.</li>
+                <li><strong>VHL</strong> (3p25) &mdash; von Hippel-Lindau syndrome; somatic loss in clear-cell renal carcinoma.</li>
+                <li><strong>STK11</strong> (19p13) &mdash; Peutz-Jeghers syndrome; somatic loss in lung adenocarcinoma.</li>
+                <li><strong>MLH1, MSH2, MSH6, PMS2</strong> &mdash; the mismatch-repair genes underlying <a href="lynch-syndrome-risk-calculator.html">Lynch syndrome (MMRpro)</a>; biallelic inactivation gives a mismatch-repair-deficient (dMMR) tumour with microsatellite instability (MSI-H).</li>
+                <li><strong>SMAD4</strong>, <strong>BMPR1A</strong> &mdash; juvenile polyposis.</li>
+                <li><strong>CDH1</strong> (E-cadherin) &mdash; hereditary diffuse gastric cancer; lobular breast cancer.</li>
+            </ul>
+
+            <h3 class="mt-10">Haploinsufficiency: the exception to the recessive rule</h3>
+
+            <p>A subset of tumour suppressors are dosage-sensitive: 50&#37; of the normal protein dose is insufficient to maintain the suppressor function, so loss of a single allele is already phenotypically consequential. The cleanest example is <strong>PTEN</strong>, where mouse heterozygotes show tumour-prone phenotypes without somatic loss of the second allele, and human PTEN-haploinsufficient cells show measurable PI3K-pathway activation. <strong>TP53</strong> shows partial haploinsufficiency in some contexts, and a number of mismatch-repair genes show subtle haploinsufficient phenotypes ahead of the second hit. Where haploinsufficiency operates, the tumour-suppressor / oncogene dichotomy is genuinely a continuum rather than a clean binary.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Gatekeeper, caretaker, landscaper</h2>
+
+            <p><a href="https://pubmed.ncbi.nlm.nih.gov/9126724/" rel="noopener">Kinzler &amp; Vogelstein 1997 (Nature 386:761)</a> proposed a functional taxonomy that survives essentially unchanged in modern teaching:</p>
+
+            <ul>
+                <li><strong>Gatekeepers</strong> directly restrain growth or promote apoptosis. Loss of a gatekeeper is rate-limiting in the tissue where it operates &mdash; APC in the colon, RB1 in the retina, VHL in clear-cell kidney, NF1 in the peripheral nervous system. Inactivation initiates a tumour in that tissue.</li>
+                <li><strong>Caretakers</strong> maintain genome integrity. Loss of a caretaker does not initiate a tumour directly, but the resulting genomic instability accelerates the acquisition of mutations elsewhere in the genome, including in gatekeepers. The mismatch-repair genes (MLH1, MSH2, MSH6, PMS2) and the homologous-recombination genes (BRCA1, BRCA2, PALB2, ATM) are the canonical caretakers; this is why caretaker-deficient tumours show characteristic mutational signatures (see <a href="somatic-genomics.html">somatic genomics</a>).</li>
+                <li><strong>Landscapers</strong> shape the tissue microenvironment in ways that alter the niche for transformation. The juvenile-polyposis genes <strong>SMAD4</strong> and <strong>BMPR1A</strong> are the original examples: loss in stromal cells changes the signalling landscape that epithelial cells experience.</li>
+            </ul>
+
+            <p>The gatekeeper / caretaker distinction is operationally useful: gatekeeper loss demands a second hit at the same locus to release the constraint, while caretaker loss elevates the rate of mutation across the genome. The two contribute to malignancy through different mechanisms and respond to different therapeutic strategies &mdash; PARP inhibitors exploit caretaker loss in BRCA-deficient cells; immune-checkpoint inhibitors exploit the high mutation burden of caretaker-deficient tumours such as MSI-H colorectal cancer.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Driver and passenger mutations</h2>
+
+            <p>Modern tumour-sequencing studies routinely yield hundreds to thousands of somatic point mutations per tumour, the great majority of which are biologically irrelevant <em>passengers</em> &mdash; mutations acquired in the lineage leading to the tumour but contributing nothing to the malignant phenotype. The minority are <em>drivers</em> &mdash; mutations whose presence has been positively selected because they confer a fitness advantage on the cell. Distinguishing drivers from passengers is one of the central problems of cancer genomics. <a href="https://pubmed.ncbi.nlm.nih.gov/23539594/" rel="noopener">Vogelstein et al. 2013</a> argued that the catalogue of true cancer driver genes is small &mdash; on the order of 140 across all cancer types &mdash; and identified the recurrent-mutation criterion as the strongest evidence: a residue or position hit far more often than the background mutation rate would predict is almost certainly under selection.</p>
+
+            <p>Statistical frameworks such as MutSigCV, dN/dS-based methods (e.g. dNdScv), and large-cohort recurrence-based approaches (OncoKB, IntOGen) operationalise driver-versus-passenger discrimination across the cross-cancer landscape. The output of each approach is a per-gene driver list and, ideally, a per-residue hotspot annotation that can be checked against a candidate variant of unknown significance.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The mutational landscape across tumour types</h2>
+
+            <p>Cross-tumour comparisons from <a href="https://pubmed.ncbi.nlm.nih.gov/23539594/" rel="noopener">Vogelstein et al. 2013</a> and the later <a href="https://pubmed.ncbi.nlm.nih.gov/32025007/" rel="noopener">PCAWG analyses</a> show a stable pattern: most tumour types are dominated by recurrent driver events in 5&ndash;10 genes, with a long tail of less-frequent drivers and a much longer tail of passengers. The pattern is highly tumour-type specific. Pancreatic adenocarcinoma is dominated by KRAS, TP53, CDKN2A, SMAD4. Cutaneous melanoma is dominated by BRAF, NRAS, NF1, TP53, with a large UV-derived passenger burden. Colorectal cancer separates into a chromosomally-unstable (CIN) subset dominated by APC / KRAS / TP53 and a microsatellite-unstable (MSI-H) subset enriched for MMR-pathway loss. Glioblastoma is dominated by EGFR, PTEN, TP53, CDKN2A, NF1. The mutation count per tumour also varies by orders of magnitude, from low-burden paediatric tumours to UV-driven melanomas and tobacco-driven lung cancers at the high end &mdash; relevant to the <a href="somatic-genomics.html">somatic genomics</a> page&rsquo;s coverage of tumour mutational burden as a biomarker.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why this matters for family-history modelling</h2>
+
+            <p>Inherited cancer-predisposition syndromes are dominated by germline tumour-suppressor variants, because the two-hit logic naturally accommodates one inherited and one somatic event. Inherited oncogene activation does occur (germline RET activating variants in <a href="inherited-cancer-predisposition.html">MEN2</a>; germline MET in hereditary papillary renal carcinoma) but is rare, because constitutive oncogene activation in every cell of an embryo is generally lethal or massively pleiotropic, not a recipe for a viable cancer-prone individual. The genes underlying the syndromes covered on the <a href="inherited-cancer-predisposition.html">inherited cancer predisposition</a> page are therefore overwhelmingly tumour suppressors: BRCA1, BRCA2, the MMR genes, APC, MUTYH, TP53, PTEN, STK11, BMPR1A, SMAD4, CDH1, VHL, NF1, NF2, TSC1, TSC2, RB1. The published risk-model algorithms Evagene implements (<a href="brcapro-calculator.html">BRCAPRO</a>, <a href="mmrpro-calculator.html">MMRpro</a>, <a href="pancpro-calculator.html">PancPRO</a>) operate on this logic: family-history input plus carrier-frequency priors plus age-specific penetrance functions yield a posterior carrier probability for the relevant tumour-suppressor locus.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Selected sources</h2>
+
+            <ul>
+                <li>Knudson AG. Mutation and cancer: statistical study of retinoblastoma. <em>PNAS</em> 1971; 68:820. <a href="https://pubmed.ncbi.nlm.nih.gov/5279523/" rel="noopener">PMID 5279523</a>.</li>
+                <li>Nowell PC, Hungerford DA. A minute chromosome in human chronic granulocytic leukemia. <em>Science</em> 1960; 132:1497. <a href="https://pubmed.ncbi.nlm.nih.gov/13860198/" rel="noopener">Reference</a>.</li>
+                <li>Bishop JM. Molecular themes in oncogenesis. <em>Cell</em> 1991; 64:235. <a href="https://pubmed.ncbi.nlm.nih.gov/1988146/" rel="noopener">PMID 1988146</a>.</li>
+                <li>Kinzler KW, Vogelstein B. Gatekeepers and caretakers. <em>Nature</em> 1997; 386:761. <a href="https://pubmed.ncbi.nlm.nih.gov/9126724/" rel="noopener">PMID 9126724</a>.</li>
+                <li>Hanahan D, Weinberg RA. The hallmarks of cancer. <em>Cell</em> 2000; 100:57. <a href="https://pubmed.ncbi.nlm.nih.gov/10647931/" rel="noopener">PMID 10647931</a>.</li>
+                <li>Hanahan D, Weinberg RA. Hallmarks of cancer: the next generation. <em>Cell</em> 2011; 144:646. <a href="https://pubmed.ncbi.nlm.nih.gov/21376230/" rel="noopener">PMID 21376230</a>.</li>
+                <li>Vogelstein B, Papadopoulos N, Velculescu VE, Zhou S, Diaz LA, Kinzler KW. Cancer genome landscapes. <em>Science</em> 2013; 339:1546. <a href="https://pubmed.ncbi.nlm.nih.gov/23539594/" rel="noopener">PMID 23539594</a>.</li>
+                <li>HUGO Gene Nomenclature Committee &mdash; <a href="https://www.genenames.org" rel="noopener">genenames.org</a>.</li>
+                <li>NCBI Gene (KRAS, BRAF, MYC, TP53, RB1, APC, BRCA1, BRCA2, PTEN, CDKN2A, MLH1) &mdash; <a href="https://www.ncbi.nlm.nih.gov/gene" rel="noopener">ncbi.nlm.nih.gov/gene</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related Evagene pages</h2>
+
+            <ul>
+                <li><a href="cancer-genetics-and-somatic-variation.html">Cancer genetics and somatic variation (pillar)</a></li>
+                <li><a href="inherited-cancer-predisposition.html">Inherited cancer predisposition</a></li>
+                <li><a href="somatic-genomics.html">Somatic genomics</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="brcapro-calculator.html">BRCAPRO</a> &middot; <a href="mmrpro-calculator.html">MMRpro</a> &middot; <a href="pancpro-calculator.html">PancPRO</a></li>
+                <li><a href="lynch-syndrome-risk-calculator.html">Lynch syndrome family-history scoring</a></li>
+                <li><a href="boadicea-vs-brcapro.html">BOADICEA vs BRCAPRO</a></li>
+                <li><a href="karyogram-viewer.html">Karyogram viewer</a> (translocation visualisation)</li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene&rsquo;s pedigree platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, 20 published risk-model algorithms, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. For research, education, and family-history documentation; not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="cancer-genetics-and-somatic-variation.html" class="hover:text-white transition-colors">Cancer genetics pillar</a></li><li><a href="inherited-cancer-predisposition.html" class="hover:text-white transition-colors">Inherited predisposition</a></li><li><a href="somatic-genomics.html" class="hover:text-white transition-colors">Somatic genomics</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

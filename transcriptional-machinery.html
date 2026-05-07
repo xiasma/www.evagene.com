@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcriptional Machinery — RNA Polymerases and Promoters | Evagene</title>
+    <meta name="description" content="An educational guide to the eukaryotic transcriptional machinery: RNA polymerases I, II, III; the Pol II CTD code; promoter architecture; general transcription factors; the Mediator complex; transcription-factor DNA-binding domains; enhancer-promoter looping.">
+    <meta name="keywords" content="transcription, RNA polymerase II, RNA polymerase I, RNA polymerase III, Pol II CTD, TFIID, TFIIH, Mediator complex, core promoter, TATA box, enhancer-promoter looping, transcription factors, helix-turn-helix, zinc finger, leucine zipper, helix-loop-helix">
+
+    <meta property="og:title" content="Transcriptional Machinery — RNA Polymerases and Promoters | Evagene">
+    <meta property="og:description" content="Educational coverage of eukaryotic RNA polymerases, the Pol II CTD code, promoter architecture, general transcription factors, the Mediator complex, and enhancer-promoter looping.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/transcriptional-machinery">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Transcriptional Machinery — RNA Polymerases and Promoters">
+    <meta name="twitter:description" content="An educational guide to RNA polymerases, promoters, transcription factors, Mediator, and enhancer-promoter looping.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/transcriptional-machinery">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Transcriptional Machinery: RNA Polymerases, Transcription Factors, and Co-Transcriptional Processing",
+        "description":"Educational coverage of the three eukaryotic RNA polymerases, Pol II structure (Cramer 2001), the CTD code (Buratowski 2009), core promoter elements (Smale and Kadonaga 2003), the Mediator complex (Allen and Taatjes 2015), and enhancer-promoter looping (Schoenfelder and Fraser 2019).",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/transcriptional-machinery"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["RNA polymerase","Pol II CTD","TFIID","Mediator","core promoter","enhancer-promoter looping","transcription factor"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Transcriptional machinery",
+        "description":"An educational subtopic page on the eukaryotic transcriptional machinery: RNA polymerases I, II, III; the Pol II CTD; promoters; transcription factors; the Mediator complex; enhancer-promoter looping.",
+        "url":"https://evagene.com/transcriptional-machinery",
+        "learningResourceType":"Subtopic guide",
+        "educationalLevel":"Undergraduate / postgraduate / specialist",
+        "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "isPartOf":{"@type":"LearningResource","name":"Gene Expression Mechanisms","url":"https://evagene.com/gene-expression-mechanisms"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Learn","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Gene Expression Mechanisms","item":"https://evagene.com/gene-expression-mechanisms"},
+            {"@type":"ListItem","position":4,"name":"Transcriptional Machinery","item":"https://evagene.com/transcriptional-machinery"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"How many RNA polymerases do eukaryotes have, and what does each one transcribe?","acceptedAnswer":{"@type":"Answer","text":"Three. RNA polymerase I transcribes the 45S ribosomal RNA precursor in the nucleolus, which is processed into 28S, 18S and 5.8S rRNAs. RNA polymerase II transcribes all protein-coding genes plus most snRNAs and many lncRNAs and miRNAs. RNA polymerase III transcribes the tRNAs, the 5S rRNA, U6 snRNA, and other short non-coding RNAs."}},
+            {"@type":"Question","name":"What is the Pol II CTD?","acceptedAnswer":{"@type":"Answer","text":"The carboxy-terminal domain of the largest Pol II subunit (Rpb1) is a long heptad repeat with the consensus YSPTSPS, present in 52 copies in humans. Phosphorylation of Ser5 dominates at initiation; phosphorylation of Ser2 dominates during elongation. The pattern of phosphorylation acts as a code that recruits capping, splicing, and 3'-processing factors at the appropriate stage of the transcription cycle."}},
+            {"@type":"Question","name":"What is the difference between a core promoter and an enhancer?","acceptedAnswer":{"@type":"Answer","text":"The core promoter is the DNA sequence around the transcription start site that recruits the general transcription factors and Pol II. It contains motifs such as the TATA box, the initiator (INR), the downstream promoter element (DPE), and CpG islands. Enhancers are regulatory sequences, often distant from the promoter, that bind sequence-specific transcription factors and modulate transcription level by physical contact with the promoter through chromatin looping."}},
+            {"@type":"Question","name":"What is the Mediator complex?","acceptedAnswer":{"@type":"Answer","text":"Mediator is a large multi-subunit complex (about 30 subunits in metazoans) that bridges transcription factors bound at enhancers and the Pol II initiation machinery at the promoter. It is a general coregulator of Pol II transcription whose conformation and subunit composition are tuned by the regulatory inputs it integrates."}},
+            {"@type":"Question","name":"What are the main DNA-binding domain families used by transcription factors?","acceptedAnswer":{"@type":"Answer","text":"The four most common families are helix-turn-helix (e.g. homeodomains), zinc finger (Cys2-His2 and others), leucine zipper (e.g. AP-1, CREB), and helix-loop-helix (e.g. MyoD, c-Myc). Each family defines a distinct mode of contacting the DNA major groove and a distinct mode of dimerisation. There are dozens of additional smaller families."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="https://evagene.com/#resources" class="hover:text-brand-600 dark:hover:text-brand-300">Learn</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="gene-expression-mechanisms.html" class="hover:text-brand-600 dark:hover:text-brand-300">Gene expression</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Transcriptional machinery</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Transcriptional machinery: RNA polymerases, transcription factors, and co-transcriptional processing</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A subtopic guide on the eukaryotic transcriptional machinery: the three RNA polymerases and their substrates; the structure of Pol II as solved by Cramer and colleagues; the carboxy-terminal domain code that orchestrates co-transcriptional processing; the core promoter elements; the general transcription factors and the Mediator complex; the major transcription-factor DNA-binding domain families; and enhancer-promoter contact through chromatin looping.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>11 min read</span>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>Educational</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Eukaryotes have three nuclear RNA polymerases. Pol I transcribes ribosomal RNA in the nucleolus; Pol II transcribes the protein-coding transcriptome plus most regulatory RNAs; Pol III transcribes tRNAs, 5S rRNA, and a handful of short non-coding RNAs. Pol II's carboxy-terminal domain &mdash; an unusual repetitive tail unique among polymerases &mdash; is phosphorylated through the transcription cycle to coordinate co-transcriptional capping, splicing, and 3'-end processing. The core promoter recruits the general transcription factors and Pol II at the start site; transcription factors bound at enhancers contact the promoter through chromatin looping; the Mediator complex bridges enhancer-bound factors and Pol II. This page covers each layer in turn.</p>
+
+            <p><em>Educational positioning.</em> This is an educational page written for students, educators, and researchers. Evagene is an academic, research, and educational pedigree modelling platform; it is not a medical device, not clinical decision support, and not a diagnostic or screening tool.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The three eukaryotic RNA polymerases</h2>
+
+            <p>Eukaryotic nuclei contain three multi-subunit DNA-dependent RNA polymerases, each transcribing a distinct subset of the genome:</p>
+
+            <ul>
+                <li><strong>RNA polymerase I (Pol I)</strong>: localised to the nucleolus, transcribes a single substrate &mdash; the 45S ribosomal RNA precursor &mdash; from the tandemly repeated rDNA arrays. The 45S precursor is processed into the mature 28S, 18S, and 5.8S rRNAs that, together with the Pol III-transcribed 5S rRNA, build the ribosome. Pol I transcription accounts for the majority of cellular RNA output by mass.</li>
+                <li><strong>RNA polymerase II (Pol II)</strong>: transcribes all protein-coding genes, most snRNAs (U1, U2, U4, U5; U6 is a Pol III substrate), most long non-coding RNAs (lncRNAs), and the primary transcripts of most miRNAs. Pol II transcription is the most heavily regulated and the focus of this page.</li>
+                <li><strong>RNA polymerase III (Pol III)</strong>: transcribes the transfer RNAs, the 5S ribosomal RNA, U6 snRNA, 7SL RNA, 7SK RNA, and a small number of additional short non-coding RNAs. Pol III promoters are unusual in that they sit, for many genes, downstream of the transcription start site, internal to the transcribed RNA itself.</li>
+            </ul>
+
+            <p>Each polymerase has its own dedicated set of general transcription factors and its own promoter architecture. The three polymerases share a conserved core architecture &mdash; ten of their twelve subunits have homologous counterparts across all three &mdash; reflecting their common evolutionary origin.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pol II structure</h2>
+
+            <p>The atomic structure of yeast Pol II was solved by <a href="https://pubmed.ncbi.nlm.nih.gov/11313498/" rel="noopener">Cramer, Bushnell and Kornberg (2001, Science 292:1863)</a>, with subsequent transcribing-elongation complex structures from the same group (Gnatt, Cramer, Fu, Bushnell and Kornberg 2001) showing the polymerase poised on a DNA-RNA hybrid with a nucleotide entering the active site. The structure clarified how the clamp closes around the DNA template, how the bridge helix and trigger loop coordinate nucleotide addition, and how the RNA exit channel routes the nascent transcript out of the polymerase. Roger Kornberg received the 2006 Nobel Prize in Chemistry for this body of work.</p>
+
+            <p>Pol II is a 12-subunit complex; its largest subunit, Rpb1, carries an unusual carboxy-terminal domain, the <strong>CTD</strong>, that is unique to Pol II among the three nuclear polymerases.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The CTD code</h2>
+
+            <p>The Pol II CTD consists of tandem heptad repeats with the consensus YSPTSPS &mdash; 52 copies in humans, 26 in yeast. Five of the seven residues can be reversibly phosphorylated; in practice the dominant marks are phospho-Ser5 (early in the cycle, around initiation) and phospho-Ser2 (later, during elongation), with phospho-Ser7, phospho-Tyr1, and phospho-Thr4 contributing additional regulatory marks. The pattern of phosphorylation is read by sets of factors that engage Pol II at the appropriate stage:</p>
+
+            <ul>
+                <li><strong>Initiation</strong>: TFIIH-dependent phosphorylation of Ser5 recruits the capping enzymes to the nascent transcript.</li>
+                <li><strong>Elongation</strong>: P-TEFb-dependent phosphorylation of Ser2 recruits splicing factors and the histone-modifying machinery that travels with the elongating polymerase.</li>
+                <li><strong>Termination</strong>: a Ser2-phosphorylated CTD also recruits the cleavage and polyadenylation machinery at 3'-ends.</li>
+            </ul>
+
+            <p>The model that the CTD acts as a moving platform for co-transcriptional processing is the <strong>"CTD code"</strong> or <strong>"CTD cycle"</strong> reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/19941815/" rel="noopener">Buratowski (2009, Molecular Cell 36:541)</a>. The phosphorylation pattern is dynamic: kinases (CDK7 / TFIIH, CDK9 / P-TEFb, CDK12) and phosphatases (FCP1, SSU72) sculpt it through the cycle. The CTD is essential for viability in every organism in which it has been tested.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Promoter architecture</h2>
+
+            <p>The Pol II core promoter is the stretch of DNA, typically about 80 bp around the transcription start site (TSS), that contains the elements recognised by the general transcription factors. The most studied core elements, reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/12651739/" rel="noopener">Smale and Kadonaga (2003, Annual Review of Biochemistry 72:449)</a>:</p>
+
+            <ul>
+                <li><strong>TATA box</strong>: a TATA(A/T)A(A/T) consensus, located about 25-30 bp upstream of the TSS in TATA-containing promoters; bound by the TBP subunit of TFIID.</li>
+                <li><strong>Initiator (INR)</strong>: a pyrimidine-rich element overlapping the TSS; bound by TFIID and supporting transcription start-site selection.</li>
+                <li><strong>Downstream promoter element (DPE)</strong>: located ~28-32 bp downstream of the TSS in many TATA-less promoters; binds TFIID and acts in combination with the INR.</li>
+                <li><strong>TFIIB recognition element (BRE)</strong>: flanks the TATA box and contributes to TFIIB binding.</li>
+                <li><strong>Motif Ten Element (MTE)</strong>: a downstream element working with the INR.</li>
+                <li><strong>CpG islands</strong>: roughly 60-70&#37; of human Pol II promoters lie within CpG islands &mdash; G+C-rich, CpG-rich stretches of DNA that are typically unmethylated and that lack a TATA box. CpG-island promoters often have multiple, dispersed transcription start sites.</li>
+            </ul>
+
+            <p>Most human promoters are TATA-less and CpG-island-associated. The TATA-containing, sharply-defined-TSS promoter is the textbook archetype but is not the most common type in mammals.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">General transcription factors and the pre-initiation complex</h2>
+
+            <p>Pol II does not bind DNA productively on its own. Productive transcription requires the assembly of the <strong>pre-initiation complex (PIC)</strong> on the core promoter, comprising Pol II and the general transcription factors:</p>
+
+            <ul>
+                <li><strong>TFIID</strong>: a multi-subunit complex containing TATA-binding protein (TBP) and 13 or so TBP-associated factors (TAFs). TFIID is the first factor at the promoter; TBP bends the TATA-containing DNA and the TAFs contact INR / DPE / MTE elements.</li>
+                <li><strong>TFIIA</strong> and <strong>TFIIB</strong>: stabilise TBP-DNA contacts and bridge TBP to Pol II.</li>
+                <li><strong>TFIIF</strong>: travels with Pol II and helps load it onto the promoter.</li>
+                <li><strong>TFIIE</strong>: regulates the catalytic activity of TFIIH.</li>
+                <li><strong>TFIIH</strong>: a 10-subunit complex with two enzymatic activities &mdash; a DNA helicase (XPB / XPD) that opens the promoter and a CDK7-cyclin H kinase that phosphorylates the CTD on Ser5. TFIIH is also a core subunit of the nucleotide excision repair pathway, which is why mutations in XPB / XPD cause xeroderma pigmentosum, Cockayne syndrome, and trichothiodystrophy.</li>
+            </ul>
+
+            <p>Once the PIC is assembled, ATP-dependent DNA opening by TFIIH gives Pol II access to single-stranded template DNA, the polymerase initiates RNA synthesis, the CTD is phosphorylated on Ser5, and Pol II escapes the promoter.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The Mediator complex</h2>
+
+            <p>Mediator is a large multi-subunit complex &mdash; about 30 subunits in metazoans &mdash; that bridges sequence-specific transcription factors bound at enhancers and the Pol II initiation machinery at the promoter. It is divided structurally into the head, middle, tail, and CDK module; the tail interacts with transcription-factor activation domains, the head and middle contact Pol II and the general transcription factors, and the CDK module (CDK8-cyclin C, MED12, MED13) modulates kinase activity. The complex is reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/25693131/" rel="noopener">Allen and Taatjes (2015, Nature Reviews Molecular Cell Biology 16:155)</a>.</p>
+
+            <p>Mediator is a general coregulator of essentially all Pol II transcription. Its conformation and subunit composition are tuned by the regulatory inputs it integrates, which is why subunit-specific phenotypes (Cornelia de Lange syndrome, Opitz-Kaveggia syndrome, certain cancers) can map to specific Mediator subunits.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Transcription-factor DNA-binding domains</h2>
+
+            <p>Sequence-specific transcription factors bind enhancer / promoter DNA through compact DNA-binding domains. The four most common families:</p>
+
+            <ul>
+                <li><strong>Helix-turn-helix (HTH)</strong>: the founding family of structurally characterised DNA-binding domains. The homeodomain (a 60-amino-acid HTH variant) is the canonical metazoan HTH; HOX genes, OCT factors, and many others use it.</li>
+                <li><strong>Zinc finger</strong>: most commonly the Cys2-His2 ("classical") finger, which coordinates a Zn ion and presents an alpha-helix into the DNA major groove. Tandem fingers read consecutive DNA triplets. The human transcription-factor catalogue has more zinc-finger proteins than any other family. Other zinc-coordinated families include the Cys4 nuclear receptor domain (e.g. the oestrogen and androgen receptors) and the GATA-type fingers.</li>
+                <li><strong>Leucine zipper (bZIP)</strong>: a basic region that contacts DNA and a coiled-coil dimerisation segment with a leucine every seventh residue. AP-1 (Fos-Jun), CREB, and ATF factors are bZIPs.</li>
+                <li><strong>Helix-loop-helix (HLH) and basic HLH (bHLH)</strong>: a basic DNA-contacting region followed by two amphipathic helices separated by a loop, with the helices mediating dimerisation. MyoD, c-Myc, the E-proteins, and the achaete-scute family are bHLH factors.</li>
+            </ul>
+
+            <p>Each family combines a particular mode of major-groove contact with a particular mode of dimerisation; combinatorial pairing of dimer partners is one mechanism by which a relatively small set of structural folds generates a large set of DNA-sequence specificities.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Enhancers and enhancer-promoter looping</h2>
+
+            <p>Enhancers are short cis-regulatory DNA segments &mdash; typically a few hundred base pairs, tens to hundreds of kilobases from the gene they regulate &mdash; that bind transcription factors and increase transcription of a target promoter. The term was coined for an SV40 element shown to act independently of distance, orientation, and position relative to the gene, and the principles generalise to metazoan genomes. Enhancers function by physical contact with the promoter through chromatin looping, mediated by structural factors (cohesin, CTCF) and transcriptional coactivators (Mediator, BRD4); their activity is integrated by the Pol II PIC at the target promoter.</p>
+
+            <p>An overview of enhancers and their developmental logic is given by <a href="https://pubmed.ncbi.nlm.nih.gov/24679523/" rel="noopener">Levine, Cattoglio and Tjian (2014, Cell 157:13)</a>. The mechanisms of enhancer-promoter contact &mdash; loop extrusion by cohesin, boundary insulation by CTCF, the formation of topologically associating domains (TADs), and the dynamics of contact at the single-allele level &mdash; are reviewed by <a href="https://pubmed.ncbi.nlm.nih.gov/30985571/" rel="noopener">Schoenfelder and Fraser (2019, Nature Reviews Genetics 20:437)</a>. Genome-scale data on enhancer location come from chromatin-state mapping (ENCODE, Roadmap Epigenomics) and from chromatin-conformation capture methods (3C, Hi-C, Capture-C, Micro-C).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Co-transcriptional processing</h2>
+
+            <p>Transcription does not happen in isolation. The capping enzymes engage the nascent RNA as soon as the 5'-end is roughly 25 nucleotides long, recruited by the Ser5-phosphorylated CTD. The spliceosome assembles on the elongating transcript as introns emerge, with kinetic coupling to elongation rate &mdash; slower elongation can favour proximal splice-site choice, and the pace of Pol II can therefore tune alternative splicing. Cleavage and polyadenylation factors are loaded onto the Ser2-phosphorylated CTD during elongation and engage the polyadenylation signal as it is transcribed, terminating the polymerase. The detail of capping, splicing, and 3'-processing is covered on <a href="rna-processing-and-stability.html">RNA processing and stability</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Regulation in summary</h2>
+
+            <p>Pol II transcription is regulated at every stage: PIC assembly, promoter escape, promoter-proximal pausing (and release by P-TEFb), elongation rate, and termination. Transcription factors bind enhancers; coactivators (Mediator, p300/CBP, BRD4) integrate the inputs; the Pol II PIC at the promoter is the integration point. The picture that emerges from the last two decades of structural, biochemical, and genomic work is of a polymerase whose activity is shaped at every step by a combinatorial network of inputs &mdash; sequence-specific factors, chromatin state, three-dimensional genome organisation, and the CTD code that links the polymerase to the co-transcriptional processing machinery.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How many RNA polymerases do eukaryotes have?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Three: Pol I (rRNA), Pol II (mRNA and most regulatory RNAs), Pol III (tRNA, 5S rRNA, U6 snRNA, and other short non-coding RNAs).</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the Pol II CTD?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The carboxy-terminal heptad-repeat tail of the largest Pol II subunit. Phosphorylated dynamically through the transcription cycle to coordinate capping, splicing, and 3'-end processing.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the difference between a core promoter and an enhancer?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The core promoter is the DNA sequence around the TSS that recruits the general transcription factors. Enhancers are distal regulatory sequences that bind transcription factors and modulate transcription level by physical contact with the promoter through chromatin looping.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the Mediator complex?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A large multi-subunit complex that bridges enhancer-bound transcription factors and the Pol II initiation machinery at the promoter. A general coregulator of Pol II transcription.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What are the main transcription-factor DNA-binding domain families?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Helix-turn-helix (homeodomains), zinc finger (Cys2-His2 and others), leucine zipper (bZIP), helix-loop-helix (bHLH).</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+            <ul>
+                <li><a href="gene-expression-mechanisms.html">Gene expression mechanisms</a> &mdash; pillar overview</li>
+                <li><a href="rna-processing-and-stability.html">RNA processing and stability</a></li>
+                <li><a href="translation-and-post-translational-control.html">Translation and post-translational control</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="gene-expression-mechanisms.html" class="hover:text-white transition-colors">Gene expression mechanisms</a></li><li><a href="rna-processing-and-stability.html" class="hover:text-white transition-colors">RNA processing and stability</a></li><li><a href="translation-and-post-translational-control.html" class="hover:text-white transition-colors">Translation and post-translational control</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

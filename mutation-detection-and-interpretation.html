@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutation Detection and Interpretation: Sequencing & ACMG/AMP | Evagene</title>
+    <meta name="description" content="Educational reference on mutation detection and interpretation: Sanger and short-read NGS, long-read sequencing, variant calling, annotation, and the ACMG/AMP 5-tier classification framework with ClinVar, gnomAD, REVEL, CADD, and AlphaMissense.">
+    <meta name="keywords" content="mutation detection, variant interpretation, Sanger sequencing, next-generation sequencing, NGS, Illumina, PacBio HiFi, Oxford Nanopore, whole exome, whole genome, variant calling, GATK, DeepVariant, Ensembl VEP, ANNOVAR, SnpEff, ACMG AMP guidelines, Richards 2015, ClinGen, ClinVar, gnomAD, REVEL, CADD, AlphaMissense, OMIM, DECIPHER, GA4GH VRS">
+
+    <meta property="og:title" content="Mutation Detection and Interpretation: Sequencing & ACMG/AMP | Evagene">
+    <meta property="og:description" content="Educational reference covering sequencing platforms, variant calling and annotation, the ACMG/AMP 5-tier framework, ClinVar, gnomAD, REVEL, CADD, and AlphaMissense.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/mutation-detection-and-interpretation">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mutation Detection and Interpretation: Sequencing & ACMG/AMP">
+    <meta name="twitter:description" content="Sequencing platforms, variant calling and annotation, ACMG/AMP framework, ClinVar, gnomAD, in silico predictors.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/mutation-detection-and-interpretation">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Mutation Detection and Interpretation: Sequencing Platforms, Variant Calling, and the ACMG/AMP Framework",
+        "description":"Educational reference on mutation detection and interpretation, covering Sanger and next-generation sequencing, long-read platforms, variant calling, annotation, and the published ACMG/AMP five-tier variant classification framework.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/mutation-detection-and-interpretation"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["mutation detection","variant interpretation","sequencing","ACMG/AMP","ClinVar","gnomAD","CADD","REVEL","AlphaMissense","Ensembl VEP"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Mutation Detection and Interpretation",
+        "description":"Educational subtopic page on sequencing approaches, variant annotation, and pathogenicity scoring under the published ACMG/AMP framework.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Higher education",
+        "audience":{"@type":"Audience","audienceType":"Genetics students, researchers, clinicians, educators"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "isPartOf":{"@type":"CreativeWork","name":"Mutation Biology and Consequences","url":"https://evagene.com/mutation-biology-and-consequences"},
+        "url":"https://evagene.com/mutation-detection-and-interpretation"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Mutation Biology","item":"https://evagene.com/mutation-biology-and-consequences"},
+            {"@type":"ListItem","position":3,"name":"Mutation Detection and Interpretation","item":"https://evagene.com/mutation-detection-and-interpretation"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="mutation-biology-and-consequences.html" class="hover:text-brand-600 dark:hover:text-brand-300">Mutation Biology</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Mutation Detection and Interpretation</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Mutation detection and interpretation</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">An educational reference on how variants are detected and how they are interpreted. The page covers Sanger sequencing, short-read next-generation sequencing, long-read sequencing, whole-exome and whole-genome scope, variant calling, annotation, the published ACMG/AMP five-tier classification framework, ClinVar, gnomAD, the major in silico pathogenicity predictors (REVEL, CADD, AlphaMissense), the ClinGen variant-curation infrastructure, and the GA4GH Variation Representation Specification. The page presents these resources as the published interpretive standard the field uses; the framework is not a service Evagene offers.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>13 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Sanger sequencing remains the confirmation gold standard for individual variants; short-read next-generation sequencing on Illumina platforms is the screening workhorse; long-read sequencing (PacBio HiFi, Oxford Nanopore) resolves repeat expansions and structural variants short reads miss. Variant interpretation is standardised by the <a href="https://pubmed.ncbi.nlm.nih.gov/25741868/" rel="noopener">ACMG/AMP 2015 framework (Richards et al., <em>Genetics in Medicine</em> 17:405)</a>, refined gene-by-gene by ClinGen variant-curation expert panels, and surfaced via <a href="https://www.ncbi.nlm.nih.gov/clinvar/" rel="noopener">ClinVar</a>. Modern in silico predictors (REVEL, CADD, AlphaMissense) feed the framework. <a href="https://gnomad.broadinstitute.org/" rel="noopener">gnomAD</a> supplies the population-frequency denominator. The framework is the published interpretive standard the field uses; this page describes it for educational purposes.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Sanger sequencing</h2>
+
+            <p>Frederick Sanger's chain-termination method (Sanger, Nicklen, Coulson 1977) was the dominant sequencing technology of the 1980s and 1990s and remains the confirmation standard for individual candidate variants identified by next-generation sequencing. The method incorporates dideoxynucleotide terminators at random positions during DNA synthesis, generating a population of fragments differing by one nucleotide that are size-resolved by capillary electrophoresis with fluorescent detection. Read lengths reach 800&ndash;1,000 base pairs at high accuracy (Phred Q&gt;40 over most of the read), and any single locus can be sequenced from PCR product on a per-sample, per-amplicon basis.</p>
+
+            <p>Sanger sequencing's role today is targeted: confirmation of NGS-called variants in a clinical accreditation context (where a second orthogonal method may be required to issue a result), targeted resequencing of a single locus in a research follow-up, and educational use, where the trace remains a more interpretable artefact for teaching nucleotide-by-nucleotide reading than the alignment summary of an NGS pipeline.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Short-read next-generation sequencing</h2>
+
+            <p>Short-read sequencing on the Illumina platform is the workhorse of human genetics. The reversible-terminator chemistry was published by <a href="https://pubmed.ncbi.nlm.nih.gov/18987734/" rel="noopener">Bentley et al. 2008 (<em>Nature</em> 456:53)</a>, describing the Solexa platform that became Illumina, and demonstrated paired-end sequencing of an individual human genome at roughly 30&times; coverage. Modern Illumina platforms produce reads of 150&ndash;300 base pairs at very high throughput (terabases per run on the highest-capacity instruments) and at very high single-base accuracy (Q30 or better over most of the read).</p>
+
+            <p>Short-read sequencing's strengths are throughput, cost per base, and accuracy. Its limitations are read length and the difficulty of mapping repetitive sequence: tandem repeats longer than the read length cannot be resolved unambiguously; structural variants whose breakpoints fall inside repetitive sequence are unreliably detected; and large copy-number changes are inferred indirectly through coverage rather than directly through read structure. These are the gaps that long-read sequencing addresses.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Long-read sequencing</h2>
+
+            <p>Long-read platforms produce reads spanning tens of kilobases per molecule, at the cost of higher per-base error rate (in earlier-generation platforms; PacBio HiFi reads now achieve Q30 single-molecule accuracy through circular consensus). The two dominant platforms are <strong>PacBio HiFi</strong> (single-molecule real-time sequencing of circularised DNA, generating a high-accuracy consensus from multiple passes around the same molecule) and <strong>Oxford Nanopore</strong> (single-molecule sequencing through a protein nanopore, which also enables direct detection of base modifications such as methylation).</p>
+
+            <p>Long reads resolve what short reads cannot: trinucleotide repeat expansions in <em>HTT</em>, <em>FMR1</em>, <em>FXN</em>, <em>DMPK</em>, and <em>C9orf72</em>; structural-variant breakpoints in segmental duplications and pericentromeric regions; haplotype phasing across distances longer than the genomic mean for heterozygous variants; and the centromeric and telomeric sequences that the T2T-CHM13 reference (Nurk et al. 2022, <em>Science</em>) finally completed for the human genome. Long reads are increasingly the platform of choice for diagnostic odyssey cases unsolved by short-read exome sequencing.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Whole exome vs whole genome</h2>
+
+            <p>Whole-exome sequencing (WES) targets the protein-coding portion of the genome (approximately 1&#37; of total genomic DNA, roughly 30 megabases) by hybridisation capture of exonic probes. Its strength is cost-efficiency at high coverage of the regions where the great majority of known Mendelian disease variants live; its weakness is that it misses non-coding variation, struggles with copy-number variation across the captured regions, and depends on the completeness and accuracy of the exome target file.</p>
+
+            <p>Whole-genome sequencing (WGS) sequences the entire genome at lower per-base cost than well-covered WES and provides more uniform coverage, including the non-coding regions that contain regulatory variants, structural-variant breakpoints, and deep-intronic splicing variants. WGS is also better suited to copy-number variant detection by depth-of-coverage analysis. The cost differential between WES and WGS has narrowed materially across the late 2010s and early 2020s, and WGS has become the platform of choice for many large research programmes (Genomics England's 100,000 Genomes Project, the All of Us Research Program, the UK Biobank whole-genome cohort).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Variant calling</h2>
+
+            <p>Sequencing reads are aligned to a reference genome (GRCh38 / hg38, increasingly being supplemented or replaced by T2T-CHM13 and graph-genome references) and variants are then called from the alignment. The Genome Analysis Toolkit (GATK) HaplotypeCaller, developed at the Broad Institute, has been the dominant short-variant caller and uses local de novo assembly around indels with logistic-regression-based filtering. <a href="https://pubmed.ncbi.nlm.nih.gov/30247488/" rel="noopener">DeepVariant (Poplin et al. 2018, <em>Nature Biotechnology</em> 36:983)</a>, developed at Google, applies a convolutional neural network to pile-up images and has shown improved precision on indels and on platforms with non-standard error profiles.</p>
+
+            <p>Structural-variant calling is a separate and harder problem. Tools such as Manta, DELLY, and the long-read-specific Sniffles and pbsv aggregate split-read, discordant-pair, depth-of-coverage, and de novo assembly evidence to call larger events. Copy-number variant calling from short-read data uses depth-of-coverage normalisation against a reference panel and is sensitive to capture-uniformity artefacts. Mosaic and somatic variant calling (in cancer or developmental mosaicism) requires distinct callers (Mutect2, Strelka2, deep-coverage approaches) that handle low variant allele fraction and tumour-normal subtraction.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Variant annotation</h2>
+
+            <p>A called variant is a coordinate-and-genotype tuple; annotation translates it into biology. The dominant tools are <strong>Ensembl Variant Effect Predictor (VEP)</strong> at the EBI (described by <a href="https://pubmed.ncbi.nlm.nih.gov/27268795/" rel="noopener">McLaren et al. 2016, <em>Genome Biology</em> 17:122</a>), <strong>ANNOVAR</strong> from the Wang laboratory, and <strong>SnpEff</strong>. VEP integrates with the Ensembl gene model, the SO sequence-ontology consequence terms, and a panel of plug-in scoring tools that bring REVEL, CADD, SpliceAI, AlphaMissense, gnomAD, and ClinVar annotations into the same record. The output is a per-variant report giving HGVS coding and protein nomenclature, predicted molecular consequence, and a panel of supporting evidence.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The ACMG/AMP framework</h2>
+
+            <p>Variant interpretation in clinical and research genetics is standardised by the <a href="https://pubmed.ncbi.nlm.nih.gov/25741868/" rel="noopener">2015 ACMG/AMP guidelines (Richards et al., <em>Genetics in Medicine</em> 17:405)</a>. The framework defines a five-tier classification &mdash; <strong>pathogenic</strong>, <strong>likely pathogenic</strong>, <strong>variant of uncertain significance (VUS)</strong>, <strong>likely benign</strong>, <strong>benign</strong> &mdash; assembled from a coded set of pathogenic and benign criteria of varying strength.</p>
+
+            <p>Pathogenic criteria range from <strong>PVS1</strong> (very strong; null variant in a gene where loss of function is a known mechanism) through <strong>PS</strong> (strong; well-established functional studies showing damaging effect; segregation in multiple families; etc.), <strong>PM</strong> (moderate; located in a mutational hotspot; absent from controls; etc.), down to <strong>PP</strong> (supporting; multiple computational lines of evidence; segregation in a single family; etc.). Benign criteria are organised symmetrically: <strong>BA1</strong> (stand-alone; allele frequency above a frequency threshold incompatible with disease), <strong>BS</strong> (strong), <strong>BP</strong> (supporting). A combinatorial rule combines the criteria into the final five-tier classification.</p>
+
+            <p>The framework was refined by the <strong>ClinGen Sequence Variant Interpretation working group</strong>, which has published detailed gene-specific specifications for individual disease genes (PVS1 decision tree, BRCA1/2 specifications, RASopathy gene specifications, mitochondrial-DNA specifications, splicing impact framework). It has also been quantified by the Bayesian framework of <a href="https://pubmed.ncbi.nlm.nih.gov/29300386/" rel="noopener">Tavtigian et al. 2018 (<em>Genetics in Medicine</em> 20:1054)</a>, which expresses each criterion as a likelihood ratio under an explicit prior and combines them by Bayes' rule. The Bayesian formulation reproduces the categorical 2015 rules at the default likelihood ratios and supports calibrated combination of in silico predictor evidence at non-default strengths.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">ClinGen, ClinVar, OMIM, DECIPHER</h2>
+
+            <p>The community infrastructure for variant interpretation is held by a small number of public resources:</p>
+
+            <ul>
+                <li><strong><a href="https://clinicalgenome.org/" rel="noopener">ClinGen</a></strong> &mdash; gene-disease validity curation, dosage-sensitivity assessment, variant-curation expert panel infrastructure. Defines the gene-specific specifications of the ACMG/AMP framework.</li>
+                <li><strong><a href="https://www.ncbi.nlm.nih.gov/clinvar/" rel="noopener">ClinVar</a></strong> &mdash; the public archive of variant interpretations, described by <a href="https://pubmed.ncbi.nlm.nih.gov/29165669/" rel="noopener">Landrum et al. 2018 (<em>Nucleic Acids Research</em> 46:D1062)</a>. Submissions are stratified by review status (one star to four stars; expert-panel and practice-guideline submissions hold the highest tiers).</li>
+                <li><strong><a href="https://www.omim.org/" rel="noopener">OMIM</a></strong> &mdash; the Online Mendelian Inheritance in Man catalogue of genes and genetic disorders.</li>
+                <li><strong><a href="https://www.deciphergenomics.org/" rel="noopener">DECIPHER</a></strong> &mdash; a database of submitted patient-level structural variants and dosage-sensitivity information, hosted at the Sanger Institute.</li>
+                <li><strong><a href="https://gnomad.broadinstitute.org/" rel="noopener">gnomAD</a></strong> &mdash; described by <a href="https://pubmed.ncbi.nlm.nih.gov/32461654/" rel="noopener">Karczewski et al. 2020 (<em>Nature</em> 581:434)</a>, the population-frequency denominator and gene-level constraint resource.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">In silico pathogenicity predictors</h2>
+
+            <p>Computational predictors estimate the likelihood that a given missense (or other) variant disrupts protein function. The major predictors used in current ACMG/AMP practice:</p>
+
+            <ul>
+                <li><strong>REVEL</strong> &mdash; an ensemble meta-predictor for missense variants, combining 13 individual scores via a random forest, published by <a href="https://pubmed.ncbi.nlm.nih.gov/27666373/" rel="noopener">Ioannidis et al. 2016 (<em>American Journal of Human Genetics</em> 99:877)</a>. ClinGen has calibrated REVEL thresholds against ACMG/AMP evidence strengths.</li>
+                <li><strong>CADD</strong> &mdash; Combined Annotation-Dependent Depletion, a genome-wide score that integrates conservation, regulatory annotation, and protein-level features, scaled to a Phred-like rank. Updated periodically; the current version is described by <a href="https://pubmed.ncbi.nlm.nih.gov/30371827/" rel="noopener">Rentzsch et al. 2019 (<em>Nucleic Acids Research</em> 47:D886)</a>.</li>
+                <li><strong>AlphaMissense</strong> &mdash; a 2023 protein-language-model predictor that scores all possible missense substitutions in the human proteome, published by <a href="https://pubmed.ncbi.nlm.nih.gov/37733863/" rel="noopener">Cheng et al. 2023 (<em>Science</em> 381:eadg7492)</a>. The pre-computed scores are publicly available and have been incorporated into Ensembl VEP.</li>
+                <li><strong>SpliceAI</strong> &mdash; the deep-learning splice-impact predictor of <a href="https://pubmed.ncbi.nlm.nih.gov/30661751/" rel="noopener">Jaganathan et al. 2019 (<em>Cell</em> 176:535)</a>, calibrated for the ACMG/AMP supplementary splicing framework.</li>
+            </ul>
+
+            <p>In silico predictors are supporting evidence under the ACMG/AMP framework, not stand-alone evidence: a high REVEL or AlphaMissense score is one input among the population-frequency, segregation, functional, and clinical evidence that a variant-curation expert panel weighs.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">GA4GH and shared vocabulary</h2>
+
+            <p>The Global Alliance for Genomics and Health (<a href="https://www.ga4gh.org/" rel="noopener">GA4GH</a>) maintains the shared technical standards on which variant data exchange depends. The <strong>Variation Representation Specification (VRS)</strong> defines a precise, machine-readable, position-stable representation of variants (including normalisation, allele-set semantics, and identifier minting) that supports unambiguous exchange across resources. The complementary HGVS nomenclature (curated by HGVS itself) provides the human-readable variant descriptor; the two are increasingly used in tandem.</p>
+
+            <p>For phenotype, the <strong>Human Phenotype Ontology (HPO)</strong> at <a href="https://hpo.jax.org/" rel="noopener">hpo.jax.org</a> and the GA4GH <strong>Phenopackets</strong> standard support computable phenotype-aware exchange of cases. Evagene's <a href="phenopackets-pedigree.html">Phenopackets export</a> aligns with this standard.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Where Evagene fits</h2>
+
+            <p>Evagene is an academic, research, and educational pedigree modelling platform. It does not perform sequencing, does not call or annotate variants, does not return ACMG/AMP classifications, and is not a variant interpretation service. Where this page touches the platform, the connection is between the structured family-history information Evagene records and the molecular result a clinician or laboratory has obtained elsewhere: known variant data captured against an individual on the pedigree may inform inheritance-pattern teaching, segregation tracing in a research family, or the input to a published family-history risk model.</p>
+
+            <p>Where computation against the canonical BOADICEA implementation is wanted, Evagene exports a <code>##CanRisk 2.0</code> pedigree file that the user uploads at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a>; BOADICEA is licensed by the University of Cambridge and is not bundled in Evagene. For Tyrer / Duffy / Cuzick 2004 computation, the platform implements an IBIS-style approximation of the published algorithm (the official IBIS Breast Cancer Risk Evaluator binary is the canonical implementation; its full coefficients are not public). These conventions are described in detail on our risk-model pages.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Sources cited on this page</h2>
+
+            <ul>
+                <li>Richards S, et al. <em>Standards and guidelines for the interpretation of sequence variants. Genetics in Medicine</em> 2015;17:405 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/25741868/" rel="noopener">PMID 25741868</a> (the ACMG/AMP guidelines).</li>
+                <li>Karczewski KJ, et al. <em>The mutational constraint spectrum quantified from variation in 141,456 humans. Nature</em> 2020;581:434 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/32461654/" rel="noopener">PMID 32461654</a> (gnomAD v2).</li>
+                <li>Landrum MJ, et al. <em>ClinVar: improving access to variant interpretations and supporting evidence. Nucleic Acids Research</em> 2018;46:D1062 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/29165669/" rel="noopener">PMID 29165669</a>.</li>
+                <li>Cheng J, et al. <em>Accurate proteome-wide missense variant effect prediction with AlphaMissense. Science</em> 2023;381:eadg7492 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/37733863/" rel="noopener">PMID 37733863</a>.</li>
+                <li>Rentzsch P, et al. <em>CADD: predicting the deleteriousness of variants. Nucleic Acids Research</em> 2019;47:D886 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/30371827/" rel="noopener">PMID 30371827</a>.</li>
+                <li>Ioannidis NM, et al. <em>REVEL: an ensemble method for predicting the pathogenicity of rare missense variants. American Journal of Human Genetics</em> 2016;99:877 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/27666373/" rel="noopener">PMID 27666373</a>.</li>
+                <li>Poplin R, et al. <em>A universal SNP and small-indel variant caller using deep neural networks. Nature Biotechnology</em> 2018;36:983 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/30247488/" rel="noopener">PMID 30247488</a> (DeepVariant).</li>
+                <li>McLaren W, et al. <em>The Ensembl Variant Effect Predictor. Genome Biology</em> 2016;17:122 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/27268795/" rel="noopener">PMID 27268795</a>.</li>
+                <li>Bentley DR, et al. <em>Accurate whole human genome sequencing using reversible terminator chemistry. Nature</em> 2008;456:53 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/18987734/" rel="noopener">PMID 18987734</a>.</li>
+                <li>Jaganathan K, et al. <em>Predicting splicing from primary sequence with deep learning. Cell</em> 2019;176:535 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/30661751/" rel="noopener">PMID 30661751</a> (SpliceAI).</li>
+                <li>Tavtigian SV, et al. <em>Modeling the ACMG/AMP variant classification guidelines as a Bayesian classification framework. Genetics in Medicine</em> 2018;20:1054 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/29300386/" rel="noopener">PMID 29300386</a>.</li>
+                <li>ClinGen &mdash; <a href="https://clinicalgenome.org/" rel="noopener">clinicalgenome.org</a>; ClinVar &mdash; <a href="https://www.ncbi.nlm.nih.gov/clinvar/" rel="noopener">ncbi.nlm.nih.gov/clinvar</a>; OMIM &mdash; <a href="https://www.omim.org/" rel="noopener">omim.org</a>; DECIPHER &mdash; <a href="https://www.deciphergenomics.org/" rel="noopener">deciphergenomics.org</a>; GA4GH &mdash; <a href="https://www.ga4gh.org/" rel="noopener">ga4gh.org</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="mutation-biology-and-consequences.html">Mutation biology and consequences (pillar)</a></li>
+                <li><a href="types-of-mutation.html">Types of mutation</a></li>
+                <li><a href="functional-consequences-of-mutation.html">Functional consequences of mutation</a></li>
+                <li><a href="phenopackets-pedigree.html">Phenopackets pedigree export</a></li>
+                <li><a href="iscn-pedigree-symbols.html">ISCN pedigree symbols (cytogenetic notation)</a></li>
+                <li><a href="karyogram-viewer.html">Karyogram viewer</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Pedigree drawing for teaching and research</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="mutation-biology-and-consequences.html" class="hover:text-white transition-colors">Mutation biology (pillar)</a></li><li><a href="types-of-mutation.html" class="hover:text-white transition-colors">Types of mutation</a></li><li><a href="functional-consequences-of-mutation.html" class="hover:text-white transition-colors">Functional consequences</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="phenopackets-pedigree.html" class="hover:text-white transition-colors">Phenopackets export</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

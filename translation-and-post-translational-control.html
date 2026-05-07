@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation & Post-Translational Control — Ribosomes & Chaperones | Evagene</title>
+    <meta name="description" content="An educational guide to translation and post-translational control: ribosome structure (Ban 2000, Wimberly 2000), eIF2 / eIF4F initiation, ribosome profiling (Ingolia 2009), mTOR and the integrated stress response, chaperones, ubiquitin-proteasome, and post-translational modifications.">
+    <meta name="keywords" content="translation, ribosome, ribosome structure, 60S subunit, 40S subunit, eIF4F, eIF2, IRES, mTOR pathway, integrated stress response, ribosome profiling, polysome profiling, chaperones, Hsp70, Hsp90, GroEL, ubiquitin-proteasome, autophagy, post-translational modifications, phosphorylation, ubiquitination, glycosylation, SUMOylation">
+
+    <meta property="og:title" content="Translation & Post-Translational Control — Ribosomes & Chaperones | Evagene">
+    <meta property="og:description" content="Educational coverage of ribosome structure and function, translation initiation and regulation, ribosome profiling, chaperone networks, the ubiquitin-proteasome system, and the major post-translational modifications.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/translation-and-post-translational-control">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Translation & Post-Translational Control — Ribosomes & Chaperones">
+    <meta name="twitter:description" content="An educational guide to ribosome function, translation regulation, chaperones, and protein quality control.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/translation-and-post-translational-control">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Translation and Post-Translational Control: Ribosomes, Chaperones, and Protein Quality Control",
+        "description":"Educational coverage of the ribosome (Ban 2000, Wimberly 2000), translation initiation (Jackson 2010), translation regulation (Sonenberg and Hinnebusch 2009), ribosome profiling (Ingolia 2009), chaperones (Hartl 2011), and the ubiquitin-proteasome system.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/translation-and-post-translational-control"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["ribosome","translation","eIF4F","mTOR","ribosome profiling","Hsp70","Hsp90","ubiquitin-proteasome","post-translational modification"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Translation and post-translational control",
+        "description":"An educational subtopic page on translation and post-translational regulation, covering ribosome structure and function, initiation and regulation, ribosome profiling, chaperones, and protein quality control.",
+        "url":"https://evagene.com/translation-and-post-translational-control",
+        "learningResourceType":"Subtopic guide",
+        "educationalLevel":"Undergraduate / postgraduate / specialist",
+        "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "isPartOf":{"@type":"LearningResource","name":"Gene Expression Mechanisms","url":"https://evagene.com/gene-expression-mechanisms"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Learn","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Gene Expression Mechanisms","item":"https://evagene.com/gene-expression-mechanisms"},
+            {"@type":"ListItem","position":4,"name":"Translation and Post-Translational Control","item":"https://evagene.com/translation-and-post-translational-control"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is the eukaryotic ribosome made of?","acceptedAnswer":{"@type":"Answer","text":"The eukaryotic 80S ribosome is built from a small (40S) subunit and a large (60S) subunit. The 40S subunit contains the 18S rRNA and around 33 ribosomal proteins; the 60S subunit contains the 28S, 5.8S and 5S rRNAs and around 47 ribosomal proteins. The peptidyl transferase centre, where the peptide bond is formed, is built entirely of 28S rRNA &mdash; the ribosome is a ribozyme."}},
+            {"@type":"Question","name":"What are the main steps of translation?","acceptedAnswer":{"@type":"Answer","text":"Initiation: assembly of the 80S ribosome on the start codon. Elongation: cyclical addition of amino acids by aminoacyl-tRNA delivery, peptide bond formation, and translocation. Termination: release-factor-mediated hydrolysis of the peptidyl-tRNA at a stop codon. Recycling: separation of the subunits and release of the mRNA. Each step uses dedicated translation factors and consumes GTP."}},
+            {"@type":"Question","name":"How is translation regulated in mammalian cells?","acceptedAnswer":{"@type":"Answer","text":"The two dominant regulatory inputs are (1) phosphorylation of eIF2&alpha; on Ser51 by stress kinases (PERK, GCN2, PKR, HRI), which globally suppresses cap-dependent initiation as part of the integrated stress response, and (2) the mTOR pathway, which controls eIF4E availability through the 4E-BP family and ribosomal protein S6 phosphorylation through S6K. Internal ribosome entry sites (IRES) and uORFs allow selective translation under stress."}},
+            {"@type":"Question","name":"What is ribosome profiling?","acceptedAnswer":{"@type":"Answer","text":"Ribosome profiling (Ribo-seq) is a deep-sequencing method introduced by Ingolia et al. 2009 in Science. Cells are treated to halt translation, ribosomes are isolated, and the ~28-nucleotide mRNA fragments protected from nuclease digestion by the ribosome are sequenced. The method gives a codon-resolution map of where ribosomes are at the time of harvest, supporting analysis of translation rate, uORF usage, and start-site selection."}},
+            {"@type":"Question","name":"What is the ubiquitin-proteasome system?","acceptedAnswer":{"@type":"Answer","text":"The ubiquitin-proteasome system tags proteins for degradation by covalent attachment of poly-ubiquitin chains, performed by an E1 (activating), E2 (conjugating), and E3 (ligase) enzyme cascade. K48-linked poly-ubiquitin is the canonical degradation signal; the 26S proteasome (a 20S core capped by 19S regulatory particles) recognises ubiquitinated substrates, unfolds them, and hydrolyses them into short peptides. Other linkages (K63, M1, K11) carry distinct signalling functions."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="https://evagene.com/#resources" class="hover:text-brand-600 dark:hover:text-brand-300">Learn</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="gene-expression-mechanisms.html" class="hover:text-brand-600 dark:hover:text-brand-300">Gene expression</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Translation and post-translational control</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Translation and post-translational control: ribosomes, chaperones, and protein quality control</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A subtopic guide on the ribosome and the regulatory layers that follow it: the structure of the eukaryotic ribosome as resolved at atomic detail by Ramakrishnan, Steitz and Yonath; the mechanism of translation initiation, elongation, and termination; the major regulatory pathways &mdash; mTOR, eIF2&alpha; phosphorylation, the integrated stress response, IRES-mediated initiation; ribosome profiling as the dominant quantitative method; co-translational folding and the chaperone networks; protein quality control via the ubiquitin-proteasome system and autophagy; and the major post-translational modifications.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>12 min read</span>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>Educational</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Translation is the decoding of mRNA into protein on the ribosome &mdash; an 80S ribonucleoprotein complex of two subunits whose atomic structure was solved at the turn of the millennium and which is, at its catalytic centre, an RNA enzyme. Translation has four stages (initiation, elongation, termination, recycling) and is regulated principally at initiation, through the cap-binding eIF4F complex, the ternary complex eIF2-GTP-Met-tRNAi, the mTOR pathway, and eIF2&alpha; phosphorylation in the integrated stress response. After translation, polypeptides are folded by chaperones, modified covalently in many ways, and eventually cleared by the ubiquitin-proteasome system or by autophagy.</p>
+
+            <p><em>Educational positioning.</em> This is an educational page written for students, educators, and researchers. Evagene is an academic, research, and educational pedigree modelling platform; it is not a medical device, not clinical decision support, and not a diagnostic or screening tool.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Ribosome structure</h2>
+
+            <p>The eukaryotic ribosome is an 80S ribonucleoprotein complex with a sedimentation coefficient that reflects the assembly of two subunits:</p>
+
+            <ul>
+                <li><strong>Small (40S) subunit</strong>: contains the 18S rRNA and around 33 ribosomal proteins. Carries the decoding centre, where the codon-anticodon interaction between mRNA and aminoacyl-tRNA is monitored.</li>
+                <li><strong>Large (60S) subunit</strong>: contains the 28S, 5.8S, and 5S rRNAs and around 47 ribosomal proteins. Carries the peptidyl transferase centre (PTC), the catalytic site for peptide bond formation, and the polypeptide exit tunnel through which the nascent chain emerges.</li>
+            </ul>
+
+            <p>The atomic structures of the bacterial ribosome subunits, on which the eukaryotic structures rest, were solved at the turn of the century: the large subunit by <a href="https://pubmed.ncbi.nlm.nih.gov/10937989/" rel="noopener">Ban, Nissen, Hansen, Moore and Steitz (2000, Science 289:905)</a> at 2.4 &Aring; resolution, and the small subunit by <a href="https://pubmed.ncbi.nlm.nih.gov/11014182/" rel="noopener">Wimberly, Brodersen, Clemons, Morgan-Warren, Carter, Vonrhein, Hartsch and Ramakrishnan (2000, Nature 407:327)</a> at 3.0 &Aring;. A third structure of the small subunit and a 5.5 &Aring; structure of the entire bacterial 70S ribosome with bound tRNAs and mRNA followed shortly. Venki Ramakrishnan, Tom Steitz, and Ada Yonath shared the 2009 Nobel Prize in Chemistry "for studies of the structure and function of the ribosome".</p>
+
+            <p>The structures established two facts that had been hypothesised but not directly demonstrated. First, the peptidyl transferase centre is built entirely of RNA: the catalytic site is rRNA, with no protein side chain within several &aring;ngstr&ouml;ms of the substrate. The ribosome is a ribozyme, and the most important enzyme of cellular life is an RNA enzyme &mdash; striking support for an RNA-world view of the origin of translation. Second, the decoding centre on the small subunit uses two universally conserved adenosines (A1492 and A1493 in the 16S rRNA) to monitor the geometry of the codon-anticodon helix and so distinguish cognate from near-cognate tRNAs.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Initiation, elongation, termination, recycling</h2>
+
+            <p>Eukaryotic translation has four stages, each with its own factor cohort. The mechanism is reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/20094052/" rel="noopener">Jackson, Hellen and Pestova (2010, Nature Reviews Molecular Cell Biology 11:113)</a>.</p>
+
+            <p><strong>Initiation</strong>. The eIF4F cap-binding complex (eIF4E + eIF4G + eIF4A) recognises the 5' cap; eIF4G recruits the 43S pre-initiation complex (40S subunit, eIF1, eIF1A, eIF3, eIF5, and the ternary complex eIF2-GTP-Met-tRNAi). The complex scans the 5' UTR in a 5' to 3' direction, with eIF4A providing the helicase activity that resolves secondary structure. At the start codon (typically AUG in a Kozak context), codon-anticodon pairing triggers eIF1 release, eIF5-stimulated GTP hydrolysis on eIF2, and recruitment of the 60S subunit by eIF5B-GTP. The result is an 80S initiation complex with Met-tRNAi base-paired with the AUG in the P site.</p>
+
+            <p><strong>Elongation</strong>. The cycle has three stages: (1) eEF1A-GTP delivers an aminoacyl-tRNA to the A site, where the codon-anticodon interaction is monitored; cognate pairing triggers GTP hydrolysis on eEF1A; (2) the peptidyl transferase centre catalyses peptide bond formation, transferring the nascent chain from the P-site tRNA to the A-site aminoacyl-tRNA; (3) eEF2-GTP catalyses translocation, moving the deacylated tRNA from P to E and the peptidyl-tRNA from A to P, ratcheting the small subunit relative to the large.</p>
+
+            <p><strong>Termination</strong>. A stop codon (UAA, UAG, UGA) in the A site is recognised by eRF1 (eukaryotic release factor 1), which mimics the shape of an aminoacyl-tRNA and triggers hydrolysis of the peptidyl-tRNA in cooperation with eRF3-GTP. The completed polypeptide is released.</p>
+
+            <p><strong>Recycling</strong>. The post-termination complex is disassembled by ABCE1 and the eIF1 / eIF1A / eIF3 factors, separating the subunits and releasing the deacylated tRNA and the mRNA for re-use.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Cap-dependent vs IRES-mediated initiation</h2>
+
+            <p>Most cellular mRNAs are translated by the cap-dependent scanning mechanism described above. A subset of cellular and viral mRNAs use <strong>internal ribosome entry sites (IRES)</strong>: structured 5' UTR elements that recruit the small subunit directly, with reduced or no requirement for eIF4F or scanning. Picornaviral IRES elements are the canonical examples; cellular IRES elements operate in a smaller set of stress-response and cell-cycle transcripts. IRES-mediated initiation allows selective translation of specific transcripts when cap-dependent initiation is suppressed &mdash; under viral infection, in apoptosis, during the unfolded protein response.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Translation regulation</h2>
+
+            <p>Acute regulation of translation is dominated by control of initiation. Two regulatory axes account for most of the action, and are reviewed by <a href="https://pubmed.ncbi.nlm.nih.gov/19239892/" rel="noopener">Sonenberg and Hinnebusch (2009, Cell 136:731)</a>:</p>
+
+            <ul>
+                <li><strong>eIF2&alpha; phosphorylation and the integrated stress response (ISR)</strong>. Phosphorylation of eIF2&alpha; on Ser51 by one of four stress-sensing kinases &mdash; PERK (endoplasmic reticulum stress, the unfolded protein response), GCN2 (amino acid starvation, UV), PKR (double-stranded RNA, viral infection), HRI (haem deficiency, oxidative stress) &mdash; converts eIF2 from a substrate of its guanine nucleotide exchange factor eIF2B into a competitive inhibitor. The ternary complex eIF2-GTP-Met-tRNAi is depleted, and global cap-dependent initiation is suppressed. A small set of transcripts containing upstream open reading frames (uORFs), notably ATF4 and CHOP in mammals, is paradoxically translationally upregulated under these conditions, driving the ISR transcriptional programme.</li>
+                <li><strong>The mTOR pathway and eIF4E availability</strong>. The mechanistic Target Of Rapamycin complex 1 (mTORC1) integrates growth-factor, amino-acid, and energy signals. Active mTORC1 phosphorylates the 4E-BP family of eIF4E inhibitors, releasing eIF4E to assemble the eIF4F cap-binding complex; mTORC1 also phosphorylates and activates p70 S6 kinase (S6K), which in turn phosphorylates ribosomal protein S6 and the eIF4B helicase activator. The net effect is upregulation of cap-dependent translation initiation; the effect is particularly strong on transcripts with structured 5' UTRs and on the TOP-mRNAs that encode ribosomal proteins and translation factors.</li>
+            </ul>
+
+            <p>Additional regulatory layers include codon-usage-mediated control of elongation rate, translational pausing at structured mRNA elements, microRNA-mediated repression, and trans-acting RNA-binding proteins that mask or unmask specific transcripts.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Polysome and ribosome profiling</h2>
+
+            <p><strong>Polysome profiling</strong> separates mRNAs by the number of ribosomes loaded on them, using sucrose density gradient centrifugation. Transcripts in heavy polysomes are inferred to be efficiently translated; transcripts in the monosome or sub-monosome fractions are inferred to be poorly translated. The method gives a transcript-resolution view of translation but no information about which codons the ribosomes are at.</p>
+
+            <p><strong>Ribosome profiling (Ribo-seq)</strong> takes the picture to codon resolution. Introduced by <a href="https://pubmed.ncbi.nlm.nih.gov/19213877/" rel="noopener">Ingolia, Ghaemmaghami, Newman and Weissman (2009, Science 324:218)</a>, the method works by halting translation in cells (typically with cycloheximide, harringtonine, or flash-freezing), digesting unprotected RNA with nuclease, isolating the ~28-nucleotide mRNA fragments protected by ribosomes, and deep-sequencing them. The resulting density of ribosome footprints across each transcript gives a snapshot of where translating ribosomes are at the moment of harvest, supporting analysis of translation rate, uORF usage, alternative start-site selection, and translation of non-canonical open reading frames. Ribosome profiling has become the dominant high-throughput approach to translation.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Co-translational folding and chaperones</h2>
+
+            <p>A polypeptide does not wait for translation to finish before it begins to fold. Co-translational folding starts as the nascent chain emerges from the ribosomal exit tunnel; chaperones engage the chain at the tunnel exit and assist folding while elongation continues. The chaperone networks that handle folding, refolding, and triage of misfolded clients are reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/21776078/" rel="noopener">Hartl, Bracher and Hayer-Hartl (2011, Nature 475:324)</a>:</p>
+
+            <ul>
+                <li><strong>Hsp70 (DnaK in bacteria; HSPA family in eukaryotes)</strong>: an ATP-dependent chaperone that binds short hydrophobic segments exposed in nascent or unfolded clients. J-domain co-chaperones (HSP40 / DNAJ family) deliver clients; nucleotide exchange factors release them. Hsp70 cycles substrates through bound and free states, suppressing aggregation and supporting folding.</li>
+                <li><strong>Hsp90 (HSPC family in eukaryotes)</strong>: an ATP-dependent dimeric chaperone that handles a large set of metastable clients including kinases, transcription factors, and steroid receptors. Hsp90 acts late in folding, after Hsp70.</li>
+                <li><strong>GroEL / GroES (HSP60 / HSP10 in mitochondria; CCT / TRiC in the eukaryotic cytosol)</strong>: chaperonins, double-ring complexes that enclose a single client in a folding chamber capped by the co-chaperonin lid; ATP-driven cycling between open and closed states gives the substrate a confined, hydrophilic environment in which to fold.</li>
+                <li><strong>Other systems</strong>: small Hsps (sHsps, e.g. HSPB family) act as ATP-independent holdases for stressed clients; the prefoldin complex feeds substrates to the eukaryotic chaperonin; nascent-polypeptide-associated complex (NAC) and the signal recognition particle (SRP) act at the ribosome exit tunnel, handing chains to the cytosolic chaperone network or to the translocon.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Protein quality control: ubiquitin-proteasome and autophagy</h2>
+
+            <p>Proteins that fail to fold, that are damaged, or that have outlived their usefulness must be cleared. Two systems do most of the work:</p>
+
+            <ul>
+                <li><strong>The ubiquitin-proteasome system (UPS)</strong>. Substrates are tagged with poly-ubiquitin chains by an E1 (ubiquitin-activating), E2 (ubiquitin-conjugating), and E3 (ubiquitin-ligase) enzyme cascade. Humans have two E1s, around 40 E2s, and over 600 E3s; substrate selectivity is encoded principally in the E3 layer. K48-linked poly-ubiquitin is the canonical degradation signal. The 26S proteasome &mdash; a 2.5 MDa complex consisting of a 20S proteolytic core (a barrel of four stacked rings, with the catalytic threonine residues in the inner two rings) capped by 19S regulatory particles &mdash; recognises ubiquitinated substrates, recycles the ubiquitin, unfolds the substrate (an ATP-dependent step performed by the AAA+ ATPase ring of the 19S particle), and translocates it into the catalytic chamber for hydrolysis to short peptides.</li>
+                <li><strong>Autophagy</strong>. Bulk and selective degradation of cytoplasmic contents through delivery to the lysosome / vacuole. Macroautophagy engulfs cargo in a double-membrane autophagosome that fuses with the lysosome; mitophagy, ribophagy, aggrephagy, and other selective autophagy pathways use cargo-receptor proteins (p62 / SQSTM1, NBR1, OPTN, NDP52) to target specific organelles or aggregates. The ATG protein machinery, identified in yeast genetic screens for which the 2016 Nobel Prize was awarded to Yoshinori Ohsumi, builds the autophagosome.</li>
+            </ul>
+
+            <p>Mis-handling of folding or quality control is a major source of human disease. Cystic fibrosis (mis-folding of CFTR-&Delta;F508 caught by ER quality control), &alpha;1-antitrypsin deficiency (polymerised mis-folded protein in hepatocytes), and many neurodegenerative diseases (aggregation of &alpha;-synuclein, tau, huntingtin) sit on this axis.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Post-translational modifications</h2>
+
+            <p>The polypeptide leaving the ribosome is a starting point, not a finished product. Covalent modifications adjust activity, localisation, interactions, and turnover. The major modifications are:</p>
+
+            <ul>
+                <li><strong>Phosphorylation</strong>: transfer of a phosphate group to Ser, Thr, or Tyr (also His in some contexts) by a protein kinase; reversed by phosphatases. Around a third of human proteins are phosphorylated; phosphorylation is the dominant covalent mechanism of acute signalling.</li>
+                <li><strong>Acetylation</strong>: transfer of an acetyl group to lysine (most studied on histones and on metabolic enzymes), catalysed by lysine acetyltransferases (KATs / HATs) and reversed by lysine deacetylases (KDACs / HDACs / sirtuins).</li>
+                <li><strong>Methylation</strong>: methyl-group transfer to Lys or Arg, catalysed by lysine and arginine methyltransferases; central to the histone code and to the regulation of many non-histone substrates.</li>
+                <li><strong>Ubiquitination</strong>: covalent attachment of ubiquitin to Lys (or, more rarely, to N-termini, Cys, Ser, or Thr); chain-type-dependent functions span proteasomal degradation (K48), signalling (K63), inflammation (M1 / linear), and many specialised roles.</li>
+                <li><strong>Glycosylation</strong>: covalent attachment of carbohydrate, with the major classes being N-linked glycosylation on Asn (in the secretory pathway), O-linked glycosylation on Ser / Thr (mucin-type O-GalNAc, O-GlcNAc, and others), GPI anchoring at C-termini, and proteoglycan glycosaminoglycan modification. N-linked glycosylation is essential to the folding and quality control of secreted and membrane proteins.</li>
+                <li><strong>SUMOylation</strong>: covalent attachment of SUMO (Small Ubiquitin-like MOdifier) to Lys, with effects on transcription factor activity, nuclear-cytoplasmic transport, DNA repair, and chromatin organisation.</li>
+                <li><strong>Other modifications</strong>: lipidation (myristoylation, palmitoylation, prenylation) anchoring proteins to membranes; ADP-ribosylation by the PARP family in DNA damage response; hydroxylation of proline (in collagen and HIF-&alpha;); citrullination by PADs; many more.</li>
+            </ul>
+
+            <p>The combinatorial layering of these modifications &mdash; sometimes called the "PTM code" &mdash; expands the functional repertoire of a fixed proteome and links it dynamically to the upstream regulation covered on the <a href="transcriptional-machinery.html">transcriptional machinery</a> and <a href="rna-processing-and-stability.html">RNA processing and stability</a> pages.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the eukaryotic ribosome made of?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">An 80S complex of a 40S small subunit (18S rRNA + ~33 proteins) and a 60S large subunit (28S, 5.8S, 5S rRNAs + ~47 proteins). The peptidyl transferase centre is built of rRNA &mdash; the ribosome is a ribozyme.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What are the main steps of translation?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Initiation, elongation, termination, recycling. Each uses dedicated factors and consumes GTP.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How is translation regulated?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Principally at initiation: by eIF2&alpha; phosphorylation in the integrated stress response and by mTOR-controlled eIF4E availability. IRES elements allow selective translation under stress.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is ribosome profiling?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A deep-sequencing method (Ingolia 2009) that maps ribosome positions on mRNAs at codon resolution by sequencing the mRNA fragments protected by translating ribosomes from nuclease digestion.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the ubiquitin-proteasome system?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The pathway that tags proteins with poly-ubiquitin (typically K48-linked) for recognition, unfolding, and hydrolysis by the 26S proteasome.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+            <ul>
+                <li><a href="gene-expression-mechanisms.html">Gene expression mechanisms</a> &mdash; pillar overview</li>
+                <li><a href="transcriptional-machinery.html">Transcriptional machinery</a></li>
+                <li><a href="rna-processing-and-stability.html">RNA processing and stability</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="gene-expression-mechanisms.html" class="hover:text-white transition-colors">Gene expression mechanisms</a></li><li><a href="transcriptional-machinery.html" class="hover:text-white transition-colors">Transcriptional machinery</a></li><li><a href="rna-processing-and-stability.html" class="hover:text-white transition-colors">RNA processing and stability</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

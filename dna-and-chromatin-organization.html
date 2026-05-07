@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNA and Chromatin Organisation — Nucleosomes, TADs, Hi-C | Evagene</title>
+    <meta name="description" content="Nucleotide chemistry, Watson-Crick and Hoogsteen base pairing, base-pairing thermodynamics, DNA supercoiling and topoisomerases, the histone octamer and nucleosome, the 30 nm fibre debate, Hi-C, A/B compartments, and TADs. Educational reference.">
+    <meta name="keywords" content="DNA chromatin organisation, nucleosome structure, histone octamer, DNA supercoiling, topoisomerase, base pairing thermodynamics, Hoogsteen pairing, 30nm fibre, TAD, topologically associating domain, Hi-C, A/B compartments, polymer physics chromatin, Lieberman-Aiden, Dixon 2012, Nora 2012, Luger 1997">
+
+    <meta property="og:title" content="DNA and Chromatin Organisation — Nucleosomes, TADs, Hi-C | Evagene">
+    <meta property="og:description" content="Nucleotide chemistry, base-pairing energetics, supercoiling, topoisomerases, the nucleosome, the 30 nm fibre debate, A/B compartments, and TADs.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/dna-and-chromatin-organization">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DNA and Chromatin Organisation — Nucleosomes, TADs, Hi-C">
+    <meta name="twitter:description" content="From base pairing to TADs: a structured tour through chromatin organisation.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/dna-and-chromatin-organization">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"DNA and Chromatin Organisation: Nucleosomes, Supercoiling, A/B Compartments, and TADs",
+        "description":"Nucleotide chemistry; Watson-Crick and Hoogsteen base pairing; base-pairing thermodynamics; DNA supercoiling and topoisomerases; the histone octamer and the nucleosome core particle; the 30 nm fibre debate; Hi-C methodology; A/B compartments; topologically associating domains; the polymer-physics view of chromatin.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/dna-and-chromatin-organization"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["DNA chromatin organisation","nucleosome","TAD","Hi-C","supercoiling","topoisomerase","A/B compartments","Hoogsteen pairing"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"DNA and Chromatin Organisation",
+        "description":"Educational reference on nucleotide chemistry, base-pairing energetics, DNA supercoiling, topoisomerases, the nucleosome, the 30 nm fibre debate, Hi-C, and TADs.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Undergraduate, Postgraduate, Professional",
+        "audience":{"@type":"EducationalAudience","educationalRole":"Student, Researcher, Educator, Clinician"},
+        "url":"https://evagene.com/dna-and-chromatin-organization",
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Molecular Architecture of Genes","item":"https://evagene.com/molecular-architecture-of-genes"},
+            {"@type":"ListItem","position":3,"name":"DNA and Chromatin Organisation","item":"https://evagene.com/dna-and-chromatin-organization"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"How do Watson-Crick and Hoogsteen base pairs differ?","acceptedAnswer":{"@type":"Answer","text":"Watson-Crick pairs hydrogen-bond between the canonical Watson-Crick edges of the bases (A-T two H-bonds, G-C three H-bonds) and form the standard B-form double helix. Hoogsteen pairs use the major-groove (Hoogsteen) edge of the purine and require the purine to flip into the syn glycosidic conformation. They appear transiently in normal duplex DNA, in triplex and quadruplex structures, and at distorted lesions, and are detectable by NMR at populations of a few percent."}},
+            {"@type":"Question","name":"What does Lk = Tw + Wr mean?","acceptedAnswer":{"@type":"Answer","text":"For a closed circular DNA the linking number Lk — the integer number of times one strand passes through the other — equals the sum of the twist Tw (helical turns of the duplex) and the writhe Wr (coiling of the duplex axis through space). Lk is a topological invariant; Tw and Wr can interconvert as the molecule deforms. Topoisomerases change Lk by transient strand breakage and re-ligation."}},
+            {"@type":"Question","name":"What is a topologically associating domain (TAD)?","acceptedAnswer":{"@type":"Answer","text":"A TAD is a self-interacting genomic region of typically several hundred kilobases to a few megabases within which DNA-DNA contacts are enriched and across whose boundaries contacts are depleted. TADs were identified in 2012 by Hi-C in mouse embryonic stem cells (Dixon et al., Nature 485:376) and at the X-inactivation centre (Nora et al., Nature 485:381). They are largely formed by cohesin-mediated loop extrusion bounded by convergent CTCF sites."}},
+            {"@type":"Question","name":"Is the 30 nm chromatin fibre real?","acceptedAnswer":{"@type":"Answer","text":"The 30 nm fibre — modelled either as a one-start solenoid or a two-start zigzag — is observable in vitro under low-salt conditions and remains a textbook level of chromatin folding. In situ evidence from cryo-electron tomography and ChromEMT now suggests that interphase chromatin in the nucleus is more disordered, a 5-24 nm polymer rather than a regular 30 nm fibre. Both views remain in active debate."}},
+            {"@type":"Question","name":"What is Hi-C?","acceptedAnswer":{"@type":"Answer","text":"Hi-C is a chromosome-conformation-capture method that crosslinks chromatin in vivo, digests it with a restriction enzyme, ligates the proximity-ligated fragments, and sequences the junctions to produce a genome-wide contact matrix. Hi-C revealed A/B compartments and the principle of fractal-globule folding (Lieberman-Aiden et al. 2009) and is the experimental basis for TAD identification."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="molecular-architecture-of-genes.html" class="hover:text-brand-600 dark:hover:text-brand-300">Molecular Architecture of Genes</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">DNA and Chromatin Organisation</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">DNA and chromatin organisation: from base pairs to topologically associating domains</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">From the chemistry of nucleotides through to the megabase-scale organisation of interphase chromosomes, the genome is folded across nine orders of magnitude in length. This page covers the canonical layers: base-pairing energetics, supercoiling and the topoisomerases that manage it, the histone octamer and the nucleosome core particle, the unresolved status of the 30 nm fibre, Hi-C and what it revealed, A/B compartments, and topologically associating domains.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>13 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> DNA is an antiparallel double helix held together by hydrogen bonds and stabilised by base stacking. The duplex is supercoiled, and topoisomerases manage that supercoiling. ~147 bp wraps around a histone octamer to form the nucleosome core particle. Whether the 30 nm fibre exists in nuclei is contested. Above the nucleosome level, the genome partitions into chromatin loops, topologically associating domains (TADs), A/B compartments, and chromosome territories &mdash; a layered architecture mapped genome-wide by Hi-C since 2009.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Nucleotide chemistry</h2>
+
+            <p>Each deoxyribonucleotide is a 2'-deoxyribose sugar bearing a nitrogenous base on its 1' carbon and a phosphate on its 5' carbon. The four canonical bases are adenine and guanine (purines, two-ring) and cytosine and thymine (pyrimidines, one-ring). Adjacent nucleotides are linked by a phosphodiester bond between the 3'-OH of one sugar and the 5'-phosphate of the next, giving the chain its 5'&rarr;3' polarity. The polymer is hydrophilic on the outside (sugar-phosphate backbone, deprotonated at physiological pH and therefore polyanionic) and hydrophobic on the inside (stacked bases).</p>
+
+            <p>Two strands form an antiparallel duplex through base pairing. Adenine pairs with thymine through two hydrogen bonds; guanine pairs with cytosine through three. The 5'&rarr;3' direction of one strand runs opposite the 5'&rarr;3' direction of the other &mdash; the antiparallel orientation that allows complementary base contacts to form. The duplex is right-handed in B-form, with ~10.5 bp per turn under physiological salt and a mean rise of 3.4 &Aring; per base pair. Major and minor grooves of distinct widths and chemistries expose base edges to protein readers; many DNA-binding proteins read sequence through major-groove contacts. The double helix was proposed by <a href="https://pubmed.ncbi.nlm.nih.gov/13054692/" rel="noopener">Watson and Crick 1953</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Watson&ndash;Crick versus Hoogsteen pairing</h2>
+
+            <p>The canonical pairing geometry uses the Watson&ndash;Crick edge of each base. In Hoogsteen pairing, named for Karst Hoogsteen's 1959 X-ray crystallography of A&middot;T co-crystals, the purine flips into the syn conformation around the glycosidic bond and presents its major-groove edge to the pyrimidine; A&middot;T Hoogsteen has two hydrogen bonds, while protonated G&middot;C<sup>+</sup> Hoogsteen has three. In duplex DNA, NMR relaxation-dispersion experiments have shown that Watson&ndash;Crick and Hoogsteen pairs interconvert at ~1&#37; population in normal contexts, and that the Hoogsteen population rises sharply at distorted lesions, abasic sites, and certain protein-bound complexes. Hoogsteen pairs are the basis for triplex DNA and several G-quadruplex topologies, and they participate in the recognition of damaged bases by certain DNA repair machineries. Energetic and structural reviews of these alternative geometries are widely available; the textbook position is that the duplex spends most of its time in Watson&ndash;Crick conformation but has measurable Hoogsteen excursions.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Base-pairing thermodynamics</h2>
+
+            <p>Duplex stability is dominated by base stacking, not hydrogen bonding. Stacking arises from van der Waals dispersion forces and the hydrophobic effect of removing aromatic surface from water; it is sequence-dependent through the geometry and electrostatics of adjacent base steps. Nearest-neighbour models (the <a href="https://doi.org/10.1073/pnas.95.4.1460" rel="noopener">SantaLucia 1998</a> unified parameters are the standard) compute &Delta;G&deg;, &Delta;H&deg;, and &Delta;S&deg; for a duplex from its sequence by summing the contributions of the ten distinct nearest-neighbour dinucleotide steps. The melting temperature T<sub>m</sub> &mdash; the temperature at which 50&#37; of duplexes are denatured &mdash; depends on length, GC content, salt, and the specific nearest-neighbour composition. GC pairs add stability not only through their three hydrogen bonds but also through favourable stacking, and CG/GC steps are among the most thermodynamically stable. The same model underlies primer-design, hybridisation-probe, and oligonucleotide-aptamer engineering.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">DNA supercoiling and topoisomerases</h2>
+
+            <p>For a closed circular duplex (or any duplex with constrained ends), the linking number Lk is the integer number of times one strand passes through the other. Lk is a topological invariant: it cannot change without strand breakage. The topological identity Lk = Tw + Wr partitions Lk into the twist Tw (helical turns of the duplex around its axis) and the writhe Wr (coiling of the duplex axis through space). Cellular DNA is maintained slightly negatively supercoiled, with a superhelical density &sigma; of ~&minus;0.05 (about 5&#37; under-wound relative to a relaxed duplex of the same length). Negative supercoiling lowers the free-energy cost of strand separation during transcription and replication and biases certain non-B-form geometries (cruciforms, Z-DNA, R-loops, G-quadruplexes).</p>
+
+            <p>Topoisomerases are the enzymes that change Lk. Type I topoisomerases (Top1 in eukaryotes) introduce a transient single-strand break, allow controlled rotation, and re-ligate, changing Lk in steps of one. Type II topoisomerases (Top2&alpha; and Top2&beta; in eukaryotes) introduce a transient double-strand break, pass a second duplex through the gap, and re-ligate, changing Lk in steps of two. Top2 activity is essential for sister-chromatid decatenation at mitosis and for relieving the positive supercoiling that accumulates ahead of replication forks. <a href="https://pubmed.ncbi.nlm.nih.gov/8811193/" rel="noopener">Wang 1996</a> remains a canonical review of topoisomerase mechanism. Topoisomerase II is a major target of clinically used anti-cancer drugs (etoposide, doxorubicin), which act by trapping the cleaved-DNA-enzyme intermediate.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The histone octamer and the nucleosome core particle</h2>
+
+            <p>Eukaryotic DNA is packaged with a near-stoichiometric quantity of histone protein. The four core histones (H2A, H2B, H3, H4) are small, basic proteins of ~100&ndash;130 amino acids, each built around a histone-fold domain (three &alpha;-helices linked by two short loops). The four assemble into an (H3-H4)<sub>2</sub> tetramer flanked by two H2A-H2B dimers, giving an octameric core. ~147 bp of DNA wraps around the octamer in 1.65 left-handed superhelical turns, contacting the histone-fold faces at fourteen widely separated minor-groove inward-facing positions. The 2.8 &Aring; X-ray crystal structure of the nucleosome core particle (<a href="https://pubmed.ncbi.nlm.nih.gov/9305837/" rel="noopener">Luger et al. 1997</a>) is the canonical reference; subsequent cryo-EM and crystallographic work has refined the picture to sub-3 &Aring; resolution under varying conditions and modifications.</p>
+
+            <p>Linker DNA (~20&ndash;80 bp depending on cell type and species) connects adjacent nucleosomes; the linker histone H1 binds at the dyad and stabilises ~166 bp of DNA in the chromatosome (core particle plus H1). The flexible amino-terminal histone tails project out from the core and are the substrate for the great majority of post-translational modifications (acetylation, methylation, phosphorylation, ubiquitylation, sumoylation, ADP-ribosylation), which are read and written by the conserved chromatin-modification machinery and which underpin much of epigenetic inheritance.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The 30 nm fibre debate</h2>
+
+            <p>For decades, textbooks pictured a regular 30 nm chromatin fibre intermediate between the 10 nm "beads on a string" and higher-order folds. Two competing geometries dominated: the one-start solenoid (six nucleosomes per turn, helical) and the two-start zigzag (alternating nucleosomes contact each other, with a more open helical lattice). Both geometries are observable in vitro at appropriate ionic strengths and nucleosome repeat lengths. In situ, however, the 30 nm fibre has been hard to visualise: cryo-electron tomography of mitotic chromosomes and nuclei shows a more disordered polymer of 5&ndash;24 nm in diameter, and ChromEMT (Ou et al. 2017) imaged interphase chromatin as a disordered chain of nucleosomes packed at varying densities. The contemporary consensus is that the 30 nm fibre forms in vitro and may form in some specific in-vivo contexts (heterochromatin in particular), but that the dominant interphase fold is more polymer-physical than crystalline.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Hi-C and the genome-wide contact map</h2>
+
+            <p>Chromosome conformation capture (3C, <a href="https://pubmed.ncbi.nlm.nih.gov/11847345/" rel="noopener">Dekker et al. 2002</a>) crosslinks chromatin in vivo, digests with a restriction enzyme, ligates spatially proximal fragments, and quantifies the resulting junction frequencies. Hi-C generalises 3C to a genome-wide contact matrix: after crosslinking and digestion, the proximity-ligated junctions are biotin-tagged, sheared, captured, and paired-end sequenced to produce a contact frequency matrix at megabase to kilobase resolution. <a href="https://pubmed.ncbi.nlm.nih.gov/19815776/" rel="noopener">Lieberman-Aiden et al. 2009</a> introduced Hi-C and described two principal findings: contact-frequency-versus-genomic-distance scaling consistent with a fractal-globule rather than equilibrium-globule polymer, and the partitioning of the genome into A and B compartments.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">A/B compartments</h2>
+
+            <p>Principal-component analysis of the Hi-C matrix at 1 Mb resolution decomposes the genome into two compartments. The A compartment is gene-dense, transcriptionally active, GC-rich, replicates early in S phase, and contacts other A regions across the chromosome and between chromosomes. The B compartment is gene-poor, transcriptionally inactive, AT-rich, late-replicating, often associated with the nuclear lamina, and contacts other B regions. Compartment identity correlates with chromatin marks (H3K4me1/3, H3K27ac for A; H3K9me2/3, lamin association for B) and is largely cell-type-specific at the boundaries.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Topologically associating domains (TADs)</h2>
+
+            <p>At sub-megabase resolution, the contact matrix decomposes into self-interacting domains: TADs. <a href="https://pubmed.ncbi.nlm.nih.gov/22495300/" rel="noopener">Dixon et al. 2012</a> identified ~2,200 TADs in mouse embryonic stem cells with a median size of ~880 kb and showed that TAD boundaries are largely conserved across cell types and partially conserved with human syntenic regions. <a href="https://pubmed.ncbi.nlm.nih.gov/22495304/" rel="noopener">Nora et al. 2012</a> independently identified the same domain organisation at the X-inactivation centre, with the boundary between the Xist-encompassing and Tsix-encompassing domains controlling the cis-regulatory landscape.</p>
+
+            <p>TADs are largely produced by cohesin-mediated loop extrusion: the cohesin ring loads onto chromatin and extrudes a progressively larger loop until it encounters a convergent CTCF site, where it is stalled. The result is a population of dynamic loops with anchors at convergent CTCF sites and a TAD-like contact pattern in the population average. Mutation of CTCF anchor sites or depletion of cohesin abolishes TAD structure and can alter cis-regulatory contacts &mdash; the mechanism behind several developmental phenotypes in which TAD-boundary disruption brings normally separated enhancers and promoters into contact. <a href="https://pubmed.ncbi.nlm.nih.gov/27739533/" rel="noopener">Bonev and Cavalli 2016</a> review the integrated picture.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">A polymer-physics view</h2>
+
+            <p>Polymer physics provides a quantitative scaffold. The contact-frequency-versus-genomic-distance scaling P(s) decays as a power law whose exponent depends on the polymer state: ~&minus;1.5 for an equilibrium-globule random walk, ~&minus;1 for a fractal-globule (the experimentally observed regime in Hi-C above ~500 kb), and ~&minus;2 for a self-avoiding walk. Loop-extrusion simulations reproduce TADs, the s<sup>&minus;1</sup> scaling regime, and the loss of TAD structure under cohesin depletion. The polymer model has displaced the older purely-hierarchical view: chromatin is now treated as a heterogeneous polymer that adopts characteristic statistical conformations rather than a rigid hierarchy of fibres.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why this matters for pedigree-modelling teaching</h2>
+
+            <p>Disruption of chromatin architecture &mdash; through TAD-boundary deletion, structural variant rearrangement of CTCF anchors, or topoisomerase deficiency &mdash; can alter cis-regulatory contacts and drive disease phenotypes that look misleadingly like simple coding mutations on a pedigree. A working understanding of the architecture is therefore part of the interpretive context for any inherited-condition discussion. Evagene's <a href="pedigree-drawing-tool.html">pedigree drawing tool</a> and <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a> are educational and research tools; outputs are illustrative for teaching and study only. See the companion pages on <a href="dna-replication-and-repair.html">DNA replication and repair</a> and <a href="genome-structure-and-variation.html">genome structure and variation</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Key references</h2>
+
+            <ul>
+                <li>Watson JD, Crick FHC. A structure for deoxyribose nucleic acid. <em>Nature</em> 171:737&ndash;738 (1953). <a href="https://pubmed.ncbi.nlm.nih.gov/13054692/" rel="noopener">PMID 13054692</a>.</li>
+                <li>Luger K et al. Crystal structure of the nucleosome core particle at 2.8 &Aring; resolution. <em>Nature</em> 389:251&ndash;260 (1997). <a href="https://pubmed.ncbi.nlm.nih.gov/9305837/" rel="noopener">PMID 9305837</a>.</li>
+                <li>Wang JC. DNA topoisomerases. <em>Annu Rev Biochem</em> 65:635&ndash;692 (1996). <a href="https://pubmed.ncbi.nlm.nih.gov/8811193/" rel="noopener">PMID 8811193</a>.</li>
+                <li>Lieberman-Aiden E et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. <em>Science</em> 326:289&ndash;293 (2009). <a href="https://pubmed.ncbi.nlm.nih.gov/19815776/" rel="noopener">PMID 19815776</a>.</li>
+                <li>Dixon JR et al. Topological domains in mammalian genomes identified by analysis of chromatin interactions. <em>Nature</em> 485:376&ndash;380 (2012). <a href="https://pubmed.ncbi.nlm.nih.gov/22495300/" rel="noopener">PMID 22495300</a>.</li>
+                <li>Nora EP et al. Spatial partitioning of the regulatory landscape of the X-inactivation centre. <em>Nature</em> 485:381&ndash;385 (2012). <a href="https://pubmed.ncbi.nlm.nih.gov/22495304/" rel="noopener">PMID 22495304</a>.</li>
+                <li>Bonev B, Cavalli G. Organization and function of the 3D genome. <em>Nat Rev Genet</em> 17:661&ndash;678 (2016). <a href="https://pubmed.ncbi.nlm.nih.gov/27739533/" rel="noopener">PMID 27739533</a>.</li>
+                <li>SantaLucia J Jr. A unified view of polymer, dumbbell, and oligonucleotide DNA nearest-neighbor thermodynamics. <em>PNAS</em> 95:1460&ndash;1465 (1998). <a href="https://doi.org/10.1073/pnas.95.4.1460" rel="noopener">doi:10.1073/pnas.95.4.1460</a>.</li>
+                <li>Dekker J et al. Capturing chromosome conformation. <em>Science</em> 295:1306&ndash;1311 (2002). <a href="https://pubmed.ncbi.nlm.nih.gov/11847345/" rel="noopener">PMID 11847345</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How do Watson&ndash;Crick and Hoogsteen base pairs differ?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Watson&ndash;Crick pairs use the canonical edges and form the standard B-form duplex. Hoogsteen pairs use the major-groove edge of the purine, which must flip into the syn glycosidic conformation. They appear as a few-percent population in normal duplex DNA and are enriched at lesions and in triplex / quadruplex structures.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What does Lk = Tw + Wr mean?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">For a closed circular duplex, the linking number Lk &mdash; a topological invariant &mdash; equals the sum of the twist Tw and the writhe Wr. Topoisomerases change Lk by transient breakage and re-ligation.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a topologically associating domain?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A self-interacting genomic region (typically several hundred kilobases to a few megabases) within which contacts are enriched and across whose boundaries contacts are depleted. Identified by Hi-C in 2012 (Dixon et al., Nora et al.).</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is the 30 nm fibre real?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">It forms in vitro under specific conditions and is a real structural state. Whether it dominates interphase chromatin in nuclei is contested; cryo-EM tomography and ChromEMT support a more disordered 5&ndash;24 nm polymer in vivo.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is Hi-C?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A chromosome-conformation-capture method that produces a genome-wide contact map by crosslinking, restriction digestion, proximity ligation, and paired-end sequencing of the resulting junctions.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="molecular-architecture-of-genes.html">Molecular architecture of genes</a> (pillar)</li>
+                <li><a href="dna-replication-and-repair.html">DNA replication and repair</a></li>
+                <li><a href="genome-structure-and-variation.html">Genome structure and variation</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="pedigree-drawing-tool.html">Pedigree drawing tool</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree modelling platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, 20 published risk models for research and teaching, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. Not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="molecular-architecture-of-genes.html" class="hover:text-white transition-colors">Molecular architecture of genes</a></li><li><a href="dna-replication-and-repair.html" class="hover:text-white transition-colors">DNA replication &amp; repair</a></li><li><a href="genome-structure-and-variation.html" class="hover:text-white transition-colors">Genome structure &amp; variation</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="pedigree-drawing-tool.html" class="hover:text-white transition-colors">Pedigree drawing tool</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gene Expression Mechanisms — Transcription, RNA, Translation | Evagene</title>
+    <meta name="description" content="An educational pillar on gene expression: transcription by eukaryotic RNA polymerases, RNA processing and stability, translation, and post-translational regulation. Citations to Crick 1970, Berget 1977, Ban 2000, and the modern RNA-seq literature.">
+    <meta name="keywords" content="gene expression, gene expression mechanisms, transcription, translation, RNA processing, central dogma, mRNA splicing, ribosome structure, RNA-seq, eukaryotic gene regulation, molecular biology teaching">
+
+    <meta property="og:title" content="Gene Expression Mechanisms — Transcription, RNA, Translation | Evagene">
+    <meta property="og:description" content="Educational pillar covering transcription, RNA processing and stability, translation, and post-translational regulation, with citations to the foundational and modern literature.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/gene-expression-mechanisms">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gene Expression Mechanisms — Transcription, RNA, Translation">
+    <meta name="twitter:description" content="An educational pillar on the central dogma, RNA processing, ribosome function, and post-translational regulation.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/gene-expression-mechanisms">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Gene Expression Mechanisms: Transcription, RNA Processing, Translation, and Post-Translational Regulation",
+        "description":"Educational pillar covering the four stages of eukaryotic gene expression with citations to Crick 1970, Berget Moore and Sharp 1977, Ban et al. 2000, and the modern RNA-seq literature. Written for students, educators, and researchers.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/gene-expression-mechanisms"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["gene expression","transcription","translation","RNA processing","central dogma","mRNA splicing","ribosome structure","RNA-seq"],
+        "about":[
+            {"@type":"DefinedTerm","name":"Central dogma of molecular biology"},
+            {"@type":"DefinedTerm","name":"mRNA splicing"},
+            {"@type":"DefinedTerm","name":"Ribosome"},
+            {"@type":"DefinedTerm","name":"RNA-seq"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Gene Expression Mechanisms",
+        "description":"An educational pillar on the four stages of gene expression: transcription, RNA processing, translation, and post-translational regulation.",
+        "url":"https://evagene.com/gene-expression-mechanisms",
+        "learningResourceType":"Topic overview",
+        "educationalLevel":"Undergraduate / postgraduate / specialist",
+        "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Learn","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Gene Expression Mechanisms","item":"https://evagene.com/gene-expression-mechanisms"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is the central dogma of molecular biology?","acceptedAnswer":{"@type":"Answer","text":"The central dogma, articulated by Francis Crick in 1958 and restated in Nature in 1970, holds that sequence information flows from DNA to RNA to protein, and that once it has passed into protein it cannot flow back to nucleic acid. The dogma is about residue-by-residue sequence information, not about regulation; reverse transcription (RNA to DNA) is consistent with the dogma because the RNA-to-DNA transfer is itself a sequence-information transfer that the dogma allows."}},
+            {"@type":"Question","name":"What are the four stages of gene expression covered on this page?","acceptedAnswer":{"@type":"Answer","text":"Transcription (DNA to RNA, performed by eukaryotic RNA polymerases I, II, and III); RNA processing (5' capping, splicing of introns, 3' cleavage and polyadenylation, nuclear export); translation (decoding of the mRNA on the ribosome); and post-translational regulation (folding by chaperones, covalent modification, and turnover by the ubiquitin-proteasome system or autophagy)."}},
+            {"@type":"Question","name":"Why is the discovery of mRNA splicing important?","acceptedAnswer":{"@type":"Answer","text":"In 1977 Berget, Moore and Sharp at MIT and Chow, Gelinas, Broker and Roberts at Cold Spring Harbor independently demonstrated that adenovirus mRNAs are not collinear with their DNA templates: the mature mRNA is assembled from non-contiguous regions of the genome by removing intervening sequences. This discovery showed that eukaryotic genes are split into exons and introns and that the eukaryotic transcriptome is shaped by splicing, which underlies alternative isoform diversity."}},
+            {"@type":"Question","name":"How is gene expression measured today?","acceptedAnswer":{"@type":"Answer","text":"RNA sequencing (RNA-seq) is the dominant quantitative method, introduced in mammalian transcriptomics by Mortazavi et al. 2008 in Nature Methods. RNA-seq counts reads mapped to each transcript and reports abundance in normalised units such as RPKM, FPKM, or TPM. Single-cell RNA-seq, ribosome profiling (Ingolia et al. 2009), and spatial transcriptomics have extended the toolkit for studying gene expression at finer resolution."}},
+            {"@type":"Question","name":"Is gene expression covered on this page in a clinical context?","acceptedAnswer":{"@type":"Answer","text":"No. This page is an educational overview written for students, educators, and researchers. Evagene is positioned as an academic, research, and educational pedigree modelling platform; it is not a medical device, not clinical decision support, and not a diagnostic or screening tool. The literature cited here is for teaching and reference."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="https://evagene.com/#resources" class="hover:text-brand-600 dark:hover:text-brand-300">Learn</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Gene Expression Mechanisms</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Gene expression mechanisms: from DNA to functional protein</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A pillar overview of the four stages by which a eukaryotic gene becomes a functional protein: transcription, RNA processing, translation, and post-translational regulation. The page introduces the foundational papers &mdash; Crick on the central dogma, Berget, Moore and Sharp on mRNA splicing, Ban and colleagues on the ribosome &mdash; and signposts the three subtopic pages where each stage is covered in depth.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>12 min read</span>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>Educational</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Gene expression is the process by which the information stored in a DNA sequence is decoded into a functional product, almost always a protein. In eukaryotes the journey has four stages: a polymerase reads the gene into pre-messenger RNA (transcription); the pre-mRNA is capped, spliced, polyadenylated, and exported (RNA processing); the ribosome reads the mature mRNA into a polypeptide (translation); and the polypeptide is folded, modified, sorted, and eventually degraded (post-translational regulation). Each stage is regulated, each stage is a source of disease when it goes wrong, and each stage has yielded Nobel Prizes for the people who first worked it out. This pillar introduces the four stages and the canonical literature; the three subtopic pages take each stage in depth.</p>
+
+            <p><em>Educational positioning.</em> Evagene is an academic, research, and educational pedigree modelling platform. This page and its subtopic pages are written for students, educators, and researchers; they are not a medical device, not clinical decision support, and not a diagnostic or screening tool. The literature cited here is for teaching and reference.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The central dogma</h2>
+
+            <p>The framework for thinking about gene expression is the <strong>central dogma of molecular biology</strong>, articulated by Francis Crick in 1958 and restated in his classic <em>Nature</em> paper, <a href="https://www.nature.com/articles/227561a0" rel="noopener">"Central dogma of molecular biology"</a> (<a href="https://pubmed.ncbi.nlm.nih.gov/4913914/" rel="noopener">Crick 1970, Nature 227:561</a>). The dogma is a statement about <em>residue-by-residue sequence information</em>: information flows from nucleic acid to nucleic acid (DNA to DNA, DNA to RNA, RNA to RNA, RNA to DNA) and from nucleic acid to protein, but never out of protein back into nucleic acid. The discovery of reverse transcription does not violate the dogma, because the RNA-to-DNA transfer is itself a sequence-information transfer that Crick's framework explicitly allows.</p>
+
+            <p>For gene expression in particular, the dogma supplies the spine of the process: a gene is transcribed from one DNA strand into pre-mRNA; the pre-mRNA is processed into mature mRNA; the mature mRNA is translated into a polypeptide; the polypeptide folds into a functional protein. Each arrow on that diagram is the substance of a subtopic page below.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Stage 1 &middot; Transcription</h2>
+
+            <p>Transcription is the synthesis of an RNA copy from a DNA template. In eukaryotes there are three RNA polymerases, each dedicated to a class of genes: <strong>RNA polymerase I</strong> transcribes the ribosomal RNA precursor in the nucleolus; <strong>RNA polymerase II</strong> transcribes all protein-coding genes plus most snRNAs and many lncRNAs and miRNAs; <strong>RNA polymerase III</strong> transcribes the tRNAs, the 5S rRNA, and a small set of additional short non-coding RNAs. The shared structural plan of the eukaryotic polymerases was solved at residue resolution by <a href="https://pubmed.ncbi.nlm.nih.gov/11313498/" rel="noopener">Cramer, Bushnell and Kornberg (2001, Science 292:1863)</a>, work that contributed to Roger Kornberg's 2006 Nobel Prize in Chemistry.</p>
+
+            <p>The Pol II carboxy-terminal domain (CTD) is a long heptad repeat (consensus YSPTSPS) whose phosphorylation pattern serves as a code that recruits RNA processing factors at each step of transcription. Capping enzymes engage early; splicing factors engage during elongation; cleavage and polyadenylation factors engage at termination. Promoter architecture, general transcription factors (TFIID, TFIIH and others), the Mediator complex, and enhancer-promoter looping are the regulators that determine which Pol II transcripts are made, when, and how much.</p>
+
+            <p>Coverage of these mechanisms in depth is on <a href="transcriptional-machinery.html">Transcriptional machinery: RNA polymerases, transcription factors, and co-transcriptional processing</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Stage 2 &middot; RNA processing</h2>
+
+            <p>The pre-mRNA emerging from Pol II is not the molecule that gets translated. It is capped at the 5' end with 7-methylguanosine, has its introns excised by the spliceosome, is cleaved at a defined point and polyadenylated at the 3' end, and is then exported from the nucleus. The discovery that eukaryotic genes are split &mdash; that mRNA is assembled from non-contiguous regions of DNA by removing intervening sequences &mdash; was made independently in 1977 by <a href="https://pubmed.ncbi.nlm.nih.gov/270030/" rel="noopener">Berget, Moore and Sharp at MIT (PNAS 74:3171)</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/902310/" rel="noopener">Chow, Gelinas, Broker and Roberts at Cold Spring Harbor (Cell 12:1)</a>, working on adenovirus. Phillip Sharp and Richard Roberts shared the 1993 Nobel Prize in Physiology or Medicine for the discovery of split genes.</p>
+
+            <p>Splicing is performed by the spliceosome, a megadalton ribonucleoprotein machine assembled from five small nuclear ribonucleoprotein particles (U1, U2, U4, U5, U6 snRNPs). The chemistry is two transesterification reactions; the substrate selectivity is encoded in the splice-site sequences and modulated by SR proteins, hnRNPs, and the kinetic interplay with elongating Pol II. Alternative splicing &mdash; the production of multiple transcript isoforms from a single gene by combinatorial splice-site selection &mdash; affects the great majority of human multi-exon genes (<a href="https://pubmed.ncbi.nlm.nih.gov/18978772/" rel="noopener">Wang et al. 2008, Nature 456:470</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/18978789/" rel="noopener">Pan et al. 2008, Nature Genetics 40:1413</a>).</p>
+
+            <p>Cytoplasmic mRNA is also subject to surveillance and decay: deadenylation, decapping, exonucleolytic degradation, and nonsense-mediated decay (NMD) all shape the half-life of any given transcript and the response of the cell to misprocessed messages. Coverage in depth is on <a href="rna-processing-and-stability.html">RNA processing and stability: splicing, polyadenylation, export, and decay</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Stage 3 &middot; Translation</h2>
+
+            <p>The mature mRNA is decoded into protein by the <strong>ribosome</strong>. In eukaryotes the ribosome is an 80S ribonucleoprotein complex assembled from a small (40S) and a large (60S) subunit. The atomic-resolution structures of the bacterial ribosome subunits, solved at the turn of the millennium by Venki Ramakrishnan, Tom Steitz, and Ada Yonath, transformed the field from a catalogue of biochemistry into a structural science. The large subunit was solved by <a href="https://pubmed.ncbi.nlm.nih.gov/10937989/" rel="noopener">Ban, Nissen, Hansen, Moore and Steitz (2000, Science 289:905)</a>; the small subunit by <a href="https://pubmed.ncbi.nlm.nih.gov/11014182/" rel="noopener">Wimberly, Brodersen, Clemons, Morgan-Warren, Carter, Vonrhein, Hartsch and Ramakrishnan (2000, Nature 407:327)</a>. The three shared the 2009 Nobel Prize in Chemistry "for studies of the structure and function of the ribosome".</p>
+
+            <p>Translation is divided into initiation, elongation, and termination. In the eukaryotic cap-dependent pathway, the eIF4F complex recognises the 5' cap, eIF2-GTP delivers the initiator methionyl-tRNA, and the small subunit scans for the start codon (<a href="https://pubmed.ncbi.nlm.nih.gov/20094052/" rel="noopener">Jackson, Hellen and Pestova 2010, Nature Reviews Molecular Cell Biology 11:113</a>). Regulation of initiation, in particular through eIF2&alpha; phosphorylation in the integrated stress response and through mTOR-dependent control of eIF4E availability, is the dominant mode of acute translational control (<a href="https://pubmed.ncbi.nlm.nih.gov/19239892/" rel="noopener">Sonenberg and Hinnebusch 2009, Cell 136:731</a>).</p>
+
+            <p>The most important quantitative method for studying translation today is <strong>ribosome profiling</strong>, introduced by <a href="https://pubmed.ncbi.nlm.nih.gov/19213877/" rel="noopener">Ingolia, Ghaemmaghami, Newman and Weissman (2009, Science 324:218)</a>: deep sequencing of the short mRNA fragments protected by translating ribosomes from nuclease digestion gives a codon-resolution map of where ribosomes are at any moment.</p>
+
+            <p>Coverage of translation, the chaperones, and post-translational modification is on <a href="translation-and-post-translational-control.html">Translation and post-translational control: ribosomes, chaperones, and protein quality control</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Stage 4 &middot; Post-translational regulation</h2>
+
+            <p>A polypeptide leaving the ribosome is not yet a functional protein. Folding is assisted by chaperones (Hsp70, Hsp90, the GroEL/GroES chaperonin), often co-translationally; covalent modifications &mdash; phosphorylation, acetylation, methylation, ubiquitination, glycosylation, SUMOylation &mdash; tune activity, localisation, and turnover; and the ubiquitin-proteasome system together with autophagy clear damaged or supernumerary proteins. Mis-handling of any of these processes underlies a swathe of human disease, from cystic fibrosis (a folding defect) to neurodegeneration (an aggregation defect).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Quantitative gene expression analysis</h2>
+
+            <p>The dominant method for measuring gene expression is <strong>RNA sequencing</strong> (RNA-seq), introduced in mammalian transcriptomics by <a href="https://pubmed.ncbi.nlm.nih.gov/18516045/" rel="noopener">Mortazavi, Williams, McCue, Schaeffer and Wold (2008, Nature Methods 5:621)</a>. RNA-seq replaced microarrays as the default platform because it samples the full transcriptome, distinguishes splice isoforms, and captures novel transcripts and antisense expression. Single-cell RNA-seq, ribosome profiling, and spatial transcriptomics have extended the toolkit; large reference catalogues such as the Genotype-Tissue Expression (GTEx) project and the FANTOM atlases give tissue- and cell-type-level profiles of human gene expression for cross-referencing.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why gene expression matters for human genetics</h2>
+
+            <p>Mendelian inheritance &mdash; the topic of much of the rest of the Evagene site &mdash; is the inheritance of variants whose effect on phenotype runs through gene expression. A loss-of-function variant in a coding exon can truncate the protein; a splice-site variant can shift the reading frame; a 5' UTR variant can alter translation initiation; a promoter variant can change expression level; a missense variant in a chaperone-binding site can destabilise the folded product. The four stages on this page are the substrate on which Mendelian and complex-trait genetics operate.</p>
+
+            <p>For pedigree-based reasoning about how variants segregate within families, see <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a> and <a href="autosomal-dominant-calculator.html">Autosomal dominant calculator</a>; for the broader pedigree-drawing context, see <a href="pedigree-chart.html">Pedigree chart</a> and <a href="pedigree-drawing-tool.html">Pedigree drawing tool</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Subtopic pages</h2>
+
+            <ul>
+                <li><a href="transcriptional-machinery.html">Transcriptional machinery</a> &mdash; RNA polymerases I, II, III; the Pol II CTD code; promoters and core elements; general transcription factors and TFIID/TFIIH; the Mediator complex; transcription-factor DNA-binding domains; enhancer-promoter looping; co-transcriptional capping, splicing, and 3' processing.</li>
+                <li><a href="rna-processing-and-stability.html">RNA processing and stability</a> &mdash; spliceosome assembly and the two-step transesterification mechanism; constitutive vs alternative splicing; SR proteins and hnRNPs; cleavage and polyadenylation (CPSF, CstF, CFI/II); cap structure; nuclear export via TREX; cytoplasmic mRNA decay; nonsense-mediated decay.</li>
+                <li><a href="translation-and-post-translational-control.html">Translation and post-translational control</a> &mdash; ribosome structure and function; cap-dependent vs IRES-mediated initiation; mTOR and the integrated stress response; ribosome profiling; co-translational folding; chaperone networks; ubiquitin-proteasome system and autophagy; the major post-translational modifications.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the central dogma of molecular biology?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The principle, articulated by Crick in 1958 and restated in <em>Nature</em> in 1970, that residue-by-residue sequence information flows from nucleic acid to nucleic acid and from nucleic acid to protein, but never out of protein back into nucleic acid. Reverse transcription is consistent with the dogma.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What are the four stages of gene expression?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Transcription, RNA processing, translation, and post-translational regulation. Each is regulated; each is a source of disease when it fails; each has its own subtopic page.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Why was the discovery of mRNA splicing important?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">It showed that eukaryotic genes are split into exons and introns, that the mature mRNA is assembled by removing introns, and that the eukaryotic transcriptome is shaped by splicing &mdash; underlying alternative isoform diversity. Sharp and Roberts shared the 1993 Nobel Prize for the work.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How is gene expression measured today?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">RNA-seq is the dominant quantitative method, introduced in mammalian transcriptomics by Mortazavi et al. 2008. Single-cell RNA-seq and ribosome profiling extend the toolkit.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is this page clinical advice?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. This is an educational page. Evagene is an academic, research, and educational pedigree modelling platform; it is not a medical device, not clinical decision support, and not a diagnostic or screening tool.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+            <ul>
+                <li><a href="transcriptional-machinery.html">Transcriptional machinery</a></li>
+                <li><a href="rna-processing-and-stability.html">RNA processing and stability</a></li>
+                <li><a href="translation-and-post-translational-control.html">Translation and post-translational control</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="pedigree-chart.html">Pedigree chart</a></li>
+                <li><a href="pedigree-drawing-tool.html">Pedigree drawing tool</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="transcriptional-machinery.html" class="hover:text-white transition-colors">Transcriptional machinery</a></li><li><a href="rna-processing-and-stability.html" class="hover:text-white transition-colors">RNA processing and stability</a></li><li><a href="translation-and-post-translational-control.html" class="hover:text-white transition-colors">Translation and post-translational control</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

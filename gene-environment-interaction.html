@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gene-Environment Interaction — GxE, GWIS, MR, Epigenetic Mediation | Evagene</title>
+    <meta name="description" content="Gene-environment interaction in human and complex-trait genetics: GxE definition, study designs (GWIS, two-stage filtering, case-only), classical examples (PKU, G6PD, FTO, CYP2A6), Mendelian randomisation, epigenetic mediation, and the Dutch Hunger Winter cohort. For research and education.">
+    <meta name="keywords" content="gene environment interaction, GxE, GWIS, genome wide interaction study, case only design, Mendelian randomisation, MR-Egger, instrumental variables, Davey Smith Hemani 2014, EWAS, DNA methylation, Dutch Hunger Winter, Heijmans 2008, epigenetic mediation, IGF2 methylation, PKU phenylketonuria, G6PD favism, FTO physical activity, CYP2A6 smoking, Hunter 2005 GxE, Mostafavi 2020">
+
+    <meta property="og:title" content="Gene-Environment Interaction — GxE, GWIS, MR, Epigenetic Mediation">
+    <meta property="og:description" content="GxE study designs (GWIS, two-stage filtering, case-only), Mendelian randomisation for environmental causality, EWAS, and epigenetic mediation including the Dutch Hunger Winter cohort.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/gene-environment-interaction">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gene-Environment Interaction — GxE, GWIS, MR, Epigenetic Mediation">
+    <meta name="twitter:description" content="GxE definition and study designs, classical examples (PKU, G6PD, FTO), MR for environmental causality, EWAS, and epigenetic mediation. Educational treatment.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/gene-environment-interaction">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Gene-Environment Interaction: Study Designs, Classical Examples, Mendelian Randomisation, and Epigenetic Mediation",
+        "description":"GxE study designs (GWIS, two-stage filtering, case-only), classical examples in human genetics (PKU, G6PD, FTO, CYP2A6, ADH alcohol), Mendelian randomisation for environmental causality, EWAS, and epigenetic mediation including the Dutch Hunger Winter cohort. Educational use only; not a medical device.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/gene-environment-interaction"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["gene environment interaction","GxE","GWIS","Mendelian randomisation","EWAS","epigenetic mediation","Dutch Hunger Winter","Heijmans 2008"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Gene-Environment Interaction",
+        "description":"Educational treatment of GxE study designs, classical human-genetic examples, Mendelian randomisation, and epigenetic mediation.",
+        "url":"https://evagene.com/gene-environment-interaction",
+        "learningResourceType":"Topic article",
+        "educationalLevel":"Postgraduate / advanced undergraduate",
+        "audience":{"@type":"Audience","audienceType":"Students, researchers, and educators in human and quantitative genetics"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "isPartOf":{"@type":"LearningResource","name":"Quantitative and Complex Traits","url":"https://evagene.com/quantitative-and-complex-traits"},
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Quantitative and complex traits","item":"https://evagene.com/quantitative-and-complex-traits"},
+            {"@type":"ListItem","position":3,"name":"Gene-environment interaction","item":"https://evagene.com/gene-environment-interaction"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="quantitative-and-complex-traits.html" class="hover:text-brand-600 dark:hover:text-brand-300">Quantitative &amp; complex traits</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Gene-environment interaction</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-clinical-50 dark:bg-clinical-500/10 text-clinical-600 dark:text-clinical-400 text-xs font-semibold tracking-wider uppercase rounded-full border border-clinical-200 dark:border-clinical-500/20 mb-4">
+                Subtopic &middot; Quantitative genetics
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Gene-environment interaction: study designs and epigenetic mediation</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A polygenic decomposition that assumes genetic and environmental variance act additively (V<sub>P</sub>&nbsp;=&nbsp;V<sub>G</sub>&nbsp;+&nbsp;V<sub>E</sub>) leaves out gene-environment interaction (GxE) &mdash; the dependence of the genetic effect on environmental exposure or vice versa. This page covers the GxE statistical model, the study-design problems set out by <a href="https://pubmed.ncbi.nlm.nih.gov/15803198/" rel="noopener">Hunter 2005</a>, classical examples in human disease, the use of Mendelian randomisation for environmental causal inference (<a href="https://pubmed.ncbi.nlm.nih.gov/25064373/" rel="noopener">Davey Smith &amp; Hemani 2014</a>), and the epigenetic mediation of GxE evidenced by the Dutch Hunger Winter cohort (<a href="https://pubmed.ncbi.nlm.nih.gov/18955703/" rel="noopener">Heijmans et al. 2008</a>). Educational treatment; not clinical guidance.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>10 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Gene-environment interaction is the regression interaction term &beta;<sub>GxE</sub> on top of the additive genetic and environmental main effects. It is statistically hard to detect at scale because well-powered GxE designs need much larger samples than additive-effect designs, and because environmental exposures are typically poorly measured. Classical examples (PKU, G6PD, FTO, CYP2A6) are unambiguous because the exposure is sharp and the genetic effect is large. Mendelian randomisation reframes the question by treating genetic variants as instrumental variables for environmental exposures. Epigenetic mediation &mdash; DNA methylation as a G-E interface &mdash; is the mechanism evidenced by the Dutch Hunger Winter cohort, where periconceptional famine left a persistent IGF2 hypomethylation signal six decades later. None of this is clinical advice; framing here is research and education.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The GxE definition</h2>
+
+            <p>For an outcome Y, a genetic variable G (a single SNP, a polygenic score, or a haplotype), and an environmental variable E (a continuous or categorical exposure), the conventional regression model is:</p>
+
+            <p style="text-align:center; font-style:italic;">Y = &mu; + &beta;<sub>G</sub>&middot;G + &beta;<sub>E</sub>&middot;E + &beta;<sub>GxE</sub>&middot;(G&middot;E) + &epsilon;</p>
+
+            <p>where &beta;<sub>G</sub> and &beta;<sub>E</sub> are the additive main effects and &beta;<sub>GxE</sub> is the interaction term. The null hypothesis of no GxE is &beta;<sub>GxE</sub>&nbsp;=&nbsp;0; rejection of the null is the statistical evidence of interaction. In practice the interaction term is interpreted on the scale of the analysis &mdash; on the linear scale for continuous outcomes, on the log-odds scale for binary outcomes &mdash; and reanalysis on alternative scales sometimes resolves apparent interactions away.</p>
+
+            <p>Two distinctions in the GxE literature are worth keeping straight. First, <em>statistical</em> GxE is scale-dependent: an interaction in a logistic-regression model may not appear in a linear-probability model and vice versa. Second, <em>biological</em> GxE refers to mechanism: the same genotype produces different phenotypes in different environments because some pathway depends on both. Statistical GxE is necessary but not sufficient evidence for biological GxE. Studies should declare the scale of analysis and treat scale-dependent interactions with appropriate caution.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Statistical power: why GxE is hard</h2>
+
+            <p>The minimum sample size to detect a GxE effect of given magnitude is several times larger than to detect an equivalent main effect, because the interaction term has a smaller signal-to-variance ratio in any reasonable allele-frequency / exposure-distribution combination. <a href="https://pubmed.ncbi.nlm.nih.gov/15803198/" rel="noopener">Hunter 2005</a> (<em>Nat Rev Genet</em> 6:287) is the canonical methodological treatment for human GxE studies, setting out three issues that drive the difficulty:</p>
+
+            <ul>
+                <li><strong>Exposure measurement error.</strong> Environmental exposures are usually self-reported, retrospectively assessed, or coarse-categorical (smoker / non-smoker), each of which biases the GxE estimate toward the null.</li>
+                <li><strong>Multiplicative-effect distributions.</strong> Where the gene and environment have effects of different orders of magnitude, the interaction term is dominated by whichever has lower precision &mdash; usually the environment.</li>
+                <li><strong>Multiple testing.</strong> Genome-wide GxE search across millions of variants and one or more exposures invites Bonferroni penalties orders of magnitude harsher than additive GWAS.</li>
+            </ul>
+
+            <p>A consequence is that almost all genome-wide GxE findings reported with confidence in the contemporary literature have come from very large consortium analyses, careful exposure phenotyping, and pre-registered hypothesis sets. <a href="https://pubmed.ncbi.nlm.nih.gov/32706833/" rel="noopener">Mostafavi et al. 2020</a> (<em>PLoS Biol</em> 18:e3000812) discuss the broader portability and predictive-stability problems of polygenic prediction across environments and time, of which GxE is a part.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Classical examples</h2>
+
+            <p>The unambiguous GxE examples in human genetics are those where the environmental exposure is sharp and the genetic effect is large. Six are routinely cited.</p>
+
+            <ul>
+                <li><strong>Phenylketonuria (PKU) and dietary phenylalanine.</strong> Homozygous loss-of-function variants in <em>PAH</em> produce severe intellectual disability on an unrestricted diet and largely normal cognitive outcomes on a low-phenylalanine diet introduced in infancy. The same genotype, two outcomes; the difference is environmental. PKU is the canonical illustration of GxE in introductory teaching and underwrites the case for newborn screening of inborn errors of metabolism.</li>
+                <li><strong>Glucose-6-phosphate dehydrogenase deficiency (G6PD) and oxidant exposures.</strong> X-linked variants reducing G6PD activity precipitate haemolytic anaemia on exposure to fava beans, certain antimalarial drugs, sulphonamides, and other oxidant agents; carriers are largely asymptomatic in the absence of the trigger. Exposure-conditional phenotype.</li>
+                <li><strong>Alcohol dehydrogenase / aldehyde dehydrogenase variants and alcohol.</strong> The <em>ALDH2</em>*2 variant common in East Asian populations produces flushing, tachycardia, and toxic acetaldehyde accumulation after even modest alcohol intake; in non-drinkers the phenotype is silent.</li>
+                <li><strong>CYP2A6 variants and tobacco smoking.</strong> CYP2A6 is the principal nicotine-metabolising enzyme; reduced-activity variants alter nicotine clearance, smoking topography, and smoking-related disease risk &mdash; conditional on smoking, with no effect in non-smokers.</li>
+                <li><strong>FTO and physical activity.</strong> The <em>FTO</em> rs9939609 obesity-associated variant has a genetic effect on BMI substantially attenuated in physically active adults compared with sedentary adults. Multiple meta-analyses have replicated the interaction.</li>
+                <li><strong>Skin-pigmentation variants and ultraviolet exposure.</strong> Variants at <em>MC1R</em>, <em>OCA2</em>, <em>SLC45A2</em> and others affect melanoma risk in interaction with cumulative UV exposure; the effect of any one variant is meaningfully different in low-UV vs high-UV environments.</li>
+            </ul>
+
+            <p>None of these examples is interpreted on this site as a basis for individual clinical decisions; the framing is research and education.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Genome-wide interaction studies (GWIS)</h2>
+
+            <p>A GWIS is the GxE analogue of a GWAS: scan the genome for variants whose marginal effect on Y depends on the environmental exposure E. The naive design tests &beta;<sub>GxE</sub> for every genotyped variant and applies a Bonferroni or FDR correction. Power is poor at any reasonable sample size, and the literature has converged on two design improvements.</p>
+
+            <ul>
+                <li><strong>Two-stage filtering.</strong> First, screen variants by some marker correlated with interaction signal (e.g. heteroskedasticity in Y across genotype groups) to reduce the multiple-testing penalty in the formal GxE test. Several variants of two-stage screening are in use; all carry careful caveats about preserving the type-I error rate.</li>
+                <li><strong>Case-only design.</strong> Among cases of a binary disease, the dependence of E on G provides a test of GxE under the assumption that G and E are independent in the source population. This sidesteps the recruiting of unaffected controls but inherits the strong G-E independence assumption, which can fail for traits whose underlying biology drives behavioural exposure choices (e.g. high-genetic-risk smokers selecting in or out of smoking).</li>
+            </ul>
+
+            <p>Software packages such as PLINK and the EMMAX/MMM family implement formal GxE tests; specialised pipelines such as GxEScan and CGEN are available for the two-stage and case-only designs.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mendelian randomisation: instrumental variables for environmental causality</h2>
+
+            <p>Mendelian randomisation reframes a related question: not whether gene and environment interact, but whether an environmental exposure causally affects an outcome. <a href="https://pubmed.ncbi.nlm.nih.gov/25064373/" rel="noopener">Davey Smith &amp; Hemani 2014</a> (<em>Hum Mol Genet</em> 23:R89; PMID 25064373) is a canonical methodological review. The technique uses one or more genetic variants as instrumental variables for the environmental exposure. The variant must satisfy three core assumptions: it is associated with the exposure (relevance), it is independent of unmeasured confounders of the exposure-outcome relationship (independence), and it acts on the outcome only through the exposure (exclusion restriction).</p>
+
+            <p>If the assumptions hold, the ratio of the variant-outcome effect to the variant-exposure effect estimates the causal effect of the exposure on the outcome &mdash; the Wald estimator. With multiple instruments, two-stage least squares or inverse-variance-weighted meta-analysis aggregates the per-instrument estimates. <em>MR-Egger</em> regression explicitly tests and partially corrects for horizontal pleiotropy, in which a variant affects the outcome through pathways other than the exposure. Sensitivity analyses such as MR-PRESSO, weighted median, and weighted mode estimators provide robustness checks against assumption violations.</p>
+
+            <p>MR has been deployed to interrogate the causal status of many established epidemiological associations. C-reactive protein and coronary heart disease, vitamin D and various outcomes, alcohol intake and cardiovascular disease, and BMI and education attainment are among the well-known reassessments &mdash; some of which dissolved under MR scrutiny, others of which survived. MR results are research and education content on this site, not clinical guidance.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Epigenetic mediation and the Dutch Hunger Winter</h2>
+
+            <p>An influential mechanistic frame for GxE is that environmental exposures alter epigenetic state &mdash; chiefly DNA methylation &mdash; and that the resulting epigenetic state mediates downstream phenotype. The strongest human-cohort evidence comes from <a href="https://pubmed.ncbi.nlm.nih.gov/18955703/" rel="noopener">Heijmans et al. 2008</a> (<em>PNAS</em> 105:17046; PMID 18955703), the Dutch Hunger Winter study. The cohort comprises adults who were exposed in utero to the Dutch famine of 1944&ndash;1945, in which calorie intake fell to ~500&ndash;1000 kcal per day across western Netherlands for several months under wartime blockade.</p>
+
+            <p>Heijmans and colleagues compared DNA methylation at the imprinted <em>IGF2</em> locus in cohort members exposed periconceptionally with that of their unexposed same-sex siblings, six decades after the famine. Periconceptionally exposed individuals showed significantly lower <em>IGF2</em> methylation, persisting into late adulthood. Subsequent analyses extended the methylation differences to other loci and connected them, in some cases, to adult metabolic phenotype. The Dutch Hunger Winter is now the canonical illustration of the persistence of environmentally induced epigenetic marks across decades and a central reference in the developmental-origins-of-health-and-disease (DOHaD) literature.</p>
+
+            <p>Subsequent prenatal-stress cohorts (Project Ice Storm in Quebec, the Chinese Famine birth-cohort studies, several pollution-exposure cohorts) have replicated the structure of the Dutch Hunger Winter findings with varying signal magnitudes. The collective body of work has motivated the methylome-wide association study (EWAS) as a methodology in its own right.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Epigenome-wide association studies (EWAS)</h2>
+
+            <p>An EWAS is the methylation analogue of a GWAS: across hundreds of thousands of CpG sites measured by Illumina Infinium arrays (the 27K, 450K, EPIC, and EPIC v2.0 platforms), test the association of methylation level at each site with a phenotype, exposure, or trait. The EWAS Catalog and the EWAS Atlas curate replicated findings across cohorts.</p>
+
+            <p>Three problems shape the EWAS literature and should be borne in mind by readers. First, <em>tissue specificity</em>: methylation patterns vary across tissues, and most human EWAS use peripheral blood as a proxy, which may or may not reflect the tissue of relevance for the phenotype. Second, <em>cell-type heterogeneity</em>: methylation differences between cases and controls can reflect altered blood-cell composition rather than altered methylation within a fixed cell type, and reference-based or reference-free deconvolution is now standard. Third, <em>causality direction</em>: methylation differences may cause the phenotype, be caused by it, or share a common cause; EWAS is observational, and causal inference requires further work (Mendelian randomisation, longitudinal sampling, in vitro perturbation).</p>
+
+            <p>None of this content is clinical guidance. EWAS is a research tool; methylation findings on this site and in the help catalogue are framed as research and education.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">GxE in the broader polygenic framework</h2>
+
+            <p>The pure additive polygenic decomposition assumed in the <a href="polygenic-models.html">polygenic models</a> page treats V<sub>G</sub> and V<sub>E</sub> as independent and additive. Substantial GxE means that this decomposition is misspecified: an interaction term V<sub>GxE</sub> is needed, and heritability estimates derived under the additive assumption may be biased depending on the magnitude and structure of the interaction. In practice, for most complex traits, V<sub>GxE</sub> appears to be small relative to V<sub>A</sub> and V<sub>E</sub>, but this is a quantitative claim that depends on the trait, the environment, and the population studied.</p>
+
+            <p>For polygenic risk scores, GxE means that an individual's PRS-implied risk depends on environment as well as genotype. A PRS for type&nbsp;2 diabetes computed in a sedentary population may overstate risk in a physically active subgroup (the FTO illustration generalises). PRS calibration across environmental subgroups, like PRS calibration across ancestries, is a research-grade question and not a settled one. Treating PRS output as a fixed personal attribute independent of environment is the wrong reading; treating it as a population summary that depends on the validation cohort's environmental distribution is the right one.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Canonical references</h2>
+
+            <ul>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/15803198/" rel="noopener">Hunter DJ. 2005. <em>Gene-environment interactions in human diseases.</em> Nat Rev Genet 6:287&ndash;298.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/25064373/" rel="noopener">Davey Smith G, Hemani G. 2014. <em>Mendelian randomization: genetic anchors for causal inference in epidemiological studies.</em> Hum Mol Genet 23:R89&ndash;R98.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/18955703/" rel="noopener">Heijmans BT, Tobi EW, Stein AD, Putter H, Blauw GJ, Susser ES, Slagboom PE, Lumey LH. 2008. <em>Persistent epigenetic differences associated with prenatal exposure to famine in humans.</em> PNAS 105:17046&ndash;17049.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/32706833/" rel="noopener">Mostafavi H, Harpak A, Agarwal I, Conley D, Pritchard JK, Przeworski M. 2020. <em>Variable prediction accuracy of polygenic scores within an ancestry group.</em> PLoS Biol 18:e3000812.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/30940768/" rel="noopener">Martin AR et&nbsp;al. 2019. <em>Clinical use of current polygenic risk scores may exacerbate health disparities.</em> Nat Genet 51:584&ndash;591.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/19812666/" rel="noopener">Manolio TA et&nbsp;al. 2009. <em>Finding the missing heritability of complex diseases.</em> Nature 461:747&ndash;753.</a></li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="quantitative-and-complex-traits.html">Quantitative and complex traits (pillar)</a></li>
+                <li><a href="polygenic-models.html">Polygenic models &mdash; additive vs non-additive effects, polygenic risk scores</a></li>
+                <li><a href="heritability-and-liability.html">Heritability and the liability-threshold model</a></li>
+                <li><a href="complex-disease-pedigree-software.html">Complex-disease pedigree software</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Use Evagene to teach gene-environment thinking</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, a research- and education-grade liability-threshold engine, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. Educational use only; not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="quantitative-and-complex-traits.html" class="hover:text-white transition-colors">Quantitative &amp; complex traits</a></li><li><a href="polygenic-models.html" class="hover:text-white transition-colors">Polygenic models</a></li><li><a href="heritability-and-liability.html" class="hover:text-white transition-colors">Heritability &amp; liability</a></li><li><a href="gene-environment-interaction.html" class="hover:text-white transition-colors">Gene-environment interaction</a></li><li><a href="complex-disease-pedigree-software.html" class="hover:text-white transition-colors">Complex-disease software</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

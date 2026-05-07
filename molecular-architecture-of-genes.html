@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molecular Architecture of Genes — DNA, Chromatin & Genome | Evagene</title>
+    <meta name="description" content="Pillar guide to the molecular architecture of genes: nucleotide chemistry, the DNA double helix, chromatin organisation from nucleosome to TAD, replication, repair, and an overview of genome variation. For research, teaching, and study.">
+    <meta name="keywords" content="molecular architecture of genes, DNA structure, chromatin organisation, nucleosome, TAD, topologically associating domain, genome organisation, Watson Crick, double helix, ENCODE, Human Genome Project, genome variation, gene structure, chromatin levels, nucleotide structure">
+
+    <meta property="og:title" content="Molecular Architecture of Genes — DNA, Chromatin & Genome | Evagene">
+    <meta property="og:description" content="Pillar guide to the molecular architecture of genes: nucleotide chemistry, the DNA double helix, chromatin organisation from nucleosome to TAD, replication, repair, and the genome as a structured molecule.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/molecular-architecture-of-genes">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Molecular Architecture of Genes — DNA, Chromatin & Genome">
+    <meta name="twitter:description" content="Nucleotide chemistry, the double helix, chromatin from nucleosome to TAD, replication, repair, and genome variation.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/molecular-architecture-of-genes">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Molecular Architecture of Genes: DNA, Chromatin, and the Genome as a Structured Molecule",
+        "description":"A pillar guide to the molecular architecture of genes: nucleotide chemistry, the DNA double helix, chromatin organisation from nucleosome to topologically associating domain, the basics of replication and repair, and an overview of genome variation. For research, teaching, and study.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/molecular-architecture-of-genes"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["molecular architecture of genes","DNA structure","chromatin organisation","nucleosome","TAD","Human Genome Project","ENCODE","genome variation"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Molecular Architecture of Genes",
+        "description":"Pillar educational resource covering the molecular architecture of genes: DNA structure, chromatin organisation, replication, repair, and genome variation.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Undergraduate, Postgraduate, Professional",
+        "audience":{"@type":"EducationalAudience","educationalRole":"Student, Researcher, Educator, Clinician"},
+        "url":"https://evagene.com/molecular-architecture-of-genes",
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Learn","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Molecular Architecture of Genes","item":"https://evagene.com/molecular-architecture-of-genes"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is meant by the molecular architecture of genes?","acceptedAnswer":{"@type":"Answer","text":"The molecular architecture of genes refers to the physical and chemical organisation of genetic material across many length scales: the chemistry of nucleotides, the antiparallel double-helical structure of DNA, the wrapping of DNA around histone octamers to form nucleosomes, higher-order folding into chromatin fibres, loops, topologically associating domains (TADs), and chromosomes. Each layer constrains and contextualises the next."}},
+            {"@type":"Question","name":"Who discovered the structure of DNA?","acceptedAnswer":{"@type":"Answer","text":"James Watson and Francis Crick proposed the antiparallel double-helical structure of DNA in 1953 (Nature 171:737), drawing on X-ray diffraction data from Rosalind Franklin and Maurice Wilkins, and Erwin Chargaff's base-composition rules."}},
+            {"@type":"Question","name":"What is a nucleosome?","acceptedAnswer":{"@type":"Answer","text":"A nucleosome is the fundamental repeat unit of eukaryotic chromatin: ~147 base pairs of DNA wrapped in 1.65 left-handed superhelical turns around an octamer of histones (two each of H2A, H2B, H3, H4). The 2.8 angstrom crystal structure was solved by Luger et al. 1997 (Nature 389:251)."}},
+            {"@type":"Question","name":"What is a topologically associating domain (TAD)?","acceptedAnswer":{"@type":"Answer","text":"A TAD is a self-interacting genomic region — typically hundreds of kilobases to a few megabases — within which DNA contacts are enriched and across whose boundaries contacts are depleted. TADs were identified by Hi-C in mouse embryonic stem cells and human fibroblasts (Dixon et al. 2012; Nora et al. 2012) and reflect chromosomal loop-extrusion biology."}},
+            {"@type":"Question","name":"How big is the human genome?","acceptedAnswer":{"@type":"Answer","text":"The haploid human reference genome is ~3.05 gigabases. The Human Genome Project public draft was published in 2001 (Lander et al., Nature 409:860); the Celera draft appeared in parallel (Venter et al., Science 291:1304). Telomere-to-telomere completion of the reference was reported by the T2T Consortium in 2022."}},
+            {"@type":"Question","name":"Is Evagene a clinical decision tool?","acceptedAnswer":{"@type":"Answer","text":"No. Evagene is an academic, research, and educational pedigree modelling platform. It supports structured family-history documentation, teaching, and exploratory use of published risk models. It is not intended to diagnose, prevent, monitor, predict, treat, or manage disease, and outputs are illustrative for educational and research purposes only."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="https://evagene.com/#resources" class="hover:text-brand-600 dark:hover:text-brand-300">Learn</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Molecular Architecture of Genes</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Molecular architecture of genes: DNA, chromatin, and the genome as a structured molecule</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A gene is more than a string of letters. The molecular architecture of genes spans nine orders of magnitude in length scale, from the &Aring;ngstr&ouml;m hydrogen bonds between Watson&ndash;Crick base pairs to the metre-long DNA polymer folded inside a five-micron nucleus. This pillar surveys that architecture: nucleotide chemistry, the double helix, chromatin from nucleosome to topologically associating domain, the basics of replication and repair, and an overview of genome variation. It is written for researchers, educators, and advanced students.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>14 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> A eukaryotic gene exists at several physical levels at once. Chemically it is a polymer of deoxyribonucleotides held in an antiparallel double helix. Mechanically it is wound around histone octamers into nucleosomes, then folded through 10 nm and (debated) 30 nm fibres into chromatin loops, topologically associating domains (TADs), A/B compartments, and ultimately into a chromosome. Functionally the higher-order architecture is read out by the same machinery that transcribes, replicates, and repairs the underlying sequence. This pillar links three companion pages: the chemistry and folding (<a href="dna-and-chromatin-organization.html">DNA and chromatin organisation</a>), the maintenance machinery (<a href="dna-replication-and-repair.html">DNA replication and repair</a>), and the variation observed across human genomes (<a href="genome-structure-and-variation.html">genome structure and variation</a>).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Nucleotide chemistry and the Watson&ndash;Crick double helix</h2>
+
+            <p>Each strand of DNA is a polymer of four deoxyribonucleotides &mdash; adenosine, guanosine, cytidine, thymidine monophosphates &mdash; linked by phosphodiester bonds between the 3' hydroxyl of one sugar and the 5' phosphate of the next. The chain therefore has chemical polarity: a 5' end and a 3' end. Two strands run in opposite directions (antiparallel) and pair through hydrogen bonds between bases on opposing strands: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three. The complementarity is the molecular basis for templated copying.</p>
+
+            <p>The double helix proposed by <a href="https://pubmed.ncbi.nlm.nih.gov/13054692/" rel="noopener">Watson and Crick in 1953</a> is right-handed, with ~10.5 base pairs per turn under physiological conditions, a major and a minor groove of distinct widths and chemistries, and bases stacked roughly perpendicular to the helical axis. The 1953 model rested on Erwin Chargaff's base-composition rules and X-ray diffraction by Rosalind Franklin and Maurice Wilkins; the same paper closed with the now-famous remark that the structure had not escaped their notice as a possible mechanism for the genetic material. Energetics matter: base stacking contributes more to duplex stability than hydrogen bonds, and GC-rich tracts melt at higher temperatures than AT-rich tracts. Alternative geometries (A-form, Z-form, Hoogsteen pairs, G-quadruplexes, i-motifs) appear under specific sequence and solvent conditions and have functional roles in transcription, replication, and telomere biology. The chemistry is laid out in detail in <a href="dna-and-chromatin-organization.html">DNA and chromatin organisation</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Chromatin: from nucleosome to chromosome</h2>
+
+            <p>The human haploid genome is ~3.05 gigabases &mdash; about two metres of B-form DNA &mdash; folded inside a nucleus of roughly five microns in diameter. The compaction problem is solved by chromatin: a hierarchy of folded states catalogued by Roger Kornberg's work in the 1970s and refined ever since.</p>
+
+            <ul>
+                <li><strong>Nucleosome (~10 nm)</strong>. The fundamental repeat unit. ~147 base pairs of DNA make 1.65 left-handed superhelical turns around an octamer of histones (two each of H2A, H2B, H3, and H4). The 2.8 &Aring; crystal structure was solved by <a href="https://pubmed.ncbi.nlm.nih.gov/9305837/" rel="noopener">Luger et al. 1997</a> and remains the canonical reference. Linker DNA (~20&ndash;80 bp depending on cell type) connects adjacent nucleosomes, often associated with linker histone H1.</li>
+                <li><strong>10 nm fibre</strong>. The "beads on a string" arrangement seen in low-salt EM preparations.</li>
+                <li><strong>30 nm fibre (debated)</strong>. Two competing models &mdash; one-start solenoid and two-start zigzag &mdash; have dominated textbooks for decades. In situ evidence from cryo-EM tomography and ChromEMT now suggests that the regular 30 nm fibre may be largely an artefact of dilute conditions, and that interphase chromatin in the nucleus is a more disordered 5&ndash;24 nm polymer.</li>
+                <li><strong>Loops and topologically associating domains (TADs)</strong>. Cohesin-mediated loop extrusion forms transient loops anchored at convergent CTCF binding sites. TADs &mdash; self-interacting domains hundreds of kilobases to a few megabases in size &mdash; were identified by Hi-C in <a href="https://pubmed.ncbi.nlm.nih.gov/22495300/" rel="noopener">Dixon et al. 2012</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/22495304/" rel="noopener">Nora et al. 2012</a>.</li>
+                <li><strong>A/B compartments and chromosome territories</strong>. At the largest scales, the genome partitions into A (active, gene-dense, early-replicating) and B (inactive, gene-poor, late-replicating) compartments, first described by <a href="https://pubmed.ncbi.nlm.nih.gov/19815776/" rel="noopener">Lieberman-Aiden et al. 2009</a>. Each chromosome occupies a non-random territory in the interphase nucleus.</li>
+            </ul>
+
+            <p>The functional consequences are not cosmetic. Transcription, replication, recombination, and repair all read and write across this folded substrate, and disruption of chromatin architecture &mdash; for example through CTCF-binding-site mutation or cohesin dysfunction &mdash; can alter gene expression at substantial genomic distance. The full hierarchy is treated in <a href="dna-and-chromatin-organization.html">DNA and chromatin organisation</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Replication and repair: keeping the sequence intact</h2>
+
+            <p>Every human cell division copies ~6 billion base pairs of DNA at fork rates of around 1&ndash;2 kilobases per minute, and does so with an error rate after proofreading and mismatch repair of roughly one mistake per 10<sup>9</sup>&ndash;10<sup>10</sup> nucleotides. That fidelity is achieved by a layered system: high-fidelity replicative polymerases with 3'&rarr;5' exonuclease proofreading, post-replicative mismatch repair to correct slipped or mis-incorporated bases, and a series of damage-specific repair pathways for lesions introduced by metabolism, radiation, and chemicals.</p>
+
+            <p>Replication is licensed at thousands of origins by the origin recognition complex (ORC) and the MCM2-7 helicase, with origin firing strictly limited to once per cell cycle. The replisome carries a leading-strand polymerase (Pol &epsilon; in humans), a lagging-strand polymerase (Pol &delta;) priming Okazaki fragments through Pol &alpha;-primase, the CMG helicase, PCNA as a sliding clamp, and several accessory factors. Repair pathways include mismatch repair (MutS/MutL homologues; the pathway underlying <a href="lynch-syndrome-risk-calculator.html">Lynch syndrome</a>), nucleotide excision repair (XPA-XPG, TFIIH; xeroderma pigmentosum), base excision repair (DNA glycosylases, AP endonuclease), and double-strand break repair through homologous recombination (BRCA1, BRCA2, RAD51) or non-homologous end joining (KU70/80, DNA-PKcs, LIG4). The integrated DNA damage response is reviewed by <a href="https://pubmed.ncbi.nlm.nih.gov/19847258/" rel="noopener">Jackson and Bartek 2009</a>. The full pathway-by-pathway treatment is in <a href="dna-replication-and-repair.html">DNA replication and repair</a>; the educational pedigree-modelling pages for <a href="lynch-syndrome-risk-calculator.html">Lynch syndrome</a> and <a href="brcapro-calculator.html">BRCAPRO</a> illustrate how the underlying repair-pathway biology is represented in published family-history models for research and teaching use.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The genome as a sequenced object</h2>
+
+            <p>The first draft of the human genome was published in February 2001 in two parallel papers: the publicly funded International Human Genome Sequencing Consortium (<a href="https://pubmed.ncbi.nlm.nih.gov/11237011/" rel="noopener">Lander et al. 2001</a>) and the Celera Genomics whole-genome shotgun assembly (<a href="https://pubmed.ncbi.nlm.nih.gov/11181995/" rel="noopener">Venter et al. 2001</a>). The two drafts disagreed on gene count by a factor of two; the consensus settled at ~20,000 protein-coding genes, with another ~20,000 non-coding RNA genes catalogued since. The reference was finished in 2004; gaps in centromeres, segmental duplications, and acrocentric short arms were filled by the Telomere-to-Telomere (T2T) Consortium in 2022 with long-read sequencing.</p>
+
+            <p>Two reframings followed. First, only ~1&ndash;2&#37; of the genome encodes protein. The remainder is regulatory DNA, RNA genes of various kinds, repeats, transposable elements, and sequence whose function (if any) is debated. The <a href="https://pubmed.ncbi.nlm.nih.gov/22955616/" rel="noopener">ENCODE Project's 2012 integrative analysis</a> assigned biochemical activity (transcription, transcription-factor binding, chromatin marks, DNase hypersensitivity) to ~80&#37; of the genome. The interpretation of "function" remains contested, but the catalogue of regulatory elements is now the standard reference. Second, the genome is highly variable between individuals: short variants average one per ~1,000 bases, structural variants (>50 bp) collectively rearrange megabases per individual, and ~50&#37; of the genome is repetitive. The variation landscape is treated in <a href="genome-structure-and-variation.html">genome structure and variation</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Three companion topics</h2>
+
+            <p>This pillar opens onto three sub-pages, each treating one face of the molecular architecture in depth:</p>
+
+            <ul>
+                <li><a href="dna-and-chromatin-organization.html"><strong>DNA and chromatin organisation</strong></a> &mdash; nucleotide chemistry, base-pairing thermodynamics, supercoiling and topoisomerases, the histone octamer and nucleosome core particle, the 30 nm fibre debate, Hi-C methodology, A/B compartments, TADs, and the polymer-physics view of the interphase chromosome.</li>
+                <li><a href="dna-replication-and-repair.html"><strong>DNA replication and repair</strong></a> &mdash; origins of replication and licensing, the replisome, leading and lagging strand mechanics, the four families of DNA polymerase, mismatch repair (Lynch syndrome biology), nucleotide and base excision repair (xeroderma pigmentosum), and double-strand break repair (BRCA1/BRCA2, KU70/80, NHEJ vs HR).</li>
+                <li><a href="genome-structure-and-variation.html"><strong>Genome structure and variation</strong></a> &mdash; the repetitive and transposable-element fraction (LINEs, SINEs, LTRs, simple-sequence repeats, Alu elements), copy-number variation and the mechanisms that produce it (NAHR, NHEJ, FoSTeS), microdeletion and microduplication syndromes, the rise of long-read sequencing for structural-variant detection, and the gnomAD-SV catalogue.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Why molecular architecture matters for pedigree-modelling teaching</h2>
+
+            <p>Family-history pedigree modelling sits one level up from the chemistry, but the chemistry constrains it. Mendelian segregation is a consequence of meiotic chromosome behaviour. Penetrance and expressivity are partly modulated by chromatin-level cis-regulation. De novo variation, mosaicism, and parent-of-origin effects derive directly from the replication and repair machinery. Structural variation that is invisible to short-read panels can underlie an apparently negative test result. A working understanding of molecular architecture is what makes a pedigree interpretation defensible rather than ritualistic.</p>
+
+            <p>Evagene's pedigree-modelling tools &mdash; the <a href="pedigree-drawing-tool.html">pedigree drawing tool</a>, the <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a>, the <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk assessment</a> family-history workflow &mdash; are intended for research, education, and teaching. Outputs from any of the 20 implemented risk models (Claus 1994, Couch 1997, Frank 2002, Evans 2004, Vasen 1999, Umar 2004, Gail 1989, Tyrer/Duffy/Cuzick 2004, BayesMendel BRCAPRO/MMRpro/PancPRO, family-history scoring) are illustrative, for research and teaching only, and not a recommendation. The Tyrer-Cuzick implementation is an IBIS-style approximation of the published Tyrer/Duffy/Cuzick 2004 algorithm, not the official IBIS Breast Cancer Risk Evaluator binary. BOADICEA is licensed by the University of Cambridge and is not bundled in Evagene; the platform exports a `##CanRisk 2.0` pedigree file that the user uploads at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a> when BOADICEA computation is wanted.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Key references</h2>
+
+            <ul>
+                <li>Watson JD, Crick FHC. A structure for deoxyribose nucleic acid. <em>Nature</em> 171:737&ndash;738 (1953). <a href="https://pubmed.ncbi.nlm.nih.gov/13054692/" rel="noopener">PMID 13054692</a>.</li>
+                <li>Luger K, M&auml;der AW, Richmond RK, Sargent DF, Richmond TJ. Crystal structure of the nucleosome core particle at 2.8 &Aring; resolution. <em>Nature</em> 389:251&ndash;260 (1997). <a href="https://pubmed.ncbi.nlm.nih.gov/9305837/" rel="noopener">PMID 9305837</a>.</li>
+                <li>Lieberman-Aiden E et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. <em>Science</em> 326:289&ndash;293 (2009). <a href="https://pubmed.ncbi.nlm.nih.gov/19815776/" rel="noopener">PMID 19815776</a>.</li>
+                <li>Dixon JR et al. Topological domains in mammalian genomes identified by analysis of chromatin interactions. <em>Nature</em> 485:376&ndash;380 (2012). <a href="https://pubmed.ncbi.nlm.nih.gov/22495300/" rel="noopener">PMID 22495300</a>.</li>
+                <li>Nora EP et al. Spatial partitioning of the regulatory landscape of the X-inactivation centre. <em>Nature</em> 485:381&ndash;385 (2012). <a href="https://pubmed.ncbi.nlm.nih.gov/22495304/" rel="noopener">PMID 22495304</a>.</li>
+                <li>ENCODE Project Consortium. An integrated encyclopedia of DNA elements in the human genome. <em>Nature</em> 489:57&ndash;74 (2012). <a href="https://pubmed.ncbi.nlm.nih.gov/22955616/" rel="noopener">PMID 22955616</a>.</li>
+                <li>International Human Genome Sequencing Consortium (Lander ES et al.). Initial sequencing and analysis of the human genome. <em>Nature</em> 409:860&ndash;921 (2001). <a href="https://pubmed.ncbi.nlm.nih.gov/11237011/" rel="noopener">PMID 11237011</a>.</li>
+                <li>Venter JC et al. The sequence of the human genome. <em>Science</em> 291:1304&ndash;1351 (2001). <a href="https://pubmed.ncbi.nlm.nih.gov/11181995/" rel="noopener">PMID 11181995</a>.</li>
+                <li>Jackson SP, Bartek J. The DNA-damage response in human biology and disease. <em>Nature</em> 461:1071&ndash;1078 (2009). <a href="https://pubmed.ncbi.nlm.nih.gov/19847258/" rel="noopener">PMID 19847258</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is meant by the molecular architecture of genes?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The physical and chemical organisation of genetic material across many length scales: nucleotide chemistry, the antiparallel double helix, nucleosomes, chromatin fibres, loops, TADs, A/B compartments, and chromosome territories.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Who discovered the structure of DNA?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Watson and Crick proposed the antiparallel double helix in 1953 (Nature 171:737), drawing on Franklin and Wilkins's X-ray diffraction data and Chargaff's base-composition rules.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a nucleosome?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">~147 bp of DNA wrapped 1.65 times around a histone octamer (two each of H2A, H2B, H3, H4). Crystal structure: Luger et al. 1997 at 2.8 &Aring;.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a topologically associating domain (TAD)?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A self-interacting genomic region (typically hundreds of kb to a few Mb) within which contacts are enriched and across whose boundaries contacts are depleted. Identified in 2012 by Hi-C (Dixon et al.; Nora et al.).</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How big is the human genome?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">~3.05 gigabases haploid. Public draft 2001 (Lander et al., Nature 409:860); Celera draft (Venter et al., Science 291:1304); telomere-to-telomere completion 2022.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is Evagene a clinical decision tool?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. Evagene is an academic, research, and educational pedigree modelling platform. It is not a medical device and outputs are illustrative for research and teaching only.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="dna-and-chromatin-organization.html">DNA and chromatin organisation</a></li>
+                <li><a href="dna-replication-and-repair.html">DNA replication and repair</a></li>
+                <li><a href="genome-structure-and-variation.html">Genome structure and variation</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="lynch-syndrome-risk-calculator.html">Lynch syndrome risk calculator</a></li>
+                <li><a href="brcapro-calculator.html">BRCAPRO calculator</a></li>
+                <li><a href="germline-mosaicism-calculator.html">Germline mosaicism calculator</a></li>
+                <li><a href="pedigree-drawing-tool.html">Pedigree drawing tool</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree modelling platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, 20 published risk models for research and teaching, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. Not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="dna-and-chromatin-organization.html" class="hover:text-white transition-colors">DNA &amp; chromatin organisation</a></li><li><a href="dna-replication-and-repair.html" class="hover:text-white transition-colors">DNA replication &amp; repair</a></li><li><a href="genome-structure-and-variation.html" class="hover:text-white transition-colors">Genome structure &amp; variation</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="pedigree-drawing-tool.html" class="hover:text-white transition-colors">Pedigree drawing tool</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

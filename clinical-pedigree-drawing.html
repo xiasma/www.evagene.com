@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Pedigree Drawing — NSGC Conventions, Three-Generation Capture & Risk Models | Evagene</title>
+    <meta name="description" content="Clinical pedigree drawing in practice: NSGC 2022 notation, three-generation family-history capture, consanguinity loops, pregnancy outcomes, and the boundary between in-tool risk-model implementations and canonical off-platform computation. For research, education, and family-history documentation; not a medical device.">
+    <meta name="keywords" content="clinical pedigree drawing, clinical pedigree, pedigree drawing for clinicians, pedigree drawing for genetic counsellors, NSGC pedigree drawing, three-generation family history, consanguinity drawing, pregnancy outcomes pedigree, clinical pedigree symbols, BayesMendel pedigree, CanRisk pedigree drawing">
+
+    <meta property="og:title" content="Clinical Pedigree Drawing — NSGC Conventions, Three-Generation Capture & Risk Models | Evagene">
+    <meta property="og:description" content="Clinical pedigree drawing in practice: NSGC 2022 notation, three-generation family-history capture, consanguinity loops, pregnancy outcomes, and the boundary between in-tool and canonical computation.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/clinical-pedigree-drawing">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Clinical Pedigree Drawing — NSGC Conventions, Three-Generation Capture & Risk Models">
+    <meta name="twitter:description" content="NSGC 2022 notation, three-generation capture, consanguinity, pregnancy outcomes.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/clinical-pedigree-drawing">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Clinical Pedigree Drawing: NSGC Conventions, Three-Generation Capture, and Risk Models",
+        "description":"Clinical pedigree drawing in practice: NSGC 2022 notation, three-generation family-history capture, consanguinity loops, pregnancy outcomes, and the boundary between in-tool risk-model implementations and canonical off-platform computation.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/clinical-pedigree-drawing"},
+        "image":"https://evagene.com/og-image.png"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Pedigree Drawing","item":"https://evagene.com/pedigree-drawing-software"},
+            {"@type":"ListItem","position":3,"name":"Clinical Pedigree Drawing","item":"https://evagene.com/clinical-pedigree-drawing"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="pedigree-drawing-software.html" class="hover:text-brand-600 dark:hover:text-brand-300">Pedigree Drawing</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Clinical Pedigree Drawing</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Clinical pedigree drawing: NSGC conventions, three-generation capture, and risk models</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Clinical pedigree drawing is the structured documentation of a family's biological structure and disease history using NSGC 2022 conventions. This page covers the practical mechanics &mdash; the symbol set, the three-generation minimum, consanguinity loops, pregnancy outcomes, and the boundary between in-tool risk-model implementations and the canonical clinical-grade computation that lives off-platform.</p>
+            <p class="mt-4 text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Written for genetic counsellors, clinical geneticists, trainees, and educators. Evagene is an academic, research, and educational pedigree modelling platform; it is not a medical device, not clinical decision support, and not a diagnostic or screening tool.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>11 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Clinical pedigree drawing follows NSGC 2022 conventions on a three-generation-from-the-proband structure, with explicit notation for consanguinity, pregnancy outcomes, twins, adoption, and the proband. The skill is half symbol-set and half drawing fluency; the tool's job is to make the second half cheap so that the first half stays correct.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">What "clinical" adds to pedigree drawing</h2>
+
+            <p>A clinical pedigree records the same family structure as a genealogy diagram but encodes additional structured information: sex assigned at birth (square / circle / diamond), affected status for the catalogued condition (filled or quadrant-filled symbols), age at diagnosis, deceased status with cause and age, partner relationships (horizontal line) versus consanguineous unions (double horizontal line), descent (vertical line from partner line to sibship), sibship birth order, twins (with monozygotic / dizygotic distinction), pregnancy outcomes (live birth, miscarriage, termination, stillbirth) with gestational age, adoption (brackets), carrier status (central dot or half-fill), and proband marker (arrow). The information density is what makes the pedigree useful for inheritance-pattern analysis and for input to family-history risk-model algorithms.</p>
+
+            <p>The detail of the symbol set is in the <a href="nsgc-pedigree-notation.html">NSGC pedigree notation</a> guide and the <a href="pedigree-symbols-reference.html">pedigree symbols reference</a>. The 2022 update to the conventions, building on Bennett et al. 1995 and the 2008 update, is the current reference.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Three-generation capture in practice</h2>
+
+            <p>The minimum useful clinical pedigree captures three generations from the proband. The convention is to draw four generations where information allows: I (great-grandparents), II (grandparents and their siblings), III (parents and their siblings), IV (proband and siblings, with cousins represented as offspring of the parents' siblings). The proband's own offspring fill out a fifth generation if relevant. Affected status, age at diagnosis, age at death, and cause of death are recorded for every individual where the information is known; missing information is recorded explicitly (the convention is "?" for unknown affected status and "d." or a vertical bar across the symbol for deceased).</p>
+
+            <p>Three-generation capture matters because pattern recognition across two generations is too thin for most analyses. Autosomal dominant transmission is suggested by affected individuals in every generation; autosomal recessive by an affected sibship with unaffected parents (with consanguinity raising the prior probability); X-linked recessive by predominantly affected males inheriting from carrier mothers with no male-to-male transmission. None of these patterns is reliably visible in two generations.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Consanguinity loops</h2>
+
+            <p>Consanguineous unions appear in pedigrees from communities where cousin marriage is common, in research datasets that include consanguineous families, and in family histories where a remote consanguineous relationship is discovered during ascertainment. The convention is a double horizontal line between the two partners, with the descent line dropping from the lower of the two horizontal lines. The closed loop that consanguinity creates can be drawn explicitly or implied by the partner-line annotation; explicit drawing is preferred when the relationship will be read by anyone other than the original drawer.</p>
+
+            <p>Wright's coefficient of inbreeding (F) is computable directly from the structure of a consanguinity loop, and a tool that supports clinical pedigree drawing should compute and display it. F = 1/16 for first-cousin offspring, F = 1/64 for second-cousin offspring, with intermediate values for half-cousin and other configurations. In autosomal recessive disease, consanguinity raises the prior probability of homozygosity at any locus by F times the population homozygosity rate, which is what makes the calculation useful in family-history risk assessment.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pregnancy outcomes</h2>
+
+            <p>Recording pregnancy outcomes is part of clinical pedigree drawing because miscarriages, terminations, and stillbirths carry inheritance-pattern information that is lost if they are recorded only as "no living child". The conventions:</p>
+
+            <ul>
+                <li><strong>Pregnancy</strong>: a small triangle (or "P" annotated symbol) for an ongoing pregnancy; gestational age annotated.</li>
+                <li><strong>Spontaneous abortion / miscarriage</strong>: a small filled or unfilled triangle (depending on whether the loss was affected); gestational age annotated.</li>
+                <li><strong>Termination of pregnancy</strong>: a triangle with diagonal slash; the indication (where known: structural anomaly, chromosomal aneuploidy, single-gene diagnosis) annotated.</li>
+                <li><strong>Stillbirth</strong>: standard symbol with diagonal slash; gestational age annotated; affected status recorded if known from post-mortem.</li>
+                <li><strong>Termination for foetal anomaly (TOPFA)</strong>: triangle with slash; the specific anomaly annotated.</li>
+            </ul>
+
+            <p>For families with recurrent pregnancy loss, parental balanced translocation, single-gene disease with high recurrence (for example, <a href="osteogenesis-imperfecta-pedigree.html">osteogenesis imperfecta type II</a> with germline mosaicism), or other inheritance-pattern-relevant features, accurate recording of pregnancy outcomes is part of the family-history record. Detail on individual conditions is in the disease-specific pedigree pages: <a href="duchenne-muscular-dystrophy-pedigree.html">DMD</a>, <a href="dravet-syndrome-pedigree.html">Dravet syndrome</a>, <a href="rett-syndrome-pedigree.html">Rett syndrome</a>, <a href="tuberous-sclerosis-pedigree.html">tuberous sclerosis</a>, <a href="achondroplasia-pedigree.html">achondroplasia</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">In-tool risk-model implementations versus canonical computation</h2>
+
+            <p>The boundary between an in-tool implementation of a published risk-model algorithm (suitable for research, teaching, and exploration) and the canonical clinical-grade computation matters, and Evagene draws it explicitly.</p>
+
+            <p><strong>BayesMendel BRCAPRO, MMRpro, PancPRO</strong> are implemented in Evagene running on the pedigree. The original <a href="https://projects.iq.harvard.edu/bayesmendel" rel="noopener">BayesMendel R packages</a> developed at Harvard remain the authoritative source. Evagene's outputs are illustrative; clinicians using BayesMendel computations for clinical decisions should use the original packages directly or a clinically-cleared platform that implements them.</p>
+
+            <p><strong>Tyrer-Cuzick</strong> in Evagene is an IBIS-style approximation of the Tyrer / Duffy / Cuzick 2004 algorithm. The full coefficients of the official IBIS Breast Cancer Risk Evaluator binary are not public, so any in-tool implementation is an approximation. The official binary is the appropriate tool when an authoritative Tyrer-Cuzick computation is needed.</p>
+
+            <p><strong>BOADICEA</strong> is licensed by the University of Cambridge and is not bundled in Evagene. Evagene exports a <code>##CanRisk 2.0</code> pedigree file that the user uploads at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a>. The off-platform pattern is positive evidence of architectural separation between pedigree drawing / documentation and clinical-grade computation, and it is the canonical workflow when BOADICEA output is needed. See <a href="canrisk-vs-evagene.html">CanRisk vs Evagene</a> for the workflow detail.</p>
+
+            <p><strong>Family-history scoring</strong> tools (Manchester, Amsterdam II, revised Bethesda, NICE CG164 / NG101 illustrative thresholds, Claus 1994, Couch 1997, Frank 2002, Evans 2004, Vasen 1999, Umar 2004, Gail 1989) are implemented as illustrative descriptions of what the published algorithm produces from the family-history pattern. They do not constitute platform recommendations.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Drawing fluency: gesture versus dropdown</h2>
+
+            <p>A clinical pedigree is often drawn live during a consultation, a teaching session, or a research-data review, where the drawer is also taking the family history at the same time. Fluency matters: a tool that interrupts the conversation to ask which symbol to insert is friction. Evagene's gesture-based drawing mode is designed for this case &mdash; partners, parents, siblings, children, and pregnancy outcomes are added by small consistent gestures, and the layout adjusts as the family grows. A traditional dropdown / form mode is also available for users who prefer it.</p>
+
+            <p>The drawing mode is independent of the export. Whether the pedigree is drawn by gesture, dropdown, OCR import from a hand-drawn pedigree, or GEDCOM import from another tool, the resulting structured pedigree exports identically.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Standards-grade interoperability</h2>
+
+            <p>A clinical pedigree should never be locked into a single tool. Evagene supports interchange in:</p>
+
+            <ul>
+                <li><strong>GEDCOM 5.5.1</strong> &mdash; the de facto interchange format; see <a href="gedcom-pedigree-software.html">GEDCOM pedigree software</a>.</li>
+                <li><strong>PED</strong> &mdash; for linkage and population-genetics workflows.</li>
+                <li><strong>Phenopackets v2</strong> &mdash; GA4GH-standard phenotype-aware exchange; see <a href="phenopackets-pedigree.html">phenopackets and pedigree data</a>.</li>
+                <li><strong>HL7 FHIR FamilyMemberHistory</strong> &mdash; for downstream consumption by systems that choose to receive structured family-history data.</li>
+                <li><strong>CanRisk 2.0</strong> &mdash; the BOADICEA bridge.</li>
+                <li><strong>PDF, PNG, SVG</strong> &mdash; printable artefacts.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="clinical-genetics-pedigree-tool.html">Clinical genetics pedigree tool</a></li>
+                <li><a href="clinical-pedigree-drawing-guidelines.html">Clinical pedigree drawing guidelines (NSGC 1995/2008/2022)</a></li>
+                <li><a href="pedigree-drawing-tool.html">Pedigree drawing tool</a></li>
+                <li><a href="pedigree-drawing-software.html">Pedigree drawing software</a></li>
+                <li><a href="pedigree-chart.html">Pedigree chart</a></li>
+                <li><a href="how-to-draw-a-pedigree-chart.html">How to draw a pedigree chart</a></li>
+                <li><a href="nsgc-pedigree-notation.html">NSGC pedigree notation</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene for clinical pedigree drawing</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, twenty published risk-model implementations, and a CanRisk export bridge. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="pedigree-drawing-software.html" class="hover:text-white transition-colors">Pedigree drawing</a></li><li><a href="pedigree-drawing-tool.html" class="hover:text-white transition-colors">Pedigree drawing tool</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li><li><a href="clinical-pedigree-drawing.html" class="hover:text-white transition-colors">Clinical pedigree drawing</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

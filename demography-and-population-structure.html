@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demography and Population Structure — F-statistics, PCA, Admixture | Evagene</title>
+    <meta name="description" content="Wright's F-statistics, PCA on genetic data, ADMIXTURE / STRUCTURE, founder effects (Ashkenazi BRCA1/BRCA2, Finnish heritage, French-Canadian), bottlenecks, Out-of-Africa demographic inference, and ancient DNA.">
+    <meta name="keywords" content="population structure, Wright F-statistics, Fst, principal component analysis, ADMIXTURE, STRUCTURE, founder effect, BRCA1 185delAG, BRCA2 6174delT, Finnish heritage diseases, PSMC, Out-of-Africa, ancient DNA, 1000 Genomes, H3Africa, UK Biobank">
+
+    <meta property="og:title" content="Demography and Population Structure — F-statistics, PCA, Admixture | Evagene">
+    <meta property="og:description" content="A specialist-facing educational page on population structure, founder effects, admixture, demographic inference, and ancient DNA.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/demography-and-population-structure">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Demography and Population Structure — F-statistics, PCA, Admixture">
+    <meta name="twitter:description" content="F-statistics, PCA, ADMIXTURE, founder effects, bottlenecks, demographic inference, ancient DNA, and reference cohorts.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/demography-and-population-structure">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Demography and Population Structure: F-statistics, PCA, and Admixture",
+        "description":"Wright's F-statistics, PCA on genetic data, ADMIXTURE / STRUCTURE, founder effects, bottlenecks, expansion, Out-of-Africa demographic inference, ancient DNA insights, and reference cohorts.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/demography-and-population-structure"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["population structure","Wright F-statistics","Fst","PCA","ADMIXTURE","founder effect","BRCA1 185delAG","BRCA2 6174delT","Finnish heritage diseases","PSMC","Out-of-Africa","ancient DNA","1000 Genomes","H3Africa","UK Biobank"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Demography and Population Structure — F-statistics, PCA, Admixture",
+        "description":"An educational page on population structure, founder effects, admixture, and demographic inference, with worked human-genetics examples.",
+        "learningResourceType":"Educational article",
+        "educationalLevel":"Specialist / postgraduate",
+        "audience":{"@type":"Audience","audienceType":"Researchers, educators, students, clinical geneticists"},
+        "inLanguage":"en-GB",
+        "provider":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "url":"https://evagene.com/demography-and-population-structure"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Population and Evolutionary Genetics","item":"https://evagene.com/population-and-evolutionary-genetics"},
+            {"@type":"ListItem","position":3,"name":"Demography and Population Structure","item":"https://evagene.com/demography-and-population-structure"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="population-and-evolutionary-genetics.html" class="hover:text-brand-600 dark:hover:text-brand-300">Population and Evolutionary Genetics</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Demography and Population Structure</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Demography and population structure: migration, founder effects, and admixture</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Human populations are not panmictic. Allele frequencies vary geographically, ancestrally, and historically; the variation is structured by migration, drift, founder events, bottlenecks, expansions, and admixture. This page covers the standard analytical apparatus &mdash; Wright's F-statistics, principal component analysis on genetic data, the ADMIXTURE / STRUCTURE family of clustering tools, demographic inference from sequenced genomes, and the contribution of ancient DNA &mdash; with worked examples in human-genetics populations.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>14 min read</span>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>Educational content &mdash; not medical advice</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Population structure is quantified by Wright's F-statistics (Fst, Fis, Fit). Modern analyses summarise structure with principal component analysis (PCA) on genotype matrices and with model-based clustering (STRUCTURE, ADMIXTURE). Founder effects produce locally elevated frequencies of specific variants &mdash; the BRCA1 185delAG / 5382insC and BRCA2 6174delT founder variants in Ashkenazi Jewish populations are well-documented examples, as are the Finnish disease heritage and the French-Canadian founder variants. Bottlenecks, expansions, and admixture have left distinct signatures on the genome that are now routinely inferred from sequenced cohorts. Ancient DNA has rewritten the demographic history of Europe and other regions over the past fifteen years.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Wright's F-statistics</h2>
+
+            <p>Sewall Wright introduced a hierarchical decomposition of allele-frequency variance in the 1940s and 1950s. The three F-statistics partition the deviation from random-mating expectations across nested levels of population structure:</p>
+
+            <ul>
+                <li><strong>Fis</strong> (inbreeding coefficient within subpopulations): the deficit of heterozygotes within a subpopulation, relative to the HWE expectation given that subpopulation's allele frequencies. Captures non-random mating within demes (consanguinity, assortative mating).</li>
+                <li><strong>Fst</strong> (subpopulation differentiation): the proportion of total genetic variance that is between subpopulations. Fst close to 0 means the subpopulations have very similar allele frequencies; Fst close to 1 means they are nearly fixed for different alleles. Pairwise human population Fst is typically small &mdash; on the order of 0.05 between continental groups, smaller within continents.</li>
+                <li><strong>Fit</strong> (total inbreeding): the deficit of heterozygotes in the total population, relative to a pooled HWE expectation. Combines the within-subpopulation and between-subpopulation contributions.</li>
+            </ul>
+
+            <p>The relationship is (1 &minus; Fit) = (1 &minus; Fis)(1 &minus; Fst). Empirical Fst estimators (Weir and Cockerham 1984; Hudson, Slatkin and Maddison 1992) differ in normalisation; published values must be read with the estimator in mind. Pairwise Fst between human populations sampled at the continental level is typically around 0.05; between Europe and East Asia, around 0.08; between Europe and West Africa, around 0.10. These small values are consistent with most genetic variation being within rather than between human populations &mdash; one of the most-cited empirical findings of human population genetics.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Principal component analysis on genetic data</h2>
+
+            <p>PCA on genotype matrices summarises structure without specifying a model. The standard formulation in human genetics is from <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0020190" rel="noopener">Patterson, Price and Reich 2006 (PLoS Genet 2:e190)</a>, which provided the test of statistical significance (the Tracy-Widom distribution) for principal components and connected the empirical PCA to the underlying coalescent model. The leading principal components of a genome-wide genotype matrix in a continental human sample track geographic and ancestral structure: in European samples PC1 typically aligns with a north-south or east-west axis; in continental-scale samples, PC1 separates major ancestry groups.</p>
+
+            <p>PCA is the routine first analysis on any new cohort. In genome-wide association studies, principal components are included as covariates to control for population stratification. The number of components retained is typically chosen by inspection of the eigenvalue scree plot or by the Tracy-Widom test; in well-mixed continental cohorts, two to ten components are usual.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Model-based clustering: STRUCTURE and ADMIXTURE</h2>
+
+            <p>Model-based clustering assigns each individual a vector of ancestry proportions over a specified number of ancestral components K. The original Bayesian implementation, STRUCTURE (Pritchard, Stephens and Donnelly 2000), used MCMC; the modern frequentist implementation, <a href="https://genome.cshlp.org/content/19/9/1655" rel="noopener">ADMIXTURE (Alexander, Novembre and Lange 2009, Genome Res 19:1655)</a>, uses block relaxation and is several orders of magnitude faster. Both require a pre-specified K and produce a Q matrix of ancestry proportions and a P matrix of allele frequencies in each component.</p>
+
+            <p>The interpretation caveat is sharp. ADMIXTURE / STRUCTURE outputs depend on the sample composition and the chosen K; the components are not "true" ancestral populations but statistical summaries of allele-frequency variation in the dataset. The components from one analysis are not directly comparable to those from another with different sampling. Cross-validation error or marginal likelihood is used to choose K, but neither is a definitive criterion. In practice, multiple values of K are reported and interpreted jointly with PCA and with f-statistics (f3, f4, D-statistics; see Patterson et al. 2012, Genetics 192:1065).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Founder effects</h2>
+
+            <p>A founder effect occurs when a small subset of a parent population establishes a new population, which then expands. The new population carries a sample of the parent population's allele frequencies, with stochastic deviations: rare alleles in the parent that happen to be present in the founders can rise to substantial frequencies in the descendant population. Founder effects produce locally elevated frequencies of specific variants and locally extended haplotypes around them, both of which can be detected against a non-founder reference.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Ashkenazi Jewish founder variants in BRCA1 and BRCA2</h3>
+
+            <p><a href="https://www.nature.com/articles/ng1096-185" rel="noopener">Roa et al. 1996 (Nat Genet 14:185)</a> documented three founder variants &mdash; BRCA1 185delAG, BRCA1 5382insC, and BRCA2 6174delT &mdash; segregating at substantially elevated frequency in the Ashkenazi Jewish population. The carrier frequency of any of the three is approximately 1 in 40, compared with much lower frequencies in non-Ashkenazi populations. These founder variants account for the bulk of BRCA1 and BRCA2 variants documented in Ashkenazi families. The pattern is the canonical example of a founder effect in human disease genetics: three specific variants, each on a long shared haplotype consistent with descent from a small number of founder chromosomes a few hundred to a thousand years ago.</p>
+
+            <p>The clinical significance of the founder structure is substantial: the prior probability that an Ashkenazi-ancestry individual carries one of the three variants differs from the prior in non-founder populations by approximately an order of magnitude, and this is reflected in published guidance and in the priors used by risk-model algorithms. Evagene's documentation pages on <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk assessment</a> and the BayesMendel BRCAPRO implementation surface the founder-prior literature.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Finnish heritage diseases</h3>
+
+            <p>The Finnish population has been comprehensively characterised as a founder population, with a documented set of approximately forty rare recessive conditions that occur at elevated frequency in Finland and are rare elsewhere &mdash; the "Finnish disease heritage" (the canonical reviews are Norio 2003 and the OMIM entries cataloguing the conditions). The conditions include congenital nephrotic syndrome of the Finnish type (NPHS1), Salla disease (SLC17A5), aspartylglucosaminuria (AGA), and Mulibrey nanism (TRIM37), among others. The founder structure reflects the demographic history of Finland: a small founding population that experienced population bottlenecks and limited gene flow with neighbours over centuries, expanding to the contemporary census of approximately 5.6 million.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">French-Canadian founders</h3>
+
+            <p>The Qu&eacute;bec French-Canadian population descends from approximately 8,500 founders who emigrated from France in the seventeenth and eighteenth centuries, with subsequent expansion. A documented set of conditions occurs at elevated frequency: tyrosinaemia type I (FAH, particularly in the Saguenay-Lac-Saint-Jean region), hereditary spastic ataxia of Charlevoix-Saguenay (SACS), oculopharyngeal muscular dystrophy (PABPN1), and others. The pattern is comparable to the Finnish heritage, with a different founder set and a different list of variants.</p>
+
+            <p>Other documented founder structures include the Old Order Amish in Pennsylvania (Ellis-van Creveld syndrome, glutaric aciduria type I), the Hutterite Brethren in North America, and several geographically isolated populations in the Mediterranean and East Africa. The Iceland population is sometimes described as a founder population in this sense, but its larger founder size and longer expansion give a structure intermediate between classical small founders and panmictic continental populations.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Bottlenecks and expansions</h2>
+
+            <p>A population bottleneck is a sharp reduction in population size, often followed by recovery. Bottlenecks reduce genetic diversity (lower nucleotide diversity, fewer rare variants relative to common variants), increase linkage disequilibrium (longer haplotype blocks), and shift the site-frequency spectrum (a deficit of rare variants under a strong, recent bottleneck). The Out-of-Africa bottleneck around 60,000 to 70,000 years ago is the most-studied example in human demographic history: non-African populations carry a reduced subset of the diversity of African populations, on shorter coalescent times.</p>
+
+            <p>Population expansions show the opposite signature: an excess of rare variants relative to a constant-size expectation. Most contemporary human populations have expanded substantially in the past 10,000 years (the agricultural transition) and more dramatically in the past 200 years (the demographic transition); the rare-variant burst from these recent expansions is one of the largest features of contemporary site-frequency spectra and a major reason for the per-capita rare-variant abundance in human cohorts.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Inferring demographic history from sequenced genomes</h2>
+
+            <p>Modern demographic inference uses the coalescent applied to whole-genome sequences. The pairwise sequentially Markovian coalescent (PSMC), introduced by Li and Durbin 2011, infers a single individual's effective population size over time by analysing heterozygous sites along the genome. The multiple sequentially Markovian coalescent (MSMC) and its successor MSMC2, introduced by <a href="https://www.nature.com/articles/ng.3015" rel="noopener">Schiffels and Durbin 2014 (Nat Genet 46:919)</a>, extend the approach to multiple genomes, recovering population-size trajectories and population-split times.</p>
+
+            <p>Applied to human genomes, PSMC and MSMC2 recover the Out-of-Africa bottleneck, the divergence of contemporary continental populations, and the more recent population-size dynamics within continents. The methods agree broadly with parallel inferences from site-frequency spectra under explicit demographic models (&part;a&part;i, fastsimcoal, momi2). The pre-history of the past several hundred thousand years is now reconstructed in considerable detail from genome-scale data.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Admixture</h2>
+
+            <p>Admixture is the gene flow between previously separated populations. It is detected by ancestry-deconvolution methods (RFMix, Tractor) and quantified by f-statistics, ALDER, GLOBETROTTER, and similar tools. The expected length of admixture-derived ancestry tracts in a contemporary individual decreases over time after the admixture event (as recombination breaks them up); the time of admixture is therefore inferable from the distribution of tract lengths.</p>
+
+            <p>Worked examples: <strong>African Americans</strong> have a population-mean ancestry of approximately 75 to 85 per cent African and 15 to 25 per cent European, with substantial inter-individual variation; the admixture occurred predominantly over a window of roughly 200 to 400 years (about 7 to 15 generations) consistent with the historical record. <strong>Latino populations</strong> in the Americas show three-way admixture of European, Indigenous American, and African ancestry, in proportions that vary by country and by region within country &mdash; Mexican-American mean ancestry is typically dominated by Indigenous American and European, Caribbean Latino populations carry substantially higher African ancestry, and South American populations show further regional variation. The ALDER and GLOBETROTTER methods date the admixture events to consistent post-1492 windows. In all of these cases, ancestry-aware analyses (PRS portability, GWAS controls) are now standard.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Ancient DNA</h2>
+
+            <p>Sequencing of DNA from ancient human remains has transformed demographic history. The methodological breakthroughs of the past fifteen years &mdash; library preparation from highly degraded DNA, capture enrichment, and contamination control &mdash; have produced thousands of ancient human genomes covering Eurasia, the Americas, and to a lesser extent Africa. The Pa&auml;bo and Reich groups have led the field; the synthesis in <a href="https://www.penguinrandomhouse.com/books/541478/who-we-are-and-how-we-got-here-by-david-reich/" rel="noopener">Reich 2018 (<em>Who We Are and How We Got Here</em>)</a> covers the European story in particular detail.</p>
+
+            <p>Key findings: contemporary Europeans descend from at least three major ancestral components &mdash; Western Hunter-Gatherers, Anatolian Neolithic Farmers (associated with the spread of agriculture from the Near East), and Steppe pastoralists (associated with the third-millennium-BC Yamnaya expansion) &mdash; in proportions that vary by region. Neanderthal and Denisovan introgression into anatomically modern humans is detectable in contemporary non-African genomes (1 to 2 per cent Neanderthal across non-Africans, additional Denisovan ancestry in Oceanian populations). The peopling of the Americas, the prehistory of the Eurasian Steppe, and the demographic dynamics of South Asia, East Asia, and parts of Africa have all been substantially revised against the ancient-DNA record.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Reference cohorts and the diversity gap</h2>
+
+            <p>Modern population genetics depends on reference cohorts. The <a href="https://www.nature.com/articles/nature15393" rel="noopener">1000 Genomes Project (Auton et al. 2015, Nature 526:68)</a> provided sequenced genomes of approximately 2,500 individuals from 26 populations, and remains a foundational reference. The Genome Aggregation Database (gnomAD), aggregating exomes and genomes from research cohorts, now contains over 800,000 individuals across multiple ancestry groups; constraint metrics and variant-frequency catalogues drawn from gnomAD are used routinely in clinical-genetics interpretation.</p>
+
+            <p>The <strong>UK Biobank</strong> has approximately 500,000 individuals, predominantly of European ancestry, with deep phenotyping. It is the largest single resource for European-ancestry genome-phenome work, but the under-representation of non-European populations in UK Biobank and equivalent biobanks has driven the diversity-of-cohorts conversation in human genetics. <strong>H3Africa</strong> (Human Heredity and Health in Africa) was established in part to address that gap, building African-led genomic resources across multiple African countries. Comparable diversification efforts include All of Us (United States) and a number of country-specific biobanks. The motivation is both scientific (population-specific variants and demographic histories are not represented in European-ancestry-dominated cohorts) and ethical (research benefit must reach the populations that contribute samples).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why structure matters for pedigree work</h2>
+
+            <p>Population structure intersects pedigree-based work at the level of priors. The carrier frequency of a recessive disease allele in the population a partner is sampled from sets the prior probability of carrier status when family history is unrevealing; founder structure changes that prior substantially in known founder populations. The penetrance of a dominant variant estimated from one population may not transfer cleanly to another. Polygenic risk scores estimated in European-ancestry GWAS perform less well in non-European populations, with the magnitude of the loss correlated with genetic distance from the discovery cohort. None of these are reasons not to do family-history work in diverse populations; they are reasons to be explicit about the population a calculation is parameterised against and to choose appropriate inputs. Evagene's implementations of published risk-model algorithms surface the population-specific parameters where they exist, and the user-facing pages emphasise the ancestry context.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What does Fst measure?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Fst is the proportion of total genetic variance attributable to between-subpopulation differences. Fst close to 0 means subpopulations have similar allele frequencies; Fst close to 1 means they are nearly fixed for different alleles. Pairwise Fst between continental human populations is typically around 0.05 to 0.10.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a founder effect?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">An elevated frequency of specific variants in a descendant population, produced when a small subset of a parent population establishes a new population that then expands. The Ashkenazi Jewish founder variants in BRCA1 and BRCA2 (Roa et al. 1996) and the Finnish disease heritage are well-documented examples.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Why is PCA used as the first analysis on a new cohort?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">PCA summarises population structure in the genotype matrix without specifying a model, runs quickly on genome-scale data, and produces principal components that are routinely included as covariates in genome-wide association studies to control for stratification.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What does PSMC infer?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">A single individual's effective population size over time, from the distribution of heterozygous sites along their genome. PSMC and its multi-genome successors (MSMC, MSMC2) recover demographic-history features including the Out-of-Africa bottleneck and population-split times.</p>
+                </div>
+                <div class="pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Why are non-European cohorts under-represented in human-genetics research?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Historically, large biobanks (UK Biobank, FinnGen, deCODE) recruited primarily within European-ancestry populations, and discovery genome-wide association studies have followed. Diversification efforts (H3Africa, All of Us, country-specific biobanks) are now expanding the reference, but the imbalance has consequences for the portability of polygenic risk scores and for the equity of genomic-research benefit.</p>
+                </div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="population-and-evolutionary-genetics.html">Population and evolutionary genetics (pillar)</a></li>
+                <li><a href="allele-frequency-dynamics.html">Allele frequency dynamics</a></li>
+                <li><a href="population-genetics-applications.html">Population genetics applications</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="population-and-evolutionary-genetics.html" class="hover:text-white transition-colors">Population &amp; evolutionary genetics</a></li><li><a href="allele-frequency-dynamics.html" class="hover:text-white transition-colors">Allele frequency dynamics</a></li><li><a href="population-genetics-applications.html" class="hover:text-white transition-colors">Population genetics applications</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

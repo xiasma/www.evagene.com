@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance Patterns — Autosomal, X-Linked, Mitochondrial, Imprinting | Evagene</title>
+    <meta name="description" content="Educational reference on classical inheritance patterns: autosomal dominant and recessive, X-linked recessive and dominant, Y-linked, mitochondrial, and imprinting / uniparental disomy. Diagnostic features in pedigrees with worked loci.">
+    <meta name="keywords" content="inheritance patterns, autosomal dominant, autosomal recessive, X-linked recessive, X-linked dominant, Y-linked inheritance, mitochondrial inheritance, imprinting, uniparental disomy, Prader-Willi, Angelman, Beckwith-Wiedemann, anticipation, penetrance, Mendelian inheritance, OMIM">
+
+    <meta property="og:title" content="Inheritance Patterns — Autosomal, X-Linked, Mitochondrial, Imprinting | Evagene">
+    <meta property="og:description" content="Educational reference on classical Mendelian inheritance patterns and the non-classical mechanisms (imprinting, UPD, mitochondrial heteroplasmy) that complicate them.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/inheritance-patterns">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Inheritance Patterns — Evagene">
+    <meta name="twitter:description" content="Autosomal dominant, autosomal recessive, X-linked, Y-linked, mitochondrial, imprinting / UPD — diagnostic features and worked loci.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/inheritance-patterns">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Inheritance Patterns: Autosomal, X-Linked, Mitochondrial, Imprinting",
+        "description":"Educational reference on classical Mendelian inheritance patterns and the non-classical mechanisms (imprinting, uniparental disomy, mitochondrial heteroplasmy) that complicate them. Includes worked loci and links to Evagene calculator pages.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/inheritance-patterns"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["inheritance patterns","autosomal dominant","autosomal recessive","X-linked","mitochondrial","imprinting","uniparental disomy"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Inheritance Patterns",
+        "description":"Educational reference on classical Mendelian inheritance patterns and non-classical mechanisms.",
+        "url":"https://evagene.com/inheritance-patterns",
+        "learningResourceType":"Article",
+        "educationalUse":["Teaching","Self-study","Research"],
+        "audience":{"@type":"EducationalAudience","educationalRole":["student","researcher","educator"]},
+        "isPartOf":{"@type":"CreativeWork","name":"Mendelian Genetics and Gene Discovery","url":"https://evagene.com/mendelian-genetics-and-gene-discovery"},
+        "inLanguage":"en-GB",
+        "provider":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Mendelian Genetics & Gene Discovery","item":"https://evagene.com/mendelian-genetics-and-gene-discovery"},
+            {"@type":"ListItem","position":3,"name":"Inheritance Patterns","item":"https://evagene.com/inheritance-patterns"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="mendelian-genetics-and-gene-discovery.html" class="hover:text-brand-600 dark:hover:text-brand-300">Mendelian Genetics & Gene Discovery</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Inheritance Patterns</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Inheritance patterns</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Diagnostic features of the canonical Mendelian patterns &mdash; autosomal dominant, autosomal recessive, X-linked recessive, X-linked dominant, Y-linked, mitochondrial &mdash; and the non-classical mechanisms (imprinting, uniparental disomy, mitochondrial heteroplasmy, anticipation) that complicate them. Worked loci, OMIM entries, and the Evagene calculators that compute the textbook arithmetic. For research, education, and teaching.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>13 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> The pattern of affected and unaffected individuals across generations and sexes is what makes a pedigree informative. Six classical patterns (autosomal dominant, autosomal recessive, X-linked recessive, X-linked dominant, Y-linked, mitochondrial) plus a small set of non-classical mechanisms (imprinting, uniparental disomy, anticipation, heteroplasmy) cover almost all of single-locus inheritance. Each pattern has a small set of diagnostic features in pedigrees and a canonical example locus. Real families almost never fit one pattern cleanly.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mendel's two laws</h2>
+
+            <p>Gregor Mendel's 1866 paper (<em>Verhandlungen des naturforschenden Vereines in Br&uuml;nn</em> 4:3-47, <a href="https://www.biodiversitylibrary.org/item/124139" rel="noopener">facsimile via the Biodiversity Heritage Library</a>) gave classical genetics two laws. The <strong>law of segregation</strong> states that each parent transmits one of their two alleles at a locus at random to each gamete, so that an Aa parent transmits A or a with equal probability. The <strong>law of independent assortment</strong> states that alleles at different loci segregate independently of each other, producing the 9:3:3:1 dihybrid ratio when neither locus shows linkage. Independent assortment holds within the limits of physical proximity on the chromosome &mdash; loci on the same chromosome, sufficiently close, depart from independent assortment, which is the entire basis of linkage analysis.</p>
+
+            <p>Mendel's two laws define what is meant by a Mendelian phenotype: a phenotype determined by the genotype at a single locus, with predictable transmission ratios from parent to offspring. The laws plus a binary affected-status definition produce the classical patterns. The <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a> walks through the underlying arithmetic.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Autosomal dominant</h2>
+
+            <p>Diagnostic features in a pedigree:</p>
+
+            <ul>
+                <li>Affected individuals in <strong>every generation</strong> &mdash; vertical transmission from parent to offspring.</li>
+                <li><strong>Both sexes affected</strong> with roughly equal frequency.</li>
+                <li>Approximately <strong>50&#37; of the offspring of an affected parent</strong> are affected (when the parent is heterozygous, which is the usual case).</li>
+                <li><strong>Male-to-male transmission is allowed</strong> (and observed). This is the diagnostic test that distinguishes autosomal dominant from X-linked dominant.</li>
+                <li>An unaffected individual does not transmit (under full penetrance and no germline mosaicism &mdash; both caveats below).</li>
+            </ul>
+
+            <p>Worked loci: <em>FBN1</em> in Marfan syndrome (<a href="https://omim.org/entry/154700" rel="noopener">OMIM 154700</a>); <em>NF1</em> in neurofibromatosis type 1 (<a href="https://omim.org/entry/162200" rel="noopener">OMIM 162200</a>); <em>HTT</em> in Huntington disease (<a href="https://omim.org/entry/143100" rel="noopener">OMIM 143100</a>); <em>FGFR3</em> p.Gly380Arg in achondroplasia (<a href="https://omim.org/entry/100800" rel="noopener">OMIM 100800</a>); <em>BRCA1</em> and <em>BRCA2</em> in hereditary breast and ovarian cancer (<a href="https://omim.org/entry/113705" rel="noopener">OMIM 113705</a>, <a href="https://omim.org/entry/600185" rel="noopener">600185</a>).</p>
+
+            <p>Real autosomal dominant pedigrees depart from the textbook ratio for three reasons. <strong>Reduced penetrance</strong>: not every heterozygote develops the phenotype within the observation window (Huntington at age 25, BRCA1-associated breast cancer at age 40). <strong>Variable expressivity</strong>: heterozygotes with the same variant present with very different combinations of features (NF1 again, with caf&eacute;-au-lait macules, neurofibromas, optic glioma, and Lisch nodules in different proportions). <strong>Anticipation</strong>: the trinucleotide-repeat disorders (Huntington, myotonic dystrophy, several spinocerebellar ataxias) where the repeat expands across generations, producing earlier and more severe phenotypes in successive generations. The textbook computation is at <a href="autosomal-dominant-calculator.html">autosomal dominant calculator</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Autosomal recessive</h2>
+
+            <p>Diagnostic features:</p>
+
+            <ul>
+                <li>Affected individuals appear in a <strong>single generation</strong>, typically in a sibship (the proband's brothers and sisters).</li>
+                <li>The parents of an affected individual are <strong>typically unaffected obligate carriers</strong> (one variant allele each).</li>
+                <li><strong>Both sexes affected</strong> with roughly equal frequency.</li>
+                <li>The condition often <strong>skips generations</strong>: it appears in the proband's generation but not in the parental or grandparental generations.</li>
+                <li><strong>Consanguinity raises the prior</strong> probability of an autosomal recessive condition. A double horizontal line in the pedigree is therefore a Bayesian piece of evidence in itself; see <a href="consanguinity-calculator.html">consanguinity calculator</a>.</li>
+                <li>Approximately <strong>25&#37; recurrence in subsequent sibs</strong> of two carrier parents.</li>
+            </ul>
+
+            <p>Worked loci: <em>CFTR</em> in cystic fibrosis (<a href="https://omim.org/entry/219700" rel="noopener">OMIM 219700</a>); <em>HBB</em> in sickle-cell anaemia and beta-thalassaemia (<a href="https://omim.org/entry/603903" rel="noopener">OMIM 603903</a>); <em>HEXA</em> in Tay-Sachs disease (<a href="https://omim.org/entry/272800" rel="noopener">OMIM 272800</a>); <em>PAH</em> in phenylketonuria (<a href="https://omim.org/entry/261600" rel="noopener">OMIM 261600</a>); <em>HGD</em> in alkaptonuria (<a href="https://omim.org/entry/203500" rel="noopener">OMIM 203500</a>) &mdash; Garrod's original 1902 case.</p>
+
+            <p>Population-specific allele frequencies matter for autosomal recessive conditions. Founder effects produce regionally elevated carrier frequencies (the <em>HEXA</em> 1278insTATC variant in Ashkenazi Jewish populations, the <em>CFTR</em> p.Phe508del variant in northern European populations, the <em>HBB</em> sickle-cell variant in populations of West African descent). Hardy-Weinberg-derived priors are covered on the <a href="pedigree-analysis-and-variable-expression.html">pedigree analysis page</a>; the recessive computation is at <a href="autosomal-recessive-calculator.html">autosomal recessive calculator</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">X-linked recessive</h2>
+
+            <p>Morgan's 1910 white-eye paper (<em>Science</em> 32:120, <a href="https://www.jstor.org/stable/1635471" rel="noopener">JSTOR 1635471</a>) established the X-linked pattern in <em>Drosophila</em>, and the same pattern is the most diagnostically distinctive in human pedigrees. Diagnostic features:</p>
+
+            <ul>
+                <li><strong>Predominantly affected males.</strong> A female homozygote is possible but rare; the carrier-female phenotype (in an X-inactivation skewed individual) is occasionally observed.</li>
+                <li><strong>No male-to-male transmission.</strong> An affected father cannot transmit an X-linked recessive condition to a son (the son inherits the father's Y, not his X). This is the single most diagnostic feature.</li>
+                <li><strong>Daughters of affected males are obligate carriers.</strong> Every daughter of an affected father inherits the father's X.</li>
+                <li>Affected males inherit from <strong>carrier mothers</strong>. The mother of an affected male is a carrier (modulo de novo events, which are common in X-linked lethal conditions because of selection).</li>
+                <li>Roughly <strong>50&#37; of the sons of a carrier mother</strong> are affected and <strong>50&#37; of her daughters</strong> are carriers.</li>
+            </ul>
+
+            <p>Worked loci: <em>DMD</em> in Duchenne and Becker muscular dystrophy (<a href="https://omim.org/entry/310200" rel="noopener">OMIM 310200</a>; see also <a href="duchenne-muscular-dystrophy-pedigree.html">Duchenne pedigree</a>); <em>F8</em> in haemophilia A (<a href="https://omim.org/entry/306700" rel="noopener">OMIM 306700</a>) &mdash; the famous pedigree of Queen Victoria's descendants is the canonical teaching example; <em>F9</em> in haemophilia B (<a href="https://omim.org/entry/306900" rel="noopener">OMIM 306900</a>); <em>FMR1</em> in fragile X syndrome (<a href="https://omim.org/entry/300624" rel="noopener">OMIM 300624</a>); <em>G6PD</em> in glucose-6-phosphate dehydrogenase deficiency (<a href="https://omim.org/entry/305900" rel="noopener">OMIM 305900</a>).</p>
+
+            <p>Selection against affected males in lethal conditions (Duchenne is the canonical example) means that approximately one third of cases at any given time are de novo mutations in the maternal germline rather than transmitted from a known carrier. This is the Haldane equilibrium argument and is the reason that an apparently isolated affected male in an X-linked lethal disorder is not necessarily evidence of a non-carrier mother. The before-and-after probability arithmetic for carrier estimation in the mother is at <a href="carrier-probability-calculator.html">carrier probability calculator</a> and worked through on the <a href="pedigree-analysis-and-variable-expression.html">pedigree analysis page</a>. The interactive calculator is at <a href="x-linked-recessive-calculator.html">x-linked recessive calculator</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">X-linked dominant</h2>
+
+            <p>X-linked dominant conditions are diagnosable from a pedigree by the asymmetry between affected fathers and affected mothers:</p>
+
+            <ul>
+                <li>Affected in <strong>every generation</strong>, like autosomal dominant.</li>
+                <li>An <strong>affected male</strong> transmits the condition to <strong>all his daughters</strong> and <strong>none of his sons</strong>. This is the diagnostic feature.</li>
+                <li>An <strong>affected female</strong> transmits to <strong>roughly 50&#37;</strong> of her offspring of either sex.</li>
+                <li>In several X-linked dominant conditions (incontinentia pigmenti, Rett syndrome, the OFD1 phenotype) the condition is <strong>lethal in hemizygous males</strong>, producing pedigrees with affected females, recurrent miscarriages of male foetuses, and a striking female:male ratio in liveborn affected children.</li>
+            </ul>
+
+            <p>Worked loci: <em>MECP2</em> in Rett syndrome (<a href="https://omim.org/entry/312750" rel="noopener">OMIM 312750</a>); <em>IKBKG</em> (<em>NEMO</em>) in incontinentia pigmenti (<a href="https://omim.org/entry/308300" rel="noopener">OMIM 308300</a>); <em>PHEX</em> in X-linked hypophosphataemic rickets (<a href="https://omim.org/entry/307800" rel="noopener">OMIM 307800</a>); <em>OFD1</em> in oral-facial-digital syndrome type 1 (<a href="https://omim.org/entry/311200" rel="noopener">OMIM 311200</a>). See <a href="x-linked-dominant-pedigree.html">x-linked dominant pedigree</a> for a worked pedigree.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Y-linked</h2>
+
+            <p>Y-linked (holandric) inheritance is rare and easy to recognise. The condition is transmitted exclusively from father to son: every son of an affected father is affected, and no daughter is ever affected. The Y chromosome carries fewer than a hundred protein-coding genes and most known Y-linked conditions are male-infertility phenotypes (AZF region deletions). Strict Y-linked single-locus disease beyond infertility is unusual.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mitochondrial</h2>
+
+            <p>Mitochondrial DNA is transmitted maternally because mitochondria in the zygote are overwhelmingly of maternal origin (paternal mitochondria are degraded shortly after fertilisation). Diagnostic features:</p>
+
+            <ul>
+                <li><strong>Maternal transmission only.</strong> An affected father cannot transmit a mitochondrial condition to any offspring.</li>
+                <li>An affected mother transmits to <strong>all her children</strong>, but with variable severity.</li>
+                <li><strong>Heteroplasmy</strong> &mdash; the proportion of mutant to wild-type mitochondrial genomes within an individual cell, tissue, or person &mdash; varies between siblings and across tissues, producing <strong>variable expressivity within a sibship</strong>.</li>
+                <li>A mitochondrial condition typically affects <strong>energy-demanding tissues</strong> (brain, muscle, retina, cochlea) preferentially.</li>
+            </ul>
+
+            <p>Worked examples: Leber hereditary optic neuropathy (LHON, <em>MT-ND1/4/6</em>, <a href="https://omim.org/entry/535000" rel="noopener">OMIM 535000</a>); MELAS (<em>MT-TL1</em>, <a href="https://omim.org/entry/540000" rel="noopener">OMIM 540000</a>); mitochondrial DNA-encoded forms of non-syndromic deafness (<em>MT-RNR1</em>). See <a href="mitochondrial-inheritance-pedigree.html">mitochondrial inheritance pedigree</a> for the pedigree pattern.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Imprinting and uniparental disomy</h2>
+
+            <p>Imprinting is the parent-of-origin-specific silencing of one of the two parental alleles at a locus, established by differential methylation of regulatory elements during gametogenesis. The textbook locus is the 15q11-q13 imprinted cluster. Reik and Walter's review (<em>Nature Reviews Genetics</em> 2:21, 2001, <a href="https://pubmed.ncbi.nlm.nih.gov/11253064/" rel="noopener">PMID 11253064</a>) is a standard reference.</p>
+
+            <ul>
+                <li><strong>Prader-Willi syndrome</strong> (<a href="https://omim.org/entry/176270" rel="noopener">OMIM 176270</a>) results from loss of expression of paternally inherited genes in the 15q11-q13 region (including <em>SNRPN</em> and the <em>SNORD116</em> snoRNA cluster). Mechanisms: paternal 15q11-q13 deletion (~70&#37;), maternal uniparental disomy 15 (~25&#37;), imprinting-centre defect (~5&#37;).</li>
+                <li><strong>Angelman syndrome</strong> (<a href="https://omim.org/entry/105830" rel="noopener">OMIM 105830</a>) results from loss of expression of the maternally inherited copy of <em>UBE3A</em> in 15q11-q13. Mechanisms: maternal 15q11-q13 deletion (~70&#37;), paternal uniparental disomy 15 (~5&#37;), imprinting-centre defect (~5&#37;), <em>UBE3A</em> point mutation (~10&#37;).</li>
+                <li><strong>Beckwith-Wiedemann syndrome</strong> (<a href="https://omim.org/entry/130650" rel="noopener">OMIM 130650</a>) involves the 11p15.5 imprinted region (<em>IGF2</em>, <em>H19</em>, <em>CDKN1C</em>, <em>KCNQ1OT1</em>) and presents with overgrowth, macroglossia, and a raised prior of embryonal tumours.</li>
+                <li><strong>Russell-Silver syndrome</strong> involves the same 11p15.5 region with the opposite epigenetic configuration (<a href="https://omim.org/entry/180860" rel="noopener">OMIM 180860</a>).</li>
+            </ul>
+
+            <p><strong>Uniparental disomy (UPD)</strong> is the inheritance of both copies of a chromosome (or chromosome segment) from a single parent. UPD becomes phenotype-relevant when the chromosome carries an imprinted region (giving rise to Prader-Willi or Angelman by UPD, as above) or when it converts a heterozygous parent into a homozygous offspring at a recessive locus on that chromosome (so-called isodisomy). Robertsonian translocations and trisomy rescue are the main mechanisms by which UPD arises. See <a href="imprinting-upd-pedigree.html">imprinting and UPD pedigree</a> for the pedigree-level features.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Anticipation, two hits, and locus heterogeneity</h2>
+
+            <p><strong>Anticipation</strong> &mdash; earlier age of onset and / or greater severity in successive generations &mdash; is the hallmark of trinucleotide-repeat disorders. The molecular basis is meiotic instability of the repeat: paternal transmission of <em>HTT</em> CAG repeats produces the largest expansions and explains the classical observation that paternally inherited Huntington presents earlier than maternally inherited. <strong>The two-hit hypothesis</strong> (Knudson 1971, <em>PNAS</em> 68:820, <a href="https://pubmed.ncbi.nlm.nih.gov/5279523/" rel="noopener">PMID 5279523</a>) explains the dominant inheritance of cancer-predisposition syndromes (retinoblastoma was the original example, with <em>RB1</em>) by positing that the inherited variant is the first hit and that a somatic event in the affected tissue is the second. <strong>Locus heterogeneity</strong> &mdash; the same phenotype produced by variants at different loci &mdash; is the rule rather than the exception: hereditary non-syndromic deafness has more than 100 known loci (DFNA, DFNB, DFNX series), retinitis pigmentosa has more than 80 loci, and the &quot;BRCAX&quot; cancer-predisposition phenotype is the explicit acknowledgement that not every familial breast / ovarian / pancreatic cancer cluster maps to <em>BRCA1</em> or <em>BRCA2</em>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">When the pattern does not fit</h2>
+
+            <p>Real pedigrees frequently fail to match a single textbook pattern. Reduced penetrance, variable expressivity, age-dependent penetrance, de novo events, germline mosaicism, X-inactivation skewing, locus heterogeneity, and phenocopies all contribute. The next page in this pillar &mdash; <a href="pedigree-analysis-and-variable-expression.html">pedigree analysis and variable expression</a> &mdash; covers each of these explicitly, including the standard Bayesian arithmetic for refining a carrier probability given a non-textbook pedigree.</p>
+
+            <p>Evagene is an academic, research, and educational pedigree modelling platform; outputs from the calculators above are illustrative and for educational and research purposes only.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="references">Key references</h2>
+
+            <ul>
+                <li>Mendel G. 1866. Versuche &uuml;ber Pflanzen-Hybriden. <em>Verhandlungen des naturforschenden Vereines in Br&uuml;nn</em> 4:3-47. <a href="https://www.biodiversitylibrary.org/item/124139" rel="noopener">Biodiversity Heritage Library</a>.</li>
+                <li>Morgan TH. 1910. Sex limited inheritance in <em>Drosophila</em>. <em>Science</em> 32:120-122. <a href="https://www.jstor.org/stable/1635471" rel="noopener">JSTOR 1635471</a>.</li>
+                <li>Knudson AG. 1971. Mutation and cancer: statistical study of retinoblastoma. <em>PNAS</em> 68:820-823. <a href="https://pubmed.ncbi.nlm.nih.gov/5279523/" rel="noopener">PMID 5279523</a>.</li>
+                <li>Reik W, Walter J. 2001. Genomic imprinting: parental influence on the genome. <em>Nat Rev Genet</em> 2:21-32. <a href="https://pubmed.ncbi.nlm.nih.gov/11253064/" rel="noopener">PMID 11253064</a>.</li>
+                <li>Online Mendelian Inheritance in Man (OMIM). <a href="https://omim.org" rel="noopener">omim.org</a>.</li>
+                <li>GeneReviews. NIH/NCBI Bookshelf. <a href="https://www.ncbi.nlm.nih.gov/books/NBK1116/" rel="noopener">ncbi.nlm.nih.gov/books/NBK1116</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related Evagene pages</h2>
+
+            <ul>
+                <li><a href="mendelian-genetics-and-gene-discovery.html">Mendelian genetics and gene discovery</a> &mdash; pillar</li>
+                <li><a href="pedigree-analysis-and-variable-expression.html">Pedigree analysis and variable expression</a></li>
+                <li><a href="mapping-and-gene-identification.html">Mapping and gene identification</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="autosomal-dominant-calculator.html">Autosomal dominant calculator</a></li>
+                <li><a href="autosomal-recessive-calculator.html">Autosomal recessive calculator</a></li>
+                <li><a href="x-linked-recessive-calculator.html">X-linked recessive calculator</a></li>
+                <li><a href="x-linked-dominant-pedigree.html">X-linked dominant pedigree</a></li>
+                <li><a href="mitochondrial-inheritance-pedigree.html">Mitochondrial inheritance pedigree</a></li>
+                <li><a href="imprinting-upd-pedigree.html">Imprinting and UPD pedigree</a></li>
+                <li><a href="carrier-probability-calculator.html">Carrier probability calculator</a></li>
+                <li><a href="consanguinity-calculator.html">Consanguinity calculator</a></li>
+                <li><a href="duchenne-muscular-dystrophy-pedigree.html">Duchenne muscular dystrophy pedigree</a></li>
+                <li><a href="pedigree-drawing-tool.html">Pedigree drawing tool</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's inheritance-pattern calculators</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation and educational implementations of the Mendelian inheritance calculators. Free during alpha for clinicians, researchers, educators, and students. Outputs are illustrative and for educational / research purposes only.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="mendelian-genetics-and-gene-discovery.html" class="hover:text-white transition-colors">Mendelian genetics & gene discovery</a></li><li><a href="inheritance-patterns.html" class="hover:text-white transition-colors">Inheritance patterns</a></li><li><a href="pedigree-analysis-and-variable-expression.html" class="hover:text-white transition-colors">Pedigree analysis</a></li><li><a href="mapping-and-gene-identification.html" class="hover:text-white transition-colors">Mapping and gene identification</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="pedigree-drawing-tool.html" class="hover:text-white transition-colors">Pedigree drawing tool</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

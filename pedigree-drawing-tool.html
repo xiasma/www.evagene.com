@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedigree Drawing Tool — In-Browser Pedigree Software with NSGC Notation | Evagene</title>
+    <meta name="description" content="A free in-browser pedigree drawing tool: NSGC-compliant symbols, gesture drawing, GEDCOM and CanRisk export, twenty published risk-model algorithms, and pedigree OCR. For research, education, and family-history documentation — not a medical device.">
+    <meta name="keywords" content="pedigree drawing tool, online pedigree drawing tool, free pedigree drawing tool, web-based pedigree drawing tool, NSGC pedigree drawing tool, browser pedigree drawing tool, pedigree drawing tool for genetic counsellors, pedigree drawing tool for research, pedigree drawing tool for teaching, pedigree drawing tool with risk models, GEDCOM pedigree drawing tool, CanRisk pedigree drawing tool">
+
+    <meta property="og:title" content="Pedigree Drawing Tool — In-Browser Pedigree Software with NSGC Notation | Evagene">
+    <meta property="og:description" content="Free in-browser pedigree drawing tool: NSGC notation, gesture drawing, GEDCOM and CanRisk export, twenty risk-model algorithms, pedigree OCR. For research, education, and family-history documentation.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/pedigree-drawing-tool">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pedigree Drawing Tool — In-Browser Pedigree Software with NSGC Notation">
+    <meta name="twitter:description" content="In-browser pedigree drawing tool with NSGC notation, gesture drawing, twenty risk-model algorithms.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/pedigree-drawing-tool">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Pedigree Drawing Tool: In-Browser Pedigree Software with NSGC Notation",
+        "description":"A free in-browser pedigree drawing tool with NSGC-compliant symbols, gesture drawing, GEDCOM and CanRisk export, twenty published risk-model algorithms, and pedigree OCR. For research, education, and family-history documentation; not a medical device.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/pedigree-drawing-tool"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["pedigree drawing tool","online pedigree drawing tool","free pedigree drawing tool","web-based pedigree drawing tool"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"SoftwareApplication",
+        "name":"Evagene Pedigree Drawing Tool",
+        "applicationCategory":"EducationalApplication",
+        "applicationSubCategory":"Pedigree drawing and family-history documentation",
+        "operatingSystem":"Web (Chromium, Firefox, Safari)",
+        "url":"https://evagene.com/pedigree-drawing-tool",
+        "description":"In-browser pedigree drawing tool with NSGC-compliant symbols, gesture drawing, GEDCOM 5.5.1 / PED / Phenopackets v2 / CanRisk 2.0 export, twenty published risk-model algorithms, and a 1,900-entry help catalogue.",
+        "offers":{"@type":"Offer","price":"0","priceCurrency":"GBP","availability":"https://schema.org/InStock"},
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Pedigree Drawing","item":"https://evagene.com/pedigree-drawing-software"},
+            {"@type":"ListItem","position":3,"name":"Pedigree Drawing Tool","item":"https://evagene.com/pedigree-drawing-tool"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is a pedigree drawing tool?","acceptedAnswer":{"@type":"Answer","text":"A pedigree drawing tool is software that draws family pedigrees using a defined notation set (typically NSGC), enforces the symbol conventions automatically, and exports the structured pedigree in formats such as GEDCOM, PED, Phenopackets v2, and CanRisk. It is distinct from generic diagram software, which does not enforce notation, and from genealogy software, which does not encode affected status, deceased status, or other clinically relevant attributes."}},
+            {"@type":"Question","name":"Is there a free pedigree drawing tool?","acceptedAnswer":{"@type":"Answer","text":"Yes. Evagene is free during alpha for clinicians, researchers, educators, and students. Other free pedigree drawing tools include QuickPed (research-focused), DrawPed (CC BY-SA 4.0), and PediDraw. A comparison of the major free options is in our free online pedigree maker page."}},
+            {"@type":"Question","name":"What is the best in-browser pedigree drawing tool?","acceptedAnswer":{"@type":"Answer","text":"The best fit depends on the use case. For clinicians wanting NSGC notation with risk-model implementations, Evagene is purpose-built. For research kinship analytics, QuickPed (with its R package pedsuite) is strong. For clinical-grade BOADICEA, canrisk.org is the canonical source. Evagene's CanRisk export bridges to canrisk.org for that workflow."}},
+            {"@type":"Question","name":"Does Evagene's pedigree drawing tool need installation?","acceptedAnswer":{"@type":"Answer","text":"No. Evagene runs entirely in the browser. There is no install, no client software, and no plugin. Pedigrees are processed client-side; the tool works in Chromium, Firefox, and Safari."}},
+            {"@type":"Question","name":"What file formats does the pedigree drawing tool support?","acceptedAnswer":{"@type":"Answer","text":"GEDCOM 5.5.1 (genealogy interchange), PED (linkage / population genetics), Phenopackets v2 (GA4GH), HL7 FHIR FamilyMemberHistory (downstream consumption), CanRisk 2.0 (off-platform BOADICEA bridge), and PDF / PNG / SVG (printable artefact). 23andMe import and pedigree OCR are also supported."}},
+            {"@type":"Question","name":"Does the pedigree drawing tool include risk-model implementations?","acceptedAnswer":{"@type":"Answer","text":"Yes. Evagene includes twenty published risk-model algorithms: BayesMendel BRCAPRO, MMRpro, PancPRO; an IBIS-style approximation of Tyrer-Cuzick; Mendelian inheritance for autosomal dominant, autosomal recessive, X-linked dominant, X-linked recessive, Y-linked, and mitochondrial; and family-history scoring tools (Manchester, Amsterdam II, revised Bethesda, NICE CG164 / NG101 illustrative thresholds). Outputs are illustrative and intended for research, teaching, and family-history documentation. BOADICEA is computed off-platform via the CanRisk export bridge."}},
+            {"@type":"Question","name":"Can the pedigree drawing tool import a hand-drawn pedigree?","acceptedAnswer":{"@type":"Answer","text":"Yes. Evagene's pedigree OCR feature reconstructs a structured pedigree from a hand-drawn or scanned pedigree image. The reconstruction is presented for the user to verify and correct before downstream analysis."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="pedigree-drawing-software.html" class="hover:text-brand-600 dark:hover:text-brand-300">Pedigree Drawing</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Pedigree Drawing Tool</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Pedigree drawing tool: in-browser pedigree software with NSGC notation</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A pedigree drawing tool is software that draws family pedigrees using a defined notation set, enforces the symbol conventions automatically, and exports the structured pedigree in standards-grade formats. This page is about Evagene as an in-browser pedigree drawing tool: what it draws, how it draws, what it exports, and how it compares with the major free and paid alternatives. Free during alpha for clinicians, researchers, educators, and students.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>11 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Evagene is a browser-based pedigree drawing tool. It draws NSGC-compliant pedigrees by gesture, captures three or more generations efficiently, supports consanguinity loops and pregnancy outcomes, exports GEDCOM / PED / Phenopackets / CanRisk / PDF / PNG / SVG, and runs twenty published risk-model algorithms directly on the pedigree. There is no install, no plugin, no enterprise sales cycle. For research, education, and family-history documentation; not a medical device.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">What a pedigree drawing tool does</h2>
+
+            <p>A pedigree drawing tool is purpose-built for one job: to render a family's biological structure and disease history correctly, in NSGC-standard notation, fast enough to keep up with the conversational pace of family-history collection. That sounds simple but the implementation is not. The tool has to encode sex assigned at birth (square / circle / diamond), gender identity where it differs and is recorded, affected status (filled / quadrant fills for multiple conditions), deceased status (diagonal line, with cause and age annotations), proband (arrow), partner (horizontal line) versus consanguineous union (double horizontal line), descent (vertical line from partner line to sibship), sibship (horizontal connector with siblings in birth order), monozygotic versus dizygotic twins, pregnancy outcomes (triangles for miscarriage / termination, with gestational age), adoption (brackets), and carrier status (central dot or half-fill). And it has to keep this rendering visually correct as the family grows past five, ten, fifty individuals.</p>
+
+            <p>Generic diagram tools (Visio, Lucidchart, draw.io, SmartDraw) draw shapes; they do not enforce the structural relationships that distinguish a pedigree from a flowchart. Genealogy tools (Ancestry, MyHeritage, FamilySearch) record lineage but not affected status. Spreadsheets capture rows of data but not the diagram. A pedigree drawing tool sits in the gap.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">How Evagene draws</h2>
+
+            <p>Evagene draws by gesture. Rather than dragging shapes from a palette, the user makes intuitive movements that the tool resolves into the correct NSGC symbols and structural connectors. Adding a partner, a child, a sibling, a deceased relative, a pregnancy outcome &mdash; each is a small consistent gesture. The flow is designed to be uninterrupted while the user takes a family history, teaches an introductory genetics class, or works through a research dataset. A traditional dropdown / form mode is also available for users who prefer keyboard-driven entry, and pedigree OCR reconstructs a structured pedigree from a hand-drawn or scanned image when the starting point is on paper.</p>
+
+            <p>The tool enforces NSGC notation by default; there is no option to render non-standard symbols. Layout is automatic: as the family grows, generations stay aligned, sibships stay ordered, and consanguinity loops route correctly. The output is consistently interpretable across users and institutions because the tool itself is the consistency mechanism.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">What Evagene exports</h2>
+
+            <p>A pedigree drawing tool's value is partly in what it draws and partly in what it produces as portable, vendor-neutral output. Evagene exports:</p>
+
+            <ul>
+                <li><strong>GEDCOM 5.5.1</strong> &mdash; the de facto family-structure interchange format, supported in both directions. See <a href="gedcom-pedigree-software.html">GEDCOM pedigree software</a>.</li>
+                <li><strong>PED</strong> &mdash; the linkage / population-genetics format used by many research pipelines.</li>
+                <li><strong>Phenopackets v2</strong> &mdash; GA4GH-standard phenotype-aware exchange. See <a href="phenopackets-pedigree.html">phenopackets and pedigree data</a>.</li>
+                <li><strong>HL7 FHIR FamilyMemberHistory</strong> &mdash; for downstream consumption by systems that choose to receive structured family-history data. See <a href="hl7-fhir-pedigree.html">HL7 FHIR and pedigree data</a>.</li>
+                <li><strong>CanRisk 2.0</strong> &mdash; the bridge to clinical-grade BOADICEA computation at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a>.</li>
+                <li><strong>PDF, PNG, SVG</strong> &mdash; printable artefacts for slides, teaching materials, research notes, and personal documentation.</li>
+                <li><strong>23andMe import</strong> &mdash; a structured starting point for trait and ancestry context. See <a href="23andme-pedigree-import.html">23andMe pedigree import</a>.</li>
+                <li><strong>Pedigree OCR</strong> &mdash; reconstructs structured pedigrees from hand-drawn or scanned images. See <a href="pedigree-ocr.html">pedigree OCR</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Risk-model implementations on the pedigree</h2>
+
+            <p>Where a pedigree drawing tool only draws, the user has to re-enter the family history into a separate calculator to compute carrier probability or family-history-based risk. Evagene includes implementations of twenty published risk-model algorithms that run directly on the pedigree, eliminating re-entry and the transcription errors it produces. Outputs are illustrative and intended for research, teaching, and family-history documentation.</p>
+
+            <ul>
+                <li><strong>BayesMendel BRCAPRO, MMRpro, PancPRO</strong> &mdash; carrier-probability and cancer-risk computations.</li>
+                <li><strong>Tyrer-Cuzick (IBIS-style approximation)</strong> &mdash; an in-tool approximation of the published Tyrer / Duffy / Cuzick 2004 algorithm. The official IBIS Breast Cancer Risk Evaluator binary is the authoritative implementation.</li>
+                <li><strong>Mendelian inheritance</strong> &mdash; autosomal dominant, autosomal recessive, X-linked dominant, X-linked recessive, Y-linked, mitochondrial.</li>
+                <li><strong>Family-history scoring</strong> &mdash; Manchester scoring, Amsterdam II criteria, revised Bethesda guidelines, NICE CG164 / NG101 illustrative thresholds, Claus 1994, Couch 1997, Frank 2002, Evans 2004, Vasen 1999, Umar 2004, Gail 1989.</li>
+                <li><strong>BOADICEA via CanRisk export</strong> &mdash; off-platform at canrisk.org. BOADICEA is licensed by the University of Cambridge and is not bundled.</li>
+            </ul>
+
+            <p>Detailed model-by-model descriptions are in <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk assessment</a> and <a href="mendelian-inheritance-calculator.html">mendelian inheritance calculator</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">In-browser deployment</h2>
+
+            <p>Evagene runs entirely in the browser. There is no installer, no plugin, no client software, no enterprise procurement cycle. The tool works in Chromium-based browsers (Chrome, Edge, Brave, Arc), Firefox, and Safari. Pedigrees are processed client-side; family-history data does not leave the user's device during alpha unless they explicitly export it. For institutions evaluating residency, that is the simplest possible answer to consent and data-protection questions.</p>
+
+            <p>Browser-based deployment also means the tool reaches users who would not otherwise have a pedigree-drawing option: trainees on rotation, visiting researchers, students at any institution, clinicians in services that have not procured a desktop pedigree platform. Friction is the enemy of adoption; removing it is part of the design.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Comparison with other pedigree drawing tools</h2>
+
+            <p>The pedigree-drawing-tool market includes several established platforms. A brief positioning summary:</p>
+
+            <ul>
+                <li><strong><a href="progeny-vs-evagene.html">Progeny</a></strong> &mdash; established enterprise platform with EHR-integrated workflows. Widely deployed in hospital genetics services. Procurement-heavy.</li>
+                <li><strong><a href="phenotips-vs-evagene.html">PhenoTips</a></strong> &mdash; phenotyping-first platform anchored on HPO. Strong for diagnostic genetics and rare-disease research.</li>
+                <li><strong><a href="trakgene-vs-evagene.html">TrakGene</a></strong> &mdash; cloud-based platform with HL7 FHIR support; manages testing workflows.</li>
+                <li><strong><a href="famgenix-vs-evagene.html">FamGenix</a></strong> &mdash; patient-facing family-history intake with automatic pedigree generation.</li>
+                <li><strong><a href="alternatives-to-quickped.html">QuickPed</a></strong> &mdash; research-focused, with the underlying R package pedsuite for kinship analytics.</li>
+                <li><strong>DrawPed</strong> &mdash; free CC BY-SA 4.0 web tool, simple, PED-format output.</li>
+                <li><strong><a href="genopro-vs-evagene.html">GenoPro</a></strong> &mdash; desktop, genealogy-leaning with some clinical-pedigree support.</li>
+                <li><strong><a href="canrisk-vs-evagene.html">CanRisk</a></strong> &mdash; not a competitor in the drawing sense but the canonical platform for BOADICEA computation. Evagene's CanRisk export is the bridge.</li>
+                <li><strong>Generic diagram software</strong> (SmartDraw, draw.io, Lucidchart, Visio, Creately, Visual Paradigm) &mdash; not recommended for clinical or research pedigree drawing because they do not enforce notation. <a href="smartdraw-pedigree-vs-evagene.html">SmartDraw</a>, <a href="creately-pedigree-vs-evagene.html">Creately</a>, <a href="visual-paradigm-pedigree-vs-evagene.html">Visual Paradigm</a>, and <a href="edraw-pedigree-vs-evagene.html">Edraw</a> comparisons are available.</li>
+            </ul>
+
+            <p>The full <a href="best-pedigree-software-2026.html">2026 pedigree software roundup</a> covers ten tools in detail. The <a href="best-free-pedigree-makers.html">free pedigree makers</a> page focuses on the free options.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Choosing a pedigree drawing tool</h2>
+
+            <p>For most users the choice comes down to a small number of questions:</p>
+
+            <ul>
+                <li><strong>Is the tool free for my use case?</strong> Evagene, QuickPed, and DrawPed are free; FamGenix has a free patient-facing tier; Progeny / TrakGene are paid enterprise products.</li>
+                <li><strong>Does it enforce NSGC notation?</strong> Evagene, Progeny, TrakGene, PhenoTips, and FamGenix do; generic diagram software does not.</li>
+                <li><strong>Does it run risk-model algorithms?</strong> Evagene runs twenty; Progeny, TrakGene, PhenoTips, and FamGenix run subsets; QuickPed focuses on kinship rather than family-history risk; canrisk.org runs BOADICEA off-platform.</li>
+                <li><strong>Does it import / export GEDCOM?</strong> Evagene, GenoPro, and most clinical platforms do.</li>
+                <li><strong>Does it bridge to BOADICEA?</strong> Evagene exports CanRisk for canrisk.org. CanRisk itself runs the computation directly.</li>
+                <li><strong>Does it have a sensible answer to data residency?</strong> Browser-based tools that process data client-side (Evagene during alpha) are the simplest answer; cloud-stored alternatives need diligence on data-protection terms.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Pedigree drawing tool for teaching</h2>
+
+            <p>Evagene works well in an introductory genetics teaching context: students can practice the symbol set against worked examples, draw their own pedigrees from family-history scenarios, and explore inheritance patterns in real time. The browser deployment removes the institutional licence question that often blocks adoption of pedigree software in undergraduate teaching. The <a href="for-educators-students.html">educators and students page</a> covers teaching-specific guidance.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pedigree drawing tool for research</h2>
+
+            <p>For research use, Evagene's PED export, Phenopackets v2 export, scriptable <a href="pedigree-api.html">REST API</a>, and <a href="pedigree-mcp-server.html">MCP server</a> are the relevant features. Researchers using R / Python pipelines can drive Evagene programmatically and consume the output in the format their downstream tooling expects. The <a href="best-pedigree-software-for-research.html">research pedigree software</a> page covers this in more depth.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pedigree drawing tool for clinical genetics</h2>
+
+            <p>For clinical-genetics use, the relevant features are NSGC notation, three-generation capture, BayesMendel risk-model implementations, the CanRisk bridge, and standards-grade export. The <a href="clinical-pedigree-drawing.html">clinical pedigree drawing</a> and <a href="clinical-genetics-pedigree-tool.html">clinical genetics pedigree tool</a> pages cover the clinical view in detail. Evagene is positioned as a research- and education-focused tool that supports clinicians in the documentation and educational parts of their workflow; clinical-grade BOADICEA computation is routed off-platform to canrisk.org.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is a pedigree drawing tool?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Software that draws family pedigrees in NSGC-standard notation, enforces the symbol conventions, and exports the structured pedigree in standards-grade formats.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is Evagene a free pedigree drawing tool?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes &mdash; free during alpha for clinicians, researchers, educators, and students.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Does Evagene need installation?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. It runs entirely in the browser.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Which file formats does it support?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">GEDCOM 5.5.1, PED, Phenopackets v2, HL7 FHIR FamilyMemberHistory, CanRisk 2.0, PDF, PNG, SVG. Plus 23andMe import and pedigree OCR.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Does it run risk-model algorithms?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes &mdash; twenty published algorithms in total. BOADICEA is computed off-platform at canrisk.org via the CanRisk export bridge.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is Evagene a medical device?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. Evagene is an academic, research, and educational pedigree modelling platform.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="pedigree-drawing-software.html">Pedigree drawing software</a></li>
+                <li><a href="pedigree-drawing-online.html">Pedigree drawing online</a></li>
+                <li><a href="pedigree-chart.html">Pedigree chart</a></li>
+                <li><a href="pedigree-chart-maker.html">Pedigree chart maker</a></li>
+                <li><a href="clinical-pedigree-drawing.html">Clinical pedigree drawing</a></li>
+                <li><a href="how-to-draw-a-pedigree-chart.html">How to draw a pedigree chart</a></li>
+                <li><a href="free-online-pedigree-maker.html">Free online pedigree maker</a></li>
+                <li><a href="best-pedigree-software-2026.html">Best pedigree software 2026</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, twenty published risk-model algorithms, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="pedigree-drawing-software.html" class="hover:text-white transition-colors">Pedigree drawing</a></li><li><a href="pedigree-drawing-tool.html" class="hover:text-white transition-colors">Pedigree drawing tool</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li><li><a href="clinical-pedigree-drawing.html" class="hover:text-white transition-colors">Clinical pedigree drawing</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

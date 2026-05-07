@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allele Frequency Dynamics — Hardy-Weinberg, Selection, Drift | Evagene</title>
+    <meta name="description" content="Hardy-Weinberg equilibrium, the chi-square test for HWE deviation, the Wahlund effect, selection (positive, negative, balancing), mutation-selection balance, drift, the Wright-Fisher model, the coalescent, and the neutral theory.">
+    <meta name="keywords" content="Hardy-Weinberg, HWE chi-square, Wahlund effect, selection coefficient, mutation-selection balance, sickle cell malaria, lactase persistence, G6PD, genetic drift, Wright-Fisher, coalescent, Kimura neutral theory, Ohta nearly neutral">
+
+    <meta property="og:title" content="Allele Frequency Dynamics — Hardy-Weinberg, Selection, Drift | Evagene">
+    <meta property="og:description" content="A specialist-facing educational page on Hardy-Weinberg, selection, drift, the Wright-Fisher model, the coalescent, and the neutral theory, with worked examples in human genetics.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/allele-frequency-dynamics">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Allele Frequency Dynamics — Hardy-Weinberg, Selection, Drift">
+    <meta name="twitter:description" content="Hardy-Weinberg, selection, drift, the Wright-Fisher model, the coalescent, the neutral theory, and worked examples in human genetics.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/allele-frequency-dynamics">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Allele Frequency Dynamics: Hardy-Weinberg, Selection, and Drift",
+        "description":"Hardy-Weinberg equilibrium and its assumptions, the chi-square test for HWE deviation, the Wahlund effect, selection coefficients, mutation-selection balance for recessive disease, the Wright-Fisher model, the coalescent, and the neutral and nearly neutral theory.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/allele-frequency-dynamics"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["Hardy-Weinberg","HWE","Wahlund effect","selection coefficient","mutation-selection balance","Wright-Fisher","coalescent","neutral theory","sickle cell","lactase persistence","G6PD"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Allele Frequency Dynamics — Hardy-Weinberg, Selection, Drift",
+        "description":"An educational page on the dynamics of allele frequencies under selection and drift, with worked human-genetics examples.",
+        "learningResourceType":"Educational article",
+        "educationalLevel":"Specialist / postgraduate",
+        "audience":{"@type":"Audience","audienceType":"Researchers, educators, students, clinical geneticists"},
+        "inLanguage":"en-GB",
+        "provider":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "url":"https://evagene.com/allele-frequency-dynamics"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Population and Evolutionary Genetics","item":"https://evagene.com/population-and-evolutionary-genetics"},
+            {"@type":"ListItem","position":3,"name":"Allele Frequency Dynamics","item":"https://evagene.com/allele-frequency-dynamics"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="population-and-evolutionary-genetics.html" class="hover:text-brand-600 dark:hover:text-brand-300">Population and Evolutionary Genetics</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Allele Frequency Dynamics</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Allele frequency dynamics: Hardy-Weinberg, selection, and drift</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Allele frequencies change between generations under the joint action of mutation, selection, drift, and migration. This page is the technical companion to the <a href="population-and-evolutionary-genetics.html" class="text-brand-600 dark:text-brand-400 underline">population and evolutionary genetics</a> pillar, covering the Hardy-Weinberg equilibrium and its assumptions, the chi-square test for deviation from HWE, the Wahlund effect, selection (positive, negative, balancing) with selection coefficients and worked examples, mutation-selection balance for recessive disease, the Wright-Fisher model and effective population size, the Kingman coalescent, and the neutral and nearly neutral theory.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>14 min read</span>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>Educational content &mdash; not medical advice</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> The Hardy-Weinberg principle is the null model: under random mating, no selection, no migration, no mutation, and infinite population size, genotype frequencies follow p&sup2; : 2pq : q&sup2; from allele frequencies p and q. Departures from HWE (testable by chi-square) flag stratification, inbreeding, selection, or genotyping artefact. Selection moves allele frequencies according to selection coefficients; balancing selection (heterozygote advantage) maintains polymorphism &mdash; the canonical example is the sickle-cell allele in malaria-endemic regions. Genetic drift is the random component, governed by effective population size; the coalescent (Kingman 1982) is the genealogical view of drift. The neutral and nearly neutral theory (Kimura 1968; Ohta 1973) is the modern null against which selection signals are detected.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Hardy-Weinberg equilibrium</h2>
+
+            <p>The principle was published in <a href="https://www.science.org/doi/10.1126/science.28.706.49" rel="noopener">Hardy 1908 (Science 28:49)</a> in response to a misunderstanding about whether dominant alleles must increase in frequency over time. Wilhelm Weinberg published the same result in the same year (Jahresheft des Vereins f&uuml;r vaterl&auml;ndische Naturkunde in W&uuml;rttemberg 64:368). The principle: at a biallelic autosomal locus with allele frequencies p and q (p + q = 1), random union of gametes gives genotype frequencies p&sup2; (homozygous AA), 2pq (heterozygous Aa), and q&sup2; (homozygous aa). One generation of random mating is sufficient to reach equilibrium; the equilibrium is then stable in the absence of disturbing forces.</p>
+
+            <p>The assumptions, in detail:</p>
+
+            <ul>
+                <li><strong>Random mating</strong> with respect to the locus. Assortative mating, inbreeding, and population structure all violate this assumption.</li>
+                <li><strong>No selection</strong>: all genotypes have equal fitness. Selection at the locus or at a linked locus moves frequencies away from HWE.</li>
+                <li><strong>No migration</strong>: the population is closed. Migration introduces alleles at frequencies that may differ from the receiving population.</li>
+                <li><strong>No mutation</strong>: alleles are not converted to other alleles between generations. Mutation rates are typically too low to perturb HWE meaningfully on a per-locus, per-generation scale.</li>
+                <li><strong>Effectively infinite population</strong>: random sampling does not perturb frequencies. Finite populations show drift, which moves frequencies stochastically.</li>
+            </ul>
+
+            <p>None of those assumptions hold strictly. Hardy-Weinberg works as a useful approximation because the deviations are usually small enough at most autosomal loci, in most populations, on a per-generation timescale, that genotype frequencies stay close to the equilibrium predictions. The interest is precisely in the loci and populations where they do not.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Testing for HWE deviation</h2>
+
+            <p>The standard test is the chi-square goodness-of-fit test against expected genotype counts. With observed counts O&#8321;&#8321;, O&#8321;&#8322;, O&#8322;&#8322; for the three genotypes and total N, the allele frequency estimate is &#374;p = (2O&#8321;&#8321; + O&#8321;&#8322;) / 2N, expected counts are E&#8321;&#8321; = N&#374;p&sup2;, E&#8321;&#8322; = 2N&#374;p&#374;q, E&#8322;&#8322; = N&#374;q&sup2;, and the statistic is &Sigma; (O &minus; E)&sup2; / E with one degree of freedom (allele frequency was estimated from the data). For low-count cells, the exact test of <a href="https://pubmed.ncbi.nlm.nih.gov/15789306/" rel="noopener">Wigginton, Cutler &amp; Abecasis (2005, Am J Hum Genet 76:887)</a> is the modern standard.</p>
+
+            <p>In genome-wide quality control, a HWE p-value below a threshold (commonly 1 &times; 10&#8315;&#8310; in controls, looser in cases) is a flag for genotyping error rather than a discovery. In case-control association testing, deviation from HWE in cases but not controls can indicate true association at the locus or at a tagged variant in linkage disequilibrium. The exact threshold and direction of the test depend on the study design.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The Wahlund effect</h2>
+
+            <p>If a sample is drawn from two or more subpopulations with different allele frequencies, the pooled sample shows an apparent deficit of heterozygotes relative to Hardy-Weinberg expectations even when each subpopulation is at HWE internally. This is the Wahlund effect, named for Sten Wahlund's 1928 paper. The magnitude of the heterozygote deficit is related to Wright's Fst statistic: the deficit equals 2&#772;p&#772;q &times; Fst, where &#772;p and &#772;q are mean allele frequencies. The Wahlund effect is one reason that HWE testing is informative for population stratification: a global excess of homozygotes across many loci is the signature.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Selection</h2>
+
+            <p>Selection is differential reproductive success of genotypes. The classical bookkeeping is in terms of relative fitness. For a biallelic locus with genotypes AA, Aa, aa and relative fitnesses w&#8321;&#8321; = 1, w&#8321;&#8322; = 1 &minus; hs, w&#8322;&#8322; = 1 &minus; s (with s the selection coefficient and h the dominance coefficient), the change in allele frequency per generation is &Delta;q = (selection differential) / (mean fitness). For a fully recessive deleterious allele (h = 0), &Delta;q is approximately &minus;sq&sup2;p per generation when q is small.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Positive selection</h3>
+            <p>Positive selection is selection in favour of an allele, raising its frequency. Recent positive selection in humans has been catalogued by genome-scan methods including the integrated haplotype score (iHS) and cross-population extended haplotype homozygosity (XP-EHH), reviewed in <a href="https://www.nature.com/articles/nature06250" rel="noopener">Sabeti et al. 2007 (Nature 449:913)</a>. The classical worked example is <strong>lactase persistence</strong>: variants in the regulatory region of LCT (most prominently &minus;13910*T in European populations and several independent variants in pastoralist African populations, catalogued by <a href="https://www.nature.com/articles/ng1946" rel="noopener">Tishkoff et al. 2007 (Nat Genet 39:31)</a>) confer continued expression of lactase into adulthood. The European variant rose to high frequency in approximately the past 5,000 to 10,000 years against a background of dairying, and the surrounding region of the genome carries a long haplotype consistent with strong recent positive selection.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Negative (purifying) selection</h3>
+            <p>Negative selection removes deleterious alleles. The bulk of disease-associated coding variants are subject to purifying selection. The frequency spectrum of variants in large sequencing datasets &mdash; for example the gnomAD reference cohort &mdash; shows the signature: deleterious variants are systematically rarer than expected under neutrality, and constrained genes have fewer loss-of-function variants than expected. The constraint metrics published with gnomAD (pLI, LOEUF) summarise the strength of purifying selection at the gene level.</p>
+
+            <h3 class="text-2xl mt-10 mb-4">Balancing selection</h3>
+            <p>Balancing selection maintains polymorphism. The classical mechanism is heterozygote advantage. The canonical worked example is <strong>sickle-cell anaemia</strong>: homozygotes for the HBB Glu6Val (HbS) allele have severe anaemia and historically low reproductive success, but heterozygotes (HbAS) have a substantial degree of protection from severe <em>Plasmodium falciparum</em> malaria. <a href="https://pubmed.ncbi.nlm.nih.gov/13149700/" rel="noopener">Allison 1954 (Br Med J 1:290)</a> documented the geographical correlation between the frequency of the sickle allele and historical malaria endemicity. The equilibrium frequency q* of the HbS allele is set by the relative selection coefficients against the two homozygotes (s&#8321; against HbAA, s&#8322; against HbSS), giving q* = s&#8321; / (s&#8321; + s&#8322;). For empirically estimated coefficients, q* lands at around 0.10 to 0.15, consistent with observed allele frequencies in West African populations.</p>
+
+            <p>A second balancing-selection example is <strong>G6PD deficiency</strong>. X-linked variants in G6PD (most common: G6PD A&minus;, G6PD Mediterranean) cause haemolytic anaemia under specific triggers (fava beans, primaquine, certain infections) but appear to confer some protection against malaria. Allele frequencies of G6PD-deficient variants are elevated in historically malaria-endemic regions in the Mediterranean, sub-Saharan Africa, and South and Southeast Asia. The selection regime for X-linked balancing selection differs from the autosomal case because heterozygous females are mosaic for X-inactivation and selection on hemizygous males drives most of the dynamics.</p>
+
+            <p>A third balancing-selection example, with a different mechanism, is <strong>HLA / MHC polymorphism</strong>. Frequency-dependent selection (rare-allele advantage against pathogen escape) and overdominance both contribute. HLA loci are among the most polymorphic in the human genome.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mutation-selection balance for recessive disease</h2>
+
+            <p>For a deleterious recessive allele, mutation introduces new copies at rate &micro; per generation, and selection removes them at rate sq&sup2;. At equilibrium, &micro; = sq&sup2;, so the equilibrium allele frequency is q* = &radic;(&micro; / s). For a typical recessive Mendelian disease with &micro; on the order of 1 &times; 10&#8315;&#8310; per locus per generation and complete selection against homozygotes (s = 1), q* is approximately 1 &times; 10&#8315;&sup3;, giving a disease incidence (q*&sup2;) of approximately 1 &times; 10&#8315;&#8310;. For dominant disease alleles with complete penetrance and reduced fitness, the equivalent calculation gives q* = &micro; / s, much lower at the same parameter values. These approximations explain the order-of-magnitude relationship between mutation rate, selection, and disease incidence; they do not include drift, founder effects, or compound-heterozygote architectures, all of which modify the picture in real populations.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Genetic drift and the Wright-Fisher model</h2>
+
+            <p>The <strong>Wright-Fisher model</strong> idealises a population as a sequence of generations of constant size N (or 2N alleles in a diploid), with each generation drawn by random sampling with replacement from the gamete pool of the previous generation. <a href="https://www.genetics.org/content/16/2/97" rel="noopener">Wright 1931 (Genetics 16:97)</a> showed that allele frequencies follow a binomial sampling process; over many generations the variance of the allele frequency grows, and in the absence of selection an allele either fixes (frequency 1) or is lost (frequency 0). The fixation probability of a neutral allele is its starting frequency. Under the diffusion approximation, the expected time to fixation of a neutral allele starting at frequency p, conditional on fixation, is approximately &minus;(4N / p)(1 &minus; p) ln(1 &minus; p) generations.</p>
+
+            <p>The relevant population size for the strength of drift is the <strong>effective population size, Ne</strong>, not the census size. Ne is the size of an idealised Wright-Fisher population that would experience the same magnitude of drift as the real population. Ne is reduced by uneven sex ratios, variance in offspring number, generation overlap, fluctuations in size over time, and population structure. Estimates of long-term human Ne from genetic data sit around 10,000 &mdash; small relative to the census, reflecting the deep demographic history rather than the contemporary population.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The coalescent</h2>
+
+            <p>The forward-in-time Wright-Fisher model has a backward-in-time dual: the <strong>coalescent</strong>, derived by <a href="https://www.sciencedirect.com/science/article/pii/0304414982900114" rel="noopener">Kingman 1982 (Stochastic Processes and their Applications 13:235)</a>. The coalescent describes the genealogy of a sample of sequences traced backwards in time to their most recent common ancestor (MRCA). The waiting time to the next coalescent event when k lineages remain is approximately exponential with rate k(k &minus; 1) / (2 &times; 2Ne) generations. The total time to MRCA scales linearly with Ne and grows logarithmically with sample size beyond a threshold.</p>
+
+            <p>The coalescent is the inferential workhorse of modern population genetics. Site-frequency spectra, linkage-disequilibrium decay, and ancestry inference are all interpreted through the coalescent. Software including ms (Hudson 2002), msprime (Kelleher et al. 2016), and Relate (Speidel et al. 2019) simulate or infer coalescent genealogies under demographic models.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The neutral and nearly neutral theory</h2>
+
+            <p><a href="https://www.nature.com/articles/217624a0" rel="noopener">Kimura 1968 (Nature 217:624)</a> proposed that most molecular variation segregating in a population is selectively neutral or nearly so, with the rate of molecular evolution set by the rate at which neutral mutations drift to fixation. The rate of fixation per generation under neutrality equals the per-locus mutation rate (a striking and counterintuitive result independent of Ne). The neutral theory does not deny selection; it proposes a default expectation against which signals of selection can be tested.</p>
+
+            <p><a href="https://www.nature.com/articles/246096a0" rel="noopener">Ohta 1973 (Nature 246:96)</a> extended the framework to <strong>nearly neutral variation</strong>: variants with small selection coefficients (|s| comparable to 1 / Ne) are subject to drift in small populations and to selection in large populations. The nearly neutral framework explains the observation that synonymous-to-nonsynonymous substitution ratios depend on Ne and that the burden of slightly deleterious variation is shaped by demographic history.</p>
+
+            <p>Diffusion theory (Kimura 1955, 1962) provides the mathematical machinery: allele-frequency change under selection and drift is described by a Kolmogorov forward equation whose solutions give the probability distribution of allele frequency over time. Stationary distributions for variants under mutation-selection-drift equilibrium are central to interpreting site-frequency spectra and to estimating selection coefficients from polymorphism data.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Worked examples in human genetics</h2>
+
+            <p>The three classical examples illustrate the categories.</p>
+
+            <ul>
+                <li><strong>Sickle cell as balancing selection.</strong> The HBB Glu6Val allele is at substantially elevated frequency in malaria-endemic regions, and the geographical correlation with historical malaria endemicity is one of the strongest published cases of human balancing selection (<a href="https://pubmed.ncbi.nlm.nih.gov/13149700/" rel="noopener">Allison 1954</a>).</li>
+                <li><strong>Lactase persistence as recent positive selection.</strong> Independent regulatory variants in LCT have risen to high frequency on long haplotypes in European, East African, and Arabian Peninsula populations, in each case associated with histories of dairying (<a href="https://www.nature.com/articles/ng1946" rel="noopener">Tishkoff et al. 2007</a>).</li>
+                <li><strong>G6PD deficiency as balancing selection.</strong> Multiple independent G6PD-deficient variants are at elevated frequency in malaria-endemic regions, with the dynamics shaped by X-linked inheritance and triggered haemolysis as the cost.</li>
+            </ul>
+
+            <p>Human genome-scan literature, including the haplotype-based methods reviewed in <a href="https://www.nature.com/articles/nature06250" rel="noopener">Sabeti et al. 2007</a>, has expanded the catalogue beyond these classical cases &mdash; pigmentation loci (SLC24A5, SLC45A2, MFSD12), high-altitude adaptation (EPAS1 in Tibetan populations, BHLHE41 / MTHFR in Andean populations), and a long tail of more uncertain candidates. The methodological caveat in all of these scans is that selection signals are easily confounded by demographic history; the strongest published cases are those where independent lines of evidence (haplotype length, frequency differentiation, archaeological correlation with a plausible selective regime) all converge.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why these dynamics matter for pedigree work</h2>
+
+            <p>Recurrence-risk calculations in a single pedigree depend on inputs that are population-genetics quantities. The carrier frequency of a recessive allele in the relevant population sets the prior for a partner who is not a known carrier. The penetrance of a dominant allele estimated from population samples sets the expected risk in a relative who carries it. The polygenic-risk-score percentile a family-specific score is compared against is itself the distribution of a population-genetics quantity. Evagene's implementations of published risk-model algorithms (Claus 1994, Couch 1997, Frank 2002, Tyrer / Duffy / Cuzick 2004 in IBIS-style approximation, BayesMendel BRCAPRO / MMRpro / PancPRO, family-history scoring) all consume population-genetics inputs as parameters; the educational pages here are background literacy for users of those implementations.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What does it mean for a population to be in Hardy-Weinberg equilibrium?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Genotype frequencies at the locus follow p&sup2; : 2pq : q&sup2; from the allele frequencies p and q after one generation of random mating, in the absence of selection, migration, mutation, and drift. The equilibrium is stable until disturbed.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How is HWE deviation tested in case-control data?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">By chi-square goodness-of-fit on observed versus expected genotype counts, or by the exact test (Wigginton, Cutler &amp; Abecasis 2005). HWE is normally tested in controls only; deviation in cases can flag association.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the equilibrium frequency of a recessive disease allele under mutation-selection balance?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Approximately q* = &radic;(&micro; / s), where &micro; is the per-locus mutation rate and s is the selection coefficient against affected homozygotes. For a fully lethal recessive (s = 1) at &micro; = 10&#8315;&#8310;, q* is around 10&#8315;&sup3;, giving a disease incidence near 10&#8315;&#8310;.</p>
+                </div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the coalescent?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">The backward-in-time genealogy of a sample of sequences, derived by Kingman 1982. It describes the waiting times to common-ancestor events and is the inferential framework underlying coalescent simulators (ms, msprime), site-frequency-spectrum methods, and ancestry inference.</p>
+                </div>
+                <div class="pb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Why is the neutral theory the modern null model?</h3>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">Because most molecular variation appears to be selectively neutral or nearly so, neutrality is the default expectation against which the magnitude and statistical significance of any selection signal must be tested. Departures from a neutral expectation, calibrated to the demographic history of the population, are how positive and balancing selection are detected today.</p>
+                </div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="population-and-evolutionary-genetics.html">Population and evolutionary genetics (pillar)</a></li>
+                <li><a href="demography-and-population-structure.html">Demography and population structure</a></li>
+                <li><a href="population-genetics-applications.html">Population genetics applications</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="autosomal-recessive-calculator.html">Autosomal recessive calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="population-and-evolutionary-genetics.html" class="hover:text-white transition-colors">Population &amp; evolutionary genetics</a></li><li><a href="demography-and-population-structure.html" class="hover:text-white transition-colors">Demography &amp; population structure</a></li><li><a href="population-genetics-applications.html" class="hover:text-white transition-colors">Population genetics applications</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

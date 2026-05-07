@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantitative and Complex Traits — Polygenic, Liability-Threshold, GxE | Evagene</title>
+    <meta name="description" content="An educational pillar on quantitative and complex traits: Fisher's polygenic synthesis, narrow- and broad-sense heritability, the Falconer liability-threshold model, and gene-environment interaction. For students, researchers, and educators.">
+    <meta name="keywords" content="quantitative traits, complex traits, polygenic inheritance, liability threshold model, heritability, Fisher 1918, Falconer 1965, Carter 1961, Lynch and Walsh quantitative genetics, gene environment interaction, GxE, multifactorial inheritance, polygenic risk score, complex disease genetics, additive genetic variance, biometrical genetics">
+
+    <meta property="og:title" content="Quantitative and Complex Traits — Polygenic, Liability-Threshold, GxE">
+    <meta property="og:description" content="The polygenic synthesis (Fisher 1918), liability-threshold model (Falconer 1965), Carter's recurrence-risk framing (1961), and the modern PRS / GxE landscape — all in one educational pillar.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/quantitative-and-complex-traits">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Quantitative and Complex Traits — Polygenic, Liability-Threshold, GxE">
+    <meta name="twitter:description" content="A specialist-facing educational pillar covering Fisher's infinitesimal model, heritability and the liability-threshold model, and gene-environment interaction.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/quantitative-and-complex-traits">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Quantitative and Complex Traits: The Polygenic Synthesis, Heritability, and Gene-Environment Interaction",
+        "description":"An educational pillar covering Fisher 1918's reconciliation of Mendelism and biometrics, the Falconer 1965 liability-threshold model, Carter 1961 multifactorial recurrence-risk framing, and the modern polygenic-risk-score and gene-environment-interaction landscape. For students, researchers, and educators; not a medical device.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/quantitative-and-complex-traits"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["quantitative traits","complex traits","polygenic inheritance","liability threshold model","heritability","Fisher 1918","Falconer 1965","Carter 1961","gene environment interaction"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Quantitative and Complex Traits — Polygenic, Liability-Threshold, GxE",
+        "description":"Educational pillar covering polygenic / quantitative inheritance, heritability and the liability-threshold model, and gene-environment interaction.",
+        "url":"https://evagene.com/quantitative-and-complex-traits",
+        "learningResourceType":"Topic overview",
+        "educationalLevel":"Postgraduate / advanced undergraduate",
+        "audience":{"@type":"Audience","audienceType":"Students, researchers, and educators in human and quantitative genetics"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Learn","item":"https://evagene.com/quantitative-and-complex-traits"},
+            {"@type":"ListItem","position":3,"name":"Quantitative and complex traits","item":"https://evagene.com/quantitative-and-complex-traits"}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="complex-disease-pedigree-software.html" class="hover:text-brand-600 dark:hover:text-brand-300">Learn</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Quantitative and complex traits</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-clinical-50 dark:bg-clinical-500/10 text-clinical-600 dark:text-clinical-400 text-xs font-semibold tracking-wider uppercase rounded-full border border-clinical-200 dark:border-clinical-500/20 mb-4">
+                Educational pillar &middot; Quantitative genetics
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Quantitative and complex traits: the polygenic synthesis, heritability, and gene-environment interaction</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Most traits a geneticist cares about &mdash; height, blood pressure, lipid levels, schizophrenia liability, type&nbsp;2 diabetes, coronary artery disease &mdash; do not segregate as Mendel's peas. They cluster in families, but no single locus explains the pattern. The framework that reconciles this with classical genetics begins with <a href="https://royalsocietypublishing.org/doi/10.1017/S0080456800012163" rel="noopener">Fisher 1918</a>, runs through the liability-threshold model of <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1965.tb00500.x" rel="noopener">Falconer 1965</a>, and underpins the modern polygenic-risk-score literature. This page is the educational pillar for that framework as it appears in the Evagene help catalogue and on this site.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>11 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> A quantitative trait is one whose phenotype varies continuously across a population (height, blood pressure, BMI). A complex trait is one whose presence-or-absence phenotype reflects an underlying continuous liability (schizophrenia, type&nbsp;2 diabetes, cleft lip). Both are explained by the same polygenic synthesis: many small genetic effects, plus environment, summed under a roughly Gaussian distribution. The framework is for research and education; outputs computed from it on this platform are illustrative, not clinical.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mendelism, biometrics, and Fisher's reconciliation</h2>
+
+            <p>By 1900, two empirical traditions in biology contradicted one another. Mendelians, working with discrete phenotypes (yellow vs green peas, smooth vs wrinkled), described inheritance as the segregation of factors at definite ratios. Biometricians, following Galton's regression-to-the-mean and Pearson's correlation studies, described continuous traits (human stature) as smoothly inherited with a parent-offspring correlation around 0.5 and a sib-sib correlation also around 0.5. Each tradition treated the other's traits as exceptional.</p>
+
+            <p>Ronald Fisher's <em>Transactions of the Royal Society of Edinburgh</em> 52:399 paper of <a href="https://royalsocietypublishing.org/doi/10.1017/S0080456800012163" rel="noopener">1918</a>, "The Correlation between Relatives on the Supposition of Mendelian Inheritance", is the reconciliation. Fisher showed mathematically that if a continuous phenotype is the sum of contributions from many independent Mendelian loci, each of small effect, then the population distribution converges on a Gaussian and the family correlations Galton observed fall out exactly &mdash; parent-offspring 0.5, full-sib 0.5, half-sib 0.25, monozygotic-twin 1.0 in the limit of additive genetic variance. The biometrical and Mendelian schools were describing the same biology at different limits of locus number and effect size. This is the polygenic synthesis, and the model has been the foundation of quantitative and complex-trait genetics ever since.</p>
+
+            <p>The detailed mathematical treatment is in Lynch &amp; Walsh's textbook <em>Genetics and Analysis of Quantitative Traits</em> (Sinauer, 1998), still the authoritative reference for the population genetics underlying everything in this pillar. The book separates the additive genetic variance V<sub>A</sub> (the contribution of allelic substitutions assuming no dominance or epistasis) from the dominance variance V<sub>D</sub>, the epistatic variance V<sub>I</sub>, and the environmental variance V<sub>E</sub>, each of which has a defined contribution to the observed phenotypic variance V<sub>P</sub>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Three subtopics, three pages</h2>
+
+            <p>This pillar splits into three thematic subtopics; each has its own page on this site.</p>
+
+            <div class="not-prose grid md:grid-cols-3 gap-4 my-8">
+                <a href="polygenic-models.html" class="block p-5 bg-white dark:bg-brand-900/40 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 transition">
+                    <div class="text-xs font-bold tracking-wider uppercase text-brand-600 dark:text-brand-300 mb-2">Subtopic 1</div>
+                    <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Polygenic models</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Additive vs non-additive effects; the infinitesimal model; polygenic risk scores (LDpred, P+T, PRS-CS); UK Biobank applications; the portability problem.</p>
+                </a>
+                <a href="heritability-and-liability.html" class="block p-5 bg-white dark:bg-brand-900/40 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 transition">
+                    <div class="text-xs font-bold tracking-wider uppercase text-brand-600 dark:text-brand-300 mb-2">Subtopic 2</div>
+                    <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Heritability and liability</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">h<sup>2</sup> definitions; twin-study and SNP-heritability methods (GREML, LDSC); the missing-heritability problem; Falconer's liability-threshold model; recurrence risks.</p>
+                </a>
+                <a href="gene-environment-interaction.html" class="block p-5 bg-white dark:bg-brand-900/40 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-400 transition">
+                    <div class="text-xs font-bold tracking-wider uppercase text-brand-600 dark:text-brand-300 mb-2">Subtopic 3</div>
+                    <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Gene-environment interaction</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">GxE study designs; classical examples (PKU, G6PD, FTO); GWIS; case-only designs; Mendelian randomisation; epigenetic mediation; the Dutch Hunger Winter cohort.</p>
+                </a>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Polygenic models &mdash; from infinitesimal model to PRS</h2>
+
+            <p>Fisher's 1918 framework treats a quantitative phenotype as the sum of small contributions from a large (in the limit, infinite) number of additively acting loci, each with allele frequencies and effect sizes drawn from a population distribution. The model is called the <em>infinitesimal model</em> because every locus has, asymptotically, an infinitesimal effect, and the distribution of phenotypes is Gaussian by the central limit theorem. Two summary statistics dominate: the additive effect <em>a</em> at each locus (the half-difference between homozygote phenotypes) and the dominance deviation <em>d</em> (the deviation of the heterozygote from the midpoint between homozygotes). When d = 0 across loci, the model is purely additive; when d &ne; 0, dominance variance contributes.</p>
+
+            <p>Modern polygenic risk scores (PRS) are the operational descendants of the infinitesimal model. A PRS is the sum across many SNPs of the dose of each risk allele weighted by its effect size, where effect sizes come from a genome-wide association study. The construction is reasonably standardised &mdash; clumping-and-thresholding (P+T), <a href="https://pubmed.ncbi.nlm.nih.gov/26773131/" rel="noopener">LDpred</a>, and <a href="https://pubmed.ncbi.nlm.nih.gov/30992449/" rel="noopener">PRS-CS</a> are the dominant methods, and the <a href="https://pubmed.ncbi.nlm.nih.gov/33692568/" rel="noopener">PGS Catalog</a> (Lambert et al. 2021, <em>Nat Genet</em> 53:420) curates published scores for reuse. <a href="https://pubmed.ncbi.nlm.nih.gov/30104762/" rel="noopener">Khera et al. 2018</a> (<em>Nat Genet</em> 50:1219) is the canonical demonstration that a coronary-artery-disease PRS can stratify population risk at scale; Martin et al. 2019 (<em>Nat Genet</em> 51:584) is the canonical demonstration that PRS performance degrades sharply when transferred between ancestry groups, the so-called <em>portability problem</em>. The PRS subtopic page covers both in detail. None of this is recommended as a basis for individual clinical decisions on Evagene; the framing on this platform is research and education.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Heritability and the liability-threshold model</h2>
+
+            <p>Heritability h<sup>2</sup> is the proportion of phenotypic variance attributable to additive genetic variance (V<sub>A</sub> / V<sub>P</sub>, the <em>narrow-sense</em> heritability). The <em>broad-sense</em> heritability H<sup>2</sup> includes dominance and epistatic variance (V<sub>G</sub> / V<sub>P</sub>). Estimation is the empirical core of quantitative genetics. The classical method is the twin study: Falconer's formula h<sup>2</sup> = 2(r<sub>MZ</sub> &minus; r<sub>DZ</sub>) extracts heritability from monozygotic and dizygotic twin correlations under the equal-environments assumption. <a href="https://pubmed.ncbi.nlm.nih.gov/28051310/" rel="noopener">Mayhew &amp; Meyre 2017</a> review the modern landscape of human-genetics heritability methods.</p>
+
+            <p>For SNP-heritability, <a href="https://pubmed.ncbi.nlm.nih.gov/20562875/" rel="noopener">Yang et al. 2010</a> introduced GREML (genomic-relatedness-matrix REML), a method to estimate h<sup>2</sup> from genotyped SNPs in unrelated individuals. <a href="https://pubmed.ncbi.nlm.nih.gov/25642630/" rel="noopener">Bulik-Sullivan et al. 2015</a> introduced LD-score regression, which estimates h<sup>2</sup> directly from GWAS summary statistics. Both methods recovered substantial heritability for height and other complex traits but consistently fell short of twin-study estimates &mdash; the <em>missing heritability</em> problem framed by <a href="https://pubmed.ncbi.nlm.nih.gov/19812666/" rel="noopener">Manolio et al. 2009</a> (<em>Nature</em> 461:747).</p>
+
+            <p>For binary disease phenotypes, heritability is defined on an underlying continuous <em>liability</em> &mdash; the abstract trait that determines who crosses a threshold and is affected. The liability-threshold model is set out in <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1965.tb00500.x" rel="noopener">Falconer 1965</a> (<em>Ann Hum Genet</em> 29:51): the population's liability follows a normal distribution, the prevalence K is the area in the right tail, and the recurrence risk to a relative is the integral of the conditional liability distribution above the same threshold given the relative's genotype. Smith / Carter / Harper empirical recurrence-risk tables, used by Evagene's complex-disease engine and described on <a href="complex-disease-pedigree-software.html">complex-disease-pedigree-software</a>, are the family-study realisation of this idea. The closely related multifactorial-threshold framework in <a href="https://academic.oup.com/bmb/article-abstract/17/3/251/315523" rel="noopener">Carter 1961</a> (<em>Br Med Bull</em> 17:251) extended the model with sex-differential thresholds &mdash; the well-known Carter effect, observed in pyloric stenosis and in cleft lip. Detail is on the heritability subtopic page.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Gene-environment interaction</h2>
+
+            <p>A pure polygenic decomposition assumes genetic and environmental effects act additively, with no interaction (V<sub>P</sub> = V<sub>G</sub> + V<sub>E</sub>). In reality, many traits show gene-environment (GxE) interaction: the genetic effect depends on environmental exposure, or vice versa. Phenylketonuria is the canonical illustration &mdash; the same homozygous PAH genotype has near-normal cognitive outcomes on a low-phenylalanine diet and severe impairment on an unrestricted diet. The G6PD-favism literature, FTO-physical-activity studies, and CYP2A6-smoking interactions are common contemporary examples.</p>
+
+            <p>Statistical detection of GxE is hard at scale. Genome-wide interaction studies (GWIS) require very large samples; <a href="https://pubmed.ncbi.nlm.nih.gov/15803198/" rel="noopener">Hunter 2005</a> set out the design issues. Mendelian randomisation, reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/25064373/" rel="noopener">Davey Smith &amp; Hemani 2014</a>, exploits genetic variants as instrumental variables to test environmental causality. Epigenetic mediation &mdash; DNA methylation as a G-E interface &mdash; is illustrated by the famous <a href="https://pubmed.ncbi.nlm.nih.gov/18955703/" rel="noopener">Heijmans et al. 2008</a> Dutch Hunger Winter cohort, which documented persistent IGF2 hypomethylation six decades after periconceptional famine. The GxE subtopic page covers all of these.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Polygenic vs Mendelian inheritance &mdash; how to tell them apart</h2>
+
+            <p>For families, the distinction between Mendelian and polygenic inheritance is operational. A Mendelian disorder shows clear segregation ratios at single-locus expectations &mdash; ~50&#37; of offspring of an affected autosomal-dominant heterozygote, ~25&#37; of offspring of two heterozygous AR carriers, sex-restricted patterns for X-linked, etc. A polygenic / multifactorial condition shows familial clustering without those ratios: recurrence risks rise with the number of affected relatives, with the severity of the proband, with proband sex when one sex is more frequently affected (Carter effect), and with consanguinity, but no relative has a 50&#37; risk and unaffected parents commonly produce affected offspring without obligate-carrier interpretation.</p>
+
+            <p>Evagene supports both kinds of inheritance modelling under explicitly research- and education-grade framing. The <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a> page covers single-locus models. The <a href="complex-disease-pedigree-software.html">complex-disease pedigree software</a> page covers the liability-threshold engine and the 20+ catalogued multifactorial conditions, with empirical Smith / Carter / Harper tables where available and a Falconer-1965 fallback when no table exists. The two engines are complementary, not interchangeable: forcing a Mendelian model onto a polygenic disease (or vice versa) is the most common modelling error in introductory teaching, and a cleanly drawn pedigree typically suggests which framework fits.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why this matters for pedigree work</h2>
+
+            <p>A research- or teaching-grade pedigree records the structure that lets a learner or a researcher distinguish between these models. Three generations from the proband, sex and affected status of every relative, age at onset, severity grade where the disease is severity-graded (cleft lip, congenital heart defects), and consanguinity all feed into the decision between a Mendelian segregation analysis and a Falconer / Carter liability-threshold analysis. A pedigree that captures only the proband loses the information that drives the decision; a pedigree that captures three full generations is usually enough.</p>
+
+            <p>Evagene's role here is research and education. The platform draws the pedigree, runs the chosen risk model, exports the output as a structured-English summary, and links each output to the canonical paper. It does not recommend actions, does not address output to named individuals as medical information, and is not a substitute for professional clinical judgement.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Canonical references for this pillar</h2>
+
+            <ul>
+                <li><a href="https://royalsocietypublishing.org/doi/10.1017/S0080456800012163" rel="noopener">Fisher RA. 1918. <em>The Correlation between Relatives on the Supposition of Mendelian Inheritance.</em> Trans R Soc Edinb 52:399&ndash;433.</a> The polygenic synthesis.</li>
+                <li><a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1965.tb00500.x" rel="noopener">Falconer DS. 1965. <em>The inheritance of liability to certain diseases, estimated from the incidence among relatives.</em> Ann Hum Genet 29:51&ndash;76.</a> Liability-threshold model.</li>
+                <li><a href="https://academic.oup.com/bmb/article-abstract/17/3/251/315523" rel="noopener">Carter CO. 1961. <em>The inheritance of congenital pyloric stenosis.</em> Br Med Bull 17:251&ndash;254.</a> Multifactorial-threshold framing and the sex-differential Carter effect.</li>
+                <li>Lynch M, Walsh B. 1998. <em>Genetics and Analysis of Quantitative Traits.</em> Sinauer Associates, Sunderland MA. ISBN&nbsp;0&ndash;87893&ndash;481&ndash;2. Authoritative textbook.</li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/19812666/" rel="noopener">Manolio TA et&nbsp;al. 2009. <em>Finding the missing heritability of complex diseases.</em> Nature 461:747&ndash;753.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/30104762/" rel="noopener">Khera AV et&nbsp;al. 2018. <em>Genome-wide polygenic scores for common diseases identify individuals with risk equivalent to monogenic mutations.</em> Nat Genet 50:1219&ndash;1224.</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/30940768/" rel="noopener">Martin AR et&nbsp;al. 2019. <em>Clinical use of current polygenic risk scores may exacerbate health disparities.</em> Nat Genet 51:584&ndash;591.</a></li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="polygenic-models.html">Polygenic models &mdash; additive vs non-additive effects, polygenic risk scores</a></li>
+                <li><a href="heritability-and-liability.html">Heritability and the liability-threshold model</a></li>
+                <li><a href="gene-environment-interaction.html">Gene-environment interaction</a></li>
+                <li><a href="complex-disease-pedigree-software.html">Complex-disease pedigree software</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Use Evagene for teaching and research on complex traits</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, a liability-threshold engine for 20+ catalogued multifactorial conditions, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. Educational use only; not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="quantitative-and-complex-traits.html" class="hover:text-white transition-colors">Quantitative &amp; complex traits</a></li><li><a href="polygenic-models.html" class="hover:text-white transition-colors">Polygenic models</a></li><li><a href="heritability-and-liability.html" class="hover:text-white transition-colors">Heritability &amp; liability</a></li><li><a href="gene-environment-interaction.html" class="hover:text-white transition-colors">Gene-environment interaction</a></li><li><a href="complex-disease-pedigree-software.html" class="hover:text-white transition-colors">Complex-disease software</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

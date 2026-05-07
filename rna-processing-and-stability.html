@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNA Processing and Stability — Splicing, Polyadenylation, Decay | Evagene</title>
+    <meta name="description" content="An educational guide to eukaryotic RNA processing and stability: spliceosome assembly, the two-step transesterification mechanism, alternative splicing, polyadenylation, mRNA export, cytoplasmic decay, and nonsense-mediated decay (NMD).">
+    <meta name="keywords" content="RNA processing, mRNA splicing, spliceosome, U1 snRNP, U2 snRNP, alternative splicing, branch point, SR proteins, hnRNPs, polyadenylation, CPSF, CstF, mRNA cap, TREX, mRNA decay, nonsense-mediated decay, NMD, deadenylation, decapping">
+
+    <meta property="og:title" content="RNA Processing and Stability — Splicing, Polyadenylation, Decay | Evagene">
+    <meta property="og:description" content="Educational coverage of the spliceosome, alternative splicing, polyadenylation, mRNA export, cytoplasmic decay, and nonsense-mediated decay.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/rna-processing-and-stability">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RNA Processing and Stability — Splicing, Polyadenylation, Decay">
+    <meta name="twitter:description" content="An educational guide to splicing, polyadenylation, mRNA export, and decay pathways.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/rna-processing-and-stability">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"RNA Processing and Stability: Splicing, Polyadenylation, Export, and Decay",
+        "description":"Educational coverage of the spliceosome (Will and Lührmann 2011), alternative splicing prevalence (Wang 2008, Pan 2008), the regulatory logic of splicing (Black 2003), alternative polyadenylation (Tian and Manley 2017), and nonsense-mediated decay (Lykke-Andersen and Jensen 2015).",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/rna-processing-and-stability"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["spliceosome","alternative splicing","polyadenylation","mRNA decay","nonsense-mediated decay","RNA processing"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"RNA processing and stability",
+        "description":"An educational subtopic page on splicing, polyadenylation, mRNA export, and cytoplasmic decay pathways.",
+        "url":"https://evagene.com/rna-processing-and-stability",
+        "learningResourceType":"Subtopic guide",
+        "educationalLevel":"Undergraduate / postgraduate / specialist",
+        "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "isPartOf":{"@type":"LearningResource","name":"Gene Expression Mechanisms","url":"https://evagene.com/gene-expression-mechanisms"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Learn","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Gene Expression Mechanisms","item":"https://evagene.com/gene-expression-mechanisms"},
+            {"@type":"ListItem","position":4,"name":"RNA Processing and Stability","item":"https://evagene.com/rna-processing-and-stability"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is the spliceosome?","acceptedAnswer":{"@type":"Answer","text":"The spliceosome is a megadalton ribonucleoprotein machine that excises introns from pre-mRNA and ligates the flanking exons. The major (U2-dependent) spliceosome is built from five small nuclear ribonucleoproteins &mdash; U1, U2, U4, U5 and U6 snRNPs &mdash; together with around 100 additional protein factors. A minor U12-dependent spliceosome handles a small subset of atypical introns."}},
+            {"@type":"Question","name":"What is the chemistry of splicing?","acceptedAnswer":{"@type":"Answer","text":"Splicing proceeds by two transesterification reactions. In the first step, the 2'-OH of the branch-point adenosine attacks the 5' splice site, generating a free 5' exon and a lariat intermediate in which the intron is linked to the branch-point A by a 2'-5' bond. In the second step, the 3'-OH of the free 5' exon attacks the 3' splice site, joining the two exons and releasing the intron as a lariat. Both steps are RNA-catalysed; U6 snRNA holds the catalytic metal ions."}},
+            {"@type":"Question","name":"How widespread is alternative splicing in humans?","acceptedAnswer":{"@type":"Answer","text":"More than 90&#37; of human multi-exon genes show evidence of alternative splicing. The estimate comes from RNA-seq surveys reported by Wang et al. 2008 in Nature and by Pan et al. 2008 in Nature Genetics. Alternative splicing is the dominant mechanism by which a relatively small set of human genes generates a large set of distinct transcripts and protein isoforms."}},
+            {"@type":"Question","name":"What is nonsense-mediated decay?","acceptedAnswer":{"@type":"Answer","text":"Nonsense-mediated decay (NMD) is a cytoplasmic mRNA surveillance pathway that degrades transcripts with a premature termination codon. In mammals, the canonical signature is a stop codon located more than ~50 nucleotides upstream of the last exon-exon junction, marked by the exon junction complex; UPF1, UPF2, UPF3, and the SMG kinases coordinate target recognition and degradation. NMD also serves as a regulatory pathway, controlling the abundance of a sizeable subset of normal transcripts."}},
+            {"@type":"Question","name":"Where does mRNA decay take place?","acceptedAnswer":{"@type":"Answer","text":"Cytoplasmic mRNA decay typically begins with shortening of the poly(A) tail (deadenylation) by the CCR4-NOT and PAN2-PAN3 complexes. Deadenylated transcripts are then either decapped by DCP2 and degraded 5' to 3' by XRN1, or degraded 3' to 5' by the cytoplasmic exosome. Specialised pathways &mdash; nonsense-mediated, no-go, and non-stop decay &mdash; handle aberrant transcripts."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="https://evagene.com/#resources" class="hover:text-brand-600 dark:hover:text-brand-300">Learn</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="gene-expression-mechanisms.html" class="hover:text-brand-600 dark:hover:text-brand-300">Gene expression</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">RNA processing and stability</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">RNA processing and stability: splicing, polyadenylation, export, and decay</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A subtopic guide on the post-transcriptional steps that turn a Pol II pre-mRNA into a translatable, exportable, eventually degradable cytoplasmic message: 5'-cap addition, splicing by the spliceosome, alternative splicing and its regulation, 3'-end cleavage and polyadenylation, nuclear export through the TREX system, and the cytoplasmic mRNA decay pathways including nonsense-mediated decay.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>12 min read</span>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>Educational</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> A pre-mRNA leaving Pol II is capped at the 5' end, has its introns excised by the spliceosome, is cleaved at a defined point and given a poly(A) tail at the 3' end, then exported. In the cytoplasm the mature mRNA is translated, eventually deadenylated, decapped, and degraded by exonucleases; aberrant messages are caught by surveillance pathways including nonsense-mediated decay. Most steps are co-transcriptional and most steps are regulated; alternative splicing alone affects more than 90&#37; of human multi-exon genes and is the largest single source of transcript-level diversity. This page covers each step in turn.</p>
+
+            <p><em>Educational positioning.</em> This page is written for students, educators, and researchers. Evagene is an academic, research, and educational pedigree modelling platform; it is not a medical device, not clinical decision support, and not a diagnostic or screening tool.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">5' capping</h2>
+
+            <p>The first processing event happens when the nascent transcript is around 25 nucleotides long. The 5' triphosphate is hydrolysed to a diphosphate by an RNA triphosphatase; a guanylyltransferase adds a GMP in an inverted 5'-5' triphosphate linkage; an N7-methyltransferase methylates the added guanine to give the cap-0 structure (m7Gppp-N). In higher eukaryotes the first transcribed nucleotide is also 2'-O-methylated to give cap-1, and the second to give cap-2.</p>
+
+            <p>The cap is recognised in the nucleus by the cap-binding complex (CBC, comprising CBP80 and CBP20) and in the cytoplasm by eIF4E. It protects the transcript from 5' to 3' exonucleolytic decay, supports the first round of splicing through CBC contacts with U1 and U6 snRNPs, contributes to nuclear export, and serves as the loading point for cap-dependent translation initiation. Capping enzymes are recruited to the elongating Pol II by the Ser5-phosphorylated CTD &mdash; the canonical example of co-transcriptional coupling on the Pol II <a href="transcriptional-machinery.html">CTD code</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The spliceosome</h2>
+
+            <p>Most metazoan protein-coding genes are split into exons separated by introns; the average human gene has eight or nine exons and an average intron length of several kilobases. Splicing is the excision of introns and ligation of flanking exons, performed by the <strong>spliceosome</strong>. The major U2-dependent spliceosome processes more than 99&#37; of mammalian introns; the minor U12-dependent spliceosome handles a small set of atypical introns. The spliceosome and its mechanism are reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/21441581/" rel="noopener">Will and L&uuml;hrmann (2011, Cold Spring Harbor Perspectives in Biology 3:a003707)</a>.</p>
+
+            <p>The major spliceosome is assembled de novo on each intron from five small nuclear ribonucleoprotein particles (snRNPs) and around 100 additional protein factors. The five snRNPs are <strong>U1, U2, U4, U5, and U6</strong>, each containing a uridine-rich snRNA and a set of associated proteins. Sequential assembly proceeds through complexes E, A, B, B*, and C: U1 binds the 5' splice site; U2 binds the branch point in an ATP-dependent step; the U4/U6.U5 tri-snRNP joins; U1 and U4 are released, U6 base-pairs with the 5' splice site, and the catalytic centre is formed; the two transesterification steps occur; the spliced exons are released and the intron lariat is debranched.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Splicing chemistry</h2>
+
+            <p>Splicing proceeds by two transesterification reactions:</p>
+
+            <ol>
+                <li><strong>Step 1 (branching)</strong>: the 2'-OH of the branch-point adenosine attacks the phosphate at the 5' splice site, breaking the upstream exon-intron bond and forming a 2'-5' phosphodiester linkage between the branch-point A and the first nucleotide of the intron &mdash; the lariat intermediate. The 5' exon is released with a free 3'-OH.</li>
+                <li><strong>Step 2 (exon ligation)</strong>: the 3'-OH of the free 5' exon attacks the phosphate at the 3' splice site, joining the two exons into a single mature mRNA backbone and releasing the intron as a lariat.</li>
+            </ol>
+
+            <p>Both reactions are RNA-catalysed; the catalytic core is built around U6 snRNA, which holds two divalent metal ions (typically Mg<sup>2+</sup>) coordinated to the leaving group and the nucleophile. The spliceosome is a ribozyme. Once released, the intron lariat is debranched by DBR1 and degraded.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Splice-site signals and branch-point recognition</h2>
+
+            <p>The spliceosome recognises three short sequence elements at each intron:</p>
+
+            <ul>
+                <li>The <strong>5' splice site</strong>: the consensus GU at the 5' end of the intron (the GT-AG rule), embedded in a longer consensus that base-pairs with U1 snRNA.</li>
+                <li>The <strong>branch point</strong>: an adenosine in a YNYURAC consensus, typically 18-40 nucleotides upstream of the 3' splice site, recognised by U2 snRNP through base-pairing with U2 snRNA.</li>
+                <li>The <strong>3' splice site</strong>: a polypyrimidine tract followed by a terminal AG.</li>
+            </ul>
+
+            <p>These signals are short and degenerate, which is why splice-site selection is heavily dependent on auxiliary regulatory factors. <strong>SR proteins</strong> bind exonic splicing enhancers and recruit U1 / U2AF; <strong>hnRNPs</strong> bind exonic and intronic splicing silencers and antagonise U1 / U2AF binding. The combinatorial output of these positive and negative regulators tunes splice-site choice in a tissue- and cell-state-specific manner. The general regulatory logic is reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/12626338/" rel="noopener">Black (2003, Annual Review of Biochemistry 72:291)</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Constitutive vs alternative splicing</h2>
+
+            <p>A constitutively spliced exon is included in essentially every mature transcript; an alternatively spliced exon is included in some transcripts and skipped in others, generating distinct isoforms from a single gene. The major modes of alternative splicing are exon skipping (cassette exons), alternative 5' or 3' splice-site choice, mutually exclusive exons, and intron retention. RNA-seq surveys put the prevalence of alternative splicing in human multi-exon genes at over 90&#37; (<a href="https://pubmed.ncbi.nlm.nih.gov/18978772/" rel="noopener">Wang et al. 2008, Nature 456:470</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/18978789/" rel="noopener">Pan et al. 2008, Nature Genetics 40:1413</a>).</p>
+
+            <p>Alternative splicing is regulated by tissue-specific splicing factors (e.g. NOVA, RBFOX, PTBP, MBNL, CELF families), by chromatin state (H3K36me3 marks influence exon inclusion), and by the kinetic interplay with Pol II elongation rate. Slower elongation tends to favour proximal splice-site choice and exon inclusion, faster elongation the opposite. Splicing dysregulation underlies a large class of human disease: spinal muscular atrophy (SMN1 / SMN2 splicing), familial dysautonomia (IKBKAP intron 20), myotonic dystrophy (MBNL1 sequestration), and many more. Splice-modulating antisense oligonucleotides (nusinersen for SMA, eteplirsen for DMD) are an established therapeutic modality.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">3' cleavage and polyadenylation</h2>
+
+            <p>The 3' end of a Pol II transcript is generated by a coupled cleavage and polyadenylation reaction. The substrate signals are the AAUAAA hexamer (typically 10-30 nucleotides upstream of the cleavage site), a U-rich or GU-rich downstream sequence element, and auxiliary upstream sequence elements. The protein machinery comprises:</p>
+
+            <ul>
+                <li><strong>CPSF (cleavage and polyadenylation specificity factor)</strong>: recognises AAUAAA through the CPSF-30 / WDR33 subunits; CPSF-73 is the endonuclease that performs the cleavage.</li>
+                <li><strong>CstF (cleavage stimulation factor)</strong>: binds the downstream U/GU-rich element.</li>
+                <li><strong>CFI / CFII (cleavage factors I and II)</strong>: contribute to substrate recognition and cleavage-site positioning.</li>
+                <li><strong>Poly(A) polymerase (PAP)</strong>: adds the poly(A) tail to the cleaved 3' end, with PABPN1 stimulating processivity once the tail reaches a threshold length.</li>
+            </ul>
+
+            <p>The mature poly(A) tail is around 200-250 nucleotides in mammals. Many human genes have multiple polyadenylation signals, and the choice between them is regulated, generating <strong>alternative polyadenylation (APA)</strong>. APA changes 3' UTR length, which alters miRNA-binding and RNA-binding-protein landscapes and thereby alters mRNA stability, localisation, and translation efficiency. The biology of APA is reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/27677860/" rel="noopener">Tian and Manley (2017, Nature Reviews Molecular Cell Biology 18:18)</a>.</p>
+
+            <p>Cleavage and polyadenylation are tightly coupled to Pol II termination: the Ser2-phosphorylated CTD recruits CPSF and CstF; once the polyadenylation signal is transcribed, cleavage destabilises the elongation complex and triggers Pol II termination by the "torpedo" or "allosteric" mechanisms.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Nuclear export</h2>
+
+            <p>Mature mRNAs are exported from the nucleus through the nuclear pore complex by the <strong>TREX</strong> (transcription-export) machinery. TREX components are recruited co-transcriptionally and during splicing; the export adaptor ALYREF / THOC4 binds the mRNA and hands it to the heterodimeric export receptor NXF1-NXT1 (TAP-p15), which translocates the mRNP through the pore. The exon junction complex (EJC), deposited 20-24 nucleotides upstream of each exon-exon junction by the splicing machinery, contributes to export competence and also marks the transcript for the first round of translation, where it is interrogated by the NMD machinery.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Cytoplasmic mRNA decay</h2>
+
+            <p>Once in the cytoplasm, an mRNA has a finite half-life. Bulk mRNA decay typically begins with progressive shortening of the poly(A) tail (<strong>deadenylation</strong>) by the PAN2-PAN3 complex (early phase) and the CCR4-NOT complex (late phase). A deadenylated transcript is then channelled into one of two pathways:</p>
+
+            <ul>
+                <li><strong>5' to 3' decay</strong>: decapping by DCP2, with cofactors EDC4, DDX6, and the LSM1-7 ring; the resulting 5'-monophosphate body is degraded by the cytoplasmic exonuclease XRN1.</li>
+                <li><strong>3' to 5' decay</strong>: the cytoplasmic exosome (a 3' to 5' exoribonuclease complex with a barrel of nine non-catalytic subunits and the catalytic DIS3 / DIS3L / EXOSC10 nucleases) degrades the transcript from the deadenylated 3' end inward; the residual capped fragment is hydrolysed by the scavenger decapping enzyme DCPS.</li>
+            </ul>
+
+            <p>Specific pathways include:</p>
+
+            <ul>
+                <li><strong>Nonsense-mediated decay (NMD)</strong>: degrades mRNAs with a premature termination codon. In mammals, the canonical signature is a stop codon located more than ~50 nucleotides upstream of the last exon-exon junction (and therefore upstream of an EJC). UPF1 is the central effector; UPF2 and UPF3 are activators; SMG1 phosphorylates UPF1; SMG5/7 and SMG6 trigger decay. NMD also acts as a regulatory pathway, controlling the steady-state abundance of a sizeable subset of normal transcripts. The pathway is reviewed in <a href="https://pubmed.ncbi.nlm.nih.gov/26397022/" rel="noopener">Lykke-Andersen and Jensen (2015, Nature Reviews Molecular Cell Biology 16:665)</a>.</li>
+                <li><strong>No-go decay (NGD)</strong>: clears mRNAs that stall ribosomes during elongation; effectors include Pelota / Hbs1L (eukaryotic homologues of the bacterial RF/EF system) and ribosome-associated quality-control factors.</li>
+                <li><strong>Non-stop decay (NSD)</strong>: clears mRNAs that lack an in-frame stop codon, typically through ski7-mediated recruitment of the cytoplasmic exosome.</li>
+                <li><strong>miRNA-mediated decay</strong>: Argonaute proteins loaded with a microRNA recruit the GW182 / TNRC6 scaffold, which in turn recruits CCR4-NOT to drive deadenylation, decapping, and degradation of the targeted transcript.</li>
+            </ul>
+
+            <p>The integrated picture is one of competing pathways whose balance determines transcript half-life: surveillance pathways prune aberrant messages, regulatory pathways tune the steady state, and the kinetics of decay shape the dynamics of the response of the cell to any change in transcription.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Regulation summary</h2>
+
+            <p>Every step covered on this page is regulated. Capping is constitutive but cap structure (cap-0 vs cap-1 vs cap-2) influences innate-immune sensing. Splicing is regulated by SR proteins, hnRNPs, tissue-specific factors, chromatin state, and Pol II elongation rate. Polyadenylation site choice is regulated by core machinery levels and auxiliary factors and shapes 3'-UTR-dependent stability and localisation. Export is gated by TREX engagement. Decay is regulated by RNA-binding proteins (HuR, TTP, AUF1) and microRNAs that recruit the deadenylation machinery, and by surveillance factors that recognise translation-coupled signals.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the spliceosome?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A megadalton ribonucleoprotein machine assembled from U1, U2, U4, U5 and U6 snRNPs that excises introns from pre-mRNA.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the chemistry of splicing?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Two transesterification reactions: branch-point attack on the 5' splice site to form a lariat intermediate, then 5' exon attack on the 3' splice site to ligate the exons.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How widespread is alternative splicing in humans?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">More than 90&#37; of human multi-exon genes show evidence of alternative splicing (Wang 2008, Pan 2008).</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is nonsense-mediated decay?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A cytoplasmic surveillance pathway that degrades transcripts with a premature termination codon, recognised through the EJC-marked junction signature; UPF1 is the central effector.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Where does mRNA decay take place?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">In the cytoplasm. Deadenylation by CCR4-NOT and PAN2-PAN3, followed by decapping and 5' to 3' degradation by XRN1, or 3' to 5' degradation by the cytoplasmic exosome.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+            <ul>
+                <li><a href="gene-expression-mechanisms.html">Gene expression mechanisms</a> &mdash; pillar overview</li>
+                <li><a href="transcriptional-machinery.html">Transcriptional machinery</a></li>
+                <li><a href="translation-and-post-translational-control.html">Translation and post-translational control</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="gene-expression-mechanisms.html" class="hover:text-white transition-colors">Gene expression mechanisms</a></li><li><a href="transcriptional-machinery.html" class="hover:text-white transition-colors">Transcriptional machinery</a></li><li><a href="translation-and-post-translational-control.html" class="hover:text-white transition-colors">Translation and post-translational control</a></li><li><a href="pedigree-chart.html" class="hover:text-white transition-colors">Pedigree chart</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genome Structure and Variation — Repeats, CNVs, Structural Variants | Evagene</title>
+    <meta name="description" content="Repetitive DNA and transposable elements (LINE, SINE, LTR, simple repeats, Alu); copy number variation and its mechanisms (NAHR, NHEJ, FoSTeS); microdeletion and microduplication syndromes; structural variant detection; long-read sequencing; gnomAD-SV.">
+    <meta name="keywords" content="genome structure variation, repetitive DNA, transposable elements, LINE, SINE, LTR, Alu, simple sequence repeats, copy number variation, CNV, NAHR, FoSTeS, microdeletion syndrome, microduplication syndrome, structural variant detection, long-read sequencing, PacBio, Oxford Nanopore, gnomAD-SV, Database of Genomic Variants, retrotransposition">
+
+    <meta property="og:title" content="Genome Structure and Variation — Repeats, CNVs, Structural Variants | Evagene">
+    <meta property="og:description" content="Repetitive DNA, transposable elements, copy number variation and its mechanisms, microdeletion / microduplication syndromes, structural-variant detection, long-read sequencing, gnomAD-SV.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/genome-structure-and-variation">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Genome Structure and Variation — Repeats, CNVs, Structural Variants">
+    <meta name="twitter:description" content="An educational reference on the repetitive and structurally variable human genome.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/genome-structure-and-variation">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Genome Structure and Variation: Repetitive DNA, Transposable Elements, Copy Number Variation, and Structural-Variant Detection",
+        "description":"Repetitive DNA and transposable elements; copy number variation and its mechanisms (NAHR, NHEJ, FoSTeS); microdeletion and microduplication syndromes; structural variant detection from short and long reads; gnomAD-SV.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/genome-structure-and-variation"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["genome structure variation","repetitive DNA","transposable elements","copy number variation","structural variants","long-read sequencing","gnomAD-SV"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Genome Structure and Variation",
+        "description":"Educational reference on the repetitive and structurally variable human genome: transposable elements, copy number variation, and structural-variant detection.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Undergraduate, Postgraduate, Professional",
+        "audience":{"@type":"EducationalAudience","educationalRole":"Student, Researcher, Educator, Clinician"},
+        "url":"https://evagene.com/genome-structure-and-variation",
+        "inLanguage":"en-GB",
+        "isAccessibleForFree":true,
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Molecular Architecture of Genes","item":"https://evagene.com/molecular-architecture-of-genes"},
+            {"@type":"ListItem","position":3,"name":"Genome Structure and Variation","item":"https://evagene.com/genome-structure-and-variation"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What fraction of the human genome is repetitive?","acceptedAnswer":{"@type":"Answer","text":"At least ~50% of the human genome is repetitive, and improved annotation with long-read assemblies and the T2T-CHM13 reference now puts the figure closer to two-thirds. The largest classes are LINEs (~21%), SINEs including ~1.1 million Alu elements (~13%), LTR-containing endogenous retroviral elements (~8%), DNA transposons (~3%), and various simple-sequence repeats and segmental duplications."}},
+            {"@type":"Question","name":"What is an Alu element?","acceptedAnswer":{"@type":"Answer","text":"Alu is a primate-specific SINE (short interspersed nuclear element) of ~300 bp derived from the 7SL signal-recognition-particle RNA gene. There are ~1.1 million Alu copies in the human genome, comprising ~10-13% of genomic DNA. Alu elements are non-autonomous retrotransposons that mobilise in trans using L1 (LINE-1) machinery; recently active subfamilies (AluY, AluYa5, AluYb8) are the source of polymorphic insertions still segregating in human populations."}},
+            {"@type":"Question","name":"What mechanisms produce copy number variants?","acceptedAnswer":{"@type":"Answer","text":"Three principal mechanisms. Non-allelic homologous recombination (NAHR) between flanking segmental duplications or repeat elements generates recurrent CNVs with breakpoints clustered in the homologous repeats. Non-homologous end joining (NHEJ) and microhomology-mediated end joining (MMEJ) generate non-recurrent CNVs by joining unrelated sequences, often with short microhomology at the breakpoint. Replication-based mechanisms — fork stalling and template switching (FoSTeS) and microhomology-mediated break-induced replication (MMBIR) — generate non-recurrent CNVs that are often complex, with templated insertions and inversions."}},
+            {"@type":"Question","name":"What is gnomAD-SV?","acceptedAnswer":{"@type":"Answer","text":"gnomAD-SV is the structural-variant subset of the Genome Aggregation Database. The reference gnomAD-SV v2 release (Collins et al. 2020, Nature 581:444) catalogued 433,371 structural variants across 14,891 genomes from short-read sequencing, providing population allele frequencies for deletions, duplications, insertions, inversions, and complex rearrangements >50 bp. Subsequent releases incorporate larger cohorts and long-read data."}},
+            {"@type":"Question","name":"How does long-read sequencing change structural-variant detection?","acceptedAnswer":{"@type":"Answer","text":"Short-read sequencing detects ~5,000-10,000 structural variants per genome and systematically misses SVs in repetitive regions, large insertions, and complex rearrangements. Long-read platforms (PacBio HiFi, Oxford Nanopore) detect 20,000-25,000 SVs per genome (Chaisson et al. 2019, Nat Commun 10:1784), with substantial gains in insertion-class SVs and SVs near repeats. Long reads also enable haplotype-resolved de novo assembly, exposing structural variation that no short-read alignment can recover."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="molecular-architecture-of-genes.html" class="hover:text-brand-600 dark:hover:text-brand-300">Molecular Architecture of Genes</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Genome Structure and Variation</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Genome structure and variation: repeats, copy number variation, and structural variants</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">The first sequencing of the human genome in 2001 reframed our understanding of what most of the genome <em>is</em>: only ~1&ndash;2&#37; of the sequence encodes protein, and at least ~50&#37; is repetitive, much of it derived from transposable elements. The decade that followed reframed our understanding again, by showing that human genomes differ structurally on a scale much larger than single nucleotides &mdash; deletions, duplications, insertions, inversions, and complex rearrangements collectively rearrange megabases between any two individuals. This page surveys the repetitive and structurally variable genome, the mechanisms that produce copy-number variation, the catalogues that index it, and the rise of long-read sequencing for structural-variant detection.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>14 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> At least ~50&#37; of the human genome is repetitive: LINEs, SINEs (including ~1.1 million Alu elements), LTR-containing endogenous retroviruses, DNA transposons, and simple sequence repeats. Copy-number variants (CNVs) and other structural variants &gt;50 bp arise principally through non-allelic homologous recombination between segmental duplications, end-joining, and replication-based mechanisms (FoSTeS / MMBIR). Short-read sequencing recovers ~5,000&ndash;10,000 SVs per genome; long-read platforms recover 20,000&ndash;25,000. The reference catalogue of population SV frequencies is gnomAD-SV.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">The repetitive fraction of the human genome</h2>
+
+            <p>The 2001 draft of the human genome (<a href="https://pubmed.ncbi.nlm.nih.gov/11237011/" rel="noopener">Lander et al. 2001</a>) reported that ~45&#37; of the assembly was identifiably repetitive. Improved annotation methods, deeper search libraries, and the T2T-CHM13 telomere-to-telomere assembly have since pushed the figure to at least 50&#37; and arguably closer to two-thirds, with the additional fraction concentrated in centromeric satellite arrays, segmental duplications, and recently mobilised transposable elements that earlier short-read assemblies could not resolve. The composition by class:</p>
+
+            <ul>
+                <li><strong>LINEs (long interspersed nuclear elements)</strong> &mdash; ~21&#37; of the genome. The dominant active family is L1 (LINE-1), an autonomous retrotransposon ~6 kb long carrying two open reading frames (ORF1 RNA-binding chaperone, ORF2 endonuclease and reverse transcriptase). L1 is the only currently active autonomous retrotransposon in the human genome. ~80&ndash;100 L1 copies are still mobilisation-competent in any individual genome.</li>
+                <li><strong>SINEs (short interspersed nuclear elements)</strong> &mdash; ~13&#37; of the genome. Non-autonomous retrotransposons of ~100&ndash;300 bp that mobilise in trans using L1 machinery. The dominant primate SINE is <strong>Alu</strong>, a ~300 bp element derived from the 7SL signal-recognition-particle RNA. There are ~1.1 million Alu copies in the human genome.</li>
+                <li><strong>LTR-containing endogenous retroviruses (ERVs)</strong> &mdash; ~8&#37; of the genome. Remnants of past germline retroviral integrations; most have lost the capacity to mobilise but a subset retain individual functional ORFs (e.g. syncytin, derived from an HERV-W envelope, with placental fusogenic function).</li>
+                <li><strong>DNA transposons</strong> &mdash; ~3&#37; of the genome. All extinct in the human lineage (the last activity was tens of millions of years ago) but a major source of co-opted regulatory elements and exonic sequence.</li>
+                <li><strong>Simple sequence repeats and segmental duplications</strong> &mdash; ~3&ndash;5&#37; of the genome (microsatellites, minisatellites, satellite arrays at centromeres and acrocentric short arms, and segmental duplications &gt;1 kb at &gt;90&#37; identity).</li>
+            </ul>
+
+            <p>Transposable element biology is reviewed by <a href="https://pubmed.ncbi.nlm.nih.gov/19763152/" rel="noopener">Cordaux and Batzer 2009</a>; the post-Human-Genome-Project synthesis of the genome's structure by <a href="https://pubmed.ncbi.nlm.nih.gov/21307931/" rel="noopener">Lander 2011</a>.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Transposable element biology and retrotransposition</h2>
+
+            <p>Retrotransposition proceeds through an RNA intermediate. For L1: the L1 RNA is transcribed by RNA polymerase II, exported, and translated; ORF1 and ORF2 proteins associate with their own encoding RNA in cis to form a ribonucleoprotein particle that re-enters the nucleus. ORF2 endonuclease cleaves the genomic target at a TTAAAA-like consensus, and reverse transcription proceeds directly from the nicked 3' end (target-primed reverse transcription). The result is a new L1 insertion flanked by short target-site duplications, frequently 5'-truncated, and often carrying a 3' poly-A tail.</p>
+
+            <p>Alu and SVA elements piggy-back on the L1 machinery in trans. Alu activity is sustained by a small number of recently emerged source elements (AluY and the AluYa5 / AluYb8 lineages); polymorphic Alu insertions still segregate in modern human populations. New Alu and L1 insertions are detected in normal individuals at rates of approximately 1 per 20 births and 1 per 100 births respectively, and a fraction of these can disrupt gene function and cause Mendelian disease (e.g. an L1 insertion into the F8 gene was the first reported instance of human disease caused by retrotransposition). Transposable elements have also extensively reshaped gene regulation: the dominant view since ENCODE and a series of follow-up studies is that a substantial proportion of mammalian transcription-factor binding sites and tissue-specific enhancers are TE-derived.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Copy number variation</h2>
+
+            <p>Copy-number variation (CNV) refers to deletions or duplications of genomic regions &gt;50 bp (the conventional lower size cutoff for "structural variant"; CNVs in the older array-based literature are often &gt;1 kb). Two parallel papers in 2004 (<a href="https://pubmed.ncbi.nlm.nih.gov/15273396/" rel="noopener">Sebat et al.</a>; Iafrate et al.) showed that ostensibly normal human genomes carry hundreds of large copy-number polymorphisms relative to the reference. <a href="https://pubmed.ncbi.nlm.nih.gov/19812545/" rel="noopener">Conrad et al. 2010</a> catalogued ~11,700 CNVs in 450 individuals using high-resolution array CGH. Subsequent whole-genome-sequencing surveys (<a href="https://pubmed.ncbi.nlm.nih.gov/26432246/" rel="noopener">Sudmant et al. 2015</a>) refined the picture: typical individuals carry ~2,500&ndash;3,000 CNVs collectively spanning ~20 megabases, with a long tail of rarer variants.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Mechanisms of copy-number variation</h2>
+
+            <p>Three principal mutational mechanisms generate CNVs.</p>
+
+            <p><strong>Non-allelic homologous recombination (NAHR)</strong>. When flanking segmental duplications or repeat elements with high sequence identity recombine in trans (between sister chromatids on the same allele or between homologous chromosomes during meiosis), the misalignment generates reciprocal duplications and deletions. NAHR-mediated CNVs are <em>recurrent</em>: the breakpoints cluster within the flanking homologous repeats, and unrelated affected individuals carry near-identical rearrangements. Most of the canonical microdeletion / microduplication syndromes (DiGeorge / 22q11.2 deletion, Williams-Beuren / 7q11.23 deletion, Smith-Magenis / 17p11.2 deletion, Charcot-Marie-Tooth / 17p12 duplication) arise by NAHR between flanking segmental duplications.</p>
+
+            <p><strong>Non-homologous end joining (NHEJ) and microhomology-mediated end joining (MMEJ)</strong>. When a double-strand break is repaired by joining unrelated sequences, the result is a non-recurrent CNV with breakpoints distributed effectively at random across the genome. Microhomology of 1&ndash;15 bp is often found at the junction.</p>
+
+            <p><strong>Replication-based mechanisms: FoSTeS and MMBIR</strong>. Fork stalling and template switching (FoSTeS) was proposed by Lee et al. 2007 to account for non-recurrent rearrangements with templated insertions and complex breakpoint structure that NHEJ cannot explain. Microhomology-mediated break-induced replication (MMBIR) is a related model in which a collapsed fork is restarted at a heterologous template using short microhomology. Both mechanisms generate complex CNVs with templated segments, sometimes with multiple breakpoints and inversions in the same event. They are now recognised as a major source of non-recurrent CNVs.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Microdeletion and microduplication syndromes</h2>
+
+            <p>The genomic-disorder concept (Lupski 1998) refers to clinical phenotypes caused by recurrent CNVs at loci flanked by segmental duplications. Established examples (each with detailed entries in <a href="https://omim.org" rel="noopener">OMIM</a>, GeneReviews, and <a href="https://www.ncbi.nlm.nih.gov/clinvar/" rel="noopener">ClinVar</a>) include 22q11.2 deletion (DiGeorge / velocardiofacial), 7q11.23 deletion (Williams-Beuren), 17p11.2 deletion (Smith-Magenis) and reciprocal duplication (Potocki-Lupski), 16p11.2 deletion / duplication (autism / developmental phenotypes), 1q21.1 deletion / duplication, 15q11.2-q13 deletion (Prader-Willi / Angelman, with parent-of-origin imprinting effects), 17q12 deletion (renal cysts and diabetes), and 17p12 duplication (Charcot-Marie-Tooth 1A) / deletion (HNPP).</p>
+
+            <p>The Database of Genomic Variants (<a href="https://dgv.tcag.ca" rel="noopener">DGV</a>) was the first widely used reference for population-level CNV frequency from microarray studies. ClinGen Dosage Sensitivity, ClinVar, DECIPHER, and OMIM are the standard references for clinically annotated CNVs and their associated phenotypes; gnomAD-SV (below) provides allele-frequency estimates for the general population from short-read sequencing.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Structural variant detection from short reads</h2>
+
+            <p>Short-read whole-genome sequencing (typically 150 bp paired-end Illumina at 30&times; coverage) detects structural variants through four orthogonal signal types:</p>
+
+            <ul>
+                <li><strong>Read-depth</strong>. Deletions reduce, and duplications increase, the local read coverage relative to the genome-wide median. Read-depth resolves CNVs reliably down to a few kb but loses sensitivity at smaller sizes and offers no breakpoint precision.</li>
+                <li><strong>Read-pair (discordant pairs)</strong>. Paired reads whose insert size, orientation, or chromosomal placement deviates from expectation indicate structural variation: large insert sizes for deletions, small for insertions, inverted orientations for inversions, and trans-chromosomal pairs for translocations.</li>
+                <li><strong>Split-read</strong>. A read that aligns partly to one location and partly to another places a structural-variant breakpoint at single-base precision, and is essential for resolving NAHR breakpoints within segmental duplications and small (&lt;1 kb) variants.</li>
+                <li><strong>Assembly-based</strong>. Local de novo assembly of unmapped reads or reads in a candidate region produces a contig that can be aligned back to the reference to recover insertion sequences and complex junctions invisible to alignment-only methods.</li>
+            </ul>
+
+            <p>Modern SV callers (Manta, Delly, GRIDSS, LUMPY) integrate two or more of these signals; population-scale callers add genotype-likelihood and joint-calling layers. Even with integration, short-read SV calling has fundamental blind spots in repetitive regions, large insertions exceeding the insert size, and complex multi-breakpoint events.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Long-read sequencing and the SV revolution</h2>
+
+            <p>Long-read platforms &mdash; Pacific Biosciences (PacBio HiFi, ~20 kb reads at &gt;99&#37; accuracy via circular consensus sequencing) and Oxford Nanopore Technologies (ONT, ~10&ndash;100 kb reads, with R10.4.1 chemistries reaching modal accuracies &gt;99&#37;) &mdash; transformed structural-variant detection. <a href="https://pubmed.ncbi.nlm.nih.gov/30992455/" rel="noopener">Chaisson et al. 2019</a> reported a multi-platform comparison showing that long reads detect 20,000&ndash;25,000 SVs per genome compared to ~5,000&ndash;10,000 by short-read methods, with the gain concentrated in insertion-class SVs (which short reads chronically miss), SVs in repetitive regions, and complex breakpoint reconstructions.</p>
+
+            <p>Long reads also enable haplotype-resolved <em>de novo</em> assembly of human genomes. Tools such as hifiasm and HiCanu produce phased contigs at chromosome scale, and the resulting assemblies expose structural variation that no short-read alignment to a single reference can recover. The Human Pangenome Reference Consortium (HPRC) has now released phased diploid assemblies for several dozen individuals; the implication, increasingly accepted, is that no single linear reference can adequately represent the diversity of human structural variation, and graph- or pangenome-based representations are needed for high-fidelity downstream analysis.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">gnomAD-SV and population catalogues</h2>
+
+            <p><a href="https://pubmed.ncbi.nlm.nih.gov/32461652/" rel="noopener">Collins et al. 2020</a> reported gnomAD-SV v2: 433,371 structural variants &gt;50 bp called from short-read whole-genome sequencing of 14,891 individuals, providing population allele frequencies stratified by ancestry. The dataset is the standard reference for structural-variant rarity in research and educational interpretation. Subsequent gnomAD releases (v3 / v4) expanded the cohort substantially and incorporated additional variant-class refinements; gnomAD continues to integrate long-read data as it scales.</p>
+
+            <p>Other major catalogues: the 1000 Genomes Project structural-variation phase 3 release (Sudmant et al. 2015); the Human Pangenome Reference Consortium graph-based releases; <a href="https://decipher.sanger.ac.uk" rel="noopener">DECIPHER</a> for clinically annotated CNVs and associated phenotypes; <a href="https://dgv.tcag.ca" rel="noopener">DGV</a> for the historical population CNV reference; ClinVar and ClinGen for variant-level clinical annotation. <a href="https://www.ncbi.nlm.nih.gov/snp/" rel="noopener">dbSNP</a> retains a large fraction of small structural variants alongside SNPs and indels.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why this matters for pedigree-modelling teaching</h2>
+
+            <p>Structural variation is a substantial source of inherited and de novo disease that short-read panels can systematically miss. A negative gene-panel result on a family with a phenotype consistent with a Mendelian disorder may reflect a structural variant invisible to the panel rather than absence of a causative variant. The educational pedigree-modelling pages on this site (<a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk assessment</a>, <a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a>, <a href="germline-mosaicism-calculator.html">germline mosaicism calculator</a>) are intended for research and teaching only; outputs from any of the 20 implemented risk models are illustrative, not a clinical recommendation. The Tyrer-Cuzick implementation is an IBIS-style approximation of the published Tyrer/Duffy/Cuzick 2004 algorithm, not the official IBIS Breast Cancer Risk Evaluator binary. BOADICEA is licensed by the University of Cambridge and is not bundled in Evagene; the platform exports a `##CanRisk 2.0` pedigree file for upload at <a href="https://www.canrisk.org" rel="noopener">canrisk.org</a> when BOADICEA computation is wanted.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Key references</h2>
+
+            <ul>
+                <li>International Human Genome Sequencing Consortium (Lander ES et al.). Initial sequencing and analysis of the human genome. <em>Nature</em> 409:860&ndash;921 (2001). <a href="https://pubmed.ncbi.nlm.nih.gov/11237011/" rel="noopener">PMID 11237011</a>.</li>
+                <li>Lander ES. Initial impact of the sequencing of the human genome. <em>Nature</em> 470:187&ndash;197 (2011). <a href="https://pubmed.ncbi.nlm.nih.gov/21307931/" rel="noopener">PMID 21307931</a>.</li>
+                <li>Cordaux R, Batzer MA. The impact of retrotransposons on human genome evolution. <em>Nat Rev Genet</em> 10:691&ndash;703 (2009). <a href="https://pubmed.ncbi.nlm.nih.gov/19763152/" rel="noopener">PMID 19763152</a>.</li>
+                <li>Sebat J et al. Large-scale copy number polymorphism in the human genome. <em>Science</em> 305:525&ndash;528 (2004). <a href="https://pubmed.ncbi.nlm.nih.gov/15273396/" rel="noopener">PMID 15273396</a>.</li>
+                <li>Conrad DF et al. Origins and functional impact of copy number variation in the human genome. <em>Nature</em> 464:704&ndash;712 (2010). <a href="https://pubmed.ncbi.nlm.nih.gov/19812545/" rel="noopener">PMID 19812545</a>.</li>
+                <li>Sudmant PH et al. An integrated map of structural variation in 2,504 human genomes. <em>Nature</em> 526:75&ndash;81 (2015). <a href="https://pubmed.ncbi.nlm.nih.gov/26432246/" rel="noopener">PMID 26432246</a>.</li>
+                <li>Collins RL et al. A structural variation reference for medical and population genetics. <em>Nature</em> 581:444&ndash;451 (2020). <a href="https://pubmed.ncbi.nlm.nih.gov/32461652/" rel="noopener">PMID 32461652</a>.</li>
+                <li>Chaisson MJP et al. Multi-platform discovery of haplotype-resolved structural variation in human genomes. <em>Nat Commun</em> 10:1784 (2019). <a href="https://pubmed.ncbi.nlm.nih.gov/30992455/" rel="noopener">PMID 30992455</a>.</li>
+                <li>Database of Genomic Variants (DGV): <a href="https://dgv.tcag.ca" rel="noopener">dgv.tcag.ca</a>. ClinVar: <a href="https://www.ncbi.nlm.nih.gov/clinvar/" rel="noopener">ncbi.nlm.nih.gov/clinvar</a>. DECIPHER: <a href="https://decipher.sanger.ac.uk" rel="noopener">decipher.sanger.ac.uk</a>. OMIM: <a href="https://omim.org" rel="noopener">omim.org</a>.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What fraction of the human genome is repetitive?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">At least ~50&#37;, and with improved annotation closer to two-thirds. The largest classes are LINEs, SINEs (including ~1.1 million Alu elements), LTR-containing endogenous retroviruses, and DNA transposons.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is an Alu element?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A primate-specific SINE of ~300 bp derived from the 7SL signal-recognition-particle RNA. There are ~1.1 million copies in the human genome, mobilising in trans on L1 machinery; recently active subfamilies still produce polymorphic insertions in human populations.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What mechanisms produce copy number variants?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Non-allelic homologous recombination (NAHR) between flanking segmental duplications generates recurrent CNVs; NHEJ / MMEJ generates non-recurrent CNVs at random locations; replication-based mechanisms (FoSTeS, MMBIR) generate complex non-recurrent CNVs with templated segments.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is gnomAD-SV?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The structural-variant subset of gnomAD. The reference v2 release (Collins et al. 2020, Nature 581:444) catalogued 433,371 SVs across 14,891 short-read genomes, with subsequent releases scaling further and incorporating long-read data.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How does long-read sequencing change SV detection?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Long-read platforms (PacBio HiFi, Oxford Nanopore) detect 20,000&ndash;25,000 SVs per genome compared to ~5,000&ndash;10,000 by short reads, and enable haplotype-resolved de novo assembly that recovers structural variation invisible to short-read alignment against a linear reference.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="molecular-architecture-of-genes.html">Molecular architecture of genes</a> (pillar)</li>
+                <li><a href="dna-and-chromatin-organization.html">DNA and chromatin organisation</a></li>
+                <li><a href="dna-replication-and-repair.html">DNA replication and repair</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+                <li><a href="germline-mosaicism-calculator.html">Germline mosaicism calculator</a></li>
+                <li><a href="pedigree-drawing-tool.html">Pedigree drawing tool</a></li>
+                <li><a href="karyogram-viewer.html">Karyogram viewer</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree modelling platform</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, gesture drawing, GEDCOM and CanRisk export, 20 published risk models for research and teaching, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students. Not a medical device.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="molecular-architecture-of-genes.html" class="hover:text-white transition-colors">Molecular architecture of genes</a></li><li><a href="dna-and-chromatin-organization.html" class="hover:text-white transition-colors">DNA &amp; chromatin organisation</a></li><li><a href="dna-replication-and-repair.html" class="hover:text-white transition-colors">DNA replication &amp; repair</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="germline-mosaicism-calculator.html" class="hover:text-white transition-colors">Germline mosaicism</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

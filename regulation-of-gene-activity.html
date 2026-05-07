@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regulation of Gene Activity — Cis/Trans, Epigenetics, GRNs | Evagene</title>
+    <meta name="description" content="Educational pillar on the regulation of gene activity: cis- and trans-regulatory elements, epigenetic chromatin dynamics, and gene regulatory networks. ENCODE, Roadmap Epigenomics, and the Lac operon framing.">
+    <meta name="keywords" content="regulation of gene activity, gene regulation, cis-regulatory elements, trans-regulatory elements, epigenetics, chromatin, gene regulatory networks, ENCODE, Roadmap Epigenomics, Jacob Monod, Lac operon, transcription factor, enhancer, promoter, histone modification, DNA methylation, TAD">
+
+    <meta property="og:title" content="Regulation of Gene Activity — Cis/Trans, Epigenetics, GRNs | Evagene">
+    <meta property="og:description" content="Educational pillar covering cis- and trans-regulatory elements, epigenetic chromatin dynamics, and gene regulatory networks. References ENCODE, Roadmap Epigenomics, and the Jacob-Monod Lac operon.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/regulation-of-gene-activity">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Regulation of Gene Activity — Cis/Trans, Epigenetics, GRNs">
+    <meta name="twitter:description" content="An educational pillar on cis/trans regulation, epigenetics, and gene regulatory networks. ENCODE, Roadmap Epigenomics, Lac operon.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/regulation-of-gene-activity">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Regulation of Gene Activity: Cis/Trans Elements, Epigenetics, and Gene Regulatory Networks",
+        "description":"An educational pillar on how gene activity is regulated, covering cis- and trans-regulatory elements, epigenetic chromatin dynamics, and gene regulatory networks. References ENCODE, Roadmap Epigenomics, and the Jacob-Monod Lac operon.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-06","dateModified":"2026-05-06",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/regulation-of-gene-activity"},
+        "image":"https://evagene.com/og-image.png",
+        "keywords":["regulation of gene activity","gene regulation","cis-regulatory elements","epigenetics","gene regulatory networks","ENCODE","Roadmap Epigenomics","Lac operon","transcription factor"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"LearningResource",
+        "name":"Regulation of Gene Activity",
+        "description":"Educational pillar on cis/trans regulation, epigenetics, and gene regulatory networks for students, researchers, and educators.",
+        "learningResourceType":"Article",
+        "educationalLevel":"Undergraduate, Postgraduate",
+        "audience":{"@type":"EducationalAudience","educationalRole":"student"},
+        "inLanguage":"en-GB",
+        "url":"https://evagene.com/regulation-of-gene-activity",
+        "publisher":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"}
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Education","item":"https://evagene.com/#resources"},
+            {"@type":"ListItem","position":3,"name":"Regulation of Gene Activity","item":"https://evagene.com/regulation-of-gene-activity"}
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"What is the regulation of gene activity?","acceptedAnswer":{"@type":"Answer","text":"The regulation of gene activity is the set of mechanisms that determine when, where, and how strongly each gene is transcribed and translated. It encompasses cis-acting DNA elements such as promoters, enhancers, silencers, and insulators; trans-acting factors such as transcription factors and chromatin remodellers; epigenetic states (DNA methylation, histone modifications, three-dimensional chromatin organisation); and gene regulatory networks that integrate these signals over time."}},
+            {"@type":"Question","name":"What are the three main areas covered on this page?","acceptedAnswer":{"@type":"Answer","text":"Cis- and trans-regulatory elements (the DNA sequences that locally control transcription and the proteins that bind them); epigenetics and chromatin dynamics (DNA methylation, histone modifications, chromatin remodellers, and topologically associating domains); and gene regulatory networks (the system-level wiring of regulators into feedback loops, feed-forward motifs, and bistable switches, plus regulatory roles of non-coding RNAs)."}},
+            {"@type":"Question","name":"Why does the Lac operon still matter?","acceptedAnswer":{"@type":"Answer","text":"The Lac operon described by Jacob and Monod in 1961 is the foundational molecular case of inducible gene regulation. It introduced the concepts of operator, repressor, inducer, and operon architecture, all of which generalised to bacterial regulation and ultimately influenced how eukaryotic regulation was conceptualised. The Lac system also remains a canonical teaching example of bistable switching."}},
+            {"@type":"Question","name":"What is ENCODE?","acceptedAnswer":{"@type":"Answer","text":"The Encyclopaedia of DNA Elements (ENCODE) is an international research consortium that systematically maps functional elements in the human genome — including transcribed regions, transcription-factor binding sites, accessible chromatin, and histone-modification states — across cell types and tissues. The 2012 Nature publication is the canonical citation for the integrated catalogue of candidate regulatory elements."}},
+            {"@type":"Question","name":"Is this a clinical resource?","acceptedAnswer":{"@type":"Answer","text":"No. Evagene is an academic, research, and educational pedigree modelling platform. The educational pages on gene regulation are written for students, educators, and researchers; they are not medical advice and do not constitute clinical decision support."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="https://evagene.com/#resources" class="hover:text-brand-600 dark:hover:text-brand-300">Education</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">Regulation of Gene Activity</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Regulation of gene activity: cis/trans elements, epigenetics, and gene regulatory networks</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">An educational pillar covering the three intersecting layers that determine when, where, and how strongly each gene is expressed: cis- and trans-acting regulatory elements; epigenetic chromatin dynamics; and the system-level architecture of gene regulatory networks. The page is written for students, educators, and researchers, and links out to three companion pages that develop each subtopic in depth.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-06">6 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>11 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> Every cell in a multicellular organism shares the same genome, yet a hepatocyte and a cortical neuron transcribe radically different subsets of it. The regulation of gene activity is the set of mechanisms that produces that divergence: cis-acting DNA elements such as promoters and enhancers, trans-acting transcription factors and chromatin modifiers, epigenetic states laid over the chromatin template, and the dynamical wiring of those components into gene regulatory networks. This pillar introduces the three layers and links to deeper companion pages.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">From operons to encyclopaedias</h2>
+
+            <p>The conceptual foundation for gene regulation is the Lac operon model published by Fran&ccedil;ois Jacob and Jacques Monod (<a href="https://pubmed.ncbi.nlm.nih.gov/13718526/" rel="noopener">Jacob &amp; Monod 1961, J Mol Biol 3:318</a>). Studying lactose metabolism in <em>Escherichia coli</em>, Jacob and Monod inferred a regulatory architecture in which a structural gene cluster is transcribed as a unit under the control of an upstream operator sequence; a repressor protein binds the operator and blocks transcription; an inducer molecule (allolactose, in the Lac case) binds the repressor and relieves the block. The operon model introduced four ideas that proved durable far beyond bacteria: that DNA contains <em>cis</em>-acting regulatory sequences distinct from coding sequences; that <em>trans</em>-acting protein factors recognise those sequences; that regulation operates through specific molecular contacts rather than diffuse chemistry; and that small molecules can switch entire transcriptional programmes on and off. The Nobel committee recognised the work in 1965, and it remains the canonical entry point for teaching gene regulation.</p>
+
+            <p>Eukaryotic regulation extended every term in that vocabulary. Operators became enhancers and silencers and insulators, distributed across hundreds of kilobases. Repressors were joined by activators, coactivators, mediator complexes, and an entire ecosystem of chromatin remodellers and writers/readers/erasers of histone marks. Operons gave way to single transcription units regulated by combinatorial assemblies of dozens of factors. The genome-scale picture of this expanded vocabulary was first delivered by the <a href="https://www.encodeproject.org/" rel="noopener">ENCODE Project</a> (<a href="https://pubmed.ncbi.nlm.nih.gov/22955616/" rel="noopener">ENCODE Project Consortium 2012, Nature 489:57</a>), which catalogued candidate functional elements across the human genome by integrating transcription, transcription-factor binding, chromatin accessibility, and histone-modification data across hundreds of cell types and conditions. Where ENCODE focused on functional element annotation, the <a href="https://egg2.wustl.edu/roadmap/web_portal/" rel="noopener">Roadmap Epigenomics Consortium</a> (<a href="https://pubmed.ncbi.nlm.nih.gov/25693563/" rel="noopener">Kundaje et al. 2015, Nature 518:317</a>) generated reference epigenomes from 111 primary tissues and cell types, mapping DNA methylation, histone modifications, chromatin accessibility, and RNA expression to produce the integrated chromatin-state models still in routine use.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Layer 1 — cis- and trans-regulatory elements</h2>
+
+            <p>Transcriptional control begins at the DNA. <em>Cis</em>-regulatory elements are sequences on the same chromosome that influence the transcription of a nearby gene: promoters anchor RNA polymerase II at the transcription start site; enhancers, often distal and orientation-independent, recruit transcription factors that activate transcription; silencers recruit repressive factors; insulators (often bound by CTCF) demarcate regulatory neighbourhoods and prevent inappropriate enhancer-promoter contact. The classical enhancer was first described by Banerji and colleagues in the SV40 system (Banerji et al. 1981, Cell 27:299), and the modern view of enhancer biology — including super-enhancers, enhancer RNAs, and the cohesin/CTCF-mediated loop architecture that brings enhancers into contact with their target promoters — has been comprehensively reviewed (Levine et al. 2014, Cell 157:13; Phillips &amp; Corces 2009, Cell 137:1194).</p>
+
+            <p><em>Trans</em>-regulatory elements are the diffusible factors that bind cis-regulatory sequences: transcription factors recognise short DNA motifs, typically captured as position weight matrices in databases such as <a href="https://jaspar.genereg.net/" rel="noopener">JASPAR</a>; cofactors and the Mediator complex bridge factors to RNA polymerase; chromatin remodellers expose or occlude binding sites. Mapping where transcription factors bind in a given cell type is now routine via ChIP-seq, and the accessibility of regulatory DNA is mapped via DNase-seq or ATAC-seq (<a href="https://pubmed.ncbi.nlm.nih.gov/24097267/" rel="noopener">Buenrostro et al. 2013, Nat Methods 10:1213</a>). Population-scale projects such as <a href="https://gtexportal.org/" rel="noopener">GTEx</a> map expression quantitative trait loci (eQTLs), connecting common DNA variants to differential gene expression across tissues and providing a complementary view of which cis-regulatory elements actually carry phenotypic signal at the population level.</p>
+
+            <p>The companion page <a href="cis-and-trans-regulatory-elements.html">cis- and trans-regulatory elements</a> develops this layer in detail — enhancer biology, super-enhancers, transcription-factor motif databases, ATAC-seq and ChIP-seq experimental design, and the use of GTEx and ENCODE to interrogate regulatory variation.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Layer 2 — epigenetics and chromatin dynamics</h2>
+
+            <p>The same DNA sequence can be in a transcriptionally active or repressed state depending on its chromatin context. Three intersecting axes of chromatin state matter for transcription: covalent DNA modifications (predominantly cytosine methylation at CpG dinucleotides), covalent histone modifications (acetylation, methylation, phosphorylation, ubiquitination at specific residues), and three-dimensional chromatin organisation. Active promoters are typically marked by H3K4me3, active enhancers by the combination of H3K4me1 and H3K27ac, Polycomb-repressed regions by H3K27me3, and constitutive heterochromatin by H3K9me3. The Roadmap Epigenomics chromatin-state models (built using ChromHMM) integrate these marks into discrete states such as "active TSS", "strong enhancer", "Polycomb-repressed", and so on, providing a tractable annotation across cell types.</p>
+
+            <p>Three-dimensional chromatin organisation is the most recently mapped axis. The genome partitions into A and B compartments at the megabase scale and into topologically associating domains (TADs) at the sub-megabase scale (Dixon et al. 2012, Nature 485:376; Nora et al. 2012, Nature 485:381), with cohesin-mediated loop extrusion providing a mechanistic account of TAD formation (Sanborn et al. 2015, PNAS 112:E6456; Fudenberg et al. 2016, Cell Rep 15:2038). TAD boundaries — typically marked by CTCF — constrain which enhancers can act on which promoters, and disruption of those boundaries can reroute regulatory contacts with phenotypic consequences in development.</p>
+
+            <p>The companion page <a href="epigenetics-and-chromatin-dynamics.html">epigenetics and chromatin dynamics</a> develops DNA methylation, histone modifications, ATP-dependent chromatin remodellers, Polycomb and Trithorax complexes, X-inactivation, genomic imprinting, and TAD biology in detail.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Layer 3 — gene regulatory networks</h2>
+
+            <p>Cis-regulatory elements and epigenetic states do not act in isolation. The trans-acting factors that bind enhancers are themselves the products of other regulated genes, and the resulting wiring forms a gene regulatory network (GRN). GRN structure is non-trivial: certain motifs — feed-forward loops, negative-feedback oscillators, bistable switches, autoregulation — recur across networks at frequencies far above what would be expected by chance (Milo et al. 2002, Science 298:824; Mangan &amp; Alon 2003, PNAS 100:11980). The Lac operon itself is one of the canonical bistable switches; the NF-&kappa;B, p53, and circadian-clock systems are canonical examples of negative-feedback oscillators in mammalian biology.</p>
+
+            <p>Two layers of regulatory machinery are not always foregrounded in transcription-factor-centric accounts. MicroRNAs and long non-coding RNAs are now well-characterised regulatory players (Bartel 2018, Cell 173:20; Quinn &amp; Chang 2016, Nat Rev Genet 17:47): miRNAs tune translation and transcript stability of hundreds of target mRNAs simultaneously, and lncRNAs such as XIST, HOTAIR, and MALAT1 contribute to chromatin remodelling and nuclear organisation. Modern systems-level approaches such as Perturb-seq and CRISPR-based perturbation screens (Dixit et al. 2016, Cell 167:1853; Replogle et al. 2022, Cell 185:2559) read out network responses to thousands of single-gene perturbations at single-cell resolution, providing the empirical scaffold on which contemporary GRN inference rests.</p>
+
+            <p>The companion page <a href="gene-regulatory-networks.html">gene regulatory networks</a> develops network topology, feed-forward and feedback motifs, bistability, the regulatory roles of microRNAs and long non-coding RNAs, and the modern Perturb-seq / single-cell experimental toolkit.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Why three layers, not one</h2>
+
+            <p>The three layers above are not alternative descriptions of the same phenomenon — they are complementary. A static catalogue of cis-regulatory elements (Layer 1) tells you which DNA sequences <em>could</em> be regulatory in principle; the chromatin state of a cell (Layer 2) tells you which of those elements are accessible and active <em>in that cell</em>; and the GRN architecture (Layer 3) tells you how the system responds dynamically when an input arrives. ENCODE and the Roadmap Epigenomics reference epigenomes operate at Layers 1 and 2; the Perturb-seq generation of experiments interrogates Layer 3.</p>
+
+            <p>Most contemporary functional-genomics analyses cross all three layers. Interpreting a non-coding GWAS variant typically involves: looking up whether the variant overlaps an annotated enhancer (Layer 1, ENCODE); checking whether that enhancer is active in the relevant tissue (Layer 2, Roadmap chromatin-state); checking whether the variant disrupts a transcription-factor motif (Layer 1, JASPAR); checking whether the variant is an eQTL for a nearby gene (Layer 1, GTEx); and, increasingly, checking whether perturbing that gene produces the expected downstream signature in single-cell perturbation atlases (Layer 3, Perturb-seq).</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pedigree-level relevance</h2>
+
+            <p>Family-history-based modelling — the focus of the broader Evagene platform — does not directly model regulatory mechanisms; it operates on inheritance patterns of phenotypic traits across pedigrees. But understanding how gene activity is regulated is essential context for several phenomena that pedigree analysis encounters in practice: variable expressivity and reduced penetrance often reflect regulatory variation rather than coding variation; imprinting disorders such as Prader-Willi and Angelman are paradigmatic epigenetic-inheritance cases; X-inactivation patterns explain why females heterozygous for X-linked recessive alleles can show variable phenotypic expression; and many common-disease GWAS hits map to regulatory rather than coding sequence. Several of Evagene's <a href="complex-disease-pedigree-software.html">complex-disease pedigree pages</a> and <a href="hereditary-cancer-risk-assessment.html">hereditary cancer pages</a> reference these mechanisms in passing; this educational pillar is the deeper-context resource.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the regulation of gene activity?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The set of mechanisms that determine when, where, and how strongly each gene is transcribed and translated &mdash; including cis-regulatory DNA elements, trans-acting protein factors, chromatin and DNA modifications, and the network-level wiring of regulators into feedback loops and switches.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What three layers does this page cover?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Cis- and trans-regulatory elements (Layer 1), epigenetics and chromatin dynamics (Layer 2), and gene regulatory networks (Layer 3). Each is developed in a companion page.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Why does the Lac operon still matter?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">It is the foundational molecular case of inducible regulation. Jacob and Monod 1961 introduced the concepts of operator, repressor, inducer, and operon architecture, and the Lac system remains a canonical teaching example of bistable switching.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is ENCODE?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">An international research consortium that catalogues functional elements across the human genome &mdash; transcription, transcription-factor binding, chromatin accessibility, histone modifications &mdash; in many cell types. ENCODE Project Consortium 2012, Nature 489:57 is the canonical citation.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is Roadmap Epigenomics?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">A complementary consortium that produced reference epigenomes from 111 primary tissues and cell types, integrating DNA methylation, histone modifications, chromatin accessibility, and RNA expression. Kundaje et al. 2015, Nature 518:317.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is this a clinical resource?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. Evagene is an academic, research, and educational pedigree modelling platform. The educational pages on gene regulation are written for students, educators, and researchers; they are not medical advice and do not constitute clinical decision support.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related reading</h2>
+
+            <ul>
+                <li><a href="cis-and-trans-regulatory-elements.html">Cis- and trans-regulatory elements</a></li>
+                <li><a href="epigenetics-and-chromatin-dynamics.html">Epigenetics and chromatin dynamics</a></li>
+                <li><a href="gene-regulatory-networks.html">Gene regulatory networks</a></li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="complex-disease-pedigree-software.html">Complex disease pedigree software</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try Evagene's pedigree drawing tool</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">In-browser pedigree drawing with NSGC notation, GEDCOM and CanRisk export, and a 1,900-entry help catalogue. Free during alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. Standard notation. Implementations of published risk-model algorithms. Universal data exchange. Zero installs. For research, education, and family-history documentation; not a medical device.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="cis-and-trans-regulatory-elements.html" class="hover:text-white transition-colors">Cis/trans elements</a></li><li><a href="epigenetics-and-chromatin-dynamics.html" class="hover:text-white transition-colors">Epigenetics &amp; chromatin</a></li><li><a href="gene-regulatory-networks.html" class="hover:text-white transition-colors">Gene regulatory networks</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer risk assessment</a></li><li><a href="complex-disease-pedigree-software.html" class="hover:text-white transition-colors">Complex disease pedigrees</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>
