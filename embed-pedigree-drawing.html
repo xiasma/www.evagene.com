@@ -150,6 +150,22 @@
             <p class="mt-4 text-sm text-gray-500 dark:text-gray-500">Last reviewed: 10 May 2026</p>
         </header>
 
+        <!-- Two-embeds orientation card -->
+        <aside class="not-prose mb-12 rounded-xl border border-brand-200 dark:border-brand-800 bg-brand-50/60 dark:bg-brand-900/30 p-5 sm:p-6" aria-labelledby="two-embeds-heading">
+            <div class="flex items-start gap-4">
+                <svg class="w-6 h-6 text-brand-600 dark:text-brand-300 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                <div class="flex-1">
+                    <p id="two-embeds-heading" class="font-semibold text-gray-900 dark:text-white mb-2">Evagene ships two free embeds &mdash; pick by goal</p>
+                    <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed mb-3">If you are not sure which embed fits your situation, the short answer:</p>
+                    <ul class="space-y-2 text-sm text-gray-700 dark:text-gray-300">
+                        <li class="flex gap-2"><span class="font-semibold text-brand-700 dark:text-brand-300 flex-shrink-0">Drawing embed &middot;</span><span><strong>You're on this page.</strong> Visitors create pedigrees from scratch in a live canvas. Anonymous, no signup, free. Best for teaching, blogs, course pages, LMS modules, family-history sites.</span></li>
+                        <li class="flex gap-2"><span class="font-semibold text-brand-700 dark:text-brand-300 flex-shrink-0">Viewer embed &middot;</span><span>Read-only display of an existing pedigree fetched from an Evagene account. API-key authenticated (or public-pedigree mode). Best for research dashboards, published-paper companion sites, EHR / patient-portal display patterns. <a href="embeddable-pedigree-viewer.html" class="text-brand-600 dark:text-brand-300 hover:underline font-medium">See the viewer embed page &rarr;</a></span></li>
+                    </ul>
+                    <p class="mt-3 text-xs text-gray-500 dark:text-gray-400">Both embeds can be used together &mdash; for example, a teaching page that uses the drawing embed for student practice and the viewer embed for a worked-example case study.</p>
+                </div>
+            </div>
+        </aside>
+
         <!-- Live demo -->
         <section class="mb-12 not-prose">
             <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Live demo &mdash; the embed below is the real tool</h2>
@@ -173,9 +189,13 @@
             <div class="rounded-lg overflow-hidden border border-gray-200 dark:border-brand-800 bg-gray-50 dark:bg-brand-900/40">
                 <div class="flex items-center justify-between px-4 py-2 bg-gray-100 dark:bg-brand-900 border-b border-gray-200 dark:border-brand-800">
                     <span class="text-xs font-mono text-gray-500 dark:text-gray-400">embed.html</span>
-                    <span class="text-xs text-gray-500 dark:text-gray-400">Select all and copy</span>
+                    <button type="button" id="copy-embed-btn" data-copy-target="embed-code" aria-label="Copy embed code to clipboard" class="inline-flex items-center gap-1.5 px-2 py-1 -my-1 rounded text-xs font-medium text-gray-500 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 hover:bg-white dark:hover:bg-brand-950/60 focus:outline-none focus:ring-2 focus:ring-brand-500 transition-colors">
+                        <svg class="copy-icon w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                        <svg class="copy-check hidden w-4 h-4 text-clinical-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                        <span class="copy-label">Copy</span>
+                    </button>
                 </div>
-<pre class="p-4 text-sm font-mono text-gray-800 dark:text-gray-200 overflow-x-auto leading-relaxed"><code>&lt;iframe
+<pre id="embed-code" class="p-4 text-sm font-mono text-gray-800 dark:text-gray-200 overflow-x-auto leading-relaxed"><code>&lt;iframe
   src=&quot;https://evagene.net/draw&quot;
   title=&quot;Draw a pedigree — Evagene&quot;
   width=&quot;100%&quot;
@@ -235,9 +255,9 @@
         </section>
 
         <!-- How it differs from the viewer -->
-        <section class="mb-12">
-            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">How this differs from the read-only viewer embed</h2>
-            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">Evagene offers two complementary embeds. Choose the one that fits the workflow:</p>
+        <section class="mb-12" id="drawing-vs-viewer">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Drawing embed vs viewer embed &mdash; full comparison</h2>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">The two free Evagene embeds solve different problems. The matrix below is the same on the <a href="embeddable-pedigree-viewer.html" class="text-brand-600 dark:text-brand-300 hover:underline">viewer embed page</a> so you get a consistent answer whichever page you land on.</p>
             <div class="overflow-x-auto not-prose">
                 <table class="w-full text-sm border-collapse">
                     <thead class="bg-gray-50 dark:bg-brand-900/50">
@@ -248,14 +268,60 @@
                         </tr>
                     </thead>
                     <tbody class="text-gray-700 dark:text-gray-300">
-                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Primary purpose</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Visitors create / edit a pedigree</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Display a specific pedigree from an Evagene account</td></tr>
-                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Authentication</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">None &mdash; visitors don't sign in</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">API key (server-side) or public-pedigree mode</td></tr>
-                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Data source</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Visitor draws from scratch</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Existing pedigree fetched from Evagene</td></tr>
-                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Best for</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Teaching, blogs, courses, public outreach, family-history</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Research dashboards, public-pedigree research figures</td></tr>
-                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Cost</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Free, alpha</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Free, alpha (for public pedigrees); API-key tier for private</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Primary purpose</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Visitors <strong>create / edit</strong> a pedigree</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Visitors <strong>view</strong> an existing pedigree</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Embed mode(s)</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">One iframe, one URL (<code class="text-xs">evagene.net/draw</code>)</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Three modes: iframe, raw SVG, or JavaScript snippet</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Data source</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Visitor draws from scratch (or imports GEDCOM in-canvas)</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Specific pedigree ID fetched from an Evagene account</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Authentication</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">None &mdash; anonymous</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">API key (server-side) for private pedigrees, or public-pedigree mode</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Interactivity</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Full drawing, annotation, export</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">View interactivity (zoom, pan, focus); read-only</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Persistence</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Visitor's pedigree is local until exported (PDF / PNG / SVG / GEDCOM / CanRisk)</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Pedigree lives in the Evagene account; embed reflects current state</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Live updates</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">N/A &mdash; visitor controls the canvas</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Re-render on <code class="text-xs">pedigree.updated</code> webhook</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Best contexts</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Teaching pages, OERs, course modules, blog articles, outreach, family-history sites</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Research dashboards, published-paper companion sites, public-pedigree research figures, web-content display patterns</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-medium">Cost</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Free, alpha</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Free, alpha (public pedigrees); API-key tier for private</td></tr>
                     </tbody>
                 </table>
             </div>
+        </section>
+
+        <!-- Decision aid: scenarios -->
+        <section class="mb-12" id="which-embed">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Which embed should I use? &mdash; common scenarios</h2>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">If the comparison table is more detail than you need, the scenario table below maps "what I'm trying to do" directly to "which embed". The same table appears on the <a href="embeddable-pedigree-viewer.html#which-embed" class="text-brand-600 dark:text-brand-300 hover:underline">viewer embed page</a>.</p>
+            <div class="overflow-x-auto not-prose">
+                <table class="w-full text-sm border-collapse">
+                    <thead class="bg-gray-50 dark:bg-brand-900/50">
+                        <tr>
+                            <th class="text-left font-semibold text-gray-900 dark:text-white px-3 py-3 border border-gray-200 dark:border-brand-800">Your goal</th>
+                            <th class="text-left font-semibold text-gray-900 dark:text-white px-3 py-3 border border-gray-200 dark:border-brand-800 whitespace-nowrap">Pick</th>
+                            <th class="text-left font-semibold text-gray-900 dark:text-white px-3 py-3 border border-gray-200 dark:border-brand-800">Why</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700 dark:text-gray-300">
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Teaching Mendelian inheritance &mdash; students draw a pedigree as they read</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-semibold text-brand-700 dark:text-brand-300">Drawing</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Anonymous, no auth, immediate practice surface</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Blog post on hereditary cancer &mdash; readers experiment with a pedigree</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-semibold text-brand-700 dark:text-brand-300">Drawing</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Same; open access, drop-in iframe</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">LMS module (Moodle / Canvas / Blackboard) for pedigree-drawing exercise</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-semibold text-brand-700 dark:text-brand-300">Drawing</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Iframe drops into LMS pages; no per-student account</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Genealogy hobbyist site &mdash; visitor draws their own family</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-semibold text-brand-700 dark:text-brand-300">Drawing</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Visitor produces their own structured family record, exports GEDCOM</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Outreach page for a hereditary-disease charity &mdash; no signup required</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-semibold text-brand-700 dark:text-brand-300">Drawing</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Anonymous canvas keeps the page low-friction</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Companion site for a published research paper showing the family pedigree</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-semibold text-clinical-700 dark:text-clinical-400">Viewer (public)</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Read-only display of an exact pedigree the authors authored in Evagene</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Research dashboard rendering many pedigrees alongside variant tables</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-semibold text-clinical-700 dark:text-clinical-400">Viewer (JS snippet)</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Inline SVG, page CSS reaches the diagram, batch-rendered from API</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Static SVG of a specific pedigree for a printable PDF or slide</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-semibold text-clinical-700 dark:text-clinical-400">Viewer (raw SVG)</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Vector, scales for print without quality loss</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Web-content frame inside an EHR / patient portal showing the team's pedigree</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-semibold text-clinical-700 dark:text-clinical-400">Viewer (iframe + API key)</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Read-only display of an existing record, key held server-side</td></tr>
+                        <tr><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Course site that needs <em>both</em> &mdash; students draw on one page; a worked-example case study is shown on another</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800 font-semibold">Both</td><td class="px-3 py-2 border border-gray-200 dark:border-brand-800">Pair the two embeds &mdash; drawing for practice, viewer for authoritative case display</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-4 text-sm text-gray-600 dark:text-gray-400">Still uncertain? The simplest heuristic: if your visitors should <em>create</em> a pedigree, use the drawing embed. If your visitors should <em>see</em> a specific pedigree you (or your team) have already built, use the viewer embed.</p>
+        </section>
+
+        <!-- Pairing pattern -->
+        <section class="mb-12" id="pairing">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Using both embeds together</h2>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">The two embeds are complementary. Where the same project benefits from both, common pairing patterns:</p>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                <li><strong>Course site &mdash; learn-by-doing then learn-by-example.</strong> Drawing embed on the practice / exercise pages; viewer embed (public-pedigree mode) on the worked-example case-study pages so students compare their pedigree to the authoritative version.</li>
+                <li><strong>Research lab outreach + dashboard.</strong> Drawing embed on the public outreach / family-recruitment page (visitors draw their family before contacting the lab; export GEDCOM, attach to an enquiry email); viewer embed (JS snippet) inside the lab's internal research dashboard for the same family once it has been formally captured in Evagene.</li>
+                <li><strong>Blog post + paper companion site.</strong> Drawing embed in a popular-science blog explaining hereditary cancer (readers experiment); viewer embed on the linked paper's companion site showing the published family pedigree statically.</li>
+                <li><strong>Genetic-counselling teaching module + case archive.</strong> Drawing embed for the trainee to draw the family from a vignette; viewer embed displaying the consensus pedigree the panel built during the case discussion.</li>
+            </ul>
         </section>
 
         <!-- Customisation -->
@@ -346,6 +412,57 @@
 
 <script>
 (function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Copy-to-clipboard for embed snippet -->
+<script>
+(function(){
+    var btn=document.getElementById('copy-embed-btn');
+    if(!btn)return;
+    var targetId=btn.getAttribute('data-copy-target');
+    var target=document.getElementById(targetId);
+    if(!target)return;
+    var copyIcon=btn.querySelector('.copy-icon');
+    var checkIcon=btn.querySelector('.copy-check');
+    var label=btn.querySelector('.copy-label');
+    var resetTimer=null;
+    function feedback(success){
+        if(resetTimer)clearTimeout(resetTimer);
+        if(success){
+            copyIcon.classList.add('hidden');
+            checkIcon.classList.remove('hidden');
+            label.textContent='Copied';
+            btn.classList.add('text-clinical-600','dark:text-clinical-400');
+        }else{
+            label.textContent='Press Ctrl+C';
+        }
+        resetTimer=setTimeout(function(){
+            copyIcon.classList.remove('hidden');
+            checkIcon.classList.add('hidden');
+            label.textContent='Copy';
+            btn.classList.remove('text-clinical-600','dark:text-clinical-400');
+        },2200);
+    }
+    function fallbackCopy(text){
+        var ta=document.createElement('textarea');
+        ta.value=text;
+        ta.setAttribute('readonly','');
+        ta.style.position='fixed';ta.style.top='0';ta.style.left='0';ta.style.opacity='0';
+        document.body.appendChild(ta);
+        ta.select();
+        var ok=false;
+        try{ok=document.execCommand('copy');}catch(e){ok=false;}
+        document.body.removeChild(ta);
+        return ok;
+    }
+    btn.addEventListener('click',function(){
+        var text=target.innerText.replace(/ /g,' ');
+        if(navigator.clipboard&&window.isSecureContext){
+            navigator.clipboard.writeText(text).then(function(){feedback(true);}).catch(function(){feedback(fallbackCopy(text));});
+        }else{
+            feedback(fallbackCopy(text));
+        }
+    });
+})();
 </script>
 <!-- Cookie Consent Banner -->
 <div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
