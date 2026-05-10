@@ -115,6 +115,11 @@ Full platform documentation: https://evagene.net/help/platform_overview
 
 - [Learn Genetics — reading pathways](https://evagene.com/learn-genetics.html) — Microsoft-Learn-style pathway page that organises the 46 educational pages plus the 20 risk-model calculators into seven structured reading pathways: Foundations (genetics from scratch), Molecular biology deep dive, Clinical genetics, Cancer genetics, Population & quantitative, Therapeutics & gene therapy, and Refresher (recent advances). Each pathway has a defined audience, prerequisite, time estimate, and ordered reading list with one-line page descriptions; an Apply What You've Learned section routes to working calculators and the pedigree drawing tool. Free in the browser, no registration, no paywall.
 
+## Free Embeds
+
+- [Embed pedigree drawing — free iframe](https://evagene.com/embed-pedigree-drawing.html) — drop-in iframe (`https://evagene.net/draw`) for any website, blog, course page, LMS module, or app. Visitors get the full Evagene pedigree drawing canvas: gesture drawing, NSGC notation, disease annotation against the 1,900-entry catalogue, exports (PDF, PNG, SVG, GEDCOM, CanRisk, Phenopackets v2). No install, no signup, no API key. Free during alpha for educational, research, and family-history-documentation use; not for clinical work or real patient data.
+- [Embeddable pedigree viewer](https://evagene.com/embeddable-pedigree-viewer.html) — read-only display embed for an existing pedigree fetched from Evagene; iframe / raw SVG / JavaScript snippet modes; suits research dashboards and public-pedigree research figures.
+
 ## Educational Topics
 
 A curated set of educational landing pages on the molecular, clinical, and population-genetics topics taught at MSc / FRCPath / equivalent level. Each page is a 1,300–2,000-word survey with citations to peer-reviewed papers, NCBI / OMIM / GeneReviews entries, and standards-body resources. Framed throughout as research, education, and family-history documentation; not clinical decision support, not a medical device.
