@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% set section = "archive" %}
+
+{% block jsonld %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Genetic Current — Archive",
+    "description": "Browse all published Genetic Current stories by month.",
+    "url": "{{ canonical }}"
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com/"},{"@type":"ListItem","position":2,"name":"Genetic Current","item":"https://evagene.com/news/"},{"@type":"ListItem","position":3,"name":"Archive","item":"{{ canonical }}"}]}
+</script>
+{% endblock %}
+
+{% block content %}
+<header class="mb-10">
+    <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-gray-100 dark:bg-brand-900/60 text-gray-700 dark:text-gray-300 text-xs font-semibold tracking-wider uppercase rounded-full mb-4">
+        Archive
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-4">Genetic Current archive</h1>
+    <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Every story published in Genetic Current, organised by month. {{ total }} stor{{ 'y' if total == 1 else 'ies' }} since {{ first_date }}.</p>
+</header>
+
+{% for month, items in months %}
+<section class="mb-12">
+    <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">{{ month }}</h2>
+    <ol class="space-y-3">
+        {% for item in items %}
+        <li class="p-4 bg-white dark:bg-brand-900/40 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-300 dark:hover:border-brand-600 transition">
+            <a href="{{ item.url }}" class="block">
+                <div class="flex flex-wrap items-center gap-2 mb-1.5">
+                    <span class="text-xs text-gray-500 dark:text-gray-400">{{ item.cluster.run_date }}</span>
+                    {% if item.cluster.is_preprint %}<span class="text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded-full bg-accent-500/10 text-accent-600 dark:text-accent-400">Preprint</span>{% endif %}
+                    {% for aud in item.cluster.audiences[:3] %}
+                        <span class="text-[10px] font-semibold uppercase tracking-wider text-brand-700 dark:text-brand-300">{{ audiences_labels.get(aud, aud) }}</span>
+                        {% if not loop.last %}<span class="text-gray-300 dark:text-gray-700 text-[10px]">·</span>{% endif %}
+                    {% endfor %}
+                </div>
+                <div class="text-base font-semibold text-gray-900 dark:text-white">{{ item.cluster.headline }}</div>
+                <div class="text-sm text-gray-600 dark:text-gray-400 mt-1">{{ item.cluster.standfirst }}</div>
+            </a>
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+{% endfor %}
+
+{% if not months %}
+<section class="py-16 text-center">
+    <p class="text-gray-500 dark:text-gray-400">No archived stories yet.</p>
+</section>
+{% endif %}
+{% endblock %}

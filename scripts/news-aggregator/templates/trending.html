@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% set section = "trending" %}
+
+{% block jsonld %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Genetic Current — Trending",
+    "description": "Trending genetics and genomics news, summarised from trusted public sources for researchers, clinicians, educators, students, and patients.",
+    "url": "{{ canonical }}",
+    "isPartOf": { "@type": "WebSite", "name": "Evagene", "url": "https://evagene.com/" },
+    "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+            {% for cluster in trending_clusters[:10] %}
+            {
+                "@type": "ListItem",
+                "position": {{ loop.index }},
+                "url": "{{ cluster.absolute_url }}",
+                "name": "{{ cluster.headline|e }}"
+            }{% if not loop.last %},{% endif %}
+            {% endfor %}
+        ]
+    }
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com/"},{"@type":"ListItem","position":2,"name":"Genetic Current","item":"https://evagene.com/news/"}]}
+</script>
+{% endblock %}
+
+{% block content %}
+<header class="mb-10">
+    <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-accent-500/10 text-accent-600 dark:text-accent-400 text-xs font-semibold tracking-wider uppercase rounded-full mb-4">
+        Genetic Current · Trending
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-4">Genetics news, summarised daily</h1>
+    <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Cross-source consensus on what matters today in genetics and genomics — drawn from {{ source_count }} trusted public sources including NHGRI, the CDC, NHS England, Genomics England, the PHG Foundation, the Wellcome Sanger Institute, and peer-reviewed open-access journals. Updated daily.</p>
+    <p class="text-xs text-gray-500 dark:text-gray-500 mt-3">Last updated: <time datetime="{{ now_iso }}">{{ now_human }}</time> · <a href="/news/archive/" class="text-brand-600 dark:text-brand-300 hover:underline">browse archive</a></p>
+</header>
+
+{% if trending_clusters %}
+<section class="mb-12">
+    <h2 class="text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-4">Lead story</h2>
+    {% set lead = trending_clusters[0] %}
+    <article class="grid md:grid-cols-2 gap-6 bg-white dark:bg-brand-900/40 rounded-2xl border border-gray-200 dark:border-brand-800 overflow-hidden">
+        <a href="{{ lead.url }}" class="block">
+            <div class="aspect-[16/10] md:aspect-auto md:h-full bg-gray-100 dark:bg-brand-900 overflow-hidden">
+                <img src="{{ lead.image.src }}" alt="{{ lead.image.alt|e }}" class="w-full h-full object-cover">
+            </div>
+        </a>
+        <div class="p-6 md:p-8 flex flex-col justify-center">
+            <div class="flex flex-wrap items-center gap-2 mb-3">
+                {% if lead.cluster.is_preprint %}<span class="text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded-full bg-accent-500/10 text-accent-600 dark:text-accent-400">Preprint</span>{% endif %}
+                {% for aud in lead.cluster.audiences[:3] %}
+                    <a href="/news/{{ aud }}/" class="text-[10px] font-semibold uppercase tracking-wider text-brand-700 dark:text-brand-300 hover:underline">{{ audiences_labels.get(aud, aud) }}</a>
+                    {% if not loop.last %}<span class="text-gray-300 dark:text-gray-700 text-[10px]">·</span>{% endif %}
+                {% endfor %}
+            </div>
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-gray-900 dark:text-white leading-tight mb-3">
+                <a href="{{ lead.url }}" class="hover:text-brand-700 dark:hover:text-brand-300">{{ lead.cluster.headline }}</a>
+            </h3>
+            <p class="text-base text-gray-600 dark:text-gray-400 leading-relaxed mb-4">{{ lead.cluster.standfirst }}</p>
+            <div class="flex flex-wrap items-center gap-2 text-xs text-gray-500 dark:text-gray-500">
+                <span>{{ lead.cluster.run_date }}</span>
+                <span class="text-gray-300 dark:text-gray-700">·</span>
+                <span>{{ lead.cluster.sources|length }} source{{ '' if lead.cluster.sources|length == 1 else 's' }}</span>
+                {% if lead.cluster.sources %}
+                    <span class="text-gray-300 dark:text-gray-700">·</span>
+                    <span>{{ lead.cluster.sources[0].publisher }}{% if lead.cluster.sources|length > 1 %} + others{% endif %}</span>
+                {% endif %}
+            </div>
+        </div>
+    </article>
+</section>
+{% endif %}
+
+{% if trending_clusters|length > 1 %}
+<section class="mb-12">
+    <h2 class="text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-4">More trending</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {% for item in trending_clusters[1:10] %}
+            {% with cluster=item.cluster, image=item.image, url=item.url %}
+                {% include "partials/story_card.html" %}
+            {% endwith %}
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
+{% if not trending_clusters %}
+<section class="py-16 text-center">
+    <p class="text-gray-500 dark:text-gray-400">No stories yet. The aggregator will populate this page on its next run.</p>
+</section>
+{% endif %}
+
+<section class="mb-12">
+    <h2 class="text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-4">By audience</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-3">
+        {% for aud in audiences %}
+            <a href="{{ aud.url }}" class="block p-4 bg-white dark:bg-brand-900/40 rounded-xl border border-gray-200 dark:border-brand-800 hover:border-brand-300 dark:hover:border-brand-600 transition">
+                <div class="text-sm font-semibold text-gray-900 dark:text-white">{{ aud.label }}</div>
+                <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">{{ audience_counts.get(aud.key, 0) }} stor{{ 'y' if audience_counts.get(aud.key, 0) == 1 else 'ies' }}</div>
+            </a>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

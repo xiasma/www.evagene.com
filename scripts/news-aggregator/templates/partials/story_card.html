@@ -1,0 +1,32 @@
+{# Card view of a cluster — used in trending, audience, archive indices. Required: cluster, image, url, audiences_labels #}
+<article class="group bg-white dark:bg-brand-900/40 rounded-xl border border-gray-200 dark:border-brand-800 overflow-hidden hover:border-brand-300 dark:hover:border-brand-600 transition">
+    <a href="{{ url }}" class="block">
+        <div class="aspect-[16/9] bg-gray-100 dark:bg-brand-900 overflow-hidden">
+            <img src="{{ image.src }}" alt="{{ image.alt|e }}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+        </div>
+    </a>
+    <div class="p-5">
+        <div class="flex flex-wrap items-center gap-2 mb-2">
+            {% if cluster.is_preprint %}
+                <span class="inline-flex items-center gap-1 text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded-full bg-accent-500/10 text-accent-600 dark:text-accent-400">Preprint · not peer-reviewed</span>
+            {% endif %}
+            {% for aud in cluster.audiences[:3] %}
+                <a href="/news/{{ aud }}/" class="text-[10px] font-semibold uppercase tracking-wider text-brand-700 dark:text-brand-300 hover:text-brand-800 dark:hover:text-brand-200">{{ audiences_labels.get(aud, aud) }}</a>
+                {% if not loop.last %}<span class="text-gray-300 dark:text-gray-700 text-[10px]">·</span>{% endif %}
+            {% endfor %}
+        </div>
+        <h3 class="text-lg font-bold text-gray-900 dark:text-white leading-snug mb-2">
+            <a href="{{ url }}" class="hover:text-brand-700 dark:hover:text-brand-300">{{ cluster.headline }}</a>
+        </h3>
+        <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed mb-3">{{ cluster.standfirst }}</p>
+        <div class="flex flex-wrap items-center gap-2 text-xs text-gray-500 dark:text-gray-500">
+            <span>{{ cluster.run_date }}</span>
+            <span class="text-gray-300 dark:text-gray-700">·</span>
+            <span>{{ cluster.sources|length }} source{{ '' if cluster.sources|length == 1 else 's' }}</span>
+            {% if cluster.sources %}
+                <span class="text-gray-300 dark:text-gray-700">·</span>
+                <span class="truncate">{{ cluster.sources[0].publisher }}{% if cluster.sources|length > 1 %} + others{% endif %}</span>
+            {% endif %}
+        </div>
+    </div>
+</article>

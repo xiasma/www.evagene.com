@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page_title }} | Evagene</title>
+    <meta name="description" content="{{ page_description }}">
+    <meta name="keywords" content="{{ page_keywords|default('genetics news, genomics news, hereditary disease news, genetics research updates, Evagene') }}">
+    <meta property="og:title" content="{{ og_title|default(page_title) }}">
+    <meta property="og:description" content="{{ og_description|default(page_description) }}">
+    <meta property="og:type" content="{{ og_type|default('article') }}">
+    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:image" content="{{ og_image|default('https://evagene.com/og-image.png') }}">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ og_title|default(page_title) }}">
+    <meta name="twitter:description" content="{{ og_description|default(page_description) }}">
+    <meta name="twitter:image" content="{{ og_image|default('https://evagene.com/og-image.png') }}">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="{{ canonical }}">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config={darkMode:'class',theme:{extend:{colors:{brand:{50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d'},accent:{400:'#e85d6f',500:'#c8102e',600:'#a60d25'},clinical:{50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a'}},fontFamily:{sans:['Inter','system-ui','-apple-system','sans-serif']}}}}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="/_pagefind/pagefind-ui.css" rel="stylesheet" onerror="this.remove()">
+    {% block jsonld %}{% endblock %}
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+{% include 'partials/header_nav.html' %}
+
+{% if breadcrumb %}
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center flex-wrap gap-2">
+                {% for crumb in breadcrumb %}
+                    {% if not loop.last %}
+                        <li><a href="{{ crumb.url }}" class="hover:text-brand-600 dark:hover:text-brand-300">{{ crumb.label }}</a></li>
+                        <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                    {% else %}
+                        <li class="text-gray-700 dark:text-gray-300 font-medium">{{ crumb.label }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ol>
+        </nav>
+    </div>
+</div>
+{% endif %}
+
+<div class="bg-brand-50 dark:bg-brand-900/30 border-b border-brand-100 dark:border-brand-800 mt-3">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+            <nav class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm" aria-label="Genetic Current sections">
+                <a href="/news/" class="font-semibold {% if section == 'trending' %}text-brand-700 dark:text-brand-300{% else %}text-gray-700 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-300{% endif %}">Trending</a>
+                {% for aud in audiences %}
+                    <span class="text-brand-200 dark:text-brand-700">·</span>
+                    <a href="{{ aud.url }}" class="{% if section == aud.key %}font-semibold text-brand-700 dark:text-brand-300{% else %}text-gray-700 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-300{% endif %}">{{ aud.label }}</a>
+                {% endfor %}
+                <span class="text-brand-200 dark:text-brand-700">·</span>
+                <a href="/news/archive/" class="{% if section == 'archive' %}font-semibold text-brand-700 dark:text-brand-300{% else %}text-gray-500 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300{% endif %}">Archive</a>
+            </nav>
+            <div class="w-full md:w-72">
+                <div id="news-search"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main class="pt-6 pb-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        {% block content %}{% endblock %}
+    </div>
+</main>
+
+<section class="py-12 bg-brand-50 dark:bg-brand-900/30 border-t border-brand-100 dark:border-brand-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <p class="text-xs uppercase tracking-wider text-brand-600 dark:text-brand-400 font-semibold mb-2">About Genetic Current</p>
+        <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-3">Educational summaries of public genetics news</h2>
+        <p class="text-sm text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed mb-4">Genetic Current is the news section of <a href="https://evagene.com/" class="text-brand-600 dark:text-brand-300 hover:underline">Evagene</a>, an academic, research, and educational pedigree-modelling platform. Stories are AI-drafted summaries of items from trusted public sources, written for researchers, clinicians, educators, students, genealogists, and patients with an interest in genetics. Summaries are for educational and research purposes only and are <strong>not medical advice</strong>.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-6 py-3 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join the Evagene Alpha Waiting List</a>
+    </div>
+</section>
+
+{% include 'partials/footer.html' %}
+{% include 'partials/cookie_banner.html' %}
+
+<script src="/_pagefind/pagefind-ui.js" onerror="this.remove()"></script>
+<script>
+window.addEventListener('DOMContentLoaded', function(){
+    if (typeof PagefindUI !== 'undefined' && document.getElementById('news-search')) {
+        new PagefindUI({
+            element: "#news-search",
+            showImages: false,
+            showSubResults: false,
+            resetStyles: false,
+            translations: { placeholder: "Search genetics news…", zero_results: "Nothing matches \"[SEARCH_TERM]\"." }
+        });
+    }
+});
+</script>
+</body>
+</html>

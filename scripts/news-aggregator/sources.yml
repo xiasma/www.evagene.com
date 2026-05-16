@@ -1,0 +1,270 @@
+# scripts/news-aggregator/sources.draft.yml
+#
+# Source list for Genetic Current — DRAFT for sign-off.
+# This is the proposed feed roster. Adjust freely before the first run.
+#
+# The aggregator pings every feed at the start of each run; broken feeds are
+# logged and skipped for the day. Persistent breakage gets surfaced for
+# manual re-discovery (feeds move, get renamed, or quietly retire).
+#
+# Field reference
+# ---------------
+# name              : Human-readable name; rendered in source attribution lines.
+# feed_url          : RSS or Atom feed URL.
+# type              : 'rss' or 'atom'.
+# publisher         : Canonical publisher name (used in attribution + JSON-LD).
+# image_licence     : One of:
+#                       public_domain : US gov (NHGRI, CDC). Safe to download, rehost, attribute.
+#                       ogl           : UK Open Government Licence. Safe with attribution.
+#                       press_release : Per-release editorial permission with attribution.
+#                       cc_by         : Creative Commons Attribution (most bioRxiv preprints).
+#                       cc_by_nd_text : Article text is reusable; images NOT covered.
+#                       all_rights    : Do not rehost; placeholder substitution required.
+#                       mixed         : Varies per item; default to placeholder unless verified.
+# priority          : 1-5; weight in trending consensus scoring. Higher = stronger signal.
+# audiences         : Heuristic hint only; the editor (Claude) does the actual per-item tagging.
+# preprint          : true if this source publishes pre-peer-review material (badge required).
+# verified          : true if the feed URL has been tested; false flags needs-check at first run.
+# notes             : Operator notes (filtering needs, known caveats, verification status).
+
+sources:
+
+  # ===========================================================
+  # UK / US government and major research institutions
+  # ===========================================================
+
+  - name: NHGRI News
+    feed_url: https://www.genome.gov/news/rss
+    type: rss
+    publisher: National Human Genome Research Institute (NIH)
+    image_licence: public_domain
+    priority: 5
+    audiences: [researchers, clinicians, educators, students]
+    preprint: false
+    verified: false
+    notes: |
+      US-gov; very high signal-to-noise. Often the primary source for major
+      US announcements. Verify feed URL at first run.
+
+  - name: CDC Genomics & Precision Health
+    feed_url: https://blogs.cdc.gov/genomics/feed/
+    type: rss
+    publisher: US Centers for Disease Control and Prevention
+    image_licence: public_domain
+    priority: 4
+    audiences: [gps, oncologists, genetic-counsellors, educators, students]
+    preprint: false
+    verified: false
+    notes: |
+      Includes the weekly horizon scan of human genomics publications.
+      Lower volume but high signal. Verify URL at first run.
+
+  - name: NHS England (filter for genomics)
+    feed_url: https://www.england.nhs.uk/feed/
+    type: rss
+    publisher: NHS England
+    image_licence: ogl
+    priority: 4
+    audiences: [gps, oncologists, genetic-counsellors, patients]
+    preprint: false
+    verified: false
+    notes: |
+      Main NHS England feed; no dedicated genomics-only RSS exists.
+      Editor must filter for genomic / genetic items. The service-policy
+      source of truth for England.
+
+  - name: Genomics England News
+    feed_url: https://www.genomicsengland.co.uk/news/feed
+    type: rss
+    publisher: Genomics England
+    image_licence: mixed
+    priority: 5
+    audiences: [clinicians, genetic-counsellors, oncologists, patients, researchers]
+    preprint: false
+    verified: false
+    notes: |
+      NHS-relevant. Strong on rare disease, cancer genomics, NHS Genomic
+      Medicine Service rollout, participant perspectives.
+
+  - name: Wellcome Sanger Institute News
+    feed_url: https://www.sanger.ac.uk/news/feed/
+    type: rss
+    publisher: Wellcome Sanger Institute
+    image_licence: mixed
+    priority: 5
+    audiences: [researchers, educators, students]
+    preprint: false
+    verified: false
+    notes: |
+      UK genomics powerhouse; high-quality original research news.
+      Verify feed URL at first run.
+
+  - name: PHG Foundation
+    feed_url: https://www.phgfoundation.org/feed
+    type: rss
+    publisher: PHG Foundation (University of Cambridge)
+    image_licence: all_rights
+    priority: 5
+    audiences: [clinicians, genetic-counsellors, educators, researchers]
+    preprint: false
+    verified: false
+    notes: |
+      UK policy / ethics / implementation commentary. Lower frequency,
+      very high signal. Placeholder image will be used (all-rights).
+
+  # ===========================================================
+  # Press-release aggregators
+  # ===========================================================
+
+  - name: EurekAlert! — Biology
+    feed_url: https://www.eurekalert.org/rss/biology.xml
+    type: rss
+    publisher: AAAS (press release aggregator)
+    image_licence: press_release
+    priority: 2
+    audiences: [researchers, students]
+    preprint: false
+    verified: false
+    notes: |
+      Very high volume; broad biology, not just genetics. Aggressive
+      filtering required. Useful for early signals on new papers.
+
+  - name: ScienceDaily — Genetics
+    feed_url: https://www.sciencedaily.com/rss/plants_animals/genetics.xml
+    type: rss
+    publisher: ScienceDaily
+    image_licence: press_release
+    priority: 2
+    audiences: [students, educators, patients]
+    preprint: false
+    verified: true
+    notes: |
+      Readable rewrites of university press releases. Decent fit for
+      patient / student audiences.
+
+  - name: ScienceDaily — Genes
+    feed_url: https://www.sciencedaily.com/rss/health_medicine/genes.xml
+    type: rss
+    publisher: ScienceDaily
+    image_licence: press_release
+    priority: 2
+    audiences: [students, educators, patients]
+    preprint: false
+    verified: true
+    notes: |
+      Health-medicine angle; complements the genetics feed above.
+
+  # ===========================================================
+  # Charities, journalism, education
+  # ===========================================================
+
+  - name: Cancer Research UK News
+    feed_url: https://news.cancerresearchuk.org/feed
+    type: rss
+    publisher: Cancer Research UK
+    image_licence: all_rights
+    priority: 4
+    audiences: [oncologists, gps, patients, educators]
+    preprint: false
+    verified: false
+    notes: |
+      Oncology-focused; not every item is genetics-specific. Filter for
+      hereditary / germline / somatic genomic content. Placeholder image
+      (all-rights).
+
+  - name: The Conversation — Genetics (UK)
+    feed_url: https://theconversation.com/uk/topics/genetics/articles.atom
+    type: atom
+    publisher: The Conversation
+    image_licence: cc_by_nd_text
+    priority: 3
+    audiences: [educators, students, patients, gps, genealogists]
+    preprint: false
+    verified: false
+    notes: |
+      Article text is CC BY-ND — summary + link is clean.
+      IMPORTANT: headline images are usually NOT covered by the CC licence.
+      Never rehost; placeholder will be used.
+
+  - name: Stat News
+    feed_url: https://www.statnews.com/feed/
+    type: rss
+    publisher: Stat News
+    image_licence: all_rights
+    priority: 3
+    audiences: [clinicians, researchers, educators]
+    preprint: false
+    verified: false
+    notes: |
+      Mixed paywalled / free. Filter for genomics / genetics / hereditary.
+      Strong on regulatory and industry context.
+
+  - name: The Scientist
+    feed_url: https://www.the-scientist.com/rss/news-opinion
+    type: rss
+    publisher: The Scientist Magazine
+    image_licence: all_rights
+    priority: 2
+    audiences: [researchers, educators, students]
+    preprint: false
+    verified: false
+    notes: |
+      Trade publication; filter for genetics / genomics. Accessible style.
+
+  # ===========================================================
+  # Primary research and preprints
+  # ===========================================================
+
+  - name: PLOS Genetics
+    feed_url: https://journals.plos.org/plosgenetics/feed/atom
+    type: atom
+    publisher: Public Library of Science
+    image_licence: mixed
+    priority: 3
+    audiences: [researchers, educators, students]
+    preprint: false
+    verified: false
+    notes: |
+      Primary open-access research papers. Usually no headline image, so
+      placeholder will apply.
+
+  - name: Nature — Medical Genetics
+    feed_url: https://www.nature.com/subjects/medical-genetics.rss
+    type: rss
+    publisher: Springer Nature
+    image_licence: all_rights
+    priority: 3
+    audiences: [researchers, clinicians]
+    preprint: false
+    verified: false
+    notes: |
+      Mixed paywalled / open. Editor should prefer open-access items when
+      summarising; link to a freely readable source if available.
+
+  - name: bioRxiv — Genetics
+    feed_url: http://connect.biorxiv.org/biorxiv_xml.php?subject=genetics
+    type: rss
+    publisher: bioRxiv (Cold Spring Harbor Laboratory)
+    image_licence: cc_by
+    priority: 2
+    audiences: [researchers, students, educators]
+    preprint: true
+    verified: false
+    notes: |
+      Pre-prints, NOT peer-reviewed. Every rendered card and story page
+      must carry a "preprint, not peer-reviewed" badge. Filter for
+      high-relevance items only — raw feed is high volume.
+
+# ===========================================================
+# Notes on sources deliberately NOT included
+# ===========================================================
+#
+# MedlinePlus Genetics and GARD are reference resources, not news. They
+# belong in cross-links from individual story pages ("learn more about
+# this condition") rather than in the aggregation feed.
+#
+# Endpoints News — strong on biotech industry, but mostly paywalled and
+# more business-focused than is useful for this audience.
+#
+# NIH Director's Blog — lower frequency since Francis Collins stepped
+# down; reconsider if posting picks up.

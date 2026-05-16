@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% set section = audience_key %}
+
+{% block jsonld %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Genetic Current — {{ audience_label }}",
+    "description": "{{ page_description|e }}",
+    "url": "{{ canonical }}",
+    "isPartOf": { "@type": "WebSite", "name": "Evagene", "url": "https://evagene.com/" },
+    "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+            {% for item in clusters[:20] %}
+            {
+                "@type": "ListItem",
+                "position": {{ loop.index }},
+                "url": "{{ item.absolute_url }}",
+                "name": "{{ item.cluster.headline|e }}"
+            }{% if not loop.last %},{% endif %}
+            {% endfor %}
+        ]
+    }
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com/"},{"@type":"ListItem","position":2,"name":"Genetic Current","item":"https://evagene.com/news/"},{"@type":"ListItem","position":3,"name":"{{ audience_label }}","item":"{{ canonical }}"}]}
+</script>
+{% endblock %}
+
+{% block content %}
+<header class="mb-10">
+    <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand-100 dark:bg-brand-900/60 text-brand-700 dark:text-brand-300 text-xs font-semibold tracking-wider uppercase rounded-full mb-4">
+        Genetic Current · {{ audience_label }}
+    </div>
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-4">{{ audience_heading }}</h1>
+    <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">{{ audience_intro }}</p>
+    <p class="text-xs text-gray-500 dark:text-gray-500 mt-3">{{ clusters|length }} stor{{ 'y' if clusters|length == 1 else 'ies' }} · Last updated <time datetime="{{ now_iso }}">{{ now_human }}</time></p>
+</header>
+
+{% if clusters %}
+<section class="mb-12">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {% for item in clusters %}
+            {% with cluster=item.cluster, image=item.image, url=item.url %}
+                {% include "partials/story_card.html" %}
+            {% endwith %}
+        {% endfor %}
+    </div>
+</section>
+{% else %}
+<section class="py-16 text-center">
+    <p class="text-gray-500 dark:text-gray-400">No {{ audience_label|lower }} stories yet. Check back tomorrow.</p>
+</section>
+{% endif %}
+{% endblock %}

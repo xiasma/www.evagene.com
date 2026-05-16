@@ -1,0 +1,91 @@
+name: Genetic Current — daily news aggregator
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 07:00 UTC daily
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no Claude API call, no commit)'
+        type: boolean
+        default: false
+      backfill:
+        description: 'Run backfill instead of daily aggregator'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-aggregator
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scripts/news-aggregator/requirements.txt
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/news-aggregator/requirements.txt
+
+      - name: Set up Node (for Pagefind)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Ensure placeholder library exists
+        run: |
+          if [ ! -f news/images/placeholders/generic.webp ]; then
+            echo "Generating placeholder library..."
+            python scripts/news-aggregator/bootstrap_placeholders.py
+          fi
+
+      - name: Run aggregator
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ inputs.backfill }}" = "true" ]; then
+            python scripts/news-aggregator/backfill.py --target 50
+          elif [ "${{ inputs.dry_run }}" = "true" ]; then
+            python scripts/news-aggregator/aggregator.py --dry-run
+          else
+            python scripts/news-aggregator/aggregator.py
+          fi
+
+      - name: Render HTML
+        run: python scripts/news-aggregator/renderer.py
+
+      - name: Build Pagefind search index
+        run: npx -y pagefind@latest --site . --output-path ./_pagefind
+
+      - name: Commit and push
+        if: inputs.dry_run != true
+        run: |
+          git config user.name "Genetic Current Bot"
+          git config user.email "news-bot@evagene.com"
+          git add news/ _pagefind/ scripts/news-aggregator/state.json
+          git add scripts/news-aggregator/takedowns.log 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            DATE=$(date -u +%F)
+            if [ "${{ inputs.backfill }}" = "true" ]; then
+              git commit -m "[news] Backfill seed run ${DATE}"
+            else
+              git commit -m "[news] Daily aggregator run ${DATE}"
+            fi
+            git push
+          fi
