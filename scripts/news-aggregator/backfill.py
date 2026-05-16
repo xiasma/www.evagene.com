@@ -48,7 +48,7 @@ def web_search_for_more(target: int, existing: int, start_date: str, model: str)
     )
 
     client = Anthropic()
-    response = client.messages.create(
+    with client.messages.stream(
         model=model,
         max_tokens=32000,
         system=[{
@@ -58,7 +58,8 @@ def web_search_for_more(target: int, existing: int, start_date: str, model: str)
         }],
         messages=[{"role": "user", "content": user_text}],
         tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 30}],
-    )
+    ) as stream:
+        response = stream.get_final_message()
 
     text_blocks = [block.text for block in response.content if block.type == "text"]
     if not text_blocks:

@@ -213,7 +213,10 @@ def call_editor(
     from anthropic import Anthropic
 
     client = Anthropic()
-    response = client.messages.create(
+    # Use streaming — the SDK requires it for requests that might exceed 10 minutes,
+    # which any non-trivial max_tokens can hit. get_final_message() blocks until done
+    # and returns the same Message shape as messages.create().
+    with client.messages.stream(
         model=model,
         max_tokens=max_tokens,
         system=[{
@@ -222,7 +225,8 @@ def call_editor(
             "cache_control": {"type": "ephemeral"},
         }],
         messages=[{"role": "user", "content": user_text}],
-    )
+    ) as stream:
+        response = stream.get_final_message()
 
     text = "".join(block.text for block in response.content if block.type == "text")
     stop_reason = getattr(response, "stop_reason", "")
