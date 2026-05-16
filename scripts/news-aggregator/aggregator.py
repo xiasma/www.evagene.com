@@ -187,9 +187,24 @@ def parse_editor_response(text: str) -> dict:
     return json.loads(text)
 
 
-def call_editor(items: list[dict], recent: list[dict], run_date: str, model: str, dry_run: bool) -> dict | None:
+def call_editor(
+    items: list[dict],
+    recent: list[dict],
+    run_date: str,
+    model: str,
+    dry_run: bool,
+    max_tokens: int = 16000,
+    max_clusters_hint: int | None = None,
+) -> dict | None:
     system_text = SYSTEM_PROMPT_PATH.read_text(encoding="utf-8")
     user_text = format_user_prompt(items, recent, run_date)
+    if max_clusters_hint:
+        user_text += (
+            f"\n\nIMPORTANT — output budget: for this run, emit at most {max_clusters_hint} "
+            f"clusters. Pick the most newsworthy and highest-importance items. Put everything "
+            f"else in `skipped` with reason `low-priority-for-this-batch` (no need to list them "
+            f"all individually — a summary count is fine)."
+        )
 
     if dry_run:
         print(f"[DRY RUN] Would call {model} with {len(items)} items, {len(system_text)} chars of system prompt, {len(user_text)} chars of user prompt.")
@@ -200,7 +215,7 @@ def call_editor(items: list[dict], recent: list[dict], run_date: str, model: str
     client = Anthropic()
     response = client.messages.create(
         model=model,
-        max_tokens=16000,
+        max_tokens=max_tokens,
         system=[{
             "type": "text",
             "text": system_text,
@@ -210,12 +225,19 @@ def call_editor(items: list[dict], recent: list[dict], run_date: str, model: str
     )
 
     text = "".join(block.text for block in response.content if block.type == "text")
+    stop_reason = getattr(response, "stop_reason", "")
+    if stop_reason == "max_tokens":
+        print(f"WARN: editor response was truncated at max_tokens={max_tokens}. Increase max_tokens or lower max_clusters_hint.", file=sys.stderr)
     try:
         return parse_editor_response(text)
     except json.JSONDecodeError as exc:
         print(f"ERROR: Could not parse editor response as JSON: {exc}", file=sys.stderr)
-        print("--- Response ---", file=sys.stderr)
-        print(text, file=sys.stderr)
+        print(f"  stop_reason: {stop_reason}", file=sys.stderr)
+        print(f"  output length: {len(text)} chars", file=sys.stderr)
+        print("--- Response (first 2KB) ---", file=sys.stderr)
+        print(text[:2000], file=sys.stderr)
+        print("--- Response (last 2KB) ---", file=sys.stderr)
+        print(text[-2000:], file=sys.stderr)
         raise
 
 

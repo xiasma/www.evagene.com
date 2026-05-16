@@ -50,7 +50,7 @@ def web_search_for_more(target: int, existing: int, start_date: str, model: str)
     client = Anthropic()
     response = client.messages.create(
         model=model,
-        max_tokens=16000,
+        max_tokens=32000,
         system=[{
             "type": "text",
             "text": system_text,
@@ -99,7 +99,17 @@ def main(argv=None) -> int:
 
     if items:
         recent = recent_clusters_summary(state)
-        output = call_editor(items, recent, utc_now().date().isoformat(), args.model, dry_run=False)
+        # Backfill batches are much bigger than a daily run — bump token budget and
+        # tell the editor to be selective.
+        output = call_editor(
+            items,
+            recent,
+            utc_now().date().isoformat(),
+            args.model,
+            dry_run=False,
+            max_tokens=32000,
+            max_clusters_hint=min(args.target, 40),
+        )
         if output:
             merge_into_state(state, output)
             save_state(state)
