@@ -937,9 +937,94 @@
         "nuclear-hormone-receptor",
         "ageing"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint redefines role of RNA polymerase ω subunit in transcription-replication conflicts",
+      "is_preprint": true,
+      "run_date": "2026-05-18",
+      "run_iso": "2026-05-18T11:05:58Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-05-17T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "rna-polymerase-omega-subunit-processivity-replication-conflicts",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The ω subunit stabilizes transcribing RNA polymerase to balance processivity and collision resolution",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.17.725479v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from Cold Spring Harbor Laboratory suggests the ω subunit of bacterial RNA polymerase regulates transcriptional processivity and helps resolve collisions with the replication machinery, challenging its traditional characterisation as a mere assembly chaperone.",
+      "summary": "A preprint posted to bioRxiv on 17 May 2026 presents new evidence that the ω subunit of Escherichia coli RNA polymerase (RNAP), encoded by the rpoZ gene, plays a previously unrecognised role in balancing transcriptional processivity against the resolution of transcription-replication conflicts.\n\nThe ω subunit — whose homologue in eukaryotes is RPB6 — has conventionally been described either as a chaperone for RNAP assembly or as a modulator of competition between sigma factors. Contrary to earlier assumptions, the researchers report that a ΔrpoZ deletion strain shows no major defects in σS-dependent stress responses, pointing away from a primary role in stress-related transcription.\n\nUsing a CRISPRi screen, the team found that loss of ω may instead promote bacterial survival during transcription-replication conflicts — head-on or co-directional collisions between the transcription and replication machineries that are a known source of genome instability. Supporting this interpretation, ω-deficient RNAP was found to be more sensitive to transcriptional termination, suggesting the subunit normally stabilises the elongation complex.\n\nThe work offers a revised mechanistic framework for understanding how bacteria manage the competing demands of gene expression and genome duplication. Because RPB6 is conserved across all domains of life, the findings may have broader implications for understanding transcription-replication conflicts in eukaryotes, though the authors note that comparative work remains to be done. This is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "rna-polymerase",
+        "transcription",
+        "replication-conflicts",
+        "genome-instability",
+        "bacteria",
+        "molecular-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies RTT109 as required for PRC2-repressed chromatin maintenance in Neurospora",
+      "is_preprint": true,
+      "run_date": "2026-05-18",
+      "run_iso": "2026-05-18T11:05:58Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-05-17T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "prc2-repressed-chromatin-rtt109-epigenetic-maintenance",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Epigenetic maintenance of PRC2-repressed chromatin requires RTT109 but not H3K56 acetylation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.14.724656v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that the histone acetyltransferase RTT109 is necessary for the structural integrity of Polycomb Repressive Complex 2-silenced chromatin domains in the model fungus Neurospora crassa, independently of its canonical H3K56 acetylation activity.",
+      "summary": "A preprint deposited on bioRxiv on 14 May 2026 reports that RTT109 — a histone acetyltransferase best characterised in budding yeast for its role in acetylating histone H3 at lysine 56 (H3K56ac) to promote chromatin reassembly after DNA replication — is required for the normal maintenance of Polycomb Repressive Complex 2 (PRC2)-silenced chromatin in Neurospora crassa.\n\nPRC2 catalyses trimethylation of histone H3 lysine 27 (H3K27me3), a conserved mark of transcriptional repression found in animals, plants, and some fungi. The researchers show that deletion of rtt109 in N. crassa disrupts the structure and function of H3K27me3-marked chromatin domains, implicating RTT109 in a maintenance pathway for epigenetic silencing that has not previously been described.\n\nUnexpectedly, the requirement for RTT109 appears to be independent of its H3K56 acetylation activity, dissociating the two functions. The team also demonstrates that N. crassa RTT109 physically interacts with a homologue of the yeast co-factor VPS75, suggesting the relevant protein complex is conserved even where its downstream targets have diverged.\n\nThe findings add to a growing body of work on the cross-talk between chromatin assembly factors and Polycomb silencing machinery. Because PRC2 and H3K27me3 are central to gene regulation in multicellular organisms, understanding the full complement of factors required for their maintenance has broad relevance to developmental biology and epigenetics research. This is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "prc2",
+        "h3k27me3",
+        "epigenetics",
+        "chromatin",
+        "rtt109",
+        "histone-acetyltransferase",
+        "neurospora"
+      ]
     }
   ],
-  "last_run": "2026-05-17T09:03:39.807393+00:00",
+  "last_run": "2026-05-18T11:06:34.634654+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012133": "2026-05-16T19:47:15.642106+00:00",
@@ -961,9 +1046,11 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.13.724957v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.13.724972v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.13.725051v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.14.724656v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725498v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725551v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725596v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.17.725479v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
     "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/lifesaving-spring-covid-19-jab-offers-protection-to-millions-of-vulnerable-people/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/nhs-detects-tens-of-thousands-of-bowel-cancers-thanks-to-screening-programme/": "2026-05-16T19:47:15.642106+00:00",
@@ -987,6 +1074,8 @@
     "https://www.sciencedaily.com/releases/2026/05/260515233329.htm": "2026-05-17T09:03:39.807393+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260515234759.htm": "2026-05-17T09:03:39.807393+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260515234803.htm": "2026-05-17T09:03:39.807393+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260517030326.htm": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260517211447.htm": "2026-05-18T11:06:34.634654+00:00",
     "https://www.statnews.com/2026/05/14/psa-tests-reduce-risk-prostate-cancer-deaths-new-study-cochrane-review/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/readout-loud-podcast-makary-fda-trump-cassidy-senate/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/supreme-court-preserves-access-abortion-pill-mifepristone/": "2026-05-16T19:47:15.642106+00:00",
@@ -1013,13 +1102,21 @@
     "https://www.statnews.com/2026/05/16/marty-makary-fda-commissioner-administrative-power/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/2026/05/16/trump-blasts-bill-cassidy-louisiana-republican-primary/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/16/trump-blasts-bill-cassidy-louisiana-republican-primary/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
+    "https://www.statnews.com/2026/05/17/bill-cassidy-loses-louisiana-primary-after-maga-maha-opposition/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.statnews.com/2026/05/17/ebola-outbreak-congo-americans-exposure-suspected-cases/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.statnews.com/2026/05/17/hantavirus-outbreak-cruise-ship-covid-flashbacks-conspiracy-theories/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.statnews.com/2026/05/17/when-should-you-get-a-mammogram-conflicting-advice/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
     "https://www.statnews.com/2026/05/17/who-ebola-drc-uganda-bundibugyo-pheic-public-health-emergency/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
+    "https://www.statnews.com/2026/05/18/acip-charter-vaccine-policy-cdc-political-interference/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.statnews.com/2026/05/18/biotech-industry-split-chinese-drugs-opportunity-versus-existential-threat/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.statnews.com/2026/05/18/patient-autonomy-childhood-vaccines-red-herring/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/up-and-down-the-ladder-the-latest-comings-and-goings-jobs/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/up-and-down-the-ladder-the-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/17/uk-advocates-threaten-court-action-over-pharma-trade-deal-with-us/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
     "multiple PLOS Genetics primary research articles — specialist model-organism or plant-biology studies": "2026-05-16T19:47:15.642106+00:00",
     "multiple ScienceDaily items — off-topic for genetics (gum disease quorum sensing, coral reef microbes, COVID natural compounds, biomaterial tissue repair, travel and ageing, Alzheimer's arginine supplement, cholesterol DNA molecules, cannabis flavoalkaloids, fish oil brain injury, gut bacteria depression, choline anxiety, lipid nanoparticle mRNA delivery, life-of-life origin freezing, axolotl limb regeneration, blood stem cell rejuvenation, senescent cell GPX4 drugs, obesity HSL protein, kidney lubiprostone, constipation drug)": "2026-05-16T19:47:15.642106+00:00",
     "multiple Springer Nature articles — tRNA fragments breast cancer, cfDNA fragmentomics eating disorders, SCOTCH long-read scRNA-seq, ABCD1 Drosophila, SACS spastic ataxia Pakistan, HLA-C KIR birth weight": "2026-05-16T19:47:15.642106+00:00",
