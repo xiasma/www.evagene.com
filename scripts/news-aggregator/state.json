@@ -1022,12 +1022,314 @@
         "histone-acetyltransferase",
         "neurospora"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have published an article in the journal Nature Human Behaviour raising concerns about how a type of genetic test result — called a polygenic risk score — is described and understood.\n\nA polygenic risk score is a number calculated from many small differences in a person's DNA. It is based on patterns seen across large groups of people, and researchers use it to study links between genes and diseases. The new article argues that calling these scores a measure of \"genetic predisposition\" is misleading, because the scores are statistical summaries, not a direct read-out of an individual's biology or destiny.\n\nThe authors are concerned that when these scores are described as predispositions, people — including doctors and patients — may think the result is more certain or more fixed than it really is.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Nature Human Behaviour paper argues polygenic risk scores are not genetic predispositions",
+      "is_preprint": false,
+      "run_date": "2026-05-19",
+      "run_iso": "2026-05-19T10:36:04Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-05-18T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "polygenic-risk-scores-not-genetic-predispositions",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-18T00:00:00Z",
+          "publisher": "Springer Nature",
+          "title": "Polygenic risk scores are not genetic predispositions",
+          "url": "https://www.nature.com/articles/s41562-026-02475-8"
+        }
+      ],
+      "standfirst": "A commentary in Nature Human Behaviour challenges widespread framing of polygenic risk scores as fixed biological traits, with implications for research communication and public understanding.",
+      "summary": "A paper published in Nature Human Behaviour argues that polygenic risk scores (PRS) are frequently and incorrectly characterised as measures of genetic predisposition — a framing the authors say is conceptually inaccurate and potentially misleading.\n\nThe authors contend that PRS are statistical summaries derived from population-level genome-wide association studies. They reflect associations between common genetic variants and a trait or disease outcome in a given reference population; they do not directly capture underlying biological mechanisms or represent fixed causal properties of an individual genome. The distinction matters because presenting PRS as predispositions implies a determinism that the current evidence base does not support.\n\nThe commentary raises particular concerns about how PRS are communicated in research literature, press coverage, and emerging direct-to-consumer contexts. Conflating a probabilistic population statistic with individual biological destiny, the authors argue, risks misinterpretation by clinicians, policymakers, and the public alike.\n\nNo source institution or author names were available from the feed entry alone; the paper is published in Nature Human Behaviour (part of the Springer Nature portfolio) and is accessible at the URL given in the source list. The piece is likely to be of direct relevance to researchers working in statistical genetics, to genetic counsellors who communicate risk concepts to families, and to educators teaching the interpretation of genomic data.",
+      "tags": [
+        "polygenic-risk-scores",
+        "gwas",
+        "statistical-genetics",
+        "risk-communication",
+        "research-methodology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Nature Genetics publishes author correction to RNU4-2 neurodevelopmental syndrome paper",
+      "is_preprint": false,
+      "run_date": "2026-05-19",
+      "run_iso": "2026-05-19T10:36:04Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-05-18T00:00:00Z",
+        "novelty": 3
+      },
+      "slug": "rnu4-2-biallelic-neurodevelopmental-syndrome-correction",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-18T00:00:00Z",
+          "publisher": "Springer Nature",
+          "title": "Author Correction: Biallelic variants in the noncoding RNA gene RNU4-2 cause a recessive neurodevelopmental syndrome with distinct white matter changes",
+          "url": "https://www.nature.com/articles/s41588-026-02636-5"
+        }
+      ],
+      "standfirst": "An author correction has been issued for the Nature Genetics paper identifying biallelic RNU4-2 variants as a cause of a recessive neurodevelopmental syndrome with distinct white matter changes.",
+      "summary": "Nature Genetics has published an author correction to a previously reported paper describing biallelic variants in the noncoding RNA gene RNU4-2 as the cause of a recessive neurodevelopmental syndrome characterised by distinct white matter changes on neuroimaging.\n\nThe original study was a significant finding in the rare neurodevelopmental disease field, identifying pathogenic variants in a small nuclear RNA gene — a class of gene not previously well-established as a cause of Mendelian disease. Author corrections in peer-reviewed journals may address errors in data presentation, figures, supplementary materials, or author attribution; the specific nature of this correction is not detailed in the feed entry.\n\nReaders following this research area — particularly those in clinical genetics, rare disease research, and genetic counselling for families affected by unexplained neurodevelopmental conditions — should note the correction and consult the updated article directly via Nature Genetics. The correction does not necessarily affect the principal findings of the original work; readers should review the correction notice for detail.",
+      "tags": [
+        "rnu4-2",
+        "neurodevelopment",
+        "rare-disease",
+        "noncoding-rna",
+        "author-correction",
+        "white-matter"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Two case reports describe trametinib treatment for non-ossifying fibromas driven by mosaic KRAS variants",
+      "is_preprint": false,
+      "run_date": "2026-05-19",
+      "run_iso": "2026-05-19T10:36:04Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-05-18T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "trametinib-kras-mosaic-non-ossifying-fibromas",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-18T00:00:00Z",
+          "publisher": "Springer Nature",
+          "title": "Trametinib for multiple non-ossifying fibromas due to KRAS mosaic mutations: two case reports",
+          "url": "https://www.nature.com/articles/s43856-026-01615-5"
+        }
+      ],
+      "standfirst": "Case reports published in Communications Medicine describe clinical use of the MEK inhibitor trametinib in two patients with multiple non-ossifying fibromas attributed to somatic mosaic KRAS mutations.",
+      "summary": "A case series published in Communications Medicine (Springer Nature) reports on two patients with multiple non-ossifying fibromas — benign but potentially problematic bone lesions — in whom somatic mosaic mutations in KRAS were identified as the likely driver. Both patients were treated with trametinib, a MEK inhibitor approved for use in KRAS-driven malignancies.\n\nNon-ossifying fibromas are typically solitary incidental lesions, but multiple lesions can be associated with café-au-lait macules and other features; the underlying molecular basis has not always been clear. The identification of activating KRAS mosaic variants provides a mechanistic rationale for the use of RAS-MAPK pathway inhibition in this setting.\n\nCase reports by their nature provide limited generalisability, and this publication does not constitute evidence that trametinib is an established treatment for non-ossifying fibromas. The authors present the cases as illustrative of the potential relevance of somatic mosaicism screening and targeted pathway inhibition in rare skeletal conditions. The specific institutions and authorship are not available from the feed entry; readers should consult the full article in Communications Medicine.\n\nThis report is of interest to researchers and clinicians working in somatic mosaicism, RAS-opathies, and rare skeletal disease, and may be informative for genetic counsellors advising families affected by related conditions.",
+      "tags": [
+        "kras",
+        "somatic-mosaicism",
+        "trametinib",
+        "mek-inhibitor",
+        "non-ossifying-fibroma",
+        "ras-mapk",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Cancer Research UK feature examines why only a minority of H. pylori carriers develop stomach cancer",
+      "is_preprint": false,
+      "run_date": "2026-05-19",
+      "run_iso": "2026-05-19T10:36:04Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-05-18T00:00:00Z",
+        "novelty": 3
+      },
+      "slug": "h-pylori-gastric-cancer-genetic-susceptibility",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-18T13:54:47Z",
+          "publisher": "Cancer Research UK",
+          "title": "The gatekeeper and the invader – H.pylori and the development of stomach cancer",
+          "url": "https://news.cancerresearchuk.org/2026/05/18/the-gatekeeper-and-the-invader-h-pylori-and-the-development-of-stomach-cancer/"
+        }
+      ],
+      "standfirst": "A Cancer Research UK analysis explores the host genetic, microbial, and environmental factors that determine why gastric adenocarcinoma develops in roughly 1% of people infected with H. pylori.",
+      "summary": "A feature article from Cancer Research UK's news team examines the longstanding question of why Helicobacter pylori infection — present in a large proportion of the world population — leads to gastric adenocarcinoma in only approximately 1% of infected individuals.\n\nThe piece synthesises published research on the interplay between bacterial virulence factors (including the cagA pathogenicity island and vacA toxin), host genetic variation in immune response genes, and environmental co-factors such as diet and smoking. Variation in immune-related genes, including those governing interleukin signalling and toll-like receptor responses, has been associated in published literature with differential susceptibility to H. pylori-associated gastric pathology.\n\nThe article is presented as an accessible research explainer aimed at those following cancer biology rather than as a primary research publication. It draws on existing peer-reviewed literature to contextualise a complex gene-environment interaction that has implications for understanding hereditary and population-level cancer risk. No new primary data are presented.\n\nFor researchers and oncologists, the piece serves as a useful synthesis of current understanding of gastric carcinogenesis pathways. Educators and students may find it a clear entry point into the topic of gene-environment interaction in cancer susceptibility.",
+      "tags": [
+        "h-pylori",
+        "gastric-cancer",
+        "gene-environment-interaction",
+        "immune-genetics",
+        "cancer-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Lab study links epigenetic 'memory' of chronic inflammation to bowel cancer development",
+      "is_preprint": false,
+      "run_date": "2026-05-19",
+      "run_iso": "2026-05-19T10:36:04Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-05-18T13:21:42Z",
+        "novelty": 7
+      },
+      "slug": "epigenetic-memory-inflammation-bowel-cancer",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-18T13:21:42Z",
+          "publisher": "Cancer Research UK",
+          "title": "The cell keeps the score: 'memory', inflammation and bowel cancer",
+          "url": "https://news.cancerresearchuk.org/2026/05/18/the-cell-keeps-the-score-memory-inflammation-and-bowel-cancer/"
+        }
+      ],
+      "standfirst": "Cancer Research UK reports on a laboratory study suggesting cells retain an epigenetic record of past inflammatory episodes, potentially explaining the elevated cancer risk associated with inflammatory bowel conditions.",
+      "summary": "A laboratory study reported by Cancer Research UK finds that cells can retain an epigenetic imprint of past exposure to chronic inflammation — a form of cellular 'memory' that may represent a mechanistic link between conditions such as ulcerative colitis and the elevated risk of bowel cancer observed in affected individuals.\n\nThe research, described in Cancer Research UK's news coverage, shows that repeated or sustained inflammatory signalling leads to durable changes in chromatin organisation or DNA methylation patterns in intestinal cells. These persistent epigenetic alterations may prime cells towards dysregulated growth even after the acute inflammatory episode resolves, potentially contributing to neoplastic transformation over time.\n\nThe Cancer Research UK article is explicit that this is a laboratory study and that the relevance to human disease has not yet been established; the team notes that if the findings translate to human tissue they could inform strategies for cancer prevention in high-risk inflammatory bowel disease populations. No primary publication details — including journal, lead authors, or institution — are provided in the feed entry; readers interested in the primary data should seek the source paper via the Cancer Research UK article.\n\nThis finding is of interest to researchers in cancer epigenetics and gastrointestinal oncology, and to oncologists following the mechanistic basis of inflammation-associated cancer risk.",
+      "tags": [
+        "epigenetics",
+        "inflammation",
+        "bowel-cancer",
+        "colitis",
+        "cancer-biology",
+        "chromatin"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies COL21A1 and ENPEP–FGF5 regulatory pathways for blood pressure variation in East Asians",
+      "is_preprint": true,
+      "run_date": "2026-05-19",
+      "run_iso": "2026-05-19T10:36:04Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-18T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "blood-pressure-gwas-col21a1-enpep-fgf5-east-asian",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-18T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Integrative Genomic Analyses Identify COL21A1 and ENPEP-FGF5 Regulatory Pathways for Blood Pressure Variation in East Asians",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.14.725285v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint drawing on 27,308 participants from the Singapore Chinese Health Study reports genome-wide associations and regulatory mechanisms underlying blood pressure traits in an East Asian cohort.",
+      "summary": "A preprint posted to bioRxiv by researchers working with the Singapore Chinese Health Study (SCHS) — a prospective population-based cohort of 27,308 participants — presents integrative genomic analyses of five blood pressure-related traits: hypertension status, systolic blood pressure, diastolic blood pressure, mean arterial pressure, and pulse pressure.\n\nThe analyses identify putative regulatory roles for two genetic loci: COL21A1, which encodes a collagen isoform with roles in vascular extracellular matrix organisation, and a locus encompassing ENPEP and FGF5, genes previously implicated in blood pressure regulation in other populations. The authors apply integrative methods combining genome-wide association data with tissue-specific expression quantitative trait loci (eQTL) information to prioritise candidate regulatory genes and mechanisms.\n\nThe study is notable for its focus on an East Asian population; much GWAS-derived genetic architecture for blood pressure has been characterised primarily in European-ancestry cohorts, and population-specific analyses can reveal both shared and divergent loci. The finding that FGF5 regulatory pathways are implicated is consistent with prior work in other populations; the COL21A1 association warrants replication.\n\nThis is a preprint and has not undergone peer review. Findings should be interpreted with appropriate caution pending independent replication and formal publication.",
+      "tags": [
+        "gwas",
+        "blood-pressure",
+        "hypertension",
+        "east-asian",
+        "population-genetics",
+        "eqtl",
+        "col21a1",
+        "fgf5"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint links PRDM9 binding symmetry and meiotic double-strand break repair to large-scale spermatogenesis disruption",
+      "is_preprint": true,
+      "run_date": "2026-05-19",
+      "run_iso": "2026-05-19T10:36:04Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-18T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "prdm9-meiotic-dsb-repair-spermatogenesis-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-18T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Large disruptions to mammalian spermatogenesis downstream of genetic perturbations in meiotic double-strand break repair",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.14.724910v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint investigates how genetic perturbations in meiotic double-strand break repair — particularly involving PRDM9 — cause extensive disruption to spermatogenesis in mammalian models.",
+      "summary": "A preprint posted to bioRxiv examines the mechanisms by which mutations affecting meiotic double-strand break (DSB) repair produce large-scale disruptions to spermatogenesis in mammalian models. The work centres on PRDM9, a histone methyltransferase that specifies the genomic positions at which programmed DSBs form during meiosis — a step essential for homologous chromosome pairing and recombination.\n\nThe authors investigate how the symmetry of PRDM9 binding — whether PRDM9 targets the same genomic positions on both homologous chromosomes — influences the efficiency of homology search and subsequent DSB repair. Prior work has established that asymmetric PRDM9 binding, where the two homologues carry different sequence variants at a binding site, impairs homologue pairing; the current preprint extends this framework by characterising downstream spermatogenic phenotypes when key repair pathway components are genetically perturbed.\n\nPRDM9 is described as the most rapidly evolving protein in mammals, and variation in its zinc-finger DNA-binding domain has been associated with hybrid sterility in mice as well as with recombination rate variation more broadly. The findings contribute to understanding of meiotic failure as a cause of male infertility and have broader implications for models of recombination and genome stability.\n\nThis is a preprint that has not yet undergone peer review.",
+      "tags": [
+        "prdm9",
+        "meiosis",
+        "double-strand-break-repair",
+        "spermatogenesis",
+        "recombination",
+        "male-infertility",
+        "genome-stability"
+      ]
     }
   ],
-  "last_run": "2026-05-18T11:06:34.634654+00:00",
+  "last_run": "2026-05-19T10:37:43.421038+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012133": "2026-05-16T19:47:15.642106+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012137": "2026-05-19T10:37:43.421038+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012141": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/23/cancer-in-the-uk-2026-cases-exceed-400000-for-the-first-time/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/27/latest-winner-in-our-research-is-beautiful-competition-2/": "2026-05-16T19:47:15.642106+00:00",
@@ -1041,12 +1343,17 @@
     "https://news.cancerresearchuk.org/2026/05/11/research-is-beautiful-the-best-of-the-rest-5/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/05/13/2026-elections-in-scotland-and-wales-a-turning-point-for-cancer/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/05/15/cancer-waiting-times-latest-updates-and-analysis/": "2026-05-16T19:47:15.642106+00:00",
+    "https://news.cancerresearchuk.org/2026/05/18/the-cell-keeps-the-score-memory-inflammation-and-bowel-cancer/": "2026-05-19T10:37:43.421038+00:00",
+    "https://news.cancerresearchuk.org/2026/05/18/the-gatekeeper-and-the-invader-h-pylori-and-the-development-of-stomach-cancer/": "2026-05-19T10:37:43.421038+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.11.723906v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.12.724636v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.13.724957v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.13.724972v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.13.725051v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.14.724656v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.14.724910v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.14.725285v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.15.725342v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725498v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725551v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725596v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
@@ -1063,8 +1370,11 @@
     "https://www.nature.com/articles/s41431-026-02097-8": "2026-05-16T19:47:15.642106+00:00",
     "https://www.nature.com/articles/s41431-026-02104-y": "2026-05-16T19:47:15.642106+00:00",
     "https://www.nature.com/articles/s41437-026-00838-5": "2026-05-16T19:47:15.642106+00:00",
+    "https://www.nature.com/articles/s41562-026-02475-8": "2026-05-19T10:37:43.421038+00:00",
     "https://www.nature.com/articles/s41588-026-02562-6": "2026-05-16T19:47:15.642106+00:00",
+    "https://www.nature.com/articles/s41588-026-02636-5": "2026-05-19T10:37:43.421038+00:00",
     "https://www.nature.com/articles/s41591-026-04372-z": "2026-05-16T19:47:15.642106+00:00",
+    "https://www.nature.com/articles/s43856-026-01615-5": "2026-05-19T10:37:43.421038+00:00",
     "https://www.phgfoundation.org/blog/what-the-uk-biobank-data-exposure-should-mean-for-the-health-data-research-service": "2026-05-16T19:47:15.642106+00:00",
     "https://www.sciencedaily.com/releases/2026/04/260426012255.htm": "2026-05-16T19:47:15.642106+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260510030948.htm": "2026-05-16T19:47:15.642106+00:00",
@@ -1108,8 +1418,19 @@
     "https://www.statnews.com/2026/05/17/when-should-you-get-a-mammogram-conflicting-advice/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
     "https://www.statnews.com/2026/05/17/who-ebola-drc-uganda-bundibugyo-pheic-public-health-emergency/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/2026/05/18/acip-charter-vaccine-policy-cdc-political-interference/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.statnews.com/2026/05/18/atrium-health-wake-med-merger-gmrs-ipo-health-care-inc/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/18/biotech-industry-split-chinese-drugs-opportunity-versus-existential-threat/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.statnews.com/2026/05/18/biotech-news-astrazeneca-picks-up-fda-approval-hypertension-drug/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/18/cdc-ebola-travel-ban-announced-uganda-congo-south-sudan/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/18/ebola-outbreak-update-experts-weigh-use-merck-vaccine-ervebo/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/18/health-news-texas-opens-detransition-clinic/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/18/patient-autonomy-childhood-vaccines-red-herring/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.statnews.com/2026/05/18/supreme-court-rejects-challenge-medicare-drug-price-negotiations/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/18/trump-aca-insurance-new-cms-rules-expand-catastrophic-coverage/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/18/trumprx-adds-generic-drugs-amazon-pharmacy-mark-cuban-goodrx/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/19/drinking-while-pregnant-fetal-alcohol-exposure-explored-part-5-deadliest-drug-series/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/19/insurance-approval-denial-cost-access-transplant-medication/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/19/nicotine-free-generation-united-kingdom-massachusetts-laws/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/": "2026-05-16T19:47:15.642106+00:00",
@@ -1117,6 +1438,8 @@
     "https://www.statnews.com/pharmalot/2026/05/15/up-and-down-the-ladder-the-latest-comings-and-goings-jobs/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/up-and-down-the-ladder-the-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/17/uk-advocates-threaten-court-action-over-pharma-trade-deal-with-us/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/18/biotech-has-china-problem-regeneron-melanoma-drug-flops/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/18/maryland-state-affordability-board-places-price-cap-on-ozempic/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "multiple PLOS Genetics primary research articles — specialist model-organism or plant-biology studies": "2026-05-16T19:47:15.642106+00:00",
     "multiple ScienceDaily items — off-topic for genetics (gum disease quorum sensing, coral reef microbes, COVID natural compounds, biomaterial tissue repair, travel and ageing, Alzheimer's arginine supplement, cholesterol DNA molecules, cannabis flavoalkaloids, fish oil brain injury, gut bacteria depression, choline anxiety, lipid nanoparticle mRNA delivery, life-of-life origin freezing, axolotl limb regeneration, blood stem cell rejuvenation, senescent cell GPX4 drugs, obesity HSL protein, kidney lubiprostone, constipation drug)": "2026-05-16T19:47:15.642106+00:00",
     "multiple Springer Nature articles — tRNA fragments breast cancer, cfDNA fragmentomics eating disorders, SCOTCH long-read scRNA-seq, ABCD1 Drosophila, SACS spastic ataxia Pakistan, HLA-C KIR birth weight": "2026-05-16T19:47:15.642106+00:00",
