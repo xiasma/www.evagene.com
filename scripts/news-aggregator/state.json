@@ -1323,14 +1323,188 @@
         "male-infertility",
         "genome-stability"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Some inherited conditions — such as spinal muscular atrophy and certain types of anaemia — are caused by changes in parts of the DNA that are difficult to read accurately with standard genetic testing methods. Researchers at five laboratories have tested a newer approach called long-read sequencing, which can read longer stretches of DNA at once, making it better suited to these tricky regions.\n\nThe study, which has been shared online but has not yet been checked by independent scientists (a stage called peer review), found that the method worked consistently across all five laboratories using a single, unified test.\n\nIf confirmed by further research, this type of approach might help laboratories detect a wider range of inherited variants in future. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Multisite study validates nanopore long-read sequencing for complex carrier-screening loci",
+      "is_preprint": true,
+      "run_date": "2026-05-20",
+      "run_iso": "2026-05-20T10:23:07+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-05-19T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "nanopore-long-read-carrier-screening-complex-loci",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-19T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Multisite Evaluation of an Amplification-based Nanopore Sequencing Solution to Analyze Challenging Clinically Relevant Variants in Genes Associated with Hereditary Diseases",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.14.725224v1?rss=1"
+        }
+      ],
+      "standfirst": "A five-laboratory evaluation published as a preprint on bioRxiv finds that an amplification-based Oxford Nanopore workflow can reliably detect clinically relevant variants in genes with architectures that challenge short-read methods.",
+      "summary": "Researchers across five laboratories have evaluated a modular, amplification-based long-read sequencing workflow using Oxford Nanopore Technology for carrier screening at genomic loci that are notoriously difficult for standard short-read sequencing. The preprint, posted to bioRxiv on 19 May 2026, targeted genes associated with spinal muscular atrophy (SMA), thalassaemia, and cystic fibrosis — conditions where complex genomic architecture, pseudogenes, or repeat elements can cause short-read platforms to miss pathogenic variants.\n\nThe multisite design is a methodological strength: by running the same workflow across five independent laboratories and applying automated variant analysis, the study provides an early assessment of inter-laboratory reproducibility. Targeted PCR enrichment was used to prepare libraries prior to Nanopore sequencing, and the authors report that the approach successfully interrogated the relevant loci in a unified assay rather than requiring condition-specific workflows.\n\nThe work has not yet undergone peer review. As a preprint, the findings should be interpreted cautiously pending independent assessment. If the results are replicated and the method is validated in peer-reviewed studies, this class of long-read carrier-screening workflow could inform how laboratories approach technically challenging regions of the genome in research and clinical genetics contexts. Researchers in sequencing methodology, genetic counsellors tracking laboratory technology developments, and educators covering genomics methods will find the study relevant.",
+      "tags": [
+        "long-read-sequencing",
+        "nanopore",
+        "carrier-screening",
+        "sma",
+        "thalassaemia",
+        "cystic-fibrosis",
+        "genomic-methods"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics paper asks why meiotic recombination concentrates in hotspots",
+      "is_preprint": false,
+      "run_date": "2026-05-20",
+      "run_iso": "2026-05-20T10:23:07+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-19T14:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "meiotic-recombination-hotspots-evolutionary-why",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-19T14:00:00+00:00",
+          "publisher": "Public Library of Science",
+          "title": "Why recombination hotspots?",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012152"
+        }
+      ],
+      "standfirst": "A peer-reviewed theoretical study published in PLOS Genetics examines the evolutionary forces that maintain concentrated recombination hotspots across eukaryotes, with implications for understanding genetic diversity and genome stability.",
+      "summary": "A research team including Julien Joseph, Thomas Brazier, Marie Raynaud, Sylvain Glémin, Frédéric Baudat, Bernard de Massy, Nicolas Lartillot, and Laurent Duret has published a study in PLOS Genetics asking a deceptively fundamental question: why does meiotic recombination — the exchange of DNA between parental chromosomes during gamete formation — concentrate in discrete genomic regions called hotspots rather than being distributed uniformly across chromosomes?\n\nThe phenomenon has long been observed in eukaryotes including humans, where the protein PRDM9 directs double-strand break formation to specific motifs that then act as recombination hotspots. The concentration of crossovers at hotspots has implications for genetic diversity generation, genome stability, and fertility. Yet the evolutionary logic of this architecture is not fully resolved.\n\nThe paper, published on 19 May 2026, takes a theoretical and evolutionary approach to modelling why hotspot-concentrated recombination is maintained by natural selection despite the well-documented self-destructive dynamic in which hotspot alleles tend to be eroded by biased gene conversion — a phenomenon sometimes called the hotspot conversion paradox. Researchers, evolutionary geneticists, and students studying meiosis and genome evolution will find this a useful contribution to the long-running debate about the function and maintenance of recombination hotspots. The work is peer-reviewed and distinct from the PRDM9 spermatogenesis preprint published earlier in the recent cluster window.",
+      "tags": [
+        "meiosis",
+        "recombination-hotspots",
+        "prdm9",
+        "evolutionary-genetics",
+        "genome-stability",
+        "eukaryotes"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint shows TRMT6/61A-mediated RNA methylation is required for human pre-tRNA processing",
+      "is_preprint": true,
+      "run_date": "2026-05-20",
+      "run_iso": "2026-05-20T10:23:07+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-05-19T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "trmt6-61a-m1a-methylation-trna-maturation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-19T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "TRMT6/61A-mediated m1A methylation facilitates human pre-tRNA maturation and prevents surveillance by XRN2",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.17.725798v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses rapid protein depletion to demonstrate that the TRMT6/61A methyltransferase complex installs a protective chemical mark on precursor tRNAs before processing, with loss triggering rapid degradation by the exonuclease XRN2.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing new mechanistic detail about how transfer RNAs (tRNAs) — the molecular adaptors that decode messenger RNA during protein synthesis — are protected from premature degradation in human cells. The study focuses on the enzyme complex TRMT6/61A, which deposits an N1-methyladenosine (m1A) modification at position 58 of tRNA molecules.\n\nUsing a dTAG rapid protein-depletion system that removes TRMT6/61A acutely rather than through conventional genetic knockout — avoiding long-term compensatory effects — the team show that loss of the enzyme rapidly reprogrammes the cellular complement of tRNAs. Their data indicate that TRMT6/61A acts on precursor tRNAs prior to their maturation, and that hypomethylated precursors are recognised and degraded by the exonuclease XRN2, a known RNA surveillance factor.\n\nThe findings add to understanding of how tRNA quality control operates in human cells. TRMT6/61A dysregulation has been linked to human diseases, making the mechanistic clarification of its role in pre-tRNA surveillance relevant to researchers studying RNA biology, epitranscriptomics, and the molecular basis of disease. The work has not been peer-reviewed. Educators and students covering RNA modification pathways and post-transcriptional regulation will also find the study relevant.",
+      "tags": [
+        "trna",
+        "rna-modification",
+        "m1a-methylation",
+        "trmt6",
+        "xrn2",
+        "epitranscriptomics",
+        "rna-surveillance"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Automated genetic screen in C. elegans maps modulators of stress-induced sleep",
+      "is_preprint": true,
+      "run_date": "2026-05-20",
+      "run_iso": "2026-05-20T10:23:07+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-05-19T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "stress-induced-sleep-genetic-screen-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-19T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "An automated genetic screen identifies modulators of stress-induced sleep in Caenorhabditis elegans",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.16.725661v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint on bioRxiv reports a semi-automated screen of nearly 1,000 whole-genome-sequenced worm strains that prioritises thousands of candidate genes influencing sleep behaviour following cellular injury.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing a large-scale genetic screen in the nematode worm Caenorhabditis elegans aimed at identifying genes that regulate stress-induced sleep (SIS) — the well-documented tendency of animals to sleep more following cellular injury or illness.\n\nThe team used a worm-picking robot and multi-well WorMotel imaging to measure behavioural activity and quiescence in 941 whole-genome-sequenced strains from the Million Mutation Project before and after ultraviolet radiation exposure. Applying the Sequence Kernel Association Test (SKAT) to the resulting behavioural data, the authors prioritised 6,663 candidate genes as potential modulators of SIS.\n\nThe C. elegans system is a well-established model for dissecting the genetics of sleep and neuronal function, and the scale of this screen — enabled by automation and existing genome-sequenced strain libraries — represents a methodological advance for the field. The findings are preliminary and have not been peer-reviewed. Researchers in sleep genetics, neuroscience, and model-organism biology, as well as students studying functional genomic screening approaches, will find the preprint relevant. The work is distinct from genetics of human sleep disorders but contributes to the fundamental biology underlying conserved sleep-regulatory pathways.",
+      "tags": [
+        "c-elegans",
+        "sleep-genetics",
+        "stress-induced-sleep",
+        "genetic-screen",
+        "model-organism",
+        "functional-genomics"
+      ]
     }
   ],
-  "last_run": "2026-05-19T10:37:43.421038+00:00",
+  "last_run": "2026-05-20T10:24:39.370157+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012133": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012137": "2026-05-19T10:37:43.421038+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012141": "2026-05-16T19:47:15.642106+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012152": "2026-05-20T10:24:39.370157+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012155": "2026-05-20T10:24:39.370157+00:00",
     "https://news.cancerresearchuk.org/2026/04/23/cancer-in-the-uk-2026-cases-exceed-400000-for-the-first-time/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/27/latest-winner-in-our-research-is-beautiful-competition-2/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/27/tobacco-and-vapes-bill-isnt-an-affront-to-personal-freedom-its-a-defence-against-deadly-addiction/": "2026-05-16T19:47:15.642106+00:00",
@@ -1345,6 +1519,7 @@
     "https://news.cancerresearchuk.org/2026/05/15/cancer-waiting-times-latest-updates-and-analysis/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/05/18/the-cell-keeps-the-score-memory-inflammation-and-bowel-cancer/": "2026-05-19T10:37:43.421038+00:00",
     "https://news.cancerresearchuk.org/2026/05/18/the-gatekeeper-and-the-invader-h-pylori-and-the-development-of-stomach-cancer/": "2026-05-19T10:37:43.421038+00:00",
+    "https://news.cancerresearchuk.org/2026/05/20/how-philanthropy-is-helping-promising-cancer-treatments-reach-clinical-trials-sooner/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.11.723906v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.12.724636v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.13.724957v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
@@ -1352,12 +1527,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.13.725051v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.14.724656v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.14.724910v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.14.725224v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.14.725285v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725342v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725498v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725551v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725596v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.16.725661v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725479v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.17.725798v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/lifesaving-spring-covid-19-jab-offers-protection-to-millions-of-vulnerable-people/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/nhs-detects-tens-of-thousands-of-bowel-cancers-thanks-to-screening-programme/": "2026-05-16T19:47:15.642106+00:00",
@@ -1386,6 +1564,8 @@
     "https://www.sciencedaily.com/releases/2026/05/260515234803.htm": "2026-05-17T09:03:39.807393+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260517030326.htm": "2026-05-18T11:06:34.634654+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260517211447.htm": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260519003215.htm": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260519224303.htm": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/14/psa-tests-reduce-risk-prostate-cancer-deaths-new-study-cochrane-review/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/readout-loud-podcast-makary-fda-trump-cassidy-senate/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/supreme-court-preserves-access-abortion-pill-mifepristone/": "2026-05-16T19:47:15.642106+00:00",
@@ -1428,9 +1608,24 @@
     "https://www.statnews.com/2026/05/18/supreme-court-rejects-challenge-medicare-drug-price-negotiations/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/18/trump-aca-insurance-new-cms-rules-expand-catastrophic-coverage/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/18/trumprx-adds-generic-drugs-amazon-pharmacy-mark-cuban-goodrx/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/19/23andme-healthex-to-connect-dna-data-with-health-records/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/19/ai-helped-find-treatment-newborn-ultra-rare-disease/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/19/biotech-news-new-ranking-of-pharma-companies-by-rd-performance/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/19/dexcom-cgm-sensors-new-uses-health-tech/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/drinking-while-pregnant-fetal-alcohol-exposure-explored-part-5-deadliest-drug-series/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/19/fda-can-thrive-despite-talent-loss-says-david-kessler-former-commissioner/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/19/former-stanford-president-marc-tessier-lavigne-responds-allegations-new-book/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/19/health-news-ebola-travel-ban-and-old-vaccine/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/insurance-approval-denial-cost-access-transplant-medication/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/19/nicotine-free-generation-united-kingdom-massachusetts-laws/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/19/no-surprises-act-dispute-resolution-fuels-extraordinary-payouts/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/19/pharma-rankings-innovation-invention/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/19/trumprx-generic-drugs-cassidy-loses-fda-turmoil-dc-diagnosis/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/19/us-aid-cuts-hamper-drc-ebola-response/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/20/is-it-perimenopause-symptoms-misinformation/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/20/medicare-long-term-care-coverage-new-proposal-senate-democrats/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/20/nih-leadership-questions-15-of-27-institutes-acting-directors/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/20/openevidence-pitches-hospitals-we-are-not-monsters/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/": "2026-05-16T19:47:15.642106+00:00",
@@ -1440,6 +1635,9 @@
     "https://www.statnews.com/pharmalot/2026/05/17/uk-advocates-threaten-court-action-over-pharma-trade-deal-with-us/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
     "https://www.statnews.com/pharmalot/2026/05/18/biotech-has-china-problem-regeneron-melanoma-drug-flops/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/pharmalot/2026/05/18/maryland-state-affordability-board-places-price-cap-on-ozempic/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/19/canadian-medical-societies-lack-sufficient-conflict-of-interest-policies/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/19/supreme-court-setback-for-pharma-trumprx-expands/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/19/virginia-governor-vetoes-bill-to-create-panel-to-lower-drug-costs/": "2026-05-20T10:24:39.370157+00:00",
     "multiple PLOS Genetics primary research articles — specialist model-organism or plant-biology studies": "2026-05-16T19:47:15.642106+00:00",
     "multiple ScienceDaily items — off-topic for genetics (gum disease quorum sensing, coral reef microbes, COVID natural compounds, biomaterial tissue repair, travel and ageing, Alzheimer's arginine supplement, cholesterol DNA molecules, cannabis flavoalkaloids, fish oil brain injury, gut bacteria depression, choline anxiety, lipid nanoparticle mRNA delivery, life-of-life origin freezing, axolotl limb regeneration, blood stem cell rejuvenation, senescent cell GPX4 drugs, obesity HSL protein, kidney lubiprostone, constipation drug)": "2026-05-16T19:47:15.642106+00:00",
     "multiple Springer Nature articles — tRNA fragments breast cancer, cfDNA fragmentomics eating disorders, SCOTCH long-read scRNA-seq, ABCD1 Drosophila, SACS spastic ataxia Pakistan, HLA-C KIR birth weight": "2026-05-16T19:47:15.642106+00:00",
