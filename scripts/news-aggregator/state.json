@@ -1495,16 +1495,279 @@
         "model-organism",
         "functional-genomics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists at the University of California San Francisco have asked the US medicines regulator — the Food and Drug Administration (FDA) — for permission to run a very small early trial of a new type of treatment. The treatment would deliver a working copy of a faulty gene to a baby before it is born, with the aim of preventing the harm caused by a rare inherited condition called a lysosomal storage disorder. These are conditions where the body cannot break down certain substances inside cells properly, leading to a build-up that damages tissues over time.\n\nThis is still at a very early stage — the regulator has not yet decided whether the trial can go ahead. Researchers say the goal of this kind of study is first to check safety. No results are available yet.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UCSF team submits FDA application for first in utero gene therapy trial",
+      "is_preprint": false,
+      "run_date": "2026-05-21",
+      "run_iso": "2026-05-21T10:38:10+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-05-20T18:48:30+00:00",
+        "novelty": 9
+      },
+      "slug": "in-utero-gene-therapy-lysosomal-storage-ucsf-fda",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/05/STAT-Summit-West-01572-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-20T18:48:30+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Pioneering trial for treating genetic disease before birth nears reality",
+          "url": "https://www.statnews.com/2026/05/20/tippi-mackenzie-in-utero-gene-therapy-nears-first-fda-trial/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "A University of California San Francisco team has applied to the FDA for permission to run a small first-in-human trial of gene therapy delivered before birth for a rare lysosomal storage disorder.",
+      "summary": "Researchers led by foetal surgeon Tippi MacKenzie at the University of California San Francisco have submitted an Investigational New Drug application to the US Food and Drug Administration seeking approval to begin a small phase I trial of in utero gene therapy. The target condition is a rare lysosomal storage disorder — a category of inherited metabolic diseases caused by deficiencies in enzymes responsible for breaking down cellular waste products.\n\nIn utero gene therapy aims to deliver a functional copy of a defective gene to the foetus during pregnancy, before the progressive tissue damage characteristic of lysosomal storage disorders takes hold. The UCSF team's application, reported by STAT News following remarks at the STAT Breakthrough Summit West, represents a significant translational step for a field that has for years sought a regulatory pathway to first-in-human studies.\n\nNo peer-reviewed publication describing the full preclinical data package has been identified in this reporting cycle; the primary source is STAT News coverage of MacKenzie's conference remarks. The FDA's review process will determine whether the trial may proceed and under what conditions. If cleared, the study would be among the first in the world to test gene therapy administered in utero in human participants.",
+      "tags": [
+        "in-utero-gene-therapy",
+        "lysosomal-storage-disorder",
+        "fda",
+        "ucsf",
+        "rare-disease",
+        "foetal-medicine",
+        "gene-therapy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Intronic FDXR variant creates cryptic exon underlying fatal ataxia in Quarter Horses",
+      "is_preprint": false,
+      "run_date": "2026-05-21",
+      "run_iso": "2026-05-21T10:38:10+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-20T14:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "fdxr-cryptic-exon-equine-juvenile-spinocerebellar-ataxia",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-20T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "An intronic variant in Ferredoxin Reductase (FDXR) creates a cryptic exon in Quarter Horses with Equine Juvenile Spinocerebellar Ataxia",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012158"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study identifies an intronic variant in the Ferredoxin Reductase gene that generates a cryptic exon, causing a fatal autosomal recessive neurological disease in Quarter Horses.",
+      "summary": "Researchers including Briana N. Brown, Carrie J. Finno, and colleagues have published a study in PLOS Genetics describing the molecular basis of Equine Juvenile Spinocerebellar Ataxia (EJSCA), a recently characterised autosomal recessive neurological disease in Quarter Horses. Affected foals display progressive proprioceptive ataxia — impaired coordination and awareness of limb position — within one to five weeks of birth, deteriorating to recumbency and necessitating euthanasia.\n\nUsing whole-genome sequencing of seven affected cases and unaffected horses including obligate carriers, the team identified a causative intronic variant in the Ferredoxin Reductase gene (FDXR). The variant creates a cryptic exon — a previously silent stretch of intronic sequence that, when aberrantly incorporated into messenger RNA, disrupts normal protein production. FDXR encodes a mitochondrial enzyme involved in iron-sulphur cluster biosynthesis and electron transfer; loss of function has previously been linked to neurological disease in other species.\n\nThe discovery provides a molecular target for carrier testing in Quarter Horse breeding programmes and adds EJSCA to the growing catalogue of inherited equine neurological conditions with defined genetic causes. The finding is also of broader interest to researchers studying cryptic splice-site variants and mitochondrial disease mechanisms across species.",
+      "tags": [
+        "fdxr",
+        "cryptic-exon",
+        "equine-genetics",
+        "spinocerebellar-ataxia",
+        "splicing",
+        "mitochondrial-disease",
+        "animal-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Whole-genome comparison reveals distinct somatic mutation landscapes in cartilage and skin cells",
+      "is_preprint": false,
+      "run_date": "2026-05-21",
+      "run_iso": "2026-05-21T10:38:10+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-20T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "somatic-mutation-landscapes-chondrocytes-fibroblasts",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-20T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Comparative whole-genome analyses of articular chondrocytes and skin fibroblasts reveal distinct genome instability landscapes in mesenchymal cell types",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012156"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study finds that articular chondrocytes and skin fibroblasts — two cell types sharing a common developmental origin — accumulate somatic mutations through markedly different processes, with implications for understanding tissue ageing and disease.",
+      "summary": "Researchers including Safia Mahabub Sauty, Dmitry A. Gordenin, and colleagues at institutions including the University of North Carolina have published comparative whole-genome analyses of articular chondrocytes (the cells lining joint cartilage) and skin fibroblasts in PLOS Genetics. Both cell types derive from the mesoderm during embryonic development, yet the study demonstrates that their somatic mutation landscapes — the patterns of DNA changes that accumulate in cells over time — are substantially different.\n\nThe team characterised mutational signatures, structural variants, and copy-number alterations across the two cell types, finding that differences in physiological environment, metabolic activity, mutagenic exposure, and DNA repair efficiency each contribute to the distinct genomic profiles observed. Articular chondrocytes, which exist in a low-oxygen, mechanically loaded environment, displayed a different spectrum of lesions from the UV-exposed, proliferating fibroblasts of the skin.\n\nThe findings are relevant to understanding how somatic genome instability contributes to conditions such as osteoarthritis and to age-related changes more broadly. The study also illustrates how tissue-specific mutational processes need to be accounted for in somatic genomics research, where reference datasets often conflate cell types of shared developmental lineage.",
+      "tags": [
+        "somatic-mutation",
+        "genome-instability",
+        "chondrocytes",
+        "fibroblasts",
+        "dna-repair",
+        "ageing",
+        "mutational-signatures"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes unified framework for Hardy-Weinberg equilibrium testing on the X chromosome",
+      "is_preprint": true,
+      "run_date": "2026-05-21",
+      "run_iso": "2026-05-21T10:38:10+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-20T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "hwe-x-chromosome-statistical-framework-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-20T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A General Statistical Framework for Hardy-Weinberg Equilibrium Inference on the X Chromosome",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.17.725730v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint develops a general statistical approach to Hardy-Weinberg equilibrium inference at X-linked loci, addressing longstanding ambiguities that arise from sex-specific genotype structures and differing assumptions about allele frequency differences between sexes.",
+      "summary": "Testing for Hardy-Weinberg equilibrium (HWE) is a standard quality-control step in genetic association studies and population-genetic analyses, used to flag genotyping errors, population stratification, and other data artefacts. However, applying HWE tests to X-linked loci is complicated by the fact that males are hemizygous — carrying only one copy of the X chromosome — and by the possibility that minor allele frequencies differ between males and females (sex-differential minor allele frequency, or sdMAF).\n\nA preprint posted to bioRxiv presents a general statistical framework for HWE inference on the X chromosome that explicitly models sex-specific genotype structures and allows for sdMAF. The authors note that existing tests make diverse and often implicit assumptions about whether allele frequencies are equal across sexes and whether to include male genotypes, leading to null hypotheses that are poorly characterised and difficult to compare across software implementations.\n\nThe proposed framework unifies these approaches, allowing researchers to specify their assumptions explicitly and obtain well-defined tests. The work is relevant to large-scale GWAS quality control pipelines, population-genetic studies of X-linked variation, and any analysis that must handle X-chromosome data rigorously. As a preprint, the findings have not yet been peer-reviewed.",
+      "tags": [
+        "hardy-weinberg-equilibrium",
+        "x-chromosome",
+        "statistical-genetics",
+        "gwas-quality-control",
+        "population-genetics",
+        "sex-differences"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint reports novel MGME1 variant causing mitochondrial DNA depletion syndrome in South Indian families",
+      "is_preprint": true,
+      "run_date": "2026-05-21",
+      "run_iso": "2026-05-21T10:38:10+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-05-21T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "mgme1-variant-mitochondrial-dna-depletion-india-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-21T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Homozygous c.820G>A variant in MGME1 contributes to multi-systemic mitochondrial dysfunction in an Indian patient cohort",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.18.725852v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes a homozygous missense variant in MGME1 — a nuclear-encoded gene essential for mitochondrial DNA maintenance — identified in five affected individuals from unrelated South Indian families presenting with multi-systemic mitochondrial disease.",
+      "summary": "Mitochondrial DNA (mtDNA) maintenance disorders are a genetically heterogeneous group of inherited conditions arising from defects in the replication or repair of the mitochondrial genome. Mitochondrial genome maintenance exonuclease 1 (MGME1) is a nuclear-encoded nuclease required for mtDNA replication and genome stability; biallelic pathogenic variants in MGME1 are a recognised cause of mitochondrial DNA depletion syndrome 11 (MTDPS11), characterised by proximal myopathy, ophthalmoplegia, and multisystem involvement.\n\nA preprint posted to bioRxiv reports a novel homozygous MGME1 missense variant — c.820G>A (p.Ala274Thr) — identified through sequencing of five affected individuals from unrelated South Indian families. Affected individuals presented with proximal myopathy (muscle weakness affecting limb girdle), chronic progressive external ophthalmoplegia (progressive weakness of the muscles controlling eye movement), and evidence of broader mitochondrial dysfunction. The variant was not identified in a heterozygous or homozygous state at appreciable frequency in publicly available population databases, supporting its likely pathogenicity in this context.\n\nThe report extends the mutational and population spectrum of MGME1-related disease and adds to a growing literature documenting mitochondrial disorders in South Asian patient cohorts that have historically been underrepresented in genomic databases. As a preprint, these findings have not yet undergone peer review.",
+      "tags": [
+        "mgme1",
+        "mitochondrial-dna-depletion",
+        "rare-disease",
+        "mitochondrial-disease",
+        "south-asian-genetics",
+        "ophthalmoplegia",
+        "myopathy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint introduces kinference software for pairwise kinship detection in wildlife population studies",
+      "is_preprint": true,
+      "run_date": "2026-05-21",
+      "run_iso": "2026-05-21T10:38:10+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-05-21T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "ckmr-kinference-pairwise-kinship-wildlife-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-21T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "kinference: Pairwise kinship detection for Close-Kin Mark-Recapture",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.18.725841v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint presents kinference, a tool designed to identify closely related pairs of individuals for Close-Kin Mark-Recapture analyses, a genomic approach increasingly used to estimate population size and demography in fish and wildlife management.",
+      "summary": "Close-Kin Mark-Recapture (CKMR) is a statistical framework that uses genetic relatedness — rather than physical recapture of tagged individuals — to estimate demographic parameters of wild animal populations, including population size, mortality rates, and spatial connectivity. The approach relies on identifying pairs of closely related individuals (parent-offspring or full siblings) among sampled animals, treating the detection of such pairs as the analogue of a traditional mark-recapture event.\n\nA preprint posted to bioRxiv introduces kinference, a software tool designed specifically for the pairwise kinship-detection step that underpins CKMR analyses. The authors describe the statistical methods implemented and demonstrate the tool's application to fisheries and wildlife contexts. CKMR is described by the authors as beginning to change how wildlife managers obtain demographic information, particularly for species where traditional mark-recapture is logistically difficult.\n\nWhile the primary application domain is ecology and wildlife management rather than human genetics, the methods are closely related to pairwise kinship inference techniques used in human population genetics and forensic genomics. Researchers working on kinship inference algorithms, genealogical reconstruction, or the genetics of natural populations will find the methodological developments relevant. As a preprint, the findings have not yet been peer-reviewed.",
+      "tags": [
+        "kinship-inference",
+        "population-genetics",
+        "wildlife-genomics",
+        "mark-recapture",
+        "fisheries-genetics",
+        "statistical-genetics"
+      ]
     }
   ],
-  "last_run": "2026-05-20T10:24:39.370157+00:00",
+  "last_run": "2026-05-21T10:40:08.951688+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012133": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012137": "2026-05-19T10:37:43.421038+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012141": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012152": "2026-05-20T10:24:39.370157+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012154": "2026-05-21T10:40:08.951688+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012155": "2026-05-20T10:24:39.370157+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012156": "2026-05-21T10:40:08.951688+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012158": "2026-05-21T10:40:08.951688+00:00",
     "https://news.cancerresearchuk.org/2026/04/23/cancer-in-the-uk-2026-cases-exceed-400000-for-the-first-time/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/27/latest-winner-in-our-research-is-beautiful-competition-2/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/27/tobacco-and-vapes-bill-isnt-an-affront-to-personal-freedom-its-a-defence-against-deadly-addiction/": "2026-05-16T19:47:15.642106+00:00",
@@ -1535,7 +1798,11 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725596v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.16.725661v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725479v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.17.725703v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.17.725730v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725798v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.18.725841v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.18.725852v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/lifesaving-spring-covid-19-jab-offers-protection-to-millions-of-vulnerable-people/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/nhs-detects-tens-of-thousands-of-bowel-cancers-thanks-to-screening-programme/": "2026-05-16T19:47:15.642106+00:00",
@@ -1566,6 +1833,8 @@
     "https://www.sciencedaily.com/releases/2026/05/260517211447.htm": "2026-05-18T11:06:34.634654+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260519003215.htm": "2026-05-20T10:24:39.370157+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260519224303.htm": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260520233221.htm": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260520233223.htm": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/14/psa-tests-reduce-risk-prostate-cancer-deaths-new-study-cochrane-review/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/readout-loud-podcast-makary-fda-trump-cassidy-senate/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/supreme-court-preserves-access-abortion-pill-mifepristone/": "2026-05-16T19:47:15.642106+00:00",
@@ -1622,10 +1891,29 @@
     "https://www.statnews.com/2026/05/19/pharma-rankings-innovation-invention/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/trumprx-generic-drugs-cassidy-loses-fda-turmoil-dc-diagnosis/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/us-aid-cuts-hamper-drc-ebola-response/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/20/biotech-news-drugmakers-guard-ip-more-tightly-amid-china-competiti/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/20/democrats-force-vote-to-end-medicare-ai-prior-authorization-pilot/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/20/ebola-patients-suffering-health-care-workers/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/20/florida-hospitals-get-8-billion-extra-medicaid-funds-before-trump-limits/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/20/health-news-leadership-vacuum-at-nih-and-broader-hhs/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/is-it-perimenopause-symptoms-misinformation/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/20/kennedy-fires-vice-chairs-us-preventive-services-task-force/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/20/kennedy-names-stephanie-haridopolos-interim-surgeon-general/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/medicare-long-term-care-coverage-new-proposal-senate-democrats/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/20/medicare-long-term-care-coverage-new-proposal-senate-democrats/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/nih-leadership-questions-15-of-27-institutes-acting-directors/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/20/nih-leadership-questions-15-of-27-institutes-acting-directors/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/openevidence-pitches-hospitals-we-are-not-monsters/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/05/20/openevidence-pitches-hospitals-we-are-not-monsters/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/20/rare-disease-biotech-ceos-discuss-fda-uncertainty-stat-summit/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/20/surgeon-general-public-health-warning-screen-time-children/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/20/tippi-mackenzie-in-utero-gene-therapy-nears-first-fda-trial/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/20/type-1-diabetes-early-molecular-clues-science-translational-medicine/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/20/who-ebola-response-outbreak-investigation-drc-marco-rubio/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/21/are-ai-scientist-tools-actually-useful-ai-prognosis/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/21/fda-makary-hoeg-szarama-leadership-vacuum/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/21/retained-bullet-fragments-depression-lead-poisoning-trauma/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/21/whoop-has-not-resolved-fda-dispute-over-blood-pressure-feature/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/": "2026-05-16T19:47:15.642106+00:00",
@@ -1638,6 +1926,7 @@
     "https://www.statnews.com/pharmalot/2026/05/19/canadian-medical-societies-lack-sufficient-conflict-of-interest-policies/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/pharmalot/2026/05/19/supreme-court-setback-for-pharma-trumprx-expands/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/pharmalot/2026/05/19/virginia-governor-vetoes-bill-to-create-panel-to-lower-drug-costs/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/20/biotech-investors-mood-former-fda-commissioner-kessler-confidence/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "multiple PLOS Genetics primary research articles — specialist model-organism or plant-biology studies": "2026-05-16T19:47:15.642106+00:00",
     "multiple ScienceDaily items — off-topic for genetics (gum disease quorum sensing, coral reef microbes, COVID natural compounds, biomaterial tissue repair, travel and ageing, Alzheimer's arginine supplement, cholesterol DNA molecules, cannabis flavoalkaloids, fish oil brain injury, gut bacteria depression, choline anxiety, lipid nanoparticle mRNA delivery, life-of-life origin freezing, axolotl limb regeneration, blood stem cell rejuvenation, senescent cell GPX4 drugs, obesity HSL protein, kidney lubiprostone, constipation drug)": "2026-05-16T19:47:15.642106+00:00",
     "multiple Springer Nature articles — tRNA fragments breast cancer, cfDNA fragmentomics eating disorders, SCOTCH long-read scRNA-seq, ABCD1 Drosophila, SACS spastic ataxia Pakistan, HLA-C KIR birth weight": "2026-05-16T19:47:15.642106+00:00",
