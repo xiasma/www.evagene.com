@@ -1755,9 +1755,318 @@
         "fisheries-genetics",
         "statistical-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "HbA1c is a blood test used to check blood sugar levels over time and is one of the main ways doctors identify diabetes. Researchers and health policy analysts at the PHG Foundation (University of Cambridge) have highlighted that certain inherited differences in how our red blood cells work — differences that vary between ancestry groups — can cause HbA1c readings to be higher or lower than expected, even when a person's actual blood sugar is normal or raised. This means the test may not work equally well for everyone. The PHG Foundation is calling for health guidelines to take this genetic variation into account, so that diagnostic tools are fair and accurate for people of all backgrounds. No changes to current practice have been announced; this is an analysis piece aimed at researchers and policymakers. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "PHG Foundation argues HbA1c genetic variation undermines equitable diabetes diagnosis",
+      "is_preprint": false,
+      "run_date": "2026-05-22",
+      "run_iso": "2026-05-22T10:22:32Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-05-21T11:58:12Z",
+        "novelty": 6
+      },
+      "slug": "hba1c-genetic-variation-diabetes-diagnosis-equity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-21T11:58:12Z",
+          "publisher": "PHG Foundation",
+          "title": "Rethinking HbA1c: genetics, diversity and diabetes diagnosis",
+          "url": "https://www.phgfoundation.org/blog/rethinking-hba1c-genetics-diversity-and-diabetes-diagnosis/"
+        }
+      ],
+      "standfirst": "A PHG Foundation analysis highlights how genetic variants affecting red blood cell biology can cause HbA1c to misclassify diabetes risk, with disproportionate impact across ancestry groups.",
+      "summary": "A blog post from the PHG Foundation at the University of Cambridge sets out the case for rethinking HbA1c as a universal diagnostic marker for diabetes, pointing to mounting evidence that genetic variants — particularly those affecting haemoglobin structure, red blood cell lifespan, and related traits — can cause HbA1c readings to diverge substantially from true glycaemic status.\n\nThe piece draws on research showing that variants more prevalent in people of African, South Asian, and South-East Asian ancestry can produce falsely low or falsely high HbA1c measurements, meaning that diagnostic thresholds developed in predominantly European cohorts may not perform equitably across all populations. The Foundation notes that this has practical implications for how diabetes screening programmes are designed and evaluated, particularly as NHS genomic data infrastructure expands.\n\nThe analysis does not recommend specific clinical actions but calls for greater integration of genomic evidence into health technology assessment and guideline development processes, arguing that ignoring the genetic basis of HbA1c variability perpetuates health inequities embedded in current diagnostic frameworks. The post situates the issue within the broader conversation about ancestry-diverse reference datasets and the need for population-representative research.\n\nThis is a policy and commentary piece rather than a primary research publication; readers are directed to the underlying literature via the Foundation's blog.",
+      "tags": [
+        "hba1c",
+        "diabetes",
+        "health-equity",
+        "ancestry",
+        "genomics",
+        "diagnostic-bias",
+        "population-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PerturbFate tool maps how hundreds of cancer mutations converge on shared cellular hubs",
+      "is_preprint": false,
+      "run_date": "2026-05-22",
+      "run_iso": "2026-05-22T10:22:32Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-05-21T11:52:49Z",
+        "novelty": 8
+      },
+      "slug": "perturbfate-tool-cancer-mutation-convergence-hubs",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-21T11:52:49Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover hidden weakness shared by hundreds of cancer mutations",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260520093726.htm"
+        }
+      ],
+      "standfirst": "A new computational system named PerturbFate tracks how diverse genetic mutations reshape cell fate over time, identifying convergent regulatory nodes that may represent targets shared across many cancer types.",
+      "summary": "Researchers have described a tool called PerturbFate, which is designed to address a fundamental problem in cancer genomics: many diseases, including multiple cancer types and neurodegeneration, are driven by large numbers of distinct genetic mutations whose individual contributions are difficult to study in isolation. Rather than attempting to characterise each mutation separately, PerturbFate monitors how different mutations alter cell-state trajectories over time and identifies the downstream regulatory hubs at which those trajectories converge.\n\nAccording to reporting by ScienceDaily, the system revealed that mutations affecting very different genes can ultimately channel cells towards the same aberrant states, suggesting that a smaller number of shared control points exist beneath the surface diversity of the mutational landscape. The researchers propose that identifying these convergence hubs could help prioritise therapeutic targets that would be relevant across a wider range of patients, rather than requiring bespoke approaches for every mutation.\n\nThe work is described as a platform applicable beyond cancer, with potential relevance to any complex disease driven by genetic heterogeneity. The originating institution and journal of the primary research paper were not specified in the available reporting; readers interested in the primary literature are encouraged to follow the ScienceDaily source link for citation details.\n\nThe finding does not translate directly into clinical application at this stage; it is presented as a research-and-discovery advance in how the functional consequences of somatic mutations are studied.",
+      "tags": [
+        "cancer-genomics",
+        "somatic-mutation",
+        "cell-fate",
+        "functional-genomics",
+        "computational-biology",
+        "perturbfate"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Cancer Research UK has reported that melanoma — a type of skin cancer — is now being diagnosed more often in the UK than ever before, with around 20,000 new cases a year. Researchers say UV radiation from the sun and, historically, from sunbeds plays a major role in this rise. Inherited factors can also affect a person's risk: some families carry gene variants that increase the likelihood of developing melanoma, and there are specialist services that can help assess family history. No changes to current guidelines have been announced as a result of this report. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Melanoma cases in the UK reach record high of 20,000 per year, Cancer Research UK reports",
+      "is_preprint": false,
+      "run_date": "2026-05-22",
+      "run_iso": "2026-05-22T10:22:32Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 7,
+        "newest_iso": "2026-05-22T08:04:51Z",
+        "novelty": 6
+      },
+      "slug": "melanoma-uk-record-high-20000-cases",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-22T08:04:51Z",
+          "publisher": "Cancer Research UK",
+          "title": "Melanoma skin cancer cases hit record high in the UK",
+          "url": "https://news.cancerresearchuk.org/2026/05/22/skin-cancer-cases-hit-record-high-in-the-uk/"
+        }
+      ],
+      "standfirst": "Cancer Research UK analysis shows melanoma incidence has reached its highest recorded level in the UK, raising questions about prevention, surveillance, and the role of genetic risk factors.",
+      "summary": "New analysis published by Cancer Research UK shows that melanoma skin cancer diagnoses in the UK have reached a record high of approximately 20,000 cases per year. The charity's report documents a sustained upward trend in incidence, which it attributes in part to historical patterns of UV exposure, the legacy of sunbed use, and an ageing population.\n\nAlthough the immediate drivers discussed are largely environmental and behavioural, melanoma has a well-characterised hereditary component. Germline variants in genes including CDKN2A, CDK4, and BAP1 are associated with substantially elevated lifetime risk, and polygenic factors contribute to population-level susceptibility. The Cancer Research UK report does not focus on the genetics of melanoma risk, but the incidence data are relevant context for researchers and genetic counsellors working on familial melanoma and high-risk surveillance programmes.\n\nFor oncologists and primary-care practitioners, the record incidence figures underline the importance of awareness of clinical features and established referral pathways. Published guidance from NICE sets out criteria under which individuals with a personal or family history of melanoma may be considered for specialist assessment; the Cancer Research UK report does not modify those criteria.\n\nThe underlying data and full analysis are available via the Cancer Research UK news release.",
+      "tags": [
+        "melanoma",
+        "skin-cancer",
+        "cancer-incidence",
+        "uk",
+        "hereditary-cancer",
+        "cdkn2a",
+        "familial-melanoma"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies cryptochrome clock genes as regulators of alveolar integrity and lung immune homeostasis",
+      "is_preprint": true,
+      "run_date": "2026-05-22",
+      "run_iso": "2026-05-22T10:22:32Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-21T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "cryptochrome-cry1-cry2-copd-lung-circadian",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-21T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "Cryptochrome Loss Drives COPD-like Lung Pathology through Disrupted Alveolar Epithelial Proliferation and Immune Homeostasis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.19.726266v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that mice lacking both Cry1 and Cry2 circadian clock genes develop spontaneous emphysema-like pathology, linking circadian disruption to alveolar destruction and COPD-like disease.",
+      "summary": "A preprint posted to bioRxiv describes findings from researchers who studied mice lacking both Cryptochrome 1 and Cryptochrome 2 (Cry1/2), the core negative-feedback components of the mammalian circadian clock. Animals with this double knockout (dKO) spontaneously developed pathology resembling chronic obstructive pulmonary disease (COPD), including airspace enlargement consistent with emphysema, increased lung compliance, and evidence of chronic pulmonary inflammation.\n\nThe authors report that Cry1 and Cry2 appear to be essential for maintaining normal alveolar epithelial cell proliferation and for sustaining pulmonary immune homeostasis. In their absence, the balance between tissue repair and inflammatory damage shifts in a manner that the authors propose may mechanistically connect circadian disruption — a feature of shift work, sleep disorders, and ageing — to the accelerated lung tissue destruction seen in COPD.\n\nWhile circadian disruption has previously been epidemiologically associated with elevated COPD risk, the cellular mechanisms had remained poorly characterised. The authors suggest their Cry1/2 dKO model provides a tractable system for dissecting these pathways.\n\nThis work is a preprint and has not yet undergone peer review. Findings should be interpreted accordingly. The research adds to a growing body of work linking core clock genes to tissue-maintenance functions beyond timekeeping.",
+      "tags": [
+        "circadian-clock",
+        "cryptochrome",
+        "copd",
+        "lung-biology",
+        "alveolar-epithelium",
+        "model-organism",
+        "emphysema"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint links Xist RNA localisation to chromosome compartment architecture during X-inactivation",
+      "is_preprint": true,
+      "run_date": "2026-05-22",
+      "run_iso": "2026-05-22T10:22:32Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-21T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "xist-rna-chromosome-compartments-x-inactivation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-21T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "A key role for chromosome compartment interactions in directing Xist RNA localisation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.19.726226v1?rss=1"
+        }
+      ],
+      "standfirst": "Using MCPH1-deficient cells that retain compacted interphase chromosomes, researchers find that Xist RNA spreads to A1-sub-compartment-associated peripheral zones, implicating 3D genome organisation in dosage compensation.",
+      "summary": "A preprint on bioRxiv reports new mechanistic insight into how Xist RNA — the long non-coding RNA that orchestrates X-chromosome inactivation in mammals — localises across the inactive X chromosome in cis rather than spreading to other chromosomes.\n\nThe researchers developed cell models deficient for MCPH1, a protein whose loss causes chromosomes to remain in a compacted interphase state, making individual chromosome territories visually distinct. This system allowed them to track Xist RNA localisation relative to defined chromosomal sub-compartments. They report that Xist concentrates at sites around the periphery of compacted chromosome territories, and that these sites correspond closely to regions associated with the A1 sub-compartment — a nuclear organisation domain previously linked to active chromatin.\n\nThe findings suggest that the three-dimensional spatial architecture of chromosomes within the nucleus plays an active role in directing Xist spreading, rather than Xist simply diffusing in an unguided manner from its site of transcription. The in cis specificity of Xist localisation has been a longstanding open question in epigenetics and chromosome biology.\n\nThis work is a preprint and has not yet undergone peer review. It will be of interest to researchers working on X-chromosome inactivation, nuclear organisation, and the biology of long non-coding RNAs.",
+      "tags": [
+        "x-chromosome-inactivation",
+        "xist",
+        "lncrna",
+        "nuclear-organisation",
+        "chromosome-territories",
+        "dosage-compensation",
+        "epigenetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint presents whole-genome resource for over 800 US research marmosets, revealing unexpected population structure",
+      "is_preprint": true,
+      "run_date": "2026-05-22",
+      "run_iso": "2026-05-22T10:22:32Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-05-21T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "us-marmoset-colony-genome-diversity-pedigree",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-21T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "Census and genetic analysis of the United States marmoset population",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.19.726339v1?rss=1"
+        }
+      ],
+      "standfirst": "A census of the US research marmoset population, co-ordinated through the NIH Marmoset Coordinating Center, uncovers previously uncharacterised genomic diversity and population structure across laboratory colonies.",
+      "summary": "A preprint submitted to bioRxiv describes the results of a systematic genomic census of the common marmoset (Callithrix jacchus) population used in biomedical research across the United States. Working through the NIH Marmoset Coordinating Center, the authors registered and sampled the majority of living US research marmosets — approximately 2,300 animals — and assembled pedigree and historical records for more than 10,000 individuals.\n\nThe resource includes over 800 whole-genome sequences, primarily from US research colonies. Analysis of these data revealed unexpected population structure: the marmosets do not form a single homogeneous genetic pool, as might be assumed for a captive research population, but instead show distinct substructure that the authors report predates the establishment of US colonies. The origins of this structure are explored in the preprint, with implications for how colony ancestry and genetic background are considered in the design and interpretation of biomedical studies.\n\nPedigree reconstruction is central to the resource, making it directly relevant to researchers working on marmoset genomics, comparative genomics, and the genetics of ageing and neurodevelopment, fields in which the marmoset is an increasingly used model organism. The dataset also serves as a reference for researchers interested in captive-population management and inbreeding avoidance.\n\nThis work is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "marmoset",
+        "comparative-genomics",
+        "population-genetics",
+        "pedigree",
+        "model-organism",
+        "nih",
+        "captive-population"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint develops population genetic theory for how bottlenecks shape mean fitness and inbreeding depression",
+      "is_preprint": true,
+      "run_date": "2026-05-22",
+      "run_iso": "2026-05-22T10:22:32Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-05-21T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "population-bottleneck-inbreeding-depression-fitness-theory",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-21T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "The effect of a reduction in population size on mean fitness and inbreeding depression",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.15.725556v1?rss=1"
+        }
+      ],
+      "standfirst": "Theoretical work on bioRxiv extends population genetic models to describe how a sudden reduction in population size alters the exposure of deleterious recessive alleles to selection and the long-term trajectory of inbreeding depression.",
+      "summary": "A preprint on bioRxiv presents a theoretical population genetics analysis examining the consequences of sudden reductions in population size — so-called bottleneck events — for mean fitness and inbreeding depression. When a population is dramatically reduced, the rate of genetic drift increases, reducing genetic variability and raising average homozygosity. This increased homozygosity exposes recessive or partially recessive deleterious alleles to natural selection, which may lead to their purging from the population.\n\nThe authors develop formal theory to describe the dynamics of this process, including the conditions under which mean fitness might ultimately recover after an initial post-bottleneck decline, and how inbreeding depression is expected to change as deleterious variation is either purged or retained depending on the severity and duration of the bottleneck.\n\nThe work is relevant to conservation genetics — where small or fragmented wildlife populations are often subject to bottleneck effects — and to plant and animal breeding programmes, where controlled inbreeding and bottlenecks are used deliberately. It is also of theoretical interest to evolutionary geneticists concerned with the maintenance of genetic load in natural populations.\n\nThis is a preprint and has not yet undergone peer review. The analysis is primarily mathematical and will be most directly accessible to researchers with a background in quantitative or population genetics.",
+      "tags": [
+        "population-genetics",
+        "inbreeding-depression",
+        "genetic-drift",
+        "bottleneck",
+        "deleterious-alleles",
+        "conservation-genetics",
+        "evolutionary-genetics"
+      ]
     }
   ],
-  "last_run": "2026-05-21T10:40:08.951688+00:00",
+  "last_run": "2026-05-22T10:24:42.174074+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012133": "2026-05-16T19:47:15.642106+00:00",
@@ -1783,6 +2092,7 @@
     "https://news.cancerresearchuk.org/2026/05/18/the-cell-keeps-the-score-memory-inflammation-and-bowel-cancer/": "2026-05-19T10:37:43.421038+00:00",
     "https://news.cancerresearchuk.org/2026/05/18/the-gatekeeper-and-the-invader-h-pylori-and-the-development-of-stomach-cancer/": "2026-05-19T10:37:43.421038+00:00",
     "https://news.cancerresearchuk.org/2026/05/20/how-philanthropy-is-helping-promising-cancer-treatments-reach-clinical-trials-sooner/": "2026-05-20T10:24:39.370157+00:00",
+    "https://news.cancerresearchuk.org/2026/05/22/skin-cancer-cases-hit-record-high-in-the-uk/": "2026-05-22T10:24:42.174074+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.11.723906v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.12.724636v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.13.724957v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
@@ -1795,6 +2105,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725342v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725498v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725551v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.15.725556v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725596v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.16.725661v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725479v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
@@ -1803,6 +2114,12 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725798v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.18.725841v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.18.725852v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.19.725957v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.19.726226v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.19.726232v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.19.726266v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.19.726287v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.19.726339v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
     "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/lifesaving-spring-covid-19-jab-offers-protection-to-millions-of-vulnerable-people/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/nhs-detects-tens-of-thousands-of-bowel-cancers-thanks-to-screening-programme/": "2026-05-16T19:47:15.642106+00:00",
@@ -1820,6 +2137,7 @@
     "https://www.nature.com/articles/s41588-026-02636-5": "2026-05-19T10:37:43.421038+00:00",
     "https://www.nature.com/articles/s41591-026-04372-z": "2026-05-16T19:47:15.642106+00:00",
     "https://www.nature.com/articles/s43856-026-01615-5": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.phgfoundation.org/blog/rethinking-hba1c-genetics-diversity-and-diabetes-diagnosis/": "2026-05-22T10:24:42.174074+00:00",
     "https://www.phgfoundation.org/blog/what-the-uk-biobank-data-exposure-should-mean-for-the-health-data-research-service": "2026-05-16T19:47:15.642106+00:00",
     "https://www.sciencedaily.com/releases/2026/04/260426012255.htm": "2026-05-16T19:47:15.642106+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260510030948.htm": "2026-05-16T19:47:15.642106+00:00",
@@ -1833,8 +2151,11 @@
     "https://www.sciencedaily.com/releases/2026/05/260517211447.htm": "2026-05-18T11:06:34.634654+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260519003215.htm": "2026-05-20T10:24:39.370157+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260519224303.htm": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260520093726.htm": "2026-05-22T10:24:42.174074+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260520233221.htm": "2026-05-21T10:40:08.951688+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260520233223.htm": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260521072402.htm": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260521072420.htm": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/2026/05/14/psa-tests-reduce-risk-prostate-cancer-deaths-new-study-cochrane-review/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/readout-loud-podcast-makary-fda-trump-cassidy-senate/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/supreme-court-preserves-access-abortion-pill-mifepristone/": "2026-05-16T19:47:15.642106+00:00",
@@ -1911,9 +2232,24 @@
     "https://www.statnews.com/2026/05/20/type-1-diabetes-early-molecular-clues-science-translational-medicine/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/who-ebola-response-outbreak-investigation-drc-marco-rubio/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/21/are-ai-scientist-tools-actually-useful-ai-prognosis/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/21/biotech-news-immunovant-shares-surge-on-arthritis-trial-data/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/21/elevance-medicare-advantage-fraud-case-peter-haytaian-deposition/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/21/eli-lilly-retatrutide-triple-g-weight-loss-obesity-discontinuations-trial/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/2026/05/21/fda-makary-hoeg-szarama-leadership-vacuum/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/21/guarding-biotech-from-china-and-big-bets-in-longevity/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/21/health-news-how-florida-hospitals-won-medicaid-funds/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/21/live-coverage-nih-director-jay-bhattacharya-senate-testimony/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/21/mass-general-brigham-says-it-is-saving-more-lives-some-doctors-arent-so-sure/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/21/merck-kelun-sac-tmt-lung-cancer-drug-trial-results/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/21/nih-budget-hearing-3-questions-director-jay-bhattacharya/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/21/nih-niaid-jeffrey-taubenberger-exit/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/21/parkinsons-disease-biogen-denali-therapy/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/2026/05/21/retained-bullet-fragments-depression-lead-poisoning-trauma/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/21/rfk-jr-s-screen-time-warning/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/2026/05/21/whoop-has-not-resolved-fda-dispute-over-blood-pressure-feature/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/2026/05/22/chatbots-doctor-office-check-in-intake-ai/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/22/state-of-mens-health-act-new-office-slowed/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/": "2026-05-16T19:47:15.642106+00:00",
@@ -1927,6 +2263,8 @@
     "https://www.statnews.com/pharmalot/2026/05/19/supreme-court-setback-for-pharma-trumprx-expands/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/pharmalot/2026/05/19/virginia-governor-vetoes-bill-to-create-panel-to-lower-drug-costs/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/pharmalot/2026/05/20/biotech-investors-mood-former-fda-commissioner-kessler-confidence/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/21/lilly-obesity-drug-trial-alzheimer-drug-claims-questioned/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/22/genentech-soliciting-academics-write-papers-to-blunt-pharma-reforms-dc/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "multiple PLOS Genetics primary research articles — specialist model-organism or plant-biology studies": "2026-05-16T19:47:15.642106+00:00",
     "multiple ScienceDaily items — off-topic for genetics (gum disease quorum sensing, coral reef microbes, COVID natural compounds, biomaterial tissue repair, travel and ageing, Alzheimer's arginine supplement, cholesterol DNA molecules, cannabis flavoalkaloids, fish oil brain injury, gut bacteria depression, choline anxiety, lipid nanoparticle mRNA delivery, life-of-life origin freezing, axolotl limb regeneration, blood stem cell rejuvenation, senescent cell GPX4 drugs, obesity HSL protein, kidney lubiprostone, constipation drug)": "2026-05-16T19:47:15.642106+00:00",
     "multiple Springer Nature articles — tRNA fragments breast cancer, cfDNA fragmentomics eating disorders, SCOTCH long-read scRNA-seq, ABCD1 Drosophila, SACS spastic ataxia Pakistan, HLA-C KIR birth weight": "2026-05-16T19:47:15.642106+00:00",
