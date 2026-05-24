@@ -2064,9 +2064,97 @@
         "conservation-genetics",
         "evolutionary-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers have published early-stage findings — not yet formally peer-reviewed — looking at why some people living with HIV do not fully recover their immune system even when they are taking effective antiviral medicines. This failure to recover immune cells is known as immune non-response, and it leaves some people at higher risk of illness.\n\nTo investigate this, the research team analysed blood samples from over 140 participants, using a technique called single-cell multi-omics that can examine millions of individual cells and measure how genes are switched on or off in each one. They found signs of unusually high levels of inflammation in the cells of people whose immune systems had not recovered well.\n\nThis is early research and the results have not yet been checked through the standard scientific peer-review process, so they may change. The study does not offer any new treatments or immediate changes to care.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Single-cell multi-omics study maps immune failure in HIV non-responders",
+      "is_preprint": true,
+      "run_date": "2026-05-24",
+      "run_iso": "2026-05-24T09:19:46Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-05-23T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "single-cell-genomics-hiv-immune-non-responders",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Decoding Immune Reconstitution Failure in People Living with HIV through Single-cell Genomics",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.21.726797v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory profiles nearly 2.7 million transcriptomes to characterise why some people living with HIV fail to recover immune function despite antiretroviral therapy.",
+      "summary": "A preprint posted to bioRxiv by researchers at Cold Spring Harbor Laboratory reports large-scale single-cell multi-omics profiling aimed at understanding immune reconstitution failure in people living with HIV (PLWH). A subset of PLWH — termed immune non-responders (INRs) — fail to achieve adequate CD4+ T-cell recovery after antiretroviral therapy and remain at elevated risk of morbidity and mortality from both AIDS-related and non-AIDS-related illnesses. The mechanisms underlying this impaired recovery have remained poorly understood.\n\nThe study profiled peripheral blood mononuclear cells from 43 INRs, 47 immune responders, and 53 healthy donors, generating 2,744,009 transcriptomes and 1,226,658 chromatin-accessibility profiles across 58 identified immune cell types. This makes it one of the larger single-cell datasets applied to this clinical question to date. Reported findings include markedly elevated inflammatory signalling in INRs relative to both immune responders and healthy donors, though the full dataset and conclusions are available only in the preprint.\n\nThe work is relevant to researchers in HIV immunology, genomics, and single-cell methods, as well as those with interests in chromatin accessibility and transcriptional regulation in immune disease contexts. As a preprint, it has not yet undergone peer review, and findings should be treated as preliminary.",
+      "tags": [
+        "hiv",
+        "immune-reconstitution",
+        "single-cell-genomics",
+        "chromatin-accessibility",
+        "transcriptomics",
+        "immunology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Allele-specific antisense oligonucleotides rescue ATAD3A disease model in zebrafish",
+      "is_preprint": true,
+      "run_date": "2026-05-24",
+      "run_iso": "2026-05-24T09:19:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-23T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "allele-specific-aso-atad3a-zebrafish",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Allele-specific antisense oligonucleotide treatment rescues atad3-associated phenotype in zebrafish",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.20.726050v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that antisense oligonucleotides designed to silence a specific dominant-negative ATAD3A variant can correct associated disease features in a zebrafish model, pointing towards a potential therapeutic strategy for this rare neurodevelopmental disorder.",
+      "summary": "A preprint posted to bioRxiv describes the development and preclinical evaluation of allele-specific antisense oligonucleotides (ASOs) targeting a recurrent pathogenic variant in ATAD3A, a gene encoding a mitochondrial AAA-ATPase. Pathogenic variants in ATAD3A cause a spectrum of severe multisystem disorders. The variant under study — c.1582C>T (p.Arg528Trp) — acts as a dominant negative, meaning the abnormal protein product interferes with the function of the protein produced by the normal copy of the gene.\n\nThe research team designed ASOs to selectively reduce expression of transcripts carrying the pathogenic variant while sparing the wild-type allele. Efficacy and allele-specificity were first assessed in fibroblasts derived from affected individuals, using allele-specific primers and amplicon-based next-generation sequencing. ASO candidates were then evaluated in a zebrafish model carrying the equivalent variant, where treatment was reported to rescue the associated phenotype.\n\nThe approach exploits the observation that heterozygous loss-of-function variants in ATAD3A are well tolerated, meaning selective silencing of the dominant-negative allele is a plausible therapeutic route without substantially compromising total ATAD3A function. The study is a preprint and has not yet been peer-reviewed; results in zebrafish models do not always translate to human disease contexts. The work is of interest to researchers in rare disease, RNA therapeutics, mitochondrial biology, and antisense oligonucleotide design.",
+      "tags": [
+        "atad3a",
+        "antisense-oligonucleotide",
+        "rare-disease",
+        "dominant-negative",
+        "mitochondrial-disease",
+        "zebrafish",
+        "rna-therapeutics",
+        "neurodevelopment"
+      ]
     }
   ],
-  "last_run": "2026-05-23T09:01:17.605948+00:00",
+  "last_run": "2026-05-24T09:20:24.818795+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012133": "2026-05-16T19:47:15.642106+00:00",
@@ -2121,10 +2209,12 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.19.726287v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.19.726339v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.20.723021v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.20.726050v1?rss=1": "2026-05-24T09:20:24.818795+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.20.726491v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.20.726500v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.20.726538v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.20.726645v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.21.726797v1?rss=1": "2026-05-24T09:20:24.818795+00:00",
     "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/lifesaving-spring-covid-19-jab-offers-protection-to-millions-of-vulnerable-people/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/nhs-detects-tens-of-thousands-of-bowel-cancers-thanks-to-screening-programme/": "2026-05-16T19:47:15.642106+00:00",
@@ -2259,6 +2349,7 @@
     "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/?utm_campaign=rss": "2026-05-23T09:01:17.605948+00:00",
     "https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/2026/05/22/state-of-mens-health-act-new-office-slowed/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.statnews.com/2026/05/23/perimenopause-misinformation-influencers-supplements-hormones/?utm_campaign=rss": "2026-05-24T09:20:24.818795+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/": "2026-05-16T19:47:15.642106+00:00",
