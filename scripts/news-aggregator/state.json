@@ -2152,9 +2152,97 @@
         "rna-therapeutics",
         "neurodevelopment"
       ]
+    },
+    {
+      "audiences": [
+        "gps",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "NHS England has published figures showing that its mobile lung scanning programme has found more than 10,000 lung cancers across England. The scanning trucks visit supermarket car parks, sports grounds and high streets, so people can be checked without travelling to a hospital. More than three in four of the cancers found were detected at an early stage.\n\nThe programme invites people who may be at higher risk — based on age and smoking history — through their GP surgery. It is not available to everyone; eligibility is decided by clinical teams following NHS criteria.\n\nThese figures come from NHS England's own programme data, not a clinical trial, and independent research into the national roll-out is still under way.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "NHS targeted lung health checks detect more than 10,000 cancers across England",
+      "is_preprint": false,
+      "run_date": "2026-05-25",
+      "run_iso": "2026-05-25T11:08:07Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-05-24T23:01:17Z",
+        "novelty": 7
+      },
+      "slug": "nhs-targeted-lung-health-checks-10000-cancers",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "ogl",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-24T23:01:17Z",
+          "publisher": "NHS England",
+          "title": "Supermarket scans spotting thousands of cancers",
+          "url": "https://www.england.nhs.uk/2026/05/supermarket-scans-spotting-thousands-of-cancers/"
+        }
+      ],
+      "standfirst": "New NHS England data show that mobile scanning units deployed at supermarkets, sports stadiums and high streets have detected 10,678 lung cancers, more than three-quarters at stages one or two.",
+      "summary": "NHS England has published programme data showing that its Targeted Lung Health Check initiative — which deploys low-dose CT scanning trucks to high-footfall community settings including supermarket car parks and sports stadia — has identified 10,678 lung cancers since the programme began. More than 75 per cent of those detected were caught at stage one or two, when treatment options are generally broader and outcomes better, according to NHS England's reporting.\n\nThe programme targets individuals assessed as being at elevated risk on the basis of age and smoking history, following a model piloted in Manchester and subsequently expanded nationally. Participants are invited through GP practices and can attend mobile units close to where they live or shop, an approach NHS England says is intended to reduce barriers to attendance in communities with historically lower engagement with healthcare services.\n\nThe data are published by NHS England as programme performance figures rather than as a peer-reviewed study. Independent evaluation of the national roll-out is ongoing. The results add to evidence from earlier regional pilots, including the Manchester lung health checks programme, which informed the NHS Long Term Plan commitment to expand targeted lung cancer screening across England. NICE guidance on lung cancer is the relevant framework for clinical practice in England; decisions about individual assessment and referral remain with clinical teams.",
+      "tags": [
+        "lung-cancer",
+        "cancer-screening",
+        "nhs-england",
+        "targeted-lung-health-checks",
+        "early-detection",
+        "low-dose-ct"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Genomic analysis of nearly 500 cat tumours reveals shared cancer-driving genes with humans and dogs",
+      "is_preprint": false,
+      "run_date": "2026-05-25",
+      "run_iso": "2026-05-25T11:08:07Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-05-24T12:35:15Z",
+        "novelty": 7
+      },
+      "slug": "feline-cancer-genomics-shared-cancer-drivers-humans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-24T12:35:15Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists say house cats could help unlock new cancer treatments for humans",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260523103943.htm"
+        }
+      ],
+      "standfirst": "A large-scale study genetically characterising feline tumours has identified conserved cancer-driving mutations across cats, dogs and humans, including genes associated with aggressive breast cancers.",
+      "summary": "Researchers have published a study genetically characterising tumours from approximately 500 cats sourced internationally, identifying shared somatic cancer-driving alterations across domestic cats, dogs and humans. The work, reported via ScienceDaily, found conserved mutations in genes associated with aggressive human cancers, including those linked to aggressive breast cancer subtypes.\n\nComparative oncology — the study of naturally occurring cancers in companion animals — has a long history as a route to understanding cancer biology, given that cats and dogs develop many of the same tumour types as humans under similar environmental exposures and without experimental induction. Cataloguing the somatic genomic landscape of feline cancers at this scale provides a reference dataset for cross-species comparisons and may help researchers identify cancer-driving genes whose role is conserved across mammalian lineages.\n\nThe ScienceDaily report does not name the lead institution or journal, and the underlying paper has not been independently verified here. The summary above is therefore based solely on the press-release lede. Readers wishing to assess the primary evidence should locate the source publication before drawing conclusions about the findings. No peer-review status can be confirmed from the available information.",
+      "tags": [
+        "comparative-oncology",
+        "feline-cancer",
+        "cancer-genomics",
+        "somatic-mutation",
+        "cancer-drivers",
+        "breast-cancer"
+      ]
     }
   ],
-  "last_run": "2026-05-24T09:20:24.818795+00:00",
+  "last_run": "2026-05-25T11:08:44.871677+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012133": "2026-05-16T19:47:15.642106+00:00",
@@ -2181,6 +2269,7 @@
     "https://news.cancerresearchuk.org/2026/05/18/the-gatekeeper-and-the-invader-h-pylori-and-the-development-of-stomach-cancer/": "2026-05-19T10:37:43.421038+00:00",
     "https://news.cancerresearchuk.org/2026/05/20/how-philanthropy-is-helping-promising-cancer-treatments-reach-clinical-trials-sooner/": "2026-05-20T10:24:39.370157+00:00",
     "https://news.cancerresearchuk.org/2026/05/22/skin-cancer-cases-hit-record-high-in-the-uk/": "2026-05-22T10:24:42.174074+00:00",
+    "https://news.cancerresearchuk.org/2026/05/25/beyond-the-research-turning-evidence-into-impact/": "2026-05-25T11:08:44.871677+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.11.723906v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.12.724636v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.13.724957v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
@@ -2224,6 +2313,7 @@
     "https://www.england.nhs.uk/2026/05/health-service-hits-18-week-target-amid-half-million-waiting-list-drop/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/05/life-changing-sma-therapies-available-nhs-long-term/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/05/nhs-and-morrisons-put-cancer-warning-signs-in-the-shower/": "2026-05-16T19:47:15.642106+00:00",
+    "https://www.england.nhs.uk/2026/05/supermarket-scans-spotting-thousands-of-cancers/": "2026-05-25T11:08:44.871677+00:00",
     "https://www.nature.com/articles/s41431-026-02097-8": "2026-05-16T19:47:15.642106+00:00",
     "https://www.nature.com/articles/s41431-026-02104-y": "2026-05-16T19:47:15.642106+00:00",
     "https://www.nature.com/articles/s41437-026-00838-5": "2026-05-16T19:47:15.642106+00:00",
@@ -2251,6 +2341,9 @@
     "https://www.sciencedaily.com/releases/2026/05/260520233223.htm": "2026-05-21T10:40:08.951688+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260521072402.htm": "2026-05-22T10:24:42.174074+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260521072420.htm": "2026-05-22T10:24:42.174074+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260523103910.htm": "2026-05-25T11:08:44.871677+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260523103943.htm": "2026-05-25T11:08:44.871677+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260523103947.htm": "2026-05-25T11:08:44.871677+00:00",
     "https://www.statnews.com/2026/05/14/psa-tests-reduce-risk-prostate-cancer-deaths-new-study-cochrane-review/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/readout-loud-podcast-makary-fda-trump-cassidy-senate/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/supreme-court-preserves-access-abortion-pill-mifepristone/": "2026-05-16T19:47:15.642106+00:00",
