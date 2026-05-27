@@ -2240,19 +2240,295 @@
         "cancer-drivers",
         "breast-cancer"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists at a company called Eli Lilly have shared early results from a small clinical trial of a new gene-editing treatment aimed at lowering harmful cholesterol in the blood. The treatment, called VERVE-102, uses a technique called base editing to make a tiny, permanent change to a gene in the liver called PCSK9, which normally helps control cholesterol levels. In the trial, people who received the highest dose saw their LDL (sometimes called 'bad') cholesterol fall by around 62% on average.\n\nThis is a very early-stage trial — its main purpose is to check that the treatment is safe and to find the right dose, not to prove it works in large numbers of people. Much more research is needed before any gene-editing treatment for cholesterol could become available to patients. Researchers say the result is an encouraging sign for the field, but it is not yet known whether the benefits last long-term or what the full safety profile looks like.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Eli Lilly reports 62% cholesterol reduction in Phase 1 trial of Verve gene-editing therapy",
+      "is_preprint": false,
+      "run_date": "2026-05-27",
+      "run_iso": "2026-05-27T10:53:44Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-05-27T08:30:00Z",
+        "novelty": 8
+      },
+      "slug": "eli-lilly-verve-gene-editing-cholesterol-phase1",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/05/GettyImages-2092486921-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-25T12:45:00Z",
+          "publisher": "Stat News",
+          "title": "Eli Lilly says Verve's gene editor lowers cholesterol levels in early study",
+          "url": "https://www.statnews.com/2026/05/25/eli-lilly-verv-102-gene-editing-cholesterol-phase-1-trial-data/?utm_campaign=rss"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-05-26T13:28:28Z",
+          "publisher": "Stat News",
+          "title": "Pharmalittle: We're reading about a Lilly gene therapy for cholesterol, three new Lilly deals, and more",
+          "url": "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Early data from a Phase 1 study of VERVE-102, a base-editing therapy targeting PCSK9, show substantial LDL-cholesterol reductions at high doses, though the therapy remains at an early investigational stage.",
+      "summary": "Eli Lilly has reported Phase 1 clinical trial data for VERVE-102, a gene-editing therapy developed in partnership with Verve Therapeutics that uses adenine base editing to permanently reduce expression of PCSK9 in the liver. At the highest dose tested, participants showed a mean 62% reduction in LDL-cholesterol levels, according to data disclosed by Lilly on 25 May 2026 and reported by STAT News.\n\nVERVE-102 is delivered via lipid nanoparticles and is designed to make a single nucleotide change in the PCSK9 gene rather than introducing a double-strand break, a design choice intended to reduce the risk of unintended genomic alterations. The therapy targets the same biological pathway as the existing class of injectable PCSK9 inhibitor antibodies, but aims to achieve a durable effect from a single administration.\n\nThe Phase 1 trial is a first-in-human safety and dose-finding study; the 62% figure comes from a small number of participants at the highest dose cohort. Longer-term durability data, a full safety profile, and larger trial cohorts will be necessary before the approach can be assessed for broader use. Regulatory approval is many years away. Researchers and analysts have noted the result as encouraging for the base-editing field, though the Phase 1 context means considerable uncertainty remains about efficacy and safety at scale.\n\nThe disclosure follows Lilly's broader expansion into gene-editing approaches for cardiometabolic disease, including several acquisitions of vaccine and biotechnology developers announced in the same week.",
+      "tags": [
+        "gene-editing",
+        "base-editing",
+        "pcsk9",
+        "cholesterol",
+        "cardiovascular-genetics",
+        "clinical-trial-news",
+        "verve-therapeutics",
+        "eli-lilly"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Evolutionary study traces human blood cell origins to single-celled ancestors 700 million years ago",
+      "is_preprint": false,
+      "run_date": "2026-05-27",
+      "run_iso": "2026-05-27T10:53:44Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-05-27T05:37:04Z",
+        "novelty": 7
+      },
+      "slug": "blood-cell-evolution-single-celled-ancestors-700mya",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-27T05:37:04Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover ancient single-celled ancestors still live on in your blood",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260526022006.htm"
+        }
+      ],
+      "standfirst": "A reconstructed evolutionary family tree of blood cells suggests that key features of the human immune system are inherited from unicellular life forms predating the emergence of animals.",
+      "summary": "Researchers have published evidence that human blood cells share deep evolutionary ancestry with single-celled organisms that lived approximately 700 million years ago, predating the emergence of multicellular animal life. The study, reported by ScienceDaily on 27 May 2026, describes the reconstruction of a molecular evolutionary family tree for blood cell types, using comparative genomics to identify conserved gene expression programmes across distantly related species.\n\nThe findings suggest that the cellular machinery underlying immune function in modern vertebrates — including human immune cells — did not arise de novo in animals but instead co-opted and elaborated programmes already present in their unicellular forebears. The researchers identified transcription factor networks and gene regulatory modules shared between human haematopoietic lineages and the ancestral unicellular relatives.\n\nThe work contributes to a growing body of evolutionary cell biology research that uses large-scale comparative genomics to place animal cell types in their deep evolutionary context. Understanding the ancient origins of blood cell programmes may, in the longer term, inform research into how immune cell diversity arises during development and how it can go wrong in disease — but the study itself is a basic evolutionary genomics finding rather than a translational advance.\n\nThe primary publication details, including the journal and the lead institution, were not fully specified in the available reporting; the lede attributes the work to a team of scientists without further institutional identification.",
+      "tags": [
+        "evolutionary-genomics",
+        "haematopoiesis",
+        "immune-system",
+        "comparative-genomics",
+        "unicellular-ancestors",
+        "deep-homology",
+        "cell-type-evolution"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics paper introduces MR2G framework for inferring causal networks from GWAS summary data",
+      "is_preprint": false,
+      "run_date": "2026-05-27",
+      "run_iso": "2026-05-27T10:53:44Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-26T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "mr2g-causal-network-inference-gwas-summary-data",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-26T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "MR2G: A novel framework for causal network inference using GWAS summary data",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012144"
+        }
+      ],
+      "standfirst": "A new Mendelian randomisation framework called MR2G addresses the challenge of reconstructing directional causal networks among multiple traits when relationship directions are unknown, including in the presence of feedback loops.",
+      "summary": "Researchers Zhaotong Lin, Wei Pan, and Haoran Xue have published a paper in *PLOS Genetics* presenting MR2G, a novel computational framework for inferring causal networks among multiple traits using genome-wide association study (GWAS) summary statistics. The study, published on 26 May 2026, addresses a recognised limitation of existing Mendelian randomisation (MR) approaches: standard two-trait MR methods require the analyst to specify a causal direction in advance, which is not always possible when studying complex biological systems.\n\nMR2G uses genetic variants as instrumental variables to estimate causal effects across a set of traits simultaneously, and is specifically designed to handle scenarios where the directions of causal relationships are unknown or where cycles and feedback loops exist in the underlying biology. The authors report that such cyclic structures are common in gene regulatory and metabolic networks, and that ignoring them can bias or distort causal inference.\n\nThe paper includes simulation studies and applications to real GWAS datasets, and the framework is positioned as an advance over existing multi-trait MR methods in its ability to recover network topology under these conditions. MR2G adds to a set of recent methodological developments in statistical genetics aimed at moving from pairwise causal estimates to richer network-level causal inference.\n\nThis is a methods-focused paper in statistical genetics; the immediate application is to research settings where multi-trait GWAS data are available and causal architecture is of interest.",
+      "tags": [
+        "mendelian-randomisation",
+        "gwas",
+        "causal-inference",
+        "statistical-genetics",
+        "network-inference",
+        "instrumental-variables",
+        "multi-trait"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "ZBP1 identified as immunoregulator reshaping 'cold' tumour microenvironments in head and neck cancer",
+      "is_preprint": false,
+      "run_date": "2026-05-27",
+      "run_iso": "2026-05-27T10:53:44Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-05-26T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "zbp1-cd8-t-cell-immunity-head-neck-squamous-carcinoma",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-26T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "ZBP1 Drives CD8+ T cell-mediated anti-tumor immunity in head and neck squamous cell carcinoma",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107"
+        }
+      ],
+      "standfirst": "A study integrating TCGA data with multiplex immunofluorescence identifies Z-DNA binding protein 1 as a hub gene correlating with cytotoxic T-cell infiltration in head and neck squamous cell carcinoma that resists PD-1 blockade.",
+      "summary": "Researchers have identified Z-DNA binding protein 1 (ZBP1) as a candidate immunoregulatory hub in head and neck squamous cell carcinoma (HNSCC), a cancer type that frequently resists programmed cell death protein 1 (PD-1) checkpoint blockade due to an immunologically 'cold' tumour microenvironment (TME). The paper, authored by Yu Min and colleagues and published in *PLOS Genetics* on 26 May 2026, used integrated analysis of The Cancer Genome Atlas (TCGA) and SangerBox datasets alongside multiplex immunofluorescence on patient tumour samples.\n\nThe study found that high ZBP1 expression correlated with increased infiltration of cytotoxic CD8-positive T cells (Pearson r = 0.48) and was associated with improved predicted responses to immunotherapy. Mechanistically, the authors show that ZBP1 reprogrammes the immunosuppressive TME, increasing the ratio of CD8-positive to CD4-positive T cells and modulating CD68-positive macrophage populations. Clinically, high ZBP1 expression predicted better outcomes in patients treated with PD-1 blockade in the datasets examined.\n\nThe findings are based on retrospective genomic and transcriptomic analyses and correlative immunofluorescence data. Experimental validation in model systems and prospective clinical evidence would be needed to determine whether ZBP1 status has utility in stratifying patients for immunotherapy or as a therapeutic target. The research contributes to ongoing efforts to identify molecular determinants of immunotherapy response in HNSCC, where treatment options for non-responders remain limited.",
+      "tags": [
+        "head-and-neck-cancer",
+        "hnscc",
+        "zbp1",
+        "tumour-microenvironment",
+        "immunotherapy",
+        "pd-1-blockade",
+        "cd8-t-cells",
+        "cancer-immunogenomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint describes embryonic marker-based screen for detecting meiotic drive alleles",
+      "is_preprint": true,
+      "run_date": "2026-05-27",
+      "run_iso": "2026-05-27T10:53:44Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-05-26T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "meiotic-drive-screen-embryonic-markers-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-26T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A method to screen for meiotic drive using embryonic markers",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.22.727232v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint introduces a method using early embryonic markers to screen for meiotic drivers — selfish genetic elements that bias their own transmission through gametogenesis — aiming to make detection more tractable in under-studied organisms.",
+      "summary": "Researchers have posted a bioRxiv preprint presenting a new screening methodology for identifying meiotic drive alleles using embryonic markers as a readout. Meiotic drivers are selfish genetic elements that subvert the normally fair segregation of chromosomes during meiosis to increase their own transmission to offspring, even at a cost to the organism's overall fitness. Despite their importance for understanding rapid karyotype evolution, the emergence of reproductive isolation, and evolutionary arms races between selfish elements and host suppressor loci, relatively few meiotic drivers have been well characterised at a molecular level.\n\nThe preprint, posted on 26 May 2026 via bioRxiv (Cold Spring Harbor Laboratory), describes a strategy that uses phenotypic markers visible in early embryos as a proxy readout for biased segregation. The approach is designed to be broadly applicable across organisms where conventional population-genetic or cytological screens are difficult to implement at scale.\n\nThe authors argue that the scarcity of characterised meiotic drivers reflects methodological limitations as much as biological rarity, and that improved screening tools may uncover a more widespread incidence of drive phenomena across taxa. The preprint has not yet been peer-reviewed; full methodological and experimental details are available in the deposited manuscript.",
+      "tags": [
+        "meiotic-drive",
+        "selfish-genetic-elements",
+        "gametogenesis",
+        "karyotype-evolution",
+        "reproductive-isolation",
+        "functional-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint validates new psychometric instrument for measuring genetic literacy in general populations",
+      "is_preprint": true,
+      "run_date": "2026-05-27",
+      "run_iso": "2026-05-27T10:53:44Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-05-26T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "eagl-genetic-literacy-measure-psychometric-validation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-26T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Psychometric Validation of the Education and Assessment of Genetic Literacy (EAGL) Measure",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.22.727229v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports exploratory and confirmatory factor analysis of the EAGL measure in 2,708 US participants, introducing a knowledge comprehension subscale alongside standard subjective and objective knowledge components.",
+      "summary": "Researchers have posted a bioRxiv preprint reporting the psychometric validation of the Education and Assessment of Genetic Literacy (EAGL) measure, a new instrument designed to assess genetic literacy across general population samples. The study, deposited on 26 May 2026, used a sample of 2,708 US participants and applied both exploratory and confirmatory factor analysis to establish the measure's structure and validity.\n\nExisting widely used genetic literacy scales have been criticised for lacking validated knowledge comprehension components — that is, items that go beyond recall and test whether respondents can meaningfully interpret genetic information. The EAGL measure addresses this by including three subscales: a subjective knowledge subscale (self-assessed understanding), an objective knowledge subscale (factual recall), and a distinct knowledge comprehension subscale. For the comprehension component, the authors used autism spectrum condition as an illustrative example of a complex, polygenic condition, testing whether participants could reason appropriately about genetic risk and inheritance in that context.\n\nRegression analyses in the preprint examine predictors of each subscale, separating factors associated with self-perceived from demonstrated genetic knowledge. The authors argue that the distinction matters for interpreting public engagement with genetic testing and genomic medicine.\n\nThe EAGL instrument and its validation data are likely to be of interest to genetics educators, researchers in public understanding of genomics, and genetic counsellors who develop patient-facing communication resources. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "genetic-literacy",
+        "public-understanding-of-genetics",
+        "psychometrics",
+        "genetic-education",
+        "health-communication",
+        "factor-analysis",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-05-25T11:08:44.871677+00:00",
+  "last_run": "2026-05-27T10:55:45.299768+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012133": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012137": "2026-05-19T10:37:43.421038+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012141": "2026-05-16T19:47:15.642106+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012144": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012152": "2026-05-20T10:24:39.370157+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012154": "2026-05-21T10:40:08.951688+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012155": "2026-05-20T10:24:39.370157+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012156": "2026-05-21T10:40:08.951688+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012158": "2026-05-21T10:40:08.951688+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012168": "2026-05-27T10:55:45.299768+00:00",
     "https://news.cancerresearchuk.org/2026/04/23/cancer-in-the-uk-2026-cases-exceed-400000-for-the-first-time/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/27/latest-winner-in-our-research-is-beautiful-competition-2/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/27/tobacco-and-vapes-bill-isnt-an-affront-to-personal-freedom-its-a-defence-against-deadly-addiction/": "2026-05-16T19:47:15.642106+00:00",
@@ -2304,6 +2580,9 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.20.726538v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.20.726645v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.21.726797v1?rss=1": "2026-05-24T09:20:24.818795+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.21.726896v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.22.727229v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.22.727232v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/lifesaving-spring-covid-19-jab-offers-protection-to-millions-of-vulnerable-people/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/nhs-detects-tens-of-thousands-of-bowel-cancers-thanks-to-screening-programme/": "2026-05-16T19:47:15.642106+00:00",
@@ -2344,6 +2623,9 @@
     "https://www.sciencedaily.com/releases/2026/05/260523103910.htm": "2026-05-25T11:08:44.871677+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260523103943.htm": "2026-05-25T11:08:44.871677+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260523103947.htm": "2026-05-25T11:08:44.871677+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260526022006.htm": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260526022018.htm": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260526233433.htm": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/14/psa-tests-reduce-risk-prostate-cancer-deaths-new-study-cochrane-review/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/readout-loud-podcast-makary-fda-trump-cassidy-senate/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/supreme-court-preserves-access-abortion-pill-mifepristone/": "2026-05-16T19:47:15.642106+00:00",
@@ -2443,6 +2725,24 @@
     "https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/2026/05/22/state-of-mens-health-act-new-office-slowed/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/2026/05/23/perimenopause-misinformation-influencers-supplements-hormones/?utm_campaign=rss": "2026-05-24T09:20:24.818795+00:00",
+    "https://www.statnews.com/2026/05/25/eli-lilly-verv-102-gene-editing-cholesterol-phase-1-trial-data/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/ai-biotech-bighat-biosciences-ceo-on-ai-drug-development-hype/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/biotech-news-eli-lilly-spends-more-of-its-glp-1-cash/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/ebola-outbreak-congo-violence-women-girls/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/eli-lilly-acquisitions-vaccine-developers/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/health-news-ebola-outbreak-continues-to-worsen/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/humira-patents-abbvie-innovation-pharma-monopoly-excerpt/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/kyle-diamantas-acting-fda-commissioner-wins-trust-exceeds-expectations/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/kyle-diamantas-fda-draws-praise-nih-leadership-vacuum-dc-diagnosis/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/medicaid-cuts-loom-health-insurance-cost-climbs-no-surprises-act/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/pepfar-state-department-plan-dismantling-hiv-cdc/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/trump-annual-physicial-medical-exam-public-scrutiny/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/26/utah-doctronic-ai-experiment-early-data-health-tech/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/flavored-vapes-e-cigarettes-fda-trump-durbin/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/longevity-movement-shift-fringe-idea-to-big-business/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/science-enterprise-replication-crisis-ivory-tower-community/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/stanford-patient-panels-feedback-on-ai-shaping-health-care/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/unvaccinated-blood-transfusions-directed-donation-interview/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/": "2026-05-16T19:47:15.642106+00:00",
@@ -2459,6 +2759,7 @@
     "https://www.statnews.com/pharmalot/2026/05/21/lilly-obesity-drug-trial-alzheimer-drug-claims-questioned/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/pharmalot/2026/05/22/genentech-soliciting-academics-write-papers-to-blunt-pharma-reforms-dc/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/pharmalot/2026/05/22/parkinson-drug-trial-setback-merck-lung-cancer-therapy/?utm_campaign=rss": "2026-05-23T09:01:17.605948+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "multiple PLOS Genetics primary research articles — specialist model-organism or plant-biology studies": "2026-05-16T19:47:15.642106+00:00",
     "multiple ScienceDaily items — off-topic for genetics (gum disease quorum sensing, coral reef microbes, COVID natural compounds, biomaterial tissue repair, travel and ageing, Alzheimer's arginine supplement, cholesterol DNA molecules, cannabis flavoalkaloids, fish oil brain injury, gut bacteria depression, choline anxiety, lipid nanoparticle mRNA delivery, life-of-life origin freezing, axolotl limb regeneration, blood stem cell rejuvenation, senescent cell GPX4 drugs, obesity HSL protein, kidney lubiprostone, constipation drug)": "2026-05-16T19:47:15.642106+00:00",
     "multiple Springer Nature articles — tRNA fragments breast cancer, cfDNA fragmentomics eating disorders, SCOTCH long-read scRNA-seq, ABCD1 Drosophila, SACS spastic ataxia Pakistan, HLA-C KIR birth weight": "2026-05-16T19:47:15.642106+00:00",
