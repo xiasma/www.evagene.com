@@ -113,10 +113,10 @@ Canonical counts (keep consistent across every page, llms.txt, llms-full.txt, si
 | Claim | Current value | Source |
 |---|---|---|
 | Risk models + CanRisk bridge | **20** (exact) + CanRisk bridge | 7 single-gene-adjacent + 1 polygenic engine + 3 BayesMendel + 9 family-history scoring |
-| Disease catalogue | **200+** | `ls ../evagene/docs/guides/diseases/*.md \| wc -l` currently returns 207 |
+| Disease catalogue | **230+** | `ls ../evagene/docs/guides/diseases/*.md \| wc -l` currently returns 233 |
 | Complex / polygenic / oligogenic conditions | **20+** | Subset with empirical recurrence tables (22 confirmed + major depression = 23) |
-| Help-catalogue guides | **1,900+** | 1,906 individual guides across 6 catalogues (diseases, traits, allergies, clinical tests, markers / genes, treatments); external refs LOINC, NCBI Gene, OMIM, ClinVar, RxNorm, BNF, DrugBank. Browse at `https://evagene.net/help/#browse` |
-| Disease guides (subset of above) | **200+** | 207 `.md` files in `../evagene/docs/guides/diseases/` |
+| Help-catalogue guides | **1,900+** | 1,924 individual guides across 6 catalogues (diseases 233, clinical tests 713, treatments 729, markers / genes 150, allergies 53, traits 46); external refs LOINC, NCBI Gene, OMIM, ClinVar, RxNorm, BNF, DrugBank. Browse at `https://evagene.net/help/#browse` |
+| Disease guides (subset of above) | **230+** | 233 `.md` files in `../evagene/docs/guides/diseases/` |
 | Role-specific workflow guides | **8** | One per persona |
 | Allergies | **50+** · Traits: **50+** | Catalogues in app |
 | Research-paper citations | **4** · Institutions: **10+** | `research-citations.html` |

@@ -47,7 +47,7 @@ Clicking any individual, relationship, or offspring opens a floating panel for d
 
 ### Disease Management
 
-Catalogue of 220+ diseases spanning oncology, cardiology, neurology, metabolic disorders, and 20+ multifactorial / polygenic / oligogenic complex conditions. A dedicated disease management dashboard lets users search, browse by taxonomy, apply quick-add presets (heritable cancers, cardiovascular), filter by inheritance class, and assign custom colours. Each disease entry includes:
+Catalogue of 230+ diseases spanning oncology, cardiology, neurology, metabolic disorders, and 20+ multifactorial / polygenic / oligogenic complex conditions. A dedicated disease management dashboard lets users search, browse by taxonomy, apply quick-add presets (heritable cancers, cardiovascular), filter by inheritance class, and assign custom colours. Each disease entry includes:
 - ICD-10 code and OMIM ID
 - Colour coding and categorisation
 - Inheritance pattern (autosomal dominant/recessive, X-linked, mitochondrial, multifactorial, polygenic, oligogenic)
@@ -275,14 +275,14 @@ Evagene includes 1,900+ help guides accessible at https://evagene.net/help. Six 
 ### Reference Documentation
 - Features & Benefits — Complete feature overview
 - Risk Models — BRCAPRO, MMRpro, PancPRO, Mendelian models, linkage analysis
-- Disease Catalogue — 200+ diseases with ICD-10, OMIM, inheritance patterns
+- Disease Catalogue — 230+ diseases with ICD-10, OMIM, inheritance patterns
 - Allergy Catalogue — 55+ allergies across 6 categories
 - Trait Catalogue — 50+ traits across 6 categories
 - Clinical Test Catalogue — Test types and reference ranges
 - Intervention Catalogue — Treatment and medication categories
 - Keyboard Shortcuts — Complete shortcut reference
 
-### Disease-Specific Guides (200+ guides)
+### Disease-Specific Guides (230+ guides)
 Individual guides for each disease in the catalogue, covering genetics, symptoms, testing, prognosis, and how to use Evagene for analysis. Diseases include:
 Achondroplasia, Alagille Syndrome, Alzheimer's Disease (familial), Angelman Syndrome, Breast Cancer (hereditary), Brugada Syndrome, Charcot-Marie-Tooth Disease, Cystic Fibrosis, Down Syndrome, Duchenne Muscular Dystrophy, Ehlers-Danlos Syndrome, Fabry Disease, Familial Adenomatous Polyposis, Familial Hypercholesterolaemia, Fragile X Syndrome, Friedreich's Ataxia, Gaucher Disease, Haemophilia A/B, Hereditary Breast and Ovarian Cancer Syndrome, Huntington's Disease, Hypertrophic Cardiomyopathy, Li-Fraumeni Syndrome, Long QT Syndrome, Lynch Syndrome, Marfan Syndrome, Multiple Endocrine Neoplasia (Type 1 & 2), Myotonic Dystrophy, Neurofibromatosis (Type 1 & 2), Noonan Syndrome, Osteogenesis Imperfecta, Phenylketonuria, Polycystic Kidney Disease, Retinoblastoma, Sickle Cell Disease, Spinal Muscular Atrophy, Tay-Sachs Disease, Thalassaemia, Tuberous Sclerosis, Turner Syndrome, Von Hippel-Lindau Syndrome, Von Willebrand Disease, Williams Syndrome, Wilson's Disease, and 140+ more.
 
@@ -291,7 +291,7 @@ Achondroplasia, Alagille Syndrome, Alzheimer's Disease (familial), Angelman Synd
 ## Frequently Asked Questions
 
 ### What is Evagene?
-Evagene is a web-based academic, research, and educational pedigree modelling platform for teaching, training, research, and family-history documentation. It lets users draw, annotate, and explore family pedigrees with standard genetic notation, implementations of published BayesMendel risk-model algorithms (BRCAPRO, MMRpro, PancPRO), Mendelian inheritance teaching models, AI-assisted draft summaries for educational review, blood type and trait inference from 23andMe SNP data, a 200+ disease catalogue, and interoperability with GEDCOM, 23andMe, and other formats. Not a medical device; not intended for clinical decision-making.
+Evagene is a web-based academic, research, and educational pedigree modelling platform for teaching, training, research, and family-history documentation. It lets users draw, annotate, and explore family pedigrees with standard genetic notation, implementations of published BayesMendel risk-model algorithms (BRCAPRO, MMRpro, PancPRO), Mendelian inheritance teaching models, AI-assisted draft summaries for educational review, blood type and trait inference from 23andMe SNP data, a 230+ disease catalogue, and interoperability with GEDCOM, 23andMe, and other formats. Not a medical device; not intended for clinical decision-making.
 
 ### What is BRCAPRO and how does Evagene use it?
 BRCAPRO is a Bayesian statistical model that estimates the probability of carrying a BRCA1 or BRCA2 mutation and projects future breast and ovarian cancer risk based on family history. Evagene integrates BRCAPRO via the BayesMendel R package. Users draw a family pedigree, mark cancer diagnoses with ages, and run the model directly within the application.
