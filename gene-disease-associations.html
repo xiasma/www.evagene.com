@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gene and Shared-Gene Associations — Educational Genotype–Phenotype Edges | Evagene</title>
+    <meta name="description" content="How Evagene auto-derives genetic_association and shared_gene edges from its marker catalogue: which conditions, traits, and allergies share a gene. Educational genotype–phenotype exploration, not risk prediction.">
+    <meta name="keywords" content="gene disease associations, shared gene explorer, genotype phenotype associations, pleiotropy teaching, gene to trait associations, marker derived edges, educational genetics, Evagene correlation graph">
+    <meta property="og:title" content="Gene and Shared-Gene Associations — Evagene">
+    <meta property="og:description" content="Evagene reads its marker catalogue and adds genetic_association and shared_gene edges automatically — which conditions share a gene, and which genes link a disease to a trait. Educational, not risk prediction.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/gene-disease-associations">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gene and Shared-Gene Associations — Evagene">
+    <meta name="twitter:description" content="Auto-derived genetic_association and shared_gene edges in Evagene's educational correlation graph. Which conditions share a gene. Not risk prediction.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/gene-disease-associations">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config={darkMode:'class',theme:{extend:{colors:{brand:{50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d'},accent:{400:'#e85d6f',500:'#c8102e',600:'#a60d25'},clinical:{50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a'}},fontFamily:{sans:['Inter','system-ui','-apple-system','sans-serif']}}}}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"Gene and shared-gene associations in Evagene's correlation graph",
+        "description":"How Evagene automatically derives genetic_association and shared_gene edges from its marker catalogue — which diseases, traits, and allergies are linked to a gene, and which entities share one. Educational genotype–phenotype exploration, not risk prediction.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-27","dateModified":"2026-05-27",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/gene-disease-associations"},
+        "image":"https://evagene.com/og-image.png"
+    }
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},{"@type":"ListItem","position":2,"name":"Related Concepts Explorer","item":"https://evagene.com/related-concepts-explorer"},{"@type":"ListItem","position":3,"name":"Gene and Shared-Gene Associations","item":"https://evagene.com/gene-disease-associations"}]}
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5"><img src="logo.png" alt="Evagene logo" class="h-8 w-auto"><span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span></a>
+            <div class="flex items-center gap-4"><a href="/news/" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-300" title="Genetic Current news"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg><span>News</span></a><a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a></div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2"><li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li><li><span class="text-gray-300 dark:text-gray-600">/</span></li><li><a href="related-concepts-explorer.html" class="hover:text-brand-600 dark:hover:text-brand-300">Related Concepts</a></li><li><span class="text-gray-300 dark:text-gray-600">/</span></li><li class="text-gray-700 dark:text-gray-300 font-medium">Gene &amp; Shared-Gene Associations</li></ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Gene and shared-gene associations</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Most of Evagene's <a href="related-concepts-explorer.html">correlation graph</a> is hand-curated, but the genetic edges are not — Evagene reads its marker catalogue and generates them automatically. Two kinds of edge fall out: a gene linked to the diseases, traits, and allergies it is associated with, and the entities that share a gene with one another. This is genotype–phenotype exploration for teaching and research, not risk prediction.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-27">27 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>7 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <div class="not-prose my-6 p-4 bg-clinical-50 dark:bg-clinical-500/10 border border-clinical-200 dark:border-clinical-500/30 rounded-lg">
+                <p class="text-sm text-clinical-900 dark:text-clinical-100 m-0"><strong>Educational reference data.</strong> "Shares a gene" is a statement about the catalogue, not about a person. These edges teach which catalogue entities are linked to the same gene so a learner can explore pleiotropy and shared genetic architecture. They produce no risk number, run no inheritance analysis, and assert nothing about any individual.</p>
+            </div>
+
+            <h2>Two auto-derived edge types</h2>
+
+            <p>Where the curated edges are written by hand with their own notes, the genetic edges are generated on the fly from the marker catalogue and tagged <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">source: marker-derived</code>. There are two:</p>
+
+            <ul>
+                <li><strong><code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">genetic_association</code></strong> — joins a gene / marker to each disease, trait, or allergy it is linked to in the marker catalogue. This is the gene-to-phenotype edge.</li>
+                <li><strong><code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">shared_gene</code></strong> — joins any two catalogue entities that are linked to the same gene / marker. This is the entity-to-entity edge that surfaces "these share a gene".</li>
+            </ul>
+
+            <p>Because they are regenerated from the marker catalogue at start-up, they stay in step with it automatically: add a gene–disease link to the catalogue and the corresponding edges appear without anyone hand-listing them. The curated genetic associations should therefore <em>not</em> be authored by hand — the marker catalogue is the single source for them.</p>
+
+            <h2>The gene-to-phenotype edge in practice</h2>
+
+            <p>A single gene is often linked to several entities, and not always of the same kind. A few examples drawn straight from the marker catalogue:</p>
+
+            <div class="not-prose my-6 overflow-x-auto">
+                <table class="w-full text-sm border-collapse">
+                    <thead><tr class="border-b border-gray-200 dark:border-brand-800"><th class="text-left py-2 pr-4 font-semibold text-gray-900 dark:text-white">Gene</th><th class="text-left py-2 font-semibold text-gray-900 dark:text-white">Linked entities (genetic_association)</th></tr></thead>
+                    <tbody class="text-gray-700 dark:text-gray-300">
+                        <tr class="border-b border-gray-100 dark:border-brand-900"><td class="py-2 pr-4 align-top"><strong>BRCA2</strong></td><td class="py-2">Breast cancer · ovarian cancer · pancreatic cancer · hereditary breast and ovarian cancer</td></tr>
+                        <tr class="border-b border-gray-100 dark:border-brand-900"><td class="py-2 pr-4 align-top"><strong>PTEN</strong></td><td class="py-2">Breast cancer · endometrial cancer · thyroid cancer · Cowden syndrome</td></tr>
+                        <tr class="border-b border-gray-100 dark:border-brand-900"><td class="py-2 pr-4 align-top"><strong>GBA</strong></td><td class="py-2">Gaucher disease · Parkinson's disease (familial)</td></tr>
+                        <tr><td class="py-2 pr-4 align-top"><strong>MITF</strong></td><td class="py-2">Melanoma (disease) · eye colour (trait)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>The MITF row shows the cross-kind case: the same gene links a disease and a trait, so the graph offers an educational bridge between concepts a learner might otherwise treat as unrelated. The GBA row is a classic teaching link between a recessive lysosomal storage disease and a neurodegenerative association — exactly the kind of connection a concept graph is built to surface.</p>
+
+            <h2>The shared-gene edge</h2>
+
+            <p>Wherever two entities are linked to the same gene, a <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">shared_gene</code> edge connects them directly. Because BRCA2 links breast, ovarian, and pancreatic cancer (and the HBOC entry), each of those pairs is joined by a shared-gene edge. So with breast cancer recorded on an individual, the <a href="related-concepts-explorer.html">Related concepts</a> panel can surface ovarian and pancreatic cancer under "shares a gene (BRCA2)", letting a learner explore the shared architecture.</p>
+
+            <div class="not-prose my-6 p-4 bg-accent-50 dark:bg-accent-500/10 border border-accent-200 dark:border-accent-500/30 rounded-lg">
+                <p class="text-sm text-accent-900 dark:text-accent-100 m-0"><strong>"Shares a gene" is not "carries the same risk".</strong> A shared-gene edge says two conditions are linked to the same gene in the catalogue. It does not say they share a mechanism, a penetrance, or a recurrence risk, and it makes no statement about any person. For inheritance probabilities and published risk models, Evagene's separate <a href="mendelian-inheritance-calculator.html">Mendelian inheritance</a> and <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk</a> tools are the right place — and they are themselves explicitly educational implementations.</p>
+            </div>
+
+            <h2>How it appears in the editor</h2>
+
+            <p>With a marker or a gene-linked condition recorded on an individual, the Related concepts panel groups genetic suggestions under the recorded item — for example "Because BRCA2 is recorded:" or "shares a gene with Breast cancer:". Ticking a suggestion records it on the individual; the graph never records anything by inference. The "explore any concept" search lets a learner pull up everything linked to a gene without recording it on anyone, which makes it a quick way to teach pleiotropy and the one-gene-many-phenotypes idea.</p>
+
+            <h2 id="boundaries">Boundaries</h2>
+
+            <ul>
+                <li>Genetic edges are <strong>derived from catalogue links</strong>, not from any individual's genotype, and they assert nothing about any person.</li>
+                <li>A <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">shared_gene</code> edge is a catalogue relationship, not a claim of shared risk, shared mechanism, or shared inheritance.</li>
+                <li>No risk number is produced and no inheritance analysis is run from these edges.</li>
+                <li>Evagene is an academic, research, and educational pedigree modelling platform — not a medical device, not clinical decision support, and not a diagnostic or screening tool.</li>
+            </ul>
+
+            <h2>Further reading</h2>
+            <ul>
+                <li><a href="related-concepts-explorer.html">Related Concepts Explorer</a> — the full correlation graph and how the editor panel works.</li>
+                <li><a href="biomarker-disease-associations.html">Biomarker and condition associations</a> — the status-qualified clinical-test edges.</li>
+                <li><a href="genetics-concept-map.html">A genetics concept map for teaching</a>.</li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a> · <a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a>.</li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Explore the Related Concepts panel</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">No credit card, no enterprise sales cycle &mdash; free access during Alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25">Join the Alpha Waiting List</a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2"><div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div><p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. For research, education, and family-history documentation; not a medical device.</p></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Related Concepts</h4><ul class="space-y-2 text-sm"><li><a href="related-concepts-explorer.html" class="hover:text-white">Related Concepts Explorer</a></li><li><a href="biomarker-disease-associations.html" class="hover:text-white">Biomarker &amp; Condition Associations</a></li><li><a href="gene-disease-associations.html" class="hover:text-white">Gene &amp; Shared-Gene Associations</a></li><li><a href="genetics-concept-map.html" class="hover:text-white">Genetics Concept Map</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white">Mendelian Inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white">Cancer Risk Assessment</a></li><li><a href="platform.html" class="hover:text-white">Platform &amp; Integrations</a></li><li><a href="compare.html" class="hover:text-white">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400">Terms of Service</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

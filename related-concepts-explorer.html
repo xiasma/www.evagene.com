@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Related Concepts Explorer — Evagene's Educational Correlation Graph | Evagene</title>
+    <meta name="description" content="Evagene's Related Concepts panel surfaces educational associations between diseases, traits, clinical-test results, allergies, and genetic markers — a hand-curated correlation graph. Not diagnosis, no risk number.">
+    <meta name="keywords" content="related concepts, correlation graph, disease trait associations, biomarker disease associations, gene disease associations, shared gene explorer, educational genetics tool, genetics concept map, Evagene related concepts panel">
+    <meta property="og:title" content="Related Concepts Explorer — Evagene's Educational Correlation Graph">
+    <meta property="og:description" content="A hand-curated correlation graph linking diseases, traits, clinical-test results, allergies, and markers, plus genetic edges derived from the marker catalogue. Educational reference data — not risk analysis, not diagnosis.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/related-concepts-explorer">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Related Concepts Explorer — Evagene">
+    <meta name="twitter:description" content="A curated educational correlation graph across diseases, traits, tests, allergies, and markers. Surfaced in the editor's Related concepts panel. Not diagnosis, no risk number.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/related-concepts-explorer">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config={darkMode:'class',theme:{extend:{colors:{brand:{50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d'},accent:{400:'#e85d6f',500:'#c8102e',600:'#a60d25'},clinical:{50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a'}},fontFamily:{sans:['Inter','system-ui','-apple-system','sans-serif']}}}}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"TechArticle",
+        "headline":"Related Concepts: Evagene's educational correlation graph",
+        "description":"A hand-curated correlation graph linking diseases, traits, clinical-test results, allergies, and markers, plus genetic edges derived automatically from the marker catalogue. Educational reference data surfaced in the editor's Related concepts panel — not risk analysis and not a claim about any person.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-05-27","dateModified":"2026-05-27",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/related-concepts-explorer"},
+        "image":"https://evagene.com/og-image.png"
+    }
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},{"@type":"ListItem","position":2,"name":"Related Concepts Explorer","item":"https://evagene.com/related-concepts-explorer"}]}
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5"><img src="logo.png" alt="Evagene logo" class="h-8 w-auto"><span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span></a>
+            <div class="flex items-center gap-4"><a href="/news/" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-300" title="Genetic Current news"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg><span>News</span></a><a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a></div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2"><li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li><li><span class="text-gray-300 dark:text-gray-600">/</span></li><li class="text-gray-700 dark:text-gray-300 font-medium">Related Concepts Explorer</li></ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Related Concepts: Evagene's educational correlation graph</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Evagene already catalogues diseases, traits, clinical-test results, allergies, and genetic markers. The correlation graph connects them: a hand-curated set of educational associations that the editor's <strong>Related concepts</strong> panel surfaces for whatever is recorded on an individual. It teaches which concepts tend to be associated with one another so a learner can explore them. It is reference data — not risk analysis, not diagnosis, and not a claim about any person.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-05-27">27 May 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>9 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <div class="not-prose my-6 p-4 bg-clinical-50 dark:bg-clinical-500/10 border border-clinical-200 dark:border-clinical-500/30 rounded-lg">
+                <p class="text-sm text-clinical-900 dark:text-clinical-100 m-0"><strong>Educational reference data.</strong> The correlation graph sits in the same family as Evagene's disease, trait, allergy, and clinical-test catalogues. It describes <em>which concepts tend to be associated with one another</em>. It does not diagnose, it asserts nothing about any individual, and it produces no risk number. A concept is recorded on a person only when a user records it — never by inference.</p>
+            </div>
+
+            <h2>What the correlation graph is</h2>
+
+            <p>A clinician or educator working in Evagene records concepts on individuals in a pedigree: a disease on an affected relative, a recorded clinical-test result, an allergy, a trait, a genetic marker. The correlation graph is a catalogue of <strong>educational associations</strong> between exactly those kinds of entities. Where two catalogue entries are recognised as associated — a low ferritin and iron-deficiency anaemia, two conditions that share a gene, a finding that commonly accompanies a condition — the graph records an edge between them with a short, neutral explanation.</p>
+
+            <p>It is the same shape of artefact as the <a href="mendelian-inheritance-calculator.html">disease catalogue</a> or the help-catalogue guides: curated reference material a learner can browse. It teaches associations so they can be explored; it never states that a subject has a condition.</p>
+
+            <h2>How an association is modelled</h2>
+
+            <p>Each association is an <strong>edge</strong> joining two endpoints. An endpoint has a <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">kind</code> — one of five: disease, trait, clinical-test result, allergy, or marker — and names a real entry in the corresponding catalogue. Every edge also carries:</p>
+
+            <ul>
+                <li><strong>relationship</strong> — a term from a fixed, eight-term vocabulary (below), so associations stay consistent and mean the same thing everywhere.</li>
+                <li><strong>note</strong> — a short, neutral educational explanation of the association.</li>
+                <li><strong>strength</strong> — optionally strong, moderate, or weak.</li>
+                <li><strong>directional</strong> — whether the association reads naturally in one direction (a finding pointing to a condition) rather than both.</li>
+                <li><strong>source</strong> — <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">curated</code> for hand-authored edges, <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">marker-derived</code> for edges Evagene generates automatically from the marker catalogue.</li>
+            </ul>
+
+            <h3 class="mt-8">The relationship vocabulary</h3>
+
+            <div class="not-prose my-6 overflow-x-auto">
+                <table class="w-full text-sm border-collapse">
+                    <thead><tr class="border-b border-gray-200 dark:border-brand-800"><th class="text-left py-2 pr-4 font-semibold text-gray-900 dark:text-white">Relationship</th><th class="text-left py-2 font-semibold text-gray-900 dark:text-white">Meaning</th></tr></thead>
+                    <tbody class="text-gray-700 dark:text-gray-300">
+                        <tr class="border-b border-gray-100 dark:border-brand-900"><td class="py-2 pr-4 align-top"><code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 rounded">genetic_association</code></td><td class="py-2">A gene / marker is associated with a disease, trait, or allergy.</td></tr>
+                        <tr class="border-b border-gray-100 dark:border-brand-900"><td class="py-2 pr-4 align-top"><code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 rounded">shared_gene</code></td><td class="py-2">Two entities linked to the same gene / marker.</td></tr>
+                        <tr class="border-b border-gray-100 dark:border-brand-900"><td class="py-2 pr-4 align-top"><code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 rounded">biomarker</code></td><td class="py-2">A clinical-test result that acts as a laboratory marker associated with a condition (e.g. a raised fasting glucose and type 2 diabetes).</td></tr>
+                        <tr class="border-b border-gray-100 dark:border-brand-900"><td class="py-2 pr-4 align-top"><code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 rounded">associated_finding</code></td><td class="py-2">A test result or observation that commonly accompanies a condition (e.g. a low mean cell haemoglobin alongside iron-deficiency anaemia).</td></tr>
+                        <tr class="border-b border-gray-100 dark:border-brand-900"><td class="py-2 pr-4 align-top"><code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 rounded">associated_condition</code></td><td class="py-2">Two conditions recognised as associated with one another.</td></tr>
+                        <tr class="border-b border-gray-100 dark:border-brand-900"><td class="py-2 pr-4 align-top"><code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 rounded">shares_features</code></td><td class="py-2">Two entities that share overlapping features.</td></tr>
+                        <tr class="border-b border-gray-100 dark:border-brand-900"><td class="py-2 pr-4 align-top"><code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 rounded">sequela</code></td><td class="py-2">A consequence that can follow on from a condition.</td></tr>
+                        <tr><td class="py-2 pr-4 align-top"><code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 rounded">risk_association</code></td><td class="py-2">A factor associated with a raised likelihood of a condition.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Two sources: curated and marker-derived</h2>
+
+            <p>The graph is assembled from two sources at start-up, giving both the considered associations a curator wants to teach and the broader "these share a gene" connections that fall out of the marker catalogue:</p>
+
+            <ul>
+                <li><strong>Curated edges</strong> — over <strong>1,100 hand-authored associations</strong>, each written with its own educational note and relationship term. These are the considered connections: biomarkers and findings, associated conditions, shared features, sequelae, and risk associations.</li>
+                <li><strong>Auto-derived genetic edges</strong> — Evagene reads the marker catalogue and adds two kinds of edge on the fly, both tagged <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">marker-derived</code>: a <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">genetic_association</code> edge between a gene / marker and each disease, trait, or allergy it is linked to, and a <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">shared_gene</code> edge between any two entities linked to the same marker.</li>
+            </ul>
+
+            <h2>Status-qualified clinical-test edges</h2>
+
+            <p>A clinical-test result means different things depending on whether it is low or high, so a clinical-test endpoint can be qualified by a status. The graph then surfaces different associations for each direction. The headline example is <strong>ferritin</strong>:</p>
+
+            <div class="not-prose my-6 grid sm:grid-cols-2 gap-4">
+                <div class="p-4 bg-brand-50 dark:bg-brand-900/30 border border-brand-200 dark:border-brand-800 rounded-lg">
+                    <p class="text-sm font-semibold text-brand-800 dark:text-brand-200 m-0 mb-1">Ferritin — low</p>
+                    <p class="text-sm text-gray-700 dark:text-gray-300 m-0">Associated with <strong>iron-deficiency anaemia</strong> and <strong>restless legs syndrome</strong>.</p>
+                </div>
+                <div class="p-4 bg-brand-50 dark:bg-brand-900/30 border border-brand-200 dark:border-brand-800 rounded-lg">
+                    <p class="text-sm font-semibold text-brand-800 dark:text-brand-200 m-0 mb-1">Ferritin — high</p>
+                    <p class="text-sm text-gray-700 dark:text-gray-300 m-0">Associated with <strong>hereditary haemochromatosis</strong>.</p>
+                </div>
+            </div>
+
+            <p>When an individual has a ferritin value recorded that comes out low, the panel offers the low-ferritin associations; when it comes out high, it offers the high-ferritin association instead. A test that is recorded but not marked low or high surfaces only the associations that do not depend on direction — never the direction-specific ones. See the <a href="biomarker-disease-associations.html">biomarker and condition associations</a> page for more on clinical-test edges.</p>
+
+            <h2>Using it in the editor</h2>
+
+            <p>With an individual selected, open the <strong>Related concepts</strong> panel from the dock button between <em>Genetics</em> and <em>Risk analysis</em>. It lists concepts associated with the items already recorded on that person — diseases, traits, clinical-test results (including their low/high status), allergies, and markers — grouped per recorded item, for example "Because Ferritin (low) is recorded:". Items already on the individual show ticked; ticking a suggestion adds it to the person and unticking removes it. An "explore any concept" search lets you browse associations for any catalogue entity without recording it on anyone. The educational-use banner is shown by default and can be suppressed per user from the Account tab.</p>
+
+            <p>Because the panel surfaces a concept as "already recorded" only when it genuinely is, and nothing is ticked by inference, the learner always does the asserting. The graph offers the associations; the user decides what, if anything, to record.</p>
+
+            <h2>API and MCP access</h2>
+
+            <p>The same data is available programmatically. The open <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">GET/POST /api/correlations*</code> endpoints return the full graph or the concepts related to one or more anchors — and, being static reference data that produces no risk number, they are not gated by the intended-use acknowledgement. For AI agents, the MCP <code class="text-sm bg-gray-100 dark:bg-brand-900 px-1 rounded">related_concepts</code> tool returns related concepts for a given anchor and always carries the educational-use disclaimer, so an external agent receives the framing alongside the data. See the <a href="pedigree-mcp-server.html">Evagene MCP server</a> and <a href="platform.html">platform and integrations</a> pages.</p>
+
+            <h2 id="boundaries">What the correlation graph does not do</h2>
+
+            <ul>
+                <li>It does <strong>not</strong> diagnose, and it does not assert that any person has any condition.</li>
+                <li>It produces <strong>no risk number</strong> and runs no inheritance analysis. For those, Evagene's separate <a href="mendelian-inheritance-calculator.html">Mendelian inheritance</a> and <a href="hereditary-cancer-risk-assessment.html">hereditary cancer risk</a> tools are explicitly educational and research implementations of published models.</li>
+                <li>Nothing is pre-selected by inference; a concept appears as "recorded" only when a user has recorded it.</li>
+                <li>Notes are neutral and educational. They describe an association; they do not tell anyone what to do, and they carry no screening, referral, or treatment instruction.</li>
+                <li>Evagene is an academic, research, and educational pedigree modelling platform — not a medical device, not clinical decision support, and not a diagnostic or screening tool.</li>
+            </ul>
+
+            <h2>Further reading</h2>
+            <ul>
+                <li><a href="biomarker-disease-associations.html">Biomarker and condition associations</a> — status-qualified clinical-test edges, the ferritin example, and the biomarker / associated-finding relationships.</li>
+                <li><a href="gene-disease-associations.html">Gene and shared-gene associations</a> — the auto-derived genetic edges and what "two conditions share a gene" means educationally.</li>
+                <li><a href="genetics-concept-map.html">A genetics concept map for teaching</a> — using the Related concepts explorer as a teaching aid.</li>
+                <li><a href="mendelian-inheritance-calculator.html">Mendelian inheritance calculator</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Explore the Related Concepts panel</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">No credit card, no enterprise sales cycle &mdash; free access during Alpha for clinicians, researchers, educators, and students.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25">Join the Alpha Waiting List</a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2"><div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div><p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling. For research, education, and family-history documentation; not a medical device.</p></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Related Concepts</h4><ul class="space-y-2 text-sm"><li><a href="related-concepts-explorer.html" class="hover:text-white">Related Concepts Explorer</a></li><li><a href="biomarker-disease-associations.html" class="hover:text-white">Biomarker &amp; Condition Associations</a></li><li><a href="gene-disease-associations.html" class="hover:text-white">Gene &amp; Shared-Gene Associations</a></li><li><a href="genetics-concept-map.html" class="hover:text-white">Genetics Concept Map</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white">Mendelian Inheritance</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white">Cancer Risk Assessment</a></li><li><a href="platform.html" class="hover:text-white">Platform &amp; Integrations</a></li><li><a href="compare.html" class="hover:text-white">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400">Terms of Service</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

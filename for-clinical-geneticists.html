@@ -81,7 +81,7 @@
             {"@type":"Question","name":"What report types can I generate?","acceptedAnswer":{"@type":"Answer","text":"Evagene generates four report types: a clinical summary for the referring clinician and medical record, a patient-friendly letter, a carrier probability and risk report using BayesMendel outputs, and an AI-assisted interpretation report. Reports export to PDF and the underlying pedigree exports to PNG, SVG, or PDF for inclusion in correspondence."}},
             {"@type":"Question","name":"Can I customise the AI output to match my service's house style?","acceptedAnswer":{"@type":"Answer","text":"Yes. Analysis Templates let you author custom prompts with variable injection (for example, pedigree_description, proband_name, inheritance_pattern) and reuse them across cases. A service can codify the structure and tone of its clinical reporting, then apply it to every interpretation."}},
             {"@type":"Question","name":"How does Evagene help with cascade testing?","acceptedAnswer":{"@type":"Answer","text":"The pedigree is a living document. When a pathogenic variant is identified, you annotate carrier status on the relevant individual and the software tracks downstream first- and second-degree relatives as candidates for predictive testing. Batch risk screening identifies at-risk individuals across the family, and the pedigree updates as test results return. Webhooks can notify downstream systems when individual records change."}},
-            {"@type":"Question","name":"Can I run Evagene inside Claude Desktop or Claude Code?","acceptedAnswer":{"@type":"Answer","text":"Yes. Evagene's MCP (Model Context Protocol) server exposes 11 pedigree tools to any MCP-compatible AI workspace, including Claude Desktop and Claude Code. A clinician can ask an AI assistant to read, annotate, or analyse a pedigree directly from the environment they already use for drafting and review."}}
+            {"@type":"Question","name":"Can I run Evagene inside Claude Desktop or Claude Code?","acceptedAnswer":{"@type":"Answer","text":"Yes. Evagene's MCP (Model Context Protocol) server exposes 15 tools to any MCP-compatible AI workspace, including Claude Desktop and Claude Code. A clinician can ask an AI assistant to read, annotate, or analyse a pedigree directly from the environment they already use for drafting and review."}}
         ]
     }
     </script>
@@ -202,7 +202,7 @@
 
             <h3 class="text-2xl mt-10 mb-4">MCP for clinicians who already work in an AI workspace</h3>
 
-            <p>If you already use Claude Desktop or Claude Code to draft letters, review cases, or triage referrals, Evagene's MCP server exposes 11 pedigree tools — read pedigree, list individuals, add relationship, run risk analysis, generate interpretation, and so on — directly inside that workspace. You can ask your AI assistant to "look at this referral, check the pedigree, and tell me whether this patient crosses our BRCA testing threshold" without switching tabs. The same MCP surface is available to any MCP-compatible client.</p>
+            <p>If you already use Claude Desktop or Claude Code to draft letters, review cases, or triage referrals, Evagene's MCP server exposes 15 tools — read pedigree, list individuals, add relationship, run risk analysis, generate interpretation, and so on — directly inside that workspace. You can ask your AI assistant to "look at this referral, check the pedigree, and tell me whether this patient crosses our BRCA testing threshold" without switching tabs. The same MCP surface is available to any MCP-compatible client.</p>
 
             <h2 class="text-3xl mt-16 mb-6">A typical clinical geneticist session in Evagene</h2>
 
@@ -274,6 +274,20 @@
 
             <p class="text-sm text-gray-500 dark:text-gray-400"><strong>No clinical recommendations are made by this software.</strong> Each algorithm is an implementation of published literature. What any output means, when to consult it, and what action if any to take, are matters for the published primary literature and qualified professionals &mdash; not for this software.</p>
 
+            <div class="not-prose my-10 p-6 bg-brand-50 dark:bg-brand-900/40 rounded-xl border border-brand-200 dark:border-brand-800">
+                <div class="inline-flex items-center gap-2 px-2 py-1 bg-accent-500/10 text-accent-600 dark:text-accent-400 text-xs font-bold tracking-wider uppercase rounded mb-3">What's new &middot; May 2026</div>
+                <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3">Related Concepts — an educational correlation graph</h3>
+                <ul class="space-y-2 text-sm text-gray-700 dark:text-gray-300">
+                    <li>&bull; A hand-curated correlation graph (1,100+ curated edges) plus auto-derived <code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 py-0.5 rounded">genetic_association</code> and <code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 py-0.5 rounded">shared_gene</code> edges links diseases, traits, clinical-test results, allergies, and markers, surfaced in a Related concepts panel.</li>
+                    <li>&bull; Status-qualified clinical-test edges (low vs high); available via the open <code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 py-0.5 rounded">/api/correlations*</code> endpoints and the MCP <code class="text-xs bg-gray-100 dark:bg-brand-900 px-1 py-0.5 rounded">related_concepts</code> tool.</li>
+                    <li>&bull; Educational reference data &mdash; not risk analysis, not clinical decision support, no risk number, and nothing recorded by inference.</li>
+                </ul>
+                <div class="mt-4 flex flex-wrap gap-4 text-sm">
+                    <a href="related-concepts-explorer.html" class="font-semibold text-brand-600 dark:text-brand-400 hover:underline">Related Concepts explorer &rarr;</a>
+                    <a href="gene-disease-associations.html" class="font-semibold text-brand-600 dark:text-brand-400 hover:underline">Gene &amp; shared-gene associations &rarr;</a>
+                </div>
+            </div>
+
             <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
 
             <div class="space-y-8 not-prose">
@@ -283,7 +297,7 @@
                 <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What report types can I generate?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Four: clinical summary for the referrer, patient-friendly letter, carrier probability / risk report, and AI-assisted interpretation. PDF export; the pedigree exports to PNG, SVG, or PDF.</p></div>
                 <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Can I customise AI output to match my service's house style?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes. Analysis Templates let you author prompts with variable injection and reuse them across cases, so every interpretation follows the same shape.</p></div>
                 <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How does Evagene help with cascade testing?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">The pedigree persists across visits; batch screening identifies at-risk relatives; genotype annotations sit alongside phenotype; webhooks notify downstream systems when records change.</p></div>
-                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Can I use Evagene inside Claude Desktop or Claude Code?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes. The MCP server exposes 11 pedigree tools to any MCP-compatible AI workspace, so you can read, annotate, and analyse pedigrees directly from your assistant.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Can I use Evagene inside Claude Desktop or Claude Code?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes. The MCP server exposes 15 tools to any MCP-compatible AI workspace, so you can read, annotate, and analyse pedigrees directly from your assistant.</p></div>
             </div>
 
             <h2 class="text-3xl mt-16 mb-6">Further reading</h2>

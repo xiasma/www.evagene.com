@@ -164,6 +164,7 @@
             "Trait inference from 23andMe genotype data",
             "Interactive karyogram viewer",
             "230+ disease catalog with ICD-10 and OMIM codes (including 20+ multifactorial / polygenic conditions with heritability and empirical recurrence risks)",
+            "Related concepts: educational correlation graph (1,100+ curated associations plus auto-derived genetic edges) linking diseases, traits, clinical-test results, allergies, and markers; status-qualified clinical-test edges; not risk analysis or diagnosis",
             "55+ allergies and 50+ traits with genetic marker associations",
             "Consanguinity detection with Wright's coefficient",
             "GEDCOM 5.5.1 import and export",
@@ -709,6 +710,13 @@
                 </div>
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Allergies & Traits</h3>
                 <p class="text-sm text-gray-600 dark:text-gray-400">55+ allergies (severity, IgE, cross-reactivity). 50+ traits (heritability, marker associations) with automatic inference of blood type, Rh factor, and secretor status from 23andMe SNP data.</p>
+            </div>
+            <div class="feature-card bg-white dark:bg-brand-900/40 rounded-xl p-6 border border-gray-100 dark:border-brand-800 reveal" style="transition-delay:0.15s">
+                <div class="w-12 h-12 rounded-xl bg-brand-50 dark:bg-brand-900 flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-brand-600 dark:text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2"><a href="related-concepts-explorer.html" class="hover:text-brand-600 dark:hover:text-brand-400">Related Concepts</a></h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">An educational correlation graph links diseases, traits, clinical-test results, allergies, and markers, surfaced as you annotate &mdash; with status-aware test edges (low vs high ferritin). Educational reference, not risk analysis or diagnosis.</p>
             </div>
             <div class="feature-card bg-white dark:bg-brand-900/40 rounded-xl p-6 border border-gray-100 dark:border-brand-800 reveal" style="transition-delay:0.15s">
                 <div class="w-12 h-12 rounded-xl bg-brand-50 dark:bg-brand-900 flex items-center justify-center mb-4">
@@ -1356,7 +1364,7 @@
                     <svg class="w-6 h-6 text-clinical-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                 </div>
                 <h3 class="text-lg font-semibold text-white mb-2">MCP Server</h3>
-                <p class="text-sm text-brand-200">Let AI agents work with pedigrees via the Model Context Protocol. 11 tools for Claude Desktop, custom agents, or any MCP-compatible client. Direct database access, no HTTP overhead.</p>
+                <p class="text-sm text-brand-200">Let AI agents work with pedigrees via the Model Context Protocol. 15 tools for Claude Desktop, custom agents, or any MCP-compatible client. Direct database access, no HTTP overhead.</p>
             </div>
             <div class="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-brand-400/30 transition-all duration-300 reveal" style="transition-delay:0.25s">
                 <div class="w-12 h-12 rounded-xl bg-accent-500/20 flex items-center justify-center mb-4">
@@ -1936,7 +1944,7 @@ END TESTIMONIALS -->
         {
             "@type": "Question",
             "name": "Can I connect AI agents to Evagene using MCP?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Evagene includes an MCP (Model Context Protocol) server that exposes 11 pedigree tools to AI agents. Compatible with Claude Desktop, custom agents, and any MCP client. Tools include list_pedigrees, get_pedigree, create_pedigree, add_individual, update_individual, add_relationship, add_offspring, describe_pedigree, get_pedigree_summary, export_gedcom, and import_gedcom. The MCP server authenticates via API key, connects directly to the SQLite database, and runs alongside the web application." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Evagene includes an MCP (Model Context Protocol) server that exposes 15 tools to AI agents. Compatible with Claude Desktop, custom agents, and any MCP client. Tools include list_pedigrees, get_pedigree, create_pedigree, add_individual, update_individual, add_relationship, add_offspring, describe_pedigree, get_pedigree_summary, export_gedcom, and import_gedcom, plus list_guide_categories, search_guides, and get_guide for the help catalogue and related_concepts for the educational correlation graph. The MCP server authenticates via API key, connects directly to the SQLite database, and runs alongside the web application." }
         },
         {
             "@type": "Question",

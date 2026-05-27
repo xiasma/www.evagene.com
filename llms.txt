@@ -32,6 +32,7 @@ Evagene is a browser-based platform for drawing, managing, and modelling family 
 - Auto-generate pedigree description reports in structured English
 - Catalogue of 230+ genetic diseases with ICD-10 codes, OMIM IDs, and inheritance parameters (includes 20+ catalogued multifactorial / polygenic / oligogenic conditions with heritability and empirical recurrence risks)
 - Disease management dashboard with search, taxonomy views, presets, and custom colours
+- Related concepts: a hand-curated educational correlation graph (1,100+ curated associations plus auto-derived genetic edges) linking diseases, traits, clinical-test results, allergies, and markers, surfaced in the editor's Related concepts panel and via the open /api/correlations endpoints and the MCP related_concepts tool. Eight relationship types (biomarker, associated_finding, associated_condition, shares_features, sequela, risk_association, genetic_association, shared_gene); status-qualified clinical-test edges (e.g. low vs high ferritin). Educational reference data — not risk analysis, not diagnosis, asserts nothing about any person
 - 55+ allergies and 50+ traits with genetic marker associations
 - Blood type (ABO, Rh) and secretor status inference from 23andMe SNP markers
 - Interactive karyogram viewer with hover tooltips, click-to-pin info panels, and canvas embedding
@@ -80,7 +81,7 @@ Evagene includes a platform layer for programmatic access and third-party integr
 - Bring Your Own Key (BYOK) LLM support for Anthropic (Claude) and OpenAI (GPT), encrypted at rest with Fernet
 - Webhooks with HMAC-SHA256 signed payloads for 8 event types (pedigree/individual CRUD, analysis completed, import completed)
 - Analysis Templates: reusable custom AI prompt templates with variable injection ({{pedigree_description}}, {{proband_name}}, etc.)
-- MCP Server: 11 pedigree tools via the Model Context Protocol for Claude Desktop, Claude Code, and other AI agents
+- MCP Server: 15 tools via the Model Context Protocol for Claude Desktop, Claude Code, and other AI agents
 - Embeddable Pedigree Viewer: iframe, raw SVG, or JavaScript snippet for patient portals, research dashboards, and EHR integration
 
 Full platform documentation: https://evagene.net/help/platform_overview
@@ -99,6 +100,7 @@ Full platform documentation: https://evagene.net/help/platform_overview
 
 - [17 April 2026 — Polygenic, cancer family-history, and CanRisk export](https://evagene.com/release-2026-04-risk-expansion.html) — Release notes for the liability-threshold engine (Carter 1961, Falconer 1965), nine new cancer family-history scoring models (Claus, Couch, Frank, Manchester, NICE CG164/NG101, Amsterdam II, Bethesda, Gail, Tyrer-Cuzick IBIS-style approximation), and one-click CanRisk / BOADICEA v4 pedigree export. Cites canonical papers for every model. BOADICEA is not bundled (licensed by University of Cambridge); Tyrer-Cuzick output is clearly labelled as an approximation.
 - [18 April 2026 — X-linked dominant, mitochondrial, digenic, imprinting / UPD](https://evagene.com/release-2026-04-18-inheritance-patterns.html) — Four additional inheritance models for clinical geneticists, genetic counsellors, and reproductive medicine. XLD with five sex-differential severity sub-modes (Rett-class, incontinentia pigmenti, CFND, EFMR). Mitochondrial with maternal transmission and heteroplasmy scaling (LHON, MELAS, MERRF, NARP, Leigh, Kearns-Sayre, Pearson). Digenic with classical 25% ratio (Usher type 2, some RP, primary congenital glaucoma). Imprinting / UPD with mechanism-weighted recurrence and parent-of-origin rule (Prader-Willi, Angelman, Beckwith-Wiedemann, Silver-Russell, TNDM).
+- [27 May 2026 — Related Concepts (educational correlation graph)](https://evagene.com/release-2026-05-27-related-concepts.html) — A hand-curated correlation graph (1,100+ curated associations) plus auto-derived genetic edges (genetic_association, shared_gene) linking diseases, traits, clinical-test results, allergies, and markers, surfaced in the editor's Related concepts panel. Status-qualified clinical-test edges (low vs high ferritin). Available via the open /api/correlations endpoints and a related_concepts MCP tool (now 15 tools on the server). Educational reference data — not risk analysis, not diagnosis, asserts nothing about any person.
 - [Complex-disease pedigree software](https://evagene.com/complex-disease-pedigree-software.html) — The 20+ catalogued multifactorial / polygenic / oligogenic conditions with filter and links to per-condition in-app help guides.
 
 ## Topic Guides
@@ -115,6 +117,10 @@ Full platform documentation: https://evagene.net/help/platform_overview
 - [Clinical Genetics Pedigree Tool](https://evagene.com/clinical-genetics-pedigree-tool.html) — Pedigree software for clinical geneticists and genetic counsellors
 - [Mendelian Inheritance Calculator](https://evagene.com/mendelian-inheritance-calculator.html) — Autosomal dominant, autosomal recessive, and X-linked inheritance models
 - [Platform & Integrations](https://evagene.com/platform.html) — API keys, BYOK LLM, webhooks, analysis templates, MCP server, embeddable viewer
+- [Related Concepts Explorer](https://evagene.com/related-concepts-explorer.html) — the educational correlation graph linking diseases, traits, clinical-test results, allergies, and markers; two edge sources (curated + marker-derived), eight relationship types, status-qualified test edges, the Related concepts editor panel, and /api/correlations + MCP related_concepts access. Not risk analysis, not diagnosis
+- [Biomarker & Condition Associations](https://evagene.com/biomarker-disease-associations.html) — status-qualified clinical-test edges (low vs high), the biomarker / associated-finding / risk-association relationships, worked through the iron studies (ferritin, transferrin saturation, MCV). Educational reference, not diagnosis
+- [Gene & Shared-Gene Associations](https://evagene.com/gene-disease-associations.html) — the auto-derived genetic_association and shared_gene edges from the marker catalogue (BRCA2, PTEN, GBA, MITF examples); educational genotype–phenotype exploration, not risk prediction
+- [Genetics Concept Map](https://evagene.com/genetics-concept-map.html) — using the Related Concepts explorer as a teaching concept map across diseases, traits, tests, allergies, and genes (pleiotropy, lab panels, associated conditions). Educational, not clinical
 - [Pedigree Builder GPT](https://evagene.com/pedigree-builder-gpt.html) — ChatGPT Custom GPT that converts a plain-English family description into an Evagene-compatible pedigree JSON file. Route A (produces a file the user loads at evagene.net); Route B (live Evagene API Actions) planned but not yet built. Paid ChatGPT subscription required (OpenAI's policy for all Custom GPTs). Live at https://chatgpt.com/g/g-69ea28b554b8819191ae0f8fd2406d52-evagene-pedigree-builder
 
 ## Learning Hub

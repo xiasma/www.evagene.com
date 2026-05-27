@@ -273,7 +273,7 @@ X-Evagene-Event:     analysis.completed
             <p>A clinical service tracks which relatives of each proband have been offered, accepted, and completed genetic testing. The service polls the API for updates, writes testing status back as structured annotations on individuals, and uses webhooks to notify schedulers when new individuals appear in the pedigree. Scopes: <code>read + write</code>.</p>
 
             <h3 class="text-2xl mt-8 mb-4">AI-agent integration</h3>
-            <p>An internal clinical AI agent uses the API through the <a href="pedigree-mcp-server.html">Evagene MCP server</a> rather than calling endpoints directly. The MCP server sits on the API and exposes 11 tools to Claude Desktop, Claude Code, or any MCP-capable AI client. Scopes: as required by the specific tools exposed.</p>
+            <p>An internal clinical AI agent uses the API through the <a href="pedigree-mcp-server.html">Evagene MCP server</a> rather than calling endpoints directly. The MCP server sits on the API and exposes 15 tools to Claude Desktop, Claude Code, or any MCP-capable AI client. Scopes: as required by the specific tools exposed.</p>
 
             <h2 class="text-3xl mt-16 mb-6">How this works in Evagene</h2>
 
@@ -281,7 +281,7 @@ X-Evagene-Event:     analysis.completed
 
             <ul>
                 <li>The <a href="embeddable-pedigree-viewer.html">embeddable pedigree viewer</a> is an API client that renders SVG.</li>
-                <li>The <a href="pedigree-mcp-server.html">MCP server</a> is an API client that exposes 11 tools to AI agents.</li>
+                <li>The <a href="pedigree-mcp-server.html">MCP server</a> is an API client that exposes 15 tools to AI agents.</li>
                 <li>The webhook dispatcher is the API's event-driven counterpart.</li>
                 <li>BYOK LLM support, Analysis Templates, and AI interpretation are all exposed through the API surface.</li>
             </ul>

@@ -117,6 +117,8 @@ Canonical counts (keep consistent across every page, llms.txt, llms-full.txt, si
 | Complex / polygenic / oligogenic conditions | **20+** | Subset with empirical recurrence tables (22 confirmed + major depression = 23) |
 | Help-catalogue guides | **1,900+** | 1,924 individual guides across 6 catalogues (diseases 233, clinical tests 713, treatments 729, markers / genes 150, allergies 53, traits 46); external refs LOINC, NCBI Gene, OMIM, ClinVar, RxNorm, BNF, DrugBank. Browse at `https://evagene.net/help/#browse` |
 | Disease guides (subset of above) | **230+** | 233 `.md` files in `../evagene/docs/guides/diseases/` |
+| Correlation-graph associations | **1,100+** curated (+ marker-derived) | 1,184 curated edges in `../evagene/api/evagene/data/correlations.json` (associated_finding 443, biomarker 279, associated_condition 214, shares_features 152, risk_association 77, sequela 19); `genetic_association` + `shared_gene` edges auto-derived from `markers.json` at runtime. Educational reference data — never frame as risk analysis or diagnosis |
+| MCP server tools | **15** | 11 pedigree + 3 help-catalogue (list_guide_categories, search_guides, get_guide) + related_concepts; `grep -c 'name="' ../evagene/api/evagene/mcp_server.py` |
 | Role-specific workflow guides | **8** | One per persona |
 | Allergies | **50+** · Traits: **50+** | Catalogues in app |
 | Research-paper citations | **4** · Institutions: **10+** | `research-citations.html` |

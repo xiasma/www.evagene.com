@@ -79,6 +79,17 @@ Users assign diseases to individuals with per-disease affection status, laterali
 - Clinical tests: test types with reference ranges, LOINC codes, specimen types, results
 - Treatments: medication and intervention tracking with dose, frequency, route, date ranges, disease association, prophylactic flag, and status
 
+### Related Concepts (educational correlation graph)
+
+Evagene includes a hand-curated correlation graph: a catalogue of educational associations between the entities it already knows about — diseases, traits, clinical-test results, allergies, and genetic markers. It is reference data in the same family as the disease/trait/allergy/clinical-test catalogues, not a risk-analysis tool and not a claim about any person. It teaches which concepts tend to be associated with one another so a learner can explore them; nothing is recorded by inference.
+
+- Each association is an edge between two endpoints (each a real catalogue entry of one of five kinds), carrying a relationship from a fixed eight-term vocabulary (genetic_association, shared_gene, biomarker, associated_finding, associated_condition, shares_features, sequela, risk_association), a short neutral educational note, an optional strength (strong / moderate / weak), and a direction flag.
+- Two sources, assembled at start-up: over 1,100 hand-authored curated edges (each with its own note), and auto-derived genetic edges generated from the marker catalogue (a genetic_association edge between a gene/marker and each linked disease/trait/allergy, and a shared_gene edge between any two entities linked to the same marker; both tagged source: marker-derived).
+- Status-qualified clinical-test edges: a clinical-test endpoint can carry a status (abnormal_low / abnormal_high) so a low result surfaces different associations than a high one (low ferritin → iron-deficiency anaemia, restless legs syndrome; high ferritin → hereditary haemochromatosis). A result recorded without a low/high mark surfaces only direction-independent associations.
+- UI: the Related concepts panel (dock button between Genetics and Risk analysis) lists concepts associated with what is recorded on the selected individual, grouped per recorded item; ticking a suggestion records it, unticking removes it; an "explore any concept" search browses any catalogue entity without recording it on anyone. An educational-use banner shows by default (suppressible per user).
+- Access: the open GET/POST /api/correlations* endpoints (reference data; not gated by the intended-use acknowledgement) and the MCP related_concepts tool (always carries the educational-use disclaimer).
+- Boundaries: does not diagnose, produces no risk number, runs no inheritance analysis, and asserts nothing about any individual. A shared_gene edge is a catalogue relationship, not a claim of shared risk, mechanism, or inheritance.
+
 ### Risk Analysis
 
 Evagene implements four families of published risk-model algorithms on the same pedigree document, for research, teaching, and exploratory use. Outputs are illustrative educational / research artefacts, not clinical recommendations:
@@ -239,7 +250,7 @@ Push HMAC-SHA256 signed HTTP POST notifications when pedigree data changes. Eigh
 Reusable custom AI prompt templates with variable injection. Templates have a system prompt (AI role) and a user prompt template with placeholders: {{pedigree_description}}, {{proband_name}}, {{proband_sex}}, {{disease_list}}, {{risk_summary}}. Variables are replaced with computed values at execution time. Templates can be shared publicly. Maximum 50 per user. Execution uses BYOK key or server default (subject to quota).
 
 ### MCP Server (Model Context Protocol)
-Stdio-mode MCP server exposing 11 pedigree tools to AI agents: list_pedigrees, get_pedigree, create_pedigree, add_individual, update_individual, add_relationship, add_offspring, describe_pedigree, get_pedigree_summary, export_gedcom, import_gedcom. Authenticated via EVAGENE_API_KEY environment variable. Connects directly to SQLite database (no HTTP roundtrip). Compatible with Claude Desktop, Claude Code, and any MCP-capable client. Changes are immediately visible in the web UI.
+Stdio-mode MCP server exposing 15 tools to AI agents: eleven pedigree tools (list_pedigrees, get_pedigree, create_pedigree, add_individual, update_individual, add_relationship, add_offspring, describe_pedigree, get_pedigree_summary, export_gedcom, import_gedcom), three help-catalogue tools (list_guide_categories, search_guides, get_guide), and related_concepts (educational correlation graph; always carries the educational-use disclaimer). Authenticated via EVAGENE_API_KEY environment variable. Connects directly to SQLite database (no HTTP roundtrip). Compatible with Claude Desktop, Claude Code, and any MCP-capable client. Changes are immediately visible in the web UI.
 
 ### Embeddable Pedigree Viewer
 Drop-in pedigree diagrams for third-party websites via three methods: (1) Full HTML page via iframe at /api/embed/{pedigree_id}, (2) Raw SVG at /api/embed/{pedigree_id}/svg, (3) JavaScript snippet at /api/embed/snippet.js that auto-discovers data-evagene-pedigree attributes. SVG uses standard pedigree notation: square=male, circle=female, diamond=unknown, solid fill=affected, centre dot=carrier, diagonal line=deceased, arrow=proband. Authentication via API key or public pedigree flag. Responsive SVG with viewBox scaling (max 1200x900).
@@ -457,13 +468,20 @@ The pedigree pillar pages are the canonical entry points for the four highest-vo
 ### Platform, API and integration guides
 
 - [Pedigree REST API](https://evagene.com/pedigree-api.html) — scoped keys, rate limits, endpoints
-- [Pedigree MCP server](https://evagene.com/pedigree-mcp-server.html) — 11 pedigree tools for Claude Desktop, Claude Code, and any MCP-compatible AI agent
+- [Pedigree MCP server](https://evagene.com/pedigree-mcp-server.html) — 15 tools for Claude Desktop, Claude Code, and any MCP-compatible AI agent
 - [LLM pedigree analysis](https://evagene.com/llm-pedigree-analysis.html) — BYOK with Anthropic Claude and OpenAI GPT
 - [Embeddable pedigree viewer](https://evagene.com/embeddable-pedigree-viewer.html) — iframe, raw SVG, or JavaScript snippet
 - [HL7 FHIR pedigree](https://evagene.com/hl7-fhir-pedigree.html) — FHIR FamilyMemberHistory and Genomics IG
 - [EHR pedigree integration](https://evagene.com/ehr-pedigree-integration.html) — Epic, Oracle Health / Cerner integration patterns
 - [GEDCOM to pedigree converter](https://evagene.com/gedcom-to-pedigree-converter.html)
 - [Phenopackets pedigree](https://evagene.com/phenopackets-pedigree.html) — GA4GH Phenopackets v2 interoperability
+
+### Related Concepts (educational correlation graph)
+
+- [Related Concepts Explorer](https://evagene.com/related-concepts-explorer.html) — the full correlation graph: two edge sources (curated + marker-derived), eight relationship types, status-qualified clinical-test edges, the Related concepts editor panel, and /api/correlations + MCP related_concepts access. Educational reference data, not risk analysis or diagnosis
+- [Biomarker & condition associations](https://evagene.com/biomarker-disease-associations.html) — status-qualified clinical-test edges (low vs high), worked through the iron studies (ferritin, transferrin saturation, MCV)
+- [Gene & shared-gene associations](https://evagene.com/gene-disease-associations.html) — the auto-derived genetic_association and shared_gene edges from the marker catalogue (BRCA2, PTEN, GBA, MITF examples); educational genotype–phenotype exploration, not risk prediction
+- [Genetics concept map](https://evagene.com/genetics-concept-map.html) — using the Related Concepts explorer as a teaching concept map (pleiotropy, lab panels, associated conditions)
 
 ### Genealogy and consumer crossover
 

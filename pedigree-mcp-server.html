@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedigree MCP Server — Model Context Protocol for Claude and AI Agents (2026) | Evagene</title>
-    <meta name="description" content="A technical guide to Evagene's pedigree MCP server: 11 pedigree tools exposed via Anthropic's Model Context Protocol for Claude Desktop, Claude Code, and any MCP-compatible AI client. Setup, tool inventory, and clinician workflow examples.">
+    <meta name="description" content="A technical guide to Evagene's pedigree MCP server: 15 tools exposed via Anthropic's Model Context Protocol for Claude Desktop, Claude Code, and any MCP-compatible AI client. Setup, tool inventory, and clinician workflow examples.">
     <meta name="keywords" content="pedigree MCP server, Model Context Protocol pedigree, Claude pedigree integration, AI agent pedigree tools, MCP clinical genetics, Claude Desktop pedigree, Claude Code pedigree, MCP server genetics, pedigree AI tooling">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Pedigree MCP Server — Model Context Protocol for Claude and AI Agents">
-    <meta property="og:description" content="11 pedigree tools exposed via MCP for Claude Desktop, Claude Code, and other AI clients. Setup and workflow examples.">
+    <meta property="og:description" content="15 tools exposed via MCP for Claude Desktop, Claude Code, and other AI clients. Setup and workflow examples.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://evagene.com/pedigree-mcp-server">
     <meta property="og:image" content="https://evagene.com/og-image.png">
@@ -52,7 +52,7 @@
     {
         "@context":"https://schema.org","@type":"Article",
         "headline":"Pedigree MCP Server: Model Context Protocol for Claude and AI Agents",
-        "description":"A technical guide to Evagene's pedigree MCP server, which exposes 11 pedigree tools via Anthropic's Model Context Protocol for use inside Claude Desktop, Claude Code, and other AI clients.",
+        "description":"A technical guide to Evagene's pedigree MCP server, which exposes 15 tools via Anthropic's Model Context Protocol for use inside Claude Desktop, Claude Code, and other AI clients.",
         "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
         "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
         "datePublished":"2026-04-17","dateModified":"2026-04-17",
@@ -83,7 +83,7 @@
             {"@type":"Question","name":"Which AI clients are compatible?","acceptedAnswer":{"@type":"Answer","text":"Claude Desktop and Claude Code are the primary clients today. Any MCP-compatible client that speaks the stdio transport will work; the MCP ecosystem includes implementations for additional AI assistants and autonomous agent frameworks."}},
             {"@type":"Question","name":"How is authentication handled?","acceptedAnswer":{"@type":"Answer","text":"The MCP server runs locally on the clinician's machine (stdio transport) and authenticates to Evagene using a scoped API key that you configure in the Claude Desktop or Claude Code configuration file. The key uses the standard evg_ format with read/write/analyse scopes. Treat the configuration file as a credential — grant only the scopes needed for the intended workflow."}},
             {"@type":"Question","name":"Is this safe for clinical use?","acceptedAnswer":{"@type":"Answer","text":"The MCP server is a tool surface for AI agents; clinical safety is a property of the workflow, not the server itself. Use it for drafting, exploration, and interpretation support, not for unsupervised clinical decisions. AI outputs should always be reviewed by a qualified clinician before becoming part of a clinical record, and BYOK keeps traffic within your organisation's existing LLM data-processing agreements."}},
-            {"@type":"Question","name":"Can I extend the MCP server with custom tools?","acceptedAnswer":{"@type":"Answer","text":"The current MCP server exposes a fixed set of 11 tools matched to the Evagene data model. Custom tools would typically sit in a wrapper MCP server you run yourself that composes Evagene tools with your own business logic. The underlying REST API is the escape hatch for anything the MCP tools do not cover."}}
+            {"@type":"Question","name":"Can I extend the MCP server with custom tools?","acceptedAnswer":{"@type":"Answer","text":"The current MCP server exposes a fixed set of 15 tools matched to the Evagene data model. Custom tools would typically sit in a wrapper MCP server you run yourself that composes Evagene tools with your own business logic. The underlying REST API is the escape hatch for anything the MCP tools do not cover."}}
         ]
     }
     </script>
@@ -145,9 +145,9 @@
 
         <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300 prose-code:text-brand-700 dark:prose-code:text-brand-300 prose-pre:bg-gray-900 prose-pre:text-gray-100">
 
-            <p><strong>Short version.</strong> MCP (Model Context Protocol) is Anthropic's open protocol for letting AI agents call external tools in a standardised, discoverable way. Evagene ships an MCP server that exposes 11 pedigree tools — list, create, get pedigree; add and update individuals; add relationships and offspring; describe and summarise pedigrees; GEDCOM import and export — to any MCP-capable AI client. In practice that means Claude Desktop and Claude Code today, with a growing ecosystem beyond. Setup is a few lines in the client's configuration file pointing at the MCP server binary with your Evagene API key. Once connected, a clinician can draft a clinical letter in Claude and, in the same conversation, ask it to update the pedigree accordingly — without leaving the AI workspace.</p>
+            <p><strong>Short version.</strong> MCP (Model Context Protocol) is Anthropic's open protocol for letting AI agents call external tools in a standardised, discoverable way. Evagene ships an MCP server that exposes 15 tools — list, create, get pedigree; add and update individuals; add relationships and offspring; describe and summarise pedigrees; GEDCOM import and export — to any MCP-capable AI client. In practice that means Claude Desktop and Claude Code today, with a growing ecosystem beyond. Setup is a few lines in the client's configuration file pointing at the MCP server binary with your Evagene API key. Once connected, a clinician can draft a clinical letter in Claude and, in the same conversation, ask it to update the pedigree accordingly — without leaving the AI workspace.</p>
 
-            <p>This page explains what MCP is, why it matters for clinical genetics, what the 11 tools do, how to configure Claude Desktop and Claude Code, and where the sensible limits sit for clinical use.</p>
+            <p>This page explains what MCP is, why it matters for clinical genetics, what the 15 tools do, how to configure Claude Desktop and Claude Code, and where the sensible limits sit for clinical use.</p>
 
             <h2 class="text-3xl mt-16 mb-6">What MCP is and why it matters</h2>
 
@@ -157,7 +157,7 @@
 
             <p>Why Evagene ships an MCP server specifically: the pedigree is the clinical artefact around which a lot of genetics reasoning happens. Making it directly accessible from inside the clinician's AI workspace means the AI can ground its reasoning in actual family-history data rather than a summary the clinician had to re-type.</p>
 
-            <h2 class="text-3xl mt-16 mb-6">The 11 tools</h2>
+            <h2 class="text-3xl mt-16 mb-6">The 15 tools</h2>
 
             <p>Evagene's MCP server exposes these tools. Tool names and behaviours are stable; arguments map directly to REST API fields, so workflows transfer cleanly between programmatic and AI-driven use.</p>
 
@@ -173,7 +173,13 @@
                 <li><code>get_pedigree_summary</code> — return a compact summary (counts, diseases, notable findings).</li>
                 <li><code>export_gedcom</code> — export the pedigree as GEDCOM 5.5.1.</li>
                 <li><code>import_gedcom</code> — create a pedigree from GEDCOM input.</li>
+                <li><code>list_guide_categories</code> — list the help-catalogue categories (diseases, traits, allergies, clinical tests, markers / genes, treatments).</li>
+                <li><code>search_guides</code> — search the 1,900+ help-catalogue guides.</li>
+                <li><code>get_guide</code> — fetch a single help-catalogue guide.</li>
+                <li><code>related_concepts</code> — return educational associations for an anchor entity from the <a href="related-concepts-explorer.html">correlation graph</a>; always carries the educational-use disclaimer. Reference data, not risk analysis.</li>
             </ul>
+
+            <p>The first eleven build and exchange pedigrees; the last four are read-only reference tools over the help catalogue and the educational correlation graph.</p>
 
             <p>Risk analysis and AI interpretation endpoints live in the REST API rather than the MCP tool list today; an AI client that needs to trigger BRCAPRO, MMRpro, PancPRO, Mendelian, or AI interpretation for a pedigree it has just edited via MCP can call those via a thin HTTP tool alongside the MCP tools. A future revision may fold analysis tools directly into the MCP tool list.</p>
 
@@ -257,7 +263,7 @@ Evagene MCP server process
 
             <div class="space-y-8 not-prose">
                 <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is MCP?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Anthropic's open protocol for letting AI agents discover and call external tools in a standardised way. The AI-agent equivalent of a REST API.</p></div>
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What tools does Evagene expose?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">11 tools: list/create/get pedigree, add/update individual, add relationship and offspring, describe/summarise, GEDCOM import/export.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What tools does Evagene expose?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">15 tools: list/create/get pedigree, add/update individual, add relationship and offspring, describe/summarise, GEDCOM import/export, plus help-catalogue browse/search and related-concepts lookup.</p></div>
                 <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Which AI clients work?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Claude Desktop and Claude Code primarily. Any MCP-compatible client over stdio will work.</p></div>
                 <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">How is authentication handled?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Scoped Evagene API key in the client's MCP configuration file. Scopes are enforced server-side.</p></div>
                 <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is it safe for clinical use?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">MCP is a tool surface; clinical safety is a property of the workflow. Use for drafting and exploration with clinician review; ensure LLM provider agreements cover patient data.</p></div>
