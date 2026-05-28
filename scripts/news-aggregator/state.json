@@ -2513,9 +2513,179 @@
         "factor-analysis",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "mFABIO method extends TWAS fine-mapping to binary traits across multiple tissues",
+      "is_preprint": false,
+      "run_date": "2026-05-28",
+      "run_iso": "2026-05-28T10:53:31+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-27T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "mfabio-multi-tissue-twas-fine-mapping-binary-traits",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-27T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "mFABIO: An integrative multi-tissue TWAS fine-mapping approach to prioritize potentially causal genes and tissues underlying binary traits",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012157"
+        }
+      ],
+      "standfirst": "A new multi-tissue transcriptome-wide association study fine-mapping method, published in PLOS Genetics, improves causal gene prioritisation for binary traits such as disease case-control outcomes.",
+      "summary": "Researchers at the University of Michigan, led by Haihan Zhang, Kevin He, Lam C. Tsoi, and Xiang Zhou, have published mFABIO in PLOS Genetics — a multi-tissue transcriptome-wide association study (TWAS) fine-mapping method designed specifically for binary traits.\n\nExisting TWAS fine-mapping approaches jointly model multiple genes to prioritise candidates for causal roles at a given locus, but they have largely been developed for quantitative traits and typically draw on gene expression data from a single tissue. mFABIO addresses both limitations. It uses a probit model to link genetically regulated expression (GReX) of genes across multiple tissues simultaneously to binary trait outcomes, enabling joint causal gene and tissue prioritisation within a single statistical framework.\n\nThe method is relevant to the growing body of GWAS loci for common diseases where the causal gene and the tissue in which its dysregulation matters remain uncertain. By modelling binary outcomes directly rather than approximating them as quantitative, mFABIO avoids the well-known calibration problems that arise when linear models are applied to case-control data at the TWAS stage.\n\nThe paper sits within the active field of post-GWAS functional inference, complementing recent work on colocalisation and Mendelian randomisation frameworks. Researchers working on common complex diseases — particularly where multi-tissue eQTL reference panels such as GTEx are already in use — may find mFABIO a useful addition to their analytical toolkit.",
+      "tags": [
+        "twas",
+        "fine-mapping",
+        "gwas",
+        "binary-traits",
+        "statistical-genetics",
+        "multi-tissue",
+        "causal-gene-prioritisation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Yeast model predicts antifolate resistance mutations in unculturable lung pathogen Pneumocystis jirovecii",
+      "is_preprint": false,
+      "run_date": "2026-05-28",
+      "run_iso": "2026-05-28T10:53:31+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-27T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "antifolate-resistance-pneumocystis-jirovecii-yeast-model",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-27T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Predicting antifolate resistance in the unculturable fungal pathogen Pneumocystis jirovecii",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012163"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study uses a surrogate yeast system to characterise how mutations in the DHFR enzyme of Pneumocystis jirovecii confer resistance to trimethoprim and related antifolate drugs.",
+      "summary": "Researchers led by Francois D. Rouleau, Alexandre K. Dubé, and Christian R. Landry, publishing in PLOS Genetics, have developed a yeast-based system to study antifolate drug resistance in Pneumocystis jirovecii — the fungal pathogen responsible for Pneumocystis pneumonia (PCP) in immunocompromised individuals.\n\nA fundamental obstacle in studying P. jirovecii is that the organism cannot be cultured in vitro or propagated in standard animal models. The team circumvented this by expressing the P. jirovecii dihydrofolate reductase (PjDHFR) enzyme — the target of trimethoprim and related antifolate drugs — in Saccharomyces cerevisiae. This surrogate system allowed systematic assessment of how specific mutations in PjDHFR alter susceptibility to trimethoprim and related compounds.\n\nThe approach provides a way to predict which naturally occurring DHFR variants are likely to confer clinically relevant resistance, an important question given that antifolate regimens remain the cornerstone of PCP treatment and prophylaxis. P. jirovecii cannot be subjected to conventional antimicrobial susceptibility testing, making genomic and computational approaches to resistance prediction particularly valuable.\n\nThe findings add to a growing toolkit for genomic-led understanding of resistance in obligate pathogens that resist culture, and may have downstream relevance for surveillance and treatment strategies in patients with HIV, haematological malignancies, and solid-organ transplants.",
+      "tags": [
+        "antimicrobial-resistance",
+        "pneumocystis-jirovecii",
+        "dihydrofolate-reductase",
+        "antifolate",
+        "fungal-genetics",
+        "surrogate-model",
+        "pcp"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Twin study finds extinction learning rate is heritable and linked to anxiety severity",
+      "is_preprint": true,
+      "run_date": "2026-05-28",
+      "run_iso": "2026-05-28T10:53:31+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-28T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "heritability-reinforcement-learning-anxiety-twin-study",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-28T00:00:00+00:00",
+          "publisher": "bioRxiv",
+          "title": "The heritability of reinforcement learning parameters and their association with anxiety",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.25.727613v1?rss=1"
+        }
+      ],
+      "standfirst": "A pre-registered bioRxiv preprint replicating findings in 925 twin pairs identifies extinction learning rate — but not safety learning rate — as both heritable and associated with anxiety severity, pointing to a potential computational endophenotype.",
+      "summary": "A pre-registered replication study, posted as a preprint on bioRxiv, examined the heritability of reinforcement learning parameters and their relationship to anxiety in a sample of 925 twin pairs — approximately ten times larger than the prior discovery cohort.\n\nThe study focused on two computational constructs: extinction learning (the rate at which an organism updates its assessment that a previously dangerous stimulus is now safe) and safety learning (learning that a novel stimulus is not a threat). Both have been proposed as heritable endophenotypes of anxiety disorders, reflecting impairments documented across multiple anxiety presentations.\n\nExtinction learning rate was significantly associated with anxiety severity in the replication sample (Bayes factor BFr0 = 1189.67), lending strong evidential weight to earlier findings. Safety learning rate did not replicate as an anxiety-associated parameter. The heritability analyses provide quantitative estimates of the genetic contribution to these computational phenotypes, supporting their potential utility in genetic studies of anxiety.\n\nThe work is relevant to researchers in psychiatric genetics and computational psychiatry who are working to bridge GWAS-derived risk loci with measurable behavioural and cognitive mechanisms. Because this is a preprint that has not yet completed peer review, findings should be interpreted with appropriate caution pending independent scrutiny.",
+      "tags": [
+        "heritability",
+        "anxiety",
+        "reinforcement-learning",
+        "endophenotype",
+        "twin-study",
+        "computational-psychiatry",
+        "extinction-learning"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies genomic regions with excess reciprocal recombination in autism spectrum disorder families",
+      "is_preprint": true,
+      "run_date": "2026-05-28",
+      "run_iso": "2026-05-28T10:53:31+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-05-27T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "reciprocal-recombination-autism-spectrum-disorder-genomic-regions",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-27T00:00:00+00:00",
+          "publisher": "bioRxiv",
+          "title": "Detecting genomic regions enriched for reciprocal recombination in autism spectrum disorder",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727863v1?rss=1"
+        }
+      ],
+      "standfirst": "Using family-based study designs including the Simons Simplex Collection, researchers have developed statistical methods to detect genomic regions where elevated reciprocal meiotic recombination may generate deleterious de novo haplotypes contributing to autism spectrum disorder.",
+      "summary": "A preprint posted on bioRxiv describes new statistical methods for detecting genomic regions enriched for reciprocal recombination in the context of autism spectrum disorder (ASD), with application to two family-based datasets including the Simons Simplex Collection.\n\nThe biological rationale rests on a recognised feature of meiotic recombination: in some genomic regions, recombination rates are very low and variants remain in high linkage disequilibrium over long timescales. The authors propose that co-adapted haplotypes can accumulate in such regions, and that reciprocal recombination events separating these co-adapted variants may generate novel, deleterious haplotype combinations. This represents a distinct mechanism from the better-characterised de novo single-nucleotide variants and copy-number variants typically sought in ASD genetic studies.\n\nThe study develops two complementary statistical approaches tailored to different family-based study designs and applies them to identify candidate regions in ASD. The work is methodological as well as empirical, offering tools that could be applied to other neurodevelopmental and complex trait datasets.\n\nAs a preprint, the findings have not yet undergone peer review and should be treated as preliminary. The study is likely to be of primary interest to researchers in statistical genetics, neurodevelopmental genomics, and those working on the genetic architecture of ASD beyond conventional variant discovery.",
+      "tags": [
+        "autism-spectrum-disorder",
+        "meiotic-recombination",
+        "linkage-disequilibrium",
+        "de-novo-haplotype",
+        "statistical-genetics",
+        "simons-simplex-collection",
+        "neurodevelopmental-genomics"
+      ]
     }
   ],
-  "last_run": "2026-05-27T10:55:45.299768+00:00",
+  "last_run": "2026-05-28T10:54:47.536471+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
@@ -2527,7 +2697,10 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012154": "2026-05-21T10:40:08.951688+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012155": "2026-05-20T10:24:39.370157+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012156": "2026-05-21T10:40:08.951688+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012157": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012158": "2026-05-21T10:40:08.951688+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012163": "2026-05-28T10:54:47.536471+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012165": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012168": "2026-05-27T10:55:45.299768+00:00",
     "https://news.cancerresearchuk.org/2026/04/23/cancer-in-the-uk-2026-cases-exceed-400000-for-the-first-time/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/27/latest-winner-in-our-research-is-beautiful-competition-2/": "2026-05-16T19:47:15.642106+00:00",
@@ -2583,6 +2756,9 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.21.726896v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727229v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727232v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.24.727502v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.25.727613v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727863v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
     "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/lifesaving-spring-covid-19-jab-offers-protection-to-millions-of-vulnerable-people/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/nhs-detects-tens-of-thousands-of-bowel-cancers-thanks-to-screening-programme/": "2026-05-16T19:47:15.642106+00:00",
@@ -2625,7 +2801,11 @@
     "https://www.sciencedaily.com/releases/2026/05/260523103947.htm": "2026-05-25T11:08:44.871677+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022006.htm": "2026-05-27T10:55:45.299768+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022018.htm": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260526022024.htm": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260526233217.htm": "2026-05-28T10:54:47.536471+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526233433.htm": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260527023202.htm": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260527023214.htm": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/2026/05/14/psa-tests-reduce-risk-prostate-cancer-deaths-new-study-cochrane-review/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/readout-loud-podcast-makary-fda-trump-cassidy-senate/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/supreme-court-preserves-access-abortion-pill-mifepristone/": "2026-05-16T19:47:15.642106+00:00",
@@ -2738,11 +2918,19 @@
     "https://www.statnews.com/2026/05/26/pepfar-state-department-plan-dismantling-hiv-cdc/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/trump-annual-physicial-medical-exam-public-scrutiny/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/utah-doctronic-ai-experiment-early-data-health-tech/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/biotech-news-kailera-triple-g-drug-looks-very-powerful/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/27/biovat-heart-failure-stem-cell-muscle-patch-nejm-study/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/2026/05/27/flavored-vapes-e-cigarettes-fda-trump-durbin/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/health-ai-where-patients-hospitals-disagree-ai-prognosis/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/27/health-news-trump-says-latest-medical-exam-went-perfectly/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/2026/05/27/longevity-movement-shift-fringe-idea-to-big-business/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/27/science-enterprise-replication-crisis-ivory-tower-community/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/science-funding-derailed-breakthroughs/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/2026/05/27/stanford-patient-panels-feedback-on-ai-shaping-health-care/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/27/unvaccinated-blood-transfusions-directed-donation-interview/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/28/asco-preview-cancer-meeting/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/28/hepatitis-b-treatment-gsk-clinical-trials/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/28/trump-most-favored-nation-drug-pricing-secrets-revealed-soon/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/": "2026-05-16T19:47:15.642106+00:00",
@@ -2760,6 +2948,7 @@
     "https://www.statnews.com/pharmalot/2026/05/22/genentech-soliciting-academics-write-papers-to-blunt-pharma-reforms-dc/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/pharmalot/2026/05/22/parkinson-drug-trial-setback-merck-lung-cancer-therapy/?utm_campaign=rss": "2026-05-23T09:01:17.605948+00:00",
     "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "multiple PLOS Genetics primary research articles — specialist model-organism or plant-biology studies": "2026-05-16T19:47:15.642106+00:00",
     "multiple ScienceDaily items — off-topic for genetics (gum disease quorum sensing, coral reef microbes, COVID natural compounds, biomaterial tissue repair, travel and ageing, Alzheimer's arginine supplement, cholesterol DNA molecules, cannabis flavoalkaloids, fish oil brain injury, gut bacteria depression, choline anxiety, lipid nanoparticle mRNA delivery, life-of-life origin freezing, axolotl limb regeneration, blood stem cell rejuvenation, senescent cell GPX4 drugs, obesity HSL protein, kidney lubiprostone, constipation drug)": "2026-05-16T19:47:15.642106+00:00",
     "multiple Springer Nature articles — tRNA fragments breast cancer, cfDNA fragmentomics eating disorders, SCOTCH long-read scRNA-seq, ABCD1 Drosophila, SACS spastic ataxia Pakistan, HLA-C KIR birth weight": "2026-05-16T19:47:15.642106+00:00",
