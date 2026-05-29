@@ -2683,9 +2683,402 @@
         "simons-simplex-collection",
         "neurodevelopmental-genomics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "The UK National Screening Committee — the body that advises the NHS on screening programmes — has recommended that men who carry a specific gene change called BRCA2, and who also have a family history of certain cancers, should be offered targeted prostate cancer screening. BRCA2 is a gene that, when altered, can raise the risk of several cancers, including prostate cancer in men.\n\nThis recommendation does not apply to all men, and it is separate from any decision about general prostate cancer screening for the wider population. Researchers and clinicians say the move represents an important step towards matching screening to individual genetic risk.\n\nIf you or a family member has been told about a BRCA2 gene change through a genetics service, a genetic counsellor or GP will be best placed to explain what this recommendation means for your situation.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UK NSC recommends targeted prostate cancer screening for men with BRCA2 variants",
+      "is_preprint": false,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 8,
+        "importance": 9,
+        "newest_iso": "2026-05-28T12:18:23Z",
+        "novelty": 9
+      },
+      "slug": "uk-nsc-brca2-prostate-cancer-screening-recommendation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-28T12:18:23Z",
+          "publisher": "Cancer Research UK",
+          "title": "UK NSC recommends targeted prostate cancer screening",
+          "url": "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/"
+        }
+      ],
+      "standfirst": "The UK National Screening Committee has endorsed a risk-stratified approach to prostate cancer screening, focusing on men who carry a BRCA2 pathogenic variant and have a relevant family history of cancer.",
+      "summary": "The UK National Screening Committee (UK NSC) has formally recommended targeted prostate cancer screening for men who carry a pathogenic BRCA2 variant and have a family history of BRCA2-linked cancers. The announcement, reported by Cancer Research UK, marks a substantive step towards risk-stratified, rather than population-wide, prostate cancer screening in the UK.\n\nBRCA2 pathogenic variants are well established as significantly increasing prostate cancer risk, particularly for aggressive, early-onset disease. The UK NSC's position reflects a growing body of evidence — including data from the IMPACT study and related work — that men in this group may benefit from earlier detection opportunities compared with the general population.\n\nFor genetic counsellors and genetics services, the recommendation has direct implications for cascade testing conversations and family-history assessments: men identified as BRCA2 carriers through hereditary cancer pathways may now be directed towards relevant clinical guidance. Published guidance from the UK NSC notes that targeted screening may be considered in this group; referral decisions remain a matter for individual clinicians in accordance with NHS protocols.\n\nThe recommendation does not apply to men with BRCA1 variants or to the general male population. The UK NSC continues to advise against population-wide PSA screening for prostate cancer. Full details of the recommendation and the supporting evidence review are available on the UK NSC website.",
+      "tags": [
+        "brca2",
+        "prostate-cancer",
+        "uk-nsc",
+        "cancer-screening",
+        "hereditary-cancer",
+        "genetic-counselling",
+        "risk-stratification"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists studying breast cancer genetics in Rwanda have found that a number of unrelated women with breast cancer share an identical fault in a gene called BRCA1. When the same genetic fault appears repeatedly in people from the same population, it is called a founder variant — meaning it likely descended from a single ancestor rather than arising independently many times.\n\nThis matters because populations in Africa have historically been under-represented in genetics research, meaning important inherited cancer risks specific to those communities may have been missed. This study, which has not yet been formally reviewed by other scientists, is a step towards filling that gap.\n\nThe researchers say larger studies will be needed to understand how common this variant is across Rwanda and neighbouring countries.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Shared BRCA1 founder variant identified in Rwandan women with breast cancer",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "brca1-founder-variant-rwandan-breast-cancer",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A Common Pathogenic Founder Variant in Rwandan Breast Cancer Cases",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727861v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that 4% of Rwandan breast cancer cases in a 175-woman cohort carry a single recurrent BRCA1 frameshift variant tracing to a common ancestral haplotype of around 581 kb.",
+      "summary": "A preprint deposited on bioRxiv describes the identification of a shared pathogenic founder variant in BRCA1 among Rwandan women diagnosed with breast cancer. In a cohort of 175 Rwandan women with breast cancer, seven unrelated carriers — representing approximately 4% of cases and 22% of all pathogenic variant carriers identified — harboured the same BRCA1 frameshift variant, designated c.4065_4068del (p.Asn1355Lysfs*10).\n\nThe variant is extremely rare in the gnomAD population reference dataset but has been observed recurrently in European, Asian, and Middle Eastern cohorts. Whole-exome sequencing and haplotype analysis of all seven carriers revealed a shared ancestral haplotype block of approximately 581 kilobases surrounding the variant, consistent with a common founder event rather than independent mutational origins.\n\nThe finding adds to a growing but still limited body of germline data from African populations, which remain substantially under-represented in global breast cancer genetics databases. The authors argue that population-specific founder variants are likely present across sub-Saharan Africa at frequencies that current reference datasets cannot reliably capture.\n\nThis work has not yet undergone peer review. The authors note that the cohort size limits statistical precision and that further studies in larger Rwandan and East African populations will be needed to characterise the full spectrum of pathogenic BRCA1/2 variants in the region.",
+      "tags": [
+        "brca1",
+        "founder-variant",
+        "breast-cancer",
+        "african-genomics",
+        "germline",
+        "hereditary-cancer",
+        "population-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies cGAS-STING pathway as driver of cell-intrinsic inflammation in VEXAS syndrome",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "vexas-syndrome-cgas-sting-uba1-inflammation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cell autonomous inflammation in VEXAS is mediated by cGAS-STING",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727520v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using multi-omic and patient-derived cell analyses reports that loss of cytoplasmic UBA1 activity in VEXAS disrupts ER-associated degradation and mitochondrial homeostasis, activating the cGAS-STING innate immune axis.",
+      "summary": "A preprint posted to bioRxiv presents mechanistic evidence that the cGAS-STING innate immune signalling pathway mediates cell-autonomous inflammation in VEXAS syndrome — a severe adult-onset inflammatory disease caused by somatic mutations in the UBA1 gene.\n\nVEXAS (an acronym for vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic) was first described in 2020 and is caused by acquired somatic mutations — arising during a person's lifetime rather than being inherited — that reduce the cytoplasmic activity of UBA1, the primary initiating enzyme for the ubiquitylation pathway. How this hypomorphic state drives immune activation in mature myeloid cells has remained unclear.\n\nUsing unbiased multi-omic, biochemical, and cell biological analyses in model systems and patient-derived cells, the authors report that loss of cytoplasmic UBA1 activity convergently disrupts endoplasmic reticulum-associated degradation (ERAD) and mitochondrial homeostasis. These disruptions appear to culminate in activation of the cGAS-STING pathway, a DNA-sensing innate immune circuit increasingly recognised as a driver of sterile inflammation in a range of diseases.\n\nThe findings, which have not yet undergone peer review, suggest cGAS-STING inhibition as a potential mechanistic target for therapeutic investigation in VEXAS. As a rare disease caused by somatic rather than germline mutation, VEXAS sits at the intersection of haematology, rheumatology, and clinical genetics; the preprint is likely to be of interest to researchers working across these fields.",
+      "tags": [
+        "vexas-syndrome",
+        "uba1",
+        "cgas-sting",
+        "somatic-mutation",
+        "autoinflammatory",
+        "innate-immunity",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Multi-tissue transcriptomic study links AIS GWAS loci to tissue-specific molecular pathways",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "adolescent-idiopathic-scoliosis-gwas-tissue-molecular-pathology",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Integrated Transcriptomic and Functional Analysis Reveals Tissue-Specific Molecular Pathology in Adolescent Idiopathic Scoliosis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728369v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports a multi-tissue investigation connecting genome-wide association study risk loci for adolescent idiopathic scoliosis to biological function via transcriptomic and functional analyses.",
+      "summary": "Adolescent idiopathic scoliosis (AIS) — the spontaneous development of lateral spine curvature during puberty — affects approximately 3% of children worldwide and is the most common paediatric spine disorder. Despite numerous genome-wide association studies (GWAS) identifying risk loci in non-coding genomic regions, translating those associations into biological understanding has remained challenging.\n\nA preprint posted to bioRxiv describes a multi-tissue investigation designed to connect AIS GWAS risk loci to tissue-specific molecular pathology. Using integrated transcriptomic and functional analyses, the authors report tissue-specific patterns of gene expression and regulatory activity at known AIS risk loci, providing candidate biological mechanisms for a condition whose aetiology has hitherto been poorly understood at the molecular level.\n\nThis work sits alongside, but is distinct from, a separate PLOS Genetics paper in the current batch (item [17]) examining Yap1's role in vertebral development in zebrafish — both address the genetics of spine curvature disorders from different angles, but use different model systems and study different genes.\n\nThe AIS preprint has not yet undergone peer review. The authors note that AIS is currently managed purely symptomatically through bracing and surgery; a clearer mechanistic picture could inform future functional research. The work is likely to be of most interest to researchers in musculoskeletal genetics, developmental biology, and statistical genomics.",
+      "tags": [
+        "adolescent-idiopathic-scoliosis",
+        "gwas",
+        "transcriptomics",
+        "functional-genomics",
+        "musculoskeletal-genetics",
+        "non-coding-variants"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint models how dominant-sterile target sites sharpen CRISPR gene-drive suppression of pest populations",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "crispr-gene-drive-dominant-resistance-alleles-pest-suppression",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Dominant resistance alleles accelerate population suppression by CRISPR-based gene drive",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728369v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that targeting a doublesex locus generating dominant female-sterile alleles can accelerate population suppression by CRISPR-based gene drive, overcoming a key resistance mechanism.",
+      "summary": "CRISPR-based gene drive — a genetic technology designed to spread engineered traits through wild populations — is under active development as a strategy for controlling disease-vector insects and agricultural pests. A persistent challenge has been the generation of nonfunctional resistance alleles through end-joining DNA repair, which can slow or even reverse the suppressive effect of drive constructs targeting recessive fertility genes.\n\nA preprint deposited on bioRxiv investigates how targeting a doublesex locus, which can produce dominant female-sterile alleles when disrupted, alters population-level dynamics. Because disrupted alleles generated at such a site are efficiently eliminated when inherited by females, the authors report that this target-site architecture accelerates population suppression by gene drive compared with recessive-target designs.\n\nThe work is primarily of interest to researchers working in population genetics, evolutionary biology, and the biosafety and governance dimensions of gene drive technology. It contributes to ongoing discussions about which genomic targets are best suited for suppression drives intended for eventual field deployment, a prospect that remains subject to regulatory and ecological review in all jurisdictions.\n\nThe preprint has not yet undergone peer review.",
+      "tags": [
+        "gene-drive",
+        "crispr",
+        "population-suppression",
+        "pest-control",
+        "doublesex",
+        "resistance-alleles",
+        "evolutionary-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint finds cultural affiliation, not geography, drives most variation in prehistoric burial practices",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-05-28T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "ancient-dna-burial-rites-cultural-affiliation-spatiotemporal",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cultural affiliation accounts for most of the spatiotemporal variation in burial rite practices",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.25.725982v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint combining ancient DNA genomics with a new interdisciplinary burial-rite database reports that cultural affiliation accounts for the majority of spatiotemporal variation in prehistoric mortuary practices.",
+      "summary": "A preprint posted to bioRxiv uses a combined dataset of ancient DNA (aDNA) genomic sequences and a newly compiled interdisciplinary database of prehistoric burial rites to examine what drives spatiotemporal patterns in mortuary practices across human prehistory.\n\nThe analysis finds that cultural affiliation — broadly, membership of a shared cultural tradition — accounts for most of the variation in burial rite practices across time and space, outweighing the explanatory power of geographic proximity alone. The authors frame their findings in relation to processes including isolation-by-distance, homophily, and common cultural descent, all of which have been invoked in the anthropological and archaeological literature to explain how cultural practices spread and persist.\n\nThe work is methodologically relevant to researchers working at the intersection of archaeogenomics and archaeology, where the relationship between genetic ancestry and cultural identity is a subject of active and sometimes contested debate. The preprint builds on a growing body of work applying aDNA data to questions that extend beyond population history into cultural and behavioural dimensions of the human past.\n\nThis work has not yet undergone peer review. Its primary audience is researchers in archaeogenomics, evolutionary anthropology, and population genetics, as well as genealogists and educators with an interest in how genetic evidence intersects with the archaeological record.",
+      "tags": [
+        "ancient-dna",
+        "archaeogenomics",
+        "burial-rites",
+        "cultural-evolution",
+        "population-genetics",
+        "prehistoric-archaeology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint introduces TransCisPredict tool for biobank-scale proteome-wide association studies",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-28T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "transciscispredict-proteome-wide-association-studies-biobank",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Leveraging cis- and trans-variants to improve protein expression level prediction for proteome-wide association studies",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728201v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes TransCisPredict, a computational framework that incorporates both cis- and trans-variants to predict protein expression levels and enable proteome-wide association studies at biobank scale.",
+      "summary": "Proteome-wide association studies (PWAS) aim to connect variation in protein abundance to disease risk, but most large-scale genetic studies lack direct proteomic measurements. A preprint posted to bioRxiv describes TransCisPredict, a new computational framework designed to address this gap by predicting protein expression levels from genetic data and enabling PWAS at biobank scale.\n\nThe method reduces computational burden through linkage-disequilibrium block selection and incorporates both cis-acting variants — those near the gene encoding the protein — and trans-acting variants, which may exert effects from elsewhere in the genome. The authors report that accounting for trans-variants improves prediction accuracy for a subset of proteins with complex regulatory architectures, and validate the approach by performing protein-phenotype association analyses in a large biobank dataset.\n\nTransCisPredict is likely to be of interest to researchers working in statistical genetics, functional genomics, and the expanding field of multi-omics integration. PWAS complements transcriptome-wide association studies (TWAS) and is seen as one route to prioritising causal genes at GWAS loci by moving closer to the molecular effectors of disease.\n\nThe preprint has not yet undergone peer review. Code availability details are described in the preprint.",
+      "tags": [
+        "proteome-wide-association-study",
+        "pwas",
+        "statistical-genetics",
+        "trans-variants",
+        "protein-expression",
+        "biobank",
+        "computational-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint reports rare IIS/mTOR pathway variants in long-lived individuals show cross-species functional signatures",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-28T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "rare-iis-mtor-variants-longevity-functional-evidence",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Rare genetic variants in the IIS/mTOR signalling pathway identified in exceptionally long-lived individuals show shared in vitro effects associated with lifespan across species",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728260v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies rare protein-altering variants in the insulin/IGF-1 signalling and mTOR pathway among exceptionally long-lived individuals, with in vitro functional effects consistent with lifespan extension across species.",
+      "summary": "A preprint posted to bioRxiv describes a targeted pathway analysis of rare genetic variants in the insulin/insulin-like growth factor 1 signalling and mechanistic target of rapamycin (IIS/mTOR) pathway, identified in exceptionally long-lived individuals and members of long-lived families.\n\nThe IIS/mTOR signalling network is one of the most consistently implicated pathways in the biology of ageing across model organisms. Using a targeted approach, the authors identified rare protein-altering variants in pathway components among study participants and characterised their functional properties in vitro. They report that the identified variants show effects in cell-based assays that are directionally consistent with lifespan-extending perturbations documented in organisms from yeast to mammals.\n\nThe findings contribute to an active area of human longevity genetics that seeks to move beyond polygenic risk scores to identify rare, high-impact variants in specific biological pathways. The authors note that exceptionally long-lived individuals and long-lived family members tend to show compression of multi-morbidity — that is, a shorter period of serious illness at the end of life — and suggest that understanding the genetics of this group could inform research into healthspan extension.\n\nThe preprint has not yet undergone peer review. Readers should note that this work is of research interest and does not constitute a basis for any individual inference about longevity.",
+      "tags": [
+        "longevity",
+        "iis-mtor",
+        "rare-variants",
+        "ageing",
+        "insulin-signalling",
+        "healthspan",
+        "functional-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study implicates Yap1 in vertebral development and kyphoscoliosis prevention in zebrafish",
+      "is_preprint": false,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-28T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "yap1-zebrafish-vertebral-development-scoliosis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-28T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Yap1 regulates motility and vertebral development and prevents kyphoscoliosis in zebrafish",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172"
+        }
+      ],
+      "standfirst": "Researchers examining mechanosignalling in zebrafish report that the transcriptional co-activator Yap1 is expressed transiently in muscle and notochord precursors and is required to prevent kyphoscoliosis during vertebral development.",
+      "summary": "A study published in PLOS Genetics by Victoria C. Williams-Ward, Kees Wanders, Simon M. Hughes, and colleagues describes the role of Yap1 — a transcriptional co-activator and component of the Hippo signalling pathway — in vertebral development and the prevention of kyphoscoliosis in zebrafish.\n\nThe researchers report transient expression of yap1 mRNA in precursor cells of muscle and notochord during zebrafish development, alongside expression of the related gene wwtr1. Loss of Yap1 function in the model leads to kyphoscoliosis — an abnormal spinal curvature — implicating the gene in the mechanical feedback interactions between the neuromuscular and skeletal systems that are thought to be important in spine morphogenesis.\n\nScoliosis affects an estimated 2–3% of people and frequently develops during or after adolescence. Mechanosignalling — the process by which cells sense and respond to mechanical forces — is increasingly recognised as a significant contributor to spinal curvature disorders, though the molecular details have remained incompletely defined. The zebrafish model is well established as a system for studying vertebrate spine development given the optical accessibility and genetic tractability of the organism.\n\nThis peer-reviewed article complements but is distinct from a concurrent preprint (also in this batch) applying transcriptomic analysis to adolescent idiopathic scoliosis GWAS loci in humans. Together, the two papers reflect growing momentum in scoliosis genetics research.",
+      "tags": [
+        "yap1",
+        "hippo-signalling",
+        "scoliosis",
+        "kyphoscoliosis",
+        "zebrafish",
+        "vertebral-development",
+        "mechanosignalling"
+      ]
     }
   ],
-  "last_run": "2026-05-28T10:54:47.536471+00:00",
+  "last_run": "2026-05-29T10:45:46.729042+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
@@ -2702,6 +3095,8 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012163": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012165": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012168": "2026-05-27T10:55:45.299768+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012169": "2026-05-29T10:45:46.729042+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172": "2026-05-29T10:45:46.729042+00:00",
     "https://news.cancerresearchuk.org/2026/04/23/cancer-in-the-uk-2026-cases-exceed-400000-for-the-first-time/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/27/latest-winner-in-our-research-is-beautiful-competition-2/": "2026-05-16T19:47:15.642106+00:00",
     "https://news.cancerresearchuk.org/2026/04/27/tobacco-and-vapes-bill-isnt-an-affront-to-personal-freedom-its-a-defence-against-deadly-addiction/": "2026-05-16T19:47:15.642106+00:00",
@@ -2719,6 +3114,7 @@
     "https://news.cancerresearchuk.org/2026/05/20/how-philanthropy-is-helping-promising-cancer-treatments-reach-clinical-trials-sooner/": "2026-05-20T10:24:39.370157+00:00",
     "https://news.cancerresearchuk.org/2026/05/22/skin-cancer-cases-hit-record-high-in-the-uk/": "2026-05-22T10:24:42.174074+00:00",
     "https://news.cancerresearchuk.org/2026/05/25/beyond-the-research-turning-evidence-into-impact/": "2026-05-25T11:08:44.871677+00:00",
+    "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.11.723906v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.12.724636v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.13.724957v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
@@ -2757,8 +3153,17 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727229v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727232v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.24.727502v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.25.725982v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.25.727613v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.25.727720v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727520v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727858v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727861v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727863v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727870v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728201v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728260v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728369v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/lifesaving-spring-covid-19-jab-offers-protection-to-millions-of-vulnerable-people/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/nhs-detects-tens-of-thousands-of-bowel-cancers-thanks-to-screening-programme/": "2026-05-16T19:47:15.642106+00:00",
@@ -2806,6 +3211,9 @@
     "https://www.sciencedaily.com/releases/2026/05/260526233433.htm": "2026-05-27T10:55:45.299768+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260527023202.htm": "2026-05-28T10:54:47.536471+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260527023214.htm": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260528074032.htm": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260528082459.htm": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260528082507.htm": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/14/psa-tests-reduce-risk-prostate-cancer-deaths-new-study-cochrane-review/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/readout-loud-podcast-makary-fda-trump-cassidy-senate/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/supreme-court-preserves-access-abortion-pill-mifepristone/": "2026-05-16T19:47:15.642106+00:00",
@@ -2929,8 +3337,19 @@
     "https://www.statnews.com/2026/05/27/stanford-patient-panels-feedback-on-ai-shaping-health-care/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/27/unvaccinated-blood-transfusions-directed-donation-interview/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/28/asco-preview-cancer-meeting/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/28/biotech-news-asco-preview-2026-all-eyes-on-pancreatic-cancer/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/biotech-veteran-jeremy-levin-on-why-the-industrys-future-is-secure-but-american-leadership-is-at-risk/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/ebola-world-cup-travel-public-health-measles/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/fda-wellness-guidance-unvetted-blood-pressure-tech-floods-market/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/health-news-latest-news-on-ebola-hepatitis-b-long-covid/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/28/hepatitis-b-treatment-gsk-clinical-trials/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/28/jeremy-levin-biotech-asco-preview-readout-loud-podcast/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/oura-arrives-blood-pressure-party-health-tech/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/trump-ebola-travel-restrictions-discourages-medical-volunteers/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/28/trump-most-favored-nation-drug-pricing-secrets-revealed-soon/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/28/trump-pharma-mfn-deals-medicaid-work-requirement-rules-dc-diagnosis/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/29/glp-1-microdose-popular-but-unsupported-by-evidence/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/29/xprize-healthspan-longevity-science-jamie-justice-q-and-a/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/": "2026-05-16T19:47:15.642106+00:00",
@@ -2949,6 +3368,7 @@
     "https://www.statnews.com/pharmalot/2026/05/22/parkinson-drug-trial-setback-merck-lung-cancer-therapy/?utm_campaign=rss": "2026-05-23T09:01:17.605948+00:00",
     "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "multiple PLOS Genetics primary research articles — specialist model-organism or plant-biology studies": "2026-05-16T19:47:15.642106+00:00",
     "multiple ScienceDaily items — off-topic for genetics (gum disease quorum sensing, coral reef microbes, COVID natural compounds, biomaterial tissue repair, travel and ageing, Alzheimer's arginine supplement, cholesterol DNA molecules, cannabis flavoalkaloids, fish oil brain injury, gut bacteria depression, choline anxiety, lipid nanoparticle mRNA delivery, life-of-life origin freezing, axolotl limb regeneration, blood stem cell rejuvenation, senescent cell GPX4 drugs, obesity HSL protein, kidney lubiprostone, constipation drug)": "2026-05-16T19:47:15.642106+00:00",
     "multiple Springer Nature articles — tRNA fragments breast cancer, cfDNA fragmentomics eating disorders, SCOTCH long-read scRNA-seq, ABCD1 Drosophila, SACS spastic ataxia Pakistan, HLA-C KIR birth weight": "2026-05-16T19:47:15.642106+00:00",
