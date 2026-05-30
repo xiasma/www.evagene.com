@@ -3076,9 +3076,265 @@
         "vertebral-development",
         "mechanosignalling"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "University of Michigan study challenges neutral theory of molecular evolution",
+      "is_preprint": false,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-29T11:10:48Z",
+        "novelty": 7
+      },
+      "slug": "neutral-theory-evolution-beneficial-mutations-michigan",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-29T11:10:48Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists say evolution may work differently than we thought",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260529030329.htm"
+        }
+      ],
+      "standfirst": "A large-scale analysis finds beneficial mutations are more common than the neutral theory predicts, but environmental change may prevent them from fixing in populations.",
+      "summary": "Researchers at the University of Michigan have published a study challenging the neutral theory of molecular evolution — one of the most influential frameworks in modern genetics, which holds that the vast majority of mutations that become permanently established in a species are selectively neutral rather than advantageous.\n\nThe team's analysis found that beneficial mutations arise substantially more often than the neutral theory assumes. Yet these mutations rarely sweep to fixation across entire populations. The researchers argue that fluctuating selective pressures — environments that shift before a beneficial variant can spread — may explain this paradox. In effect, the fitness landscape keeps moving, leaving beneficial mutations stranded at intermediate frequencies.\n\nThe findings have implications for population genetics models used to estimate selection coefficients, interpret patterns of molecular diversity, and understand the tempo of adaptive evolution. If environmental change routinely disrupts selective sweeps, methods that assume fixation-based signatures of positive selection may systematically underestimate the prevalence of adaptive evolution.\n\nThe study was reported by ScienceDaily; the primary journal source was not specified in available feed text. Researchers and students working with population-genetic theory or molecular evolution models will find the conceptual challenge to the neutral theory of particular interest.",
+      "tags": [
+        "neutral-theory",
+        "population-genetics",
+        "positive-selection",
+        "molecular-evolution",
+        "beneficial-mutations"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Stanford study links ribosome stalling during ageing to protein aggregation in brain",
+      "is_preprint": false,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-29T14:17:40Z",
+        "novelty": 7
+      },
+      "slug": "ribosome-stalling-ageing-brain-alzheimers-killifish",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-29T14:17:40Z",
+          "publisher": "ScienceDaily",
+          "title": "Protein traffic jams may explain aging, memory loss, and Alzheimer's",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260528082505.htm"
+        }
+      ],
+      "standfirst": "Research in the short-lived turquoise killifish finds that collisions between ribosomes accumulate with age and may contribute to the protein clumps associated with neurodegenerative disease.",
+      "summary": "Researchers at Stanford University have published a study using the turquoise killifish (*Nothobranchius furzeri*) — valued in ageing research for its unusually short lifespan — to investigate how translational fidelity changes over time in the brain.\n\nThe team reports that ribosomes, the molecular machines that synthesise proteins by reading messenger RNA, increasingly stall and collide with one another as animals age. These collisions disrupt normal protein production and trigger downstream quality-control pathways. When these pathways are overwhelmed, misfolded and aggregated proteins accumulate — a cellular phenotype associated with neurodegenerative conditions including Alzheimer's disease.\n\nThe study contributes to a growing body of work on translational stress as a driver of age-related protein homeostasis failure, a field sometimes termed proteostasis research. The turquoise killifish model allows researchers to study the full arc of vertebrate ageing within a compressed experimental window, making it particularly useful for identifying conserved mechanisms.\n\nThe primary journal source was not specified in available feed text. The findings are of interest to researchers in ageing biology, molecular cell biology, and the genetics of neurodegenerative disease, as well as to educators and students seeking illustrative examples of how translational machinery contributes to age-related pathology.",
+      "tags": [
+        "ageing",
+        "ribosome",
+        "proteostasis",
+        "alzheimers-disease",
+        "neurodegeneration",
+        "killifish",
+        "translation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint finds circular RNA QTLs overlap more with splicing variants than expression variants",
+      "is_preprint": true,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "circqtl-splicing-qtl-overlap-circrna-biogenesis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Circular RNA-associated QTLs show stronger association with splicing-QTLs than with expression-QTLs",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728707v1?rss=1"
+        }
+      ],
+      "standfirst": "A systematic comparison of circQTLs with sQTL and eQTL datasets suggests that genetic regulation of circular RNA production is mechanistically closer to splicing than to canonical transcriptional control.",
+      "summary": "A preprint posted to bioRxiv reports a systematic analysis of circular RNA quantitative trait loci (circQTLs) — genetic variants that influence the abundance of circular RNAs — and their relationship to matched splicing QTL (sQTL) and expression QTL (eQTL) datasets.\n\nUsing bootstrap-based Jaccard similarity analyses to quantify genomic overlap, the authors find that circQTLs show substantially stronger co-localisation with sQTLs than with eQTLs. The pattern was replicated across independent datasets. The result supports a mechanistic model in which genetic variation shapes circRNA biogenesis primarily through effects on the splicing machinery rather than through changes in overall transcriptional output.\n\nCircular RNAs are a class of non-polyadenylated RNA molecules generated by back-splicing; their functional roles and regulatory genetics remain an active area of investigation. This work provides a framework for integrating circQTL data with existing functional genomic resources and may help prioritise variants for functional follow-up in post-transcriptional gene regulation research.\n\nThis study is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "circular-rna",
+        "qtl",
+        "splicing",
+        "post-transcriptional-regulation",
+        "functional-genomics",
+        "epitranscriptomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Facioscapulohumeral muscular dystrophy (FSHD) is an inherited muscle condition that causes weakness, particularly in the face, shoulders and upper arms. It is caused by changes in how a part of chromosome 4 is chemically marked — a process called DNA methylation — rather than a simple spelling change in the genetic code.\n\nResearchers have described a new laboratory test, called D4Z4caster, that reads these chemical marks on the relevant chromosome region. In the preprint paper, it correctly distinguished people with FSHD from those without, and told apart two different genetic forms of the condition. The scientists suggest it could be easier to perform than current tests, which are complex and not always available.\n\nThis research is at an early stage and has not yet been checked by independent scientific reviewers. It is a research tool, not a diagnostic test available in clinics.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint describes DNA methylation signature to identify individuals at epigenetic risk for FSHD",
+      "is_preprint": true,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "d4z4caster-methylation-fshd-epigenetic-risk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The D4Z4caster DNA methylation signature identifies individuals at epigenetic risk for developing facioscapulohumeral muscular dystrophy (FSHD)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727947v1?rss=1"
+        }
+      ],
+      "standfirst": "The D4Z4caster assay uses targeted bisulfite sequencing of the D4Z4 repeat array to stratify individuals who may carry the epigenetic hallmarks of facioscapulohumeral muscular dystrophy.",
+      "summary": "A preprint posted to bioRxiv introduces D4Z4caster, a targeted DNA methylation assay designed to characterise the epigenetic state of the D4Z4 repeat array on chromosome 4q35 — the genomic region whose hypomethylation underlies facioscapulohumeral muscular dystrophy (FSHD).\n\nFSHD is caused by epigenetic derepression of the DUX4 gene within the D4Z4 array, which occurs under specific permissive genetic conditions. Conventional genetic confirmation is technically demanding, costly, and not widely accessible, meaning that many individuals with characteristic proximal muscle weakness — and at-risk relatives — remain without a molecular diagnosis.\n\nThe authors report that D4Z4caster uses bisulfite sequencing at specific D4Z4 loci to distinguish the two main genetic forms of FSHD (FSHD1 and FSHD2) from one another and from unaffected individuals. The method is presented as potentially more accessible than current gold-standard approaches.\n\nGenetic counsellors and neuromuscular disease researchers will note that the assay is described as a research tool; the authors do not present it as a validated clinical diagnostic. The preprint has not yet been peer-reviewed, and independent validation in diverse populations would be required before any research or educational conclusions could be drawn about its broader applicability.\n\nThis study is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "fshd",
+        "facioscapulohumeral-muscular-dystrophy",
+        "dna-methylation",
+        "d4z4",
+        "epigenetics",
+        "rare-disease",
+        "neuromuscular"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Mitotree preprint offers a universal human mitochondrial reference phylogeny at ten times previous resolution",
+      "is_preprint": true,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "mitotree-mitochondrial-dna-phylogeny-10x-resolution",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mitotree: The Universal Human Mitochondrial Reference Phylogeny at 10x the Resolution",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728536v1?rss=1"
+        }
+      ],
+      "standfirst": "A new actively maintained mtDNA reference tree incorporating hundreds of thousands of sequences replaces the retired PhyloTree resource and substantially increases haplogroup resolution for population and ancestry research.",
+      "summary": "A preprint posted to bioRxiv introduces Mitotree, a new reference phylogeny for human mitochondrial DNA (mtDNA) that the authors describe as a successor to PhyloTree — the community standard resource that was retired in 2016.\n\nPhyloTree version 17 contained approximately 24,275 sequences and 5,438 branches. Mitotree is built from hundreds of thousands of currently available sequences and achieves approximately ten times the haplogroup resolution of its predecessor. The authors also describe scalable computational methods capable of handling datasets of this size, addressing a recognised bottleneck in the field.\n\nMitochondrial DNA is maternally inherited and does not undergo recombination, making it a tractable system for tracing matrilineal ancestry and inferring population history. All living humans trace their mtDNA to a common female ancestor estimated to have lived approximately 145,000 years ago in Africa. Reference phylogenies underpin haplogroup assignment, population-genetic inference, forensic genetics, and direct-to-consumer ancestry testing.\n\nFor researchers working in population genetics, archaeogenomics, or genetic genealogy, Mitotree addresses a practically important gap left by PhyloTree's retirement. Genealogists with an interest in mitochondrial ancestry testing will recognise the significance of an updated, high-resolution reference tree for interpreting haplogroup assignments.\n\nThis study is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "mitochondrial-dna",
+        "phylogenetics",
+        "haplogroup",
+        "population-genetics",
+        "genetic-genealogy",
+        "matrilineal-ancestry",
+        "reference-resource"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes conditional SNP-heritability framework for ancestrally diverse datasets",
+      "is_preprint": true,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "snp-heritability-conditional-marginal-ancestral-diversity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Conditional and marginal SNP-heritability to leverage ancestral and environmental diversity",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728536v1?rss=1"
+        }
+      ],
+      "standfirst": "A new statistical approach estimates heritability separately within genetically defined subpopulations, addressing a known limitation of methods that return a single marginal estimate across diverse cohorts.",
+      "summary": "A preprint posted to bioRxiv introduces a framework that distinguishes between marginal SNP-heritability — a single estimate computed across an entire genetically diverse dataset — and conditional SNP-heritability, which is estimated separately within ancestral subpopulations.\n\nSNP-heritability is the proportion of phenotypic variance explained by the genetic variants assayed in a genome-wide association study (GWAS). Standard methods return one figure per trait per dataset. The authors argue that when a dataset pools individuals from multiple ancestral backgrounds — each with potentially different environmental exposures, allele frequencies, and linkage disequilibrium structures — a single marginal estimate conflates genuine biological heterogeneity with statistical artefact.\n\nThe conditional framework allows researchers to ask whether a trait's heritability differs between subpopulations, which has implications for understanding gene–environment interactions and for the transferability of polygenic scores across populations. The paper presents theoretical derivations and applies the method to empirical datasets.\n\nThis work is relevant to researchers developing or applying GWAS methodology in diverse cohorts, and to statistical geneticists working on polygenic score portability. It connects to a broader ongoing conversation about the assumptions embedded in heritability estimation and the importance of ancestral diversity in genomic research.\n\nThis study is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "snp-heritability",
+        "gwas",
+        "ancestral-diversity",
+        "statistical-genetics",
+        "polygenic-scores",
+        "population-genetics",
+        "heritability-estimation"
+      ]
     }
   ],
-  "last_run": "2026-05-29T10:45:46.729042+00:00",
+  "last_run": "2026-05-30T09:14:46.646220+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
@@ -3115,6 +3371,7 @@
     "https://news.cancerresearchuk.org/2026/05/22/skin-cancer-cases-hit-record-high-in-the-uk/": "2026-05-22T10:24:42.174074+00:00",
     "https://news.cancerresearchuk.org/2026/05/25/beyond-the-research-turning-evidence-into-impact/": "2026-05-25T11:08:44.871677+00:00",
     "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
+    "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.11.723906v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.12.724636v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.13.724957v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
@@ -3161,9 +3418,20 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727861v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727863v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727870v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727947v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727960v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.728016v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.27.727643v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.27.728285v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.27.728303v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.725302v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728201v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728260v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728369v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728467v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728476v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728536v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.29.728707v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/lifesaving-spring-covid-19-jab-offers-protection-to-millions-of-vulnerable-people/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.england.nhs.uk/2026/04/nhs-detects-tens-of-thousands-of-bowel-cancers-thanks-to-screening-programme/": "2026-05-16T19:47:15.642106+00:00",
@@ -3213,7 +3481,9 @@
     "https://www.sciencedaily.com/releases/2026/05/260527023214.htm": "2026-05-28T10:54:47.536471+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260528074032.htm": "2026-05-29T10:45:46.729042+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260528082459.htm": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260528082505.htm": "2026-05-30T09:14:46.646220+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260528082507.htm": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260529030329.htm": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/2026/05/14/psa-tests-reduce-risk-prostate-cancer-deaths-new-study-cochrane-review/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/readout-loud-podcast-makary-fda-trump-cassidy-senate/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/2026/05/14/supreme-court-preserves-access-abortion-pill-mifepristone/": "2026-05-16T19:47:15.642106+00:00",
@@ -3348,7 +3618,13 @@
     "https://www.statnews.com/2026/05/28/trump-ebola-travel-restrictions-discourages-medical-volunteers/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/28/trump-most-favored-nation-drug-pricing-secrets-revealed-soon/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/2026/05/28/trump-pharma-mfn-deals-medicaid-work-requirement-rules-dc-diagnosis/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/29/asco-news-day-1-multiple-myeloma-bristol-lung-cancer-pfizer/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/05/29/biotech-news-allogene-ceo-david-chang-steps-down/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/2026/05/29/glp-1-microdose-popular-but-unsupported-by-evidence/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/29/health-news-which-vaccines-will-curb-ebola-outbreak/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/05/29/kenya-court-suspends-plan-ebola-quarantine-facility-americans/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/05/29/nih-grants-uniform-guidance-proposal-political-control/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/05/29/united-healthcare-sued-massachusetts-ag-alleges-100-million-upcode-fraud-medicaid/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/2026/05/29/xprize-healthspan-longevity-science-jamie-justice-q-and-a/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
     "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
@@ -3369,6 +3645,8 @@
     "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/29/pharmalittle-were-reading-about-replimune-drug-getting-third-try-at-fda-approval-a-pfizer-deal-in-china-and-more/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/29/up-and-down-the-ladder-comings-and-goings-merck-pfizer-amgen/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "multiple PLOS Genetics primary research articles — specialist model-organism or plant-biology studies": "2026-05-16T19:47:15.642106+00:00",
     "multiple ScienceDaily items — off-topic for genetics (gum disease quorum sensing, coral reef microbes, COVID natural compounds, biomaterial tissue repair, travel and ageing, Alzheimer's arginine supplement, cholesterol DNA molecules, cannabis flavoalkaloids, fish oil brain injury, gut bacteria depression, choline anxiety, lipid nanoparticle mRNA delivery, life-of-life origin freezing, axolotl limb regeneration, blood stem cell rejuvenation, senescent cell GPX4 drugs, obesity HSL protein, kidney lubiprostone, constipation drug)": "2026-05-16T19:47:15.642106+00:00",
     "multiple Springer Nature articles — tRNA fragments breast cancer, cfDNA fragmentomics eating disorders, SCOTCH long-read scRNA-seq, ABCD1 Drosophila, SACS spastic ataxia Pakistan, HLA-C KIR birth weight": "2026-05-16T19:47:15.642106+00:00",
