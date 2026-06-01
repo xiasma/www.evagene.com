@@ -3502,9 +3502,178 @@
         "gene-regulation",
         "functional-genomics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "patients"
+      ],
+      "for_patients": "Researchers at Revolution Medicines have reported encouraging results for a new drug called daraxonrasib, which targets a faulty protein called KRAS that drives most cases of pancreatic cancer. The results were presented at a large cancer conference called ASCO in 2026 and were described by some doctors as potentially changing how this cancer might be treated in future.\n\nKRAS has been difficult to target with medicines for many decades, so findings like these are considered significant by researchers in the field. The drug is still being studied in clinical trials, and it is not yet approved for use as a standard treatment.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Revolution Medicines reports practice-changing trial results for KRAS-targeted pancreatic cancer drug",
+      "is_preprint": false,
+      "run_date": "2026-06-01",
+      "run_iso": "2026-06-01T12:34:01Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-05-31T12:00:00Z",
+        "novelty": 8
+      },
+      "slug": "revolution-medicines-daraxonrasib-pancreatic-cancer-asco-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/05/M1320912-Pancreatic_cancer_cells_SEM-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-31T12:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Practice-changing results reported for Revolution Medicines pancreatic cancer drug",
+          "url": "https://www.statnews.com/2026/05/31/pancreatic-cancer-daraxonrasib-revolution-medicines-results-asco-2026/"
+        }
+      ],
+      "standfirst": "Daraxonrasib, a small molecule targeting KRAS, produced results described as practice-changing at ASCO 2026, offering a new approach to one of oncology's hardest tumours.",
+      "summary": "At the 2026 American Society of Clinical Oncology (ASCO) annual meeting, Revolution Medicines presented results for daraxonrasib, a drug designed to inhibit KRAS — a GTPase long considered undruggable due to its smooth, featureless surface. Pancreatic ductal adenocarcinoma is driven by KRAS mutations in approximately 90% of cases, and the absence of effective targeted options has contributed to its persistently poor prognosis.\n\nThe trial data, reported by Stat News, were described as practice-changing by observers at the conference. Daraxonrasib is a member of a class of compounds that occupy a switch-II pocket on mutant KRAS, locking the protein in an inactive state. Earlier agents in this class were monospecific for the KRAS G12C variant; daraxonrasib targets a broader range of KRAS mutations relevant to pancreatic cancer.\n\nFull efficacy and safety data were not detailed in the available lede; the peer-reviewed publication or conference abstract should be consulted for primary endpoints, patient numbers, and adverse event profiles. Regulatory and clinical pathway implications remain to be determined. The story was covered by Stat News on 31 May 2026 under a STAT+ paywall; the conference abstract is the recommended primary source for researchers and oncologists.",
+      "tags": [
+        "kras",
+        "pancreatic-cancer",
+        "daraxonrasib",
+        "asco-2026",
+        "targeted-therapy",
+        "clinical-trial-news"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists"
+      ],
+      "for_patients": null,
+      "headline": "Akeso and Summit's ivonescimab extends survival in squamous cell lung cancer at ASCO 2026",
+      "is_preprint": false,
+      "run_date": "2026-06-01",
+      "run_iso": "2026-06-01T12:34:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-05-31T12:00:00Z",
+        "novelty": 8
+      },
+      "slug": "ivonescimab-squamous-cell-lung-cancer-asco-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/05/C0609832-Lung_cancer_scan-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-31T12:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Akeso and Summit's ivonescimab extends survival in squamous cell lung cancer",
+          "url": "https://www.statnews.com/2026/05/31/squamous-cell-lung-cancer-akeso-summit-harmoni-asco-2026/"
+        }
+      ],
+      "standfirst": "The bispecific antibody ivonescimab, developed in China, showed a survival benefit in squamous cell lung cancer, though researchers called for follow-up in more diverse patient populations.",
+      "summary": "Data presented at ASCO 2026 showed that ivonescimab, a bispecific antibody targeting both PD-1 and VEGF, extended survival in patients with squamous cell lung cancer. The drug was developed by Akeso and is being studied in partnership with Summit Therapeutics under the HARMONI trial programme.\n\nIvonescimab is designed to combine immune checkpoint inhibition with anti-angiogenic activity in a single molecule, an approach intended to overcome resistance mechanisms that limit single-agent PD-1 blockade. Squamous cell carcinoma represents a substantial subtype of non-small cell lung cancer and has historically had fewer targeted options than adenocarcinoma, which more frequently harbours actionable mutations such as EGFR alterations.\n\nClinicians commenting at the meeting welcomed the results but noted that the trial population was predominantly East Asian, raising questions about the generalisability of findings to other ancestries and healthcare settings. Researchers and oncologists interested in the primary endpoint data, patient-selection criteria, and subgroup analyses should consult the conference abstract and the anticipated peer-reviewed publication. Regulatory submissions had not been announced at the time of reporting. The story was covered by Stat News on 31 May 2026.",
+      "tags": [
+        "lung-cancer",
+        "ivonescimab",
+        "pd-1-blockade",
+        "bispecific-antibody",
+        "asco-2026",
+        "clinical-trial-news",
+        "population-diversity"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists"
+      ],
+      "for_patients": null,
+      "headline": "Ultra-low-dose nivolumab trial raises prospect of affordable immunotherapy in lower-income countries",
+      "is_preprint": false,
+      "run_date": "2026-06-01",
+      "run_iso": "2026-06-01T12:34:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-05-31T17:11:55Z",
+        "novelty": 8
+      },
+      "slug": "low-dose-nivolumab-global-access-cancer-asco-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/05/52825608283_965e677441_3k-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-31T17:11:55Z",
+          "publisher": "Stat News",
+          "title": "Ultra-low doses could bring costly cancer treatments to more patients in poorer countries",
+          "url": "https://www.statnews.com/2026/05/31/low-dose-nivolumab-extends-survival-trial-head-neck-squamous-cell-carcinoma-asco-2026/"
+        }
+      ],
+      "standfirst": "A trial presented at ASCO 2026 found that substantially reduced doses of nivolumab retained efficacy in head and neck squamous cell carcinoma, a finding with potential relevance to treatment access in lower-income settings.",
+      "summary": "Researchers presented data at the 2026 ASCO annual meeting suggesting that very low doses of nivolumab — a PD-1 inhibitor — may produce outcomes comparable to standard dosing in head and neck squamous cell carcinoma (HNSCC). The work was reported by Stat News on 31 May 2026.\n\nNivolumab and similar checkpoint inhibitors are among the most widely used immunotherapies in oncology, but their cost places them beyond reach for health systems in many lower- and middle-income countries. The rationale for dose reduction rests on pharmacokinetic modelling suggesting that the drug's target — the PD-1 receptor on T cells — may be saturated at substantially lower plasma concentrations than those achieved by approved regimens.\n\nThe trial's patient numbers, primary endpoints, and comparator arms were not detailed in the available summary; the conference abstract and anticipated full publication should be consulted for these details. Researchers and oncologists working in global oncology and health equity contexts may find the framing particularly relevant. The findings are not a basis for modifying treatment regimens outside of a clinical trial setting; published guidance from regulatory bodies and clinical practice guidelines remains the appropriate reference for treatment decisions.",
+      "tags": [
+        "nivolumab",
+        "pd-1-blockade",
+        "head-and-neck-cancer",
+        "immunotherapy",
+        "global-health",
+        "asco-2026",
+        "cancer-access"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: shared Su(Hw) binding sites mediate specific TAD boundary interactions in Drosophila",
+      "is_preprint": true,
+      "run_date": "2026-06-01",
+      "run_iso": "2026-06-01T12:34:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-05-31T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "su-hw-drosophila-tad-boundary-chromosome-architecture",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-31T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Shared binding sites for the chromosomal architectural protein Su(Hw) mediate physical interactions between Drosophila TAD boundaries",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.727987v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from Cold Spring Harbor Laboratory proposes that the chromosomal architectural protein Su(Hw) generates specificity in topologically associating domain boundary contacts in Drosophila, helping to explain how TADs form independently of loop extrusion.",
+      "summary": "A preprint deposited on bioRxiv on 31 May 2026 investigates how topologically associating domain (TAD) boundaries establish specific, orientation-dependent interactions in Drosophila chromatin. The work focuses on Su(Hw), a zinc-finger protein that binds the gypsy retrotransposon and is known to act as an insulator, and asks how shared Su(Hw) binding sites at TAD boundaries mediate physical contacts between those boundaries.\n\nLoop extrusion — the leading mechanistic model for TAD formation in vertebrates — has been shown to be insufficient to explain TAD formation in Drosophila, leaving a significant gap in the understanding of chromosomal architecture across eukaryotes. The preprint presents evidence that Su(Hw) binding site sharing generates the specificity and directionality of inter-TAD interactions, offering a candidate mechanism to fill that gap.\n\nThe work is a preprint and has not yet undergone peer review. Researchers working in chromosome biology, genome organisation, and Drosophila genetics will find the molecular detail of most direct relevance. Educators and students covering 3D genome organisation and insulator function may also find this a useful primary source example. Full methods, datasets, and conclusions should be verified against the peer-reviewed version once published.",
+      "tags": [
+        "chromosome-architecture",
+        "tad-boundaries",
+        "su-hw",
+        "drosophila",
+        "insulator-elements",
+        "3d-genome",
+        "chromatin"
+      ]
     }
   ],
-  "last_run": "2026-05-31T09:47:25.678662+00:00",
+  "last_run": "2026-06-01T12:35:14.571711+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012137": "2026-05-19T10:37:43.421038+00:00",
@@ -3527,14 +3696,12 @@
     "https://news.cancerresearchuk.org/2026/05/25/beyond-the-research-turning-evidence-into-impact/": "2026-05-25T11:08:44.871677+00:00",
     "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
     "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.14.724656v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.14.724910v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.14.725224v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.14.725285v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725342v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725556v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.16.725661v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.17.725479v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725703v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725730v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725798v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
@@ -3573,6 +3740,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.27.728285v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.27.728303v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.725302v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.727987v1?rss=1": "2026-06-01T12:35:14.571711+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728201v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728260v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728369v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
@@ -3588,8 +3756,6 @@
     "https://www.nature.com/articles/s41588-026-02636-5": "2026-05-19T10:37:43.421038+00:00",
     "https://www.nature.com/articles/s43856-026-01615-5": "2026-05-19T10:37:43.421038+00:00",
     "https://www.phgfoundation.org/blog/rethinking-hba1c-genetics-diversity-and-diabetes-diagnosis/": "2026-05-22T10:24:42.174074+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260517030326.htm": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260517211447.htm": "2026-05-18T11:06:34.634654+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260519003215.htm": "2026-05-20T10:24:39.370157+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260519224303.htm": "2026-05-20T10:24:39.370157+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260520093726.htm": "2026-05-22T10:24:42.174074+00:00",
@@ -3612,20 +3778,15 @@
     "https://www.sciencedaily.com/releases/2026/05/260528082505.htm": "2026-05-30T09:14:46.646220+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260528082507.htm": "2026-05-29T10:45:46.729042+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260529030329.htm": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260529043640.htm": "2026-06-01T12:35:14.571711+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530004618.htm": "2026-05-31T09:47:25.678662+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530004626.htm": "2026-05-31T09:47:25.678662+00:00",
-    "https://www.statnews.com/2026/05/17/bill-cassidy-loses-louisiana-primary-after-maga-maha-opposition/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/17/ebola-outbreak-congo-americans-exposure-suspected-cases/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/17/hantavirus-outbreak-cruise-ship-covid-flashbacks-conspiracy-theories/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/17/when-should-you-get-a-mammogram-conflicting-advice/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/18/acip-charter-vaccine-policy-cdc-political-interference/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260530053424.htm": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/05/18/atrium-health-wake-med-merger-gmrs-ipo-health-care-inc/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/biotech-industry-split-chinese-drugs-opportunity-versus-existential-threat/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
     "https://www.statnews.com/2026/05/18/biotech-news-astrazeneca-picks-up-fda-approval-hypertension-drug/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/18/cdc-ebola-travel-ban-announced-uganda-congo-south-sudan/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/18/ebola-outbreak-update-experts-weigh-use-merck-vaccine-ervebo/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/18/health-news-texas-opens-detransition-clinic/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/patient-autonomy-childhood-vaccines-red-herring/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
     "https://www.statnews.com/2026/05/18/supreme-court-rejects-challenge-medicare-drug-price-negotiations/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/18/trump-aca-insurance-new-cms-rules-expand-catastrophic-coverage/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/18/trumprx-adds-generic-drugs-amazon-pharmacy-mark-cuban-goodrx/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
@@ -3733,7 +3894,18 @@
     "https://www.statnews.com/2026/05/30/pancreatic-cancer-daraxonrasib-revolution-medicines-early-access-asco-2026/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
     "https://www.statnews.com/2026/05/30/rick-pazdur-fda-destruction-rebuilding-asco-2026/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
     "https://www.statnews.com/2026/05/30/trump-ebola-response-biden-pandemic-preparations-thrown-away/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/17/uk-advocates-threaten-court-action-over-pharma-trade-deal-with-us/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
+    "https://www.statnews.com/2026/05/31/asco-news-day-3-revmed-akeso-summit-lilly-kelonia/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/05/31/low-dose-nivolumab-extends-survival-trial-head-neck-squamous-cell-carcinoma-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/05/31/pancreatic-cancer-daraxonrasib-revolution-medicines-results-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/05/31/prostate-cancer-hormone-therapy-cut-relapse-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/05/31/squamous-cell-lung-cancer-akeso-summit-harmoni-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/bpc-157-researcher-predrag-sikiric-addesses-skeptics-questions/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/medicare-50-dollar-weight-loss-drugs-glp-1-bridge-program-cost-estimate/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/no-surprises-act-new-arbitration-rules-providers-gaming-system/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/residency-diversity-med-school-disciplinary-action-dei-equity-black-latino/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/servier-edgewise-therapeutics-muscular-dystrophy-drug-sevasemten/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/summa-health-tech-initiatives-after-general-catalyst-acquisition/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/us-military-medical-corps-recruitment-incentives/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/pharmalot/2026/05/18/biotech-has-china-problem-regeneron-melanoma-drug-flops/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/pharmalot/2026/05/18/maryland-state-affordability-board-places-price-cap-on-ozempic/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/pharmalot/2026/05/19/canadian-medical-societies-lack-sufficient-conflict-of-interest-policies/": "2026-05-20T10:24:39.370157+00:00",
