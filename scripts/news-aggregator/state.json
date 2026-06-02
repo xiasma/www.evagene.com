@@ -3671,12 +3671,227 @@
         "3d-genome",
         "chromatin"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Most of what we inherit from our parents comes through DNA — the sequence of genetic letters passed from one generation to the next. But scientists have long known that some heritable changes can also travel through chemical tags attached to DNA, called epigenetic marks, without altering the underlying sequence.\n\nA new study in mice has found hundreds of cases where these chemical marks behaved in ways that do not follow the classic rules of genetics first described by Gregor Mendel in the 19th century. Researchers also reported what they describe as the first known example of a process called paramutation — where one inherited version of a gene changes how another version behaves in future generations — occurring naturally in a mammal. Until now, this had mainly been seen in plants.\n\nThe study raises the possibility that environmental factors may influence inheritance in ways scientists are still working to understand. This is early research in mice, and it is not yet clear what, if anything, it means for human health.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Mouse study identifies hundreds of non-Mendelian epigenetic inheritance events",
+      "is_preprint": false,
+      "run_date": "2026-06-02",
+      "run_iso": "2026-06-02T11:15:04Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-06-01T12:58:04Z",
+        "novelty": 8
+      },
+      "slug": "epigenetic-inheritance-paramutation-mouse-mendel",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-01T12:58:04Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover inherited traits that break Mendel's Laws of genetics",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260530053420.htm"
+        }
+      ],
+      "standfirst": "A large-scale mouse study has mapped epigenetic marks that violate classical inheritance rules, including what researchers describe as the first naturally occurring paramutation documented in a mammal.",
+      "summary": "A study reported via ScienceDaily describes findings from a large mouse genetics experiment in which researchers identified hundreds of inherited traits transmitted through epigenetic mechanisms — chemical modifications to DNA and associated proteins — that do not follow Mendel's laws of segregation and independent assortment.\n\nAmong the most striking findings was the identification of what the researchers characterise as the first naturally occurring paramutation in a mammal. Paramutation is a phenomenon, previously documented mainly in plants, in which one allele heritably alters the expression of a corresponding allele in the next generation, producing changes that persist across generations even after the original allele is no longer present. The study also reported cases where epigenetic marks appeared de novo — with no obvious parental origin — raising questions about the extent to which environmental exposures might introduce heritable changes outside the conventional DNA sequence.\n\nThe original primary source for this report has not yet been identified — the ScienceDaily item does not name a journal or research institution directly in the lede. Readers are advised to locate the primary publication before drawing firm conclusions. The findings contribute to a growing body of work on transgenerational epigenetic inheritance, a field that remains active and sometimes contested in mammals. The results are likely to be of particular interest to researchers working on inheritance mechanisms, evolutionary genetics, and gene–environment interactions, as well as educators and students who teach or learn classical genetics.",
+      "tags": [
+        "epigenetics",
+        "transgenerational-inheritance",
+        "paramutation",
+        "non-mendelian-inheritance",
+        "mouse-genetics",
+        "gene-environment-interaction"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Cancer Research UK calls for removal of barriers to precision cancer prevention research in the UK",
+      "is_preprint": false,
+      "run_date": "2026-06-02",
+      "run_iso": "2026-06-02T11:15:04Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-06-02T09:30:25Z",
+        "novelty": 5
+      },
+      "slug": "cancer-prevention-research-barriers-uk-cruk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-02T09:30:25Z",
+          "publisher": "Cancer Research UK",
+          "title": "Unlocking a new era for cancer prevention research",
+          "url": "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/"
+        }
+      ],
+      "standfirst": "A Cancer Research UK commentary argues that structural and funding barriers are slowing the translation of population-level genetic and lifestyle risk data into cancer prevention strategies.",
+      "summary": "Cancer Research UK has published a commentary by Seren Limb examining what the organisation describes as a shift towards precision prevention in cancer research — an approach that seeks to use individual-level risk factors, including genetic data, to target preventive interventions more effectively.\n\nThe piece argues that while the scientific foundations for precision prevention are strengthening, a range of practical, regulatory, and funding barriers are limiting progress in the UK. The commentary does not detail the specific barriers in the lede text available, but the framing is consistent with broader discussions about how polygenic risk scores, family history data, and genomic screening programmes can be integrated into public health infrastructure.\n\nThe item is categorised by Cancer Research UK as being directed at researchers. It does not constitute clinical guidance. Readers interested in the primary arguments should consult the full article at the source URL. The piece is relevant to researchers working at the intersection of genomics and cancer epidemiology, to genetic counsellors engaged in hereditary cancer risk communication, and to educators covering cancer genetics and public health genomics.",
+      "tags": [
+        "cancer-prevention",
+        "precision-prevention",
+        "cancer-genomics",
+        "uk",
+        "hereditary-cancer",
+        "public-health-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study quantifies how DNA sequence context and methylation jointly shape germline mutation rates at CpG sites",
+      "is_preprint": false,
+      "run_date": "2026-06-02",
+      "run_iso": "2026-06-02T11:15:04Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-01T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "cpg-methylation-germline-mutation-rate-sequence-context",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-01T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Sequence context and methylation interact to shape germline mutation rate variation at CpG sites",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957"
+        }
+      ],
+      "standfirst": "Researchers analysing human polymorphism data from gnomAD find that CpG mutation rates vary with flanking sequence in ways only partially explained by methylation, refining models of heritable mutation risk.",
+      "summary": "A study by Sheel Chandra and Ziyue Gao, published in PLOS Genetics, examines the factors that govern germline mutation rates at CpG dinucleotides — positions in the genome that are both highly mutable and important in epigenetic regulation.\n\nIt has long been established that the elevated mutation rate at CpG sites is largely driven by cytosine methylation: methylated cytosines can spontaneously deaminate to thymine, producing C-to-T transitions. However, CpG sites embedded in different flanking sequences mutate at substantially different rates, and previous work had shown that this variation is only partly explained by differences in methylation levels.\n\nUsing human polymorphism data from the gnomAD dataset, Chandra and Gao apply a regression framework that accounts for recurrent mutations — a known source of bias in such analyses — to quantify the CpG mutation rate and the mutagenic contribution of methylation across diverse sequence contexts. The analysis aims to disentangle the independent contributions of sequence context and methylation to observed mutation rate variation.\n\nThe findings add resolution to population-genetic models of de novo mutation and germline mutagenesis, with implications for variant interpretation, demographic inference, and the understanding of heritable disease risk at the molecular level. The work is primarily of interest to population geneticists, statistical geneticists, and researchers working on variant pathogenicity assessment.",
+      "tags": [
+        "cpg-methylation",
+        "germline-mutation",
+        "mutation-rate",
+        "sequence-context",
+        "population-genetics",
+        "gnomad",
+        "variant-interpretation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: base editing at PCSK9 and HBG in human embryos achieves efficient correction without chromosomal disruption",
+      "is_preprint": true,
+      "run_date": "2026-06-02",
+      "run_iso": "2026-06-02T11:15:04Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 8,
+        "newest_iso": "2026-06-01T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "base-editing-human-embryos-pcsk9-hbg-no-aneuploidy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-01T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Efficient base editing and development in human embryos without chromosomal alterations",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.30.728989v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that base editors — which introduce single-letter DNA changes without cutting both DNA strands — avoided the aneuploidy and large deletions seen with standard CRISPR-Cas9 in early human embryos.",
+      "summary": "A preprint posted to bioRxiv describes experiments in which researchers used base editors — variants of the CRISPR-Cas9 system that introduce targeted single-nucleotide changes via DNA nicks and mismatches, rather than double-strand breaks — to edit two loci in human embryos: PCSK9, a gene involved in cholesterol metabolism, and HBG, encoding foetal haemoglobin.\n\nThe study reports efficient editing at both targets. Crucially, unlike standard Cas9-mediated editing, which the authors note causes frequent aneuploidy (gain or loss of whole chromosomes) and large deletions in early human embryos — a consequence of deficient double-strand break repair at this developmental stage — base editing did not produce detectable chromosomal abnormalities.\n\nThe findings are presented as addressing a significant safety concern that has limited the translational potential of CRISPR-based approaches in the embryo context. The authors frame the work as relevant to understanding DNA repair biology in early human development and, prospectively, to the possible correction of disease-causing variants.\n\nAs a bioRxiv preprint, this work has not yet completed peer review. The PCSK9 target is also of note given a separate recently reported Phase 1 trial of base editing in adults by Verve Therapeutics and Eli Lilly (published in Genetic Current, 27 May 2026), though the embryo-editing context here is scientifically and ethically distinct. The work will be of interest to researchers in gene editing, reproductive genomics, and developmental biology, and to genetic counsellors following advances in germline correction technologies.",
+      "tags": [
+        "base-editing",
+        "crispr",
+        "human-embryo",
+        "pcsk9",
+        "hbg-foetal-haemoglobin",
+        "aneuploidy",
+        "dna-repair",
+        "germline-editing"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies NuA4 subunit overexpression as a suppressor of H3K36M oncohistone growth defects in yeast",
+      "is_preprint": true,
+      "run_date": "2026-06-02",
+      "run_iso": "2026-06-02T11:15:04Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-06-01T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "nua4-eaf1-h3k36m-oncohistone-yeast-h4-acetylation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-01T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Overexpression of Eaf1, a subunit of the NuA4 lysine acetyl transferase complex, rescues growth defects in the budding yeast H3K36M oncohistone model via histone H4 tail acetylation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.30.728992v1?rss=1"
+        }
+      ],
+      "standfirst": "A yeast-model preprint finds that elevated levels of Eaf1, a subunit of the NuA4 lysine acetyltransferase complex, rescue growth defects caused by the H3K36M oncohistone mutation via histone H4 tail acetylation.",
+      "summary": "A preprint posted to bioRxiv reports work conducted in budding yeast to investigate the molecular consequences of the H3K36M oncohistone — a recurrent histone H3 mutation, first identified in human cancers including chondroblastoma and certain paediatric midline gliomas, in which lysine 36 is substituted by methionine.\n\nH3K36M acts in a dominant-negative fashion, inhibiting the methyltransferases that normally deposit methyl marks at H3K36 and thereby disrupting chromatin-based regulation of gene expression. Understanding which cellular pathways can compensate for or suppress these effects is of interest for cancer biology, though the yeast system used here is a model organism context rather than a direct therapeutic study.\n\nThe authors previously identified Eaf1 — the catalytic subunit of the NuA4 lysine acetyltransferase complex — as a relevant factor. The current preprint reports that overexpression of Eaf1 rescues the growth defects associated with H3K36M expression in yeast, and that this rescue operates through increased acetylation of the histone H4 tail. The work adds mechanistic detail to understanding how histone modification pathways interact in the context of oncohistone-driven chromatin dysregulation.\n\nAs a bioRxiv preprint, the findings have not yet undergone peer review. Histone H3 shares approximately 90% sequence identity between budding yeast and humans, supporting the use of this model. The work is primarily of interest to researchers in chromatin biology, cancer epigenomics, and histone modification pathways.",
+      "tags": [
+        "oncohistone",
+        "h3k36m",
+        "nua4",
+        "eaf1",
+        "histone-acetylation",
+        "chromatin",
+        "cancer-epigenomics",
+        "yeast-model"
+      ]
     }
   ],
-  "last_run": "2026-06-01T12:35:14.571711+00:00",
+  "last_run": "2026-06-02T11:16:52.725456+00:00",
   "seen_urls": {
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012137": "2026-05-19T10:37:43.421038+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012144": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012152": "2026-05-20T10:24:39.370157+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012154": "2026-05-21T10:40:08.951688+00:00",
@@ -3688,18 +3903,15 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012165": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012168": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012169": "2026-05-29T10:45:46.729042+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012171": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172": "2026-05-29T10:45:46.729042+00:00",
-    "https://news.cancerresearchuk.org/2026/05/18/the-cell-keeps-the-score-memory-inflammation-and-bowel-cancer/": "2026-05-19T10:37:43.421038+00:00",
-    "https://news.cancerresearchuk.org/2026/05/18/the-gatekeeper-and-the-invader-h-pylori-and-the-development-of-stomach-cancer/": "2026-05-19T10:37:43.421038+00:00",
     "https://news.cancerresearchuk.org/2026/05/20/how-philanthropy-is-helping-promising-cancer-treatments-reach-clinical-trials-sooner/": "2026-05-20T10:24:39.370157+00:00",
     "https://news.cancerresearchuk.org/2026/05/22/skin-cancer-cases-hit-record-high-in-the-uk/": "2026-05-22T10:24:42.174074+00:00",
     "https://news.cancerresearchuk.org/2026/05/25/beyond-the-research-turning-evidence-into-impact/": "2026-05-25T11:08:44.871677+00:00",
     "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
     "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.14.724910v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
+    "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/": "2026-06-02T11:16:52.725456+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.14.725224v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.14.725285v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.15.725342v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725556v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.16.725661v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725703v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
@@ -3751,10 +3963,9 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728707v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728873v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728884v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.30.728989v1?rss=1": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.30.728992v1?rss=1": "2026-06-02T11:16:52.725456+00:00",
     "https://www.england.nhs.uk/2026/05/supermarket-scans-spotting-thousands-of-cancers/": "2026-05-25T11:08:44.871677+00:00",
-    "https://www.nature.com/articles/s41562-026-02475-8": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.nature.com/articles/s41588-026-02636-5": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.nature.com/articles/s43856-026-01615-5": "2026-05-19T10:37:43.421038+00:00",
     "https://www.phgfoundation.org/blog/rethinking-hba1c-genetics-diversity-and-diabetes-diagnosis/": "2026-05-22T10:24:42.174074+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260519003215.htm": "2026-05-20T10:24:39.370157+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260519224303.htm": "2026-05-20T10:24:39.370157+00:00",
@@ -3781,25 +3992,16 @@
     "https://www.sciencedaily.com/releases/2026/05/260529043640.htm": "2026-06-01T12:35:14.571711+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530004618.htm": "2026-05-31T09:47:25.678662+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530004626.htm": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260530053420.htm": "2026-06-02T11:16:52.725456+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530053424.htm": "2026-06-01T12:35:14.571711+00:00",
-    "https://www.statnews.com/2026/05/18/atrium-health-wake-med-merger-gmrs-ipo-health-care-inc/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/biotech-news-astrazeneca-picks-up-fda-approval-hypertension-drug/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/cdc-ebola-travel-ban-announced-uganda-congo-south-sudan/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/ebola-outbreak-update-experts-weigh-use-merck-vaccine-ervebo/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/health-news-texas-opens-detransition-clinic/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/supreme-court-rejects-challenge-medicare-drug-price-negotiations/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/trump-aca-insurance-new-cms-rules-expand-catastrophic-coverage/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/trumprx-adds-generic-drugs-amazon-pharmacy-mark-cuban-goodrx/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260530053429.htm": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/05/19/23andme-healthex-to-connect-dna-data-with-health-records/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/ai-helped-find-treatment-newborn-ultra-rare-disease/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/biotech-news-new-ranking-of-pharma-companies-by-rd-performance/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/dexcom-cgm-sensors-new-uses-health-tech/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/drinking-while-pregnant-fetal-alcohol-exposure-explored-part-5-deadliest-drug-series/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/19/fda-can-thrive-despite-talent-loss-says-david-kessler-former-commissioner/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/former-stanford-president-marc-tessier-lavigne-responds-allegations-new-book/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/health-news-ebola-travel-ban-and-old-vaccine/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/insurance-approval-denial-cost-access-transplant-medication/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/19/nicotine-free-generation-united-kingdom-massachusetts-laws/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/19/no-surprises-act-dispute-resolution-fuels-extraordinary-payouts/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/pharma-rankings-innovation-invention/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/trumprx-generic-drugs-cassidy-loses-fda-turmoil-dc-diagnosis/": "2026-05-20T10:24:39.370157+00:00",
@@ -3899,15 +4101,31 @@
     "https://www.statnews.com/2026/05/31/pancreatic-cancer-daraxonrasib-revolution-medicines-results-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/05/31/prostate-cancer-hormone-therapy-cut-relapse-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/05/31/squamous-cell-lung-cancer-akeso-summit-harmoni-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/abivax-ulcerative-colitis-obefazimod/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/asco-news-day-4-merkel-cell-carcinoma-glp1s-grail/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/biotech-news-turning-point-for-pancreatic-cancer-revmed/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/bpc-157-researcher-predrag-sikiric-addesses-skeptics-questions/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/bpc-157-researcher-predrag-sikiric-addesses-skeptics-questions/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/cancer-oncologists-grief-asco-2026/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/ebola-bundibugyo-vaccine-studies-cepi-62-million-funding/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/fda-misses-deadline-electric-shock-ban-disability-advocates-speak-out/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/health-news-cdc-says-containing-ebola-spread-is-top-priority/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/medicare-50-dollar-weight-loss-drugs-glp-1-bridge-program-cost-estimate/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/medicare-50-dollar-weight-loss-drugs-glp-1-bridge-program-cost-estimate/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/medicare-bridge-obesity-drug-coverage-no-surprises-act-idr-rules-health-care-inc/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/no-surprises-act-new-arbitration-rules-providers-gaming-system/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/no-surprises-act-new-arbitration-rules-providers-gaming-system/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/residency-diversity-med-school-disciplinary-action-dei-equity-black-latino/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/residency-diversity-med-school-disciplinary-action-dei-equity-black-latino/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/servier-edgewise-therapeutics-muscular-dystrophy-drug-sevasemten/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/servier-edgewise-therapeutics-muscular-dystrophy-drug-sevasemten/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/summa-health-tech-initiatives-after-general-catalyst-acquisition/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/summa-health-tech-initiatives-after-general-catalyst-acquisition/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/trump-medicaid-work-requirement-rules-verification-eligibility/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/unvaccinated-blood-donor-directed-donation-transcript/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/us-military-medical-corps-recruitment-incentives/": "2026-06-01T12:35:14.571711+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/18/biotech-has-china-problem-regeneron-melanoma-drug-flops/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/18/maryland-state-affordability-board-places-price-cap-on-ozempic/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/06/02/doctors-office-waiting-room-telehealth-virtual-care/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/02/telehealth-virtual-rx-boom-corporate-practice-of-medicine-laws/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/pharmalot/2026/05/19/canadian-medical-societies-lack-sufficient-conflict-of-interest-policies/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/pharmalot/2026/05/19/supreme-court-setback-for-pharma-trumprx-expands/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/pharmalot/2026/05/19/virginia-governor-vetoes-bill-to-create-panel-to-lower-drug-costs/": "2026-05-20T10:24:39.370157+00:00",
@@ -3919,7 +4137,9 @@
     "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/pharmalot/2026/05/29/pharmalittle-were-reading-about-replimune-drug-getting-third-try-at-fda-approval-a-pfizer-deal-in-china-and-more/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/29/up-and-down-the-ladder-comings-and-goings-merck-pfizer-amgen/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00"
+    "https://www.statnews.com/pharmalot/2026/05/29/up-and-down-the-ladder-comings-and-goings-merck-pfizer-amgen/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/01/asco-pancreatic-lung-cancer-drugs-china-growth-as-drug-developer/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/01/lilly-warns-hospitals-submit-claims-data-or-lose-340b-drug-discounts/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00"
   },
   "takedowns": []
 }
