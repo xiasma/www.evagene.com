@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evagene User Guide — Getting Started with the Pedigree Editor | Evagene</title>
+    <meta name="description" content="The Evagene getting-started user guide: a click-by-click tour of the canvas, the floating dock, and every panel — building pedigrees, recording diseases, investigations, genetics, and running the educational risk models. Written for first-time users.">
+    <meta name="keywords" content="Evagene user guide, pedigree software tutorial, getting started, how to build a pedigree, pedigree editor walkthrough, dock toolbar, risk model walkthrough, family register, genetics panel, CanRisk export guide">
+    <meta property="og:title" content="Evagene User Guide — Getting Started">
+    <meta property="og:description" content="A click-by-click getting-started guide to the Evagene pedigree editor: the canvas, the floating dock, and every panel, organised section by section.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://evagene.com/user-guide/">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Evagene User Guide — Getting Started">
+    <meta name="twitter:description" content="A click-by-click getting-started guide to the Evagene pedigree editor, organised around the dock.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/user-guide/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config={darkMode:'class',theme:{extend:{colors:{brand:{50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d'},accent:{400:'#e85d6f',500:'#c8102e',600:'#a60d25'},clinical:{50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a'}},fontFamily:{sans:['Inter','system-ui','-apple-system','sans-serif']}}}}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"CollectionPage",
+        "name":"Evagene User Guide",
+        "headline":"Evagene user guide — getting started",
+        "description":"A click-by-click getting-started guide to the Evagene pedigree editor, organised around the dock: the canvas, the floating panels, clinical catalogues, genetics, and the educational risk models.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-06-02","dateModified":"2026-06-02",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/user-guide/"},
+        "image":"https://evagene.com/og-image.png"
+    }
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},{"@type":"ListItem","position":2,"name":"User Guide","item":"https://evagene.com/user-guide/"}]}
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5"><img src="/logo.png" alt="Evagene logo" class="h-8 w-auto"><span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span></a>
+            <div class="flex items-center gap-4"><a href="/news/" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-300" title="Genetic Current news"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg><span>News</span></a><a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a></div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2"><li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li><li><span class="text-gray-300 dark:text-gray-600">/</span></li><li class="text-gray-700 dark:text-gray-300 font-medium">User Guide</li></ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <p class="text-sm font-semibold text-brand-600 dark:text-brand-400 uppercase tracking-wide mb-3">Getting started</p>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Evagene user guide</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A click-by-click tour of the Evagene editor, organised around the floating dock. Every section below has its own page with a worked example you can follow on your own pedigree. This guide assumes you understand the genetics; it does not assume you have used Evagene before.</p>
+        </header>
+
+        <!-- The three building blocks -->
+        <section class="mb-14">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">The three things on screen</h2>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 max-w-3xl">Open a pedigree and you are looking at three elements. Understand these and everything else follows.</p>
+            <div class="grid sm:grid-cols-3 gap-5">
+                <div class="rounded-xl p-5 border border-gray-200 dark:border-brand-800 bg-white dark:bg-brand-900/40">
+                    <h3 class="font-semibold text-gray-900 dark:text-white mb-2">1. The canvas</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">The drawing surface. You add individuals, connect them into families, and select them here.</p>
+                </div>
+                <div class="rounded-xl p-5 border border-gray-200 dark:border-brand-800 bg-white dark:bg-brand-900/40">
+                    <h3 class="font-semibold text-gray-900 dark:text-white mb-2">2. The dock</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">The floating toolbar. Its buttons are grouped: edit, view, file, structure, and the clinical &amp; genetics catalogues. Drag the grip to reposition it.</p>
+                </div>
+                <div class="rounded-xl p-5 border border-gray-200 dark:border-brand-800 bg-white dark:bg-brand-900/40">
+                    <h3 class="font-semibold text-gray-900 dark:text-white mb-2">3. The panels</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">Floating windows opened from the dock. Every panel is draggable and resizable from any edge or corner, and its dock icon highlights while it is open.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dock tour -->
+        <section class="mb-14">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Tour of the dock</h2>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 max-w-3xl">The dock reads left to right in groups. Each group maps to a page in this guide.</p>
+
+            <div class="space-y-3">
+                <a href="/user-guide/canvas-basics" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Canvas basics — edit &amp; context actions</h3><span class="text-xs text-gray-400">Undo · Redo · Find · Add · Marry · Siblings · Parents · Delete</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Add your first individual, select people, connect them into a family, undo mistakes, and find anyone by name.</p>
+                </a>
+                <a href="/user-guide/view-and-layout" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">View &amp; layout</h3><span class="text-xs text-gray-400">Grid · Zoom · Font · Dark mode · Auto-arrange</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Snap to a grid, zoom, set the label font, switch to dark mode, and auto-arrange a tangled tree.</p>
+                </a>
+                <a href="/user-guide/pedigree-builder" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Pedigree builder</h3><span class="text-xs text-gray-400">Drag-and-drop family construction</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Build a family quickly with relationship-aware shortcuts: spouse, children, siblings, parents, grandparents, twins.</p>
+                </a>
+                <a href="/user-guide/individual-properties" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Individual properties</h3><span class="text-xs text-gray-400">Identity · Clinical · Dates · Contact · Consent</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">The main editing panel for a person: names, biological sex, mortality and affection status, dates, and more.</p>
+                </a>
+                <a href="/user-guide/pedigree-properties" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Pedigree &amp; relationship properties</h3><span class="text-xs text-gray-400">Pedigree-level settings · Consanguinity · Events</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Name the pedigree, toggle consanguinity coefficients, and edit a couple's relationship and events.</p>
+                </a>
+                <a href="/user-guide/family-register" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Family register (grid view)</h3><span class="text-xs text-gray-400">Sortable table · Bulk edits · Visibility</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">A spreadsheet view of everyone in the pedigree for fast edits, sorting, and showing or hiding branches.</p>
+                </a>
+                <a href="/user-guide/files/" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Files — import, export &amp; 23andMe</h3><span class="text-xs text-gray-400">Evagene · GEDCOM · XEG · Image · PDF/DOCX · 23andMe</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Load and save pedigrees, export images and documents, and import 23andMe data. Includes the CanRisk / BOADICEA bridge.</p>
+                </a>
+                <a href="/user-guide/diseases" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Disease catalogue</h3><span class="text-xs text-gray-400">230+ diseases · Assign to individuals</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Add diseases to your pedigree's working set, then assign them to individuals with affection status and manifestations.</p>
+                </a>
+                <a href="/user-guide/investigations" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Investigations Manager <span class="font-normal text-gray-400">(formerly Tests Manager)</span></h3><span class="text-xs text-gray-400">Clinical test types · Results</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Record clinical investigations with reference ranges, LOINC codes, and results on individuals.</p>
+                </a>
+                <a href="/user-guide/interventions" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Interventions</h3><span class="text-xs text-gray-400">Treatments · Dose · Status · Prophylactic</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Track treatments and interventions on an individual: dose, frequency, dates, and disease association.</p>
+                </a>
+                <a href="/user-guide/genetics/" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Genetics — markers, karyogram, karyotype, ancestry</h3><span class="text-xs text-gray-400">Blade navigation · Genome drill-down</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Define markers, record genotypes, view the karyogram, set a karyotype, and record ancestry proportions.</p>
+                </a>
+                <a href="/user-guide/related-concepts" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Related concepts</h3><span class="text-xs text-gray-400">Educational correlation graph</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Explore educational associations between recorded concepts. Reference data — not risk analysis or diagnosis.</p>
+                </a>
+                <a href="/user-guide/risks/" class="block rounded-xl p-5 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 bg-white dark:bg-brand-900/40 transition-colors">
+                    <div class="flex items-baseline justify-between gap-4"><h3 class="font-semibold text-gray-900 dark:text-white">Risk analysis</h3><span class="text-xs text-gray-400">20 models · Illustrative / educational</span></div>
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">Run the published risk models on your pedigree for teaching and research. Outputs are illustrative, not clinical recommendations.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Recommended path -->
+        <section class="mb-14">
+            <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">A suggested first session</h2>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6 max-w-3xl">If this is your first time, work through these five pages in order. Twenty minutes end to end, and you will have built, annotated, and explored a small family.</p>
+            <ol class="space-y-3 max-w-3xl">
+                <li class="flex gap-4"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-brand-600 text-white text-sm font-semibold flex items-center justify-center">1</span><div class="text-gray-700 dark:text-gray-300"><a href="/user-guide/canvas-basics" class="text-brand-600 dark:text-brand-400 font-medium hover:underline">Canvas basics</a> — draw your first three individuals and connect them.</div></li>
+                <li class="flex gap-4"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-brand-600 text-white text-sm font-semibold flex items-center justify-center">2</span><div class="text-gray-700 dark:text-gray-300"><a href="/user-guide/individual-properties" class="text-brand-600 dark:text-brand-400 font-medium hover:underline">Individual properties</a> — fill in names, sex, and dates.</div></li>
+                <li class="flex gap-4"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-brand-600 text-white text-sm font-semibold flex items-center justify-center">3</span><div class="text-gray-700 dark:text-gray-300"><a href="/user-guide/diseases" class="text-brand-600 dark:text-brand-400 font-medium hover:underline">Disease catalogue</a> — add a disease and mark an affected relative.</div></li>
+                <li class="flex gap-4"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-brand-600 text-white text-sm font-semibold flex items-center justify-center">4</span><div class="text-gray-700 dark:text-gray-300"><a href="/user-guide/risks/" class="text-brand-600 dark:text-brand-400 font-medium hover:underline">Risk analysis</a> — set a proband and run one model.</div></li>
+                <li class="flex gap-4"><span class="flex-shrink-0 w-7 h-7 rounded-full bg-brand-600 text-white text-sm font-semibold flex items-center justify-center">5</span><div class="text-gray-700 dark:text-gray-300"><a href="/user-guide/files/export" class="text-brand-600 dark:text-brand-400 font-medium hover:underline">Export</a> — save your work and export an image.</div></li>
+            </ol>
+        </section>
+
+        <!-- Intended use short form -->
+        <div class="not-prose my-10 p-5 bg-gray-50 dark:bg-brand-900/40 border border-gray-200 dark:border-brand-800 rounded-xl max-w-3xl">
+            <p class="text-sm text-gray-600 dark:text-gray-400 m-0"><strong class="text-gray-800 dark:text-gray-200">About Evagene.</strong> Evagene is an academic, research, and educational pedigree modelling platform. It is not a medical device and is not intended to diagnose, prevent, monitor, predict, treat, or manage disease, or to determine eligibility for screening, testing, referral, or treatment, or to replace professional clinical judgement. Outputs are illustrative and for educational / research purposes only.</p>
+        </div>
+
+    </div>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try it on your own pedigree</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">No credit card, no enterprise sales cycle &mdash; free access during Alpha.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25">Join the Alpha Waiting List</a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2"><div class="flex items-center gap-2.5 mb-4"><img src="/logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div><p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling.</p></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white">Data Exchange</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="/user-guide/" class="hover:text-white">User Guide</a></li><li><a href="/for-genetic-counsellors.html" class="hover:text-white">For Genetic Counsellors</a></li><li><a href="/for-clinical-geneticists.html" class="hover:text-white">For Clinical Geneticists</a></li><li><a href="/mendelian-inheritance-calculator.html" class="hover:text-white">Mendelian Inheritance</a></li><li><a href="/hereditary-cancer-risk-assessment.html" class="hover:text-white">Cancer Risk Assessment</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400">Terms of Service</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="/privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

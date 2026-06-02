@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exporting &amp; Saving — Evagene, GEDCOM, Image, PDF, DOCX | Evagene User Guide</title>
+    <meta name="description" content="Save your Evagene file, share GEDCOM, and export a picture or document of the pedigree as PNG, SVG, PDF, or DOCX from the Export Pedigree dialog.">
+    <meta name="keywords" content="export pedigree, save Evagene file, save GEDCOM, export PNG SVG PDF DOCX, Export Pedigree dialog, resolution, page size, disease legend, selection only">
+    <meta property="og:title" content="Exporting &amp; Saving | Evagene User Guide">
+    <meta property="og:description" content="Save your Evagene file, share GEDCOM, and export a picture or document of the pedigree from the Export Pedigree dialog.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/user-guide/files/export">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Exporting &amp; Saving | Evagene User Guide">
+    <meta name="twitter:description" content="Save your Evagene file, share GEDCOM, and export an image or document of the pedigree.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/user-guide/files/export">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config={darkMode:'class',theme:{extend:{colors:{brand:{50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d'},accent:{400:'#e85d6f',500:'#c8102e',600:'#a60d25'},clinical:{50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a'}},fontFamily:{sans:['Inter','system-ui','-apple-system','sans-serif']}}}}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"TechArticle",
+        "headline":"Exporting and saving",
+        "description":"Save your Evagene file, share GEDCOM, and export a picture or document of the pedigree as PNG, SVG, PDF, or DOCX from the Export Pedigree dialog.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-06-02","dateModified":"2026-06-02",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/user-guide/files/export"},
+        "image":"https://evagene.com/og-image.png"
+    }
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},{"@type":"ListItem","position":2,"name":"User Guide","item":"https://evagene.com/user-guide/"},{"@type":"ListItem","position":3,"name":"Files","item":"https://evagene.com/user-guide/files/"},{"@type":"ListItem","position":4,"name":"Export","item":"https://evagene.com/user-guide/files/export"}]}
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5"><img src="/logo.png" alt="Evagene logo" class="h-8 w-auto"><span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span></a>
+            <div class="flex items-center gap-4"><a href="/user-guide/" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-300">User Guide</a><a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a></div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2 flex-wrap"><li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li><li><span class="text-gray-300 dark:text-gray-600">/</span></li><li><a href="/user-guide/" class="hover:text-brand-600 dark:hover:text-brand-300">User Guide</a></li><li><span class="text-gray-300 dark:text-gray-600">/</span></li><li><a href="/user-guide/files/" class="hover:text-brand-600 dark:hover:text-brand-300">Files</a></li><li><span class="text-gray-300 dark:text-gray-600">/</span></li><li class="text-gray-700 dark:text-gray-300 font-medium">Export</li></ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-10">
+            <span class="inline-flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 rounded-full bg-brand-50 dark:bg-brand-900/60 text-brand-700 dark:text-brand-300 border border-brand-100 dark:border-brand-800 mb-4">Dock · File operations · Save pedigree</span>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Exporting &amp; saving</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Save your Evagene file, share GEDCOM, and export a picture or document of the pedigree. The image and document export is driven by a single <strong>Export Pedigree</strong> dialog with tabs for PNG, SVG, PDF, and DOCX.</p>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <h2>Where to find it</h2>
+            <p>Open the <strong>File operations</strong> button (the folder icon) in the dock, then the <strong>Save pedigree</strong> submenu.</p>
+
+            <h2>Save and export options</h2>
+            <p>The <strong>Save pedigree</strong> submenu has four entries:</p>
+            <ul>
+                <li><strong>Save Evagene file</strong> (<code>.json</code>) &mdash; if individuals are selected, a <strong>Save Pedigree</strong> modal offers &ldquo;Whole pedigree&rdquo; or &ldquo;Selection only&rdquo;.</li>
+                <li><strong>Save GEDCOM</strong> (<code>.ged</code>) &mdash; writes a GEDCOM file for exchange with genealogy tools.</li>
+                <li><strong>Export image / PDF / DOCX</strong> &mdash; opens the <strong>Export Pedigree</strong> dialog (see below).</li>
+                <li><strong>Export CanRisk / BOADICEA pedigree</strong> &mdash; an off-platform file export covered on the <a href="/user-guide/risks/canrisk">CanRisk page</a>.</li>
+            </ul>
+
+            <h2>The Export Pedigree dialog</h2>
+            <p>The dialog gathers every picture-and-document control in one place:</p>
+
+            <div class="not-prose my-6 overflow-x-auto">
+                <table class="w-full text-sm border border-gray-200 dark:border-brand-800 rounded-lg overflow-hidden">
+                    <thead class="bg-gray-50 dark:bg-brand-900/60 text-gray-700 dark:text-gray-300">
+                        <tr><th class="text-left font-semibold px-4 py-2.5">Control</th><th class="text-left font-semibold px-4 py-2.5">Options</th></tr>
+                    </thead>
+                    <tbody class="text-gray-600 dark:text-gray-400 divide-y divide-gray-100 dark:divide-brand-800/60">
+                        <tr><td class="px-4 py-2.5 font-medium text-gray-800 dark:text-gray-200">Format tabs</td><td class="px-4 py-2.5">PNG / SVG / PDF / DOCX</td></tr>
+                        <tr><td class="px-4 py-2.5 font-medium text-gray-800 dark:text-gray-200">Scope <span class="font-normal text-gray-400">(only if a selection exists)</span></td><td class="px-4 py-2.5">Entire pedigree / Selection only</td></tr>
+                        <tr><td class="px-4 py-2.5 font-medium text-gray-800 dark:text-gray-200">Resolution <span class="font-normal text-gray-400">(PNG only)</span></td><td class="px-4 py-2.5">1x / 2x / 3x / 4x</td></tr>
+                        <tr><td class="px-4 py-2.5 font-medium text-gray-800 dark:text-gray-200">Page size <span class="font-normal text-gray-400">(PDF/DOCX)</span></td><td class="px-4 py-2.5">A4 / A3 / Letter / Legal</td></tr>
+                        <tr><td class="px-4 py-2.5 font-medium text-gray-800 dark:text-gray-200">Orientation</td><td class="px-4 py-2.5">Auto / Portrait / Landscape</td></tr>
+                        <tr><td class="px-4 py-2.5 font-medium text-gray-800 dark:text-gray-200">Transparent background <span class="font-normal text-gray-400">(PNG/SVG)</span></td><td class="px-4 py-2.5">On / off</td></tr>
+                        <tr><td class="px-4 py-2.5 font-medium text-gray-800 dark:text-gray-200">Include title &amp; date</td><td class="px-4 py-2.5">On / off</td></tr>
+                        <tr><td class="px-4 py-2.5 font-medium text-gray-800 dark:text-gray-200">Include disease legend</td><td class="px-4 py-2.5">On / off</td></tr>
+                        <tr><td class="px-4 py-2.5 font-medium text-gray-800 dark:text-gray-200">Include notes <span class="font-normal text-gray-400">(DOCX)</span></td><td class="px-4 py-2.5">On / off</td></tr>
+                        <tr><td class="px-4 py-2.5 font-medium text-gray-800 dark:text-gray-200">Buttons</td><td class="px-4 py-2.5">Cancel / Export</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Every exported file carries an educational-use note / watermark.</p>
+
+            <!-- Worked example -->
+            <div class="not-prose my-8 rounded-xl border border-brand-200 dark:border-brand-800 overflow-hidden">
+                <div class="bg-brand-600 px-5 py-3"><h3 class="text-white font-semibold m-0 text-base">Worked example &middot; Export a print-quality PNG</h3></div>
+                <div class="bg-brand-50/60 dark:bg-brand-900/30 px-5 py-5">
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">We will export a high-resolution PNG of a fictional family with its title, date, and disease legend.</p>
+                    <ol class="space-y-3 text-sm text-gray-700 dark:text-gray-300 list-none m-0 p-0">
+                        <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-semibold flex items-center justify-center">1</span><div><strong>Open the dialog.</strong> Click <strong>File operations</strong> in the dock, then <strong>Save pedigree</strong> &rarr; <strong>Export image / PDF / DOCX</strong>.</div></li>
+                        <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-semibold flex items-center justify-center">2</span><div><strong>Pick the format.</strong> Stay on the <strong>PNG</strong> tab.</div></li>
+                        <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-semibold flex items-center justify-center">3</span><div><strong>Set the resolution.</strong> Choose Resolution <strong>2x (144 DPI)</strong>.</div></li>
+                        <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-semibold flex items-center justify-center">4</span><div><strong>Add labels.</strong> Tick <strong>Include disease legend</strong> and <strong>Include title &amp; date</strong>.</div></li>
+                        <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-semibold flex items-center justify-center">5</span><div><strong>Export.</strong> Click <strong>Export</strong>. To produce a paged document instead, PDF on A4 is one tab across.</div></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="not-prose my-6 p-4 bg-amber-50 dark:bg-amber-500/10 border border-amber-200 dark:border-amber-500/30 rounded-lg">
+                <p class="text-sm text-amber-900 dark:text-amber-100 m-0"><strong>Good to know.</strong> The <strong>Scope</strong> control only appears when you have a selection on the canvas &mdash; with nothing selected, the whole pedigree is exported. Resolution applies to PNG only, while Page size applies to PDF and DOCX. Every export carries an educational-use note / watermark.</p>
+            </div>
+
+        </div>
+
+        <!-- Intended use short form -->
+        <div class="my-10 p-5 bg-gray-50 dark:bg-brand-900/40 border border-gray-200 dark:border-brand-800 rounded-xl">
+            <p class="text-sm text-gray-600 dark:text-gray-400 m-0"><strong class="text-gray-800 dark:text-gray-200">About Evagene.</strong> Evagene is an academic, research, and educational pedigree modelling platform. It is not a medical device and is not intended to diagnose, prevent, monitor, predict, treat, or manage disease, or to determine eligibility for screening, testing, referral, or treatment, or to replace professional clinical judgement. Outputs are illustrative and for educational / research purposes only.</p>
+        </div>
+
+        <!-- Prev / next -->
+        <nav class="mt-12 flex flex-col sm:flex-row gap-4 justify-between border-t border-gray-200 dark:border-brand-800 pt-8">
+            <a href="/user-guide/files/import" class="group flex-1 rounded-xl p-4 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 transition-colors"><span class="text-xs text-gray-400">Previous</span><span class="block font-semibold text-gray-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400">Import</span></a>
+            <a href="/user-guide/files/23andme" class="group flex-1 rounded-xl p-4 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 transition-colors sm:text-right"><span class="text-xs text-gray-400">Next</span><span class="block font-semibold text-gray-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400">23andMe</span></a>
+        </nav>
+
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try it on your own pedigree</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">No credit card, no enterprise sales cycle &mdash; free access during Alpha.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25">Join the Alpha Waiting List</a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2"><div class="flex items-center gap-2.5 mb-4"><img src="/logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div><p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling.</p></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white">Data Exchange</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="/user-guide/" class="hover:text-white">User Guide</a></li><li><a href="/for-genetic-counsellors.html" class="hover:text-white">For Genetic Counsellors</a></li><li><a href="/for-clinical-geneticists.html" class="hover:text-white">For Clinical Geneticists</a></li><li><a href="/mendelian-inheritance-calculator.html" class="hover:text-white">Mendelian Inheritance</a></li><li><a href="/hereditary-cancer-risk-assessment.html" class="hover:text-white">Cancer Risk Assessment</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400">Terms of Service</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="/privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>

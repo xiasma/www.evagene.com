@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single-gene &amp; Liability Models — Mendelian &amp; Falconer Risk | Evagene User Guide</title>
+    <meta name="description" content="Built-in Mendelian and liability-threshold (Falconer 1965) models that compute automatically from a disease's recorded inheritance pattern. Carrier and offspring risks for teaching and research — illustrative, not clinical.">
+    <meta name="keywords" content="Mendelian risk model, autosomal recessive carrier risk, X-linked risk, liability threshold model, Falconer 1965, multifactorial recurrence risk, offspring risk pedigree, Evagene single-gene model">
+    <meta property="og:title" content="Single-gene &amp; Liability Models — Evagene User Guide">
+    <meta property="og:description" content="Built-in Mendelian and liability-threshold models that compute automatically from a disease's recorded inheritance pattern. Illustrative, educational output only.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/user-guide/risks/single-gene">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Single-gene &amp; Liability Models — Evagene User Guide">
+    <meta name="twitter:description" content="Mendelian and liability-threshold models that compute from a disease's inheritance pattern. Illustrative only.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/user-guide/risks/single-gene">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config={darkMode:'class',theme:{extend:{colors:{brand:{50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d'},accent:{400:'#e85d6f',500:'#c8102e',600:'#a60d25'},clinical:{50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a'}},fontFamily:{sans:['Inter','system-ui','-apple-system','sans-serif']}}}}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"TechArticle",
+        "headline":"Single-gene and liability models",
+        "description":"Built-in Mendelian and liability-threshold (Falconer 1965) models that compute automatically from a disease's recorded inheritance pattern. Illustrative, educational output only.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-06-02","dateModified":"2026-06-02",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/user-guide/risks/single-gene"},
+        "image":"https://evagene.com/og-image.png"
+    }
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},{"@type":"ListItem","position":2,"name":"User Guide","item":"https://evagene.com/user-guide/"},{"@type":"ListItem","position":3,"name":"Risk analysis","item":"https://evagene.com/user-guide/risks/"},{"@type":"ListItem","position":4,"name":"Single-gene & liability","item":"https://evagene.com/user-guide/risks/single-gene"}]}
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5"><img src="/logo.png" alt="Evagene logo" class="h-8 w-auto"><span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span></a>
+            <div class="flex items-center gap-4"><a href="/user-guide/" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-300">User Guide</a><a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a></div>
+        </div>
+    </div>
+</nav>
+
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2 flex-wrap"><li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li><li><span class="text-gray-300 dark:text-gray-600">/</span></li><li><a href="/user-guide/" class="hover:text-brand-600 dark:hover:text-brand-300">User Guide</a></li><li><span class="text-gray-300 dark:text-gray-600">/</span></li><li><a href="/user-guide/risks/" class="hover:text-brand-600 dark:hover:text-brand-300">Risk analysis</a></li><li><span class="text-gray-300 dark:text-gray-600">/</span></li><li class="text-gray-700 dark:text-gray-300 font-medium">Single-gene &amp; liability</li></ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-10">
+            <span class="inline-flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 rounded-full bg-brand-50 dark:bg-brand-900/60 text-brand-700 dark:text-brand-300 border border-brand-100 dark:border-brand-800 mb-4">Dock · Risk analysis</span>
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">Single-gene &amp; liability models</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">Built-in Mendelian and liability-threshold models that compute automatically from a disease's recorded inheritance pattern.</p>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p>These models are the simplest to run because they map themselves. In the <strong>Single Disease Analysis</strong> section you pick the disease from the <strong>Disease</strong> dropdown &mdash; it shows e.g. &ldquo;Cystic fibrosis (AR, P=100%)&rdquo; &mdash; and the model badge sets itself from the disease's recorded inheritance pattern. The numbers produced are illustrative and for educational / research purposes; they are not clinical recommendations.</p>
+
+            <h2>Where to find it &amp; what it needs</h2>
+            <p>Open the <a href="/user-guide/risks/">Risk Analysis</a> panel from the dock, with a current pedigree and exactly one proband, then expand <strong>Single Disease Analysis</strong>. For the model to compute, the disease must be recorded on the affected individuals and configured with the relevant parameters:</p>
+            <ul>
+                <li><strong>Recessive models</strong> &mdash; a carrier frequency or incidence figure.</li>
+                <li><strong>X-linked models</strong> &mdash; biological sex recorded on everyone.</li>
+                <li><strong>Dominant models</strong> &mdash; a penetrance value.</li>
+            </ul>
+            <p>Selecting a disease automatically chooses one of the following models from its inheritance pattern:</p>
+            <div class="not-prose my-6 overflow-x-auto">
+                <table class="w-full text-sm border border-gray-200 dark:border-brand-800 rounded-lg overflow-hidden">
+                    <thead class="bg-gray-50 dark:bg-brand-900/60 text-gray-700 dark:text-gray-300">
+                        <tr><th class="text-left font-semibold px-4 py-2.5">Inheritance pattern → model</th><th class="text-left font-semibold px-4 py-2.5">Inheritance pattern → model</th></tr>
+                    </thead>
+                    <tbody class="text-gray-600 dark:text-gray-400 divide-y divide-gray-100 dark:divide-brand-800/60">
+                        <tr><td class="px-4 py-2.5">Autosomal dominant</td><td class="px-4 py-2.5">Polygenic</td></tr>
+                        <tr><td class="px-4 py-2.5">Autosomal recessive</td><td class="px-4 py-2.5">Oligogenic</td></tr>
+                        <tr><td class="px-4 py-2.5">X-linked recessive</td><td class="px-4 py-2.5">Digenic</td></tr>
+                        <tr><td class="px-4 py-2.5">X-linked dominant</td><td class="px-4 py-2.5">Imprinting</td></tr>
+                        <tr><td class="px-4 py-2.5">Mitochondrial</td><td class="px-4 py-2.5">Robertsonian translocation</td></tr>
+                        <tr><td class="px-4 py-2.5">Multifactorial</td><td class="px-4 py-2.5">Reciprocal translocation</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Advanced Options &amp; running</h2>
+            <p><strong>Advanced Options</strong> exposes model-specific parameters &mdash; for example a <strong>Population</strong> selector for recessive models, or a &ldquo;Maternal heteroplasmy (0&ndash;1)&rdquo; field for mitochondrial models. When ready, click <strong>Analyse</strong>.</p>
+
+            <h2>Reading the output (illustrative)</h2>
+            <ul>
+                <li>A <strong>Family Member Risks</strong> table listing carrier probability, affected probability, and status per individual.</li>
+                <li>An offspring-risk figure with a plain explanation.</li>
+                <li>For recessive models, a population carrier frequency shown as &ldquo;1 in N&rdquo;.</li>
+                <li>For liability-threshold models (multifactorial / polygenic / oligogenic, based on <strong>Falconer 1965</strong>), a recurrence risk shown as &ldquo;1 in X&rdquo; with a green / amber / red band.</li>
+            </ul>
+            <p>In the Family Member Risks table, rows at or above <strong>10%</strong> are highlighted amber, and rows at or above <strong>25%</strong> red. These bands are illustrative reading aids for teaching, not clinical thresholds.</p>
+
+            <!-- Worked example -->
+            <div class="not-prose my-8 rounded-xl border border-brand-200 dark:border-brand-800 overflow-hidden">
+                <div class="bg-brand-600 px-5 py-3"><h3 class="text-white font-semibold m-0 text-base">Worked example &middot; Autosomal-recessive carrier and offspring risk</h3></div>
+                <div class="bg-brand-50/60 dark:bg-brand-900/30 px-5 py-5">
+                    <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">A fictional family with an autosomal-recessive condition (here, cystic fibrosis). Every number below is illustrative and for educational / research purposes only.</p>
+                    <ol class="space-y-3 text-sm text-gray-700 dark:text-gray-300 list-none m-0 p-0">
+                        <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-semibold flex items-center justify-center">1</span><div><strong>Build a small family</strong> and mark the affected child with an AR disease (cystic fibrosis), recorded on the affected individual.</div></li>
+                        <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-semibold flex items-center justify-center">2</span><div><strong>Set one individual as the proband</strong> so the panel enables, then open <strong>Risk analysis</strong> from the dock.</div></li>
+                        <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-semibold flex items-center justify-center">3</span><div><strong>Expand &ldquo;Single Disease Analysis&rdquo;</strong> and choose the AR disease in the Disease dropdown. The badge becomes <strong>Autosomal Recessive</strong>.</div></li>
+                        <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-semibold flex items-center justify-center">4</span><div><strong>Optionally set a Population</strong> under <strong>Advanced Options</strong>, then click <strong>Analyse</strong>.</div></li>
+                        <li class="flex gap-3"><span class="flex-shrink-0 w-6 h-6 rounded-full bg-brand-600 text-white text-xs font-semibold flex items-center justify-center">5</span><div><strong>Read the illustrative output</strong> &mdash; the population carrier frequency (&ldquo;1 in N&rdquo;), the Family Member Risks table, and the offspring risk. The figures are educational illustrations of the published model, not a prediction about any real person.</div></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="not-prose my-6 p-4 bg-amber-50 dark:bg-amber-500/10 border border-amber-200 dark:border-amber-500/30 rounded-lg">
+                <p class="text-sm text-amber-900 dark:text-amber-100 m-0"><strong>Good to know.</strong> If the badge looks wrong, it is reading the disease's recorded inheritance pattern &mdash; fix the pattern on the disease, not in the panel. Liability-threshold results depend on the incidence and heritability you record; with those blank, a multifactorial disease cannot produce a Falconer 1965 recurrence figure.</p>
+            </div>
+
+        </div>
+
+        <!-- Intended use long form -->
+        <div class="my-10 p-5 bg-gray-50 dark:bg-brand-900/40 border border-gray-200 dark:border-brand-800 rounded-xl">
+            <p class="text-sm text-gray-600 dark:text-gray-400 m-0"><strong class="text-gray-800 dark:text-gray-200">About Evagene.</strong> Evagene is an academic, research, and educational pedigree modelling platform. It supports structured family-history documentation, teaching, and exploratory use of published risk models. Evagene is not intended to diagnose, prevent, monitor, predict, treat, or manage disease; determine eligibility for screening, testing, referral, or treatment; or replace professional clinical judgement. Outputs are illustrative and for educational / research purposes only.</p>
+        </div>
+
+        <!-- Prev / next -->
+        <nav class="mt-12 flex flex-col sm:flex-row gap-4 justify-between border-t border-gray-200 dark:border-brand-800 pt-8">
+            <a href="/user-guide/risks/" class="group flex-1 rounded-xl p-4 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 transition-colors"><span class="text-xs text-gray-400">Previous</span><span class="block font-semibold text-gray-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400">Risk analysis</span></a>
+            <a href="/user-guide/risks/cancer-scores" class="group flex-1 rounded-xl p-4 border border-gray-200 dark:border-brand-800 hover:border-brand-400 dark:hover:border-brand-500 transition-colors sm:text-right"><span class="text-xs text-gray-400">Next</span><span class="block font-semibold text-gray-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400">Cancer family-history scores &amp; Tyrer-Cuzick</span></a>
+        </nav>
+
+    </article>
+</main>
+
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Try it on your own pedigree</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">No credit card, no enterprise sales cycle &mdash; free access during Alpha.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25">Join the Alpha Waiting List</a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2"><div class="flex items-center gap-2.5 mb-4"><img src="/logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div><p class="text-sm text-gray-500 max-w-sm mb-4">Pedigree drawing, management, and modelling.</p></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white">Data Exchange</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="/user-guide/" class="hover:text-white">User Guide</a></li><li><a href="/for-genetic-counsellors.html" class="hover:text-white">For Genetic Counsellors</a></li><li><a href="/for-clinical-geneticists.html" class="hover:text-white">For Clinical Geneticists</a></li><li><a href="/mendelian-inheritance-calculator.html" class="hover:text-white">Mendelian Inheritance</a></li><li><a href="/hereditary-cancer-risk-assessment.html" class="hover:text-white">Cancer Risk Assessment</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400">Terms of Service</a></div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="/privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>
