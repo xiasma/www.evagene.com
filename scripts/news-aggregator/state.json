@@ -2513,55 +2513,1407 @@
         "factor-analysis",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "mFABIO method extends TWAS fine-mapping to binary traits across multiple tissues",
+      "is_preprint": false,
+      "run_date": "2026-05-28",
+      "run_iso": "2026-05-28T10:53:31+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-27T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "mfabio-multi-tissue-twas-fine-mapping-binary-traits",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-27T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "mFABIO: An integrative multi-tissue TWAS fine-mapping approach to prioritize potentially causal genes and tissues underlying binary traits",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012157"
+        }
+      ],
+      "standfirst": "A new multi-tissue transcriptome-wide association study fine-mapping method, published in PLOS Genetics, improves causal gene prioritisation for binary traits such as disease case-control outcomes.",
+      "summary": "Researchers at the University of Michigan, led by Haihan Zhang, Kevin He, Lam C. Tsoi, and Xiang Zhou, have published mFABIO in PLOS Genetics — a multi-tissue transcriptome-wide association study (TWAS) fine-mapping method designed specifically for binary traits.\n\nExisting TWAS fine-mapping approaches jointly model multiple genes to prioritise candidates for causal roles at a given locus, but they have largely been developed for quantitative traits and typically draw on gene expression data from a single tissue. mFABIO addresses both limitations. It uses a probit model to link genetically regulated expression (GReX) of genes across multiple tissues simultaneously to binary trait outcomes, enabling joint causal gene and tissue prioritisation within a single statistical framework.\n\nThe method is relevant to the growing body of GWAS loci for common diseases where the causal gene and the tissue in which its dysregulation matters remain uncertain. By modelling binary outcomes directly rather than approximating them as quantitative, mFABIO avoids the well-known calibration problems that arise when linear models are applied to case-control data at the TWAS stage.\n\nThe paper sits within the active field of post-GWAS functional inference, complementing recent work on colocalisation and Mendelian randomisation frameworks. Researchers working on common complex diseases — particularly where multi-tissue eQTL reference panels such as GTEx are already in use — may find mFABIO a useful addition to their analytical toolkit.",
+      "tags": [
+        "twas",
+        "fine-mapping",
+        "gwas",
+        "binary-traits",
+        "statistical-genetics",
+        "multi-tissue",
+        "causal-gene-prioritisation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Yeast model predicts antifolate resistance mutations in unculturable lung pathogen Pneumocystis jirovecii",
+      "is_preprint": false,
+      "run_date": "2026-05-28",
+      "run_iso": "2026-05-28T10:53:31+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-27T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "antifolate-resistance-pneumocystis-jirovecii-yeast-model",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-27T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Predicting antifolate resistance in the unculturable fungal pathogen Pneumocystis jirovecii",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012163"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study uses a surrogate yeast system to characterise how mutations in the DHFR enzyme of Pneumocystis jirovecii confer resistance to trimethoprim and related antifolate drugs.",
+      "summary": "Researchers led by Francois D. Rouleau, Alexandre K. Dubé, and Christian R. Landry, publishing in PLOS Genetics, have developed a yeast-based system to study antifolate drug resistance in Pneumocystis jirovecii — the fungal pathogen responsible for Pneumocystis pneumonia (PCP) in immunocompromised individuals.\n\nA fundamental obstacle in studying P. jirovecii is that the organism cannot be cultured in vitro or propagated in standard animal models. The team circumvented this by expressing the P. jirovecii dihydrofolate reductase (PjDHFR) enzyme — the target of trimethoprim and related antifolate drugs — in Saccharomyces cerevisiae. This surrogate system allowed systematic assessment of how specific mutations in PjDHFR alter susceptibility to trimethoprim and related compounds.\n\nThe approach provides a way to predict which naturally occurring DHFR variants are likely to confer clinically relevant resistance, an important question given that antifolate regimens remain the cornerstone of PCP treatment and prophylaxis. P. jirovecii cannot be subjected to conventional antimicrobial susceptibility testing, making genomic and computational approaches to resistance prediction particularly valuable.\n\nThe findings add to a growing toolkit for genomic-led understanding of resistance in obligate pathogens that resist culture, and may have downstream relevance for surveillance and treatment strategies in patients with HIV, haematological malignancies, and solid-organ transplants.",
+      "tags": [
+        "antimicrobial-resistance",
+        "pneumocystis-jirovecii",
+        "dihydrofolate-reductase",
+        "antifolate",
+        "fungal-genetics",
+        "surrogate-model",
+        "pcp"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Twin study finds extinction learning rate is heritable and linked to anxiety severity",
+      "is_preprint": true,
+      "run_date": "2026-05-28",
+      "run_iso": "2026-05-28T10:53:31+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-28T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "heritability-reinforcement-learning-anxiety-twin-study",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-28T00:00:00+00:00",
+          "publisher": "bioRxiv",
+          "title": "The heritability of reinforcement learning parameters and their association with anxiety",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.25.727613v1?rss=1"
+        }
+      ],
+      "standfirst": "A pre-registered bioRxiv preprint replicating findings in 925 twin pairs identifies extinction learning rate — but not safety learning rate — as both heritable and associated with anxiety severity, pointing to a potential computational endophenotype.",
+      "summary": "A pre-registered replication study, posted as a preprint on bioRxiv, examined the heritability of reinforcement learning parameters and their relationship to anxiety in a sample of 925 twin pairs — approximately ten times larger than the prior discovery cohort.\n\nThe study focused on two computational constructs: extinction learning (the rate at which an organism updates its assessment that a previously dangerous stimulus is now safe) and safety learning (learning that a novel stimulus is not a threat). Both have been proposed as heritable endophenotypes of anxiety disorders, reflecting impairments documented across multiple anxiety presentations.\n\nExtinction learning rate was significantly associated with anxiety severity in the replication sample (Bayes factor BFr0 = 1189.67), lending strong evidential weight to earlier findings. Safety learning rate did not replicate as an anxiety-associated parameter. The heritability analyses provide quantitative estimates of the genetic contribution to these computational phenotypes, supporting their potential utility in genetic studies of anxiety.\n\nThe work is relevant to researchers in psychiatric genetics and computational psychiatry who are working to bridge GWAS-derived risk loci with measurable behavioural and cognitive mechanisms. Because this is a preprint that has not yet completed peer review, findings should be interpreted with appropriate caution pending independent scrutiny.",
+      "tags": [
+        "heritability",
+        "anxiety",
+        "reinforcement-learning",
+        "endophenotype",
+        "twin-study",
+        "computational-psychiatry",
+        "extinction-learning"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies genomic regions with excess reciprocal recombination in autism spectrum disorder families",
+      "is_preprint": true,
+      "run_date": "2026-05-28",
+      "run_iso": "2026-05-28T10:53:31+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-05-27T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "reciprocal-recombination-autism-spectrum-disorder-genomic-regions",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-27T00:00:00+00:00",
+          "publisher": "bioRxiv",
+          "title": "Detecting genomic regions enriched for reciprocal recombination in autism spectrum disorder",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727863v1?rss=1"
+        }
+      ],
+      "standfirst": "Using family-based study designs including the Simons Simplex Collection, researchers have developed statistical methods to detect genomic regions where elevated reciprocal meiotic recombination may generate deleterious de novo haplotypes contributing to autism spectrum disorder.",
+      "summary": "A preprint posted on bioRxiv describes new statistical methods for detecting genomic regions enriched for reciprocal recombination in the context of autism spectrum disorder (ASD), with application to two family-based datasets including the Simons Simplex Collection.\n\nThe biological rationale rests on a recognised feature of meiotic recombination: in some genomic regions, recombination rates are very low and variants remain in high linkage disequilibrium over long timescales. The authors propose that co-adapted haplotypes can accumulate in such regions, and that reciprocal recombination events separating these co-adapted variants may generate novel, deleterious haplotype combinations. This represents a distinct mechanism from the better-characterised de novo single-nucleotide variants and copy-number variants typically sought in ASD genetic studies.\n\nThe study develops two complementary statistical approaches tailored to different family-based study designs and applies them to identify candidate regions in ASD. The work is methodological as well as empirical, offering tools that could be applied to other neurodevelopmental and complex trait datasets.\n\nAs a preprint, the findings have not yet undergone peer review and should be treated as preliminary. The study is likely to be of primary interest to researchers in statistical genetics, neurodevelopmental genomics, and those working on the genetic architecture of ASD beyond conventional variant discovery.",
+      "tags": [
+        "autism-spectrum-disorder",
+        "meiotic-recombination",
+        "linkage-disequilibrium",
+        "de-novo-haplotype",
+        "statistical-genetics",
+        "simons-simplex-collection",
+        "neurodevelopmental-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "The UK National Screening Committee — the body that advises the NHS on screening programmes — has recommended that men who carry a specific gene change called BRCA2, and who also have a family history of certain cancers, should be offered targeted prostate cancer screening. BRCA2 is a gene that, when altered, can raise the risk of several cancers, including prostate cancer in men.\n\nThis recommendation does not apply to all men, and it is separate from any decision about general prostate cancer screening for the wider population. Researchers and clinicians say the move represents an important step towards matching screening to individual genetic risk.\n\nIf you or a family member has been told about a BRCA2 gene change through a genetics service, a genetic counsellor or GP will be best placed to explain what this recommendation means for your situation.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UK NSC recommends targeted prostate cancer screening for men with BRCA2 variants",
+      "is_preprint": false,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 8,
+        "importance": 9,
+        "newest_iso": "2026-05-28T12:18:23Z",
+        "novelty": 9
+      },
+      "slug": "uk-nsc-brca2-prostate-cancer-screening-recommendation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-28T12:18:23Z",
+          "publisher": "Cancer Research UK",
+          "title": "UK NSC recommends targeted prostate cancer screening",
+          "url": "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/"
+        }
+      ],
+      "standfirst": "The UK National Screening Committee has endorsed a risk-stratified approach to prostate cancer screening, focusing on men who carry a BRCA2 pathogenic variant and have a relevant family history of cancer.",
+      "summary": "The UK National Screening Committee (UK NSC) has formally recommended targeted prostate cancer screening for men who carry a pathogenic BRCA2 variant and have a family history of BRCA2-linked cancers. The announcement, reported by Cancer Research UK, marks a substantive step towards risk-stratified, rather than population-wide, prostate cancer screening in the UK.\n\nBRCA2 pathogenic variants are well established as significantly increasing prostate cancer risk, particularly for aggressive, early-onset disease. The UK NSC's position reflects a growing body of evidence — including data from the IMPACT study and related work — that men in this group may benefit from earlier detection opportunities compared with the general population.\n\nFor genetic counsellors and genetics services, the recommendation has direct implications for cascade testing conversations and family-history assessments: men identified as BRCA2 carriers through hereditary cancer pathways may now be directed towards relevant clinical guidance. Published guidance from the UK NSC notes that targeted screening may be considered in this group; referral decisions remain a matter for individual clinicians in accordance with NHS protocols.\n\nThe recommendation does not apply to men with BRCA1 variants or to the general male population. The UK NSC continues to advise against population-wide PSA screening for prostate cancer. Full details of the recommendation and the supporting evidence review are available on the UK NSC website.",
+      "tags": [
+        "brca2",
+        "prostate-cancer",
+        "uk-nsc",
+        "cancer-screening",
+        "hereditary-cancer",
+        "genetic-counselling",
+        "risk-stratification"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists studying breast cancer genetics in Rwanda have found that a number of unrelated women with breast cancer share an identical fault in a gene called BRCA1. When the same genetic fault appears repeatedly in people from the same population, it is called a founder variant — meaning it likely descended from a single ancestor rather than arising independently many times.\n\nThis matters because populations in Africa have historically been under-represented in genetics research, meaning important inherited cancer risks specific to those communities may have been missed. This study, which has not yet been formally reviewed by other scientists, is a step towards filling that gap.\n\nThe researchers say larger studies will be needed to understand how common this variant is across Rwanda and neighbouring countries.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Shared BRCA1 founder variant identified in Rwandan women with breast cancer",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "brca1-founder-variant-rwandan-breast-cancer",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A Common Pathogenic Founder Variant in Rwandan Breast Cancer Cases",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727861v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that 4% of Rwandan breast cancer cases in a 175-woman cohort carry a single recurrent BRCA1 frameshift variant tracing to a common ancestral haplotype of around 581 kb.",
+      "summary": "A preprint deposited on bioRxiv describes the identification of a shared pathogenic founder variant in BRCA1 among Rwandan women diagnosed with breast cancer. In a cohort of 175 Rwandan women with breast cancer, seven unrelated carriers — representing approximately 4% of cases and 22% of all pathogenic variant carriers identified — harboured the same BRCA1 frameshift variant, designated c.4065_4068del (p.Asn1355Lysfs*10).\n\nThe variant is extremely rare in the gnomAD population reference dataset but has been observed recurrently in European, Asian, and Middle Eastern cohorts. Whole-exome sequencing and haplotype analysis of all seven carriers revealed a shared ancestral haplotype block of approximately 581 kilobases surrounding the variant, consistent with a common founder event rather than independent mutational origins.\n\nThe finding adds to a growing but still limited body of germline data from African populations, which remain substantially under-represented in global breast cancer genetics databases. The authors argue that population-specific founder variants are likely present across sub-Saharan Africa at frequencies that current reference datasets cannot reliably capture.\n\nThis work has not yet undergone peer review. The authors note that the cohort size limits statistical precision and that further studies in larger Rwandan and East African populations will be needed to characterise the full spectrum of pathogenic BRCA1/2 variants in the region.",
+      "tags": [
+        "brca1",
+        "founder-variant",
+        "breast-cancer",
+        "african-genomics",
+        "germline",
+        "hereditary-cancer",
+        "population-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies cGAS-STING pathway as driver of cell-intrinsic inflammation in VEXAS syndrome",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "vexas-syndrome-cgas-sting-uba1-inflammation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cell autonomous inflammation in VEXAS is mediated by cGAS-STING",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727520v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using multi-omic and patient-derived cell analyses reports that loss of cytoplasmic UBA1 activity in VEXAS disrupts ER-associated degradation and mitochondrial homeostasis, activating the cGAS-STING innate immune axis.",
+      "summary": "A preprint posted to bioRxiv presents mechanistic evidence that the cGAS-STING innate immune signalling pathway mediates cell-autonomous inflammation in VEXAS syndrome — a severe adult-onset inflammatory disease caused by somatic mutations in the UBA1 gene.\n\nVEXAS (an acronym for vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic) was first described in 2020 and is caused by acquired somatic mutations — arising during a person's lifetime rather than being inherited — that reduce the cytoplasmic activity of UBA1, the primary initiating enzyme for the ubiquitylation pathway. How this hypomorphic state drives immune activation in mature myeloid cells has remained unclear.\n\nUsing unbiased multi-omic, biochemical, and cell biological analyses in model systems and patient-derived cells, the authors report that loss of cytoplasmic UBA1 activity convergently disrupts endoplasmic reticulum-associated degradation (ERAD) and mitochondrial homeostasis. These disruptions appear to culminate in activation of the cGAS-STING pathway, a DNA-sensing innate immune circuit increasingly recognised as a driver of sterile inflammation in a range of diseases.\n\nThe findings, which have not yet undergone peer review, suggest cGAS-STING inhibition as a potential mechanistic target for therapeutic investigation in VEXAS. As a rare disease caused by somatic rather than germline mutation, VEXAS sits at the intersection of haematology, rheumatology, and clinical genetics; the preprint is likely to be of interest to researchers working across these fields.",
+      "tags": [
+        "vexas-syndrome",
+        "uba1",
+        "cgas-sting",
+        "somatic-mutation",
+        "autoinflammatory",
+        "innate-immunity",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Multi-tissue transcriptomic study links AIS GWAS loci to tissue-specific molecular pathways",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "adolescent-idiopathic-scoliosis-gwas-tissue-molecular-pathology",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Integrated Transcriptomic and Functional Analysis Reveals Tissue-Specific Molecular Pathology in Adolescent Idiopathic Scoliosis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728369v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports a multi-tissue investigation connecting genome-wide association study risk loci for adolescent idiopathic scoliosis to biological function via transcriptomic and functional analyses.",
+      "summary": "Adolescent idiopathic scoliosis (AIS) — the spontaneous development of lateral spine curvature during puberty — affects approximately 3% of children worldwide and is the most common paediatric spine disorder. Despite numerous genome-wide association studies (GWAS) identifying risk loci in non-coding genomic regions, translating those associations into biological understanding has remained challenging.\n\nA preprint posted to bioRxiv describes a multi-tissue investigation designed to connect AIS GWAS risk loci to tissue-specific molecular pathology. Using integrated transcriptomic and functional analyses, the authors report tissue-specific patterns of gene expression and regulatory activity at known AIS risk loci, providing candidate biological mechanisms for a condition whose aetiology has hitherto been poorly understood at the molecular level.\n\nThis work sits alongside, but is distinct from, a separate PLOS Genetics paper in the current batch (item [17]) examining Yap1's role in vertebral development in zebrafish — both address the genetics of spine curvature disorders from different angles, but use different model systems and study different genes.\n\nThe AIS preprint has not yet undergone peer review. The authors note that AIS is currently managed purely symptomatically through bracing and surgery; a clearer mechanistic picture could inform future functional research. The work is likely to be of most interest to researchers in musculoskeletal genetics, developmental biology, and statistical genomics.",
+      "tags": [
+        "adolescent-idiopathic-scoliosis",
+        "gwas",
+        "transcriptomics",
+        "functional-genomics",
+        "musculoskeletal-genetics",
+        "non-coding-variants"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint models how dominant-sterile target sites sharpen CRISPR gene-drive suppression of pest populations",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "crispr-gene-drive-dominant-resistance-alleles-pest-suppression",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Dominant resistance alleles accelerate population suppression by CRISPR-based gene drive",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728369v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that targeting a doublesex locus generating dominant female-sterile alleles can accelerate population suppression by CRISPR-based gene drive, overcoming a key resistance mechanism.",
+      "summary": "CRISPR-based gene drive — a genetic technology designed to spread engineered traits through wild populations — is under active development as a strategy for controlling disease-vector insects and agricultural pests. A persistent challenge has been the generation of nonfunctional resistance alleles through end-joining DNA repair, which can slow or even reverse the suppressive effect of drive constructs targeting recessive fertility genes.\n\nA preprint deposited on bioRxiv investigates how targeting a doublesex locus, which can produce dominant female-sterile alleles when disrupted, alters population-level dynamics. Because disrupted alleles generated at such a site are efficiently eliminated when inherited by females, the authors report that this target-site architecture accelerates population suppression by gene drive compared with recessive-target designs.\n\nThe work is primarily of interest to researchers working in population genetics, evolutionary biology, and the biosafety and governance dimensions of gene drive technology. It contributes to ongoing discussions about which genomic targets are best suited for suppression drives intended for eventual field deployment, a prospect that remains subject to regulatory and ecological review in all jurisdictions.\n\nThe preprint has not yet undergone peer review.",
+      "tags": [
+        "gene-drive",
+        "crispr",
+        "population-suppression",
+        "pest-control",
+        "doublesex",
+        "resistance-alleles",
+        "evolutionary-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint finds cultural affiliation, not geography, drives most variation in prehistoric burial practices",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-05-28T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "ancient-dna-burial-rites-cultural-affiliation-spatiotemporal",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cultural affiliation accounts for most of the spatiotemporal variation in burial rite practices",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.25.725982v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint combining ancient DNA genomics with a new interdisciplinary burial-rite database reports that cultural affiliation accounts for the majority of spatiotemporal variation in prehistoric mortuary practices.",
+      "summary": "A preprint posted to bioRxiv uses a combined dataset of ancient DNA (aDNA) genomic sequences and a newly compiled interdisciplinary database of prehistoric burial rites to examine what drives spatiotemporal patterns in mortuary practices across human prehistory.\n\nThe analysis finds that cultural affiliation — broadly, membership of a shared cultural tradition — accounts for most of the variation in burial rite practices across time and space, outweighing the explanatory power of geographic proximity alone. The authors frame their findings in relation to processes including isolation-by-distance, homophily, and common cultural descent, all of which have been invoked in the anthropological and archaeological literature to explain how cultural practices spread and persist.\n\nThe work is methodologically relevant to researchers working at the intersection of archaeogenomics and archaeology, where the relationship between genetic ancestry and cultural identity is a subject of active and sometimes contested debate. The preprint builds on a growing body of work applying aDNA data to questions that extend beyond population history into cultural and behavioural dimensions of the human past.\n\nThis work has not yet undergone peer review. Its primary audience is researchers in archaeogenomics, evolutionary anthropology, and population genetics, as well as genealogists and educators with an interest in how genetic evidence intersects with the archaeological record.",
+      "tags": [
+        "ancient-dna",
+        "archaeogenomics",
+        "burial-rites",
+        "cultural-evolution",
+        "population-genetics",
+        "prehistoric-archaeology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint introduces TransCisPredict tool for biobank-scale proteome-wide association studies",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-28T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "transciscispredict-proteome-wide-association-studies-biobank",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Leveraging cis- and trans-variants to improve protein expression level prediction for proteome-wide association studies",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728201v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes TransCisPredict, a computational framework that incorporates both cis- and trans-variants to predict protein expression levels and enable proteome-wide association studies at biobank scale.",
+      "summary": "Proteome-wide association studies (PWAS) aim to connect variation in protein abundance to disease risk, but most large-scale genetic studies lack direct proteomic measurements. A preprint posted to bioRxiv describes TransCisPredict, a new computational framework designed to address this gap by predicting protein expression levels from genetic data and enabling PWAS at biobank scale.\n\nThe method reduces computational burden through linkage-disequilibrium block selection and incorporates both cis-acting variants — those near the gene encoding the protein — and trans-acting variants, which may exert effects from elsewhere in the genome. The authors report that accounting for trans-variants improves prediction accuracy for a subset of proteins with complex regulatory architectures, and validate the approach by performing protein-phenotype association analyses in a large biobank dataset.\n\nTransCisPredict is likely to be of interest to researchers working in statistical genetics, functional genomics, and the expanding field of multi-omics integration. PWAS complements transcriptome-wide association studies (TWAS) and is seen as one route to prioritising causal genes at GWAS loci by moving closer to the molecular effectors of disease.\n\nThe preprint has not yet undergone peer review. Code availability details are described in the preprint.",
+      "tags": [
+        "proteome-wide-association-study",
+        "pwas",
+        "statistical-genetics",
+        "trans-variants",
+        "protein-expression",
+        "biobank",
+        "computational-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint reports rare IIS/mTOR pathway variants in long-lived individuals show cross-species functional signatures",
+      "is_preprint": true,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-28T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "rare-iis-mtor-variants-longevity-functional-evidence",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Rare genetic variants in the IIS/mTOR signalling pathway identified in exceptionally long-lived individuals show shared in vitro effects associated with lifespan across species",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728260v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies rare protein-altering variants in the insulin/IGF-1 signalling and mTOR pathway among exceptionally long-lived individuals, with in vitro functional effects consistent with lifespan extension across species.",
+      "summary": "A preprint posted to bioRxiv describes a targeted pathway analysis of rare genetic variants in the insulin/insulin-like growth factor 1 signalling and mechanistic target of rapamycin (IIS/mTOR) pathway, identified in exceptionally long-lived individuals and members of long-lived families.\n\nThe IIS/mTOR signalling network is one of the most consistently implicated pathways in the biology of ageing across model organisms. Using a targeted approach, the authors identified rare protein-altering variants in pathway components among study participants and characterised their functional properties in vitro. They report that the identified variants show effects in cell-based assays that are directionally consistent with lifespan-extending perturbations documented in organisms from yeast to mammals.\n\nThe findings contribute to an active area of human longevity genetics that seeks to move beyond polygenic risk scores to identify rare, high-impact variants in specific biological pathways. The authors note that exceptionally long-lived individuals and long-lived family members tend to show compression of multi-morbidity — that is, a shorter period of serious illness at the end of life — and suggest that understanding the genetics of this group could inform research into healthspan extension.\n\nThe preprint has not yet undergone peer review. Readers should note that this work is of research interest and does not constitute a basis for any individual inference about longevity.",
+      "tags": [
+        "longevity",
+        "iis-mtor",
+        "rare-variants",
+        "ageing",
+        "insulin-signalling",
+        "healthspan",
+        "functional-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study implicates Yap1 in vertebral development and kyphoscoliosis prevention in zebrafish",
+      "is_preprint": false,
+      "run_date": "2026-05-29",
+      "run_iso": "2026-05-29T10:43:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-28T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "yap1-zebrafish-vertebral-development-scoliosis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-28T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Yap1 regulates motility and vertebral development and prevents kyphoscoliosis in zebrafish",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172"
+        }
+      ],
+      "standfirst": "Researchers examining mechanosignalling in zebrafish report that the transcriptional co-activator Yap1 is expressed transiently in muscle and notochord precursors and is required to prevent kyphoscoliosis during vertebral development.",
+      "summary": "A study published in PLOS Genetics by Victoria C. Williams-Ward, Kees Wanders, Simon M. Hughes, and colleagues describes the role of Yap1 — a transcriptional co-activator and component of the Hippo signalling pathway — in vertebral development and the prevention of kyphoscoliosis in zebrafish.\n\nThe researchers report transient expression of yap1 mRNA in precursor cells of muscle and notochord during zebrafish development, alongside expression of the related gene wwtr1. Loss of Yap1 function in the model leads to kyphoscoliosis — an abnormal spinal curvature — implicating the gene in the mechanical feedback interactions between the neuromuscular and skeletal systems that are thought to be important in spine morphogenesis.\n\nScoliosis affects an estimated 2–3% of people and frequently develops during or after adolescence. Mechanosignalling — the process by which cells sense and respond to mechanical forces — is increasingly recognised as a significant contributor to spinal curvature disorders, though the molecular details have remained incompletely defined. The zebrafish model is well established as a system for studying vertebrate spine development given the optical accessibility and genetic tractability of the organism.\n\nThis peer-reviewed article complements but is distinct from a concurrent preprint (also in this batch) applying transcriptomic analysis to adolescent idiopathic scoliosis GWAS loci in humans. Together, the two papers reflect growing momentum in scoliosis genetics research.",
+      "tags": [
+        "yap1",
+        "hippo-signalling",
+        "scoliosis",
+        "kyphoscoliosis",
+        "zebrafish",
+        "vertebral-development",
+        "mechanosignalling"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "University of Michigan study challenges neutral theory of molecular evolution",
+      "is_preprint": false,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-29T11:10:48Z",
+        "novelty": 7
+      },
+      "slug": "neutral-theory-evolution-beneficial-mutations-michigan",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-29T11:10:48Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists say evolution may work differently than we thought",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260529030329.htm"
+        }
+      ],
+      "standfirst": "A large-scale analysis finds beneficial mutations are more common than the neutral theory predicts, but environmental change may prevent them from fixing in populations.",
+      "summary": "Researchers at the University of Michigan have published a study challenging the neutral theory of molecular evolution — one of the most influential frameworks in modern genetics, which holds that the vast majority of mutations that become permanently established in a species are selectively neutral rather than advantageous.\n\nThe team's analysis found that beneficial mutations arise substantially more often than the neutral theory assumes. Yet these mutations rarely sweep to fixation across entire populations. The researchers argue that fluctuating selective pressures — environments that shift before a beneficial variant can spread — may explain this paradox. In effect, the fitness landscape keeps moving, leaving beneficial mutations stranded at intermediate frequencies.\n\nThe findings have implications for population genetics models used to estimate selection coefficients, interpret patterns of molecular diversity, and understand the tempo of adaptive evolution. If environmental change routinely disrupts selective sweeps, methods that assume fixation-based signatures of positive selection may systematically underestimate the prevalence of adaptive evolution.\n\nThe study was reported by ScienceDaily; the primary journal source was not specified in available feed text. Researchers and students working with population-genetic theory or molecular evolution models will find the conceptual challenge to the neutral theory of particular interest.",
+      "tags": [
+        "neutral-theory",
+        "population-genetics",
+        "positive-selection",
+        "molecular-evolution",
+        "beneficial-mutations"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Stanford study links ribosome stalling during ageing to protein aggregation in brain",
+      "is_preprint": false,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-29T14:17:40Z",
+        "novelty": 7
+      },
+      "slug": "ribosome-stalling-ageing-brain-alzheimers-killifish",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-29T14:17:40Z",
+          "publisher": "ScienceDaily",
+          "title": "Protein traffic jams may explain aging, memory loss, and Alzheimer's",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260528082505.htm"
+        }
+      ],
+      "standfirst": "Research in the short-lived turquoise killifish finds that collisions between ribosomes accumulate with age and may contribute to the protein clumps associated with neurodegenerative disease.",
+      "summary": "Researchers at Stanford University have published a study using the turquoise killifish (*Nothobranchius furzeri*) — valued in ageing research for its unusually short lifespan — to investigate how translational fidelity changes over time in the brain.\n\nThe team reports that ribosomes, the molecular machines that synthesise proteins by reading messenger RNA, increasingly stall and collide with one another as animals age. These collisions disrupt normal protein production and trigger downstream quality-control pathways. When these pathways are overwhelmed, misfolded and aggregated proteins accumulate — a cellular phenotype associated with neurodegenerative conditions including Alzheimer's disease.\n\nThe study contributes to a growing body of work on translational stress as a driver of age-related protein homeostasis failure, a field sometimes termed proteostasis research. The turquoise killifish model allows researchers to study the full arc of vertebrate ageing within a compressed experimental window, making it particularly useful for identifying conserved mechanisms.\n\nThe primary journal source was not specified in available feed text. The findings are of interest to researchers in ageing biology, molecular cell biology, and the genetics of neurodegenerative disease, as well as to educators and students seeking illustrative examples of how translational machinery contributes to age-related pathology.",
+      "tags": [
+        "ageing",
+        "ribosome",
+        "proteostasis",
+        "alzheimers-disease",
+        "neurodegeneration",
+        "killifish",
+        "translation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint finds circular RNA QTLs overlap more with splicing variants than expression variants",
+      "is_preprint": true,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "circqtl-splicing-qtl-overlap-circrna-biogenesis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Circular RNA-associated QTLs show stronger association with splicing-QTLs than with expression-QTLs",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728707v1?rss=1"
+        }
+      ],
+      "standfirst": "A systematic comparison of circQTLs with sQTL and eQTL datasets suggests that genetic regulation of circular RNA production is mechanistically closer to splicing than to canonical transcriptional control.",
+      "summary": "A preprint posted to bioRxiv reports a systematic analysis of circular RNA quantitative trait loci (circQTLs) — genetic variants that influence the abundance of circular RNAs — and their relationship to matched splicing QTL (sQTL) and expression QTL (eQTL) datasets.\n\nUsing bootstrap-based Jaccard similarity analyses to quantify genomic overlap, the authors find that circQTLs show substantially stronger co-localisation with sQTLs than with eQTLs. The pattern was replicated across independent datasets. The result supports a mechanistic model in which genetic variation shapes circRNA biogenesis primarily through effects on the splicing machinery rather than through changes in overall transcriptional output.\n\nCircular RNAs are a class of non-polyadenylated RNA molecules generated by back-splicing; their functional roles and regulatory genetics remain an active area of investigation. This work provides a framework for integrating circQTL data with existing functional genomic resources and may help prioritise variants for functional follow-up in post-transcriptional gene regulation research.\n\nThis study is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "circular-rna",
+        "qtl",
+        "splicing",
+        "post-transcriptional-regulation",
+        "functional-genomics",
+        "epitranscriptomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Facioscapulohumeral muscular dystrophy (FSHD) is an inherited muscle condition that causes weakness, particularly in the face, shoulders and upper arms. It is caused by changes in how a part of chromosome 4 is chemically marked — a process called DNA methylation — rather than a simple spelling change in the genetic code.\n\nResearchers have described a new laboratory test, called D4Z4caster, that reads these chemical marks on the relevant chromosome region. In the preprint paper, it correctly distinguished people with FSHD from those without, and told apart two different genetic forms of the condition. The scientists suggest it could be easier to perform than current tests, which are complex and not always available.\n\nThis research is at an early stage and has not yet been checked by independent scientific reviewers. It is a research tool, not a diagnostic test available in clinics.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint describes DNA methylation signature to identify individuals at epigenetic risk for FSHD",
+      "is_preprint": true,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "d4z4caster-methylation-fshd-epigenetic-risk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The D4Z4caster DNA methylation signature identifies individuals at epigenetic risk for developing facioscapulohumeral muscular dystrophy (FSHD)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.26.727947v1?rss=1"
+        }
+      ],
+      "standfirst": "The D4Z4caster assay uses targeted bisulfite sequencing of the D4Z4 repeat array to stratify individuals who may carry the epigenetic hallmarks of facioscapulohumeral muscular dystrophy.",
+      "summary": "A preprint posted to bioRxiv introduces D4Z4caster, a targeted DNA methylation assay designed to characterise the epigenetic state of the D4Z4 repeat array on chromosome 4q35 — the genomic region whose hypomethylation underlies facioscapulohumeral muscular dystrophy (FSHD).\n\nFSHD is caused by epigenetic derepression of the DUX4 gene within the D4Z4 array, which occurs under specific permissive genetic conditions. Conventional genetic confirmation is technically demanding, costly, and not widely accessible, meaning that many individuals with characteristic proximal muscle weakness — and at-risk relatives — remain without a molecular diagnosis.\n\nThe authors report that D4Z4caster uses bisulfite sequencing at specific D4Z4 loci to distinguish the two main genetic forms of FSHD (FSHD1 and FSHD2) from one another and from unaffected individuals. The method is presented as potentially more accessible than current gold-standard approaches.\n\nGenetic counsellors and neuromuscular disease researchers will note that the assay is described as a research tool; the authors do not present it as a validated clinical diagnostic. The preprint has not yet been peer-reviewed, and independent validation in diverse populations would be required before any research or educational conclusions could be drawn about its broader applicability.\n\nThis study is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "fshd",
+        "facioscapulohumeral-muscular-dystrophy",
+        "dna-methylation",
+        "d4z4",
+        "epigenetics",
+        "rare-disease",
+        "neuromuscular"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Mitotree preprint offers a universal human mitochondrial reference phylogeny at ten times previous resolution",
+      "is_preprint": true,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "mitotree-mitochondrial-dna-phylogeny-10x-resolution",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mitotree: The Universal Human Mitochondrial Reference Phylogeny at 10x the Resolution",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728536v1?rss=1"
+        }
+      ],
+      "standfirst": "A new actively maintained mtDNA reference tree incorporating hundreds of thousands of sequences replaces the retired PhyloTree resource and substantially increases haplogroup resolution for population and ancestry research.",
+      "summary": "A preprint posted to bioRxiv introduces Mitotree, a new reference phylogeny for human mitochondrial DNA (mtDNA) that the authors describe as a successor to PhyloTree — the community standard resource that was retired in 2016.\n\nPhyloTree version 17 contained approximately 24,275 sequences and 5,438 branches. Mitotree is built from hundreds of thousands of currently available sequences and achieves approximately ten times the haplogroup resolution of its predecessor. The authors also describe scalable computational methods capable of handling datasets of this size, addressing a recognised bottleneck in the field.\n\nMitochondrial DNA is maternally inherited and does not undergo recombination, making it a tractable system for tracing matrilineal ancestry and inferring population history. All living humans trace their mtDNA to a common female ancestor estimated to have lived approximately 145,000 years ago in Africa. Reference phylogenies underpin haplogroup assignment, population-genetic inference, forensic genetics, and direct-to-consumer ancestry testing.\n\nFor researchers working in population genetics, archaeogenomics, or genetic genealogy, Mitotree addresses a practically important gap left by PhyloTree's retirement. Genealogists with an interest in mitochondrial ancestry testing will recognise the significance of an updated, high-resolution reference tree for interpreting haplogroup assignments.\n\nThis study is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "mitochondrial-dna",
+        "phylogenetics",
+        "haplogroup",
+        "population-genetics",
+        "genetic-genealogy",
+        "matrilineal-ancestry",
+        "reference-resource"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes conditional SNP-heritability framework for ancestrally diverse datasets",
+      "is_preprint": true,
+      "run_date": "2026-05-30",
+      "run_iso": "2026-05-30T09:12:59Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-05-29T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "snp-heritability-conditional-marginal-ancestral-diversity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Conditional and marginal SNP-heritability to leverage ancestral and environmental diversity",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728536v1?rss=1"
+        }
+      ],
+      "standfirst": "A new statistical approach estimates heritability separately within genetically defined subpopulations, addressing a known limitation of methods that return a single marginal estimate across diverse cohorts.",
+      "summary": "A preprint posted to bioRxiv introduces a framework that distinguishes between marginal SNP-heritability — a single estimate computed across an entire genetically diverse dataset — and conditional SNP-heritability, which is estimated separately within ancestral subpopulations.\n\nSNP-heritability is the proportion of phenotypic variance explained by the genetic variants assayed in a genome-wide association study (GWAS). Standard methods return one figure per trait per dataset. The authors argue that when a dataset pools individuals from multiple ancestral backgrounds — each with potentially different environmental exposures, allele frequencies, and linkage disequilibrium structures — a single marginal estimate conflates genuine biological heterogeneity with statistical artefact.\n\nThe conditional framework allows researchers to ask whether a trait's heritability differs between subpopulations, which has implications for understanding gene–environment interactions and for the transferability of polygenic scores across populations. The paper presents theoretical derivations and applies the method to empirical datasets.\n\nThis work is relevant to researchers developing or applying GWAS methodology in diverse cohorts, and to statistical geneticists working on polygenic score portability. It connects to a broader ongoing conversation about the assumptions embedded in heritability estimation and the importance of ancestral diversity in genomic research.\n\nThis study is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "snp-heritability",
+        "gwas",
+        "ancestral-diversity",
+        "statistical-genetics",
+        "polygenic-scores",
+        "population-genetics",
+        "heritability-estimation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "New statistical framework corrects for recurrent mutation in large-scale allele frequency analysis",
+      "is_preprint": true,
+      "run_date": "2026-05-31",
+      "run_iso": "2026-05-31T09:46:24Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-05-31T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "single-mutation-frequency-spectrum-rare-alleles",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-31T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Accounting for recurrent mutation in the frequency spectrum of rare alleles",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728884v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from Cold Spring Harbor Laboratory introduces the single mutation frequency spectrum, a revised approach to analysing rare allele data that accounts for identical-by-state variants arising from recurrent mutation events.",
+      "summary": "As whole-genome and whole-exome sequencing datasets grow to encompass hundreds of thousands of samples, they routinely surface alleles at frequencies too low to have been captured in earlier studies. A preprint posted on bioRxiv proposes that conventional site frequency spectrum (SFS) analysis breaks down at these very low frequencies because some rare alleles that appear identical are not descended from a shared ancestral mutation — they arose independently at the same site, a phenomenon known as recurrent mutation.\n\nTo address this, the authors define the single mutation frequency spectrum (SMFS), which restricts analysis to alleles that are identical by descent from a single mutational event rather than identical merely by state. Because the standard SFS is strongly dependent on underlying mutation rates when recurrent mutations are present, the authors argue that using the SFS without correction introduces systematic biases into downstream demographic inference and tests of selection.\n\nThe work is a methods contribution aimed at population geneticists who work with large biobank-scale datasets or ultra-rare variant catalogues. The preprint has not yet undergone peer review. If the framework is validated and adopted, it could improve the accuracy of demographic modelling, mutation rate estimation, and tests for natural selection applied to the rare end of the allele frequency spectrum.",
+      "tags": [
+        "site-frequency-spectrum",
+        "recurrent-mutation",
+        "population-genetics",
+        "rare-alleles",
+        "statistical-genetics",
+        "demographic-inference"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Computational model proposes ploidy buffers developmental gene expression noise to explain hybrid vigour",
+      "is_preprint": true,
+      "run_date": "2026-05-31",
+      "run_iso": "2026-05-31T09:46:24Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-30T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "heterosis-ploidy-developmental-noise-buffering",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-30T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Buffering of developmental noise provides a mechanism for heterosis in both polyploid and diploid hybrids",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728238v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses abstract multicellular development modelling to argue that increased ploidy — in both diploid hybrids and polyploids — reduces the impact of gene expression noise on cell fate determination, offering a mechanistic basis for heterosis.",
+      "summary": "Hybrid vigour, or heterosis, is the well-documented tendency of hybrid offspring to outperform their parents in traits such as growth, fertility, and stress tolerance. Its mechanistic basis has long been debated. A preprint posted on bioRxiv presents a computational model of multicellular development to argue that ploidy itself — independent of allelic complementation — buffers the deleterious consequences of stochastic gene expression noise.\n\nThe model demonstrates that as organisms increase in ploidy, from haploid to diploid and from diploid to tetraploid, the probability that noise-driven errors in gene expression propagate to incorrect cell fate determination decreases substantially. The author reasons that large multicellular organisms require millions of cell divisions and numerous cell fate specification events, making total control of expression noise biologically implausible. Increased ploidy, by averaging across more gene copies, reduces the effective noise at each decision point.\n\nThe framework is proposed to apply both to allopolyploid and autopolyploid plants — a domain with major relevance to crop science — and to diploid F1 hybrids relative to their inbred parents. The preprint has not yet been peer-reviewed and presents a theoretical rather than experimental result. Researchers in evolutionary genetics, developmental biology, and plant genomics are the primary audience for this work.",
+      "tags": [
+        "heterosis",
+        "ploidy",
+        "gene-expression-noise",
+        "developmental-biology",
+        "polyploidy",
+        "cell-fate",
+        "evolutionary-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Single-cell multi-omic atlas of human dendritic cell differentiation links inherited disease risk to specific immune cell subsets",
+      "is_preprint": true,
+      "run_date": "2026-05-31",
+      "run_iso": "2026-05-31T09:46:24Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 7,
+        "newest_iso": "2026-05-30T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "dendritic-cell-omics-atlas-immune-disease-risk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-30T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mapping genetic risk mechanisms for immune-mediated diseases across human dendritic cell differentiation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728586v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint presents a chromatin accessibility and transcriptomic atlas of human dendritic cell development from haematopoietic stem cells, integrating GWAS data from immune-mediated diseases to pinpoint which DC subsets mediate inherited genetic risk.",
+      "summary": "Dendritic cells (DCs) are a rare but functionally critical population of immune cells that coordinate both innate and adaptive immune responses. Their rarity in peripheral blood and the limited availability of high-quality genomic reference data have previously made it difficult to connect common genetic variants identified in genome-wide association studies (GWAS) of immune-mediated diseases to specific DC subsets or molecular mechanisms.\n\nA preprint posted on bioRxiv addresses this gap with a single-cell multi-omic atlas that captures both chromatin accessibility (via ATAC-seq) and gene expression profiles across DC subsets as they differentiate from haematopoietic stem and progenitor cells (HSPCs). By inferring regulatory networks from these paired datasets, the authors map which transcription factors and open chromatin regions are active at each stage of DC differentiation.\n\nCritically, the atlas is then integrated with GWAS summary statistics from multiple immune-mediated diseases, enabling the authors to propose which specific DC subsets and regulatory elements are most likely to mediate inherited susceptibility signals. The work is a substantial genomic resource contribution. The preprint has not yet been peer-reviewed. Researchers in immunogenomics, GWAS functional follow-up, and the genetics of autoimmune disease are the primary audience.",
+      "tags": [
+        "dendritic-cells",
+        "single-cell-genomics",
+        "chromatin-accessibility",
+        "gwas",
+        "immune-mediated-disease",
+        "eqtl",
+        "immunogenomics",
+        "haematopoiesis"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "High-throughput single-cell eQTL mapping in yeast reveals how genetic variants shape rapid transcriptional responses to stress",
+      "is_preprint": true,
+      "run_date": "2026-05-31",
+      "run_iso": "2026-05-31T09:46:24Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-05-30T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "eqtl-mapping-yeast-stress-transcriptional-response",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-30T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The genetics of transcriptional responses to stress in yeast",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728873v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses a scalable 'one-pot' single-cell RNA-seq approach to map expression quantitative trait loci in yeast during acute salt stress and nutrient repletion, extending eQTL analysis from steady-state transcript levels into dynamic physiological transitions.",
+      "summary": "Expression quantitative trait loci (eQTLs) — genetic variants that influence how much RNA a gene produces — have been mapped extensively in human tissues under steady-state conditions, but their role in shaping transcriptional responses to acute physiological challenge is poorly understood. A preprint posted on bioRxiv uses the tractable genetics of budding yeast to address this question at scale.\n\nThe authors deployed a high-throughput 'one-pot' single-cell RNA-sequencing approach, measuring transcript levels across a genetically diverse yeast population simultaneously before and after two distinct environmental perturbations: an acute salt stress applied to actively cycling cells, and nutrient repletion of cells following one week of starvation. By comparing eQTL maps before and after each perturbation, they characterise how genetic variants alter the magnitude, direction, and timing of transcriptional responses to stress.\n\nThe study identifies substantial genetic variation in dynamic gene expression responses that would not have been detectable from steady-state measurements alone. As a model organism study, direct extrapolation to human biology requires caution. However, the methodological framework — pairing large-scale genetic variation with single-cell dynamic transcriptomics — is likely to be applicable to more complex systems. The preprint has not yet been peer-reviewed and represents a methods and resource contribution to the fields of functional genomics and gene regulation.",
+      "tags": [
+        "eqtl",
+        "yeast",
+        "stress-response",
+        "single-cell-rna-seq",
+        "transcriptomics",
+        "gene-regulation",
+        "functional-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "patients"
+      ],
+      "for_patients": "Researchers at Revolution Medicines have reported encouraging results for a new drug called daraxonrasib, which targets a faulty protein called KRAS that drives most cases of pancreatic cancer. The results were presented at a large cancer conference called ASCO in 2026 and were described by some doctors as potentially changing how this cancer might be treated in future.\n\nKRAS has been difficult to target with medicines for many decades, so findings like these are considered significant by researchers in the field. The drug is still being studied in clinical trials, and it is not yet approved for use as a standard treatment.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Revolution Medicines reports practice-changing trial results for KRAS-targeted pancreatic cancer drug",
+      "is_preprint": false,
+      "run_date": "2026-06-01",
+      "run_iso": "2026-06-01T12:34:01Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-05-31T12:00:00Z",
+        "novelty": 8
+      },
+      "slug": "revolution-medicines-daraxonrasib-pancreatic-cancer-asco-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/05/M1320912-Pancreatic_cancer_cells_SEM-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-31T12:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Practice-changing results reported for Revolution Medicines pancreatic cancer drug",
+          "url": "https://www.statnews.com/2026/05/31/pancreatic-cancer-daraxonrasib-revolution-medicines-results-asco-2026/"
+        }
+      ],
+      "standfirst": "Daraxonrasib, a small molecule targeting KRAS, produced results described as practice-changing at ASCO 2026, offering a new approach to one of oncology's hardest tumours.",
+      "summary": "At the 2026 American Society of Clinical Oncology (ASCO) annual meeting, Revolution Medicines presented results for daraxonrasib, a drug designed to inhibit KRAS — a GTPase long considered undruggable due to its smooth, featureless surface. Pancreatic ductal adenocarcinoma is driven by KRAS mutations in approximately 90% of cases, and the absence of effective targeted options has contributed to its persistently poor prognosis.\n\nThe trial data, reported by Stat News, were described as practice-changing by observers at the conference. Daraxonrasib is a member of a class of compounds that occupy a switch-II pocket on mutant KRAS, locking the protein in an inactive state. Earlier agents in this class were monospecific for the KRAS G12C variant; daraxonrasib targets a broader range of KRAS mutations relevant to pancreatic cancer.\n\nFull efficacy and safety data were not detailed in the available lede; the peer-reviewed publication or conference abstract should be consulted for primary endpoints, patient numbers, and adverse event profiles. Regulatory and clinical pathway implications remain to be determined. The story was covered by Stat News on 31 May 2026 under a STAT+ paywall; the conference abstract is the recommended primary source for researchers and oncologists.",
+      "tags": [
+        "kras",
+        "pancreatic-cancer",
+        "daraxonrasib",
+        "asco-2026",
+        "targeted-therapy",
+        "clinical-trial-news"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists"
+      ],
+      "for_patients": null,
+      "headline": "Akeso and Summit's ivonescimab extends survival in squamous cell lung cancer at ASCO 2026",
+      "is_preprint": false,
+      "run_date": "2026-06-01",
+      "run_iso": "2026-06-01T12:34:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-05-31T12:00:00Z",
+        "novelty": 8
+      },
+      "slug": "ivonescimab-squamous-cell-lung-cancer-asco-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/05/C0609832-Lung_cancer_scan-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-31T12:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Akeso and Summit's ivonescimab extends survival in squamous cell lung cancer",
+          "url": "https://www.statnews.com/2026/05/31/squamous-cell-lung-cancer-akeso-summit-harmoni-asco-2026/"
+        }
+      ],
+      "standfirst": "The bispecific antibody ivonescimab, developed in China, showed a survival benefit in squamous cell lung cancer, though researchers called for follow-up in more diverse patient populations.",
+      "summary": "Data presented at ASCO 2026 showed that ivonescimab, a bispecific antibody targeting both PD-1 and VEGF, extended survival in patients with squamous cell lung cancer. The drug was developed by Akeso and is being studied in partnership with Summit Therapeutics under the HARMONI trial programme.\n\nIvonescimab is designed to combine immune checkpoint inhibition with anti-angiogenic activity in a single molecule, an approach intended to overcome resistance mechanisms that limit single-agent PD-1 blockade. Squamous cell carcinoma represents a substantial subtype of non-small cell lung cancer and has historically had fewer targeted options than adenocarcinoma, which more frequently harbours actionable mutations such as EGFR alterations.\n\nClinicians commenting at the meeting welcomed the results but noted that the trial population was predominantly East Asian, raising questions about the generalisability of findings to other ancestries and healthcare settings. Researchers and oncologists interested in the primary endpoint data, patient-selection criteria, and subgroup analyses should consult the conference abstract and the anticipated peer-reviewed publication. Regulatory submissions had not been announced at the time of reporting. The story was covered by Stat News on 31 May 2026.",
+      "tags": [
+        "lung-cancer",
+        "ivonescimab",
+        "pd-1-blockade",
+        "bispecific-antibody",
+        "asco-2026",
+        "clinical-trial-news",
+        "population-diversity"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists"
+      ],
+      "for_patients": null,
+      "headline": "Ultra-low-dose nivolumab trial raises prospect of affordable immunotherapy in lower-income countries",
+      "is_preprint": false,
+      "run_date": "2026-06-01",
+      "run_iso": "2026-06-01T12:34:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-05-31T17:11:55Z",
+        "novelty": 8
+      },
+      "slug": "low-dose-nivolumab-global-access-cancer-asco-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/05/52825608283_965e677441_3k-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-05-31T17:11:55Z",
+          "publisher": "Stat News",
+          "title": "Ultra-low doses could bring costly cancer treatments to more patients in poorer countries",
+          "url": "https://www.statnews.com/2026/05/31/low-dose-nivolumab-extends-survival-trial-head-neck-squamous-cell-carcinoma-asco-2026/"
+        }
+      ],
+      "standfirst": "A trial presented at ASCO 2026 found that substantially reduced doses of nivolumab retained efficacy in head and neck squamous cell carcinoma, a finding with potential relevance to treatment access in lower-income settings.",
+      "summary": "Researchers presented data at the 2026 ASCO annual meeting suggesting that very low doses of nivolumab — a PD-1 inhibitor — may produce outcomes comparable to standard dosing in head and neck squamous cell carcinoma (HNSCC). The work was reported by Stat News on 31 May 2026.\n\nNivolumab and similar checkpoint inhibitors are among the most widely used immunotherapies in oncology, but their cost places them beyond reach for health systems in many lower- and middle-income countries. The rationale for dose reduction rests on pharmacokinetic modelling suggesting that the drug's target — the PD-1 receptor on T cells — may be saturated at substantially lower plasma concentrations than those achieved by approved regimens.\n\nThe trial's patient numbers, primary endpoints, and comparator arms were not detailed in the available summary; the conference abstract and anticipated full publication should be consulted for these details. Researchers and oncologists working in global oncology and health equity contexts may find the framing particularly relevant. The findings are not a basis for modifying treatment regimens outside of a clinical trial setting; published guidance from regulatory bodies and clinical practice guidelines remains the appropriate reference for treatment decisions.",
+      "tags": [
+        "nivolumab",
+        "pd-1-blockade",
+        "head-and-neck-cancer",
+        "immunotherapy",
+        "global-health",
+        "asco-2026",
+        "cancer-access"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: shared Su(Hw) binding sites mediate specific TAD boundary interactions in Drosophila",
+      "is_preprint": true,
+      "run_date": "2026-06-01",
+      "run_iso": "2026-06-01T12:34:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-05-31T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "su-hw-drosophila-tad-boundary-chromosome-architecture",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-05-31T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Shared binding sites for the chromosomal architectural protein Su(Hw) mediate physical interactions between Drosophila TAD boundaries",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.727987v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from Cold Spring Harbor Laboratory proposes that the chromosomal architectural protein Su(Hw) generates specificity in topologically associating domain boundary contacts in Drosophila, helping to explain how TADs form independently of loop extrusion.",
+      "summary": "A preprint deposited on bioRxiv on 31 May 2026 investigates how topologically associating domain (TAD) boundaries establish specific, orientation-dependent interactions in Drosophila chromatin. The work focuses on Su(Hw), a zinc-finger protein that binds the gypsy retrotransposon and is known to act as an insulator, and asks how shared Su(Hw) binding sites at TAD boundaries mediate physical contacts between those boundaries.\n\nLoop extrusion — the leading mechanistic model for TAD formation in vertebrates — has been shown to be insufficient to explain TAD formation in Drosophila, leaving a significant gap in the understanding of chromosomal architecture across eukaryotes. The preprint presents evidence that Su(Hw) binding site sharing generates the specificity and directionality of inter-TAD interactions, offering a candidate mechanism to fill that gap.\n\nThe work is a preprint and has not yet undergone peer review. Researchers working in chromosome biology, genome organisation, and Drosophila genetics will find the molecular detail of most direct relevance. Educators and students covering 3D genome organisation and insulator function may also find this a useful primary source example. Full methods, datasets, and conclusions should be verified against the peer-reviewed version once published.",
+      "tags": [
+        "chromosome-architecture",
+        "tad-boundaries",
+        "su-hw",
+        "drosophila",
+        "insulator-elements",
+        "3d-genome",
+        "chromatin"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Most of what we inherit from our parents comes through DNA — the sequence of genetic letters passed from one generation to the next. But scientists have long known that some heritable changes can also travel through chemical tags attached to DNA, called epigenetic marks, without altering the underlying sequence.\n\nA new study in mice has found hundreds of cases where these chemical marks behaved in ways that do not follow the classic rules of genetics first described by Gregor Mendel in the 19th century. Researchers also reported what they describe as the first known example of a process called paramutation — where one inherited version of a gene changes how another version behaves in future generations — occurring naturally in a mammal. Until now, this had mainly been seen in plants.\n\nThe study raises the possibility that environmental factors may influence inheritance in ways scientists are still working to understand. This is early research in mice, and it is not yet clear what, if anything, it means for human health.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Mouse study identifies hundreds of non-Mendelian epigenetic inheritance events",
+      "is_preprint": false,
+      "run_date": "2026-06-02",
+      "run_iso": "2026-06-02T11:15:04Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-06-01T12:58:04Z",
+        "novelty": 8
+      },
+      "slug": "epigenetic-inheritance-paramutation-mouse-mendel",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-01T12:58:04Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover inherited traits that break Mendel's Laws of genetics",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260530053420.htm"
+        }
+      ],
+      "standfirst": "A large-scale mouse study has mapped epigenetic marks that violate classical inheritance rules, including what researchers describe as the first naturally occurring paramutation documented in a mammal.",
+      "summary": "A study reported via ScienceDaily describes findings from a large mouse genetics experiment in which researchers identified hundreds of inherited traits transmitted through epigenetic mechanisms — chemical modifications to DNA and associated proteins — that do not follow Mendel's laws of segregation and independent assortment.\n\nAmong the most striking findings was the identification of what the researchers characterise as the first naturally occurring paramutation in a mammal. Paramutation is a phenomenon, previously documented mainly in plants, in which one allele heritably alters the expression of a corresponding allele in the next generation, producing changes that persist across generations even after the original allele is no longer present. The study also reported cases where epigenetic marks appeared de novo — with no obvious parental origin — raising questions about the extent to which environmental exposures might introduce heritable changes outside the conventional DNA sequence.\n\nThe original primary source for this report has not yet been identified — the ScienceDaily item does not name a journal or research institution directly in the lede. Readers are advised to locate the primary publication before drawing firm conclusions. The findings contribute to a growing body of work on transgenerational epigenetic inheritance, a field that remains active and sometimes contested in mammals. The results are likely to be of particular interest to researchers working on inheritance mechanisms, evolutionary genetics, and gene–environment interactions, as well as educators and students who teach or learn classical genetics.",
+      "tags": [
+        "epigenetics",
+        "transgenerational-inheritance",
+        "paramutation",
+        "non-mendelian-inheritance",
+        "mouse-genetics",
+        "gene-environment-interaction"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Cancer Research UK calls for removal of barriers to precision cancer prevention research in the UK",
+      "is_preprint": false,
+      "run_date": "2026-06-02",
+      "run_iso": "2026-06-02T11:15:04Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-06-02T09:30:25Z",
+        "novelty": 5
+      },
+      "slug": "cancer-prevention-research-barriers-uk-cruk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-02T09:30:25Z",
+          "publisher": "Cancer Research UK",
+          "title": "Unlocking a new era for cancer prevention research",
+          "url": "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/"
+        }
+      ],
+      "standfirst": "A Cancer Research UK commentary argues that structural and funding barriers are slowing the translation of population-level genetic and lifestyle risk data into cancer prevention strategies.",
+      "summary": "Cancer Research UK has published a commentary by Seren Limb examining what the organisation describes as a shift towards precision prevention in cancer research — an approach that seeks to use individual-level risk factors, including genetic data, to target preventive interventions more effectively.\n\nThe piece argues that while the scientific foundations for precision prevention are strengthening, a range of practical, regulatory, and funding barriers are limiting progress in the UK. The commentary does not detail the specific barriers in the lede text available, but the framing is consistent with broader discussions about how polygenic risk scores, family history data, and genomic screening programmes can be integrated into public health infrastructure.\n\nThe item is categorised by Cancer Research UK as being directed at researchers. It does not constitute clinical guidance. Readers interested in the primary arguments should consult the full article at the source URL. The piece is relevant to researchers working at the intersection of genomics and cancer epidemiology, to genetic counsellors engaged in hereditary cancer risk communication, and to educators covering cancer genetics and public health genomics.",
+      "tags": [
+        "cancer-prevention",
+        "precision-prevention",
+        "cancer-genomics",
+        "uk",
+        "hereditary-cancer",
+        "public-health-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study quantifies how DNA sequence context and methylation jointly shape germline mutation rates at CpG sites",
+      "is_preprint": false,
+      "run_date": "2026-06-02",
+      "run_iso": "2026-06-02T11:15:04Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-01T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "cpg-methylation-germline-mutation-rate-sequence-context",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-01T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Sequence context and methylation interact to shape germline mutation rate variation at CpG sites",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957"
+        }
+      ],
+      "standfirst": "Researchers analysing human polymorphism data from gnomAD find that CpG mutation rates vary with flanking sequence in ways only partially explained by methylation, refining models of heritable mutation risk.",
+      "summary": "A study by Sheel Chandra and Ziyue Gao, published in PLOS Genetics, examines the factors that govern germline mutation rates at CpG dinucleotides — positions in the genome that are both highly mutable and important in epigenetic regulation.\n\nIt has long been established that the elevated mutation rate at CpG sites is largely driven by cytosine methylation: methylated cytosines can spontaneously deaminate to thymine, producing C-to-T transitions. However, CpG sites embedded in different flanking sequences mutate at substantially different rates, and previous work had shown that this variation is only partly explained by differences in methylation levels.\n\nUsing human polymorphism data from the gnomAD dataset, Chandra and Gao apply a regression framework that accounts for recurrent mutations — a known source of bias in such analyses — to quantify the CpG mutation rate and the mutagenic contribution of methylation across diverse sequence contexts. The analysis aims to disentangle the independent contributions of sequence context and methylation to observed mutation rate variation.\n\nThe findings add resolution to population-genetic models of de novo mutation and germline mutagenesis, with implications for variant interpretation, demographic inference, and the understanding of heritable disease risk at the molecular level. The work is primarily of interest to population geneticists, statistical geneticists, and researchers working on variant pathogenicity assessment.",
+      "tags": [
+        "cpg-methylation",
+        "germline-mutation",
+        "mutation-rate",
+        "sequence-context",
+        "population-genetics",
+        "gnomad",
+        "variant-interpretation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: base editing at PCSK9 and HBG in human embryos achieves efficient correction without chromosomal disruption",
+      "is_preprint": true,
+      "run_date": "2026-06-02",
+      "run_iso": "2026-06-02T11:15:04Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 8,
+        "newest_iso": "2026-06-01T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "base-editing-human-embryos-pcsk9-hbg-no-aneuploidy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-01T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Efficient base editing and development in human embryos without chromosomal alterations",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.30.728989v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that base editors — which introduce single-letter DNA changes without cutting both DNA strands — avoided the aneuploidy and large deletions seen with standard CRISPR-Cas9 in early human embryos.",
+      "summary": "A preprint posted to bioRxiv describes experiments in which researchers used base editors — variants of the CRISPR-Cas9 system that introduce targeted single-nucleotide changes via DNA nicks and mismatches, rather than double-strand breaks — to edit two loci in human embryos: PCSK9, a gene involved in cholesterol metabolism, and HBG, encoding foetal haemoglobin.\n\nThe study reports efficient editing at both targets. Crucially, unlike standard Cas9-mediated editing, which the authors note causes frequent aneuploidy (gain or loss of whole chromosomes) and large deletions in early human embryos — a consequence of deficient double-strand break repair at this developmental stage — base editing did not produce detectable chromosomal abnormalities.\n\nThe findings are presented as addressing a significant safety concern that has limited the translational potential of CRISPR-based approaches in the embryo context. The authors frame the work as relevant to understanding DNA repair biology in early human development and, prospectively, to the possible correction of disease-causing variants.\n\nAs a bioRxiv preprint, this work has not yet completed peer review. The PCSK9 target is also of note given a separate recently reported Phase 1 trial of base editing in adults by Verve Therapeutics and Eli Lilly (published in Genetic Current, 27 May 2026), though the embryo-editing context here is scientifically and ethically distinct. The work will be of interest to researchers in gene editing, reproductive genomics, and developmental biology, and to genetic counsellors following advances in germline correction technologies.",
+      "tags": [
+        "base-editing",
+        "crispr",
+        "human-embryo",
+        "pcsk9",
+        "hbg-foetal-haemoglobin",
+        "aneuploidy",
+        "dna-repair",
+        "germline-editing"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies NuA4 subunit overexpression as a suppressor of H3K36M oncohistone growth defects in yeast",
+      "is_preprint": true,
+      "run_date": "2026-06-02",
+      "run_iso": "2026-06-02T11:15:04Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-06-01T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "nua4-eaf1-h3k36m-oncohistone-yeast-h4-acetylation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-01T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Overexpression of Eaf1, a subunit of the NuA4 lysine acetyl transferase complex, rescues growth defects in the budding yeast H3K36M oncohistone model via histone H4 tail acetylation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.30.728992v1?rss=1"
+        }
+      ],
+      "standfirst": "A yeast-model preprint finds that elevated levels of Eaf1, a subunit of the NuA4 lysine acetyltransferase complex, rescue growth defects caused by the H3K36M oncohistone mutation via histone H4 tail acetylation.",
+      "summary": "A preprint posted to bioRxiv reports work conducted in budding yeast to investigate the molecular consequences of the H3K36M oncohistone — a recurrent histone H3 mutation, first identified in human cancers including chondroblastoma and certain paediatric midline gliomas, in which lysine 36 is substituted by methionine.\n\nH3K36M acts in a dominant-negative fashion, inhibiting the methyltransferases that normally deposit methyl marks at H3K36 and thereby disrupting chromatin-based regulation of gene expression. Understanding which cellular pathways can compensate for or suppress these effects is of interest for cancer biology, though the yeast system used here is a model organism context rather than a direct therapeutic study.\n\nThe authors previously identified Eaf1 — the catalytic subunit of the NuA4 lysine acetyltransferase complex — as a relevant factor. The current preprint reports that overexpression of Eaf1 rescues the growth defects associated with H3K36M expression in yeast, and that this rescue operates through increased acetylation of the histone H4 tail. The work adds mechanistic detail to understanding how histone modification pathways interact in the context of oncohistone-driven chromatin dysregulation.\n\nAs a bioRxiv preprint, the findings have not yet undergone peer review. Histone H3 shares approximately 90% sequence identity between budding yeast and humans, supporting the use of this model. The work is primarily of interest to researchers in chromatin biology, cancer epigenomics, and histone modification pathways.",
+      "tags": [
+        "oncohistone",
+        "h3k36m",
+        "nua4",
+        "eaf1",
+        "histone-acetylation",
+        "chromatin",
+        "cancer-epigenomics",
+        "yeast-model"
+      ]
     }
   ],
-  "last_run": "2026-05-27T10:55:45.299768+00:00",
+  "last_run": "2026-06-02T11:16:52.725456+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011949": "2026-05-16T19:47:15.642106+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012133": "2026-05-16T19:47:15.642106+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012137": "2026-05-19T10:37:43.421038+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012141": "2026-05-16T19:47:15.642106+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012144": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012152": "2026-05-20T10:24:39.370157+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012154": "2026-05-21T10:40:08.951688+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012155": "2026-05-20T10:24:39.370157+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012156": "2026-05-21T10:40:08.951688+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012157": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012158": "2026-05-21T10:40:08.951688+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012163": "2026-05-28T10:54:47.536471+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012165": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012168": "2026-05-27T10:55:45.299768+00:00",
-    "https://news.cancerresearchuk.org/2026/04/23/cancer-in-the-uk-2026-cases-exceed-400000-for-the-first-time/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/04/27/latest-winner-in-our-research-is-beautiful-competition-2/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/04/27/tobacco-and-vapes-bill-isnt-an-affront-to-personal-freedom-its-a-defence-against-deadly-addiction/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/04/29/philosophically-speaking-finding-a-path-to-the-big-picture/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/04/29/the-tobacco-and-vapes-act-smokefree-generation/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/05/01/tobacco-and-vapes-act-the-stories-behind-the-smokefree-generation/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/05/06/let-there-be-light-a-new-route-to-precision-diagnosis/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/05/07/could-the-tobacco-and-vapes-act-begin-the-end-of-smoking-that-cancer-conversation-season-4-ep-8/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/05/11/new-study-looks-for-better-ways-to-stop-skin-cancer-in-the-people-most-at-risk/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/05/11/research-is-beautiful-the-best-of-the-rest-5/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/05/13/2026-elections-in-scotland-and-wales-a-turning-point-for-cancer/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/05/15/cancer-waiting-times-latest-updates-and-analysis/": "2026-05-16T19:47:15.642106+00:00",
-    "https://news.cancerresearchuk.org/2026/05/18/the-cell-keeps-the-score-memory-inflammation-and-bowel-cancer/": "2026-05-19T10:37:43.421038+00:00",
-    "https://news.cancerresearchuk.org/2026/05/18/the-gatekeeper-and-the-invader-h-pylori-and-the-development-of-stomach-cancer/": "2026-05-19T10:37:43.421038+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012169": "2026-05-29T10:45:46.729042+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012171": "2026-06-02T11:16:52.725456+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172": "2026-05-29T10:45:46.729042+00:00",
     "https://news.cancerresearchuk.org/2026/05/20/how-philanthropy-is-helping-promising-cancer-treatments-reach-clinical-trials-sooner/": "2026-05-20T10:24:39.370157+00:00",
     "https://news.cancerresearchuk.org/2026/05/22/skin-cancer-cases-hit-record-high-in-the-uk/": "2026-05-22T10:24:42.174074+00:00",
     "https://news.cancerresearchuk.org/2026/05/25/beyond-the-research-turning-evidence-into-impact/": "2026-05-25T11:08:44.871677+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.11.723906v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.12.724636v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.13.724957v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.13.724972v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.13.725051v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.14.724656v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.14.724910v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
+    "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
+    "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
+    "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/": "2026-06-02T11:16:52.725456+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.14.725224v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.14.725285v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.15.725342v1?rss=1": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.15.725498v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.15.725551v1?rss=1": "2026-05-16T19:47:15.642106+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725556v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.15.725596v1?rss=1": "2026-05-17T09:03:39.807393+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.16.725661v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.17.725479v1?rss=1": "2026-05-18T11:06:34.634654+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725703v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725730v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725798v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
@@ -2583,36 +3935,38 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.21.726896v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727229v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727232v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.england.nhs.uk/2026/04/hospital-patients-can-now-check-appointments-in-the-nhs-app/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.england.nhs.uk/2026/04/lifesaving-spring-covid-19-jab-offers-protection-to-millions-of-vulnerable-people/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.england.nhs.uk/2026/04/nhs-detects-tens-of-thousands-of-bowel-cancers-thanks-to-screening-programme/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.england.nhs.uk/2026/04/nhs-overhauls-clinical-standards-to-reduce-maternal-deaths/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.england.nhs.uk/2026/05/1-minute-immunotherapy-jab-rolled-out-on-nhs-for-tens-of-thousands-with-cancer/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.england.nhs.uk/2026/05/1000-nhs-staff-call-marthas-rule-helplines-in-first-18-months/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.england.nhs.uk/2026/05/health-service-hits-18-week-target-amid-half-million-waiting-list-drop/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.england.nhs.uk/2026/05/life-changing-sma-therapies-available-nhs-long-term/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.england.nhs.uk/2026/05/nhs-and-morrisons-put-cancer-warning-signs-in-the-shower/": "2026-05-16T19:47:15.642106+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.24.727502v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.25.725982v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.25.727613v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.25.727720v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727520v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727858v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727861v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727863v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727870v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727947v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.727960v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.26.728016v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.27.727643v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.27.728238v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.27.728285v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.27.728303v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.725302v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.727987v1?rss=1": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728201v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728260v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728369v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728467v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728476v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728536v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728586v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.29.728707v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.29.728873v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.29.728884v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.30.728989v1?rss=1": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.30.728992v1?rss=1": "2026-06-02T11:16:52.725456+00:00",
     "https://www.england.nhs.uk/2026/05/supermarket-scans-spotting-thousands-of-cancers/": "2026-05-25T11:08:44.871677+00:00",
-    "https://www.nature.com/articles/s41431-026-02097-8": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.nature.com/articles/s41431-026-02104-y": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.nature.com/articles/s41437-026-00838-5": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.nature.com/articles/s41562-026-02475-8": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.nature.com/articles/s41588-026-02562-6": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.nature.com/articles/s41588-026-02636-5": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.nature.com/articles/s41591-026-04372-z": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.nature.com/articles/s43856-026-01615-5": "2026-05-19T10:37:43.421038+00:00",
     "https://www.phgfoundation.org/blog/rethinking-hba1c-genetics-diversity-and-diabetes-diagnosis/": "2026-05-22T10:24:42.174074+00:00",
-    "https://www.phgfoundation.org/blog/what-the-uk-biobank-data-exposure-should-mean-for-the-health-data-research-service": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.sciencedaily.com/releases/2026/04/260426012255.htm": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260510030948.htm": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260513213836.htm": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260514003314.htm": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260514084421.htm": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260515233329.htm": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260515234759.htm": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260515234803.htm": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260517030326.htm": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260517211447.htm": "2026-05-18T11:06:34.634654+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260519003215.htm": "2026-05-20T10:24:39.370157+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260519224303.htm": "2026-05-20T10:24:39.370157+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260520093726.htm": "2026-05-22T10:24:42.174074+00:00",
@@ -2625,59 +3979,29 @@
     "https://www.sciencedaily.com/releases/2026/05/260523103947.htm": "2026-05-25T11:08:44.871677+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022006.htm": "2026-05-27T10:55:45.299768+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022018.htm": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260526022024.htm": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260526233217.htm": "2026-05-28T10:54:47.536471+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526233433.htm": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/14/psa-tests-reduce-risk-prostate-cancer-deaths-new-study-cochrane-review/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/14/readout-loud-podcast-makary-fda-trump-cassidy-senate/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/14/supreme-court-preserves-access-abortion-pill-mifepristone/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/alcohol-as-public-health-emergency-status-report-alex-hogan/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/craig-venter-obituaries-human-genome-coding-race/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/ebola-outbreak-drc-hantavirus-who/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/ebola-outbreak-drc-hantavirus-who/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/2026/05/15/fda-leadership-vacuum-tracy-beth-hoeg-resigns-drug-center-post/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/fda-leadership-vacuum-tracy-beth-hoeg-resigns-drug-center-post/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/2026/05/15/health-news-mail-order-abortion-pills-are-legal-for-now/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/health-news-mail-order-abortion-pills-are-legal-for-now/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/2026/05/15/health-news-uk-political-contest-shaking-up-drug-pricing/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/health-news-uk-political-contest-shaking-up-drug-pricing/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/2026/05/15/mifepristone-telehealth-abortion-alternatives-supreme-court/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/mifepristone-telehealth-abortion-alternatives-supreme-court/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/2026/05/15/new-ebola-outbreak-congo-ituri-province/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/new-ebola-outbreak-congo-ituri-province/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/2026/05/15/pills-changing-colors-shape-generics-confusion/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/trump-administration-presses-germany-presciption-drug-prices/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/15/trump-doj-targets-yale-ucla-medical-school-admissions/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/16/blue-zones-eric-topol-shelley-wood-interview-transcript/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/16/blue-zones-eric-topol-shelley-wood-interview-transcript/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/2026/05/16/marty-makary-fda-commissioner-administrative-power/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/16/marty-makary-fda-commissioner-administrative-power/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/2026/05/16/trump-blasts-bill-cassidy-louisiana-republican-primary/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/2026/05/16/trump-blasts-bill-cassidy-louisiana-republican-primary/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/2026/05/17/bill-cassidy-loses-louisiana-primary-after-maga-maha-opposition/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/17/ebola-outbreak-congo-americans-exposure-suspected-cases/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/17/hantavirus-outbreak-cruise-ship-covid-flashbacks-conspiracy-theories/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/17/when-should-you-get-a-mammogram-conflicting-advice/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/17/who-ebola-drc-uganda-bundibugyo-pheic-public-health-emergency/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/2026/05/18/acip-charter-vaccine-policy-cdc-political-interference/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/18/atrium-health-wake-med-merger-gmrs-ipo-health-care-inc/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/biotech-industry-split-chinese-drugs-opportunity-versus-existential-threat/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/18/biotech-news-astrazeneca-picks-up-fda-approval-hypertension-drug/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/cdc-ebola-travel-ban-announced-uganda-congo-south-sudan/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/ebola-outbreak-update-experts-weigh-use-merck-vaccine-ervebo/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/health-news-texas-opens-detransition-clinic/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/patient-autonomy-childhood-vaccines-red-herring/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/2026/05/18/supreme-court-rejects-challenge-medicare-drug-price-negotiations/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/trump-aca-insurance-new-cms-rules-expand-catastrophic-coverage/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/18/trumprx-adds-generic-drugs-amazon-pharmacy-mark-cuban-goodrx/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260527023202.htm": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260527023214.htm": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260528074032.htm": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260528082459.htm": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260528082505.htm": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260528082507.htm": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260529030329.htm": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260529043640.htm": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260530004618.htm": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260530004626.htm": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260530053420.htm": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260530053424.htm": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.sciencedaily.com/releases/2026/05/260530053429.htm": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/05/19/23andme-healthex-to-connect-dna-data-with-health-records/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/ai-helped-find-treatment-newborn-ultra-rare-disease/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/biotech-news-new-ranking-of-pharma-companies-by-rd-performance/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/dexcom-cgm-sensors-new-uses-health-tech/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/drinking-while-pregnant-fetal-alcohol-exposure-explored-part-5-deadliest-drug-series/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/19/fda-can-thrive-despite-talent-loss-says-david-kessler-former-commissioner/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/former-stanford-president-marc-tessier-lavigne-responds-allegations-new-book/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/health-news-ebola-travel-ban-and-old-vaccine/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/insurance-approval-denial-cost-access-transplant-medication/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/2026/05/19/nicotine-free-generation-united-kingdom-massachusetts-laws/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
     "https://www.statnews.com/2026/05/19/no-surprises-act-dispute-resolution-fuels-extraordinary-payouts/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/pharma-rankings-innovation-invention/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/19/trumprx-generic-drugs-cassidy-loses-fda-turmoil-dc-diagnosis/": "2026-05-20T10:24:39.370157+00:00",
@@ -2738,20 +4062,70 @@
     "https://www.statnews.com/2026/05/26/pepfar-state-department-plan-dismantling-hiv-cdc/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/trump-annual-physicial-medical-exam-public-scrutiny/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/utah-doctronic-ai-experiment-early-data-health-tech/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/biotech-news-kailera-triple-g-drug-looks-very-powerful/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/27/biovat-heart-failure-stem-cell-muscle-patch-nejm-study/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/2026/05/27/flavored-vapes-e-cigarettes-fda-trump-durbin/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/health-ai-where-patients-hospitals-disagree-ai-prognosis/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/27/health-news-trump-says-latest-medical-exam-went-perfectly/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/2026/05/27/longevity-movement-shift-fringe-idea-to-big-business/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/27/science-enterprise-replication-crisis-ivory-tower-community/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
+    "https://www.statnews.com/2026/05/27/science-funding-derailed-breakthroughs/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/2026/05/27/stanford-patient-panels-feedback-on-ai-shaping-health-care/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/27/unvaccinated-blood-transfusions-directed-donation-interview/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/15/germany-drug-prices-biotech-clinical-trials-pharmalittle-newsletter/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/15/takeda-settle-allegations-kickbacks-to-doctors/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/15/up-and-down-the-ladder-the-latest-comings-and-goings-jobs/": "2026-05-16T19:47:15.642106+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/15/up-and-down-the-ladder-the-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-05-17T09:03:39.807393+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/17/uk-advocates-threaten-court-action-over-pharma-trade-deal-with-us/?utm_campaign=rss": "2026-05-18T11:06:34.634654+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/18/biotech-has-china-problem-regeneron-melanoma-drug-flops/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/18/maryland-state-affordability-board-places-price-cap-on-ozempic/?utm_campaign=rss": "2026-05-19T10:37:43.421038+00:00",
+    "https://www.statnews.com/2026/05/28/asco-preview-cancer-meeting/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/28/biotech-news-asco-preview-2026-all-eyes-on-pancreatic-cancer/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/biotech-veteran-jeremy-levin-on-why-the-industrys-future-is-secure-but-american-leadership-is-at-risk/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/ebola-world-cup-travel-public-health-measles/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/fda-wellness-guidance-unvetted-blood-pressure-tech-floods-market/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/health-news-latest-news-on-ebola-hepatitis-b-long-covid/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/hepatitis-b-treatment-gsk-clinical-trials/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/28/jeremy-levin-biotech-asco-preview-readout-loud-podcast/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/oura-arrives-blood-pressure-party-health-tech/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/trump-ebola-travel-restrictions-discourages-medical-volunteers/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/28/trump-most-favored-nation-drug-pricing-secrets-revealed-soon/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/05/28/trump-pharma-mfn-deals-medicaid-work-requirement-rules-dc-diagnosis/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/29/asco-news-day-1-multiple-myeloma-bristol-lung-cancer-pfizer/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/05/29/biotech-news-allogene-ceo-david-chang-steps-down/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/05/29/glp-1-microdose-popular-but-unsupported-by-evidence/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/29/health-news-which-vaccines-will-curb-ebola-outbreak/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/05/29/kenya-court-suspends-plan-ebola-quarantine-facility-americans/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/05/29/nih-grants-uniform-guidance-proposal-political-control/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/05/29/united-healthcare-sued-massachusetts-ag-alleges-100-million-upcode-fraud-medicaid/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/05/29/xprize-healthspan-longevity-science-jamie-justice-q-and-a/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/05/30/asco-news-day-2-biontech-pfizer-kelun-merck-pazdur/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.statnews.com/2026/05/30/pancreatic-cancer-daraxonrasib-revolution-medicines-early-access-asco-2026/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.statnews.com/2026/05/30/rick-pazdur-fda-destruction-rebuilding-asco-2026/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.statnews.com/2026/05/30/trump-ebola-response-biden-pandemic-preparations-thrown-away/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.statnews.com/2026/05/31/asco-news-day-3-revmed-akeso-summit-lilly-kelonia/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/05/31/low-dose-nivolumab-extends-survival-trial-head-neck-squamous-cell-carcinoma-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/05/31/pancreatic-cancer-daraxonrasib-revolution-medicines-results-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/05/31/prostate-cancer-hormone-therapy-cut-relapse-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/05/31/squamous-cell-lung-cancer-akeso-summit-harmoni-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/abivax-ulcerative-colitis-obefazimod/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/asco-news-day-4-merkel-cell-carcinoma-glp1s-grail/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/biotech-news-turning-point-for-pancreatic-cancer-revmed/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/bpc-157-researcher-predrag-sikiric-addesses-skeptics-questions/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/bpc-157-researcher-predrag-sikiric-addesses-skeptics-questions/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/cancer-oncologists-grief-asco-2026/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/ebola-bundibugyo-vaccine-studies-cepi-62-million-funding/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/fda-misses-deadline-electric-shock-ban-disability-advocates-speak-out/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/health-news-cdc-says-containing-ebola-spread-is-top-priority/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/medicare-50-dollar-weight-loss-drugs-glp-1-bridge-program-cost-estimate/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/medicare-50-dollar-weight-loss-drugs-glp-1-bridge-program-cost-estimate/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/medicare-bridge-obesity-drug-coverage-no-surprises-act-idr-rules-health-care-inc/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/no-surprises-act-new-arbitration-rules-providers-gaming-system/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/no-surprises-act-new-arbitration-rules-providers-gaming-system/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/residency-diversity-med-school-disciplinary-action-dei-equity-black-latino/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/residency-diversity-med-school-disciplinary-action-dei-equity-black-latino/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/servier-edgewise-therapeutics-muscular-dystrophy-drug-sevasemten/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/servier-edgewise-therapeutics-muscular-dystrophy-drug-sevasemten/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/summa-health-tech-initiatives-after-general-catalyst-acquisition/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/01/summa-health-tech-initiatives-after-general-catalyst-acquisition/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/trump-medicaid-work-requirement-rules-verification-eligibility/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/unvaccinated-blood-donor-directed-donation-transcript/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/01/us-military-medical-corps-recruitment-incentives/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/02/doctors-office-waiting-room-telehealth-virtual-care/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/02/telehealth-virtual-rx-boom-corporate-practice-of-medicine-laws/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/pharmalot/2026/05/19/canadian-medical-societies-lack-sufficient-conflict-of-interest-policies/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/pharmalot/2026/05/19/supreme-court-setback-for-pharma-trumprx-expands/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/pharmalot/2026/05/19/virginia-governor-vetoes-bill-to-create-panel-to-lower-drug-costs/": "2026-05-20T10:24:39.370157+00:00",
@@ -2760,10 +4134,12 @@
     "https://www.statnews.com/pharmalot/2026/05/22/genentech-soliciting-academics-write-papers-to-blunt-pharma-reforms-dc/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/pharmalot/2026/05/22/parkinson-drug-trial-setback-merck-lung-cancer-therapy/?utm_campaign=rss": "2026-05-23T09:01:17.605948+00:00",
     "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "multiple PLOS Genetics primary research articles — specialist model-organism or plant-biology studies": "2026-05-16T19:47:15.642106+00:00",
-    "multiple ScienceDaily items — off-topic for genetics (gum disease quorum sensing, coral reef microbes, COVID natural compounds, biomaterial tissue repair, travel and ageing, Alzheimer's arginine supplement, cholesterol DNA molecules, cannabis flavoalkaloids, fish oil brain injury, gut bacteria depression, choline anxiety, lipid nanoparticle mRNA delivery, life-of-life origin freezing, axolotl limb regeneration, blood stem cell rejuvenation, senescent cell GPX4 drugs, obesity HSL protein, kidney lubiprostone, constipation drug)": "2026-05-16T19:47:15.642106+00:00",
-    "multiple Springer Nature articles — tRNA fragments breast cancer, cfDNA fragmentomics eating disorders, SCOTCH long-read scRNA-seq, ABCD1 Drosophila, SACS spastic ataxia Pakistan, HLA-C KIR birth weight": "2026-05-16T19:47:15.642106+00:00",
-    "multiple bioRxiv preprints — plant/crop breeding, agricultural genomics, model organism tools": "2026-05-16T19:47:15.642106+00:00"
+    "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/29/pharmalittle-were-reading-about-replimune-drug-getting-third-try-at-fda-approval-a-pfizer-deal-in-china-and-more/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/pharmalot/2026/05/29/up-and-down-the-ladder-comings-and-goings-merck-pfizer-amgen/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/01/asco-pancreatic-lung-cancer-drugs-china-growth-as-drug-developer/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/01/lilly-warns-hospitals-submit-claims-data-or-lose-340b-drug-discounts/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00"
   },
   "takedowns": []
 }
