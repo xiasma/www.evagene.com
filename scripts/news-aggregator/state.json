@@ -3886,16 +3886,188 @@
         "cancer-epigenomics",
         "yeast-model"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "CAR T-cell therapy is a type of cancer treatment in which a patient's own immune cells are taken out, genetically modified in a laboratory to help them find and attack cancer cells, and then returned to the body. One problem with this approach is that the modified cells can become 'exhausted' — meaning they lose the ability to keep fighting cancer over time.\n\nResearchers have found that a protein called NFIL3 appears to play a major role in causing this exhaustion. When they switched off NFIL3 in laboratory experiments using mice, the modified cells stayed active for longer and did a better job of controlling tumours. This research is still at the animal-study stage, which means it is not yet known whether the same will apply in people.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "NFIL3 protein identified as key driver of CAR T-cell exhaustion in animal models",
+      "is_preprint": false,
+      "run_date": "2026-06-03",
+      "run_iso": "2026-06-03T11:54:22Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-06-02T14:54:02Z",
+        "novelty": 7
+      },
+      "slug": "nfil3-car-t-cell-exhaustion-tumour-control",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-02T14:54:02Z",
+          "publisher": "ScienceDaily",
+          "title": "A single protein may be holding back CAR T cancer therapy",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260602021641.htm"
+        }
+      ],
+      "standfirst": "Disabling the transcription factor NFIL3 in engineered CAR T cells prolonged their anti-tumour activity in mouse models, according to new research reported by ScienceDaily.",
+      "summary": "Researchers have identified NFIL3, a transcription factor, as a significant contributor to the functional exhaustion of CAR T cells — the engineered immune cells used in certain blood-cancer therapies. The study, reported via ScienceDaily on 2 June 2026, found that NFIL3 activity causes CAR T cells to lose their cancer-fighting capacity over time, a problem that has limited the durability of responses in patients treated with these therapies.\n\nWhen the researchers disabled NFIL3 in CAR T cells, the cells maintained stronger effector function for longer and demonstrated improved tumour control in animal models. The work adds a named molecular target to an area of active investigation: how to prevent the exhaustion phenotype that reduces CAR T-cell efficacy after initial response.\n\nThe primary research paper and the institution responsible for the work were not specified in the available reporting. The findings are from animal models, and the relationship between these preclinical observations and outcomes in human disease remains to be established through further research. No peer-reviewed publication details were available in the feed item at time of writing.",
+      "tags": [
+        "car-t-cell-therapy",
+        "t-cell-exhaustion",
+        "nfil3",
+        "cancer-immunotherapy",
+        "transcription-factor",
+        "oncology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Alkaptonuria (sometimes called AKU) is a rare inherited condition caused by a fault in a gene called HGD. The fault means the body cannot properly break down a substance called homogentisic acid, which builds up and over time can damage joints and other parts of the body.\n\nThere is a medicine called nitisinone that can lower levels of this substance, but it does not fix the underlying genetic problem and can cause other side effects.\n\nResearchers have been testing a different approach in mice: using a harmless virus to deliver a working copy of the HGD gene directly to the liver. In mice with the same gene fault as people with AKU, this approach corrected the metabolic problem. This research is at an early, laboratory stage in mice and has not yet been tested in people.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Liver-directed AAV gene therapy corrects alkaptonuria metabolically in mouse model",
+      "is_preprint": true,
+      "run_date": "2026-06-03",
+      "run_iso": "2026-06-03T11:54:22Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-06-02T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "aav-gene-therapy-alkaptonuria-mouse-model",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-02T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Liver-directed AAV gene therapy metabolically corrects AKU in Hgd deficient mice",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.01.729174v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory reports that AAV-mediated delivery of the HGD gene to the liver normalised homogentisic acid accumulation in Hgd-deficient mice, pointing to a potential curative approach for this rare metabolic disorder.",
+      "summary": "Alkaptonuria (AKU) is a rare autosomal recessive disorder caused by loss-of-function variants in the HGD gene, which encodes homogentisate 1,2-dioxygenase (HGD). Deficiency of this enzyme leads to accumulation of homogentisic acid (HGA), causing progressive damage to connective tissue, joints, and other organs — a process known as ochronosis. The current standard pharmacological intervention, nitisinone (NTBC), reduces HGA levels but does not correct the underlying genetic defect and is associated with hypertyrosinaemia as an adverse metabolic consequence.\n\nA preprint posted to bioRxiv reports that Hgd-deficient mice treated with liver-directed adeno-associated virus (AAV)-mediated delivery of the HGD gene achieved metabolic correction, with normalisation of HGA accumulation. The approach is described as potentially curative in contrast to nitisinone, which is purely suppressive.\n\nThe work is a preprint and has not yet undergone peer review. Findings in Hgd-deficient mice may not translate directly to the human disease, and further preclinical and clinical evaluation would be required before any conclusions about therapeutic application could be drawn. AKU is an ultra-rare condition and this remains early-stage experimental work.",
+      "tags": [
+        "alkaptonuria",
+        "hgd",
+        "aav-gene-therapy",
+        "rare-disease",
+        "metabolic-disorder",
+        "liver-directed-therapy",
+        "autosomal-recessive"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "POCKET-seq method maps genome-wide off-target binding of dCas9 during CRISPR interference screens",
+      "is_preprint": true,
+      "run_date": "2026-06-03",
+      "run_iso": "2026-06-03T11:54:22Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-06-02T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "pocket-seq-dCas9-off-target-crisprinterference",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-02T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "POCKET-seq enables genome-wide profiling of on- and off-target transcriptional regulation events by dCas9-KRAB during CRISPR interference experiments",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.01.729390v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint introduces POCKET-seq, a sequencing approach that reveals frequent off-target dCas9-KRAB binding and shows it can generate false-positive results in CRISPR interference genetic screens.",
+      "summary": "CRISPR interference (CRISPRi) uses a catalytically inactive form of Cas9 (dCas9) fused to a transcriptional repressor domain — typically KRAB — to silence target genes without cutting DNA. The approach is widely used in functional genomic screens to study gene function at scale. A preprint posted to bioRxiv describes the development of POCKET-seq, a method that profiles dCas9-KRAB binding across the entire genome during CRISPRi experiments.\n\nThe researchers report that off-target binding of dCas9 occurs frequently. Critically, when this off-target binding occurs near the promoter of a gene relevant to the screen phenotype, it can produce false-positive associations — meaning a guide RNA appears to implicate a target gene when the observed effect is actually driven by inadvertent silencing elsewhere in the genome. The authors observed this problem during validation of a genetic screen, where non-overlapping guide RNAs targeting the same gene produced different phenotypic outcomes, prompting the development of the method.\n\nThe work has implications for the interpretation and design of CRISPRi screens broadly. As a preprint, the findings have not yet been peer-reviewed. Researchers using CRISPRi approaches for functional genomics may find the tool and the described quality-control considerations relevant to their experimental workflows.",
+      "tags": [
+        "crispr-interference",
+        "dcas9",
+        "off-target-binding",
+        "functional-genomics",
+        "genetic-screen",
+        "pocket-seq",
+        "krab"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Fine-scale landscape genomics reveals asymmetric gene flow in invasive tiger mosquito populations",
+      "is_preprint": true,
+      "run_date": "2026-06-03",
+      "run_iso": "2026-06-03T11:54:22Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-02T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "aedes-albopictus-landscape-genomics-gene-flow",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-02T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Fine-scale landscape genomics show asymmetric patterns of gene flow for the invasive mosquito Aedes albopictus",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728763v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint applies landscape genomics to Aedes albopictus, the tiger mosquito, finding that urban structure creates directional asymmetries in gene flow with implications for understanding the spread of dengue, Zika, and chikungunya vectors.",
+      "summary": "Aedes albopictus, the Asian tiger mosquito, is an invasive species now established across much of North America, Europe, and beyond, and acts as a vector for dengue, Zika, and chikungunya viruses. While the global dispersal history of the species is well characterised, how fine-scale urban landscape features influence local gene flow and population connectivity has remained unclear.\n\nA preprint posted to bioRxiv reports findings from a landscape genomics study that used genome-wide data to examine dispersal patterns of Ae. albopictus populations at fine spatial scales. The researchers found that gene flow between populations is asymmetric — that is, movement and genetic exchange is directional rather than uniform — and that heterogeneous urban land-use features appear to shape these patterns. Populations in artificial container-rich urban and suburban environments can reach high densities, and understanding local dispersal dynamics has potential relevance for vector control programme design.\n\nThe preprint has not yet been peer-reviewed. The study contributes to a body of work on how genomic methods can inform understanding of invasive species spread, and may be of interest to researchers working at the intersection of population genetics, vector biology, and public health entomology.",
+      "tags": [
+        "aedes-albopictus",
+        "landscape-genomics",
+        "gene-flow",
+        "invasive-species",
+        "vector-biology",
+        "population-genetics",
+        "mosquito"
+      ]
     }
   ],
-  "last_run": "2026-06-02T11:16:52.725456+00:00",
+  "last_run": "2026-06-03T11:55:44.292835+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012144": "2026-05-27T10:55:45.299768+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012152": "2026-05-20T10:24:39.370157+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012154": "2026-05-21T10:40:08.951688+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012155": "2026-05-20T10:24:39.370157+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012156": "2026-05-21T10:40:08.951688+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012157": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012158": "2026-05-21T10:40:08.951688+00:00",
@@ -3905,18 +4077,14 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012169": "2026-05-29T10:45:46.729042+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012171": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172": "2026-05-29T10:45:46.729042+00:00",
-    "https://news.cancerresearchuk.org/2026/05/20/how-philanthropy-is-helping-promising-cancer-treatments-reach-clinical-trials-sooner/": "2026-05-20T10:24:39.370157+00:00",
     "https://news.cancerresearchuk.org/2026/05/22/skin-cancer-cases-hit-record-high-in-the-uk/": "2026-05-22T10:24:42.174074+00:00",
     "https://news.cancerresearchuk.org/2026/05/25/beyond-the-research-turning-evidence-into-impact/": "2026-05-25T11:08:44.871677+00:00",
     "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
     "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
     "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.14.725224v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725556v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.16.725661v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725703v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725730v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.17.725798v1?rss=1": "2026-05-20T10:24:39.370157+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.18.725841v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.18.725852v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.19.725957v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
@@ -3961,14 +4129,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728536v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728586v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728707v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.29.728763v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728873v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728884v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.29.728916v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.30.728989v1?rss=1": "2026-06-02T11:16:52.725456+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.30.728992v1?rss=1": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.01.729174v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.01.729390v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.england.nhs.uk/2026/05/supermarket-scans-spotting-thousands-of-cancers/": "2026-05-25T11:08:44.871677+00:00",
     "https://www.phgfoundation.org/blog/rethinking-hba1c-genetics-diversity-and-diabetes-diagnosis/": "2026-05-22T10:24:42.174074+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260519003215.htm": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260519224303.htm": "2026-05-20T10:24:39.370157+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260520093726.htm": "2026-05-22T10:24:42.174074+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260520233221.htm": "2026-05-21T10:40:08.951688+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260520233223.htm": "2026-05-21T10:40:08.951688+00:00",
@@ -3995,30 +4165,17 @@
     "https://www.sciencedaily.com/releases/2026/05/260530053420.htm": "2026-06-02T11:16:52.725456+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530053424.htm": "2026-06-01T12:35:14.571711+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530053429.htm": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/2026/05/19/23andme-healthex-to-connect-dna-data-with-health-records/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/ai-helped-find-treatment-newborn-ultra-rare-disease/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/biotech-news-new-ranking-of-pharma-companies-by-rd-performance/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/dexcom-cgm-sensors-new-uses-health-tech/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/fda-can-thrive-despite-talent-loss-says-david-kessler-former-commissioner/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/former-stanford-president-marc-tessier-lavigne-responds-allegations-new-book/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/health-news-ebola-travel-ban-and-old-vaccine/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/no-surprises-act-dispute-resolution-fuels-extraordinary-payouts/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/pharma-rankings-innovation-invention/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/trumprx-generic-drugs-cassidy-loses-fda-turmoil-dc-diagnosis/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/2026/05/19/us-aid-cuts-hamper-drc-ebola-response/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260601025349.htm": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260602021641.htm": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/2026/05/20/biotech-news-drugmakers-guard-ip-more-tightly-amid-china-competiti/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/democrats-force-vote-to-end-medicare-ai-prior-authorization-pilot/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/ebola-patients-suffering-health-care-workers/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/florida-hospitals-get-8-billion-extra-medicaid-funds-before-trump-limits/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/health-news-leadership-vacuum-at-nih-and-broader-hhs/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
-    "https://www.statnews.com/2026/05/20/is-it-perimenopause-symptoms-misinformation/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/20/kennedy-fires-vice-chairs-us-preventive-services-task-force/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/kennedy-names-stephanie-haridopolos-interim-surgeon-general/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
-    "https://www.statnews.com/2026/05/20/medicare-long-term-care-coverage-new-proposal-senate-democrats/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/20/medicare-long-term-care-coverage-new-proposal-senate-democrats/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
-    "https://www.statnews.com/2026/05/20/nih-leadership-questions-15-of-27-institutes-acting-directors/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/20/nih-leadership-questions-15-of-27-institutes-acting-directors/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
-    "https://www.statnews.com/2026/05/20/openevidence-pitches-hospitals-we-are-not-monsters/": "2026-05-20T10:24:39.370157+00:00",
     "https://www.statnews.com/2026/05/20/openevidence-pitches-hospitals-we-are-not-monsters/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/rare-disease-biotech-ceos-discuss-fda-uncertainty-stat-summit/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/surgeon-general-public-health-warning-screen-time-children/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
@@ -4124,11 +4281,18 @@
     "https://www.statnews.com/2026/06/01/trump-medicaid-work-requirement-rules-verification-eligibility/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/unvaccinated-blood-donor-directed-donation-transcript/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/us-military-medical-corps-recruitment-incentives/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.statnews.com/2026/06/02/biotech-news-radiopharmaceutical-shows-promise-in-post-pluvicto/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/2026/06/02/doctors-office-waiting-room-telehealth-virtual-care/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/2026/06/02/health-news-testing-one-state-medical-meal-progra/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/02/longevity-startup-newlimit-announces-435-million-clinical-trial-financing/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/02/nih-scientist-federal-charges-mpox/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/2026/06/02/telehealth-virtual-rx-boom-corporate-practice-of-medicine-laws/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/19/canadian-medical-societies-lack-sufficient-conflict-of-interest-policies/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/19/supreme-court-setback-for-pharma-trumprx-expands/": "2026-05-20T10:24:39.370157+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/19/virginia-governor-vetoes-bill-to-create-panel-to-lower-drug-costs/": "2026-05-20T10:24:39.370157+00:00",
+    "https://www.statnews.com/2026/06/03/ai-arms-race-medical-building-waste/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/03/amish-public-health-vaccines-autism-first-opinion-podcast/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/03/eating-disorders-men-military-troops-veterans/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/03/medicaid-work-requirements-experts-say-millions-will-lose-coverage/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/03/nih-cuts-infectious-disease-research-funding-hampers-ebola-preparedness/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/03/ultra-processed-food-experts-want-sweeping-policy-changes/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/pharmalot/2026/05/20/biotech-investors-mood-former-fda-commissioner-kessler-confidence/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/pharmalot/2026/05/21/lilly-obesity-drug-trial-alzheimer-drug-claims-questioned/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/pharmalot/2026/05/22/genentech-soliciting-academics-write-papers-to-blunt-pharma-reforms-dc/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
@@ -4139,7 +4303,8 @@
     "https://www.statnews.com/pharmalot/2026/05/29/pharmalittle-were-reading-about-replimune-drug-getting-third-try-at-fda-approval-a-pfizer-deal-in-china-and-more/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/pharmalot/2026/05/29/up-and-down-the-ladder-comings-and-goings-merck-pfizer-amgen/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/pharmalot/2026/06/01/asco-pancreatic-lung-cancer-drugs-china-growth-as-drug-developer/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/01/lilly-warns-hospitals-submit-claims-data-or-lose-340b-drug-discounts/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/01/lilly-warns-hospitals-submit-claims-data-or-lose-340b-drug-discounts/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/02/lilly-threat-to-340b-hospitals-ebola-vaccine-funding/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00"
   },
   "takedowns": []
 }
