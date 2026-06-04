@@ -39,7 +39,7 @@ AUDIENCE_HEADINGS = {
 }
 
 AUDIENCE_INTROS = {
-    "researchers": "Primary research, methods advances, and major preprints — surfaced from peer-reviewed and open-access sources. Updated daily.",
+    "researchers": "Primary research, methods advances, and major preprints — surfaced from peer-reviewed and open-access sources.",
     "gps": "Developments relevant to general practice and primary care — service changes, family-history guidance, and what's shifting in how genetics meets the front line.",
     "oncologists": "Hereditary cancer, somatic genomics, and treatment-relevant findings. New BRCA / Lynch / TP53 evidence, novel targeted therapies, and clinical-trial readouts.",
     "genetic-counsellors": "Implementation, communication, ethics, and family-history practice. For counsellors and genetic nurses keeping up with the wider conversation.",
