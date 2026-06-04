@@ -17,6 +17,7 @@ Evagene is a browser-based platform for drawing, managing, and modelling family 
 ## What Evagene Does
 
 - Draw family pedigrees using standard clinical genetic notation (ISCN/HGNC) on an HTML5 canvas with gesture drawing or keyboard shortcuts
+- Capture a family and personal health history through a guided, step-by-step questionnaire (family history intake) that turns the answers into a pedigree — creating relatives, relationships, the proband, and recorded conditions automatically; educational data capture, not a medical assessment, and it produces no risk output
 - Annotate individuals with diseases, genetic tests, clinical tests, treatments, allergies, traits, and ancestry
 - Run integrated Bayesian cancer risk models: BRCAPRO (breast/ovarian), MMRpro (Lynch syndrome), PancPRO (pancreatic)
 - Run Mendelian inheritance risk models: autosomal dominant, autosomal recessive, X-linked recessive
@@ -80,6 +81,7 @@ A click-by-click getting-started guide organised around the editor's dock, with 
 - Canvas basics &mdash; add, select, connect individuals; undo / redo / find: https://evagene.com/user-guide/canvas-basics
 - View & layout &mdash; grid, zoom, font, dark mode, auto-arrange: https://evagene.com/user-guide/view-and-layout
 - Pedigree builder &mdash; drag-and-drop family construction: https://evagene.com/user-guide/pedigree-builder
+- Family history questionnaire &mdash; guided step-by-step intake that turns answers into a pedigree (educational data capture, not a medical assessment): https://evagene.com/user-guide/family-history
 - Individual properties &mdash; identity, clinical status, dates, consent: https://evagene.com/user-guide/individual-properties
 - Pedigree & relationship properties &mdash; pedigree settings, consanguinity, events: https://evagene.com/user-guide/pedigree-properties
 - Family register &mdash; sortable grid view: https://evagene.com/user-guide/family-register

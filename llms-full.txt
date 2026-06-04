@@ -23,6 +23,10 @@ Users create pedigrees by drawing directly on an HTML5 canvas. Freehand-draw a c
 
 Keyboard shortcuts accelerate common actions: m/f/u to add individuals, p for partner, d for disease palette, n for notes, Delete to remove, Ctrl+A to select all, and F2 to edit the selected individual's name.
 
+### Family History Intake (Guided Questionnaire)
+
+A guided, step-by-step questionnaire captures a family and personal health history and turns it into a pedigree, for users who would rather answer questions than draw. It is opened from the dock ("Family history intake") or from the Guided intake section of the Pedigree Builder panel. The wizard asks about the subject and their relatives — mother, father, siblings, partner, children, grandparents, maternal and paternal aunts/uncles, half-siblings, first cousins, and grandchildren — using Yes/No branch questions so only relevant sections appear. For each person it records name or initials, sex, living status, age (current or at death), conditions (from the disease catalogue), genetic test results, and other test results. On finishing, Evagene creates the individuals, builds the relationships, sets the subject as the proband, records the findings, and synthesises any connecting relatives needed to join the tree; it can either start a new pedigree or add relatives to the one already open. It is data capture only — for educational and research use, not a medical assessment: it runs no risk model and produces no risk number, and conditions are stored as catalogue references for documentation, not as diagnoses.
+
 ### Standard Pedigree Notation
 
 Symbols are rendered using internationally recognised pedigree conventions:
