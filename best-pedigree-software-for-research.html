@@ -51,7 +51,7 @@
         "description":"A 2026 guide to research pedigree software — PED format, GA4GH Phenopackets, programmatic access, kinship coefficients, publication-quality export.",
         "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
         "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
-        "datePublished":"2026-04-17","dateModified":"2026-04-17",
+        "datePublished":"2026-04-17","dateModified":"2026-06-04",
         "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/best-pedigree-software-for-research"},
         "image":"https://evagene.com/og-image.png"
     }
@@ -76,7 +76,7 @@
             {"@type":"Question","name":"Which tool supports GA4GH Phenopackets v2?","acceptedAnswer":{"@type":"Answer","text":"Stanford's PedigreeTool explicitly supports HPO, MONDO, and GA4GH Phenopackets v2. Evagene supports GEDCOM 5.5.1 and JSON as primary exchange formats and can be extended to emit Phenopackets via its REST API."}},
             {"@type":"Question","name":"Which pedigree tool has programmatic access?","acceptedAnswer":{"@type":"Answer","text":"Evagene offers a REST API with scoped keys, webhooks with HMAC-SHA256 signatures, and an MCP server exposing 15 tools to Claude Desktop and Claude Code. DrawPed is Perl-based and open-source with CLI-style programmatic access. QuickPed is an R Shiny app with R-accessible internals through the pedsuite package."}},
             {"@type":"Question","name":"Which free tool computes kinship coefficients?","acceptedAnswer":{"@type":"Answer","text":"QuickPed is the reference free tool for kinship, inbreeding, and identity coefficients. Published in BMC Bioinformatics 2022 and GPL3 licensed, built by Magnus Vigeland at Oslo and integrated into the pedsuite R package family."}},
-            {"@type":"Question","name":"Is any clinical pedigree tool usable for research?","acceptedAnswer":{"@type":"Answer","text":"Yes. Progeny Clinical is used at 800+ institutions, many with research programmes. Evagene has a REST API, webhooks, MCP, and AI interpretation with BYOK LLMs — a strong fit for research labs that need programmatic access. Phenotips is used in research consortia for rare disease diagnostics."}},
+            {"@type":"Question","name":"Is any clinical pedigree tool usable for research?","acceptedAnswer":{"@type":"Answer","text":"Yes. Progeny Clinical is used at 800+ institutions, many with research programmes. Evagene has a REST API, webhooks, MCP, and AI-assisted draft summaries for educational / research review with BYOK LLMs — a strong fit for research labs that need programmatic access. Phenotips is used in research consortia for rare disease diagnostics."}},
             {"@type":"Question","name":"Which tool is best for publication-quality pedigree figures?","acceptedAnswer":{"@type":"Answer","text":"Evagene exports SVG that is directly publication-ready. QuickPed and PERSEUS produce high-quality figures designed for manuscripts. CeGaT Pedigree Chart Designer produces PNG with embedded metadata for archival use."}},
             {"@type":"Question","name":"Can research tools handle large cohorts?","acceptedAnswer":{"@type":"Answer","text":"Evagene's REST API and batch risk screening support cohort-level workflows. DrawPed's PED-format pipelines are designed for scale. QuickPed handles arbitrarily large pedigrees for coefficient computation. For cohort recruitment and tracking, general research data platforms sit alongside the pedigree tool rather than replacing it."}}
         ]
@@ -176,7 +176,7 @@
 
             <h3 class="text-2xl mt-10 mb-3">4. Evagene — best REST API, MCP, and risk-model integration</h3>
 
-            <p>Evagene (our product) offers a scoped, rate-limited REST API, HMAC-SHA256-signed webhooks for eight event types, an MCP server exposing 15 tools to Claude Desktop and Claude Code, and an embeddable viewer (iframe, SVG, JS). For research pipelines that need to generate pedigrees programmatically, attach AI-driven interpretation, or have agent-based AI tools read and mutate pedigree data, this is the most complete integration surface in any pedigree platform today. BRCAPRO, MMRpro, PancPRO, and Mendelian inheritance models run directly from the pedigree. GEDCOM 5.5.1 import and export. SVG export for publication figures. BYOK LLM support (Anthropic Claude, OpenAI GPT).</p>
+            <p>Evagene (our product) offers a scoped, rate-limited REST API, HMAC-SHA256-signed webhooks for eight event types, an MCP server exposing 15 tools to Claude Desktop and Claude Code, and an embeddable viewer (iframe, SVG, JS). For research pipelines that need to generate pedigrees programmatically, attach AI-assisted draft summaries for educational / research review, or have agent-based AI tools read and mutate pedigree data, this is the most complete integration surface in any pedigree platform today. Twenty published risk-model algorithms (illustrative, for teaching and research) including BRCAPRO, MMRpro, PancPRO, and Mendelian inheritance run directly from the pedigree. GEDCOM 5.5.1 import and export. SVG export for publication figures. BYOK LLM support (Anthropic Claude, OpenAI GPT). The "Evagene Pedigree Builder" ChatGPT Custom GPT turns natural language into a pedigree, and a Related Concepts educational correlation graph (1,100+ curated associations) provides reference data for exploratory work — not risk analysis or diagnosis.</p>
 
             <p>Where we struggle for pure research: Evagene is not open-source. For researchers who require GPL-licensed tooling for reproducibility and long-term preservation, that is a material constraint — use DrawPed or QuickPed instead. Evagene is also Alpha, so institutional archival requirements may not be met yet. <em>Price:</em> free Alpha via <a href="https://evagene.com/#waitlist">waiting list</a>. <em>Best for:</em> translational research labs, AI-agent research pipelines, studies needing BayesMendel with programmatic access.</p>
 
@@ -236,6 +236,16 @@
                 <li><strong>You run cohort studies with questionnaire intake:</strong> f-tree.</li>
                 <li><strong>Your research sits inside a Progeny-using institution:</strong> Progeny Clinical.</li>
                 <li><strong>You want an AI agent (Claude Desktop, Claude Code) to read and edit pedigrees:</strong> Evagene's MCP server is the only public offering.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Other open-source research tools worth knowing</h2>
+
+            <p>Beyond the seven ranked above, three open-source tools are widely used in research pedigree work and deserve a mention. None is a like-for-like substitute for a full pedigree application, but each is excellent within its scope.</p>
+
+            <ul>
+                <li><strong><a href="https://github.com/CCGE-BOADICEA/pedigreejs" rel="noopener">pedigreejs</a></strong> &mdash; an open-source JavaScript pedigree editor from the University of Cambridge Centre for Cancer Genetic Epidemiology (CCGE), the BOADICEA / CanRisk team. It renders interactive pedigrees in the browser and produces CanRisk-format export, which is why it underpins data entry in CanRisk itself. A good building block for labs writing their own web tooling. See <a href="pedigreejs-vs-evagene.html">pedigreejs vs Evagene</a>.</li>
+                <li><strong>Madeline 2.0 PDE</strong> &mdash; the Pedigree Drawing Engine from the University of Michigan. A command-line tool that renders large and complex pedigrees to scalable SVG, designed for clarity at scale in research datasets. Long-established and citable.</li>
+                <li><strong>kinship2</strong> &mdash; an R package from Mayo Clinic for constructing pedigree objects and computing kinship and relatedness matrices. Actively maintained and available on CRAN (2025), it is a common dependency in statistical-genetics pipelines that work with pedigree structure in R.</li>
             </ul>
 
             <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>

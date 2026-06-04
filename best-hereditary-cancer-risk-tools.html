@@ -51,7 +51,7 @@
         "description":"A 2026 guide to hereditary cancer risk tools — CanRisk, BayesMendel, Tyrer-Cuzick, Gail, Ask2Me, patient-facing calculators, and clinical platforms.",
         "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
         "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
-        "datePublished":"2026-04-17","dateModified":"2026-04-17",
+        "datePublished":"2026-04-17","dateModified":"2026-06-04",
         "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/best-hereditary-cancer-risk-tools"},
         "image":"https://evagene.com/og-image.png"
     }
@@ -138,7 +138,7 @@
 
         <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
 
-            <p><strong>Short version.</strong> For BOADICEA-based breast and ovarian risk, <em>CanRisk</em> from Cambridge is the reference — we are not going to pretend otherwise. For BRCAPRO, MMRpro, and PancPRO, <em>BayesMendel</em> from Harvard is the reference suite. For Tyrer-Cuzick (IBIS), the Tyrer-Cuzick calculator. For Gail, the NCI tool. For <em>running most of these at once on one pedigree</em>, <em>FamGenix</em> leads commercially. For <em>BayesMendel integration inside a clinical pedigree platform with AI interpretation</em>, <em>Evagene</em>. For <em>patient-facing tools</em>, <em>Ovarian Cancer Action</em>, <em>Ohio State Family Health Risk Calculator</em>, and <em>Ask2Me</em> each fit different niches.</p>
+            <p><strong>Short version.</strong> For BOADICEA-based breast and ovarian risk, <em>CanRisk</em> from Cambridge is the reference — we are not going to pretend otherwise. For BRCAPRO, MMRpro, and PancPRO, <em>BayesMendel</em> from Harvard is the reference suite. For Tyrer-Cuzick (IBIS), the Tyrer-Cuzick calculator. For Gail, the NCI tool. For <em>running most of these at once on one pedigree</em>, <em>FamGenix</em> leads commercially. For <em>BayesMendel integration inside a research and education pedigree platform with AI-assisted draft summaries</em>, <em>Evagene</em>. For <em>patient-facing tools</em>, <em>Ovarian Cancer Action</em>, <em>Ohio State Family Health Risk Calculator</em>, and <em>Ask2Me</em> each fit different niches.</p>
 
             <p>Hereditary cancer risk is a category where the right answer depends on which model your clinical question calls for, whether the tool needs to live alongside a clinical record, and whether the user is a clinician or a patient. We have tried not to flatten that into a single ranking.</p>
 
@@ -186,11 +186,11 @@
 
             <p>Where it struggles: Provider Portal pricing is on application; narrower outside cancer. <em>Price:</em> free Individual; Provider Portal on application. <em>Best for:</em> clinical services wanting every major cancer model available without per-model platform switching. See <a href="famgenix-vs-evagene.html">FamGenix vs Evagene</a>.</p>
 
-            <h3 class="text-2xl mt-10 mb-3">6. Evagene — BayesMendel + AI interpretation + batch screening</h3>
+            <h3 class="text-2xl mt-10 mb-3">6. Evagene — BayesMendel + AI-assisted draft summaries + batch screening</h3>
 
-            <p>Evagene (our product) integrates BRCAPRO, MMRpro, and PancPRO from BayesMendel, plus Mendelian inheritance models for non-cancer monogenic conditions. A 230+ disease catalogue with ICD-10 and OMIM. Batch risk screening across the full catalogue flags cases that cross configurable thresholds. AI interpretation with BYOK LLMs (Anthropic Claude, OpenAI GPT). An MCP server for agentic AI workflows in Claude Desktop and Claude Code.</p>
+            <p>Evagene (our product) integrates BRCAPRO, MMRpro, and PancPRO from BayesMendel, plus Mendelian inheritance models for non-cancer monogenic conditions &mdash; twenty published risk-model algorithms in total, all illustrative and for teaching and research rather than clinical use. A 230+ disease catalogue with ICD-10 and OMIM, plus a Related Concepts educational correlation graph (1,100+ curated associations &mdash; reference data, not risk analysis or diagnosis) and a guided Family History Questionnaire. Batch risk screening across the full catalogue flags cases that cross configurable thresholds. AI-assisted draft summaries for educational / research review with BYOK LLMs (Anthropic Claude, OpenAI GPT). An MCP server (15 tools) and the "Evagene Pedigree Builder" ChatGPT Custom GPT support agentic AI and natural-language pedigree construction in Claude Desktop, Claude Code, and ChatGPT.</p>
 
-            <p>Where we struggle for pure cancer risk: we do not run Tyrer-Cuzick or native BOADICEA today. For services that need those models specifically, CanRisk or FamGenix is a better model fit. For BayesMendel-first services wanting AI interpretation alongside, Evagene is the uniquely strong current pick. <em>Price:</em> free Alpha via <a href="https://evagene.com/#waitlist">waiting list</a>. <em>Best for:</em> services adopting BayesMendel with AI-assisted clinical interpretation.</p>
+            <p>Where we struggle for pure cancer risk: we do not run Tyrer-Cuzick or native BOADICEA today. For services that need those models specifically, CanRisk or FamGenix is a better model fit. For BayesMendel-first services wanting AI-assisted draft summaries alongside, Evagene is the uniquely strong current pick. <em>Price:</em> free Alpha via <a href="https://evagene.com/#waitlist">waiting list</a>. <em>Best for:</em> services adopting BayesMendel with AI-assisted draft summaries for educational / research review.</p>
 
             <h3 class="text-2xl mt-10 mb-3">7. Ovarian Cancer Action — best UK patient-facing tool</h3>
 
@@ -249,7 +249,7 @@
                 <li><strong>You need pancreatic cancer risk:</strong> PancPRO (via Evagene or a BayesMendel-integrating platform).</li>
                 <li><strong>You want Tyrer-Cuzick breast risk with full family history:</strong> the Tyrer-Cuzick (IBIS) calculator or a platform that integrates it (FamGenix, Progeny).</li>
                 <li><strong>You want every major cancer risk model from one pedigree:</strong> FamGenix.</li>
-                <li><strong>You want BayesMendel plus AI interpretation in a clinical pedigree platform:</strong> Evagene.</li>
+                <li><strong>You want BayesMendel plus AI-assisted draft summaries in a research and education pedigree platform:</strong> Evagene.</li>
                 <li><strong>You are a UK patient wondering whether to see your GP:</strong> Ovarian Cancer Action.</li>
                 <li><strong>You want cancer + heart disease combined family screening:</strong> Ohio State Family Health Risk Calculator.</li>
                 <li><strong>You have a specific reported variant and want to know its cancer risks:</strong> Ask2Me.</li>
@@ -259,7 +259,7 @@
             <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
 
             <div class="space-y-8 not-prose">
-                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the best hereditary cancer risk tool?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Depends on the model: CanRisk for BOADICEA, BayesMendel (BRCAPRO, MMRpro, PancPRO) for those specific syndromes, Tyrer-Cuzick for full-family-history breast risk, Gail for US screening. FamGenix runs most of them together; Evagene integrates BayesMendel with AI interpretation.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is the best hereditary cancer risk tool?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Depends on the model: CanRisk for BOADICEA, BayesMendel (BRCAPRO, MMRpro, PancPRO) for those specific syndromes, Tyrer-Cuzick for full-family-history breast risk, Gail for US screening. FamGenix runs most of them together; Evagene integrates BayesMendel with AI-assisted draft summaries.</p></div>
                 <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is CanRisk the best for BOADICEA?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes — the Cambridge reference, NICE/NCCN/ESMO endorsed, free with registration.</p></div>
                 <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">What is BayesMendel?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Harvard-developed Bayesian Mendelian cancer risk suite: BRCAPRO, MMRpro, PancPRO. Evagene integrates all three.</p></div>
                 <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Patient-facing cancer risk tools?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Ovarian Cancer Action (UK), Ohio State Family Health Risk Calculator (US), Ask2Me (variant-specific).</p></div>

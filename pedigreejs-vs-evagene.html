@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedigreejs vs Evagene — Open-Source Pedigree Editor vs Pedigree Platform (2026) | Evagene</title>
+    <meta name="description" content="An honest comparison of pedigreejs and Evagene: an open-source JavaScript pedigree editor versus an academic, research and educational pedigree modelling platform. CanRisk export, risk models, AI-assisted draft summaries, MCP, API. Updated 2026.">
+    <meta name="keywords" content="pedigreejs vs evagene, pedigreejs alternative, pedigreejs comparison, open source pedigree editor, javascript pedigree library, embeddable pedigree drawing, CanRisk pedigree, D3 pedigree, pedigree platform comparison">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="pedigreejs vs Evagene — Open-Source Pedigree Editor vs Pedigree Platform (2026)">
+    <meta property="og:description" content="Side-by-side comparison of pedigreejs (open-source JS pedigree editor) and Evagene (research and education pedigree modelling platform): embeddable drawing, CanRisk export, risk models, AI tooling, MCP, API.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://evagene.com/pedigreejs-vs-evagene">
+    <meta property="og:image" content="https://evagene.com/og-image.png">
+    <meta property="og:site_name" content="Evagene">
+    <meta property="og:locale" content="en_GB">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="pedigreejs vs Evagene — Open-Source Pedigree Editor vs Pedigree Platform">
+    <meta name="twitter:description" content="Library-versus-platform comparison: pedigreejs is a free, embeddable open-source pedigree editor; Evagene is a research and education pedigree modelling platform.">
+    <meta name="twitter:image" content="https://evagene.com/og-image.png">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://evagene.com/pedigreejs-vs-evagene">
+
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50:'#eef3fb',100:'#d9e4f5',200:'#b3c9eb',300:'#8aaddf',400:'#5e8fd2',500:'#3b6fb5',600:'#2f5a94',700:'#264a7a',800:'#1e3a5f',900:'#152a45',950:'#0d1a2d' },
+                        accent: { 400:'#e85d6f',500:'#c8102e',600:'#a60d25' },
+                        clinical: { 50:'#f0fdf4',100:'#dcfce7',200:'#bbf7d0',400:'#4ade80',500:'#22c55e',600:'#16a34a' }
+                    },
+                    fontFamily: { sans:['Inter','system-ui','-apple-system','sans-serif'], display:['Inter','system-ui','sans-serif'] }
+                }
+            }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD: Article -->
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"Article",
+        "headline":"pedigreejs vs Evagene: an open-source pedigree editor vs a full pedigree platform",
+        "description":"A detailed, honest side-by-side comparison of pedigreejs, an open-source JavaScript pedigree editor, and Evagene, an academic, research and educational pedigree modelling platform.",
+        "author":{"@type":"Organization","name":"Evagene","url":"https://evagene.com"},
+        "publisher":{"@type":"Organization","name":"Evagene","logo":{"@type":"ImageObject","url":"https://evagene.com/logo.png"}},
+        "datePublished":"2026-06-04","dateModified":"2026-06-04",
+        "mainEntityOfPage":{"@type":"WebPage","@id":"https://evagene.com/pedigreejs-vs-evagene"},
+        "image":"https://evagene.com/og-image.png"
+    }
+    </script>
+
+    <!-- JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"BreadcrumbList",
+        "itemListElement":[
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://evagene.com"},
+            {"@type":"ListItem","position":2,"name":"Compare","item":"https://evagene.com/compare"},
+            {"@type":"ListItem","position":3,"name":"pedigreejs vs Evagene","item":"https://evagene.com/pedigreejs-vs-evagene"}
+        ]
+    }
+    </script>
+
+    <!-- JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context":"https://schema.org","@type":"FAQPage",
+        "mainEntity":[
+            {"@type":"Question","name":"Is Evagene an alternative to pedigreejs?","acceptedAnswer":{"@type":"Answer","text":"They sit at different layers. pedigreejs is an open-source (GPL) JavaScript and D3 library you embed in your own page to draw, load and export pedigrees, maintained by the CCGE / BOADICEA group at the University of Cambridge. Evagene is an academic, research and educational pedigree modelling platform: a hosted application with pedigree drawing, 20 published risk-model algorithms, a 230-plus disease catalogue, AI-assisted draft summaries for educational and research review, an MCP server and a Custom GPT, plus a REST API and an embeddable viewer. If you only need an embeddable drawing widget and will build everything else yourself, pedigreejs may be the better, cheaper choice. If you want the surrounding platform without building it, Evagene fills that gap. Both export CanRisk pedigree files."}},
+            {"@type":"Question","name":"Is pedigreejs free and open-source?","acceptedAnswer":{"@type":"Answer","text":"Yes. pedigreejs is free and open-source under the GPL, with the source on GitHub (CCGE-BOADICEA/pedigreejs) and a 2018 Bioinformatics paper describing it. You self-host or integrate the library into your own application; there is no hosted SaaS, support contract or subscription. Evagene is free during its Alpha via a waiting list, but it is a hosted platform rather than a library you compile into your own page."}},
+            {"@type":"Question","name":"Do both pedigreejs and Evagene export CanRisk files?","acceptedAnswer":{"@type":"Answer","text":"Yes, and this is a genuine shared use-case. pedigreejs reads and writes CanRisk and PED files and is the editor component used in the CanRisk ecosystem. Evagene exports a ##CanRisk 2.0 pedigree file that the user uploads at canrisk.org. BOADICEA is not bundled in Evagene; it is licensed by the University of Cambridge and runs at canrisk.org. Evagene treats the CanRisk file as an off-platform bridge, not an on-platform clinical computation."}},
+            {"@type":"Question","name":"Does pedigreejs include risk models or AI tooling?","acceptedAnswer":{"@type":"Answer","text":"No. pedigreejs is a client-side drawing library: it has no bundled risk models, no hosted API, no AI or LLM tooling, no MCP server and no Custom GPT. It is the editor, and the risk computation in the CanRisk ecosystem happens server-side at canrisk.org. Evagene adds 20 published risk-model algorithms, AI-assisted draft summaries via bring-your-own-key LLMs, an MCP server with 15 tools and a ChatGPT Custom GPT. All Evagene risk outputs are illustrative and for educational or research purposes only."}},
+            {"@type":"Question","name":"Can pedigreejs be embedded, and does Evagene offer the same?","acceptedAnswer":{"@type":"Answer","text":"pedigreejs is embeddable by design: you include the JavaScript library in your own page and the pedigree renders client-side. Evagene also ships an embeddable pedigree viewer, plus open agent tooling that pedigreejs does not have, an MCP server and a Custom GPT, so an AI agent can read or build a pedigree. For a developer who wants only a drawing widget, pedigreejs is lighter and self-contained; for a team that wants embedding plus catalogues, risk models and agent surfaces without building them, Evagene is the broader option."}},
+            {"@type":"Question","name":"Which should a developer choose?","acceptedAnswer":{"@type":"Answer","text":"If you are a developer who needs only an embeddable pedigree drawing widget and will build the rest of your stack yourself, pedigreejs is free, open-source, lightweight and maintained by the Cambridge CanRisk team, and is very likely the better and cheaper fit. Choose Evagene when you want the surrounding platform as a managed service: the risk-model suite, the disease catalogue, AI-assisted draft summaries for educational and research review, the MCP server, the Custom GPT, the Related Concepts graph and a REST API, without writing them yourself."}}
+        ]
+    }
+    </script>
+</head>
+<body class="bg-white dark:bg-brand-950 text-gray-900 dark:text-gray-100 font-sans antialiased">
+
+<!-- Navigation -->
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-brand-950/90 backdrop-blur-md border-b border-gray-100 dark:border-brand-900 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+            <a href="https://evagene.com" class="flex items-center gap-2.5 group">
+                <img src="logo.png" alt="Evagene logo" class="h-8 w-auto">
+                <span class="text-xl font-bold text-brand-700 dark:text-brand-300 tracking-tight">Evagene</span>
+            </a>
+            <div class="hidden md:flex items-center gap-1">
+                <a href="https://evagene.com/#features" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Features</a>
+                <a href="https://evagene.com/#risk-analysis" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Risk Analysis</a>
+                <a href="https://evagene.com/#interoperability" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Data Exchange</a>
+                <a href="https://evagene.com/#resources" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg">Resources</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button id="theme-toggle" class="p-2 rounded-lg text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-brand-900" aria-label="Toggle dark mode">
+                    <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+                </button>
+                <a href="/news/" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-300 mr-3" title="Genetic Current news"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg><span>News</span></a><a href="https://evagene.com/#waitlist" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg">Join Alpha Waiting List</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Breadcrumb -->
+<div class="pt-20 bg-white dark:bg-brand-950">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="text-sm text-gray-500 dark:text-gray-400">
+            <ol class="flex items-center gap-2">
+                <li><a href="https://evagene.com" class="hover:text-brand-600 dark:hover:text-brand-300">Home</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li><a href="compare.html" class="hover:text-brand-600 dark:hover:text-brand-300">Compare</a></li>
+                <li><span class="text-gray-300 dark:text-gray-600">/</span></li>
+                <li class="text-gray-700 dark:text-gray-300 font-medium">pedigreejs vs Evagene</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<main class="pt-8 pb-16">
+    <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight mb-6">pedigreejs vs Evagene: an open-source pedigree editor vs a full pedigree platform</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl">A fair library-versus-platform comparison for developers, researchers and educators evaluating pedigree tooling in 2026. Both run in the browser and both export CanRisk files — but one is a drawing library you build on, and the other is a managed platform.</p>
+            <div class="mt-6 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                <time datetime="2026-06-04">4 June 2026</time>
+                <span class="text-gray-300 dark:text-gray-600">|</span>
+                <span>10 min read</span>
+            </div>
+        </header>
+
+        <div class="prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-900 dark:prose-headings:text-white prose-headings:font-bold prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed prose-a:text-brand-600 dark:prose-a:text-brand-400 prose-a:underline prose-a:decoration-brand-200 dark:prose-a:decoration-brand-800 hover:prose-a:decoration-brand-500 prose-strong:text-gray-900 dark:prose-strong:text-white prose-li:text-gray-700 dark:prose-li:text-gray-300">
+
+            <p><strong>Short version.</strong> <a href="https://github.com/CCGE-BOADICEA/pedigreejs" rel="nofollow">pedigreejs</a> is a free, open-source (GPL) JavaScript and D3 web-based graphical pedigree editor, maintained by the CCGE / BOADICEA group at the University of Cambridge — the same team behind BOADICEA and the CanRisk ecosystem. It is a client-side library you embed in your own page: it draws pedigrees interactively in the browser, and it loads and exports CanRisk and PED files. It ships with no bundled risk models, no hosted API, no AI or LLM tooling, no MCP server and no Custom GPT; it is the editor component, and the risk computation lives elsewhere at canrisk.org. Evagene is an academic, research and educational pedigree modelling platform — a hosted application that adds 20 published risk-model algorithms, a 230+ disease catalogue, AI-assisted draft summaries for educational and research review, an MCP server, a ChatGPT Custom GPT, a REST API and an embeddable viewer. Both run in the browser and both export CanRisk pedigree files. If you are a developer who needs only an embeddable drawing widget and will build the rest yourself, pedigreejs is very likely the better, cheaper choice. If you want the surrounding platform without building it, that is what Evagene is for.</p>
+
+            <p>This article is an honest, fact-by-fact comparison. Where pedigreejs is the better fit, we say so plainly. All claims about pedigreejs are drawn from its public GitHub repository, its 2018 <a href="https://academic.oup.com/bioinformatics/article/34/6/1069" rel="nofollow">Bioinformatics</a> paper, and the CanRisk project documentation as of June 2026; if anything has since changed, those sources supersede this article. Evagene is an academic, research and educational pedigree modelling platform and is not a medical device; its outputs are illustrative and for educational and research purposes only.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">How the two projects position themselves</h2>
+
+            <p><strong>pedigreejs</strong> is, by its own description, a web-based interactive tool to draw pedigrees — an open-source JavaScript library built on D3. It is maintained by the Centre for Cancer Genetic Epidemiology (CCGE) at the University of Cambridge, the group responsible for BOADICEA and CanRisk, and it is the editor component used inside the CanRisk ecosystem to capture family structure before risk computation. Its scope is deliberately tight: render and edit a pedigree in the browser, and read and write the CanRisk and PED file formats. You include the library in your own page and wire it up yourself. There is no hosted service, no account system, no support contract and no subscription — it is code you self-host or integrate, under the GPL.</p>
+
+            <p><strong>Evagene</strong> positions itself as an academic, research and educational pedigree modelling platform. The pedigree is still central — gesture and keyboard drawing, standard ISCN/HGNC notation, a family register and a karyogram — but around it sit a suite of <a href="hereditary-cancer-risk-assessment.html">20 published risk-model algorithms</a>, a 230+ disease catalogue coded to ICD-10 and OMIM, an educational <a href="mendelian-inheritance-calculator.html">inheritance-model</a> layer, a Related Concepts correlation graph for teaching, AI-assisted draft summaries for educational and research review via bring-your-own-key LLMs, and a platform layer (REST API, embeddable viewer, MCP server, Custom GPT, Analysis Templates) that lets pedigree data flow into other tools and AI agents. It is delivered as a managed application, free during its Alpha via a waiting list.</p>
+
+            <p>The headline difference is one of layer, not of quality. pedigreejs is a focused, well-maintained drawing library that does one thing and does it cleanly. Evagene is a broad platform that includes pedigree drawing as one capability among many and wraps it in catalogues, published risk models, agent tooling and a managed service. A developer who wants a widget should read this as "library versus platform", not "worse versus better".</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Feature-by-feature comparison</h2>
+
+            <p>The matrix below is arranged by capability. A tick means the feature is publicly documented; a dash means it is not publicly documented (which does not necessarily mean it is absent). Because pedigreejs is a drawing library and Evagene is a platform, many rows will tick on one side and dash on the other — that is the point of the comparison, not a flaw. Where nuance matters, we add a note.</p>
+
+            <div class="not-prose my-10 overflow-x-auto">
+                <table class="w-full text-sm border-collapse">
+                    <thead class="bg-brand-50 dark:bg-brand-900/50">
+                        <tr>
+                            <th class="text-left font-semibold text-gray-900 dark:text-white px-4 py-3 border border-gray-200 dark:border-brand-800">Capability</th>
+                            <th class="text-center font-semibold text-gray-900 dark:text-white px-4 py-3 border border-gray-200 dark:border-brand-800">pedigreejs</th>
+                            <th class="text-center font-semibold text-gray-900 dark:text-white px-4 py-3 border border-gray-200 dark:border-brand-800">Evagene</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700 dark:text-gray-300">
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Open-source / self-host</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (GPL)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Browser-based, client-side</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Interactive pedigree drawing</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (D3)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (gesture + keyboard)</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Embeddable library / viewer</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (JS library)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (embeddable viewer)</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Standard ISCN/HGNC notation</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">partial</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">CanRisk pedigree export</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (native)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (##CanRisk 2.0)</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">PED file import/export</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">via CanRisk / JSON</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Bundled risk-model algorithms</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (20)</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">BayesMendel (BRCAPRO / MMRpro / PancPRO)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Tyrer-Cuzick IBIS-style approximation</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (approximation, not the IBIS binary)</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">230+ disease catalogue (ICD-10, OMIM)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">AI-assisted draft summaries (educational/research)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (BYOK LLM)</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">MCP server for AI agents</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (15 tools)</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Custom GPT natural-language pedigree building</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Related Concepts correlation graph (educational)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (1,100+ associations)</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Family History Questionnaire (intake → pedigree)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">REST API (scoped keys)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Webhooks</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">GEDCOM import/export</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">23andMe import</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Image-OCR pedigree import</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">PNG / SVG export</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (+ PDF / DOCX)</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Hosted SaaS / no-setup</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">—</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓</td></tr>
+                        <tr><td class="px-4 py-3 border border-gray-200 dark:border-brand-800 font-medium">Free to use</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (open-source)</td><td class="text-center px-4 py-3 border border-gray-200 dark:border-brand-800">✓ (Alpha waiting list)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="text-sm text-gray-500 dark:text-gray-400">Matrix compiled from the pedigreejs GitHub repository, its 2018 Bioinformatics paper, and Evagene public product pages as of June 2026. "—" indicates the capability is not publicly documented and does not necessarily mean it is absent.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Pedigree drawing and embedding</h2>
+
+            <p>Both tools draw pedigrees in the browser, and both can be embedded in someone else's page. pedigreejs is built precisely for that: it is a D3-based JavaScript library you drop into your own application, and the pedigree renders client-side with no server round-trip. For a developer who wants a clean, well-understood drawing component maintained by the Cambridge CanRisk team, that is an excellent fit — lightweight, self-contained, and free to modify under the GPL. If your requirement is "render and edit a pedigree inside my own app", pedigreejs is hard to beat on simplicity and cost.</p>
+
+            <p>Evagene also offers an <strong>embeddable pedigree viewer</strong>, but it sits at a different level: the viewer is a window onto pedigrees managed inside the hosted platform, rather than a library you compile into your build. Evagene's own drawing surface adds gesture and keyboard construction, a family register and a karyogram, and standardises symbols against ISCN/HGNC notation. The useful point for developers is that Evagene pairs that embeddable viewer with open agent tooling — an MCP server and a Custom GPT — that pedigreejs does not provide. So if your goal is purely an in-page drawing widget, pedigreejs is the leaner answer; if you also want an AI agent to be able to read or build the pedigree, Evagene's surfaces extend further.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">CanRisk export: the genuine overlap</h2>
+
+            <p>The clearest shared use-case is the CanRisk file. pedigreejs reads and writes CanRisk and PED files natively — unsurprisingly, since it is the editor component of the CanRisk ecosystem built by the same Cambridge group. Evagene exports a <code>##CanRisk 2.0</code> pedigree file that the user uploads at <a href="canrisk-vs-evagene.html">canrisk.org</a> to run BOADICEA. <strong>BOADICEA is not bundled in Evagene</strong>; it is licensed by the University of Cambridge, and the CanRisk file is an off-platform bridge, not an on-platform computation. Evagene treats that architectural separation as a feature: the authoritative risk number is produced at canrisk.org, not inside Evagene.</p>
+
+            <p>So on the specific task of "produce a CanRisk file for BOADICEA", the two tools genuinely overlap, and pedigreejs — being the native CanRisk editor — is a perfectly good way to do it. The difference is everything around that file: pedigreejs hands you the editor and stops there, while Evagene wraps the same export in a catalogue, an inheritance-model layer, illustrative risk models for conditions outside BOADICEA's scope, and AI-assisted draft summaries for educational and research review.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Risk models and inheritance (educational and illustrative)</h2>
+
+            <p>pedigreejs has no bundled risk models — by design. It captures the pedigree; the risk computation in the CanRisk ecosystem happens server-side at canrisk.org. That is a clean separation and entirely appropriate for a drawing library.</p>
+
+            <p>Evagene bundles <a href="hereditary-cancer-risk-assessment.html">20 published risk-model algorithms</a> as an educational and research layer, with outputs framed as illustrative rather than as clinical results. The set covers BayesMendel (BRCAPRO, MMRpro, PancPRO); Mendelian and non-classical inheritance (autosomal dominant, autosomal recessive, X-linked, mitochondrial, digenic and imprinting); a liability-threshold multifactorial / polygenic / oligogenic engine (Carter 1961, Falconer 1965); and cancer family-history scoring — Claus 1994, Couch 1997, Frank 2002, Manchester (Evans 2004), NICE, Amsterdam II (Vasen 1999), revised Bethesda (Umar 2004) and Gail 1989. It also includes a Tyrer-Cuzick model that is <strong>an IBIS-style approximation of the published Tyrer/Duffy/Cuzick 2004 algorithm, not the official IBIS Breast Cancer Risk Evaluator binary</strong> — for the official Tyrer-Cuzick computation you would use the IBIS tool itself, and for BOADICEA you would use canrisk.org. Every one of these outputs in Evagene is illustrative and for educational or research purposes only; none is a diagnosis, a recommendation, or a substitute for professional judgement.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">AI, agent tooling, and the platform layer</h2>
+
+            <p>This is where the two projects diverge most, and it is squarely a library-versus-platform difference. pedigreejs has no AI or LLM tooling, no hosted API, no MCP server and no Custom GPT; it is a client-side editor, and that is the whole intent.</p>
+
+            <p>Evagene treats agent and platform surfaces as first-class. It provides <strong>AI-assisted draft summaries for educational and research review</strong> using bring-your-own-key LLMs (Anthropic Claude, OpenAI) — your own model account drafts an educational summary that a human reviews; the output is illustrative, not medical advice. It ships an <strong>MCP (Model Context Protocol) server with 15 tools</strong> so AI agents such as Claude Desktop and Claude Code can read, build and analyse pedigrees; the <strong>"Evagene Pedigree Builder" ChatGPT Custom GPT</strong>, which turns natural-language family histories into importable pedigree JSON; a <strong>Related Concepts</strong> educational correlation graph (1,100+ curated associations — reference data for teaching, not risk analysis or diagnosis); a guided <strong>Family History Questionnaire</strong> that turns structured intake into a pedigree (educational data capture, not a medical assessment); Analysis Templates; and a scoped <strong>REST API</strong> with webhooks and the embeddable viewer. None of this is part of pedigreejs's remit, and none of it is a criticism of pedigreejs — it is simply a larger surface area than a drawing library sets out to provide.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">Cost, licensing, and who maintains them</h2>
+
+            <p>pedigreejs is free and open-source under the GPL, with the source on <a href="https://github.com/CCGE-BOADICEA/pedigreejs" rel="nofollow">GitHub</a> and a peer-reviewed 2018 Bioinformatics paper behind it. You self-host or integrate it; there is no SaaS, no subscription and no support contract, and you are free to read, fork and modify the code. It is maintained by the CCGE / BOADICEA group at the University of Cambridge — strong provenance for anyone already working in the CanRisk world.</p>
+
+            <p>Evagene is a hosted platform, free during its Alpha via a waiting list, with general-availability pricing not yet published. It is delivered as a managed service rather than as source you compile, so the trade-off is the usual one: you give up the control and zero-cost-forever properties of self-hosted open source in exchange for not having to build, host or maintain the catalogue, the risk models, the agent tooling and the API yourself. For a team without the appetite to build all of that, that trade can be worthwhile; for a developer who only needs the drawing widget, it is unnecessary overhead.</p>
+
+            <h2 class="text-3xl mt-16 mb-6">When to choose pedigreejs</h2>
+
+            <ul>
+                <li>You are a developer who needs an embeddable pedigree drawing widget inside your own application, and you will build the rest of the stack yourself.</li>
+                <li>You want free, open-source code under the GPL that you can read, fork and modify, with no SaaS dependency.</li>
+                <li>Your main task is producing CanRisk or PED files, and a native CanRisk editor is exactly what you need.</li>
+                <li>You value provenance from the Cambridge CCGE / BOADICEA team and want to stay close to the CanRisk ecosystem.</li>
+                <li>You want a lightweight, client-side component with no account system, no server dependency and no ongoing cost.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">When to choose Evagene</h2>
+
+            <ul>
+                <li>You want the surrounding platform — disease catalogue, published risk models, agent tooling — as a managed service rather than something you build on top of a drawing library.</li>
+                <li>You want 20 published risk-model algorithms and an educational inheritance layer alongside the pedigree, with outputs framed as illustrative for teaching and research.</li>
+                <li>You want AI-assisted draft summaries for educational and research review using your own LLM keys, an MCP server for AI agents, and a Custom GPT for natural-language pedigree building.</li>
+                <li>You need a 230+ disease catalogue (ICD-10, OMIM), a Related Concepts educational graph, and a guided Family History Questionnaire.</li>
+                <li>You want broad import/export (GEDCOM, JSON, 23andMe, image-OCR; export PNG/SVG/PDF/DOCX/CanRisk) plus a REST API, webhooks and an embeddable viewer without building them.</li>
+                <li>You still want a one-click CanRisk file for BOADICEA at canrisk.org — Evagene shares that use-case with pedigreejs and adds everything around it.</li>
+            </ul>
+
+            <h2 class="text-3xl mt-16 mb-6">Can you use both together?</h2>
+
+            <p>Yes, and for some teams that is the most natural answer. Because both speak CanRisk and PED, a pedigree edited in pedigreejs inside your own application can be exported as a CanRisk file and brought into Evagene's hosted platform — or the reverse — without re-entry. A developer might embed pedigreejs as the drawing component in a bespoke app while using Evagene's REST API and MCP server for the catalogue, the illustrative risk models and the AI-assisted educational summaries. The two are complementary rather than mutually exclusive: pedigreejs is the open, embeddable editor; Evagene is the managed platform around the pedigree. Both ultimately route serious BOADICEA risk computation off-platform to canrisk.org, where BOADICEA is licensed and hosted by the University of Cambridge.</p>
+
+            <h2 class="text-3xl mt-16 mb-6" id="faq">Frequently asked questions</h2>
+
+            <div class="space-y-8 not-prose">
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is Evagene an alternative to pedigreejs?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">They sit at different layers. pedigreejs is an open-source (GPL) JavaScript / D3 library you embed in your own page to draw, load and export pedigrees, maintained by the Cambridge CCGE / BOADICEA team. Evagene is a managed academic, research and educational pedigree modelling platform that adds 20 published risk-model algorithms, a 230+ disease catalogue, AI-assisted draft summaries for educational and research review, an MCP server, a Custom GPT, a REST API and an embeddable viewer. If you only need a drawing widget, pedigreejs may be the better, cheaper choice. Both export CanRisk files.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Is pedigreejs free and open-source?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes — free and open-source under the GPL, with the source on GitHub (CCGE-BOADICEA/pedigreejs) and a 2018 Bioinformatics paper. You self-host or integrate the library; there is no hosted SaaS, support contract or subscription. Evagene is free during its Alpha via a waiting list, but it is a hosted platform rather than a library you compile into your own page.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Do both pedigreejs and Evagene export CanRisk files?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">Yes — a genuine shared use-case. pedigreejs reads and writes CanRisk and PED files and is the editor component of the CanRisk ecosystem. Evagene exports a ##CanRisk 2.0 pedigree file that the user uploads at canrisk.org. BOADICEA is not bundled in Evagene; it is licensed by the University of Cambridge and runs at canrisk.org. Evagene treats the CanRisk file as an off-platform bridge, not an on-platform computation.</p></div>
+                <div class="border-b border-gray-200 dark:border-brand-800 pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Does pedigreejs include risk models or AI tooling?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">No. pedigreejs is a client-side drawing library with no bundled risk models, no hosted API, no AI or LLM tooling, no MCP server and no Custom GPT. Risk computation in the CanRisk ecosystem happens server-side at canrisk.org. Evagene adds 20 published risk-model algorithms, AI-assisted draft summaries via bring-your-own-key LLMs, an MCP server with 15 tools and a ChatGPT Custom GPT. All Evagene risk outputs are illustrative and for educational or research purposes only.</p></div>
+                <div class="pb-6"><h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Which should a developer choose?</h3><p class="text-gray-700 dark:text-gray-300 leading-relaxed">If you need only an embeddable pedigree drawing widget and will build the rest yourself, pedigreejs is free, open-source, lightweight and maintained by the Cambridge CanRisk team — very likely the better, cheaper fit. Choose Evagene when you want the surrounding platform as a managed service: the risk-model suite, the disease catalogue, AI-assisted draft summaries for educational and research review, the MCP server, the Custom GPT, the Related Concepts graph and a REST API, without building them yourself.</p></div>
+            </div>
+
+            <h2 class="text-3xl mt-16 mb-6">Related comparisons and reading</h2>
+
+            <ul>
+                <li><a href="canrisk-vs-evagene.html">CanRisk vs Evagene</a></li>
+                <li><a href="genopro-vs-evagene.html">GenoPro vs Evagene</a></li>
+                <li><a href="quickped-vs-evagene.html">QuickPed vs Evagene</a></li>
+                <li><a href="compare.html">Compare Evagene with other pedigree tools</a></li>
+                <li><a href="hereditary-cancer-risk-assessment.html">Hereditary cancer risk assessment</a></li>
+            </ul>
+
+        </div>
+    </article>
+</main>
+
+<!-- CTA -->
+<section class="py-20 bg-brand-50 dark:bg-brand-900/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Explore Evagene for teaching and research</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">Join the Alpha waiting list. No credit card, no enterprise sales cycle — free access during Alpha for researchers, educators and students. Outputs are illustrative and for educational and research purposes only.</p>
+        <a href="https://evagene.com/#waitlist" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white text-base font-semibold rounded-xl shadow-lg shadow-brand-600/25 hover:shadow-brand-600/40">Join the Alpha Waiting List
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 dark:bg-black text-gray-400 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
+            <div class="md:col-span-2">
+                <div class="flex items-center gap-2.5 mb-4"><img src="logo.png" alt="Evagene logo" class="h-7 w-auto brightness-200"><span class="text-lg font-bold text-white tracking-tight">Evagene</span></div>
+                <p class="text-sm text-gray-500 max-w-sm mb-4">Academic, research and educational pedigree modelling. Standard notation. Published risk-model algorithms for teaching and research. Universal data exchange. Zero installs. Not a medical device; outputs are illustrative only.</p>
+            </div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Product</h4><ul class="space-y-2 text-sm"><li><a href="https://evagene.com/#features" class="hover:text-white transition-colors">Features</a></li><li><a href="https://evagene.com/#risk-analysis" class="hover:text-white transition-colors">Risk Analysis</a></li><li><a href="https://evagene.com/#interoperability" class="hover:text-white transition-colors">Data Exchange</a></li><li><a href="https://evagene.com/#resources" class="hover:text-white transition-colors">Resources</a></li></ul></div>
+            <div><h4 class="text-sm font-semibold text-white mb-4">Learn More</h4><ul class="space-y-2 text-sm"><li><a href="pedigree-drawing-software.html" class="hover:text-white transition-colors">Pedigree Drawing</a></li><li><a href="hereditary-cancer-risk-assessment.html" class="hover:text-white transition-colors">Cancer Risk Assessment</a></li><li><a href="gedcom-pedigree-software.html" class="hover:text-white transition-colors">GEDCOM &amp; Genealogy</a></li><li><a href="clinical-genetics-pedigree-tool.html" class="hover:text-white transition-colors">Clinical Genetics</a></li><li><a href="mendelian-inheritance-calculator.html" class="hover:text-white transition-colors">Mendelian Inheritance</a></li><li><a href="compare.html" class="hover:text-white transition-colors">Compare</a></li></ul></div>
+        </div>
+        <div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-gray-600">&copy; 2026 Evagene. All rights reserved.</p>
+            <div class="flex items-center gap-6 text-xs text-gray-600"><a href="https://evagene.com/privacy-policy.html" class="hover:text-gray-400 transition-colors">Privacy Policy</a><a href="https://evagene.com/terms.html" class="hover:text-gray-400 transition-colors">Terms of Service</a><a href="https://evagene.com/#waitlist" class="hover:text-gray-400 transition-colors">Contact</a></div>
+        </div>
+    </div>
+</footer>
+
+<script>
+(function(){const html=document.documentElement;const t=document.getElementById('theme-toggle');const s=document.getElementById('sun-icon');const m=document.getElementById('moon-icon');function set(d){html.classList.toggle('dark',d);s.classList.toggle('hidden',!d);m.classList.toggle('hidden',d);localStorage.setItem('evagene-theme',d?'dark':'light')}const sv=localStorage.getItem('evagene-theme');if(sv==='dark'||(!sv&&window.matchMedia('(prefers-color-scheme: dark)').matches))set(true);t.addEventListener('click',()=>set(!html.classList.contains('dark')))})();
+</script>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[100] hidden">
+    <div class="bg-gray-900 dark:bg-black border-t border-gray-700 dark:border-gray-800 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-5">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div class="flex-1 text-sm text-gray-300 leading-relaxed">
+                    <p>We use cookies and similar technologies to analyse site traffic and improve your experience. Analytics cookies (Google Analytics, Microsoft Clarity) and marketing tools (EngageBay) are only activated with your consent. See our <a href="privacy-policy.html" class="text-brand-400 hover:text-brand-300 underline">Privacy Policy</a> for details.</p>
+                </div>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-reject" class="px-4 py-2 text-sm font-medium text-gray-400 hover:text-white border border-gray-600 hover:border-gray-400 rounded-lg transition-colors">Reject All</button>
+                    <button id="cookie-accept" class="px-5 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 rounded-lg transition-colors">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function(){var CONSENT_KEY='evagene-cookie-consent';var banner=document.getElementById('cookie-banner');var consent=localStorage.getItem(CONSENT_KEY);function loadAnalytics(){var gaScript=document.createElement('script');gaScript.async=true;gaScript.src='https://www.googletagmanager.com/gtag/js?id=G-8GQLEPQ47C';document.head.appendChild(gaScript);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8GQLEPQ47C');(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments);};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,'clarity','script','wc26ock5ta');var EhAPI=window.EhAPI||{};EhAPI.after_load=function(){EhAPI.set_account('ro2mo08bbuj75m8i04puevk2su','evagene');EhAPI.execute('rules');};window.EhAPI=EhAPI;var ebScript=document.createElement('script');ebScript.async=true;ebScript.src='//d2p078bqz5urf7.cloudfront.net/jsapi/ehform.js?v'+new Date().getHours();document.head.appendChild(ebScript);}if(consent==='accepted'){loadAnalytics();}else if(consent!=='rejected'){banner.classList.remove('hidden');}document.getElementById('cookie-accept').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'accepted');banner.classList.add('hidden');loadAnalytics();});document.getElementById('cookie-reject').addEventListener('click',function(){localStorage.setItem(CONSENT_KEY,'rejected');banner.classList.add('hidden');});})();
+</script>
+</body>
+</html>
