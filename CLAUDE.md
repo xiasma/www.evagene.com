@@ -127,6 +127,12 @@ Update this table when any count changes materially.
 
 ---
 
+## Nav bar
+
+Don't let it get out of date, but also don't allow it to get cluttered and ugly. All sections in the nav bar must be presented consistently, and must be available on desktop and mobile presentations (in full, as a burger menu, or by other means).
+
+---
+
 ## Required elements on every new page
 
 Copy from an existing recent page (`research-citations.html`, `for-reproductive-medicine.html`, or any `release-*.html`) rather than authoring from scratch. Required:
