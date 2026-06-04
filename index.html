@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evagene — Pedigree Drawing, Management, and Modelling</title>
-    <meta name="description" content="Fast pedigree drawing in the browser. Twenty published risk-model algorithms (BayesMendel, Mendelian, polygenic, cancer family-history) on one pedigree, plus a CanRisk / BOADICEA export bridge. A 1,900-entry catalogue across diseases, traits, allergies, tests, markers, and treatments. GEDCOM in and out. For teaching, research, and family-history documentation — not a medical device.">
+    <meta name="description" content="Fast pedigree drawing in the browser. Twenty-one published risk-model algorithms (BayesMendel, Mendelian, polygenic, cancer family-history) on one pedigree, plus a CanRisk / BOADICEA export bridge. A 1,900-entry catalogue across diseases, traits, allergies, tests, markers, and treatments. GEDCOM in and out. For teaching, research, and family-history documentation — not a medical device.">
     <meta name="keywords" content="pedigree drawing software, pedigree chart maker, pedigree management, family pedigree analysis, family history documentation, BRCAPRO, MMRpro, PancPRO, Claus model, Couch model, Frank model, Manchester scoring, NICE CG164, NICE NG101, Amsterdam II criteria, revised Bethesda, Gail model, Tyrer-Cuzick approximation, CanRisk export, BOADICEA, polygenic risk, multifactorial inheritance, liability-threshold, hereditary cancer risk models, GEDCOM, BayesMendel, linkage analysis, genetics education, 23andMe import, carrier probability">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Evagene — Pedigree Drawing, Management, and Modelling">
-    <meta property="og:description" content="Fast pedigree drawing. Twenty published risk-model algorithms. A 1,900-entry catalogue. In the browser.">
+    <meta property="og:description" content="Fast pedigree drawing. Twenty-one published risk-model algorithms. A 1,900-entry catalogue. In the browser.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://evagene.com">
     <meta property="og:image" content="https://evagene.com/og-image.png">
@@ -20,7 +20,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Evagene — Pedigree Drawing, Management, and Modelling">
-    <meta name="twitter:description" content="Fast pedigree drawing. Twenty published risk-model algorithms. A 1,900-entry catalogue. In the browser.">
+    <meta name="twitter:description" content="Fast pedigree drawing. Twenty-one published risk-model algorithms. A 1,900-entry catalogue. In the browser.">
     <meta name="twitter:image" content="https://evagene.com/og-image.png">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -126,7 +126,7 @@
         "name": "Evagene",
         "url": "https://evagene.com",
         "applicationSubCategory": "Pedigree Management Software",
-        "description": "Browser-based pedigree drawing, management, and modelling platform. Implementations of twenty published risk-model algorithms across four families: Mendelian (autosomal dominant, recessive, X-linked recessive, X-linked dominant with five sex-differential sub-modes, mitochondrial, digenic, imprinting / UPD), polygenic / oligogenic / multifactorial liability-threshold (20+ conditions), cancer family-history scoring (BRCAPRO, MMRpro, PancPRO, Claus, Couch, Frank, Manchester, NICE CG164/NG101, Amsterdam II, revised Bethesda, Gail NCI BCRAT, Tyrer-Cuzick IBIS-style approximation), and CanRisk / BOADICEA v4 pedigree file export (full BOADICEA computation runs off-platform at canrisk.org, under University of Cambridge licence). 1,900+ help-guide catalogue across diseases, traits, allergies, clinical tests, markers / genes, and treatments. AI-assisted draft summaries for educational / research review. Blood type and trait inference from SNP data, consanguinity detection, GEDCOM 5.5.1 import/export, 23andMe data import. For teaching, research, and family-history documentation; not a medical device.",
+        "description": "Browser-based pedigree drawing, management, and modelling platform. Implementations of twenty-one published risk-model algorithms across four families: Mendelian (autosomal dominant, recessive, X-linked recessive, X-linked dominant with five sex-differential sub-modes, mitochondrial, digenic, imprinting / UPD), polygenic / oligogenic / multifactorial liability-threshold (20+ conditions), cancer family-history scoring (BRCAPRO, MMRpro, PancPRO, Claus, Couch, Frank, Manchester, NICE CG164/NG101, Amsterdam II, revised Bethesda, Gail NCI BCRAT, Tyrer-Cuzick IBIS-style approximation, and an educational prostate-cancer family-history model), and CanRisk / BOADICEA v4 pedigree file export (full BOADICEA computation runs off-platform at canrisk.org, under University of Cambridge licence). 1,900+ help-guide catalogue across diseases, traits, allergies, clinical tests, markers / genes, and treatments. AI-assisted draft summaries for educational / research review. HPO phenotyping with phenotype-to-gene educational associations, MONDO / Orphanet / DOID disease cross-references, relatedness / IBD coefficients (pairwise kinship, inbreeding, k0/k1/k2), GA4GH Phenopackets v2 import/export, blood type and trait inference from SNP data, consanguinity detection, GEDCOM 5.5.1 import/export, 23andMe data import. For teaching, research, and family-history documentation; not a medical device.",
         "applicationCategory": "EducationalApplication",
         "operatingSystem": "Web browser (Chrome, Firefox, Safari, Edge)",
         "datePublished": "2026-04-01",
@@ -151,6 +151,7 @@
             "Revised Bethesda Guidelines for MSI testing",
             "Gail model (NCI BCRAT) 5-year and lifetime breast-cancer risk",
             "Tyrer-Cuzick 10-year and lifetime breast-cancer risk (IBIS-style approximation, not the official IBIS binary)",
+            "Educational prostate-cancer family-history risk model (illustrative)",
             "CanRisk / BOADICEA v4 pedigree export for canrisk.org",
             "Polygenic, oligogenic, and multifactorial liability-threshold recurrence-risk engine (Carter 1961, Falconer 1965, Reich/James/Morton 1972)",
             "Empirical recurrence-risk tables for 20+ complex conditions (Smith, Carter, Harper)",
@@ -163,11 +164,15 @@
             "Blood type inference from 23andMe SNP markers",
             "Trait inference from 23andMe genotype data",
             "Interactive karyogram viewer",
-            "230+ disease catalog with ICD-10 and OMIM codes (including 20+ multifactorial / polygenic conditions with heritability and empirical recurrence risks)",
+            "230+ disease catalog cross-referenced to ICD-10, OMIM, MONDO, Orphanet, and Disease Ontology (DOID) (including 20+ multifactorial / polygenic conditions with heritability and empirical recurrence risks)",
             "Related concepts: educational correlation graph (1,100+ curated associations plus auto-derived genetic edges) linking diseases, traits, clinical-test results, allergies, and markers; status-qualified clinical-test edges; not risk analysis or diagnosis",
+            "HPO phenotyping: browse a curated Human Phenotype Ontology catalogue and attach observed or excluded phenotype features (with onset and severity) to individuals",
+            "Phenotype-to-gene educational associations from recorded HPO features (candidate associations, reference data, not analysis or diagnosis)",
             "55+ allergies and 50+ traits with genetic marker associations",
             "Consanguinity detection with Wright's coefficient",
+            "Relatedness / IBD analysis: pairwise kinship coefficients, per-individual inbreeding, Jacquard k0/k1/k2 identity coefficients, and gene-dropping relatedness simulation (educational / research)",
             "GEDCOM 5.5.1 import and export",
+            "GA4GH Phenopackets v2 export and import",
             "23andMe raw data import",
             "Pedigree image import via OCR",
             "Export to PDF, SVG, PNG",
@@ -179,7 +184,7 @@
             "Bring Your Own Key (BYOK) LLM integration for Anthropic and OpenAI",
             "Webhooks with HMAC-SHA256 signed payloads for EHR/LIMS integration",
             "Custom AI analysis templates with variable injection",
-            "MCP server for AI agent access via the Model Context Protocol",
+            "MCP server (27 tools) for AI agent access via the Model Context Protocol",
             "Embeddable pedigree viewer (iframe, SVG, JavaScript snippet)"
         ],
         "screenshot": "https://evagene.com/og-image.png",
@@ -375,7 +380,7 @@
                         <span class="gradient-text">management, and modelling</span>
                     </h1>
                     <p class="text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-xl leading-relaxed">
-                        Fast pedigree drawing. Twenty published risk-model algorithms. A 1,900-entry catalogue. In the browser.
+                        Fast pedigree drawing. Twenty-one published risk-model algorithms. A 1,900-entry catalogue. In the browser.
                     </p>
                 </div>
 
@@ -665,14 +670,14 @@
                     <svg class="w-6 h-6 text-accent-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
                 </div>
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">230+ Disease Catalog</h3>
-                <p class="text-sm text-gray-600 dark:text-gray-400">Oncology, cardiology, neurology, metabolic, plus 20+ catalogued complex / multifactorial conditions &mdash; each entry carries ICD-10, OMIM, inheritance pattern, penetrance tables, heritability, empirical recurrence risks, and carrier frequencies by ancestry. Manage from a dedicated dashboard with presets and custom colours.</p>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Oncology, cardiology, neurology, metabolic, plus 20+ catalogued complex / multifactorial conditions &mdash; each entry carries ICD-10, OMIM, MONDO, Orphanet, and DOID cross-references, inheritance pattern, penetrance tables, heritability, empirical recurrence risks, and carrier frequencies by ancestry. Manage from a dedicated dashboard with presets and custom colours.</p>
             </div>
             <div class="feature-card bg-white dark:bg-brand-900/40 rounded-xl p-6 border border-gray-100 dark:border-brand-800 reveal">
                 <div class="w-12 h-12 rounded-xl bg-accent-500/10 dark:bg-accent-500/20 flex items-center justify-center mb-4">
                     <svg class="w-6 h-6 text-accent-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
                 </div>
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Bayesian Risk Models</h3>
-                <p class="text-sm text-gray-600 dark:text-gray-400">BRCAPRO, MMRpro, PancPRO via BayesMendel. Claus, Couch, Frank, Manchester, NICE, Amsterdam II, Bethesda, Gail, and a Tyrer-Cuzick IBIS-style approximation alongside. AD / AR / XLR Mendelian with age-dependent penetrance; X-linked dominant with sex-differential severity; mitochondrial with heteroplasmy scaling; digenic two-locus; imprinting / UPD with parent-of-origin weighting. Polygenic / multifactorial liability-threshold engine covering 20+ complex conditions. One-click CanRisk export.</p>
+                <p class="text-sm text-gray-600 dark:text-gray-400">BRCAPRO, MMRpro, PancPRO via BayesMendel. Claus, Couch, Frank, Manchester, NICE, Amsterdam II, Bethesda, Gail, a Tyrer-Cuzick IBIS-style approximation, and an educational prostate-cancer family-history model alongside. AD / AR / XLR Mendelian with age-dependent penetrance; X-linked dominant with sex-differential severity; mitochondrial with heteroplasmy scaling; digenic two-locus; imprinting / UPD with parent-of-origin weighting. Polygenic / multifactorial liability-threshold engine covering 20+ complex conditions. One-click CanRisk export.</p>
             </div>
             <div class="feature-card bg-white dark:bg-brand-900/40 rounded-xl p-6 border border-gray-100 dark:border-brand-800 reveal" style="transition-delay:0.05s">
                 <div class="w-12 h-12 rounded-xl bg-clinical-500/10 dark:bg-clinical-500/20 flex items-center justify-center mb-4">
@@ -686,14 +691,21 @@
                     <svg class="w-6 h-6 text-clinical-600 dark:text-clinical-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
                 </div>
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Broad Data Exchange</h3>
-                <p class="text-sm text-gray-600 dark:text-gray-400">Import JSON, GEDCOM 5.5.1, XEG, 23andMe, and images (OCR). Export to JSON, GEDCOM, PNG (up to 4x), SVG, and PDF (A4/A3/Letter/Legal).</p>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Import JSON, GEDCOM 5.5.1, GA4GH Phenopackets v2, XEG, 23andMe, and images (OCR). Export to JSON, GEDCOM, GA4GH Phenopackets v2, PNG (up to 4x), SVG, PDF (A4/A3/Letter/Legal), and DOCX.</p>
+            </div>
+            <div class="feature-card bg-white dark:bg-brand-900/40 rounded-xl p-6 border border-gray-100 dark:border-brand-800 reveal" style="transition-delay:0.15s">
+                <div class="w-12 h-12 rounded-xl bg-brand-50 dark:bg-brand-900 flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-brand-600 dark:text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A2 2 0 013 12V7a4 4 0 014-4z"/></svg>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">HPO Phenotyping</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Browse a curated Human Phenotype Ontology catalogue and attach observed or excluded phenotype features &mdash; with onset and severity &mdash; to individuals. Recorded features surface candidate phenotype-to-gene educational associations. Reference data for teaching and documentation, not diagnosis.</p>
             </div>
             <div class="feature-card bg-white dark:bg-brand-900/40 rounded-xl p-6 border border-gray-100 dark:border-brand-800 reveal" style="transition-delay:0.15s">
                 <div class="w-12 h-12 rounded-xl bg-brand-50 dark:bg-brand-900 flex items-center justify-center mb-4">
                     <svg class="w-6 h-6 text-brand-600 dark:text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
                 </div>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Consanguinity & Kinship</h3>
-                <p class="text-sm text-gray-600 dark:text-gray-400">Wright's path coefficient calculates consanguinity coefficients automatically. Values display on relationship lines and feed directly into risk models.</p>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Consanguinity, Kinship &amp; IBD</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Wright's path coefficient calculates consanguinity automatically on relationship lines and into the risk models. A relatedness module adds full pairwise kinship coefficients, per-individual inbreeding, Jacquard k0/k1/k2 identity coefficients, and gene-dropping simulation &mdash; for education and research.</p>
             </div>
             <div class="feature-card bg-white dark:bg-brand-900/40 rounded-xl p-6 border border-gray-100 dark:border-brand-800 reveal">
                 <div class="w-12 h-12 rounded-xl bg-brand-50 dark:bg-brand-900 flex items-center justify-center mb-4">
@@ -1369,7 +1381,7 @@
                     <svg class="w-6 h-6 text-clinical-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
                 </div>
                 <h3 class="text-lg font-semibold text-white mb-2">MCP Server</h3>
-                <p class="text-sm text-brand-200">Let AI agents work with pedigrees via the Model Context Protocol. 15 tools for Claude Desktop, custom agents, or any MCP-compatible client. Direct database access, no HTTP overhead.</p>
+                <p class="text-sm text-brand-200">Let AI agents work with pedigrees via the Model Context Protocol. 27 tools for Claude Desktop, custom agents, or any MCP-compatible client. Direct database access, no HTTP overhead.</p>
             </div>
             <div class="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10 hover:border-brand-400/30 transition-all duration-300 reveal" style="transition-delay:0.25s">
                 <div class="w-12 h-12 rounded-xl bg-accent-500/20 flex items-center justify-center mb-4">
@@ -1953,7 +1965,7 @@ END TESTIMONIALS -->
         {
             "@type": "Question",
             "name": "Can I connect AI agents to Evagene using MCP?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Evagene includes an MCP (Model Context Protocol) server that exposes 15 tools to AI agents. Compatible with Claude Desktop, custom agents, and any MCP client. Tools include list_pedigrees, get_pedigree, create_pedigree, add_individual, update_individual, add_relationship, add_offspring, describe_pedigree, get_pedigree_summary, export_gedcom, and import_gedcom, plus list_guide_categories, search_guides, and get_guide for the help catalogue and related_concepts for the educational correlation graph. The MCP server authenticates via API key, connects directly to the SQLite database, and runs alongside the web application." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes. Evagene includes an MCP (Model Context Protocol) server that exposes 27 tools to AI agents. Compatible with Claude Desktop, custom agents, and any MCP client. Tools include list_pedigrees, get_pedigree, create_pedigree, add_individual, update_individual, add_relationship, add_offspring, describe_pedigree, get_pedigree_summary, export_gedcom, and import_gedcom; list_guide_categories, search_guides, and get_guide for the help catalogue; related_concepts for the educational correlation graph; the guided family-history questionnaire tools; and get_disease_ontology, list_hpo_terms, attach_phenotype, phenotype_to_genes, export_phenopacket, import_phenopacket, and relatedness_coefficients. The MCP server authenticates via API key, connects directly to the SQLite database, and runs alongside the web application." }
         },
         {
             "@type": "Question",

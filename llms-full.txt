@@ -1,10 +1,10 @@
 # Evagene — Full Documentation for AI Systems
 
-> Pedigree drawing, management, and modelling in the browser — standards-compliant notation, twenty published risk-model algorithms, a 1,900-entry catalogue, GEDCOM interoperability, and a CanRisk / BOADICEA export bridge.
+> Pedigree drawing, management, and modelling in the browser — standards-compliant notation, twenty-one published risk-model algorithms, a 1,900-entry catalogue, HPO phenotyping, GEDCOM / Phenopackets interoperability, and a CanRisk / BOADICEA export bridge.
 
 ## About Evagene
 
-Evagene is a browser-based platform for drawing, managing, and modelling family pedigrees. Users can draw and annotate pedigrees using standards-compliant genetic notation on an HTML5 canvas, attach structured clinical and family-history data, explore twenty published risk-model algorithms across four families (Mendelian single-gene and adjacent, polygenic / multifactorial liability-threshold, cancer family-history scoring, and a CanRisk / BOADICEA export bridge), and move data in and out via GEDCOM 5.5.1, JSON, 23andMe, and other common formats.
+Evagene is a browser-based platform for drawing, managing, and modelling family pedigrees. Users can draw and annotate pedigrees using standards-compliant genetic notation on an HTML5 canvas, attach structured clinical and family-history data, explore twenty-one published risk-model algorithms across four families (Mendelian single-gene and adjacent, polygenic / multifactorial liability-threshold, cancer family-history scoring, and a CanRisk / BOADICEA export bridge), and move data in and out via GEDCOM 5.5.1, GA4GH Phenopackets v2, JSON, 23andMe, and other common formats.
 
 **Intended use.** Evagene is for teaching, research, and structured family-history documentation. It is not a medical device and is not intended to diagnose, prevent, monitor, predict, treat, or manage disease; determine eligibility for screening, testing, referral, or treatment; or replace professional clinical judgement. Outputs are illustrative and for educational / research purposes only. Evagene is not FDA-cleared, CE-marked, or UKCA-marked.
 
@@ -51,8 +51,8 @@ Clicking any individual, relationship, or offspring opens a floating panel for d
 
 ### Disease Management
 
-Catalogue of 230+ diseases spanning oncology, cardiology, neurology, metabolic disorders, and 20+ multifactorial / polygenic / oligogenic complex conditions. A dedicated disease management dashboard lets users search, browse by taxonomy, apply quick-add presets (heritable cancers, cardiovascular), filter by inheritance class, and assign custom colours. Each disease entry includes:
-- ICD-10 code and OMIM ID
+Catalogue of 230+ diseases spanning oncology, cardiology, neurology, metabolic disorders, and 20+ multifactorial / polygenic / oligogenic complex conditions. Every catalogue entry is cross-referenced to five ontology systems — ICD-10, OMIM, MONDO, Orphanet (ORPHA), and the Disease Ontology (DOID) — as CURIE identifiers, so a disease can be matched to whichever coding system a learner or research dataset uses. A dedicated disease management dashboard lets users search, browse by taxonomy, apply quick-add presets (heritable cancers, cardiovascular), filter by inheritance class, and assign custom colours. Each disease entry includes:
+- ICD-10, OMIM, MONDO, Orphanet (ORPHA), and Disease Ontology (DOID) cross-reference identifiers
 - Colour coding and categorisation
 - Inheritance pattern (autosomal dominant/recessive, X-linked, mitochondrial, multifactorial, polygenic, oligogenic)
 - Genetic parameters: penetrance, age-dependent penetrance tables, homozygous lethality, anticipation, germline mosaicism rate, de novo rate, carrier frequencies by ancestry, biological fitness
@@ -94,9 +94,18 @@ Evagene includes a hand-curated correlation graph: a catalogue of educational as
 - Access: the open GET/POST /api/correlations* endpoints (reference data; not gated by the intended-use acknowledgement) and the MCP related_concepts tool (always carries the educational-use disclaimer).
 - Boundaries: does not diagnose, produces no risk number, runs no inheritance analysis, and asserts nothing about any individual. A shared_gene edge is a catalogue relationship, not a claim of shared risk, mechanism, or inheritance.
 
+### HPO Phenotyping & Phenotype-to-Gene
+
+Evagene includes a curated Human Phenotype Ontology (HPO) catalogue that users can browse and search, and a phenotyping panel for recording structured phenotype features against individuals. It is data entry plus educational reference data — documentation of observed family-history detail, not clinical diagnosis or assessment.
+
+- HPO catalogue: a browsable / searchable catalogue of HPO terms (each with its HPO identifier and definition), in the same reference-data family as the disease, trait, allergy, and clinical-test catalogues.
+- Phenotype features per individual: for any individual a user can attach an HPO term as either an observed feature or an explicitly excluded feature, each optionally qualified with onset and severity. Excluded features are recorded as deliberately-noted absences, which matters for honest family-history documentation. This is structured data capture for teaching, training, and research — not a diagnosis, and no risk number is produced from it.
+- Phenotype-to-gene educational associations: from the HPO features recorded on an individual, Evagene surfaces candidate associated genes drawn from published HPO-to-gene reference data. This is reference data in exactly the same family as Related Concepts: a list of candidate associations for exploration only. It is never a ranked likelihood, never a probability, never a diagnosis, and never a recommendation. It asserts nothing about the individual — it simply shows which genes the published ontology associates with the recorded phenotype terms, so a learner or researcher can explore them.
+- Boundaries: HPO phenotyping and phenotype-to-gene associations diagnose nothing, score nothing, and rank nothing. They produce no risk number, run no inheritance analysis, and make no clinical, screening, testing, or referral recommendation. Everything is educational reference data and documentation; nothing is inferred or asserted about any person.
+
 ### Risk Analysis
 
-Evagene implements four families of published risk-model algorithms on the same pedigree document, for research, teaching, and exploratory use. Outputs are illustrative educational / research artefacts, not clinical recommendations:
+Evagene implements twenty-one published risk-model algorithms in four families on the same pedigree document, for research, teaching, and exploratory use. Outputs are illustrative educational / research artefacts, not clinical recommendations:
 
 **1. Single-gene and adjacent (built-in):**
 - Autosomal dominant (with reduced penetrance, age-dependent penetrance, anticipation, germline mosaicism, parent-of-origin bias, locus heterogeneity, linkage disequilibrium)
@@ -133,6 +142,7 @@ Family-history scoring models (built-in, no R sidecar required):
 - Revised Bethesda Guidelines (Umar 2004): MSI / IHC testing triggers for colorectal tumours
 - Gail (NCI BCRAT; Gail 1989, updated 1999 / 2007 / 2011 / 2017): 5-year and lifetime breast-cancer risk using reproductive, benign-biopsy, atypia, first-degree relatives, and race/ethnicity baselines
 - Tyrer-Cuzick (published Tyrer/Duffy/Cuzick 2004 algorithm): 10-year and lifetime breast-cancer risk including family history, menarche, menopause, parity, HRT, BMI, mammographic density (BI-RADS 1–4), atypical hyperplasia, LCIS, Ashkenazi ancestry. **Clearly labelled in-app and in reports as an approximation — not the official IBIS Breast Cancer Risk Evaluator binary, whose full coefficients are not publicly released.**
+- Prostate-cancer family-history scoring (illustrative / educational): a twenty-first risk-model algorithm that represents prostate-cancer family history from the pedigree — number and degree of affected relatives, ages at diagnosis, and bilateral / early-onset features. Gated behind the intended-use acknowledgement. Where it cites a published threshold it attributes it to the external guideline and states plainly that Evagene does not make this recommendation. The output is an illustrative educational / research artefact, not a clinical recommendation, screening trigger, or referral decision.
 
 **4. External-tool bridges (pedigree export):**
 
@@ -184,6 +194,14 @@ Floating notes can be anchored to any individual. When anchored, notes follow th
 
 Wright's path coefficient method calculates consanguinity coefficients for all relationships. Coefficients are displayed on relationship lines, cached for performance, and fed into risk calculations.
 
+A dedicated relatedness / IBD analysis module extends this for educational and research exploration of pedigree structure (gated behind the intended-use acknowledgement). For a given pedigree it computes:
+- Full pairwise kinship coefficients across every pair of individuals.
+- Per-individual inbreeding coefficients.
+- Jacquard condensed identity coefficients and the expected genome-wide identity-by-descent (IBD) sharing proportions k0 / k1 / k2 for each pair.
+- A gene-dropping relatedness simulation that drops founder alleles through the pedigree to illustrate, empirically, how relatedness and IBD sharing arise from the family structure.
+
+This module is an educational and research tool for studying pedigree relatedness from documented family structure. It is not a forensic, identity-testing, parentage-testing, or relationship-verification tool, and it makes no clinical or diagnostic claim about any individual.
+
 ### Advanced Search
 
 A query builder allows filtering individuals by sex, disease affection status, death status, age range, genetic test results, clinical test results, treatments, and events. Searches support relational scope (parents, siblings, children, ancestors, descendants) with AND/OR match modes.
@@ -194,6 +212,7 @@ A query builder allows filtering individuals by sex, disease affection status, d
 |--------|--------|--------|-------|
 | JSON | Yes | Yes | Full pedigree snapshot |
 | GEDCOM 5.5.1 | Yes | Yes | Genealogy interoperability |
+| GA4GH Phenopackets v2 | Yes | Yes | GA4GH genomics interoperability — phenotype (HPO) and pedigree exchange |
 | XEG | Yes | — | Legacy Evagene v1 migration |
 | 23andMe | Yes | — | Genotype, ancestry, traits, health history, conflict resolution |
 | Image | Yes | — | OCR and shape detection from pedigree chart images |
@@ -254,7 +273,7 @@ Push HMAC-SHA256 signed HTTP POST notifications when pedigree data changes. Eigh
 Reusable custom AI prompt templates with variable injection. Templates have a system prompt (AI role) and a user prompt template with placeholders: {{pedigree_description}}, {{proband_name}}, {{proband_sex}}, {{disease_list}}, {{risk_summary}}. Variables are replaced with computed values at execution time. Templates can be shared publicly. Maximum 50 per user. Execution uses BYOK key or server default (subject to quota).
 
 ### MCP Server (Model Context Protocol)
-Stdio-mode MCP server exposing 15 tools to AI agents: eleven pedigree tools (list_pedigrees, get_pedigree, create_pedigree, add_individual, update_individual, add_relationship, add_offspring, describe_pedigree, get_pedigree_summary, export_gedcom, import_gedcom), three help-catalogue tools (list_guide_categories, search_guides, get_guide), and related_concepts (educational correlation graph; always carries the educational-use disclaimer). Authenticated via EVAGENE_API_KEY environment variable. Connects directly to SQLite database (no HTTP roundtrip). Compatible with Claude Desktop, Claude Code, and any MCP-capable client. Changes are immediately visible in the web UI.
+Stdio-mode MCP server exposing 27 tools to AI agents: pedigree tools (list_pedigrees, get_pedigree, create_pedigree, add_individual, update_individual, add_relationship, add_offspring, describe_pedigree, get_pedigree_summary, export_gedcom, import_gedcom), help-catalogue tools (list_guide_categories, search_guides, get_guide), related_concepts (educational correlation graph; always carries the educational-use disclaimer), and tools covering the newer educational / research surfaces — HPO phenotyping (browse / search the HPO catalogue and record observed or excluded phenotype features), phenotype-to-gene educational associations (candidate associated genes as reference data only — never a ranked likelihood or diagnosis), disease-ontology cross-references (ICD-10 / OMIM / MONDO / Orphanet / DOID), GA4GH Phenopackets v2 import and export, and the relatedness / IBD analysis (pairwise kinship, inbreeding, Jacquard k0 / k1 / k2; educational / research, never forensic). Authenticated via EVAGENE_API_KEY environment variable. Connects directly to SQLite database (no HTTP roundtrip). Compatible with Claude Desktop, Claude Code, and any MCP-capable client. Changes are immediately visible in the web UI.
 
 ### Embeddable Pedigree Viewer
 Drop-in pedigree diagrams for third-party websites via three methods: (1) Full HTML page via iframe at /api/embed/{pedigree_id}, (2) Raw SVG at /api/embed/{pedigree_id}/svg, (3) JavaScript snippet at /api/embed/snippet.js that auto-discovers data-evagene-pedigree attributes. SVG uses standard pedigree notation: square=male, circle=female, diamond=unknown, solid fill=affected, centre dot=carrier, diagonal line=deceased, arrow=proband. Authentication via API key or public pedigree flag. Responsive SVG with viewBox scaling (max 1200x900).
@@ -449,7 +468,7 @@ Evagene computes parental germline mosaicism posterior probability from pedigree
 
 The pedigree pillar pages are the canonical entry points for the four highest-volume search queries in this space:
 
-- [Pedigree drawing tool](https://evagene.com/pedigree-drawing-tool.html) — pillar for "pedigree drawing tool"; in-browser pedigree drawing tool with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and twenty published risk-model algorithm implementations
+- [Pedigree drawing tool](https://evagene.com/pedigree-drawing-tool.html) — pillar for "pedigree drawing tool"; in-browser pedigree drawing tool with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and twenty-one published risk-model algorithm implementations
 - [Pedigree chart](https://evagene.com/pedigree-chart.html) — pillar for "pedigree chart"; definition, symbols, three-generation capture, inheritance patterns visible in a pedigree
 - [Clinical pedigree drawing](https://evagene.com/clinical-pedigree-drawing.html) — pillar for "clinical pedigree drawing"; NSGC 2022 conventions, three-generation capture, consanguinity loops, pregnancy outcomes, and the boundary between in-tool and canonical computation
 - [Pedigree drawing software](https://evagene.com/pedigree-drawing-software.html) — pillar for "pedigree drawing"; complete guide with software comparison
@@ -472,7 +491,7 @@ The pedigree pillar pages are the canonical entry points for the four highest-vo
 ### Platform, API and integration guides
 
 - [Pedigree REST API](https://evagene.com/pedigree-api.html) — scoped keys, rate limits, endpoints
-- [Pedigree MCP server](https://evagene.com/pedigree-mcp-server.html) — 15 tools for Claude Desktop, Claude Code, and any MCP-compatible AI agent
+- [Pedigree MCP server](https://evagene.com/pedigree-mcp-server.html) — 27 tools for Claude Desktop, Claude Code, and any MCP-compatible AI agent
 - [LLM pedigree analysis](https://evagene.com/llm-pedigree-analysis.html) — BYOK with Anthropic Claude and OpenAI GPT
 - [Embeddable pedigree viewer](https://evagene.com/embeddable-pedigree-viewer.html) — iframe, raw SVG, or JavaScript snippet
 - [HL7 FHIR pedigree](https://evagene.com/hl7-fhir-pedigree.html) — FHIR FamilyMemberHistory and Genomics IG
