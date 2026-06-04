@@ -4060,9 +4060,310 @@
         "population-genetics",
         "mosquito"
       ]
+    },
+    {
+      "audiences": [
+        "oncologists",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "NHS England announced on 3 June 2026 that a medicine called mirvetuximab soravtansine is now available on the NHS for some women with ovarian cancer. Ovarian cancer is a cancer that begins in the ovaries, the organs that produce eggs.\n\nThis medicine is what doctors call an antibody-drug conjugate — it is designed to find cancer cells that carry a specific protein on their surface (called folate receptor alpha) and deliver a cancer-killing substance directly to them. It is intended for women whose ovarian cancer has stopped responding to standard chemotherapy treatments.\n\nThe drug was approved following a large clinical trial called MIRASOL, which showed it helped patients live longer compared with other available chemotherapy options in this group.\n\nNot every patient with ovarian cancer will be eligible — a laboratory test is needed first to check whether their cancer cells carry the specific protein the medicine targets.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "NHS England makes mirvetuximab soravtansine available for folate receptor-positive ovarian cancer",
+      "is_preprint": false,
+      "run_date": "2026-06-04",
+      "run_iso": "2026-06-04T10:37:24Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-06-03T23:01:32Z",
+        "novelty": 8
+      },
+      "slug": "nhs-mirvetuximab-soravtansine-ovarian-cancer-rollout",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "ogl",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-03T23:01:32Z",
+          "publisher": "NHS England",
+          "title": "NHS rolls out life-extending drug for hundreds of women with ovarian cancer",
+          "url": "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/"
+        }
+      ],
+      "standfirst": "The antibody-drug conjugate mirvetuximab soravtansine has been added to the NHS England treatment portfolio for platinum-resistant ovarian cancer — the first new approved option in this setting in more than two decades.",
+      "summary": "NHS England announced on 3 June 2026 that mirvetuximab soravtansine (brand name Elahere), an antibody-drug conjugate targeting folate receptor alpha (FRα), is now available on the NHS for women with FRα-positive, platinum-resistant ovarian cancer whose disease has not responded to standard chemotherapy.\n\nThe drug works by delivering a cytotoxic payload — the maytansinoid DM4 — directly to tumour cells that overexpress folate receptor alpha, a protein commonly found on epithelial ovarian cancer cells. Eligibility depends on confirmation of FRα expression, making companion-diagnostic testing a prerequisite for prescribing. NHS England's decision follows NICE technology appraisal guidance and a commercial access arrangement with the manufacturer, ImmunoGen, which was acquired by AbbVie in 2024.\n\nThe MIRASOL phase III trial, published in the New England Journal of Medicine in 2023, formed the primary evidence base. That trial demonstrated improved progression-free and overall survival compared with investigator's choice chemotherapy in the FRα-high population. NHS England states the drug will benefit hundreds of women annually in England.\n\nThe announcement represents a meaningful expansion of the treatment landscape for a disease in which late-line options have historically been limited. Readers interested in the eligibility criteria and companion diagnostic requirements should consult the published NICE guidance and NHS England clinical commissioning policy.",
+      "tags": [
+        "ovarian-cancer, mirvetuximab-soravtansine",
+        "antibody-drug-conjugate",
+        "folate-receptor-alpha",
+        "nhs-england",
+        "platinum-resistant",
+        "cancer-treatment"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "gps",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "Scientists have been working on blood tests that could detect many different types of cancer early, before symptoms appear. One of the biggest companies in this area is called GRAIL, and their test is called Galleri.\n\nA large study — called a randomised controlled trial, which is considered the most rigorous type of medical research — tested whether the Galleri blood test helped reduce the number of cancers found at a late, harder-to-treat stage. The study did not find a clear benefit on its main goal.\n\nThis does not mean the technology is worthless, but it does mean researchers need to learn more about which patients it might help, and how health services should respond to its results. Scientists and doctors are carefully reviewing what the findings mean for future research.\n\nIn the UK, the NHS has been running its own separate trial of a similar test. Results from that trial have not yet been published.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "GRAIL multi-cancer early detection trial returns negative primary endpoint — oncologists weigh lessons",
+      "is_preprint": false,
+      "run_date": "2026-06-04",
+      "run_iso": "2026-06-04T10:37:24Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 9,
+        "newest_iso": "2026-06-04T08:30:00Z",
+        "novelty": 8
+      },
+      "slug": "grail-multi-cancer-early-detection-trial-negative-results",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/06/GRAIL-STOCK_Aug2025-34-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-04T08:30:00Z",
+          "publisher": "STAT News",
+          "title": "Opinion: Grail's multi-cancer early detection trial was negative. But as an oncologist, I see more to this story",
+          "url": "https://www.statnews.com/2026/06/04/grail-multi-cancer-early-detection-test-trial-results/"
+        }
+      ],
+      "standfirst": "The world's first randomised trial of a multi-cancer early detection blood test did not meet its primary endpoint, though commentators argue the results carry important signals for the field of early-detection genomics.",
+      "summary": "Writing in STAT News on 4 June 2026, an oncologist offers analysis of the randomised controlled trial assessing GRAIL's Galleri multi-cancer early detection (MCED) test — widely regarded as the first prospective, randomised evaluation of an MCED test at population scale. The trial's primary endpoint was not met, meaning the test did not demonstrate a statistically significant reduction in late-stage cancer diagnoses or cancer-specific mortality in the trial population over the study period.\n\nThe commentary identifies three lessons for researchers and policy audiences. First, the biology of early detection is more complex than sensitivity and specificity data from retrospective studies suggest: lead-time bias and overdiagnosis remain live concerns that require long follow-up to disentangle. Second, the negative result does not necessarily invalidate the underlying genomic technology — cell-free DNA methylation signatures can detect cancer-derived signal, but whether earlier detection translates to lives saved depends on downstream clinical pathways. Third, trial design choices — particularly endpoint selection and follow-up duration — will shape how future MCED evaluations are interpreted.\n\nGRAIL has not yet published a peer-reviewed primary trial report in a journal; the commentary is based on data presented at a conference. Readers seeking the primary data should consult the published trial registration and any forthcoming peer-reviewed publication. The result has direct relevance for NHS England's ongoing evaluation of MCED technology through the NHS-Galleri trial, for which results continue to be awaited.",
+      "tags": [
+        "multi-cancer-early-detection",
+        "grail",
+        "galleri",
+        "cell-free-dna",
+        "cancer-screening",
+        "clinical-trial-news",
+        "nhs-galleri-trial"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists"
+      ],
+      "for_patients": null,
+      "headline": "Revolution Medicines' KRAS inhibitor daraxonrasib draws attention beyond pancreatic cancer after ASCO data",
+      "is_preprint": false,
+      "run_date": "2026-06-04",
+      "run_iso": "2026-06-04T10:37:24Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-04T10:30:00Z",
+        "novelty": 4
+      },
+      "slug": "revolution-medicines-daraxonrasib-kras-pancreatic-expansion",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/08/26645704270_e23f5b8db8_o-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-04T10:30:00Z",
+          "publisher": "STAT News",
+          "title": "Does Revolution Medicines' pancreatic cancer drug have even greater potential?",
+          "url": "https://www.statnews.com/2026/06/04/revolution-medicines-daraxonrasib-pancreatic-cancer/"
+        }
+      ],
+      "standfirst": "Following positive trial results reported at ASCO 2026, analysts and clinicians are examining how the KRAS(G12D) inhibitor daraxonrasib might be extended to other KRAS-driven tumour types.",
+      "summary": "STAT News reported on 4 June 2026 that discussion within oncology has moved rapidly from the initial positive trial data for Revolution Medicines' daraxonrasib — a RAS(ON) inhibitor targeting KRAS(G12D) — towards its potential application in tumour types beyond pancreatic ductal adenocarcinoma (PDAC).\n\nDaraxonrasib targets the active, GTP-bound form of KRAS(G12D), the most common KRAS mutation in PDAC and a long-sought but historically undruggable target. The drug has not yet received regulatory approval; the ASCO 2026 data that drew widespread attention described response rates and survival signals in PDAC patients, a disease historically associated with very poor prognosis and limited systemic therapy options.\n\nThe STAT News piece, which sits behind a STAT+ paywall, reports that researchers and industry observers are now discussing expansion into colorectal cancer and non-small cell lung cancer, where KRAS(G12D) mutations also occur, albeit at lower frequencies than in PDAC. The article notes that any such expansion would require dedicated clinical trials.\n\nGenetic Current covered the primary ASCO trial results for daraxonrasib in PDAC on 1 June 2026. The present item represents follow-on commentary rather than new primary data. It is included here because the discussion of KRAS mutation prevalence across tumour types is of substantive educational relevance to oncologists and researchers working in cancer genomics.",
+      "tags": [
+        "kras",
+        "daraxonrasib",
+        "pancreatic-cancer",
+        "targeted-therapy",
+        "ras-inhibition",
+        "cancer-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "BAF protein shown to suppress cGAS-STING innate immune activation at chromatin bridges in PLOS Genetics study",
+      "is_preprint": false,
+      "run_date": "2026-06-04",
+      "run_iso": "2026-06-04T10:37:24Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-03T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "barrier-autointegration-factor-cgas-sting-chromatin-bridges",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-03T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Barrier-to-autointegration factor protects against the cGAS-STING response to chromatin bridges",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012191"
+        }
+      ],
+      "standfirst": "Researchers at Université de Montréal have published evidence that the barrier-to-autointegration factor (BAF) protein protects against aberrant innate immune signalling triggered by chromatin bridges, clarifying how cells distinguish self-DNA from damage-derived immunostimulatory DNA.",
+      "summary": "A study published on 3 June 2026 in *PLOS Genetics* by Laura Chastant, Karine Normandin, Firas El-Mortada, Marc J. Servant, Vincent Archambault and colleagues at Université de Montréal investigates how cells avoid misfiring the cGAS-STING innate immune pathway in the presence of chromatin bridges — aberrant DNA structures that can form when chromosomes fail to segregate correctly during cell division.\n\nThe cGAS-STING pathway is a central sensor of cytosolic DNA, normally activated by viral or bacterial DNA but capable of being triggered by displaced self-DNA, including DNA contained in micronuclei formed after mitotic errors. Whether cGAS-STING activation during mitotic defects is primarily a consequence of micronuclei per se or of other concurrently arising structural aberrations, such as chromatin bridges, had remained unclear.\n\nThe authors demonstrate that barrier-to-autointegration factor (BAF), a chromatin-associated protein, acts as a suppressor of cGAS-STING activation specifically at chromatin bridges, preventing IRF3-dependent proinflammatory transcription. The findings help delineate the circumstances under which genomic instability escalates into inflammation — a distinction with potential relevance for understanding the inflammatory tumour microenvironment and conditions characterised by sterile inflammation driven by self-DNA sensing.\n\nThe study is peer-reviewed basic research published in an open-access journal. It does not present clinical data or propose any diagnostic or therapeutic application.",
+      "tags": [
+        "cgas-sting",
+        "innate-immunity",
+        "chromatin-bridges",
+        "genomic-instability",
+        "baf",
+        "micronuclei",
+        "inflammation",
+        "cell-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study demonstrates intramolecular epistasis drives clustering of adaptive substitutions in Drosophila Trio protein",
+      "is_preprint": false,
+      "run_date": "2026-06-04",
+      "run_iso": "2026-06-04T10:37:24Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-03T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "intramolecular-epistasis-drosophila-trio-clustered-substitutions",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-03T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Epistasis among clustered lineage-specific amino acid substitutions in the Drosophila Trio protein",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012175"
+        }
+      ],
+      "standfirst": "Researchers at Columbia University have used population genetic and functional approaches to show that spatially clustered amino acid substitutions in the Drosophila Trio protein arise through intramolecular epistasis, providing rare direct evidence for a theoretically predicted but empirically understudied evolutionary constraint.",
+      "summary": "A paper published in *PLOS Genetics* on 3 June 2026 by Flora Borne, Andrew M. Taverner, and Peter Andolfatto (Columbia University) addresses a longstanding question in molecular evolution: why do adaptive amino acid substitutions sometimes cluster in particular regions of a protein?\n\nUsing a population genetic screen applied to the Trio protein in *Drosophila*, the authors identify lineage-specific adaptive substitutions that occur in spatial proximity within the protein structure. They then provide direct empirical evidence that these clustered substitutions interact epistatically — meaning the fitness effect of one substitution depends on the presence of another at a nearby site. Such intramolecular epistasis has been predicted computationally from genome-wide analyses but has rarely been demonstrated experimentally at the level of specific residues.\n\nThe findings suggest that epistatic interactions constrain which evolutionary paths are accessible to a protein: once an initial substitution occurs at a site, it reshapes the fitness landscape for neighbouring residues, making further substitutions at those positions more or less likely. This has implications for understanding the tempo and trajectory of protein evolution and for interpreting patterns of sequence conservation and divergence observed in comparative genomics.\n\nThe paper contributes to the theoretical toolkit for evolutionary geneticists and structural biologists seeking to understand adaptive evolution at the protein level.",
+      "tags": [
+        "epistasis",
+        "adaptive-evolution",
+        "protein-evolution",
+        "drosophila",
+        "molecular-evolution",
+        "population-genetics",
+        "structural-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "MAGI preprint proposes mechanistic variant annotation pipeline built on genomic transformer models",
+      "is_preprint": true,
+      "run_date": "2026-06-04",
+      "run_iso": "2026-06-04T10:37:24Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-06-03T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "magi-genomic-foundation-model-variant-mechanistic-annotation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-03T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "MAGI: Mechanistic Consequences of Genetic Variants via Genomic Foundation Models",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.31.729117v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers have posted a preprint describing MAGI, a computational method that uses genomic foundation models to generate mechanistic annotations of genetic variants — aiming to move beyond binary pathogenicity labels towards interpretable biological explanations.",
+      "summary": "A preprint deposited on bioRxiv on 3 June 2026 introduces MAGI (Mechanistic Annotation of Genomic Impacts), a computational pipeline designed to address a widely acknowledged limitation of current variant interpretation tools: that most existing predictors output a pathogenicity probability without explaining the underlying molecular mechanism.\n\nMAGI leverages a genomic transformer model to generate sequence-based predictions of how a given variant alters regulatory grammar — for instance, by disrupting splice sites, transcription factor binding motifs, or chromatin accessibility signals. The method is positioned as a research and educational tool for generating mechanistic hypotheses about variants of uncertain significance (VUS), rather than as a clinical decision support application.\n\nThe authors describe a pipeline that takes a variant as input, queries the transformer model for predicted functional consequences across multiple molecular layers, and returns an annotation summarising the most probable mechanistic impacts. The preprint includes benchmarking against curated variant datasets and case studies illustrating how the framework could be applied to interpret non-coding variants, which remain particularly challenging for conventional prediction tools.\n\nThe authors acknowledge that genomic foundation models have limitations: they are trained on patterns in reference genome sequences and may not capture context-specific regulation. **This is a preprint that has not yet been peer-reviewed; its methods, benchmarking claims, and conclusions should be treated as preliminary.**",
+      "tags": [
+        "variant-interpretation",
+        "genomic-foundation-model",
+        "vus",
+        "mechanistic-annotation",
+        "non-coding-variants",
+        "computational-genomics",
+        "ai-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies achiasmatic meiosis as mechanism enabling clonal genome propagation in hybrid crucian carp females",
+      "is_preprint": true,
+      "run_date": "2026-06-04",
+      "run_iso": "2026-06-04T10:37:24Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-03T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "achiasmatic-meiosis-carassius-gibelio-clonal-b-chromosomes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-03T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Achiasmatic meiosis underlies propagation of clonal genome and B chromosomes in hexaploid Carassius gibelio females but not males",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.30.728974v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers studying the hexaploid crucian carp Carassius gibelio report that asexual females use meiosis without chromosomal crossover — achiasmatic meiosis — to produce unreduced eggs carrying both the clonal genome and supernumerary B chromosomes.",
+      "summary": "A preprint posted to bioRxiv on 3 June 2026 investigates the cellular basis of asexual reproduction in *Carassius gibelio* (the Prussian carp or silver crucian carp), a hexaploid hybrid fish complex in which females reproduce largely clonally — meaning offspring are genetically near-identical to the mother — whilst males of co-occurring sexual tetraploid lineages provide sperm that activate but do not genetically contribute to development.\n\nThe authors characterised meiotic progression and gametogenesis in both the asexual hexaploid females and sexual tetraploid conspecifics. In asexual females, they find that meiosis proceeds without the formation of chiasmata — the physical crossover structures between homologous chromosomes that normally generate genetic diversity and are essential for accurate chromosome segregation in canonical meiosis. This achiasmatic meiosis allows females to produce unreduced (diploid rather than haploid) eggs that preserve the full clonal genome, avoiding the genetic reshuffling that would otherwise disrupt clonal inheritance.\n\nAdditionally, the authors document that the same achiasmatic mechanism facilitates reliable transmission of supernumerary B chromosomes — selfish genetic elements that are not part of the standard karyotype — to offspring in asexual but not sexual lineages.\n\nThe work contributes to understanding how transitions from sexual to asexual reproduction are mechanistically achieved in vertebrates, a question with broader relevance to evolutionary genetics and reproductive biology. **This is a preprint that has not yet undergone peer review.**",
+      "tags": [
+        "achiasmatic-meiosis",
+        "asexual-reproduction",
+        "b-chromosomes",
+        "carassius-gibelio",
+        "meiosis",
+        "evolutionary-genetics",
+        "fish-genetics",
+        "clonal-reproduction"
+      ]
     }
   ],
-  "last_run": "2026-06-03T11:55:44.292835+00:00",
+  "last_run": "2026-06-04T10:39:38.416026+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
@@ -4071,17 +4372,21 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012156": "2026-05-21T10:40:08.951688+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012157": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012158": "2026-05-21T10:40:08.951688+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012161": "2026-06-04T10:39:38.416026+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012163": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012165": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012168": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012169": "2026-05-29T10:45:46.729042+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012171": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172": "2026-05-29T10:45:46.729042+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012175": "2026-06-04T10:39:38.416026+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012191": "2026-06-04T10:39:38.416026+00:00",
     "https://news.cancerresearchuk.org/2026/05/22/skin-cancer-cases-hit-record-high-in-the-uk/": "2026-05-22T10:24:42.174074+00:00",
     "https://news.cancerresearchuk.org/2026/05/25/beyond-the-research-turning-evidence-into-impact/": "2026-05-25T11:08:44.871677+00:00",
     "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
     "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
     "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/": "2026-06-02T11:16:52.725456+00:00",
+    "https://news.cancerresearchuk.org/2026/06/03/preventing-a-cancer-from-ever-developing-is-one-of-the-greatest-contributions-we-can-make-raymond-dubois-wins-outstanding-achievement-in-cancer-prevention-research-award/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.15.725556v1?rss=1": "2026-05-22T10:24:42.174074+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725703v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.17.725730v1?rss=1": "2026-05-21T10:40:08.951688+00:00",
@@ -4133,11 +4438,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728873v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728884v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728916v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.30.728974v1?rss=1": "2026-06-04T10:39:38.416026+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.30.728989v1?rss=1": "2026-06-02T11:16:52.725456+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.30.728992v1?rss=1": "2026-06-02T11:16:52.725456+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.05.31.729117v1?rss=1": "2026-06-04T10:39:38.416026+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.01.729174v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.01.729390v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.02.729377v1?rss=1": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/05/supermarket-scans-spotting-thousands-of-cancers/": "2026-05-25T11:08:44.871677+00:00",
+    "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.phgfoundation.org/blog/rethinking-hba1c-genetics-diversity-and-diabetes-diagnosis/": "2026-05-22T10:24:42.174074+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260520093726.htm": "2026-05-22T10:24:42.174074+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260520233221.htm": "2026-05-21T10:40:08.951688+00:00",
@@ -4167,6 +4477,7 @@
     "https://www.sciencedaily.com/releases/2026/05/260530053429.htm": "2026-06-02T11:16:52.725456+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260601025349.htm": "2026-06-03T11:55:44.292835+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260602021641.htm": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260603023921.htm": "2026-06-04T10:39:38.416026+00:00",
     "https://www.statnews.com/2026/05/20/biotech-news-drugmakers-guard-ip-more-tightly-amid-china-competiti/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/democrats-force-vote-to-end-medicare-ai-prior-authorization-pilot/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/2026/05/20/ebola-patients-suffering-health-care-workers/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
@@ -4288,11 +4599,23 @@
     "https://www.statnews.com/2026/06/02/nih-scientist-federal-charges-mpox/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/2026/06/02/telehealth-virtual-rx-boom-corporate-practice-of-medicine-laws/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/03/ai-arms-race-medical-building-waste/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/03/alnylam-partner-with-inceptive-nucleics-ai-foundation-models/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.statnews.com/2026/06/03/amish-public-health-vaccines-autism-first-opinion-podcast/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/03/biotech-news-legend-biotech-emerges-as-rare-market-winner/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.statnews.com/2026/06/03/eating-disorders-men-military-troops-veterans/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/03/health-news-is-the-military-fueling-eating-disorders/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.statnews.com/2026/06/03/highmark-health-sues-halomd-no-surprises-act-arbitration-disputes/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.statnews.com/2026/06/03/medicaid-work-requirements-experts-say-millions-will-lose-coverage/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/2026/06/03/nih-cuts-infectious-disease-research-funding-hampers-ebola-preparedness/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/03/pope-encyclical-catholic-health-system-implications-ai-prognosis/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.statnews.com/2026/06/03/trump-administration-to-strip-job-protections-of-top-nih-officials-grants-research/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.statnews.com/2026/06/03/ultra-processed-food-experts-want-sweeping-policy-changes/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/2026/06/04/after-doctors-patient-ai-scribes-track-visits/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.statnews.com/2026/06/04/grail-multi-cancer-early-detection-test-trial-results/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.statnews.com/2026/06/04/longevity-science-vitalist-bay-festival-status-report-alex-hogan/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.statnews.com/2026/06/04/male-puberty-timing-long-term-health-risk-prediction/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.statnews.com/2026/06/04/medicaid-work-requirements-final-rule-cancer-patients/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.statnews.com/2026/06/04/revolution-medicines-daraxonrasib-pancreatic-cancer/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.statnews.com/pharmalot/2026/05/20/biotech-investors-mood-former-fda-commissioner-kessler-confidence/?utm_campaign=rss": "2026-05-21T10:40:08.951688+00:00",
     "https://www.statnews.com/pharmalot/2026/05/21/lilly-obesity-drug-trial-alzheimer-drug-claims-questioned/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
     "https://www.statnews.com/pharmalot/2026/05/22/genentech-soliciting-academics-write-papers-to-blunt-pharma-reforms-dc/?utm_campaign=rss": "2026-05-22T10:24:42.174074+00:00",
@@ -4304,7 +4627,8 @@
     "https://www.statnews.com/pharmalot/2026/05/29/up-and-down-the-ladder-comings-and-goings-merck-pfizer-amgen/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/pharmalot/2026/06/01/asco-pancreatic-lung-cancer-drugs-china-growth-as-drug-developer/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/pharmalot/2026/06/01/lilly-warns-hospitals-submit-claims-data-or-lose-340b-drug-discounts/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/02/lilly-threat-to-340b-hospitals-ebola-vaccine-funding/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/02/lilly-threat-to-340b-hospitals-ebola-vaccine-funding/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/03/weight-loss-drugs-knee-replacements-fda-cell-gene-therapy/": "2026-06-04T10:39:38.416026+00:00"
   },
   "takedowns": []
 }
