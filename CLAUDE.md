@@ -80,6 +80,7 @@ Never use `MedicalWebPage`, `MedicalCondition`, `MedicalEntity`, `MedicalAudienc
 ### Competitor and comparison pages
 
 Comparison-matrix rows must not implicitly claim clinical parity with device-positioned competitors. If a competitor markets FDA-cleared clinical decision support or CE-/UKCA-marked diagnostic workflow and we tick the same row, we inherit the classification. Where the competitor claims a clinical capability that Evagene does not replicate, say so plainly — e.g. "Competitor X markets clinical-workflow integration; Evagene is positioned as a research and education tool" — rather than ticking the row.
+Ensure that competitor pages, comparison pages, and features.html are all kept up to date with all the functionality as Evagene grows.
 
 ### Patient-facing pages
 

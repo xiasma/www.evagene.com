@@ -128,6 +128,7 @@ Full platform documentation: https://evagene.net/help/platform_overview
 
 ## Topic Guides
 
+- [Everything Evagene Does — Complete Feature List](https://evagene.com/features.html) — single-page catalogue of every capability: gesture drawing and NSGC notation, guided family-history intake, the 230+ disease catalogue, twenty-one published risk-model algorithms, HPO phenotyping, the related-concepts graph, consanguinity and IBD, AI-assisted draft summaries, GEDCOM / Phenopackets / CanRisk interoperability, the platform layer (REST API, BYOK LLM, webhooks, analysis templates, 27-tool MCP server, embeddable viewer), and 25 open-source MIT integration examples
 - [Pedigree Drawing Tool](https://evagene.com/pedigree-drawing-tool.html) — In-browser pedigree drawing tool with NSGC notation, gesture drawing, GEDCOM and CanRisk export, and twenty-one published risk-model algorithm implementations
 - [Pedigree Chart](https://evagene.com/pedigree-chart.html) — Definitional pillar: symbols, three-generation capture, inheritance patterns visible in a pedigree
 - [Clinical Pedigree Drawing](https://evagene.com/clinical-pedigree-drawing.html) — NSGC 2022 conventions, three-generation capture, consanguinity loops, pregnancy outcomes, and the boundary between in-tool and canonical computation
