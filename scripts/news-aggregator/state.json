@@ -5185,9 +5185,97 @@
         "otsuka",
         "immune-mediated-disease"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have found that certain inherited differences in DNA — carried by roughly one in ten people — may make GLP-1 drugs (sometimes called drugs like Ozempic or Wegovy) work less well for controlling blood sugar in type 2 diabetes. In clinical trials, people who carried these variants were less likely to reach their blood sugar targets while taking these medicines. Researchers are describing this as a kind of \"GLP-1 resistance.\" The study has not yet been fully assessed by independent scientists, so it is too early to draw firm conclusions. This kind of research — looking at how our genes affect how we respond to medicines — is called pharmacogenomics. It helps scientists understand why the same drug can work differently in different people. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Genetic variants linked to GLP-1 drug resistance identified in roughly 10% of population",
+      "is_preprint": false,
+      "run_date": "2026-06-07",
+      "run_iso": "2026-06-07T09:58:04Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-06-05T15:13:02Z",
+        "novelty": 8
+      },
+      "slug": "glp1-resistance-genetic-variants-type2-diabetes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-05T15:13:02Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover why ozempic may not work for some people",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260605023417.htm"
+        }
+      ],
+      "standfirst": "A study has identified heritable variants that appear to reduce responsiveness to GLP-1 receptor agonists in clinical trials, potentially explaining why a subset of patients fail to reach glycaemic targets.",
+      "summary": "Researchers have identified a set of genetic variants associated with reduced responsiveness to GLP-1 receptor agonists — a class of drugs widely used to treat type 2 diabetes and, increasingly, obesity. According to reporting by ScienceDaily, the variants appear to affect approximately 10% of the population and were found to correlate with significantly lower rates of reaching healthy blood glucose targets in several clinical trials. The phenomenon has been described by the researchers as a form of \"GLP-1 resistance,\" analogous in concept to insulin resistance.\n\nThe source lede does not identify the specific institution, research team, or journal involved in the primary publication; a full assessment of the finding awaits the peer-reviewed paper. The study appears to have been published or presented in proximity to the American Diabetes Association annual meeting in New Orleans, where GLP-1 research featured prominently.\n\nIf confirmed in peer review, the finding would have implications for pharmacogenomics research: understanding why a genetically defined subgroup responds poorly to a dominant class of metabolic drugs is a substantive question for translational genetics. It may also be relevant to the design of future clinical trials, which would need to account for variant carrier status in stratified analyses. Educators and students may note this as an emerging example of pharmacogenetic heterogeneity affecting a high-profile drug class. No clinical recommendations follow from a single unreplicated finding of this kind.",
+      "tags": [
+        "pharmacogenomics",
+        "glp1",
+        "type2-diabetes",
+        "drug-response",
+        "genetic-variants",
+        "obesity"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: mutant SOD1 disrupts mitochondrial import machinery in yeast ALS model",
+      "is_preprint": true,
+      "run_date": "2026-06-07",
+      "run_iso": "2026-06-07T09:58:04Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-06T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "sod1-als-tim23-mitochondrial-translocase-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Uncovering moonlighting role of mitochondrial presequence translocase machinery in SOD1-mediated ALS pathogenesis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729791v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from Cold Spring Harbor Laboratory reports that ALS-associated SOD1 mutants bind and downregulate the TIM23 mitochondrial protein import complex in a yeast model, identifying a potential molecular mechanism linking SOD1 toxicity to organellar dysfunction.",
+      "summary": "A preprint posted to bioRxiv (Cold Spring Harbor Laboratory, 2026-06-06) describes a previously unreported interaction between mutant superoxide dismutase 1 (SOD1) — the protein most commonly implicated in familial amyotrophic lateral sclerosis (fALS) — and the TIM23 complex, a core component of the mitochondrial presequence translocase machinery responsible for importing proteins into the mitochondrial inner membrane.\n\nUsing Saccharomyces cerevisiae as a model organism, the authors report that several ALS-associated SOD1 mutants interact with the TIM23 complex via the intermembrane space (IMS) domain of TIM23. In cells expressing these mutants, both the binding affinity and the expression levels of TIM23 complex subunits were reduced, consistent with impaired mitochondrial protein import and downstream organellar dysfunction. The authors propose that this \"moonlighting\" role — a term used in cell biology to describe a protein performing a secondary function distinct from its canonical activity — may help explain why SOD1 mutations preferentially impair mitochondrial health in ALS.\n\nThe work is not peer-reviewed and the findings have not yet been replicated in mammalian models or human cell lines. Yeast-to-human translation of mitochondrial biology requires caution; the TIM23 complex is broadly conserved but the cellular context of motor neuron disease is not recapitulated in yeast. Researchers working on neurodegeneration, mitochondrial disease, or the cell biology of protein import may find the mechanistic hypothesis of interest. Educators may note this as an illustration of how surrogate model organisms are used to dissect protein–complex interactions in rare heritable diseases.",
+      "tags": [
+        "als",
+        "sod1",
+        "tim23",
+        "mitochondrial-import",
+        "neurodegeneration",
+        "rare-disease",
+        "yeast-model",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-06-06T09:25:58.323154+00:00",
+  "last_run": "2026-06-07T09:59:01.659859+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
@@ -5214,8 +5302,6 @@
     "https://news.cancerresearchuk.org/2026/06/05/latest-winner-in-our-research-is-beautiful-competition-3/": "2026-06-05T10:46:27.817616+00:00",
     "https://news.cancerresearchuk.org/2026/06/05/precision-prevention-how-to-take-the-next-step-in-preventing-cancer/": "2026-06-06T09:25:58.323154+00:00",
     "https://news.cancerresearchuk.org/2026/06/05/secrets-of-the-super-avoiders-why-do-some-people-just-not-get-cancer/": "2026-06-06T09:25:58.323154+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.20.726050v1?rss=1": "2026-05-24T09:20:24.818795+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.21.726797v1?rss=1": "2026-05-24T09:20:24.818795+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.21.726896v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727229v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727232v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
@@ -5264,6 +5350,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729559v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729628v1?rss=1": "2026-06-06T09:25:58.323154+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729606v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.03.729791v1?rss=1": "2026-06-07T09:59:01.659859+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.04.730050v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.england.nhs.uk/2026/05/supermarket-scans-spotting-thousands-of-cancers/": "2026-05-25T11:08:44.871677+00:00",
     "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
@@ -5293,7 +5380,7 @@
     "https://www.sciencedaily.com/releases/2026/06/260602021641.htm": "2026-06-03T11:55:44.292835+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260603023921.htm": "2026-06-04T10:39:38.416026+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260604044247.htm": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/05/23/perimenopause-misinformation-influencers-supplements-hormones/?utm_campaign=rss": "2026-05-24T09:20:24.818795+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260605023417.htm": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/05/25/eli-lilly-verv-102-gene-editing-cholesterol-phase-1-trial-data/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/ai-biotech-bighat-biosciences-ceo-on-ai-drug-development-hype/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/biotech-news-eli-lilly-spends-more-of-its-glp-1-cash/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
@@ -5403,16 +5490,28 @@
     "https://www.statnews.com/2026/06/04/revolution-medicines-daraxonrasib-pancreatic-cancer/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/04/trump-administration-to-strip-job-protections-of-top-nih-officials-grants-research/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/05/ada-conference-new-orleans-richard-woychik-synergy-nih-maha/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/ada-conference-new-orleans-richard-woychik-synergy-nih-maha/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/05/americans-ebola-kenya-protests/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/americans-ebola-kenya-protests/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/05/biotech-news-will-makarys-fda-voucher-program-survive/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/biotech-news-will-makarys-fda-voucher-program-survive/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/05/cdc-ebola-modeling-study/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/cdc-ebola-modeling-study/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/05/health-news-texas-ag-investigating-energy-drinks/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/health-news-texas-ag-investigating-energy-drinks/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/05/hhs-cuts-office-human-research-protections-running-on-fumes/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/2026/06/05/newer-glp-1s-pushback-on-research-cuts-and-a-protest-ada-in-30/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/newer-glp-1s-pushback-on-research-cuts-and-a-protest-ada-in-30/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/05/schedule-f-changes-impacts-nih-cdc-fda/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/schedule-f-changes-impacts-nih-cdc-fda/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/05/universal-health-care-system-tradeoffs-accountability/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/2026/06/06/amish-public-health-vaccines-autism-interview-transcript/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/06/amish-public-health-vaccines-autism-interview-transcript/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/06/ebola-outbreak-us-aid-response-tom-frieden-action-plan/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/06/ebola-outbreak-us-aid-response-tom-frieden-action-plan/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/06/illy-retatrutide-triple-g-weight-loss-obesity-safety-data-ada/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/06/pfizer-obesity-drug-berobenatide-metsera-results/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/06/triple-g-safety-data-monthly-obesity-drug-ada-in-30/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
@@ -5427,7 +5526,9 @@
     "https://www.statnews.com/pharmalot/2026/06/04/otsuka-kidney-drug-voyxact-study-results/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/pharmalot/2026/06/04/revolution-medicines-pancreatic-cancer-drug-daraxonrasib-heavy-demand/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/pharmalot/2026/06/05/jobs-up-and-down-the-ladder-latest-comings-and-goings/": "2026-06-06T09:25:58.323154+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/": "2026-06-06T09:25:58.323154+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/05/jobs-up-and-down-the-ladder-latest-comings-and-goings/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00"
   },
   "takedowns": []
 }
