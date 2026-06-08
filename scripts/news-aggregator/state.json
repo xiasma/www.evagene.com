@@ -5273,9 +5273,139 @@
         "yeast-model",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Gene therapies are medicines that aim to treat or cure a disease by changing or replacing faulty genes, often in a single treatment. Some of these therapies now cost around $2 million per patient in the United States. A health economist writing in STAT News argues that the main reason many patients cannot access these treatments is not that the science is unready, but that health systems and insurance programmes were not built to pay for treatments that cost this much in one go.\n\nThe article explores ideas such as spreading payments over time or creating new government-backed insurance schemes. These are proposals, not current policy. The findings discussed apply to health systems in the United States; arrangements in the UK, where the NHS negotiates access separately, differ.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Opinion: $2 million gene therapies demand new financing infrastructure, not new science",
+      "is_preprint": false,
+      "run_date": "2026-06-08",
+      "run_iso": "2026-06-08T11:54:02Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-06-08T08:30:00Z",
+        "novelty": 6
+      },
+      "slug": "gene-therapy-financing-models-high-cost-cures",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2021/05/AdobeStock_112320174-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-08T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "Opinion: $2 million gene therapy cures require a financing model",
+          "url": "https://www.statnews.com/2026/06/08/financing-gene-therapies-cures-cost/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "A STAT News commentary argues that the bottleneck for transformative gene therapies is no longer biological but financial, calling for structural reform in how payers and health systems fund one-time curative treatments.",
+      "summary": "Writing in STAT News, William Padula, a health economist, argues that the principal obstacle to patients benefiting from approved gene therapies is not a lack of efficacious treatments but a lack of infrastructure to fund and deliver them. With single-administration gene therapies now priced at or above $2 million in the United States, conventional insurance and Medicaid payment models — designed for recurring drug expenditures — are poorly suited to treatments where the cost is incurred once but the benefit accrues over a lifetime.\n\nPadula's commentary surveys proposed alternatives, including annuity-style outcome-based contracts, subscription or 'Netflix' models under which payers purchase access to a portfolio of therapies, and public reinsurance mechanisms. Each carries tradeoffs around risk allocation between manufacturers, payers, and government programmes.\n\nThe piece does not address specific genetic conditions or patient populations in clinical detail, but the financing question is directly relevant to rare-disease genetics research, genetic counselling practice, and health-policy education. As gene-therapy pipelines mature — particularly for haemoglobinopathies, inherited metabolic disorders, and rare neuromuscular conditions — the payment architecture will shape which populations can access approved products.\n\nThe commentary is an opinion piece and does not present primary research data.",
+      "tags": [
+        "gene-therapy",
+        "health-economics",
+        "rare-disease",
+        "drug-access",
+        "financing",
+        "health-policy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: gut gap-junction gene inx-20 extends reproductive lifespan in C. elegans without major effect on overall longevity",
+      "is_preprint": true,
+      "run_date": "2026-06-08",
+      "run_iso": "2026-06-08T11:54:02Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-07T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gap-junctions-inx20-reproductive-ageing-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-07T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Gap junctions in the alimentary tract regulate reproductive span in C. elegans",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729750v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that loss of the innexin gene inx-20 in the alimentary tract of the roundworm C. elegans substantially prolongs reproductive span independently of somatic ageing, suggesting gut-to-germline signalling shapes the timing of reproductive senescence.",
+      "summary": "A preprint deposited on bioRxiv by researchers studying ageing in Caenorhabditis elegans reports that mutation of inx-20, which encodes a gap-junction component of the innexin family expressed in the alimentary (digestive) tract, markedly extends reproductive span in the worm while producing only a minor increase in total lifespan. The finding suggests that reproductive ageing and somatic ageing can be dissociated at the molecular level, and that intercellular communication through gap junctions in the gut plays a role in setting the timeline of germline function.\n\nThe effect was reported to persist in feminised genetic backgrounds, strengthening the inference that it operates through the germline rather than via sex-specific somatic pathways. The authors frame the result within the broader observation that reproductive senescence follows a species-specific trajectory distinct from overall organismal ageing.\n\nC. elegans is a well-established genetic model organism for ageing research; findings in the worm have historically informed understanding of conserved longevity pathways including insulin/IGF signalling and dietary restriction. Whether innexin-mediated gut signalling has functional analogues in mammalian reproductive ageing is not addressed in the preprint and would require further investigation.\n\nThis work has not yet been peer-reviewed.",
+      "tags": [
+        "c-elegans",
+        "reproductive-ageing",
+        "gap-junctions",
+        "innexin",
+        "ageing",
+        "germline",
+        "model-organism"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: undergraduate CURE screen identifies Bacillus isolates that suppress Ras/MAPK signalling in C. elegans",
+      "is_preprint": true,
+      "run_date": "2026-06-08",
+      "run_iso": "2026-06-08T11:54:02Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-06-07T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "wormfood-cure-ras-mapk-bacillus-metabolites",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-07T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The WormFood CURE: Screening for bioactive metabolites that antagonize the Caenorhabditis elegans Ras signaling pathway",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729853v1?rss=1"
+        }
+      ],
+      "standfirst": "The WormFood CURE, a course-based undergraduate research programme, used a C. elegans multivulva phenotype assay to screen environmental bacteria for bioactive metabolites and found two Bacillus strains capable of suppressing ectopic Ras pathway activation.",
+      "summary": "Researchers describe the WormFood CURE (Course-based Undergraduate Research Experience), a programme designed to integrate authentic scientific discovery into undergraduate teaching by screening environmental bacterial isolates for bioactive secondary metabolites. The functional readout used was suppression of the multivulva (Muv) phenotype in C. elegans — an established proxy for aberrant activation of the Ras/MAPK signalling pathway, which is a driver of proliferative disease across species.\n\nA pilot cohort of students screened 41 wild bacterial isolates and identified two hits: a Bacillus safensis isolate (BAC-08) and a Bacillus altitudinis isolate (BAC-44), both of which significantly inhibited ectopic vulval precursor cell induction in the worm assay. The identity of the active metabolites and their mechanism of Ras pathway antagonism are not characterised in the preprint; the screen represents a first-pass phenotypic discovery step.\n\nFrom a genetics-education standpoint, the paper illustrates how the well-characterised C. elegans Ras pathway can serve as a scalable, accessible platform for student-led functional genomics and chemical biology research. The Ras signalling pathway is of longstanding interest in cancer biology; however, this preprint reports an educational research exercise, not a therapeutic discovery, and the distance from environmental bacterial metabolite to any clinical application is considerable.\n\nThis work has not yet been peer-reviewed.",
+      "tags": [
+        "c-elegans",
+        "ras-mapk",
+        "cure-education",
+        "undergraduate-research",
+        "bacillus",
+        "chemical-biology",
+        "model-organism"
+      ]
     }
   ],
-  "last_run": "2026-06-07T09:59:01.659859+00:00",
+  "last_run": "2026-06-08T11:55:03.865089+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
@@ -5293,7 +5423,6 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012177": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012188": "2026-06-05T10:46:27.817616+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012191": "2026-06-04T10:39:38.416026+00:00",
-    "https://news.cancerresearchuk.org/2026/05/25/beyond-the-research-turning-evidence-into-impact/": "2026-05-25T11:08:44.871677+00:00",
     "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
     "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
     "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/": "2026-06-02T11:16:52.725456+00:00",
@@ -5350,14 +5479,13 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729559v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729628v1?rss=1": "2026-06-06T09:25:58.323154+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729606v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.03.729750v1?rss=1": "2026-06-08T11:55:03.865089+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729791v1?rss=1": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.03.729853v1?rss=1": "2026-06-08T11:55:03.865089+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.04.730050v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.england.nhs.uk/2026/05/supermarket-scans-spotting-thousands-of-cancers/": "2026-05-25T11:08:44.871677+00:00",
+    "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
     "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/": "2026-06-04T10:39:38.416026+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260523103910.htm": "2026-05-25T11:08:44.871677+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260523103943.htm": "2026-05-25T11:08:44.871677+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260523103947.htm": "2026-05-25T11:08:44.871677+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022006.htm": "2026-05-27T10:55:45.299768+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022018.htm": "2026-05-27T10:55:45.299768+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022024.htm": "2026-05-28T10:54:47.536471+00:00",
@@ -5381,6 +5509,7 @@
     "https://www.sciencedaily.com/releases/2026/06/260603023921.htm": "2026-06-04T10:39:38.416026+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260604044247.htm": "2026-06-05T10:46:27.817616+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260605023417.htm": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260606075852.htm": "2026-06-08T11:55:03.865089+00:00",
     "https://www.statnews.com/2026/05/25/eli-lilly-verv-102-gene-editing-cholesterol-phase-1-trial-data/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/ai-biotech-bighat-biosciences-ceo-on-ai-drug-development-hype/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/biotech-news-eli-lilly-spends-more-of-its-glp-1-cash/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
@@ -5512,6 +5641,11 @@
     "https://www.statnews.com/2026/06/06/illy-retatrutide-triple-g-weight-loss-obesity-safety-data-ada/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/06/pfizer-obesity-drug-berobenatide-metsera-results/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/06/triple-g-safety-data-monthly-obesity-drug-ada-in-30/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/07/boehringer-ingelheim-obesity-drug-survodutide-phase-3-data/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/07/competition-obesity-drugs-clinical-blind-spots-and-more-ada/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/08/financing-gene-therapies-cures-cost/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/08/obese-horses-humans-metabolic-syndrome-food-system/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/08/vascular-care-homeless-amputation-prevention-effort-mass-general/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
     "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
