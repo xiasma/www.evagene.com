@@ -4744,37 +4744,997 @@
         "population-genomics",
         "oxford-nanopore"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "patients"
+      ],
+      "for_patients": "Cancer Research UK has published two pieces explaining how scientists are working to understand why some people at high genetic risk of cancer never actually develop the disease. Researchers call these individuals 'super-avoiders'. Understanding what protects them could one day help develop better ways to prevent cancer for others who share similar risk profiles.\n\nThe charity is also calling for more support from policymakers so that 'precision prevention' — targeting the very earliest changes that can lead to cancer in people who are at high risk — can be developed further. This is not a new treatment or screening programme: it describes a research direction that scientists and policymakers are working towards.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Cancer Research UK sets out policy case for precision cancer prevention scale-up",
+      "is_preprint": false,
+      "run_date": "2026-06-06",
+      "run_iso": "2026-06-06T09:23:21Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 5,
+        "newest_iso": "2026-06-05T12:10:52Z",
+        "novelty": 4
+      },
+      "slug": "cancer-research-uk-precision-prevention-policy-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-05T12:10:52Z",
+          "publisher": "Cancer Research UK",
+          "title": "Precision prevention: how to take the next step in preventing cancer",
+          "url": "https://news.cancerresearchuk.org/2026/06/05/precision-prevention-how-to-take-the-next-step-in-preventing-cancer/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-06-05T11:00:21Z",
+          "publisher": "Cancer Research UK",
+          "title": "Secrets of the 'super-avoiders' – why do some people just not get cancer?",
+          "url": "https://news.cancerresearchuk.org/2026/06/05/secrets-of-the-super-avoiders-why-do-some-people-just-not-get-cancer/"
+        }
+      ],
+      "standfirst": "A new Cancer Research UK analysis argues that targeting the earliest detectable cancer-driving changes in high-risk individuals could prevent more cancers, but requires coordinated policy support to reach its potential.",
+      "summary": "Cancer Research UK has published a policy and insight piece arguing that so-called precision prevention — intervening at the earliest molecular and cellular changes that can lead to cancer in people at elevated risk — represents the next meaningful step in reducing cancer incidence, but that structural and funding barriers currently limit its reach.\n\nThe piece, published on 5 June 2026, follows related Cancer Research UK commentary on what the charity terms 'super-avoiders': individuals who carry known high-risk profiles yet never develop cancer. Understanding the biological and environmental mechanisms underlying that protection is framed as a research priority that could inform both prevention strategies and treatment development.\n\nNeither piece presents new primary research data. Both are policy and science communication outputs from Cancer Research UK, directed primarily at researchers, policymakers, and the public health and genetics communities. They do not recommend individual screening or clinical action; they describe research directions and systemic requirements.\n\nReaders interested in how precision prevention intersects with hereditary cancer genetics, polygenic risk scores, and population-based early detection programmes may find these pieces useful context alongside primary literature. A related Cancer Research UK call for removal of barriers to precision cancer prevention research in the UK was covered in this publication on 2 June 2026.",
+      "tags": [
+        "cancer-prevention",
+        "precision-prevention",
+        "hereditary-cancer",
+        "cancer-genomics",
+        "public-health-genomics",
+        "cancer-research-uk"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes unified framework explaining why mixed-model GWAS behaves differently in livestock versus humans",
+      "is_preprint": true,
+      "run_date": "2026-06-06",
+      "run_iso": "2026-06-06T09:23:21Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-06-05T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "biorxiv-gwas-genomic-dimensionality-livestock-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-05T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genomic Dimensionality Bounds Mixed-Model Association Power and Fine-Mapping Resolution",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729628v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint traces divergent GWAS behaviours in small-population species to low effective genomic dimensionality, offering a theoretical framework with practical implications for livestock breeding programmes.",
+      "summary": "A preprint posted to bioRxiv on 5 June 2026 presents a theoretical framework to explain a long-standing puzzle in livestock genomics: why mixed-model genome-wide association studies (GWAS) using the full genomic relationship matrix (full-GRM) yield only a handful of significant peaks even in datasets of hundreds of thousands of animals, whereas alternative approaches — including leave-one-chromosome-out (LOCO), numerator-relationship-matrix, and sparse-GRM methods — report many broader associations on the same data.\n\nThe authors argue that these contrasting behaviours can be traced to the low effective genomic dimensionality (Me) that characterises populations with small effective population size (Ne), such as commercial livestock breeds. In human GWAS, Ne is large enough that Me is correspondingly high; in cattle or pigs, Me is so low that the full-GRM absorbs signal that other methods leave accessible, fundamentally altering statistical power and fine-mapping resolution.\n\nThe framework provides an analytical basis for choosing between GWAS modelling approaches in low-Ne populations and has relevance to fine-mapping, heritability estimation, and the interpretation of polygenic architecture in livestock. The work has not yet been peer-reviewed.",
+      "tags": [
+        "gwas",
+        "mixed-model",
+        "livestock-genomics",
+        "genomic-dimensionality",
+        "effective-population-size",
+        "statistical-genetics",
+        "fine-mapping",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint details how CZ CELLxGENE Discover uses collaborative curation to balance scale and data quality",
+      "is_preprint": true,
+      "run_date": "2026-06-06",
+      "run_iso": "2026-06-06T09:23:21Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-06-05T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "cellxgene-collaborative-submission-model-preprint-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-05T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A collaborative submission model for building high-quality data resources at scale through partnership",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729387v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from the CZ CELLxGENE team describes a submission model in which data contributors partner with dedicated curators, enabling the resource to grow rapidly while maintaining metadata quality for AI-scale analysis.",
+      "summary": "A preprint posted to bioRxiv on 5 June 2026 describes the collaborative submission model underpinning CZ CELLxGENE Discover, a community data resource that aggregates single-cell and spatial transcriptomics datasets across studies for large-scale biomedical research and AI model development.\n\nThe authors, drawn from Chan Zuckerberg Initiative and collaborating institutions, outline how a fundamental tension in building community resources — the desire for a large data corpus versus the need for high-quality, richly annotated metadata — has been addressed by partnering data contributors directly with dedicated resource curators. Rather than requiring contributors to conform to standards independently, curators work alongside submitters to harmonise data and metadata, reducing errors and improving downstream usability.\n\nThe preprint reports that this model has enabled CELLxGENE Discover to become a widely used infrastructure resource, supporting large-scale re-analysis and the training of foundation models in genomics. The authors discuss practical lessons for other community resources facing the same scale-versus-quality tension.\n\nThe work has not yet been peer-reviewed. It will be of primary interest to researchers building or contributing to genomic data infrastructures, and to those developing or evaluating AI models trained on single-cell data.",
+      "tags": [
+        "single-cell-genomics",
+        "data-infrastructure",
+        "cellxgene",
+        "metadata-curation",
+        "community-resource",
+        "ai-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study identifies BBX5 as a positive regulator of shade avoidance via PIF4 and auxin pathways in plants",
+      "is_preprint": false,
+      "run_date": "2026-06-06",
+      "run_iso": "2026-06-06T09:23:21Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-05T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "plos-genetics-bbx5-shade-avoidance-pif4-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-05T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Promotion of shade avoidance by BBX5 involves activation of PIF4 along with auxin biosynthetic and signaling genes",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012177"
+        }
+      ],
+      "standfirst": "Researchers report that the B-box protein BBX5 promotes shade avoidance in plants by activating the transcription factor PIF4 alongside genes involved in auxin biosynthesis and signalling, with phyB modulating BBX5 stability.",
+      "summary": "A study published in *PLOS Genetics* on 5 June 2026 by Fengyue Zhao, Rongbo Yang, Zhaoqing Song, and colleagues identifies B-box PROTEIN 5 (BBX5) as a positive regulator of the shade avoidance response in plants.\n\nShade avoidance is triggered when plants detect changes in light quality — specifically a reduced ratio of red to far-red light — caused by neighbouring vegetation. The phytochrome B (phyB)–PHYTOCHROMEINTERACTING FACTOR 4 (PIF4) module is a well-established central regulatory hub in this response. The new work places BBX5 within this network: phyB interacts with BBX5 and promotes its protein stability under appropriate light conditions, while the E3 ubiquitin ligase COP1 (CONSTITUTIVELY PHOTOMORPHOGENIC 1) acts in the opposing direction. BBX5, in turn, activates PIF4 transcription and also upregulates genes involved in auxin biosynthesis and signalling, linking the light-quality signal to downstream growth responses characteristic of shade avoidance.\n\nThe findings contribute to understanding how multiple regulatory inputs are integrated at the chromatin level to coordinate developmental responses to the light environment. The research has implications for plant biology, agricultural genomics, and the study of gene regulatory networks. It does not have direct clinical relevance.",
+      "tags": [
+        "plant-genetics",
+        "shade-avoidance",
+        "bbx5",
+        "pif4",
+        "auxin",
+        "phytochrome",
+        "light-signalling",
+        "gene-regulation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study dissects how chromatin insulators homie and nhomie mediate long-range chromosomal interactions",
+      "is_preprint": false,
+      "run_date": "2026-06-06",
+      "run_iso": "2026-06-06T09:23:21Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-05T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "plos-genetics-homie-nhomie-insulator-enhancer-promoter-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-05T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Chromatin insulators homie and nhomie can interact with distant copies either together or separately, with distinct outcomes for enhancer-promoter interactions",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940"
+        }
+      ],
+      "standfirst": "Research by Fujioka, Ke, Schedl, Jaynes and colleagues shows that the Drosophila insulator elements homie and nhomie can interact with distant copies individually or together, producing distinct outcomes for enhancer–promoter communication.",
+      "summary": "A study published in *PLOS Genetics* on 5 June 2026 by Miki Fujioka, Wenfan Ke, Paul Schedl, James B. Jaynes, and colleagues examines the functional logic of the Drosophila chromatin insulator elements *homie* and *nhomie*.\n\nChromatin insulators — also termed boundary elements — separate chromosomal regions with distinct chromatin characteristics, including different histone modification profiles. They block inappropriate enhancer–promoter interactions and, paradoxically, can also facilitate interactions over long distances by pairing with specific partner elements, effectively stitching distant chromosomal regions together. The molecular rules governing when insulators act as barriers versus bridges have been incompletely understood.\n\nThe new work shows that *homie* and *nhomie* can engage with distant copies of themselves either jointly or separately, and that these different interaction configurations produce distinct outcomes for enhancer–promoter communication in the surrounding chromosomal neighbourhood. The findings have implications for understanding how three-dimensional genome architecture is established and maintained, and how disruptions to insulator function might affect gene regulation. This work is relevant primarily to researchers in chromosome biology, gene regulation, and developmental genetics, and to educators teaching three-dimensional genome organisation.",
+      "tags": [
+        "chromatin-insulators",
+        "boundary-elements",
+        "enhancer-promoter",
+        "3d-genome",
+        "drosophila",
+        "chromosome-architecture",
+        "gene-regulation",
+        "homie"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "Revolution Medicines has reported that its experimental drug daraxonrasib, which targets a specific molecular change called a KRAS mutation that drives many pancreatic cancers, showed a meaningful improvement in survival in a clinical trial presented at the American Society of Clinical Oncology meeting in June 2026. New reporting this week describes the situation facing patients who want access to the drug now, before it has been approved by regulators: supply is limited and costs are high, meaning many patients face uncertainty about whether and when they might be able to receive it.\n\nThe drug is still being studied and has not yet been approved for routine use. Researchers and patient advocates are calling attention to the access challenge as the scientific results attract wide interest.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Further analysis reinforces survival benefit for KRAS inhibitor daraxonrasib in advanced pancreatic cancer",
+      "is_preprint": false,
+      "run_date": "2026-06-06",
+      "run_iso": "2026-06-06T09:23:21Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-06-05T13:45:12Z",
+        "novelty": 3
+      },
+      "slug": "daraxonrasib-kras-pancreatic-cancer-survival-update-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/06/AmyJohnston-12-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-04T17:15:55Z",
+          "publisher": "Stat News",
+          "title": "STAT+: For pancreatic cancer patients, an exciting drug can feel out of reach",
+          "url": "https://www.statnews.com/pharmalot/2026/06/04/revolution-medicines-pancreatic-cancer-drug-daraxonrasib-heavy-demand/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/07/ROL_Rectangle-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-06-04T19:59:34Z",
+          "publisher": "Stat News",
+          "title": "What RevMed's pancreatic cancer drug meant for one patient",
+          "url": "https://www.statnews.com/2026/06/04/readout-loud-podcast-revolution-medicines-pancreatic-cancer-patient-asco/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/02/GettyImages-2258345556-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-06-05T13:45:12Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Will Makary's FDA voucher program survive?",
+          "url": "https://www.statnews.com/2026/06/05/biotech-news-will-makarys-fda-voucher-program-survive/"
+        }
+      ],
+      "standfirst": "Additional reporting and commentary from ASCO 2026 consolidates the picture around Revolution Medicines' daraxonrasib, with coverage noting that demand from patients is already outpacing access to the investigational drug.",
+      "summary": "Several items in this feed cycle relate to Revolution Medicines' KRAS inhibitor daraxonrasib and its ASCO 2026 trial data in advanced pancreatic cancer. These items — covering patient access difficulties and further biotech commentary — follow substantial coverage already published by Genetic Current on 1 June 2026 (Revolution Medicines reports practice-changing trial results) and 4 June 2026 (daraxonrasib draws attention beyond pancreatic cancer).\n\nThe new reporting, from STAT News on 4–5 June 2026, adds the perspectives of patients and advocates who note that excitement around the drug is creating demand that current supply and compassionate access routes cannot meet, and that the drug's cost may place it out of reach for some. A podcast episode and separate biotech commentary piece cover similar ground.\n\nThese items do not present new primary data. They extend and contextualise findings already summarised. Readers seeking the primary trial analysis should refer to earlier Genetic Current coverage. The drug remains investigational and has not received regulatory approval.",
+      "tags": [
+        "kras",
+        "pancreatic-cancer",
+        "daraxonrasib",
+        "ras-inhibition",
+        "cancer-access",
+        "asco-2026",
+        "targeted-therapy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "US Office for Human Research Protections loses ethics expertise amid federal staffing cuts, STAT News reports",
+      "is_preprint": false,
+      "run_date": "2026-06-06",
+      "run_iso": "2026-06-06T09:23:21Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-06-05T08:30:00Z",
+        "novelty": 2
+      },
+      "slug": "ohrp-ethics-staff-exodus-hhs-cuts-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/06/260527_GK_JulieandLisa021-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-05T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "Tiny HHS office tasked with protecting research participants' safety is running on fumes",
+          "url": "https://www.statnews.com/2026/06/05/hhs-cuts-office-human-research-protections-running-on-fumes/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/EnergyDrinks_GettyImages-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-06-05T13:17:35Z",
+          "publisher": "Stat News",
+          "title": "Texas AG investigating energy drinks",
+          "url": "https://www.statnews.com/2026/06/05/health-news-texas-ag-investigating-energy-drinks/"
+        }
+      ],
+      "standfirst": "Reporting by STAT News describes an unprecedented reduction in experienced staff at the small HHS office responsible for overseeing the protection of research participants, raising concerns about its oversight capacity.",
+      "summary": "Reporting published by STAT News on 5 June 2026 describes a significant loss of ethics and regulatory expertise at the US Office for Human Research Protections (OHRP), the small but critical HHS office charged with overseeing the protection of volunteers who participate in federally funded research.\n\nOHRP is responsible for ensuring that institutional review boards (IRBs) and research programmes meet federal standards for informed consent, risk management, and the ethical treatment of human subjects. According to STAT News, the office has experienced an unprecedented departure of staff with ethics and regulatory expertise, which observers quoted in the piece say could undermine its ability to fulfil its oversight function effectively.\n\nThis story was covered in a separate Genetic Current cluster on 5 June 2026 ('US office protecting research participants loses ethics expertise amid federal cuts'). The current feed items — the STAT News special report and associated Morning Rounds summary — are the source material for that cluster. No new primary information is added by this feed cycle's items.\n\nThis topic is relevant to researchers conducting federally funded human-subjects research in the United States, and to those with a broader interest in research governance.",
+      "tags": [
+        "research-ethics",
+        "ohrp",
+        "hhs",
+        "human-subjects-research",
+        "federal-research-policy",
+        "us-science-policy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists"
+      ],
+      "for_patients": null,
+      "headline": "US Supreme Court unanimously backs Hikma in Amarin skinny-labelling patent case",
+      "is_preprint": false,
+      "run_date": "2026-06-06",
+      "run_iso": "2026-06-06T09:23:21Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-06-05T13:17:01Z",
+        "novelty": 8
+      },
+      "slug": "supreme-court-hikma-amarin-skinny-label-ruling-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/06/AP25171509337131-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-04T18:04:23Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Supreme Court backs generic drugmaker in 'skinny labeling' case",
+          "url": "https://www.statnews.com/pharmalot/2026/06/04/hikma-amarin-generics-skinny-labeling-supreme-court/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-06-05T13:17:01Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Pharmalittle: We're reading about Roche accusing U.S. of 'blackmail,' a ruling on skinny labels, and more",
+          "url": "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/"
+        }
+      ],
+      "standfirst": "The Supreme Court ruled unanimously that Hikma Pharmaceuticals did not infringe patents held by Amarin, in a decision with broad implications for generic drug manufacturers and skinny-label litigation.",
+      "summary": "The US Supreme Court issued a unanimous ruling on 4–5 June 2026 in favour of Hikma Pharmaceuticals in a patent dispute with Amarin Pharma over so-called skinny labelling — a regulatory mechanism that allows generic drug manufacturers to gain approval for a drug while omitting patented indications from the label.\n\nReported by STAT News's Pharmalot, the ruling was seen as a significant win for the generic pharmaceutical industry, clarifying the extent to which manufacturers can use skinny labels without incurring patent infringement liability. The case had attracted attention from drugmakers, patient advocacy groups, and policy observers given its implications for drug pricing and competition.\n\nWhilst this story sits at the margins of genetics and genomics, it has relevance for genetic medicines — including gene therapies and pharmacogenomically informed treatments — that may in future be subject to similar labelling and patent litigation dynamics. It also bears on the broader policy environment for genomic medicine access and affordability discussed elsewhere in Genetic Current.",
+      "tags": [
+        "generic-drugs",
+        "patent-law",
+        "skinny-labelling",
+        "supreme-court",
+        "drug-policy",
+        "pharmaceutical-regulation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Otsuka's Voyxact slows kidney function loss in IgA nephropathy trial but falls short of expected benefit",
+      "is_preprint": false,
+      "run_date": "2026-06-06",
+      "run_iso": "2026-06-06T09:23:21Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-06-04T19:59:34Z",
+        "novelty": 7
+      },
+      "slug": "otsuka-voyxact-igan-kidney-late-stage-trial-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/08/AdobeStock_908767093_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-04T19:59:34Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Otsuka kidney drug slowed loss of function, but less than expected, in late-stage trial",
+          "url": "https://www.statnews.com/2026/06/04/otsuka-kidney-drug-voyxact-study-results/"
+        }
+      ],
+      "standfirst": "A late-stage trial of Otsuka's Voyxact showed statistically measurable but smaller-than-anticipated slowing of kidney function decline in patients with IgA nephropathy, an autoimmune kidney disease with a genetic component.",
+      "summary": "STAT News reported on 4 June 2026 that Otsuka's kidney drug Voyxact (formally a late-stage investigational agent) demonstrated a statistically measurable slowing of kidney function loss at one year in patients with IgA nephropathy (IgAN), a chronic autoimmune condition in which immune complexes deposit in the kidney. However, the degree of benefit was described as less than expected based on earlier trial signals.\n\nIgA nephropathy has a recognised genetic component, with genome-wide association studies having identified risk loci across populations; it is also notable for pronounced variation in disease course, with some patients progressing to end-stage kidney disease and others maintaining stable function for decades. The genetic architecture underlying this variability remains an active area of research.\n\nThe trial result is relevant to nephrologists, genetic researchers working on immune-mediated renal disease, and those tracking pharmacological approaches to conditions with complex genetic risk profiles. The drug has not yet received regulatory approval; the trial data are described as late-stage rather than registrational in the STAT News report.",
+      "tags": [
+        "iga-nephropathy",
+        "kidney-disease",
+        "clinical-trial-news",
+        "autoimmune-genetics",
+        "voyxact",
+        "otsuka",
+        "immune-mediated-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have found that certain inherited differences in DNA — carried by roughly one in ten people — may make GLP-1 drugs (sometimes called drugs like Ozempic or Wegovy) work less well for controlling blood sugar in type 2 diabetes. In clinical trials, people who carried these variants were less likely to reach their blood sugar targets while taking these medicines. Researchers are describing this as a kind of \"GLP-1 resistance.\" The study has not yet been fully assessed by independent scientists, so it is too early to draw firm conclusions. This kind of research — looking at how our genes affect how we respond to medicines — is called pharmacogenomics. It helps scientists understand why the same drug can work differently in different people. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Genetic variants linked to GLP-1 drug resistance identified in roughly 10% of population",
+      "is_preprint": false,
+      "run_date": "2026-06-07",
+      "run_iso": "2026-06-07T09:58:04Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-06-05T15:13:02Z",
+        "novelty": 8
+      },
+      "slug": "glp1-resistance-genetic-variants-type2-diabetes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-05T15:13:02Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover why ozempic may not work for some people",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260605023417.htm"
+        }
+      ],
+      "standfirst": "A study has identified heritable variants that appear to reduce responsiveness to GLP-1 receptor agonists in clinical trials, potentially explaining why a subset of patients fail to reach glycaemic targets.",
+      "summary": "Researchers have identified a set of genetic variants associated with reduced responsiveness to GLP-1 receptor agonists — a class of drugs widely used to treat type 2 diabetes and, increasingly, obesity. According to reporting by ScienceDaily, the variants appear to affect approximately 10% of the population and were found to correlate with significantly lower rates of reaching healthy blood glucose targets in several clinical trials. The phenomenon has been described by the researchers as a form of \"GLP-1 resistance,\" analogous in concept to insulin resistance.\n\nThe source lede does not identify the specific institution, research team, or journal involved in the primary publication; a full assessment of the finding awaits the peer-reviewed paper. The study appears to have been published or presented in proximity to the American Diabetes Association annual meeting in New Orleans, where GLP-1 research featured prominently.\n\nIf confirmed in peer review, the finding would have implications for pharmacogenomics research: understanding why a genetically defined subgroup responds poorly to a dominant class of metabolic drugs is a substantive question for translational genetics. It may also be relevant to the design of future clinical trials, which would need to account for variant carrier status in stratified analyses. Educators and students may note this as an emerging example of pharmacogenetic heterogeneity affecting a high-profile drug class. No clinical recommendations follow from a single unreplicated finding of this kind.",
+      "tags": [
+        "pharmacogenomics",
+        "glp1",
+        "type2-diabetes",
+        "drug-response",
+        "genetic-variants",
+        "obesity"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: mutant SOD1 disrupts mitochondrial import machinery in yeast ALS model",
+      "is_preprint": true,
+      "run_date": "2026-06-07",
+      "run_iso": "2026-06-07T09:58:04Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-06T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "sod1-als-tim23-mitochondrial-translocase-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Uncovering moonlighting role of mitochondrial presequence translocase machinery in SOD1-mediated ALS pathogenesis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729791v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from Cold Spring Harbor Laboratory reports that ALS-associated SOD1 mutants bind and downregulate the TIM23 mitochondrial protein import complex in a yeast model, identifying a potential molecular mechanism linking SOD1 toxicity to organellar dysfunction.",
+      "summary": "A preprint posted to bioRxiv (Cold Spring Harbor Laboratory, 2026-06-06) describes a previously unreported interaction between mutant superoxide dismutase 1 (SOD1) — the protein most commonly implicated in familial amyotrophic lateral sclerosis (fALS) — and the TIM23 complex, a core component of the mitochondrial presequence translocase machinery responsible for importing proteins into the mitochondrial inner membrane.\n\nUsing Saccharomyces cerevisiae as a model organism, the authors report that several ALS-associated SOD1 mutants interact with the TIM23 complex via the intermembrane space (IMS) domain of TIM23. In cells expressing these mutants, both the binding affinity and the expression levels of TIM23 complex subunits were reduced, consistent with impaired mitochondrial protein import and downstream organellar dysfunction. The authors propose that this \"moonlighting\" role — a term used in cell biology to describe a protein performing a secondary function distinct from its canonical activity — may help explain why SOD1 mutations preferentially impair mitochondrial health in ALS.\n\nThe work is not peer-reviewed and the findings have not yet been replicated in mammalian models or human cell lines. Yeast-to-human translation of mitochondrial biology requires caution; the TIM23 complex is broadly conserved but the cellular context of motor neuron disease is not recapitulated in yeast. Researchers working on neurodegeneration, mitochondrial disease, or the cell biology of protein import may find the mechanistic hypothesis of interest. Educators may note this as an illustration of how surrogate model organisms are used to dissect protein–complex interactions in rare heritable diseases.",
+      "tags": [
+        "als",
+        "sod1",
+        "tim23",
+        "mitochondrial-import",
+        "neurodegeneration",
+        "rare-disease",
+        "yeast-model",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Gene therapies are medicines that aim to treat or cure a disease by changing or replacing faulty genes, often in a single treatment. Some of these therapies now cost around $2 million per patient in the United States. A health economist writing in STAT News argues that the main reason many patients cannot access these treatments is not that the science is unready, but that health systems and insurance programmes were not built to pay for treatments that cost this much in one go.\n\nThe article explores ideas such as spreading payments over time or creating new government-backed insurance schemes. These are proposals, not current policy. The findings discussed apply to health systems in the United States; arrangements in the UK, where the NHS negotiates access separately, differ.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Opinion: $2 million gene therapies demand new financing infrastructure, not new science",
+      "is_preprint": false,
+      "run_date": "2026-06-08",
+      "run_iso": "2026-06-08T11:54:02Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-06-08T08:30:00Z",
+        "novelty": 6
+      },
+      "slug": "gene-therapy-financing-models-high-cost-cures",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2021/05/AdobeStock_112320174-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-08T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "Opinion: $2 million gene therapy cures require a financing model",
+          "url": "https://www.statnews.com/2026/06/08/financing-gene-therapies-cures-cost/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "A STAT News commentary argues that the bottleneck for transformative gene therapies is no longer biological but financial, calling for structural reform in how payers and health systems fund one-time curative treatments.",
+      "summary": "Writing in STAT News, William Padula, a health economist, argues that the principal obstacle to patients benefiting from approved gene therapies is not a lack of efficacious treatments but a lack of infrastructure to fund and deliver them. With single-administration gene therapies now priced at or above $2 million in the United States, conventional insurance and Medicaid payment models — designed for recurring drug expenditures — are poorly suited to treatments where the cost is incurred once but the benefit accrues over a lifetime.\n\nPadula's commentary surveys proposed alternatives, including annuity-style outcome-based contracts, subscription or 'Netflix' models under which payers purchase access to a portfolio of therapies, and public reinsurance mechanisms. Each carries tradeoffs around risk allocation between manufacturers, payers, and government programmes.\n\nThe piece does not address specific genetic conditions or patient populations in clinical detail, but the financing question is directly relevant to rare-disease genetics research, genetic counselling practice, and health-policy education. As gene-therapy pipelines mature — particularly for haemoglobinopathies, inherited metabolic disorders, and rare neuromuscular conditions — the payment architecture will shape which populations can access approved products.\n\nThe commentary is an opinion piece and does not present primary research data.",
+      "tags": [
+        "gene-therapy",
+        "health-economics",
+        "rare-disease",
+        "drug-access",
+        "financing",
+        "health-policy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: gut gap-junction gene inx-20 extends reproductive lifespan in C. elegans without major effect on overall longevity",
+      "is_preprint": true,
+      "run_date": "2026-06-08",
+      "run_iso": "2026-06-08T11:54:02Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-07T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gap-junctions-inx20-reproductive-ageing-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-07T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Gap junctions in the alimentary tract regulate reproductive span in C. elegans",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729750v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that loss of the innexin gene inx-20 in the alimentary tract of the roundworm C. elegans substantially prolongs reproductive span independently of somatic ageing, suggesting gut-to-germline signalling shapes the timing of reproductive senescence.",
+      "summary": "A preprint deposited on bioRxiv by researchers studying ageing in Caenorhabditis elegans reports that mutation of inx-20, which encodes a gap-junction component of the innexin family expressed in the alimentary (digestive) tract, markedly extends reproductive span in the worm while producing only a minor increase in total lifespan. The finding suggests that reproductive ageing and somatic ageing can be dissociated at the molecular level, and that intercellular communication through gap junctions in the gut plays a role in setting the timeline of germline function.\n\nThe effect was reported to persist in feminised genetic backgrounds, strengthening the inference that it operates through the germline rather than via sex-specific somatic pathways. The authors frame the result within the broader observation that reproductive senescence follows a species-specific trajectory distinct from overall organismal ageing.\n\nC. elegans is a well-established genetic model organism for ageing research; findings in the worm have historically informed understanding of conserved longevity pathways including insulin/IGF signalling and dietary restriction. Whether innexin-mediated gut signalling has functional analogues in mammalian reproductive ageing is not addressed in the preprint and would require further investigation.\n\nThis work has not yet been peer-reviewed.",
+      "tags": [
+        "c-elegans",
+        "reproductive-ageing",
+        "gap-junctions",
+        "innexin",
+        "ageing",
+        "germline",
+        "model-organism"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: undergraduate CURE screen identifies Bacillus isolates that suppress Ras/MAPK signalling in C. elegans",
+      "is_preprint": true,
+      "run_date": "2026-06-08",
+      "run_iso": "2026-06-08T11:54:02Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-06-07T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "wormfood-cure-ras-mapk-bacillus-metabolites",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-07T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The WormFood CURE: Screening for bioactive metabolites that antagonize the Caenorhabditis elegans Ras signaling pathway",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729853v1?rss=1"
+        }
+      ],
+      "standfirst": "The WormFood CURE, a course-based undergraduate research programme, used a C. elegans multivulva phenotype assay to screen environmental bacteria for bioactive metabolites and found two Bacillus strains capable of suppressing ectopic Ras pathway activation.",
+      "summary": "Researchers describe the WormFood CURE (Course-based Undergraduate Research Experience), a programme designed to integrate authentic scientific discovery into undergraduate teaching by screening environmental bacterial isolates for bioactive secondary metabolites. The functional readout used was suppression of the multivulva (Muv) phenotype in C. elegans — an established proxy for aberrant activation of the Ras/MAPK signalling pathway, which is a driver of proliferative disease across species.\n\nA pilot cohort of students screened 41 wild bacterial isolates and identified two hits: a Bacillus safensis isolate (BAC-08) and a Bacillus altitudinis isolate (BAC-44), both of which significantly inhibited ectopic vulval precursor cell induction in the worm assay. The identity of the active metabolites and their mechanism of Ras pathway antagonism are not characterised in the preprint; the screen represents a first-pass phenotypic discovery step.\n\nFrom a genetics-education standpoint, the paper illustrates how the well-characterised C. elegans Ras pathway can serve as a scalable, accessible platform for student-led functional genomics and chemical biology research. The Ras signalling pathway is of longstanding interest in cancer biology; however, this preprint reports an educational research exercise, not a therapeutic discovery, and the distance from environmental bacterial metabolite to any clinical application is considerable.\n\nThis work has not yet been peer-reviewed.",
+      "tags": [
+        "c-elegans",
+        "ras-mapk",
+        "cure-education",
+        "undergraduate-research",
+        "bacillus",
+        "chemical-biology",
+        "model-organism"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Cas12a combinatorial knockout screens map genetic interaction network of DNA damage response",
+      "is_preprint": true,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-06-08T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "dna-damage-response-cas12a-combinatorial-screens",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mapping the genetic landscape of the DNA damage response with Cas12a-based combinatorial knockout screens",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.07.728858v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory describes genome-wide pairwise disruption of 233 DDR genes in cancer-relevant cell lines, revealing how repair pathway components interact functionally.",
+      "summary": "Researchers have used Cas12a-based combinatorial knockout screens to interrogate the functional architecture of the DNA damage response (DDR), a network of cellular pathways that maintains genome integrity when DNA is damaged. The preprint, posted to bioRxiv, describes the systematic disruption of 233 DDR genes — selected because they are frequently mutated in cancer and other genetic diseases — either individually or in pairwise combinations, generating data on more than 27,000 gene-pair interactions under normal cell-growth conditions.\n\nThe approach exploits Cas12a's ability to process multiple guide RNAs from a single transcript, making high-throughput combinatorial perturbation more tractable than with standard Cas9 systems. By comparing phenotypic outcomes of single versus double knockouts, the study aims to distinguish between genes that act redundantly, synergistically, or antagonistically within DDR pathways.\n\nThe resulting genetic interaction map is intended as a resource for understanding which combinations of DDR gene disruptions are lethal or growth-impairing — information relevant to identifying potential therapeutic vulnerabilities in tumour cells that already carry somatic DDR mutations. The authors note that the screen was conducted under unperturbed conditions; how interactions shift under genotoxic stress remains to be characterised.\n\nThis work has not yet been peer-reviewed. The data resource it describes could inform future experimental and computational analyses of DDR pathway organisation in cancer biology.",
+      "tags": [
+        "dna-damage-response",
+        "cas12a",
+        "combinatorial-knockout",
+        "genetic-interactions",
+        "cancer-genomics",
+        "functional-genomics",
+        "crispr"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint finds redox stress sharply elevates mutagenesis during bacterial horizontal gene transfer",
+      "is_preprint": true,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-08T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "redox-stress-mutagenesis-horizontal-gene-transfer",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Redox stress agents strongly enhance mutagenesis during horizontal gene transfer in bacteria and leave distinct mutational and metabolic footprints",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730102v1?rss=1"
+        }
+      ],
+      "standfirst": "Using single-stranded DNA as a sensitive mutational reporter, researchers characterise how redox agents enhance mutation rates during horizontal gene transfer and leave distinct genomic footprints.",
+      "summary": "A preprint posted to bioRxiv investigates how oxidative and other redox stresses affect mutation rates specifically during horizontal gene transfer in bacteria — a route by which antibiotic resistance genes spread between organisms. The researchers developed a protocol exploiting single-stranded DNA (ssDNA), which is both highly susceptible to chemical damage and largely inaccessible to most DNA repair pathways, as a reporter system for measuring redox-induced mutagenesis.\n\nThe study finds that redox stress agents substantially increase mutation rates during gene transfer events and that different redox agents leave characteristic mutational and metabolic footprints — patterns in the types and locations of mutations that may serve as signatures linking specific environmental stresses to resistance emergence. The authors suggest this could help explain why antibiotic resistance evolves more rapidly in environments rich in reactive oxygen species, such as those encountered during host infection or antibiotic treatment itself.\n\nUnderstanding the mutational dynamics of horizontal gene transfer is relevant to antimicrobial resistance research, as it connects environmental stress conditions to the evolutionary processes generating resistance diversity. The preprint has not yet undergone peer review, and findings relating to specific mutational footprints will require further validation across diverse bacterial species and genetic backgrounds.",
+      "tags": [
+        "antimicrobial-resistance",
+        "horizontal-gene-transfer",
+        "redox-stress",
+        "mutagenesis",
+        "bacterial-genetics",
+        "mutation-rate",
+        "functional-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study reveals how Tbx16 and Mesogenin 1 drive presomitic mesoderm differentiation in zebrafish",
+      "is_preprint": false,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-08T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "tbx16-mesogenin1-presomitic-mesoderm-zebrafish",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-08T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Tbx16 and mesogenin 1 promote presomitic mesoderm differentiation by repressing the mesodermal progenitor cell state",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012176"
+        }
+      ],
+      "standfirst": "Using temporally controlled overexpression and single-cell RNA sequencing, researchers at Yale University identify how two transcription factors repress the progenitor state to promote somite formation.",
+      "summary": "A study published in PLOS Genetics by Guoyu Zhu, Miriam Genuth, and colleagues in Scott Holley's laboratory at Yale University dissects how the transcription factors Tbx16 and Mesogenin 1 coordinate presomitic mesoderm (PSM) differentiation during zebrafish embryonic body elongation. The PSM is the tissue from which vertebral somites — the precursors of vertebrae, skeletal muscle, and dermis — are derived, making its correct formation essential for normal body plan development.\n\nThe team combined temporally controlled overexpression of tbx16 and mesogenin 1 with bulk RNA sequencing to capture immediate downstream transcriptional changes, then integrated those data with wild-type single-cell RNA sequencing using machine learning and game-theory-based analytical approaches. The study finds that these two factors promote PSM differentiation primarily by repressing the mesodermal progenitor cell state rather than solely activating a differentiation programme — a mechanistic distinction with implications for understanding how developmental transitions are controlled.\n\nThe work adds resolution to understanding the gene regulatory networks governing vertebrate body axis formation and may inform future research into congenital vertebral anomalies, where disruption of somitogenesis pathways has been implicated. The paper is published as a peer-reviewed article in PLOS Genetics.",
+      "tags": [
+        "zebrafish",
+        "somitogenesis",
+        "tbx16",
+        "mesogenin1",
+        "mesodermal-progenitors",
+        "developmental-genetics",
+        "transcription-factors"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study links RNA Polymerase III subunit Polr3a to craniofacial cartilage and bone formation",
+      "is_preprint": false,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-06-08T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "polr3a-craniofacial-development-zebrafish",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-08T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "RNA Polymerase III subunit Polr3a is required for craniofacial cartilage and bone development in zebrafish",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012164"
+        }
+      ],
+      "standfirst": "Analysis of polr3a mutant zebrafish shows that loss of this Pol III subunit specifically impairs neural crest cell-derived craniofacial structures, clarifying how POLR3-related disease variants cause tissue-specific developmental defects.",
+      "summary": "A peer-reviewed study published in PLOS Genetics by Bailey Lubash, Kristin Watt, and colleagues investigates the role of the RNA Polymerase III (Pol III) subunit Polr3a in craniofacial development using zebrafish as a model organism. Pol III transcribes non-coding RNAs essential for ribosome biogenesis and protein translation in all cell types; yet pathogenic variants in genes encoding Pol III subunits in humans cause disorders with notably tissue-specific phenotypes, including neurological and craniofacial differences collectively termed POLR3-related hypomyelinating leukodystrophy.\n\nExamination of polr3a mutant zebrafish revealed hypoplasia — underdevelopment — specifically of craniofacial cartilage and bone derived from neural crest cells, a migratory embryonic cell population critical for vertebrate head morphogenesis. The finding that Pol III loss has a disproportionate impact on neural crest-derived tissues, despite the universal requirement for Pol III activity, offers mechanistic insight into why POLR3 disease variants produce selective rather than global developmental disruption.\n\nThe study contributes to understanding the molecular basis of rare craniofacial conditions and to the broader question of how mutations in ubiquitously expressed genes produce tissue-restricted disease. The zebrafish model may serve as a platform for future functional characterisation of specific POLR3A human variants identified in clinical sequencing.",
+      "tags": [
+        "polr3a",
+        "rna-polymerase-iii",
+        "craniofacial-development",
+        "neural-crest",
+        "zebrafish",
+        "rare-disease",
+        "developmental-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study identifies Rv3839-Rv3840 as a link between heme biosynthesis and M. tuberculosis stress adaptation",
+      "is_preprint": false,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-06-08T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "mtb-rv3839-rv3840-heme-nitric-oxide-iron-stress",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-08T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Rv3839-Rv3840 links the endogenous heme biosynthesis pathway with Mycobacterium tuberculosis adaptation to nitric oxide and iron limitation stress",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012202"
+        }
+      ],
+      "standfirst": "Researchers show that a previously uncharacterised gene pair connects Mycobacterium tuberculosis's endogenous heme pathway to its response to nitric oxide and iron limitation encountered during host infection.",
+      "summary": "A peer-reviewed study published in PLOS Genetics by Natalia Quirk, Kate Gregory, Yasu Morita, Shumin Tan, and colleagues characterises the function of the Rv3839-Rv3840 gene pair in Mycobacterium tuberculosis (Mtb), the causative agent of tuberculosis. During infection, Mtb must cope with several hostile conditions imposed by host immunity, including exposure to nitric oxide (NO) produced by macrophages and restriction of available iron — a nutrient essential for bacterial survival.\n\nThe study finds that Rv3839-Rv3840 physically links the bacterium's endogenous heme biosynthesis pathway to its integrated response to NO and iron limitation. Iron-containing prosthetic groups in key enzymes are critical for Mtb's capacity to sense and detoxify NO, and the authors demonstrate that this gene pair plays a role in co-ordinating adaptation to these two stressors simultaneously — a capability that has been poorly understood despite the known overlap between NO-responsive and low-iron-responsive genes.\n\nIdentifying how Mtb integrates responses to concurrent host-derived stresses is relevant to tuberculosis research because persistent infection depends on the bacterium's ability to survive within the hostile macrophage environment. Understanding novel regulatory nodes in Mtb stress adaptation may inform future work on drug targets, though the study is a mechanistic characterisation rather than a drug-development study.",
+      "tags": [
+        "mycobacterium-tuberculosis",
+        "heme-biosynthesis",
+        "nitric-oxide",
+        "iron-limitation",
+        "host-pathogen-interactions",
+        "bacterial-genetics",
+        "infectious-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint compares environmental DNA and RNA metabarcoding for tropical marine biodiversity assessment",
+      "is_preprint": true,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-08T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "edna-erna-metabarcoding-marine-biodiversity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Complementary Insights from Environmental DNA and Environmental RNA Metabarcoding for Marine Biodiversity Assessment Around San Andres Island, Colombia",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.730006v1?rss=1"
+        }
+      ],
+      "standfirst": "A paired eDNA/eRNA study across coral reef and seagrass habitats near San Andres Island, Colombia, tests whether RNA-based metabarcoding provides a more temporally resolved snapshot of living marine communities.",
+      "summary": "A preprint posted to bioRxiv reports a paired environmental DNA (eDNA) and environmental RNA (eRNA) metabarcoding comparison at 19 co-sampled marine sites near San Andres Island, Colombia, spanning coral reefs, seagrass beds, and other tropical marine habitats. The study addresses a methodological challenge in biodiversity monitoring: eDNA recovers genetic material irrespective of whether source organisms are alive or recently dead, potentially conflating signals from living communities with historical or degraded material.\n\nEnvironmental RNA, derived from the less chemically stable ribonucleic acid, is hypothesised to be preferentially associated with metabolically active organisms, thereby providing a more temporally resolved view of which species are currently present and active. The researchers used both approaches on the same water samples to assess how much the community pictures they generate diverge and whether eRNA recovers a detectably different or more contemporaneous biodiversity signal.\n\nThe work is relevant to the growing application of genomic tools in ecology and conservation biology, including assessments of reef health. It also illustrates methodological considerations in the design of environmental genomics surveys — particularly the trade-offs between sensitivity, temporal resolution, and practical field logistics. As a preprint, the findings have not yet been peer-reviewed.",
+      "tags": [
+        "environmental-dna",
+        "edna",
+        "metabarcoding",
+        "marine-biodiversity",
+        "coral-reef",
+        "conservation-genomics",
+        "environmental-rna"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes cross-selection method balancing multiple traits via progeny distribution prediction in plant breeding",
+      "is_preprint": true,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-06-08T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "cross-potential-selection-multi-trait-plant-breeding",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cross Potential Selection for Multiple Traits Considering the Progeny Distribution of Future Inbred Lines in Plant Breeding Programs",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729654v1?rss=1"
+        }
+      ],
+      "standfirst": "A new statistical framework described on bioRxiv allows plant breeders to select crossing pairs that are predicted to satisfy simultaneous requirements across genetically correlated target and essential traits.",
+      "summary": "A preprint posted to bioRxiv presents a statistical framework for cross-potential selection in plant breeding programmes where improvement in one target trait risks undesirable changes in other genetically correlated traits. The authors term the approach Cross Potential Selection for Multiple Traits, and it centres on explicitly modelling the predicted progeny distribution of each candidate crossing pair — rather than simply the expected mean — using estimated genotypic values and genetic covariances across traits.\n\nIn many breeding scenarios, a single trait can be optimised relatively straightforwardly through genomic selection, but improving a target trait while keeping multiple essential traits within acceptable bounds is complicated by genetic correlations, which can cause indirect responses that move one trait in an undesirable direction when another is selected. The proposed framework aims to identify crossing combinations whose predicted offspring distributions have acceptable probabilities of meeting all specified trait requirements simultaneously.\n\nThe method has potential relevance to crop improvement contexts — for example, maintaining disease resistance or nutritional quality while selecting for yield — and the authors demonstrate its application with simulated and empirical examples. This is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "plant-breeding",
+        "genomic-selection",
+        "multi-trait-selection",
+        "quantitative-genetics",
+        "cross-selection",
+        "crop-genomics",
+        "progeny-distribution"
+      ]
     }
   ],
-  "last_run": "2026-06-05T10:46:27.817616+00:00",
+  "last_run": "2026-06-09T10:34:47.734768+00:00",
   "seen_urls": {
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012144": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012157": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012161": "2026-06-04T10:39:38.416026+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012163": "2026-05-28T10:54:47.536471+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012164": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012165": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012168": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012169": "2026-05-29T10:45:46.729042+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012171": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172": "2026-05-29T10:45:46.729042+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012175": "2026-06-04T10:39:38.416026+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012176": "2026-06-09T10:34:47.734768+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012177": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012188": "2026-06-05T10:46:27.817616+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012191": "2026-06-04T10:39:38.416026+00:00",
-    "https://news.cancerresearchuk.org/2026/05/25/beyond-the-research-turning-evidence-into-impact/": "2026-05-25T11:08:44.871677+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012202": "2026-06-09T10:34:47.734768+00:00",
     "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
     "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
     "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/": "2026-06-02T11:16:52.725456+00:00",
     "https://news.cancerresearchuk.org/2026/06/03/preventing-a-cancer-from-ever-developing-is-one-of-the-greatest-contributions-we-can-make-raymond-dubois-wins-outstanding-achievement-in-cancer-prevention-research-award/": "2026-06-04T10:39:38.416026+00:00",
+    "https://news.cancerresearchuk.org/2026/06/05/celebrating-25-years-in-partnership-with-tesco/": "2026-06-06T09:25:58.323154+00:00",
     "https://news.cancerresearchuk.org/2026/06/05/latest-winner-in-our-research-is-beautiful-competition-3/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.20.723021v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.20.726050v1?rss=1": "2026-05-24T09:20:24.818795+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.20.726491v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.20.726500v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.20.726538v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.20.726645v1?rss=1": "2026-05-23T09:01:17.605948+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.21.726797v1?rss=1": "2026-05-24T09:20:24.818795+00:00",
+    "https://news.cancerresearchuk.org/2026/06/05/precision-prevention-how-to-take-the-next-step-in-preventing-cancer/": "2026-06-06T09:25:58.323154+00:00",
+    "https://news.cancerresearchuk.org/2026/06/05/secrets-of-the-super-avoiders-why-do-some-people-just-not-get-cancer/": "2026-06-06T09:25:58.323154+00:00",
+    "https://news.cancerresearchuk.org/2026/06/09/research-with-integrity-a-refresh-for-the-better/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.21.726896v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727229v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727232v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
@@ -4819,15 +5779,22 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.01.729389v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.01.729390v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729377v1?rss=1": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.02.729387v1?rss=1": "2026-06-06T09:25:58.323154+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729559v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.02.729628v1?rss=1": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.02.729654v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729606v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.03.729750v1?rss=1": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.03.729791v1?rss=1": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.03.729853v1?rss=1": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.03.730006v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.04.727993v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.04.730050v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.england.nhs.uk/2026/05/supermarket-scans-spotting-thousands-of-cancers/": "2026-05-25T11:08:44.871677+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.04.730102v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.07.728858v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
     "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/": "2026-06-04T10:39:38.416026+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260523103910.htm": "2026-05-25T11:08:44.871677+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260523103943.htm": "2026-05-25T11:08:44.871677+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260523103947.htm": "2026-05-25T11:08:44.871677+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022006.htm": "2026-05-27T10:55:45.299768+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022018.htm": "2026-05-27T10:55:45.299768+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022024.htm": "2026-05-28T10:54:47.536471+00:00",
@@ -4850,11 +5817,9 @@
     "https://www.sciencedaily.com/releases/2026/06/260602021641.htm": "2026-06-03T11:55:44.292835+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260603023921.htm": "2026-06-04T10:39:38.416026+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260604044247.htm": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/05/22/biotech-news-astrazeneca-breast-cancer-drug-mixed-eu-and-us-approval/?utm_campaign=rss": "2026-05-23T09:01:17.605948+00:00",
-    "https://www.statnews.com/2026/05/22/health-news-cdc-mpox-page-caught-in-political-crosshairs/?utm_campaign=rss": "2026-05-23T09:01:17.605948+00:00",
-    "https://www.statnews.com/2026/05/22/medicaid-state-directed-payments-trump-proposes-more-cuts/?utm_campaign=rss": "2026-05-23T09:01:17.605948+00:00",
-    "https://www.statnews.com/2026/05/22/retro-biosciences-longevity-valuation/?utm_campaign=rss": "2026-05-23T09:01:17.605948+00:00",
-    "https://www.statnews.com/2026/05/23/perimenopause-misinformation-influencers-supplements-hormones/?utm_campaign=rss": "2026-05-24T09:20:24.818795+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260605023417.htm": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260606075852.htm": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260608035959.htm": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/2026/05/25/eli-lilly-verv-102-gene-editing-cholesterol-phase-1-trial-data/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/ai-biotech-bighat-biosciences-ceo-on-ai-drug-development-hype/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/biotech-news-eli-lilly-spends-more-of-its-glp-1-cash/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
@@ -4951,20 +5916,60 @@
     "https://www.statnews.com/2026/06/04/after-doctors-patient-ai-scribes-track-visits/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/04/biotech-news-ai-titans-push-congress-to-dna-safeguards/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/04/doctronic-utah-pilot-medical-board-scolded-health-tech/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/04/fda-commissioners-voucher-program-town-hall-pharma-patients-urge-pause/": "2026-06-05T10:46:27.817616+00:00",
+    "https://www.statnews.com/2026/06/04/fda-commissioners-voucher-program-town-hall-pharma-patients-urge-pause/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/2026/06/04/grail-multi-cancer-early-detection-test-trial-results/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/04/health-news-scientists-uncover-new-hiding-spot-for-hiv/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/04/kennedy-hhs-challenges-wins-politics-nih-schedule-f-dc-diagnosis/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/04/kenya-ebola-quarantine-experimental-treatment-mbp-134-authorized/": "2026-06-05T10:46:27.817616+00:00",
+    "https://www.statnews.com/2026/06/04/kennedy-hhs-challenges-wins-politics-nih-schedule-f-dc-diagnosis/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/04/kenya-ebola-quarantine-experimental-treatment-mbp-134-authorized/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/2026/06/04/longevity-science-vitalist-bay-festival-status-report-alex-hogan/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/04/male-puberty-timing-long-term-health-risk-prediction/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/04/medicaid-work-requirements-final-rule-cancer-patients/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/04/readout-loud-podcast-revolution-medicines-pancreatic-cancer-patient-asco/": "2026-06-05T10:46:27.817616+00:00",
+    "https://www.statnews.com/2026/06/04/otsuka-kidney-drug-voyxact-study-results/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/04/readout-loud-podcast-revolution-medicines-pancreatic-cancer-patient-asco/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/2026/06/04/revolution-medicines-daraxonrasib-pancreatic-cancer/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/04/trump-administration-to-strip-job-protections-of-top-nih-officials-grants-research/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/05/hhs-cuts-office-human-research-protections-running-on-fumes/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/05/universal-health-care-system-tradeoffs-accountability/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/22/parkinson-drug-trial-setback-merck-lung-cancer-therapy/?utm_campaign=rss": "2026-05-23T09:01:17.605948+00:00",
+    "https://www.statnews.com/2026/06/05/ada-conference-new-orleans-richard-woychik-synergy-nih-maha/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/ada-conference-new-orleans-richard-woychik-synergy-nih-maha/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/05/americans-ebola-kenya-protests/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/americans-ebola-kenya-protests/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/05/biotech-news-will-makarys-fda-voucher-program-survive/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/biotech-news-will-makarys-fda-voucher-program-survive/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/05/cdc-ebola-modeling-study/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/cdc-ebola-modeling-study/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/05/health-news-texas-ag-investigating-energy-drinks/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/health-news-texas-ag-investigating-energy-drinks/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/05/hhs-cuts-office-human-research-protections-running-on-fumes/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/newer-glp-1s-pushback-on-research-cuts-and-a-protest-ada-in-30/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/newer-glp-1s-pushback-on-research-cuts-and-a-protest-ada-in-30/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/05/schedule-f-changes-impacts-nih-cdc-fda/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/05/schedule-f-changes-impacts-nih-cdc-fda/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/05/universal-health-care-system-tradeoffs-accountability/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/06/amish-public-health-vaccines-autism-interview-transcript/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/06/amish-public-health-vaccines-autism-interview-transcript/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/06/ebola-outbreak-us-aid-response-tom-frieden-action-plan/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/2026/06/06/ebola-outbreak-us-aid-response-tom-frieden-action-plan/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/06/illy-retatrutide-triple-g-weight-loss-obesity-safety-data-ada/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/06/pfizer-obesity-drug-berobenatide-metsera-results/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/06/triple-g-safety-data-monthly-obesity-drug-ada-in-30/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/2026/06/07/boehringer-ingelheim-obesity-drug-survodutide-phase-3-data/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/07/competition-obesity-drugs-clinical-blind-spots-and-more-ada/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/08/astrazeneca-obesity-diabetes-treatment-studies/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/biotech-news-novo-underwhelmed-by-drug-it-once-fought-pfizer-for/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/ebola-outbreak-congo-health-workers-little-pay-rest/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/financing-gene-therapies-cures-cost/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/08/health-news-readouts-from-annual-diabetes-conference/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/johnson-and-johnson-firefly-cancer-kras-treatment/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/obese-horses-humans-metabolic-syndrome-food-system/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/08/pancreatic-cancer-combination-tango-therapeutics-revolution-medicines-vopimetostat-daraxonrasib/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/unitedhealth-lactation-counseling-policy-medicare-advantage-audits-stroke/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/vascular-care-homeless-amputation-prevention-effort-mass-general/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/09/affordability-czar-casey-mulligan-hfma-speech-medicaid-cuts/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/ebola-outbreak-response-difference-between-2014-today-susan-reichle/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/gsk-nuvalent-acquistion-oncology-lung-cancer-zidesamtinib-neladalkib/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/health-care-vs-healthcare-ap-style-stat/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/pig-organ-transplant-animal-testing-impact-xenotransplantation/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/suppressed-alcohol-health-study-released-one-drink-or-less-daily/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/wearables-data-oura-whoop-clinical-integration/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
@@ -4975,9 +5980,14 @@
     "https://www.statnews.com/pharmalot/2026/06/02/lilly-threat-to-340b-hospitals-ebola-vaccine-funding/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/pharmalot/2026/06/03/weight-loss-drugs-knee-replacements-fda-cell-gene-therapy/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.statnews.com/pharmalot/2026/06/04/fewer-pharma-investments-in-germany-growing-layoffs-in-us/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/04/hikma-amarin-generics-skinny-labeling-supreme-court/": "2026-06-05T10:46:27.817616+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/04/hikma-amarin-generics-skinny-labeling-supreme-court/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/pharmalot/2026/06/04/otsuka-kidney-drug-voyxact-study-results/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/04/revolution-medicines-pancreatic-cancer-drug-daraxonrasib-heavy-demand/": "2026-06-05T10:46:27.817616+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/04/revolution-medicines-pancreatic-cancer-drug-daraxonrasib-heavy-demand/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/05/jobs-up-and-down-the-ladder-latest-comings-and-goings/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/05/jobs-up-and-down-the-ladder-latest-comings-and-goings/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/08/lilly-pfizer-obesity-drug-trial-data-roche-deal/": "2026-06-09T10:34:47.734768+00:00"
   },
   "takedowns": []
 }
