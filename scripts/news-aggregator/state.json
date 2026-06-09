@@ -5403,9 +5403,309 @@
         "chemical-biology",
         "model-organism"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Cas12a combinatorial knockout screens map genetic interaction network of DNA damage response",
+      "is_preprint": true,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-06-08T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "dna-damage-response-cas12a-combinatorial-screens",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mapping the genetic landscape of the DNA damage response with Cas12a-based combinatorial knockout screens",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.07.728858v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory describes genome-wide pairwise disruption of 233 DDR genes in cancer-relevant cell lines, revealing how repair pathway components interact functionally.",
+      "summary": "Researchers have used Cas12a-based combinatorial knockout screens to interrogate the functional architecture of the DNA damage response (DDR), a network of cellular pathways that maintains genome integrity when DNA is damaged. The preprint, posted to bioRxiv, describes the systematic disruption of 233 DDR genes — selected because they are frequently mutated in cancer and other genetic diseases — either individually or in pairwise combinations, generating data on more than 27,000 gene-pair interactions under normal cell-growth conditions.\n\nThe approach exploits Cas12a's ability to process multiple guide RNAs from a single transcript, making high-throughput combinatorial perturbation more tractable than with standard Cas9 systems. By comparing phenotypic outcomes of single versus double knockouts, the study aims to distinguish between genes that act redundantly, synergistically, or antagonistically within DDR pathways.\n\nThe resulting genetic interaction map is intended as a resource for understanding which combinations of DDR gene disruptions are lethal or growth-impairing — information relevant to identifying potential therapeutic vulnerabilities in tumour cells that already carry somatic DDR mutations. The authors note that the screen was conducted under unperturbed conditions; how interactions shift under genotoxic stress remains to be characterised.\n\nThis work has not yet been peer-reviewed. The data resource it describes could inform future experimental and computational analyses of DDR pathway organisation in cancer biology.",
+      "tags": [
+        "dna-damage-response",
+        "cas12a",
+        "combinatorial-knockout",
+        "genetic-interactions",
+        "cancer-genomics",
+        "functional-genomics",
+        "crispr"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint finds redox stress sharply elevates mutagenesis during bacterial horizontal gene transfer",
+      "is_preprint": true,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-08T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "redox-stress-mutagenesis-horizontal-gene-transfer",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Redox stress agents strongly enhance mutagenesis during horizontal gene transfer in bacteria and leave distinct mutational and metabolic footprints",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730102v1?rss=1"
+        }
+      ],
+      "standfirst": "Using single-stranded DNA as a sensitive mutational reporter, researchers characterise how redox agents enhance mutation rates during horizontal gene transfer and leave distinct genomic footprints.",
+      "summary": "A preprint posted to bioRxiv investigates how oxidative and other redox stresses affect mutation rates specifically during horizontal gene transfer in bacteria — a route by which antibiotic resistance genes spread between organisms. The researchers developed a protocol exploiting single-stranded DNA (ssDNA), which is both highly susceptible to chemical damage and largely inaccessible to most DNA repair pathways, as a reporter system for measuring redox-induced mutagenesis.\n\nThe study finds that redox stress agents substantially increase mutation rates during gene transfer events and that different redox agents leave characteristic mutational and metabolic footprints — patterns in the types and locations of mutations that may serve as signatures linking specific environmental stresses to resistance emergence. The authors suggest this could help explain why antibiotic resistance evolves more rapidly in environments rich in reactive oxygen species, such as those encountered during host infection or antibiotic treatment itself.\n\nUnderstanding the mutational dynamics of horizontal gene transfer is relevant to antimicrobial resistance research, as it connects environmental stress conditions to the evolutionary processes generating resistance diversity. The preprint has not yet undergone peer review, and findings relating to specific mutational footprints will require further validation across diverse bacterial species and genetic backgrounds.",
+      "tags": [
+        "antimicrobial-resistance",
+        "horizontal-gene-transfer",
+        "redox-stress",
+        "mutagenesis",
+        "bacterial-genetics",
+        "mutation-rate",
+        "functional-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study reveals how Tbx16 and Mesogenin 1 drive presomitic mesoderm differentiation in zebrafish",
+      "is_preprint": false,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-08T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "tbx16-mesogenin1-presomitic-mesoderm-zebrafish",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-08T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Tbx16 and mesogenin 1 promote presomitic mesoderm differentiation by repressing the mesodermal progenitor cell state",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012176"
+        }
+      ],
+      "standfirst": "Using temporally controlled overexpression and single-cell RNA sequencing, researchers at Yale University identify how two transcription factors repress the progenitor state to promote somite formation.",
+      "summary": "A study published in PLOS Genetics by Guoyu Zhu, Miriam Genuth, and colleagues in Scott Holley's laboratory at Yale University dissects how the transcription factors Tbx16 and Mesogenin 1 coordinate presomitic mesoderm (PSM) differentiation during zebrafish embryonic body elongation. The PSM is the tissue from which vertebral somites — the precursors of vertebrae, skeletal muscle, and dermis — are derived, making its correct formation essential for normal body plan development.\n\nThe team combined temporally controlled overexpression of tbx16 and mesogenin 1 with bulk RNA sequencing to capture immediate downstream transcriptional changes, then integrated those data with wild-type single-cell RNA sequencing using machine learning and game-theory-based analytical approaches. The study finds that these two factors promote PSM differentiation primarily by repressing the mesodermal progenitor cell state rather than solely activating a differentiation programme — a mechanistic distinction with implications for understanding how developmental transitions are controlled.\n\nThe work adds resolution to understanding the gene regulatory networks governing vertebrate body axis formation and may inform future research into congenital vertebral anomalies, where disruption of somitogenesis pathways has been implicated. The paper is published as a peer-reviewed article in PLOS Genetics.",
+      "tags": [
+        "zebrafish",
+        "somitogenesis",
+        "tbx16",
+        "mesogenin1",
+        "mesodermal-progenitors",
+        "developmental-genetics",
+        "transcription-factors"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study links RNA Polymerase III subunit Polr3a to craniofacial cartilage and bone formation",
+      "is_preprint": false,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-06-08T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "polr3a-craniofacial-development-zebrafish",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-08T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "RNA Polymerase III subunit Polr3a is required for craniofacial cartilage and bone development in zebrafish",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012164"
+        }
+      ],
+      "standfirst": "Analysis of polr3a mutant zebrafish shows that loss of this Pol III subunit specifically impairs neural crest cell-derived craniofacial structures, clarifying how POLR3-related disease variants cause tissue-specific developmental defects.",
+      "summary": "A peer-reviewed study published in PLOS Genetics by Bailey Lubash, Kristin Watt, and colleagues investigates the role of the RNA Polymerase III (Pol III) subunit Polr3a in craniofacial development using zebrafish as a model organism. Pol III transcribes non-coding RNAs essential for ribosome biogenesis and protein translation in all cell types; yet pathogenic variants in genes encoding Pol III subunits in humans cause disorders with notably tissue-specific phenotypes, including neurological and craniofacial differences collectively termed POLR3-related hypomyelinating leukodystrophy.\n\nExamination of polr3a mutant zebrafish revealed hypoplasia — underdevelopment — specifically of craniofacial cartilage and bone derived from neural crest cells, a migratory embryonic cell population critical for vertebrate head morphogenesis. The finding that Pol III loss has a disproportionate impact on neural crest-derived tissues, despite the universal requirement for Pol III activity, offers mechanistic insight into why POLR3 disease variants produce selective rather than global developmental disruption.\n\nThe study contributes to understanding the molecular basis of rare craniofacial conditions and to the broader question of how mutations in ubiquitously expressed genes produce tissue-restricted disease. The zebrafish model may serve as a platform for future functional characterisation of specific POLR3A human variants identified in clinical sequencing.",
+      "tags": [
+        "polr3a",
+        "rna-polymerase-iii",
+        "craniofacial-development",
+        "neural-crest",
+        "zebrafish",
+        "rare-disease",
+        "developmental-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study identifies Rv3839-Rv3840 as a link between heme biosynthesis and M. tuberculosis stress adaptation",
+      "is_preprint": false,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-06-08T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "mtb-rv3839-rv3840-heme-nitric-oxide-iron-stress",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-08T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Rv3839-Rv3840 links the endogenous heme biosynthesis pathway with Mycobacterium tuberculosis adaptation to nitric oxide and iron limitation stress",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012202"
+        }
+      ],
+      "standfirst": "Researchers show that a previously uncharacterised gene pair connects Mycobacterium tuberculosis's endogenous heme pathway to its response to nitric oxide and iron limitation encountered during host infection.",
+      "summary": "A peer-reviewed study published in PLOS Genetics by Natalia Quirk, Kate Gregory, Yasu Morita, Shumin Tan, and colleagues characterises the function of the Rv3839-Rv3840 gene pair in Mycobacterium tuberculosis (Mtb), the causative agent of tuberculosis. During infection, Mtb must cope with several hostile conditions imposed by host immunity, including exposure to nitric oxide (NO) produced by macrophages and restriction of available iron — a nutrient essential for bacterial survival.\n\nThe study finds that Rv3839-Rv3840 physically links the bacterium's endogenous heme biosynthesis pathway to its integrated response to NO and iron limitation. Iron-containing prosthetic groups in key enzymes are critical for Mtb's capacity to sense and detoxify NO, and the authors demonstrate that this gene pair plays a role in co-ordinating adaptation to these two stressors simultaneously — a capability that has been poorly understood despite the known overlap between NO-responsive and low-iron-responsive genes.\n\nIdentifying how Mtb integrates responses to concurrent host-derived stresses is relevant to tuberculosis research because persistent infection depends on the bacterium's ability to survive within the hostile macrophage environment. Understanding novel regulatory nodes in Mtb stress adaptation may inform future work on drug targets, though the study is a mechanistic characterisation rather than a drug-development study.",
+      "tags": [
+        "mycobacterium-tuberculosis",
+        "heme-biosynthesis",
+        "nitric-oxide",
+        "iron-limitation",
+        "host-pathogen-interactions",
+        "bacterial-genetics",
+        "infectious-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint compares environmental DNA and RNA metabarcoding for tropical marine biodiversity assessment",
+      "is_preprint": true,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-08T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "edna-erna-metabarcoding-marine-biodiversity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Complementary Insights from Environmental DNA and Environmental RNA Metabarcoding for Marine Biodiversity Assessment Around San Andres Island, Colombia",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.730006v1?rss=1"
+        }
+      ],
+      "standfirst": "A paired eDNA/eRNA study across coral reef and seagrass habitats near San Andres Island, Colombia, tests whether RNA-based metabarcoding provides a more temporally resolved snapshot of living marine communities.",
+      "summary": "A preprint posted to bioRxiv reports a paired environmental DNA (eDNA) and environmental RNA (eRNA) metabarcoding comparison at 19 co-sampled marine sites near San Andres Island, Colombia, spanning coral reefs, seagrass beds, and other tropical marine habitats. The study addresses a methodological challenge in biodiversity monitoring: eDNA recovers genetic material irrespective of whether source organisms are alive or recently dead, potentially conflating signals from living communities with historical or degraded material.\n\nEnvironmental RNA, derived from the less chemically stable ribonucleic acid, is hypothesised to be preferentially associated with metabolically active organisms, thereby providing a more temporally resolved view of which species are currently present and active. The researchers used both approaches on the same water samples to assess how much the community pictures they generate diverge and whether eRNA recovers a detectably different or more contemporaneous biodiversity signal.\n\nThe work is relevant to the growing application of genomic tools in ecology and conservation biology, including assessments of reef health. It also illustrates methodological considerations in the design of environmental genomics surveys — particularly the trade-offs between sensitivity, temporal resolution, and practical field logistics. As a preprint, the findings have not yet been peer-reviewed.",
+      "tags": [
+        "environmental-dna",
+        "edna",
+        "metabarcoding",
+        "marine-biodiversity",
+        "coral-reef",
+        "conservation-genomics",
+        "environmental-rna"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes cross-selection method balancing multiple traits via progeny distribution prediction in plant breeding",
+      "is_preprint": true,
+      "run_date": "2026-06-09",
+      "run_iso": "2026-06-09T10:32:50Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-06-08T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "cross-potential-selection-multi-trait-plant-breeding",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cross Potential Selection for Multiple Traits Considering the Progeny Distribution of Future Inbred Lines in Plant Breeding Programs",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729654v1?rss=1"
+        }
+      ],
+      "standfirst": "A new statistical framework described on bioRxiv allows plant breeders to select crossing pairs that are predicted to satisfy simultaneous requirements across genetically correlated target and essential traits.",
+      "summary": "A preprint posted to bioRxiv presents a statistical framework for cross-potential selection in plant breeding programmes where improvement in one target trait risks undesirable changes in other genetically correlated traits. The authors term the approach Cross Potential Selection for Multiple Traits, and it centres on explicitly modelling the predicted progeny distribution of each candidate crossing pair — rather than simply the expected mean — using estimated genotypic values and genetic covariances across traits.\n\nIn many breeding scenarios, a single trait can be optimised relatively straightforwardly through genomic selection, but improving a target trait while keeping multiple essential traits within acceptable bounds is complicated by genetic correlations, which can cause indirect responses that move one trait in an undesirable direction when another is selected. The proposed framework aims to identify crossing combinations whose predicted offspring distributions have acceptable probabilities of meeting all specified trait requirements simultaneously.\n\nThe method has potential relevance to crop improvement contexts — for example, maintaining disease resistance or nutritional quality while selecting for yield — and the authors demonstrate its application with simulated and empirical examples. This is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "plant-breeding",
+        "genomic-selection",
+        "multi-trait-selection",
+        "quantitative-genetics",
+        "cross-selection",
+        "crop-genomics",
+        "progeny-distribution"
+      ]
     }
   ],
-  "last_run": "2026-06-08T11:55:03.865089+00:00",
+  "last_run": "2026-06-09T10:34:47.734768+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
@@ -5414,15 +5714,18 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012157": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012161": "2026-06-04T10:39:38.416026+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012163": "2026-05-28T10:54:47.536471+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012164": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012165": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012168": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012169": "2026-05-29T10:45:46.729042+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012171": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172": "2026-05-29T10:45:46.729042+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012175": "2026-06-04T10:39:38.416026+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012176": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012177": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012188": "2026-06-05T10:46:27.817616+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012191": "2026-06-04T10:39:38.416026+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012202": "2026-06-09T10:34:47.734768+00:00",
     "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
     "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
     "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/": "2026-06-02T11:16:52.725456+00:00",
@@ -5431,6 +5734,7 @@
     "https://news.cancerresearchuk.org/2026/06/05/latest-winner-in-our-research-is-beautiful-competition-3/": "2026-06-05T10:46:27.817616+00:00",
     "https://news.cancerresearchuk.org/2026/06/05/precision-prevention-how-to-take-the-next-step-in-preventing-cancer/": "2026-06-06T09:25:58.323154+00:00",
     "https://news.cancerresearchuk.org/2026/06/05/secrets-of-the-super-avoiders-why-do-some-people-just-not-get-cancer/": "2026-06-06T09:25:58.323154+00:00",
+    "https://news.cancerresearchuk.org/2026/06/09/research-with-integrity-a-refresh-for-the-better/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.21.726896v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727229v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.22.727232v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
@@ -5478,11 +5782,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729387v1?rss=1": "2026-06-06T09:25:58.323154+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729559v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729628v1?rss=1": "2026-06-06T09:25:58.323154+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.02.729654v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729606v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729750v1?rss=1": "2026-06-08T11:55:03.865089+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729791v1?rss=1": "2026-06-07T09:59:01.659859+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729853v1?rss=1": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.03.730006v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.04.727993v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.04.730050v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.04.730102v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.07.728858v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
     "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
     "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/": "2026-06-04T10:39:38.416026+00:00",
@@ -5510,6 +5819,7 @@
     "https://www.sciencedaily.com/releases/2026/06/260604044247.htm": "2026-06-05T10:46:27.817616+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260605023417.htm": "2026-06-07T09:59:01.659859+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260606075852.htm": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260608035959.htm": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/2026/05/25/eli-lilly-verv-102-gene-editing-cholesterol-phase-1-trial-data/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/ai-biotech-bighat-biosciences-ceo-on-ai-drug-development-hype/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/biotech-news-eli-lilly-spends-more-of-its-glp-1-cash/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
@@ -5643,9 +5953,23 @@
     "https://www.statnews.com/2026/06/06/triple-g-safety-data-monthly-obesity-drug-ada-in-30/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/07/boehringer-ingelheim-obesity-drug-survodutide-phase-3-data/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
     "https://www.statnews.com/2026/06/07/competition-obesity-drugs-clinical-blind-spots-and-more-ada/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/08/astrazeneca-obesity-diabetes-treatment-studies/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/biotech-news-novo-underwhelmed-by-drug-it-once-fought-pfizer-for/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/ebola-outbreak-congo-health-workers-little-pay-rest/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/2026/06/08/financing-gene-therapies-cures-cost/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/08/health-news-readouts-from-annual-diabetes-conference/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/johnson-and-johnson-firefly-cancer-kras-treatment/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/2026/06/08/obese-horses-humans-metabolic-syndrome-food-system/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/08/pancreatic-cancer-combination-tango-therapeutics-revolution-medicines-vopimetostat-daraxonrasib/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/08/unitedhealth-lactation-counseling-policy-medicare-advantage-audits-stroke/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/2026/06/08/vascular-care-homeless-amputation-prevention-effort-mass-general/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.statnews.com/2026/06/09/affordability-czar-casey-mulligan-hfma-speech-medicaid-cuts/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/ebola-outbreak-response-difference-between-2014-today-susan-reichle/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/gsk-nuvalent-acquistion-oncology-lung-cancer-zidesamtinib-neladalkib/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/health-care-vs-healthcare-ap-style-stat/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/pig-organ-transplant-animal-testing-impact-xenotransplantation/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/suppressed-alcohol-health-study-released-one-drink-or-less-daily/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/wearables-data-oura-whoop-clinical-integration/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
@@ -5662,7 +5986,8 @@
     "https://www.statnews.com/pharmalot/2026/06/05/jobs-up-and-down-the-ladder-latest-comings-and-goings/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/pharmalot/2026/06/05/jobs-up-and-down-the-ladder-latest-comings-and-goings/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/": "2026-06-06T09:25:58.323154+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/08/lilly-pfizer-obesity-drug-trial-data-roche-deal/": "2026-06-09T10:34:47.734768+00:00"
   },
   "takedowns": []
 }
