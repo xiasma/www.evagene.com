@@ -5703,9 +5703,312 @@
         "crop-genomics",
         "progeny-distribution"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "CDKL5 Deficiency Disorder (CDD) is a rare brain condition that begins in early childhood and is caused by changes in a gene called CDKL5. Most research so far has focused on how CDKL5 affects nerve cells. A new study — posted online ahead of full scientific review — suggests that another type of brain cell, called astrocytes, may also be involved in what goes wrong in CDD. Astrocytes help support and maintain nerve cells, and the researchers found signs that they do not work normally in CDD models. This is early-stage laboratory research, and it has not yet been checked by independent scientists. It does not change any current guidance for families. Researchers say the results could help shape future investigations into the biology of CDD. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Astroglial dysfunction implicated in CDKL5 Deficiency Disorder in new preprint",
+      "is_preprint": true,
+      "run_date": "2026-06-10",
+      "run_iso": "2026-06-10T10:53:45Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 5,
+        "newest_iso": "2026-06-10T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "cdkl5-deficiency-astroglial-dysfunction-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Astroglial Dysfunction in Models of CDKL5 Deficiency Disorder",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.09.730164v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from 2026 proposes that astrocytes — not only neurons — may contribute to the pathophysiology of CDKL5 Deficiency Disorder, a rare developmental epileptic encephalopathy.",
+      "summary": "CDKL5 Deficiency Disorder (CDD) is a rare X-linked developmental epileptic encephalopathy caused by loss-of-function variants in the gene encoding the serine-threonine kinase CDKL5. Research to date has focused largely on the role of CDKL5 in neurons, where the kinase is known to regulate cytoskeletal organisation and synaptic stability. A preprint posted to bioRxiv in June 2026 reports findings from models of CDD suggesting that astroglia — the non-neuronal support cells of the brain — may also be functionally disrupted in the disorder.\n\nThe authors hypothesised that astrocytes could contribute to CDD pathophysiology given their established roles in synaptic development and homeostasis, and their documented dysfunction in other epileptic conditions. The preprint describes experiments in CDD model systems in which astroglial abnormalities were identified, though full methodological and statistical detail awaits peer review.\n\nThe work is of potential interest to researchers working on neurodevelopmental genomics and rare epilepsy, as well as genetic counsellors and families seeking a deeper understanding of the cellular mechanisms underlying CDD. It is important to note that this is a preprint and has not yet been peer-reviewed; findings should be interpreted with appropriate caution until the work has been assessed by independent experts.",
+      "tags": [
+        "cdkl5",
+        "rare-disease",
+        "developmental-epilepsy",
+        "astrocytes",
+        "neurodevelopmental-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint maps genetic and exposure-linked DNA methylation patterns in Black American brain tissue",
+      "is_preprint": true,
+      "run_date": "2026-06-10",
+      "run_iso": "2026-06-10T10:53:45Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-09T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "brain-methylome-snp-architecture-admixed-population",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Local SNP-explained methylation variation reveals genetically anchored and exposure-associated methylation architecture in the human brain",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730443v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint analyses postmortem brain samples from 168 admixed Black American adults to resolve how inherited genetic variation and environmental exposure jointly shape the brain methylome — an underrepresented population in such research.",
+      "summary": "Human brain DNA methylation is shaped by both inherited genetic variants and cumulative environmental experience, but how these two influences partition across the methylome has remained poorly characterised, particularly in ancestrally diverse cohorts. A preprint posted to bioRxiv in June 2026 reports findings from 168 admixed Black American adults drawn from the BrainSEQ consortium, for whom whole-genome bisulfite sequencing and genotype array data were available across three brain regions.\n\nThe authors adapted and benchmarked a SNP-based elastic-net modelling approach to classify variably methylated regions (VMRs) according to whether their variation is primarily explained by local genetic variants (genetically anchored) or by non-genetic, exposure-associated factors. The framework distinguishes between methylation quantitative trait loci (mQTL) effects and those reflecting environmental history, and the authors report that the resulting methylation architecture differs in important ways from findings in predominantly European-ancestry reference datasets.\n\nThe study addresses a recognised gap in epigenomic reference resources: most postmortem brain methylation studies have relied on cohorts of limited ancestral diversity, which constrains the generalisability of conclusions about gene–environment interactions in the brain. The findings are of primary interest to statistical geneticists, neuroepigenomics researchers, and those working on population diversity in genomic reference datasets. As a preprint, the work has not yet undergone peer review.",
+      "tags": [
+        "dna-methylation",
+        "epigenomics",
+        "brain",
+        "ancestry-diversity",
+        "mqtl",
+        "brainsEQ",
+        "statistical-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Synthetic fusion promoters improve balanced transgene expression in rods and cones in retinal gene therapy preprint",
+      "is_preprint": true,
+      "run_date": "2026-06-10",
+      "run_iso": "2026-06-10T10:53:45Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-09T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "retinal-gene-therapy-fusion-promoter-rods-cones",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Promfusion: a synthetic fusion promoter enabling enhanced and balanced photoreceptor transgene expression",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730342v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes two engineered fusion promoters — Pikali and Nocchu — that drive broader and more balanced transgene expression across both rod and cone photoreceptors than existing options, a longstanding challenge in retinal gene therapy research.",
+      "summary": "Achieving efficient transgene expression across both rod and cone photoreceptors is a persistent challenge in retinal gene therapy research. Current promoter constructs tend either to lack cell-type specificity or to provide insufficient coverage of both photoreceptor types at adequate expression levels. A preprint posted to bioRxiv in June 2026 describes two synthetic fusion promoters, designated Pikali and Nocchu, generated by combining PR1.7 (a cone-specific promoter) with GRK1 (a promoter most active in rods).\n\nThe authors report that both fusion promoters outperformed their parental constructs in driving GFP expression across rods and cones in human iPSC-derived retinal organoids. If confirmed after peer review, the findings could inform the design of future photoreceptor-targeted gene therapy vectors for inherited retinal dystrophies, a group of conditions caused by single-gene defects affecting the retina.\n\nThe work is of primary interest to researchers in retinal gene therapy, ocular genetics, and vector biology. Educators and students studying gene therapy delivery mechanisms may also find the promoter engineering approach instructive. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "retinal-gene-therapy",
+        "photoreceptors",
+        "promoter-engineering",
+        "ipsc",
+        "inherited-retinal-dystrophy",
+        "vector-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Natural genetic variation in Drosophila spans full range of predicted photoreceptor rhodopsin expression phenotypes",
+      "is_preprint": true,
+      "run_date": "2026-06-10",
+      "run_iso": "2026-06-10T10:53:45Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-09T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "drosophila-rh5-rh6-natural-variation-photoreceptors",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Natural genetic variation spans all predicted Rh5/Rh6 expression phenotypes in Drosophila R8 photoreceptors",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.05.730093v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using wild and wild-derived Drosophila lines finds that standing genetic variation is sufficient to produce virtually every predicted qualitative change in Rh5/Rh6 expression in R8 photoreceptors, illustrating the breadth of phenotypic potential in natural populations.",
+      "summary": "A fundamental question in evolutionary genetics is how much phenotypic variation standing genetic variation can generate without new mutations. A preprint posted to bioRxiv in June 2026 addresses this using the mutually exclusive Rhodopsin 5 (Rh5) and Rhodopsin 6 (Rh6) expression pattern in Drosophila R8 photoreceptors — a neuronal differentiation system in which a finite and enumerable set of qualitative phenotypic states can be defined.\n\nUsing wild flies and wild-derived inbred lines from the Drosophila Genome Reference Panel 2 (DGRP2), the authors report extensive variation in Rh5/Rh6 expression ratios, including shifts in the relative proportions of the two rhodopsin subtypes across the eye. Crucially, the observed variation was found to span essentially the full range of phenotypes predicted by the system's logic — suggesting that natural genetic variation alone can access the complete phenotypic space, without requiring new de novo mutations.\n\nThe findings contribute to ongoing discussions in population genetics and evolutionary biology about the role of standing variation in adaptation. The work is most relevant to researchers in evolutionary genetics, Drosophila biology, and quantitative genetics, as well as educators and students engaging with concepts of genotype–phenotype mapping and natural selection.",
+      "tags": [
+        "drosophila",
+        "standing-variation",
+        "rhodopsin",
+        "photoreceptors",
+        "evolutionary-genetics",
+        "quantitative-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Conserved phosphorylation motif in yeast Pch2 protein identified as critical regulator of meiotic chromosome dynamics",
+      "is_preprint": true,
+      "run_date": "2026-06-10",
+      "run_iso": "2026-06-10T10:53:45Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-06-09T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "pch2-conserved-motif-meiotic-regulation-yeast",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A conserved motif in Pch2 regulates its localization and meiotic function in Saccharomyces cerevisiae",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.04.730238v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies threonine 428 within a conserved TQ motif of the Saccharomyces cerevisiae Pch2 AAA+ ATPase as a key residue governing the protein's localisation and function during meiotic prophase I.",
+      "summary": "The Pch2 protein is a conserved AAA+ ATPase required for correct chromosome dynamics during meiosis. It acts by remodelling the HORMA-domain protein Hop1, promoting conformational changes essential for chromosome axis organisation, checkpoint signalling, and the control of meiotic recombination. Despite its importance, the molecular mechanisms that regulate Pch2 activity and localisation remain incompletely understood.\n\nA preprint posted to bioRxiv in June 2026 reports that threonine 428 (T428), located within a conserved threonine-glutamine (TQ) putative phosphorylation motif, is a critical regulatory residue of Pch2 in Saccharomyces cerevisiae. Experiments in zip1-deletion backgrounds — where Pch2 localisation is altered — demonstrated that T428 mutations affect both the protein's chromosomal distribution and its meiotic function. The TQ motif is a recognition sequence for checkpoint kinases, suggesting a link between DNA damage or recombination checkpoint signalling and Pch2 regulation.\n\nThe findings contribute to the molecular understanding of meiotic recombination control, which is relevant to research on meiotic drive, de novo mutation, and reproductive genetics more broadly. The work is most relevant to researchers in meiotic biology, yeast genetics, and molecular genetics. This is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "meiosis",
+        "pch2",
+        "yeast",
+        "recombination",
+        "chromosome-dynamics",
+        "aaa-atpase",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics paper models rates and energetic costs of ribosome drop-off during protein synthesis",
+      "is_preprint": false,
+      "run_date": "2026-06-10",
+      "run_iso": "2026-06-10T10:53:45Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-09T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "ribosome-dropoff-nonsense-errors-translation-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-09T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "The importance of nonsense errors: Estimating the rates and implications of ribosome drop-off during protein synthesis",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012162"
+        }
+      ],
+      "standfirst": "Researchers at the University of Tennessee publish a quantitative model in PLOS Genetics estimating how frequently ribosomes abandon transcripts before reaching a stop codon, and what energy burden these nonsense errors place on the cell.",
+      "summary": "Translation — the process by which ribosomes read messenger RNA to synthesise proteins — is both energetically costly and more error-prone than DNA replication or transcription. One class of translational error, termed a nonsense error or ribosome drop-off, occurs when a ribosome prematurely dissociates from a transcript before reaching the stop codon, producing an incomplete and likely non-functional protein fragment. Such events waste cellular energy and may produce aberrant polypeptides.\n\nPublished in PLOS Genetics in June 2026, a study by Alexander L. Cope, Denizhan Pak, and Michael A. Gilchrist presents a model of ribosome movement for estimating the rate of ribosome drop-off and its associated energetic cost to the cell. The authors argue that nonsense errors have been underappreciated relative to amino-acid misincorporation errors, and that their cumulative energetic burden may be significant — particularly for longer transcripts.\n\nThe modelling framework provides a quantitative basis for studying how cells optimise gene expression in the face of translational error, with implications for understanding codon usage bias and the evolution of gene length. The work is primarily relevant to researchers in molecular genetics, evolutionary genomics, and systems biology, as well as educators teaching translation fidelity and gene expression regulation.",
+      "tags": [
+        "translation",
+        "ribosome-dropoff",
+        "protein-synthesis",
+        "nonsense-errors",
+        "gene-expression",
+        "molecular-genetics",
+        "evolutionary-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Study proposes sexual reproduction as a driver of the Cambrian-era burst in animal evolutionary diversity",
+      "is_preprint": false,
+      "run_date": "2026-06-10",
+      "run_iso": "2026-06-10T10:53:45Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 4,
+        "newest_iso": "2026-06-10T04:56:30Z",
+        "novelty": 6
+      },
+      "slug": "early-animal-sexual-reproduction-evolution-sciencedaily",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-10T04:56:30Z",
+          "publisher": "ScienceDaily",
+          "title": "Earth's first animals barely evolved until sex changed everything",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260610003042.htm"
+        }
+      ],
+      "standfirst": "Research described by ScienceDaily suggests that Earth's earliest animals may have held back their own evolutionary diversification through asexual reproduction, and that environmental pressures favouring sexual reproduction were associated with a subsequent acceleration in biodiversity.",
+      "summary": "The origins of biological diversity are a central question in evolutionary biology. Work reported by ScienceDaily in June 2026 describes a study proposing that the earliest animals may have maintained low-competition, slowly changing communities in part because they reproduced predominantly by asexual means. The low genetic variation generated by asexual reproduction would have limited the raw material available for natural selection, constraining evolutionary change.\n\nWhen environmental conditions shifted and exerted pressure towards sexual reproduction, the researchers suggest, the resulting increase in genetic diversity and recombination fuelled a dramatic acceleration in evolutionary diversification — consistent with patterns observed in the fossil record around the Cambrian period. The original source institution and journal for the underlying study are not specified in the feed lede; the summary here is based on the ScienceDaily report.\n\nWhile not directly relevant to human genetics or genomics in a clinical context, the study touches on fundamental principles of how genetic variation, recombination, and reproductive mode shape evolutionary trajectories — concepts of relevance to researchers in evolutionary biology, population genetics, and educators teaching evolutionary theory. Students learning about the evolutionary significance of sexual reproduction and the origins of biodiversity may also find this study pertinent.",
+      "tags": [
+        "evolutionary-genetics",
+        "sexual-reproduction",
+        "biodiversity",
+        "cambrian",
+        "population-genetics",
+        "deep-time-evolution"
+      ]
     }
   ],
-  "last_run": "2026-06-09T10:34:47.734768+00:00",
+  "last_run": "2026-06-10T10:55:51.300734+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
@@ -5713,6 +6016,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012144": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012157": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012161": "2026-06-04T10:39:38.416026+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012162": "2026-06-10T10:55:51.300734+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012163": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012164": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012165": "2026-05-28T10:54:47.536471+00:00",
@@ -5791,10 +6095,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.04.727993v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.04.730050v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.04.730102v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.04.730238v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.05.730093v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.05.730342v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.05.730443v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.07.728858v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.09.730164v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
     "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
     "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.england.nhs.uk/2026/06/nhs-to-offer-multi-beam-precision-radiotherapy-to-thousands-with-prostate-cancer/": "2026-06-10T10:55:51.300734+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022006.htm": "2026-05-27T10:55:45.299768+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022018.htm": "2026-05-27T10:55:45.299768+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260526022024.htm": "2026-05-28T10:54:47.536471+00:00",
@@ -5820,6 +6130,8 @@
     "https://www.sciencedaily.com/releases/2026/06/260605023417.htm": "2026-06-07T09:59:01.659859+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260606075852.htm": "2026-06-08T11:55:03.865089+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260608035959.htm": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260608040002.htm": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260610003042.htm": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/05/25/eli-lilly-verv-102-gene-editing-cholesterol-phase-1-trial-data/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/ai-biotech-bighat-biosciences-ceo-on-ai-drug-development-hype/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/2026/05/26/biotech-news-eli-lilly-spends-more-of-its-glp-1-cash/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
@@ -5964,12 +6276,30 @@
     "https://www.statnews.com/2026/06/08/unitedhealth-lactation-counseling-policy-medicare-advantage-audits-stroke/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/2026/06/08/vascular-care-homeless-amputation-prevention-effort-mass-general/?utm_campaign=rss": "2026-06-08T11:55:03.865089+00:00",
     "https://www.statnews.com/2026/06/09/affordability-czar-casey-mulligan-hfma-speech-medicaid-cuts/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/affordability-czar-casey-mulligan-hfma-speech-medicaid-cuts/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/09/american-diabetes-association-uproar-over-expulsion-of-members/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/09/biotech-news-gilead-and-merck-latest-trial-success-and-flop/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/09/dexcom-cgm-trial-wearables-clinic-apple-updates-health-tech/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/06/09/ebola-outbreak-response-difference-between-2014-today-susan-reichle/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/ebola-outbreak-response-difference-between-2014-today-susan-reichle/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/06/09/gsk-nuvalent-acquistion-oncology-lung-cancer-zidesamtinib-neladalkib/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/2026/06/09/health-care-vs-healthcare-ap-style-stat/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/health-care-vs-healthcare-ap-style-stat/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/09/health-news-whats-changed-since-the-last-ebola-outbreak/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/09/new-sunscreen-ingredient-bemotrizinol-fda/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/09/niaid-acting-director-john-powers-replaces-taubenberger/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/09/nih-bethesda-declaration-1-year-later-dissenters-say-problems-persist/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/06/09/pig-organ-transplant-animal-testing-impact-xenotransplantation/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/pig-organ-transplant-animal-testing-impact-xenotransplantation/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/06/09/suppressed-alcohol-health-study-released-one-drink-or-less-daily/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/trump-administration-warns-hospitals-price-information-fines/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/09/trumps-affordability-czar-backs-medicaid-cuts-alcohol-study-published-dc-diagnosis/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/06/09/wearables-data-oura-whoop-clinical-integration/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/2026/06/09/wearables-data-oura-whoop-clinical-integration/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/10/european-drug-pricing-most-favored-nation-impact/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/10/medical-residency-in-seventies-caribbean-medical-school-experience/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/10/medications-opioid-use-disorder-trump-moud-policy-change/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/10/parental-notification-laws-abortion-blue-states/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
     "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
@@ -5987,7 +6317,9 @@
     "https://www.statnews.com/pharmalot/2026/06/05/jobs-up-and-down-the-ladder-latest-comings-and-goings/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/08/lilly-pfizer-obesity-drug-trial-data-roche-deal/": "2026-06-09T10:34:47.734768+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/08/lilly-pfizer-obesity-drug-trial-data-roche-deal/": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/09/drug-shortages-systemic-problem-analysis/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/09/gsk-buying-nuvalent-cancer-drug-astrazeneca-obesity-pill-data/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00"
   },
   "takedowns": []
 }
