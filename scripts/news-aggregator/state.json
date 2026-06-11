@@ -6006,21 +6006,368 @@
         "population-genetics",
         "deep-time-evolution"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Cancer cells can sometimes survive treatment by repairing the damage that medicines are designed to cause. Researchers have been studying a compound called UNI418 that may be able to block this repair process, making some cancer cells respond to treatment again even after they had stopped responding.\n\nThe research combined UNI418 with an existing type of cancer medicine called a PARP inhibitor, which is already used in some hereditary cancers. In laboratory experiments, this combination appeared to overcome the resistance that certain cancer cells had developed.\n\nThis research is at an early stage and has not yet been tested in people. Scientists will need to carry out further studies before this approach could be considered for clinical use.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UNI418 compound disrupts cancer DNA repair to restore sensitivity to PARP inhibitors",
+      "is_preprint": false,
+      "run_date": "2026-06-11",
+      "run_iso": "2026-06-11T11:20:59Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-06-10T12:53:21Z",
+        "novelty": 7
+      },
+      "slug": "sciencedaily-cancer-dna-repair-uni418-parp-resistance",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-10T12:53:21Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists shut down cancer DNA repair to overcome drug resistance",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260610003052.htm"
+        }
+      ],
+      "standfirst": "Researchers have identified a compound that blocks the DNA repair mechanism cancer cells exploit to survive treatment, potentially reversing resistance to PARP inhibitor therapies.",
+      "summary": "Researchers have identified a small molecule, UNI418, that can disrupt the DNA repair capacity of cancer cells — the very mechanism by which those cells survive treatment with DNA-damaging therapies. The findings, reported via ScienceDaily on 10 June 2026, suggest that cancer cells under treatment pressure compensate by activating repair pathways that counteract the intended damage. UNI418 appears to interfere with this compensatory repair, leaving cancer cells more vulnerable.\n\nCritically, when UNI418 was combined with a PARP inhibitor — a class of agent already established in hereditary cancer treatment, particularly for tumours harbouring BRCA1 or BRCA2 variants — resistant cancer cells regained sensitivity to the drug combination. PARP inhibitors work by blocking an alternative DNA repair route; resistance to these agents is a recognised clinical challenge, and the identification of molecules capable of reinstating responsiveness is an active area of oncology research.\n\nThe underlying institution, research team, and journal of publication were not specified in the available source material. Full evaluation of methodology and effect sizes will require access to the primary publication. The findings are reported as preclinical at this stage. No peer-reviewed source was identified in the feed; the summary is based on a press-release-level report.",
+      "tags": [
+        "dna-repair",
+        "parp-inhibitor",
+        "cancer-drug-resistance",
+        "oncology",
+        "hereditary-cancer",
+        "preclinical"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "Huntington's disease is a serious inherited condition caused by a specific change — called a CAG repeat expansion — in a gene called Huntingtin. Researchers already know that this expansion can grow larger over time within the cells of the body, and that this growth may be linked to when symptoms begin.\n\nA protein called MSH3 appears to drive this ongoing expansion. Scientists have now used a gene-editing technique called CRISPR to reduce MSH3 activity in mice with Huntington's disease. According to this early study, doing so slowed the expansion and reduced signs of disease in the animals.\n\nThis is a preprint — it has not yet been formally checked by other scientists in the peer-review process. It is also an animal study, and results in mice do not always translate to people. Much more research would be needed before this approach could be considered for use in humans.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Somatic CRISPR editing of Msh3 reduces Huntington's disease pathology in mouse model",
+      "is_preprint": true,
+      "run_date": "2026-06-11",
+      "run_iso": "2026-06-11T11:20:59Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-06-10T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "biorxiv-somatic-crispr-msh3-huntingtons-disease-mice",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Somatic CRISPR editing of Msh3 mitigates Huntington's disease pathology in mice",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.08.730940v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that in vivo CRISPR editing targeting the mismatch repair gene Msh3 slowed somatic CAG repeat expansion and mitigated disease pathology in a Huntington's disease mouse model.",
+      "summary": "A preprint posted to bioRxiv on 10 June 2026 describes a somatic gene-editing strategy for Huntington's disease (HD), a fatal autosomal dominant neurodegenerative disorder caused by a CAG trinucleotide repeat expansion in exon 1 of the Huntingtin gene (HTT). Beyond the inherited germline expansion, progressive somatic CAG repeat expansion — particularly in neurons — is now understood to accelerate clinical onset, and the mismatch repair protein MSH3 has emerged as a principal driver of this somatic instability.\n\nThe authors used CRISPR-Cas9 to target Msh3 somatically in HD mouse models, aiming to slow ongoing repeat expansion rather than correct the germline mutation itself. The study examined the impact of editing at different disease stages, offering insight into whether intervening earlier or later in the disease process produces meaningfully different outcomes at the pathological level. Results reported in the preprint indicate that somatic Msh3 editing mitigated HD-associated pathology, consistent with the hypothesis that reducing somatic expansion is a viable therapeutic strategy.\n\nMSH3 is supported as a therapeutic target by human genetic data: common variants at the MSH3 locus are associated with age of HD onset in genome-wide association studies. This preprint has not yet undergone peer review; methodology, effect sizes, and translational conclusions should be interpreted accordingly.",
+      "tags": [
+        "huntingtons-disease",
+        "crispr",
+        "msh3",
+        "somatic-editing",
+        "cag-repeat",
+        "neurodegeneration",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Analysis of 700,000 exomes refines mutation rate estimates and variant effect inference",
+      "is_preprint": true,
+      "run_date": "2026-06-11",
+      "run_iso": "2026-06-11T11:20:59Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 8,
+        "newest_iso": "2026-06-10T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "biorxiv-gnomad-700k-exomes-mutation-rates-variant-effects",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Inference of elevated mutation rates and variant effects using 700k exomes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.09.731195v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint leveraging the gnomAD v4 dataset of over 730,000 exomes proposes improved methods for characterising elevated mutation rates and predicting the pathogenicity of rare coding variants.",
+      "summary": "A preprint posted to bioRxiv on 10 June 2026 describes a large-scale analysis of coding variation using the gnomAD v4 dataset, which contains exome sequences from approximately 730,947 individuals — the largest publicly available exome resource to date. The authors focus on two related problems: estimating locus-specific mutation rates more accurately by exploiting the high density of independently recurrent rare variants that gnomAD v4 makes visible, and improving inference of variant effects from this enriched dataset.\n\nThe study is motivated in part by the growing clinical deployment of genomic sequencing, including its emergence as a component of newborn screening programmes, which creates demand for comprehensive and accurate annotation of rare Mendelian disease genes and their pathogenic variants. Accurate mutation rate models are foundational to variant classification frameworks and to distinguishing variants of uncertain significance (VUS) from likely pathogenic findings.\n\nBy exploiting independent recurrence of rare coding variants — events that become tractable at gnomAD v4 scale — the authors argue that locus-specific mutation rates can be inferred at higher resolution than previously possible. The preprint has not yet completed peer review and analytical details require independent evaluation.",
+      "tags": [
+        "gnomad",
+        "exome-sequencing",
+        "mutation-rate",
+        "variant-interpretation",
+        "mendelian-disease",
+        "vus",
+        "newborn-screening",
+        "statistical-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "TOMM40 '523' poly-T variants alter cholesterol and triglyceride levels in sex- and tissue-specific ways in humanised mice",
+      "is_preprint": true,
+      "run_date": "2026-06-11",
+      "run_iso": "2026-06-11T11:20:59Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-10T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "biorxiv-tomm40-523-apoe-lipids-alzheimers-mouse",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "TOMM40 '523' genotype induces sex- and tissue- specific differences in cholesterol and triglyceride levels in an APOE-TOMM40 humanized mouse model",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.09.731195v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using a humanised APOE-TOMM40 mouse model reports that TOMM40 poly-T variants associated with Alzheimer's disease risk produce distinct lipid profiles depending on sex and tissue type.",
+      "summary": "A preprint deposited on bioRxiv on 10 June 2026 investigates the functional consequences of TOMM40 '523' poly-T variants — genetic differences in an intronic repeat within the TOMM40 gene — in an APOE-TOMM40 humanised mouse model. Both APOE and TOMM40 reside at a locus strongly associated with Alzheimer's disease (AD) risk, though the precise contribution of TOMM40 variants, distinct from APOE, has remained poorly characterised mechanistically.\n\nPrior work from the same group had shown that suppression of Tomm40 in mice increased brain cholesterol content, a recognised AD risk factor. The present study extended this by comparing brain and peripheral tissue lipid profiles in mice carrying the Short (S) versus Very Long (VL) '523' poly-T variants, hypothesising that these genotypes may alter cholesterol and triglyceride metabolism differentially. The data indicate that the variants do produce measurable differences in lipid content, and that these effects are both sex-specific and tissue-specific — a finding with implications for understanding why genetic associations at this locus show heterogeneity across demographic groups in human studies.\n\nThe work is a preprint and awaits peer review. The mouse model approach, whilst informative, involves important differences from human physiology that limit direct extrapolation.",
+      "tags": [
+        "tomm40",
+        "apoe",
+        "alzheimers-disease",
+        "lipid-metabolism",
+        "cholesterol",
+        "sex-specific-effects",
+        "humanised-mouse"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "POISE method infers parent-of-origin effects in standard GWAS data without family pedigrees",
+      "is_preprint": true,
+      "run_date": "2026-06-11",
+      "run_iso": "2026-06-11T11:20:59Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-06-10T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "biorxiv-poise-parent-of-origin-effects-gwas",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "POISE: Spectral Inference of Parent-of-Origin Effects in Unlabeled Genomic Data",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.09.730991v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces a spectral decomposition algorithm that detects imprinting and other parent-of-origin effects using unphased population GWAS datasets, removing the requirement for family-based study designs.",
+      "summary": "Parent-of-origin effects (POEs) — where the phenotypic consequence of an allele depends on whether it was inherited maternally or paternally — are relevant to growth, metabolism, and neurodevelopment, and are a known feature of imprinted genomic regions. Conventional methods for detecting POEs require family-based data in which parental origin of transmitted alleles can be established directly, making large-scale population screens logistically difficult and expensive.\n\nA preprint posted to bioRxiv on 10 June 2026 presents POISE (Spectral Inference of Parent-of-Origin Effects in Unlabeled Genomic Data), a method that infers POEs from standard genome-wide association study (GWAS) datasets in which parental labels are absent. The approach is based on community detection from machine learning, using spectral decomposition to identify statistical signatures consistent with parent-of-origin dependence without requiring inheritance information.\n\nThe authors argue that by making POE analysis tractable in the large biobank cohorts already available — where family structure is not routinely recorded — POISE could substantially expand the catalogue of imprinted or parentally biased loci in complex traits. The method has potential applications in studies of imprinting disorders and developmental conditions with known parent-of-origin aetiology. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "parent-of-origin-effects",
+        "imprinting",
+        "gwas",
+        "statistical-genetics",
+        "spectral-methods",
+        "machine-learning",
+        "poise"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors"
+      ],
+      "for_patients": null,
+      "headline": "Preprint quantifies real-world risk of genome re-identification using polygenic phenotype prediction",
+      "is_preprint": true,
+      "run_date": "2026-06-11",
+      "run_iso": "2026-06-11T11:20:59Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-06-10T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "biorxiv-genome-reidentification-polygenic-prediction-privacy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Evaluating anonymized genome re-identification using polygenic predictions and its implications for data privacy",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.10.731306v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers developed a probabilistic framework to assess how accurately polygenic predictions of observable traits could be used to re-identify an anonymised genome, finding the practical risk lower than some prior estimates suggested.",
+      "summary": "A preprint posted to bioRxiv on 10 June 2026 addresses a longstanding question in genomic data governance: to what extent can an anonymised genome be re-identified by comparing polygenic predictions of a person's observable traits against their known characteristics? This class of attack — phenotypic tracing — has been discussed extensively in the genomic privacy literature, but prior studies have been criticised for overstating its practical feasibility.\n\nThe authors developed a probabilistic framework to quantify re-identification risk under realistic conditions, drawing on improvements in polygenic score accuracy made possible by increasingly large GWAS cohorts. Their analysis attempts to provide a calibrated assessment of the threat landscape rather than a worst-case theoretical bound, which has important implications for how genomic data repositories design consent frameworks, data access tiers, and de-identification standards.\n\nThe findings are relevant to researchers working in biobank governance, data-sharing policy, and genomic informatics, as well as to institutions responsible for designing ethical frameworks for large-scale genomic datasets. The preprint has not completed peer review. No personal genomic data from identifiable individuals was used in the publicly described analysis.",
+      "tags": [
+        "genomic-privacy",
+        "re-identification",
+        "polygenic-scores",
+        "data-governance",
+        "biobank",
+        "de-identification",
+        "research-ethics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Ancient DNA links elite Classic Maya tomb lineages to individuals buried in distant caves",
+      "is_preprint": true,
+      "run_date": "2026-06-11",
+      "run_iso": "2026-06-11T11:20:59Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-06-10T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "biorxiv-maya-elite-tombs-cave-burials-ancient-dna",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Buried in two places: Lineages from elite Maya tombs also found in distant caves",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.07.724338v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint screening 487 skeletal samples from Classic Period Maya sites uses genetic kinship analysis to connect high-status tomb occupants with individuals whose remains were deposited in geographically separate cave contexts.",
+      "summary": "A preprint posted to bioRxiv on 10 June 2026 reports ancient DNA analysis of 487 skeletal samples from Classic Period Maya sites (approximately 250–900 CE), with the aim of resolving the biological relationships between individuals interred in elite urban tombs and those found in more distant cave deposits. Classic Maya mortuary practice included ancestor veneration and the curation of disarticulated skeletal remains, creating complex depositional contexts that are difficult to interpret archaeologically without genetic data.\n\nThe study used genomic kinship analysis to test whether individuals from spatially separated burial contexts — elite tombs within urban centres and cave deposits some distance away — belonged to the same patrilineal or matrilineal lineages. The authors report evidence that some cave-deposited individuals shared close genetic relationships with elite tomb occupants, providing empirical support for the hypothesis that lineage-based ancestor veneration extended across geographic space in Classic Maya society.\n\nThe findings contribute to archaeogenomic understanding of Maya social organisation, dynastic legitimacy, and the role of biological kinship in political and religious life. The study is of particular interest to researchers working on ancient DNA, Mesoamerican archaeology, and kinship-based social structures. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "ancient-dna",
+        "archaeogenomics",
+        "maya",
+        "kinship-analysis",
+        "mesoamerica",
+        "mortuary-practices",
+        "lineage"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "eQTM Atlas maps over 11 million DNA methylation–gene expression associations across 11 tissues and four diseases",
+      "is_preprint": true,
+      "run_date": "2026-06-11",
+      "run_iso": "2026-06-11T11:20:59Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-06-10T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "biorxiv-eqtm-atlas-methylation-gene-expression-11-tissues",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "eQTM (expression quantitative trait methylation) Atlas: a comprehensive resource of over 11 million DNA methylation-gene expression associations through across 11 tissues and 4 diseases",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.07.730721v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces a searchable resource connecting CpG methylation sites to gene expression levels across 11 tissue types, offering a new tool for interpreting epigenome-wide association study findings.",
+      "summary": "A preprint posted to bioRxiv on 10 June 2026 describes the eQTM Atlas, a comprehensive reference resource cataloguing expression quantitative trait methylation (eQTM) associations — statistical links between DNA methylation at specific CpG sites and gene expression levels — across 11 human tissues and four disease contexts. The resource contains over 11 million such associations.\n\nEpigenome-wide association studies (EWAS) regularly identify CpG sites associated with complex traits and diseases, but the functional interpretation of these findings has been hampered by the absence of a systematic resource connecting methylation changes to their downstream effects on gene expression. Current practice typically links EWAS CpGs to nearby genes based on genomic proximity alone, a method that misses distal regulatory relationships and conflates correlation with mechanism.\n\nThe eQTM Atlas aims to address this gap by providing a tissue-resolved, disease-contextualised map of methylation-expression relationships that researchers can query when interpreting EWAS findings. The multi-tissue design is particularly valuable given the tissue-specificity of both methylation patterns and gene regulation. The resource is positioned as a community tool for functional genomics, complementing existing eQTL and chromatin accessibility references. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "eqtm",
+        "dna-methylation",
+        "gene-expression",
+        "ewas",
+        "epigenomics",
+        "multi-tissue",
+        "reference-resource",
+        "functional-genomics"
+      ]
     }
   ],
-  "last_run": "2026-06-10T10:55:51.300734+00:00",
+  "last_run": "2026-06-11T11:23:24.563395+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012107": "2026-05-27T10:55:45.299768+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012144": "2026-05-27T10:55:45.299768+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012157": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012161": "2026-06-04T10:39:38.416026+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012162": "2026-06-10T10:55:51.300734+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012163": "2026-05-28T10:54:47.536471+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012164": "2026-06-09T10:34:47.734768+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012165": "2026-05-28T10:54:47.536471+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012168": "2026-05-27T10:55:45.299768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012169": "2026-05-29T10:45:46.729042+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012171": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172": "2026-05-29T10:45:46.729042+00:00",
@@ -6030,6 +6377,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012188": "2026-06-05T10:46:27.817616+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012191": "2026-06-04T10:39:38.416026+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012202": "2026-06-09T10:34:47.734768+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012203": "2026-06-11T11:23:24.563395+00:00",
     "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
     "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
     "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/": "2026-06-02T11:16:52.725456+00:00",
@@ -6039,17 +6387,12 @@
     "https://news.cancerresearchuk.org/2026/06/05/precision-prevention-how-to-take-the-next-step-in-preventing-cancer/": "2026-06-06T09:25:58.323154+00:00",
     "https://news.cancerresearchuk.org/2026/06/05/secrets-of-the-super-avoiders-why-do-some-people-just-not-get-cancer/": "2026-06-06T09:25:58.323154+00:00",
     "https://news.cancerresearchuk.org/2026/06/09/research-with-integrity-a-refresh-for-the-better/": "2026-06-09T10:34:47.734768+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.21.726896v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.22.727229v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.22.727232v1?rss=1": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.24.727502v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
+    "https://news.cancerresearchuk.org/2026/06/11/cancer-research-horizons-raises-5m-through-the-cancer-impact-club/": "2026-06-11T11:23:24.563395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.25.725982v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.25.727613v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.25.727720v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727520v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727858v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727861v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.26.727863v1?rss=1": "2026-05-28T10:54:47.536471+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727870v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727947v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727960v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
@@ -6099,19 +6442,28 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.05.730093v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.05.730342v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.05.730443v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.05.730474v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.06.730570v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.07.724338v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.07.728858v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.07.730721v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.08.730759v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.08.730819v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.08.730940v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.08.730950v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.08.730986v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.09.729629v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.09.730164v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.09.730678v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.09.730991v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.09.731016v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.09.731144v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.09.731195v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.10.731306v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
     "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
     "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-to-offer-multi-beam-precision-radiotherapy-to-thousands-with-prostate-cancer/": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260526022006.htm": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260526022018.htm": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260526022024.htm": "2026-05-28T10:54:47.536471+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260526233217.htm": "2026-05-28T10:54:47.536471+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260526233433.htm": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260527023202.htm": "2026-05-28T10:54:47.536471+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260527023214.htm": "2026-05-28T10:54:47.536471+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260528074032.htm": "2026-05-29T10:45:46.729042+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260528082459.htm": "2026-05-29T10:45:46.729042+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260528082505.htm": "2026-05-30T09:14:46.646220+00:00",
@@ -6132,40 +6484,18 @@
     "https://www.sciencedaily.com/releases/2026/06/260608035959.htm": "2026-06-09T10:34:47.734768+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260608040002.htm": "2026-06-10T10:55:51.300734+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260610003042.htm": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/05/25/eli-lilly-verv-102-gene-editing-cholesterol-phase-1-trial-data/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/ai-biotech-bighat-biosciences-ceo-on-ai-drug-development-hype/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/biotech-news-eli-lilly-spends-more-of-its-glp-1-cash/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/ebola-outbreak-congo-violence-women-girls/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/eli-lilly-acquisitions-vaccine-developers/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/health-news-ebola-outbreak-continues-to-worsen/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/humira-patents-abbvie-innovation-pharma-monopoly-excerpt/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/kyle-diamantas-acting-fda-commissioner-wins-trust-exceeds-expectations/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/kyle-diamantas-fda-draws-praise-nih-leadership-vacuum-dc-diagnosis/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/medicaid-cuts-loom-health-insurance-cost-climbs-no-surprises-act/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/pepfar-state-department-plan-dismantling-hiv-cdc/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/trump-annual-physicial-medical-exam-public-scrutiny/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/26/utah-doctronic-ai-experiment-early-data-health-tech/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/27/biotech-news-kailera-triple-g-drug-looks-very-powerful/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
-    "https://www.statnews.com/2026/05/27/biovat-heart-failure-stem-cell-muscle-patch-nejm-study/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
-    "https://www.statnews.com/2026/05/27/flavored-vapes-e-cigarettes-fda-trump-durbin/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/27/health-ai-where-patients-hospitals-disagree-ai-prognosis/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
-    "https://www.statnews.com/2026/05/27/health-news-trump-says-latest-medical-exam-went-perfectly/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
-    "https://www.statnews.com/2026/05/27/longevity-movement-shift-fringe-idea-to-big-business/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/27/science-enterprise-replication-crisis-ivory-tower-community/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/27/science-funding-derailed-breakthroughs/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
-    "https://www.statnews.com/2026/05/27/stanford-patient-panels-feedback-on-ai-shaping-health-care/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/27/unvaccinated-blood-transfusions-directed-donation-interview/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/2026/05/28/asco-preview-cancer-meeting/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260610003052.htm": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260610003054.htm": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260610003116.htm": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260610003119.htm": "2026-06-11T11:23:24.563395+00:00",
     "https://www.statnews.com/2026/05/28/biotech-news-asco-preview-2026-all-eyes-on-pancreatic-cancer/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/28/biotech-veteran-jeremy-levin-on-why-the-industrys-future-is-secure-but-american-leadership-is-at-risk/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/28/ebola-world-cup-travel-public-health-measles/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/28/fda-wellness-guidance-unvetted-blood-pressure-tech-floods-market/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/28/health-news-latest-news-on-ebola-hepatitis-b-long-covid/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.statnews.com/2026/05/28/hepatitis-b-treatment-gsk-clinical-trials/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/2026/05/28/jeremy-levin-biotech-asco-preview-readout-loud-podcast/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/28/oura-arrives-blood-pressure-party-health-tech/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/28/trump-ebola-travel-restrictions-discourages-medical-volunteers/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.statnews.com/2026/05/28/trump-most-favored-nation-drug-pricing-secrets-revealed-soon/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
     "https://www.statnews.com/2026/05/28/trump-pharma-mfn-deals-medicaid-work-requirement-rules-dc-diagnosis/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/29/asco-news-day-1-multiple-myeloma-bristol-lung-cancer-pfizer/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/2026/05/29/biotech-news-allogene-ceo-david-chang-steps-down/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
@@ -6296,12 +6626,19 @@
     "https://www.statnews.com/2026/06/09/trumps-affordability-czar-backs-medicaid-cuts-alcohol-study-published-dc-diagnosis/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/06/09/wearables-data-oura-whoop-clinical-integration/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/2026/06/09/wearables-data-oura-whoop-clinical-integration/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/10/acog-obgyn-vaccine-recommendations-pregnancy/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/10/ada-annual-convention-ceo-apology-protester-removal/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/10/biotech-news-hope-for-kendall-squares-lab-market/": "2026-06-11T11:23:24.563395+00:00",
     "https://www.statnews.com/2026/06/10/european-drug-pricing-most-favored-nation-impact/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/2026/06/10/health-news-doj-reaches-second-settlement-on-youth-gender-care/": "2026-06-11T11:23:24.563395+00:00",
     "https://www.statnews.com/2026/06/10/medical-residency-in-seventies-caribbean-medical-school-experience/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/06/10/medications-opioid-use-disorder-trump-moud-policy-change/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/06/10/parental-notification-laws-abortion-blue-states/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/26/lilly-gene-therapy-for-cholesterol-three-new-lilly-deals/?utm_campaign=rss": "2026-05-27T10:55:45.299768+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/27/astrazeneca-breast-cancer-pill-adap-deal-in-florida/?utm_campaign=rss": "2026-05-28T10:54:47.536471+00:00",
+    "https://www.statnews.com/2026/06/10/sepsis-algorithm-shouldnt-require-time-machine-ai-prognosis/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/11/long-covid-research-federal-funding-stalemate-trump/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/11/medicare-advantage-oig-report-rehab-care-deny-appeal-reverse/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/11/nih-grant-cap-proposal-science-policy-experts-react/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/11/open-access-journal-fees-nature-wiley-elsevier-nih/": "2026-06-11T11:23:24.563395+00:00",
     "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/pharmalot/2026/05/29/pharmalittle-were-reading-about-replimune-drug-getting-third-try-at-fda-approval-a-pfizer-deal-in-china-and-more/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/pharmalot/2026/05/29/up-and-down-the-ladder-comings-and-goings-merck-pfizer-amgen/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
@@ -6319,7 +6656,8 @@
     "https://www.statnews.com/pharmalot/2026/06/05/roche-calls-trump-policy-blackmail-supreme-court-rules-on-skinny-labels/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/pharmalot/2026/06/08/lilly-pfizer-obesity-drug-trial-data-roche-deal/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/pharmalot/2026/06/09/drug-shortages-systemic-problem-analysis/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/09/gsk-buying-nuvalent-cancer-drug-astrazeneca-obesity-pill-data/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/09/gsk-buying-nuvalent-cancer-drug-astrazeneca-obesity-pill-data/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/10/american-pressure-on-european-drug-prices-longer-shortages/": "2026-06-11T11:23:24.563395+00:00"
   },
   "takedowns": []
 }
