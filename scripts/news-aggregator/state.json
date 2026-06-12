@@ -6359,26 +6359,200 @@
         "reference-resource",
         "functional-genomics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Cystic fibrosis (CF) is a hereditary condition caused by faults in a gene called CFTR. Scientists have long hoped that gene replacement — putting a working copy of the CFTR gene into cells — could one day be a treatment. However, this has proved technically very difficult because the molecular machinery cells use to insert new DNA accurately does not work very often.\n\nResearchers have now posted a study — not yet checked by independent scientific reviewers — describing a way of targeting two places in the genome at once, using a specially designed delivery vehicle, to improve how often the correct gene gets inserted. The experiments were carried out in pig cells, which are used in research because pig airways are similar in some ways to human airways.\n\nThis is early laboratory research, and it does not directly change what is available for people with CF today. Researchers say it may help refine the tools needed for future gene replacement approaches.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Dual-locus CRISPR strategy improves CFTR gene replacement efficiency in pig genome",
+      "is_preprint": true,
+      "run_date": "2026-06-12",
+      "run_iso": "2026-06-12T10:59:40+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-06-11T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "crispr-cftr-dual-locus-cystic-fibrosis-porcine",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-11T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A Dual-Locus-Targeting Strategy to Enhance CRISPR/Cas9-mediated CFTR Replacement via Helper-Dependent Adenoviral vector in porcine genome",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.10.731381v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory describes a helper-dependent adenoviral vector approach targeting two genomic loci to overcome low homology-directed repair rates in CFTR replacement.",
+      "summary": "Researchers at Cold Spring Harbor Laboratory have posted a preprint to bioRxiv describing a dual-locus targeting strategy intended to improve the efficiency of CRISPR/Cas9-mediated replacement of the cystic fibrosis transmembrane conductance regulator (CFTR) gene in the porcine genome.\n\nCystic fibrosis (CF) arises from loss-of-function variants in the CFTR gene and affects epithelial tissues throughout the body, with lung disease driving most clinical burden. Gene replacement — inserting a functional copy of CFTR after CRISPR-generated double-strand breaks — has been explored as a potential universal strategy, but progress has been constrained by the low frequency of homology-directed repair (HDR) relative to competing, error-prone repair pathways. The preprint reports that targeting two distinct genomic loci simultaneously, delivered via a helper-dependent adenoviral (HDAd) vector, raised integration efficiency compared with single-locus approaches in porcine cells.\n\nThe authors use the pig as a model because swine airways share physiological features with human lungs that make them a more relevant pre-clinical system than rodent models for CF research. The work remains at a pre-clinical, proof-of-concept stage; no data in human cells or animals with CF-causing variants are presented in the lede. As a preprint, the findings have not yet undergone peer review.\n\nThe study adds to a body of research exploring how delivery vehicle design and locus selection interact to determine HDR yield in large-genome organisms — a key variable for any future somatic gene-replacement programme.",
+      "tags": [
+        "crispr",
+        "cftr",
+        "cystic-fibrosis",
+        "gene-replacement",
+        "hdr",
+        "adenoviral-vector",
+        "porcine-model",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Specific tti1 mutation in TTT complex selectively ablates Rad3ATR function in fission yeast",
+      "is_preprint": false,
+      "run_date": "2026-06-12",
+      "run_iso": "2026-06-12T10:59:40+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-11T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "ttt-complex-tti1-mutation-rad3-atr-fission-yeast",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-11T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "A tti1 mutation in the Tel2-Tti1-Tti2 complex specifically eliminates the cellular function of Rad3ATR, but not that of other PIKKs in fission yeast",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012206"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study dissects how a single mutation in the Tel2-Tti1-Tti2 co-chaperone complex can knock out one PIKK kinase whilst leaving five others intact.",
+      "summary": "Researchers publishing in PLOS Genetics have used the fission yeast Schizosaccharomyces pombe to probe how a point mutation in Tti1 — a subunit of the Tel2-Tti1-Tti2 (TTT) co-chaperone complex — can specifically eliminate the cellular function of the DNA-damage checkpoint kinase Rad3ATR without disrupting the activity of the other five phosphatidylinositol 3-kinase-related kinases (PIKKs) expressed in that organism.\n\nThe TTT complex acts as a co-chaperone during the co-translational maturation of all PIKKs, a family of large kinases with roles in DNA-damage signalling (Rad3ATR and Tel1ATM), nutrient sensing and growth (Tor1 and Tor2, homologues of mammalian mTOR), and transcriptional regulation (Tra1 and Tra2, homologues of TRRAP). Because the complex is required by all six PIKKs, mutations in TTT components have been difficult to study cleanly — loss of the complex typically disrupts multiple pathways simultaneously. The study by Bhadra, Ahamad, Khan, and Xu identifies a tti1 allele that selectively impairs Rad3ATR-dependent signalling, providing a genetic tool to study ATR-pathway biology in isolation.\n\nThe authors note that mutations in the TTT complex have recently been linked to human disease syndromes and cancer, making a clearer understanding of how individual TTT mutations translate into specific PIKK-pathway defects potentially relevant to interpreting human variant data. The work is mechanistic model-organism research; findings in S. pombe do not automatically translate to human cells. The study was published in PLOS Genetics on 11 June 2026.",
+      "tags": [
+        "ttt-complex",
+        "pikk",
+        "rad3-atr",
+        "dna-damage-response",
+        "fission-yeast",
+        "co-chaperone",
+        "atm-atr-signalling"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Neuropeptide receptor NMUR-1 buffers insulin signalling to modulate C. elegans survival on different bacteria",
+      "is_preprint": false,
+      "run_date": "2026-06-12",
+      "run_iso": "2026-06-12T10:59:40+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-06-11T14:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "nmur-1-neuropeptide-insulin-signalling-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-11T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "The neuropeptide neuromedin U receptor NMUR-1 buffers insulin receptor signaling in bacteria-dependent C. elegans survival",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012190"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study shows that the neuromedin U receptor NMUR-1 tempers insulin pathway activity in C. elegans, shaping how the worm survives on distinct bacterial food sources.",
+      "summary": "Researchers publishing in PLOS Genetics report that the neuropeptide receptor NMUR-1 — the C. elegans homologue of vertebrate neuromedin U receptors — acts as a buffer of insulin receptor signalling to modulate worm survival when grown on different strains of Escherichia coli.\n\nThe study, by Sifoglu, Pereira, DeGregory, Shah, and colleagues, shows that wild-type C. elegans raised on the commonly used E. coli strain OP50 experience more early deaths than animals raised on an alternative strain, CS180. Early deaths on OP50 were associated with swollen pharynges caused by bacterial accumulation. The authors demonstrate that NMUR-1 signalling adjusts the activity of the canonical insulin/IGF-1 signalling (IIS) pathway in a bacteria-dependent manner, with loss of nmur-1 altering the balance between survival and early mortality in a food-context-specific way.\n\nThe findings extend understanding of how neuroendocrine circuits integrate microbial environmental signals to tune lifespan and health-span related traits in C. elegans. The IIS pathway is highly conserved across metazoans, and C. elegans is an established model for studying the genetics of ageing, development, and host-microbe interaction. The paper was published in PLOS Genetics on 11 June 2026. As model-organism research, the results do not translate directly to human biology without further investigation.",
+      "tags": [
+        "c-elegans",
+        "nmur-1",
+        "insulin-signalling",
+        "neuropeptide",
+        "host-microbe-interaction",
+        "ageing",
+        "model-organism"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "FEMA-Long framework models unstructured covariances to detect time-dependent genetic effects at scale",
+      "is_preprint": false,
+      "run_date": "2026-06-12",
+      "run_iso": "2026-06-12T10:59:40+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-06-11T14:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "fema-long-longitudinal-gwas-unstructured-covariance",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-11T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "FEMA-Long: Modeling unstructured covariances for discovery of time-dependent effects in large-scale longitudinal datasets",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012184"
+        }
+      ],
+      "standfirst": "A PLOS Genetics methods paper from researchers across Norway, the US, and the UK describes a linear mixed-effects extension that improves discovery of longitudinal gene–phenotype associations in large biobank datasets.",
+      "summary": "Parekh, Parker, Pecheva, Frei, Vaudel, and colleagues across institutions including the University of Oslo, University of California San Diego, and the University of Oxford have published a methods paper in PLOS Genetics introducing FEMA-Long — an extension of existing mixed-effects modelling frameworks designed to handle unstructured covariance matrices in large-scale longitudinal genomic datasets.\n\nStandard linear mixed-effects (LME) models used in genome-wide association studies (GWAS) typically assume random intercepts or simple stationary covariance structures over time. FEMA-Long relaxes these assumptions, allowing the model to capture time-varying genetic effects and more complex within-individual correlation patterns. The authors demonstrate the method using data from large neuroimaging and developmental cohorts, identifying time-dependent associations that simpler models would not have detected.\n\nThe work addresses a practical challenge in biobank-scale longitudinal research: as studies such as the UK Biobank and cohorts in the ABCD Study collect repeated measurements over years, the statistical infrastructure for analysing these data needs to keep pace. FEMA-Long is described as computationally tractable at scale, which the authors argue will make it applicable across imaging genetics, paediatric development studies, and other longitudinal domains where repeated measures are now routine.\n\nThe paper was published in PLOS Genetics on 11 June 2026 and represents a methods contribution rather than a discovery of specific biological variants.",
+      "tags": [
+        "longitudinal-gwas",
+        "mixed-effects-models",
+        "statistical-genetics",
+        "biobank",
+        "neuroimaging-genetics",
+        "methods",
+        "covariance-modelling"
+      ]
     }
   ],
-  "last_run": "2026-06-11T11:23:24.563395+00:00",
+  "last_run": "2026-06-12T11:01:19.541291+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012161": "2026-06-04T10:39:38.416026+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012162": "2026-06-10T10:55:51.300734+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012164": "2026-06-09T10:34:47.734768+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012169": "2026-05-29T10:45:46.729042+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012171": "2026-06-02T11:16:52.725456+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012172": "2026-05-29T10:45:46.729042+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012175": "2026-06-04T10:39:38.416026+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012176": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012177": "2026-06-06T09:25:58.323154+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012184": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012188": "2026-06-05T10:46:27.817616+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012189": "2026-06-12T11:01:19.541291+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012190": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012191": "2026-06-04T10:39:38.416026+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012202": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012203": "2026-06-11T11:23:24.563395+00:00",
-    "https://news.cancerresearchuk.org/2026/05/28/uk-nsc-recommends-prostate-cancer-screening-for-men-with-a-brca2-gene-change-and-family-history-of-cancer/": "2026-05-29T10:45:46.729042+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012206": "2026-06-12T11:01:19.541291+00:00",
     "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
     "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/": "2026-06-02T11:16:52.725456+00:00",
     "https://news.cancerresearchuk.org/2026/06/03/preventing-a-cancer-from-ever-developing-is-one-of-the-greatest-contributions-we-can-make-raymond-dubois-wins-outstanding-achievement-in-cancer-prevention-research-award/": "2026-06-04T10:39:38.416026+00:00",
@@ -6388,12 +6562,7 @@
     "https://news.cancerresearchuk.org/2026/06/05/secrets-of-the-super-avoiders-why-do-some-people-just-not-get-cancer/": "2026-06-06T09:25:58.323154+00:00",
     "https://news.cancerresearchuk.org/2026/06/09/research-with-integrity-a-refresh-for-the-better/": "2026-06-09T10:34:47.734768+00:00",
     "https://news.cancerresearchuk.org/2026/06/11/cancer-research-horizons-raises-5m-through-the-cancer-impact-club/": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.25.725982v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.25.727720v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.26.727520v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.26.727858v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.26.727861v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.26.727870v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
+    "https://news.cancerresearchuk.org/2026/06/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727947v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.727960v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.26.728016v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
@@ -6403,9 +6572,6 @@
     "https://www.biorxiv.org/content/10.64898/2026.05.27.728303v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.725302v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.727987v1?rss=1": "2026-06-01T12:35:14.571711+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.28.728201v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.28.728260v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.28.728369v1?rss=1": "2026-05-29T10:45:46.729042+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728467v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728476v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728536v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
@@ -6460,14 +6626,14 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.09.731144v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.09.731195v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731306v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.10.731381v1?rss=1": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
+    "https://www.england.nhs.uk/2026/06/aes-bore-the-brunt-as-heatwave-piled-pressure-on-nhs/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.england.nhs.uk/2026/06/nhs-heroes-recognised-after-accelerating-cancer-diagnosis-and-transforming-patient-care/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-to-offer-multi-beam-precision-radiotherapy-to-thousands-with-prostate-cancer/": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260528074032.htm": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260528082459.htm": "2026-05-29T10:45:46.729042+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260528082505.htm": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260528082507.htm": "2026-05-29T10:45:46.729042+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260529030329.htm": "2026-05-30T09:14:46.646220+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260529043640.htm": "2026-06-01T12:35:14.571711+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530004618.htm": "2026-05-31T09:47:25.678662+00:00",
@@ -6488,23 +6654,12 @@
     "https://www.sciencedaily.com/releases/2026/06/260610003054.htm": "2026-06-11T11:23:24.563395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260610003116.htm": "2026-06-11T11:23:24.563395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260610003119.htm": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.statnews.com/2026/05/28/biotech-news-asco-preview-2026-all-eyes-on-pancreatic-cancer/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.statnews.com/2026/05/28/biotech-veteran-jeremy-levin-on-why-the-industrys-future-is-secure-but-american-leadership-is-at-risk/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.statnews.com/2026/05/28/ebola-world-cup-travel-public-health-measles/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.statnews.com/2026/05/28/fda-wellness-guidance-unvetted-blood-pressure-tech-floods-market/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.statnews.com/2026/05/28/health-news-latest-news-on-ebola-hepatitis-b-long-covid/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.statnews.com/2026/05/28/jeremy-levin-biotech-asco-preview-readout-loud-podcast/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.statnews.com/2026/05/28/oura-arrives-blood-pressure-party-health-tech/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.statnews.com/2026/05/28/trump-ebola-travel-restrictions-discourages-medical-volunteers/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
-    "https://www.statnews.com/2026/05/28/trump-pharma-mfn-deals-medicaid-work-requirement-rules-dc-diagnosis/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/29/asco-news-day-1-multiple-myeloma-bristol-lung-cancer-pfizer/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/2026/05/29/biotech-news-allogene-ceo-david-chang-steps-down/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.statnews.com/2026/05/29/glp-1-microdose-popular-but-unsupported-by-evidence/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/29/health-news-which-vaccines-will-curb-ebola-outbreak/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/2026/05/29/kenya-court-suspends-plan-ebola-quarantine-facility-americans/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/2026/05/29/nih-grants-uniform-guidance-proposal-political-control/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/2026/05/29/united-healthcare-sued-massachusetts-ag-alleges-100-million-upcode-fraud-medicaid/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.statnews.com/2026/05/29/xprize-healthspan-longevity-science-jamie-justice-q-and-a/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
     "https://www.statnews.com/2026/05/30/asco-news-day-2-biontech-pfizer-kelun-merck-pazdur/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
     "https://www.statnews.com/2026/05/30/pancreatic-cancer-daraxonrasib-revolution-medicines-early-access-asco-2026/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
     "https://www.statnews.com/2026/05/30/rick-pazdur-fda-destruction-rebuilding-asco-2026/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
@@ -6635,11 +6790,29 @@
     "https://www.statnews.com/2026/06/10/medications-opioid-use-disorder-trump-moud-policy-change/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/06/10/parental-notification-laws-abortion-blue-states/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/2026/06/10/sepsis-algorithm-shouldnt-require-time-machine-ai-prognosis/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/11/abridge-inks-deals-with-nvidia-and-lilly/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/11/ama-lawmakers-push-back-ai-care-denials-health-tech/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/11/an-obesity-drug-deep-dive-and-peptides-move-mainstream/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/11/biotech-news-novartis-doubles-down-on-molecular-glue-strategy/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/11/blood-cancer-united-buys-luvelta-compassionate-use/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/11/cdc-report-alcohol-pregnancy-growing-problem/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/11/enliven-therapeutics-leukemia-drug-shows-promise/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/11/health-news-hhs-responds-to-paper-on-alcohol-risk/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/long-covid-research-federal-funding-stalemate-trump/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/11/long-covid-research-federal-funding-stalemate-trump/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/medicare-advantage-oig-report-rehab-care-deny-appeal-reverse/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/11/medicare-advantage-prior-authorization-denials-trustees-report-prescription-drug-costs/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/nih-grant-cap-proposal-science-policy-experts-react/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/11/nih-grant-cap-proposal-science-policy-experts-react/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/open-access-journal-fees-nature-wiley-elsevier-nih/": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/28/hepatitis-drug-cvs-returns-lilly-obesity-drug-to-formularies/?utm_campaign=rss": "2026-05-29T10:45:46.729042+00:00",
+    "https://www.statnews.com/2026/06/11/rfk-jr-cites-publicly-available-calendar-never-released-foia-requests/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/11/rfk-jr-maha-promise-tracker-fact-check/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/11/socioeconomic-status-impact-brain-development/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/11/synthetic-lethality-cancer-tango-revolution/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/12/ada-convention-controversy-explored-status-report-alex-hogan/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/12/ebola-response-drc-uganda-religion-burial-rites/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/12/hfma-conference-healthcare-affordability-revenue-cycle-vendors/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/12/omb-grantmaking-rule-uniform-guidance-politics-science/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/pharmalot/2026/05/29/pharmalittle-were-reading-about-replimune-drug-getting-third-try-at-fda-approval-a-pfizer-deal-in-china-and-more/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/pharmalot/2026/05/29/up-and-down-the-ladder-comings-and-goings-merck-pfizer-amgen/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
     "https://www.statnews.com/pharmalot/2026/06/01/asco-pancreatic-lung-cancer-drugs-china-growth-as-drug-developer/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
@@ -6657,7 +6830,8 @@
     "https://www.statnews.com/pharmalot/2026/06/08/lilly-pfizer-obesity-drug-trial-data-roche-deal/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/pharmalot/2026/06/09/drug-shortages-systemic-problem-analysis/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/pharmalot/2026/06/09/gsk-buying-nuvalent-cancer-drug-astrazeneca-obesity-pill-data/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/10/american-pressure-on-european-drug-prices-longer-shortages/": "2026-06-11T11:23:24.563395+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/10/american-pressure-on-european-drug-prices-longer-shortages/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/11/employer-overage-of-obesity-drugs-another-sanofi-setback/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00"
   },
   "takedowns": []
 }
