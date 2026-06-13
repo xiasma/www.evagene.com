@@ -6532,9 +6532,140 @@
         "methods",
         "covariance-modelling"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have found that certain genetic changes — the kind that build up in blood cells as people age and are linked to blood cancers — may also play a role in triggering Alzheimer's disease. These changes seem to make immune cells in the brain more prone to inflammation, which is thought to contribute to Alzheimer's.\n\nThe researchers suggest this discovery could one day lead to blood tests that help identify people at higher risk, and that medicines already being developed for blood cancers might be worth investigating for brain diseases too. However, this is early-stage laboratory research and does not change current medical practice or guidance for either condition.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Blood cancer mutations may drive Alzheimer's via inflammatory brain immune cells",
+      "is_preprint": false,
+      "run_date": "2026-06-13",
+      "run_iso": "2026-06-13T09:56:03Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-06-12T12:47:31Z",
+        "novelty": 8
+      },
+      "slug": "cancer-mutations-alzheimers-brain-inflammation-link",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-12T12:47:31Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover a surprising cancer link to Alzheimer's disease",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260612032044.htm"
+        }
+      ],
+      "standfirst": "Researchers report that somatic mutations associated with haematological malignancies could trigger neuroinflammation implicated in Alzheimer's disease, suggesting a previously unrecognised mechanistic overlap between the two conditions.",
+      "summary": "A study reported by ScienceDaily describes findings from researchers who identified that somatic mutations linked to blood cancers — the kind that accumulate in haematopoietic stem cells over a lifetime, a phenomenon known as clonal haematopoiesis — may contribute to the development of Alzheimer's disease by generating overly inflammatory microglia or related brain-resident immune cells.\n\nThe research adds to a growing body of work exploring how peripheral immune dysfunction influences central nervous system disease. The authors suggest that these mutations cause immune cells to adopt a hyperactivated inflammatory state, which may accelerate the neuroinflammatory processes long associated with Alzheimer's pathology.\n\nThe findings carry potential implications for two distinct research directions: first, understanding why older individuals who carry clonal haematopoiesis mutations may face elevated Alzheimer's risk; and second, whether blood-based markers of these mutations could eventually contribute to stratification approaches in Alzheimer's research. The researchers also note that therapeutic agents already in development for blood cancers targeting these mutations could theoretically be explored in neurodegeneration contexts.\n\nThe original source is a ScienceDaily summary and the underlying institution, researchers, and journal have not been specified in the available lede. The full primary publication should be consulted before drawing firm conclusions. This is an early-stage research finding and does not represent a change in clinical guidance for either blood cancer or Alzheimer's disease.",
+      "tags": [
+        "clonal-haematopoiesis",
+        "alzheimers-disease",
+        "neuroinflammation",
+        "blood-cancer",
+        "microglia",
+        "somatic-mutation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Single protein CsmR found to co-regulate motility and cell shape in model archaeon",
+      "is_preprint": false,
+      "run_date": "2026-06-13",
+      "run_iso": "2026-06-13T09:56:03Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-12T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "haloferax-volcanii-csmr-motility-cell-shape-regulator",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-12T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "CsmR controls both, motility and cell shape, in Haloferax volcanii",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012198"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study in Haloferax volcanii identifies CsmR as a transcriptional regulator that simultaneously controls archaellum-driven movement and morphological form, extending understanding of archaeal gene regulation.",
+      "summary": "Researchers including Phillip Nußbaum, Felix Grünberger, and colleagues — with contributions from groups at multiple institutions including those of Sonja-Verena Albers, Anita Marchfelder, and Dina Grohmann — have published a study in PLOS Genetics characterising CsmR, a previously uncharacterised transcriptional regulator in the model halophilic archaeon Haloferax volcanii.\n\nThe study reports that CsmR controls both archaellum-dependent motility — the archaeal equivalent of bacterial flagella-driven movement — and cell morphology. This dual regulatory role is notable because the transcriptional circuits governing archaeal motility have been poorly understood compared with those in bacteria, and the coupling of motility and shape control by a single regulator has not previously been described in this lineage.\n\nH. volcanii is a widely used model organism for archaeal cell biology, and the identification of CsmR as a central regulatory node adds a new component to the emerging picture of how Archaea coordinate movement and morphological plasticity in response to their environment. The study also notes that CsmR does not appear to be an EarA-like regulator — the previously characterised central motility transcription factor in related Euryarchaeota — suggesting distinct regulatory evolution within this group.\n\nThe findings are primarily of interest to researchers in archaeal genetics, microbial cell biology, and evolutionary genomics, and provide a foundation for comparative studies across archaeal lineages.",
+      "tags": [
+        "archaea",
+        "haloferax-volcanii",
+        "motility",
+        "cell-shape",
+        "transcription-factor",
+        "archaellum",
+        "microbial-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint maps antiviral RNAi responses across Varroa mite life stages and finds evidence of vertical virus transmission",
+      "is_preprint": true,
+      "run_date": "2026-06-13",
+      "run_iso": "2026-06-13T09:56:03Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-12T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "varroa-destructor-rnai-vertical-virus-transmission",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Primary and secondary antiviral RNAi responses throughout Varroa destructor life stages reveal the vertical transmission of viruses",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731771v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint characterises how the honey bee parasite Varroa destructor deploys RNA interference against viruses across its life cycle, revealing that established viral infections produce an unusual small RNA signature and that viruses are transmitted vertically through mite generations.",
+      "summary": "A preprint deposited on bioRxiv describes research into the antiviral RNA interference (RNAi) responses of Varroa destructor, the ectoparasitic mite regarded as one of the most serious threats to managed honey bee colonies worldwide. RNAi is the primary antiviral defence mechanism in invertebrates, and in other insects actively replicating viruses are degraded into 20–22 nucleotide virus-derived small interfering RNAs (vsiRNAs) of both sense and antisense polarity.\n\nThe researchers report that established viral infections in V. destructor produce a distinct 24-nucleotide antisense vsiRNA population, differing from the canonical insect pattern and suggesting mite-specific mechanisms of viral RNA processing. By profiling these small RNA signatures across multiple mite life stages, the team was able to infer both primary (active replication) and secondary (established) antiviral responses, providing a framework for studying infection dynamics without requiring direct virus quantification at each stage.\n\nCritically, the data support vertical transmission of viruses through V. destructor — meaning viruses can be passed from one mite generation to the next, independently of honey bees. This has implications for understanding how bee-infecting viruses persist and spread in mite populations, and potentially for apiary management strategies that rely on mite control to reduce viral load in colonies.\n\nThis work is a preprint and has not yet been peer-reviewed. The findings should be regarded as preliminary pending independent evaluation.",
+      "tags": [
+        "varroa-destructor",
+        "rnai",
+        "honey-bee",
+        "virus-transmission",
+        "small-rna",
+        "host-pathogen-interactions",
+        "invertebrate-immunity"
+      ]
     }
   ],
-  "last_run": "2026-06-12T11:01:19.541291+00:00",
+  "last_run": "2026-06-13T09:57:12.297914+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
@@ -6550,10 +6681,10 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012189": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012190": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012191": "2026-06-04T10:39:38.416026+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012198": "2026-06-13T09:57:12.297914+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012202": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012203": "2026-06-11T11:23:24.563395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012206": "2026-06-12T11:01:19.541291+00:00",
-    "https://news.cancerresearchuk.org/2026/05/29/asco-2026-updates/": "2026-05-30T09:14:46.646220+00:00",
     "https://news.cancerresearchuk.org/2026/06/02/unlocking-a-new-era-for-cancer-prevention-research/": "2026-06-02T11:16:52.725456+00:00",
     "https://news.cancerresearchuk.org/2026/06/03/preventing-a-cancer-from-ever-developing-is-one-of-the-greatest-contributions-we-can-make-raymond-dubois-wins-outstanding-achievement-in-cancer-prevention-research-award/": "2026-06-04T10:39:38.416026+00:00",
     "https://news.cancerresearchuk.org/2026/06/05/celebrating-25-years-in-partnership-with-tesco/": "2026-06-06T09:25:58.323154+00:00",
@@ -6563,20 +6694,9 @@
     "https://news.cancerresearchuk.org/2026/06/09/research-with-integrity-a-refresh-for-the-better/": "2026-06-09T10:34:47.734768+00:00",
     "https://news.cancerresearchuk.org/2026/06/11/cancer-research-horizons-raises-5m-through-the-cancer-impact-club/": "2026-06-11T11:23:24.563395+00:00",
     "https://news.cancerresearchuk.org/2026/06/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-06-12T11:01:19.541291+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.26.727947v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.26.727960v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.26.728016v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.27.727643v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.27.728238v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.27.728285v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.27.728303v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.28.725302v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.727987v1?rss=1": "2026-06-01T12:35:14.571711+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.28.728467v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.28.728476v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.28.728536v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.728586v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.29.728707v1?rss=1": "2026-05-30T09:14:46.646220+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728763v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728873v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728884v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
@@ -6625,16 +6745,20 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.09.731016v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.09.731144v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.09.731195v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.10.731218v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731306v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.10.731330v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731381v1?rss=1": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.10.731434v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.11.731395v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.11.731771v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
     "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
     "https://www.england.nhs.uk/2026/06/aes-bore-the-brunt-as-heatwave-piled-pressure-on-nhs/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-heroes-recognised-after-accelerating-cancer-diagnosis-and-transforming-patient-care/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-to-offer-multi-beam-precision-radiotherapy-to-thousands-with-prostate-cancer/": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260528082505.htm": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260529030329.htm": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.england.nhs.uk/2026/06/public-urged-to-access-nhs-care-amid-triple-whammy-of-doctors-strike-heatwave-and-world-cup/": "2026-06-13T09:57:12.297914+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260529043640.htm": "2026-06-01T12:35:14.571711+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530004618.htm": "2026-05-31T09:47:25.678662+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530004626.htm": "2026-05-31T09:47:25.678662+00:00",
@@ -6654,12 +6778,9 @@
     "https://www.sciencedaily.com/releases/2026/06/260610003054.htm": "2026-06-11T11:23:24.563395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260610003116.htm": "2026-06-11T11:23:24.563395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260610003119.htm": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.statnews.com/2026/05/29/asco-news-day-1-multiple-myeloma-bristol-lung-cancer-pfizer/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.statnews.com/2026/05/29/biotech-news-allogene-ceo-david-chang-steps-down/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.statnews.com/2026/05/29/health-news-which-vaccines-will-curb-ebola-outbreak/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.statnews.com/2026/05/29/kenya-court-suspends-plan-ebola-quarantine-facility-americans/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.statnews.com/2026/05/29/nih-grants-uniform-guidance-proposal-political-control/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.statnews.com/2026/05/29/united-healthcare-sued-massachusetts-ag-alleges-100-million-upcode-fraud-medicaid/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260612021604.htm": "2026-06-13T09:57:12.297914+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260612032044.htm": "2026-06-13T09:57:12.297914+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260612032049.htm": "2026-06-13T09:57:12.297914+00:00",
     "https://www.statnews.com/2026/05/30/asco-news-day-2-biontech-pfizer-kelun-merck-pazdur/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
     "https://www.statnews.com/2026/05/30/pancreatic-cancer-daraxonrasib-revolution-medicines-early-access-asco-2026/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
     "https://www.statnews.com/2026/05/30/rick-pazdur-fda-destruction-rebuilding-asco-2026/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
@@ -6810,11 +6931,13 @@
     "https://www.statnews.com/2026/06/11/socioeconomic-status-impact-brain-development/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/synthetic-lethality-cancer-tango-revolution/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/12/ada-convention-controversy-explored-status-report-alex-hogan/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/12/biotech-news-prometheus-raises-12-billion-for-artificial-engineers/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
     "https://www.statnews.com/2026/06/12/ebola-response-drc-uganda-religion-burial-rites/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/12/health-news-chile-offers-new-data-on-food-warning-label-efficacy/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
     "https://www.statnews.com/2026/06/12/hfma-conference-healthcare-affordability-revenue-cycle-vendors/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/2026/06/12/medicare-drug-price-negotiation-loophole-proposed-rule/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
     "https://www.statnews.com/2026/06/12/omb-grantmaking-rule-uniform-guidance-politics-science/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/29/pharmalittle-were-reading-about-replimune-drug-getting-third-try-at-fda-approval-a-pfizer-deal-in-china-and-more/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
-    "https://www.statnews.com/pharmalot/2026/05/29/up-and-down-the-ladder-comings-and-goings-merck-pfizer-amgen/?utm_campaign=rss": "2026-05-30T09:14:46.646220+00:00",
+    "https://www.statnews.com/2026/06/13/medical-residency-late-in-life-interview/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
     "https://www.statnews.com/pharmalot/2026/06/01/asco-pancreatic-lung-cancer-drugs-china-growth-as-drug-developer/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/pharmalot/2026/06/01/lilly-warns-hospitals-submit-claims-data-or-lose-340b-drug-discounts/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/pharmalot/2026/06/02/lilly-threat-to-340b-hospitals-ebola-vaccine-funding/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
@@ -6831,7 +6954,9 @@
     "https://www.statnews.com/pharmalot/2026/06/09/drug-shortages-systemic-problem-analysis/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/pharmalot/2026/06/09/gsk-buying-nuvalent-cancer-drug-astrazeneca-obesity-pill-data/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/pharmalot/2026/06/10/american-pressure-on-european-drug-prices-longer-shortages/": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/11/employer-overage-of-obesity-drugs-another-sanofi-setback/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/11/employer-overage-of-obesity-drugs-another-sanofi-setback/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/12/nonprofit-buys-discontinued-cancer-drug-novo-security-breach/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/12/up-and-down-the-ladder-job-changes-astrazeneca-bayer/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00"
   },
   "takedowns": []
 }
