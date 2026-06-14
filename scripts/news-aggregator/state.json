@@ -6663,9 +6663,56 @@
         "host-pathogen-interactions",
         "invertebrate-immunity"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Genes called RAD51D and XRCC2 help repair damage to DNA inside cells. Faults in these genes can increase a person's inherited risk of developing certain cancers. Scientists carry out gene testing to look for variants — differences in the DNA sequence — in these genes, but for thousands of variants it has previously been impossible to tell whether they are harmful or harmless. These variants are called variants of uncertain significance, or VUS.\n\nResearchers have now published a study — currently a preprint, meaning it has not yet been independently checked by other scientists — describing a technique called saturation genome editing. This approach tests thousands of variants at once in laboratory cells to measure whether each one affects how the cells function. The team examined more than 9,000 variants across the two genes and report that their method can distinguish between variants that are likely harmful and those that appear harmless.\n\nIf these findings hold up after peer review, they could eventually help scientists better interpret inherited variants in RAD51D and XRCC2 in the future.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Saturation genome editing maps functional impact of thousands of RAD51D and XRCC2 variants",
+      "is_preprint": true,
+      "run_date": "2026-06-14",
+      "run_iso": "2026-06-14T10:22:34Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-06-13T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "saturation-genome-editing-rad51d-xrcc2-vus-reclassification",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-13T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Saturation Genome Editing reveals the functional impact of RAD51D and XRCC2 variants",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731983v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory applies saturation genome editing to reclassify more than 9,000 variants of uncertain significance in two hereditary cancer genes.",
+      "summary": "Researchers have applied saturation genome editing (SGE) to assess the functional consequences of 5,412 variants in RAD51D and 3,743 variants in XRCC2 — two genes encoding RAD51 paralog proteins that form the BCDX2 heterodimer, a component of the homologous recombination repair pathway. Germline pathogenic variants in both genes are associated with elevated cancer risk, but the majority of entries for these genes in ClinVar have historically been classified as variants of uncertain significance (VUS), limiting their interpretive value in research and clinical genetics contexts.\n\nThe preprint, posted to bioRxiv, reports cellular fitness scores for the full variant sets and additionally characterises effects on RNA expression for 2,876 RAD51D and 2,069 XRCC2 variants. The authors describe fitness scores as discriminating between pathogenic and benign reference variants, consistent with previous SGE studies in other cancer-associated genes such as BRCA1 and BRCA2.\n\nSGE works by introducing all possible single-nucleotide substitutions at a locus into a cell population and measuring the relative change in abundance of each variant over time — a high-throughput functional readout that can, in principle, reclassify large numbers of VUS simultaneously. The approach complements computational prediction and segregation data by providing direct experimental evidence of variant effect.\n\nBecause this is a preprint and has not yet completed peer review, findings should be treated as preliminary. If the results replicate under review, the dataset could inform future variant curation efforts in hereditary cancer gene panels that include RAD51D and XRCC2.",
+      "tags": [
+        "saturation-genome-editing",
+        "rad51d",
+        "xrcc2",
+        "vus",
+        "hereditary-cancer",
+        "homologous-recombination",
+        "variant-interpretation",
+        "bcdx2"
+      ]
     }
   ],
-  "last_run": "2026-06-13T09:57:12.297914+00:00",
+  "last_run": "2026-06-14T10:23:02.663183+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
@@ -6694,12 +6741,8 @@
     "https://news.cancerresearchuk.org/2026/06/09/research-with-integrity-a-refresh-for-the-better/": "2026-06-09T10:34:47.734768+00:00",
     "https://news.cancerresearchuk.org/2026/06/11/cancer-research-horizons-raises-5m-through-the-cancer-impact-club/": "2026-06-11T11:23:24.563395+00:00",
     "https://news.cancerresearchuk.org/2026/06/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-06-12T11:01:19.541291+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.27.728238v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.28.727987v1?rss=1": "2026-06-01T12:35:14.571711+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.28.728586v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728763v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.29.728873v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.29.728884v1?rss=1": "2026-05-31T09:47:25.678662+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728916v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.30.728974v1?rss=1": "2026-06-04T10:39:38.416026+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.30.728989v1?rss=1": "2026-06-02T11:16:52.725456+00:00",
@@ -6752,6 +6795,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731434v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.11.731395v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.11.731771v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.12.731983v1?rss=1": "2026-06-14T10:23:02.663183+00:00",
     "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
     "https://www.england.nhs.uk/2026/06/aes-bore-the-brunt-as-heatwave-piled-pressure-on-nhs/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
@@ -6760,8 +6804,6 @@
     "https://www.england.nhs.uk/2026/06/nhs-to-offer-multi-beam-precision-radiotherapy-to-thousands-with-prostate-cancer/": "2026-06-10T10:55:51.300734+00:00",
     "https://www.england.nhs.uk/2026/06/public-urged-to-access-nhs-care-amid-triple-whammy-of-doctors-strike-heatwave-and-world-cup/": "2026-06-13T09:57:12.297914+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260529043640.htm": "2026-06-01T12:35:14.571711+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260530004618.htm": "2026-05-31T09:47:25.678662+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260530004626.htm": "2026-05-31T09:47:25.678662+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530053420.htm": "2026-06-02T11:16:52.725456+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530053424.htm": "2026-06-01T12:35:14.571711+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530053429.htm": "2026-06-02T11:16:52.725456+00:00",
@@ -6781,10 +6823,6 @@
     "https://www.sciencedaily.com/releases/2026/06/260612021604.htm": "2026-06-13T09:57:12.297914+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260612032044.htm": "2026-06-13T09:57:12.297914+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260612032049.htm": "2026-06-13T09:57:12.297914+00:00",
-    "https://www.statnews.com/2026/05/30/asco-news-day-2-biontech-pfizer-kelun-merck-pazdur/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
-    "https://www.statnews.com/2026/05/30/pancreatic-cancer-daraxonrasib-revolution-medicines-early-access-asco-2026/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
-    "https://www.statnews.com/2026/05/30/rick-pazdur-fda-destruction-rebuilding-asco-2026/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
-    "https://www.statnews.com/2026/05/30/trump-ebola-response-biden-pandemic-preparations-thrown-away/?utm_campaign=rss": "2026-05-31T09:47:25.678662+00:00",
     "https://www.statnews.com/2026/05/31/asco-news-day-3-revmed-akeso-summit-lilly-kelonia/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/05/31/low-dose-nivolumab-extends-survival-trial-head-neck-squamous-cell-carcinoma-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/05/31/pancreatic-cancer-daraxonrasib-revolution-medicines-results-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
@@ -6938,6 +6976,8 @@
     "https://www.statnews.com/2026/06/12/medicare-drug-price-negotiation-loophole-proposed-rule/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
     "https://www.statnews.com/2026/06/12/omb-grantmaking-rule-uniform-guidance-politics-science/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/13/medical-residency-late-in-life-interview/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
+    "https://www.statnews.com/2026/06/13/teplizumab-tzield-sanofi-fda-approval-children-stage-3-diabetes/?utm_campaign=rss": "2026-06-14T10:23:02.663183+00:00",
+    "https://www.statnews.com/2026/06/13/who-director-general-in-drc-war-greater-concern-than-ebola/?utm_campaign=rss": "2026-06-14T10:23:02.663183+00:00",
     "https://www.statnews.com/pharmalot/2026/06/01/asco-pancreatic-lung-cancer-drugs-china-growth-as-drug-developer/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/pharmalot/2026/06/01/lilly-warns-hospitals-submit-claims-data-or-lose-340b-drug-discounts/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/pharmalot/2026/06/02/lilly-threat-to-340b-hospitals-ebola-vaccine-funding/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
