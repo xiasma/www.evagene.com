@@ -6710,9 +6710,137 @@
         "variant-interpretation",
         "bcdx2"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": "Researchers have published early-stage laboratory findings — currently a preprint, meaning they have not yet been independently checked through peer review — describing experiments in a tiny roundworm called C. elegans. The worm was used as a model to study alpha-synuclein, a protein that builds up abnormally in the brains of people with Parkinson's disease.\n\nThe study looked at how a cellular stress response called the mitochondrial unfolded protein response — a system cells use when proteins are not folding correctly — affects the survival of nerve cells in the worm. By switching off a key gene in this pathway, the researchers found they could protect dopamine-producing nerve cells from damage caused by alpha-synuclein. They then screened for other genes that could produce similar protective effects.\n\nThis is basic laboratory research in a model organism; it does not directly translate to treatments for people with Parkinson's disease. Much more research would be needed before any implications for human health could be considered.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Forward genetic screen in C. elegans maps genes that modulate alpha-synuclein neurodegeneration via mitochondrial UPR",
+      "is_preprint": true,
+      "run_date": "2026-06-15",
+      "run_iso": "2026-06-15T13:10:49Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-15T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "alpha-synuclein-uprmT-forward-genetic-screen-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-15T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A Forward Genetic Screen in Caenorhabditis elegans for Genes that Modulate α-synuclein-Induced Neurodegeneration through the Mitochondrial UPR",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731199v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports a forward genetic screen identifying modulators of alpha-synuclein-induced dopaminergic neuron loss through the mitochondrial unfolded protein response pathway in C. elegans.",
+      "summary": "Researchers at Cold Spring Harbor Laboratory have posted a preprint on bioRxiv describing a forward genetic screen in Caenorhabditis elegans designed to identify genes that alter neurodegeneration caused by overexpression of alpha-synuclein (α-syn), the protein implicated in Parkinson's disease and related synucleinopathies.\n\nThe study builds on an established C. elegans model in which α-syn overexpression chronically activates the mitochondrial unfolded protein response (UPRmt) and causes loss of dopaminergic neurons. The authors introduced a loss-of-function allele in atfs-1 — the principal transcriptional regulator of UPRmt — into α-syn-expressing nematodes and observed significant neuroprotection, suggesting that compensatory mechanisms can offset α-syn-induced neuronal loss when canonical UPRmt signalling is disrupted.\n\nUsing an F3 forward genetic screen in atfs-1 loss-of-function mutants, the team sought to identify additional genetic modifiers of this neuroprotective effect. The approach leverages the speed and tractability of C. elegans genetics to uncover potential molecular targets relevant to synuclein-driven neurodegeneration. Because this work is a preprint and has not yet undergone peer review, findings should be interpreted with appropriate caution pending independent validation.",
+      "tags": [
+        "alpha-synuclein",
+        "parkinsons-disease",
+        "uprmT",
+        "c-elegans",
+        "neurodegeneration",
+        "forward-genetic-screen",
+        "mitochondria"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint provides in vivo genetic evidence that cardiomyocytes can undergo mesenchymal-like transition in myocardial fibrosis",
+      "is_preprint": true,
+      "run_date": "2026-06-15",
+      "run_iso": "2026-06-15T13:10:49Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-14T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "cardiomyocyte-mesenchymal-transition-myocardial-fibrosis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-14T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cardiomyocytes Undergo a Mesenchymal-Like Fate Transition in Myocardial Fibrosis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.10.731493v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint combining human infarction tissue analysis and lineage-tracing experiments in mice reports that cardiomyocytes can directly contribute to myocardial fibrosis via a mesenchymal-like fate change.",
+      "summary": "A preprint deposited on bioRxiv presents evidence that cardiomyocytes — the contractile cells of the heart — can undergo a mesenchymal-like fate transition during myocardial fibrosis, challenging the long-standing view that cardiac fibrosis results exclusively from the activation of resident fibroblasts.\n\nThe study combined immunohistochemical analysis of human myocardial infarction tissue with in vivo genetic lineage-tracing experiments in mouse models to track the fate of cardiomyocytes during pathological remodelling. The authors report that a proportion of cardiomyocytes acquire mesenchymal characteristics, and begin to elucidate the regulatory mechanisms underlying this transition. Myocardial fibrosis is a hallmark of adverse cardiac remodelling and a major contributor to heart failure progression.\n\nThe findings, if confirmed by peer review and independent replication, could have implications for how researchers conceptualise the cellular origins of cardiac fibrosis, with potential longer-term relevance for therapeutic strategies targeting fibrotic pathways. As a preprint, this work has not yet been independently peer-reviewed and should be treated as preliminary.",
+      "tags": [
+        "cardiac-fibrosis",
+        "cardiomyocyte",
+        "mesenchymal-transition",
+        "lineage-tracing",
+        "heart-failure",
+        "cell-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Genetic analysis of maize seedling root traits under chilling conditions highlights role in early field establishment",
+      "is_preprint": true,
+      "run_date": "2026-06-15",
+      "run_iso": "2026-06-15T13:10:49Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-06-14T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "maize-root-traits-chilling-genetic-analysis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-14T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genetic analysis of maize seedling root traits under chilling highlights their importance for early field development",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.11.731510v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using high-throughput phenotyping and doubled haploid populations identifies genetic variants governing maize root architecture under cold stress, with implications for temperate-region breeding.",
+      "summary": "A preprint on bioRxiv describes a large-scale genetic analysis of maize (Zea mays) seedling root system architecture under chilling conditions, using a high-throughput phenotyping platform applied to a doubled haploid population that incorporates allelic diversity from landraces.\n\nThe study characterises genetic variation for root traits — including root length, angle, and architecture — that are relevant to early plant establishment in temperate regions where cold soil temperatures during the growing season constrain seedling vigour. Landraces, traditional varieties selected over generations in local environments, were used as sources of allelic diversity to enrich the genetic basis of modern breeding material. The authors identify genomic regions associated with root phenotypes under chilling stress, contributing to efforts to develop maize varieties with improved nutrient uptake and early vigour.\n\nThe work is relevant to crop genomics, quantitative genetics, and plant breeding research. It illustrates how combining phenomic data collection at scale with diverse genetic resources can expand the toolkit available for marker-assisted or genomic selection programmes. As a preprint, the findings have not yet been peer-reviewed.",
+      "tags": [
+        "maize",
+        "root-architecture",
+        "chilling-stress",
+        "crop-genomics",
+        "quantitative-genetics",
+        "doubled-haploid",
+        "plant-breeding"
+      ]
     }
   ],
-  "last_run": "2026-06-14T10:23:02.663183+00:00",
+  "last_run": "2026-06-15T13:11:44.014620+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011957": "2026-06-02T11:16:52.725456+00:00",
@@ -6741,7 +6869,6 @@
     "https://news.cancerresearchuk.org/2026/06/09/research-with-integrity-a-refresh-for-the-better/": "2026-06-09T10:34:47.734768+00:00",
     "https://news.cancerresearchuk.org/2026/06/11/cancer-research-horizons-raises-5m-through-the-cancer-impact-club/": "2026-06-11T11:23:24.563395+00:00",
     "https://news.cancerresearchuk.org/2026/06/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-06-12T11:01:19.541291+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.05.28.727987v1?rss=1": "2026-06-01T12:35:14.571711+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728763v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728916v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.30.728974v1?rss=1": "2026-06-04T10:39:38.416026+00:00",
@@ -6793,7 +6920,10 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731330v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731381v1?rss=1": "2026-06-12T11:01:19.541291+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731434v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.10.731493v1?rss=1": "2026-06-15T13:11:44.014620+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.11.731199v1?rss=1": "2026-06-15T13:11:44.014620+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.11.731395v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.11.731510v1?rss=1": "2026-06-15T13:11:44.014620+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.11.731771v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.12.731983v1?rss=1": "2026-06-14T10:23:02.663183+00:00",
     "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
@@ -6803,9 +6933,7 @@
     "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-to-offer-multi-beam-precision-radiotherapy-to-thousands-with-prostate-cancer/": "2026-06-10T10:55:51.300734+00:00",
     "https://www.england.nhs.uk/2026/06/public-urged-to-access-nhs-care-amid-triple-whammy-of-doctors-strike-heatwave-and-world-cup/": "2026-06-13T09:57:12.297914+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260529043640.htm": "2026-06-01T12:35:14.571711+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530053420.htm": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.sciencedaily.com/releases/2026/05/260530053424.htm": "2026-06-01T12:35:14.571711+00:00",
     "https://www.sciencedaily.com/releases/2026/05/260530053429.htm": "2026-06-02T11:16:52.725456+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260601025349.htm": "2026-06-03T11:55:44.292835+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260602021641.htm": "2026-06-03T11:55:44.292835+00:00",
@@ -6823,34 +6951,24 @@
     "https://www.sciencedaily.com/releases/2026/06/260612021604.htm": "2026-06-13T09:57:12.297914+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260612032044.htm": "2026-06-13T09:57:12.297914+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260612032049.htm": "2026-06-13T09:57:12.297914+00:00",
-    "https://www.statnews.com/2026/05/31/asco-news-day-3-revmed-akeso-summit-lilly-kelonia/": "2026-06-01T12:35:14.571711+00:00",
-    "https://www.statnews.com/2026/05/31/low-dose-nivolumab-extends-survival-trial-head-neck-squamous-cell-carcinoma-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
-    "https://www.statnews.com/2026/05/31/pancreatic-cancer-daraxonrasib-revolution-medicines-results-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
-    "https://www.statnews.com/2026/05/31/prostate-cancer-hormone-therapy-cut-relapse-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
-    "https://www.statnews.com/2026/05/31/squamous-cell-lung-cancer-akeso-summit-harmoni-asco-2026/": "2026-06-01T12:35:14.571711+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260614011854.htm": "2026-06-15T13:11:44.014620+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260615025119.htm": "2026-06-15T13:11:44.014620+00:00",
     "https://www.statnews.com/2026/06/01/abivax-ulcerative-colitis-obefazimod/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/asco-news-day-4-merkel-cell-carcinoma-glp1s-grail/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/biotech-news-turning-point-for-pancreatic-cancer-revmed/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/2026/06/01/bpc-157-researcher-predrag-sikiric-addesses-skeptics-questions/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/06/01/bpc-157-researcher-predrag-sikiric-addesses-skeptics-questions/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/cancer-oncologists-grief-asco-2026/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/ebola-bundibugyo-vaccine-studies-cepi-62-million-funding/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/fda-misses-deadline-electric-shock-ban-disability-advocates-speak-out/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/health-news-cdc-says-containing-ebola-spread-is-top-priority/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/2026/06/01/medicare-50-dollar-weight-loss-drugs-glp-1-bridge-program-cost-estimate/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/06/01/medicare-50-dollar-weight-loss-drugs-glp-1-bridge-program-cost-estimate/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/medicare-bridge-obesity-drug-coverage-no-surprises-act-idr-rules-health-care-inc/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/2026/06/01/no-surprises-act-new-arbitration-rules-providers-gaming-system/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/06/01/no-surprises-act-new-arbitration-rules-providers-gaming-system/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/2026/06/01/residency-diversity-med-school-disciplinary-action-dei-equity-black-latino/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/06/01/residency-diversity-med-school-disciplinary-action-dei-equity-black-latino/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/2026/06/01/servier-edgewise-therapeutics-muscular-dystrophy-drug-sevasemten/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/06/01/servier-edgewise-therapeutics-muscular-dystrophy-drug-sevasemten/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/2026/06/01/summa-health-tech-initiatives-after-general-catalyst-acquisition/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/06/01/summa-health-tech-initiatives-after-general-catalyst-acquisition/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/trump-medicaid-work-requirement-rules-verification-eligibility/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/01/unvaccinated-blood-donor-directed-donation-transcript/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
-    "https://www.statnews.com/2026/06/01/us-military-medical-corps-recruitment-incentives/": "2026-06-01T12:35:14.571711+00:00",
     "https://www.statnews.com/2026/06/02/biotech-news-radiopharmaceutical-shows-promise-in-post-pluvicto/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/2026/06/02/doctors-office-waiting-room-telehealth-virtual-care/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/2026/06/02/health-news-testing-one-state-medical-meal-progra/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
@@ -6978,6 +7096,12 @@
     "https://www.statnews.com/2026/06/13/medical-residency-late-in-life-interview/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
     "https://www.statnews.com/2026/06/13/teplizumab-tzield-sanofi-fda-approval-children-stage-3-diabetes/?utm_campaign=rss": "2026-06-14T10:23:02.663183+00:00",
     "https://www.statnews.com/2026/06/13/who-director-general-in-drc-war-greater-concern-than-ebola/?utm_campaign=rss": "2026-06-14T10:23:02.663183+00:00",
+    "https://www.statnews.com/2026/06/15/ai-children-screen-time-pediatrician-prescription-guidance/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
+    "https://www.statnews.com/2026/06/15/autism-diagnosis-south-asian-american-families-stigma/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
+    "https://www.statnews.com/2026/06/15/health-news-cambridge-recombinant-dna-anniversary/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
+    "https://www.statnews.com/2026/06/15/jesse-gabriel-ultra-processed-food-california-laws-national-impact/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
+    "https://www.statnews.com/2026/06/15/medicaid-caregivers-state-pay-people-with-disabilities/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
+    "https://www.statnews.com/2026/06/15/pfizer-bicillin-shortage-preventable-congenital-syphilis-surging/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
     "https://www.statnews.com/pharmalot/2026/06/01/asco-pancreatic-lung-cancer-drugs-china-growth-as-drug-developer/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/pharmalot/2026/06/01/lilly-warns-hospitals-submit-claims-data-or-lose-340b-drug-discounts/?utm_campaign=rss": "2026-06-02T11:16:52.725456+00:00",
     "https://www.statnews.com/pharmalot/2026/06/02/lilly-threat-to-340b-hospitals-ebola-vaccine-funding/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
