@@ -7011,9 +7011,234 @@
         "food-security",
         "quantitative-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "patients",
+        "educators",
+        "students"
+      ],
+      "for_patients": "Huntington's disease is a rare inherited condition caused by a change in a single gene. It leads to progressive damage to the nervous system, affecting movement, thinking, and behaviour. There is currently no treatment that slows or stops the disease.\n\nA biotechnology company called UniQure has been developing a treatment called AMT-130, which uses a biological delivery system to try to reduce the harmful protein that builds up in the brains of people with Huntington's disease. The US medicines regulator — the FDA — has now allowed UniQure to formally apply for the treatment to be approved. This does not mean the treatment is approved; it means the company can submit its evidence for regulators to assess.\n\nResearchers and patient groups have been watching this programme closely. Further public information about timelines is expected as the regulatory process progresses.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "FDA clears UniQure to submit Huntington's disease gene therapy for approval",
+      "is_preprint": false,
+      "run_date": "2026-06-17",
+      "run_iso": "2026-06-17T11:44:31Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-06-17T11:43:08Z",
+        "novelty": 9
+      },
+      "slug": "uniqure-huntingtons-fda-submission-cleared",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2020/12/AP_464867626358-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-17T11:43:08Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Following dispute with FDA, UniQure is cleared to submit Huntington's treatment for approval",
+          "url": "https://www.statnews.com/2026/06/17/huntingtons-disease-uniqure-drug-fda-review/"
+        }
+      ],
+      "standfirst": "The US Food and Drug Administration has reversed its earlier opposition, allowing UniQure to file its investigational RNA-interference treatment for Huntington's disease for regulatory review.",
+      "summary": "The US Food and Drug Administration (FDA) has resolved a dispute with Dutch biotechnology company UniQure and cleared the company to submit its Huntington's disease treatment, AMT-130, for formal regulatory approval, according to reporting by STAT News on 17 June 2026.\n\nAMT-130 is an adeno-associated virus (AAV)-delivered RNA-interference therapy designed to reduce the production of mutant huntingtin protein — the toxic protein whose accumulation drives the progressive neurological damage characteristic of Huntington's disease. The FDA had previously raised objections that had blocked submission; the nature of those objections and the basis for the reversal were not fully disclosed in public reporting at the time of writing.\n\nThe development is notable for the Huntington's disease research and patient community because AMT-130 has been one of the most closely watched programmes in neurogenetic medicine. Earlier Phase I/II data generated interest, though the field has also seen setbacks with other huntingtin-lowering approaches from different developers.\n\nFull details of the regulatory pathway, likely review timelines, and any conditions attached to the submission clearance are not yet available from public sources. The STAT News article is behind a paywall; this summary is based on the publicly available lede and headline. Genetic Current will update this cluster when further primary-source material becomes publicly accessible.",
+      "tags": [
+        "huntingtons-disease",
+        "uniqure",
+        "amt-130",
+        "fda",
+        "gene-therapy",
+        "rna-interference",
+        "neurogenetics",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "gps",
+        "patients"
+      ],
+      "for_patients": "Type 2 diabetes is a common condition in which the body cannot manage blood sugar levels properly. One reason this happens is that specialised cells in the pancreas called beta cells — which make the hormone insulin — stop working well over time. Both genetic factors and diet play a role.\n\nResearchers have published a preliminary study (called a preprint, meaning it has not yet been fully reviewed by other scientists) describing a new method. They grew human pancreatic beta cells in the laboratory from stem cells and then exposed them to high levels of sugar and fat at the same time — a condition called glucolipotoxicity — which is thought to mimic some aspects of an unhealthy diet over time. They recorded which genes were switched on or off under this stress, and then looked to see whether those same patterns appeared in large genetic databases of people with type 2 diabetes.\n\nThe study suggests there may be shared molecular pathways linking dietary stress and genetic risk. This is early-stage research that will need further independent investigation.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint links beta-cell nutrient-stress molecular programmes to genetic and dietary risk for type 2 diabetes",
+      "is_preprint": true,
+      "run_date": "2026-06-17",
+      "run_iso": "2026-06-17T11:44:31Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-06-16T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "type2-diabetes-beta-cell-dish-to-biobank-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A dish-to-biobank framework links β-cell nutrient-stress programs to genetic and dietary risk for Type 2 Diabetes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731989v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory describes a 'dish-to-biobank' framework that connects controlled glucolipotoxicity stress in stem-cell-derived beta cells to population-scale type 2 diabetes genetics via the plasma proteome.",
+      "summary": "A preprint posted to bioRxiv on 16 June 2026 describes a framework that attempts to bridge controlled laboratory experiments in human stem cell-derived pancreatic islets with population-scale genetic and dietary data, in order to identify shared molecular programmes underlying type 2 diabetes (T2D) risk.\n\nThe authors subjected human stem cell-derived beta cells to factorial combinations of high glucose and palmitate — a fatty acid — identifying glucolipotoxicity (the combination of both stressors) as the condition that elicits the strongest transcriptional response in beta cells, as assessed by single-cell RNA sequencing (scRNA-seq). They then linked the resulting transcriptional signatures to the circulating plasma proteome and, from there, to population-scale T2D genetics from biobanks, constructing what they term a 'dish-to-biobank' pipeline.\n\nThe approach is methodologically notable because it attempts to connect in vitro mechanistic findings with human population genetics in a systematic way, potentially helping to prioritise which nutrient-stress pathways are most relevant to genetic risk for T2D in real populations. The authors report that glucolipotoxicity-associated programmes in stem-cell-derived beta cells are enriched for T2D genetic signals identified in large-scale genome-wide association studies.\n\nAs with all preprint material, these findings have not yet undergone formal peer review. Institutional affiliations and journal submission status were not stated in the publicly available record at the time of writing.",
+      "tags": [
+        "type2-diabetes",
+        "beta-cell",
+        "glucolipotoxicity",
+        "stem-cell-derived-islets",
+        "plasma-proteome",
+        "gwas",
+        "disease-modelling",
+        "scrna-seq"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Wolbachia-induced cytoplasmic incompatibility produces heritable chromatin modifications in host embryos, preprint reports",
+      "is_preprint": true,
+      "run_date": "2026-06-17",
+      "run_iso": "2026-06-17T11:44:31Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-16T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "wolbachia-cytoplasmic-incompatibility-heritable-chromatin",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Wolbachia-induced cytoplasmic incompatibility produces heritable chromatin modifications that suppress position-effect variegation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731975v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint provides evidence that the embryo-lethal effects of Wolbachia-induced cytoplasmic incompatibility are mediated, at least in part, by heritable epigenetic chromatin modifications rather than purely mechanical replication failure.",
+      "summary": "A preprint posted to bioRxiv on 16 June 2026 reports that cytoplasmic incompatibility (CI) — a reproductive manipulation caused by the maternally transmitted endosymbiotic bacterium Wolbachia — produces heritable chromatin modifications that propagate through subsequent cell divisions in host embryos, potentially explaining the observed developmental delays in embryos that initially survive the first zygotic cell cycle.\n\nWolbachia-induced CI is a widely studied phenomenon in insect evolutionary genetics and has attracted translational interest because Wolbachia-infected mosquito releases are being explored as a strategy for suppressing arboviral disease transmission. CI classically causes defects in paternal chromosome replication, condensation, and segregation at the first zygotic division, killing most embryos that lack the endosymbiont. However, a subset of embryos progress through the first division apparently normally and only show developmental defects at later stages — a longstanding puzzle in the field.\n\nThe preprint authors present evidence that CI induces epigenetic chromatin modifications — specifically, changes that affect position-effect variegation, a classical assay for heterochromatin integrity — and that these modifications are heritable across cell divisions. They suggest this mechanism accounts for the delayed developmental phenotypes observed in surviving embryos. The work was conducted in Drosophila. These findings have not yet undergone formal peer review.",
+      "tags": [
+        "wolbachia",
+        "cytoplasmic-incompatibility",
+        "heritable-chromatin",
+        "epigenetics",
+        "position-effect-variegation",
+        "drosophila",
+        "endosymbiont",
+        "evolutionary-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Chromatin Assembly Factor 1 required for normal facultative heterochromatin in Neurospora crassa, preprint finds",
+      "is_preprint": true,
+      "run_date": "2026-06-17",
+      "run_iso": "2026-06-17T11:44:31Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-16T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "caf1-facultative-heterochromatin-neurospora",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Chromatin Assembly Factor 1 is required for normal structure and function of facultative heterochromatin in Neurospora crassa",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.12.731976v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint demonstrates that loss of the replication-coupled histone chaperone CAF-1 disrupts PRC2-directed H3K27me3 heterochromatin structure and causes widespread transcriptional misregulation in the model fungus Neurospora crassa.",
+      "summary": "A preprint posted to bioRxiv on 16 June 2026 describes a functional role for Chromatin Assembly Factor 1 (CAF-1) in maintaining the structure and transcriptional silencing activity of facultative heterochromatin in the filamentous fungus Neurospora crassa.\n\nFacultative heterochromatin — genomic regions silenced in a developmentally regulated, rather than constitutive, manner — is established and maintained in many eukaryotes by Polycomb Repressive Complex 2 (PRC2), which methylates histone H3 at lysine 27 (H3K27me3). CAF-1 is a replication-dependent histone chaperone that deposits histones H3 and H4 during DNA synthesis. The authors report that loss of CAF-1 in Neurospora causes widespread transcriptional misregulation, with particular effects on genes normally silenced by PRC2-mediated facultative heterochromatin, suggesting that replication-coupled histone deposition is required to propagate H3K27me3 chromatin domains through cell division.\n\nNeurospora crassa is an established model organism for studying epigenetic regulation, including both constitutive and facultative heterochromatin. The finding adds to a growing body of evidence that the machinery linking DNA replication to chromatin re-establishment is critical for maintaining epigenetic gene-silencing programmes. This preprint has not yet undergone formal peer review.",
+      "tags": [
+        "caf-1",
+        "facultative-heterochromatin",
+        "prc2",
+        "h3k27me3",
+        "neurospora-crassa",
+        "epigenetics",
+        "histone-chaperone",
+        "chromatin"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "LsBADH1 gene identified as the genetic basis of sweet fragrance in lettuce varieties",
+      "is_preprint": true,
+      "run_date": "2026-06-17",
+      "run_iso": "2026-06-17T11:44:31Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-06-16T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "lsbadh1-fragrance-lettuce-2ap-biosynthesis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "LsBADH1 is responsible for sweet fragrance in lettuce (Lactuca sativa L.) through 2-acetyl-1-pyrroline biosynthesis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.13.731611v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that a betaine aldehyde dehydrogenase gene, LsBADH1, is responsible for the production of 2-acetyl-1-pyrroline — the compound behind the characteristic sweet fragrance of certain lettuce cultivars.",
+      "summary": "A preprint deposited on bioRxiv on 16 June 2026 presents genetic and functional evidence that LsBADH1, a gene encoding a betaine aldehyde dehydrogenase (BADH) enzyme, underlies the sweet fragrant trait in lettuce (Lactuca sativa L.) through its role in the biosynthesis of 2-acetyl-1-pyrroline (2AP).\n\n2AP is the volatile compound responsible for the characteristic aroma of fragrant rice varieties, as well as fragrant cultivars of several other crops. The genetic basis of 2AP-derived fragrance in rice — the BADH2 gene — has been well characterised, but the equivalent mechanism in lettuce had not previously been confirmed. The authors conducted linkage analysis using an F2 mapping population derived from a cross between a fragrant lettuce cultivar ('Kukichisya') and a non-fragrant cultivar ('Rennet'), and identified LsBADH1 as the causative locus among candidate BADH orthologues.\n\nThe finding extends knowledge of convergent evolution in crop fragrance genetics and may be of interest to lettuce breeders seeking to introduce or characterise fragrance traits. It also adds to the broader picture of how BADH gene family members have been recruited independently for 2AP biosynthesis across diverse crop species. This preprint has not yet undergone formal peer review.",
+      "tags": [
+        "lettuce-genetics",
+        "badh",
+        "2-acetyl-1-pyrroline",
+        "crop-fragrance",
+        "plant-genetics",
+        "convergent-evolution",
+        "plant-breeding"
+      ]
     }
   ],
-  "last_run": "2026-06-16T12:11:35.883797+00:00",
+  "last_run": "2026-06-17T11:46:10.404585+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012161": "2026-06-04T10:39:38.416026+00:00",
@@ -7027,6 +7252,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012189": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012190": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012191": "2026-06-04T10:39:38.416026+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012195": "2026-06-17T11:46:10.404585+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012198": "2026-06-13T09:57:12.297914+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012202": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012203": "2026-06-11T11:23:24.563395+00:00",
@@ -7039,6 +7265,7 @@
     "https://news.cancerresearchuk.org/2026/06/09/research-with-integrity-a-refresh-for-the-better/": "2026-06-09T10:34:47.734768+00:00",
     "https://news.cancerresearchuk.org/2026/06/11/cancer-research-horizons-raises-5m-through-the-cancer-impact-club/": "2026-06-11T11:23:24.563395+00:00",
     "https://news.cancerresearchuk.org/2026/06/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-06-12T11:01:19.541291+00:00",
+    "https://news.cancerresearchuk.org/2026/06/17/sabr-radiotherapy-slashes-the-time-needed-to-treat-some-early-stage-prostate-cancers/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728763v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.29.728916v1?rss=1": "2026-06-03T11:55:44.292835+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.05.30.728974v1?rss=1": "2026-06-04T10:39:38.416026+00:00",
@@ -7097,10 +7324,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.11.731598v1?rss=1": "2026-06-16T12:11:35.883797+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.11.731719v1?rss=1": "2026-06-16T12:11:35.883797+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.11.731771v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.12.731808v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.12.731975v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.12.731976v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.12.731983v1?rss=1": "2026-06-14T10:23:02.663183+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.12.731989v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.13.731611v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
     "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
     "https://www.england.nhs.uk/2026/06/aes-bore-the-brunt-as-heatwave-piled-pressure-on-nhs/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/chair-of-new-nhs-online-hospital-trust-is-named/": "2026-06-04T10:39:38.416026+00:00",
+    "https://www.england.nhs.uk/2026/06/nhs-braces-jump-post-match-ae-visits/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-heroes-recognised-after-accelerating-cancer-diagnosis-and-transforming-patient-care/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-rolls-out-life-extending-drug-for-hundreds-of-women-with-ovarian-cancer/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-to-offer-multi-beam-precision-radiotherapy-to-thousands-with-prostate-cancer/": "2026-06-10T10:55:51.300734+00:00",
@@ -7122,7 +7355,9 @@
     "https://www.sciencedaily.com/releases/2026/06/260612032044.htm": "2026-06-13T09:57:12.297914+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260612032049.htm": "2026-06-13T09:57:12.297914+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260614011854.htm": "2026-06-15T13:11:44.014620+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260614012011.htm": "2026-06-17T11:46:10.404585+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260615025119.htm": "2026-06-15T13:11:44.014620+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260616102217.htm": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/02/biotech-news-radiopharmaceutical-shows-promise-in-post-pluvicto/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/2026/06/02/health-news-testing-one-state-medical-meal-progra/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/2026/06/02/longevity-startup-newlimit-announces-435-million-clinical-trial-financing/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
@@ -7259,9 +7494,17 @@
     "https://www.statnews.com/2026/06/15/pfizer-bicillin-shortage-preventable-congenital-syphilis-surging/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
     "https://www.statnews.com/2026/06/16/alzheimers-diagnosis-treatment-infrastructure/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
     "https://www.statnews.com/2026/06/16/aspr-pandemic-all-hazard-preparedness-act-reauthorization/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
+    "https://www.statnews.com/2026/06/16/biotech-news-arch-launched-neumora-stops-depression-program/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/16/health-news-how-supplement-use-changed-over-decades/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
+    "https://www.statnews.com/2026/06/16/how-biotech-turned-trial-failure-ai-model-health-tech/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/16/human-cell-atlas-consortium-meeting-boston-spatial-biology-next-step/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
+    "https://www.statnews.com/2026/06/16/us-infant-mortality-rate-all-time-low/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/16/verge-labs-ai-model-clinical-trials-data-neurology-diseases/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
+    "https://www.statnews.com/2026/06/17/china-biotech-pharma-us-venture-capital/": "2026-06-17T11:46:10.404585+00:00",
+    "https://www.statnews.com/2026/06/17/congenital-syphilis-rates-mothers-babies-policy/": "2026-06-17T11:46:10.404585+00:00",
+    "https://www.statnews.com/2026/06/17/health-care-one-word-or-two-stat-style/": "2026-06-17T11:46:10.404585+00:00",
+    "https://www.statnews.com/2026/06/17/huntingtons-disease-uniqure-drug-fda-review/": "2026-06-17T11:46:10.404585+00:00",
+    "https://www.statnews.com/2026/06/17/oncology-joy-doctor-patient-relationship/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/pharmalot/2026/06/02/lilly-threat-to-340b-hospitals-ebola-vaccine-funding/?utm_campaign=rss": "2026-06-03T11:55:44.292835+00:00",
     "https://www.statnews.com/pharmalot/2026/06/03/weight-loss-drugs-knee-replacements-fda-cell-gene-therapy/": "2026-06-04T10:39:38.416026+00:00",
     "https://www.statnews.com/pharmalot/2026/06/04/fewer-pharma-investments-in-germany-growing-layoffs-in-us/": "2026-06-05T10:46:27.817616+00:00",
@@ -7281,7 +7524,8 @@
     "https://www.statnews.com/pharmalot/2026/06/12/up-and-down-the-ladder-job-changes-astrazeneca-bayer/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
     "https://www.statnews.com/pharmalot/2026/06/15/colorado-drug-imports-canada/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
     "https://www.statnews.com/pharmalot/2026/06/15/european-clinical-trial-registry-results-analysis/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/15/pfizer-emergency-penicillin-program-sanofi-diabetes-drug/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/15/pfizer-emergency-penicillin-program-sanofi-diabetes-drug/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/16/medicare-obesity-drugs-germany-pricing-plans/": "2026-06-17T11:46:10.404585+00:00"
   },
   "takedowns": []
 }
