@@ -7372,18 +7372,250 @@
         "vaccination",
         "uk-cancer-policy"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Cystic fibrosis (CF) is caused by faults in a gene called CFTR. Two new pieces of early-stage research — called preprints, meaning they have not yet been fully checked by independent scientists — look at how well the CFTR protein works in different groups of people.\n\nThe first study used information from more than 84,000 people to explore the link between a person's CFTR gene variants, how much the protein works, and how unwell they are. It found that this relationship is more complicated than previously thought.\n\nThe second study looked at people who carry just one faulty copy of CFTR — known as carriers or heterozygotes. Most carriers do not develop CF, but some have respiratory symptoms. The researchers measured CFTR activity in nose cells to see whether it differs between those with and without symptoms.\n\nBecause these are preprints, the findings may change after expert review. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Two preprints probe CFTR function across genotypes and carrier states",
+      "is_preprint": true,
+      "run_date": "2026-06-19",
+      "run_iso": "2026-06-19T11:18:57Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-06-18T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "cftr-function-phenotype-heterozygote-preprints",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-18T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Clinical and primary cell evidence reveals complex CFTR function-phenotype relationships",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.17.732921v1?rss=1"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": false,
+          "published_iso": "2026-06-18T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "CFTR function in nasal airway cells from symptomatic and asymptomatic CF heterozygotes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.17.732907v1?rss=1"
+        }
+      ],
+      "standfirst": "Back-to-back bioRxiv preprints use large clinical datasets and nasal airway cell measurements to examine how CFTR channel function relates to disease severity and to respiratory symptoms in carriers.",
+      "summary": "Two preprints posted simultaneously to bioRxiv on 18 June 2026 advance understanding of how cystic fibrosis transmembrane conductance regulator (CFTR) function relates to clinical outcomes across the full spectrum of genotypes and carrier states.\n\nThe first preprint, drawing on clinical and functional data from the CFTR2 study — which includes records from 84,418 individuals linked to functional measurements across 289 CFTR genotypes — attempts to define the genotype-to-function-to-phenotype relationship more precisely than prior analyses. The authors report that the relationship between CFTR function and clinical markers such as sweat chloride, lung function, and pancreatic status is complex and, in places, non-linear, challenging simpler models that have previously been used to predict outcomes from genotype alone.\n\nThe second preprint investigates CFTR function specifically in CF heterozygotes — individuals carrying one disease-causing CFTR variant. Using nasal epithelial cell measurements from symptomatic and asymptomatic heterozygotes alongside non-carrier controls, the authors examine whether reduced CFTR channel activity might partly explain the elevated prevalence of chronic respiratory symptoms observed in some carriers. The study aims to establish whether CFTR function differs between symptomatic and asymptomatic heterozygotes.\n\nBoth manuscripts are preprints that have not yet undergone peer review. They are relevant to researchers working on CFTR biology, to genetic counsellors advising families where carrier status is relevant, and to educators teaching variant interpretation and genotype-phenotype correlation. The CFTR2 resource has been a key tool in variant classification efforts and in supporting regulatory assessment of CFTR modulators.",
+      "tags": [
+        "cftr",
+        "cystic-fibrosis",
+        "heterozygote",
+        "genotype-phenotype",
+        "cftr2",
+        "nasal-epithelial-cells",
+        "variant-interpretation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics paper proposes unified model of aneuploid karyotype dynamics",
+      "is_preprint": false,
+      "run_date": "2026-06-19",
+      "run_iso": "2026-06-19T11:18:57Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-18T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "aneuploidy-karyotype-dynamics-unified-model-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-18T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Towards a unified model of aneuploid karyotype dynamics",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012210"
+        }
+      ],
+      "standfirst": "A new mathematical framework published in PLOS Genetics models how whole-chromosome copy-number imbalances arise, persist, and revert in cell populations, with implications for understanding aneuploidy-driven disease.",
+      "summary": "A study published in PLOS Genetics on 18 June 2026, authored by Mathieu Hénault, Lisa M. Wood, and Lydia R. Heasley, proposes a unified model to describe the population-level dynamics of aneuploid karyotypes — states in which cells carry abnormal numbers of whole chromosomes.\n\nAneuploidy arises from nondisjunction errors during cell division and underlies a wide range of congenital conditions as well as somatic disorders including many cancers. Unlike most disease-causing genetic variants, aneuploidies can revert to a normal chromosome complement through subsequent nondisjunction events of the same type, introducing a plasticity that complicates predictions about disease incidence, penetrance, and progression.\n\nThe authors argue that prior models have treated aneuploidy dynamics in a fragmented way that fails to account for this inherent reversibility. Their unified framework integrates rates of gain and loss for individual chromosomes, allowing more systematic assessment of how stable a given aneuploid state is likely to be across a population or tissue. The paper is relevant to researchers in cancer genomics, developmental genetics, and reproductive medicine, and offers conceptual grounding for educators teaching chromosome biology and the genetics of cell division errors. The study was published in the open-access journal PLOS Genetics.",
+      "tags": [
+        "aneuploidy",
+        "karyotype-dynamics",
+        "nondisjunction",
+        "chromosome-instability",
+        "cancer-genomics",
+        "developmental-genetics",
+        "mathematical-modelling"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "gps"
+      ],
+      "for_patients": null,
+      "headline": "Genetic risk for high BMI has grown more predictive as the obesity epidemic has unfolded, four-cohort study finds",
+      "is_preprint": false,
+      "run_date": "2026-06-19",
+      "run_iso": "2026-06-19T11:18:57Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-06-18T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "polygenic-bmi-risk-british-birth-cohorts-obesity-epidemic",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-18T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Genetic risk for high body mass index before and amidst the obesity epidemic: Cross-cohort analysis of four british birth cohort studies",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012138"
+        }
+      ],
+      "standfirst": "A cross-cohort analysis of nearly 20,000 individuals from four British birth cohort studies shows that polygenic risk for high body mass index became a stronger predictor of observed BMI in cohorts born later into the obesity epidemic.",
+      "summary": "A study published in PLOS Genetics on 18 June 2026, led by Liam Wright and colleagues at University College London and the University of Bristol, examines how the relationship between genetic predisposition to high body mass index (BMI) and observed BMI has shifted across generations as environmental conditions changed.\n\nThe researchers analysed data from 19,379 participants drawn from four well-established British birth cohorts, born in 1946, 1958, 1970, and approximately 2001 — spanning the period before and during the rise of the obesity epidemic. Polygenic indices (PGI) derived from genome-wide association studies of adult BMI were used to quantify each participant's inherited predisposition. BMI was measured at multiple time points between ages 3 and 69 years.\n\nThe analysis found that polygenic risk for high BMI was more strongly associated with observed BMI in later-born cohorts, suggesting that the obesogenic environment prevalent from the 1970s onwards has amplified the expression of genetic predispositions. The findings are consistent with gene-environment interaction models in which permissive environments allow genetic variation in appetite regulation, energy expenditure, and related pathways to translate more fully into phenotypic differences.\n\nThe study contributes to ongoing debate about the relative contributions of genetics and environment to rising obesity prevalence and is particularly relevant to researchers working on polygenic risk scores and gene-environment interaction, as well as to educators covering the quantitative genetics of complex traits. It was published open-access in PLOS Genetics.",
+      "tags": [
+        "polygenic-index",
+        "bmi",
+        "obesity",
+        "gene-environment-interaction",
+        "british-birth-cohorts",
+        "gwas",
+        "complex-traits",
+        "epidemiology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Mammalian-specific MSH5 domain drives key step in meiotic crossover designation, preprint reports",
+      "is_preprint": true,
+      "run_date": "2026-06-19",
+      "run_iso": "2026-06-19T11:18:57Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-18T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "msh5-mammalian-domain-meiotic-crossover-designation-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-18T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A mammalian-specific domain of MSH5 drives the transition from crossover licensing to designation during meiotic prophase I",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.16.731784v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using mice lacking a 38-amino-acid C-terminal domain of MSH5 identifies a mammalian-specific molecular switch that controls how meiotic recombination sites progress from licensed intermediates to designated crossovers.",
+      "summary": "A preprint posted to bioRxiv on 18 June 2026 investigates the function of a short, mammalian-specific domain at the C-terminus of the meiotic recombination protein MSH5, a component of the MutSγ complex (MSH4/MSH5) that licences DNA double-strand break repair intermediates during meiosis.\n\nIn all sexually reproducing eukaryotes, only a subset of double-strand breaks are resolved as crossovers — the reciprocal exchanges between homologous chromosomes that are essential for accurate chromosome segregation and that generate heritable genetic diversity. The MutSγ complex licences sites for crossover repair, but a mismatch has long been noted in mammals: there are more MutSγ foci than the number of final crossovers marked by the downstream MutLγ complex (MLH1/MLH3), implying additional regulatory steps or functions.\n\nUsing mice engineered to lack the 38-amino-acid mammalian-specific C-terminal extension of MSH5, the authors provide genetic evidence that this domain is required for the normal transition from crossover licensing to designation — the committed step at which a licensed intermediate is directed into the class I crossover pathway. The findings suggest this domain may also influence how some intermediates are directed through the minor class II pathway.\n\nThe work is directly relevant to researchers in meiosis biology, reproductive genetics, and mammalian genomics. It is also of interest to educators and students studying recombination mechanisms and the evolution of meiotic machinery. The manuscript is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "meiosis",
+        "msh5",
+        "crossover-designation",
+        "mutsgamma",
+        "recombination",
+        "mammalian-genetics",
+        "reproductive-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study maps stripe rust resistance loci in CIMMYT wheat line Kijil",
+      "is_preprint": false,
+      "run_date": "2026-06-19",
+      "run_iso": "2026-06-19T11:18:57Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-06-18T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "wheat-stripe-rust-resistance-kijil-cimmyt-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-18T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Genetic analysis and mapping of adult plant stripe rust resistance loci in CIMMYT wheat 'Kijil' under Mexican and Chinese field environments",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012039"
+        }
+      ],
+      "standfirst": "Researchers at CIMMYT and collaborating institutions have identified and mapped adult plant resistance loci to stripe rust in the wheat line Kijil, validated across field environments in Mexico and China.",
+      "summary": "A study published in PLOS Genetics on 18 June 2026, led by Shanshan Yan and colleagues working with the International Maize and Wheat Improvement Centre (CIMMYT) and Chinese partner institutions, reports the genetic mapping of stripe rust resistance in the CIMMYT-derived wheat line Kijil.\n\nStripe rust, caused by the fungal pathogen Puccinia striiformis f. sp. tritici, can cause severe yield losses in wheat during epidemic years and is managed most sustainably through host genetic resistance. The authors characterised Kijil's resistance across field trials conducted in both Mexico and China, confirming that it expresses durable adult plant resistance in divergent environments. Using a mapping population, they identified the genomic loci responsible and assessed their contribution to resistance.\n\nThe identification of new resistance loci is important for maintaining genetic diversity in breeding programmes at a time when existing resistance genes face erosion through pathogen evolution. The study is primarily of interest to plant geneticists, crop genomics researchers, and educators covering quantitative resistance genetics and plant-pathogen co-evolution. It was published open-access in PLOS Genetics.",
+      "tags": [
+        "wheat-genetics",
+        "stripe-rust",
+        "plant-disease-resistance",
+        "cimmyt",
+        "crop-genomics",
+        "quantitative-resistance",
+        "plant-breeding"
+      ]
     }
   ],
-  "last_run": "2026-06-18T11:08:44.584825+00:00",
+  "last_run": "2026-06-19T11:20:37.472426+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011940": "2026-06-06T09:25:58.323154+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012039": "2026-06-19T11:20:37.472426+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012138": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012162": "2026-06-10T10:55:51.300734+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012164": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012167": "2026-06-18T11:08:44.584825+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012176": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012177": "2026-06-06T09:25:58.323154+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012184": "2026-06-12T11:01:19.541291+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012188": "2026-06-05T10:46:27.817616+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012189": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012190": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012195": "2026-06-17T11:46:10.404585+00:00",
@@ -7392,30 +7624,24 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012203": "2026-06-11T11:23:24.563395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012206": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012209": "2026-06-18T11:08:44.584825+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012210": "2026-06-19T11:20:37.472426+00:00",
     "https://news.cancerresearchuk.org/2026/06/05/celebrating-25-years-in-partnership-with-tesco/": "2026-06-06T09:25:58.323154+00:00",
-    "https://news.cancerresearchuk.org/2026/06/05/latest-winner-in-our-research-is-beautiful-competition-3/": "2026-06-05T10:46:27.817616+00:00",
     "https://news.cancerresearchuk.org/2026/06/05/precision-prevention-how-to-take-the-next-step-in-preventing-cancer/": "2026-06-06T09:25:58.323154+00:00",
     "https://news.cancerresearchuk.org/2026/06/05/secrets-of-the-super-avoiders-why-do-some-people-just-not-get-cancer/": "2026-06-06T09:25:58.323154+00:00",
     "https://news.cancerresearchuk.org/2026/06/09/research-with-integrity-a-refresh-for-the-better/": "2026-06-09T10:34:47.734768+00:00",
     "https://news.cancerresearchuk.org/2026/06/11/cancer-research-horizons-raises-5m-through-the-cancer-impact-club/": "2026-06-11T11:23:24.563395+00:00",
     "https://news.cancerresearchuk.org/2026/06/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-06-12T11:01:19.541291+00:00",
     "https://news.cancerresearchuk.org/2026/06/17/sabr-radiotherapy-slashes-the-time-needed-to-treat-some-early-stage-prostate-cancers/": "2026-06-17T11:46:10.404585+00:00",
+    "https://news.cancerresearchuk.org/2026/06/18/from-tokenism-to-trust-what-inclusive-research-looks-like/": "2026-06-19T11:20:37.472426+00:00",
     "https://news.cancerresearchuk.org/2026/06/18/new-data-shows-the-hpv-vaccine-is-saving-lives-from-cervical-cancer/": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.01.729206v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.01.729270v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.01.729286v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.01.729389v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729387v1?rss=1": "2026-06-06T09:25:58.323154+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.02.729559v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729628v1?rss=1": "2026-06-06T09:25:58.323154+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729654v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.03.729606v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729750v1?rss=1": "2026-06-08T11:55:03.865089+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729791v1?rss=1": "2026-06-07T09:59:01.659859+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.729853v1?rss=1": "2026-06-08T11:55:03.865089+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.730006v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.04.727993v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.04.730050v1?rss=1": "2026-06-05T10:46:27.817616+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.04.730102v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.04.730238v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.05.730093v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
@@ -7458,13 +7684,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.12.731983v1?rss=1": "2026-06-14T10:23:02.663183+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.12.731989v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.13.731611v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.16.731784v1?rss=1": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.17.732907v1?rss=1": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.17.732921v1?rss=1": "2026-06-19T11:20:37.472426+00:00",
     "https://www.england.nhs.uk/2026/06/500000-nhs-staff-to-get-new-artificial-intelligence-tools-to-help-free-up-more-time-for-patients/": "2026-06-08T11:55:03.865089+00:00",
     "https://www.england.nhs.uk/2026/06/aes-bore-the-brunt-as-heatwave-piled-pressure-on-nhs/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-braces-jump-post-match-ae-visits/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-heroes-recognised-after-accelerating-cancer-diagnosis-and-transforming-patient-care/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-to-offer-multi-beam-precision-radiotherapy-to-thousands-with-prostate-cancer/": "2026-06-10T10:55:51.300734+00:00",
     "https://www.england.nhs.uk/2026/06/public-urged-to-access-nhs-care-amid-triple-whammy-of-doctors-strike-heatwave-and-world-cup/": "2026-06-13T09:57:12.297914+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260604044247.htm": "2026-06-05T10:46:27.817616+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260605023417.htm": "2026-06-07T09:59:01.659859+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260606075852.htm": "2026-06-08T11:55:03.865089+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260608035959.htm": "2026-06-09T10:34:47.734768+00:00",
@@ -7482,21 +7710,11 @@
     "https://www.sciencedaily.com/releases/2026/06/260615025119.htm": "2026-06-15T13:11:44.014620+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260616102217.htm": "2026-06-17T11:46:10.404585+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260617032207.htm": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/04/after-doctors-patient-ai-scribes-track-visits/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/04/biotech-news-ai-titans-push-congress-to-dna-safeguards/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/04/doctronic-utah-pilot-medical-board-scolded-health-tech/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/04/fda-commissioners-voucher-program-town-hall-pharma-patients-urge-pause/": "2026-06-06T09:25:58.323154+00:00",
-    "https://www.statnews.com/2026/06/04/grail-multi-cancer-early-detection-test-trial-results/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/04/health-news-scientists-uncover-new-hiding-spot-for-hiv/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/04/kennedy-hhs-challenges-wins-politics-nih-schedule-f-dc-diagnosis/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/2026/06/04/kenya-ebola-quarantine-experimental-treatment-mbp-134-authorized/": "2026-06-06T09:25:58.323154+00:00",
-    "https://www.statnews.com/2026/06/04/longevity-science-vitalist-bay-festival-status-report-alex-hogan/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/04/male-puberty-timing-long-term-health-risk-prediction/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/04/medicaid-work-requirements-final-rule-cancer-patients/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/04/otsuka-kidney-drug-voyxact-study-results/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/2026/06/04/readout-loud-podcast-revolution-medicines-pancreatic-cancer-patient-asco/": "2026-06-06T09:25:58.323154+00:00",
-    "https://www.statnews.com/2026/06/04/revolution-medicines-daraxonrasib-pancreatic-cancer/": "2026-06-05T10:46:27.817616+00:00",
-    "https://www.statnews.com/2026/06/04/trump-administration-to-strip-job-protections-of-top-nih-officials-grants-research/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/2026/06/05/ada-conference-new-orleans-richard-woychik-synergy-nih-maha/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/2026/06/05/ada-conference-new-orleans-richard-woychik-synergy-nih-maha/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
     "https://www.statnews.com/2026/06/05/americans-ebola-kenya-protests/": "2026-06-06T09:25:58.323154+00:00",
@@ -7625,15 +7843,26 @@
     "https://www.statnews.com/2026/06/17/oncology-joy-doctor-patient-relationship/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/17/rfk-new-mental-health-funding-or-new-use-existing-grants/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/18/ai-energy-water-usage-public-health-electricity-policy/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
+    "https://www.statnews.com/2026/06/18/biotech-news-cambrians-experimental-longevity-drug-mimics-exercise/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/2026/06/18/byheart-nara-botulism-outbreaks-premium-baby-formula-safety/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
+    "https://www.statnews.com/2026/06/18/do-wearables-actually-help-people-with-cardiovascular-disease/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.statnews.com/2026/06/18/ebola-outbreak-congo-uganda-cases-increase-death-toll/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.statnews.com/2026/06/18/fda-mrna-flu-vaccine-vrbpac-advisers-endorse-moderna-shots/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.statnews.com/2026/06/18/health-news-high-end-infant-formula-synthetic-opioids-ftc/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.statnews.com/2026/06/18/how-many-americans-can-afford-their-healthcare/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.statnews.com/2026/06/18/huntingtons-disease-uniqure-rfk-jr-readout-loud-podcast/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.statnews.com/2026/06/18/medicare-advantage-star-ratings-recalculated-volatility-industry-lawsuits/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/2026/06/18/nitazenes-deadly-synthetic-opioids-rapid-spread-united-states/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/18/patrick-soon-shiong-pancreatic-cancer-abivax-concerns/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/18/rfk-jr-vaccine-policy-probe-senate-democrats/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
+    "https://www.statnews.com/2026/06/18/shingles-vaccine-may-lower-dementia-risk-new-study/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/2026/06/18/strategic-health-diplomacy-congress-oversight-ebola-hantavirus/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/18/weight-loss-drug-market-update-status-report-alex-hogan/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/04/fewer-pharma-investments-in-germany-growing-layoffs-in-us/": "2026-06-05T10:46:27.817616+00:00",
+    "https://www.statnews.com/2026/06/19/daraxonrasib-pancreatic-cancer-miracle-drug-oncosystems-ai/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.statnews.com/2026/06/19/federal-grant-delays-jeopardize-essential-disability-services-research/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.statnews.com/2026/06/19/maternity-desert-physician-shortage-obstetrics-pregnancy-residency-south-dakota/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.statnews.com/2026/06/19/tennessee-ivermectin-market-how-to-create-booming-sales-unproven-drug/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/pharmalot/2026/06/04/hikma-amarin-generics-skinny-labeling-supreme-court/": "2026-06-06T09:25:58.323154+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/04/otsuka-kidney-drug-voyxact-study-results/": "2026-06-05T10:46:27.817616+00:00",
     "https://www.statnews.com/pharmalot/2026/06/04/revolution-medicines-pancreatic-cancer-drug-daraxonrasib-heavy-demand/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/pharmalot/2026/06/05/jobs-up-and-down-the-ladder-latest-comings-and-goings/": "2026-06-06T09:25:58.323154+00:00",
     "https://www.statnews.com/pharmalot/2026/06/05/jobs-up-and-down-the-ladder-latest-comings-and-goings/?utm_campaign=rss": "2026-06-07T09:59:01.659859+00:00",
@@ -7651,7 +7880,9 @@
     "https://www.statnews.com/pharmalot/2026/06/15/pfizer-emergency-penicillin-program-sanofi-diabetes-drug/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
     "https://www.statnews.com/pharmalot/2026/06/16/medicare-obesity-drugs-germany-pricing-plans/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/pharmalot/2026/06/17/advocates-petition-fda-withdraw-approval-unsafe-use-antibiotics-given-livestock/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/17/hackers-extorting-novo-fda-about-face-on-uniqure-drug/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/17/hackers-extorting-novo-fda-about-face-on-uniqure-drug/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/18/eli-lilly-340b-hospitals-drug-discount-price-breaks-eliminated/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/18/fda-panel-vote-moderna-flu-vaccine-jnj-cancer-drugs/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00"
   },
   "takedowns": []
 }
