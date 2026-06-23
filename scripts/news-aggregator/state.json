@@ -8084,9 +8084,320 @@
         "rare-disease",
         "lysosomal-storage-disorder"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "The APOE gene influences the risk of Alzheimer's disease and how long people live. One version of this gene, called APOE ε2 (epsilon 2), has long been thought to be protective — meaning it is linked to a lower risk of Alzheimer's and a longer life. Most of what scientists know about this comes from studies of people with European ancestry.\n\nResearchers in Brazil have now looked at elderly people whose ancestry is a mixture of African, Indigenous American, and European backgrounds — a common pattern in Brazil. Their analysis, which has not yet been formally reviewed by other scientists, suggests that the protective effect of APOE ε2 may not work in exactly the same way in people with this kind of mixed ancestry. The team found unexpected patterns in how often the ε2 version appeared in these populations.\n\nThis does not mean the gene suddenly works differently for any individual; it highlights that more research is needed in diverse populations to understand how genetic variants behave across different ancestral backgrounds. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "APOE ε2 protective effect may not be universal across ancestries, preprint finds",
+      "is_preprint": true,
+      "run_date": "2026-06-23",
+      "run_iso": "2026-06-23T10:34:42Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-06-23T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "apoe-e2-protective-allele-admixed-brazilian-cohort",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Is APOE ε2 always a protective allele? Deviations in Hardy-Weinberg equilibrium in admixed Brazilian elderly individuals",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.20.733520v1?rss=1"
+        }
+      ],
+      "standfirst": "Analysis of admixed Brazilian elderly cohorts finds deviations from expected APOE ε2 genotype frequencies, raising questions about whether its longevity-protective role generalises beyond European-ancestry populations.",
+      "summary": "The APOE gene is one of the best-characterised genetic determinants of Alzheimer's disease risk and longevity. The ε2 allele has long been regarded as protective — reducing Alzheimer's disease risk and associated with longer lifespan — but that understanding is grounded almost entirely in cohorts of European ancestry.\n\nA preprint posted to bioRxiv reports findings from two Brazilian elderly cohorts with high levels of admixture across African, Indigenous American, and European ancestral backgrounds. Using local ancestry resolution — a technique that identifies the ancestral source of each chromosomal segment individually — the authors find statistically significant deviations from Hardy-Weinberg equilibrium at the APOE locus, particularly in individuals carrying ε2 on non-European genomic backgrounds. The observed genotype frequencies suggest that the survival advantage conferred by ε2 may differ substantially depending on local genomic context.\n\nThe study does not overturn the established literature on APOE ε2, but it adds to a growing body of work highlighting that variant-effect estimates from predominantly European datasets may not transfer cleanly to admixed or non-European populations. The authors argue that local ancestry modulates APOE's impact on survival, and that population-specific analyses are necessary to characterise the allele's role in diverse groups.\n\nThe work is a preprint and has not yet been peer-reviewed. Replication in independent admixed cohorts and further functional characterisation will be needed before firm conclusions can be drawn.",
+      "tags": [
+        "apoe",
+        "alzheimers-disease",
+        "admixture",
+        "ancestry-diversity",
+        "longevity-genetics",
+        "population-genetics",
+        "hardy-weinberg",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Golden mussel detected in California for first time using environmental DNA",
+      "is_preprint": true,
+      "run_date": "2026-06-23",
+      "run_iso": "2026-06-23T10:34:42Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-23T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "golden-mussel-edna-first-detection-california",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "First genetic detection and ongoing eDNA monitoring of the golden mussel (Limnoperna fortunei) in California",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.18.733028v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports the first genetic confirmation of the invasive golden mussel in North America, alongside development of an eDNA monitoring protocol designed to support rapid detection.",
+      "summary": "The golden mussel (Limnoperna fortunei), an invasive bivalve native to south-east Asia, has established itself across South America since its arrival in the 1990s, causing substantial ecological and economic disruption. A preprint posted to bioRxiv now reports its first confirmed genetic detection in North America, in California, marking a significant extension of its invasive range.\n\nThe authors describe the development, optimisation, and field deployment of an environmental DNA (eDNA) monitoring protocol for the species. Environmental DNA methods detect genetic material shed by organisms into water, enabling surveillance without direct capture of individuals — particularly valuable for early detection of low-density invasions. The protocol was validated against tissue samples and then applied to field water samples, yielding the first confirmed detections.\n\nThe authors note that early detection is critical for informing containment and management responses, and that eDNA-based approaches offer a scalable route to ongoing monitoring. The work also demonstrates the utility of eDNA surveillance frameworks developed for other aquatic invasives in being adapted to new target species.\n\nThe preprint has not yet undergone peer review. Confirmation and ongoing monitoring efforts will depend on agency responses and the operational deployment of the described eDNA procedures.",
+      "tags": [
+        "environmental-dna",
+        "edna",
+        "invasive-species",
+        "golden-mussel",
+        "california",
+        "conservation-genomics",
+        "surveillance-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint examines sex differences in fine-scale recombination patterns in species without PRDM9",
+      "is_preprint": true,
+      "run_date": "2026-06-23",
+      "run_iso": "2026-06-23T10:34:42Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-22T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "prdm9-independent-recombination-sex-differences-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-22T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Sex differences in PRDM9-independent fine-scale recombination patterns",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.19.733336v1?rss=1"
+        }
+      ],
+      "standfirst": "Analysis of species that have lost PRDM9 — including birds and dogs — finds distinct sex-specific recombination patterns at CpG-island hotspots, extending understanding of heterochiasmy beyond PRDM9-directed systems.",
+      "summary": "In many animal species, meiotic recombination does not occur uniformly across the genome but is concentrated at discrete sites known as hotspots. In humans and many other mammals, the protein PRDM9 directs recombination to these locations. However, several lineages — including birds and domestic dogs — have independently lost PRDM9, and in these species hotspots instead cluster at CpG islands in gene promoter regions.\n\nA new preprint posted to bioRxiv investigates fine-scale sex differences in recombination patterns in PRDM9-independent species. The phenomenon of sex-differing recombination rates, known as heterochiasmy, is documented across many organisms, but its fine-scale genomic basis in lineages lacking PRDM9 has remained poorly characterised.\n\nThe authors find that sex differences in recombination in PRDM9-independent species operate at a fine scale and are not merely a reflection of broad chromosomal rate differences. The work contributes to understanding how recombination hotspot biology differs between species and between sexes, with implications for population genetic inference, breeding studies, and the evolutionary dynamics of recombination itself.\n\nThe preprint has not yet been peer-reviewed. The work is of primary interest to evolutionary and population genetics researchers and to educators covering meiosis and recombination.",
+      "tags": [
+        "recombination",
+        "prdm9",
+        "heterochiasmy",
+        "meiosis",
+        "hotspots",
+        "evolutionary-genetics",
+        "cpg-islands",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Neuronal aryl hydrocarbon receptor shapes gut microbiome via redox signalling in C. elegans",
+      "is_preprint": true,
+      "run_date": "2026-06-23",
+      "run_iso": "2026-06-23T10:34:42Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-22T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "neuronal-ahr-gut-microbiome-c-elegans-redox",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-22T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Neuroendocrine arylhydrocarbon receptor regulates gut microbiome of C. elegans via redox tone",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.18.733066v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from work in Caenorhabditis elegans shows that AHR-1 expressed in neurons influences which bacteria colonise the gut through a neuroendocrine redox pathway, revealing a distant-organ mechanism for microbiome assembly.",
+      "summary": "The aryl hydrocarbon receptor (AHR) is a ligand-activated transcription factor best known for its role in mediating responses to environmental toxins and in intestinal immunity. It has previously been shown to influence gut microbial composition, but the mechanisms by which it does so — and whether the nervous system plays a direct role in this regulation — have remained unclear.\n\nA preprint posted to bioRxiv uses Caenorhabditis elegans to show that AHR-1 expressed in neurons, rather than in the gut itself, orchestrates selective gut microbiome assembly. The authors identify a neuroendocrine pathway involving redox tone as the signalling mechanism: neuronal AHR-1 modulates the oxidative environment of the intestinal lumen, which in turn selectively favours or disfavours the growth of particular bacterial species.\n\nThe findings add to a growing literature on neuroendocrine control of host-microbe interactions and suggest that gut microbial composition is not determined solely by local intestinal factors but can be influenced by distant neurological signals. C. elegans is a tractable model organism for dissecting such pathways at genetic resolution.\n\nThe study is a preprint and has not yet been peer-reviewed. Further work will be needed to determine how conserved this neuroendocrine–microbiome axis is in other organisms.",
+      "tags": [
+        "aryl-hydrocarbon-receptor",
+        "gut-microbiome",
+        "c-elegans",
+        "neuroendocrine",
+        "redox",
+        "host-microbe-interaction",
+        "model-organism",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Single point mutation in ATR kinase FAT domain found to bypass DNA checkpoint activation requirements",
+      "is_preprint": false,
+      "run_date": "2026-06-23",
+      "run_iso": "2026-06-23T10:34:42Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-22T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "rad3-atr-fat-domain-point-mutation-checkpoint-bypass",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-22T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "A point mutation in the FAT domain constitutively increases the kinase activity of Rad3ATR and bypasses the requirement for 9-1–1 phosphorylation to activate the DNA replication checkpoint",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012213"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study in fission yeast identifies a Rad3ATR FAT domain mutation that constitutively activates kinase activity and removes the need for 9-1-1 complex phosphorylation in triggering the DNA replication checkpoint.",
+      "summary": "Ataxia telangiectasia and Rad3-related (ATR) is a central kinase in the cellular response to replication stress and DNA damage. When replication forks stall or single-stranded DNA accumulates, ATR is activated to initiate cell cycle checkpoints that preserve genome integrity. The canonical activation model involves binding of an ATR-activating protein that relieves an autoinhibitory domain — the PIKK regulatory domain (PRD) — within the kinase. Upstream signalling through the 9-1-1 checkpoint clamp complex is generally considered necessary for full checkpoint activation.\n\nPublished in PLOS Genetics, a study by Kamal Dev and colleagues now reports that a single point mutation in the FAT domain of fission yeast Rad3ATR constitutively elevates kinase activity and renders the replication checkpoint independent of 9-1-1 complex phosphorylation. The FAT domain is a large structural region of PIKKs whose function in ATR regulation had been incompletely characterised.\n\nThe finding refines the mechanistic model of ATR activation, suggesting that the FAT domain plays a direct autoinhibitory role that is normally relieved by upstream signals, and that perturbation of this domain can uncouple checkpoint activation from its canonical requirements. The work has implications for understanding how ATR dysregulation may contribute to genome instability and for the design of ATR-targeting compounds in oncology research.\n\nThis is a peer-reviewed study in a model organism (Schizosaccharomyces pombe); translation to human ATR biology will require further investigation.",
+      "tags": [
+        "atr",
+        "rad3",
+        "dna-damage-response",
+        "checkpoint-activation",
+        "fat-domain",
+        "pikk",
+        "replication-stress",
+        "fission-yeast"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Long-read nanopore sequencing maps allele-specific DNA methylation at regulatory variants in prostate tissue",
+      "is_preprint": true,
+      "run_date": "2026-06-23",
+      "run_iso": "2026-06-23T10:34:42Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-06-22T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "nanoasm-allele-specific-methylation-prostate-nanopore",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-22T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "nanoASM: Long-Read Allele-Specific DNA Methylation Profiling Enables Functional Annotation of Regulatory Noncoding Variants in Human Prostate Tissues",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.17.732357v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes nanoASM, a framework using whole-genome nanopore sequencing to simultaneously profile germline variants and allele-specific methylation, identifying noncoding regulatory changes in normal and tumour prostate tissue.",
+      "summary": "Noncoding variants in the genome can influence gene expression by altering the epigenetic regulation of nearby sequences, but characterising these effects has historically required separate assays for genetic variation and DNA methylation. Long-read nanopore sequencing offers a route to measuring both simultaneously on single DNA molecules, as the technology detects native base modifications — including 5-methylcytosine — alongside sequence variation.\n\nA preprint posted to bioRxiv introduces nanoASM, a framework applying whole-genome nanopore sequencing to normal and tumour prostate tissue to characterise allele-specific methylation (ASM) associated with noncoding genetic variants. Genome-wide analysis identified extensive cancer-associated differentially methylated regions, with hypermethylated regions enriched at gene promoters in tumour tissue. The allele-specific analysis links specific germline variants to local methylation differences, providing a functional annotation layer for regulatory noncoding variants that are difficult to interpret through sequence alone.\n\nThe approach adds resolution to how common germline variants may modulate cancer-relevant gene regulation without altering protein-coding sequence. The authors suggest nanoASM provides a scalable framework for functional annotation of noncoding variants across tissues and disease contexts.\n\nThis is a preprint and has not yet been peer-reviewed. The work is of primary interest to cancer genomics researchers, epigenomics specialists, and those working on variant interpretation methodology.",
+      "tags": [
+        "nanopore-sequencing",
+        "allele-specific-methylation",
+        "epigenomics",
+        "prostate-cancer",
+        "noncoding-variants",
+        "long-read-sequencing",
+        "cancer-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study finds lysosome-related organelles use distinct mechanisms to manage cytosolic zinc",
+      "is_preprint": false,
+      "run_date": "2026-06-23",
+      "run_iso": "2026-06-23T10:34:42Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-06-22T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "lysosome-organelles-zinc-homeostasis-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-22T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Lysosome-related organelles employ divergent mechanisms to modulate cytosolic zinc homeostasis",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012199"
+        }
+      ],
+      "standfirst": "Research in C. elegans shows that GLO-1 controls gut-granule biogenesis while a separate mechanism drives zinc-induced granule expansion, revealing divergent pathways for zinc detoxification in a model organism.",
+      "summary": "Excess zinc in cells is toxic, and organisms have evolved mechanisms to buffer cytosolic zinc concentrations when environmental exposure is high. In the nematode Caenorhabditis elegans, specialised lysosome-related organelles called gut granules are known to expand in number and volume in response to dietary zinc, sequestering the metal and lowering its cytosolic concentration. The molecular basis of this response had not been fully characterised.\n\nPublished in PLOS Genetics, a study by Chaoyi Xie and colleagues at the laboratory of Anbing Shi and Yanling Yan now shows that the biogenesis of gut granules and their zinc-induced expansion involve distinct genetic programmes. The Rab GTPase GLO-1 predominantly controls baseline granule formation, while a separate, currently less well-defined pathway governs the adaptive expansion that occurs under elevated zinc conditions. The study therefore identifies functional divergence within what had appeared to be a unified organelle response.\n\nThe findings contribute to the broader understanding of how cells regulate metal homeostasis through organelle biology, and offer insight into how lysosome-related compartments can be co-opted for detoxification. C. elegans provides a genetically tractable system for dissecting these pathways at high resolution.\n\nThis is a peer-reviewed study. Further work will be needed to characterise the molecular components of the zinc-induced expansion pathway and to assess conservation of these mechanisms in other organisms.",
+      "tags": [
+        "zinc-homeostasis",
+        "lysosome",
+        "gut-granules",
+        "c-elegans",
+        "glo-1",
+        "rab-gtpase",
+        "metal-detoxification",
+        "model-organism"
+      ]
     }
   ],
-  "last_run": "2026-06-22T12:47:56.856911+00:00",
+  "last_run": "2026-06-23T10:36:51.718215+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012039": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012138": "2026-06-19T11:20:37.472426+00:00",
@@ -8099,17 +8410,21 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012190": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012195": "2026-06-17T11:46:10.404585+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012198": "2026-06-13T09:57:12.297914+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012199": "2026-06-23T10:36:51.718215+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012202": "2026-06-09T10:34:47.734768+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012203": "2026-06-11T11:23:24.563395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012206": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012209": "2026-06-18T11:08:44.584825+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012210": "2026-06-19T11:20:37.472426+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012213": "2026-06-23T10:36:51.718215+00:00",
     "https://news.cancerresearchuk.org/2026/06/09/research-with-integrity-a-refresh-for-the-better/": "2026-06-09T10:34:47.734768+00:00",
     "https://news.cancerresearchuk.org/2026/06/11/cancer-research-horizons-raises-5m-through-the-cancer-impact-club/": "2026-06-11T11:23:24.563395+00:00",
     "https://news.cancerresearchuk.org/2026/06/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-06-12T11:01:19.541291+00:00",
     "https://news.cancerresearchuk.org/2026/06/17/sabr-radiotherapy-slashes-the-time-needed-to-treat-some-early-stage-prostate-cancers/": "2026-06-17T11:46:10.404585+00:00",
     "https://news.cancerresearchuk.org/2026/06/18/from-tokenism-to-trust-what-inclusive-research-looks-like/": "2026-06-19T11:20:37.472426+00:00",
     "https://news.cancerresearchuk.org/2026/06/18/new-data-shows-the-hpv-vaccine-is-saving-lives-from-cervical-cancer/": "2026-06-18T11:08:44.584825+00:00",
+    "https://news.cancerresearchuk.org/2026/06/22/data-science-new-data-strategy-hails-exciting-future/": "2026-06-23T10:36:51.718215+00:00",
+    "https://news.cancerresearchuk.org/2026/06/22/rewiring-the-life-sciences-why-foundations-come-first-for-ai-in-science/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.02.729654v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.03.730006v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.04.727993v1?rss=1": "2026-06-09T10:34:47.734768+00:00",
@@ -8163,10 +8478,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.16.731784v1?rss=1": "2026-06-19T11:20:37.472426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.16.732665v1?rss=1": "2026-06-21T10:28:38.076878+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.16.732751v1?rss=1": "2026-06-22T12:47:56.856911+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.17.732357v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.17.732907v1?rss=1": "2026-06-19T11:20:37.472426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.17.732921v1?rss=1": "2026-06-19T11:20:37.472426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.17.733056v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.18.733028v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.18.733066v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.18.733072v1?rss=1": "2026-06-20T10:08:51.596294+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.19.733336v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.19.733400v1?rss=1": "2026-06-21T10:28:38.076878+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.20.733520v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
     "https://www.england.nhs.uk/2026/06/aes-bore-the-brunt-as-heatwave-piled-pressure-on-nhs/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/impact-of-medical-training-prioritisation-act-on-specialty-training-recruitment/": "2026-06-22T12:47:56.856911+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-braces-jump-post-match-ae-visits/": "2026-06-17T11:46:10.404585+00:00",
@@ -8315,14 +8636,24 @@
     "https://www.statnews.com/2026/06/19/tennessee-ivermectin-market-how-to-create-booming-sales-unproven-drug/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/2026/06/20/blue-zones-real-open-access-publishing-fees-letters-to-editor/?utm_campaign=rss": "2026-06-20T10:08:51.596294+00:00",
     "https://www.statnews.com/2026/06/20/healthcare-or-health-care-stat-style-guide-ap/?utm_campaign=rss": "2026-06-20T10:08:51.596294+00:00",
-    "https://www.statnews.com/2026/06/22/abbvie-apogee-acquisition-immunology-zumilokibart/": "2026-06-22T12:47:56.856911+00:00",
-    "https://www.statnews.com/2026/06/22/clinical-trial-data-how-much-is-too-much/": "2026-06-22T12:47:56.856911+00:00",
-    "https://www.statnews.com/2026/06/22/definium-lsd-dt120-major-depression-phase-3-data/": "2026-06-22T12:47:56.856911+00:00",
-    "https://www.statnews.com/2026/06/22/fda-reverses-course-regenxbio-gene-therapy-navsunli-hunter-syndrome/": "2026-06-22T12:47:56.856911+00:00",
-    "https://www.statnews.com/2026/06/22/health-disparity-research-new-dei-rule-threat-nih-grants/": "2026-06-22T12:47:56.856911+00:00",
-    "https://www.statnews.com/2026/06/22/pharma-biotech-ma-boom-2026-deals-total-123-billion/": "2026-06-22T12:47:56.856911+00:00",
-    "https://www.statnews.com/2026/06/22/psychiatric-er-detox-caregivers-autism-emergency/": "2026-06-22T12:47:56.856911+00:00",
-    "https://www.statnews.com/2026/06/22/sanofi-paulo-fontoura-houman-ashrafian-research-and-development/": "2026-06-22T12:47:56.856911+00:00",
+    "https://www.statnews.com/2026/06/22/abbvie-apogee-acquisition-immunology-zumilokibart/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/biotech-news-another-big-deal-another-sign-ma-is-back/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/clinical-trial-data-how-much-is-too-much/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/definium-lsd-dt120-major-depression-phase-3-data/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/doj-memo-targets-disability-integration-olmstead-mandate/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/ebola-congo-1000-cases-254-deaths-civil-war-impedes-search-patient-zero/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/fda-reverses-course-regenxbio-gene-therapy-navsunli-hunter-syndrome/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/fda-speed-up-early-stage-single-study-clinical-trials/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/health-disparity-research-new-dei-rule-threat-nih-grants/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/health-news-most-kidney-failure-patients-never-get-transplant/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/pfizer-lung-cancer-sigvotatug-vedotin/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/pharma-biotech-ma-boom-2026-deals-total-123-billion/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/psychiatric-er-detox-caregivers-autism-emergency/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/22/sanofi-paulo-fontoura-houman-ashrafian-research-and-development/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/23/birthright-citizenship-supreme-court-ruling-public-health/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/23/eli-lilly-unusual-weight-loss-drug-trial-compassionate-use-retatrutide-trump/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/23/medicaid-work-requirements-disability-medically-frail/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/06/23/pathway-labs-echonext-ai-tool-heart-disease-detection/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.statnews.com/pharmalot/2026/06/08/lilly-pfizer-obesity-drug-trial-data-roche-deal/": "2026-06-09T10:34:47.734768+00:00",
     "https://www.statnews.com/pharmalot/2026/06/09/drug-shortages-systemic-problem-analysis/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
     "https://www.statnews.com/pharmalot/2026/06/09/gsk-buying-nuvalent-cancer-drug-astrazeneca-obesity-pill-data/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
@@ -8338,7 +8669,8 @@
     "https://www.statnews.com/pharmalot/2026/06/17/hackers-extorting-novo-fda-about-face-on-uniqure-drug/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/pharmalot/2026/06/18/eli-lilly-340b-hospitals-drug-discount-price-breaks-eliminated/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/pharmalot/2026/06/18/fda-panel-vote-moderna-flu-vaccine-jnj-cancer-drugs/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/19/up-and-down-the-ladder-jobs-bristol-novartis-pfizer-moderna-astrazeneca/?utm_campaign=rss": "2026-06-20T10:08:51.596294+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/19/up-and-down-the-ladder-jobs-bristol-novartis-pfizer-moderna-astrazeneca/?utm_campaign=rss": "2026-06-20T10:08:51.596294+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/22/another-fda-reversal-pharma-merger-and-acquisition-spree/": "2026-06-23T10:36:51.718215+00:00"
   },
   "takedowns": []
 }
