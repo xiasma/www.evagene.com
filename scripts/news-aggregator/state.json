@@ -8571,13 +8571,283 @@
         "chromatin-regulation",
         "non-coding-rna"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have used advanced versions of CRISPR — a technology that can make precise changes to DNA — to study early human embryos in the laboratory. The newer tools are more accurate than earlier versions and have helped researchers understand how certain genes control the very first stages of human development. This work is described as basic research only; it is not aimed at creating pregnancies.\n\nThe research also raises ethical questions that scientists, ethicists, and policymakers are actively debating. International bodies have previously called for careful oversight of any editing of human embryos, particularly changes that could be passed on to future generations.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Next-generation CRISPR tools edit human embryos with greater accuracy, raising ethical debate",
+      "is_preprint": false,
+      "run_date": "2026-06-26",
+      "run_iso": "2026-06-26T10:21:42Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-06-25T15:00:00Z",
+        "novelty": 7
+      },
+      "slug": "crispr-base-editing-human-embryos-oct4-ethics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2016/02/HumanEmbryo_GettyImages-73453583-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-25T15:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Next-gen CRISPR tools improve editing accuracy in embryos, but also stoke ethical concerns",
+          "url": "https://www.statnews.com/2026/06/25/crispr-base-editing-human-embryo-study/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Researchers have used base-editing and prime-editing tools in early human embryos to probe developmental gene function, achieving improved on-target precision while prompting renewed ethical scrutiny.",
+      "summary": "A study reported by STAT News has applied next-generation CRISPR-derived tools — base editing and prime editing — to early human embryos, with researchers reporting improved editing accuracy compared with earlier nuclease-based approaches. According to the reporting, the work has also shed light on the role of at least one gene central to orchestrating the earliest stages of human development, adding to the functional understanding of embryonic gene regulation.\n\nThe research sits at the intersection of technical genomics advance and ongoing ethical debate. Heritable genome editing in human embryos remains a subject of international discussion following the 2018 case in which a researcher in China produced the first gene-edited babies, an event that prompted calls for a moratorium and renewed governance frameworks. The new work — which is described as research-only and not directed towards reproductive use — nonetheless draws renewed attention to questions about oversight, the definition of acceptable research boundaries, and the readiness of international governance structures.\n\nThis cluster overlaps thematically with the opinion piece published by Genetic Current on 24 June 2026 regarding ethical complexity in embryo editing, but the STAT News item reports new experimental findings rather than commentary alone, and is therefore treated as a distinct cluster. Readers seeking the broader ethics framing are directed to that earlier piece.\n\nThe STAT News article is behind a subscriber paywall; the summary here is based on the available lede and feed metadata.",
+      "tags": [
+        "crispr",
+        "base-editing",
+        "prime-editing",
+        "human-embryo",
+        "germline-editing",
+        "research-ethics",
+        "developmental-genetics",
+        "gene-regulation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Joseph Fraumeni Jr. was an American cancer researcher who, in the 1960s, helped identify a rare inherited condition now called Li-Fraumeni syndrome. People with this condition carry a change in a gene called TP53, which normally helps protect cells from becoming cancerous. Because of this change, affected families can develop several different types of cancer, often at younger ages than usual.\n\nFraumeni's work helped doctors understand that some cancers can run in families because of inherited gene changes — a field that has since grown into hereditary cancer genetics and genetic counselling as we know them today.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Joseph Fraumeni Jr., who described Li-Fraumeni syndrome, has died",
+      "is_preprint": false,
+      "run_date": "2026-06-26",
+      "run_iso": "2026-06-26T10:21:42Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 6,
+        "newest_iso": "2026-06-26T08:30:00Z",
+        "novelty": 8
+      },
+      "slug": "joseph-fraumeni-obituary-li-fraumeni-syndrome",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/06/D6UM5V23UHPBFYX73VT3BEWFMU-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-26T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "Opinion: Joseph Fraumeni Jr., pioneering cancer genetics researcher, devoted his life to families like mine",
+          "url": "https://www.statnews.com/2026/06/26/joseph-fraumeni-li-syndrome-hereditary-cancer-obituary/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "An opinion piece in STAT News marks the death of Joseph Fraumeni Jr., the NCI epidemiologist whose work with Frederick Li identified the hereditary cancer syndrome that bears their names.",
+      "summary": "An opinion piece published in STAT News by Lawrence Ingrassia — author of *A Fatal Inheritance*, a book about Li-Fraumeni syndrome — marks the death of Joseph Fraumeni Jr., a pioneering cancer geneticist and long-serving researcher at the US National Cancer Institute.\n\nFraumeni, working with Frederick Li in the late 1960s, identified an inherited syndrome characterised by early-onset cancers across multiple tumour types, caused in most cases by germline pathogenic variants in *TP53*. The condition, Li-Fraumeni syndrome, became one of the foundational examples in hereditary cancer genetics, illustrating the role of tumour suppressor gene loss in inherited cancer predisposition.\n\nBeyond Li-Fraumeni syndrome, Fraumeni made wide-ranging contributions to cancer epidemiology, including early descriptions of familial aggregation patterns and environmental cancer risk. His decades at the NCI influenced the development of genetic epidemiology as a discipline.\n\nThe STAT News piece is framed as a personal tribute rather than a formal obituary, offering perspective on what Fraumeni's identification of hereditary cancer families meant to those affected by the syndrome.",
+      "tags": [
+        "li-fraumeni-syndrome",
+        "tp53",
+        "hereditary-cancer",
+        "cancer-genetics",
+        "genetic-epidemiology",
+        "nci",
+        "obituary",
+        "germline-pathogenic-variant"
+      ]
+    },
+    {
+      "audiences": [
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "An opinion piece in a US medical news publication argues that parents who receive a Down syndrome diagnosis during pregnancy are often given information that does not reflect how well people with Down syndrome can do today. Down syndrome is a genetic condition caused by having an extra copy of chromosome 21. Life expectancy and quality of life for people with Down syndrome have improved significantly over recent decades, and advocates say this is not always reflected in what families are told at diagnosis.\n\nThe piece is written by the mother of an adult daughter with Down syndrome, and calls for better, more up-to-date information for families facing these decisions. It does not tell anyone what decision to make; its argument is about the quality of the information available.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Opinion: quality of information given after prenatal Down syndrome diagnosis remains inadequate, advocate argues",
+      "is_preprint": false,
+      "run_date": "2026-06-26",
+      "run_iso": "2026-06-26T10:21:42Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-06-25T08:30:00Z",
+        "novelty": 6
+      },
+      "slug": "down-syndrome-prenatal-diagnosis-information-quality",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/06/AdobeStock_2069839595-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-25T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "Opinion: My adult daughter has Down syndrome. Her life is entirely different from what experts expected",
+          "url": "https://www.statnews.com/2026/06/25/prenatal-down-syndrome-diagnosis-screening-life-expectancy-health-facts/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Michelle Sie Whitten of the Global Down Syndrome Foundation writes in STAT News that women receiving a prenatal Down syndrome diagnosis are routinely given outdated or incomplete information about life expectancy and quality of life.",
+      "summary": "An opinion piece published in STAT News by Michelle Sie Whitten, president of the Global Down Syndrome Foundation, argues that the information provided to prospective parents following a prenatal diagnosis of Down syndrome (trisomy 21) frequently does not reflect current evidence about life outcomes for people with the condition.\n\nWhitten writes that her adult daughter's life has diverged substantially from what clinical professionals suggested was likely at the time of diagnosis, and uses this as a basis for a broader argument: that meaningful reproductive decision-making requires access to accurate, up-to-date information about life expectancy, health trajectories, and lived experience — not predictions grounded in older, less representative data.\n\nThe piece engages with debates about prenatal screening, genetic counselling practice, and information provision. It does not advocate for or against any particular reproductive decision, but argues that the quality and currency of the information underpinning those decisions matters. The argument has implications for genetic counselling training, the content of post-diagnosis consultations, and the sources that practitioners draw on when discussing prognosis.\n\nThe piece is explicitly an opinion contribution and reflects the author's personal and advocacy perspective.",
+      "tags": [
+        "down-syndrome",
+        "trisomy-21",
+        "prenatal-diagnosis",
+        "genetic-counselling",
+        "reproductive-decision-making",
+        "disability",
+        "information-quality",
+        "patient-advocacy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Whole-genome analysis reveals 20,000-year isolation behind Cape leopard's reduced body size",
+      "is_preprint": false,
+      "run_date": "2026-06-26",
+      "run_iso": "2026-06-26T10:21:42Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-24T12:00:28Z",
+        "novelty": 8
+      },
+      "slug": "cape-leopard-genome-isolation-dwarfism-south-africa",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-24T12:00:28Z",
+          "publisher": "ScienceDaily",
+          "title": "Why South Africa's leopards shrank to half their normal size",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260623083113.htm"
+        }
+      ],
+      "standfirst": "Researchers sequencing Cape Floristic Region leopard genomes found the population is genetically distinct and substantially smaller-bodied than other African leopards, with retained diversity despite long isolation.",
+      "summary": "A study reported by ScienceDaily has used whole-genome sequencing to characterise a population of leopards (*Panthera pardus*) in South Africa's Cape Floristic Region — a biodiversity hotspot recognised for its high levels of endemism. The researchers found that these leopards are genetically distinct from other African leopard populations, having been isolated for approximately 20,000 years.\n\nA notable phenotypic consequence of this isolation is markedly reduced body size: Cape leopards are roughly half the mass of most African leopards. The genomic analysis investigated whether this dwarfism reflects an adaptation to the region's smaller prey base or a consequence of long-term isolation and associated founder effects. Findings suggest the population has nonetheless retained a considerable proportion of its genetic diversity, which the researchers describe as unexpected given the small effective population size implied by prolonged isolation.\n\nThe study contributes to understanding how geographic isolation shapes genome-level differentiation, adaptive phenotypic change, and the conservation genetics of small, fragmented carnivore populations. The Cape Floristic Region leopard population is considered locally threatened, and population-level genomic data of this kind can inform conservation management decisions.\n\nThe original research institution and journal were not identified in the available feed metadata; the summary is based on ScienceDaily reporting.",
+      "tags": [
+        "conservation-genomics",
+        "population-genetics",
+        "whole-genome-sequencing",
+        "carnivore-genetics",
+        "island-dwarfism",
+        "south-africa",
+        "founder-effect",
+        "adaptive-evolution"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Single-cell sequencing maps scar-free skin regeneration in adult zebrafish, highlighting divergence from mammals",
+      "is_preprint": false,
+      "run_date": "2026-06-26",
+      "run_iso": "2026-06-26T10:21:42Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-24T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "zebrafish-scar-free-skin-healing-scrna-seq",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-24T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Exploring mechanisms of scar-free skin wound healing in adult zebrafish in comparison to mouse",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012200"
+        }
+      ],
+      "standfirst": "Researchers used single-cell RNA sequencing and spatial transcriptomics to characterise how adult zebrafish achieve scar-free wound healing, a capacity lost in adult mammals including humans.",
+      "summary": "A study published in *PLOS Genetics* by İsmail Küçükaylak, Kai Halwas, Francisco Javier Martínez Morcillo, and colleagues at institutions including those listed in the author list has applied single-cell RNA sequencing and — for the first time in this context — HCR (hybridisation chain reaction)-based spatial transcriptomics to characterise the cellular and molecular dynamics of wound healing in adult zebrafish (*Danio rerio*).\n\nAdult zebrafish retain the capacity for perfect skin regeneration after injury, leaving no scar. The study characterises the transient collagen-rich granulation tissue that forms intermediately and then fully regresses during zebrafish healing — a process that in adult mammals instead persists as fibrosis and scarring. By mapping gene expression across cell types and spatial positions at multiple timepoints, the researchers identify cellular programmes and signalling interactions that differ between the scar-free zebrafish response and the fibrotic mammalian response.\n\nThe comparative framework — pairing zebrafish data with mouse wound-healing datasets — provides a resource for identifying molecular targets potentially relevant to understanding why regenerative capacity is diminished in mammals. The work is published in *PLOS Genetics* and represents primary research. The findings contribute to the basic science of tissue regeneration, extracellular matrix remodelling, and the evolutionary biology of wound response.",
+      "tags": [
+        "wound-healing",
+        "zebrafish",
+        "scrna-seq",
+        "spatial-transcriptomics",
+        "fibrosis",
+        "tissue-regeneration",
+        "comparative-genomics",
+        "extracellular-matrix"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint examines whether transposable elements contributed to the evolution of multicellularity in eukaryotes",
+      "is_preprint": true,
+      "run_date": "2026-06-26",
+      "run_iso": "2026-06-26T10:21:42Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-25T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "transposable-elements-eukaryote-multicellularity-evolution-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-25T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Evaluating the potential role and contribution of transposable elements to the evolution of microbial multicellularity across the tree of eukaryotes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.24.734286v1?rss=1"
+        }
+      ],
+      "standfirst": "A comparative genomics preprint analyses transposable element composition across diverse protist lineages, asking whether TEs may have influenced genome architecture during transitions to multicellularity.",
+      "summary": "A preprint posted to bioRxiv presents a comparative analysis of transposable element (TE) composition, diversity, and genome-density organisation across a range of eukaryotic protist lineages in which multicellularity has evolved independently. The study includes a newly generated genome assembly for *Acrasis kona*, a facultatively multicellular amoeba.\n\nTransposable elements — mobile DNA sequences that can copy or cut and paste themselves within genomes — are known to influence genome architecture, gene regulation, and the evolution of new regulatory networks. The authors reason that if TEs contribute to the genomic changes that accompany multicellular transitions, signatures of this should be detectable in comparative analyses across lineages that independently evolved multicellular organisation. The study examines TE composition and the relationship between TE density and gene expression across the sampled taxa.\n\nMulticellularity has evolved at least 25 times independently across the eukaryotic tree of life, including in animals, plants, fungi, and multiple protist groups, making it a tractable system for studying the genomic underpinnings of major evolutionary transitions. This preprint has not yet been peer-reviewed; findings should be interpreted with appropriate caution pending independent evaluation.",
+      "tags": [
+        "transposable-elements",
+        "multicellularity",
+        "eukaryote-evolution",
+        "protists",
+        "comparative-genomics",
+        "genome-architecture",
+        "evolutionary-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-06-24T10:21:41.944832+00:00",
+  "last_run": "2026-06-26T10:23:44.148466+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012039": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012138": "2026-06-19T11:20:37.472426+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012162": "2026-06-10T10:55:51.300734+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012167": "2026-06-18T11:08:44.584825+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012184": "2026-06-12T11:01:19.541291+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012189": "2026-06-12T11:01:19.541291+00:00",
@@ -8585,41 +8855,20 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012195": "2026-06-17T11:46:10.404585+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012198": "2026-06-13T09:57:12.297914+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012199": "2026-06-23T10:36:51.718215+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012203": "2026-06-11T11:23:24.563395+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012200": "2026-06-26T10:23:44.148466+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012206": "2026-06-12T11:01:19.541291+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012207": "2026-06-26T10:23:44.148466+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012209": "2026-06-18T11:08:44.584825+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012210": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012213": "2026-06-23T10:36:51.718215+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012215": "2026-06-24T10:21:41.944832+00:00",
-    "https://news.cancerresearchuk.org/2026/06/11/cancer-research-horizons-raises-5m-through-the-cancer-impact-club/": "2026-06-11T11:23:24.563395+00:00",
     "https://news.cancerresearchuk.org/2026/06/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-06-12T11:01:19.541291+00:00",
     "https://news.cancerresearchuk.org/2026/06/17/sabr-radiotherapy-slashes-the-time-needed-to-treat-some-early-stage-prostate-cancers/": "2026-06-17T11:46:10.404585+00:00",
     "https://news.cancerresearchuk.org/2026/06/18/from-tokenism-to-trust-what-inclusive-research-looks-like/": "2026-06-19T11:20:37.472426+00:00",
     "https://news.cancerresearchuk.org/2026/06/18/new-data-shows-the-hpv-vaccine-is-saving-lives-from-cervical-cancer/": "2026-06-18T11:08:44.584825+00:00",
     "https://news.cancerresearchuk.org/2026/06/22/data-science-new-data-strategy-hails-exciting-future/": "2026-06-23T10:36:51.718215+00:00",
     "https://news.cancerresearchuk.org/2026/06/22/rewiring-the-life-sciences-why-foundations-come-first-for-ai-in-science/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.04.730238v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.05.730093v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.05.730342v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.05.730443v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.05.730474v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.06.730570v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.07.724338v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.07.730721v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.08.730759v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.08.730819v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.08.730940v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.08.730950v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.08.730986v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.09.729629v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.09.730164v1?rss=1": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.09.730678v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.09.730991v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.09.731016v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.09.731144v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.09.731195v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731218v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.10.731306v1?rss=1": "2026-06-11T11:23:24.563395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731330v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731381v1?rss=1": "2026-06-12T11:01:19.541291+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.10.731434v1?rss=1": "2026-06-13T09:57:12.297914+00:00",
@@ -8658,19 +8907,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.19.733400v1?rss=1": "2026-06-21T10:28:38.076878+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.20.733520v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.23.733901v1?rss=1": "2026-06-24T10:21:41.944832+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.24.734286v1?rss=1": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/06/aes-bore-the-brunt-as-heatwave-piled-pressure-on-nhs/": "2026-06-12T11:01:19.541291+00:00",
     "https://www.england.nhs.uk/2026/06/impact-of-medical-training-prioritisation-act-on-specialty-training-recruitment/": "2026-06-22T12:47:56.856911+00:00",
+    "https://www.england.nhs.uk/2026/06/nhs-ae-blood-testing-finds-2000-unidentified-hiv-cases-in-first-4-years/": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-braces-jump-post-match-ae-visits/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-hay-fever-advice-searches-double-as-temperatures-rise-during-world-cup/": "2026-06-21T10:28:38.076878+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-heroes-recognised-after-accelerating-cancer-diagnosis-and-transforming-patient-care/": "2026-06-12T11:01:19.541291+00:00",
-    "https://www.england.nhs.uk/2026/06/nhs-to-offer-multi-beam-precision-radiotherapy-to-thousands-with-prostate-cancer/": "2026-06-10T10:55:51.300734+00:00",
+    "https://www.england.nhs.uk/2026/06/nhs-offer-new-immunotherapy-hundreds-women-with-aggressive-cervical-cancer/": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/06/public-urged-to-access-nhs-care-amid-triple-whammy-of-doctors-strike-heatwave-and-world-cup/": "2026-06-13T09:57:12.297914+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260608040002.htm": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260610003042.htm": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260610003052.htm": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260610003054.htm": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260610003116.htm": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260610003119.htm": "2026-06-11T11:23:24.563395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260612021604.htm": "2026-06-13T09:57:12.297914+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260612032044.htm": "2026-06-13T09:57:12.297914+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260612032049.htm": "2026-06-13T09:57:12.297914+00:00",
@@ -8685,29 +8930,9 @@
     "https://www.sciencedaily.com/releases/2026/06/260620100432.htm": "2026-06-22T12:47:56.856911+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060301.htm": "2026-06-22T12:47:56.856911+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060313.htm": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/09/affordability-czar-casey-mulligan-hfma-speech-medicaid-cuts/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/american-diabetes-association-uproar-over-expulsion-of-members/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/biotech-news-gilead-and-merck-latest-trial-success-and-flop/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/dexcom-cgm-trial-wearables-clinic-apple-updates-health-tech/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/ebola-outbreak-response-difference-between-2014-today-susan-reichle/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/health-care-vs-healthcare-ap-style-stat/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/health-news-whats-changed-since-the-last-ebola-outbreak/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/new-sunscreen-ingredient-bemotrizinol-fda/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/niaid-acting-director-john-powers-replaces-taubenberger/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/nih-bethesda-declaration-1-year-later-dissenters-say-problems-persist/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/pig-organ-transplant-animal-testing-impact-xenotransplantation/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/trump-administration-warns-hospitals-price-information-fines/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/trumps-affordability-czar-backs-medicaid-cuts-alcohol-study-published-dc-diagnosis/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/09/wearables-data-oura-whoop-clinical-integration/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/10/acog-obgyn-vaccine-recommendations-pregnancy/": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.statnews.com/2026/06/10/ada-annual-convention-ceo-apology-protester-removal/": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.statnews.com/2026/06/10/biotech-news-hope-for-kendall-squares-lab-market/": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.statnews.com/2026/06/10/european-drug-pricing-most-favored-nation-impact/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/10/health-news-doj-reaches-second-settlement-on-youth-gender-care/": "2026-06-11T11:23:24.563395+00:00",
-    "https://www.statnews.com/2026/06/10/medical-residency-in-seventies-caribbean-medical-school-experience/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/10/medications-opioid-use-disorder-trump-moud-policy-change/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/10/parental-notification-laws-abortion-blue-states/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/2026/06/10/sepsis-algorithm-shouldnt-require-time-machine-ai-prognosis/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260623014014.htm": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260623083113.htm": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260623083116.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/2026/06/11/abridge-inks-deals-with-nvidia-and-lilly/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/ama-lawmakers-push-back-ai-care-denials-health-tech/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/an-obesity-drug-deep-dive-and-peptides-move-mainstream/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
@@ -8716,13 +8941,9 @@
     "https://www.statnews.com/2026/06/11/cdc-report-alcohol-pregnancy-growing-problem/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/enliven-therapeutics-leukemia-drug-shows-promise/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/health-news-hhs-responds-to-paper-on-alcohol-risk/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
-    "https://www.statnews.com/2026/06/11/long-covid-research-federal-funding-stalemate-trump/": "2026-06-11T11:23:24.563395+00:00",
     "https://www.statnews.com/2026/06/11/long-covid-research-federal-funding-stalemate-trump/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
-    "https://www.statnews.com/2026/06/11/medicare-advantage-oig-report-rehab-care-deny-appeal-reverse/": "2026-06-11T11:23:24.563395+00:00",
     "https://www.statnews.com/2026/06/11/medicare-advantage-prior-authorization-denials-trustees-report-prescription-drug-costs/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
-    "https://www.statnews.com/2026/06/11/nih-grant-cap-proposal-science-policy-experts-react/": "2026-06-11T11:23:24.563395+00:00",
     "https://www.statnews.com/2026/06/11/nih-grant-cap-proposal-science-policy-experts-react/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
-    "https://www.statnews.com/2026/06/11/open-access-journal-fees-nature-wiley-elsevier-nih/": "2026-06-11T11:23:24.563395+00:00",
     "https://www.statnews.com/2026/06/11/rfk-jr-cites-publicly-available-calendar-never-released-foia-requests/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/rfk-jr-maha-promise-tracker-fact-check/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/2026/06/11/socioeconomic-status-impact-brain-development/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
@@ -8828,9 +9049,25 @@
     "https://www.statnews.com/2026/06/24/embryo-editing-dieter-egli-ethical-boundaries-moratorium/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/2026/06/24/fda-breakthrough-devices-what-we-learned-livanova-vitaria-results/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/2026/06/24/short-walking-breaks-sitting-health-research/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/09/drug-shortages-systemic-problem-analysis/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/09/gsk-buying-nuvalent-cancer-drug-astrazeneca-obesity-pill-data/?utm_campaign=rss": "2026-06-10T10:55:51.300734+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/10/american-pressure-on-european-drug-prices-longer-shortages/": "2026-06-11T11:23:24.563395+00:00",
+    "https://www.statnews.com/2026/06/25/acip-charter-responsibilities-rfk-jr/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/bio-2026-biotech-conference-san-diego-key-takeaways/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/biotech-news-the-china-debate-gets-louder-in-washington/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/bipartisan-bill-methadone-prescription-pharmacy-pickup/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/cassidy-bill-rein-in-340b-drug-discount-program/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/cdc-new-science-office-tighter-political-control/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/crispr-base-editing-human-embryo-study/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/fda-breakthrough-generative-ai-devices-health-tech/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/health-news-another-roadblock-for-doj-campaign-against-trans-health/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/prenatal-down-syndrome-diagnosis-screening-life-expectancy-health-facts/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/radiology-generative-ai-cognita-aidoc-fda-breakthrough-designation/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/readout-loud-podcast-eli-lilly-fda-obesity-trump-absci-regenxbio/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/senate-hassan-questions-rfk-jr-eli-lilly-retatrutide-trial-trump/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/supreme-court-blocks-thousands-lawsuits-roundup-weedkiller-cancer/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/25/vaccine-industry-dark-period-causes-for-hope/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/26/joseph-fraumeni-li-syndrome-hereditary-cancer-obituary/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/26/medetomidine-opioid-withdrawal-crisis-jails/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/26/the-hot-zone-richard-preston-ebola-narrative/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/06/26/what-is-pulmonary-hypertension-and-would-glp-1-help/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/pharmalot/2026/06/11/employer-overage-of-obesity-drugs-another-sanofi-setback/?utm_campaign=rss": "2026-06-12T11:01:19.541291+00:00",
     "https://www.statnews.com/pharmalot/2026/06/12/nonprofit-buys-discontinued-cancer-drug-novo-security-breach/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
     "https://www.statnews.com/pharmalot/2026/06/12/up-and-down-the-ladder-job-changes-astrazeneca-bayer/?utm_campaign=rss": "2026-06-13T09:57:12.297914+00:00",
@@ -8845,7 +9082,8 @@
     "https://www.statnews.com/pharmalot/2026/06/19/up-and-down-the-ladder-jobs-bristol-novartis-pfizer-moderna-astrazeneca/?utm_campaign=rss": "2026-06-20T10:08:51.596294+00:00",
     "https://www.statnews.com/pharmalot/2026/06/22/another-fda-reversal-pharma-merger-and-acquisition-spree/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.statnews.com/pharmalot/2026/06/23/fda-reforming-clinical-trials-pfizer-setback-lilly-trump-obesity/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/23/high-quality-generic-drugs-lab-testing/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/23/high-quality-generic-drugs-lab-testing/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/25/weight-loss-drug-spending-launch-prices-for-medicines/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00"
   },
   "takedowns": []
 }
