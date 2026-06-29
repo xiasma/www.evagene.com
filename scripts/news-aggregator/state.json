@@ -8886,9 +8886,97 @@
         "transcriptional-regulation",
         "industrial-biotechnology"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers studying the brains of people who died with a severe form of multiple sclerosis (MS) have found something unexpected. Certain immune cells in the brain — cells that normally help clean up damaged tissue — can become packed with fat droplets after absorbing the debris of damaged myelin (the protective coating around nerve fibres). When these cells become overloaded, they may stop helping with repair and instead seem to fuel ongoing inflammation and damage.\n\nThis could be one reason why MS gets worse quickly in some people but not others. Understanding why this happens may, in future, help researchers think about new ways to approach the disease. This research was carried out on donated brain tissue and is at an early, exploratory stage.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Fat-laden brain immune cells may drive multiple sclerosis progression",
+      "is_preprint": false,
+      "run_date": "2026-06-29",
+      "run_iso": "2026-06-29T11:56:31Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-06-29T04:10:12Z",
+        "novelty": 7
+      },
+      "slug": "fat-laden-microglia-ms-progression-myelin",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-29T04:10:12Z",
+          "publisher": "ScienceDaily",
+          "title": "These fat-filled brain cells may be making multiple sclerosis worse",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260621060307.htm"
+        }
+      ],
+      "standfirst": "Researchers examining post-mortem brain tissue from people with severe MS found that immune cells overloaded with lipid droplets appear to switch from repairing myelin to sustaining inflammation.",
+      "summary": "Scientists studying brain tissue from patients with severe multiple sclerosis (MS) have identified large populations of lipid-laden immune cells — described as 'foamy' due to their appearance under microscopy — that appear to shift from a repair-promoting role to one that sustains neuroinflammation and damage. The cells, likely microglia or macrophages, accumulated fat droplets after engulfing degraded myelin, the insulating sheath around nerve fibres whose loss is a hallmark of MS.\n\nThe research, reported via ScienceDaily from a press release, suggests that once these cells become overloaded with lipid material, their normal myelin-clearance and tissue-repair functions may be disrupted. Instead, the cells appear to contribute to ongoing inflammatory signalling, which the researchers propose may help explain why MS progresses rapidly in some individuals but more slowly in others.\n\nThe institution and journal underlying the original publication were not fully specified in the available feed text; further detail would require access to the primary paper. The findings add to a growing body of work on the role of lipid metabolism in central nervous system inflammatory diseases, complementing earlier research on microglial states in neurodegeneration.\n\nBecause this summary is based on a press-release digest rather than the primary peer-reviewed paper, readers are encouraged to locate the source publication for methodological detail, sample sizes, and author affiliations before citing.",
+      "tags": [
+        "multiple-sclerosis",
+        "microglia",
+        "lipid-metabolism",
+        "neuroinflammation",
+        "myelin",
+        "neurodegeneration"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies cryptic genetic lineage of European flat oyster in Northern France",
+      "is_preprint": true,
+      "run_date": "2026-06-29",
+      "run_iso": "2026-06-29T11:56:31Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-28T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "flat-oyster-cryptic-genetic-cluster-northern-france",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A cryptic local genetic cluster in Northern France amid the European mosaic of flat oyster lineages revealed by integrating SNP array and whole-genome sequencing",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734753v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint combining SNP array genotyping and whole-genome sequencing has detected a previously undescribed local genetic cluster of Ostrea edulis along French Atlantic and Channel coasts, with implications for conservation translocation programmes.",
+      "summary": "Researchers have posted a preprint on bioRxiv describing a fine-scale population genetic analysis of the European flat oyster (Ostrea edulis), a species that has experienced severe population decline following centuries of commercial exploitation and translocation. Using a combination of SNP array data and whole-genome sequencing, the team characterised genetic structure at high resolution along French Atlantic, English Channel, and Mediterranean coastlines.\n\nThe principal finding is the detection of a cryptic local genetic cluster in Northern France — a genetically distinct lineage that had not been resolved by earlier, coarser-scale studies. The authors situate this within the broader European mosaic of flat oyster lineages, arguing that such cryptic structure must be accounted for when planning translocations under current conservation and restoration programmes. Moving oysters between sites without awareness of fine-scale genetic boundaries risks disrupting locally adapted gene pools or introducing outbreeding depression.\n\nThe work is methodologically relevant to conservation genomics more broadly, demonstrating that integrating complementary sequencing approaches can reveal population structure invisible to either technique alone. The European flat oyster is the subject of active restoration efforts across UK and European waters, making the practical implications of this finding directly pertinent to ongoing programmes.\n\nThis is a preprint posted to bioRxiv and has not yet completed peer review. Findings should be interpreted accordingly.",
+      "tags": [
+        "ostrea-edulis",
+        "conservation-genomics",
+        "population-genetics",
+        "snp-array",
+        "whole-genome-sequencing",
+        "marine-genetics",
+        "translocation",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-06-28T09:55:48.266463+00:00",
+  "last_run": "2026-06-29T11:57:18.025584+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012039": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012138": "2026-06-19T11:20:37.472426+00:00",
@@ -8917,7 +9005,6 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.12.731808v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.12.731975v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.12.731976v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.12.731983v1?rss=1": "2026-06-14T10:23:02.663183+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.12.731989v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.13.731611v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.15.729614v1?rss=1": "2026-06-20T10:08:51.596294+00:00",
@@ -8941,6 +9028,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.20.733520v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.23.733901v1?rss=1": "2026-06-24T10:21:41.944832+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.734286v1?rss=1": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.26.734753v1?rss=1": "2026-06-29T11:57:18.025584+00:00",
     "https://www.england.nhs.uk/2026/06/impact-of-medical-training-prioritisation-act-on-specialty-training-recruitment/": "2026-06-22T12:47:56.856911+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-ae-blood-testing-finds-2000-unidentified-hiv-cases-in-first-4-years/": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-braces-jump-post-match-ae-visits/": "2026-06-17T11:46:10.404585+00:00",
@@ -8957,12 +9045,12 @@
     "https://www.sciencedaily.com/releases/2026/06/260620100422.htm": "2026-06-21T10:28:38.076878+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100432.htm": "2026-06-22T12:47:56.856911+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060301.htm": "2026-06-22T12:47:56.856911+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260621060307.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060313.htm": "2026-06-24T10:21:41.944832+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014014.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083113.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083116.htm": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/13/teplizumab-tzield-sanofi-fda-approval-children-stage-3-diabetes/?utm_campaign=rss": "2026-06-14T10:23:02.663183+00:00",
-    "https://www.statnews.com/2026/06/13/who-director-general-in-drc-war-greater-concern-than-ebola/?utm_campaign=rss": "2026-06-14T10:23:02.663183+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260626124703.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.statnews.com/2026/06/15/ai-children-screen-time-pediatrician-prescription-guidance/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
     "https://www.statnews.com/2026/06/15/autism-diagnosis-south-asian-american-families-stigma/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
     "https://www.statnews.com/2026/06/15/biotech-news-lilly-ajax-acquisition-may-have-been-worth-it/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
@@ -9078,6 +9166,13 @@
     "https://www.statnews.com/2026/06/26/the-hot-zone-richard-preston-ebola-narrative/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/2026/06/26/what-is-pulmonary-hypertension-and-would-glp-1-help/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/2026/06/27/roundup-glyphosate-cancer-monsanto-v-durnell-supreme-court/?utm_campaign=rss": "2026-06-28T09:55:48.266463+00:00",
+    "https://www.statnews.com/2026/06/29/china-biotech-perpetual-foreigner-chinese-american-scientists/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.statnews.com/2026/06/29/clive-meanwell-population-health-partners-on-ai-biotech/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.statnews.com/2026/06/29/edison-scientific-population-health-partners-deal-to-create-new-biotechs/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.statnews.com/2026/06/29/gender-affirming-care-trans-youth-plastic-surgeons-statement/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.statnews.com/2026/06/29/moderna-founder-kenneth-chien-on-cancer-vaccine-and-mrna-future/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.statnews.com/2026/06/29/nutex-health-micro-hospitals-er-loophole-idr-profits/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.statnews.com/2026/06/29/sword-health-portugal-deal-ai-supported-physical-therapy/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
     "https://www.statnews.com/pharmalot/2026/06/15/colorado-drug-imports-canada/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
     "https://www.statnews.com/pharmalot/2026/06/15/european-clinical-trial-registry-results-analysis/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
     "https://www.statnews.com/pharmalot/2026/06/15/pfizer-emergency-penicillin-program-sanofi-diabetes-drug/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
