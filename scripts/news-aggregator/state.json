@@ -8974,31 +8974,294 @@
         "translocation",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "oncologists",
+        "patients"
+      ],
+      "for_patients": "The senior official responsible for overseeing the approval of gene therapies at the US Food and Drug Administration (FDA) has left his job. Gene therapies are treatments that aim to correct or replace faulty genes causing serious illnesses. The official, Vijay Kumar, led the FDA office that reviews these treatments before they can be offered to patients.\n\nHis departure comes after a period of wider staff changes at the FDA. It is not yet clear who will take over his responsibilities. Researchers and patient groups who follow gene therapy developments are watching for updates on how the agency will manage ongoing reviews during this transition.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "FDA's top gene therapy regulator Vijay Kumar leaves his role",
+      "is_preprint": false,
+      "run_date": "2026-06-30",
+      "run_iso": "2026-06-30T10:30:17Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-06-29T21:46:06Z",
+        "novelty": 9
+      },
+      "slug": "fda-gene-therapy-regulator-vijay-kumar-departs",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2023/02/AP22353823659091-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-29T21:46:06Z",
+          "publisher": "Stat News",
+          "title": "STAT+: FDA's top gene therapy regulator is leaving his role",
+          "url": "https://www.statnews.com/2026/06/29/vijay-kumar-exits-fda-office-of-therapeutic-products/"
+        }
+      ],
+      "standfirst": "The departure of Vijay Kumar from the FDA's Office of Therapeutic Products follows a broader leadership shakeup at the agency and raises questions about continuity in gene therapy oversight.",
+      "summary": "Vijay Kumar, who led the FDA's Office of Therapeutic Products — the division responsible for regulating cell and gene therapies — has left his post, according to reporting by STAT News. His departure follows a series of leadership changes at the FDA that have affected multiple offices in recent months.\n\nKumar's office oversees the review and approval of gene therapies, viral vectors, and related biological products, making it one of the most consequential regulatory units for the genomics and rare-disease research community. The timing of his exit — as several high-profile gene therapy applications are at various stages of FDA review — is likely to be watched closely by sponsors, researchers, and patient advocates.\n\nNo successor has been publicly named. The FDA has not issued a formal statement on the transition. STAT News, which first reported the departure, describes it as part of a wider pattern of senior-level exits from the agency.",
+      "tags": [
+        "fda",
+        "gene-therapy",
+        "regulatory-affairs",
+        "office-of-therapeutic-products",
+        "leadership"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers have published a large genetic study looking at the physical changes that occur in the brains of people who had Alzheimer's disease or related dementias. Rather than asking who was diagnosed with dementia during their lifetime, the researchers examined brain tissue collected after death, looking directly at the biological hallmarks of these diseases — such as protein build-ups called amyloid plaques and tangles.\n\nBy doing this, they were able to look for genes that are linked to these specific brain changes. The study, published in the journal PLOS Genetics, involved researchers from several US universities working together using data from many different sites.\n\nThis kind of research helps scientists understand more precisely why some people develop certain patterns of brain disease and others do not. It does not offer any tests or treatments, but contributes to the scientific foundation that future research may build upon.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "GWAS meta-analysis links genetic variants to Alzheimer's neuropathological lesions in autopsy cohort",
+      "is_preprint": false,
+      "run_date": "2026-06-30",
+      "run_iso": "2026-06-30T10:30:17Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-06-29T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gwas-meta-analysis-alzheimers-neuropathology-autopsy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-29T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Genome wide association study meta-analysis of neuropathologic lesions of Alzheimer's disease and related dementias in a multi-site autopsy cohort",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170"
+        }
+      ],
+      "standfirst": "A multi-site autopsy study published in PLOS Genetics uses genome-wide association to map genetic loci associated with the physical hallmarks of Alzheimer's disease and related dementias, rather than clinical diagnosis alone.",
+      "summary": "A research team including investigators from Vanderbilt University, the University of Pittsburgh, Columbia University, and the Alzheimer's Disease Genetics Consortium has published a genome-wide association study (GWAS) meta-analysis examining the genetic basis of neuropathological lesions in Alzheimer's disease and related dementias. The paper appears in PLOS Genetics.\n\nRather than relying on clinical diagnosis, the study analysed post-mortem brain tissue from a multi-site autopsy cohort, allowing direct assessment of hallmark lesions such as amyloid plaques, neurofibrillary tangles, Lewy bodies, and TDP-43 inclusions. This neuropathology-first approach is methodologically notable because clinical diagnosis of dementia can be imprecise, whereas autopsy data provide ground-truth characterisation of the underlying pathology.\n\nThe meta-analysis identified genetic loci associated with specific lesion types, building on the known architecture of Alzheimer's genetics while seeking to disentangle shared and distinct genetic influences on co-occurring pathologies. The Alzheimer's Disease Genetics Consortium contributed to the collaborative effort, which draws on data from multiple academic medical centres across the United States.\n\nThe findings add granularity to understanding how germline genetic variation shapes neuropathological heterogeneity in late-life dementias — a distinction that matters for research into disease mechanisms and for the interpretation of genetic associations identified in clinically defined cohorts.",
+      "tags": [
+        "alzheimers-disease",
+        "gwas",
+        "neuropathology",
+        "autopsy-cohort",
+        "dementia-genetics",
+        "neurogenetics",
+        "meta-analysis"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "AGO3 and AGO4 identified as required for meiotic sex chromosome inactivation in male mice",
+      "is_preprint": false,
+      "run_date": "2026-06-30",
+      "run_iso": "2026-06-30T10:30:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-06-29T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "argonaute-proteins-meiotic-sex-chromosome-inactivation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-29T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Argonaute proteins orchestrate Meiotic Sex Chromosome Inactivation and timing of the spermatogenic transcriptional program",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012217"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study shows that two Argonaute proteins localise to sex chromatin during meiosis and are necessary for silencing XY-linked genes — a finding that advances understanding of male fertility and germline gene regulation.",
+      "summary": "Researchers led by Paula E. Cohen and colleagues at Cornell University have published a study in PLOS Genetics demonstrating that Argonaute proteins AGO3 and AGO4 — but not the more studied AGO2 — localise to the sex chromatin of pachytene spermatocytes and are required for Meiotic Sex Chromosome Inactivation (MSCI).\n\nMSCI is the process by which XY-linked genes are transcriptionally silenced during the pachytene stage of male meiosis. Failure of this silencing is associated with spermatogenic arrest and male infertility in mice. The new work shows that AGO3 and AGO4 are not simply carrying out the microRNA-mediated post-transcriptional gene silencing for which Argonaute proteins are best known; instead, they are acting at the chromatin level to enforce transcriptional silencing of sex-linked genes.\n\nThe paper also reports that AGO proteins influence the timing of the broader spermatogenic transcriptional programme — the ordered sequence of gene expression changes that accompanies sperm cell maturation. The findings position a subset of Argonaute proteins as regulators of germline genome architecture, distinct from their canonical cytoplasmic roles, and open questions about whether analogous mechanisms operate in other contexts requiring sex-chromosome dosage compensation.",
+      "tags": [
+        "meiosis",
+        "argonaute",
+        "msci",
+        "sex-chromosome-inactivation",
+        "spermatogenesis",
+        "germline",
+        "epigenetics",
+        "male-fertility"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Multiple Instance Fine-mapping method uses deep sequence models to predict causal regulatory variants",
+      "is_preprint": false,
+      "run_date": "2026-06-30",
+      "run_iso": "2026-06-30T10:30:17Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-06-29T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "multiple-instance-fine-mapping-causal-regulatory-variants",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-06-29T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Multiple instance fine-mapping: Predicting causal regulatory variants with a deep sequence model",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012208"
+        }
+      ],
+      "standfirst": "A PLOS Genetics paper introduces MIFM, a machine-learning approach that groups putatively causal GWAS variants to overcome the absence of ground-truth labels, offering a new route to identifying functional regulatory variants.",
+      "summary": "Alexander Rakowski and Christoph Lippert, publishing in PLOS Genetics, have described Multiple Instance Fine-mapping (MIFM) — a computational method designed to improve the identification of causal genetic variants in regulatory regions identified through genome-wide association studies (GWAS).\n\nFine-mapping — the process of pinpointing which variant within a GWAS signal is functionally responsible for an association — is complicated by linkage disequilibrium (LD), which means that many variants in a genomic region are statistically correlated with one another. MIFM addresses this by applying a multiple instance learning (MIL) objective: rather than requiring a single variant to be labelled as causal, it groups putatively causal variants from the same LD block and trains a deep sequence model across the group. This sidesteps the lack of large ground-truth datasets that hampers end-to-end training of conventional models.\n\nThe authors demonstrate that MIFM improves prediction of causal regulatory variants compared with baseline approaches, using gene expression data without requiring individual-level genotype data. The method is relevant to statistical genetics, functional genomics, and researchers working to interpret non-coding GWAS hits — a persistent bottleneck in translating association signals into mechanistic understanding.",
+      "tags": [
+        "fine-mapping",
+        "gwas",
+        "deep-learning",
+        "regulatory-variants",
+        "linkage-disequilibrium",
+        "statistical-genetics",
+        "computational-genomics",
+        "non-coding-variants"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Paralogous lncRNAs CYTOR and MORRBID share a conserved trans-acting function in MEK–ERK signalling, preprint reports",
+      "is_preprint": true,
+      "run_date": "2026-06-30",
+      "run_iso": "2026-06-30T10:30:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "cytor-morrbid-paralogs-mek-erk-trans-acting-lncrna",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Paralogous lncRNAs CYTOR and MORRBID share a conserved trans acting function in MEK ERK signaling",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.24.734157v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint shows that two long non-coding RNAs arising from genomic duplication retain a shared regulatory function in a key cell-signalling pathway, despite divergent genomic contexts.",
+      "summary": "A preprint deposited on bioRxiv examines CYTOR and MORRBID, two paralogous long non-coding RNAs (lncRNAs) — RNA molecules that do not encode protein but play regulatory roles in gene expression. MORRBID is evolutionarily conserved across vertebrates, while CYTOR is its primate-specific duplicate; both arose from genomic duplication.\n\nLncRNAs are known for rapid evolutionary turnover and functional divergence, making the question of what happens to regulatory function after duplication scientifically interesting. The authors demonstrate that, despite acquiring distinct transcript variants shaped by their different genomic neighbourhoods, CYTOR and MORRBID maintain a robust, shared trans-acting function — meaning they act on genes located elsewhere in the genome rather than purely in cis. Specifically, both lncRNAs influence MEK–ERK signalling, a pathway central to cell proliferation, differentiation, and survival.\n\nThe finding suggests that functional conservation can persist across lncRNA paralogues even when sequence and structural context have substantially diverged — a result with implications for understanding how non-coding regulatory elements evolve and how duplication shapes genome function. This is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "lncrna",
+        "cytor",
+        "morrbid",
+        "mek-erk-signalling",
+        "gene-duplication",
+        "non-coding-rna",
+        "evolutionary-genomics",
+        "paralogs"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Haplotype-specific chromosome painting reveals recombination patterns in a holocentric plant species, preprint reports",
+      "is_preprint": true,
+      "run_date": "2026-06-30",
+      "run_iso": "2026-06-30T10:30:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-06-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "rhynchospora-holocentric-haplotype-recombination-fish",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-06-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Haplotype-specific chromosome painting unveils recombination patterns in the holocentric species Rhynchospora breviuscula H.Pfeiff.",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.24.733714v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers have developed haplotype-specific FISH probes for the sedge Rhynchospora breviuscula, enabling the first detailed mapping of meiotic recombination in a plant with chromosomes that lack a discrete centromere.",
+      "summary": "A bioRxiv preprint describes the development and application of haplotype-specific oligo-FISH probes for the holocentric sedge species Rhynchospora breviuscula, a member of the beak-sedge genus that comprises approximately 381 species worldwide. Unlike monocentric chromosomes — which have a single, discrete centromere — holocentric chromosomes distribute centromeric activity along virtually the entire chromosome length, creating an unusual context for meiotic recombination.\n\nUsing a haplotype-phased genome assembly of Rhynchospora breviuscula (haploid chromosome number n = 5), the research team developed probes targeting chromosomes 1, 2, and 3 that are capable of distinguishing individual homologues. This chromosome-painting approach allowed direct visualisation of recombination events along specific chromosomes in a species where the absence of a single centromeric anchor makes such tracking technically challenging.\n\nThe work provides foundational tools for studying how meiotic recombination is organised in holocentric plants — a question with both evolutionary and practical relevance, given that holocentricity is a derived state that has evolved independently multiple times across plants and animals. This is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "holocentric-chromosomes",
+        "rhynchospora",
+        "meiotic-recombination",
+        "oligo-fish",
+        "chromosome-painting",
+        "plant-genetics",
+        "haplotype-phasing",
+        "cytogenetics"
+      ]
     }
   ],
-  "last_run": "2026-06-29T11:57:18.025584+00:00",
+  "last_run": "2026-06-30T10:32:09.232395+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012039": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012138": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012167": "2026-06-18T11:08:44.584825+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012195": "2026-06-17T11:46:10.404585+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012196": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012199": "2026-06-23T10:36:51.718215+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012200": "2026-06-26T10:23:44.148466+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012207": "2026-06-26T10:23:44.148466+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012208": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012209": "2026-06-18T11:08:44.584825+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012210": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012213": "2026-06-23T10:36:51.718215+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012215": "2026-06-24T10:21:41.944832+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012216": "2026-06-27T09:27:23.260477+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012217": "2026-06-30T10:32:09.232395+00:00",
     "https://news.cancerresearchuk.org/2026/06/17/sabr-radiotherapy-slashes-the-time-needed-to-treat-some-early-stage-prostate-cancers/": "2026-06-17T11:46:10.404585+00:00",
     "https://news.cancerresearchuk.org/2026/06/18/from-tokenism-to-trust-what-inclusive-research-looks-like/": "2026-06-19T11:20:37.472426+00:00",
     "https://news.cancerresearchuk.org/2026/06/18/new-data-shows-the-hpv-vaccine-is-saving-lives-from-cervical-cancer/": "2026-06-18T11:08:44.584825+00:00",
     "https://news.cancerresearchuk.org/2026/06/22/data-science-new-data-strategy-hails-exciting-future/": "2026-06-23T10:36:51.718215+00:00",
     "https://news.cancerresearchuk.org/2026/06/22/rewiring-the-life-sciences-why-foundations-come-first-for-ai-in-science/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.10.731493v1?rss=1": "2026-06-15T13:11:44.014620+00:00",
+    "https://news.cancerresearchuk.org/2026/06/29/latest-winner-in-our-research-is-beautiful-competition-4/": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.11.730447v1?rss=1": "2026-06-16T12:11:35.883797+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.11.731199v1?rss=1": "2026-06-15T13:11:44.014620+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.11.731510v1?rss=1": "2026-06-15T13:11:44.014620+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.11.731524v1?rss=1": "2026-06-16T12:11:35.883797+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.11.731598v1?rss=1": "2026-06-16T12:11:35.883797+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.11.731719v1?rss=1": "2026-06-16T12:11:35.883797+00:00",
@@ -9027,21 +9290,24 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.19.733400v1?rss=1": "2026-06-21T10:28:38.076878+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.20.733520v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.23.733901v1?rss=1": "2026-06-24T10:21:41.944832+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.24.733714v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.24.734157v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.734286v1?rss=1": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.24.734305v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.25.734557v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.26.734753v1?rss=1": "2026-06-29T11:57:18.025584+00:00",
     "https://www.england.nhs.uk/2026/06/impact-of-medical-training-prioritisation-act-on-specialty-training-recruitment/": "2026-06-22T12:47:56.856911+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-ae-blood-testing-finds-2000-unidentified-hiv-cases-in-first-4-years/": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-braces-jump-post-match-ae-visits/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-hay-fever-advice-searches-double-as-temperatures-rise-during-world-cup/": "2026-06-21T10:28:38.076878+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-offer-new-immunotherapy-hundreds-women-with-aggressive-cervical-cancer/": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260614011854.htm": "2026-06-15T13:11:44.014620+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260614012011.htm": "2026-06-17T11:46:10.404585+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260615025119.htm": "2026-06-15T13:11:44.014620+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260616102217.htm": "2026-06-17T11:46:10.404585+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260617032207.htm": "2026-06-18T11:08:44.584825+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260618041504.htm": "2026-06-27T09:27:23.260477+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260618041515.htm": "2026-06-20T10:08:51.596294+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260619101349.htm": "2026-06-21T10:28:38.076878+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260620100317.htm": "2026-06-30T10:32:09.232395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100422.htm": "2026-06-21T10:28:38.076878+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100432.htm": "2026-06-22T12:47:56.856911+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060301.htm": "2026-06-22T12:47:56.856911+00:00",
@@ -9051,15 +9317,10 @@
     "https://www.sciencedaily.com/releases/2026/06/260623083113.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083116.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260626124703.htm": "2026-06-29T11:57:18.025584+00:00",
-    "https://www.statnews.com/2026/06/15/ai-children-screen-time-pediatrician-prescription-guidance/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
-    "https://www.statnews.com/2026/06/15/autism-diagnosis-south-asian-american-families-stigma/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260630020521.htm": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/15/biotech-news-lilly-ajax-acquisition-may-have-been-worth-it/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
     "https://www.statnews.com/2026/06/15/covid-vaccination-cardiovascular-protection-jama-study/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
-    "https://www.statnews.com/2026/06/15/health-news-cambridge-recombinant-dna-anniversary/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
-    "https://www.statnews.com/2026/06/15/jesse-gabriel-ultra-processed-food-california-laws-national-impact/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
-    "https://www.statnews.com/2026/06/15/medicaid-caregivers-state-pay-people-with-disabilities/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
     "https://www.statnews.com/2026/06/15/medicare-weight-loss-drugs-glp1-bridge-program-may-be-hard-to-end/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
-    "https://www.statnews.com/2026/06/15/pfizer-bicillin-shortage-preventable-congenital-syphilis-surging/?utm_campaign=rss": "2026-06-15T13:11:44.014620+00:00",
     "https://www.statnews.com/2026/06/16/alzheimers-diagnosis-treatment-infrastructure/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
     "https://www.statnews.com/2026/06/16/aspr-pandemic-all-hazard-preparedness-act-reauthorization/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
     "https://www.statnews.com/2026/06/16/biotech-news-arch-launched-neumora-stops-depression-program/": "2026-06-17T11:46:10.404585+00:00",
@@ -9166,13 +9427,25 @@
     "https://www.statnews.com/2026/06/26/the-hot-zone-richard-preston-ebola-narrative/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/2026/06/26/what-is-pulmonary-hypertension-and-would-glp-1-help/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/2026/06/27/roundup-glyphosate-cancer-monsanto-v-durnell-supreme-court/?utm_campaign=rss": "2026-06-28T09:55:48.266463+00:00",
+    "https://www.statnews.com/2026/06/29/biotech-news-talawar-bets-bispecific-approach-for-eczema/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/29/china-biotech-perpetual-foreigner-chinese-american-scientists/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
     "https://www.statnews.com/2026/06/29/clive-meanwell-population-health-partners-on-ai-biotech/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
     "https://www.statnews.com/2026/06/29/edison-scientific-population-health-partners-deal-to-create-new-biotechs/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
     "https://www.statnews.com/2026/06/29/gender-affirming-care-trans-youth-plastic-surgeons-statement/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.statnews.com/2026/06/29/health-news-whats-next-for-988-lgbtq-services/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.statnews.com/2026/06/29/healthcare-news-unredacted-ca-hospital-lawsuit-sad-mckinsey-tax/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/29/moderna-founder-kenneth-chien-on-cancer-vaccine-and-mrna-future/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.statnews.com/2026/06/29/new-fda-peptide-advisers-compounding-committee-conflicts/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.statnews.com/2026/06/29/nutex-health-investigation-takeaways-stat-news-no-surprises-act/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/29/nutex-health-micro-hospitals-er-loophole-idr-profits/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.statnews.com/2026/06/29/state-lawsuit-block-medicaid-work-requirements/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/29/sword-health-portugal-deal-ai-supported-physical-therapy/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.statnews.com/2026/06/29/vijay-kumar-exits-fda-office-of-therapeutic-products/": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.statnews.com/2026/06/30/abivax-obefazimod-ulcerative-colitis-maintenance-trial-safety-data/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.statnews.com/2026/06/30/florida-ekg-law-high-school-athletes/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.statnews.com/2026/06/30/graduate-student-loan-caps-health-care-nursing-chiropractors/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.statnews.com/2026/06/30/maha-trump-ignores-alcohol-risk-deadliest-drug-part-6/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.statnews.com/2026/06/30/medicare-medicaid-glp1-costs-explained-balance-out-bridge-in/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/pharmalot/2026/06/15/colorado-drug-imports-canada/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
     "https://www.statnews.com/pharmalot/2026/06/15/european-clinical-trial-registry-results-analysis/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
     "https://www.statnews.com/pharmalot/2026/06/15/pfizer-emergency-penicillin-program-sanofi-diabetes-drug/?utm_campaign=rss": "2026-06-16T12:11:35.883797+00:00",
@@ -9188,7 +9461,9 @@
     "https://www.statnews.com/pharmalot/2026/06/25/weight-loss-drug-spending-launch-prices-for-medicines/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/pharmalot/2026/06/26/bill-overhaul-340b-program-new-fda-commisioner-candidate/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
     "https://www.statnews.com/pharmalot/2026/06/26/european-antitrust-regulators-probe-sanofi-for-allegedly-disparaging-rival-flu-vaccine/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/26/up-down-ladder-jobs-pharma-biotech-sanofi-biogen-lilly-pfizer/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/26/up-down-ladder-jobs-pharma-biotech-sanofi-biogen-lilly-pfizer/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/29/astrazeneca-kickback-charges-texas-settlement/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.statnews.com/pharmalot/2026/06/29/insulin-cap-revival-former-fda-cancer-drug-chief/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00"
   },
   "takedowns": []
 }
