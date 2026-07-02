@@ -9366,15 +9366,272 @@
         "transgenerational-epigenetics",
         "wildlife-genomics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "patients",
+        "oncologists"
+      ],
+      "for_patients": "Bluebird Bio was a company that made gene therapies — treatments that work by modifying the genes inside a patient's cells — for serious inherited conditions including sickle cell disease. The company ran into major financial difficulties and was bought and renamed Genetix in 2025. According to reporting by STAT News, the new company says it is now making money, roughly one year after the takeover. Gene therapies for sickle cell disease and similar conditions have been approved by regulators, meaning they have passed safety and effectiveness reviews. News about the company behind those treatments may be relevant to patients who already use them or who are considering them. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Bluebird Bio reborn as Genetix one year after distressed buyout",
+      "is_preprint": false,
+      "run_date": "2026-07-02",
+      "run_iso": "2026-07-02T09:59:29+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-07-02T08:30:00+00:00",
+        "novelty": 7
+      },
+      "slug": "genetix-bluebird-bio-gene-therapy-turnaround",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/07/AdobeStock_290077952-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-02T08:30:00+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: A year after distressed buyout, what's become of Bluebird Bio?",
+          "url": "https://www.statnews.com/2026/07/02/genetix-david-meek-bluebird-bio-turnaround-effort/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "David Meek's acquisition of collapsed gene-therapy company Bluebird Bio has been rebranded as Genetix, with the new entity reporting early profitability in sickle cell and other programmes.",
+      "summary": "Approximately one year after a distressed buyout rescued the gene-therapy company Bluebird Bio from financial collapse, the renamed entity Genetix is reporting that it has moved into profit, according to reporting by STAT News. David Meek, who led the acquisition, is credited with restructuring the organisation around its existing approved therapies, which include treatments for sickle cell disease and other serious genetic conditions.\n\nBluebird Bio had become a cautionary story in biotech: a company that developed scientifically significant gene therapies but failed to achieve commercial viability, facing reimbursement difficulties in the United States and writing off its European operations. The distressed-buyout structure allowed the new leadership to reset the cost base significantly.\n\nThe item is behind a STAT+ paywall and full details of Genetix's financial position, pipeline status, and patient access arrangements are not available from the lede alone. The story is nonetheless relevant to those tracking the commercial and policy landscape around gene therapy, and to observers of how approved genetic medicines reach patients after developer instability.",
+      "tags": [
+        "gene-therapy",
+        "sickle-cell",
+        "bluebird-bio",
+        "genetix",
+        "biotech-commercial",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors"
+      ],
+      "for_patients": null,
+      "headline": "FDA approves Orca Bio T-cell therapy to reduce graft-versus-host disease risk",
+      "is_preprint": false,
+      "run_date": "2026-07-02",
+      "run_iso": "2026-07-02T09:59:29+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-07-01T11:38:17+00:00",
+        "novelty": 8
+      },
+      "slug": "orca-bio-t-cell-therapy-blood-cancer-fda-approval",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/12/AP20148546857846-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-01T11:38:17+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: FDA approves Orca Bio's T cell therapy for blood cancer patients",
+          "url": "https://www.statnews.com/2026/07/01/fda-approves-orca-bio-treatment-blood-cancer/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Orca Bio has received FDA approval for a T-cell therapy designed to lower the risk of graft-versus-host disease in blood cancer patients undergoing haematopoietic stem cell transplantation.",
+      "summary": "The US Food and Drug Administration has approved a T-cell therapy developed by Orca Bio for use in patients with blood cancers who are undergoing haematopoietic stem cell transplants, according to reporting by STAT News. The therapy is intended to reduce the risk of graft-versus-host disease, a serious and potentially life-threatening immune complication in which transplanted donor cells attack the recipient's tissues.\n\nGraft-versus-host disease is a major cause of morbidity and mortality after allogeneic stem cell transplantation, and options to mitigate it while preserving the graft-versus-tumour effect remain an active area of research and clinical development. Orca Bio's approach involves precision engineering of the donor cell product to alter the composition of immune cell subsets transferred to the recipient.\n\nFull details of the product's mechanism, trial data, and approved indication are behind a STAT+ paywall. The approval is relevant to oncologists managing patients with haematological malignancies, to researchers in transplant immunology, and to genetic counsellors working with hereditary blood cancer families for whom transplant may be a clinical consideration.",
+      "tags": [
+        "blood-cancer",
+        "t-cell-therapy",
+        "graft-versus-host-disease",
+        "stem-cell-transplant",
+        "fda",
+        "haematology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Stargardt disease is an inherited condition that causes progressive loss of central vision. It is caused by faults in a gene called ABCA4. Some people with Stargardt-like symptoms have a change in ABCA4 that scientists cannot yet say for certain is harmful — these are called variants of uncertain significance, or VUS. A new research study (not yet formally reviewed by other scientists) has looked at a part of the ABCA4 protein that has been difficult to study until now, and has tried to work out which changes in that region are likely to cause disease. The aim is to reduce the number of people left without a clear genetic answer. This research is at an early stage and has not yet gone through peer review. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint examines pathogenic impact of ABCA4 missense variants in a structurally uncharacterised domain",
+      "is_preprint": true,
+      "run_date": "2026-07-02",
+      "run_iso": "2026-07-02T09:59:29+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-07-01T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "abca4-vus-stargardt-disease-ecd1-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-01T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Pathogenic impact of ABCA4 missense variants in the structurally uncharacterized ECD1 region: implications for Stargardt disease.",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.25.734683v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers have assessed the functional effects of missense variants of uncertain significance in the ECD1 region of ABCA4, which is implicated in Stargardt disease and other inherited retinal conditions.",
+      "summary": "A preprint deposited on bioRxiv reports new analysis of missense variants of uncertain significance (VUS) in the ABCA4 gene, focusing on the first extracellular domain (ECD1) — a region where limited structural data and inconsistent computational predictions have historically made it difficult to interpret whether a given variant is disease-causing.\n\nPathogenic variants in ABCA4 are the principal cause of Stargardt disease (STGD1), the most common inherited macular dystrophy, as well as several related inherited retinal conditions. Many patients carry at least one ABCA4 variant whose pathogenicity cannot be conclusively established, leaving families and clinicians in diagnostic uncertainty. The ECD1 region contains a disproportionate number of these unresolved variants.\n\nThe preprint authors describe structural and functional analyses aimed at improving interpretation of VUS in this region. The work has not yet been peer-reviewed. If the approach is validated, it could inform the reclassification of variants that currently impede confirmed diagnoses in patients with Stargardt disease or related phenotypes — a matter of direct relevance to genetic counselling practice, and to researchers working on inherited retinal diseases and variant-effect modelling.",
+      "tags": [
+        "abca4",
+        "stargardt-disease",
+        "inherited-retinal-disease",
+        "vus",
+        "variant-interpretation",
+        "structural-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint investigates how P-element transposon drives hybrid dysgenesis in Drosophila simulans germline",
+      "is_preprint": true,
+      "run_date": "2026-07-02",
+      "run_iso": "2026-07-02T09:59:29+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-01T00:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "p-element-hybrid-dysgenesis-drosophila-simulans-germline-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-01T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The impact of P-Element-induced hybrid dysgenesis on the male germline in Drosophila simulans",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735054v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers have characterised the effects of P-element-induced hybrid dysgenesis in Drosophila simulans, finding parallels with and differences from the well-studied D. melanogaster system.",
+      "summary": "A preprint posted to bioRxiv examines hybrid dysgenesis caused by the P-element, a DNA transposon, in Drosophila simulans — a species in which the P-element has independently invaded the genome, providing a natural evolutionary replicate of the process documented in D. melanogaster.\n\nHybrid dysgenesis describes a syndrome of reproductive abnormalities, including sterility, gonadal atrophy, elevated mutation rates, and genome rearrangements, that arises when flies carrying P-elements mate with flies that lack the small regulatory RNAs (piRNAs, associated with PIWI proteins) needed to suppress transposon activity in the germline. The phenotype is cross-direction specific: it is observed when fathers carry P-elements but mothers do not supply suppressing piRNAs, not in the reciprocal cross.\n\nThe work contributes to understanding of how genomes defend against transposable element invasion, and how suppression mechanisms can evolve rapidly after transposon acquisition. The study is relevant to researchers working on germline biology, transposon biology, piRNA pathways, and the evolutionary genetics of host–transposon co-evolution. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "transposable-elements",
+        "pirna",
+        "hybrid-dysgenesis",
+        "drosophila",
+        "germline",
+        "evolutionary-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes carrier-set topology framework to characterise linkage disequilibrium structure",
+      "is_preprint": true,
+      "run_date": "2026-07-02",
+      "run_iso": "2026-07-02T09:59:29+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-07-01T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "carrier-set-topology-linkage-disequilibrium-1000-genomes-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-01T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Formation, persistence, and breakdown of carrier-set topology in linkage disequilibrium: empirical structure in 1000 Genomes and a two locus Wright Fisher model",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.735767v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers argue that standard scalar LD measures such as r² and D' can obscure structurally distinct patterns of haplotype sharing, and propose a geometric framework grounded in 1000 Genomes data.",
+      "summary": "A preprint deposited on bioRxiv introduces a geometric framework for characterising the topology of carrier sets at pairs of biallelic loci — describing whether carriers of one variant are fully nested within, partially overlapping with, or entirely disjoint from carriers of another variant. The authors argue that widely used scalar summaries of linkage disequilibrium (LD), such as r² and D', conflate structurally distinct patterns that have different implications for association mapping, fine-mapping, and population-genetic inference.\n\nThe framework is grounded empirically in data from the 1000 Genomes Project and is also explored through a two-locus Wright–Fisher model. The authors describe how carrier-set topology forms, persists across generations, and breaks down under recombination and drift.\n\nThe work is relevant to statistical geneticists developing fine-mapping and colocalisation methods, to population geneticists studying haplotype structure, and to researchers working on rare-variant association analyses where haplotype nesting patterns can strongly influence power and interpretation. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "linkage-disequilibrium",
+        "haplotype-structure",
+        "statistical-genetics",
+        "population-genetics",
+        "1000-genomes",
+        "fine-mapping",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint maps how shadow enhancers arise from duplication, transposable elements, and splitting in fly and mouse",
+      "is_preprint": true,
+      "run_date": "2026-07-02",
+      "run_iso": "2026-07-02T09:59:29+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-01T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "shadow-enhancers-evolutionary-origins-fly-mouse-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-01T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genome architecture shapes the evolutionary origins of redundant enhancers in fly and mouse",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734851v1?rss=1"
+        }
+      ],
+      "standfirst": "A large-scale comparative analysis identifies three birth mechanisms for shadow enhancers — redundant regulatory elements controlling the same developmental gene — across Drosophila and mouse genomes.",
+      "summary": "A preprint posted to bioRxiv reports a genome-wide investigation into the evolutionary origins of shadow enhancers in Drosophila and mouse. Shadow enhancers are pairs or groups of DNA regulatory elements that independently drive overlapping expression patterns for the same target gene; large-scale surveys have established that they regulate the majority of developmental genes in animal genomes, but how they originate has been less thoroughly studied.\n\nThe authors searched for sequence signatures of three proposed birth mechanisms: duplication of pre-existing enhancers, co-option of transposable elements (TEs), and TE-mediated splitting of a single ancestral enhancer into two. They find that genome architecture — including the three-dimensional organisation of regulatory domains — shapes which mechanism predominates for a given locus.\n\nThe work is relevant to researchers in gene regulation, developmental genetics, and evolutionary genomics, and to those studying the contribution of transposable elements to regulatory innovation. It adds to a growing body of work demonstrating that TEs are not merely selfish genetic elements but contributors to the regulatory repertoire of animal genomes. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "shadow-enhancers",
+        "gene-regulation",
+        "transposable-elements",
+        "genome-architecture",
+        "developmental-genetics",
+        "evolutionary-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-07-01T10:40:49.346928+00:00",
+  "last_run": "2026-07-02T10:01:23.863060+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012039": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012138": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012167": "2026-06-18T11:08:44.584825+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170": "2026-06-30T10:32:09.232395+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012195": "2026-06-17T11:46:10.404585+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012196": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012199": "2026-06-23T10:36:51.718215+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012200": "2026-06-26T10:23:44.148466+00:00",
@@ -9387,18 +9644,12 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012215": "2026-06-24T10:21:41.944832+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012216": "2026-06-27T09:27:23.260477+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012217": "2026-06-30T10:32:09.232395+00:00",
-    "https://news.cancerresearchuk.org/2026/06/17/sabr-radiotherapy-slashes-the-time-needed-to-treat-some-early-stage-prostate-cancers/": "2026-06-17T11:46:10.404585+00:00",
     "https://news.cancerresearchuk.org/2026/06/18/from-tokenism-to-trust-what-inclusive-research-looks-like/": "2026-06-19T11:20:37.472426+00:00",
     "https://news.cancerresearchuk.org/2026/06/18/new-data-shows-the-hpv-vaccine-is-saving-lives-from-cervical-cancer/": "2026-06-18T11:08:44.584825+00:00",
     "https://news.cancerresearchuk.org/2026/06/22/data-science-new-data-strategy-hails-exciting-future/": "2026-06-23T10:36:51.718215+00:00",
     "https://news.cancerresearchuk.org/2026/06/22/rewiring-the-life-sciences-why-foundations-come-first-for-ai-in-science/": "2026-06-23T10:36:51.718215+00:00",
     "https://news.cancerresearchuk.org/2026/06/29/latest-winner-in-our-research-is-beautiful-competition-4/": "2026-06-30T10:32:09.232395+00:00",
     "https://news.cancerresearchuk.org/2026/06/30/is-there-a-link-between-faster-ageing-and-early-onset-cancer-risk/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.12.731808v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.12.731975v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.12.731976v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.12.731989v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.13.731611v1?rss=1": "2026-06-17T11:46:10.404585+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.15.729614v1?rss=1": "2026-06-20T10:08:51.596294+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.15.731517v1?rss=1": "2026-06-20T10:08:51.596294+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.15.732226v1?rss=1": "2026-06-22T12:47:56.856911+00:00",
@@ -9425,18 +9676,25 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.24.734305v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.25.734236v1?rss=1": "2026-07-01T10:40:49.346928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.25.734557v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.25.734683v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.26.734650v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.26.734753v1?rss=1": "2026-06-29T11:57:18.025584+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.26.734831v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.26.734851v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.27.734959v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.27.734984v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.28.735054v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.01.735767v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.england.nhs.uk/2026/06/impact-of-medical-training-prioritisation-act-on-specialty-training-recruitment/": "2026-06-22T12:47:56.856911+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-ae-blood-testing-finds-2000-unidentified-hiv-cases-in-first-4-years/": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.england.nhs.uk/2026/06/nhs-braces-jump-post-match-ae-visits/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-hay-fever-advice-searches-double-as-temperatures-rise-during-world-cup/": "2026-06-21T10:28:38.076878+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-offer-new-immunotherapy-hundreds-women-with-aggressive-cervical-cancer/": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260614012011.htm": "2026-06-17T11:46:10.404585+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260616102217.htm": "2026-06-17T11:46:10.404585+00:00",
+    "https://www.england.nhs.uk/2026/07/thousands-more-vulnerable-adults-to-be-offered-rsv-vaccine-to-prevent-serious-lung-infection/": "2026-07-02T10:01:23.863060+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260617032207.htm": "2026-06-18T11:08:44.584825+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260618041504.htm": "2026-06-27T09:27:23.260477+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260618041515.htm": "2026-06-20T10:08:51.596294+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260619101349.htm": "2026-06-21T10:28:38.076878+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260619101356.htm": "2026-07-02T10:01:23.863060+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100317.htm": "2026-06-30T10:32:09.232395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100422.htm": "2026-06-21T10:28:38.076878+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100432.htm": "2026-06-22T12:47:56.856911+00:00",
@@ -9448,24 +9706,16 @@
     "https://www.sciencedaily.com/releases/2026/06/260623083116.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260626124703.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260630020521.htm": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/16/biotech-news-arch-launched-neumora-stops-depression-program/": "2026-06-17T11:46:10.404585+00:00",
-    "https://www.statnews.com/2026/06/16/how-biotech-turned-trial-failure-ai-model-health-tech/": "2026-06-17T11:46:10.404585+00:00",
-    "https://www.statnews.com/2026/06/16/us-infant-mortality-rate-all-time-low/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/17/biotech-news-fda-appears-open-to-moderna-flu-shot/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/china-biotech-pharma-us-venture-capital/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/17/china-biotech-pharma-us-venture-capital/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/congenital-syphilis-rates-mothers-babies-policy/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/17/ftc-gender-affirming-lawsuit-targets-wpath/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/health-care-one-word-or-two-stat-style/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/17/health-care-one-word-or-two-stat-style/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/17/health-news-trump-administration-brings-special-ed-to-hhs/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/huntingtons-disease-uniqure-drug-fda-review/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/17/huntingtons-disease-uniqure-drug-fda-review/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/17/is-scribe-developer-abridge-patient-centered-ai-prognosis/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/17/luigi-mangione-psychiatric-defense-murder-case-unitedhealthcare-ceo-killing/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/17/nih-diversity-programs-terminated-despite-success-study-shows/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/17/ohiohealth-antitrust-settlement-doj-ohio-attorney-general/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/oncology-joy-doctor-patient-relationship/": "2026-06-17T11:46:10.404585+00:00",
     "https://www.statnews.com/2026/06/17/rfk-new-mental-health-funding-or-new-use-existing-grants/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/18/ai-energy-water-usage-public-health-electricity-policy/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/18/biotech-news-cambrians-experimental-longevity-drug-mimics-exercise/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
@@ -9565,7 +9815,9 @@
     "https://www.statnews.com/2026/06/29/vijay-kumar-exits-fda-office-of-therapeutic-products/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/abivax-obefazimod-ulcerative-colitis-maintenance-trial-safety-data/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/30/anthropic-ai-drug-development/": "2026-07-01T10:40:49.346928+00:00",
+    "https://www.statnews.com/2026/06/30/anthropic-ai-drug-development/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/": "2026-07-01T10:40:49.346928+00:00",
+    "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/06/30/biotech-news-investors-double-down-on-bain-backed-capital/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/florida-ekg-law-high-school-athletes/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/30/graduate-student-loan-caps-health-care-nursing-chiropractors/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
@@ -9576,11 +9828,27 @@
     "https://www.statnews.com/2026/06/30/medicare-medicaid-glp1-costs-explained-balance-out-bridge-in/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/30/nih-all-of-us-program-taps-ehr-records-fill-data-gaps/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/republican-tom-kean-jr-reveals-depression-after-absence-from-congress/": "2026-07-01T10:40:49.346928+00:00",
+    "https://www.statnews.com/2026/06/30/republican-tom-kean-jr-reveals-depression-after-absence-from-congress/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/alcohol-lobby-immense-power-explored-deadliest-drug-part-7/": "2026-07-01T10:40:49.346928+00:00",
+    "https://www.statnews.com/2026/07/01/alcohol-lobby-immense-power-explored-deadliest-drug-part-7/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/01/anthropic-claude-science-convinced-me-its-serious-ai-prognosis/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/01/biotech-news-glp-1s-may-help-with-peripheral-artery-disease/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/ebola-virus-outbreak-bundibugyo-marburg-testing-krutika-kuppalli/": "2026-07-01T10:40:49.346928+00:00",
+    "https://www.statnews.com/2026/07/01/ebola-virus-outbreak-bundibugyo-marburg-testing-krutika-kuppalli/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/01/fda-approves-orca-bio-treatment-blood-cancer/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/01/health-news-fda-says-zyn-can-market-pouches-as-safer-than-cigarettes/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/01/lancet-obesity-blood-pressure-cholesterol-study/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/q3-biotech-scorecard-readouts-approval-decisions/": "2026-07-01T10:40:49.346928+00:00",
+    "https://www.statnews.com/2026/07/01/q3-biotech-scorecard-readouts-approval-decisions/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/01/synthethic-biology-researcher-announce-creation-spud-cells/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/young-men-mental-health-loneliness-despair-maryland-wes-moore/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/16/medicare-obesity-drugs-germany-pricing-plans/": "2026-06-17T11:46:10.404585+00:00",
+    "https://www.statnews.com/2026/07/01/young-men-mental-health-loneliness-despair-maryland-wes-moore/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/02/fda-ai-guidance-pharma-industry-caution-tala-fakhouri-explains/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/02/fda-clearance-raises-questions-updoc-use-generative-ai-diabetes-treatment/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/02/genetix-david-meek-bluebird-bio-turnaround-effort/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/02/measuring-vaccine-effectiveness-test-negative-design-cdc/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/02/presidential-fitness-test-will-it-boost-physical-activity-youth/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/02/teens-chatbots-mental-health-rules-bans/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/pharmalot/2026/06/17/advocates-petition-fda-withdraw-approval-unsafe-use-antibiotics-given-livestock/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/pharmalot/2026/06/17/hackers-extorting-novo-fda-about-face-on-uniqure-drug/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/pharmalot/2026/06/18/eli-lilly-340b-hospitals-drug-discount-price-breaks-eliminated/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
@@ -9595,7 +9863,8 @@
     "https://www.statnews.com/pharmalot/2026/06/26/up-down-ladder-jobs-pharma-biotech-sanofi-biogen-lilly-pfizer/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
     "https://www.statnews.com/pharmalot/2026/06/29/astrazeneca-kickback-charges-texas-settlement/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/pharmalot/2026/06/29/insulin-cap-revival-former-fda-cancer-drug-chief/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/30/china-clinical-trials-probe-rfk-jr-peptides-compounders/": "2026-07-01T10:40:49.346928+00:00"
+    "https://www.statnews.com/pharmalot/2026/06/30/china-clinical-trials-probe-rfk-jr-peptides-compounders/": "2026-07-01T10:40:49.346928+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/01/anthropic-drug-development-goals-trump-plan-hitting-snag/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00"
   },
   "takedowns": []
 }
