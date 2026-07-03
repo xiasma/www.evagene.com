@@ -9624,13 +9624,233 @@
         "evolutionary-genomics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Neurofibromatosis type 1 (NF1) is a genetic condition caused by changes in a gene called NF1. It can cause growths on nerves, skin changes, and other health effects. Researchers have published early-stage laboratory results describing a new approach to treating a specific type of NF1 mutation. The method uses a specially engineered virus to deliver instructions that tell cells to skip over the faulty section of the NF1 gene, potentially allowing the gene to produce a more functional protein.\n\nThe experiments were carried out in mice that had been given human versions of the gene, not in people. Three different viral delivery vehicles were tested, and one — called AAV-F — worked better than the others at getting the instructions into cells and producing the desired effect.\n\nThis is very early-stage research. It has not yet been reviewed by independent scientists, and there is no approved therapy based on this approach. Researchers say it is a step towards eventual trials in people, but that will require further testing.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "AAV-delivered exon-skipping vector shows preclinical promise for NF1 mutation",
+      "is_preprint": true,
+      "run_date": "2026-07-03",
+      "run_iso": "2026-07-03T09:54:24+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-07-02T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "nf1-exon-17-skipping-aav-preclinical",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-02T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Preclinical translation of Neurofibromatosis type 1 (NF1) exon 17 skipping using targeted U7-SnRNA packaged into engineered AAV serotypes.",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.29.734312v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes an AAV-U7-SnRNA approach to skip exon 17 of the NF1 gene, with AAV-F capsid outperforming AAV-9 and AAV-B1 in biodistribution and exon-skipping efficiency in humanised mouse models.",
+      "summary": "Researchers have published a preprint on bioRxiv describing preclinical work aimed at advancing exon-skipping therapy for Neurofibromatosis type 1 (NF1), a condition caused by loss-of-function variants in the NF1 gene encoding neurofibromin. The study focuses on NF1 exon 17, where specific pathogenic mutations could theoretically be addressed by inducing the cell's splicing machinery to skip the affected exon and restore a partially functional reading frame.\n\nThe team developed antisense oligonucleotides (ASOs) targeting NF1 exon 17 and packaged them within a U7-SnRNA expression cassette delivered by three adeno-associated virus (AAV) capsids — AAV-9, AAV-F, and AAV-B1. A reporter cassette linking luciferase and eGFP via a T2A peptide enabled direct tracking of vector biodistribution and exon-skipping activity in vivo using humanised mouse models.\n\nAmong the capsids tested, AAV-F demonstrated superior biodistribution and exon-skipping efficacy compared with AAV-9 and AAV-B1. The authors frame these findings as a step towards in vivo testing and eventual clinical translation, though the work remains at the preclinical stage and has not yet been peer-reviewed. NF1 affects approximately 1 in 3,000 individuals and is associated with tumour predisposition, neurodevelopmental features, and variable expressivity; mutation-specific therapeutic strategies of this kind represent an active area of research.",
+      "tags": [
+        "nf1",
+        "neurofibromatosis",
+        "exon-skipping",
+        "aav",
+        "antisense-oligonucleotides",
+        "rare-disease",
+        "gene-therapy",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "CATaN framework jointly models transcription factor networks and transcriptomes to map complex disease heritability",
+      "is_preprint": true,
+      "run_date": "2026-07-03",
+      "run_iso": "2026-07-03T09:54:24+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-02T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "catan-tf-gene-regulatory-networks-disease-heritability",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-02T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "CATaN maps gene regulatory programs that shape genetic risk across complex diseases",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735120v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint introduces CATaN, a computational method that integrates transcription factor gene regulatory networks with transcriptomic data to identify how causal variants at TF binding sites contribute to heritable disease risk.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing CATaN (Causal variant Analysis via Transcription factor Networks), a framework designed to bridge two streams of genomic analysis that have largely been pursued separately: transcription factor gene regulatory networks (TF-GRNs) and transcriptome-wide association data.\n\nGenome-wide association studies (GWAS) have established that causal variants for complex traits are disproportionately enriched at transcription factor binding sites, suggesting that many disease-associated variants act by disrupting TF activity and, in turn, altering gene expression programmes. However, existing methods typically assess TF-GRNs or transcriptomes independently. CATaN constructs a matrix jointly encoding TF-GRN structure and transcriptomic data, then uses this representation to quantify how much of a trait's heritability can be attributed to specific regulatory programmes.\n\nThe authors report that CATaN can identify disease-relevant regulatory programmes across multiple complex diseases, potentially helping to prioritise causal variants and the transcription factors that mediate their effects. The preprint has not yet been peer-reviewed. Methods of this kind are relevant to statistical genetics and computational genomics researchers working on GWAS fine-mapping, gene regulation, and the functional interpretation of non-coding variants — a persistent challenge in translating association signals into mechanistic understanding.",
+      "tags": [
+        "transcription-factors",
+        "gene-regulatory-networks",
+        "gwas",
+        "heritability",
+        "non-coding-variants",
+        "statistical-genetics",
+        "computational-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Study finds incomplete redundancy and functional networks among 14 TLO paralogs in Candida albicans",
+      "is_preprint": true,
+      "run_date": "2026-07-03",
+      "run_iso": "2026-07-03T09:54:24+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 4,
+        "newest_iso": "2026-07-02T00:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "candida-albicans-tlo-paralog-gene-family-redundancy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-02T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Paralogs of the Candida albicans TLO gene family form interconnected functional networks with incomplete redundancy",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.06.29.735307v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint characterising single-deletion mutants for each member of the TLO gene family in the fungal pathogen Candida albicans reveals interconnected functional networks with only partial redundancy among paralogs.",
+      "summary": "A preprint posted to bioRxiv investigates the functional organisation of the TLO (TeLOmere-associated) gene family in Candida albicans, an opportunistic fungal pathogen. The TLO family comprises 14 paralogs — genes that are related by descent through duplication events — making it an unusual system for studying how gene families evolve and how redundancy among duplicates is maintained or lost over time.\n\nThe research group constructed a panel of single-deletion mutants, removing each of the 14 TLO members individually, and assessed the consequences for fitness and gene regulatory function. Their findings indicate that the 14 paralogs form interconnected functional networks rather than operating as simple, interchangeable copies of one another. Redundancy among them is incomplete: loss of individual members produces distinct phenotypic consequences, suggesting that repeated duplication has produced functional diversification alongside retained overlap.\n\nThe work is framed within broader questions about gene family evolution: when gene duplication does confer a selective advantage, what prevents the system from collapsing into full redundancy, and what constrains the emergence of new paralogs with entirely novel function? The preprint has not yet been peer-reviewed. The findings are relevant to researchers studying fungal genetics, gene family evolution, and the evolutionary genetics of gene duplication and subfunctionalisation.",
+      "tags": [
+        "candida-albicans",
+        "gene-duplication",
+        "paralogs",
+        "fungal-genetics",
+        "tlo-gene-family",
+        "subfunctionalisation",
+        "evolutionary-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint links disrupted glycosylation and deglycosylation to impaired sperm function in zebrafish",
+      "is_preprint": true,
+      "run_date": "2026-07-03",
+      "run_iso": "2026-07-03T09:54:24+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 4,
+        "newest_iso": "2026-07-02T00:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "glycosylation-sperm-zebrafish-cdg",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-02T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Effects of Deficient Glycosylation and Deglycosylation on Sperm Condition in Zebrafish (Danio rerio)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.735899v1?rss=1"
+        }
+      ],
+      "standfirst": "Using Danio rerio as a model organism, researchers describe how enzyme deficiencies affecting oligosaccharide assembly and breakdown impair sperm condition through protein aggregation and oxidative stress, with potential relevance to understanding human male infertility in congenital disorders of glycosylation.",
+      "summary": "A preprint on bioRxiv reports findings from a zebrafish (Danio rerio) study examining how deficiencies in glycosylation and deglycosylation — the enzymatic processes that attach and remove oligosaccharide chains from proteins — affect sperm biology. The work is motivated by congenital disorders of glycosylation (CDGs) and congenital disorders of deglycosylation (CDDGs), rare and often serious human conditions in which loss-of-function variants disrupt these enzymatic pathways.\n\nThe authors' proposed mechanism centres on the downstream consequences of failed oligosaccharide processing: abnormal protein folding leads to protein aggregates, which in turn generate reactive oxygen species (ROS). Because sperm cells contain unusually high concentrations of polyunsaturated fatty acids and are therefore especially sensitive to oxidative stress, the authors suggest that CDG- and CDDG-related enzyme deficiencies may impair sperm condition through this pathway, contributing to male infertility.\n\nZebrafish were used as a model because sperm development in Danio rerio shares molecular features with mammalian spermatogenesis while offering experimental tractability. The preprint has not yet been peer-reviewed. Researchers working on CDGs, reproductive genetics, or zebrafish biology will find the mechanistic framing of interest, and the findings may inform future understanding of fertility in individuals with these rare conditions.",
+      "tags": [
+        "glycosylation",
+        "cdg",
+        "congenital-disorders-of-glycosylation",
+        "zebrafish",
+        "spermatogenesis",
+        "male-infertility",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Roche drug reported to set new treatment standard for KRAS-driven non-small-cell lung cancer",
+      "is_preprint": false,
+      "run_date": "2026-07-03",
+      "run_iso": "2026-07-03T09:54:24+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-07-02T14:13:27+00:00",
+        "novelty": 7
+      },
+      "slug": "roche-kras-lung-cancer-new-standard",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2020/04/GettyImages-138036935-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-02T14:13:27+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Roche drug sets new standard for KRAS-driven lung cancer",
+          "url": "https://www.statnews.com/2026/07/02/biotech-news-roche-drug-sets-new-standard-for-kras-driven-lung-cancer/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "STAT News reports that a Roche drug targeting KRAS-mutant lung cancer has demonstrated results sufficient to be described as a new standard of care, in a development with implications for hereditary cancer research and somatic genomics.",
+      "summary": "STAT News reports that a Roche therapeutic has demonstrated efficacy in KRAS-mutant non-small-cell lung cancer (NSCLC) sufficient to be characterised as establishing a new standard of care in this molecularly defined subgroup. The lede of STAT's broader industry digest also notes activity from Vertex in gene therapy and signals of broader strength in the biotech sector.\n\nKRAS is among the most frequently mutated oncogenes in human cancer, and somatic KRAS variants in lung, pancreatic, and colorectal cancers have historically been considered difficult to target pharmacologically. The emergence of direct KRAS inhibitors — beginning with the FDA approval of sotorasib in 2021 — has changed the therapeutic landscape; the Roche drug appears to represent a further development in this space, though full trial data and regulatory submissions were not detailed in the reporting available.\n\nThe content in question is behind a STAT+ paywall, limiting the depth of detail available from the lede alone. The KRAS story is of interest to oncologists and cancer-genetics researchers tracking how somatic genomic characterisation of tumours is shaping treatment decisions, and to educators and students studying the translation of cancer genomics into targeted therapy. Germline KRAS variants are also associated with RASopathies, though this report pertains to somatic tumour biology.",
+      "tags": [
+        "kras",
+        "lung-cancer",
+        "nsclc",
+        "somatic-genomics",
+        "targeted-therapy",
+        "oncology",
+        "cancer-genomics"
+      ]
     }
   ],
-  "last_run": "2026-07-02T10:01:23.863060+00:00",
+  "last_run": "2026-07-03T09:55:56.409815+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012039": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012138": "2026-06-19T11:20:37.472426+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012167": "2026-06-18T11:08:44.584825+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012196": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012199": "2026-06-23T10:36:51.718215+00:00",
@@ -9638,14 +9858,12 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012204": "2026-07-01T10:40:49.346928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012207": "2026-06-26T10:23:44.148466+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012208": "2026-06-30T10:32:09.232395+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012209": "2026-06-18T11:08:44.584825+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012210": "2026-06-19T11:20:37.472426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012213": "2026-06-23T10:36:51.718215+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012215": "2026-06-24T10:21:41.944832+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012216": "2026-06-27T09:27:23.260477+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012217": "2026-06-30T10:32:09.232395+00:00",
     "https://news.cancerresearchuk.org/2026/06/18/from-tokenism-to-trust-what-inclusive-research-looks-like/": "2026-06-19T11:20:37.472426+00:00",
-    "https://news.cancerresearchuk.org/2026/06/18/new-data-shows-the-hpv-vaccine-is-saving-lives-from-cervical-cancer/": "2026-06-18T11:08:44.584825+00:00",
     "https://news.cancerresearchuk.org/2026/06/22/data-science-new-data-strategy-hails-exciting-future/": "2026-06-23T10:36:51.718215+00:00",
     "https://news.cancerresearchuk.org/2026/06/22/rewiring-the-life-sciences-why-foundations-come-first-for-ai-in-science/": "2026-06-23T10:36:51.718215+00:00",
     "https://news.cancerresearchuk.org/2026/06/29/latest-winner-in-our-research-is-beautiful-competition-4/": "2026-06-30T10:32:09.232395+00:00",
@@ -9684,13 +9902,17 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.27.734959v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.27.734984v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.28.735054v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.28.735120v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.29.734312v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.06.29.735307v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735767v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.01.735899v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
     "https://www.england.nhs.uk/2026/06/impact-of-medical-training-prioritisation-act-on-specialty-training-recruitment/": "2026-06-22T12:47:56.856911+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-ae-blood-testing-finds-2000-unidentified-hiv-cases-in-first-4-years/": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-hay-fever-advice-searches-double-as-temperatures-rise-during-world-cup/": "2026-06-21T10:28:38.076878+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-offer-new-immunotherapy-hundreds-women-with-aggressive-cervical-cancer/": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.england.nhs.uk/2026/07/nhs-to-overhaul-patient-communications-and-end-farce-of-invitations-arriving-after-appointment/": "2026-07-03T09:55:56.409815+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-more-vulnerable-adults-to-be-offered-rsv-vaccine-to-prevent-serious-lung-infection/": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260617032207.htm": "2026-06-18T11:08:44.584825+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260618041504.htm": "2026-06-27T09:27:23.260477+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260618041515.htm": "2026-06-20T10:08:51.596294+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260619101349.htm": "2026-06-21T10:28:38.076878+00:00",
@@ -9701,25 +9923,14 @@
     "https://www.sciencedaily.com/releases/2026/06/260621060301.htm": "2026-06-22T12:47:56.856911+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060307.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060313.htm": "2026-06-24T10:21:41.944832+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260622014315.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014014.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083113.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083116.htm": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260624115324.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260626124703.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260630020521.htm": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/17/biotech-news-fda-appears-open-to-moderna-flu-shot/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/china-biotech-pharma-us-venture-capital/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/ftc-gender-affirming-lawsuit-targets-wpath/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/health-care-one-word-or-two-stat-style/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/health-news-trump-administration-brings-special-ed-to-hhs/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/huntingtons-disease-uniqure-drug-fda-review/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/is-scribe-developer-abridge-patient-centered-ai-prognosis/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/luigi-mangione-psychiatric-defense-murder-case-unitedhealthcare-ceo-killing/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/nih-diversity-programs-terminated-despite-success-study-shows/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/ohiohealth-antitrust-settlement-doj-ohio-attorney-general/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/17/rfk-new-mental-health-funding-or-new-use-existing-grants/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/18/ai-energy-water-usage-public-health-electricity-policy/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/18/biotech-news-cambrians-experimental-longevity-drug-mimics-exercise/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
-    "https://www.statnews.com/2026/06/18/byheart-nara-botulism-outbreaks-premium-baby-formula-safety/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/18/do-wearables-actually-help-people-with-cardiovascular-disease/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/2026/06/18/ebola-outbreak-congo-uganda-cases-increase-death-toll/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/2026/06/18/fda-mrna-flu-vaccine-vrbpac-advisers-endorse-moderna-shots/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
@@ -9727,12 +9938,7 @@
     "https://www.statnews.com/2026/06/18/how-many-americans-can-afford-their-healthcare/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/2026/06/18/huntingtons-disease-uniqure-rfk-jr-readout-loud-podcast/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/2026/06/18/medicare-advantage-star-ratings-recalculated-volatility-industry-lawsuits/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
-    "https://www.statnews.com/2026/06/18/nitazenes-deadly-synthetic-opioids-rapid-spread-united-states/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/18/patrick-soon-shiong-pancreatic-cancer-abivax-concerns/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/18/rfk-jr-vaccine-policy-probe-senate-democrats/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/18/shingles-vaccine-may-lower-dementia-risk-new-study/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
-    "https://www.statnews.com/2026/06/18/strategic-health-diplomacy-congress-oversight-ebola-hantavirus/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/2026/06/18/weight-loss-drug-market-update-status-report-alex-hogan/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/2026/06/19/daraxonrasib-pancreatic-cancer-miracle-drug-oncosystems-ai/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/2026/06/19/federal-grant-delays-jeopardize-essential-disability-services-research/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/2026/06/19/maternity-desert-physician-shortage-obstetrics-pregnancy-residency-south-dakota/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
@@ -9843,14 +10049,18 @@
     "https://www.statnews.com/2026/07/01/synthethic-biology-researcher-announce-creation-spud-cells/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/young-men-mental-health-loneliness-despair-maryland-wes-moore/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/07/01/young-men-mental-health-loneliness-despair-maryland-wes-moore/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/02/biotech-news-roche-drug-sets-new-standard-for-kras-driven-lung-cancer/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.statnews.com/2026/07/02/biotech-sector-booms-capricor-fda-meeting/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.statnews.com/2026/07/02/degette-loses-to-kiros-pharma-presidential-fitness-test-dc-diagnosis/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.statnews.com/2026/07/02/elevance-lawsuit-medicare-advantage-star-ratings-clover/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/2026/07/02/fda-ai-guidance-pharma-industry-caution-tala-fakhouri-explains/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/02/fda-clearance-raises-questions-updoc-use-generative-ai-diabetes-treatment/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/02/genetix-david-meek-bluebird-bio-turnaround-effort/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/02/health-news-frequent-intense-heat-waves-pose-health-risks-for-americans/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/2026/07/02/measuring-vaccine-effectiveness-test-negative-design-cdc/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/02/medicare-hospital-payment-340b-drugs-cut/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/2026/07/02/presidential-fitness-test-will-it-boost-physical-activity-youth/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/02/teens-chatbots-mental-health-rules-bans/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/17/advocates-petition-fda-withdraw-approval-unsafe-use-antibiotics-given-livestock/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/17/hackers-extorting-novo-fda-about-face-on-uniqure-drug/?utm_campaign=rss": "2026-06-18T11:08:44.584825+00:00",
     "https://www.statnews.com/pharmalot/2026/06/18/eli-lilly-340b-hospitals-drug-discount-price-breaks-eliminated/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/pharmalot/2026/06/18/fda-panel-vote-moderna-flu-vaccine-jnj-cancer-drugs/?utm_campaign=rss": "2026-06-19T11:20:37.472426+00:00",
     "https://www.statnews.com/pharmalot/2026/06/19/up-and-down-the-ladder-jobs-bristol-novartis-pfizer-moderna-astrazeneca/?utm_campaign=rss": "2026-06-20T10:08:51.596294+00:00",
@@ -9864,7 +10074,11 @@
     "https://www.statnews.com/pharmalot/2026/06/29/astrazeneca-kickback-charges-texas-settlement/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/pharmalot/2026/06/29/insulin-cap-revival-former-fda-cancer-drug-chief/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/pharmalot/2026/06/30/china-clinical-trials-probe-rfk-jr-peptides-compounders/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/01/anthropic-drug-development-goals-trump-plan-hitting-snag/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/01/anthropic-drug-development-goals-trump-plan-hitting-snag/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/02/amgen-court-win-novo-seeking-supplier-discounts/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/02/judge-blocks-colorado-price-cap-on-amgen-enbrel/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/02/lawmakers-urge-lilly-to-provide-340b-drug-discounts-to-hospitals/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/02/pharma-biotech-jobs-ladder-vertex-gilead-astrazeneca-lilly/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00"
   },
   "takedowns": []
 }
