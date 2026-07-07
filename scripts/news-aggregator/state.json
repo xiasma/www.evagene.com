@@ -9889,9 +9889,183 @@
         "statistical-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers have described a gene called DEAF1 that appears to play a role in how muscles age. A gene is a set of instructions inside cells that tells the body how to make proteins and carry out biological tasks. According to this study, exercise seems to reduce the activity of the DEAF1 gene in older muscles, which then allows those muscles to clear out damage and repair themselves more efficiently. The scientists describe DEAF1 as a kind of switch: when it is active, muscle maintenance is less effective; exercise appears to turn the switch down. The research was carried out in a laboratory setting, and scientists will need to do further work to understand whether this mechanism works the same way in people and what it might mean in practice. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Reducing DEAF1 gene activity identified as mechanism behind exercise benefits in ageing muscle",
+      "is_preprint": false,
+      "run_date": "2026-07-07",
+      "run_iso": "2026-07-07T10:23:01Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 5,
+        "newest_iso": "2026-07-06T16:51:32Z",
+        "novelty": 7
+      },
+      "slug": "deaf1-gene-exercise-muscle-ageing-molecular-switch",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-06T16:51:32Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover why exercise reverses muscle aging",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260623014026.htm"
+        }
+      ],
+      "standfirst": "Researchers have described a molecular pathway by which physical activity preserves muscle function in older tissue, centred on suppression of the transcription factor DEAF1.",
+      "summary": "A study reported by ScienceDaily describes findings in which researchers identified the DEAF1 gene — encoding a transcription factor — as a key mediator of exercise-induced muscle maintenance during ageing. According to the report, physical activity suppresses DEAF1 expression in older muscle tissue, which in turn allows cellular quality-control processes, including the clearance of damaged proteins and organelles, to operate more effectively. The researchers characterise DEAF1 as a molecular \"switch\" that, when active, impairs the muscle's capacity for self-repair; exercise appears to turn that switch off.\n\nThe report does not specify the primary journal or lead institution in the ScienceDaily summary available, and readers seeking full methodological detail are encouraged to consult the primary publication. The work is described as using molecular and genetic approaches in ageing muscle models, though the precise model system is not stated in the lede.\n\nFor the genetics and genomics audience, the finding illustrates how gene-expression regulation — rather than structural genomic change — can underlie age-associated tissue decline, and points to DEAF1 as a potential subject for further functional study in the context of sarcopenia research. The study adds to a growing body of work examining how transcriptional programmes shift with age and respond to environmental stimuli such as exercise.",
+      "tags": [
+        "deaf1",
+        "muscle-ageing",
+        "sarcopenia",
+        "transcription-factor",
+        "exercise-genomics",
+        "gene-expression",
+        "ageing"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "3D structures of two rye pollen molecules resolved after 30-year search, opening immunology research avenues",
+      "is_preprint": false,
+      "run_date": "2026-07-07",
+      "run_iso": "2026-07-07T10:23:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-07-06T16:40:01Z",
+        "novelty": 7
+      },
+      "slug": "rye-pollen-molecule-3d-structure-tumour-immunology",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-06T16:40:01Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists solve a 30-year rye pollen mystery that could transform cancer research",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260625014838.htm"
+        }
+      ],
+      "standfirst": "Researchers have determined the precise three-dimensional structures of two natural compounds from rye pollen that showed anti-tumour activity in earlier animal studies, providing a molecular blueprint for further investigation.",
+      "summary": "A study reported by ScienceDaily describes the resolution of a structural biology puzzle that had remained open for approximately 30 years. Two unusual molecules found in rye pollen, which previously demonstrated an ability to affect tumour growth in animal models, have had their exact three-dimensional structures determined. According to the report, the structural data provide a blueprint that researchers can now use to investigate how the compounds interact with the immune system and to identify which molecular substructures may underlie the observed biological activity.\n\nThe ScienceDaily summary does not specify the lead institution, primary authors, or journal of publication. Readers wishing to examine the methodology and full data should seek the primary paper. The relevance to cancer research is described as investigational: the compounds' effects have been observed in animal studies, and the structural work is a step towards understanding the underlying mechanism rather than a demonstration of therapeutic application in humans.\n\nFor researchers in chemical biology, structural genomics, and cancer immunology, the finding is of interest because it exemplifies how advances in structural determination techniques — likely cryo-electron microscopy or X-ray crystallography, though this is not confirmed in the available summary — can reopen longstanding questions about natural-product biology. The work has potential relevance for future mechanistic and drug-discovery research rather than near-term clinical translation.",
+      "tags": [
+        "structural-biology",
+        "natural-products",
+        "tumour-immunology",
+        "rye-pollen",
+        "chemical-biology",
+        "animal-models"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Multi-trait genomic prediction improves selection accuracy for yield traits in cassava breeding panel",
+      "is_preprint": true,
+      "run_date": "2026-07-07",
+      "run_iso": "2026-07-07T10:23:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-06T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "cassava-multi-trait-genomic-prediction-snp-panel",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Enhancing predictive accuracy of yield traits in cassava through multi-trait genomic prediction",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.735838v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using 1,078 Brazilian cassava clones and 25,923 SNPs finds that multi-trait GBLUP models outperform single-trait approaches for agronomically important but costly-to-phenotype traits.",
+      "summary": "A preprint posted to bioRxiv describes an evaluation of multi-trait genomic prediction (MT-GBLUP) against single-trait (ST-GBLUP) models in a Brazilian cassava breeding panel comprising 1,078 clones genotyped with 25,923 single-nucleotide polymorphisms (SNPs) and phenotyped for six agronomic traits. The authors used stage-wise mixed models to generate best linear unbiased estimates (BLUEs) as inputs to both model types, then applied five cross-validation schemes designed to reflect realistic breeding scenarios.\n\nThe cross-validation strategies tested include a baseline single-trait scheme (CV1), a naive multi-trait prediction for unphenotyped candidates (CV2), and additional scenarios that exploit auxiliary trait information to varying degrees. According to the preprint's lede, the multi-trait framework consistently improved predictive accuracy compared with single-trait modelling, particularly for traits that are expensive or time-consuming to phenotype directly in the field.\n\nCassava is a major staple crop in tropical regions, and improving genomic selection efficiency has direct relevance for food security breeding programmes. For researchers in plant genetics, quantitative genetics, and genomic prediction methodology, the work offers a comparison of model architectures under conditions that reflect real breeding-pipeline constraints. The use of a clonally propagated species also presents particular modelling considerations, as standard assumptions about random mating do not apply. This is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "genomic-prediction",
+        "gblup",
+        "cassava",
+        "plant-genetics",
+        "quantitative-genetics",
+        "snp-panel",
+        "crop-breeding",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "FIR-GWAS framework detects previously unrecognised domain-level organisation in GWAS summary statistics",
+      "is_preprint": true,
+      "run_date": "2026-07-07",
+      "run_iso": "2026-07-07T10:23:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-06T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "fir-gwas-domain-level-organisation-summary-statistics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Detecting domain-level organization in genome-wide association study summary statistics using frequency-impact-reliability profiles",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.735858v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces FIR-GWAS, which integrates allele frequency, effect magnitude, and statistical reliability to reveal spatially continuous structure along genomic coordinates in existing GWAS datasets.",
+      "summary": "A preprint posted to bioRxiv introduces FIR-GWAS, a computational framework that reanalyses genome-wide association study (GWAS) summary statistics to identify what the authors describe as previously unrecognised domain-level organisation. Conventional GWAS interpretation focuses on single-variant significance thresholds and locus-level peaks, treating summary statistics as largely independent signals. The FIR-GWAS approach instead integrates three dimensions of information — allele frequency, effect magnitude, and statistical reliability — to generate frequency-impact-reliability (FIR) profiles, and then quantifies the spatial continuity of these profiles along genomic coordinates.\n\nThe preprint reports that applying FIR-GWAS to a large European-ancestry height GWAS reveals structured organisation not captured by standard single-variant or locus-based analyses. The authors argue this reflects genuine local genetic-statistical architecture rather than artefact, though independent replication and peer review will be required to establish this claim.\n\nFor researchers working in statistical genetics, fine-mapping, and the interpretation of GWAS summary data, the framework represents a methodological proposal worth evaluating, particularly if domain-level structure proves consistent across traits and ancestries. The approach has potential implications for how loci are prioritised for functional follow-up and for understanding the polygenic architecture of complex traits. The preprint has not yet been peer-reviewed, and the results reported are based on a single trait and ancestry group in the version available.",
+      "tags": [
+        "gwas",
+        "summary-statistics",
+        "statistical-genetics",
+        "fine-mapping",
+        "allele-frequency",
+        "computational-genomics",
+        "polygenic-architecture",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-07-06T11:25:51.759994+00:00",
+  "last_run": "2026-07-07T10:24:22.153812+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012196": "2026-06-30T10:32:09.232395+00:00",
@@ -9908,8 +10082,6 @@
     "https://news.cancerresearchuk.org/2026/06/22/rewiring-the-life-sciences-why-foundations-come-first-for-ai-in-science/": "2026-06-23T10:36:51.718215+00:00",
     "https://news.cancerresearchuk.org/2026/06/29/latest-winner-in-our-research-is-beautiful-competition-4/": "2026-06-30T10:32:09.232395+00:00",
     "https://news.cancerresearchuk.org/2026/06/30/is-there-a-link-between-faster-ageing-and-early-onset-cancer-risk/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.15.732226v1?rss=1": "2026-06-22T12:47:56.856911+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.16.732751v1?rss=1": "2026-06-22T12:47:56.856911+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.17.732357v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.17.733056v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.18.730290v1?rss=1": "2026-06-24T10:21:41.944832+00:00",
@@ -9939,25 +10111,28 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.30.735680v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735728v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735767v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.01.735838v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.01.735855v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.01.735858v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735899v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.england.nhs.uk/2026/06/impact-of-medical-training-prioritisation-act-on-specialty-training-recruitment/": "2026-06-22T12:47:56.856911+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-ae-blood-testing-finds-2000-unidentified-hiv-cases-in-first-4-years/": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-offer-new-immunotherapy-hundreds-women-with-aggressive-cervical-cancer/": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-accelerates-artificial-intelligence-rollout-to-cut-waiting-times-and-improve-care-for-millions/": "2026-07-05T09:40:19.620710+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-to-overhaul-patient-communications-and-end-farce-of-invitations-arriving-after-appointment/": "2026-07-03T09:55:56.409815+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-more-vulnerable-adults-to-be-offered-rsv-vaccine-to-prevent-serious-lung-infection/": "2026-07-02T10:01:23.863060+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260618041504.htm": "2026-06-27T09:27:23.260477+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260619101356.htm": "2026-07-02T10:01:23.863060+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100317.htm": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260620100432.htm": "2026-06-22T12:47:56.856911+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260621060301.htm": "2026-06-22T12:47:56.856911+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060307.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060313.htm": "2026-06-24T10:21:41.944832+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260622014315.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014014.htm": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260623014026.htm": "2026-07-07T10:24:22.153812+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083113.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083116.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260624115324.htm": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260625014838.htm": "2026-07-07T10:24:22.153812+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260626124703.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260630020521.htm": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/22/abbvie-apogee-acquisition-immunology-zumilokibart/": "2026-06-23T10:36:51.718215+00:00",
@@ -10077,10 +10252,21 @@
     "https://www.statnews.com/2026/07/02/presidential-fitness-test-will-it-boost-physical-activity-youth/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/02/teens-chatbots-mental-health-rules-bans/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
+    "https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/06/glp-1-telehealth-prescriptions-jama-yale-secret-shopper-study/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/06/health-news-race-for-an-ebola-therapy-begins/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/06/obamacare-rolls-shrank-dramatically-affordable-care-act-states/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/06/peptides-regulation-fda-middle-ground-ban/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
     "https://www.statnews.com/2026/07/06/republican-lawmakers-attempt-clinical-trial-diversity-protection/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
     "https://www.statnews.com/2026/07/06/unnecessary-medical-tests-diagnostic-stewardship/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
+    "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/06/vidcon-topic-mental-health-content-creators-status-report-alex-hogan/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
+    "https://www.statnews.com/2026/07/07/aca-health-insurance-small-business-out-of-pocket-series-part-2/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/07/ebola-outbreak-drc-uganda-endemic-control/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/07/employer-based-insurance-whistleblower-out-of-pocket-series-part-3/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/07/gen-z-doctors-too-soft/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/07/small-business-health-insurance-costs-out-of-pocket-series-part-1/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/07/why-health-insurance-costs-so-much-out-of-pocket-series-key-takeaways/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/pharmalot/2026/06/22/another-fda-reversal-pharma-merger-and-acquisition-spree/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.statnews.com/pharmalot/2026/06/23/fda-reforming-clinical-trials-pfizer-setback-lilly-trump-obesity/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/pharmalot/2026/06/23/high-quality-generic-drugs-lab-testing/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
@@ -10095,7 +10281,8 @@
     "https://www.statnews.com/pharmalot/2026/07/02/amgen-court-win-novo-seeking-supplier-discounts/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/judge-blocks-colorado-price-cap-on-amgen-enbrel/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/lawmakers-urge-lilly-to-provide-340b-drug-discounts-to-hospitals/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/02/pharma-biotech-jobs-ladder-vertex-gilead-astrazeneca-lilly/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/02/pharma-biotech-jobs-ladder-vertex-gilead-astrazeneca-lilly/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00"
   },
   "takedowns": []
 }
