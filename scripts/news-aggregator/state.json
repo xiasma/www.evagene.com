@@ -10063,32 +10063,293 @@
         "polygenic-architecture",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Vascular Ehlers-Danlos syndrome (vEDS) is a rare inherited condition caused by changes — called variants — in a gene called COL3A1. This gene provides instructions for making a protein that strengthens blood vessel walls. Some people are found to carry a change in COL3A1, but scientists cannot yet say with certainty whether that change is harmful or harmless. These are called variants of uncertain significance, or VUS.\n\nResearchers have described a new laboratory method using zebrafish to test whether specific COL3A1 variants are likely to be harmful or not. The fish were used because they are a well-established model for studying human genetic conditions. Early results suggest the approach could help reclassify some VUS, which may eventually help doctors and genetic counsellors give more precise information to families.\n\nThis research is at an early stage — it has been shared online as a preprint and has not yet been checked by independent scientific reviewers. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Zebrafish model enables functional classification of COL3A1 variants of uncertain significance",
+      "is_preprint": true,
+      "run_date": "2026-07-08",
+      "run_iso": "2026-07-08T09:23:25Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-07-08T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "col3a1-vus-zebrafish-vascular-ehlers-danlos",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Functional surrogacy enables Vascular Ehlers-Danlos Syndrome modelling in zebrafish in the absence of a COL3A1 ortholog",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736265v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory describes a zebrafish system that uses functional surrogacy to model vascular Ehlers-Danlos syndrome and reclassify COL3A1 variants where pathogenicity is unclear.",
+      "summary": "Pathogenic variants in COL3A1, the gene encoding type III procollagen, cause vascular Ehlers-Danlos syndrome (vEDS), a rare connective tissue disorder characterised by arterial fragility and a markedly elevated risk of spontaneous arterial rupture or dissection. Advances in genomic sequencing have increased the number of COL3A1 variants identified in clinical settings, many of which are classified as variants of uncertain significance (VUS) — a category that creates substantial diagnostic and management difficulties for patients and their clinical teams.\n\nA preprint posted to bioRxiv (Cold Spring Harbor Laboratory) describes a zebrafish-based functional assay designed to address this gap. Because zebrafish lack a direct COL3A1 orthologue, the authors employed a functional surrogacy strategy, introducing human COL3A1 constructs into the fish to reconstitute a tractable disease model. The system was then used to assess the functional impact of a series of COL3A1 variants, with results supporting reclassification of several VUS as either likely pathogenic or likely benign.\n\nThe work is relevant to ongoing international efforts to generate functional evidence for variant interpretation under frameworks such as those published by the American College of Medical Genetics and the ClinGen Variant Curation Expert Panels. As a preprint, the findings have not yet undergone peer review, and the assay's performance characteristics will require independent validation before any adoption into variant classification workflows.",
+      "tags": [
+        "col3a1",
+        "vascular-ehlers-danlos-syndrome",
+        "vus",
+        "variant-interpretation",
+        "zebrafish",
+        "connective-tissue",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Bowel cancer can sometimes spread to other parts of the body, most commonly the liver. Researchers have found one reason why this happens: a protein called GATA6, which normally helps bowel cells keep their identity, can become less active in cancer cells. When that happens, the cancer cells can transform into a more primitive, adaptable form — similar to cells seen in early development — and travel through the blood to start new tumours elsewhere.\n\nImportantly, this change does not seem to require new DNA mutations. Instead, it involves a different kind of change that affects which genes are switched on or off. Scientists are interested in this because such changes might one day be targeted by new treatments.\n\nThis research was reported in the science press; the full details of the journal and research team were not available in the summary reviewed here. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Loss of GATA6 drives epigenetic cell-identity switch in colorectal cancer metastasis",
+      "is_preprint": false,
+      "run_date": "2026-07-08",
+      "run_iso": "2026-07-08T09:23:25Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-07-07T08:36:40Z",
+        "novelty": 7
+      },
+      "slug": "gata6-colorectal-cancer-epigenetic-identity-switch",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-07T08:36:40Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover how colon cancer cells change identity to spread",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260623014007.htm"
+        }
+      ],
+      "standfirst": "Reduced activity of the transcription factor GATA6 allows colorectal cancer cells to adopt a fetal-like, highly plastic state capable of seeding liver metastases — driven by epigenetic rather than mutational change.",
+      "summary": "A study reported by ScienceDaily describes how colorectal cancer cells can undergo a fundamental change in cellular identity without acquiring new genetic mutations. When expression of GATA6, a transcription factor that maintains the normal intestinal cell programme, falls below a critical threshold, cancer cells can transition into a fetal-like, dedifferentiated state. In this state they become highly adaptable — capable of entering the bloodstream and colonising the liver to establish secondary tumours.\n\nThe finding highlights a role for epigenetic reprogramming — alterations in which genes are switched on or off, rather than changes in the DNA sequence itself — in driving the metastatic cascade. This distinction is significant for research into colorectal cancer progression: it suggests that certain metastatic transitions may be reversible in principle, and that GATA6 activity could serve as a marker of tumour plasticity in future translational studies.\n\nThe original institution, journal, and authors were not identified in the press-release lede available for this summary. Researchers and oncologists interested in the primary data are encouraged to consult the source article directly for methodological detail, cohort characteristics, and statistical findings.",
+      "tags": [
+        "colorectal-cancer",
+        "gata6",
+        "epigenetics",
+        "metastasis",
+        "cell-plasticity",
+        "transcription-factor",
+        "cancer-genetics",
+        "liver-metastasis"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Multiplexed guide RNAs improve homing gene drive efficiency against spotted-wing Drosophila",
+      "is_preprint": true,
+      "run_date": "2026-07-08",
+      "run_iso": "2026-07-08T09:23:25Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-07T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gene-drive-doublesex-drosophila-suzukii-pest-control",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-07T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Assessment of homing gene drive efficiency using multiplexed sgRNAs targeting doublesex in the global crop pest Drosophila suzukii",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736304v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that multiplexed sgRNAs targeting the sex-determination gene doublesex can overcome drive resistance in Drosophila suzukii, a globally invasive crop pest.",
+      "summary": "Drosophila suzukii, the spotted-wing drosophila, is a globally invasive pest species that damages soft-skinned fruit crops and is currently managed predominantly with broad-spectrum insecticides. Rising pesticide resistance and regulatory constraints have stimulated interest in CRISPR-based genetic control strategies as alternatives.\n\nA preprint posted to bioRxiv describes the further development of a homing gene drive targeting the female-specific exon of doublesex, a conserved sex-determination gene. The authors' earlier system achieved highly efficient inheritance (94–99 per cent) in both male and female germlines. However, a major limitation of homing gene drives is the emergence of resistance alleles — variants at the target site that are not cleaved by the Cas9 nuclease and therefore escape drive propagation. In the new work, the team employed multiplexed single-guide RNAs (sgRNAs) targeting multiple sites within doublesex simultaneously, with the aim of reducing the probability that any single resistance allele escapes all guide RNAs.\n\nThe preprint has not yet been peer-reviewed. Gene drive research raises significant ecological and governance considerations; established frameworks from bodies including the WHO and the National Academies of Sciences, Engineering, and Medicine call for staged, geographically contained testing and broad stakeholder engagement before any environmental release.",
+      "tags": [
+        "gene-drive",
+        "crispr",
+        "drosophila-suzukii",
+        "doublesex",
+        "pest-control",
+        "insect-genetics",
+        "invasive-species",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors"
+      ],
+      "for_patients": null,
+      "headline": "Survey finds persistent misconceptions about race and ancestry among early-career genomics researchers",
+      "is_preprint": true,
+      "run_date": "2026-07-08",
+      "run_iso": "2026-07-08T09:23:25Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-07-07T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "population-descriptors-genomics-early-career-survey",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-07T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Recommendations for the ethical and accurate use of population descriptors: a trainee-led survey of early-career researchers",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.735829v1?rss=1"
+        }
+      ],
+      "standfirst": "A trainee-led bioRxiv preprint reports that exposure to the 2023 NASEM guidelines on population descriptors improves ethical awareness but does not eliminate fundamental misunderstandings about the relationship between race and ancestry.",
+      "summary": "The appropriate use of population descriptors — terms such as race, ethnicity, and ancestry — in human genomics research has been the subject of sustained methodological and ethical debate. In 2023, the United States National Academies of Sciences, Engineering, and Medicine (NASEM) published landmark recommendations calling for greater precision, context-sensitivity, and transparency in the use of such descriptors.\n\nA preprint posted to bioRxiv describes a mixed-methods survey of early-career researchers, conducted by a trainee-led team, to assess how the NASEM recommendations are being understood and implemented in practice. The results suggest that researchers who had been exposed to the report demonstrated heightened ethical awareness, but that fundamental misconceptions about race and ancestry persisted across academic disciplines and career stages. The survey also identified a gap between researchers' stated intentions and the descriptors they applied in their computational workflows.\n\nThe findings are relevant to training programmes, journal editorial standards, and institutional research governance. Population descriptors affect the interpretation and generalisability of genome-wide association studies, polygenic risk score research, and clinical genomics data, making this a methodological concern with downstream implications for how research is communicated and applied. As a preprint, the work has not yet undergone peer review.",
+      "tags": [
+        "population-descriptors",
+        "research-ethics",
+        "ancestry",
+        "race",
+        "genomics-methods",
+        "nasem",
+        "equity-in-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies geometric basis for disagreements between standard linkage disequilibrium measures",
+      "is_preprint": true,
+      "run_date": "2026-07-08",
+      "run_iso": "2026-07-08T09:23:25Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-07T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "ld-measures-fisher-geometry-rare-common-haplotypes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-07T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Why linkage disequilibrium measures disagree: Fisher geometry of rare common haplotype structure",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736022v1?rss=1"
+        }
+      ],
+      "standfirst": "Using a Fisher geometry framework, researchers show that conventional LD measures such as r² perform poorly in asymmetric, rare-common haplotype configurations — with implications for fine-mapping and population genetics.",
+      "summary": "Linkage disequilibrium (LD) — the non-random association between alleles at different positions in the genome — underpins a wide range of statistical genetics methods, including genome-wide association study fine-mapping, imputation, and haplotype analysis. The most widely used LD metric, r², has known limitations, but the geometric basis for its failures in certain frequency configurations has not been fully characterised.\n\nA preprint posted to bioRxiv applies a Fisher geometry framework to explain why conventional LD measures disagree in what the authors term the \"rare–common regime\" — configurations where one allele is rare and the other is common, as occurs in nested haplotype structures. The authors demonstrate that r² is both symmetric and quadratic: squaring discards directional (phase) information retained by the signed coefficient D, while symmetric normalisation conceals the asymmetry between the conditional probabilities P(A|B) and P(B|A). They propose that these geometric properties cause r² to misrepresent LD structure in precisely the configurations most relevant to identifying causal variants in association studies.\n\nThe work is directly relevant to researchers working on fine-mapping methods, haplotype analysis, and the interpretation of LD patterns across diverse populations. It complements a cluster published in Genetic Current on 2 July 2026 describing a carrier-set topology framework for LD characterisation. As a preprint, the findings have not yet been peer-reviewed.",
+      "tags": [
+        "linkage-disequilibrium",
+        "statistical-genetics",
+        "haplotype-structure",
+        "fine-mapping",
+        "population-genetics",
+        "fisher-geometry",
+        "gwas-methods",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Metabarcoding detection frequency tracks ddPCR copy number for ancient fish eDNA in marine sediments",
+      "is_preprint": true,
+      "run_date": "2026-07-08",
+      "run_iso": "2026-07-08T09:23:25Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-08T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "ancient-sedadna-edna-metabarcoding-ddpcr-cod-herring",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Metabarcoding replicate detection frequency tracks ddPCR copy number for cod and herring eDNA in ancient marine sediments",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.03.736335v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that replicate detection frequency in metabarcoding assays correlates with ddPCR-derived copy numbers for cod and herring eDNA recovered from ancient marine sediments, offering a semi-quantitative tool for sedaDNA studies.",
+      "summary": "Environmental DNA (eDNA) analysis — detecting genetic material shed by organisms into their surroundings — has become an important tool in ecology, conservation genomics, and the study of past biodiversity. Sedimentary ancient DNA (sedaDNA) extends this approach into deep time, but the highly degraded, low-concentration nature of ancient material makes reliable detection and quantification challenging, particularly when target taxa are numerically rare relative to background DNA.\n\nA preprint posted to bioRxiv investigates whether replicate detection frequency in high-throughput metabarcoding assays — a compositional approach that surveys community-level diversity — can serve as a proxy for absolute eDNA abundance as measured by droplet digital PCR (ddPCR). Using cod and herring eDNA extracted from ancient marine sediments, the authors report a correlation between the two metrics, suggesting that metabarcoding, while inherently compositional, can yield semi-quantitative signal when replicate structure is analysed appropriately.\n\nThe findings are relevant to researchers using sedaDNA to reconstruct historical fish population dynamics, assess the impact of past environmental change on marine communities, and inform conservation baselines. The work is not directly relevant to human genetics but has methodological implications for any eDNA or ancient DNA application where low-abundance targets must be distinguished from noise. As a preprint, the findings have not yet been peer-reviewed.",
+      "tags": [
+        "ancient-dna",
+        "edna",
+        "sedadna",
+        "metabarcoding",
+        "ddpcr",
+        "marine-genetics",
+        "conservation-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-07-07T10:24:22.153812+00:00",
+  "last_run": "2026-07-08T09:25:14.024738+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012196": "2026-06-30T10:32:09.232395+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012199": "2026-06-23T10:36:51.718215+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012200": "2026-06-26T10:23:44.148466+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012204": "2026-07-01T10:40:49.346928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012207": "2026-06-26T10:23:44.148466+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012208": "2026-06-30T10:32:09.232395+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012213": "2026-06-23T10:36:51.718215+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012215": "2026-06-24T10:21:41.944832+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012216": "2026-06-27T09:27:23.260477+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012217": "2026-06-30T10:32:09.232395+00:00",
-    "https://news.cancerresearchuk.org/2026/06/22/data-science-new-data-strategy-hails-exciting-future/": "2026-06-23T10:36:51.718215+00:00",
-    "https://news.cancerresearchuk.org/2026/06/22/rewiring-the-life-sciences-why-foundations-come-first-for-ai-in-science/": "2026-06-23T10:36:51.718215+00:00",
     "https://news.cancerresearchuk.org/2026/06/29/latest-winner-in-our-research-is-beautiful-competition-4/": "2026-06-30T10:32:09.232395+00:00",
     "https://news.cancerresearchuk.org/2026/06/30/is-there-a-link-between-faster-ageing-and-early-onset-cancer-risk/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.17.732357v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.17.733056v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
+    "https://news.cancerresearchuk.org/2026/07/08/unlocking-cancer-breakthroughs-why-now-is-the-moment-for-action/": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.18.730290v1?rss=1": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.18.733028v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.18.733066v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.19.733336v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.20.733520v1?rss=1": "2026-06-23T10:36:51.718215+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.23.733901v1?rss=1": "2026-06-24T10:21:41.944832+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.733714v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.734157v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
@@ -10111,10 +10372,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.30.735680v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735728v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735767v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.01.735829v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735838v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735855v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735858v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735899v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.02.736022v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.03.736265v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.03.736304v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.03.736335v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-ae-blood-testing-finds-2000-unidentified-hiv-cases-in-first-4-years/": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-offer-new-immunotherapy-hundreds-women-with-aggressive-cervical-cancer/": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
@@ -10124,47 +10390,32 @@
     "https://www.sciencedaily.com/releases/2026/06/260618041504.htm": "2026-06-27T09:27:23.260477+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260619101356.htm": "2026-07-02T10:01:23.863060+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100317.htm": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260620100319.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060307.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060313.htm": "2026-06-24T10:21:41.944832+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260622014315.htm": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260623014007.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014014.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014026.htm": "2026-07-07T10:24:22.153812+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083113.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083116.htm": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.sciencedaily.com/releases/2026/06/260623083119.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260624115324.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260625014838.htm": "2026-07-07T10:24:22.153812+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260626124703.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260630020521.htm": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/22/abbvie-apogee-acquisition-immunology-zumilokibart/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/biotech-news-another-big-deal-another-sign-ma-is-back/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/clinical-trial-data-how-much-is-too-much/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/definium-lsd-dt120-major-depression-phase-3-data/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/doj-memo-targets-disability-integration-olmstead-mandate/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.statnews.com/2026/06/22/doj-memo-targets-disability-integration-olmstead-mandate/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/22/ebola-congo-1000-cases-254-deaths-civil-war-impedes-search-patient-zero/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/fda-reverses-course-regenxbio-gene-therapy-navsunli-hunter-syndrome/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/fda-speed-up-early-stage-single-study-clinical-trials/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/health-disparity-research-new-dei-rule-threat-nih-grants/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/health-news-most-kidney-failure-patients-never-get-transplant/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/pfizer-lung-cancer-sigvotatug-vedotin/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.statnews.com/2026/06/22/pfizer-lung-cancer-sigvotatug-vedotin/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/22/pharma-biotech-ma-boom-2026-deals-total-123-billion/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/psychiatric-er-detox-caregivers-autism-emergency/": "2026-06-23T10:36:51.718215+00:00",
-    "https://www.statnews.com/2026/06/22/sanofi-paulo-fontoura-houman-ashrafian-research-and-development/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.statnews.com/2026/06/23/biotech-news-why-did-one-person-get-special-retatrutide-access-eli-lilly/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/birthright-citizenship-supreme-court-ruling-public-health/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.statnews.com/2026/06/23/birthright-citizenship-supreme-court-ruling-public-health/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/2026/06/23/cadence-100-million-raise-automate-chronic-care-ai/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/2026/06/23/eli-lilly-mystery-patient-congress-chinese-biotech-dc-diagnosis/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/eli-lilly-unusual-weight-loss-drug-trial-compassionate-use-retatrutide-trump/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.statnews.com/2026/06/23/eli-lilly-unusual-weight-loss-drug-trial-compassionate-use-retatrutide-trump/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/2026/06/23/fda-drops-enforcement-against-wearable-maker-whoop/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/2026/06/23/gene-editing-startup-serapha-bio-aatd/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/2026/06/23/health-news-hhs-sent-drug-for-ebola-clinical-trial/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/medicaid-work-requirements-disability-medically-frail/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.statnews.com/2026/06/23/medicaid-work-requirements-disability-medically-frail/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/2026/06/23/openevidence-fda-cleared-heart-disease-ai-health-tech/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/pathway-labs-echonext-ai-tool-heart-disease-detection/": "2026-06-23T10:36:51.718215+00:00",
     "https://www.statnews.com/2026/06/23/pathway-labs-echonext-ai-tool-heart-disease-detection/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/2026/06/23/snap-dollars-buying-candy-sugary-drinks-judge-ruling/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/2026/06/23/texas-doctor-charged-fraud-case-cms-health-care-crackdown/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
@@ -10262,12 +10513,21 @@
     "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/06/vidcon-topic-mental-health-content-creators-status-report-alex-hogan/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
     "https://www.statnews.com/2026/07/07/aca-health-insurance-small-business-out-of-pocket-series-part-2/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/07/biotech-news-compass-reports-depression-drug-has-long-lasting-benefits/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/2026/07/07/ebola-outbreak-drc-uganda-endemic-control/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/07/employer-based-insurance-whistleblower-out-of-pocket-series-part-3/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/07/gen-z-doctors-too-soft/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/07/health-news-ebola-outbreak-exposes-a-fractured-outbreak-response-system/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.statnews.com/2026/07/07/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.statnews.com/2026/07/07/insurance-affordability-crisis-health-care-inc-newsletter/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.statnews.com/2026/07/07/secret-shopper-study-glp-1-telehealth-sites-health-tech/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/2026/07/07/small-business-health-insurance-costs-out-of-pocket-series-part-1/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/07/vera-therapeutics-kidney-disease-treatment-approval/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/2026/07/07/why-health-insurance-costs-so-much-out-of-pocket-series-key-takeaways/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/22/another-fda-reversal-pharma-merger-and-acquisition-spree/": "2026-06-23T10:36:51.718215+00:00",
+    "https://www.statnews.com/2026/07/08/dementia-care-ai-artificial-intelligence-chatbots/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.statnews.com/2026/07/08/dexcom-stelo-cgm-risk-benefit-otc-glucose-monitoring-children/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.statnews.com/2026/07/08/licensing-ai-medicine-physician-responsibility/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.statnews.com/2026/07/08/trump-research-funding-scientists-see-omb-overreach-control/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/pharmalot/2026/06/23/fda-reforming-clinical-trials-pfizer-setback-lilly-trump-obesity/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/pharmalot/2026/06/23/high-quality-generic-drugs-lab-testing/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
     "https://www.statnews.com/pharmalot/2026/06/25/weight-loss-drug-spending-launch-prices-for-medicines/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
@@ -10282,7 +10542,8 @@
     "https://www.statnews.com/pharmalot/2026/07/02/judge-blocks-colorado-price-cap-on-amgen-enbrel/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/lawmakers-urge-lilly-to-provide-340b-drug-discounts-to-hospitals/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/pharma-biotech-jobs-ladder-vertex-gilead-astrazeneca-lilly/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/07/vertex-buying-crinetics-fda-drug-approvals-kept-pace/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00"
   },
   "takedowns": []
 }
