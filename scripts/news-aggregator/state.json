@@ -10333,9 +10333,267 @@
         "conservation-genomics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "ALS (also called motor neurone disease) is a condition that affects the nerve cells controlling movement. Some people with ALS carry a change in a gene called C9orf72, and this is the most common known genetic cause of the condition.\n\nResearchers have now published a study looking at gene activity across many different parts of the brain and spinal cord in people who had ALS — comparing those who had the C9orf72 gene change with those who did not. They found that the two groups showed different patterns of molecular activity, suggesting the disease may work through different biological pathways in different people.\n\nThis kind of research helps scientists understand ALS better at a biological level, which is a step towards developing treatments that could one day target its underlying causes. The study was published in a peer-reviewed scientific journal.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Multi-region brain transcriptomics reveals distinct molecular mechanisms in C9orf72 ALS",
+      "is_preprint": false,
+      "run_date": "2026-07-09",
+      "run_iso": "2026-07-09T10:21:23Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-07-08T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "als-c9orf72-transcriptomic-profiling-brain-regions",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-08T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Multi-regional transcriptomic profiling reveals divergent molecular mechanisms in ALS-related neurodegeneration",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012225"
+        }
+      ],
+      "standfirst": "Integrative analysis across multiple CNS regions distinguishes molecular signatures of C9orf72-expansion ALS from non-C9orf72 cases, published in PLOS Genetics.",
+      "summary": "Researchers led by Yu-Wen Hsu, Yu-Ning Lu, Mingming Liu, and Jiou Wang have published an integrative transcriptomic study in PLOS Genetics examining the molecular landscape of amyotrophic lateral sclerosis (ALS) across multiple central nervous system regions. The study compared post-mortem tissue from ALS patients carrying pathological hexanucleotide repeat expansions in the C9orf72 gene — the most common genetic cause of both familial and sporadic ALS — with tissue from ALS patients without this mutation.\n\nBy profiling gene expression across multiple brain and spinal cord regions simultaneously, the team identified divergent molecular mechanisms between the two patient groups, suggesting that C9orf72-associated ALS involves distinct transcriptional dysregulation compared with other ALS subtypes. The multi-regional approach is notable because it allows comparison of molecular changes in areas differentially affected by neurodegeneration, rather than relying on a single tissue sample.\n\nThe findings contribute to a growing body of work seeking to stratify ALS at the molecular level, which researchers in the field regard as a prerequisite for developing targeted interventions. The study is peer-reviewed and published in an open-access journal, making the data and methods accessible to the wider research community. Primary data from this type of integrative transcriptomic work are also expected to inform future functional and therapeutic studies targeting C9orf72-pathway biology.",
+      "tags": [
+        "als",
+        "c9orf72",
+        "transcriptomics",
+        "neurodegeneration",
+        "motor-neurone-disease",
+        "repeat-expansion",
+        "rna-sequencing"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint warns LDSC heritability estimates can be biased by meta-analysis and imputed variant inputs",
+      "is_preprint": true,
+      "run_date": "2026-07-09",
+      "run_iso": "2026-07-09T10:21:23Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 7,
+        "newest_iso": "2026-07-09T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "ldsc-heritability-bias-meta-analysis-imputed-variants",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "LDSC regression-based heritability estimates can be biased when summary statistics are obtained from meta-analysis or imputed variants",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.05.736573v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using Alzheimer's disease summary statistics shows that LDSC regression estimates of SNP heritability vary substantially depending on how summary statistics were generated and which LD reference panel is used.",
+      "summary": "A preprint posted to bioRxiv presents a systematic investigation of bias in linkage disequilibrium score (LDSC) regression, one of the most widely used methods for estimating SNP heritability from genome-wide association study (GWAS) summary statistics. LDSC regression is popular partly because it does not require access to individual-level genotype data, making it practical for large collaborative studies. However, the authors demonstrate that the method can produce substantially biased heritability estimates under two common conditions: when summary statistics derive from meta-analyses across multiple studies, and when they include imputed rather than directly genotyped variants.\n\nThe investigation used summary statistics from several large-scale Alzheimer's disease GWAS as a test case, comparing LDSC estimates against results from methods that use individual-level data. The authors also examined the sensitivity of estimates to the choice of LD reference panel, finding that mismatches between the reference panel and the target study population can compound bias further.\n\nThe findings are relevant to the statistical genetics community because LDSC-derived heritability estimates are routinely used to benchmark traits, compute genetic correlations, and assess the contribution of specific genomic annotations — applications that downstream analyses, including partitioned heritability and cross-trait analyses, depend upon. The preprint does not invalidate LDSC regression as a tool but identifies conditions under which its outputs warrant additional scrutiny. The work has not yet been peer-reviewed.",
+      "tags": [
+        "ldsc",
+        "heritability",
+        "gwas",
+        "statistical-genetics",
+        "meta-analysis",
+        "imputation",
+        "alzheimers-disease",
+        "linkage-disequilibrium"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint sets out persistent challenges in GWAS integration and fine-mapping for variant interpretation",
+      "is_preprint": true,
+      "run_date": "2026-07-09",
+      "run_iso": "2026-07-09T10:21:23Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-08T00:00:00Z",
+        "novelty": 5
+      },
+      "slug": "gwas-fine-mapping-integration-challenges-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Current challenges in GWAS integration and fine-mapping for variant interpretation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.04.736511v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv review preprint catalogues the methodological and data-sharing obstacles that currently limit researchers' ability to move from GWAS loci to mechanistically understood causal variants.",
+      "summary": "A preprint posted to bioRxiv offers a structured review of the current state of genome-wide association study (GWAS) integration and fine-mapping, two analytical steps that sit between identifying a statistically associated genomic locus and understanding which specific variant is functionally responsible for the association. The authors describe challenges spanning multiple domains: limitations in data sharing and harmonisation across studies, the inherent statistical difficulty of distinguishing a causal variant from nearby variants in high linkage disequilibrium, gaps in functional annotation resources, and difficulties in translating prioritised variants into experimentally tractable hypotheses.\n\nThe preprint notes that despite thousands of trait- and disease-associated loci having been identified over the past two decades, the mechanistic basis of most remains poorly characterised — a gap that limits both the development of targeted therapeutics and the construction of well-calibrated polygenic risk models.\n\nThe authors describe several emerging methodological approaches, including Bayesian fine-mapping frameworks, the integration of functional genomics data such as chromatin accessibility and expression QTL datasets, and the use of large-scale population biobanks with linked multi-omic data. The review is likely to be of interest to statistical geneticists, computational biologists, and researchers developing pipelines for translational genomics. The work is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "gwas",
+        "fine-mapping",
+        "variant-interpretation",
+        "statistical-genetics",
+        "linkage-disequilibrium",
+        "functional-genomics",
+        "non-coding-variants"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Genome-wide meQTL mapping in cattle blood identifies cis and trans regulators of DNA methylation",
+      "is_preprint": true,
+      "run_date": "2026-07-09",
+      "run_iso": "2026-07-09T10:21:23Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-07-08T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "cattle-meqtl-dna-methylation-epichip",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genome-wide meQTL mapping in cattle blood reveals cis and trans regulation of DNA methylation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.07.736355v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses the bovine EpiChip methylation array to map methylation quantitative trait loci across the cattle genome, opening new avenues for dissecting complex trait regulation in livestock.",
+      "summary": "A preprint posted to bioRxiv reports the first large-scale methylation quantitative trait locus (meQTL) mapping study in cattle, using a recently developed epigenotyping array called EpiChip. Developed as part of the European RUMIGEN project, EpiChip interrogates 43,317 CpG sites distributed across the bovine genome. The authors applied this resource to blood samples, identifying both cis-acting meQTLs — where a genetic variant influences methylation at a nearby genomic position — and trans-acting meQTLs, where a variant influences methylation at a more distant locus.\n\nMeQTL mapping is of interest in livestock genetics because DNA methylation represents one mechanism through which genetic variation can influence gene expression and ultimately phenotypic traits such as milk production, disease resistance, and growth. The identification of trans-acting meQTLs is particularly informative for understanding how individual genetic variants may propagate regulatory effects across the genome.\n\nThe study contributes to a broader effort to build multi-omic reference resources for cattle, analogous to projects such as GTEx in humans, which map how genetic variation shapes molecular phenotypes. The EpiChip array's relatively compact size compared with whole-genome bisulphite sequencing makes large-scale population studies of this kind tractable. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "meqtl",
+        "dna-methylation",
+        "cattle",
+        "livestock-genomics",
+        "epichip",
+        "epigenetics",
+        "rumigen",
+        "quantitative-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Harvard team demonstrates silicon chip capable of writing dozens of DNA sequences simultaneously",
+      "is_preprint": false,
+      "run_date": "2026-07-09",
+      "run_iso": "2026-07-09T10:21:23Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-09T02:48:06Z",
+        "novelty": 7
+      },
+      "slug": "harvard-silicon-chip-enzymatic-dna-synthesis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-09T02:48:06Z",
+          "publisher": "ScienceDaily",
+          "title": "Harvard scientists turn a silicon chip into a DNA writing machine",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260708022202.htm"
+        }
+      ],
+      "standfirst": "Scientists at Harvard have built a silicon chip that uses electrical signals and water-based enzymes to synthesise multiple DNA sequences in parallel, offering a potential alternative to conventional chemical DNA manufacturing.",
+      "summary": "Scientists at Harvard have described a silicon chip platform that uses electricity and aqueous enzyme-based chemistry to write multiple DNA sequences simultaneously, according to reporting by ScienceDaily. The approach draws on template-independent enzymatic DNA synthesis rather than the phosphoramidite chemistry that underpins most commercial oligonucleotide manufacturing, which relies on organic solvents and generates chemical waste.\n\nIn the chip-based system, electrical signals are used to control the enzymatic writing process locally across an array, enabling parallel synthesis of different sequences at distinct positions on the device. The researchers suggest this architecture could in principle support miniaturised or portable DNA synthesis devices, as well as very high-density DNA data storage applications — though the reporting notes that new chemistry will be needed to scale the technology to longer sequences and higher throughput before those applications become practical.\n\nEnzymatic DNA synthesis has attracted sustained interest as a greener and potentially more scalable alternative to chemical synthesis, and integrating it with semiconductor fabrication offers a route to manufacturable devices. The underlying study has not been directly assessed here from the primary publication, and the ScienceDaily item does not name the journal or provide a direct paper citation. Readers interested in methodological detail are advised to locate the primary publication.",
+      "tags": [
+        "dna-synthesis",
+        "enzymatic-synthesis",
+        "silicon-chip",
+        "dna-data-storage",
+        "biotechnology",
+        "oligonucleotide",
+        "harvard"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Prime Medicine claims victory in gene-editing intellectual property dispute with Beam Therapeutics",
+      "is_preprint": false,
+      "run_date": "2026-07-09",
+      "run_iso": "2026-07-09T10:21:23Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-07-08T13:52:55Z",
+        "novelty": 8
+      },
+      "slug": "prime-medicine-beam-therapeutics-gene-editing-arbitration",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/03/AdobeStock_541506167_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-08T13:52:55Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Prime Medicine claims victory in dispute over gene-editing technology with Beam Therapeutics",
+          "url": "https://www.statnews.com/2026/07/08/prime-medicine-beam-therapeutics-arbitration-outcome/"
+        }
+      ],
+      "standfirst": "Prime Medicine has announced it prevailed in an arbitration against Beam Therapeutics over gene-editing technology rights, resolving a dispute between two prominent companies in the field.",
+      "summary": "Prime Medicine has announced that it won an arbitration proceeding against Beam Therapeutics, settling a dispute over gene-editing technology between two well-funded companies in the sector, according to reporting by STAT News. The two companies had been in dispute over intellectual property related to gene-editing approaches; the specific technology at issue has not been detailed in the available reporting, which is behind a paywall.\n\nIntellectual property disputes over gene-editing platform technologies have become a recurring feature of the field, reflecting the commercial significance of foundational patents covering methods such as base editing and prime editing. Beam Therapeutics is known for its base-editing platform, while Prime Medicine focuses on prime editing — both of which derive from foundational CRISPR research.\n\nThe outcome of arbitration proceedings of this kind can influence licensing strategies, research collaborations, and the competitive landscape for gene-editing therapeutic development. The result is of interest to researchers and industry observers tracking how intellectual property frameworks are shaping the commercialisation of gene-editing technologies. The full terms of the arbitration outcome have not been disclosed publicly.",
+      "tags": [
+        "gene-editing",
+        "prime-editing",
+        "base-editing",
+        "intellectual-property",
+        "prime-medicine",
+        "beam-therapeutics",
+        "biotech-commercial"
+      ]
     }
   ],
-  "last_run": "2026-07-08T09:25:14.024738+00:00",
+  "last_run": "2026-07-09T10:23:13.437000+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012196": "2026-06-30T10:32:09.232395+00:00",
@@ -10343,14 +10601,12 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012204": "2026-07-01T10:40:49.346928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012207": "2026-06-26T10:23:44.148466+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012208": "2026-06-30T10:32:09.232395+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012215": "2026-06-24T10:21:41.944832+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012216": "2026-06-27T09:27:23.260477+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012217": "2026-06-30T10:32:09.232395+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012225": "2026-07-09T10:23:13.437000+00:00",
     "https://news.cancerresearchuk.org/2026/06/29/latest-winner-in-our-research-is-beautiful-competition-4/": "2026-06-30T10:32:09.232395+00:00",
     "https://news.cancerresearchuk.org/2026/06/30/is-there-a-link-between-faster-ageing-and-early-onset-cancer-risk/": "2026-07-01T10:40:49.346928+00:00",
     "https://news.cancerresearchuk.org/2026/07/08/unlocking-cancer-breakthroughs-why-now-is-the-moment-for-action/": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.18.730290v1?rss=1": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.23.733901v1?rss=1": "2026-06-24T10:21:41.944832+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.733714v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.734157v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.734286v1?rss=1": "2026-06-26T10:23:44.148466+00:00",
@@ -10381,18 +10637,22 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.03.736265v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.03.736304v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.03.736335v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.04.736511v1?rss=1": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.05.736573v1?rss=1": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.07.736355v1?rss=1": "2026-07-09T10:23:13.437000+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-ae-blood-testing-finds-2000-unidentified-hiv-cases-in-first-4-years/": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/06/nhs-offer-new-immunotherapy-hundreds-women-with-aggressive-cervical-cancer/": "2026-06-26T10:23:44.148466+00:00",
     "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-accelerates-artificial-intelligence-rollout-to-cut-waiting-times-and-improve-care-for-millions/": "2026-07-05T09:40:19.620710+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-to-overhaul-patient-communications-and-end-farce-of-invitations-arriving-after-appointment/": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.england.nhs.uk/2026/07/snooping-staff-face-sack-prison-inappropriate-access-patient-data/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-more-vulnerable-adults-to-be-offered-rsv-vaccine-to-prevent-serious-lung-infection/": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.england.nhs.uk/2026/07/warm-weather-world-cup-drives-record-nhs-demand-satisfaction-gps-bounce-back/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260618041504.htm": "2026-06-27T09:27:23.260477+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260619101356.htm": "2026-07-02T10:01:23.863060+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100317.htm": "2026-06-30T10:32:09.232395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100319.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260621060307.htm": "2026-06-29T11:57:18.025584+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260621060313.htm": "2026-06-24T10:21:41.944832+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260622014315.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014007.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014014.htm": "2026-06-26T10:23:44.148466+00:00",
@@ -10404,24 +10664,9 @@
     "https://www.sciencedaily.com/releases/2026/06/260625014838.htm": "2026-07-07T10:24:22.153812+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260626124703.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260630020521.htm": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/22/doj-memo-targets-disability-integration-olmstead-mandate/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/22/pfizer-lung-cancer-sigvotatug-vedotin/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/biotech-news-why-did-one-person-get-special-retatrutide-access-eli-lilly/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/birthright-citizenship-supreme-court-ruling-public-health/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/cadence-100-million-raise-automate-chronic-care-ai/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/eli-lilly-mystery-patient-congress-chinese-biotech-dc-diagnosis/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/eli-lilly-unusual-weight-loss-drug-trial-compassionate-use-retatrutide-trump/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/fda-drops-enforcement-against-wearable-maker-whoop/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/gene-editing-startup-serapha-bio-aatd/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/health-news-hhs-sent-drug-for-ebola-clinical-trial/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/medicaid-work-requirements-disability-medically-frail/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/openevidence-fda-cleared-heart-disease-ai-health-tech/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/pathway-labs-echonext-ai-tool-heart-disease-detection/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/snap-dollars-buying-candy-sugary-drinks-judge-ruling/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/23/texas-doctor-charged-fraud-case-cms-health-care-crackdown/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/24/embryo-editing-dieter-egli-ethical-boundaries-moratorium/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/24/fda-breakthrough-devices-what-we-learned-livanova-vitaria-results/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/2026/06/24/short-walking-breaks-sitting-health-research/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260701205001.htm": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260708022158.htm": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260708022202.htm": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/06/25/acip-charter-responsibilities-rfk-jr/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/2026/06/25/bio-2026-biotech-conference-san-diego-key-takeaways/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/2026/06/25/biotech-news-the-china-debate-gets-louder-in-washington/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
@@ -10524,12 +10769,24 @@
     "https://www.statnews.com/2026/07/07/small-business-health-insurance-costs-out-of-pocket-series-part-1/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/07/vera-therapeutics-kidney-disease-treatment-approval/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/2026/07/07/why-health-insurance-costs-so-much-out-of-pocket-series-key-takeaways/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/08/affordable-care-act-insurers-premium-increases-enrollment-dips/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/08/biotech-news-europe-will-accelerate-its-review-of-revmed-cancer-drug/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/08/brigham-and-womens-hospital-boston-nurses-strike-largest-massachusetts-history/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/08/bryan-johnson-autoimmune-gastritis-diagnosis-explained/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/08/dementia-care-ai-artificial-intelligence-chatbots/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/2026/07/08/dexcom-stelo-cgm-risk-benefit-otc-glucose-monitoring-children/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.statnews.com/2026/07/08/health-news-more-big-premium-hikes-on-the-horizon/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/08/hhs-to-propose-covid-19-countermeasures-injury-table/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/08/licensing-ai-medicine-physician-responsibility/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.statnews.com/2026/07/08/lung-transplant-advanced-cancer-study-results-ethics-jama/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/08/new-fda-commissioner-finalists-under-white-house-review/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/08/prime-medicine-beam-therapeutics-arbitration-outcome/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/08/trump-research-funding-scientists-see-omb-overreach-control/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/23/fda-reforming-clinical-trials-pfizer-setback-lilly-trump-obesity/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/23/high-quality-generic-drugs-lab-testing/?utm_campaign=rss": "2026-06-24T10:21:41.944832+00:00",
+    "https://www.statnews.com/2026/07/09/astrazeneca-ionis-attr-wainua-trial-failure/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/09/cannabis-seniors-medical-marijuana-legal-thc-cbd-chronic-pain/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/09/maha-mondays-great-american-state-fair-status-report-alex-hogan/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/09/matt-wilsey-grace-science-rare-disease-drug-development-ngly1/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/09/obesity-disease-classification-glp-1-eli-lilly-novo-nordisk/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/pharmalot/2026/06/25/weight-loss-drug-spending-launch-prices-for-medicines/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/pharmalot/2026/06/26/bill-overhaul-340b-program-new-fda-commisioner-candidate/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
     "https://www.statnews.com/pharmalot/2026/06/26/european-antitrust-regulators-probe-sanofi-for-allegedly-disparaging-rival-flu-vaccine/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
@@ -10543,7 +10800,9 @@
     "https://www.statnews.com/pharmalot/2026/07/02/lawmakers-urge-lilly-to-provide-340b-drug-discounts-to-hospitals/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/pharma-biotech-jobs-ladder-vertex-gilead-astrazeneca-lilly/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/07/vertex-buying-crinetics-fda-drug-approvals-kept-pace/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/07/vertex-buying-crinetics-fda-drug-approvals-kept-pace/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/08/fda-approves-vera-kidney-drug-uk-enhertu-pricing-deal/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/08/trump-officials-want-to-make-generic-medicines-in-the-us/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00"
   },
   "takedowns": []
 }
