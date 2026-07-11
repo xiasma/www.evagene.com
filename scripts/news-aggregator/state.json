@@ -10766,16 +10766,192 @@
         "mosquito-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Roche, a large pharmaceutical company, has stopped work on treatments that aimed to silence the faulty gene responsible for Huntington's disease. Huntington's disease is an inherited condition caused by a change in a gene called HTT, which leads to progressive damage to the brain and nervous system.\n\nThe type of treatment Roche was developing is called gene silencing — the idea is to reduce the amount of harmful protein the faulty gene produces. Several similar programmes from other companies have also been stopped in recent years, showing how difficult it is to develop effective treatments for this condition.\n\nResearchers around the world continue to explore different approaches to treating Huntington's disease, and the field remains active.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Roche discontinues Huntington's disease gene-silencing programmes",
+      "is_preprint": false,
+      "run_date": "2026-07-11",
+      "run_iso": "2026-07-11T08:44:20Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-07-10T13:35:37Z",
+        "novelty": 8
+      },
+      "slug": "roche-ends-huntingtons-gene-silencing-programme",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/09/GettyImages-1235555425-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-10T13:35:37Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Roche ends Huntington's gene-silencing programs",
+          "url": "https://www.statnews.com/2026/07/10/biotech-news-roche-ends-huntingtons-gene-silencing-program/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Roche has ended its gene-silencing efforts targeting Huntington's disease, a setback for a field that has seen several high-profile programme failures in recent years.",
+      "summary": "Roche has discontinued its gene-silencing programmes aimed at Huntington's disease, according to reporting by STAT News. The decision marks another significant setback for therapeutic strategies targeting the HTT gene in Huntington's disease, a fatal, progressive neurodegenerative condition caused by a CAG trinucleotide repeat expansion.\n\nGene-silencing approaches — which include antisense oligonucleotides (ASOs) and RNA interference (RNAi) strategies — aim to reduce production of the mutant huntingtin protein. Roche's tominersen, an ASO, was halted at Phase III in 2021 following a futility review; the nature and scope of the programmes now being closed were not detailed in the lede available to Genetic Current.\n\nThe news is reported alongside an ARPA-H bespoke gene-therapy initiative (covered separately in a recent Genetic Current cluster from 10 July 2026) and commercial updates from Lilly and Novo. The STAT News item is behind a STAT+ paywall, limiting the detail available for this summary.\n\nThe discontinuation underscores the difficulty of translating gene-silencing strategies for central nervous system conditions into effective therapies, and will be of interest to researchers and clinicians following the hereditary neurodegeneration space.",
+      "tags": [
+        "huntingtons-disease",
+        "gene-silencing",
+        "aso",
+        "rna-interference",
+        "neurodegeneration",
+        "roche",
+        "repeat-expansion"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study maps sex differences in Drosophila cellular immunity",
+      "is_preprint": false,
+      "run_date": "2026-07-11",
+      "run_iso": "2026-07-11T08:44:20Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-10T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "drosophila-sex-differences-cellular-immunity-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-10T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Sex differences in the regulation and function of cellular immunity in Drosophila",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012151"
+        }
+      ],
+      "standfirst": "A peer-reviewed study in PLOS Genetics uses Drosophila to characterise how sex shapes the regulation and function of cellular immune responses, with potential implications for understanding sex-biased immunity more broadly.",
+      "summary": "Researchers including Alexandra Dvoskin, Kevin Y. L. Ho, Michael Allara, Nicola Janz, Elizabeth Rideout, Juliet R. Girard, and Guy Tanentzapf have published a study in PLOS Genetics examining how biological sex influences cellular immunity in the fruit fly Drosophila melanogaster.\n\nSex differences in immune function are well established across many animals, including humans, where they contribute to differential susceptibility to autoimmune conditions, infectious disease, and malignancy. The molecular mechanisms underlying these differences remain incompletely characterised. The authors used Drosophila — a genetically tractable model organism with conserved innate immune pathways — to investigate how sex modulates the regulation and function of haemocytes (the fly equivalent of circulating immune cells).\n\nThe study identifies sex-specific differences in the regulation of cellular immunity, though the full detail of their findings is not captured in the lede available to Genetic Current; the complete paper is accessible at the PLOS Genetics DOI. PLOS Genetics is a fully open-access, peer-reviewed journal, so the primary article is freely available for specialist readers.\n\nThe work contributes to a growing body of literature using invertebrate model systems to dissect conserved mechanisms of sex-biased immunity, relevant to both fundamental biology and the broader question of why immune-related diseases differ in prevalence and severity between sexes.",
+      "tags": [
+        "drosophila",
+        "sex-differences",
+        "innate-immunity",
+        "haemocytes",
+        "model-organisms",
+        "sex-biased-immunity",
+        "immunogenetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes method to integrate bottleneck size into selection tests for genetic diversity data",
+      "is_preprint": true,
+      "run_date": "2026-07-11",
+      "run_iso": "2026-07-11T08:44:20Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-07-10T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "bottleneck-size-selection-tests-biodiversity-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Integrating Bottleneck Size into Selection Tests for Biological Diversity Data",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.07.737025v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes a statistical framework that explicitly accounts for population bottleneck size when applying neutrality tests to variant frequency data, aiming to better distinguish drift from selection.",
+      "summary": "A preprint posted to bioRxiv (not yet peer-reviewed) introduces a computational framework designed to improve the detection of natural selection in population genetic datasets by explicitly incorporating estimates of population bottleneck size into neutrality tests.\n\nPopulation bottlenecks — episodes of sharply reduced population size — have a strong influence on patterns of genetic diversity. They reduce effective population size, amplify the effects of genetic drift, and can create signatures in allele frequency data that resemble those produced by positive or purifying selection. Distinguishing genuine selection from stochastic drift in bottlenecked populations is therefore a longstanding challenge in population genetics.\n\nThe authors build on existing computational approaches, including beta-binomial modelling frameworks commonly applied to deep-sequencing data, and propose modifications to neutrality tests that take bottleneck size estimates as an explicit input rather than treating them as a nuisance parameter. The framework is designed for variant frequency data of the kind generated by deep sequencing of mixed populations.\n\nAs a preprint, this work has not undergone peer review. The methodology and conclusions should be treated as preliminary. The approach may be of interest to researchers working in population genetics, evolutionary genomics, and the design of selection scans in bottlenecked or founder populations.",
+      "tags": [
+        "population-genetics",
+        "bottleneck",
+        "neutrality-tests",
+        "genetic-drift",
+        "natural-selection",
+        "beta-binomial",
+        "statistical-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint uses Drosophila to dissect how ETV4 activates GGAA microsatellite neoenhancers linked to Ewing sarcoma",
+      "is_preprint": true,
+      "run_date": "2026-07-11",
+      "run_iso": "2026-07-11T08:44:20Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-07-10T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "ewing-sarcoma-etv4-ggaa-microsatellite-drosophila-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The Drosophila FET orthologue Cabeza is an essential cofactor for ETV4-mediated activation of GGAA microsatellite neoenhancers",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.06.736845v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies the Drosophila FET-family protein Cabeza as an essential cofactor for ETV4-driven activation of GGAA microsatellite sequences, a mechanism relevant to Ewing sarcoma and related malignancies.",
+      "summary": "A preprint posted to bioRxiv (not yet peer-reviewed) reports the use of Drosophila as an in vivo system to evaluate the transcriptional requirements of human ETS-family transcription factors at GGAA microsatellite sequences, a class of repeat element implicated in the oncogenesis of Ewing sarcoma.\n\nEwing sarcoma is characterised by FET::ETS oncogenic fusion proteins — most commonly EWSR1::FLI1 — that convert transcriptionally silent GGAA microsatellites (GGAASats) into functional enhancers, driving aberrant gene expression. Emerging evidence, the authors note, also implicates non-fused ETS factors in activating these repeats in other cancer contexts.\n\nThe researchers expressed various human ETS factors in Drosophila and found that ETV4, a full-length ETS transcription factor, uniquely binds and robustly activates GGAASats in a tissue-specific manner. They further show that this activation depends on Cabeza, the Drosophila orthologue of the human FET-family proteins (FUS, EWS, TAF15). The ETS repressor ETV6 was found to strongly inhibit ETV4-mediated GGAASat activation.\n\nThe study illustrates how the Drosophila system can be used to characterise the transcriptional machinery underlying a cancer-relevant enhancer mechanism, and identifies Cabeza/FET proteins as cofactors for ETV4 activity at these repeats. As a preprint, the findings have not yet been peer-reviewed and should be treated as preliminary.",
+      "tags": [
+        "ewing-sarcoma",
+        "ggaa-microsatellites",
+        "etv4",
+        "fet-proteins",
+        "neoenhancers",
+        "drosophila",
+        "cancer-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-07-10T10:22:16.716564+00:00",
+  "last_run": "2026-07-11T08:45:34.461748+00:00",
   "seen_urls": {
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012151": "2026-07-11T08:45:34.461748+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012192": "2026-07-10T10:22:16.716564+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012196": "2026-06-30T10:32:09.232395+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012200": "2026-06-26T10:23:44.148466+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012204": "2026-07-01T10:40:49.346928+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012207": "2026-06-26T10:23:44.148466+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012208": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012216": "2026-06-27T09:27:23.260477+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012217": "2026-06-30T10:32:09.232395+00:00",
@@ -10784,9 +10960,9 @@
     "https://news.cancerresearchuk.org/2026/06/29/latest-winner-in-our-research-is-beautiful-competition-4/": "2026-06-30T10:32:09.232395+00:00",
     "https://news.cancerresearchuk.org/2026/06/30/is-there-a-link-between-faster-ageing-and-early-onset-cancer-risk/": "2026-07-01T10:40:49.346928+00:00",
     "https://news.cancerresearchuk.org/2026/07/08/unlocking-cancer-breakthroughs-why-now-is-the-moment-for-action/": "2026-07-08T09:25:14.024738+00:00",
+    "https://news.cancerresearchuk.org/2026/07/10/research-careers-pausing-but-not-stopping-for-a-flexible-career/": "2026-07-11T08:45:34.461748+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.733714v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.734157v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.24.734286v1?rss=1": "2026-06-26T10:23:44.148466+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.734305v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.25.734236v1?rss=1": "2026-07-01T10:40:49.346928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.25.734557v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
@@ -10819,13 +10995,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.04.736511v1?rss=1": "2026-07-09T10:23:13.437000+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.05.736573v1?rss=1": "2026-07-09T10:23:13.437000+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.05.736587v1?rss=1": "2026-07-10T10:22:16.716564+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.06.736845v1?rss=1": "2026-07-11T08:45:34.461748+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.06.736846v1?rss=1": "2026-07-11T08:45:34.461748+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.06.736905v1?rss=1": "2026-07-11T08:45:34.461748+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.07.736355v1?rss=1": "2026-07-09T10:23:13.437000+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737011v1?rss=1": "2026-07-10T10:22:16.716564+00:00",
-    "https://www.england.nhs.uk/2026/06/nhs-ae-blood-testing-finds-2000-unidentified-hiv-cases-in-first-4-years/": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.england.nhs.uk/2026/06/nhs-offer-new-immunotherapy-hundreds-women-with-aggressive-cervical-cancer/": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.07.737025v1?rss=1": "2026-07-11T08:45:34.461748+00:00",
     "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-accelerates-artificial-intelligence-rollout-to-cut-waiting-times-and-improve-care-for-millions/": "2026-07-05T09:40:19.620710+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-to-overhaul-patient-communications-and-end-farce-of-invitations-arriving-after-appointment/": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.england.nhs.uk/2026/07/nhs-urges-people-50s-return-bowel-screening-kits-100-cancers-found-week/": "2026-07-11T08:45:34.461748+00:00",
     "https://www.england.nhs.uk/2026/07/snooping-staff-face-sack-prison-inappropriate-access-patient-data/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-more-vulnerable-adults-to-be-offered-rsv-vaccine-to-prevent-serious-lung-infection/": "2026-07-02T10:01:23.863060+00:00",
     "https://www.england.nhs.uk/2026/07/warm-weather-world-cup-drives-record-nhs-demand-satisfaction-gps-bounce-back/": "2026-07-09T10:23:13.437000+00:00",
@@ -10836,10 +11015,7 @@
     "https://www.sciencedaily.com/releases/2026/06/260621060307.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260622014315.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014007.htm": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260623014014.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014026.htm": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260623083113.htm": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260623083116.htm": "2026-06-26T10:23:44.148466+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083119.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260624115324.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260625014838.htm": "2026-07-07T10:24:22.153812+00:00",
@@ -10850,29 +11026,11 @@
     "https://www.sciencedaily.com/releases/2026/07/260708022202.htm": "2026-07-09T10:23:13.437000+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260708022206.htm": "2026-07-10T10:22:16.716564+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260708022214.htm": "2026-07-10T10:22:16.716564+00:00",
-    "https://www.statnews.com/2026/06/25/acip-charter-responsibilities-rfk-jr/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/bio-2026-biotech-conference-san-diego-key-takeaways/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/biotech-news-the-china-debate-gets-louder-in-washington/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/bipartisan-bill-methadone-prescription-pharmacy-pickup/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/cassidy-bill-rein-in-340b-drug-discount-program/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/cdc-new-science-office-tighter-political-control/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/crispr-base-editing-human-embryo-study/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/fda-breakthrough-generative-ai-devices-health-tech/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/health-news-another-roadblock-for-doj-campaign-against-trans-health/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/prenatal-down-syndrome-diagnosis-screening-life-expectancy-health-facts/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/radiology-generative-ai-cognita-aidoc-fda-breakthrough-designation/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/readout-loud-podcast-eli-lilly-fda-obesity-trump-absci-regenxbio/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/senate-hassan-questions-rfk-jr-eli-lilly-retatrutide-trial-trump/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/supreme-court-blocks-thousands-lawsuits-roundup-weedkiller-cancer/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/25/vaccine-industry-dark-period-causes-for-hope/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260709160630.htm": "2026-07-11T08:45:34.461748+00:00",
     "https://www.statnews.com/2026/06/26/988-lgbtq-hotline-relaunch-trevor-project/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
     "https://www.statnews.com/2026/06/26/bio-2026-san-diego-key-takeaways-status-report-alex-hogan/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
     "https://www.statnews.com/2026/06/26/biotech-news-embryo-editing-advances-reignite-ethics-debates/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
     "https://www.statnews.com/2026/06/26/health-news-supreme-court-rules-in-weedkiller-roundup-cancer-case/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
-    "https://www.statnews.com/2026/06/26/joseph-fraumeni-li-syndrome-hereditary-cancer-obituary/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/26/medetomidine-opioid-withdrawal-crisis-jails/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/26/the-hot-zone-richard-preston-ebola-narrative/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
-    "https://www.statnews.com/2026/06/26/what-is-pulmonary-hypertension-and-would-glp-1-help/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
     "https://www.statnews.com/2026/06/27/roundup-glyphosate-cancer-monsanto-v-durnell-supreme-court/?utm_campaign=rss": "2026-06-28T09:55:48.266463+00:00",
     "https://www.statnews.com/2026/06/29/biotech-news-talawar-bets-bispecific-approach-for-eczema/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/29/china-biotech-perpetual-foreigner-chinese-american-scientists/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
@@ -10966,6 +11124,7 @@
     "https://www.statnews.com/2026/07/08/prime-medicine-beam-therapeutics-arbitration-outcome/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/08/trump-research-funding-scientists-see-omb-overreach-control/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/2026/07/09/arpa-h-160-million-custom-gene-editing-funding-rare-disease/": "2026-07-10T10:22:16.716564+00:00",
+    "https://www.statnews.com/2026/07/09/arpa-h-160-million-custom-gene-editing-funding-rare-disease/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00",
     "https://www.statnews.com/2026/07/09/astrazeneca-ionis-attr-wainua-trial-failure/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/09/biotech-news-prime-wins-beam-arbitration-clearing-path-to-clinic/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/09/cannabis-seniors-medical-marijuana-legal-thc-cbd-chronic-pain/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
@@ -10979,9 +11138,11 @@
     "https://www.statnews.com/2026/07/09/openevidence-backs-study-that-finds-it-beats-llms-health-tech/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/09/readout-loud-podcast-fda-commissioner-candidates-health-insurance-costs/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/10/bcny-approach-boys-mental-health-connection-belonging-mentors/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
+    "https://www.statnews.com/2026/07/10/biotech-news-roche-ends-huntingtons-gene-silencing-program/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00",
+    "https://www.statnews.com/2026/07/10/health-news-fda-quietly-pushes-back-deadline-on-electric-shock-ban/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00",
     "https://www.statnews.com/2026/07/10/jeremy-faust-inside-medicine-trump-era/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/10/primary-care-data-pcps-health-care-crisis-investment/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/25/weight-loss-drug-spending-launch-prices-for-medicines/?utm_campaign=rss": "2026-06-26T10:23:44.148466+00:00",
+    "https://www.statnews.com/2026/07/10/sean-kaufman-hhs-nominee-past-statements-question-vaccine-safety/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00",
     "https://www.statnews.com/pharmalot/2026/06/26/bill-overhaul-340b-program-new-fda-commisioner-candidate/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
     "https://www.statnews.com/pharmalot/2026/06/26/european-antitrust-regulators-probe-sanofi-for-allegedly-disparaging-rival-flu-vaccine/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
     "https://www.statnews.com/pharmalot/2026/06/26/up-down-ladder-jobs-pharma-biotech-sanofi-biogen-lilly-pfizer/?utm_campaign=rss": "2026-06-27T09:27:23.260477+00:00",
@@ -10997,7 +11158,8 @@
     "https://www.statnews.com/pharmalot/2026/07/07/vertex-buying-crinetics-fda-drug-approvals-kept-pace/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/pharmalot/2026/07/08/fda-approves-vera-kidney-drug-uk-enhertu-pricing-deal/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/pharmalot/2026/07/08/trump-officials-want-to-make-generic-medicines-in-the-us/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/09/fda-commissioner-contenders-reviewed-astrazeneca-ionis-heart-drug-failed/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/09/fda-commissioner-contenders-reviewed-astrazeneca-ionis-heart-drug-failed/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/10/germany-seeks-bigger-drug-discounts-drugmakers-embracing-secrecy/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00"
   },
   "takedowns": []
 }
