@@ -11033,9 +11033,95 @@
         "cancer-genetics",
         "oncology"
       ]
+    },
+    {
+      "audiences": [
+        "oncologists",
+        "researchers",
+        "patients"
+      ],
+      "for_patients": "Pancreatic cancer is one of the hardest cancers to treat, partly because it is often detected late and partly because the genetic change that drives most cases — a mutation in a gene called KRAS — has been very difficult to target with medicines. Researchers and doctors are now paying close attention to a drug called daraxonrasib, which is designed to block the effects of several different KRAS mutations, including the one most commonly found in pancreatic cancer. Specialists quoted in a recent news report say the early results are encouraging, though many questions remain about how and when the drug would be used and how cancers might eventually find ways around it. This is still an active area of research and clinical trials are ongoing. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Daraxonrasib draws attention as potential advance in KRAS-driven pancreatic cancer",
+      "is_preprint": false,
+      "run_date": "2026-07-13",
+      "run_iso": "2026-07-13T10:21:21Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-07-13T08:30:00Z",
+        "novelty": 7
+      },
+      "slug": "daraxonrasib-pancreatic-cancer-kras-treatment",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/07/C0529825-Pancreatic_cancer_coloured_CT_scan-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-13T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: A breakthrough in pancreatic cancer has experts excited — and braced for what's to come",
+          "url": "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/"
+        }
+      ],
+      "standfirst": "Specialists responding to early data on daraxonrasib, a KRAS inhibitor, describe it as a notable development in a disease where treatment options have changed little for decades.",
+      "summary": "Reporting from STAT News describes oncologists as encouraged by emerging data on daraxonrasib, a small-molecule inhibitor targeting KRAS-mutant pancreatic cancer. Pancreatic ductal adenocarcinoma has long been characterised by poor prognosis and limited systemic treatment options; the RAS pathway, and KRAS mutations in particular, drive the majority of cases but have historically proved difficult to target pharmacologically.\n\nThe STAT News piece, which is behind a subscription paywall and therefore cannot be summarised in full, indicates that specialists are simultaneously optimistic about the drug's early signal and cautious about the practical questions that will need to be answered as development continues — including patient selection, sequencing with existing regimens, and resistance mechanisms.\n\nKRAS inhibition has attracted sustained attention in oncology genomics since the approval of sotorasib and adagrasib for KRAS G12C-mutant non-small-cell lung cancer; pancreatic cancer presents a distinct mutational landscape, with KRAS G12D being the predominant variant, and daraxonrasib has been reported to target a broader range of KRAS mutations. Readers wishing to follow the clinical programme should consult the primary trial registry and peer-reviewed publications as they become available.\n\nNote: the source article is paywalled. This summary is based on the publicly visible lede and contextual knowledge of the field; it does not reflect the full content of the STAT News report.",
+      "tags": [
+        "pancreatic-cancer",
+        "kras",
+        "daraxonrasib",
+        "targeted-therapy",
+        "cancer-genomics",
+        "oncology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Myeloid-specific loss of Pck1 does not alter aortic root atherosclerosis in mice, preprint reports",
+      "is_preprint": true,
+      "run_date": "2026-07-13",
+      "run_iso": "2026-07-13T10:21:21Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-07-12T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "pck1-myeloid-deficiency-atherosclerosis-qtl-mice",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Myeloid-Specific Pck1 Deficiency Does Not Alter Aortic Root Atherosclerosis in Mice",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737280v1?rss=1"
+        }
+      ],
+      "standfirst": "A mouse knockout study finds that deleting the metabolic enzyme Pck1 selectively in macrophages leaves aortic root plaque burden unchanged, refining the functional map of the Ath28.1 quantitative trait locus.",
+      "summary": "A preprint deposited on bioRxiv from Cold Spring Harbor Laboratory investigates the contribution of phosphoenolpyruvate carboxykinase 1 (Pck1) to atherosclerosis susceptibility within the Ath28.1 quantitative trait locus (QTL) on mouse chromosome 2. The Ath28.1 subregion, identified through congenic strain fine mapping of a cross between atherosclerosis-resistant AKR Apoe−/− mice and atherosclerosis-sensitive DBA/2 Apoe−/− mice, spans approximately 217 kilobases and encodes only three protein-coding genes: Zbp1, Pck1, and Pmepa1.\n\nTo test whether myeloid-cell expression of Pck1 — an enzyme central to gluconeogenesis and a known regulator of macrophage metabolic state — contributes to plaque formation, the authors generated mice with a macrophage-specific Pck1 deletion on an Apoe−/− background and assessed aortic root lesion area. The preprint reports no significant difference in atherosclerotic burden between conditional knockout and control animals.\n\nThe negative result narrows the candidate field within Ath28.1 and shifts attention towards Zbp1 and Pmepa1 as the more likely effectors of the QTL's atherosclerosis-modifying activity. The work illustrates the iterative process of positional cloning and functional validation in complex-trait genetics in mouse models.\n\nThis is a preprint and has not yet undergone peer review. Results should be interpreted with appropriate caution pending independent review.",
+      "tags": [
+        "atherosclerosis",
+        "quantitative-trait-locus",
+        "pck1",
+        "macrophage",
+        "cardiovascular-genetics",
+        "mouse-model",
+        "positional-cloning",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-07-12T09:00:57.628005+00:00",
+  "last_run": "2026-07-13T10:22:09.296650+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012151": "2026-07-11T08:45:34.461748+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170": "2026-06-30T10:32:09.232395+00:00",
@@ -11091,6 +11177,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737011v1?rss=1": "2026-07-10T10:22:16.716564+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737025v1?rss=1": "2026-07-11T08:45:34.461748+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737069v1?rss=1": "2026-07-12T09:00:57.628005+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.08.737280v1?rss=1": "2026-07-13T10:22:09.296650+00:00",
     "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-accelerates-artificial-intelligence-rollout-to-cut-waiting-times-and-improve-care-for-millions/": "2026-07-05T09:40:19.620710+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-to-overhaul-patient-communications-and-end-farce-of-invitations-arriving-after-appointment/": "2026-07-03T09:55:56.409815+00:00",
@@ -11098,6 +11185,7 @@
     "https://www.england.nhs.uk/2026/07/snooping-staff-face-sack-prison-inappropriate-access-patient-data/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-more-vulnerable-adults-to-be-offered-rsv-vaccine-to-prevent-serious-lung-infection/": "2026-07-02T10:01:23.863060+00:00",
     "https://www.england.nhs.uk/2026/07/warm-weather-world-cup-drives-record-nhs-demand-satisfaction-gps-bounce-back/": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.england.nhs.uk/2026/07/young-people-urged-book-lifesaving-meningitis-jab-high-street-pharmacies/": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260619101356.htm": "2026-07-02T10:01:23.863060+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100317.htm": "2026-06-30T10:32:09.232395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100319.htm": "2026-07-08T09:25:14.024738+00:00",
@@ -11117,8 +11205,9 @@
     "https://www.sciencedaily.com/releases/2026/07/260708022214.htm": "2026-07-10T10:22:16.716564+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260709160630.htm": "2026-07-11T08:45:34.461748+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260709160648.htm": "2026-07-12T09:00:57.628005+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260710003521.htm": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260710003537.htm": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260711010131.htm": "2026-07-12T09:00:57.628005+00:00",
-    "https://www.statnews.com/2026/06/27/roundup-glyphosate-cancer-monsanto-v-durnell-supreme-court/?utm_campaign=rss": "2026-06-28T09:55:48.266463+00:00",
     "https://www.statnews.com/2026/06/29/biotech-news-talawar-bets-bispecific-approach-for-eczema/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/29/china-biotech-perpetual-foreigner-chinese-american-scientists/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
     "https://www.statnews.com/2026/06/29/clive-meanwell-population-health-partners-on-ai-biotech/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
@@ -11230,6 +11319,12 @@
     "https://www.statnews.com/2026/07/10/jeremy-faust-inside-medicine-trump-era/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/10/primary-care-data-pcps-health-care-crisis-investment/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/10/sean-kaufman-hhs-nominee-past-statements-question-vaccine-safety/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00",
+    "https://www.statnews.com/2026/07/12/aaic-in-30-alzheimers-treaatments-focus-on-tau-blood-brain-barrier/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.statnews.com/2026/07/13/doctors-airlines-volunteer-emergency-inflight-emergency-divert/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.statnews.com/2026/07/13/family-caregiver-wages-financial-ruin-medicaid-funding-cuts/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.statnews.com/2026/07/13/forensic-pathologist-shortage-medical-examiners/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.statnews.com/2026/07/13/hhs-ssri-deprescribing-experts-gather-clinical-withdrawal-guidance/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/": "2026-07-13T10:22:09.296650+00:00",
     "https://www.statnews.com/pharmalot/2026/06/29/astrazeneca-kickback-charges-texas-settlement/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/pharmalot/2026/06/29/insulin-cap-revival-former-fda-cancer-drug-chief/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/pharmalot/2026/06/30/china-clinical-trials-probe-rfk-jr-peptides-compounders/": "2026-07-01T10:40:49.346928+00:00",
