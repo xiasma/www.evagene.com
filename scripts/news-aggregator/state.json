@@ -11119,12 +11119,238 @@
         "positional-cloning",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "The C9orf72 gene change is the most common genetic cause of two serious brain conditions: ALS (also called motor neurone disease) and frontotemporal dementia (FTD). When a parent carries this change, their children are traditionally told there is a 50% chance they have inherited it too.\n\nResearchers publishing in the journal PLOS Genetics have developed a new mathematical approach that takes age into account. Because this gene change tends to cause illness most often around age 58, someone who is already in their 60s or 70s without any symptoms is statistically less likely to carry it than a younger relative — so a flat 50% figure may not tell the full story.\n\nThe researchers have produced updated, age-adjusted probability estimates that they suggest could help genetic counsellors give families a more nuanced picture. This work is a theoretical development based on existing data; it does not change current clinical guidance on its own.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Bayesian model refines age-dependent risk estimates for C9orf72 repeat expansion carriers",
+      "is_preprint": false,
+      "run_date": "2026-07-14",
+      "run_iso": "2026-07-14T09:02:02+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-07-13T14:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "c9orf72-age-based-risk-bayesian-genetic-counselling",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-13T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Age-based risk estimates for C9orf72RE-related diseases: Theoretical developments and added value for genetic counseling",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012230"
+        }
+      ],
+      "standfirst": "A new theoretical framework published in PLOS Genetics uses age-specific penetrance data to improve on the standard 50% carrier-risk figure given to relatives of C9orf72 mutation carriers.",
+      "summary": "Dominique de Vienne and Damien M. de Vienne, writing in PLOS Genetics, have developed a Bayesian framework for calculating the probability that an asymptomatic relative carries the C9orf72 hexanucleotide repeat expansion — the most common single genetic cause of both amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD).\n\nThe standard figure quoted in genetic counselling is 50%, reflecting simple Mendelian transmission from an affected parent. The new model adjusts this estimate by incorporating the age-related penetrance of the expansion, which follows a unimodal distribution with onset clustering around 58 years of age. Because someone who has passed their peak-risk age without symptoms is less likely to carry the expansion than a young adult in the same family, the static 50% figure can misrepresent the actual probability at a given age.\n\nUsing the Bayesian approach, the authors derive age-stratified carrier-probability curves and demonstrate the added informational value these provide over the conventional estimate. The framework is positioned as a theoretical and educational advance intended to inform genetic counselling practice, rather than as a clinical tool in its own right.\n\nThe work is directly relevant to genetic counsellors and genetic nurses supporting families affected by ALS or FTD, and to researchers working on penetrance modelling for repeat-expansion disorders. It builds on existing published penetrance data rather than generating new empirical cohort data.",
+      "tags": [
+        "c9orf72",
+        "als",
+        "ftd",
+        "genetic-counselling",
+        "penetrance",
+        "bayesian-methods",
+        "repeat-expansion",
+        "neurodegeneration"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "The GBA1 gene is the most important common genetic risk factor for Parkinson's disease. Certain changes in GBA1 are also responsible for a rare storage disorder called Gaucher disease. Scientists have long been puzzled by how the same gene can be involved in two such different conditions.\n\nA new research report — not yet checked by independent expert reviewers — suggests that a stretch of DNA near the GBA1 gene, which controls how it is switched on and off, may play an important role. The researchers analysed genetic, brain tissue, and spinal fluid data from hundreds of Parkinson's patients and healthy volunteers. They propose this overlooked regulatory region triggers inflammation in the brain, which could help explain the Parkinson's risk.\n\nThis is early-stage research and has not yet been through formal peer review. It does not change current clinical guidance for people with GBA1 variants or their families.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint identifies distal regulatory variant on GBA1 haplotype as potential driver of Parkinson's neuroinflammation",
+      "is_preprint": true,
+      "run_date": "2026-07-14",
+      "run_iso": "2026-07-14T09:02:02+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-07-13T00:00:00+00:00",
+        "novelty": 9
+      },
+      "slug": "gba1-distal-regulatory-signal-parkinsons-neuroinflammation-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-13T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "An overlooked distal regulatory signal on a shared haplotype drives the neuroinflammatory cascade underlying GBA1-associated Parkinson's disease",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.10.737850v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint integrating whole-genome sequencing, transcriptomic, and epigenomic data proposes that an overlooked non-coding regulatory signal may help explain why GBA1 coding variants substantially raise Parkinson's disease risk.",
+      "summary": "A preprint deposited on bioRxiv reports that researchers using the Parkinson's Progression Markers Initiative (PPMI) resource have identified what they describe as a previously overlooked distal regulatory signal sitting on a shared haplotype with GBA1 coding variants. GBA1 coding variants are well established as the strongest common genetic risk factor for Parkinson's disease (PD), yet how they confer polygenic PD risk when the same variants cause Gaucher disease through a distinct monogenic mechanism has remained unresolved.\n\nThe team integrated whole-genome sequencing from sporadic PD cases and controls with matched transcriptomic, epigenomic, and cerebrospinal fluid proteomic data across Northern European and Ashkenazi Jewish populations. Ancestry-specific genetic maps were used to localise disease signals. The authors propose that the distal regulatory element drives a neuroinflammatory cascade, rather than acting solely through the well-characterised lysosomal glucocerebrosidase pathway encoded by GBA1 itself.\n\nThe work has not yet been peer-reviewed. The findings are primarily of interest to researchers studying the genetic architecture of Parkinson's disease, lysosomal biology, and neuroinflammation. Genetic counsellors working with families affected by GBA1-related conditions may also note the evolving understanding of how this locus operates in different disease contexts.\n\nAs a preprint, these results should be considered preliminary until independent replication and peer review.",
+      "tags": [
+        "gba1",
+        "parkinsons-disease",
+        "neuroinflammation",
+        "regulatory-variants",
+        "non-coding-variants",
+        "lysosomal-biology",
+        "population-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Extended FLARE method improves local ancestry inference when reference panels are poorly matched",
+      "is_preprint": false,
+      "run_date": "2026-07-14",
+      "run_iso": "2026-07-14T09:02:02+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-13T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "local-ancestry-inference-flare-mismatched-reference-panels",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-13T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Local ancestry inference with poorly-matched reference panels",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919"
+        }
+      ],
+      "standfirst": "Researchers at the University of Washington have updated the FLARE local ancestry inference algorithm to handle populations lacking a closely matched reference panel, broadening its utility for diverse genomic datasets.",
+      "summary": "Sharon R. Browning, Seth D. Temple, and Brian L. Browning of the University of Washington, writing in PLOS Genetics, describe an extension of their FLARE local ancestry inference method designed to address a key practical limitation: the original algorithm required a closely matched reference panel for each ancestry component, which is not available for all populations.\n\nThe updated method incorporates a haplotype clustering algorithm that enables accurate local ancestry inference even when one or more ancestries in an admixed individual lack a well-matched reference. The authors report that the extension retains the computational efficiency of the original FLARE implementation while substantially broadening the range of admixed populations to which it can be applied.\n\nThe work is demonstrated on real admixed datasets and the method is publicly available as an R package. Accurate local ancestry inference underpins a range of downstream genomic analyses, including admixture mapping, polygenic score portability assessments, and the identification of ancestry-specific variant associations. Improving performance in under-resourced populations has implications for equity in genomic research.\n\nThe paper is peer-reviewed and published in PLOS Genetics. It is primarily of interest to statistical and computational geneticists, population geneticists, and researchers working with admixed cohorts.",
+      "tags": [
+        "local-ancestry-inference",
+        "admixture",
+        "reference-panels",
+        "population-genetics",
+        "statistical-genetics",
+        "computational-genomics",
+        "flare",
+        "equity-in-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Genome-wide cline analysis identifies new barrier locus in Antirrhinum snapdragon hybrid zone",
+      "is_preprint": false,
+      "run_date": "2026-07-14",
+      "run_iso": "2026-07-14T09:02:02+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-13T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "antirrhinum-hybrid-zone-genomic-cline-barrier-locus",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-13T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Genome-wide cline analysis identifies new locus contributing to a barrier to gene flow across an Antirrhinum hybrid zone",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012173"
+        }
+      ],
+      "standfirst": "A multi-institution study published in PLOS Genetics maps a previously unknown genomic locus contributing to reproductive isolation across a natural hybrid zone in snapdragon plants.",
+      "summary": "David L. Field and colleagues, writing in PLOS Genetics, report the identification of a new genomic region contributing to reproductive isolation between two subspecies of the snapdragon Antirrhinum majus. The study used genome-wide cline analysis — scanning for genomic regions where allele frequencies shift more steeply across a hybrid zone than the genome-wide average — as an alternative to the more commonly used FST-based differentiation scans.\n\nThe team included researchers from institutions including the John Innes Centre, the Institute of Science and Technology Austria, and the Chinese Academy of Sciences, among others. By applying the cline approach to a natural hybrid zone in the Pyrenees, they identified a locus not previously implicated in reproductive isolation in this system. The work adds to understanding of the genomic architecture of speciation and the maintenance of species boundaries in the face of gene flow.\n\nThe Antirrhinum hybrid zone is a long-established model system in evolutionary genetics, and the new locus was identified using phased whole-genome sequencing data. The authors note that cline analysis offers a potentially more robust signal of barrier loci than FST outlier approaches in cases where demographic history can confound differentiation statistics.\n\nThe paper is peer-reviewed and published in PLOS Genetics. It is of primary interest to evolutionary geneticists, population geneticists, and educators using Antirrhinum as a teaching model for speciation.",
+      "tags": [
+        "speciation",
+        "hybrid-zone",
+        "antirrhinum",
+        "reproductive-isolation",
+        "genomic-clines",
+        "plant-genetics",
+        "evolutionary-genetics",
+        "population-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint precisely maps breakage hotspots of dicentric ring chromosomes in Drosophila",
+      "is_preprint": true,
+      "run_date": "2026-07-14",
+      "run_iso": "2026-07-14T09:02:02+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-13T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "dicentric-chromosome-breakage-hotspots-drosophila-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-13T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Determinants of dicentric chromosome breakage in Drosophila",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737500v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that dicentric chromosome breaks in Drosophila cluster at nonrandom genomic locations and that the repair process produces unexpectedly complex structural rearrangements.",
+      "summary": "A preprint deposited on bioRxiv presents detailed mapping of the sites at which dicentric ring chromosomes preferentially break during cell division in Drosophila. Dicentric chromosomes — chromosomes with two centromeres — are pulled in opposite directions during segregation and must break, but where exactly they break has not been comprehensively characterised.\n\nThe authors precisely mapped breakage hotspots and identified three principal findings. First, duplications arising from the breaks are structurally complex, involving multiple rearrangements rather than simple end-joining, indicating that healing of dicentric breaks is a multistep process. Second, the researchers characterised the genomic features that determine hotspot locations. Third, the work advances understanding of how eukaryotic cells respond to and resolve these chromosome instability events.\n\nDicentric chromosomes are relevant to cancer biology — they arise in tumour cells and are a source of genomic instability — and to fundamental chromosome biology. The Drosophila system allows precise genetic control over the introduction and resolution of dicentrics.\n\nThis is a preprint and has not yet been peer-reviewed. The work is primarily of interest to researchers in chromosome biology, genome instability, and evolutionary genetics using Drosophila as a model organism.",
+      "tags": [
+        "dicentric-chromosomes",
+        "chromosome-instability",
+        "drosophila",
+        "genome-instability",
+        "centromere",
+        "structural-variants",
+        "model-organisms",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-07-13T10:22:09.296650+00:00",
+  "last_run": "2026-07-14T09:03:41.911928+00:00",
   "seen_urls": {
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012151": "2026-07-11T08:45:34.461748+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170": "2026-06-30T10:32:09.232395+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012173": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012192": "2026-07-10T10:22:16.716564+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012196": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012204": "2026-07-01T10:40:49.346928+00:00",
@@ -11132,10 +11358,12 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012217": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012224": "2026-07-10T10:22:16.716564+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012225": "2026-07-09T10:23:13.437000+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012230": "2026-07-14T09:03:41.911928+00:00",
     "https://news.cancerresearchuk.org/2026/06/29/latest-winner-in-our-research-is-beautiful-competition-4/": "2026-06-30T10:32:09.232395+00:00",
     "https://news.cancerresearchuk.org/2026/06/30/is-there-a-link-between-faster-ageing-and-early-onset-cancer-risk/": "2026-07-01T10:40:49.346928+00:00",
     "https://news.cancerresearchuk.org/2026/07/08/unlocking-cancer-breakthroughs-why-now-is-the-moment-for-action/": "2026-07-08T09:25:14.024738+00:00",
     "https://news.cancerresearchuk.org/2026/07/10/research-careers-pausing-but-not-stopping-for-a-flexible-career/": "2026-07-11T08:45:34.461748+00:00",
+    "https://news.cancerresearchuk.org/2026/07/14/new-trial-offers-hope-for-people-with-rare-adrenal-cancer/": "2026-07-14T09:03:41.911928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.733714v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.734157v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.24.734305v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
@@ -11143,7 +11371,6 @@
     "https://www.biorxiv.org/content/10.64898/2026.06.25.734557v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.25.734683v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.26.734650v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.26.734753v1?rss=1": "2026-06-29T11:57:18.025584+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.26.734831v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.26.734851v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.27.734959v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
@@ -11177,9 +11404,13 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737011v1?rss=1": "2026-07-10T10:22:16.716564+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737025v1?rss=1": "2026-07-11T08:45:34.461748+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737069v1?rss=1": "2026-07-12T09:00:57.628005+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.08.737160v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.08.737280v1?rss=1": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.09.737500v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.10.737850v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
     "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-accelerates-artificial-intelligence-rollout-to-cut-waiting-times-and-improve-care-for-millions/": "2026-07-05T09:40:19.620710+00:00",
+    "https://www.england.nhs.uk/2026/07/nhs-aims-to-prevent-one-in-four-sepsis-deaths/": "2026-07-14T09:03:41.911928+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-to-overhaul-patient-communications-and-end-farce-of-invitations-arriving-after-appointment/": "2026-07-03T09:55:56.409815+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-urges-people-50s-return-bowel-screening-kits-100-cancers-found-week/": "2026-07-11T08:45:34.461748+00:00",
     "https://www.england.nhs.uk/2026/07/snooping-staff-face-sack-prison-inappropriate-access-patient-data/": "2026-07-09T10:23:13.437000+00:00",
@@ -11189,14 +11420,12 @@
     "https://www.sciencedaily.com/releases/2026/06/260619101356.htm": "2026-07-02T10:01:23.863060+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100317.htm": "2026-06-30T10:32:09.232395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100319.htm": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260621060307.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260622014315.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014007.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014026.htm": "2026-07-07T10:24:22.153812+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083119.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260624115324.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260625014838.htm": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260626124703.htm": "2026-06-29T11:57:18.025584+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260630020521.htm": "2026-06-30T10:32:09.232395+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260701205001.htm": "2026-07-09T10:23:13.437000+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260708022158.htm": "2026-07-09T10:23:13.437000+00:00",
@@ -11209,18 +11438,11 @@
     "https://www.sciencedaily.com/releases/2026/07/260710003537.htm": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260711010131.htm": "2026-07-12T09:00:57.628005+00:00",
     "https://www.statnews.com/2026/06/29/biotech-news-talawar-bets-bispecific-approach-for-eczema/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/29/china-biotech-perpetual-foreigner-chinese-american-scientists/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
-    "https://www.statnews.com/2026/06/29/clive-meanwell-population-health-partners-on-ai-biotech/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
-    "https://www.statnews.com/2026/06/29/edison-scientific-population-health-partners-deal-to-create-new-biotechs/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
-    "https://www.statnews.com/2026/06/29/gender-affirming-care-trans-youth-plastic-surgeons-statement/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
     "https://www.statnews.com/2026/06/29/health-news-whats-next-for-988-lgbtq-services/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/29/healthcare-news-unredacted-ca-hospital-lawsuit-sad-mckinsey-tax/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/29/moderna-founder-kenneth-chien-on-cancer-vaccine-and-mrna-future/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
     "https://www.statnews.com/2026/06/29/new-fda-peptide-advisers-compounding-committee-conflicts/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/29/nutex-health-investigation-takeaways-stat-news-no-surprises-act/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/29/nutex-health-micro-hospitals-er-loophole-idr-profits/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
     "https://www.statnews.com/2026/06/29/state-lawsuit-block-medicaid-work-requirements/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/29/sword-health-portugal-deal-ai-supported-physical-therapy/?utm_campaign=rss": "2026-06-29T11:57:18.025584+00:00",
     "https://www.statnews.com/2026/06/29/vijay-kumar-exits-fda-office-of-therapeutic-products/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/abivax-obefazimod-ulcerative-colitis-maintenance-trial-safety-data/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/30/anthropic-ai-drug-development/": "2026-07-01T10:40:49.346928+00:00",
@@ -11320,11 +11542,21 @@
     "https://www.statnews.com/2026/07/10/primary-care-data-pcps-health-care-crisis-investment/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/10/sean-kaufman-hhs-nominee-past-statements-question-vaccine-safety/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00",
     "https://www.statnews.com/2026/07/12/aaic-in-30-alzheimers-treaatments-focus-on-tau-blood-brain-barrier/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.statnews.com/2026/07/13/aaic-in-30-alzheimers-treaatments-dementia-day-2-conference/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/2026/07/13/biotech-news-all-eyes-on-biogen-tau-therapy-data/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/13/doctors-airlines-volunteer-emergency-inflight-emergency-divert/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
     "https://www.statnews.com/2026/07/13/family-caregiver-wages-financial-ruin-medicaid-funding-cuts/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
     "https://www.statnews.com/2026/07/13/forensic-pathologist-shortage-medical-examiners/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.statnews.com/2026/07/13/health-news-caregivers-brace-for-pay-cuts-maybe-homelessness/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/13/hhs-ssri-deprescribing-experts-gather-clinical-withdrawal-guidance/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.statnews.com/2026/07/13/martha-lillard-last-us-polio-patient-iron-lung-dies/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/2026/07/13/unitedhealth-housecalls-audit-report-medicare-advantage-stars-lawsuits/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/2026/07/14/alcohol-health-issues-deadliest-drug-series-final-installment-solutions/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/2026/07/14/deepfakes-ai-generated-medicine-misinformation-regulation-video/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/2026/07/14/openadmet-ai-drug-metabolism-prediction-inductive-bio/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/pharmalot/2026/06/29/astrazeneca-kickback-charges-texas-settlement/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/pharmalot/2026/06/29/insulin-cap-revival-former-fda-cancer-drug-chief/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/pharmalot/2026/06/30/china-clinical-trials-probe-rfk-jr-peptides-compounders/": "2026-07-01T10:40:49.346928+00:00",
@@ -11338,7 +11570,9 @@
     "https://www.statnews.com/pharmalot/2026/07/08/fda-approves-vera-kidney-drug-uk-enhertu-pricing-deal/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/pharmalot/2026/07/08/trump-officials-want-to-make-generic-medicines-in-the-us/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/pharmalot/2026/07/09/fda-commissioner-contenders-reviewed-astrazeneca-ionis-heart-drug-failed/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/10/germany-seeks-bigger-drug-discounts-drugmakers-embracing-secrecy/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/10/germany-seeks-bigger-drug-discounts-drugmakers-embracing-secrecy/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/13/rfk-push-against-ssri-antidepressants-sanofi-blood-cancer-drug/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00"
   },
   "takedowns": []
 }
