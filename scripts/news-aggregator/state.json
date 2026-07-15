@@ -11343,32 +11343,199 @@
         "model-organisms",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "AMY2B copy number varies widely in wild Bosnian wolves, bears, and foxes",
+      "is_preprint": true,
+      "run_date": "2026-07-15",
+      "run_iso": "2026-07-15T09:07:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-07-14T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "amy2b-copy-number-wild-carnivores-bosnia",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-14T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Variation in AMY2B Copy Number and Serum Amylase Activity in Wolves (Canis Lupus), Brown Bears (Ursus arctos), and Red Foxes (Vulpes vulpes) from Bosnia and Herzegovina",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737415v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using droplet digital PCR finds substantial variation in pancreatic amylase gene copy number among wild carnivores with minimal starch exposure, extending the AMY2B story beyond domestic animals.",
+      "summary": "A preprint posted to bioRxiv from researchers examining wildlife in Bosnia and Herzegovina reports variation in copy number of the AMY2B gene — which encodes pancreatic amylase — across three wild carnivore species: wolves (Canis lupus), brown bears (Ursus arctos), and red foxes (Vulpes vulpes).\n\nThe study used droplet digital PCR (ddPCR) to quantify AMY2B copy number in blood samples from eight wolves, eleven brown bears, and three red foxes, and paired those data with serum amylase activity measurements. Previous work on AMY2B copy number variation (CNV) has focused largely on domestic dogs and pigs, species that co-evolved with humans under conditions of high dietary starch. This study extends the picture to wild populations that have limited anthropogenic starch exposure.\n\nThe findings contribute to the broader question of how copy number variation at metabolic loci is shaped by diet and domestication. Bears, which are dietary generalists with seasonal consumption of starchy plant material, showed particular interest as a comparison point against the more strictly carnivorous wolves and foxes. The authors note that their sample sizes are small, a limitation the study acknowledges, and the work has not yet undergone peer review.\n\nFor researchers working on comparative genomics, domestication genetics, or the evolution of copy number variation, the dataset adds a rarely studied geographic and taxonomic window. The ddPCR methodology described may also be of practical interest to conservation genomicists working with limited wildlife samples.",
+      "tags": [
+        "amy2b",
+        "copy-number-variation",
+        "wild-carnivores",
+        "domestication-genetics",
+        "ddpcr",
+        "comparative-genomics",
+        "amylase"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Long-read sequencing uncovers two independent pathogenic variants co-segregating in a consanguineous Pakistani family",
+      "is_preprint": true,
+      "run_date": "2026-07-15",
+      "run_iso": "2026-07-15T09:07:27Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-07-14T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "eps8-hpdl-multilocus-consanguineous-family",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-14T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Phenotype Dependent Segregation of a Novel EPS8 Variant for Hearing Loss and an HPDL Variant for Neurodevelopmental Disorders in a Complex Consanguineous Family",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.09.737440v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that dizygotic twins in a consanguineous family carry both a novel EPS8 variant linked to hearing loss and an HPDL variant associated with neurodevelopmental disorder, illustrating how multilocus pathogenic variation can produce complex overlapping phenotypes.",
+      "summary": "A bioRxiv preprint describes the investigation of a consanguineous Pakistani family in which three affected siblings — including dizygotic twins — present with a combination of neurodevelopmental disorder and hearing loss. Using long-read whole-genome sequencing, bulk transcriptomics, and protein profiling, the authors identified two independently segregating variants: a novel variant in EPS8, a gene associated with autosomal recessive hearing loss, and a variant in HPDL, associated with autosomal recessive neurodevelopmental disorder.\n\nConsanguinity increases the probability of homozygosity at multiple disease-associated loci simultaneously, and this family illustrates how two pathogenic variants can co-segregate in a way that produces a clinically complex and overlapping phenotype. The use of long-read whole-genome sequencing was central to phasing the variants and establishing their independent segregation — an area where short-read approaches can be less informative in highly homozygous backgrounds.\n\nThe case adds to a growing body of literature on multilocus pathogenic variation (sometimes described in the literature as dual or blended phenotypes), and the authors document their clinical evaluation and molecular workup in detail. Genetic counsellors and researchers working on rare disease diagnosis may find the methodology and family structure of practical interest, particularly the approach to distinguishing two co-occurring diagnoses from a single unifying genetic cause.\n\nAs a preprint, the findings have not yet been peer-reviewed.",
+      "tags": [
+        "eps8",
+        "hpdl",
+        "hearing-loss",
+        "neurodevelopmental-disorders",
+        "consanguinity",
+        "multilocus-pathogenic-variation",
+        "long-read-sequencing",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Translesion polymerase Pol Y1 is not strongly recruited to replication forks after DNA damage in Bacillus subtilis",
+      "is_preprint": false,
+      "run_date": "2026-07-15",
+      "run_iso": "2026-07-15T09:07:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-14T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "bacillus-subtilis-pol-y1-tls-recruitment-dna-damage",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-14T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "The B. subtilis translesion polymerase Pol Y1 is not strongly recruited to sites of replication upon different types of DNA damage",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012246"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study by Martinez-Whitman and colleagues challenges the assumption that translesion synthesis polymerases are broadly recruited to stalled replication sites, with implications for understanding mutagenesis regulation in bacteria.",
+      "summary": "Research published in PLOS Genetics by Sophia R. Martinez-Whitman, Chloe M. Santana, and colleagues investigates the recruitment behaviour of Pol Y1, the primary translesion synthesis (TLS) polymerase in the bacterium Bacillus subtilis, under conditions of DNA damage.\n\nTranslesion synthesis is a DNA damage tolerance pathway in which specialised, error-prone polymerases take over from stalled replicative polymerases to copy damaged template DNA. Because TLS polymerases introduce mutations at elevated rates, their activity is subject to multiple regulatory controls. The prevailing model has assumed that these polymerases are actively recruited to stalled replication forks as a damage response.\n\nThe Martinez-Whitman study finds that, across multiple types of DNA damage tested, Pol Y1 is not strongly recruited to replication sites in B. subtilis. This result challenges aspects of the standard model and raises questions about how TLS is regulated at the mechanistic level in this organism. The findings may prompt re-examination of recruitment assays and regulatory frameworks in other bacterial systems.\n\nThe work is relevant primarily to researchers working on DNA replication fidelity, mutagenesis, and the molecular biology of the DNA damage response. It also provides illustrative material for educators and students covering DNA repair pathways.",
+      "tags": [
+        "translesion-synthesis",
+        "dna-damage-response",
+        "bacillus-subtilis",
+        "dna-replication",
+        "mutagenesis",
+        "dna-repair",
+        "bacterial-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "High-resolution recombination map in C. elegans reveals sex differences shaped by meiotic chromosome structure",
+      "is_preprint": false,
+      "run_date": "2026-07-15",
+      "run_iso": "2026-07-15T09:07:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-14T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "c-elegans-recombination-map-sexual-dimorphism-meiosis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-14T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "High-resolution global recombination mapping in C. elegans reveals sexual dimorphisms shaped by meiotic chromosomal features and structures",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012237"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study by Bush, Conery, and colleagues provides the most detailed crossover map to date in Caenorhabditis elegans, documenting pronounced sexual dimorphisms in crossover distribution linked to meiotic chromosomal features.",
+      "summary": "Research published in PLOS Genetics by Zachary D. Bush, John S. Conery, Hannah R. Wilson, and colleagues at the laboratory of Diana E. Libuda presents a high-resolution global map of meiotic recombination in the nematode Caenorhabditis elegans, revealing substantial sexual dimorphism in crossover distribution.\n\nCrossover recombination during meiosis repairs DNA double-strand breaks and ensures accurate chromosome segregation. In many organisms, crossovers cluster at kilobase-scale hotspots, but C. elegans is unusual in distributing crossovers across much broader megabase-scale chromosomal domains. The new study shows that the precise distribution of those crossovers differs markedly between hermaphrodite and male meiosis.\n\nThe authors identify meiotic chromosomal features and structural elements as determinants of these sex-specific patterns. The findings advance understanding of how chromosome organisation shapes recombination outcomes and may have broader implications for models of meiotic regulation and genome evolution. C. elegans remains a central model organism for meiosis research because of its genetic tractability and well-characterised chromosome biology.\n\nThe study is of primary interest to researchers working on meiosis, recombination, and chromosome biology, and provides well-characterised empirical material for educators and students covering these topics.",
+      "tags": [
+        "meiotic-recombination",
+        "crossover",
+        "c-elegans",
+        "sexual-dimorphism",
+        "chromosome-biology",
+        "model-organisms",
+        "meiosis"
+      ]
     }
   ],
-  "last_run": "2026-07-14T09:03:41.911928+00:00",
+  "last_run": "2026-07-15T09:08:53.408325+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012151": "2026-07-11T08:45:34.461748+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012170": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012173": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012192": "2026-07-10T10:22:16.716564+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012196": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012204": "2026-07-01T10:40:49.346928+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012208": "2026-06-30T10:32:09.232395+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012217": "2026-06-30T10:32:09.232395+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012224": "2026-07-10T10:22:16.716564+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012225": "2026-07-09T10:23:13.437000+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012230": "2026-07-14T09:03:41.911928+00:00",
-    "https://news.cancerresearchuk.org/2026/06/29/latest-winner-in-our-research-is-beautiful-competition-4/": "2026-06-30T10:32:09.232395+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012237": "2026-07-15T09:08:53.408325+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012246": "2026-07-15T09:08:53.408325+00:00",
     "https://news.cancerresearchuk.org/2026/06/30/is-there-a-link-between-faster-ageing-and-early-onset-cancer-risk/": "2026-07-01T10:40:49.346928+00:00",
     "https://news.cancerresearchuk.org/2026/07/08/unlocking-cancer-breakthroughs-why-now-is-the-moment-for-action/": "2026-07-08T09:25:14.024738+00:00",
     "https://news.cancerresearchuk.org/2026/07/10/research-careers-pausing-but-not-stopping-for-a-flexible-career/": "2026-07-11T08:45:34.461748+00:00",
     "https://news.cancerresearchuk.org/2026/07/14/new-trial-offers-hope-for-people-with-rare-adrenal-cancer/": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.24.733714v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.24.734157v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.24.734305v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.25.734236v1?rss=1": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.25.734557v1?rss=1": "2026-06-30T10:32:09.232395+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.25.734683v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.26.734650v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.26.734831v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
@@ -11406,6 +11573,8 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737069v1?rss=1": "2026-07-12T09:00:57.628005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.08.737160v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.08.737280v1?rss=1": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.09.737415v1?rss=1": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.09.737440v1?rss=1": "2026-07-15T09:08:53.408325+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737500v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.10.737850v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
     "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
@@ -11418,7 +11587,6 @@
     "https://www.england.nhs.uk/2026/07/warm-weather-world-cup-drives-record-nhs-demand-satisfaction-gps-bounce-back/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.england.nhs.uk/2026/07/young-people-urged-book-lifesaving-meningitis-jab-high-street-pharmacies/": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260619101356.htm": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260620100317.htm": "2026-06-30T10:32:09.232395+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100319.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260622014315.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014007.htm": "2026-07-08T09:25:14.024738+00:00",
@@ -11426,7 +11594,6 @@
     "https://www.sciencedaily.com/releases/2026/06/260623083119.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260624115324.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260625014838.htm": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260630020521.htm": "2026-06-30T10:32:09.232395+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260701205001.htm": "2026-07-09T10:23:13.437000+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260708022158.htm": "2026-07-09T10:23:13.437000+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260708022202.htm": "2026-07-09T10:23:13.437000+00:00",
@@ -11437,26 +11604,16 @@
     "https://www.sciencedaily.com/releases/2026/07/260710003521.htm": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260710003537.htm": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260711010131.htm": "2026-07-12T09:00:57.628005+00:00",
-    "https://www.statnews.com/2026/06/29/biotech-news-talawar-bets-bispecific-approach-for-eczema/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/29/health-news-whats-next-for-988-lgbtq-services/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/29/healthcare-news-unredacted-ca-hospital-lawsuit-sad-mckinsey-tax/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/29/new-fda-peptide-advisers-compounding-committee-conflicts/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/29/nutex-health-investigation-takeaways-stat-news-no-surprises-act/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/29/state-lawsuit-block-medicaid-work-requirements/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260714225523.htm": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/06/29/vijay-kumar-exits-fda-office-of-therapeutic-products/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/2026/06/30/abivax-obefazimod-ulcerative-colitis-maintenance-trial-safety-data/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/30/anthropic-ai-drug-development/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/anthropic-ai-drug-development/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/06/30/biotech-news-investors-double-down-on-bain-backed-capital/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/2026/06/30/florida-ekg-law-high-school-athletes/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/2026/06/30/graduate-student-loan-caps-health-care-nursing-chiropractors/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/30/health-news-half-of-states-sue-over-medicaid-work-requirements/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/health-tech-fda-digital-leader-hints-at-coming-ai-policy-updates/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/2026/06/30/maha-trump-ignores-alcohol-risk-deadliest-drug-part-6/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/30/marburg-virus-cases-ugandan-ebola-outbreak-zone/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/2026/06/30/medicare-medicaid-glp1-costs-explained-balance-out-bridge-in/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
     "https://www.statnews.com/2026/06/30/nih-all-of-us-program-taps-ehr-records-fill-data-gaps/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/republican-tom-kean-jr-reveals-depression-after-absence-from-congress/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/republican-tom-kean-jr-reveals-depression-after-absence-from-congress/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
@@ -11555,10 +11712,23 @@
     "https://www.statnews.com/2026/07/13/unitedhealth-housecalls-audit-report-medicare-advantage-stars-lawsuits/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/14/alcohol-health-issues-deadliest-drug-series-final-installment-solutions/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/2026/07/14/anthropic-claude-science-kendall-square/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/14/biogen-alzheimers-tau-diranersen-trial-results-ionis-aaic/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/14/biotech-news-akero-team-launches-new-immunology-company-with-chinese-drug/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/14/cyclosporiasis-outbreak-cases-top-previous-record-4700-cases/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/14/deepfakes-ai-generated-medicine-misinformation-regulation-video/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/2026/07/14/ebola-outbreak-congo-new-cases-unknown-chains-of-transmission/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/14/hca-predicts-treating-uninsured-patients-will-trim-1-billion-in-profits/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/14/healeth-news-the-risk-of-refusing-a-newborn-vitamin-k-shot/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/14/openadmet-ai-drug-metabolism-prediction-inductive-bio/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/29/astrazeneca-kickback-charges-texas-settlement/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/29/insulin-cap-revival-former-fda-cancer-drug-chief/?utm_campaign=rss": "2026-06-30T10:32:09.232395+00:00",
+    "https://www.statnews.com/2026/07/14/senators-raise-question-hhs-healthcare-advisory-committee-members/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/14/zyn-nicotine-pouches-fda-approval-microplastic-risk/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/fda-cber-acting-director-karim-mikhail-return-normal-vinay-prasad/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/mwyngil-therapeutics-weight-loss-drugs-startup/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/swing-therapeutics-acquired-by-xr-health/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/trump-omb-grant-funding-proposal-comments-95-percent-opposed/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/why-cyclospora-source-remains-unknown-epidemiologist-explains/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/pharmalot/2026/06/30/china-clinical-trials-probe-rfk-jr-peptides-compounders/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/pharmalot/2026/07/01/anthropic-drug-development-goals-trump-plan-hitting-snag/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/amgen-court-win-novo-seeking-supplier-discounts/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
@@ -11572,7 +11742,10 @@
     "https://www.statnews.com/pharmalot/2026/07/09/fda-commissioner-contenders-reviewed-astrazeneca-ionis-heart-drug-failed/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/pharmalot/2026/07/10/germany-seeks-bigger-drug-discounts-drugmakers-embracing-secrecy/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00",
     "https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/13/rfk-push-against-ssri-antidepressants-sanofi-blood-cancer-drug/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/13/rfk-push-against-ssri-antidepressants-sanofi-blood-cancer-drug/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/14/ftc-settles-lawsuit-cvs-caremark-insulin-prices-access/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/14/lilly-teva-court-battle-psychedelic-drugs-guidance-finalized/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/14/sales-from-controversial-drug-discount-program-rose-to-100-billion-last-year/": "2026-07-15T09:08:53.408325+00:00"
   },
   "takedowns": []
 }
