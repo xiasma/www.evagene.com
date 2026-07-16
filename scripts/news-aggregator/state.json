@@ -11517,25 +11517,242 @@
         "model-organisms",
         "meiosis"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have found that a type of leopard gecko naturally develops tumours that share important biological features with human cancers. Most animals used in cancer research have been specially altered in a laboratory to grow tumours, so a gecko that does this on its own is unusual and potentially useful. Researchers say studying how these tumours develop in the gecko — from early stages onwards — could help them understand how similar processes work in people. This kind of basic research does not produce treatments directly, but it can generate insights that eventually inform how cancers are investigated and understood. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Leopard gecko that naturally develops tumours could advance cancer genetics research",
+      "is_preprint": false,
+      "run_date": "2026-07-16",
+      "run_iso": "2026-07-16T09:10:40Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 5,
+        "newest_iso": "2026-07-15T13:47:30Z",
+        "novelty": 7
+      },
+      "slug": "leopard-gecko-tumour-model-cancer-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-15T13:47:30Z",
+          "publisher": "ScienceDaily",
+          "title": "This pet gecko could help scientists unlock the secrets of cancer",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260714225525.htm"
+        }
+      ],
+      "standfirst": "A spontaneously tumour-prone gecko shares key oncogenic genetic changes with human cancers, offering researchers a rare naturally occurring animal model.",
+      "summary": "A leopard gecko lineage that naturally and reliably develops aggressive tumours has been identified as a potentially valuable model organism for cancer genetics research, according to findings reported via ScienceDaily. Researchers found that the tumours arising in these animals share key genetic alterations with human cancers — including changes in genes and pathways already implicated in human oncogenesis — making the gecko unusual among laboratory animals in that the disease arises spontaneously rather than being induced experimentally.\n\nMost animal cancer models rely on engineered mutations or chemical induction; a model in which tumours develop through natural biological processes may more closely replicate the multistep progression seen in human disease. The researchers suggest the gecko could therefore allow study of early tumour development in ways that are difficult to achieve in existing model systems.\n\nThe underlying publication and the specific institution and journal involved were not named in the available feed summary. Further details — including the genes and pathways identified, the gecko species and tumour type, and the full study design — will be available in the primary literature. Readers are encouraged to seek the peer-reviewed source for methodological detail.",
+      "tags": [
+        "animal-models",
+        "cancer-genetics",
+        "oncogenesis",
+        "gecko",
+        "tumour-biology",
+        "model-organisms"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers have worked out how a toxin produced by a type of gut bacterium — called Bacteroides fragilis — manages to damage the lining of the colon. The toxin latches onto a protein called claudin-4 on the surface of colon cells, which lets it get inside and cause harm. This bacterium has previously been linked to a higher risk of bowel cancer, though it is one of many factors involved. After identifying this entry point, the team designed a 'decoy' protein that blocked the toxin in laboratory mice, reducing inflammation and tumour growth. This research is at an early stage in animals and does not yet have any direct implications for how bowel cancer is prevented or treated in people. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Receptor for gut bacterial toxin linked to colorectal cancer identified, decoy protein blocks it in mice",
+      "is_preprint": false,
+      "run_date": "2026-07-16",
+      "run_iso": "2026-07-16T09:10:40Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-07-16T05:37:21Z",
+        "novelty": 8
+      },
+      "slug": "fragillin-toxin-claudin4-colorectal-cancer-mechanism",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-16T05:37:21Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists finally solved how a common gut bacterium triggers colon cancer",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260713084910.htm"
+        }
+      ],
+      "standfirst": "Researchers have identified claudin-4 as the entry receptor for a bacterially derived toxin associated with colorectal cancer, and designed a decoy protein that blocked it in a mouse model.",
+      "summary": "Scientists have described the molecular mechanism by which fragilysin — a toxin produced by enterotoxigenic Bacteroides fragilis — gains access to the colonic epithelium and damages its protective barrier. The toxin first binds to claudin-4, a tight-junction protein expressed on colonocyte surfaces, and uses this interaction to breach the mucosal barrier, triggering downstream inflammation and, in animal models, promoting tumour development.\n\nHaving identified claudin-4 as the key receptor, the research team designed a decoy protein that mimics the binding site, competitively inhibiting the toxin before it can reach the epithelial surface. In mouse experiments, the decoy successfully blocked toxin activity, reducing both inflammation and colon tumour formation. The findings were reported via ScienceDaily; the primary institution and journal were not specified in the available feed summary.\n\nEnterotoxigenic B. fragilis has been associated with colorectal cancer risk in epidemiological and experimental studies for some years, but the precise initial binding step had not been characterised. Identifying claudin-4 as that first point of attack resolves a long-standing gap in mechanistic understanding and suggests a potential therapeutic target. The decoy-protein approach remains at an early preclinical stage; substantial further work — including safety, specificity, and pharmacokinetic studies — would be required before any translational relevance could be assessed.",
+      "tags": [
+        "colorectal-cancer",
+        "microbiome",
+        "bacteroides-fragilis",
+        "claudin-4",
+        "toxin-biology",
+        "cancer-genetics",
+        "mouse-model"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Generalised Transmission Mean Test extends causal genotype–phenotype inference to nuclear families with multiple offspring",
+      "is_preprint": false,
+      "run_date": "2026-07-16",
+      "run_iso": "2026-07-16T09:10:40Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-07-15T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gtmt-causal-genotype-phenotype-nuclear-families",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-15T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "A generalized test of genotype–phenotype causality in population-sampled nuclear families",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012231"
+        }
+      ],
+      "standfirst": "Yushi Tang and John Storey at Princeton describe the gTMT, a causal inference framework that identifies genetic loci with average causal effects on child phenotypes in population-sampled nuclear families.",
+      "summary": "Writing in *PLOS Genetics*, Yushi Tang and John D. Storey present the generalised Transmission Mean Test (gTMT), an extension of their earlier causal inference framework designed for parent–child trios. The original Transmission Mean Test (TMT) estimated causal genotype–phenotype relationships in population-sampled trios with a single child per family; the gTMT generalises this to nuclear families containing multiple siblings, a common structure in large cohort and biobank datasets.\n\nThe methodological advance centres on detecting genetic loci with non-zero average causal effects (ACE) on child phenotypes while accounting for the fact that siblings share random family-specific environmental and genetic effects. By modelling within-family transmission rather than relying solely on population-level association, the framework is designed to be less susceptible to confounding by population stratification — a persistent challenge in standard genome-wide association studies.\n\nThe gTMT is positioned as a tool for researchers working with family-based cohorts who wish to move beyond association to causal inference, without requiring complete family genotyping or strong modelling assumptions about sibling correlation structures. Tang and Storey provide theoretical derivations and, based on the abstract, simulation evidence supporting the method's validity. The paper is published in full open access in *PLOS Genetics* (doi: 10.1371/journal.pgen.1012231).",
+      "tags": [
+        "causal-inference",
+        "statistical-genetics",
+        "family-based-studies",
+        "gwas",
+        "population-stratification",
+        "quantitative-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes empirical multiple-testing thresholds for HLA association studies using whole-genome sequencing data",
+      "is_preprint": true,
+      "run_date": "2026-07-16",
+      "run_iso": "2026-07-16T09:10:40Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-07-15T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "hla-multiple-testing-wgs-population-association-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-15T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Empirical estimation of multiple-testing burden for population-based HLA association studies using sequencing-derived HLA alleles across genetic ancestries",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.12.738059v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from population genomics researchers sets out ancestry-stratified guidance for controlling false-discovery rates in HLA allele association studies derived from sequencing-based typing.",
+      "summary": "A preprint posted to bioRxiv addresses a practical gap in the methodology of HLA association studies: unlike genome-wide association studies of single-nucleotide variants, for which the field has broadly converged on a genome-wide significance threshold of p < 5 × 10⁻⁸, there is no established consensus for controlling the multiple-testing burden when interrogating classical HLA alleles resolved from whole-genome sequencing data.\n\nThe nine classical HLA genes (HLA-A, -B, -C, -DRB1, -DQA1, -DQB1, -DPA1, -DPB1, and -DRB3/4/5) are highly polymorphic and in extensive linkage disequilibrium with one another, meaning that the effective number of independent tests differs substantially from a naïve count of alleles. The authors use population-scale sequencing datasets spanning multiple genetic ancestry groups to estimate empirically how many independent tests are actually being performed, and derive ancestry-stratified thresholds accordingly.\n\nThe work is directly relevant to researchers conducting HLA-disease association studies — particularly for autoimmune and infectious-disease phenotypes, where HLA effects are often the strongest genetic signals — who need principled methods to balance false-positive control against statistical power. Because this is a preprint and has not yet completed peer review, the specific threshold values and ancestry-group estimates should be treated as preliminary. Readers should consult the final peer-reviewed publication once available.",
+      "tags": [
+        "hla",
+        "multiple-testing",
+        "gwas-methods",
+        "whole-genome-sequencing",
+        "population-genetics",
+        "ancestry",
+        "autoimmune-disease",
+        "statistical-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Cancer Research UK commentary explores microbiome, ageing, and colorectal cancer risk through a holobiont lens",
+      "is_preprint": false,
+      "run_date": "2026-07-16",
+      "run_iso": "2026-07-16T09:10:40Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-07-15T10:00:45Z",
+        "novelty": 5
+      },
+      "slug": "cancer-holobiont-microbiome-ageing-colorectal-risk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-15T10:00:45Z",
+          "publisher": "Cancer Research UK",
+          "title": "When relationships turn sour – cancer and the holobiont",
+          "url": "https://news.cancerresearchuk.org/2026/07/15/when-relationships-turn-sour-cancer-and-the-holobiont/"
+        }
+      ],
+      "standfirst": "Filipe Cabreiro argues in Cancer Research UK's research blog that understanding colorectal cancer risk requires integrating the biology of ageing, host physiology, and the gut microbiome.",
+      "summary": "A commentary published on the Cancer Research UK research news site by Filipe Cabreiro makes the case that colorectal cancer risk cannot be understood by examining host genetics or the microbiome in isolation. Drawing on the concept of the holobiont — the host organism and its associated microbial communities considered as an integrated biological unit — Cabreiro argues that ageing-related changes in host physiology alter the composition and function of the gut microbiome in ways that modulate cancer risk, and vice versa.\n\nThe piece is framed for a research audience and does not present new primary data; rather, it offers a perspective on how the field might advance by treating host–microbiome interactions as dynamic and co-evolving rather than as static background factors. The holobiont framing draws from evolutionary biology and has been applied more widely in ageing research, but its application to colorectal cancer genetics and epidemiology is less established.\n\nThe commentary sits alongside the cluster covering the claudin-4 / B. fragilis mechanistic findings (reported separately in today's edition), illustrating both mechanistic and conceptual dimensions of the microbiome–colorectal cancer relationship. Readers interested in this intersection should also consult the primary literature on enterotoxigenic B. fragilis and the broader microbiome–cancer literature.",
+      "tags": [
+        "colorectal-cancer",
+        "microbiome",
+        "holobiont",
+        "ageing",
+        "cancer-risk",
+        "gut-biology"
+      ]
     }
   ],
-  "last_run": "2026-07-15T09:08:53.408325+00:00",
+  "last_run": "2026-07-16T09:12:27.185671+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011986": "2026-07-16T09:12:27.185671+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012151": "2026-07-11T08:45:34.461748+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012173": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012192": "2026-07-10T10:22:16.716564+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012204": "2026-07-01T10:40:49.346928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012224": "2026-07-10T10:22:16.716564+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012225": "2026-07-09T10:23:13.437000+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012230": "2026-07-14T09:03:41.911928+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012231": "2026-07-16T09:12:27.185671+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012237": "2026-07-15T09:08:53.408325+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012246": "2026-07-15T09:08:53.408325+00:00",
-    "https://news.cancerresearchuk.org/2026/06/30/is-there-a-link-between-faster-ageing-and-early-onset-cancer-risk/": "2026-07-01T10:40:49.346928+00:00",
     "https://news.cancerresearchuk.org/2026/07/08/unlocking-cancer-breakthroughs-why-now-is-the-moment-for-action/": "2026-07-08T09:25:14.024738+00:00",
     "https://news.cancerresearchuk.org/2026/07/10/research-careers-pausing-but-not-stopping-for-a-flexible-career/": "2026-07-11T08:45:34.461748+00:00",
     "https://news.cancerresearchuk.org/2026/07/14/new-trial-offers-hope-for-people-with-rare-adrenal-cancer/": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.25.734236v1?rss=1": "2026-07-01T10:40:49.346928+00:00",
+    "https://news.cancerresearchuk.org/2026/07/15/cancer-waiting-times-latest-updates-and-analysis/": "2026-07-16T09:12:27.185671+00:00",
+    "https://news.cancerresearchuk.org/2026/07/15/when-relationships-turn-sour-cancer-and-the-holobiont/": "2026-07-16T09:12:27.185671+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.25.734683v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.26.734650v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.26.734831v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
@@ -11577,6 +11794,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737440v1?rss=1": "2026-07-15T09:08:53.408325+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737500v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.10.737850v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.12.738059v1?rss=1": "2026-07-16T09:12:27.185671+00:00",
     "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-accelerates-artificial-intelligence-rollout-to-cut-waiting-times-and-improve-care-for-millions/": "2026-07-05T09:40:19.620710+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-aims-to-prevent-one-in-four-sepsis-deaths/": "2026-07-14T09:03:41.911928+00:00",
@@ -11604,32 +11822,22 @@
     "https://www.sciencedaily.com/releases/2026/07/260710003521.htm": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260710003537.htm": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260711010131.htm": "2026-07-12T09:00:57.628005+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260713084910.htm": "2026-07-16T09:12:27.185671+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260714225523.htm": "2026-07-15T09:08:53.408325+00:00",
-    "https://www.statnews.com/2026/06/29/vijay-kumar-exits-fda-office-of-therapeutic-products/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/2026/06/30/anthropic-ai-drug-development/": "2026-07-01T10:40:49.346928+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260714225525.htm": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260714225542.htm": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/2026/06/30/anthropic-ai-drug-development/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/06/30/biotech-news-investors-double-down-on-bain-backed-capital/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/2026/06/30/health-news-half-of-states-sue-over-medicaid-work-requirements/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/2026/06/30/health-tech-fda-digital-leader-hints-at-coming-ai-policy-updates/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/2026/06/30/marburg-virus-cases-ugandan-ebola-outbreak-zone/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/2026/06/30/nih-all-of-us-program-taps-ehr-records-fill-data-gaps/": "2026-07-01T10:40:49.346928+00:00",
-    "https://www.statnews.com/2026/06/30/republican-tom-kean-jr-reveals-depression-after-absence-from-congress/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/06/30/republican-tom-kean-jr-reveals-depression-after-absence-from-congress/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/alcohol-lobby-immense-power-explored-deadliest-drug-part-7/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/07/01/alcohol-lobby-immense-power-explored-deadliest-drug-part-7/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/anthropic-claude-science-convinced-me-its-serious-ai-prognosis/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/biotech-news-glp-1s-may-help-with-peripheral-artery-disease/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/ebola-virus-outbreak-bundibugyo-marburg-testing-krutika-kuppalli/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/07/01/ebola-virus-outbreak-bundibugyo-marburg-testing-krutika-kuppalli/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/fda-approves-orca-bio-treatment-blood-cancer/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/health-news-fda-says-zyn-can-market-pouches-as-safer-than-cigarettes/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/lancet-obesity-blood-pressure-cholesterol-study/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/q3-biotech-scorecard-readouts-approval-decisions/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/07/01/q3-biotech-scorecard-readouts-approval-decisions/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/01/synthethic-biology-researcher-announce-creation-spud-cells/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/young-men-mental-health-loneliness-despair-maryland-wes-moore/": "2026-07-01T10:40:49.346928+00:00",
     "https://www.statnews.com/2026/07/01/young-men-mental-health-loneliness-despair-maryland-wes-moore/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/02/biotech-news-roche-drug-sets-new-standard-for-kras-driven-lung-cancer/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/2026/07/02/biotech-sector-booms-capricor-fda-meeting/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
@@ -11723,13 +11931,29 @@
     "https://www.statnews.com/2026/07/14/openadmet-ai-drug-metabolism-prediction-inductive-bio/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/14/senators-raise-question-hhs-healthcare-advisory-committee-members/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/14/zyn-nicotine-pouches-fda-approval-microplastic-risk/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/aaic-in-30-alzheimers-treaatments-dementia-conference-diagnostics-treatments/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/15/bill-cassidy-sean-kaufman-confirmation-clash-mrna-hepatitis-b-vaccines/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/15/biotech-news-celcuity-breast-cancer-drug-approved-in-a-first/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/15/cms-proposes-ban-medicare-remote-patient-monitoring-vendors/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/15/coronary-artery-disease-progress-prevention-jama-study/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/15/ebola-outbreak-congo-2000-cases-health-workers-strike/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/15/elevance-health-shrink-medicaid-portfolio-high-costs/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/15/epstein-barr-virus-immune-response-multiple-sclerosis-new-study/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/2026/07/15/fda-cber-acting-director-karim-mikhail-return-normal-vinay-prasad/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/health-news-what-to-know-about-cyclosporiasis-parasitic-diarrhea/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/15/lindsay-graham-death-aortic-dissection-risk-prediction-warning-signs/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/15/mayo-whistleblower-sutter-abridge-lawsuit-news-ai-prognosis/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/2026/07/15/mwyngil-therapeutics-weight-loss-drugs-startup/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/schwartz-kaufman-senate-confirmation-hearing-key-takeaways/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/2026/07/15/swing-therapeutics-acquired-by-xr-health/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/15/trump-omb-grant-funding-proposal-comments-95-percent-opposed/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/15/trump-omb-grant-funding-proposal-comments-95-percent-opposed/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/2026/07/15/why-cyclospora-source-remains-unknown-epidemiologist-explains/": "2026-07-15T09:08:53.408325+00:00",
-    "https://www.statnews.com/pharmalot/2026/06/30/china-clinical-trials-probe-rfk-jr-peptides-compounders/": "2026-07-01T10:40:49.346928+00:00",
+    "https://www.statnews.com/2026/07/16/cms-to-revamp-payments-for-clinical-software-ai/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/16/glp-1-weight-loss-drugs-gila-monster-venom-pharmaceuticals/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/16/snap-cuts-mental-illness-hunger-psychiatric-emergency/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/pharmalot/2026/07/01/anthropic-drug-development-goals-trump-plan-hitting-snag/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/amgen-court-win-novo-seeking-supplier-discounts/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/judge-blocks-colorado-price-cap-on-amgen-enbrel/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
@@ -11745,7 +11969,10 @@
     "https://www.statnews.com/pharmalot/2026/07/13/rfk-push-against-ssri-antidepressants-sanofi-blood-cancer-drug/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/pharmalot/2026/07/14/ftc-settles-lawsuit-cvs-caremark-insulin-prices-access/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/pharmalot/2026/07/14/lilly-teva-court-battle-psychedelic-drugs-guidance-finalized/": "2026-07-15T09:08:53.408325+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/14/sales-from-controversial-drug-discount-program-rose-to-100-billion-last-year/": "2026-07-15T09:08:53.408325+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/14/sales-from-controversial-drug-discount-program-rose-to-100-billion-last-year/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/15/bill-would-require-us-probe-reliance-on-foreign-made-drugs-and-ingredients/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/15/biogen-alzheimer-drug-skyrocketing-340b-drug-sales/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/15/glenmark-pay-29-million-settle-price-fixing-allegations/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00"
   },
   "takedowns": []
 }
