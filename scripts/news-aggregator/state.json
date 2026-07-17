@@ -11733,40 +11733,301 @@
         "cancer-risk",
         "gut-biology"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers publishing in the journal PLOS Genetics have described a new method for spotting potential drug safety problems earlier in the process of developing medicines. By examining genetic data — information about small variations in people's DNA — the team found patterns that appeared to signal which drugs might later turn out to cause harmful side effects. The study used a large database of genetic information from US military veterans and cross-referenced it with known information about how drugs interact with the body. The researchers say this kind of approach could, in the future, help scientists design safer medicines before they reach large-scale clinical trials. This work is at an early research stage and describes findings in published data, not a tool currently used in patient care. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Genomic strategy anticipates drug safety signals before clinical harm emerges",
+      "is_preprint": false,
+      "run_date": "2026-07-17",
+      "run_iso": "2026-07-17T09:06:46Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-07-16T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "genomic-drug-safety-prediction-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-16T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "A genomic-led strategy to anticipate drug safety effects",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012211"
+        }
+      ],
+      "standfirst": "Researchers from the Million Veteran Program and collaborating institutions publish a genomic-led framework in PLOS Genetics that uses genetic evidence to flag potential drug safety issues early in development.",
+      "summary": "A study published in PLOS Genetics by Brian R. Ferolito, Andrea R. V. R. Horimoto, and colleagues from the Million Veteran Program, the Broad Institute, and collaborating European institutions describes a genomic-led strategy for anticipating adverse drug effects before they manifest in clinical populations.\n\nSafety-related failures account for roughly 25 per cent of drug development attrition. The framework integrates genome-wide association data, pharmacogenomic signals, and target gene biology to generate early-stage indicators of potential off-target or toxic effects. The authors applied the approach across multiple drug classes and found it could surface safety-relevant signals that preceded known post-marketing withdrawals or black-box warning updates in several cases.\n\nThe method uses publicly available GWAS summary statistics and databases such as ChEMBL alongside target-gene mapping to flag variant–drug interactions that may predict adverse outcomes. It does not require proprietary biobank data at the point of application, though the validation drew heavily on the Million Veteran Program cohort.\n\nThe study is relevant to researchers in pharmacogenomics and drug development, as well as computational geneticists building variant-to-function pipelines. It adds to a growing body of work arguing that genetic evidence, when integrated systematically at the target-identification stage, can reduce late-stage safety attrition — a recurring cost driver in pharmaceutical research.",
+      "tags": [
+        "pharmacogenomics",
+        "drug-safety",
+        "gwas",
+        "million-veteran-program",
+        "drug-development",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Contrasting evolutionary rates in lettuce immune receptors reflect functional divergence after subfunctionalisation",
+      "is_preprint": false,
+      "run_date": "2026-07-17",
+      "run_iso": "2026-07-17T09:06:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-16T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "nlr-immune-receptor-evolution-lettuce-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-16T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Contrasting evolutionary patterns of helper and sensor NRC NLRs in lettuce reflect functional divergence following subfunctionalization",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012245"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study from Sophien Kamoun's group and collaborators examines how helper and sensor NLR immune receptors in lettuce have evolved at different rates following functional divergence within the NRC network.",
+      "summary": "Researchers including Hsuan Pai, Toshiyuki Sakai, Sophien Kamoun, and colleagues have published a study in PLOS Genetics examining the evolutionary dynamics of nucleotide-binding leucine-rich repeat (NLR) immune receptors in lettuce, a commercially significant crop in the Asterid lineage.\n\nNLR proteins constitute the principal intracellular immune receptors in plants. Within the NRC (NLR Required for Cell Death) network, NLRs are divided functionally into sensor NLRs — which detect pathogen effectors — and helper NLRs, which transduce the downstream cell-death signal. The study finds that sensor and helper NLRs in lettuce evolve at markedly different rates, and that these contrasting evolutionary patterns reflect genuine functional divergence arising from subfunctionalisation following gene duplication events.\n\nThe authors used phylogenomic and population-level sequence analysis to characterise rates of diversifying selection across the two NLR classes in lettuce, comparing intraspecific variation with patterns seen in other Asterid species. Sensor NLRs showed signatures of more rapid, diversifying evolution consistent with an ongoing evolutionary arms race against pathogen effectors. Helper NLRs, constrained by their role as shared signal transducers, evolved more slowly.\n\nThe findings contribute to understanding of how immune gene networks are maintained and diversified in crop plants, with potential implications for resistance gene deployment strategies in plant breeding. The work was published in PLOS Genetics.",
+      "tags": [
+        "nlr-immune-receptors",
+        "plant-immunity",
+        "subfunctionalisation",
+        "lettuce",
+        "crop-genetics",
+        "evolutionary-genetics",
+        "nrc-network",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Zinc finger protein Wiz restricts CTCF-mediated loop extrusion to regulate clustered protocadherin genes",
+      "is_preprint": false,
+      "run_date": "2026-07-17",
+      "run_iso": "2026-07-17T09:06:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-16T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "wiz-ctcf-protocadherin-loop-extrusion-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-16T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Wiz regulates clustered protocadherin genes by restricting CTCF/cohesin loop extrusion in a genomic-distance biased manner",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012242"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study identifies Wiz as a regulator of clustered protocadherin gene expression by constraining CTCF and cohesin loop extrusion in a genomic-distance-dependent manner.",
+      "summary": "Researchers including Tianjie Li, Jingwei Li, Leyang Wang, and Qiang Wu have published a study in PLOS Genetics characterising how the zinc finger protein Wiz regulates the expression of clustered protocadherin (cPcdh) genes in mice.\n\nThe clustered protocadherin locus encodes a large family of cell-surface proteins critical for neuronal identity and circuit formation in the mammalian brain. Their expression is regulated through CTCF-mediated chromatin looping and cohesin-driven loop extrusion. The authors introduce COP (C2H2-ZFP Occupancy Predictor), a deep learning tool that integrates DNA sequence with protein structural features to predict genomic binding enrichment of C2H2-class zinc finger proteins.\n\nApplying COP to the cPcdh locus, they identified Wiz among dozens of C2H2 zinc finger proteins potentially involved in CTCF-mediated regulation. Experimental validation showed that Wiz restricts loop extrusion in a genomic-distance-biased manner — effectively acting as a boundary modulator that shapes which promoter–enhancer contacts form across the locus.\n\nThe study provides mechanistic insight into how a specific zinc finger protein influences three-dimensional genome organisation and gene expression at a complex locus. It also demonstrates the utility of the COP framework for identifying previously uncharacterised regulators of chromatin architecture, which could be applied to other complex gene families.",
+      "tags": [
+        "ctcf",
+        "cohesin",
+        "loop-extrusion",
+        "protocadherins",
+        "zinc-finger-proteins",
+        "chromatin-architecture",
+        "3d-genome",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: piRNA pathway loss triggers episodic transposition bursts across generations in Drosophila",
+      "is_preprint": true,
+      "run_date": "2026-07-17",
+      "run_iso": "2026-07-17T09:06:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-07-16T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "pirna-loss-transposon-bursts-drosophila-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "piRNA loss unleashes episodic transposition bursts",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.11.737971v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using single-fly Nanopore sequencing tracks transposon copy accumulation in Drosophila lacking the piRNA biogenesis factor HP1D/Rhino, revealing that disrupted silencing produces sporadic rather than continuous transposition.",
+      "summary": "A preprint deposited on bioRxiv reports that loss of the piRNA pathway in Drosophila does not produce steady continuous transposon mobilisation but instead drives episodic bursts of transposition events, with marked variation between individual flies and across generations.\n\nThe piRNA (PIWI-interacting RNA) pathway is the primary mechanism by which metazoan germlines suppress transposable elements. Disruption of this pathway is known to cause elevated transposon transcript levels, but whether increased expression translates reliably into new genomic insertions — and at what frequency — had remained difficult to quantify.\n\nThe research team developed a single-fly Nanopore long-read DNA sequencing framework to track the accumulation of new transposon copies at single-insertion resolution across successive generations of male Drosophila lacking HP1D/Rhino, a core piRNA biogenesis factor. Their data showed that several distinct transposon families mobilise upon piRNA loss, but do so in episodic bursts rather than at a constant rate, and that the identity and frequency of mobilising elements varied between lineages.\n\nThe findings have implications for understanding germline genome instability, the evolutionary dynamics of transposable elements, and the functional consequences of piRNA pathway disruption. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "pirna",
+        "transposable-elements",
+        "germline",
+        "drosophila",
+        "nanopore-sequencing",
+        "genome-instability",
+        "transposon-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "Fragile X-associated tremor/ataxia syndrome, often called FXTAS (pronounced \"fax-tas\"), is a condition that can affect some older adults who carry a particular change — known as a premutation — in a gene called FMR1. People with this premutation have an expanded section of repetitive DNA in the gene; this expansion can sometimes cause problems with movement and thinking as carriers age. Researchers publishing a preliminary study (a preprint, which has not yet been fully reviewed by independent scientists) used fruit flies to investigate how this expanded DNA causes harm to nerve cells. They found that the expanded DNA caused a type of molecule called a long non-coding RNA — a chemical messenger that does not make protein but can still influence how cells work — to become overactive. When the researchers reduced the activity of this molecule in the flies, some of the damage appeared to lessen. The team say this finding may help guide future research into the mechanisms of FXTAS. This is an early-stage laboratory study in flies, not a clinical finding. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint: Stress-related lncRNA Hsrω-n amplifies CGG repeat toxicity in Drosophila model of FXTAS",
+      "is_preprint": true,
+      "run_date": "2026-07-17",
+      "run_iso": "2026-07-17T09:06:46Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-07-16T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "fxtas-hsromega-lncrna-cgg-toxicity-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Aberrant expression of stress-related Hsrω-n lncRNA contributes to CGG repeat-mediated toxicity in a Drosophila model of FXTAS",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.10.737441v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies aberrant expression of the long non-coding RNA Hsrω-n as a contributor to neuronal toxicity in a Drosophila model of fragile X-associated tremor/ataxia syndrome.",
+      "summary": "A preprint on bioRxiv describes experiments in Drosophila showing that overexpression of the stress-responsive long non-coding RNA (lncRNA) Hsrω-n (heat shock RNA omega-nuclear) contributes to the neuronal toxicity caused by expanded CGG repeats associated with fragile X-associated tremor/ataxia syndrome (FXTAS).\n\nFXTAS is an adult-onset neurodegenerative condition that affects some carriers of premutation alleles in the FMR1 (fragile X messenger ribonucleoprotein 1) gene — defined as approximately 55–200 CGG repeat expansions in the 5′ untranslated region of FMR1. The molecular mechanisms downstream of repeat-driven toxicity remain incompletely understood.\n\nWorking in a Drosophila transgenic model carrying expanded CGG repeats sufficient to replicate FXTAS-like cellular stress, the authors found that the repeats led to dominant upregulation of Hsrω-n. Genetic manipulation to reduce Hsrω-n expression partially suppressed the CGG-induced neurotoxic phenotype, implicating this lncRNA as a modifier rather than a bystander of CGG-driven cellular damage.\n\nThe findings add lncRNA-mediated stress responses to the mechanistic picture of FXTAS and raise the possibility that Hsrω-n or its mammalian functional equivalents could represent targets for further investigation. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "fxtas",
+        "fmr1",
+        "cgg-repeat",
+        "lncrna",
+        "neurodegeneration",
+        "drosophila",
+        "repeat-expansion",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint benchmarks Nanopore R10.4.1 chemistry and basecalling models for forensic STR profiling",
+      "is_preprint": true,
+      "run_date": "2026-07-17",
+      "run_iso": "2026-07-17T09:06:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-16T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "nanopore-str-forensic-r10-basecalling-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Benchmarking Nanopore Sequencing for Autosomal and Y-STR profiling on R10.4.1 Flowcells across Basecalling Models",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.10.737817v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint systematically evaluates Oxford Nanopore R10.4.1 flow cells and multiple basecalling tiers for autosomal and Y-chromosome short tandem repeat profiling, assessing suitability for forensic DNA analysis.",
+      "summary": "A preprint deposited on bioRxiv reports a systematic benchmark of Oxford Nanopore Technologies R10.4.1 flow cell chemistry combined with several basecalling model tiers — HAC (high accuracy), SUP (super accuracy), and HYP (hyperbolic) — across multiple software versions, for the purpose of forensic short tandem repeat (STR) profiling.\n\nSTR profiling, the determination of repeat-count alleles at a standard set of autosomal loci alongside Y-chromosome STR markers, is the foundation of forensic DNA identification. Capillary electrophoresis (CE) has been the standard method for decades. Nanopore sequencing offers potential advantages in portability, cost, and performance with degraded samples, but historically elevated per-base error rates have limited its adoption in forensic applications where allele-calling accuracy is paramount.\n\nThe authors evaluated concordance between Nanopore-derived STR calls and established CE profiles across a panel of samples, testing how basecalling model choice and software version affect allele-calling accuracy for both autosomal and Y-STR loci. Newer basecalling models and chemistry showed substantially improved performance, with HYP-tier basecalling on R10.4.1 achieving accuracy levels that the authors suggest may be approaching forensic suitability.\n\nThe study will be of particular interest to forensic geneticists, researchers in sequencing methods, and population geneticists who use STR data. It does not constitute a validated forensic workflow. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "nanopore-sequencing",
+        "short-tandem-repeats",
+        "forensic-genetics",
+        "y-str",
+        "basecalling",
+        "sequencing-methods",
+        "str-profiling",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-07-16T09:12:27.185671+00:00",
+  "last_run": "2026-07-17T09:08:53.404848+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011986": "2026-07-16T09:12:27.185671+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012151": "2026-07-11T08:45:34.461748+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012173": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012192": "2026-07-10T10:22:16.716564+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012211": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012224": "2026-07-10T10:22:16.716564+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012225": "2026-07-09T10:23:13.437000+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012230": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012231": "2026-07-16T09:12:27.185671+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012236": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012237": "2026-07-15T09:08:53.408325+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012242": "2026-07-17T09:08:53.404848+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012245": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012246": "2026-07-15T09:08:53.408325+00:00",
     "https://news.cancerresearchuk.org/2026/07/08/unlocking-cancer-breakthroughs-why-now-is-the-moment-for-action/": "2026-07-08T09:25:14.024738+00:00",
     "https://news.cancerresearchuk.org/2026/07/10/research-careers-pausing-but-not-stopping-for-a-flexible-career/": "2026-07-11T08:45:34.461748+00:00",
     "https://news.cancerresearchuk.org/2026/07/14/new-trial-offers-hope-for-people-with-rare-adrenal-cancer/": "2026-07-14T09:03:41.911928+00:00",
     "https://news.cancerresearchuk.org/2026/07/15/cancer-waiting-times-latest-updates-and-analysis/": "2026-07-16T09:12:27.185671+00:00",
     "https://news.cancerresearchuk.org/2026/07/15/when-relationships-turn-sour-cancer-and-the-holobiont/": "2026-07-16T09:12:27.185671+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.25.734683v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.26.734650v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.26.734831v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.26.734851v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.27.734959v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.27.734984v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.28.735054v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.28.735120v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.29.734312v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.29.735307v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.29.735377v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.30.735680v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735728v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.01.735767v1?rss=1": "2026-07-02T10:01:23.863060+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735829v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735838v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735855v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
@@ -11793,18 +12054,23 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737415v1?rss=1": "2026-07-15T09:08:53.408325+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737440v1?rss=1": "2026-07-15T09:08:53.408325+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737500v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.10.737441v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.10.737687v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.10.737817v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.10.737850v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.11.737899v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.11.737917v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.11.737971v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.12.738059v1?rss=1": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.england.nhs.uk/2026/07/cancer-patients-rate-nhs-care-highly-as-record-numbers-checked-and-treated/": "2026-07-17T09:08:53.404848+00:00",
     "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-accelerates-artificial-intelligence-rollout-to-cut-waiting-times-and-improve-care-for-millions/": "2026-07-05T09:40:19.620710+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-aims-to-prevent-one-in-four-sepsis-deaths/": "2026-07-14T09:03:41.911928+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-to-overhaul-patient-communications-and-end-farce-of-invitations-arriving-after-appointment/": "2026-07-03T09:55:56.409815+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-urges-people-50s-return-bowel-screening-kits-100-cancers-found-week/": "2026-07-11T08:45:34.461748+00:00",
     "https://www.england.nhs.uk/2026/07/snooping-staff-face-sack-prison-inappropriate-access-patient-data/": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.england.nhs.uk/2026/07/thousands-more-vulnerable-adults-to-be-offered-rsv-vaccine-to-prevent-serious-lung-infection/": "2026-07-02T10:01:23.863060+00:00",
     "https://www.england.nhs.uk/2026/07/warm-weather-world-cup-drives-record-nhs-demand-satisfaction-gps-bounce-back/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.england.nhs.uk/2026/07/young-people-urged-book-lifesaving-meningitis-jab-high-street-pharmacies/": "2026-07-13T10:22:09.296650+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260619101356.htm": "2026-07-02T10:01:23.863060+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100319.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260622014315.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014007.htm": "2026-07-08T09:25:14.024738+00:00",
@@ -11826,31 +12092,12 @@
     "https://www.sciencedaily.com/releases/2026/07/260714225523.htm": "2026-07-15T09:08:53.408325+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260714225525.htm": "2026-07-16T09:12:27.185671+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260714225542.htm": "2026-07-16T09:12:27.185671+00:00",
-    "https://www.statnews.com/2026/06/30/anthropic-ai-drug-development/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/06/30/republican-tom-kean-jr-reveals-depression-after-absence-from-congress/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/alcohol-lobby-immense-power-explored-deadliest-drug-part-7/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/anthropic-claude-science-convinced-me-its-serious-ai-prognosis/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/biotech-news-glp-1s-may-help-with-peripheral-artery-disease/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/ebola-virus-outbreak-bundibugyo-marburg-testing-krutika-kuppalli/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/fda-approves-orca-bio-treatment-blood-cancer/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/health-news-fda-says-zyn-can-market-pouches-as-safer-than-cigarettes/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/lancet-obesity-blood-pressure-cholesterol-study/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/q3-biotech-scorecard-readouts-approval-decisions/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/synthethic-biology-researcher-announce-creation-spud-cells/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/01/young-men-mental-health-loneliness-despair-maryland-wes-moore/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/02/biotech-news-roche-drug-sets-new-standard-for-kras-driven-lung-cancer/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/2026/07/02/biotech-sector-booms-capricor-fda-meeting/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/2026/07/02/degette-loses-to-kiros-pharma-presidential-fitness-test-dc-diagnosis/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/2026/07/02/elevance-lawsuit-medicare-advantage-star-ratings-clover/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/2026/07/02/fda-ai-guidance-pharma-industry-caution-tala-fakhouri-explains/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/02/fda-clearance-raises-questions-updoc-use-generative-ai-diabetes-treatment/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/02/genetix-david-meek-bluebird-bio-turnaround-effort/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/02/health-news-frequent-intense-heat-waves-pose-health-risks-for-americans/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/2026/07/02/measuring-vaccine-effectiveness-test-negative-design-cdc/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/02/medicare-hospital-payment-340b-drugs-cut/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/2026/07/02/presidential-fitness-test-will-it-boost-physical-activity-youth/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
-    "https://www.statnews.com/2026/07/02/teens-chatbots-mental-health-rules-bans/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
     "https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
     "https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/06/glp-1-telehealth-prescriptions-jama-yale-secret-shopper-study/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
@@ -11951,10 +12198,26 @@
     "https://www.statnews.com/2026/07/15/trump-omb-grant-funding-proposal-comments-95-percent-opposed/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/15/trump-omb-grant-funding-proposal-comments-95-percent-opposed/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/2026/07/15/why-cyclospora-source-remains-unknown-epidemiologist-explains/": "2026-07-15T09:08:53.408325+00:00",
+    "https://www.statnews.com/2026/07/16/american-diabetes-association-annual-conference-controversy-continues/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/16/amylyx-bph-avexitide-biogen-diranersen-agios/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/16/biotech-news-fda-approves-merck-oral-pcsk9-drug-in-a-first/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/16/brain-computer-interface-implant-restores-sensation-double-neural-bypass/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/16/cms-to-revamp-payments-for-clinical-software-ai/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/16/eli-lilly-acquire-ataibeckley-psychedelics-depression/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/16/glp-1-weight-loss-drugs-gila-monster-venom-pharmaceuticals/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/2026/07/16/health-news-another-daylight-savings-debate-arrives-in-congress/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/16/hegseth-testosterone-testing-proposal-reactions-range-promising-crazy/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/16/kalshi-new-offering-prediction-market-clinical-trials-fda-approvals/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/16/medicare-ai-prior-authorization-pilot-wiser-senate-vote/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/16/medicare-shake-clinical-ai-rpm-payments-health-tech/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/16/readout-loud-podcast-predicting-clinical-trials-biogen-alzheimers-tau/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/16/snap-cuts-mental-illness-hunger-psychiatric-emergency/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/01/anthropic-drug-development-goals-trump-plan-hitting-snag/?utm_campaign=rss": "2026-07-02T10:01:23.863060+00:00",
+    "https://www.statnews.com/2026/07/16/unitedhealth-employer-insurance-costs-medical-spending/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/16/world-health-organization-wants-marburg-virus-update-from-uganda/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/17/maha-mental-health-care-vocabulary-rhetoric-wellness/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/17/mdcalc-quality-ratings-clinical-algorithms-for-bias-validity/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/17/sonathera-ultrasound-duchenne-muscular-dystrophy-treatment/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/17/trevor-project-suicide-prevention-counseling-for-trans-youth/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/amgen-court-win-novo-seeking-supplier-discounts/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/judge-blocks-colorado-price-cap-on-amgen-enbrel/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
     "https://www.statnews.com/pharmalot/2026/07/02/lawmakers-urge-lilly-to-provide-340b-drug-discounts-to-hospitals/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
@@ -11972,7 +12235,8 @@
     "https://www.statnews.com/pharmalot/2026/07/14/sales-from-controversial-drug-discount-program-rose-to-100-billion-last-year/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/pharmalot/2026/07/15/bill-would-require-us-probe-reliance-on-foreign-made-drugs-and-ingredients/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/pharmalot/2026/07/15/biogen-alzheimer-drug-skyrocketing-340b-drug-sales/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/15/glenmark-pay-29-million-settle-price-fixing-allegations/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/15/glenmark-pay-29-million-settle-price-fixing-allegations/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/16/kalshi-bets-on-clinical-trials-merck-cholesterol-pill/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00"
   },
   "takedowns": []
 }
