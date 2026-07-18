@@ -11998,9 +11998,406 @@
         "str-profiling",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "oncologists",
+        "genetic-counsellors",
+        "patients",
+        "researchers"
+      ],
+      "for_patients": "NHS England has decided to fund two new medicines for a group of rare blood cancers called histiocytic neoplasms. About 200 people a year — including babies and young children — are expected to be eligible. One of the drugs is called dabrafenib, which works by targeting a specific change (called a BRAF mutation) sometimes found in these cancers. These medicines are intended for people whose cancer has not responded to other treatments.\n\nHistiocytic neoplasms are uncommon cancers that affect certain immune cells in the body. Until now, treatment choices for people with these cancers have been limited.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "NHS England approves dabrafenib and a second drug for rare blood cancers in children and adults",
+      "is_preprint": false,
+      "run_date": "2026-07-18",
+      "run_iso": "2026-07-18T08:46:30Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-07-17T09:00:17Z",
+        "novelty": 8
+      },
+      "slug": "nhs-england-dabrafenib-histiocytic-neoplasms-approval",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "ogl",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-17T09:00:17Z",
+          "publisher": "NHS England",
+          "title": "Landmark NHS approval of cancer drugs offers new hope for children and adults with rare blood cancers",
+          "url": "https://www.england.nhs.uk/2026/07/landmark-nhs-approval-of-cancer-drugs-offers-new-hope-for-children-and-adults-with-rare-blood-cancers/"
+        }
+      ],
+      "standfirst": "Around 200 patients a year, including infants, will gain access to two newly approved treatments for histiocytic neoplasms after NHS England commissioning decisions.",
+      "summary": "NHS England has approved two treatments for rare blood cancers classed as histiocytic neoplasms, with around 200 patients a year expected to benefit. One of the newly commissioned medicines is dabrafenib, a tablet that targets tumours driven by BRAF mutations — a genetic alteration found in a subset of histiocytic neoplasms. The announcement, published on 17 July 2026, specifies that infants and young children are among those who will be eligible, making this commissioning decision notable for paediatric oncology.\n\nHistiocytic neoplasms are a heterogeneous group of rare cancers arising from cells of the mononuclear phagocyte system. BRAF inhibitors such as dabrafenib have an established evidence base in BRAF V600E-driven cancers including melanoma and certain thyroid cancers; the NHS commissioning here extends access to a rarer indication where treatment options have historically been limited.\n\nNHS England describes the approvals as relevant when other therapies have failed, positioning them within the landscape of later-line options. Full prescribing details, including eligibility criteria and the identity of the second approved drug, are set out in the NHS England commissioning policy documentation linked from the announcement. Oncologists and haematologists treating patients with histiocytic neoplasms should consult the relevant NHS England specialised commissioning guidance for eligibility and referral pathways.",
+      "tags": [
+        "histiocytic-neoplasms",
+        "braf",
+        "dabrafenib",
+        "nhs-commissioning",
+        "haematological-cancer",
+        "paediatric-oncology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PRC1 Polycomb complex shown to suppress tumour formation in adult Drosophila intestinal stem cells",
+      "is_preprint": false,
+      "run_date": "2026-07-18",
+      "run_iso": "2026-07-18T08:46:30Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-17T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "prc1-polycomb-tumour-suppression-drosophila-intestinal-stem-cells",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-17T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "A tumor-suppressive role of the PRC1 Polycomb epigenetic complex in the maintenance of adult Drosophila intestinal stem cell identity",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012226"
+        }
+      ],
+      "standfirst": "A new Drosophila tumour model published in PLOS Genetics implicates Polycomb Repressive Complex 1 in maintaining intestinal stem cell identity and restraining cancer-like growth.",
+      "summary": "Researchers publishing in PLOS Genetics have used a novel Drosophila model to investigate the role of Polycomb Repressive Complex 1 (PRC1) in adult intestinal stem cells (ISCs). The study, led by Aurélia Joly and colleagues including researchers associated with Armel Gallet's and Anne-Marie Martinez's groups, reports that loss of PRC1 function disrupts ISC identity and drives tumour-like overgrowth, establishing a direct tumour-suppressive function for the complex in this tissue context.\n\nPolycomb group (PcG) proteins are epigenetic regulators that silence gene expression through histone modification; PRC1 specifically catalyses monoubiquitination of histone H2A. PcG proteins are frequently mutated or dysregulated in human cancers, but their precise role in stem cell compartments during tumourigenesis has remained difficult to disentangle from their broad developmental functions. This work offers a genetically tractable in vivo system in which to probe those relationships.\n\nThe authors developed their Drosophila intestinal model to separate homeostatic from tumourigenic roles of PRC1, finding that the complex is required to maintain the transcriptional programme that defines ISC identity. When PRC1 was disrupted, cells lost identity markers and underwent uncontrolled proliferation. The findings add to a growing body of work linking chromatin-level gene regulation to cancer initiation in stem cell populations, with potential conceptual relevance to colorectal and other epithelial cancers where PcG mutations are observed.",
+      "tags": [
+        "polycomb",
+        "prc1",
+        "epigenetics",
+        "stem-cells",
+        "drosophila",
+        "tumour-suppression",
+        "chromatin",
+        "intestinal-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "GWAS-identified COVID-19 severity variants mapped to enhancer activity in lung cells",
+      "is_preprint": false,
+      "run_date": "2026-07-18",
+      "run_iso": "2026-07-18T08:46:30Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-17T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "covid19-gwas-enhancer-activity-lung-cells-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-17T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Identifying severe COVID-19 risk variants modulating enhancer reporter activity in lung cells",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012222"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study by Weykopf and colleagues including researchers at the MRC Human Genetics Unit uses enhancer reporter assays to functionally characterise non-coding variants associated with severe SARS-CoV-2 outcomes.",
+      "summary": "Researchers including Giovanna Weykopf, Wendy A. Bickmore, Simon C. Biddie, and Elias T. Friman have published a study in PLOS Genetics examining how common genetic variants in non-coding genomic regions influence risk of severe COVID-19. The majority of loci identified by genome-wide association studies (GWAS) for COVID-19 outcomes fall outside protein-coding sequences, making functional interpretation challenging. This work addresses that gap by deploying enhancer reporter assays in lung-relevant cell types to test whether risk variants alter gene regulatory activity.\n\nThe authors identified a subset of GWAS-nominated variants that modulate enhancer reporter activity, providing evidence that these non-coding changes act through transcriptional regulation in disease-relevant tissue. The approach is broadly applicable: by focusing functional experiments on cells and tissues implicated in the disease phenotype — in this case lung cells — it increases the prior probability that observed regulatory effects are mechanistically relevant.\n\nThe study contributes to the wider challenge of moving from statistical association to biological mechanism in complex disease genetics. Identifying which non-coding variants alter gene expression in the relevant cell type is a prerequisite for understanding disease aetiology and, in the longer term, for designing interventions. The work joins a substantial post-pandemic literature using COVID-19 GWAS as a tractable model for dissecting non-coding variant function.",
+      "tags": [
+        "covid-19",
+        "gwas",
+        "non-coding-variants",
+        "enhancers",
+        "lung-cells",
+        "functional-genomics",
+        "sars-cov-2",
+        "regulatory-variants"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint describes two-locus CRISPR toxin-antidote gene drive designed for confined population modification",
+      "is_preprint": true,
+      "run_date": "2026-07-18",
+      "run_iso": "2026-07-18T08:46:30Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-07-17T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "crispr-toxin-antidote-gene-drive-confined-population-modification",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Two-locus CRISPR toxin-antidote gene drive for confined population modification",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.12.738116v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint presents a two-locus CRISPR toxin-antidote gene drive architecture intended to spread through target populations while remaining containable — a key safety consideration for field deployment.",
+      "summary": "A preprint posted to bioRxiv describes a two-locus CRISPR toxin-antidote gene drive system designed to modify target populations while incorporating a frequency threshold that limits uncontrolled spread. Toxin-antidote gene drives work by using a CRISPR nuclease to disrupt an essential wild-type gene (the toxin) whilst simultaneously providing a recoded, drive-linked copy of that gene as an antidote. Organisms lacking the drive are therefore at a fitness disadvantage once the drive reaches sufficient frequency, but the system cannot spread from a low starting frequency — an introduction threshold that provides a degree of confinement.\n\nThe two-locus architecture reported in this preprint builds on earlier single-locus toxin-antidote constructs. By splitting the toxin and antidote components across two genomic locations, the authors aim to improve the threshold properties and reduce the risk of resistance evolution — two of the primary engineering challenges for containable gene drives. Modelling and laboratory results are presented to characterise drive dynamics.\n\nGene drive research has accelerated in recent years across several potential applications including vector control and invasive species management. Containment is a central regulatory and biosafety concern; drives with well-defined introduction thresholds are considered more amenable to staged field testing than self-propagating homing drives. This work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "gene-drive",
+        "crispr",
+        "toxin-antidote",
+        "population-genetics",
+        "confinement",
+        "biosafety",
+        "insect-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint reports mutation-agnostic gene insertion strategy for rhodopsin-linked retinitis pigmentosa",
+      "is_preprint": true,
+      "run_date": "2026-07-18",
+      "run_iso": "2026-07-18T08:46:30Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-07-17T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "zinc-finger-nuclease-mutation-agnostic-rho-retinitis-pigmentosa",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mutation-agnostic gene insertion therapy for RHO-associated autosomal dominant retinitis pigmentosa using zinc finger nucleases",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738242v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes a zinc finger nuclease approach that inserts a functional rhodopsin gene copy regardless of which of nearly 100 pathogenic RHO variants a patient carries, aiming to circumvent the mutational heterogeneity that limits variant-specific therapies.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing a mutation-agnostic gene insertion strategy for autosomal dominant retinitis pigmentosa caused by mutations in the rhodopsin gene (RHO-adRP). RHO-adRP is among the more common inherited retinal dystrophies; nearly 100 distinct pathogenic variants have been identified in the RHO gene, making it impractical to develop a separate therapeutic for each mutation. The strategy presented uses zinc finger nucleases — sequence-specific DNA-cutting proteins — to achieve homology-independent targeted integration (HITI) of a functional gene copy at the RHO 5' untranslated region.\n\nBy targeting a fixed genomic site rather than correcting individual mutations, the approach is in principle applicable to patients carrying any of the known RHO pathogenic variants. The preprint reports preclinical efficacy and safety data including proof-of-concept experiments, though the authors note the work remains at an early translational stage.\n\nInherited retinal dystrophies have been a focus of gene therapy research for over a decade; the first approved gene therapy for an inherited retinal condition (targeting RPE65) received regulatory clearance in the United States in 2017. The zinc finger nuclease platform used here is distinct from CRISPR-based approaches and has its own established safety and delivery profile. This work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "retinitis-pigmentosa",
+        "rho",
+        "zinc-finger-nuclease",
+        "gene-therapy",
+        "hiti",
+        "inherited-retinal-dystrophy",
+        "mutation-agnostic",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint links truncating ASXL1 variants to Warburg-like metabolic rewiring via mitochondrial pyruvate carrier repression",
+      "is_preprint": true,
+      "run_date": "2026-07-18",
+      "run_iso": "2026-07-18T08:46:30Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-17T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "asxl1-truncating-variants-warburg-metabolism-bohring-opitz",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Truncating ASXL1 variants rewire cellular metabolism via mitochondrial pyruvate carrier repression",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.737346v1?rss=1"
+        }
+      ],
+      "standfirst": "Patient-derived fibroblast data in a bioRxiv preprint suggest that ASXL1 truncating variants — found in both Bohring-Opitz syndrome and myeloid leukaemia — drive a shift towards aerobic glycolysis by suppressing mitochondrial pyruvate import.",
+      "summary": "A preprint posted to bioRxiv reports that truncating variants in ASXL1, the gene mutated in Bohring-Opitz syndrome (BOS; OMIM #605309), drive a Warburg-like metabolic state in patient-derived dermal fibroblasts. ASXL1 encodes a chromatin-associated epigenetic regulator that forms the catalytic PR-DUB deubiquitinase complex with BAP1. Truncating ASXL1 variants are also recurrent somatic driver mutations in myeloid leukaemias, making this an unusual gene where identical molecular lesions occur in both a rare constitutional neurodevelopmental syndrome and in somatic cancer.\n\nUsing fibroblasts derived from individuals with BOS, the authors show that ASXL1 truncation increases glycolytic flux and causes accumulation of pyruvate, consistent with repression of the mitochondrial pyruvate carrier (MPC) — the complex that shuttles pyruvate from the cytoplasm into mitochondria for oxidative metabolism. The Warburg effect, originally described in tumour cells, refers to preferential reliance on glycolysis even in the presence of oxygen; its appearance in a constitutional syndrome model is an unusual finding.\n\nThe work raises questions about whether metabolic dysregulation contributes to the neurodevelopmental features of BOS, and whether shared metabolic mechanisms link germline and somatic ASXL1 pathology. It also highlights patient-derived fibroblasts as a tractable model for investigating epigenetic regulator function. This work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "asxl1",
+        "bohring-opitz-syndrome",
+        "myeloid-leukaemia",
+        "warburg-effect",
+        "epigenetics",
+        "metabolism",
+        "pr-dub",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint introduces MetaboXcan framework to link genetically predicted metabolites with disease-associated loci",
+      "is_preprint": true,
+      "run_date": "2026-07-18",
+      "run_iso": "2026-07-18T08:46:30Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-17T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "metaboxcan-multiomic-gwas-metabolite-gene-expression-framework",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "MetaboXcan: A multiomic framework linking genetically predicted metabolites, gene expression, and complex traits",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738631v1?rss=1"
+        }
+      ],
+      "standfirst": "MetaboXcan, described in a bioRxiv preprint, extends transcriptome-wide association study approaches to the metabolome, aiming to bridge the gap between GWAS hits and disease mechanisms.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing MetaboXcan, a multiomic framework that predicts plasma metabolite levels from genetic data and tests those predicted levels for association with complex traits. The approach is modelled on transcriptome-wide association studies (TWAS), which use genetic predictors of gene expression to identify disease-relevant genes at GWAS loci. MetaboXcan extends this strategy to the metabolome, a layer of molecular phenotypes that has been relatively underexplored in GWAS integration efforts.\n\nGenome-wide association studies have identified thousands of loci for complex diseases, but the biological mechanisms connecting genetic variants to phenotypes remain poorly understood at the majority of loci. Integrating intermediate molecular phenotypes — expression quantitative trait loci (eQTLs), metabolite QTLs — can help prioritise candidate mediators. MetaboXcan builds genetically regulated metabolite predictors and uses them to test for associations with disease traits, potentially identifying metabolic pathways that mediate genetic risk.\n\nThe framework complements existing tools such as PrediXcan and S-PrediXcan, which operate on the transcriptome, by adding a metabolomic dimension. Preprint validation data and code availability are described in the manuscript. This work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "gwas",
+        "metabolomics",
+        "twas",
+        "eqtl",
+        "multiomics",
+        "statistical-genetics",
+        "complex-traits",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies INTS6 loss-of-function variant in Finnish families with mild intellectual disability",
+      "is_preprint": true,
+      "run_date": "2026-07-18",
+      "run_iso": "2026-07-18T08:46:30Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-07-17T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "ints6-loss-of-function-intellectual-disability-finnish-families",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "INTS6 loss of function disrupts transcriptional regulation in mild intellectual disability",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.17.737701v1?rss=1"
+        }
+      ],
+      "standfirst": "Screening of 1,562 Finnish extended families links heterozygous INTS6 variants to mild intellectual disability, implicating the Integrator complex phosphatase module in a neurodevelopmental disorder.",
+      "summary": "A bioRxiv preprint reports the discovery of pathogenic heterozygous loss-of-function variants in INTS6 in a family with six affected members from the Northern Finland Intellectual Disability cohort. INTS6 encodes a conserved component of the phosphatase module of the Integrator complex, a multi-subunit assembly that regulates RNA polymerase II activity and is required for proper transcriptional pause-release at thousands of genes. The discovery was made by screening 1,562 Finnish extended families affected by cognitive impairment — a population isolate strategy that enhances power to detect rare variants.\n\nThe Integrator complex has emerged as a recurring theme in neurodevelopmental disorders (NDDs); pathogenic variants in several Integrator subunit genes have been associated with conditions ranging from intellectual disability to epilepsy. This report adds INTS6 to that landscape and begins to characterise the downstream transcriptional consequences of its loss, consistent with broader evidence that disrupted regulation of RNA polymerase II is a point of convergence in NDDs.\n\nThe use of an extended Finnish family cohort is methodologically notable: Finland's population history, characterised by successive founder effects and relative isolation, results in enrichment of specific rare variants, facilitating gene discovery that might require much larger samples in outbred populations. Functional follow-up experiments are reported in the preprint. This work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "ints6",
+        "integrator-complex",
+        "intellectual-disability",
+        "neurodevelopmental-disorders",
+        "founder-population",
+        "finland",
+        "rna-polymerase-ii",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint reveals sex-specific neurodevelopmental phenotypes in Down syndrome mouse model and tests neonatal DYRK1A reduction",
+      "is_preprint": true,
+      "run_date": "2026-07-18",
+      "run_iso": "2026-07-18T08:46:30Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-17T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "dyrk1a-down-syndrome-sex-specific-neurodevelopment-ts65dn",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Sex-specific developmental phenotypes and their response to neonatal Dyrk1a reduction in the Ts65Dn Down syndrome mouse model",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738703v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using the Ts65Dn mouse model reports that male and female animals show distinct responses to neonatal DYRK1A reduction, highlighting sex as a variable in Down syndrome therapeutic research.",
+      "summary": "A preprint posted to bioRxiv reports sex-specific developmental phenotypes in Ts65Dn mice, a widely used model of Down syndrome (DS; trisomy 21), and examines whether neonatal reduction of DYRK1A activity differentially affects male and female animals. DYRK1A (Dual-specificity tyrosine phosphorylation-regulated kinase 1A) is encoded on human chromosome 21 and is overexpressed in individuals with trisomy 21; it has been identified as a candidate therapeutic target for the cognitive and neurodevelopmental features of DS.\n\nTs65Dn pups of both sexes are trisomic for approximately 100 human chromosome 21 orthologues including Dyrk1a, and the preprint reports that both sexes show significant DYRK1A overexpression in the hippocampus at postnatal day 6. Despite this shared molecular baseline, the authors identify divergent phenotypic responses to neonatal DYRK1A reduction between males and females, with implications for how preclinical DS studies are designed and reported.\n\nSex as a biological variable in neurodevelopmental research has received increasing attention following requirements from funding bodies including the US National Institutes of Health to include both sexes in preclinical studies. This preprint contributes to the emerging picture that sex-disaggregated analysis reveals important mechanistic differences that aggregate analyses can obscure. This work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "down-syndrome",
+        "trisomy-21",
+        "dyrk1a",
+        "neurodevelopment",
+        "sex-differences",
+        "mouse-model",
+        "ts65dn",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-07-17T09:08:53.404848+00:00",
+  "last_run": "2026-07-18T08:48:56.721091+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011986": "2026-07-16T09:12:27.185671+00:00",
@@ -12008,8 +12405,10 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012173": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012192": "2026-07-10T10:22:16.716564+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012211": "2026-07-17T09:08:53.404848+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012222": "2026-07-18T08:48:56.721091+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012224": "2026-07-10T10:22:16.716564+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012225": "2026-07-09T10:23:13.437000+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012226": "2026-07-18T08:48:56.721091+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012230": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012231": "2026-07-16T09:12:27.185671+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012236": "2026-07-17T09:08:53.404848+00:00",
@@ -12022,9 +12421,6 @@
     "https://news.cancerresearchuk.org/2026/07/14/new-trial-offers-hope-for-people-with-rare-adrenal-cancer/": "2026-07-14T09:03:41.911928+00:00",
     "https://news.cancerresearchuk.org/2026/07/15/cancer-waiting-times-latest-updates-and-analysis/": "2026-07-16T09:12:27.185671+00:00",
     "https://news.cancerresearchuk.org/2026/07/15/when-relationships-turn-sour-cancer-and-the-holobiont/": "2026-07-16T09:12:27.185671+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.28.735120v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.29.734312v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.29.735307v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.29.735377v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.06.30.735680v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735728v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
@@ -12032,7 +12428,6 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735838v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735855v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735858v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.01.735899v1?rss=1": "2026-07-03T09:55:56.409815+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.02.736022v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.03.736265v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.03.736304v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
@@ -12060,23 +12455,30 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.10.737850v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.11.737899v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.11.737917v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.11.737951v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.11.737971v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.12.738059v1?rss=1": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.12.738116v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.13.737346v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.13.738242v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.15.738631v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.15.738703v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.16.738760v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.17.737701v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.23.738505v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.england.nhs.uk/2026/07/cancer-patients-rate-nhs-care-highly-as-record-numbers-checked-and-treated/": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.england.nhs.uk/2026/07/landmark-nhs-approval-of-cancer-drugs-offers-new-hope-for-children-and-adults-with-rare-blood-cancers/": "2026-07-18T08:48:56.721091+00:00",
     "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-accelerates-artificial-intelligence-rollout-to-cut-waiting-times-and-improve-care-for-millions/": "2026-07-05T09:40:19.620710+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-aims-to-prevent-one-in-four-sepsis-deaths/": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.england.nhs.uk/2026/07/nhs-to-overhaul-patient-communications-and-end-farce-of-invitations-arriving-after-appointment/": "2026-07-03T09:55:56.409815+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-urges-people-50s-return-bowel-screening-kits-100-cancers-found-week/": "2026-07-11T08:45:34.461748+00:00",
     "https://www.england.nhs.uk/2026/07/snooping-staff-face-sack-prison-inappropriate-access-patient-data/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.england.nhs.uk/2026/07/warm-weather-world-cup-drives-record-nhs-demand-satisfaction-gps-bounce-back/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.england.nhs.uk/2026/07/young-people-urged-book-lifesaving-meningitis-jab-high-street-pharmacies/": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100319.htm": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260622014315.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014007.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014026.htm": "2026-07-07T10:24:22.153812+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083119.htm": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260624115324.htm": "2026-07-03T09:55:56.409815+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260625014838.htm": "2026-07-07T10:24:22.153812+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260701205001.htm": "2026-07-09T10:23:13.437000+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260708022158.htm": "2026-07-09T10:23:13.437000+00:00",
@@ -12087,17 +12489,13 @@
     "https://www.sciencedaily.com/releases/2026/07/260709160648.htm": "2026-07-12T09:00:57.628005+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260710003521.htm": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260710003537.htm": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260711010118.htm": "2026-07-18T08:48:56.721091+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260711010131.htm": "2026-07-12T09:00:57.628005+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260713084910.htm": "2026-07-16T09:12:27.185671+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260714225523.htm": "2026-07-15T09:08:53.408325+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260714225525.htm": "2026-07-16T09:12:27.185671+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260714225542.htm": "2026-07-16T09:12:27.185671+00:00",
-    "https://www.statnews.com/2026/07/02/biotech-news-roche-drug-sets-new-standard-for-kras-driven-lung-cancer/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/2026/07/02/biotech-sector-booms-capricor-fda-meeting/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/2026/07/02/degette-loses-to-kiros-pharma-presidential-fitness-test-dc-diagnosis/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/2026/07/02/elevance-lawsuit-medicare-advantage-star-ratings-clover/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/2026/07/02/health-news-frequent-intense-heat-waves-pose-health-risks-for-americans/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/2026/07/02/medicare-hospital-payment-340b-drugs-cut/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260716023552.htm": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
     "https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/06/glp-1-telehealth-prescriptions-jama-yale-secret-shopper-study/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
@@ -12214,14 +12612,16 @@
     "https://www.statnews.com/2026/07/16/snap-cuts-mental-illness-hunger-psychiatric-emergency/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/2026/07/16/unitedhealth-employer-insurance-costs-medical-spending/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/16/world-health-organization-wants-marburg-virus-update-from-uganda/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/17/biotech-news-gsk-chronic-cough-treatment-meets-the-end-of-the-line/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.statnews.com/2026/07/17/cyclosporiasis-outbreak-traced-taylor-farms-lettuce-taco-bell/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.statnews.com/2026/07/17/health-news-who-can-access-testosterone-hormone-therapy-in-us/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/2026/07/17/maha-mental-health-care-vocabulary-rhetoric-wellness/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/17/mdcalc-quality-ratings-clinical-algorithms-for-bias-validity/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/17/medicare-smoking-cessation-reimbursement-increase/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/2026/07/17/sonathera-ultrasound-duchenne-muscular-dystrophy-treatment/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/17/trevor-project-suicide-prevention-counseling-for-trans-youth/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/02/amgen-court-win-novo-seeking-supplier-discounts/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/02/judge-blocks-colorado-price-cap-on-amgen-enbrel/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/02/lawmakers-urge-lilly-to-provide-340b-drug-discounts-to-hospitals/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/02/pharma-biotech-jobs-ladder-vertex-gilead-astrazeneca-lilly/?utm_campaign=rss": "2026-07-03T09:55:56.409815+00:00",
+    "https://www.statnews.com/2026/07/17/wildfire-smoke-air-quality-smog-policy-climate-change/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.statnews.com/2026/07/18/primary-care-debate-letters-to-editor/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/pharmalot/2026/07/07/vertex-buying-crinetics-fda-drug-approvals-kept-pace/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/pharmalot/2026/07/08/fda-approves-vera-kidney-drug-uk-enhertu-pricing-deal/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
@@ -12236,7 +12636,9 @@
     "https://www.statnews.com/pharmalot/2026/07/15/bill-would-require-us-probe-reliance-on-foreign-made-drugs-and-ingredients/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/pharmalot/2026/07/15/biogen-alzheimer-drug-skyrocketing-340b-drug-sales/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
     "https://www.statnews.com/pharmalot/2026/07/15/glenmark-pay-29-million-settle-price-fixing-allegations/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/16/kalshi-bets-on-clinical-trials-merck-cholesterol-pill/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/16/kalshi-bets-on-clinical-trials-merck-cholesterol-pill/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/17/rising-drug-shortages-gsk-abandons-chronic-cough-medication/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/17/up-down-ladder-jobs-comings-goings/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00"
   },
   "takedowns": []
 }
