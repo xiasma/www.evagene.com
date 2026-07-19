@@ -12395,9 +12395,54 @@
         "ts65dn",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Ancient DNA reveals koalas survived near-extinction 100,000 years ago",
+      "is_preprint": false,
+      "run_date": "2026-07-19",
+      "run_iso": "2026-07-19T09:03:19Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-07-17T09:51:10Z",
+        "novelty": 8
+      },
+      "slug": "koala-population-collapse-ancient-dna-mutation-rate",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-17T09:51:10Z",
+          "publisher": "ScienceDaily",
+          "title": "Koalas nearly went extinct before humans arrived, DNA study reveals",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260715083551.htm"
+        }
+      ],
+      "standfirst": "A genome-wide study has calculated the koala's mutation rate for the first time and traced all living koalas to a small ancestral population that endured a climate-driven bottleneck long before human settlement of Australia.",
+      "summary": "Researchers have published a major genomic study rewriting the koala's evolutionary history, finding that the species underwent a severe population collapse approximately 100,000 years ago — well before humans are thought to have arrived in Australia. The work, reported by ScienceDaily drawing on primary research, involved sequencing hundreds of koala genomes and, critically, calculating the species' per-generation mutation rate for the first time. That mutation-rate calibration allowed the team to construct a more accurate molecular clock and date the bottleneck with greater confidence than earlier estimates permitted.\n\nThe analysis shows that every living koala descends from a small founding population that survived the collapse, most likely driven by extreme climate shifts during the Pleistocene. Following this bottleneck, the species subsequently repopulated eastern Australia. The work illustrates how low genomic diversity in a species can be a legacy of deep evolutionary history rather than solely a consequence of recent anthropogenic pressures, though the authors do not discount ongoing threats to the species.\n\nThe study has direct relevance to conservation genomics: understanding the baseline level of genetic diversity and the historical forces that shaped it informs assessments of a population's adaptive potential. The findings also demonstrate the value of first-principles mutation-rate estimation — rather than borrowing calibrations from related taxa — when reconstructing population history in non-model organisms.",
+      "tags": [
+        "conservation-genomics",
+        "population-bottleneck",
+        "ancient-dna",
+        "koala",
+        "mutation-rate",
+        "molecular-clock",
+        "pleistocene",
+        "marsupial-genetics"
+      ]
     }
   ],
-  "last_run": "2026-07-18T08:48:56.721091+00:00",
+  "last_run": "2026-07-19T09:03:39.449494+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011986": "2026-07-16T09:12:27.185671+00:00",
@@ -12421,9 +12466,6 @@
     "https://news.cancerresearchuk.org/2026/07/14/new-trial-offers-hope-for-people-with-rare-adrenal-cancer/": "2026-07-14T09:03:41.911928+00:00",
     "https://news.cancerresearchuk.org/2026/07/15/cancer-waiting-times-latest-updates-and-analysis/": "2026-07-16T09:12:27.185671+00:00",
     "https://news.cancerresearchuk.org/2026/07/15/when-relationships-turn-sour-cancer-and-the-holobiont/": "2026-07-16T09:12:27.185671+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.29.735377v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.06.30.735680v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.01.735728v1?rss=1": "2026-07-04T09:20:47.842920+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735829v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735838v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735855v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
@@ -12495,7 +12537,9 @@
     "https://www.sciencedaily.com/releases/2026/07/260714225523.htm": "2026-07-15T09:08:53.408325+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260714225525.htm": "2026-07-16T09:12:27.185671+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260714225542.htm": "2026-07-16T09:12:27.185671+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260715083551.htm": "2026-07-19T09:03:39.449494+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260716023552.htm": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260716023605.htm": "2026-07-19T09:03:39.449494+00:00",
     "https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
     "https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/06/glp-1-telehealth-prescriptions-jama-yale-secret-shopper-study/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
@@ -12621,6 +12665,7 @@
     "https://www.statnews.com/2026/07/17/sonathera-ultrasound-duchenne-muscular-dystrophy-treatment/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/17/trevor-project-suicide-prevention-counseling-for-trans-youth/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/17/wildfire-smoke-air-quality-smog-policy-climate-change/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.statnews.com/2026/07/18/military-testosterone-screening-supplements/?utm_campaign=rss": "2026-07-19T09:03:39.449494+00:00",
     "https://www.statnews.com/2026/07/18/primary-care-debate-letters-to-editor/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/pharmalot/2026/07/07/vertex-buying-crinetics-fda-drug-approvals-kept-pace/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
