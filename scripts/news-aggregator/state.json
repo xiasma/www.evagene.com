@@ -12440,9 +12440,271 @@
         "pleistocene",
         "marsupial-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "students"
+      ],
+      "for_patients": "Scientists studying cancer often look for tiny traces of tumour DNA that circulate in the blood — a method sometimes called a liquid biopsy. One way to detect these traces is by examining a chemical mark called methylation on DNA, which can differ between healthy and cancerous cells. However, the process of preparing blood samples for analysis can accidentally damage or erase these marks, making results less reliable. Researchers have described a new preparatory step, which they call cf-Cabernet, that they say reduces this damage and keeps the methylation marks intact. This could help improve the accuracy of tests that use blood samples to study cancer in future. This work is a preprint, meaning it has not yet been fully checked by other independent scientists. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Nick repair step preserves cancer-relevant methylation signals in cell-free DNA libraries",
+      "is_preprint": true,
+      "run_date": "2026-07-21",
+      "run_iso": "2026-07-21T09:24:52Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-07-20T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "cfcabernet-nick-repair-cfdna-methylation-sequencing",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-20T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "cf-Cabernet: Nick Repair Prior to End Repair Preserves Endogenous DNA Methylation Information in Cell-Free DNA Methylation Sequencing",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.14.738208v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from bioRxiv describes cf-Cabernet, a library preparation protocol that corrects a systematic artefact erasing DNA methylation information from cell-free DNA samples.",
+      "summary": "Researchers have posted a preprint on bioRxiv describing cf-Cabernet, a modified library preparation workflow aimed at improving the accuracy of DNA methylation profiling from cell-free DNA (cfDNA). The protocol introduces a nick-repair step before standard end-repair, targeting a specific artefact in which DNA polymerases initiate synthesis from single-strand breaks and overwrite endogenous methylated cytosines with unmethylated nucleotides.\n\nThe authors argue this damage pattern is distinct from the well-characterised terminal jagged-end effect and disproportionately affects cfDNA and formalin-fixed, paraffin-embedded (FFPE) DNA — two sample types central to liquid biopsy and archival cancer research. Without correction, they say, affected reads systematically lose genuine methylation signal, potentially confounding analyses that rely on methylation patterns for cancer type classification or minimal residual disease detection.\n\nThe preprint reports that applying nick repair prior to end repair preserves endogenous methylation information across the affected positions. The work is relevant to researchers developing or benchmarking cfDNA methylation assays, and to those working on multi-cancer early-detection methods that use methylome signatures. As a preprint, the findings have not yet been peer-reviewed.",
+      "tags": [
+        "cfdna",
+        "dna-methylation",
+        "liquid-biopsy",
+        "library-preparation",
+        "cancer-genomics",
+        "sequencing-methods",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "oncologists",
+        "students",
+        "patients"
+      ],
+      "for_patients": "A gene called RBM20 helps control how the heart muscle works. Faults in this gene can cause a condition called dilated cardiomyopathy, where the heart muscle becomes weakened and enlarged. Scientists have been investigating whether a treatment called gene replacement — essentially adding a correct copy of the gene — could help. This new preprint study suggests that a particular group of RBM20 faults, found in one part of the gene called the E-rich domain, are unlikely to be fixed by gene replacement, because they work differently from the faults that gene replacement was designed to address. This matters because it means doctors and scientists may need different treatment approaches depending on exactly which fault a person carries. This research is at an early stage and has not yet been checked by other independent scientists. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Gene replacement does not rescue a subset of RBM20 variants causing dilated cardiomyopathy",
+      "is_preprint": true,
+      "run_date": "2026-07-21",
+      "run_iso": "2026-07-21T09:24:52Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-07-20T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "rbm20-e-rich-domain-variants-gene-replacement",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-20T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Damaging RBM20 E-rich domain variants are not rescued by gene replacement",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738343v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that damaging variants in the glutamate-rich domain of the cardiac splice regulator RBM20 are not corrected by gene replacement, suggesting they act via a different mechanism from the better-studied RS-domain variants.",
+      "summary": "Researchers have posted a preprint on bioRxiv examining variant-specific mechanisms in RBM20-associated dilated cardiomyopathy — a highly penetrant and arrhythmogenic inherited heart muscle disease. The cardiac RNA-binding protein RBM20 regulates splicing of multiple genes essential to cardiac function, and pathogenic missense variants in its arginine-serine rich (RS) domain are known to cause disease by forming toxic gain-of-function cytoplasmic granules.\n\nThe preprint focuses on a separate set of clinically adjudicated pathogenic variants located in RBM20's glutamate (E)-rich domain. Using a scalable functional screen, the authors find that E-rich domain variants do not form the same cytoplasmic granules and are not rescued by gene replacement strategies — a contrast with RS-domain variants, for which gene replacement has been proposed as a therapeutic approach.\n\nThe findings have implications for the classification of RBM20 variants and for the design of precision therapies in genetic cardiomyopathy, where linking specific treatment strategies to variant mechanism is a central challenge. The work is relevant to researchers in inherited cardiac disease and those developing gene therapy strategies. As a preprint, these findings have not yet undergone peer review.",
+      "tags": [
+        "rbm20",
+        "dilated-cardiomyopathy",
+        "splicing",
+        "gene-therapy",
+        "cardiovascular-genetics",
+        "variant-interpretation",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Monotremes reveal previously unknown diversity in the DMRT gene family central to sexual development",
+      "is_preprint": true,
+      "run_date": "2026-07-21",
+      "run_iso": "2026-07-21T09:24:52Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-07-20T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "dmrt-gene-family-evolution-monotremes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-20T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Monotremes provide novel insights into evolution of the DMRT gene family in vertebrates",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.14.738559v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that platypus and echidna carry novel DMRT gene arrangements, filling gaps in understanding of how this conserved sex-determination gene family evolved across vertebrates.",
+      "summary": "Researchers have posted a preprint on bioRxiv reporting a comparative genomic analysis of the DMRT gene family in monotremes — the egg-laying mammals comprising platypus and echidna — with the aim of resolving longstanding questions about DMRT gene evolution in vertebrates.\n\nDMRT genes encode transcription factors defined by a highly conserved DNA-binding domain (the DM domain) and are central to sexual development across metazoans. The best-characterised member, DMRT1, functions as a sex regulator universally in metazoans; in birds it is located on the Z chromosome and acts as a dosage-dependent primary sex-determination factor. Monotremes are of particular evolutionary interest because they possess an unusual multi-chromosome sex-determination system that is only distantly related to the therian XY system of placental mammals.\n\nThe preprint describes novel DMRT gene duplications and losses in monotreme lineages and proposes revised interpretations of gene family evolution in early mammals. The findings are relevant to researchers in evolutionary genomics, sex-determination biology, and comparative genomics, and have potential applications as a teaching resource for undergraduate and postgraduate genetics. As a preprint, the findings await peer review.",
+      "tags": [
+        "dmrt1",
+        "sex-determination",
+        "monotremes",
+        "comparative-genomics",
+        "vertebrate-evolution",
+        "gene-family-evolution",
+        "evolutionary-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint describes direct estimation of genotype fitness from time-series population data",
+      "is_preprint": true,
+      "run_date": "2026-07-21",
+      "run_iso": "2026-07-21T09:24:52Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-20T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "genotype-fitness-estimation-time-series-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-20T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Direct estimation of genotype fitness from time series",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.18.739367v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers report a computational method for inferring individual genotype fitness from time-series sequencing data without requiring assumptions about the maximum order of epistasis.",
+      "summary": "A preprint posted to bioRxiv presents a new analytical framework for estimating the fitness of individual genotypes directly from time-series data in heterogeneous, adapting populations. The authors address the challenge that standard fitness inference methods typically require assumptions about the fitness landscape — particularly the maximum order of epistasis — or depend on computationally intensive iterative optimisation algorithms.\n\nThe proposed method is applicable to contexts ranging from laboratory evolution experiments to large-scale pathogen surveillance, where many genetic lineages compete simultaneously and data are noisy. By circumventing restrictive epistasis assumptions, the approach may allow more robust fitness inference in complex, real-world evolutionary settings.\n\nThe framework is relevant to researchers in population genetics, evolutionary genomics, and infectious disease genomics, particularly those working on variant fitness in rapidly evolving pathogen populations. It also has educational relevance as an illustration of how selection, mutation, and stochastic forces interact in adapting populations. As a preprint, the work has not yet been peer-reviewed.",
+      "tags": [
+        "fitness-inference",
+        "population-genetics",
+        "evolutionary-genomics",
+        "epistasis",
+        "time-series",
+        "statistical-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Scalable genetic screen maps bacterial genes required for phage infection across Klebsiella strains",
+      "is_preprint": false,
+      "run_date": "2026-07-21",
+      "run_iso": "2026-07-21T09:24:52Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-20T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "klebsiella-phage-host-genetics-rb-tnseq",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-20T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Cross-family and phage-specific gene requirements for Klebsiella infection revealed by scalable RB-TnSeq genetic screens",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012233"
+        }
+      ],
+      "standfirst": "Published in PLOS Genetics, a study by Gittrich and colleagues uses high-throughput RB-TnSeq screens to identify both shared and phage-specific bacterial genetic requirements for bacteriophage infection in Klebsiella.",
+      "summary": "Researchers led by Marissa R. Gittrich and colleagues, including groups at the Wellcome Sanger Institute and the University of California San Diego, have published a study in PLOS Genetics using scalable random barcoded transposon-insertion sequencing (RB-TnSeq) to map bacterial genetic determinants that govern bacteriophage-host specificity in Klebsiella — a genus of bacteria that includes clinically and ecologically important species.\n\nBacteriophages are viruses that infect bacteria and are being catalogued at an accelerating pace, but the bacterial genes that determine whether a given phage can successfully infect its host remain poorly characterised, particularly at scale. The study reveals both cross-family conserved requirements — genes needed by multiple phage types — and phage-specific requirements, where individual phage lineages depend on distinct bacterial gene products for infection success.\n\nThe work is relevant to researchers in microbial genetics, phage biology, and evolutionary genomics. It also connects to translational research interest in phage therapy, where understanding bacterial resistance determinants at the genetic level is important for selecting effective phage candidates. The study is published in a peer-reviewed journal.",
+      "tags": [
+        "bacteriophage",
+        "klebsiella",
+        "rb-tnseq",
+        "phage-host-specificity",
+        "microbial-genetics",
+        "phage-biology",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Cancer Research UK commentary examines broad consent models for research data reuse",
+      "is_preprint": false,
+      "run_date": "2026-07-21",
+      "run_iso": "2026-07-21T09:24:52Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-20T15:19:30Z",
+        "novelty": 5
+      },
+      "slug": "cancer-research-uk-broad-consent-data-reuse",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-20T15:19:30Z",
+          "publisher": "Cancer Research UK",
+          "title": "Data science: making data count with broad consent",
+          "url": "https://news.cancerresearchuk.org/2026/07/20/data-science-making-data-count-with-broad-consent/"
+        }
+      ],
+      "standfirst": "A Cancer Research UK commentary piece explores how broad consent frameworks can enable more effective reuse of research datasets as data interrogation technologies advance.",
+      "summary": "Cancer Research UK has published a commentary piece examining the relationship between broad consent frameworks and the reuse of research data, with a focus on how consent models can be designed to keep pace with rapidly improving data analysis technologies. The piece, featuring perspectives from Leslie Glass, argues that enabling data reuse is central to maximising the scientific value of existing datasets in cancer and genomics research.\n\nBroad consent — whereby research participants agree to their data being used for a range of future research purposes rather than a specific defined study — has become increasingly relevant in genomics and cancer research, where large-scale datasets are a prerequisite for statistically powered analyses. The commentary addresses the governance and ethical considerations that shape whether and how previously collected data can be analysed using new methods.\n\nThe piece is relevant to researchers working in data governance, cancer genomics, and biobank design, as well as educators and students interested in research ethics and the governance of genomic data. It does not contain primary research findings.",
+      "tags": [
+        "broad-consent",
+        "data-governance",
+        "research-ethics",
+        "biobanks",
+        "cancer-genomics",
+        "data-reuse"
+      ]
     }
   ],
-  "last_run": "2026-07-20T09:56:30.583885+00:00",
+  "last_run": "2026-07-21T09:26:36.723912+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011986": "2026-07-16T09:12:27.185671+00:00",
@@ -12456,6 +12718,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012226": "2026-07-18T08:48:56.721091+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012230": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012231": "2026-07-16T09:12:27.185671+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012233": "2026-07-21T09:26:36.723912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012236": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012237": "2026-07-15T09:08:53.408325+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012242": "2026-07-17T09:08:53.404848+00:00",
@@ -12466,6 +12729,8 @@
     "https://news.cancerresearchuk.org/2026/07/14/new-trial-offers-hope-for-people-with-rare-adrenal-cancer/": "2026-07-14T09:03:41.911928+00:00",
     "https://news.cancerresearchuk.org/2026/07/15/cancer-waiting-times-latest-updates-and-analysis/": "2026-07-16T09:12:27.185671+00:00",
     "https://news.cancerresearchuk.org/2026/07/15/when-relationships-turn-sour-cancer-and-the-holobiont/": "2026-07-16T09:12:27.185671+00:00",
+    "https://news.cancerresearchuk.org/2026/07/20/15-myths-about-sun-safety-debunked/": "2026-07-21T09:26:36.723912+00:00",
+    "https://news.cancerresearchuk.org/2026/07/20/data-science-making-data-count-with-broad-consent/": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735829v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735838v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735855v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
@@ -12503,10 +12768,18 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.12.738116v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.13.737346v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.13.738242v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.13.738343v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.14.738208v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.14.738559v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.14.738588v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.15.738631v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.15.738695v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.15.738703v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.15.738827v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.16.738760v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.17.737701v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.18.739367v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.19.739441v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.23.738505v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.england.nhs.uk/2026/07/cancer-patients-rate-nhs-care-highly-as-record-numbers-checked-and-treated/": "2026-07-17T09:08:53.404848+00:00",
     "https://www.england.nhs.uk/2026/07/landmark-nhs-approval-of-cancer-drugs-offers-new-hope-for-children-and-adults-with-rare-blood-cancers/": "2026-07-18T08:48:56.721091+00:00",
@@ -12539,16 +12812,13 @@
     "https://www.sciencedaily.com/releases/2026/07/260715083551.htm": "2026-07-19T09:03:39.449494+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260716023552.htm": "2026-07-18T08:48:56.721091+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260716023605.htm": "2026-07-19T09:03:39.449494+00:00",
-    "https://www.statnews.com/2026/07/06/anthropic-ai-biotech-impact/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260718010140.htm": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260719035931.htm": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/06/glp-1-telehealth-prescriptions-jama-yale-secret-shopper-study/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/06/health-news-race-for-an-ebola-therapy-begins/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/06/obamacare-rolls-shrank-dramatically-affordable-care-act-states/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/2026/07/06/peptides-regulation-fda-middle-ground-ban/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
-    "https://www.statnews.com/2026/07/06/republican-lawmakers-attempt-clinical-trial-diversity-protection/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
-    "https://www.statnews.com/2026/07/06/unnecessary-medical-tests-diagnostic-stewardship/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
     "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/2026/07/06/vidcon-topic-mental-health-content-creators-status-report-alex-hogan/?utm_campaign=rss": "2026-07-06T11:25:51.759994+00:00",
     "https://www.statnews.com/2026/07/07/aca-health-insurance-small-business-out-of-pocket-series-part-2/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/07/biotech-news-compass-reports-depression-drug-has-long-lasting-benefits/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/2026/07/07/ebola-outbreak-drc-uganda-endemic-control/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
@@ -12666,9 +12936,18 @@
     "https://www.statnews.com/2026/07/17/wildfire-smoke-air-quality-smog-policy-climate-change/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/2026/07/18/military-testosterone-screening-supplements/?utm_campaign=rss": "2026-07-19T09:03:39.449494+00:00",
     "https://www.statnews.com/2026/07/18/primary-care-debate-letters-to-editor/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.statnews.com/2026/07/20/bms-nvidia-assembling-largest-pharma-ai-supercomputer/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/07/20/cyclospora-lettuce-tests-continue-restaurant-visits-decline/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/07/20/health-news-hhs-vaccine-committee-quietly-gets-new-charter/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/20/lifemd-weight-loss-drugs-novo-nordisk-telemedicine/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
     "https://www.statnews.com/2026/07/20/pandemics-national-security-threats/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
     "https://www.statnews.com/2026/07/20/psychiatric-insurance-coverage-suicide-denial-personal-essay/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
+    "https://www.statnews.com/2026/07/20/ronald-fischer-rhode-island-fugitive-richard-graydon-biotech/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/07/20/site-neutral-payments-hospitals-health-insurance-earnings-season/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/07/21/covid-non-pharmaceutical-interventions-masks-distancing-research/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/07/21/omb-nih-grant-review-politics-scientific-risk/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/07/21/rare-disease-coalition-orphan-drug-exemption-medicare-pilot-price-programs/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/07/21/thc-drinks-risk-accidental-ingestion-issue-labels-regulations/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/pharmalot/2026/07/07/vertex-buying-crinetics-fda-drug-approvals-kept-pace/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/pharmalot/2026/07/08/fda-approves-vera-kidney-drug-uk-enhertu-pricing-deal/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
@@ -12686,7 +12965,8 @@
     "https://www.statnews.com/pharmalot/2026/07/16/kalshi-bets-on-clinical-trials-merck-cholesterol-pill/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/pharmalot/2026/07/17/rising-drug-shortages-gsk-abandons-chronic-cough-medication/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/pharmalot/2026/07/17/up-down-ladder-jobs-comings-goings/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/20/telehealth-firm-patient-safety-iowa-medicaid-pbms/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00"
   },
   "takedowns": []
 }
