@@ -12702,9 +12702,225 @@
         "cancer-genomics",
         "data-reuse"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Three major US research organisations — the Broad Institute, Boston Children's Hospital, and the Jackson Laboratory — have announced they will work together to develop gene therapies for rare diseases. Gene therapies are experimental treatments that aim to correct or replace faulty genes that cause disease.\n\nRare diseases often affect small numbers of people, which can make it difficult for any single organisation to develop treatments on its own. By combining their different areas of expertise — from studying the genome, to working with patients in hospital, to studying how genes work in animals — the three institutions hope to make progress more quickly.\n\nNo specific diseases or treatments have been named yet; the announcement describes the partnership's aims rather than a finished programme. Researchers and families affected by rare diseases may see further details emerge as the collaboration publishes its plans.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Broad Institute, Boston Children's, and Jackson Laboratory launch rare disease gene therapy collaboration",
+      "is_preprint": false,
+      "run_date": "2026-07-22",
+      "run_iso": "2026-07-22T09:24:03Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-07-21T13:37:33Z",
+        "novelty": 8
+      },
+      "slug": "broad-institute-boston-childrens-jackson-lab-gene-therapy-initiative",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2017/02/broad_orr-1024x576.png",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-21T13:37:33Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Broad Institute, partners unveil new initiative to develop gene therapies for rare diseases",
+          "url": "https://www.statnews.com/2026/07/21/center-for-therapeutic-genetics-rare-disease-gene-therapies/"
+        }
+      ],
+      "standfirst": "The three institutions have announced a joint initiative to develop gene therapies targeting rare diseases, pooling expertise across genomics, clinical research, and model-organism biology.",
+      "summary": "The Broad Institute of MIT and Harvard, Boston Children's Hospital, and the Jackson Laboratory in Bar Harbor, Maine, have announced a new collaboration — described as the Center for Therapeutic Genetics — aimed at accelerating the development of gene therapies for rare diseases.\n\nThe partnership is intended to combine the Broad Institute's genomics and genome-editing infrastructure with Boston Children's Hospital's paediatric clinical and translational research capabilities and the Jackson Laboratory's long-standing expertise in mouse models and mammalian genetics. Stat News reported the announcement on 21 July 2026; further details about which disease areas or gene targets will be prioritised in the first instance had not been disclosed at time of publication.\n\nRare-disease gene therapy has attracted substantial institutional and public funding in recent years. The ARPA-H agency committed $160 million to bespoke gene-editing treatments for rare diseases in July 2026, and the broader field continues to face challenges including high per-patient development costs, small trial populations, and manufacturing scalability. The new initiative appears designed to share those development burdens across institutions with complementary strengths.\n\nFull programmatic details, including disease targets, funding sources, and governance arrangements, are expected to follow the initial announcement.",
+      "tags": [
+        "gene-therapy",
+        "rare-disease",
+        "broad-institute",
+        "boston-childrens",
+        "jackson-laboratory",
+        "collaboration",
+        "genome-editing"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics paper sets out multi-ancestry colocalisation approaches for GWAS fine-mapping",
+      "is_preprint": false,
+      "run_date": "2026-07-22",
+      "run_iso": "2026-07-22T09:24:03Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-07-21T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "multi-ancestry-colocalisation-gwas-fine-mapping-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-21T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Multi-ancestry colocalization approaches",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012221"
+        }
+      ],
+      "standfirst": "Researchers describe statistical methods that leverage differences in linkage disequilibrium and allele frequencies across ancestries to improve identification of likely causal variants in genome-wide association studies.",
+      "summary": "A methods paper published in *PLOS Genetics* by Cathy Shen, Josée Dupuis, and Qihuang Zhang describes and evaluates multi-ancestry colocalisation approaches for statistical fine-mapping of genome-wide association study (GWAS) signals.\n\nGenome-wide association studies have now identified thousands of genetic variants associated with complex traits and diseases, but the great majority of these variants are not themselves causal — they are statistically associated because they sit in linkage disequilibrium (LD) with a nearby causal variant. Fine-mapping methods attempt to narrow down which variant in a given region is most likely to be causal. Standard approaches were originally developed within single-ancestry datasets, limiting their resolution.\n\nThe paper argues that incorporating data from multiple ancestry groups offers a principled way to improve fine-mapping resolution. Because LD patterns and minor allele frequencies differ between populations, variants that are correlated in one population may be uncorrelated in another, making it easier to distinguish causal from non-causal signals when multiple populations are analysed jointly. The authors review and compare existing multi-ancestry fine-mapping and colocalisation frameworks, identifying settings in which each performs well and highlighting remaining methodological gaps.\n\nThe work sits in a productive recent conversation about GWAS methodology. Readers may wish to note that a cluster published on 9 July 2026 covered related persistent challenges in GWAS integration and fine-mapping, and a cluster from 8 July covered geometric disagreements between standard LD measures — both providing useful context for this paper.",
+      "tags": [
+        "gwas",
+        "fine-mapping",
+        "multi-ancestry",
+        "linkage-disequilibrium",
+        "colocalisation",
+        "statistical-genetics",
+        "population-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint describes snpXplorer, an interactive platform for haplotype-aware GWAS signal annotation",
+      "is_preprint": true,
+      "run_date": "2026-07-22",
+      "run_iso": "2026-07-22T09:24:03Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-07-21T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "snpxplorer-haplotype-aware-gwas-annotation-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-21T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "snpXplorer: an interactive platform for haplotype-aware exploration and integrated annotation of GWAS data",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739485v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint on bioRxiv presents snpXplorer, a browser-based tool designed to help researchers explore GWAS loci within their haplotype context and integrate functional and regulatory evidence.",
+      "summary": "A preprint posted to bioRxiv describes snpXplorer, an interactive web platform built to help researchers move from raw GWAS association signals towards biological interpretation. The tool is designed around what the authors call haplotype-aware exploration: rather than examining individual associated variants in isolation, snpXplorer encourages analysis of variants in the context of the linkage disequilibrium blocks in which they sit, preserving the shared regulatory and functional context that may be relevant to understanding which signals are biologically meaningful.\n\nThe platform integrates annotation from regulatory, functional, and cross-trait evidence sources, allowing users to examine correlated variants, their predicted functional consequences, and overlap with regulatory features such as enhancers, alongside signals from other traits that map to the same region.\n\nThe preprint addresses a recognised bottleneck in GWAS follow-up: most associated variants are non-coding, and interpreting them requires synthesising information from multiple databases and analytic perspectives that are not always straightforward to combine. snpXplorer is presented as a tool to lower that barrier for researchers who do not have the computational infrastructure to build bespoke pipelines.\n\nThis work is a preprint and has not yet been peer-reviewed. Readers should interpret its claims accordingly. The platform and its described functionality may change before or during peer review.",
+      "tags": [
+        "gwas",
+        "haplotype-structure",
+        "annotation-tools",
+        "non-coding-variants",
+        "statistical-genetics",
+        "functional-genomics",
+        "bioinformatics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint introduces sequencing-by-expansion chemistry for scalable single-cell isoform profiling",
+      "is_preprint": true,
+      "run_date": "2026-07-22",
+      "run_iso": "2026-07-22T09:24:03Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-07-21T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "single-cell-isoform-profiling-sequencing-by-expansion-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-21T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Scalable single-cell isoform profiling with sequencing-by-expansion",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.15.738809v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers describe a new sequencing chemistry designed to capture full-length RNA transcripts at single-cell resolution and at the throughput needed for million-cell experiments.",
+      "summary": "A bioRxiv preprint describes sequencing-by-expansion (SBX), a new sequencing chemistry developed to resolve transcript isoforms at single-cell resolution without the throughput and cost constraints that have limited existing long-read platforms in large-scale applications.\n\nStandard single-cell RNA sequencing (scRNA-seq) relies on short-read sequencing technology, which can quantify gene expression but cannot reliably distinguish between the multiple transcript isoforms a single gene may produce through alternative splicing. Alternative splicing is a widespread mechanism through which a single gene can generate proteins with distinct functions; the inability to capture it systematically at single-cell resolution has been an acknowledged gap in the field.\n\nLong-read sequencing platforms, such as those from Oxford Nanopore Technologies and Pacific Biosciences, can in principle resolve full-length transcripts, but their per-base costs and throughput have made them impractical for datasets involving hundreds of thousands or millions of cells. The preprint authors report that SBX addresses this by optimising the sequencing chemistry for high-throughput, low-cost operation at single-cell scale, enabling isoform-level analysis in large cellular datasets.\n\nThe work is a preprint and has not yet undergone peer review. Performance claims, including throughput figures and isoform-resolution accuracy, should be treated as preliminary until independent validation is available.",
+      "tags": [
+        "single-cell-rna-sequencing",
+        "alternative-splicing",
+        "transcript-isoforms",
+        "long-read-sequencing",
+        "sequencing-methods",
+        "transcriptomics",
+        "rna-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint maps genetic architecture of maize yellow mosaic virus resistance in a 282-line diversity panel",
+      "is_preprint": true,
+      "run_date": "2026-07-22",
+      "run_iso": "2026-07-22T09:24:03Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-07-21T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "maize-yellow-mosaic-virus-resistance-gwas-corn-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-21T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The genetic architecture of maize yellow mosaic virus resistance in corn",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.17.739229v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers characterise resistance to an emerging polerovirus in corn using a large diversity panel, identifying low-titer inbred lines as candidates for developing resistant cultivars.",
+      "summary": "A bioRxiv preprint reports a characterisation of resistance to maize yellow mosaic virus (MaYMV) across the Goodman 282 maize diversity panel, a well-established collection used to study the genetic basis of agriculturally important traits in corn.\n\nMaYMV is described by the authors as an emerging polerovirus — a family of plant viruses transmitted by aphids — affecting maize and other grass species. Its broad host range and transmission by multiple aphid species make conventional management approaches such as crop rotation, pesticide application, and weed control likely to be insufficient, the authors argue, pointing to the development of resistant cultivars as the more practical long-term strategy.\n\nThe study quantified leaf reddening symptoms, which are associated with MaYMV infection, and used diagnostic approaches to assess infection status and obtain a semi-quantitative measure of virus titre across the panel. Lines showing consistently low titre were identified as candidates for further breeding or genetic dissection work. The preprint appears to lay the groundwork for formal GWAS or QTL mapping to identify the specific loci underlying resistance, though readers should consult the full manuscript for details of the analytical pipeline.\n\nThe work is a preprint and has not yet been peer-reviewed. It will be of primary interest to plant geneticists, crop scientists, and researchers working on virus resistance in cereals and grasses.",
+      "tags": [
+        "plant-genetics",
+        "virus-resistance",
+        "maize",
+        "polerovirus",
+        "crop-genetics",
+        "diversity-panel",
+        "aphid-transmission"
+      ]
     }
   ],
-  "last_run": "2026-07-21T09:26:36.723912+00:00",
+  "last_run": "2026-07-22T09:25:39.410459+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011986": "2026-07-16T09:12:27.185671+00:00",
@@ -12712,6 +12928,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012173": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012192": "2026-07-10T10:22:16.716564+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012211": "2026-07-17T09:08:53.404848+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012221": "2026-07-22T09:25:39.410459+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012222": "2026-07-18T08:48:56.721091+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012224": "2026-07-10T10:22:16.716564+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012225": "2026-07-09T10:23:13.437000+00:00",
@@ -12732,9 +12949,6 @@
     "https://news.cancerresearchuk.org/2026/07/20/15-myths-about-sun-safety-debunked/": "2026-07-21T09:26:36.723912+00:00",
     "https://news.cancerresearchuk.org/2026/07/20/data-science-making-data-count-with-broad-consent/": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.01.735829v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.01.735838v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.01.735855v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.01.735858v1?rss=1": "2026-07-07T10:24:22.153812+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.02.736022v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.03.736265v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.03.736304v1?rss=1": "2026-07-08T09:25:14.024738+00:00",
@@ -12775,15 +12989,19 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.15.738631v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.15.738695v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.15.738703v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.15.738809v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.15.738827v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.16.738760v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.17.737701v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.17.739229v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.18.739367v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.19.739441v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.20.739485v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.20.739625v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.21.739721v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.23.738505v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.england.nhs.uk/2026/07/cancer-patients-rate-nhs-care-highly-as-record-numbers-checked-and-treated/": "2026-07-17T09:08:53.404848+00:00",
     "https://www.england.nhs.uk/2026/07/landmark-nhs-approval-of-cancer-drugs-offers-new-hope-for-children-and-adults-with-rare-blood-cancers/": "2026-07-18T08:48:56.721091+00:00",
-    "https://www.england.nhs.uk/2026/07/million-parents-book-new-four-in-one-nhs-jab-protect-children-against-measles/": "2026-07-07T10:24:22.153812+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-aims-to-prevent-one-in-four-sepsis-deaths/": "2026-07-14T09:03:41.911928+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-urges-people-50s-return-bowel-screening-kits-100-cancers-found-week/": "2026-07-11T08:45:34.461748+00:00",
     "https://www.england.nhs.uk/2026/07/snooping-staff-face-sack-prison-inappropriate-access-patient-data/": "2026-07-09T10:23:13.437000+00:00",
@@ -12791,9 +13009,7 @@
     "https://www.england.nhs.uk/2026/07/young-people-urged-book-lifesaving-meningitis-jab-high-street-pharmacies/": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260620100319.htm": "2026-07-08T09:25:14.024738+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623014007.htm": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260623014026.htm": "2026-07-07T10:24:22.153812+00:00",
     "https://www.sciencedaily.com/releases/2026/06/260623083119.htm": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.sciencedaily.com/releases/2026/06/260625014838.htm": "2026-07-07T10:24:22.153812+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260701205001.htm": "2026-07-09T10:23:13.437000+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260708022158.htm": "2026-07-09T10:23:13.437000+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260708022202.htm": "2026-07-09T10:23:13.437000+00:00",
@@ -12814,23 +13030,13 @@
     "https://www.sciencedaily.com/releases/2026/07/260716023605.htm": "2026-07-19T09:03:39.449494+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260718010140.htm": "2026-07-21T09:26:36.723912+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260719035931.htm": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.statnews.com/2026/07/06/biotech-news-anthropic-ceo-dario-amodei-tempers-expectations/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/2026/07/06/glp-1-telehealth-prescriptions-jama-yale-secret-shopper-study/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/2026/07/06/health-news-race-for-an-ebola-therapy-begins/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/2026/07/06/obamacare-rolls-shrank-dramatically-affordable-care-act-states/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/2026/07/07/aca-health-insurance-small-business-out-of-pocket-series-part-2/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260721000816.htm": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/07/biotech-news-compass-reports-depression-drug-has-long-lasting-benefits/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.statnews.com/2026/07/07/ebola-outbreak-drc-uganda-endemic-control/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/2026/07/07/employer-based-insurance-whistleblower-out-of-pocket-series-part-3/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
-    "https://www.statnews.com/2026/07/07/gen-z-doctors-too-soft/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/07/health-news-ebola-outbreak-exposes-a-fractured-outbreak-response-system/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/2026/07/07/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/2026/07/07/insurance-affordability-crisis-health-care-inc-newsletter/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/2026/07/07/secret-shopper-study-glp-1-telehealth-sites-health-tech/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.statnews.com/2026/07/07/small-business-health-insurance-costs-out-of-pocket-series-part-1/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/07/vera-therapeutics-kidney-disease-treatment-approval/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
-    "https://www.statnews.com/2026/07/07/why-health-insurance-costs-so-much-out-of-pocket-series-key-takeaways/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
     "https://www.statnews.com/2026/07/08/affordable-care-act-insurers-premium-increases-enrollment-dips/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/08/biotech-news-europe-will-accelerate-its-review-of-revmed-cancer-drug/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/08/brigham-and-womens-hospital-boston-nurses-strike-largest-massachusetts-history/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
@@ -12944,11 +13150,24 @@
     "https://www.statnews.com/2026/07/20/psychiatric-insurance-coverage-suicide-denial-personal-essay/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
     "https://www.statnews.com/2026/07/20/ronald-fischer-rhode-island-fugitive-richard-graydon-biotech/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/20/site-neutral-payments-hospitals-health-insurance-earnings-season/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/07/21/ai-scribe-nabla-new-ceo-plan-gain-marketshare/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/07/21/biotech-news-a-renewed-push-from-the-right-against-abortion-pills/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/07/21/biotech-news-anthropic-deepens-work-with-rare-disease-drugs/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/07/21/center-for-therapeutic-genetics-rare-disease-gene-therapies/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/07/21/connection-between-odyssey-military-tesosterone-screening/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/covid-non-pharmaceutical-interventions-masks-distancing-research/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/07/21/hiv-aids-prevention-advocates-fear-deep-cuts-cdc-funding/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/07/21/is-there-an-exodus-underway-at-epic-health-tech/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/07/21/medicaid-payments-1-billion-deferred-california-minnesota/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/omb-nih-grant-review-politics-scientific-risk/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/21/rare-disease-coalition-orphan-drug-exemption-medicare-pilot-price-programs/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/07/21/rare-disease-drugmakers-avoid-trump-price-cuts-pbm-state-laws-dc-diagnosis/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/thc-drinks-risk-accidental-ingestion-issue-labels-regulations/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/06/novartis-buys-myricx-republicans-back-clinical-trial-diversity/?utm_campaign=rss": "2026-07-07T10:24:22.153812+00:00",
+    "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/07/22/gallup-poll-24-percent-workers-job-lock-keep-job-health-insurance/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/07/22/hospital-ai-systems-ceo-leadership-accountability-governance/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/07/22/lipfendra-enlicitide-merck-cholesterol-barriers/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/07/22/maui-wildfire-exposure-study-health-impacts-lahaina-hawaii/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/pharmalot/2026/07/07/vertex-buying-crinetics-fda-drug-approvals-kept-pace/?utm_campaign=rss": "2026-07-08T09:25:14.024738+00:00",
     "https://www.statnews.com/pharmalot/2026/07/08/fda-approves-vera-kidney-drug-uk-enhertu-pricing-deal/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/pharmalot/2026/07/08/trump-officials-want-to-make-generic-medicines-in-the-us/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
@@ -12966,7 +13185,9 @@
     "https://www.statnews.com/pharmalot/2026/07/17/rising-drug-shortages-gsk-abandons-chronic-cough-medication/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/pharmalot/2026/07/17/up-down-ladder-jobs-comings-goings/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/20/telehealth-firm-patient-safety-iowa-medicaid-pbms/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/20/telehealth-firm-patient-safety-iowa-medicaid-pbms/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/21/novo-nordisk-sues-eli-lilly-glp1-drug-ads/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/21/novo-sues-lilly-alleging-deceptive-ads-fugitive-secret-life-in-biotech/": "2026-07-22T09:25:39.410459+00:00"
   },
   "takedowns": []
 }
