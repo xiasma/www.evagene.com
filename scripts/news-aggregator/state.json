@@ -13092,9 +13092,183 @@
         "genetic-gain",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Inherited retinal diseases (IRDs) are a group of conditions caused by faults in the genes needed for the retina — the light-sensitive tissue at the back of the eye — to work properly. Some of these faults create what scientists call a \"stop signal\" too early in the genetic instructions, preventing the cell from making a working protein.\n\nResearchers have engineered a tiny molecule called a transfer RNA (tRNA) that can read through one common type of these early stop signals — those caused by changes affecting a building block called arginine. In laboratory tests, a single version of this molecule worked across 13 different disease-causing variants in several different IRD genes, restoring production of a protein that is lost in some forms of retinal disease.\n\nThis research is at an early stage and has not yet been reviewed by independent scientists (it is what is called a preprint). Much more research would be needed before anything like this could be considered in a clinical setting.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Single engineered tRNA targets majority of nonsense-caused inherited retinal diseases",
+      "is_preprint": true,
+      "run_date": "2026-07-24",
+      "run_iso": "2026-07-24T09:18:13Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-07-23T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "ace-trna-therapy-inherited-retinal-disease-nonsense",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Single anticodon-edited tRNA therapy targeting highly prevalent Arg>Ter premature termination codons causing inherited retinal diseases",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.21.737205v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes an anticodon-edited tRNA that achieves up to 86% readthrough across 13 clinically relevant Arg-to-stop variants, offering a gene-agnostic strategy for a prevalent subclass of inherited retinal disease.",
+      "summary": "Researchers have described an anticodon-edited (ACE) tRNA — designated V3 — engineered to suppress premature termination codons arising from arginine-to-stop (Arg>Ter) nonsense variants, the most common single subclass of premature stop codons in inherited retinal diseases (IRDs). The preprint, posted to bioRxiv, combines a large-scale survey of published genetic data from more than 37,500 IRD patients with functional tRNA engineering.\n\nNonsense variants are estimated to underlie approximately 18% of all inherited retinal disease cases. Among premature stop codons in this group, Arg>Ter transitions account for roughly 35%, making them a natural focal point for a shared therapeutic approach. The ACE-tRNA V3 construct achieved readthrough efficiencies of up to 86% across the 13 clinically relevant variants tested in laboratory models, and restored native localisation of the PRCD protein, a well-characterised IRD-associated gene product.\n\nThe approach is described as gene-agnostic — the same tRNA molecule could in principle address multiple disease-causing variants across different IRD genes, rather than requiring a separate therapy for each variant. The authors frame this as a potential response to the longstanding challenge that the extreme genetic heterogeneity of IRDs has made variant-by-variant drug development economically and practically difficult.\n\nThis work is a preprint and has not yet completed peer review. The retinal-delivery, safety, and in vivo efficacy data that would be required to evaluate any future clinical development are not yet reported.",
+      "tags": [
+        "trna-therapy",
+        "nonsense-suppression",
+        "inherited-retinal-disease",
+        "readthrough",
+        "gene-agnostic-therapy",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint warns GWAS SNP localisation may mislead in livestock under diffuse polygenic architecture",
+      "is_preprint": true,
+      "run_date": "2026-07-24",
+      "run_iso": "2026-07-24T09:18:13Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-23T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gwas-snp-localisation-livestock-polygenic-architecture",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Widely used GWAS methods can be poorly suited to SNP-level localization under diffuse polygenic architecture in livestock",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739621v1?rss=1"
+        }
+      ],
+      "standfirst": "Using simulated phenotypes on real Duroc pig genotypes, researchers show that standard GWAS methods can produce strong, apparently localised associations even when no discrete nearby causal variant exists.",
+      "summary": "A preprint posted to bioRxiv reports that widely used genome-wide association study (GWAS) methods may be poorly suited to identifying causal variants at the individual SNP level in livestock populations characterised by diffuse polygenic architecture.\n\nThe authors constructed a benchmarking framework using real Duroc pig genotypes, simulating phenotypes under conditions where trait variation is spread across many variants of small effect rather than concentrated at discrete loci. They found that standard GWAS approaches can generate strong, apparently localised association signals in the absence of any genuine nearby causal variant. The study attributes this behaviour to features common in livestock populations: small effective population sizes, pronounced family structure, extended linkage disequilibrium (LD) across broad genomic intervals, and diffuse polygenic architecture. Under these conditions, the cumulative effects of many variants across a genomic region can be captured jointly by whichever SNP happens to be best tagged in a particular study, producing a misleadingly specific localisation signal.\n\nThe findings have practical implications for livestock genomics programmes that use GWAS hits to prioritise variants for functional follow-up, fine-mapping, or marker-assisted selection. The authors do not argue that GWAS is uninformative in livestock, but that variant-level conclusions should be interpreted with caution where the underlying architecture is likely to be highly polygenic.\n\nThis work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "gwas-methods",
+        "livestock-genomics",
+        "polygenic-architecture",
+        "linkage-disequilibrium",
+        "snp-localisation",
+        "statistical-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Cohesin overexpression linked to programmed B chromosome loss in wheat relative Aegilops speltoides",
+      "is_preprint": true,
+      "run_date": "2026-07-24",
+      "run_iso": "2026-07-24T09:18:13Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-23T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "b-chromosome-elimination-cohesin-aegilops-speltoides",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Programmed chromosome elimination correlates with the overexpression of cohesin and additional B chromosome-encoded genes in Aegilops speltoides",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739560v1?rss=1"
+        }
+      ],
+      "standfirst": "A chromosome-scale genome assembly of Aegilops speltoides identifies overexpression of cohesin and additional B chromosome-encoded genes as correlates of root-specific elimination of supernumerary chromosomes.",
+      "summary": "Researchers have used a chromosome-scale genome assembly of Aegilops speltoides — a wild relative of wheat — to investigate the molecular basis of programmed chromosome elimination, a developmental process in which specific chromosomes are selectively lost from defined cell lineages. The study, posted as a preprint to bioRxiv, focuses on the root-specific elimination of supernumerary B chromosomes, a phenomenon that has been observed across diverse plants and animals but whose mechanistic underpinnings remain largely unresolved.\n\nThe team generated a high-quality assembly assigning 398 megabases of sequence to chromosome-scale scaffolds, providing a reference for detailed transcriptomic comparisons between cell types that retain and those that eliminate B chromosomes. They report that programmed loss correlates with overexpression of cohesin — a protein complex central to sister chromatid cohesion and chromosome segregation — along with a set of additional genes encoded by the B chromosomes themselves.\n\nThe findings support a model in which B chromosomes may encode or influence the very machinery that governs their own elimination in particular tissues, a form of intragenomic conflict with parallels in other selfish genetic elements. The authors describe the Aegilops speltoides system as a tractable experimental model for dissecting the molecular genetics of chromosome loss more broadly.\n\nThis work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "b-chromosomes",
+        "programmed-chromosome-elimination",
+        "cohesin",
+        "aegilops",
+        "wheat-genomics",
+        "plant-genetics",
+        "chromosome-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Truncated insulin receptor isoform DAF-2B tunes insulin signalling via homodimer–heterodimer balance in C. elegans",
+      "is_preprint": false,
+      "run_date": "2026-07-24",
+      "run_iso": "2026-07-24T09:18:13Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-07-23T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "daf-2b-truncated-insulin-receptor-c-elegans-signalling",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-23T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Partitioning of the truncated insulin receptor DAF-2B between homodimers and heterodimers influences insulin signaling in C. elegans",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012240"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study identifies a mutation in unc-31 that alters DAF-2B expression and shows that the ratio of DAF-2B homodimers to heterodimers with full-length DAF-2 shapes insulin-like signalling output.",
+      "summary": "Researchers at institutions including the laboratory of Matthew S. Gill have published a PLOS Genetics study examining how DAF-2B — a truncated, non-signalling, secreted isoform of the C. elegans insulin receptor DAF-2 — modulates insulin and insulin-like growth factor signalling (IIS) in the nematode.\n\nDAF-2B lacks the intracellular kinase domain of the full-length receptor and has been characterised as a decoy receptor that sequesters insulin-like peptides (ILPs), which in C. elegans can act either as agonists or antagonists of DAF-2 signalling. The current study used a forward genetic screen for modifiers of DAF-2B protein expression, identifying a mutation in unc-31 — a gene encoding a calcium-dependent activator protein involved in neuropeptide secretion — that increased DAF-2B expression levels.\n\nThe authors go on to show that DAF-2B can form both homodimers and heterodimers with full-length DAF-2, and that the balance between these two species influences the overall output of the IIS pathway. Because IIS in C. elegans is a well-established model for conserved pathways governing metabolism, stress resistance, and longevity, the findings add mechanistic detail to how decoy receptor isoforms can tune signalling at the level of receptor complex composition rather than simply by ligand titration.\n\nThe study is published in PLOS Genetics and has completed peer review.",
+      "tags": [
+        "c-elegans",
+        "insulin-signalling",
+        "daf-2",
+        "decoy-receptor",
+        "receptor-dimerisation",
+        "model-organisms",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-07-23T09:24:14.397087+00:00",
+  "last_run": "2026-07-24T09:19:49.155114+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011986": "2026-07-16T09:12:27.185671+00:00",
@@ -13105,7 +13279,6 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012221": "2026-07-22T09:25:39.410459+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012222": "2026-07-18T08:48:56.721091+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012224": "2026-07-10T10:22:16.716564+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012225": "2026-07-09T10:23:13.437000+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012226": "2026-07-18T08:48:56.721091+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012229": "2026-07-23T09:24:14.397087+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012230": "2026-07-14T09:03:41.911928+00:00",
@@ -13113,6 +13286,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012233": "2026-07-21T09:26:36.723912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012236": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012237": "2026-07-15T09:08:53.408325+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012240": "2026-07-24T09:19:49.155114+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012242": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012245": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012246": "2026-07-15T09:08:53.408325+00:00",
@@ -13125,13 +13299,10 @@
     "https://news.cancerresearchuk.org/2026/07/23/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-07-23T09:24:14.397087+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.03.736358v1?rss=1": "2026-07-10T10:22:16.716564+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.04.736468v1?rss=1": "2026-07-10T10:22:16.716564+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.04.736511v1?rss=1": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.05.736573v1?rss=1": "2026-07-09T10:23:13.437000+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.05.736587v1?rss=1": "2026-07-10T10:22:16.716564+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.06.736845v1?rss=1": "2026-07-11T08:45:34.461748+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.06.736846v1?rss=1": "2026-07-11T08:45:34.461748+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.06.736905v1?rss=1": "2026-07-11T08:45:34.461748+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.07.736355v1?rss=1": "2026-07-09T10:23:13.437000+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737011v1?rss=1": "2026-07-10T10:22:16.716564+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737025v1?rss=1": "2026-07-11T08:45:34.461748+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.07.737069v1?rss=1": "2026-07-12T09:00:57.628005+00:00",
@@ -13164,12 +13335,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.16.738760v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.17.737701v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.17.739229v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.17.739231v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.18.739356v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.18.739365v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.18.739367v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.19.739441v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.20.739485v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.20.739560v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.20.739621v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.20.739625v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.21.737205v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.21.739721v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.22.740070v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.23.738505v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
@@ -13177,13 +13352,8 @@
     "https://www.england.nhs.uk/2026/07/landmark-nhs-approval-of-cancer-drugs-offers-new-hope-for-children-and-adults-with-rare-blood-cancers/": "2026-07-18T08:48:56.721091+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-aims-to-prevent-one-in-four-sepsis-deaths/": "2026-07-14T09:03:41.911928+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-urges-people-50s-return-bowel-screening-kits-100-cancers-found-week/": "2026-07-11T08:45:34.461748+00:00",
-    "https://www.england.nhs.uk/2026/07/snooping-staff-face-sack-prison-inappropriate-access-patient-data/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-ms-life-changing-drug-nhs-help-walk-more-freely/": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.england.nhs.uk/2026/07/warm-weather-world-cup-drives-record-nhs-demand-satisfaction-gps-bounce-back/": "2026-07-09T10:23:13.437000+00:00",
     "https://www.england.nhs.uk/2026/07/young-people-urged-book-lifesaving-meningitis-jab-high-street-pharmacies/": "2026-07-13T10:22:09.296650+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260701205001.htm": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260708022158.htm": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260708022202.htm": "2026-07-09T10:23:13.437000+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260708022206.htm": "2026-07-10T10:22:16.716564+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260708022214.htm": "2026-07-10T10:22:16.716564+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260709160630.htm": "2026-07-11T08:45:34.461748+00:00",
@@ -13200,30 +13370,18 @@
     "https://www.sciencedaily.com/releases/2026/07/260716023552.htm": "2026-07-18T08:48:56.721091+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260716023605.htm": "2026-07-19T09:03:39.449494+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260716023607.htm": "2026-07-23T09:24:14.397087+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260717033046.htm": "2026-07-24T09:19:49.155114+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260718010140.htm": "2026-07-21T09:26:36.723912+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260719035931.htm": "2026-07-21T09:26:36.723912+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260721000816.htm": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.statnews.com/2026/07/08/affordable-care-act-insurers-premium-increases-enrollment-dips/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/2026/07/08/biotech-news-europe-will-accelerate-its-review-of-revmed-cancer-drug/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/2026/07/08/brigham-and-womens-hospital-boston-nurses-strike-largest-massachusetts-history/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/2026/07/08/bryan-johnson-autoimmune-gastritis-diagnosis-explained/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/2026/07/08/health-news-more-big-premium-hikes-on-the-horizon/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/2026/07/08/hhs-to-propose-covid-19-countermeasures-injury-table/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/2026/07/08/lung-transplant-advanced-cancer-study-results-ethics-jama/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/2026/07/08/new-fda-commissioner-finalists-under-white-house-review/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/2026/07/08/prime-medicine-beam-therapeutics-arbitration-outcome/": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260721000845.htm": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/09/arpa-h-160-million-custom-gene-editing-funding-rare-disease/": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/09/arpa-h-160-million-custom-gene-editing-funding-rare-disease/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00",
-    "https://www.statnews.com/2026/07/09/astrazeneca-ionis-attr-wainua-trial-failure/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/09/biotech-news-prime-wins-beam-arbitration-clearing-path-to-clinic/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
-    "https://www.statnews.com/2026/07/09/cannabis-seniors-medical-marijuana-legal-thc-cbd-chronic-pain/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/09/cyclospora-outbreak-faq-diarrhea-causing-parasite/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/09/fda-commissioner-finalists-under-review-obamacare-premiums-surge-again/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/09/health-news-whos-going-to-run-the-fda/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
-    "https://www.statnews.com/2026/07/09/maha-mondays-great-american-state-fair-status-report-alex-hogan/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/2026/07/09/matt-wilsey-grace-science-rare-disease-drug-development-ngly1/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/09/northwest-biotherapeutics-brain-cancer-treatment/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
-    "https://www.statnews.com/2026/07/09/obesity-disease-classification-glp-1-eli-lilly-novo-nordisk/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
     "https://www.statnews.com/2026/07/09/openevidence-backs-study-that-finds-it-beats-llms-health-tech/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/09/readout-loud-podcast-fda-commissioner-candidates-health-insurance-costs/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/2026/07/10/bcny-approach-boys-mental-health-connection-belonging-mentors/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
@@ -13346,12 +13504,27 @@
     "https://www.statnews.com/2026/07/22/trump-plans-tariffs-on-generics-merck-gilead-hiv-pill/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/22/what-is-a-world-model-nabla-alex-lebrun-explains-ai-prognosis/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/22/world-cup-argentina-loss-hospitals-lessons/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
+    "https://www.statnews.com/2026/07/23/cyclospora-second-outbreak-reported-fda-cites-72-new-cases/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/23/erica-schwartz-cdc-director-vote-delayed/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/fda-advisory-panel-peptide-safety-compounding-pharmacies/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
+    "https://www.statnews.com/2026/07/23/fda-panel-okays-peptides-compound-pharmacies-bpc-157-kpv/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/23/federal-office-mens-health-bipartisan-bill-filed-momentum-grows/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/global-billing-maternity-care-mistake/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/23/global-maternity-care-billing-acog-explains/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
+    "https://www.statnews.com/2026/07/23/health-news-expect-a-clash-at-today-fda-peptide-panel/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/23/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson-2/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/23/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson-3/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/23/hhs-convenes-experts-on-clinical-ai-health-tech/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/23/new-data-on-eli-lilly-triple-g-drug-retatrutide-leave-open-questions-on-heart-benefit/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/23/readout-loud-podcast-matt-wilsey-rare-disease-lifemd-novo-nordisk-eli-lilly/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/23/sanofi-insulin-lantus-solostar-pen-reported-short-supply/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/23/sean-kaufman-aspr-nomination-confirmation-vote-postponed-senate-committee/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/23/trump-nominates-timothy-westlake-samhsa/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/veterans-face-long-covid-vaccine-reinstatement-process/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/08/fda-approves-vera-kidney-drug-uk-enhertu-pricing-deal/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/08/trump-officials-want-to-make-generic-medicines-in-the-us/?utm_campaign=rss": "2026-07-09T10:23:13.437000+00:00",
+    "https://www.statnews.com/2026/07/24/medical-school-federal-student-loan-changes/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/24/pharmaceutical-supply-chain-resilience-china/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/24/science-new-golden-age-report-draws-mixed-reaction/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/24/ultraprocessed-food-warning-label-bill-clears-senate-committee-bipartisan-vote/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/pharmalot/2026/07/09/fda-commissioner-contenders-reviewed-astrazeneca-ionis-heart-drug-failed/?utm_campaign=rss": "2026-07-10T10:22:16.716564+00:00",
     "https://www.statnews.com/pharmalot/2026/07/10/germany-seeks-bigger-drug-discounts-drugmakers-embracing-secrecy/?utm_campaign=rss": "2026-07-11T08:45:34.461748+00:00",
     "https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
@@ -13368,7 +13541,10 @@
     "https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
     "https://www.statnews.com/pharmalot/2026/07/20/telehealth-firm-patient-safety-iowa-medicaid-pbms/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/pharmalot/2026/07/21/novo-nordisk-sues-eli-lilly-glp1-drug-ads/": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/21/novo-sues-lilly-alleging-deceptive-ads-fugitive-secret-life-in-biotech/": "2026-07-22T09:25:39.410459+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/21/novo-sues-lilly-alleging-deceptive-ads-fugitive-secret-life-in-biotech/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/23/european-medicines-agency-bolster-clinical-trials-transparency/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/23/fda-urged-by-advocacy-group-to-ban-dtc-prescription-drug-ads/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/23/lilly-obesity-drug-data-fda-asked-to-ban-dtc-ads/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00"
   },
   "takedowns": []
 }
