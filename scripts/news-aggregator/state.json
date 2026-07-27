@@ -13529,9 +13529,97 @@
         "model-organisms",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Long-read sequencing reveals hidden structural diversity in Guam's invasive brown tree snakes",
+      "is_preprint": false,
+      "run_date": "2026-07-27",
+      "run_iso": "2026-07-27T10:39:03Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-07-26T07:15:38Z",
+        "novelty": 8
+      },
+      "slug": "brown-tree-snake-guam-invasion-hidden-genetic-diversity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-26T07:15:38Z",
+          "publisher": "ScienceDaily",
+          "title": "Hidden genetic diversity helped inbred brown tree snakes conquer guam",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260726015236.htm"
+        }
+      ],
+      "standfirst": "More than 19,000 large-scale genomic variants — many in immunity and olfaction genes — may explain how a small founding population survived inbreeding and conquered an island ecosystem.",
+      "summary": "A new study using long-read DNA sequencing has uncovered unexpectedly high levels of structural genetic variation in brown tree snakes (Boiga irregularis) on Guam, an island the species colonised after accidental introduction in the late 1940s. Despite being descended from a small founder population — a scenario typically associated with severe inbreeding depression and reduced adaptive potential — the snakes carry more than 19,000 large structural variants across the genome. A disproportionate share of these variants cluster in genomic regions associated with immune function and olfactory sensing.\n\nThe research, reported by ScienceDaily on 26 July 2026, suggests that hidden structural diversity — not captured by conventional short-read sequencing approaches — may have buffered the population against the genetic costs of its bottleneck origin, and potentially facilitated its explosive expansion across Guam and the near-total collapse of the island's native bird fauna.\n\nThe findings have broader implications for conservation genomics and invasion biology. Standard short-read population-genomic surveys may systematically underestimate functional diversity in invasive or historically bottlenecked populations, with consequences for assessing adaptive potential. For conservation geneticists, the result also raises the question of whether analogous cryptic variation exists in endangered species long assumed to carry dangerously depleted gene pools. The primary journal source was not named in the feed item; readers are directed to the original ScienceDaily report for citation details.",
+      "tags": [
+        "structural-variants",
+        "long-read-sequencing",
+        "invasion-biology",
+        "population-bottleneck",
+        "conservation-genomics",
+        "brown-tree-snake",
+        "founder-effect"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers have used a gene-editing tool called CRISPR to alter prostate cancer cells in mice, making them easier for the immune system to find and attack. When combined with a type of treatment called immunotherapy — which helps the body's immune system fight cancer — the edited cells were much more effectively destroyed than untreated cancer cells.\n\nProstate cancer has historically been difficult to treat with immunotherapy because the tumour tends not to trigger a strong immune response on its own. This research explores whether changing the cancer cells genetically could change that.\n\nThe experiments were carried out in mice, not in people, so it is not yet known whether the same approach would work in human patients. Steps such as safety studies and clinical trials would be needed before anything like this could be used in medical care.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "CRISPR edit makes prostate cancer cells visible to the immune system in mouse experiments",
+      "is_preprint": false,
+      "run_date": "2026-07-27",
+      "run_iso": "2026-07-27T10:39:03Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-07-26T12:36:23Z",
+        "novelty": 7
+      },
+      "slug": "crispr-prostate-cancer-immunotherapy-mouse-study",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-26T12:36:23Z",
+          "publisher": "ScienceDaily",
+          "title": "CRISPR makes prostate cancer vulnerable to immunotherapy",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260726015250.htm"
+        }
+      ],
+      "standfirst": "Experimental CRISPR modifications improved immunotherapy responses in mouse models of prostate cancer, a tumour type that has historically resisted immune checkpoint approaches.",
+      "summary": "Researchers have used CRISPR gene editing to alter prostate cancer cells in a way that makes them more detectable by the immune system, according to a study reported by ScienceDaily on 26 July 2026. In mouse experiments, the modification substantially improved the efficacy of immunotherapy — a class of treatment that has had limited success against prostate cancer compared with tumours such as melanoma or lung cancer.\n\nThe mechanism underlying the effect was not detailed in the available feed lede; the primary journal and lead institution were not named in the source item. The approach may also have relevance to other solid tumours that currently evade immune surveillance, though all results reported here are from animal models and have not been tested in humans.\n\nProstate cancer is one of several so-called immunologically cold tumours — cancers that generate few immune-activating signals and tend not to respond well to checkpoint inhibitors such as PD-1 or CTLA-4 blockade. Strategies to render such tumours immunologically visible are an active area of research. This study adds to a growing body of preclinical work exploring whether genome editing could be used to sensitise tumours to existing immunotherapy agents. Readers interested in the primary findings are directed to the original ScienceDaily report and the underlying journal publication for methodological and statistical details.",
+      "tags": [
+        "crispr",
+        "prostate-cancer",
+        "immunotherapy",
+        "cancer-genomics",
+        "immune-evasion",
+        "mouse-model",
+        "oncology"
+      ]
     }
   ],
-  "last_run": "2026-07-26T09:10:03.707450+00:00",
+  "last_run": "2026-07-27T10:39:43.886984+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011986": "2026-07-16T09:12:27.185671+00:00",
@@ -13558,7 +13646,6 @@
     "https://news.cancerresearchuk.org/2026/07/20/data-science-making-data-count-with-broad-consent/": "2026-07-21T09:26:36.723912+00:00",
     "https://news.cancerresearchuk.org/2026/07/23/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-07-23T09:24:14.397087+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.08.737160v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.08.737280v1?rss=1": "2026-07-13T10:22:09.296650+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737415v1?rss=1": "2026-07-15T09:08:53.408325+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737440v1?rss=1": "2026-07-15T09:08:53.408325+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737500v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
@@ -13606,9 +13693,6 @@
     "https://www.england.nhs.uk/2026/07/landmark-nhs-approval-of-cancer-drugs-offers-new-hope-for-children-and-adults-with-rare-blood-cancers/": "2026-07-18T08:48:56.721091+00:00",
     "https://www.england.nhs.uk/2026/07/nhs-aims-to-prevent-one-in-four-sepsis-deaths/": "2026-07-14T09:03:41.911928+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-ms-life-changing-drug-nhs-help-walk-more-freely/": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.england.nhs.uk/2026/07/young-people-urged-book-lifesaving-meningitis-jab-high-street-pharmacies/": "2026-07-13T10:22:09.296650+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260710003521.htm": "2026-07-13T10:22:09.296650+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260710003537.htm": "2026-07-13T10:22:09.296650+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260711010118.htm": "2026-07-18T08:48:56.721091+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260713084910.htm": "2026-07-16T09:12:27.185671+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260714225523.htm": "2026-07-15T09:08:53.408325+00:00",
@@ -13627,16 +13711,12 @@
     "https://www.sciencedaily.com/releases/2026/07/260721000845.htm": "2026-07-24T09:19:49.155114+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260723084856.htm": "2026-07-25T08:59:52.790968+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260724061432.htm": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.statnews.com/2026/07/12/aaic-in-30-alzheimers-treaatments-focus-on-tau-blood-brain-barrier/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260726015236.htm": "2026-07-27T10:39:43.886984+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260726015250.htm": "2026-07-27T10:39:43.886984+00:00",
     "https://www.statnews.com/2026/07/13/aaic-in-30-alzheimers-treaatments-dementia-day-2-conference/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/13/biotech-news-all-eyes-on-biogen-tau-therapy-data/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/2026/07/13/doctors-airlines-volunteer-emergency-inflight-emergency-divert/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
-    "https://www.statnews.com/2026/07/13/family-caregiver-wages-financial-ruin-medicaid-funding-cuts/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
-    "https://www.statnews.com/2026/07/13/forensic-pathologist-shortage-medical-examiners/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
     "https://www.statnews.com/2026/07/13/health-news-caregivers-brace-for-pay-cuts-maybe-homelessness/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/2026/07/13/hhs-ssri-deprescribing-experts-gather-clinical-withdrawal-guidance/?utm_campaign=rss": "2026-07-13T10:22:09.296650+00:00",
     "https://www.statnews.com/2026/07/13/martha-lillard-last-us-polio-patient-iron-lung-dies/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/": "2026-07-13T10:22:09.296650+00:00",
     "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/13/unitedhealth-housecalls-audit-report-medicare-advantage-stars-lawsuits/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/14/alcohol-health-issues-deadliest-drug-series-final-installment-solutions/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
@@ -13767,6 +13847,10 @@
     "https://www.statnews.com/2026/07/24/pharmaceutical-supply-chain-resilience-china/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/24/science-new-golden-age-report-draws-mixed-reaction/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/24/ultraprocessed-food-warning-label-bill-clears-senate-committee-bipartisan-vote/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
+    "https://www.statnews.com/2026/07/27/argenx-acquire-forte-biosciences-autoimmune-diseases/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
+    "https://www.statnews.com/2026/07/27/e-bikes-scooters-children-teens-safety-orthopedics-research/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
+    "https://www.statnews.com/2026/07/27/kennedy-medical-school-nutrition-training-cautious-adoption/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
+    "https://www.statnews.com/2026/07/27/midwives-vaccine-denial-misinformation-judgment/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
     "https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/pharmalot/2026/07/13/rfk-push-against-ssri-antidepressants-sanofi-blood-cancer-drug/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/pharmalot/2026/07/14/ftc-settles-lawsuit-cvs-caremark-insulin-prices-access/": "2026-07-15T09:08:53.408325+00:00",
