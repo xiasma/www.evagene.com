@@ -13617,19 +13617,194 @@
         "mouse-model",
         "oncology"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have published a mouse study showing that inherited DNA — the genetic information people are born with — can affect whether and how cancer develops after DNA damage occurs. The researchers used mice with different known genetic make-ups and exposed them to the same DNA-damaging conditions. Different genetic backgrounds led to different cancer outcomes, suggesting that inborn genetic differences may shape cancer risk beyond just the well-known high-risk gene variants that families are sometimes tested for.\n\nThis is early-stage research in animals. It does not yet tell doctors or patients anything new about individual cancer risk, and it does not change current published guidance on cancer screening or prevention. Researchers hope findings like these will eventually help science understand more about why cancer sometimes runs in families even when no single obvious gene is to blame.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Mouse study shows inherited genetics steers how DNA damage leads to cancer",
+      "is_preprint": false,
+      "run_date": "2026-07-28",
+      "run_iso": "2026-07-28T09:33:18+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-07-27T08:29:41+00:00",
+        "novelty": 7
+      },
+      "slug": "inherited-genetics-shapes-cancer-initiation-evolution-mouse-study",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-27T08:29:41+00:00",
+          "publisher": "ScienceDaily",
+          "title": "Why the same DNA damage causes cancer in some people but not others",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260727012123.htm"
+        }
+      ],
+      "standfirst": "A controlled mouse study published this week provides direct experimental evidence that germline genetic background influences both whether and how cancer develops after the same DNA-damaging event.",
+      "summary": "Researchers have published findings from a controlled mouse study demonstrating that inherited genetic variation can determine not only whether DNA damage leads to cancer, but also how resulting tumours evolve. The work, reported by ScienceDaily on 27 July 2026, offers direct experimental evidence for a longstanding hypothesis: that the same carcinogenic insult produces different oncogenic trajectories depending on the individual's germline genetic context.\n\nThe study used inbred mouse strains with defined genetic backgrounds to isolate the contribution of inherited variation from environmental and stochastic factors. By applying equivalent DNA-damaging stimuli across strains, the researchers could observe divergent outcomes in tumour initiation and progression that were attributable to genetic background rather than differences in exposure.\n\nThe findings add mechanistic weight to population-level observations from human epidemiology — for example, that certain cancers cluster in families even in the absence of high-penetrance pathogenic variants in known cancer predisposition genes. The authors suggest the work may, in future research, inform how polygenic influences on DNA damage response and tumour evolution are studied and modelled.\n\nThe full source paper and the journal in which it appears have not been identified from the available feed lede alone. Readers seeking the primary research should consult the ScienceDaily item for citation details. No clinical recommendations follow from this summary; findings from mouse models require extensive further investigation before any implication for human care can be assessed.",
+      "tags": [
+        "cancer-genetics",
+        "dna-damage-response",
+        "germline-variation",
+        "mouse-model",
+        "tumour-evolution",
+        "polygenic-risk"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Alpha-1 antitrypsin deficiency (AATD) is an inherited condition that can cause serious lung and liver problems. It is caused by changes in both copies of a gene called SERPINA1 that people inherit from their parents. For a long time, treatment options have been limited, but researchers now describe AATD as an area attracting a lot of attention and investment from biotech companies — sometimes called a \"gold rush\" — because new gene-editing technologies may one day offer a way to correct the underlying genetic fault.\n\nA news report from Stat News describes several companies competing to develop these treatments, and mentions disagreements over patents and scientific priority. No new treatment has been approved as a result of this activity; the report reflects the state of research and development, not a finished medicine.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Competing biotechs swarm to develop gene-editing treatments for alpha-1 antitrypsin deficiency",
+      "is_preprint": false,
+      "run_date": "2026-07-28",
+      "run_iso": "2026-07-28T09:33:18+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-07-28T08:30:00+00:00",
+        "novelty": 7
+      },
+      "slug": "biotech-race-alpha-1-antitrypsin-deficiency-gene-editing",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/07/STAT_Lungs_GeneTherapy_F_3000-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-28T08:30:00+00:00",
+          "publisher": "Stat News",
+          "title": "From 'lost cause' to gold rush: Biotechs swarm to cure AATD",
+          "url": "https://www.statnews.com/2026/07/28/biotech-industry-race-aatd-cure-gene-editing-alpha-1-antitrypsin-deficiency/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Multiple companies are pursuing CRISPR and gene-editing approaches for AATD, a rare inherited lung and liver disease, amid patent disputes, a start-up exodus, and US–China competitive tensions reported by Stat News.",
+      "summary": "A Stat News feature published on 28 July 2026 describes a rapidly expanding commercial and scientific competition to develop curative treatments for alpha-1 antitrypsin deficiency (AATD), a rare autosomal recessive condition caused by pathogenic variants in the SERPINA1 gene. AATD results in misfolded protein accumulating in hepatocytes and reduced circulating alpha-1 antitrypsin, which normally protects lung tissue from neutrophil elastase-driven damage; affected individuals are at elevated risk of emphysema and liver disease.\n\nThe field, long considered underfunded relative to its disease burden, has attracted a cluster of biotechnology companies deploying CRISPR base editing, prime editing, and RNA-based strategies. The Stat News report documents patent disputes between competing programmes, defections of researchers between start-ups, and an international dimension involving US and Chinese companies working on overlapping approaches.\n\nAATD is a condition of direct relevance to genetic counsellors and clinical geneticists because carrier frequency is relatively high in populations of Northern European ancestry, and family-based genetic testing is established practice. Researchers in gene therapy and genome editing will recognise the SERPINA1 locus as a technically demanding target owing to the dominant-negative nature of the Z allele and the liver's role as the primary site of production.\n\nThe Stat News piece is a reported feature, not a primary research publication, and does not announce any regulatory approvals or changes to published clinical management guidelines for AATD.",
+      "tags": [
+        "aatd",
+        "alpha-1-antitrypsin",
+        "gene-editing",
+        "crispr",
+        "rare-disease",
+        "serpina1",
+        "gene-therapy",
+        "biotech"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint challenges reaction norm GWAS methods for detecting phenotypic plasticity",
+      "is_preprint": true,
+      "run_date": "2026-07-28",
+      "run_iso": "2026-07-28T09:33:18+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-07-28T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "reaction-norm-gwas-plasticity-residual-channel-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-28T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "When Does Reaction Norm GWAS Discover Plasticity? The Residual Channel in Environmental Index-Based Genetic Dissection",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.27.741005v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint argues that the CERIS-JGRA framework for mapping the genetics of phenotypic plasticity contains a structural design flaw that limits its ability to detect sensitivity independent of mean performance.",
+      "summary": "A preprint posted to bioRxiv on 28 July 2026 presents a mathematical critique of CERIS-JGRA, a variant of reaction norm genome-wide association mapping that substitutes a climate-derived environmental index for the environmental mean used in standard Finlay–Wilkinson regression. The preprint's central argument is that this design choice prevents the method from achieving its stated aim of dissecting the genetics of phenotypic plasticity independently of mean performance.\n\nThe authors demonstrate algebraically that any index correlated with environmental means decomposes into a component proportional to those means plus an orthogonal residual. Because sensitivity independent of mean performance is by definition orthogonal to the mean, its contribution to the association slope can only reach the analysis through the residual component — whose loading on informative variation is bounded above by the square root of one minus the squared correlation between index and mean. In high-correlation index designs, this ceiling substantially constrains what the method can detect.\n\nThe critique is relevant to quantitative genetics researchers and plant and animal breeders who use genotype-by-environment interaction mapping to dissect adaptive plasticity in complex traits. The work does not introduce a new method but clarifies when existing approaches recover genuine plasticity signals versus confounded mean-performance effects. The preprint has not yet undergone peer review.\n\nNote: this is a preprint. The analysis and conclusions have not been independently peer reviewed and should be interpreted accordingly.",
+      "tags": [
+        "gwas-methods",
+        "phenotypic-plasticity",
+        "reaction-norms",
+        "genotype-by-environment-interaction",
+        "quantitative-genetics",
+        "statistical-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: epigenetic features predict which adenosines undergo A-to-I RNA editing",
+      "is_preprint": true,
+      "run_date": "2026-07-28",
+      "run_iso": "2026-07-28T09:33:18+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-27T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "chromatin-state-controls-site-specific-a-to-i-rna-editing-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-07-27T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Chromatin state shapes site-specific A-to-I RNA editing",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.27.740859v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint integrating multi-omics data and machine learning finds that local chromatin state — particularly H3K36me3 — consistently predicts site-specific adenosine-to-inosine RNA editing efficiency across species and developmental contexts.",
+      "summary": "A preprint posted to bioRxiv on 27 July 2026 reports that local epigenetic features, principally the histone modification H3K36me3, are strong predictors of which adenosine residues in RNA are edited to inosine at high versus low frequency. Adenosine-to-inosine (A-to-I) editing is catalysed by ADAR (adenosine deaminase acting on RNA) enzymes and is one of the most common post-transcriptional RNA modifications in animals; the resulting inosine is read by the cell as guanosine, diversifying the transcriptome beyond what is encoded in the genome.\n\nThe authors integrated published multi-omics datasets from human cell lines and mouse embryonic tissues and trained machine learning classifiers to distinguish high-efficiency from low-efficiency editing sites based on local chromatin features rather than RNA sequence or ADAR expression alone. H3K36me3 — a histone mark associated with actively transcribed gene bodies — emerged as the most consistently predictive feature across species, tissues, and developmental stages examined.\n\nThe findings suggest a chromatin-level layer of regulation upstream of ADAR enzyme activity that may help explain why individual adenosines show markedly different editing rates even within the same transcript. The work is relevant to researchers studying RNA biology, epigenomics, and transcriptome diversification, and may have implications for understanding ADAR-related disease associations. The preprint has not yet undergone peer review.\n\nNote: this is a preprint. The analysis and conclusions have not been independently peer reviewed and should be interpreted accordingly.",
+      "tags": [
+        "rna-editing",
+        "a-to-i-editing",
+        "adar",
+        "h3k36me3",
+        "epigenomics",
+        "transcriptomics",
+        "machine-learning",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-07-27T10:39:43.886984+00:00",
+  "last_run": "2026-07-28T09:34:46.405700+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011919": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011986": "2026-07-16T09:12:27.185671+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012173": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012211": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012221": "2026-07-22T09:25:39.410459+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012222": "2026-07-18T08:48:56.721091+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012226": "2026-07-18T08:48:56.721091+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012229": "2026-07-23T09:24:14.397087+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012230": "2026-07-14T09:03:41.911928+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012231": "2026-07-16T09:12:27.185671+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012233": "2026-07-21T09:26:36.723912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012236": "2026-07-17T09:08:53.404848+00:00",
@@ -13639,20 +13814,16 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012242": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012245": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012246": "2026-07-15T09:08:53.408325+00:00",
-    "https://news.cancerresearchuk.org/2026/07/14/new-trial-offers-hope-for-people-with-rare-adrenal-cancer/": "2026-07-14T09:03:41.911928+00:00",
     "https://news.cancerresearchuk.org/2026/07/15/cancer-waiting-times-latest-updates-and-analysis/": "2026-07-16T09:12:27.185671+00:00",
     "https://news.cancerresearchuk.org/2026/07/15/when-relationships-turn-sour-cancer-and-the-holobiont/": "2026-07-16T09:12:27.185671+00:00",
     "https://news.cancerresearchuk.org/2026/07/20/15-myths-about-sun-safety-debunked/": "2026-07-21T09:26:36.723912+00:00",
     "https://news.cancerresearchuk.org/2026/07/20/data-science-making-data-count-with-broad-consent/": "2026-07-21T09:26:36.723912+00:00",
     "https://news.cancerresearchuk.org/2026/07/23/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.08.737160v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737415v1?rss=1": "2026-07-15T09:08:53.408325+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.09.737440v1?rss=1": "2026-07-15T09:08:53.408325+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.09.737500v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.10.737441v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.10.737687v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.10.737817v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.10.737850v1?rss=1": "2026-07-14T09:03:41.911928+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.11.737899v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.11.737917v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.11.737951v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
@@ -13689,9 +13860,11 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.22.740070v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.23.738505v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.24.740321v1?rss=1": "2026-07-25T08:59:52.790968+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.27.740859v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.27.741005v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
     "https://www.england.nhs.uk/2026/07/cancer-patients-rate-nhs-care-highly-as-record-numbers-checked-and-treated/": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.england.nhs.uk/2026/07/hundreds-thousands-women-access-free-morning-after-pill-nhs-pharmacies-first-5-months/": "2026-07-28T09:34:46.405700+00:00",
     "https://www.england.nhs.uk/2026/07/landmark-nhs-approval-of-cancer-drugs-offers-new-hope-for-children-and-adults-with-rare-blood-cancers/": "2026-07-18T08:48:56.721091+00:00",
-    "https://www.england.nhs.uk/2026/07/nhs-aims-to-prevent-one-in-four-sepsis-deaths/": "2026-07-14T09:03:41.911928+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-ms-life-changing-drug-nhs-help-walk-more-freely/": "2026-07-23T09:24:14.397087+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260711010118.htm": "2026-07-18T08:48:56.721091+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260713084910.htm": "2026-07-16T09:12:27.185671+00:00",
@@ -13713,23 +13886,14 @@
     "https://www.sciencedaily.com/releases/2026/07/260724061432.htm": "2026-07-25T08:59:52.790968+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260726015236.htm": "2026-07-27T10:39:43.886984+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260726015250.htm": "2026-07-27T10:39:43.886984+00:00",
-    "https://www.statnews.com/2026/07/13/aaic-in-30-alzheimers-treaatments-dementia-day-2-conference/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/2026/07/13/biotech-news-all-eyes-on-biogen-tau-therapy-data/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/2026/07/13/health-news-caregivers-brace-for-pay-cuts-maybe-homelessness/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/2026/07/13/martha-lillard-last-us-polio-patient-iron-lung-dies/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/2026/07/13/pancreatic-cancer-daraxonrasib-opportunities-challenges/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/2026/07/13/unitedhealth-housecalls-audit-report-medicare-advantage-stars-lawsuits/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/2026/07/14/alcohol-health-issues-deadliest-drug-series-final-installment-solutions/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/2026/07/14/alcohol-impact-health-data-deep-dive-deadliest-drug-series/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.sciencedaily.com/releases/2026/07/260727012123.htm": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/2026/07/14/anthropic-claude-science-kendall-square/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/14/biogen-alzheimers-tau-diranersen-trial-results-ionis-aaic/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/14/biotech-news-akero-team-launches-new-immunology-company-with-chinese-drug/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/14/cyclosporiasis-outbreak-cases-top-previous-record-4700-cases/": "2026-07-15T09:08:53.408325+00:00",
-    "https://www.statnews.com/2026/07/14/deepfakes-ai-generated-medicine-misinformation-regulation-video/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/14/ebola-outbreak-congo-new-cases-unknown-chains-of-transmission/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/14/hca-predicts-treating-uninsured-patients-will-trim-1-billion-in-profits/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/14/healeth-news-the-risk-of-refusing-a-newborn-vitamin-k-shot/": "2026-07-15T09:08:53.408325+00:00",
-    "https://www.statnews.com/2026/07/14/openadmet-ai-drug-metabolism-prediction-inductive-bio/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
     "https://www.statnews.com/2026/07/14/senators-raise-question-hhs-healthcare-advisory-committee-members/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/14/zyn-nicotine-pouches-fda-approval-microplastic-risk/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/2026/07/15/aaic-in-30-alzheimers-treaatments-dementia-conference-diagnostics-treatments/?utm_campaign=rss": "2026-07-16T09:12:27.185671+00:00",
@@ -13849,10 +14013,17 @@
     "https://www.statnews.com/2026/07/24/ultraprocessed-food-warning-label-bill-clears-senate-committee-bipartisan-vote/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/27/argenx-acquire-forte-biosciences-autoimmune-diseases/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
     "https://www.statnews.com/2026/07/27/e-bikes-scooters-children-teens-safety-orthopedics-research/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
+    "https://www.statnews.com/2026/07/27/fda-efficacy-doubts-capricor-therapeutics-duchenne-muscular-dystrophy/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.statnews.com/2026/07/27/health-news-ultra-processed-baby-food-is-booming-is-it-okay/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/2026/07/27/kennedy-medical-school-nutrition-training-cautious-adoption/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
     "https://www.statnews.com/2026/07/27/midwives-vaccine-denial-misinformation-judgment/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/13/aids-activists-slam-biden-deal-with-gilead-over-hiv-prevention-patents/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/13/rfk-push-against-ssri-antidepressants-sanofi-blood-cancer-drug/?utm_campaign=rss": "2026-07-14T09:03:41.911928+00:00",
+    "https://www.statnews.com/2026/07/27/prescription-drug-spending-no-surprises-act-arbitration-costs-health-care-inc/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.statnews.com/2026/07/27/ra-captial-oak-hill-bio-spac-ultragenyx-ionis-angelman-syndrome/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.statnews.com/2026/07/27/sarepta-therapeutics-michael-severino-doug-ingram-duchenne-muscular-dystrophy/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.statnews.com/2026/07/28/biotech-industry-race-aatd-cure-gene-editing-alpha-1-antitrypsin-deficiency/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.statnews.com/2026/07/28/brain-infrastructure-dementia-business-model-aaic2026/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.statnews.com/2026/07/28/medicare-medicaid-evaluates-health-tech-progress-unveils-eight-pledge-categories/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.statnews.com/2026/07/28/pmos-name-change-growing-awareness-faster-diagnosis-women-of-color/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/pharmalot/2026/07/14/ftc-settles-lawsuit-cvs-caremark-insulin-prices-access/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/pharmalot/2026/07/14/lilly-teva-court-battle-psychedelic-drugs-guidance-finalized/": "2026-07-15T09:08:53.408325+00:00",
     "https://www.statnews.com/pharmalot/2026/07/14/sales-from-controversial-drug-discount-program-rose-to-100-billion-last-year/": "2026-07-15T09:08:53.408325+00:00",
@@ -13871,7 +14042,9 @@
     "https://www.statnews.com/pharmalot/2026/07/23/lilly-obesity-drug-data-fda-asked-to-ban-dtc-ads/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/pharmalot/2026/07/24/fda-panel-peptides-merck-hiv-pill-license/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
     "https://www.statnews.com/pharmalot/2026/07/24/merck-experimental-hiv-prevention-pill-licensing-deals/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/24/up-and-down-the-ladder-rigel-sanofi-pharma-jobs/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/24/up-and-down-the-ladder-rigel-sanofi-pharma-jobs/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/27/fda-panel-peptide-votes-amgen-fights-tavneos-withdrawal/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/27/hiv-resurgence-is-feared-as-global-fund-to-combat-the-disease-falls-18-percent/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00"
   },
   "takedowns": []
 }
