@@ -13928,31 +13928,153 @@
         "germline",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "patients",
+        "educators"
+      ],
+      "for_patients": "Limb girdle muscular dystrophy (LGMD) is a group of inherited conditions that weaken the muscles of the hips and shoulders. Several gene therapy treatments — which aim to correct the genetic fault causing the disease — are currently being tested in research trials.\n\nA patient advocate writing in a US medical news publication has argued that a special FDA process, meant to speed up reviews of treatments that use similar technology, is instead being used in ways that slow things down for LGMD patients. The article does not announce a new treatment or a change in the rules — it is one person's opinion about how the rules are being applied.\n\nResearchers and campaign groups continue to work on getting effective treatments approved. People with LGMD or their families who have questions about trials or available treatments are best placed to discuss these with a specialist neuromuscular or clinical genetics team.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Opinion: FDA platform designation rules are blocking, not speeding, LGMD gene therapy approvals",
+      "is_preprint": false,
+      "run_date": "2026-07-31",
+      "run_iso": "2026-07-31T09:48:46Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-07-31T08:30:00Z",
+        "novelty": 5
+      },
+      "slug": "lgmd-fda-platform-designation-gene-therapy-access",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/07/AdobeStock_277196711-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-31T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "Opinion: Limb girdle muscular dystrophy patients face a maddening reality",
+          "url": "https://www.statnews.com/2026/07/31/fda-platform-designation-hold-limb-girdle-muscular-dystrophy-lgmd/"
+        }
+      ],
+      "standfirst": "A patient advocate writing in Stat News argues that regulatory tools designed to accelerate rare-disease approvals are instead creating new barriers for limb girdle muscular dystrophy treatments.",
+      "summary": "A commentary published by Stat News on 31 July 2026, written by Kat Bryant Knudson, sets out a patient-advocate perspective on how the US Food and Drug Administration's platform designation pathway — a mechanism intended to expedite review of drugs that share a common platform technology — is being applied in ways that, in her view, impede rather than facilitate approval for gene therapies targeting limb girdle muscular dystrophy (LGMD).\n\nLGMD is a group of inherited muscular dystrophies caused by variants in any of more than thirty genes encoding proteins of the muscle membrane or sarcomere. Several genetic subtypes now have gene therapy candidates in development, making platform-level regulatory thinking plausible in principle. Knudson argues that the current application of platform designation rules has introduced procedural holds that delay individual product reviews, with direct consequences for patients who have no approved disease-modifying treatment available.\n\nThe piece does not present new clinical or trial data; it is an opinion contribution drawing on the author's advocacy experience. Nonetheless, it reflects a live regulatory debate of direct relevance to researchers and clinicians following the gene therapy pipeline for rare neuromuscular diseases, and to genetic counsellors supporting families affected by LGMD who may receive questions about the status of investigational treatments.\n\nThe FDA's approach to platform designations for rare disease gene therapies remains an evolving policy area; no change to current guidance is reported in this piece.",
+      "tags": [
+        "lgmd",
+        "gene-therapy",
+        "fda-policy",
+        "rare-disease",
+        "neuromuscular",
+        "regulatory-affairs"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "FDA advisory panel votes in favour of Replimune's oncolytic virus melanoma treatment RP1",
+      "is_preprint": false,
+      "run_date": "2026-07-31",
+      "run_iso": "2026-07-31T09:48:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-07-30T10:00:00Z",
+        "novelty": 7
+      },
+      "slug": "replimune-rp1-melanoma-fda-advisory-panel-vote",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/07/AdobeStock_1297249290-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-30T10:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: FDA expert committee votes in favor of Replimune's melanoma treatment",
+          "url": "https://www.statnews.com/2026/07/30/replimune-melanoma-drug-rp1-fda-expert-meeting-live-blog/"
+        }
+      ],
+      "standfirst": "An FDA expert committee has backed Replimune's RP1 (vusolimogene oderparepvec) for melanoma, potentially paving the way for a new class of oncolytic virus therapy if the agency follows the recommendation.",
+      "summary": "An FDA advisory committee voted in favour of Replimune's investigational melanoma treatment RP1, known generically as vusolimogene oderparepvec, according to live coverage published by Stat News on 30 July 2026. RP1 is an engineered oncolytic herpes simplex virus designed to selectively replicate within tumour cells, inducing direct cell lysis and stimulating a systemic anti-tumour immune response. It is intended for use in patients with advanced melanoma.\n\nAdvisory committee votes are not regulatory approvals; the FDA is not bound by committee recommendations, though it frequently takes them into account when making final licensing decisions. The committee's endorsement follows a phase II trial programme; Stat News notes the session was live-blogged, suggesting the vote was not unanimous or straightforward, though the outcome was positive for the sponsor.\n\nRP1 is distinct from earlier oncolytic virus therapies such as talimogene laherparepvec (T-VEC), which is already approved for melanoma. Whether the committee viewed RP1 as offering a clinically meaningful advance over existing options is not detailed in the lede material available, and the full discussion will be reflected in the official meeting transcript.\n\nFor oncologists and researchers following the hereditary melanoma and somatic melanoma genomics space, regulatory progress for novel immunotherapy agents is relevant context. The FDA is expected to make a final decision within its standard review timeline.",
+      "tags": [
+        "melanoma",
+        "oncolytic-virus",
+        "fda-advisory-committee",
+        "immunotherapy",
+        "cancer-drug-approval",
+        "replimune"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Drosophila study identifies MMP1 as a driver of cell-fate switching and tissue regeneration after ionising radiation",
+      "is_preprint": false,
+      "run_date": "2026-07-31",
+      "run_iso": "2026-07-31T09:48:46Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-07-30T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "mmp1-cell-fate-epithelial-transition-drosophila-radiation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-07-30T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Matrix Metalloprotease 1 (Mmp1) promotes cell fate change for epithelial-to-epithelial transition during regeneration after radiation damage in Drosophila",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012257"
+        }
+      ],
+      "standfirst": "Researchers report in PLOS Genetics that Matrix Metalloprotease 1 promotes epithelial-to-epithelial cell fate conversion and physical cell translocation during wing disc regeneration in Drosophila larvae exposed to ionising radiation.",
+      "summary": "A study published in PLOS Genetics on 30 July 2026, by Michael Shiferaw, Lauren Orr, Korneel Hens, and Tin Tin Su, examines how surviving cells re-establish damaged tissue architecture following ionising radiation (IR) in the Drosophila larval wing disc — a well-established model system for studying radiation-induced tissue repair.\n\nPrevious work by the same group had established that hinge cells of the wing disc can convert to pouch identity and physically move into the pouch region to assist in regenerating tissue that sustains greater IR-induced apoptosis. The present study identifies Matrix Metalloprotease 1 (Mmp1) as a key promoter of this process. The authors demonstrate that Mmp1 facilitates both the cell-fate change itself — an epithelial-to-epithelial transition rather than the more commonly studied epithelial-to-mesenchymal transition — and the subsequent cell translocation needed to populate the damaged tissue compartment.\n\nThe relevance for cancer biology lies in the parallel with therapeutic failure: when cancer cells surviving radiotherapy acquire stem-cell-like properties and repopulate a tumour, the cellular mechanics underlying their movement are poorly understood. This study contributes to characterising those mechanics in a genetically tractable system. While the work is conducted in Drosophila and does not directly address mammalian radiobiology, Mmps are conserved across species and the findings may inform hypotheses about how residual tumour cells navigate tissue after treatment.\n\nThe paper is peer-reviewed and published in an open-access journal.",
+      "tags": [
+        "drosophila",
+        "mmp1",
+        "cell-fate-plasticity",
+        "radiation-biology",
+        "tissue-regeneration",
+        "epithelial-transition",
+        "cancer-biology",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-07-30T09:28:41.369469+00:00",
+  "last_run": "2026-07-31T09:50:08.624072+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012211": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012221": "2026-07-22T09:25:39.410459+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012222": "2026-07-18T08:48:56.721091+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012226": "2026-07-18T08:48:56.721091+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012229": "2026-07-23T09:24:14.397087+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012233": "2026-07-21T09:26:36.723912+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012236": "2026-07-17T09:08:53.404848+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012240": "2026-07-24T09:19:49.155114+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012241": "2026-07-25T08:59:52.790968+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012242": "2026-07-17T09:08:53.404848+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012245": "2026-07-17T09:08:53.404848+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012257": "2026-07-31T09:50:08.624072+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012258": "2026-07-31T09:50:08.624072+00:00",
     "https://news.cancerresearchuk.org/2026/07/20/15-myths-about-sun-safety-debunked/": "2026-07-21T09:26:36.723912+00:00",
     "https://news.cancerresearchuk.org/2026/07/20/data-science-making-data-count-with-broad-consent/": "2026-07-21T09:26:36.723912+00:00",
     "https://news.cancerresearchuk.org/2026/07/23/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.10.737441v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.10.737687v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.10.737817v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.11.737899v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.11.737917v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.11.737951v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.11.737971v1?rss=1": "2026-07-17T09:08:53.404848+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.12.738116v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.13.737346v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.13.738242v1?rss=1": "2026-07-18T08:48:56.721091+00:00",
@@ -13989,7 +14111,6 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741005v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.28.741233v1": "2026-07-29T09:35:51.922527+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741571v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.england.nhs.uk/2026/07/cancer-patients-rate-nhs-care-highly-as-record-numbers-checked-and-treated/": "2026-07-17T09:08:53.404848+00:00",
     "https://www.england.nhs.uk/2026/07/hundreds-thousands-women-access-free-morning-after-pill-nhs-pharmacies-first-5-months/": "2026-07-28T09:34:46.405700+00:00",
     "https://www.england.nhs.uk/2026/07/landmark-nhs-approval-of-cancer-drugs-offers-new-hope-for-children-and-adults-with-rare-blood-cancers/": "2026-07-18T08:48:56.721091+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-ms-life-changing-drug-nhs-help-walk-more-freely/": "2026-07-23T09:24:14.397087+00:00",
@@ -14012,27 +14133,10 @@
     "https://www.sciencedaily.com/releases/2026/07/260727012123.htm": "2026-07-28T09:34:46.405700+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260727012134.htm": "2026-07-30T09:28:41.369469+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260727214616.htm": "2026-07-29T09:35:51.922527+00:00",
-    "https://www.statnews.com/2026/07/16/american-diabetes-association-annual-conference-controversy-continues/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/amylyx-bph-avexitide-biogen-diranersen-agios/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/biotech-news-fda-approves-merck-oral-pcsk9-drug-in-a-first/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/brain-computer-interface-implant-restores-sensation-double-neural-bypass/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/eli-lilly-acquire-ataibeckley-psychedelics-depression/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/health-news-another-daylight-savings-debate-arrives-in-congress/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/hegseth-testosterone-testing-proposal-reactions-range-promising-crazy/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/kalshi-new-offering-prediction-market-clinical-trials-fda-approvals/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/medicare-ai-prior-authorization-pilot-wiser-senate-vote/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/medicare-shake-clinical-ai-rpm-payments-health-tech/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/readout-loud-podcast-predicting-clinical-trials-biogen-alzheimers-tau/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/unitedhealth-employer-insurance-costs-medical-spending/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/16/world-health-organization-wants-marburg-virus-update-from-uganda/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/17/biotech-news-gsk-chronic-cough-treatment-meets-the-end-of-the-line/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/2026/07/17/cyclosporiasis-outbreak-traced-taylor-farms-lettuce-taco-bell/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/2026/07/17/health-news-who-can-access-testosterone-hormone-therapy-in-us/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
-    "https://www.statnews.com/2026/07/17/maha-mental-health-care-vocabulary-rhetoric-wellness/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/17/mdcalc-quality-ratings-clinical-algorithms-for-bias-validity/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/17/medicare-smoking-cessation-reimbursement-increase/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
-    "https://www.statnews.com/2026/07/17/sonathera-ultrasound-duchenne-muscular-dystrophy-treatment/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
-    "https://www.statnews.com/2026/07/17/trevor-project-suicide-prevention-counseling-for-trans-youth/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
     "https://www.statnews.com/2026/07/17/wildfire-smoke-air-quality-smog-policy-climate-change/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/2026/07/18/military-testosterone-screening-supplements/?utm_campaign=rss": "2026-07-19T09:03:39.449494+00:00",
     "https://www.statnews.com/2026/07/18/primary-care-debate-letters-to-editor/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
@@ -14131,18 +14235,26 @@
     "https://www.statnews.com/2026/07/29/capricor-therapeutics-deramiocel-fda-review-meeting-live-blog/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/29/clinical-ai-vs-generalist-llm-benchmark-study-trust-accuracy-safety/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/29/fauci-pleads-fifth-criticizes-rand-paul-senate-hearing/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/29/ftc-lawsuit-hims-alleging-deceptive-business-practices/": "2026-07-30T09:28:41.369469+00:00",
+    "https://www.statnews.com/2026/07/29/ftc-lawsuit-hims-alleging-deceptive-business-practices/": "2026-07-31T09:50:08.624072+00:00",
     "https://www.statnews.com/2026/07/29/health-news-neglected-issue-in-pedestrian-biker-deaths/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/29/hybrid-academia-industry-phd-program-announced-uidp/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/29/latigo-phase-2-results-non-opioid-pain-reliever-ltg-001/": "2026-07-30T09:28:41.369469+00:00",
+    "https://www.statnews.com/2026/07/29/hybrid-academia-industry-phd-program-announced-uidp/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/29/latigo-phase-2-results-non-opioid-pain-reliever-ltg-001/": "2026-07-31T09:50:08.624072+00:00",
     "https://www.statnews.com/2026/07/29/long-hospital-stays-children-research-isolation/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/29/ronald-fischer-fugitive-used-alias-forged-cv-held-biotech-executive-jobs/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/29/trump-medicare-subsidy-cuts-part-d-premium-change/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/30/china-us-pharmaceutical-supply-chain-national-security-risk/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/30/medicaid-work-requirements-medical-frailty-exemption-coverage-loss/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/30/mycetoma-who-neglected-disease-research-sudan/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/30/red-bull-funded-studies-energy-drinks-alcohol-shape-policy/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/16/kalshi-bets-on-clinical-trials-merck-cholesterol-pill/?utm_campaign=rss": "2026-07-17T09:08:53.404848+00:00",
+    "https://www.statnews.com/2026/07/29/trump-medicare-subsidy-cuts-part-d-premium-change/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/30/capricor-duchenne-replimune-melanoma-fugitive-biotech-readout-loud-podcast/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/30/china-us-pharmaceutical-supply-chain-national-security-risk/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/30/health-news-ebola-outbreak-nears-milestone-but-vaccine-close/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/30/medicaid-work-requirements-judge-declines-states-request-injunction/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/30/medicaid-work-requirements-medical-frailty-exemption-coverage-loss/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/30/mycetoma-who-neglected-disease-research-sudan/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/30/red-bull-funded-studies-energy-drinks-alcohol-shape-policy/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/30/replimune-melanoma-drug-rp1-fda-expert-meeting-live-blog/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/30/senate-panel-backs-confirmation-health-nominees-schwartz-cdc-kaufman-aspr/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/31/american-diabetes-association-ada-police-apology-independence/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/31/fda-platform-designation-hold-limb-girdle-muscular-dystrophy-lgmd/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/31/letter-to-editor-covid-non-pharmaceutical-interventions-research/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/07/31/syphilis-drug-shortage-case-study-san-diego-patient-researcher-advocate/": "2026-07-31T09:50:08.624072+00:00",
     "https://www.statnews.com/pharmalot/2026/07/17/rising-drug-shortages-gsk-abandons-chronic-cough-medication/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/pharmalot/2026/07/17/up-down-ladder-jobs-comings-goings/?utm_campaign=rss": "2026-07-18T08:48:56.721091+00:00",
     "https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
@@ -14158,7 +14270,9 @@
     "https://www.statnews.com/pharmalot/2026/07/27/fda-panel-peptide-votes-amgen-fights-tavneos-withdrawal/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/pharmalot/2026/07/27/hiv-resurgence-is-feared-as-global-fund-to-combat-the-disease-falls-18-percent/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/pharmalot/2026/07/28/fda-duchenne-drug-gsk-cost-savings-plan/": "2026-07-29T09:35:51.922527+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/29/fugitive-who-became-biotech-exec-hospital-sues-lilly/": "2026-07-30T09:28:41.369469+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/29/fugitive-who-became-biotech-exec-hospital-sues-lilly/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/30/fda-panel-nixes-duchenne-drug-ftc-sues-hims-and-hers/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/pharmalot/2026/07/30/rising-oil-prices-cost-of-medicines-fosil-fuels/": "2026-07-31T09:50:08.624072+00:00"
   },
   "takedowns": []
 }
