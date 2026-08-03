@@ -14150,9 +14150,142 @@
         "haematological-malignancy",
         "oncology"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Cancer cells have genetic switches — called superenhancers — that keep growth genes running constantly. Researchers have found that this constant activity can physically damage the cell's own DNA at those very switches. The DNA breaks are repaired, but sometimes small mistakes are made in the process. Over time, these small mistakes pile up as new mutations inside the tumour. Scientists think this cycle of damage and imperfect repair may help tumours change and grow, and that the locations where the damage happens could one day become targets for new treatments. This research is at an early stage and has not yet changed how cancer is treated. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Cancer cells repeatedly break and repair their own DNA at growth-driving gene switches",
+      "is_preprint": false,
+      "run_date": "2026-08-03",
+      "run_iso": "2026-08-03T10:38:43Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-08-02T04:30:42Z",
+        "novelty": 8
+      },
+      "slug": "cancer-superenhancer-dna-breaks-mutation-accumulation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-02T04:30:42Z",
+          "publisher": "ScienceDaily",
+          "title": "Cancer may be breaking its own DNA to keep growing",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260801042811.htm"
+        }
+      ],
+      "standfirst": "A new study proposes that the intense transcriptional activity of cancer superenhancers inflicts recurrent DNA double-strand breaks, with imperfect repair generating the mutations that fuel tumour evolution.",
+      "summary": "Research reported via ScienceDaily describes a mechanism by which cancer cells may inadvertently accelerate their own genetic diversification. Powerful regulatory elements known as superenhancers drive sustained, high-level expression of growth-promoting genes in many tumour types. The study finds that the intense transcriptional activity concentrated at these elements generates repeated DNA double-strand breaks, which the cell's repair machinery fixes — but not always perfectly. Each imperfect repair event can introduce small mutations, and the authors argue that this cycle of self-inflicted damage and error-prone repair may be a significant engine of somatic mutation accumulation in established tumours.\n\nThe finding has two potential implications that the researchers highlight. First, it offers a mechanistic account of how tumours continue to accrue genetic diversity after initiation — a process central to treatment resistance and metastatic progression. Second, because the damage is concentrated at specific genomic locations tied to active superenhancers, those sites may represent candidate targets for therapeutic intervention, though the researchers note that translational work remains at an early stage.\n\nThe primary institutional source and journal name were not specified in the available press-release text. Readers seeking the full methodology and statistical detail should consult the original paper. This summary is based on public-access reporting.",
+      "tags": [
+        "superenhancers",
+        "dna-double-strand-breaks",
+        "somatic-mutation",
+        "tumour-evolution",
+        "cancer-genomics",
+        "transcription",
+        "oncology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Telomere protein TRF2 found to maintain muscle stem cell identity during injury repair",
+      "is_preprint": false,
+      "run_date": "2026-08-03",
+      "run_iso": "2026-08-03T10:38:43Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-02T13:23:34Z",
+        "novelty": 7
+      },
+      "slug": "trf2-muscle-stem-cells-repair-identity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-02T13:23:34Z",
+          "publisher": "ScienceDaily",
+          "title": "Without this protein, damaged muscle turns to fat and scar tissue",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260801042814.htm"
+        }
+      ],
+      "standfirst": "A study reports that TRF2 — previously characterised as a telomere-capping factor — is required to keep muscle stem cells from converting to fat or scar tissue after injury.",
+      "summary": "Research reported by ScienceDaily describes a previously unappreciated role for TRF2 (telomeric repeat-binding factor 2) in skeletal muscle biology. The protein has been well characterised as a component of the shelterin complex that protects chromosome ends from being recognised as double-strand breaks. The new work finds that TRF2 is also essential for maintaining the identity of satellite cells — the resident stem cell population responsible for muscle repair — and for coordinating their transitions between quiescence, activation, and self-renewal.\n\nIn the absence of functional TRF2, the researchers found that satellite cells lost fidelity to their myogenic lineage, with damaged muscle tissue tending instead towards adipogenic (fat) or fibrotic (scar) replacement. The finding positions TRF2 as a chromatin-level regulator of stem-cell fate in addition to its established telomere-protective function.\n\nThe work adds to a growing body of evidence that telomere-associated proteins have regulatory roles beyond chromosome-end protection. It may be of interest to researchers working on muscular dystrophies, sarcopaenia, and other conditions characterised by defective muscle regeneration, though the authors do not claim immediate translational application. The primary institution and publication venue were not specified in the available press-release summary.",
+      "tags": [
+        "trf2",
+        "shelterin",
+        "muscle-stem-cells",
+        "satellite-cells",
+        "stem-cell-fate",
+        "telomere-biology",
+        "tissue-regeneration",
+        "chromatin"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Yeast study maps variant-specific effects of disease-linked mutations in RNA exosome subunit EXOSC3",
+      "is_preprint": true,
+      "run_date": "2026-08-03",
+      "run_iso": "2026-08-03T10:38:43Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-02T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "exosc3-rrp40-variant-functional-yeast-study",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-02T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Systematic comparison of pathogenic variants of the RNA exosome gene EXOSC3/RRP40 in Saccharomyces cerevisiae reveals variant-specific functional consequences",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741578v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from Cold Spring Harbor Laboratory uses Saccharomyces cerevisiae to systematically characterise how individual pathogenic variants in EXOSC3 — linked to human neurological disease — affect the RNA exosome complex.",
+      "summary": "A preprint deposited on bioRxiv describes a systematic functional comparison of pathogenic missense variants in EXOSC3 (also known as RRP40 in yeast), which encodes a structural cap subunit of the RNA exosome — an evolutionarily conserved ribonuclease complex that processes and degrades multiple classes of RNA. Mutations in genes encoding exosome subunits, including EXOSC3, have previously been associated with rare neurological disorders including pontocerebellar hypoplasia type 1b (PCH1b).\n\nThe authors introduced individual patient-derived variants into the yeast orthologue Rrp40 and assessed the functional consequences of each substitution, finding that variants differ meaningfully in the degree to which they impair exosome function. The results suggest that the clinical and mechanistic heterogeneity observed among patients carrying different EXOSC3 variants may reflect genuine variant-level differences in complex activity rather than a uniform loss-of-function mechanism.\n\nThe work illustrates the utility of yeast model systems for rapid, scalable interrogation of human disease variants at a gene that is difficult to study in mammalian cell lines at equivalent throughput. The authors note that findings in yeast require validation in more physiologically relevant systems before conclusions can be drawn about disease mechanism in human neurones. This is a preprint and has not yet completed peer review.",
+      "tags": [
+        "exosc3",
+        "rrp40",
+        "rna-exosome",
+        "pontocerebellar-hypoplasia",
+        "variant-interpretation",
+        "yeast-model",
+        "rare-disease",
+        "neurological-disease"
+      ]
     }
   ],
-  "last_run": "2026-08-02T09:07:32.245867+00:00",
+  "last_run": "2026-08-03T10:39:43.717612+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012221": "2026-07-22T09:25:39.410459+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012229": "2026-07-23T09:24:14.397087+00:00",
@@ -14191,9 +14324,12 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.27.740859v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741005v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.28.741233v1": "2026-07-29T09:35:51.922527+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.29.741553v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741571v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.29.741578v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
     "https://www.england.nhs.uk/2026/07/hundreds-thousands-women-access-free-morning-after-pill-nhs-pharmacies-first-5-months/": "2026-07-28T09:34:46.405700+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-ms-life-changing-drug-nhs-help-walk-more-freely/": "2026-07-23T09:24:14.397087+00:00",
+    "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260715083554.htm": "2026-07-25T08:59:52.790968+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260716023607.htm": "2026-07-23T09:24:14.397087+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260717033046.htm": "2026-07-24T09:19:49.155114+00:00",
@@ -14212,12 +14348,11 @@
     "https://www.sciencedaily.com/releases/2026/07/260729010740.htm": "2026-08-02T09:07:32.245867+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260729051519.htm": "2026-08-02T09:07:32.245867+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260731034139.htm": "2026-08-02T09:07:32.245867+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260801042811.htm": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260801042814.htm": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/2026/07/20/bms-nvidia-assembling-largest-pharma-ai-supercomputer/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/20/cyclospora-lettuce-tests-continue-restaurant-visits-decline/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/20/health-news-hhs-vaccine-committee-quietly-gets-new-charter/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.statnews.com/2026/07/20/lifemd-weight-loss-drugs-novo-nordisk-telemedicine/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
-    "https://www.statnews.com/2026/07/20/pandemics-national-security-threats/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
-    "https://www.statnews.com/2026/07/20/psychiatric-insurance-coverage-suicide-denial-personal-essay/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
     "https://www.statnews.com/2026/07/20/ronald-fischer-rhode-island-fugitive-richard-graydon-biotech/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/20/site-neutral-payments-hospitals-health-insurance-earnings-season/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/21/ai-scribe-nabla-new-ceo-plan-gain-marketshare/": "2026-07-22T09:25:39.410459+00:00",
@@ -14331,7 +14466,11 @@
     "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
     "https://www.statnews.com/2026/07/31/syphilis-drug-shortage-case-study-san-diego-patient-researcher-advocate/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/20/iowa-medicaid-pbm-audit-circumvention-spread-pricing-ban/?utm_campaign=rss": "2026-07-20T09:56:30.583885+00:00",
+    "https://www.statnews.com/2026/08/02/senate-would-block-white-house-control-over-research-grants/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.statnews.com/2026/08/03/ai-doctors-licensing-state-medical-boards/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.statnews.com/2026/08/03/als-diagnosis-neurologist-research-hope/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/pharmalot/2026/07/20/telehealth-firm-patient-safety-iowa-medicaid-pbms/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/pharmalot/2026/07/21/novo-nordisk-sues-eli-lilly-glp1-drug-ads/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/pharmalot/2026/07/21/novo-sues-lilly-alleging-deceptive-ads-fugitive-secret-life-in-biotech/": "2026-07-22T09:25:39.410459+00:00",
@@ -14352,7 +14491,8 @@
     "https://www.statnews.com/pharmalot/2026/07/31/trump-administration-revises-rebate-pilot-drug-discount-program-hospitals/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/pharmalot/2026/07/31/trump-administration-revises-rebate-pilot-drug-discount-program-hospitals/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
     "https://www.statnews.com/pharmalot/2026/07/31/up-and-down-the-ladder-latest-comings-and-goings-jobs/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/31/up-and-down-the-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00"
+    "https://www.statnews.com/pharmalot/2026/07/31/up-and-down-the-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/02/michigan-supreme-court-ruling-allows-probe-into-lilly-insulin-pricing/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00"
   },
   "takedowns": []
 }
