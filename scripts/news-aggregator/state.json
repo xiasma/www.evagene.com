@@ -14283,33 +14283,241 @@
         "rare-disease",
         "neurological-disease"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Our cells carry chemical marks on their DNA that can be used to estimate biological age — a kind of molecular clock. A new research paper (not yet fully reviewed by other scientists) has looked at these marks in 20 different types of cancer. Researchers compared tumour tissue with normal tissue from the same patients and found that different cancers seem to 'age' in different directions: some tumour tissues look older than expected by this molecular measure, while others look surprisingly younger. This variation might help scientists better understand why the risk of different cancers changes as people get older. The research is at an early stage and uses data from a large public cancer database. It does not change anything about how cancer is currently diagnosed or treated. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Epigenetic clocks show tumours age in opposite directions depending on cancer type",
+      "is_preprint": true,
+      "run_date": "2026-08-04",
+      "run_iso": "2026-08-04T09:36:46+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-08-03T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "epigenetic-clock-bidirectional-age-shifts-solid-tumours",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-03T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Not all tumors age alike: Bidirectional epigenetic age shifts across 20 solid tumors",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741419v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint integrating DNA methylation data across 20 solid cancers finds that epigenetic age acceleration is not uniform — some tumour types appear younger than matched normal tissue, others older.",
+      "summary": "Researchers at Cold Spring Harbor Laboratory have posted a preprint on bioRxiv describing an analysis of epigenetic ageing patterns across 20 solid cancer types, using DNA methylation data from 1,710 samples drawn from The Cancer Genome Atlas. The team applied Horvath's epigenetic clock to 544 patients with matched normal and tumour tissue, then used phyloepigenetic reconstruction to trace how epigenetic age shifts during tumour progression.\n\nThe central finding is that epigenetic age acceleration in tumours is bidirectional: some cancer types exhibit accelerated epigenetic ageing relative to matched normal tissue, while others display apparent epigenetic rejuvenation. This heterogeneity across cancer types suggests that a single model of tumour epigenetic ageing is insufficient, and that the relationship between DNA methylation-based age estimation and tumour biology varies substantially by tissue of origin.\n\nThe authors argue that integrating phyloepigenetic approaches — which trace the evolutionary history of epigenetic states within a tumour — with clock-based age estimation offers a richer framework for understanding how ageing and somatic evolution interact. The findings may have implications for research into why older individuals face higher cancer risk for some but not all tumour types, and for the interpretation of epigenetic biomarkers in cancer genomics research.\n\nThis work is a preprint and has not yet been peer-reviewed. Findings should be interpreted with appropriate caution pending independent scrutiny.",
+      "tags": [
+        "epigenetic-clock",
+        "dna-methylation",
+        "tumour-evolution",
+        "cancer-genomics",
+        "ageing",
+        "phyloepigenetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "PHG Foundation sets out policy priorities for personalised prevention in Europe",
+      "is_preprint": false,
+      "run_date": "2026-08-04",
+      "run_iso": "2026-08-04T09:36:46+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-08-04T08:41:56+00:00",
+        "novelty": 6
+      },
+      "slug": "personalised-prevention-genomics-policy-europe-phg",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-04T08:41:56+00:00",
+          "publisher": "PHG Foundation (University of Cambridge)",
+          "title": "Policy priorities for implementing personalised prevention in Europe",
+          "url": "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/"
+        }
+      ],
+      "standfirst": "A new briefing from the PHG Foundation at the University of Cambridge outlines recommendations for EU and national governments seeking to embed genomics-informed prevention into health systems.",
+      "summary": "The PHG Foundation, based at the University of Cambridge, has published a policy briefing identifying priorities for implementing personalised prevention programmes across Europe. The briefing addresses both EU-level and national-government audiences, setting out the governance, infrastructure, and equity considerations that policymakers would need to address in order to move genomics-informed prevention from research settings into broader public health use.\n\nPersonalised prevention in this context refers to the use of genomic and other biological data to stratify population-level disease risk and to inform the design of prevention strategies — an area of active policy interest in several European health systems, including in the UK through NHS England's genomics programme and in Europe through the European Health Data Space initiative.\n\nThe briefing is notable for its emphasis on the policy architecture required to support implementation, including data governance frameworks, interoperability between national registries, and equitable access across populations. The PHG Foundation has previously contributed to UK and European genomics policy debates, including on polygenic risk scores, newborn genomic screening, and cancer prevention.\n\nThe full text of the briefing is available on the PHG Foundation website. Genetic Current readers in research, health policy, and genetic counselling roles are likely to find the document a useful overview of the current European policy landscape.",
+      "tags": [
+        "genomics-policy",
+        "personalised-prevention",
+        "europe",
+        "public-health-genomics",
+        "health-policy",
+        "data-governance"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study probes small RNA disruption in Drosophila sperm-killing drive system",
+      "is_preprint": false,
+      "run_date": "2026-08-04",
+      "run_iso": "2026-08-04T09:36:46+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-03T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "segregation-distorter-small-rna-mechanism-drosophila",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-03T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Disruption of small RNAs and mechanistic variation in Segregation Distorter: A sperm-killing drive system in Drosophila melanogaster",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012235"
+        }
+      ],
+      "standfirst": "Researchers publishing in PLOS Genetics have identified roles for small RNAs and mechanistic variation in Segregation Distorter, a well-studied but incompletely understood meiotic drive system in Drosophila melanogaster.",
+      "summary": "Logan T. Edvalson, Xiaolu Wei, Ching-Ho Chang, and Amanda M. Larracuente have published a study in PLOS Genetics examining the mechanism of Segregation Distorter (SD), a sperm-killing meiotic drive system in Drosophila melanogaster. Meiotic drivers are genetic elements that achieve transmission to the next generation at above-Mendelian frequencies, often at a fitness cost to the organism carrying them. SD is among the most intensively studied such systems, yet its molecular mechanism has remained elusive.\n\nThe paper reports that disruption of small RNA pathways is associated with variation in drive strength across different SD chromosomal backgrounds. SD typically involves a truncated duplication of the RanGAP gene as the principal driver locus, embedded within chromosomal inversions that suppress recombination. The new work suggests that small RNA-mediated regulation adds a further layer of mechanistic complexity, potentially explaining why the degree of transmission distortion varies between SD-carrying chromosomes in natural populations.\n\nThe findings contribute to understanding of how meiotic drive systems evolve and persist in populations — a topic relevant to evolutionary genetics, genome conflict research, and theoretical work on selfish genetic elements. The study also has indirect relevance to the growing field of gene drive technology, where understanding natural drive mechanisms informs the design of synthetic analogues for pest and vector control.",
+      "tags": [
+        "meiotic-drive",
+        "segregation-distorter",
+        "drosophila",
+        "small-rna",
+        "genome-conflict",
+        "evolutionary-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics issues correction to meta-evolutionary exome study of type 2 diabetes genes",
+      "is_preprint": false,
+      "run_date": "2026-08-04",
+      "run_iso": "2026-08-04T09:36:46+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 4,
+        "newest_iso": "2026-08-03T14:00:00+00:00",
+        "novelty": 5
+      },
+      "slug": "type2-diabetes-meta-evolutionary-exome-ukbiobank-correction",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-03T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Correction: Meta-evolutionary exome analysis identifies novel type 2 diabetes mellitus genes in the UK Biobank and All of Us",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012265"
+        }
+      ],
+      "standfirst": "A correction notice has been published for the PLOS Genetics paper identifying novel type 2 diabetes mellitus genes through meta-evolutionary exome analysis of the UK Biobank and All of Us cohorts.",
+      "summary": "PLOS Genetics has published a correction to the paper 'Meta-evolutionary exome analysis identifies novel type 2 diabetes mellitus genes in the UK Biobank and All of Us', as announced by the PLOS Genetics editorial staff. The original paper applied a meta-evolutionary analytical framework to whole-exome sequencing data from two large biobank cohorts — the UK Biobank and the National Institutes of Health All of Us Research Programme — to identify candidate genes for type 2 diabetes mellitus.\n\nThe lede provided with the correction notice contains no detail on the nature or extent of the changes made. Readers who have cited or built upon the original paper are advised to review the correction notice directly via the PLOS Genetics article page to determine whether any results or conclusions are affected.\n\nGenetic Current will monitor for any further editorial notices associated with this paper. Corrections to large GWAS and exome studies are not uncommon and do not necessarily indicate fundamental problems with the original findings, but the specific scope of this correction is not yet clear from the available information.",
+      "tags": [
+        "type-2-diabetes",
+        "exome-sequencing",
+        "uk-biobank",
+        "all-of-us",
+        "correction",
+        "statistical-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "gps",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Cancer Research UK questions whether the National Cancer Plan will deliver on clinical trials",
+      "is_preprint": false,
+      "run_date": "2026-08-04",
+      "run_iso": "2026-08-04T09:36:46+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-08-04T08:30:42+00:00",
+        "novelty": 6
+      },
+      "slug": "national-cancer-plan-clinical-trials-delivery-uk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-04T08:30:42+00:00",
+          "publisher": "Cancer Research UK",
+          "title": "Boosting clinical trials – will the National Cancer Plan deliver?",
+          "url": "https://news.cancerresearchuk.org/2026/08/04/boosting-clinical-trials-will-the-national-cancer-plan-deliver/"
+        }
+      ],
+      "standfirst": "Cancer Research UK's policy team examines whether commitments in the National Cancer Plan are sufficient to meet the ambition of expanding clinical trial access in the UK.",
+      "summary": "Cancer Research UK has published a policy and insight commentary asking whether the National Cancer Plan — the UK government's framework for improving cancer outcomes — will deliver on its stated ambition of boosting clinical trial participation. The piece, published on 4 August 2026, focuses on the structural and systemic barriers that have historically constrained the UK's clinical trial infrastructure, including site activation timelines, patient recruitment, and workforce capacity.\n\nWhilst the National Cancer Plan sets out intent to expand access to trials, Cancer Research UK's commentary appears to interrogate the mechanisms by which this would be achieved, and whether sufficient resource and accountability structures are in place. Clinical trials are central to the development of new cancer treatments, including genomics-informed and targeted therapies that are increasingly relevant to oncology practice and hereditary cancer research.\n\nThe full commentary is available on the Cancer Research UK news site. Readers in oncology, health policy, and cancer genetics research are likely to find the analysis relevant, particularly given ongoing discussions about the UK's competitiveness as a location for genomically stratified cancer trials.",
+      "tags": [
+        "national-cancer-plan",
+        "clinical-trials",
+        "cancer-research-uk",
+        "health-policy",
+        "oncology",
+        "uk-health-policy"
+      ]
     }
   ],
-  "last_run": "2026-08-03T10:39:43.717612+00:00",
+  "last_run": "2026-08-04T09:38:20.539516+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012221": "2026-07-22T09:25:39.410459+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012229": "2026-07-23T09:24:14.397087+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012233": "2026-07-21T09:26:36.723912+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012235": "2026-08-04T09:38:20.539516+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012240": "2026-07-24T09:19:49.155114+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012241": "2026-07-25T08:59:52.790968+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012257": "2026-07-31T09:50:08.624072+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012258": "2026-07-31T09:50:08.624072+00:00",
-    "https://news.cancerresearchuk.org/2026/07/20/15-myths-about-sun-safety-debunked/": "2026-07-21T09:26:36.723912+00:00",
-    "https://news.cancerresearchuk.org/2026/07/20/data-science-making-data-count-with-broad-consent/": "2026-07-21T09:26:36.723912+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012265": "2026-08-04T09:38:20.539516+00:00",
     "https://news.cancerresearchuk.org/2026/07/23/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.13.738343v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.14.738208v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.14.738559v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.14.738588v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.15.738695v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
+    "https://news.cancerresearchuk.org/2026/08/04/boosting-clinical-trials-will-the-national-cancer-plan-deliver/": "2026-08-04T09:38:20.539516+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.15.738809v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.15.738827v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.17.739229v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.17.739231v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.18.739356v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.18.739365v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.18.739367v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.19.739441v1?rss=1": "2026-07-21T09:26:36.723912+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.20.739485v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.20.739560v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.20.739621v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
@@ -14324,17 +14532,17 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.27.740859v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741005v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.28.741233v1": "2026-07-29T09:35:51.922527+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.29.741419v1?rss=1": "2026-08-04T09:38:20.539516+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741553v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741571v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741578v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
     "https://www.england.nhs.uk/2026/07/hundreds-thousands-women-access-free-morning-after-pill-nhs-pharmacies-first-5-months/": "2026-07-28T09:34:46.405700+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-ms-life-changing-drug-nhs-help-walk-more-freely/": "2026-07-23T09:24:14.397087+00:00",
     "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260715083554.htm": "2026-07-25T08:59:52.790968+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260716023607.htm": "2026-07-23T09:24:14.397087+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260717033046.htm": "2026-07-24T09:19:49.155114+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260718010140.htm": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260719035931.htm": "2026-07-21T09:26:36.723912+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260719230608.htm": "2026-07-25T08:59:52.790968+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260721000816.htm": "2026-07-22T09:25:39.410459+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260721000845.htm": "2026-07-24T09:19:49.155114+00:00",
@@ -14350,27 +14558,22 @@
     "https://www.sciencedaily.com/releases/2026/07/260731034139.htm": "2026-08-02T09:07:32.245867+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260801042811.htm": "2026-08-03T10:39:43.717612+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260801042814.htm": "2026-08-03T10:39:43.717612+00:00",
-    "https://www.statnews.com/2026/07/20/bms-nvidia-assembling-largest-pharma-ai-supercomputer/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.statnews.com/2026/07/20/cyclospora-lettuce-tests-continue-restaurant-visits-decline/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.statnews.com/2026/07/20/health-news-hhs-vaccine-committee-quietly-gets-new-charter/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.statnews.com/2026/07/20/ronald-fischer-rhode-island-fugitive-richard-graydon-biotech/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.statnews.com/2026/07/20/site-neutral-payments-hospitals-health-insurance-earnings-season/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260801042818.htm": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260802223417.htm": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260802223433.htm": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260802223437.htm": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/07/21/ai-scribe-nabla-new-ceo-plan-gain-marketshare/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/biotech-news-a-renewed-push-from-the-right-against-abortion-pills/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/biotech-news-anthropic-deepens-work-with-rare-disease-drugs/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/center-for-therapeutic-genetics-rare-disease-gene-therapies/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/connection-between-odyssey-military-tesosterone-screening/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/connection-between-odyssey-military-tesosterone-screening/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/21/covid-non-pharmaceutical-interventions-masks-distancing-research/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/21/hiv-aids-prevention-advocates-fear-deep-cuts-cdc-funding/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/is-there-an-exodus-underway-at-epic-health-tech/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/medicaid-payments-1-billion-deferred-california-minnesota/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/medicaid-payments-1-billion-deferred-california-minnesota/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/21/omb-nih-grant-review-politics-scientific-risk/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
-    "https://www.statnews.com/2026/07/21/rare-disease-coalition-orphan-drug-exemption-medicare-pilot-price-programs/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/21/rare-disease-drugmakers-avoid-trump-price-cuts-pbm-state-laws-dc-diagnosis/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/rare-disease-drugmakers-avoid-trump-price-cuts-pbm-state-laws-dc-diagnosis/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/21/thc-drinks-risk-accidental-ingestion-issue-labels-regulations/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
     "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/22/biotech-news-pharma-tries-to-tamp-down-broad-china-restrictions/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
@@ -14470,8 +14673,17 @@
     "https://www.statnews.com/2026/08/03/ai-doctors-licensing-state-medical-boards/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/2026/08/03/als-diagnosis-neurologist-research-hope/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.statnews.com/2026/08/03/biontech-ceo-guido-oelkers-ugur-sahin-replacement/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/2026/08/03/biotech-news-is-there-a-pharma-mega-merger-coming-astrazeneca-bms/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/2026/08/03/cms-fda-breakthrough-devices-payment-pathways-eliminated/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/2026/08/03/cyclospora-outbreak-two-fatalities-reported-michigan/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/2026/08/03/eli-lilly-retatrutide-mystery-patient-doctors-seek-same-access-their-patients/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/2026/08/03/health-news-new-york-assisted-dying-law-moves-forward/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/20/telehealth-firm-patient-safety-iowa-medicaid-pbms/?utm_campaign=rss": "2026-07-21T09:26:36.723912+00:00",
+    "https://www.statnews.com/2026/08/04/assisted-suicide-medical-aid-in-dying-quebec-mental-illness-suffering/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/2026/08/04/diabetes-open-source-software-fda-approval/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/2026/08/04/new-report-questions-new-york-program-court-ordered-mental-healthcare/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/2026/08/04/rfk-medicaid-cuts-myth-analysis/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/pharmalot/2026/07/21/novo-nordisk-sues-eli-lilly-glp1-drug-ads/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/pharmalot/2026/07/21/novo-sues-lilly-alleging-deceptive-ads-fugitive-secret-life-in-biotech/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/pharmalot/2026/07/23/european-medicines-agency-bolster-clinical-trials-transparency/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
@@ -14492,7 +14704,10 @@
     "https://www.statnews.com/pharmalot/2026/07/31/trump-administration-revises-rebate-pilot-drug-discount-program-hospitals/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
     "https://www.statnews.com/pharmalot/2026/07/31/up-and-down-the-ladder-latest-comings-and-goings-jobs/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/pharmalot/2026/07/31/up-and-down-the-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/02/michigan-supreme-court-ruling-allows-probe-into-lilly-insulin-pricing/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/02/michigan-supreme-court-ruling-allows-probe-into-lilly-insulin-pricing/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/03/astrazeneca-bristol-merger-talks-340b-rebate-plan-revised/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/03/sandoz-to-settle-price-fixing-allegations/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00"
   },
   "takedowns": []
 }
