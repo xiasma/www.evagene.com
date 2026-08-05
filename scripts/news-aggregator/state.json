@@ -14499,31 +14499,204 @@
         "oncology",
         "uk-health-policy"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "A small biotechnology company called Aurora Therapeutics had been trying to make personalised gene-editing treatments — where the therapy is designed specifically for one person's genetic condition — available to more patients. The company was inspired by the case of a child known as Baby KJ, who received a one-of-a-kind gene-editing treatment for a rare inherited disease. Aurora has now had to stop its plans. According to reporting by STAT News, the US medicines regulator (the FDA) has set standards for safety and manufacturing that the company found too difficult to meet. This does not mean personalised gene-editing treatments are impossible — it means developing them outside large, well-resourced research hospitals is very challenging. Researchers and policymakers are still working out how to make these kinds of therapies accessible. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Startup scaling custom CRISPR therapies folds after FDA standards prove insurmountable",
+      "is_preprint": false,
+      "run_date": "2026-08-05",
+      "run_iso": "2026-08-05T09:33:57Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-08-04T17:04:10Z",
+        "novelty": 9
+      },
+      "slug": "aurora-therapeutics-custom-crispr-startup-fda-hurdles",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/AdobeStock_317192996-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-04T17:04:10Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Startup promising to scale custom CRISPR therapies abruptly scraps plans",
+          "url": "https://www.statnews.com/2026/08/04/aurora-therapeutics-ends-program-baby-kj-treatments-beam-therapeutics-jennifer-doudna/"
+        }
+      ],
+      "standfirst": "Aurora Therapeutics, which aimed to industrialise bespoke CRISPR gene-editing treatments modelled on the Baby KJ case, has abandoned its programme, citing regulatory demands that a small company could not meet.",
+      "summary": "Aurora Therapeutics, a startup that had set out to make individually tailored CRISPR gene-editing therapies commercially viable at scale, has abruptly ended its programme, according to reporting by STAT News. The company had drawn on the precedent set by the treatment of KJ Muldoon — a child with a rare metabolic disorder whose custom base-editing therapy, developed with involvement from Beam Therapeutics and researchers connected to Jennifer Doudna's work, attracted international attention in 2024–25.\n\nThe FDA has signalled willingness to accommodate bespoke, n-of-1 gene-editing treatments under flexible regulatory pathways, but the agency has nonetheless set technical and manufacturing standards that proved difficult for a small company to satisfy. Aurora's closure illustrates the structural challenge in the space: the scientific proof of concept for patient-specific genome editing exists, but translating that into a sustainable commercial and regulatory model remains unresolved.\n\nThe episode will be of interest to researchers working on rare-disease gene therapy, to those watching FDA policy on individualised medicinal products, and to the broader biotech community assessing whether the Baby KJ model is replicable outside academic medical centres with existing infrastructure. It also raises questions about how regulatory frameworks developed for conventional drug development apply to therapies that are, by design, unique to each patient.",
+      "tags": [
+        "crispr",
+        "gene-editing",
+        "rare-disease",
+        "fda-policy",
+        "bespoke-therapy",
+        "biotech",
+        "regulatory-affairs"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Causal variant in CD40 autoimmune locus identified, revealing context-specific effects in B cells",
+      "is_preprint": true,
+      "run_date": "2026-08-05",
+      "run_iso": "2026-08-05T09:33:57Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-08-04T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "cd40-causal-allele-autoimmune-b-cell-trans-effects",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-04T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Identifying the causal allele in the CD40 autoimmune locus enables discovery of context-specific trans-effects in B cells",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.29.741564v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using CITE-seq data from over one million peripheral blood mononuclear cells pinpoints the causal allele at the CD40 locus and maps downstream trans-acting effects specific to activated B cells, pointing toward targeted rather than broadly immunosuppressive therapies.",
+      "summary": "A preprint posted to bioRxiv describes work using surface-marker CITE-seq data from 1,055,857 peripheral blood mononuclear cells collected from 356 individuals to map genetic associations with 148 surface proteins across eight immune cell types. Within this resource, the authors identified a signal at the CD40 locus — a genomic region repeatedly implicated in rheumatoid arthritis and other autoimmune conditions — and report that they have resolved the causal allele from among the many correlated variants at that site.\n\nHaving identified the causal variant, the team characterised its downstream effects in trans — that is, its influence on the expression of genes elsewhere in the genome. Critically, these trans-effects were context-specific, manifesting in B cells under particular activation conditions rather than broadly across cell types or states. The authors argue that this kind of context-specificity may explain why autoimmune genetic associations have been difficult to functionally characterise using bulk or resting-state cell data.\n\nThe authors suggest the findings may help focus therapeutic development on the specific cellular contexts in which CD40 pathway dysregulation is pathogenic, potentially enabling more targeted interventions in place of broad immunosuppressive approaches.\n\nThis work is a preprint and has not yet undergone peer review. The sample size and multi-omic approach are notable, but the causal inference and trans-effect claims should be treated as provisional until independent replication and peer review are complete.",
+      "tags": [
+        "cd40",
+        "autoimmune-disease",
+        "causal-variant",
+        "b-cells",
+        "trans-effects",
+        "cite-seq",
+        "fine-mapping",
+        "immunogenomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint maps 25 years of human genetics research in Wikipedia and AI-generated text",
+      "is_preprint": true,
+      "run_date": "2026-08-05",
+      "run_iso": "2026-08-05T09:33:57Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-08-04T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "genetics-wikipedia-ai-public-information-ecosystem",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-04T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "From Wikipedia to AI: Measuring 25 years of synthesis of human genetics research in the public-facing information ecosystem",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.27.741055v1?rss=1"
+        }
+      ],
+      "standfirst": "An analysis of more than three million Wikipedia revisions across nearly 7,000 pages finds genetics terminology is disproportionately concentrated in articles about nationality and ethnicity, raising questions about how research on human genetic diversity is synthesised for public audiences.",
+      "summary": "A preprint posted to bioRxiv presents an analysis of 3,050,422 historical revisions from 6,738 Wikipedia pages covering ethnicity, nationality, and race, spanning the 25 years since the initial sequencing of the human genome. The authors find that genetics terminology appears in 14.8 per cent of these pages overall, rising to 55.5 per cent among the 1,000 most-visited pages and to 67.8 per cent of pages specifically about nationalities.\n\nThe study characterises how human genetics research — a domain the authors note is particularly vulnerable to misrepresentation given its intersection with socially sensitive categories — has been synthesised and disseminated through one of the world's most widely consulted reference sources. The authors also examine how AI systems have subsequently incorporated this information, tracing a chain of synthesis from primary research literature through Wikipedia to outputs from large language models.\n\nThe work has implications for science communication, for educators and students seeking to evaluate the reliability of public-facing genetics information, and for researchers concerned about how findings on population structure, ancestry, and diversity are framed outside academic contexts. The authors do not assess individual Wikipedia articles for accuracy but focus on patterns of terminology use at scale.\n\nThis is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "science-communication",
+        "wikipedia",
+        "public-understanding-of-genetics",
+        "race-and-genetics",
+        "population-genetics",
+        "ai",
+        "misinformation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Gene network analysis identifies primary regulators of abscisic acid signalling in poplar roots",
+      "is_preprint": false,
+      "run_date": "2026-08-05",
+      "run_iso": "2026-08-05T09:33:57Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-04T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "aba-gene-network-populus-roots-regulators",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-04T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Gene network analysis predicts the primary regulators of ABA-dependent transcriptional activation and repression in Populus roots",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012256"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study uses gene co-expression network modelling to predict which transcription factors drive ABA-dependent gene activation and repression in Populus roots under non-stress developmental conditions.",
+      "summary": "A study published in PLOS Genetics by David Cohen, Maira De Freitas Pereira, and colleagues characterises how abscisic acid (ABA) — a plant hormone that mediates responses to environmental stress as well as normal growth and development — controls gene expression in the roots of Populus, the tree genus that includes poplars and aspens.\n\nABA is known to trigger both transcriptional activation and repression, but the upstream regulators responsible, and the precise temporal dynamics of these responses under non-stress conditions, have remained poorly resolved. The authors applied gene network analysis to time-course expression data from Populus roots, identifying candidate transcription factors predicted to act as primary regulators of ABA-dependent transcriptional programmes. The study also characterises the temporal dynamics of these regulatory events, showing that ABA-driven transcriptional changes unfold in a structured sequence rather than as a simultaneous response.\n\nThe findings contribute to understanding how a conserved plant signalling pathway — ABA signalling is present across land plants — operates in a woody perennial species of relevance to forestry, biomass research, and studies of tree adaptation to drought and other environmental stressors.",
+      "tags": [
+        "plant-genetics",
+        "abscisic-acid",
+        "populus",
+        "gene-regulatory-networks",
+        "transcription-factors",
+        "stress-signalling",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-08-04T09:38:20.539516+00:00",
+  "last_run": "2026-08-05T09:35:19.884935+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012221": "2026-07-22T09:25:39.410459+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012229": "2026-07-23T09:24:14.397087+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012235": "2026-08-04T09:38:20.539516+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012240": "2026-07-24T09:19:49.155114+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012241": "2026-07-25T08:59:52.790968+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012256": "2026-08-05T09:35:19.884935+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012257": "2026-07-31T09:50:08.624072+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012258": "2026-07-31T09:50:08.624072+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012265": "2026-08-04T09:38:20.539516+00:00",
     "https://news.cancerresearchuk.org/2026/07/23/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-07-23T09:24:14.397087+00:00",
+    "https://news.cancerresearchuk.org/2026/08/04/a-legacy-written-in-dna/": "2026-08-05T09:35:19.884935+00:00",
     "https://news.cancerresearchuk.org/2026/08/04/boosting-clinical-trials-will-the-national-cancer-plan-deliver/": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.15.738809v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.17.739229v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.17.739231v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.18.739356v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.18.739365v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.20.739485v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.20.739560v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.20.739621v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.20.739625v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.21.737205v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.21.739721v1?rss=1": "2026-07-22T09:25:39.410459+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.21.739894v1?rss=1": "2026-07-25T08:59:52.790968+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.21.739920v1?rss=1": "2026-07-26T09:10:03.707450+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.22.740070v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
@@ -14531,11 +14704,14 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.26.740854v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.740859v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741005v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.27.741055v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.28.741233v1": "2026-07-29T09:35:51.922527+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741419v1?rss=1": "2026-08-04T09:38:20.539516+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741553v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.29.741564v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741571v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741578v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.30.741666v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.england.nhs.uk/2026/07/hundreds-thousands-women-access-free-morning-after-pill-nhs-pharmacies-first-5-months/": "2026-07-28T09:34:46.405700+00:00",
     "https://www.england.nhs.uk/2026/07/thousands-ms-life-changing-drug-nhs-help-walk-more-freely/": "2026-07-23T09:24:14.397087+00:00",
     "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
@@ -14544,7 +14720,6 @@
     "https://www.sciencedaily.com/releases/2026/07/260716023607.htm": "2026-07-23T09:24:14.397087+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260717033046.htm": "2026-07-24T09:19:49.155114+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260719230608.htm": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260721000816.htm": "2026-07-22T09:25:39.410459+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260721000845.htm": "2026-07-24T09:19:49.155114+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260723084856.htm": "2026-07-25T08:59:52.790968+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260724061432.htm": "2026-07-25T08:59:52.790968+00:00",
@@ -14562,30 +14737,16 @@
     "https://www.sciencedaily.com/releases/2026/08/260802223417.htm": "2026-08-04T09:38:20.539516+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260802223433.htm": "2026-08-04T09:38:20.539516+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260802223437.htm": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.statnews.com/2026/07/21/ai-scribe-nabla-new-ceo-plan-gain-marketshare/": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.statnews.com/2026/07/21/biotech-news-a-renewed-push-from-the-right-against-abortion-pills/": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.statnews.com/2026/07/21/biotech-news-anthropic-deepens-work-with-rare-disease-drugs/": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.statnews.com/2026/07/21/center-for-therapeutic-genetics-rare-disease-gene-therapies/": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.statnews.com/2026/07/21/connection-between-odyssey-military-tesosterone-screening/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/connection-between-odyssey-military-tesosterone-screening/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/21/hiv-aids-prevention-advocates-fear-deep-cuts-cdc-funding/": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.statnews.com/2026/07/21/is-there-an-exodus-underway-at-epic-health-tech/": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.statnews.com/2026/07/21/medicaid-payments-1-billion-deferred-california-minnesota/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/medicaid-payments-1-billion-deferred-california-minnesota/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/21/rare-disease-drugmakers-avoid-trump-price-cuts-pbm-state-laws-dc-diagnosis/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/21/rare-disease-drugmakers-avoid-trump-price-cuts-pbm-state-laws-dc-diagnosis/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/22/biotech-news-pharma-tries-to-tamp-down-broad-china-restrictions/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/22/congo-ebola-outbreak-1000-deaths/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/gallup-poll-24-percent-workers-job-lock-keep-job-health-insurance/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/22/gallup-poll-24-percent-workers-job-lock-keep-job-health-insurance/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/22/health-news-job-dissatisfaction-health-care-access-grows/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/hospital-ai-systems-ceo-leadership-accountability-governance/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/22/hospital-ai-systems-ceo-leadership-accountability-governance/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/lipfendra-enlicitide-merck-cholesterol-barriers/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/22/lipfendra-enlicitide-merck-cholesterol-barriers/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/maui-wildfire-exposure-study-health-impacts-lahaina-hawaii/": "2026-07-22T09:25:39.410459+00:00",
     "https://www.statnews.com/2026/07/22/maui-wildfire-exposure-study-health-impacts-lahaina-hawaii/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/22/new-study-supports-testing-of-mercks-ebola-vaccine-in-drc-outbreak/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/22/prima-retinal-implant-for-macular-degeneration-us-timeline/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
@@ -14680,12 +14841,20 @@
     "https://www.statnews.com/2026/08/03/eli-lilly-retatrutide-mystery-patient-doctors-seek-same-access-their-patients/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/03/health-news-new-york-assisted-dying-law-moves-forward/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.statnews.com/2026/08/04/ai-scribes-medical-devices-uk-regulator-view-health-tech/": "2026-08-05T09:35:19.884935+00:00",
     "https://www.statnews.com/2026/08/04/assisted-suicide-medical-aid-in-dying-quebec-mental-illness-suffering/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/2026/08/04/aurora-therapeutics-ends-program-baby-kj-treatments-beam-therapeutics-jennifer-doudna/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/2026/08/04/biotech-news-gilead-wins-case-that-scrutinized-pace-of-drug-development/": "2026-08-05T09:35:19.884935+00:00",
     "https://www.statnews.com/2026/08/04/diabetes-open-source-software-fda-approval/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/2026/08/04/health-news-trans-federal-employees-sue-over-revoked-coverage/": "2026-08-05T09:35:19.884935+00:00",
     "https://www.statnews.com/2026/08/04/new-report-questions-new-york-program-court-ordered-mental-healthcare/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/04/rfk-medicaid-cuts-myth-analysis/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/21/novo-nordisk-sues-eli-lilly-glp1-drug-ads/": "2026-07-22T09:25:39.410459+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/21/novo-sues-lilly-alleging-deceptive-ads-fugitive-secret-life-in-biotech/": "2026-07-22T09:25:39.410459+00:00",
+    "https://www.statnews.com/2026/08/05/cms-drug-pricing-pilot-programs-rare-disease-drugs/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/2026/08/05/md-vs-do-medical-education-merge/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/2026/08/05/new-york-medical-aid-dying-assisted-suicide-room-next-door-movies/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/2026/08/05/prostate-cancer-screening-biopsy-vs-mri-debate/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/2026/08/05/senator-ron-wyden-investigation-kennedy-flavored-vapes-kratom/": "2026-08-05T09:35:19.884935+00:00",
     "https://www.statnews.com/pharmalot/2026/07/23/european-medicines-agency-bolster-clinical-trials-transparency/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/pharmalot/2026/07/23/fda-urged-by-advocacy-group-to-ban-dtc-prescription-drug-ads/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/pharmalot/2026/07/23/lilly-obesity-drug-data-fda-asked-to-ban-dtc-ads/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
@@ -14707,7 +14876,9 @@
     "https://www.statnews.com/pharmalot/2026/08/02/michigan-supreme-court-ruling-allows-probe-into-lilly-insulin-pricing/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/pharmalot/2026/08/03/astrazeneca-bristol-merger-talks-340b-rebate-plan-revised/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/03/sandoz-to-settle-price-fixing-allegations/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/03/sandoz-to-settle-price-fixing-allegations/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/04/latest-orphan-drug-exemptions-may-not-be-warranted-analysis-finds/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/04/lilly-expands-retatrutide-access-program-gilead-court-victory/": "2026-08-05T09:35:19.884935+00:00"
   },
   "takedowns": []
 }
