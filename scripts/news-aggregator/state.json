@@ -14676,30 +14676,375 @@
         "stress-signalling",
         "plos-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers and regulators around the world are debating how gene-editing trials — experiments that try to treat disease by changing a person's DNA — should be monitored and reported. A news report published by STAT News describes a second child dying during a gene-editing experiment in China. Critics say the death was reported too slowly, making it hard for scientists elsewhere to understand what went wrong and whether similar risks exist in other trials.\n\nGene-editing research is still at an early stage, and trials like this are carefully watched by international health bodies. When something goes wrong, prompt and open reporting is considered essential so that the broader scientific community can respond.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Second child death in Chinese gene-editing trial renews calls for transparency",
+      "is_preprint": false,
+      "run_date": "2026-08-06",
+      "run_iso": "2026-08-06T09:36:46Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-08-05T17:46:55Z",
+        "novelty": 7
+      },
+      "slug": "child-death-gene-editing-trial-china-debate",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/AdobeStock_1666307366-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-05T17:46:55Z",
+          "publisher": "Stat News",
+          "title": "Once again, child dies in gene-editing trial in China, rekindling debate on transparency and safety",
+          "url": "https://www.statnews.com/2026/08/05/china-clinical-trial-fatality-safety-questions-investigator-led-studies/"
+        }
+      ],
+      "standfirst": "A delayed report of a second fatality in an investigator-led gene-editing study in China has intensified international debate about oversight standards and trial transparency.",
+      "summary": "A second child has died in a gene-editing clinical trial conducted in China, according to reporting by STAT News. The case follows an earlier fatality that was also reported with significant delay, and critics say the pattern reflects systemic weaknesses in the oversight of investigator-led studies — a looser regulatory category than industry-sponsored trials.\n\nExperts quoted by STAT News expressed concern not primarily about the gene-editing technology itself but about the absence of timely disclosure. One researcher told STAT that what \"bothers me is the lack of\" transparency around adverse events, a gap that limits the international scientific community's ability to assess safety signals and learn from outcomes.\n\nThe case is distinct from the previously published Genetic Current cluster (25 July 2026) covering a first reported Chinese trial fatality. That earlier item addressed the broader ethical framework; this report is a subsequent development — a second death — that adds new factual weight to the ongoing debate.\n\nThe story sits within a wider international conversation about how regulatory bodies should approach bespoke and investigator-initiated gene-editing protocols. Governance bodies including the WHO Expert Advisory Committee on Human Genome Editing have previously called for a global registry of all human genome-editing trials and mandatory adverse-event reporting. This case illustrates why such mechanisms remain contested in practice.",
+      "tags": [
+        "gene-editing",
+        "clinical-trial-safety",
+        "research-ethics",
+        "genome-editing-governance",
+        "china",
+        "investigator-led-trials"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Aurora Therapeutics abandons bespoke CRISPR scale-up as FDA standards prove prohibitive",
+      "is_preprint": false,
+      "run_date": "2026-08-06",
+      "run_iso": "2026-08-06T09:36:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-08-04T17:04:10Z",
+        "novelty": 4
+      },
+      "slug": "aurora-therapeutics-bespoke-crispr-programme-ends",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/AdobeStock_317192996-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-04T17:04:10Z",
+          "publisher": "Stat News",
+          "title": "Startup promising to scale custom CRISPR therapies abruptly scraps plans",
+          "url": "https://www.statnews.com/2026/08/04/aurora-therapeutics-ends-program-baby-kj-treatments-beam-therapeutics-jennifer-doudna/"
+        }
+      ],
+      "standfirst": "Aurora Therapeutics has scrapped its plan to scale individualised CRISPR gene-editing therapies after finding that FDA requirements — though framed as flexible — remain beyond the reach of a small startup.",
+      "summary": "Aurora Therapeutics, a startup that had positioned itself as a vehicle for scaling personalised CRISPR-based gene therapies along the lines of the celebrated 'Baby KJ' case, has abruptly ended its programme. Reporting by STAT News describes how the company found that the US Food and Drug Administration, whilst signalling openness to approving bespoke gene-editing treatments on an expedited basis, still imposes manufacturing, safety, and efficacy standards that a small, early-stage company cannot realistically meet.\n\nThe development is a significant data point in the broader debate about whether the regulatory infrastructure for individualised gene therapies — sometimes called N-of-1 therapies — can be made commercially viable. Aurora had been backed in part by the intellectual environment created by Beam Therapeutics and was associated with researchers in Jennifer Doudna's network, according to STAT News.\n\nThe closure follows last week's Genetic Current item (5 August 2026) which covered the same story at its breaking point. The present item adds contextual detail about the structural barriers identified and the implications for other startups pursuing similar approaches, warranting its inclusion as a follow-up rather than a duplicate.\n\nFor researchers and policymakers, the case illustrates the tension between scientific ambition and regulatory gatekeeping in the gene-therapy space. The FDA's standards for manufacturing consistency and clinical evidence generation are designed for population-scale products; adapting them to single-patient therapies remains an unsolved problem.",
+      "tags": [
+        "crispr",
+        "gene-editing",
+        "rare-disease",
+        "fda-policy",
+        "bespoke-therapy",
+        "biotech",
+        "regulatory-affairs",
+        "n-of-1-therapy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Circular intron RNA identified as possible vehicle for cross-species transfer of jumping genes",
+      "is_preprint": false,
+      "run_date": "2026-08-06",
+      "run_iso": "2026-08-06T09:36:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-08-05T02:51:48Z",
+        "novelty": 9
+      },
+      "slug": "jumping-genes-circular-rna-cross-species-transfer",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-05T02:51:48Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists catch a \"jumping gene\" mid-leap between species",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260803080911.htm"
+        }
+      ],
+      "standfirst": "A study finds that stable circular RNA derived from mobile genetic elements may provide a previously unrecognised route for transposable elements to move between bacterial species.",
+      "summary": "Researchers have identified what may be a new mechanism by which transposable elements — sequences sometimes called 'jumping genes' — can spread between distantly related species. Publishing work covered by ScienceDaily, the team found circular RNA derived from Group I self-splicing introns inside a predatory bacterium, apparently acquired from the dead cells of another microorganism it had engulfed.\n\nThe significance of the finding lies in the physical properties of the RNA: circular RNA molecules lack free ends, making them substantially more resistant to enzymatic degradation than their linear counterparts. This stability could allow them to persist long enough after cellular lysis to be taken up by another organism — a route that would operate independently of the viral or plasmid vectors previously assumed to be the dominant vehicles for horizontal gene transfer of mobile elements.\n\nThe work contributes to the field of mobile genetic element biology and horizontal gene transfer, areas with implications for understanding genome evolution, the spread of antimicrobial resistance elements, and the deep evolutionary history of genome composition across the tree of life. The source article does not name the journal of publication, so readers should seek the primary literature via the ScienceDaily link for full methodological detail.\n\nFor educators and students, the study offers a concrete illustration of how genomes are not static entities and how non-coding RNA can serve structural as well as regulatory functions.",
+      "tags": [
+        "transposable-elements",
+        "horizontal-gene-transfer",
+        "circular-rna",
+        "mobile-genetic-elements",
+        "bacterial-genetics",
+        "genome-evolution"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: transposable element activation implicated in VEXAS syndrome stem cell pathology",
+      "is_preprint": true,
+      "run_date": "2026-08-06",
+      "run_iso": "2026-08-06T09:36:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-08-05T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "vexas-syndrome-transposable-element-expression-hsc",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-05T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Locus-specific transposable element expression drives human hematopoietic stem cell disease pathophysiology",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.31.742092v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that locus-specific activation of transposable elements in UBA1-mutant haematopoietic stem cells may drive the complex inflammatory and clonal features of VEXAS syndrome.",
+      "summary": "A preprint posted to bioRxiv describes new findings about the molecular mechanisms underlying VEXAS syndrome, a severe and largely treatment-refractory autoinflammatory condition caused by somatic mutations in the X-linked gene UBA1. The condition — which stands for vacuoles, E1 enzyme, X-linked, autoinflammatory, somatic — was only described in 2020 and affects predominantly older men.\n\nThe research team moved beyond gene-centric analysis to examine the non-coding genome, specifically the expression of individual transposable element loci in UBA1-mutant haematopoietic stem cells (HSCs). Using advanced functional genetic methods, they found that VEXAS HSCs displayed altered expression of specific transposable element loci compared with controls, and that this dysregulation may contribute to the proteostasis defects, sustained inflammation, and myeloid-biased clonal expansion that characterise the condition at the stem cell level.\n\nThe authors argue that the transposable element layer of the genome — long treated as non-functional 'junk' — may be a meaningful contributor to haematological disease pathophysiology, particularly in conditions driven by somatic mutations acquired in ageing stem cell compartments.\n\nThis is a preprint and has not yet been peer-reviewed. Findings should be treated as preliminary pending independent scrutiny and formal publication.",
+      "tags": [
+        "vexas-syndrome",
+        "transposable-elements",
+        "haematopoietic-stem-cells",
+        "uba1",
+        "somatic-mutation",
+        "autoinflammatory-disease",
+        "non-coding-genome",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Drosophila study highlights glial cell toxicity in C9orf72-linked neurodegeneration",
+      "is_preprint": false,
+      "run_date": "2026-08-06",
+      "run_iso": "2026-08-06T09:36:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-08-05T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "c9orf72-glial-toxicity-als-ftd-drosophila",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-05T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Glial cell toxicity in a Drosophila C9orf72 neurodegeneration model",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909"
+        }
+      ],
+      "standfirst": "Research published in PLOS Genetics identifies glial cells — not only neurons — as contributors to neurodegeneration in a Drosophila model of C9orf72-associated ALS and frontotemporal dementia.",
+      "summary": "A study by Isabel Hubbard and Josh Dubnau, published in PLOS Genetics, uses a Drosophila model to examine the cellular basis of neurodegeneration caused by the C9orf72 repeat expansion — the most frequent genetic cause of both familial amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD).\n\nThe C9orf72 repeat expansion produces both sense and antisense RNA foci and generates dipeptide repeat proteins via repeat-associated non-AUG (RAN) translation. Prior work had established that these products are toxic when expressed in neurons, but the contribution of glial cells — the supportive, non-neuronal cells of the nervous system — had been less thoroughly characterised.\n\nThe Hubbard and Dubnau study finds that expression of the C9orf72 repeat in glia produces significant neurodegenerative effects in the fly model, pointing to cell-non-autonomous mechanisms of disease. This is relevant to understanding why neurodegeneration in C9orf72-linked disease is broad and progressive: if glia amplify or propagate toxic signals, therapeutic strategies aimed solely at neurons may be insufficient.\n\nFor researchers working on ALS and FTD genetics, the findings add to a growing body of evidence that glial biology is central rather than peripheral to disease pathogenesis. For educators, the paper offers a clear example of how model organisms illuminate the cell biology of complex human neurological conditions.",
+      "tags": [
+        "c9orf72",
+        "als",
+        "frontotemporal-dementia",
+        "glial-toxicity",
+        "drosophila",
+        "dipeptide-repeat-proteins",
+        "ran-translation",
+        "neurodegeneration",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics paper cautions against uncritical rescaling in population genetics simulations",
+      "is_preprint": false,
+      "run_date": "2026-08-06",
+      "run_iso": "2026-08-06T09:36:46Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-08-05T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "population-genetics-simulation-rescaling-pitfalls",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-05T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "The rights and wrongs of rescaling in population genetics simulations",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012261"
+        }
+      ],
+      "standfirst": "Parul Johri, Fanny Pouyet, and Brian Charlesworth set out conditions under which the widely used practice of simulating smaller populations to save computing time can distort results.",
+      "summary": "A methodological paper by Parul Johri, Fanny Pouyet, and Brian Charlesworth, published in PLOS Genetics, examines the rights and wrongs of rescaling in population genetics computer simulations — a topic of direct relevance to researchers who routinely use coalescent or forward-time simulations to interpret large genomic datasets.\n\nRescaling is the practice of simulating populations much smaller than the real biological population of interest, whilst adjusting parameters such as mutation rates and selection coefficients so that their products with population size remain constant. This reduces computational cost substantially, but Johri and colleagues demonstrate that the approach introduces non-trivial distortions under certain conditions — particularly when complex demographic histories, strong selection, or interactions between selection and drift are involved.\n\nThe paper provides analytical and simulation-based guidance on when rescaling is and is not appropriate, making it a practically useful reference for researchers designing studies that depend on simulated null distributions or demographic inference.\n\nFor statistical geneticists and population geneticists, this is a methods paper with direct implications for study design and interpretation. Educators teaching computational genomics will find it a useful reference for discussing the assumptions that underpin widely used tools.",
+      "tags": [
+        "population-genetics",
+        "computational-genomics",
+        "simulation-methods",
+        "rescaling",
+        "statistical-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: TIGR-Tas RNA-guided system repurposed as compact programmable gene activator",
+      "is_preprint": true,
+      "run_date": "2026-08-06",
+      "run_iso": "2026-08-06T09:36:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-05T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "tigr-tas-system-programmable-transcription-activation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-05T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Repurposing the TIGR-Tas system for programmable transcription activation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.30.739400v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers report that the TIGR-Tas bacterial RNA-guided DNA-targeting system can be adapted as a versatile transcription activator, offering a smaller alternative to CRISPR-based activation tools.",
+      "summary": "A preprint deposited on bioRxiv describes the repurposing of the TIGR-Tas system — a bacterial RNA-guided DNA-targeting machinery — as a platform for programmable transcription activation. The work addresses a practical constraint in the CRISPR activation (CRISPRa) field: the most versatile CRISPRa systems are large, limiting delivery by size-constrained viral vectors, whilst more compact CRISPR systems require long protospacer adjacent motif (PAM) sequences that restrict targeting flexibility.\n\nBy systematically testing fusion architectures that join a nuclease-inactivated TasR protein to gene activation domains, the authors report achieving robust and specific upregulation of target genes. The TIGR-Tas system's RNA-guided targeting is said to operate without a PAM requirement, potentially broadening the range of accessible genomic loci.\n\nProgrammable transcription activation tools have applications across functional genomics, in which researchers use them to dissect gene regulatory networks, and in synthetic biology and early-stage gene therapy research. The preprint does not appear to include human clinical data.\n\nThis is a preprint and has not yet been peer-reviewed. Findings should be treated as preliminary pending independent scrutiny and formal publication.",
+      "tags": [
+        "tigr-tas",
+        "programmable-transcription-activation",
+        "crispra",
+        "gene-regulation",
+        "synthetic-biology",
+        "functional-genomics",
+        "rna-guided-systems",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: DetectGxT software improves detection of gene-by-treatment interactions in molecular QTL studies",
+      "is_preprint": true,
+      "run_date": "2026-08-06",
+      "run_iso": "2026-08-06T09:36:46Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-08-05T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "detectgxt-gene-by-treatment-interaction-mqtl",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-05T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "DetectGxT: detecting gene-by-treatment interactions on molecular count phenotypes accounting for allelic additivity",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.30.740713v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers describe an R package that uses nonlinear regression to correct for model misspecification in studies mapping how genetic variants modify molecular responses to experimental treatments.",
+      "summary": "A preprint on bioRxiv introduces DetectGxT, an R software package designed to improve the statistical detection of gene-by-treatment (GxT) interactions in molecular quantitative trait locus (molQTL) studies. The tool targets a specific methodological problem: standard linear models used for interaction molQTL mapping are non-trivially misspecified when applied to molecular count data — such as RNA sequencing read counts — because they do not adequately account for the multiplicative (allelic additive on a log scale) relationship between genotype and phenotype.\n\nBy using nonlinear regression that models this relationship more accurately, the authors report increased statistical power to detect genuine GxT interactions without an accompanying increase in false-positive rates. The package is framed as applicable across multiple biological fields where understanding how genetic background modifies the response to an applied treatment — whether pharmacological, environmental, or developmental — is the primary question.\n\nInteraction molQTL mapping is an increasingly important tool for dissecting context-dependent gene regulation and identifying mechanisms of drug response variation. For statistical geneticists, this is a methods contribution addressing a well-recognised but underserved modelling gap.\n\nThis is a preprint and has not yet been peer-reviewed. Findings should be treated as preliminary pending independent scrutiny and formal publication.",
+      "tags": [
+        "gene-by-treatment-interaction",
+        "molecular-qtl",
+        "statistical-genetics",
+        "nonlinear-regression",
+        "rna-sequencing",
+        "functional-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-05T09:35:19.884935+00:00",
+  "last_run": "2026-08-06T09:39:06.238482+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012229": "2026-07-23T09:24:14.397087+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012235": "2026-08-04T09:38:20.539516+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012240": "2026-07-24T09:19:49.155114+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012241": "2026-07-25T08:59:52.790968+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012256": "2026-08-05T09:35:19.884935+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012257": "2026-07-31T09:50:08.624072+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012258": "2026-07-31T09:50:08.624072+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012261": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012265": "2026-08-04T09:38:20.539516+00:00",
-    "https://news.cancerresearchuk.org/2026/07/23/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-07-23T09:24:14.397087+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012268": "2026-08-06T09:39:06.238482+00:00",
     "https://news.cancerresearchuk.org/2026/08/04/a-legacy-written-in-dna/": "2026-08-05T09:35:19.884935+00:00",
     "https://news.cancerresearchuk.org/2026/08/04/boosting-clinical-trials-will-the-national-cancer-plan-deliver/": "2026-08-04T09:38:20.539516+00:00",
+    "https://news.cancerresearchuk.org/2026/08/05/cancer-in-motion-how-computation-is-reshaping-our-view-of-tumours/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.17.739231v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.18.739356v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.18.739365v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.20.739560v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.20.739621v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.21.737205v1?rss=1": "2026-07-24T09:19:49.155114+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.21.739894v1?rss=1": "2026-07-25T08:59:52.790968+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.21.739920v1?rss=1": "2026-07-26T09:10:03.707450+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.22.740070v1?rss=1": "2026-07-23T09:24:14.397087+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.24.740321v1?rss=1": "2026-07-25T08:59:52.790968+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.26.740854v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.740859v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
@@ -14711,13 +15056,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741564v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741571v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741578v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.30.739400v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.30.740713v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.30.741666v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.31.741938v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.31.742092v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
     "https://www.england.nhs.uk/2026/07/hundreds-thousands-women-access-free-morning-after-pill-nhs-pharmacies-first-5-months/": "2026-07-28T09:34:46.405700+00:00",
-    "https://www.england.nhs.uk/2026/07/thousands-ms-life-changing-drug-nhs-help-walk-more-freely/": "2026-07-23T09:24:14.397087+00:00",
     "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
     "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260715083554.htm": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260716023607.htm": "2026-07-23T09:24:14.397087+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260717033046.htm": "2026-07-24T09:19:49.155114+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260719230608.htm": "2026-07-25T08:59:52.790968+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260721000845.htm": "2026-07-24T09:19:49.155114+00:00",
@@ -14737,29 +15084,12 @@
     "https://www.sciencedaily.com/releases/2026/08/260802223417.htm": "2026-08-04T09:38:20.539516+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260802223433.htm": "2026-08-04T09:38:20.539516+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260802223437.htm": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.statnews.com/2026/07/21/connection-between-odyssey-military-tesosterone-screening/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/21/medicaid-payments-1-billion-deferred-california-minnesota/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/21/rare-disease-drugmakers-avoid-trump-price-cuts-pbm-state-laws-dc-diagnosis/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/ahrq-grants-health-quality-researchers-lose-109-million-funding/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/biotech-news-pharma-tries-to-tamp-down-broad-china-restrictions/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/congo-ebola-outbreak-1000-deaths/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/gallup-poll-24-percent-workers-job-lock-keep-job-health-insurance/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/health-news-job-dissatisfaction-health-care-access-grows/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/hospital-ai-systems-ceo-leadership-accountability-governance/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/lipfendra-enlicitide-merck-cholesterol-barriers/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/maui-wildfire-exposure-study-health-impacts-lahaina-hawaii/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/new-study-supports-testing-of-mercks-ebola-vaccine-in-drc-outbreak/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/prima-retinal-implant-for-macular-degeneration-us-timeline/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/trump-plans-tariffs-on-generics-merck-gilead-hiv-pill/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/what-is-a-world-model-nabla-alex-lebrun-explains-ai-prognosis/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/22/world-cup-argentina-loss-hospitals-lessons/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260803080911.htm": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260804034644.htm": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/07/23/cyclospora-second-outbreak-reported-fda-cites-72-new-cases/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/erica-schwartz-cdc-director-vote-delayed/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
-    "https://www.statnews.com/2026/07/23/fda-advisory-panel-peptide-safety-compounding-pharmacies/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/23/fda-panel-okays-peptides-compound-pharmacies-bpc-157-kpv/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/federal-office-mens-health-bipartisan-bill-filed-momentum-grows/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
-    "https://www.statnews.com/2026/07/23/global-billing-maternity-care-mistake/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
-    "https://www.statnews.com/2026/07/23/global-maternity-care-billing-acog-explains/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/23/health-news-expect-a-clash-at-today-fda-peptide-panel/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson-2/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/health-policy-news-today-dc-diagnosis-newsletter-john-wilkerson-3/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
@@ -14769,7 +15099,6 @@
     "https://www.statnews.com/2026/07/23/sanofi-insulin-lantus-solostar-pen-reported-short-supply/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/sean-kaufman-aspr-nomination-confirmation-vote-postponed-senate-committee/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/trump-nominates-timothy-westlake-samhsa/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
-    "https://www.statnews.com/2026/07/23/veterans-face-long-covid-vaccine-reinstatement-process/?utm_campaign=rss": "2026-07-23T09:24:14.397087+00:00",
     "https://www.statnews.com/2026/07/24/biotech-news-fatal-gene-editing-trial-in-china-raises-ethics-questions/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
     "https://www.statnews.com/2026/07/24/cyclospora-outbreak-contradiction-eat-real-food-less-safety-monitoring/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
     "https://www.statnews.com/2026/07/24/fda-peptide-compounding-panel-backs-epitalon-rejects-emideltide/?utm_campaign=rss": "2026-07-26T09:10:03.707450+00:00",
@@ -14843,18 +15172,29 @@
     "https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/2026/08/04/ai-scribes-medical-devices-uk-regulator-view-health-tech/": "2026-08-05T09:35:19.884935+00:00",
     "https://www.statnews.com/2026/08/04/assisted-suicide-medical-aid-in-dying-quebec-mental-illness-suffering/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.statnews.com/2026/08/04/aurora-therapeutics-ends-program-baby-kj-treatments-beam-therapeutics-jennifer-doudna/": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.statnews.com/2026/08/04/biotech-news-gilead-wins-case-that-scrutinized-pace-of-drug-development/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/2026/08/04/aurora-therapeutics-ends-program-baby-kj-treatments-beam-therapeutics-jennifer-doudna/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/04/biotech-news-gilead-wins-case-that-scrutinized-pace-of-drug-development/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/04/diabetes-open-source-software-fda-approval/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/04/health-news-trans-federal-employees-sue-over-revoked-coverage/": "2026-08-05T09:35:19.884935+00:00",
     "https://www.statnews.com/2026/08/04/new-report-questions-new-york-program-court-ordered-mental-healthcare/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/04/rfk-medicaid-cuts-myth-analysis/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.statnews.com/2026/08/05/cms-drug-pricing-pilot-programs-rare-disease-drugs/": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.statnews.com/2026/08/05/md-vs-do-medical-education-merge/": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.statnews.com/2026/08/05/new-york-medical-aid-dying-assisted-suicide-room-next-door-movies/": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.statnews.com/2026/08/05/prostate-cancer-screening-biopsy-vs-mri-debate/": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.statnews.com/2026/08/05/senator-ron-wyden-investigation-kennedy-flavored-vapes-kratom/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/2026/08/05/biotech-news-moderna-launches-early-ebola-mrna-vaccine-trial/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/china-clinical-trial-fatality-safety-questions-investigator-led-studies/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/cms-drug-pricing-pilot-programs-rare-disease-drugs/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/fecal-microbiome-transplant-for-peanut-food-allergy/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/federal-regulators-invite-industry-closed-door-meetings-clinical-ai/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/health-news-aba-therapy-for-children-with-autism-faces-changes-under-medicaid/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/md-vs-do-medical-education-merge/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/new-york-medical-aid-dying-assisted-suicide-room-next-door-movies/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/prostate-cancer-screening-biopsy-vs-mri-debate/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/senate-confirms-dr-erica-schwartz-new-cdc-director/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/senator-ron-wyden-investigation-kennedy-flavored-vapes-kratom/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/takeda-narcolepsy-drug-fda-approval-orzeyful/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/they-changed-their-minds-on-ai-whos-next-ai-prognosis/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/06/ai-health-care-skepticism-advances-nature-medicine-scribe-sepsis/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/06/fda-approves-moderna-mflusiva-first-mrna-flu-vaccine/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/06/measles-elimination-status-2026-paho/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/pharmalot/2026/07/23/european-medicines-agency-bolster-clinical-trials-transparency/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/pharmalot/2026/07/23/fda-urged-by-advocacy-group-to-ban-dtc-prescription-drug-ads/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/pharmalot/2026/07/23/lilly-obesity-drug-data-fda-asked-to-ban-dtc-ads/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
@@ -14878,7 +15218,8 @@
     "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/pharmalot/2026/08/03/sandoz-to-settle-price-fixing-allegations/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/pharmalot/2026/08/04/latest-orphan-drug-exemptions-may-not-be-warranted-analysis-finds/": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/04/lilly-expands-retatrutide-access-program-gilead-court-victory/": "2026-08-05T09:35:19.884935+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/04/lilly-expands-retatrutide-access-program-gilead-court-victory/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/05/medicare-pilot-orphan-drugs-pfizer-cutbacks/": "2026-08-06T09:39:06.238482+00:00"
   },
   "takedowns": []
 }
