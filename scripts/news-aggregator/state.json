@@ -15022,9 +15022,334 @@
         "functional-genomics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "The US medicines regulator, the FDA, has approved a new type of flu vaccine made by the company Moderna. This vaccine uses a technology called messenger RNA — often written mRNA — which was also used in some COVID-19 vaccines. Instead of containing parts of the flu virus, the vaccine gives the body's cells instructions to recognise the virus and prepare an immune response.\n\nThis is the first time an mRNA flu vaccine has been officially approved anywhere. Researchers and public health officials are interested in the technology because it can be updated more quickly than traditional flu vaccines when the circulating strains change each year.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "FDA approves Moderna's mRNA influenza vaccine, the first of its kind",
+      "is_preprint": false,
+      "run_date": "2026-08-07",
+      "run_iso": "2026-08-07T08:10:47Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 8,
+        "newest_iso": "2026-08-06T12:10:18Z",
+        "novelty": 9
+      },
+      "slug": "mrna-flu-vaccine-moderna-mflusiva-fda-approval",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/05/AdobeStock_525738206_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-06T02:18:37Z",
+          "publisher": "Stat News",
+          "title": "FDA approves Moderna's mRNA flu vaccine, the first to use the technology",
+          "url": "https://www.statnews.com/2026/08/05/fda-approves-moderna-mflusiva-first-mrna-flu-vaccine/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/06/GettyImages-2276972565-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-08-06T12:10:18Z",
+          "publisher": "Stat News",
+          "title": "Opinion: One year since Kennedy canceled mRNA vaccine projects, science shows how wrong he was",
+          "url": "https://www.statnews.com/2026/08/06/mflusiva-fda-mrna-flu-vaccine-rfk-jr/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/07/FDA-EXT-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-08-06T13:49:23Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Two FDA approvals — a new drug and a new vaccine",
+          "url": "https://www.statnews.com/2026/08/06/biotech-news-two-fda-approvals-a-new-drug-and-a-new-vaccine/"
+        }
+      ],
+      "standfirst": "The US Food and Drug Administration has licensed mFluSIva, Moderna's messenger RNA flu shot, marking the first regulatory approval of mRNA technology for influenza.",
+      "summary": "The US Food and Drug Administration approved Moderna's influenza vaccine mFluSIva on 5 August 2026, making it the first licensed flu shot produced using messenger RNA technology — the same platform underlying the approved COVID-19 vaccines. The decision follows a Phase 3 clinical programme and comes roughly a year after federal cancellation of several mRNA vaccine development contracts.\n\nStat News reports that the approval was accompanied by a parallel FDA authorisation of a narcolepsy drug made by Takeda, though the influenza vaccine attracted the greater share of public commentary. An opinion piece published on the same day in Stat News, written by Jeff Coller, argues that the US remains the only major country stepping back from mRNA vaccine development at a policy level, characterising the approval as evidence that the underlying science is advancing regardless of earlier governmental decisions.\n\nThe mRNA platform encodes instructions for the immune system to recognise the influenza virus, without using live or inactivated viral material. Regulatory watchers and vaccine researchers will be interested in how annual strain-update procedures for an mRNA flu shot will be handled in practice — a process that is quicker to redesign on the mRNA platform than with egg-based or recombinant protein approaches, though real-world effectiveness data against circulating strains will emerge only after deployment.",
+      "tags": [
+        "mrna-vaccine",
+        "influenza",
+        "fda-approval",
+        "moderna",
+        "vaccine-technology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "FDA approves Replimune's oncolytic virus treatment RP1 for advanced melanoma",
+      "is_preprint": false,
+      "run_date": "2026-08-07",
+      "run_iso": "2026-08-07T08:10:47Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-08-06T19:59:28Z",
+        "novelty": 6
+      },
+      "slug": "replimune-rp1-melanoma-fda-approval",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2023/04/AdobeStock_521699065_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-06T19:59:28Z",
+          "publisher": "Stat News",
+          "title": "STAT+: FDA approves Replimune melanoma drug previously rejected twice",
+          "url": "https://www.statnews.com/2026/08/06/replimune-melanoma-drug-rp1-fda-approves-phase-3-confirmatory-trial/"
+        }
+      ],
+      "standfirst": "Replimune's oncolytic virus therapy RP1 has received FDA approval for advanced melanoma after two prior rejections, completing a prolonged regulatory journey reported by Stat News.",
+      "summary": "The US Food and Drug Administration has approved Replimune's RP1 (vusolimogene oderparepvec) for the treatment of advanced melanoma, according to Stat News reporting from 6 August 2026. The approval follows two earlier FDA rejections and comes after a Phase 3 confirmatory trial programme, representing a notable outcome for both the company and patient advocacy groups that had campaigned for access to the treatment.\n\nRP1 is an engineered herpes simplex virus-based oncolytic therapy designed to replicate selectively within tumour cells and stimulate an immune response against the cancer. The FDA's earlier rejections had centred on questions about the evidence base; the confirmatory Phase 3 data appear to have satisfied the agency's requirements.\n\nAn FDA advisory committee had voted in favour of the treatment in a session reported by Genetic Current on 31 July 2026. The approval is notable for the oncolytic virus field more broadly, as it provides a regulatory precedent for this class of immunotherapy in solid tumours. Genetic Current covered the advisory committee vote in detail on 31 July; readers seeking background on the mechanism and clinical programme should refer to that cluster.",
+      "tags": [
+        "melanoma",
+        "oncolytic-virus",
+        "fda-approval",
+        "immunotherapy",
+        "replimune",
+        "cancer-drug-approval"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Reversing paternal obesity before conception remodels sperm RNA and reduces metabolic risk in mouse offspring",
+      "is_preprint": true,
+      "run_date": "2026-08-07",
+      "run_iso": "2026-08-07T08:10:47Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-08-06T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "paternal-obesity-sperm-rna-intergenerational-metabolic-risk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Paternal Metabolic Reversal Remodels Sperm RNA Profiles and Ameliorates Intergenerational Metabolic Disorder in Mice",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.31.742153v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint mouse study finds that diet and exercise reversal in obese male mice reshapes sperm RNA profiles and partially protects the next generation from metabolic disorders, suggesting an epigenetic mechanism for intergenerational inheritance.",
+      "summary": "A preprint posted to bioRxiv from researchers using outbred CD1 mice reports that the metabolic risk passed from obese fathers to their offspring can be substantially reduced if the father returns to a healthy diet and begins voluntary exercise before conception. The study, which has not yet been peer-reviewed, used a within-sire design — meaning the same male mice fathered offspring both during and after a period of high-fat diet exposure — allowing a direct comparison that controls for genetic background.\n\nHigh-fat diet caused obesity, glucose intolerance, and insulin resistance in the father mice, along with extensive remodelling of sperm messenger RNA, long non-coding RNA, and small non-coding RNA profiles, as well as transcriptomic changes in metabolic tissues. When the same males were switched to a matched control diet and given access to voluntary exercise, sperm RNA profiles shifted back towards those seen in lean males, and offspring born after the reversal showed reduced metabolic dysfunction compared with offspring born during the obese period.\n\nThe findings add to a growing body of research on intergenerational epigenetic inheritance via the paternal germline, suggesting that sperm small non-coding RNAs and mRNAs may be one vehicle through which paternal metabolic state is communicated to offspring. As a preprint, these results have not been peer-reviewed and should be interpreted with appropriate caution.",
+      "tags": [
+        "intergenerational-epigenetics",
+        "sperm-rna",
+        "paternal-effects",
+        "metabolic-disease",
+        "epigenetic-inheritance",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Genomes of 78 Arabidopsis Col-0 laboratory strains reveal decades of silent genetic and epigenetic drift",
+      "is_preprint": true,
+      "run_date": "2026-08-07",
+      "run_iso": "2026-08-07T08:10:47Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-06T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "arabidopsis-col0-lineage-genetic-epigenetic-divergence",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genetic and epigenetic divergence among Arabidopsis thaliana Col-0 laboratory lineages since the 1950s",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.05.743031v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint sequencing study finds that the Columbia-0 reference strain of Arabidopsis thaliana has accumulated measurable genetic and epigenetic variation across independently propagated laboratory lineages since the 1950s, with implications for reproducibility in plant genetics.",
+      "summary": "Researchers have sequenced the genomes and DNA methylomes of 78 Columbia-0 (Col-0) strains of the model plant Arabidopsis thaliana, sourced from laboratories and stock centres around the world, according to a preprint deposited on bioRxiv. Col-0 has served as the reference genotype for plant biology since the 1950s, when it was widely adopted and subsequently distributed through seed sharing among laboratories worldwide.\n\nThe study reconstructs the propagation history of these strains and finds that independent propagation over approximately seven decades has produced measurable genetic divergence — including single nucleotide variants and small structural differences — as well as epigenetic variation in DNA methylation patterns. The extent of divergence varies with the inferred propagation history of each lineage.\n\nFor plant geneticists and researchers working with Arabidopsis, the findings carry practical implications for experimental reproducibility. Studies comparing results across different Col-0 strains may need to account for the possibility that the strains are not genetically or epigenetically identical, even when nominally described as the same reference accession. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "arabidopsis",
+        "reference-genome",
+        "epigenetic-drift",
+        "dna-methylation",
+        "plant-genetics",
+        "reproducibility",
+        "model-organisms",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Yeast study finds cohesin suppresses unequal exchanges between sister chromatids at repetitive sequences",
+      "is_preprint": true,
+      "run_date": "2026-08-07",
+      "run_iso": "2026-08-07T08:10:47Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-06T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "cohesin-unequal-sister-chromatid-exchange-genomic-stability",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cohesin promotes genomic stability by suppressing unequal sister chromatid exchange",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.31.742155v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from yeast experiments identifies a role for the cohesin complex in preventing unequal sister chromatid exchange at repetitive genomic regions, extending the known functions of this critical genome-stability factor.",
+      "summary": "Research posted to bioRxiv from a yeast model system reports that the protein complex cohesin suppresses unequal sister chromatid exchange (USCE) between repetitive DNA sequences, adding a previously undercharacterised function to cohesin's well-established roles in genome stability.\n\nCohesin is known to tether sister chromatids together from DNA replication through to chromosome segregation at cell division. Its roles in preventing aneuploidy — by ensuring sister kinetochores attach to opposite spindle poles — and in biasing DNA repair towards sister chromatids rather than homologous chromosomes are well documented. The current preprint investigates whether cohesin additionally reduces the risk of misaligned recombination between repetitive sequences on the same pair of sister chromatids, a process that can generate copy-number changes and loss of heterozygosity.\n\nThe experimental results indicate that cohesin does act to suppress USCE at repetitive loci in yeast. The authors suggest this function may be relevant to understanding why mutations in cohesin subunits and cohesin-loading factors are frequently found in human cancers and in developmental syndromes such as Cornelia de Lange syndrome. As a preprint, these findings await peer review.",
+      "tags": [
+        "cohesin",
+        "sister-chromatid-exchange",
+        "genomic-stability",
+        "repetitive-sequences",
+        "dna-repair",
+        "yeast-model",
+        "chromosome-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Ancient DNA from 534 Iron Age burials points to matrilineal social organisation in northeast England",
+      "is_preprint": true,
+      "run_date": "2026-08-07",
+      "run_iso": "2026-08-07T08:10:47Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-08-06T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "iron-age-britain-arras-culture-matrilineal-ancient-dna",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Ancient DNA reveals matrilineal organisation and recurrent unions between dominant matrilines in Iron Age Britain",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.03.742615v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint analysing genome-wide data from the Arras Culture of Middle Iron Age northeast England, including 390 individuals from Wetwang, finds evidence for matrilineal descent and recurrent unions between dominant matrilines.",
+      "summary": "A preprint posted to bioRxiv reports genome-wide ancient DNA analysis of 534 individuals associated with the Arras Culture of Middle Iron Age northeast England, with 390 individuals drawn from the well-known Wetwang burial site. The study, which has not yet been peer-reviewed, uses patterns of biological relatedness to infer aspects of social organisation that are otherwise invisible in the archaeological record.\n\nThe authors find evidence consistent with matrilineal organisation — that is, descent and group membership traced through the female line — and identify recurrent reproductive unions between individuals from dominant matrilines across generations. The findings add to a growing body of ancient DNA research examining how biological relatedness mapped onto social structures in prehistoric and protohistoric European societies.\n\nThe Arras Culture is characterised by distinctive square-barrow burial traditions and has long been of interest to archaeologists seeking to understand social complexity in Iron Age Britain. The ancient DNA results suggest that kinship practices in this population were structured in ways that would have shaped inheritance, residence patterns, and alliance formation. As a preprint, the analysis has not yet undergone peer review, and interpretations linking biological relatedness to specific social institutions should be read as hypotheses to be tested against further evidence.",
+      "tags": [
+        "ancient-dna",
+        "iron-age",
+        "matrilineal-kinship",
+        "arras-culture",
+        "archaeogenomics",
+        "british-prehistory",
+        "social-organisation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "MMMAS: open-source tool flags pedigree errors and duplicate accessions in large germplasm collections",
+      "is_preprint": true,
+      "run_date": "2026-08-07",
+      "run_iso": "2026-08-07T08:10:47Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-08-06T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "mmmas-mendelian-mismatch-matrix-germplasm-pedigree",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "MMMAS: A Mendelian Mismatch Matrix Analysis System for Deterministic Pre-Screening of Germplasm Collections",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.02.742285v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces MMMAS v1.0.0, an open-source system that converts pairwise Mendelian mismatch counts into population-scale diagnostics for detecting erroneous pedigree records, duplicate accessions, and undocumented kinship in germplasm repositories.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing MMMAS (Mendelian Mismatch Matrix Analysis System) v1.0.0, an open-source software tool designed to improve the quality of pedigree and kinship information held in large germplasm collections, which are repositories of plant genetic material used in crop breeding and conservation research.\n\nThe tool converts pairwise Mendelian mismatch numbers — counts of loci at which the genotypes of two individuals are inconsistent with the expected inheritance pattern given their recorded relationship — into an N × N matrix across an entire collection. From this matrix, MMMAS derives five population-scale diagnostics intended to detect erroneous pedigree records, duplicate accessions, and previously undocumented kinship relationships.\n\nGermplasm collections underpin much of modern plant breeding and genetic research, but their pedigree records are frequently incomplete or contain errors accumulated through decades of seed sharing and inadequate documentation. Tools that can flag these issues computationally before they propagate into downstream analyses are of practical value to plant breeders, conservation geneticists, and researchers using these collections as mapping populations. MMMAS is positioned as a pre-screening step rather than a replacement for more detailed relatedness analyses. As a preprint, the tool and its validation have not yet been peer-reviewed.",
+      "tags": [
+        "germplasm",
+        "pedigree-error-detection",
+        "plant-breeding",
+        "mendelian-mismatch",
+        "bioinformatics",
+        "crop-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-06T09:39:06.238482+00:00",
+  "last_run": "2026-08-07T08:12:55.445595+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012235": "2026-08-04T09:38:20.539516+00:00",
@@ -15061,6 +15386,11 @@
     "https://www.biorxiv.org/content/10.64898/2026.07.30.741666v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.31.741938v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.31.742092v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.31.742153v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.07.31.742155v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.02.742285v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.03.742615v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.05.743031v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
     "https://www.england.nhs.uk/2026/07/hundreds-thousands-women-access-free-morning-after-pill-nhs-pharmacies-first-5-months/": "2026-07-28T09:34:46.405700+00:00",
     "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
     "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
@@ -15085,7 +15415,11 @@
     "https://www.sciencedaily.com/releases/2026/08/260802223433.htm": "2026-08-04T09:38:20.539516+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260802223437.htm": "2026-08-04T09:38:20.539516+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260803080911.htm": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260803080923.htm": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260804034638.htm": "2026-08-07T08:12:55.445595+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260804034644.htm": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260805082455.htm": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260806051943.htm": "2026-08-07T08:12:55.445595+00:00",
     "https://www.statnews.com/2026/07/23/cyclospora-second-outbreak-reported-fda-cites-72-new-cases/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/erica-schwartz-cdc-director-vote-delayed/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/2026/07/23/fda-panel-okays-peptides-compound-pharmacies-bpc-157-kpv/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
@@ -15182,19 +15516,31 @@
     "https://www.statnews.com/2026/08/05/biotech-news-moderna-launches-early-ebola-mrna-vaccine-trial/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/05/china-clinical-trial-fatality-safety-questions-investigator-led-studies/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/05/cms-drug-pricing-pilot-programs-rare-disease-drugs/": "2026-08-06T09:39:06.238482+00:00",
-    "https://www.statnews.com/2026/08/05/fecal-microbiome-transplant-for-peanut-food-allergy/": "2026-08-06T09:39:06.238482+00:00",
-    "https://www.statnews.com/2026/08/05/federal-regulators-invite-industry-closed-door-meetings-clinical-ai/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/fda-approves-moderna-mflusiva-first-mrna-flu-vaccine/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/05/fecal-microbiome-transplant-for-peanut-food-allergy/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/05/federal-regulators-invite-industry-closed-door-meetings-clinical-ai/": "2026-08-07T08:12:55.445595+00:00",
     "https://www.statnews.com/2026/08/05/health-news-aba-therapy-for-children-with-autism-faces-changes-under-medicaid/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/05/md-vs-do-medical-education-merge/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/05/new-york-medical-aid-dying-assisted-suicide-room-next-door-movies/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/05/prostate-cancer-screening-biopsy-vs-mri-debate/": "2026-08-06T09:39:06.238482+00:00",
-    "https://www.statnews.com/2026/08/05/senate-confirms-dr-erica-schwartz-new-cdc-director/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/senate-confirms-dr-erica-schwartz-new-cdc-director/": "2026-08-07T08:12:55.445595+00:00",
     "https://www.statnews.com/2026/08/05/senator-ron-wyden-investigation-kennedy-flavored-vapes-kratom/": "2026-08-06T09:39:06.238482+00:00",
-    "https://www.statnews.com/2026/08/05/takeda-narcolepsy-drug-fda-approval-orzeyful/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/05/takeda-narcolepsy-drug-fda-approval-orzeyful/": "2026-08-07T08:12:55.445595+00:00",
     "https://www.statnews.com/2026/08/05/they-changed-their-minds-on-ai-whos-next-ai-prognosis/": "2026-08-06T09:39:06.238482+00:00",
-    "https://www.statnews.com/2026/08/06/ai-health-care-skepticism-advances-nature-medicine-scribe-sepsis/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/06/ai-health-care-skepticism-advances-nature-medicine-scribe-sepsis/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/anthony-fauci-fifth-amendment-rand-paul-seeks-criminal-contempt/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/biotech-news-two-fda-approvals-a-new-drug-and-a-new-vaccine/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/cms-medicare-pilot-access-patient-info-health-tech/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/covid-accountability-9-11-style-commission-needed-not-fauci-bashing/": "2026-08-07T08:12:55.445595+00:00",
     "https://www.statnews.com/2026/08/06/fda-approves-moderna-mflusiva-first-mrna-flu-vaccine/": "2026-08-06T09:39:06.238482+00:00",
-    "https://www.statnews.com/2026/08/06/measles-elimination-status-2026-paho/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/2026/08/06/greg-verdine-lifemine-parabilis-research/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/health-news-covid-can-reactivate-dormant-viruses-study-finds/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/measles-elimination-status-2026-paho/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/mflusiva-fda-mrna-flu-vaccine-rfk-jr/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/replimune-melanoma-drug-rp1-fda-approves-phase-3-confirmatory-trial/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/research-finds-how-tau-targets-cells-structure-alzheimers-drug-development/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/tenax-study-heart-failure-preview/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/2026/08/06/us-to-shut-kentucky-organ-donation-group-safety-concerns/": "2026-08-07T08:12:55.445595+00:00",
     "https://www.statnews.com/pharmalot/2026/07/23/european-medicines-agency-bolster-clinical-trials-transparency/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/pharmalot/2026/07/23/fda-urged-by-advocacy-group-to-ban-dtc-prescription-drug-ads/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
     "https://www.statnews.com/pharmalot/2026/07/23/lilly-obesity-drug-data-fda-asked-to-ban-dtc-ads/?utm_campaign=rss": "2026-07-24T09:19:49.155114+00:00",
@@ -15219,7 +15565,9 @@
     "https://www.statnews.com/pharmalot/2026/08/03/sandoz-to-settle-price-fixing-allegations/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/pharmalot/2026/08/04/latest-orphan-drug-exemptions-may-not-be-warranted-analysis-finds/": "2026-08-05T09:35:19.884935+00:00",
     "https://www.statnews.com/pharmalot/2026/08/04/lilly-expands-retatrutide-access-program-gilead-court-victory/": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/05/medicare-pilot-orphan-drugs-pfizer-cutbacks/": "2026-08-06T09:39:06.238482+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/05/medicare-pilot-orphan-drugs-pfizer-cutbacks/": "2026-08-06T09:39:06.238482+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/06/medicare-gave-blockbuster-abbvie-drug-seven-extra-years-before-price-negotiations/": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/06/moderna-flu-shot-gene-editing-trial-death-pharmalittle-newsletter/": "2026-08-07T08:12:55.445595+00:00"
   },
   "takedowns": []
 }
