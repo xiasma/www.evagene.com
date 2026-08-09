@@ -15518,13 +15518,55 @@
         "crop-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": "Scientists are trying to understand why some people find it harder than others to stop using cocaine. Part of the answer may lie in genetics — the biological instructions inherited from our parents. To explore this, researchers used a specially bred group of rats with a wide range of genetic variation, similar in some ways to the variation seen across human populations. They carried out a large-scale scan of the rats' genomes — all of their DNA — to look for regions that might influence how animals learn to avoid unpleasant experiences, and how they respond to the negative effects of cocaine such as anxiety and withdrawal.\n\nThe idea is that understanding the genetic roots of these responses in animals might eventually help scientists understand why cocaine use disorder affects some people more severely than others. This research is at an early, exploratory stage and has not yet been reviewed by independent scientists.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "GWAS in Heterogeneous Stock rats maps loci for aversion learning and cocaine aversion",
+      "is_preprint": true,
+      "run_date": "2026-08-09",
+      "run_iso": "2026-08-09T07:51:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-08T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gwas-heterogeneous-stock-rats-cocaine-aversion-learning",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genome-wide association study in Heterogeneous Stock rats identifies genetic loci associated with aversion-based learning and cocaine aversion",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.07.743619v1?rss=1"
+        }
+      ],
+      "standfirst": "A genome-wide association study in an outbred rat population identifies genetic loci linked to aversion-based learning and to the negative reinforcement processes thought to underlie cocaine use disorder.",
+      "summary": "Researchers have posted a preprint on bioRxiv describing a genome-wide association study (GWAS) conducted in Heterogeneous Stock (HS) rats — a genetically diverse, purpose-bred outbred population widely used in behavioural genetics — to identify loci associated with aversion-based learning and cocaine aversion.\n\nThe study begins from the premise that cocaine use disorder (CUD) is a heritable, multi-stage condition. Early stages are dominated by the drug's rewarding effects, but with repeated exposure, aversive effects — including anxiety, craving, anhedonia, and withdrawal — become increasingly prominent. Current models propose that sensitisation to these aversive effects, alongside desensitisation to reward, drives compulsive use through aberrant reward- and aversion-based learning pathways.\n\nBy leveraging the high recombination density of HS rats relative to inbred strains, the team aimed to map quantitative trait loci at finer resolution than classical rat models permit. The GWAS framework applied here treats individual differences in aversion learning as quantitative phenotypes, allowing the researchers to search for partially overlapping genetic architectures across the different stages of addiction-related behaviour.\n\nAs a preprint, this work has not yet undergone peer review, and the specific loci reported should be regarded as preliminary. The findings contribute to a growing body of animal-model GWAS literature aimed at dissecting the polygenic basis of substance use disorder risk, and may inform future translational research connecting rat quantitative trait loci to human genomic data.",
+      "tags": [
+        "gwas",
+        "cocaine-use-disorder",
+        "aversion-learning",
+        "heterogeneous-stock-rats",
+        "addiction-genetics",
+        "animal-models",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-08T07:46:18.676027+00:00",
+  "last_run": "2026-08-09T07:51:32.600587+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012235": "2026-08-04T09:38:20.539516+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012241": "2026-07-25T08:59:52.790968+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012256": "2026-08-05T09:35:19.884935+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012257": "2026-07-31T09:50:08.624072+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012258": "2026-07-31T09:50:08.624072+00:00",
@@ -15534,9 +15576,7 @@
     "https://news.cancerresearchuk.org/2026/08/04/a-legacy-written-in-dna/": "2026-08-05T09:35:19.884935+00:00",
     "https://news.cancerresearchuk.org/2026/08/04/boosting-clinical-trials-will-the-national-cancer-plan-deliver/": "2026-08-04T09:38:20.539516+00:00",
     "https://news.cancerresearchuk.org/2026/08/05/cancer-in-motion-how-computation-is-reshaping-our-view-of-tumours/": "2026-08-06T09:39:06.238482+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.21.739894v1?rss=1": "2026-07-25T08:59:52.790968+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.21.739920v1?rss=1": "2026-07-26T09:10:03.707450+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.24.740321v1?rss=1": "2026-07-25T08:59:52.790968+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.26.740854v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.740859v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741005v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
@@ -15561,13 +15601,10 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.03.742429v1?rss=1": "2026-08-08T07:46:18.676027+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.03.742615v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743031v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.07.743619v1?rss=1": "2026-08-09T07:51:32.600587+00:00",
     "https://www.england.nhs.uk/2026/07/hundreds-thousands-women-access-free-morning-after-pill-nhs-pharmacies-first-5-months/": "2026-07-28T09:34:46.405700+00:00",
     "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
     "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260715083554.htm": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260719230608.htm": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260723084856.htm": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260724061432.htm": "2026-07-25T08:59:52.790968+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260726015236.htm": "2026-07-27T10:39:43.886984+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260726015250.htm": "2026-07-27T10:39:43.886984+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260727012123.htm": "2026-07-28T09:34:46.405700+00:00",
@@ -15590,11 +15627,7 @@
     "https://www.sciencedaily.com/releases/2026/08/260806050700.htm": "2026-08-08T07:46:18.676027+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260806050717.htm": "2026-08-08T07:46:18.676027+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260806051943.htm": "2026-08-07T08:12:55.445595+00:00",
-    "https://www.statnews.com/2026/07/24/biotech-news-fatal-gene-editing-trial-in-china-raises-ethics-questions/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.statnews.com/2026/07/24/cyclospora-outbreak-contradiction-eat-real-food-less-safety-monitoring/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
     "https://www.statnews.com/2026/07/24/fda-peptide-compounding-panel-backs-epitalon-rejects-emideltide/?utm_campaign=rss": "2026-07-26T09:10:03.707450+00:00",
-    "https://www.statnews.com/2026/07/24/health-news-new-separate-cyclospora-diarrhea-outbreak/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.statnews.com/2026/07/24/measles-cases-surpass-2025-total-national-vaccination-rate-now-below-key-threshold/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
     "https://www.statnews.com/2026/07/27/argenx-acquire-forte-biosciences-autoimmune-diseases/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
     "https://www.statnews.com/2026/07/27/e-bikes-scooters-children-teens-safety-orthopedics-research/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
     "https://www.statnews.com/2026/07/27/fda-efficacy-doubts-capricor-therapeutics-duchenne-muscular-dystrophy/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
@@ -15710,9 +15743,6 @@
     "https://www.statnews.com/2026/08/07/medical-ai-doctors-autonomy/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/2026/08/07/nih-k99-pathways-independence-awards-scientists-on-visas-barred/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/2026/08/07/why-did-this-boston-entrepreneur-found-his-biotech-startup-in-california/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/24/fda-panel-peptides-merck-hiv-pill-license/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/24/merck-experimental-hiv-prevention-pill-licensing-deals/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/24/up-and-down-the-ladder-rigel-sanofi-pharma-jobs/?utm_campaign=rss": "2026-07-25T08:59:52.790968+00:00",
     "https://www.statnews.com/pharmalot/2026/07/27/fda-panel-peptide-votes-amgen-fights-tavneos-withdrawal/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/pharmalot/2026/07/27/hiv-resurgence-is-feared-as-global-fund-to-combat-the-disease-falls-18-percent/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/pharmalot/2026/07/28/fda-duchenne-drug-gsk-cost-savings-plan/": "2026-07-29T09:35:51.922527+00:00",
