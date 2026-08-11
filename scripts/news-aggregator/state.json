@@ -15786,21 +15786,245 @@
         "quantitative-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Cells continuously break down proteins that are old, damaged, or no longer needed. This process — carried out by a system called the ubiquitin–proteasome system — is important for keeping cells healthy. When it fails, damaged proteins can build up, which is linked to brain diseases that appear later in life, such as Parkinson's disease.\n\nResearchers studying a tiny worm called C. elegans have found that a particular protein involved in this clean-up process has an unusual feature: a long stretch with no lysine building blocks at all. The team showed that this \"lysine desert\" is not an accident — it is essential for the protein to do its job properly, especially when the clean-up system is under strain.\n\nThe research was published in the journal PLOS Genetics. It is an early-stage study in a laboratory animal and does not lead directly to new treatments, but it adds to scientific understanding of how cells manage protein quality.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Lysine-free protein region found critical for ubiquitin–proteasome system stability",
+      "is_preprint": false,
+      "run_date": "2026-08-11",
+      "run_iso": "2026-08-11T08:07:24Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-08-10T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "eel-1-huwe1-ubiquitin-proteasome-lysine-desert",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-10T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Lysine deficiency within a conserved lysine desert is critical for EEL-1/HUWE1 to support ubiquitin proteasome system function",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012273"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study in C. elegans identifies how a conserved lysine-depleted region in the E3 ubiquitin ligase EEL-1/HUWE1 maintains protein-degradation capacity under stress.",
+      "summary": "Researchers led by Katherine S. Yanagi, Brenda J. Chen, and colleagues, publishing in PLOS Genetics, have identified a structural feature of the E3 ubiquitin ligase EEL-1 — the C. elegans orthologue of the human HUWE1 protein — that is essential for normal functioning of the ubiquitin–proteasome system (UPS).\n\nUsing a genetic screen in the nematode Caenorhabditis elegans, the team found that a stretch of the protein conspicuously lacking lysine residues — termed a \"lysine desert\" — is not incidental to the protein's architecture but functionally critical. Introducing lysine residues into this region impaired the UPS, the cellular machinery responsible for tagging and destroying damaged, misfolded, or surplus proteins. The team further showed that EEL-1/HUWE1 supports UPS function specifically when the system is placed under stress.\n\nHUWE1 is highly conserved across species, including humans, and disrupted UPS activity has been linked to a range of age-associated neurodegenerative conditions, including Parkinson's and Huntington's diseases. The authors note that understanding how the UPS maintains efficiency during stress may open avenues for future research into diseases characterised by protein aggregation. The study does not advance clinical claims; it describes a mechanistic discovery in a model organism.",
+      "tags": [
+        "ubiquitin-proteasome",
+        "huwe1",
+        "eel-1",
+        "c-elegans",
+        "proteostasis",
+        "neurodegeneration",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Single-cell atlas of pig pituitary reveals genetic basis of high-altitude hypoxia adaptation",
+      "is_preprint": false,
+      "run_date": "2026-08-11",
+      "run_iso": "2026-08-11T08:07:24Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-10T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "pig-pituitary-single-cell-high-altitude-hypoxia",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-10T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Integrating short-read and long-read single-cell transcriptomics of pig pituitary reveals mechanisms of high-altitude hypoxia adaptation",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012267"
+        }
+      ],
+      "standfirst": "Combining Oxford Nanopore and Illumina single-cell sequencing, researchers have mapped how the pituitary gland of Tibetan pigs differs from lowland counterparts at cell-type resolution.",
+      "summary": "A team led by Hai Li, Xudong Wu, and colleagues has published in PLOS Genetics a full-length single-cell transcriptomic atlas of the pig pituitary gland, comparing animals from two genetically distinct populations: Diqing Tibetan pigs, which inhabit high-altitude environments at roughly 3,200 metres, and Diannan small-ear pigs from lowland regions at approximately 500 metres.\n\nThe study is notable for its methodological integration: the researchers combined short-read Illumina sequencing with long-read Oxford Nanopore Technology (ONT) single-cell sequencing, allowing them to capture full-length transcripts and identify novel isoforms that shorter reads would miss. The pituitary gland, which acts as the central endocrine hub coordinating hormonal responses to environmental stress, was chosen because of its likely role in hypoxia adaptation.\n\nThe atlas revealed distinct cell-type-specific gene expression differences between high- and low-altitude populations, implicating specific transcription factors and signalling pathways in altitude adaptation. The authors suggest the findings could inform broader research into how vertebrates adapt to oxygen-limited environments, with potential relevance for understanding hypoxia responses in other mammals, including humans.\n\nThis is a comparative genomics and transcriptomics study in an agricultural animal model; the authors make no clinical claims.",
+      "tags": [
+        "single-cell-transcriptomics",
+        "hypoxia-adaptation",
+        "pituitary",
+        "long-read-sequencing",
+        "pig-genomics",
+        "altitude-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Social isolation upregulates takeout gene in female flies to drive increased sugar-seeking",
+      "is_preprint": false,
+      "run_date": "2026-08-11",
+      "run_iso": "2026-08-11T08:07:24Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-08-10T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "drosophila-social-isolation-takeout-sucrose-preference",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-10T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Social isolation upregulates takeout expression in female Drosophila melanogaster to promote sucrose preference",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011985"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study in Drosophila melanogaster identifies sex-specific transcriptomic changes — including elevated takeout expression — that link social isolation to altered feeding behaviour.",
+      "summary": "Researchers led by Elisabeth A. Tawa, Lisa Schneper, Daniel A. Notterman, and colleagues have published in PLOS Genetics a study examining how social isolation changes gene expression and behaviour differently in male and female Drosophila melanogaster.\n\nAdult flies were housed in isolation for seven days and then assessed for a range of behaviours and transcriptomic changes. The team found significant sex-based differences: isolated female flies showed increased preference for sucrose, while isolated males did not display the same effect to the same degree. Transcriptomic analysis identified elevated expression of the gene takeout in the brains of isolated females as a key driver of this heightened sucrose preference. takeout encodes a protein previously associated with feeding regulation and circadian timing in Drosophila.\n\nThe study adds to a body of research — much of it in invertebrate model systems — suggesting that social isolation induces brain states resembling starvation, and that these effects are not uniform across sexes. The authors used genetic tools to confirm the role of takeout specifically, moving beyond correlational transcriptomics to a mechanistic finding.\n\nThe research is a model-organism study; the authors draw no direct conclusions about human behaviour or clinical implications, though the findings contribute to the broader scientific literature on how social environment shapes gene expression in the nervous system.",
+      "tags": [
+        "drosophila",
+        "social-isolation",
+        "takeout",
+        "feeding-behaviour",
+        "sex-differences",
+        "transcriptomics",
+        "neurobiology",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: telomere variant sequences shown to encode allele-specific telomere length blueprint",
+      "is_preprint": true,
+      "run_date": "2026-08-11",
+      "run_iso": "2026-08-11T08:07:24Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-08-10T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "telomere-variant-sequences-allele-specific-length",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Telomere variant sequences encode the genetic blueprint for allele-specific telomere length",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.04.741677v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint combining PacBio and Nanopore long-read sequencing reports that sequence variation within telomeric repeats determines allele-specific telomere length, set at birth and maintained across cell divisions.",
+      "summary": "A preprint posted to bioRxiv describes a high-resolution sequencing workflow — combining PacBio and Oxford Nanopore long-read platforms — that resolves telomere sequences at the level of individual alleles across all chromosome ends simultaneously.\n\nThe researchers report that variant sequences embedded within the canonical telomeric repeat array are not random noise but encode what they describe as a genetic blueprint for allele-specific telomere length. Using this approach, they found that differences in telomere length between homologous alleles are determined at birth and are maintained as telomeres shorten with age, suggesting an active, sequence-determined maintenance mechanism rather than stochastic variation.\n\nTelomere length has attracted research interest as a correlate of cellular ageing and as a germline-heritable trait linked to cancer susceptibility and rare telomere biology disorders such as dyskeratosis congenita. Understanding the molecular basis of allele-specific maintenance could clarify why individuals carry systematic differences in telomere length across their chromosomes and how those differences are propagated through development.\n\nThis work is a preprint and has not yet undergone peer review. The study is methodological and mechanistic; the authors draw no clinical conclusions.",
+      "tags": [
+        "telomere-biology",
+        "allele-specific-telomere-length",
+        "long-read-sequencing",
+        "pacbio",
+        "nanopore",
+        "telomere-variant-sequences",
+        "genome-stability",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "gps",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "FDA advisory panel set to evaluate Grail's Galleri multi-cancer early detection test",
+      "is_preprint": false,
+      "run_date": "2026-08-11",
+      "run_iso": "2026-08-11T08:07:24Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-08-10T14:48:07Z",
+        "novelty": 7
+      },
+      "slug": "grail-galleri-fda-advisory-panel-review",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/AdobeStock_684400241_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-10T14:48:07Z",
+          "publisher": "Stat News",
+          "title": "STAT+: FDA panel to weigh Grail's Galleri test",
+          "url": "https://www.statnews.com/2026/08/10/biotech-news-fda-panel-to-weigh-grail-galleri-test/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "An FDA advisory committee is scheduled to weigh the evidence for Grail's Galleri blood-based multi-cancer detection test, a decision with broad implications for the emerging field of cell-free DNA screening.",
+      "summary": "According to reporting in STAT News, a US Food and Drug Administration advisory panel is due to convene to evaluate Grail's Galleri test, a blood-based multi-cancer early detection (MCED) test that uses cell-free DNA methylation patterns to signal the presence of more than 50 cancer types and identify the tissue of origin.\n\nGalleri has been commercially available in the United States on a cash-pay basis since 2021 and has been the subject of large prospective studies, including the NHS-Galleri trial in England, which enrolled approximately 140,000 participants. FDA advisory committee meetings are a key step in the US regulatory review process for novel diagnostics; the panel's deliberations and vote will inform, but do not bind, a final FDA decision on approval.\n\nThe test represents a significant area of scientific and commercial interest in oncology, genomics, and public health, given questions about the clinical utility, optimal screening populations, and health-economic implications of population-level cancer signal detection. The advisory committee review is expected to examine the evidence from pivotal studies on sensitivity, specificity, and positive predictive value across cancer types.\n\nThis item is based on a STAT News news brief; full committee proceedings and primary evidence summaries will be published by the FDA ahead of the meeting.",
+      "tags": [
+        "galleri",
+        "grail",
+        "multi-cancer-early-detection",
+        "cell-free-dna",
+        "fda-advisory-committee",
+        "liquid-biopsy",
+        "cancer-screening-policy"
+      ]
     }
   ],
-  "last_run": "2026-08-10T08:25:48.748163+00:00",
+  "last_run": "2026-08-11T08:09:01.900318+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011985": "2026-08-11T08:09:01.900318+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012235": "2026-08-04T09:38:20.539516+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012256": "2026-08-05T09:35:19.884935+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012257": "2026-07-31T09:50:08.624072+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012258": "2026-07-31T09:50:08.624072+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012261": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012265": "2026-08-04T09:38:20.539516+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012267": "2026-08-11T08:09:01.900318+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012268": "2026-08-06T09:39:06.238482+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012273": "2026-08-11T08:09:01.900318+00:00",
     "https://news.cancerresearchuk.org/2026/08/04/a-legacy-written-in-dna/": "2026-08-05T09:35:19.884935+00:00",
     "https://news.cancerresearchuk.org/2026/08/04/boosting-clinical-trials-will-the-national-cancer-plan-deliver/": "2026-08-04T09:38:20.539516+00:00",
     "https://news.cancerresearchuk.org/2026/08/05/cancer-in-motion-how-computation-is-reshaping-our-view-of-tumours/": "2026-08-06T09:39:06.238482+00:00",
+    "https://news.cancerresearchuk.org/2026/08/10/latest-winner-in-our-research-is-beautiful-competition-5/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.26.740854v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.740859v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741005v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
@@ -15826,18 +16050,19 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.03.742429v1?rss=1": "2026-08-08T07:46:18.676027+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.03.742615v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.03.742661v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.04.741677v1?rss=1": "2026-08-11T08:09:01.900318+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.742148v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.742657v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.04.742818v1?rss=1": "2026-08-11T08:09:01.900318+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.742852v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.742908v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743031v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743150v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.07.743619v1?rss=1": "2026-08-09T07:51:32.600587+00:00",
     "https://www.england.nhs.uk/2026/07/hundreds-thousands-women-access-free-morning-after-pill-nhs-pharmacies-first-5-months/": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
     "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260726015236.htm": "2026-07-27T10:39:43.886984+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260726015250.htm": "2026-07-27T10:39:43.886984+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260727012123.htm": "2026-07-28T09:34:46.405700+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260727012134.htm": "2026-07-30T09:28:41.369469+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260727214616.htm": "2026-07-29T09:35:51.922527+00:00",
@@ -15859,12 +16084,8 @@
     "https://www.sciencedaily.com/releases/2026/08/260806050717.htm": "2026-08-08T07:46:18.676027+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260806051943.htm": "2026-08-07T08:12:55.445595+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260807235243.htm": "2026-08-10T08:25:48.748163+00:00",
-    "https://www.statnews.com/2026/07/27/argenx-acquire-forte-biosciences-autoimmune-diseases/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
-    "https://www.statnews.com/2026/07/27/e-bikes-scooters-children-teens-safety-orthopedics-research/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
     "https://www.statnews.com/2026/07/27/fda-efficacy-doubts-capricor-therapeutics-duchenne-muscular-dystrophy/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/2026/07/27/health-news-ultra-processed-baby-food-is-booming-is-it-okay/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
-    "https://www.statnews.com/2026/07/27/kennedy-medical-school-nutrition-training-cautious-adoption/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
-    "https://www.statnews.com/2026/07/27/midwives-vaccine-denial-misinformation-judgment/?utm_campaign=rss": "2026-07-27T10:39:43.886984+00:00",
     "https://www.statnews.com/2026/07/27/prescription-drug-spending-no-surprises-act-arbitration-costs-health-care-inc/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/2026/07/27/ra-captial-oak-hill-bio-spac-ultragenyx-ionis-angelman-syndrome/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/2026/07/27/sarepta-therapeutics-michael-severino-doug-ingram-duchenne-muscular-dystrophy/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
@@ -15974,6 +16195,18 @@
     "https://www.statnews.com/2026/08/07/medical-ai-doctors-autonomy/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/2026/08/07/nih-k99-pathways-independence-awards-scientists-on-visas-barred/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/2026/08/07/why-did-this-boston-entrepreneur-found-his-biotech-startup-in-california/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
+    "https://www.statnews.com/2026/08/10/advocate-ban-prior-authorization-340b-limits-impact-on-hospitals/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/biotech-news-fda-panel-to-weigh-grail-galleri-test/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/china-biotech-new-scrutiny-investigator-initiated-trials/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/ebola-outbreak-zaire-ebolavirus-bundibugyo-diagnostics-therapeutics/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/itm-radiopharma-fda-rejection/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/medicaid-work-requirement-changes-states-contact/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/radiopharmaceuticals-clinical-trials-progress-setbacks/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/rfk-jr-proposal-fda-gras-rule-generally-recognized-as-safe/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/silence-polycythemia-vera-trial-results-divesiran-takeda-rusfertide/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/sionna-cystic-fibrosis-trial-failures-sion719-vertex-trikaft/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/tenax-heart-failure-drug-trail-failure-levosimendan-ph-hfpef/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/10/trump-return-to-vaccine-policy-executive-order/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/pharmalot/2026/07/27/fda-panel-peptide-votes-amgen-fights-tavneos-withdrawal/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/pharmalot/2026/07/27/hiv-resurgence-is-feared-as-global-fund-to-combat-the-disease-falls-18-percent/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/pharmalot/2026/07/28/fda-duchenne-drug-gsk-cost-savings-plan/": "2026-07-29T09:35:51.922527+00:00",
@@ -15999,7 +16232,8 @@
     "https://www.statnews.com/pharmalot/2026/08/06/moderna-flu-shot-gene-editing-trial-death-pharmalittle-newsletter/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/pharmalot/2026/08/07/replimune-melanoma-drug-medicare-policy-change/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/pharmalot/2026/08/07/up-and-down-ladder-latest-comings-and-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/?utm_campaign=rss": "2026-08-10T08:25:48.748163+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/?utm_campaign=rss": "2026-08-10T08:25:48.748163+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00"
   },
   "takedowns": []
 }
