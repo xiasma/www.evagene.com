@@ -16006,9 +16006,187 @@
         "liquid-biopsy",
         "cancer-screening-policy"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "patients"
+      ],
+      "for_patients": "BOADICEA is a computer programme that doctors and genetic counsellors use to estimate how likely someone is to have an inherited form of breast or ovarian cancer based on their family history and genetic information. It powers a tool called CanRisk, used in UK genetics services.\n\nResearchers at the PHG Foundation have published a piece examining what improvements to this programme — including the addition of something called a polygenic risk score, which looks at many small genetic differences together rather than one large gene change — might mean for how healthcare systems offer this kind of risk assessment in future.\n\nThe article is about health policy and systems, not about individual results. It raises questions about fairness, data use, and how guidelines might need to change as the science develops.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "PHG Foundation examines health-policy implications of updated BOADICEA breast-cancer risk model",
+      "is_preprint": false,
+      "run_date": "2026-08-12",
+      "run_iso": "2026-08-12T08:13:27Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-08-11T09:07:48Z",
+        "novelty": 5
+      },
+      "slug": "boadicea-canrisk-polygenic-health-policy-phg",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-11T09:07:48Z",
+          "publisher": "PHG Foundation",
+          "title": "What the BOADICEA breakthrough means for health policy",
+          "url": "https://www.phgfoundation.org/blog/what-the-boadicea-breakthrough-means-for-health-policy/"
+        }
+      ],
+      "standfirst": "A new policy analysis from the PHG Foundation considers what an updated, polygenic-score-integrated BOADICEA model means for how familial breast-cancer risk should be assessed at a population level.",
+      "summary": "The PHG Foundation (University of Cambridge) has published a policy-focused commentary examining the implications of recent developments in the BOADICEA (Breast and Ovarian Analysis of Disease Incidence and Carrier Estimation Algorithm) model, which underpins CanRisk — the web-based tool used in UK clinical genetics services to estimate an individual woman's risk of hereditary breast and ovarian cancer syndromes.\n\nThe commentary focuses on BOADICEA's integration of polygenic risk scores alongside established high-penetrance gene variants such as BRCA1 and BRCA2, which allows the model to produce more granular risk stratification than was possible using monogenic information alone. PHG Foundation considers what this means for health-system design: whether population-level risk assessment should be offered more broadly, how models like CanRisk interact with existing NICE guidance on familial breast cancer, and what data-governance and equity considerations arise when polygenic scores derived from predominantly European ancestry populations are applied more widely.\n\nThe piece is a policy analysis rather than an original empirical study; it does not present new clinical data. PHG Foundation is an independent health-policy research group embedded within the University of Cambridge and has a longstanding focus on the responsible implementation of genomics in public health.\n\nFor genetic counsellors, clinical geneticists, and health-policy researchers, the commentary offers a useful synthesis of where BOADICEA and CanRisk currently sit in the policy landscape and what systemic questions remain unresolved as polygenic risk tools mature.",
+      "tags": [
+        "boadicea",
+        "canrisk",
+        "polygenic-risk-score",
+        "familial-breast-cancer",
+        "health-policy",
+        "brca1",
+        "brca2",
+        "public-health-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Connexin 26, made by a gene called GJB2, is a protein that helps cells in the inner ear communicate with each other. Inherited changes (variants) in the GJB2 gene are one of the most common genetic causes of deafness present from birth.\n\nA biotech company called Skylark Bio has started a clinical trial — an early-stage scientific study in people — to test a gene therapy that aims to address this specific cause of deafness. Several other companies are also running trials for different genetic causes of hearing loss.\n\nGene therapy for deafness works by delivering a working copy of the affected gene directly into the inner ear. Whether this will restore meaningful hearing in people is what this trial is designed to find out; results are not yet available.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Skylark Bio opens trial for GJB2-linked deafness as biotech race to target distinct genetic causes intensifies",
+      "is_preprint": false,
+      "run_date": "2026-08-12",
+      "run_iso": "2026-08-12T08:13:27Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-08-11T12:00:00Z",
+        "novelty": 7
+      },
+      "slug": "skylark-bio-gjb2-gene-therapy-deafness-trial",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/AdobeStock_597873632-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-11T12:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Skylark Bio kicks off new gene therapy trial for deafness",
+          "url": "https://www.statnews.com/2026/08/11/skylark-bio-gjb2-otoferlin-gene-therapies-for-deafness/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Skylark Bio has initiated a gene therapy trial targeting GJB2 mutations — one of the most common genetic causes of congenital deafness — as multiple companies pursue different mutation-specific approaches.",
+      "summary": "Skylark Bio, a biotechnology company, has commenced a gene therapy clinical trial for hereditary deafness caused by mutations in GJB2, the gene encoding connexin 26. Loss-of-function variants in GJB2 represent one of the most prevalent monogenic causes of congenital, non-syndromic hearing loss in many populations.\n\nAccording to reporting by STAT News, Skylark Bio's programme is one of several now in early clinical development, with companies in the United States, France, and China each pursuing distinct molecular targets. A separately funded programme targeting otoferlin (encoded by OTOF), the protein whose absence disrupts synaptic transmission in inner hair cells, has previously attracted attention; Skylark's GJB2-focused approach addresses a different and broader genetic population.\n\nGene therapies for deafness present particular delivery challenges: the inner ear is anatomically accessible but requires highly localised administration, typically by intracochlear injection, to reach the hair cells and supporting cells that express connexin 26. Preclinical data for connexin-targeting approaches have shown restoration of gap-junction function in animal models, though translation to human hearing outcomes remains to be established in the new trial.\n\nThe broader competitive landscape underscores a shift in rare-disease gene therapy towards conditions defined by well-characterised single-gene variants with clearly delineated biology. The trial's full design, including primary endpoints, dosing, and eligibility criteria, had not been published in full at the time of reporting.",
+      "tags": [
+        "gene-therapy",
+        "deafness",
+        "gjb2",
+        "connexin-26",
+        "otoferlin",
+        "clinical-trial-news",
+        "rare-disease",
+        "inner-ear"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study links genomic constraint and hypervariability to fitness effects in tetraploid potato breeding lines",
+      "is_preprint": false,
+      "run_date": "2026-08-12",
+      "run_iso": "2026-08-12T08:13:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-11T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "plos-genetics-tetraploid-potato-genomic-constraint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-11T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Genomic constraint and hypervariability correlate with fitness effects in elite tetraploid potato breeding material",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012271"
+        }
+      ],
+      "standfirst": "An analysis of elite tetraploid potato clones published in PLOS Genetics maps evolutionarily constrained and hypervariable genomic regions, offering a route to understanding why genetic gains in potato breeding have been slow.",
+      "summary": "A study published in PLOS Genetics by Aalborg, Ding, Wu, Sverrisdóttir, Nielsen, and Ramstein examines how evolutionary genomic constraint and hypervariability relate to fitness-relevant variation in elite tetraploid potato (Solanum tuberosum) breeding material.\n\nTetraploid potato carries four copies of each chromosome rather than the two found in most diploid organisms — a form of polyploidy known as tetrasomic inheritance. This complicates both population-genetic analysis and breeding: recombination shuffles four homologous chromosomes simultaneously, deleterious alleles can persist in a hidden heterozygous state across multiple copies, and clonal propagation during modern breeding further restricts the effective genetic diversity available for selection.\n\nThe authors identified evolutionarily constrained genomic regions using comparative genomic approaches and examined how these regions, alongside hypervariable segments of the genome, correlate with phenotypic fitness effects in a breeding panel derived from elite cultivars. Constrained regions — where sequence change has been purged by purifying selection across evolutionary time — are expected to harbour variants of large effect when disrupted. Hypervariable regions, by contrast, may contribute to adaptive variation but are harder to interpret in selection programmes.\n\nFor plant breeders and quantitative geneticists working on high-value polyploid crops, the findings offer a framework for prioritising genomic regions in future marker-assisted and genomic-selection programmes. Potato is the world's most important vegetable food crop by production tonnage, and incremental improvements to genetic gain rates carry significant agricultural value.",
+      "tags": [
+        "tetraploid-potato",
+        "polyploidy",
+        "genomic-constraint",
+        "plant-breeding",
+        "crop-genetics",
+        "quantitative-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: AI-assisted analysis of mouse copy number variant database identifies candidate locus for metabolic syndrome",
+      "is_preprint": true,
+      "run_date": "2026-08-12",
+      "run_iso": "2026-08-12T08:13:27Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-08-11T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "biorxiv-cnv-mouse-metabolic-syndrome-ai-analysis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-11T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "AI Analysis of a Copy Number Variant Database Identifies a Genetic Factor for a Murine Model of the Metabolic Syndrome",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.05.743102v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes a pangenome-based characterisation of copy number variants across 40 inbred mouse strains and identifies a genetic factor associated with a murine metabolic syndrome model.",
+      "summary": "A preprint deposited on bioRxiv describes an analysis of long-read sequencing data from 40 inbred mouse strains to produce a comprehensive catalogue of copy number variants (CNVs) — structural variants in which segments of the genome are duplicated or deleted relative to a reference sequence.\n\nThe authors used pangenome graph-based methods alongside a telomere-to-telomere (T2T) reference assembly for the C57BL/6J strain to resolve 1,594 high-confidence CNVs, including variants in repeat-rich and segmentally duplicated regions that are typically intractable to short-read approaches. An AI-assisted analytical step was applied to interrogate the resulting CNV database for associations with phenotypes relevant to the metabolic syndrome — a cluster of traits including obesity, dyslipidaemia, and insulin resistance.\n\nThe study identifies a candidate CNV-linked genetic factor in a murine metabolic syndrome model. The authors frame this as an example of how structural variation, which is underrepresented in standard SNP-based genome-wide association studies, may contribute to the missing heritability of complex traits.\n\nThe work is methodologically notable for its use of long-read sequencing and pangenome graph assembly in a multi-strain mouse resource, providing a structural variant map that may be of broad utility to researchers using inbred mouse models of human metabolic disease. This is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "copy-number-variants",
+        "structural-variation",
+        "mouse-model",
+        "metabolic-syndrome",
+        "pangenome",
+        "long-read-sequencing",
+        "missing-heritability",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-11T08:09:01.900318+00:00",
+  "last_run": "2026-08-12T08:15:02.101073+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011985": "2026-08-11T08:09:01.900318+00:00",
@@ -16020,14 +16198,14 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012265": "2026-08-04T09:38:20.539516+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012267": "2026-08-11T08:09:01.900318+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012268": "2026-08-06T09:39:06.238482+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012271": "2026-08-12T08:15:02.101073+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012273": "2026-08-11T08:09:01.900318+00:00",
     "https://news.cancerresearchuk.org/2026/08/04/a-legacy-written-in-dna/": "2026-08-05T09:35:19.884935+00:00",
     "https://news.cancerresearchuk.org/2026/08/04/boosting-clinical-trials-will-the-national-cancer-plan-deliver/": "2026-08-04T09:38:20.539516+00:00",
     "https://news.cancerresearchuk.org/2026/08/05/cancer-in-motion-how-computation-is-reshaping-our-view-of-tumours/": "2026-08-06T09:39:06.238482+00:00",
     "https://news.cancerresearchuk.org/2026/08/10/latest-winner-in-our-research-is-beautiful-competition-5/": "2026-08-11T08:09:01.900318+00:00",
+    "https://news.cancerresearchuk.org/2026/08/11/the-importance-of-patients-the-decade-long-effort-to-create-next-gen-cancer-models/": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.26.740854v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.27.740859v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.27.741005v1?rss=1": "2026-07-28T09:34:46.405700+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741055v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.28.741233v1": "2026-07-29T09:35:51.922527+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741419v1?rss=1": "2026-08-04T09:38:20.539516+00:00",
@@ -16056,14 +16234,18 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.04.742818v1?rss=1": "2026-08-11T08:09:01.900318+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.742852v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.742908v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.05.742742v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.05.743027v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743031v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.05.743041v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.05.743086v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.05.743102v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743150v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.07.743619v1?rss=1": "2026-08-09T07:51:32.600587+00:00",
-    "https://www.england.nhs.uk/2026/07/hundreds-thousands-women-access-free-morning-after-pill-nhs-pharmacies-first-5-months/": "2026-07-28T09:34:46.405700+00:00",
     "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
     "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260727012123.htm": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.phgfoundation.org/blog/what-the-boadicea-breakthrough-means-for-health-policy/": "2026-08-12T08:15:02.101073+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260727012134.htm": "2026-07-30T09:28:41.369469+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260727214616.htm": "2026-07-29T09:35:51.922527+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260729010740.htm": "2026-08-02T09:07:32.245867+00:00",
@@ -16084,21 +16266,12 @@
     "https://www.sciencedaily.com/releases/2026/08/260806050717.htm": "2026-08-08T07:46:18.676027+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260806051943.htm": "2026-08-07T08:12:55.445595+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260807235243.htm": "2026-08-10T08:25:48.748163+00:00",
-    "https://www.statnews.com/2026/07/27/fda-efficacy-doubts-capricor-therapeutics-duchenne-muscular-dystrophy/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
-    "https://www.statnews.com/2026/07/27/health-news-ultra-processed-baby-food-is-booming-is-it-okay/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
-    "https://www.statnews.com/2026/07/27/prescription-drug-spending-no-surprises-act-arbitration-costs-health-care-inc/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
-    "https://www.statnews.com/2026/07/27/ra-captial-oak-hill-bio-spac-ultragenyx-ionis-angelman-syndrome/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
-    "https://www.statnews.com/2026/07/27/sarepta-therapeutics-michael-severino-doug-ingram-duchenne-muscular-dystrophy/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/2026/07/28/american-diabetes-association-fallout-researchers-expulsion/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/28/anthony-fauci-rand-paul-hearing-democrats-ivf-proposal-dc-diagnosis/": "2026-07-29T09:35:51.922527+00:00",
     "https://www.statnews.com/2026/07/28/anthony-fauci-senate-testimony-what-to-expect-covid-origin-perjury/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/28/biotech-industry-race-aatd-cure-gene-editing-alpha-1-antitrypsin-deficiency/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
-    "https://www.statnews.com/2026/07/28/brain-infrastructure-dementia-business-model-aaic2026/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/2026/07/28/dhs-visa-policy-change-international-students-scientific-research-impact/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/28/gsk-earnings-report-luke-miels-strategy-late-stage-clinical-trials/": "2026-07-29T09:35:51.922527+00:00",
     "https://www.statnews.com/2026/07/28/health-news-anthony-fauci-pandemic-era-diary-entries-hearing/": "2026-07-29T09:35:51.922527+00:00",
-    "https://www.statnews.com/2026/07/28/medicare-medicaid-evaluates-health-tech-progress-unveils-eight-pledge-categories/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
-    "https://www.statnews.com/2026/07/28/pmos-name-change-growing-awareness-faster-diagnosis-women-of-color/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
     "https://www.statnews.com/2026/07/28/promis-neurosciences-amyloid-alzheimers-aria/": "2026-07-29T09:35:51.922527+00:00",
     "https://www.statnews.com/2026/07/28/replimune-rp1-skin-cancer-fda-staff-analysis/": "2026-07-29T09:35:51.922527+00:00",
     "https://www.statnews.com/2026/07/28/three-questions-with-whoops-new-cmo-health-tech/": "2026-07-29T09:35:51.922527+00:00",
@@ -16207,8 +16380,19 @@
     "https://www.statnews.com/2026/08/10/sionna-cystic-fibrosis-trial-failures-sion719-vertex-trikaft/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/2026/08/10/tenax-heart-failure-drug-trail-failure-levosimendan-ph-hfpef/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/2026/08/10/trump-return-to-vaccine-policy-executive-order/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/27/fda-panel-peptide-votes-amgen-fights-tavneos-withdrawal/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/27/hiv-resurgence-is-feared-as-global-fund-to-combat-the-disease-falls-18-percent/?utm_campaign=rss": "2026-07-28T09:34:46.405700+00:00",
+    "https://www.statnews.com/2026/08/11/abortion-post-dobbs-clinic-hotline-advice/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/cms-rapid-breakthrough-device-coverage-health-tech/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/health-care-pharma-industry-pushes-back-trump-vaccine-policy-changes/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/how-we-know-splitting-up-mmr-vaccine-could-be-dangerous/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/medicaid-to-end-funding-gender-affirming-care-transgender-youth/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/medicare-weight-loss-drugs-glp-1s-bridge-program-primary-care/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/north-star-review-founders-advocate-nonprofit-approach-institutional-oversight/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/nurses-seek-involvement-clinical-ai-decisions/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/skylark-bio-gjb2-otoferlin-gene-therapies-for-deafness/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/stop-statins-age-75-lancet-study-suggests-safe-healthy-adults/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/trump-executive-order-vaccines-undecided-parents-trust/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/trump-vaccine-policy-pivot-overshadows-fda-gras-food-rule-dc-diagnosis/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/2026/08/11/why-is-moonlake-immunotherapeutics-scared-of-releasing-data/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
     "https://www.statnews.com/pharmalot/2026/07/28/fda-duchenne-drug-gsk-cost-savings-plan/": "2026-07-29T09:35:51.922527+00:00",
     "https://www.statnews.com/pharmalot/2026/07/29/fugitive-who-became-biotech-exec-hospital-sues-lilly/": "2026-07-31T09:50:08.624072+00:00",
     "https://www.statnews.com/pharmalot/2026/07/30/fda-panel-nixes-duchenne-drug-ftc-sues-hims-and-hers/": "2026-08-01T09:03:01.564966+00:00",
@@ -16233,7 +16417,8 @@
     "https://www.statnews.com/pharmalot/2026/08/07/replimune-melanoma-drug-medicare-policy-change/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/pharmalot/2026/08/07/up-and-down-ladder-latest-comings-and-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/?utm_campaign=rss": "2026-08-10T08:25:48.748163+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00"
   },
   "takedowns": []
 }
