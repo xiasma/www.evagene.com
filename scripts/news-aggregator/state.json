@@ -16184,9 +16184,143 @@
         "missing-heritability",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Chromosomes carry our genetic instructions, and cells need to copy and distribute chromosomes accurately every time they divide. A special protein called CENP-A acts as a marker that tells the cell's machinery exactly where to grab each chromosome. If CENP-A ends up in the wrong places, chromosomes can be distributed unevenly — a problem seen in many cancers.\n\nResearchers working with yeast — a simple organism widely used in genetics because many of its molecular systems resemble ours — have found that a protein called Yra2 helps keep CENP-A in the right location by tagging it for disposal when it is not needed. When Yra2 is missing, CENP-A wanders to the wrong places and the yeast cells develop chromosome errors similar to those seen in cancer cells.\n\nThis is early-stage laboratory research in yeast and has not yet been reviewed by independent experts. It does not directly affect clinical practice at this stage, but adds to scientists' understanding of how chromosome errors arise.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Yeast protein Yra2 found to prevent cancer-linked chromosome instability via CENP-A degradation",
+      "is_preprint": true,
+      "run_date": "2026-08-13",
+      "run_iso": "2026-08-13T08:17:06+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-08-12T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "yra2-cenp-a-chromosomal-stability-cancer",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-12T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Yra2 regulates proteolysis of Cse4 to prevent its mislocalization to non-centromeric regions for chromosomal stability in budding yeast",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.11.744167v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from budding yeast identifies Yra2 as a regulator of ubiquitin-mediated proteolysis of the centromeric histone variant Cse4/CENP-A, with implications for understanding chromosomal instability in cancer.",
+      "summary": "Researchers studying budding yeast (Saccharomyces cerevisiae) have identified a previously uncharacterised role for Yra2 — Yeast RNA Annealing Protein 2 — in controlling the stability and localisation of Cse4, the yeast orthologue of the human centromere-specific histone variant CENP-A. The work, posted as a preprint on bioRxiv, reports that Yra2 promotes ubiquitin-mediated proteolysis of Cse4, thereby preventing its misincorporation into non-centromeric chromatin regions.\n\nCorrect localisation of CENP-A to centromeric chromatin is essential for accurate chromosome segregation during cell division. When CENP-A is overexpressed or its degradation is impaired, it can spread into non-centromeric regions, disrupting chromatin organisation and triggering chromosomal instability (CIN) — a hallmark of many human cancers. The authors demonstrate that loss of Yra2 function leads to elevated levels of Cse4 at non-centromeric loci and an increase in CIN phenotypes in yeast.\n\nBecause CENP-A misregulation has been documented in a range of human tumour types, the molecular pathway described here — in which an RNA-annealing protein participates in controlling histone variant proteolysis — may have broader relevance for cancer biology research. The study is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "cenp-a",
+        "cse4",
+        "chromosomal-instability",
+        "ubiquitin-proteolysis",
+        "yeast-model",
+        "cancer-biology",
+        "histone-variants",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Nation-wide population register used to estimate forensic genetic genealogy match rates",
+      "is_preprint": true,
+      "run_date": "2026-08-13",
+      "run_iso": "2026-08-13T08:17:06+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-08-12T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "figg-match-rate-population-register-israel",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-12T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Forensic investigative genetic genealogy match rate estimated from a nation-wide population register",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.743282v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using Israeli registry data provides the first country-scale empirical estimate of how often forensic investigative genetic genealogy can link an unknown individual to a relative in a consumer genomic database.",
+      "summary": "Forensic investigative genetic genealogy (FIGG) is a technique in which DNA from an unknown individual — typically recovered at a crime scene or from unidentified remains — is searched against direct-to-consumer (DTC) genomic databases. Genetic relatives detected in those databases are then used as starting points for building family trees to suggest candidate identities. Despite high-profile successes in several countries, a rigorous, population-scale evaluation of how reliably the method can produce a usable match has been lacking.\n\nA preprint posted on bioRxiv describes a systematic attempt to address this gap using Israel's national population register. By modelling the genetic relationships expected across a national population and cross-referencing with database participation rates, the authors estimate the proportion of FIGG cases in which at least one genetic relative would be detectable — the so-called match rate — at country scale. The analysis provides quantitative benchmarks for evaluating the real-world utility and limitations of FIGG as a forensic tool.\n\nThe findings are relevant to ongoing policy debates about DTC genomic database governance, law-enforcement access to genealogical data, and the privacy implications for individuals who have not themselves submitted DNA but whose relatives have. The work is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "forensic-genetics",
+        "genetic-genealogy",
+        "figg",
+        "dtc-genomics",
+        "population-genetics",
+        "privacy",
+        "forensic-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "RNA-seq meta-analysis and machine learning map stress-responsive genes in common bean",
+      "is_preprint": true,
+      "run_date": "2026-08-13",
+      "run_iso": "2026-08-13T08:17:06+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-08-12T00:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "common-bean-stress-transcriptome-rna-seq-meta-analysis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-12T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "RNA-seq meta-analysis and machine learning identify stress-responsive genes and improve genomic prediction in common bean (Phaseolus vulgaris L.) with cross-species application in cowpea (Vigna unguiculata L.)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.08.743654v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint integrates publicly available transcriptomic datasets from common bean (Phaseolus vulgaris) to identify candidate genes for abiotic and biotic stress tolerance, with cross-species application to cowpea.",
+      "summary": "Researchers have conducted a systematic meta-analysis of publicly available RNA-sequencing datasets from common bean (Phaseolus vulgaris L.), one of the world's most important legume crops, to build a comprehensive picture of how the plant responds at a molecular level to a range of abiotic stresses — such as drought, heat, and salinity — and biotic stresses including pathogen attack. The study, posted as a preprint on bioRxiv, integrates statistical meta-analysis with machine-learning approaches to identify stress-responsive genes and improve genomic prediction models.\n\nA notable feature of the work is its cross-species dimension: the authors assess whether gene-level findings in common bean translate to cowpea (Vigna unguiculata L.), a related legume also grown widely in food-insecure regions. The approach demonstrates that integrating multiple independent datasets — rather than relying on any single experiment — can resolve inconsistencies in the published literature and identify more robust candidate loci for downstream breeding applications.\n\nThe study is primarily of interest to plant geneticists, crop genomics researchers, and those working on food-security applications of genomic selection. It has not yet been peer-reviewed.",
+      "tags": [
+        "plant-genetics",
+        "common-bean",
+        "cowpea",
+        "stress-transcriptomics",
+        "rna-seq",
+        "machine-learning",
+        "crop-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-12T08:15:02.101073+00:00",
+  "last_run": "2026-08-13T08:18:15.648909+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011985": "2026-08-11T08:09:01.900318+00:00",
@@ -16207,7 +16341,6 @@
     "https://news.cancerresearchuk.org/2026/08/11/the-importance-of-patients-the-decade-long-effort-to-create-next-gen-cancer-models/": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.26.740854v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741055v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.28.741233v1": "2026-07-29T09:35:51.922527+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741419v1?rss=1": "2026-08-04T09:38:20.539516+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741553v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741564v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
@@ -16241,13 +16374,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743086v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743102v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743150v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.06.743282v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.07.743619v1?rss=1": "2026-08-09T07:51:32.600587+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.08.743654v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.11.744167v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
     "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
     "https://www.phgfoundation.org/blog/what-the-boadicea-breakthrough-means-for-health-policy/": "2026-08-12T08:15:02.101073+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260727012134.htm": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260727214616.htm": "2026-07-29T09:35:51.922527+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260729010740.htm": "2026-08-02T09:07:32.245867+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260729051519.htm": "2026-08-02T09:07:32.245867+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260731034139.htm": "2026-08-02T09:07:32.245867+00:00",
@@ -16266,15 +16401,11 @@
     "https://www.sciencedaily.com/releases/2026/08/260806050717.htm": "2026-08-08T07:46:18.676027+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260806051943.htm": "2026-08-07T08:12:55.445595+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260807235243.htm": "2026-08-10T08:25:48.748163+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260811011138.htm": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260812015158.htm": "2026-08-13T08:18:15.648909+00:00",
     "https://www.statnews.com/2026/07/28/american-diabetes-association-fallout-researchers-expulsion/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/28/anthony-fauci-rand-paul-hearing-democrats-ivf-proposal-dc-diagnosis/": "2026-07-29T09:35:51.922527+00:00",
     "https://www.statnews.com/2026/07/28/anthony-fauci-senate-testimony-what-to-expect-covid-origin-perjury/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/28/dhs-visa-policy-change-international-students-scientific-research-impact/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/28/gsk-earnings-report-luke-miels-strategy-late-stage-clinical-trials/": "2026-07-29T09:35:51.922527+00:00",
-    "https://www.statnews.com/2026/07/28/health-news-anthony-fauci-pandemic-era-diary-entries-hearing/": "2026-07-29T09:35:51.922527+00:00",
-    "https://www.statnews.com/2026/07/28/promis-neurosciences-amyloid-alzheimers-aria/": "2026-07-29T09:35:51.922527+00:00",
-    "https://www.statnews.com/2026/07/28/replimune-rp1-skin-cancer-fda-staff-analysis/": "2026-07-29T09:35:51.922527+00:00",
-    "https://www.statnews.com/2026/07/28/three-questions-with-whoops-new-cmo-health-tech/": "2026-07-29T09:35:51.922527+00:00",
     "https://www.statnews.com/2026/07/29/benchmarking-clinical-chatbots-openevidence-doximity-ai-prognosis/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/29/biotech-race-china-veterans-affairs-va/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/29/capricor-therapeutics-deramiocel-fda-review-meeting-live-blog/": "2026-07-30T09:28:41.369469+00:00",
@@ -16393,7 +16524,19 @@
     "https://www.statnews.com/2026/08/11/trump-executive-order-vaccines-undecided-parents-trust/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
     "https://www.statnews.com/2026/08/11/trump-vaccine-policy-pivot-overshadows-fda-gras-food-rule-dc-diagnosis/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
     "https://www.statnews.com/2026/08/11/why-is-moonlake-immunotherapeutics-scared-of-releasing-data/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/28/fda-duchenne-drug-gsk-cost-savings-plan/": "2026-07-29T09:35:51.922527+00:00",
+    "https://www.statnews.com/2026/08/12/addiction-homelessness-hhs-toolkit-harm-reduction/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/boulevard-bio-georg-schett-antibody-therapies/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/cancer-patients-face-longer-wait-times-for-treatment/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/climate-change-chronic-disease-heat-smoke-arthritis-lupus-pots/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/definium-lsd-treatment-anxiety-study/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/ebola-who-drc-ebola-vaccine-trial/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/inside-commure-athelas-mad-dash-automate-health-care/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/lindsay-clancy-postpartum-psychosis-diagnosis-treatment-limits/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/neurocrine-biosciences-vykat-prader-willi/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/texas-medical-association-no-surprises-act-lawsuit-qpa/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/the-secret-startup-project-ive-been-working-on-ai-prognosis/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/trump-vaccine-executive-order-critiqued-by-tedros-who/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/12/vaping-cannabis-use-rates-young-adults/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
     "https://www.statnews.com/pharmalot/2026/07/29/fugitive-who-became-biotech-exec-hospital-sues-lilly/": "2026-07-31T09:50:08.624072+00:00",
     "https://www.statnews.com/pharmalot/2026/07/30/fda-panel-nixes-duchenne-drug-ftc-sues-hims-and-hers/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/pharmalot/2026/07/30/rising-oil-prices-cost-of-medicines-fosil-fuels/": "2026-08-01T09:03:01.564966+00:00",
@@ -16418,7 +16561,8 @@
     "https://www.statnews.com/pharmalot/2026/08/07/up-and-down-ladder-latest-comings-and-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/?utm_campaign=rss": "2026-08-10T08:25:48.748163+00:00",
     "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/12/lilly-black-market-lawsuits-trump-vaccine-plan-pushback/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00"
   },
   "takedowns": []
 }
