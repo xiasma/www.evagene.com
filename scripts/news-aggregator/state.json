@@ -16318,13 +16318,148 @@
         "crop-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Neuronal transcription factor SKN-1B controls sex-specific foraging behaviour in C. elegans",
+      "is_preprint": false,
+      "run_date": "2026-08-14",
+      "run_iso": "2026-08-14T08:12:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-13T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "c-elegans-skn-1b-sexually-dimorphic-exploratory-behaviour",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-13T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Neuronal Nrf/SKN-1B controls a sexually dimorphic neuroendocrine pathway for C. elegans exploratory behaviour",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012239"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study identifies SKN-1B, a neuronally expressed isoform of the Nrf family, as a regulator of a sexually dimorphic neuroendocrine pathway governing food-seeking behaviour in the roundworm.",
+      "summary": "Researchers publishing in PLOS Genetics have characterised the role of SKN-1B — a neuron-specific isoform of the SKN-1/Nrf transcription factor — in controlling exploratory behaviour in the nematode Caenorhabditis elegans. The SKN-1/Nrf family is best known for its role in metabolic homeostasis and stress responses, but C. elegans carries three distinct isoforms with separable functions. McLean and colleagues report that SKN-1B is expressed specifically in neurons and modulates hermaphrodite behaviour in response to food availability, operating through a neuroendocrine pathway that is sexually dimorphic — that is, its effects differ between the sexes.\n\nThe study used a combination of genetic loss-of-function analysis, tissue-specific expression rescue, and behavioural assays to dissect how SKN-1B integrates energetic state with the allocation of locomotor effort between foraging, reproduction, and survival. The findings add a neuronal-regulatory layer to the established metabolic functions of the Nrf/SKN-1 family and provide a tractable model system for studying how transcription factors in neurons coordinate whole-organism behaviour with internal resource availability.\n\nThe work is of primary interest to researchers working on transcription factor biology, C. elegans neurobiology, and the neuroendocrine regulation of behaviour. It also has relevance to educators and students as an illustration of how a single transcription factor isoform can perform distinct tissue-specific roles within the same organism.",
+      "tags": [
+        "skn-1",
+        "nrf-transcription-factor",
+        "c-elegans",
+        "neuroendocrine-regulation",
+        "sexually-dimorphic-behaviour",
+        "foraging-behaviour",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Two-reference GWAS uncovers heat-stress-dependent bacterial wilt resistance in tomato",
+      "is_preprint": false,
+      "run_date": "2026-08-14",
+      "run_iso": "2026-08-14T08:12:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-13T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "tomato-bacterial-wilt-resistance-heat-stress-gwas",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-13T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "New biologically relevant resistance to bacterial wilt in heat-stressed tomato revealed by two-reference Genome Wide Association",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study using a dual-reference genome-wide association approach reveals biologically relevant resistance to Ralstonia solanacearum in tomato plants subjected to heat stress — a combination of stresses expected to become more common under climate change.",
+      "summary": "Researchers including Adrien Belny, Henri Desaint, and colleagues publishing in PLOS Genetics have applied a two-reference genome-wide association study (GWAS) framework to identify resistance loci in tomato (Solanum lycopersicum) that are specific to plants simultaneously experiencing heat stress and infection by Ralstonia solanacearum, the pathogen responsible for bacterial wilt.\n\nConventional resistance-mapping studies typically assess disease response under standard temperature conditions. The team's approach, which draws on two reference genomes to improve variant resolution, was designed to capture resistance that is only expressed — or is substantially altered — when heat stress is applied concurrently. The authors describe the resistance detected as biologically relevant, distinguishing it from artefactual associations, and argue that climate-change projections make the heat-plus-pathogen interaction an increasingly important target for crop-improvement programmes.\n\nThe findings are relevant to plant geneticists working on Solanaceae, to crop breeders seeking durable disease resistance under warming conditions, and to researchers interested in genotype-by-environment interactions more broadly. The two-reference GWAS methodology may also be of interest to statisticians and bioinformaticians working on association mapping in species with complex or divergent reference sequences. Educators teaching quantitative genetics or plant genomics may find the interaction phenotyping design illustrative of the limits of single-environment association studies.",
+      "tags": [
+        "gwas",
+        "tomato",
+        "bacterial-wilt",
+        "ralstonia-solanacearum",
+        "heat-stress",
+        "crop-genetics",
+        "genotype-by-environment-interaction",
+        "plant-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: sparse sampling and rare-variant depletion shown to distort PCA plots of population structure",
+      "is_preprint": true,
+      "run_date": "2026-08-14",
+      "run_iso": "2026-08-14T08:12:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-13T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "pca-population-structure-sparse-sampling-manifold-learning",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-13T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Sparse sampling and rare-variant depletion distort PCA visualizations of population structure: recovery with objective-guided manifold learning",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.11.744230v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses spatial simulations to demonstrate that sparse sampling and rare-variant filtering interact to produce misleading artefacts in PCA-based visualisations of genetic population structure, and proposes an objective-guided manifold-learning framework as a remedy.",
+      "summary": "Principal component analysis (PCA) is the standard first step for visualising genetic population structure in human and non-human genomic datasets. A preprint deposited on bioRxiv (not yet peer-reviewed) presents simulation evidence that two common features of real-world genomic studies — sparse geographic sampling and rare-variant depletion arising from minor-allele-frequency filters — interact in ways that systematically distort low-dimensional PCA plots. The authors, using spatially explicit simulations, show that these distortions can produce triangular or three-ray patterns, artificial outlier samples, and misleading gradient clines that do not reflect true population history.\n\nTo address this, the team develops an objective-guided manifold-learning framework that systematically explores genotype normalisation strategies, PCA dimensionality choices, distance metrics, and non-linear dimensionality-reduction algorithms including UMAP, densMAP, and PHATE. The framework selects parameter combinations according to a quantitative objective rather than by visual inspection, aiming to reduce subjectivity in the downstream interpretation of population-structure plots.\n\nThe work is of direct relevance to researchers conducting population genetics and archaeogenomics analyses, statistical geneticists evaluating or building analysis pipelines, and bioinformaticians working on genomic visualisation. It also has value for educators teaching population genomics methods, as the artefacts described are common sources of misinterpretation in both published literature and teaching datasets. As a preprint, these findings have not yet undergone formal peer review.",
+      "tags": [
+        "pca",
+        "population-structure",
+        "sparse-sampling",
+        "rare-variant-depletion",
+        "manifold-learning",
+        "umap",
+        "population-genetics",
+        "computational-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-13T08:18:15.648909+00:00",
+  "last_run": "2026-08-14T08:13:11.734164+00:00",
   "seen_urls": {
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011985": "2026-08-11T08:09:01.900318+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012235": "2026-08-04T09:38:20.539516+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012239": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012256": "2026-08-05T09:35:19.884935+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012257": "2026-07-31T09:50:08.624072+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012258": "2026-07-31T09:50:08.624072+00:00",
@@ -16339,12 +16474,10 @@
     "https://news.cancerresearchuk.org/2026/08/05/cancer-in-motion-how-computation-is-reshaping-our-view-of-tumours/": "2026-08-06T09:39:06.238482+00:00",
     "https://news.cancerresearchuk.org/2026/08/10/latest-winner-in-our-research-is-beautiful-competition-5/": "2026-08-11T08:09:01.900318+00:00",
     "https://news.cancerresearchuk.org/2026/08/11/the-importance-of-patients-the-decade-long-effort-to-create-next-gen-cancer-models/": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.26.740854v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741055v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741419v1?rss=1": "2026-08-04T09:38:20.539516+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741553v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741564v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.29.741571v1?rss=1": "2026-07-30T09:28:41.369469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741578v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.30.739400v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.30.740713v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
@@ -16378,11 +16511,12 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.07.743619v1?rss=1": "2026-08-09T07:51:32.600587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.08.743654v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744167v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.11.744230v1?rss=1": "2026-08-14T08:13:11.734164+00:00",
     "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
     "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
     "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
     "https://www.phgfoundation.org/blog/what-the-boadicea-breakthrough-means-for-health-policy/": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260727012134.htm": "2026-07-30T09:28:41.369469+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260729010740.htm": "2026-08-02T09:07:32.245867+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260729051519.htm": "2026-08-02T09:07:32.245867+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260731034139.htm": "2026-08-02T09:07:32.245867+00:00",
@@ -16403,20 +16537,9 @@
     "https://www.sciencedaily.com/releases/2026/08/260807235243.htm": "2026-08-10T08:25:48.748163+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260811011138.htm": "2026-08-13T08:18:15.648909+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260812015158.htm": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/07/28/american-diabetes-association-fallout-researchers-expulsion/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/28/anthony-fauci-senate-testimony-what-to-expect-covid-origin-perjury/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/28/dhs-visa-policy-change-international-students-scientific-research-impact/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/29/benchmarking-clinical-chatbots-openevidence-doximity-ai-prognosis/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/29/biotech-race-china-veterans-affairs-va/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/29/capricor-therapeutics-deramiocel-fda-review-meeting-live-blog/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/29/clinical-ai-vs-generalist-llm-benchmark-study-trust-accuracy-safety/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/29/fauci-pleads-fifth-criticizes-rand-paul-senate-hearing/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/29/ftc-lawsuit-hims-alleging-deceptive-business-practices/": "2026-07-31T09:50:08.624072+00:00",
-    "https://www.statnews.com/2026/07/29/health-news-neglected-issue-in-pedestrian-biker-deaths/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/29/hybrid-academia-industry-phd-program-announced-uidp/": "2026-07-31T09:50:08.624072+00:00",
     "https://www.statnews.com/2026/07/29/latigo-phase-2-results-non-opioid-pain-reliever-ltg-001/": "2026-07-31T09:50:08.624072+00:00",
-    "https://www.statnews.com/2026/07/29/long-hospital-stays-children-research-isolation/": "2026-07-30T09:28:41.369469+00:00",
-    "https://www.statnews.com/2026/07/29/ronald-fischer-fugitive-used-alias-forged-cv-held-biotech-executive-jobs/": "2026-07-30T09:28:41.369469+00:00",
     "https://www.statnews.com/2026/07/29/trump-medicare-subsidy-cuts-part-d-premium-change/": "2026-07-31T09:50:08.624072+00:00",
     "https://www.statnews.com/2026/07/30/capricor-duchenne-replimune-melanoma-fugitive-biotech-readout-loud-podcast/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/2026/07/30/china-us-pharmaceutical-supply-chain-national-security-risk/": "2026-07-31T09:50:08.624072+00:00",
@@ -16537,6 +16660,17 @@
     "https://www.statnews.com/2026/08/12/the-secret-startup-project-ive-been-working-on-ai-prognosis/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
     "https://www.statnews.com/2026/08/12/trump-vaccine-executive-order-critiqued-by-tedros-who/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
     "https://www.statnews.com/2026/08/12/vaping-cannabis-use-rates-young-adults/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/13/biotech-news-eli-lilly-targets-booming-retatrutide-black-market/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/13/commure-investigation-medicare-tech-incentives-health-tech/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/13/commure-terminates-payments-under-customer-referral-programs/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/13/how-medicare-cms-pays-ntap-for-new-ai-medical-devices/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/13/neurocrine-biosciences-vykat-prader-willi-2/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/13/newsom-california-generic-insulin-calrx-availability-slow-to-reach-patients/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/13/patient-perspectives-on-brain-implants-for-depression/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/13/rfk-california-tour-hhs-addiction-treatment-plan-dc-diagnosis/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/13/statin-misinformation-medicine-scams-online-regulation-fact-checks/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/13/trump-vaccine-executive-order-mmr-separate-shots-policy/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/13/young-people-cancer-new-fertility-tech/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
     "https://www.statnews.com/pharmalot/2026/07/29/fugitive-who-became-biotech-exec-hospital-sues-lilly/": "2026-07-31T09:50:08.624072+00:00",
     "https://www.statnews.com/pharmalot/2026/07/30/fda-panel-nixes-duchenne-drug-ftc-sues-hims-and-hers/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/pharmalot/2026/07/30/rising-oil-prices-cost-of-medicines-fosil-fuels/": "2026-08-01T09:03:01.564966+00:00",
@@ -16562,7 +16696,8 @@
     "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/?utm_campaign=rss": "2026-08-10T08:25:48.748163+00:00",
     "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/12/lilly-black-market-lawsuits-trump-vaccine-plan-pushback/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/12/lilly-black-market-lawsuits-trump-vaccine-plan-pushback/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/13/california-insulin-sales-moderna-patent-battle/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00"
   },
   "takedowns": []
 }
