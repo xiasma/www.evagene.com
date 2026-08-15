@@ -16451,9 +16451,232 @@
         "computational-genomics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists who study how we read DNA — a process called genome sequencing — are asking whether the technology has become so accurate that it can be described as 'near-perfect'. A commentary published by the PHG Foundation, a policy research group based at the University of Cambridge, looks at how dramatically the technology has improved in recent years and what questions remain.\n\nReading someone's complete genetic code used to involve many small errors. Newer methods make far fewer mistakes, but some types of DNA are still difficult to read reliably. The commentary explores what 'near-perfect' would really mean, and whether using that phrase might give the wrong impression.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "PHG Foundation asks whether genomic sequencing is approaching 'near-perfect' accuracy",
+      "is_preprint": false,
+      "run_date": "2026-08-15",
+      "run_iso": "2026-08-15T07:26:14Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 6,
+        "newest_iso": "2026-08-14T10:49:19Z",
+        "novelty": 7
+      },
+      "slug": "near-perfect-sequencing-phg-foundation-genomic-testing",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-14T10:49:19Z",
+          "publisher": "PHG Foundation",
+          "title": "Redefining genomic testing: is it time to talk about 'near-perfect' sequencing?",
+          "url": "https://www.phgfoundation.org/blog/redefining-genomic-testing-is-it-time-to-talk-about-near-perfect-sequencing/"
+        }
+      ],
+      "standfirst": "A new PHG Foundation commentary examines how recent sequencing technology advances are reshaping expectations of what constitutes adequate genomic testing.",
+      "summary": "The PHG Foundation at the University of Cambridge has published a commentary exploring whether the field of genomic testing is approaching a threshold that could reasonably be described as 'near-perfect' sequencing. The piece examines how improvements in long-read sequencing, base-calling algorithms, and error-correction pipelines are changing the standards against which clinical and research-grade genome sequencing is judged.\n\nThe commentary raises conceptual and policy questions about what 'near-perfect' would mean in practice: which error types matter most, how variant classes that remain technically difficult to resolve (such as structural variants in repetitive regions, or methylation states) factor into any such definition, and whether the framing itself risks obscuring remaining limitations.\n\nFor researchers and genetic counsellors, the piece is relevant to ongoing discussions about sequencing depth, diagnostic yield, and the interpretation of variants of uncertain significance. For educators and students, it offers a useful framing for understanding how technological benchmarks in genomics are set, contested, and revised over time.\n\nThe PHG Foundation positions the commentary as a prompt for field-wide discussion rather than a policy recommendation. No specific sequencing platform or vendor is endorsed.",
+      "tags": [
+        "genome-sequencing",
+        "sequencing-accuracy",
+        "long-read-sequencing",
+        "genomics-policy",
+        "phg-foundation",
+        "technology-assessment"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "A new study has looked at why people who carry the same genetic change in a gene called TBX5 can develop very different types of heart defect. TBX5 helps control how heart cells develop before birth. Researchers found that having only one working copy of this gene — instead of the usual two — causes the DNA inside heart cells to fold incorrectly. Because this folding problem happens differently in different cells, the effect on the heart can vary a great deal from person to person, even within the same family.\n\nThe finding may help researchers understand why the same inherited change can lead to mild or more serious heart conditions. It does not change current approaches to diagnosis or care, but it adds important detail to how scientists think about inherited heart conditions.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Loss of one TBX5 copy disrupts 3D genome folding in heart cells, study finds",
+      "is_preprint": false,
+      "run_date": "2026-08-15",
+      "run_iso": "2026-08-15T07:26:14Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-08-13T13:46:14Z",
+        "novelty": 8
+      },
+      "slug": "tbx5-3d-genome-folding-congenital-heart-disease",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-13T13:46:14Z",
+          "publisher": "ScienceDaily",
+          "title": "One faulty gene copy can make the heart's DNA fold the wrong way",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260812015214.htm"
+        }
+      ],
+      "standfirst": "Research shows that haploinsufficiency of the transcription factor TBX5 unravels the three-dimensional chromatin architecture required for normal cardiac development, offering a mechanism for variable expressivity in congenital heart disease.",
+      "summary": "Researchers have published findings showing that loss of a single functional copy of the transcription factor gene TBX5 — a known cause of congenital heart disease — is sufficient to disrupt the three-dimensional folding of DNA inside heart cells. The work, reported via ScienceDaily, describes TBX5 as acting like an architectural organiser for chromatin: when one copy is absent, the carefully structured genomic topology that coordinates heart-development genes collapses in ways that vary from cell to cell.\n\nThe cell-to-cell variability in chromatin disruption observed in the study may help to explain a long-standing clinical puzzle: why individuals carrying the same TBX5 heterozygous mutation can present with markedly different cardiac defects, ranging from atrial septal defects to more complex structural abnormalities. The research suggests that stochastic variation in 3D genome organisation, rather than differences in the coding sequence itself, may be a significant contributor to this variable expressivity.\n\nThe authors also propose that a similar chromatin-architecture mechanism could underlie other congenital birth defects where dosage-sensitive transcription factors are involved, making TBX5 a model for understanding how single gene-copy losses propagate through genomic structure to produce diverse developmental outcomes.\n\nThe original source does not name the publishing journal or lead institution in the lede text available; readers should consult the primary paper for full methodological detail. The work is relevant to researchers studying cardiac development and chromatin biology, to genetic counsellors working with families affected by hereditary congenital heart disease, and to clinicians seeking mechanistic explanations for variable expressivity.",
+      "tags": [
+        "tbx5",
+        "congenital-heart-disease",
+        "3d-genome",
+        "chromatin-architecture",
+        "haploinsufficiency",
+        "variable-expressivity",
+        "cardiac-development"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: CRISPR-edited cell lines reveal transcriptional programmes dependent on ciliary ARL13B localisation",
+      "is_preprint": true,
+      "run_date": "2026-08-15",
+      "run_iso": "2026-08-15T07:26:14Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-14T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "arl13b-ciliopathy-crispr-transcriptomics-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-14T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Transcriptomics of independent CRISPR-edited cell lines reveal ciliary-specific ARL13B dependent changes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744725v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses independent CRISPR-edited lines carrying the ARL13BV358A variant to map transcriptional consequences of losing ARL13B from cilia without abolishing ciliogenesis.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing a transcriptomic study of primary cilia biology using CRISPR-edited cell lines harbouring the ARL13BV358A variant. ARL13B is a regulatory GTPase enriched in primary cilia, structures that coordinate key developmental and homeostatic signalling pathways. Disruption of ciliary proteins causes a family of conditions collectively termed ciliopathies, which include disorders affecting the kidneys, eyes, and central nervous system.\n\nThe ARL13BV358A variant is notable because, despite retaining known biochemical activities, the protein is absent from cilia. This makes it a precise tool for separating the functions of ciliary ARL13B localisation from its broader biochemical roles. By comparing transcriptomes across multiple independently generated CRISPR-edited lines — a design choice that helps distinguish variant-specific effects from off-target editing artefacts — the authors map gene-expression changes attributable specifically to loss of ARL13B from the ciliary compartment.\n\nThe work contributes to a growing body of research attempting to define the downstream transcriptional consequences of disrupted ciliary protein localisation, a question that remains poorly characterised despite the clinical importance of ciliopathies. Because this is a preprint posted to bioRxiv, it has not yet undergone peer review and findings should be interpreted accordingly.",
+      "tags": [
+        "arl13b",
+        "primary-cilia",
+        "ciliopathy",
+        "crispr",
+        "transcriptomics",
+        "gtpase",
+        "cell-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Robertsonian translocations in Danish sika deer may act as barrier to hybridisation with red deer",
+      "is_preprint": true,
+      "run_date": "2026-08-15",
+      "run_iso": "2026-08-15T07:26:14Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 4,
+        "newest_iso": "2026-08-14T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "robertsonian-translocations-sika-deer-speciation-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-14T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Robertsonian translocations in Danish sika deer (Cervus nippon). Markers for absent F1-hybridization with red deer (C. elaphus) and potential models for selection, speciation and infertility.",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743091v1?rss=1"
+        }
+      ],
+      "standfirst": "Chromosomal analysis of sika and red deer in Denmark finds variable Robertsonian translocations in sika that could prevent fertile first-generation hybrids, with implications for EU invasive-species policy.",
+      "summary": "A bioRxiv preprint reports chromosomal analysis of 56 sika deer (Cervus nippon) and 22 red deer (Cervus elaphus) from Denmark, investigating the basis for hybridisation between the two species — a question carrying regulatory weight following the EU's reclassification of sika deer as an undesirable invasive species.\n\nAll red deer in the study had the standard chromosome complement of 2n=68. Sika deer, by contrast, showed chromosome numbers ranging from 64 to 67, attributable to the variable presence of two sika-specific Robertsonian translocations — chromosomal rearrangements in which the long arms of two acrocentric chromosomes fuse, reducing chromosome number. The authors propose that these structural differences may function as markers predicting the absence of fertile first-generation (F1) hybrids between the two species, even where introgression of sika-derived DNA into red deer populations has already occurred from past hybridisation events.\n\nThe paper positions these chromosomal variants as potential models for studying selection, speciation, and infertility more broadly. For geneticists and evolutionary biologists, it illustrates how structural chromosomal variation can act as a reproductive barrier even between closely related cervid taxa. For educators and students, the Robertsonian translocation mechanism is a well-established illustration of how chromosomal rearrangements contribute to speciation. This is a preprint and has not yet been peer reviewed.",
+      "tags": [
+        "robertsonian-translocation",
+        "cervidae",
+        "speciation",
+        "chromosomal-rearrangement",
+        "reproductive-barrier",
+        "invasive-species",
+        "evolutionary-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: New computational method recovers nuclear DNA from the heavily contaminated Teshik-Tash 1 Neandertal",
+      "is_preprint": true,
+      "run_date": "2026-08-15",
+      "run_iso": "2026-08-15T07:26:14Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-08-14T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "teshik-tash-neandertal-low-quality-genome-admixslug-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-14T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A Method to Analyze Low-Quality Archaic Human Genomes and its Application to the Teshik-Tash 1 Neandertal",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743885v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers present admixslug, a method for analysing low-quality archaic human genomes under high modern-human contamination, and apply it to the Teshik-Tash 1 child — the south-easternmost known Neandertal.",
+      "summary": "A bioRxiv preprint introduces admixslug, a new computational framework designed to extract population-genetic signal from archaic human genome data that is heavily contaminated with present-day human DNA — a common obstacle when working with ancient specimens from regions where good DNA preservation is rare.\n\nThe method is applied to nuclear DNA extracted from Teshik-Tash 1, the remains of a Neandertal child recovered from a cave in Uzbekistan. The site represents the south-easternmost known extent of the Neandertal range, placing it at a geographic crossroads between the better-studied Neandertals of Europe and the Caucasus and those associated with Altai Mountain specimens. Previous attempts to characterise the nuclear genetics of Teshik-Tash 1 have been limited by poor DNA preservation and high contamination levels.\n\nAdmixslug jointly models contamination and population relationships, enabling the authors to place Teshik-Tash 1 within the broader Neandertal phylogenetic picture despite the challenging data quality. The preprint will be of interest to researchers in palaeogenomics, computational population genetics, and archaeogenomics, and to educators teaching ancient DNA methodology. The paper also connects to ongoing interest in the geographic and population structure of Neandertals across Eurasia. This is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "ancient-dna",
+        "neandertal",
+        "teshik-tash",
+        "palaeogenomics",
+        "contamination-modelling",
+        "computational-genomics",
+        "central-asia",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-14T08:13:11.734164+00:00",
+  "last_run": "2026-08-15T07:27:57.226728+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
@@ -16461,8 +16684,6 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012235": "2026-08-04T09:38:20.539516+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012239": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012256": "2026-08-05T09:35:19.884935+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012257": "2026-07-31T09:50:08.624072+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012258": "2026-07-31T09:50:08.624072+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012261": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012265": "2026-08-04T09:38:20.539516+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012267": "2026-08-11T08:09:01.900318+00:00",
@@ -16474,6 +16695,7 @@
     "https://news.cancerresearchuk.org/2026/08/05/cancer-in-motion-how-computation-is-reshaping-our-view-of-tumours/": "2026-08-06T09:39:06.238482+00:00",
     "https://news.cancerresearchuk.org/2026/08/10/latest-winner-in-our-research-is-beautiful-competition-5/": "2026-08-11T08:09:01.900318+00:00",
     "https://news.cancerresearchuk.org/2026/08/11/the-importance-of-patients-the-decade-long-effort-to-create-next-gen-cancer-models/": "2026-08-12T08:15:02.101073+00:00",
+    "https://news.cancerresearchuk.org/2026/08/14/most-people-in-britain-havent-bought-sunscreen-in-2026/": "2026-08-15T07:27:57.226728+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741055v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741419v1?rss=1": "2026-08-04T09:38:20.539516+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741553v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
@@ -16510,12 +16732,17 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.06.743282v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.07.743619v1?rss=1": "2026-08-09T07:51:32.600587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.08.743654v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.09.743735v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.10.743091v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.10.743885v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744167v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744230v1?rss=1": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.13.744725v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
     "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
     "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
+    "https://www.phgfoundation.org/blog/redefining-genomic-testing-is-it-time-to-talk-about-near-perfect-sequencing/": "2026-08-15T07:27:57.226728+00:00",
     "https://www.phgfoundation.org/blog/what-the-boadicea-breakthrough-means-for-health-policy/": "2026-08-12T08:15:02.101073+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260729010740.htm": "2026-08-02T09:07:32.245867+00:00",
     "https://www.sciencedaily.com/releases/2026/07/260729051519.htm": "2026-08-02T09:07:32.245867+00:00",
@@ -16536,18 +16763,15 @@
     "https://www.sciencedaily.com/releases/2026/08/260806051943.htm": "2026-08-07T08:12:55.445595+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260807235243.htm": "2026-08-10T08:25:48.748163+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260811011138.htm": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260811053042.htm": "2026-08-15T07:27:57.226728+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260812015158.htm": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/07/29/ftc-lawsuit-hims-alleging-deceptive-business-practices/": "2026-07-31T09:50:08.624072+00:00",
-    "https://www.statnews.com/2026/07/29/hybrid-academia-industry-phd-program-announced-uidp/": "2026-07-31T09:50:08.624072+00:00",
-    "https://www.statnews.com/2026/07/29/latigo-phase-2-results-non-opioid-pain-reliever-ltg-001/": "2026-07-31T09:50:08.624072+00:00",
-    "https://www.statnews.com/2026/07/29/trump-medicare-subsidy-cuts-part-d-premium-change/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260812015214.htm": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260813045531.htm": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260814011028.htm": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260814011044.htm": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/2026/07/30/capricor-duchenne-replimune-melanoma-fugitive-biotech-readout-loud-podcast/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/2026/07/30/china-us-pharmaceutical-supply-chain-national-security-risk/": "2026-07-31T09:50:08.624072+00:00",
     "https://www.statnews.com/2026/07/30/health-news-ebola-outbreak-nears-milestone-but-vaccine-close/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/2026/07/30/medicaid-work-requirements-judge-declines-states-request-injunction/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/2026/07/30/medicaid-work-requirements-medical-frailty-exemption-coverage-loss/": "2026-07-31T09:50:08.624072+00:00",
-    "https://www.statnews.com/2026/07/30/mycetoma-who-neglected-disease-research-sudan/": "2026-07-31T09:50:08.624072+00:00",
-    "https://www.statnews.com/2026/07/30/red-bull-funded-studies-energy-drinks-alcohol-shape-policy/": "2026-07-31T09:50:08.624072+00:00",
     "https://www.statnews.com/2026/07/30/replimune-melanoma-drug-rp1-fda-expert-meeting-live-blog/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/2026/07/30/senate-panel-backs-confirmation-health-nominees-schwartz-cdc-kaufman-aspr/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/2026/07/31/american-diabetes-association-ada-police-apology-independence/": "2026-08-01T09:03:01.564966+00:00",
@@ -16671,7 +16895,15 @@
     "https://www.statnews.com/2026/08/13/statin-misinformation-medicine-scams-online-regulation-fact-checks/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
     "https://www.statnews.com/2026/08/13/trump-vaccine-executive-order-mmr-separate-shots-policy/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
     "https://www.statnews.com/2026/08/13/young-people-cancer-new-fertility-tech/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/29/fugitive-who-became-biotech-exec-hospital-sues-lilly/": "2026-07-31T09:50:08.624072+00:00",
+    "https://www.statnews.com/2026/08/14/biotech-news-pbms-agree-to-display-trumprx-drug-prices/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/2026/08/14/cms-transgender-care-rule-how-will-legal-challenges-fare/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/2026/08/14/epic-systems-ftc-review-nda-use-possible-anticompetitive-practices/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/2026/08/14/fda-approves-bristol-multiple-myeloma-drug-zenbexus/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/2026/08/14/health-insurance-companies-maha-surveillance/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/2026/08/14/luigi-mangione-federal-charges-guilty-plea-killing-of-unitedhealthcare-ceo-brian-thompson/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/2026/08/14/methadone-clinics-opioid-addiction-new-rules-culture-shift/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/2026/08/14/us-uk-health-care-systems-loneliness-community-prevention/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/2026/08/14/vaccine-executive-order-policy-aap-president/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/pharmalot/2026/07/30/fda-panel-nixes-duchenne-drug-ftc-sues-hims-and-hers/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/pharmalot/2026/07/30/rising-oil-prices-cost-of-medicines-fosil-fuels/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/pharmalot/2026/07/31/novo-setback-fda-panel-endorses-replimune-melanoma-drug/": "2026-08-01T09:03:01.564966+00:00",
@@ -16697,7 +16929,10 @@
     "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
     "https://www.statnews.com/pharmalot/2026/08/12/lilly-black-market-lawsuits-trump-vaccine-plan-pushback/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/13/california-insulin-sales-moderna-patent-battle/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/13/california-insulin-sales-moderna-patent-battle/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/14/controversial-lab-sues-usp-for-disparaging-its-testing-methods/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/14/lab-tests-lawsuit-bristol-multiple-myeloma-drug-approved/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/14/up-down-ladder-latest-comings-goings-jobs/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00"
   },
   "takedowns": []
 }
