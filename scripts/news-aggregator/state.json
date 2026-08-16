@@ -16674,9 +16674,53 @@
         "central-asia",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": "Scientists studying dogs have published early research — not yet checked by independent experts — looking at why some dogs become very anxious around strangers. They used a type of genetic analysis called a genome-wide association study (GWAS), which scans the entire genetic code of many individuals to find regions that differ between those who show a trait and those who do not.\n\nIn 100 dogs from a Chinese breed called the Kunming dog, the team found that a gene called SLC6A3 — which helps control a brain chemical called dopamine — seems to be linked to this anxious behaviour. Dopamine plays a role in mood, motivation, and social behaviour, and the same gene has been studied in human research into anxiety and attention disorders.\n\nThe researchers hope this finding could eventually help scientists better understand the biology behind social anxiety in people, though this work is at a very early stage.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Dog GWAS links SLC6A3 dopamine transporter locus to stranger-directed anxiety",
+      "is_preprint": true,
+      "run_date": "2026-08-16",
+      "run_iso": "2026-08-16T07:27:06Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-15T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gwas-slc6a3-canine-social-anxiety-dopamine-nrip3",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-15T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "GWAS and multi-omics uncover the SLC6A3 locus for canine stranger-directed social anxiety and implicate NRIP3 in dopaminergic network regulation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.10.744065v1?rss=1"
+        }
+      ],
+      "standfirst": "A genome-wide association study in 100 Kunming dogs identifies SLC6A3 and implicates NRIP3 in dopaminergic regulation, offering a naturally occurring animal model for the genetics of social anxiety.",
+      "summary": "Researchers at Cold Spring Harbor Laboratory have posted a preprint describing a genome-wide association study (GWAS) of stranger-directed anxiety-like behaviour in the Chinese Kunming dog (CKD), a breed in which a subset of individuals display spontaneous social avoidance reminiscent of human social anxiety disorder (SAD).\n\nUsing whole-genome sequencing data from 100 CKDs, the team identified a significant association at the SLC6A3 locus — the gene encoding the dopamine transporter DAT1 — alongside several other loci linked to psychiatric disorders in humans. A multi-omics follow-up analysis further implicated NRIP3 (nuclear receptor-interacting protein 3) in the regulation of dopaminergic network activity.\n\nThe authors argue that the CKD population provides a tractable naturalistic model for dissecting the genetic architecture of SAD-like traits, complementing existing rodent models. The finding that SLC6A3 — previously associated with attention deficit hyperactivity disorder, autism spectrum conditions, and substance use traits in human GWAS — also underlies anxiety-related behaviour in a canine model adds to the evidence base for dopaminergic involvement in social anxiety.\n\nThis work is a preprint posted to bioRxiv and has not yet undergone peer review. The findings should be interpreted cautiously until independent replication and formal publication.",
+      "tags": [
+        "gwas",
+        "social-anxiety",
+        "slc6a3",
+        "dopamine-transporter",
+        "canine-genetics",
+        "animal-models",
+        "psychiatric-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-15T07:27:57.226728+00:00",
+  "last_run": "2026-08-16T07:27:29.969234+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
@@ -16735,6 +16779,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.09.743735v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.10.743091v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.10.743885v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.10.744065v1?rss=1": "2026-08-16T07:27:29.969234+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744167v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744230v1?rss=1": "2026-08-14T08:13:11.734164+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.744725v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
@@ -16767,21 +16812,11 @@
     "https://www.sciencedaily.com/releases/2026/08/260812015158.htm": "2026-08-13T08:18:15.648909+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260812015214.htm": "2026-08-15T07:27:57.226728+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260813045531.htm": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260813045552.htm": "2026-08-16T07:27:29.969234+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260814011028.htm": "2026-08-15T07:27:57.226728+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260814011044.htm": "2026-08-15T07:27:57.226728+00:00",
-    "https://www.statnews.com/2026/07/30/capricor-duchenne-replimune-melanoma-fugitive-biotech-readout-loud-podcast/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/2026/07/30/health-news-ebola-outbreak-nears-milestone-but-vaccine-close/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/2026/07/30/medicaid-work-requirements-judge-declines-states-request-injunction/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/2026/07/30/replimune-melanoma-drug-rp1-fda-expert-meeting-live-blog/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/2026/07/30/senate-panel-backs-confirmation-health-nominees-schwartz-cdc-kaufman-aspr/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/2026/07/31/american-diabetes-association-ada-police-apology-independence/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/2026/07/31/fda-platform-designation-hold-limb-girdle-muscular-dystrophy-lgmd/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/2026/07/31/health-news-federal-government-infectious-disease-monitoring-issues/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/2026/07/31/health-news-federal-government-infectious-disease-monitoring-issues/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
-    "https://www.statnews.com/2026/07/31/letter-to-editor-covid-non-pharmaceutical-interventions-research/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
-    "https://www.statnews.com/2026/07/31/syphilis-drug-shortage-case-study-san-diego-patient-researcher-advocate/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/2026/08/02/senate-would-block-white-house-control-over-research-grants/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/2026/08/03/ai-doctors-licensing-state-medical-boards/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
@@ -16904,13 +16939,8 @@
     "https://www.statnews.com/2026/08/14/methadone-clinics-opioid-addiction-new-rules-culture-shift/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/2026/08/14/us-uk-health-care-systems-loneliness-community-prevention/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/2026/08/14/vaccine-executive-order-policy-aap-president/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/30/fda-panel-nixes-duchenne-drug-ftc-sues-hims-and-hers/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/30/rising-oil-prices-cost-of-medicines-fosil-fuels/": "2026-08-01T09:03:01.564966+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/31/novo-setback-fda-panel-endorses-replimune-melanoma-drug/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/pharmalot/2026/07/31/novo-setback-fda-panel-endorses-replimune-melanoma-drug/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/31/trump-administration-revises-rebate-pilot-drug-discount-program-hospitals/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/pharmalot/2026/07/31/trump-administration-revises-rebate-pilot-drug-discount-program-hospitals/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/31/up-and-down-the-ladder-latest-comings-and-goings-jobs/": "2026-08-01T09:03:01.564966+00:00",
     "https://www.statnews.com/pharmalot/2026/07/31/up-and-down-the-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
     "https://www.statnews.com/pharmalot/2026/08/02/michigan-supreme-court-ruling-allows-probe-into-lilly-insulin-pricing/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/pharmalot/2026/08/03/astrazeneca-bristol-merger-talks-340b-rebate-plan-revised/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
