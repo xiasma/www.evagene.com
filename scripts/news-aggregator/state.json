@@ -16718,9 +16718,98 @@
         "psychiatric-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "SNP marker system developed to map genetic diversity in medicinal mulberry germplasm",
+      "is_preprint": true,
+      "run_date": "2026-08-17",
+      "run_iso": "2026-08-17T07:48:49Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-08-16T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "mulberry-snp-markers-1-dnj-genetic-diversity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Comprehensive analysis of mulberry genetic diversity based on 1-DNJ content and SNP markers",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.11.744330v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from bioRxiv describes a new SNP-PCR system applied to 51 mulberry samples, linking molecular marker diversity to variation in the medically studied compound 1-deoxynojirimycin.",
+      "summary": "Researchers have deposited a preprint on bioRxiv describing the development and optimisation of a SNP-based molecular marker system for mulberry (Morus spp.), a genus of economic and ecological significance across East Asia and beyond. The study used genome resequencing of 51 mulberry samples to design SNP primers, with the PCR system refined through single-factor and orthogonal experimental assays.\n\nThe team analysed both phenotypic diversity and SNP-marker-based genetic diversity with respect to 1-deoxynojirimycin (1-DNJ), an iminosugar found in mulberry leaves that has attracted research interest for its effects on carbohydrate metabolism. The study characterises correlations between molecular marker groupings and 1-DNJ phenotype, providing a framework intended to support the selection and utilisation of high-quality mulberry germplasm in breeding and pharmacognosy programmes.\n\nThis work has not yet been peer-reviewed. The findings are of primary interest to plant geneticists and crop-improvement researchers working on underutilised species, and to educators covering the application of SNP markers in germplasm characterisation. No human health implications should be drawn from this preprint at this stage.",
+      "tags": [
+        "mulberry",
+        "snp-markers",
+        "germplasm",
+        "plant-genetics",
+        "1-dnj",
+        "genetic-diversity",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Neurofibromatosis type 1 (NF1) is an inherited condition caused by changes — known as variants — in a gene called NF1, which helps regulate cell growth. Researchers who have spent over a decade studying NF1 have announced that they are making a large set of laboratory cell lines freely available to the scientific community. These cell lines each carry different variants of the NF1 gene, including some whose effects are not yet fully understood.\n\nSharing standardised laboratory tools like these can help other research teams around the world study how the NF1 gene works and test potential treatments more efficiently. The researchers describe the characteristics of each cell line in a report published on bioRxiv, a platform where scientific findings are shared before formal peer review.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Publicly available NF1 cell line panel released to support neurofibromin research and drug discovery",
+      "is_preprint": true,
+      "run_date": "2026-08-17",
+      "run_iso": "2026-08-17T07:48:49Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-08-16T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "nf1-neurofibromin-cell-lines-public-resource",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cell line resources for the study of neurofibromin: functions, phenotypes, and drug discovery/development",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.743550v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes a collection of characterised human cell lines bearing NF1 variants — including variants of uncertain significance — made freely available to the research community.",
+      "summary": "A team with over a decade of experience studying neurofibromin function has deposited a preprint on bioRxiv presenting a curated panel of human cell lines containing variants within the NF1 gene, the tumour suppressor whose loss of function underlies Neurofibromatosis type 1 (NF1). The resource includes lines harbouring well-characterised patient-derived variants introduced either at the endogenous locus or expressed as exogenous cDNA constructs, as well as lines carrying variants of uncertain significance (VUS).\n\nThe preprint characterises the functional properties and phenotypic profiles of these lines and announces that all are being made publicly available to researchers both within and outside the NF1 community. The stated aim is to accelerate the study of neurofibromin's cellular roles and to provide standardised tools for pre-clinical drug discovery and development efforts targeting NF1-associated conditions.\n\nNF1 is one of the more common dominantly inherited conditions affecting the nervous system; it is associated with neurofibromas, café-au-lait macules, and — in a subset of individuals — malignant peripheral nerve sheath tumours and other complications. Research-grade cell lines with defined variants are a foundational resource for functional genomics and therapeutic target validation.\n\nThis work has not yet been peer-reviewed. It will be of primary interest to molecular geneticists, rare-disease researchers, and those working on NF1 therapeutics.",
+      "tags": [
+        "nf1",
+        "neurofibromatosis",
+        "neurofibromin",
+        "cell-lines",
+        "rare-disease",
+        "drug-discovery",
+        "variants-of-uncertain-significance",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-16T07:27:29.969234+00:00",
+  "last_run": "2026-08-17T07:49:26.810890+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
@@ -16782,6 +16871,8 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.10.744065v1?rss=1": "2026-08-16T07:27:29.969234+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744167v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744230v1?rss=1": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.11.744330v1?rss=1": "2026-08-17T07:49:26.810890+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.13.743550v1?rss=1": "2026-08-17T07:49:26.810890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.744725v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
@@ -16789,9 +16880,6 @@
     "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
     "https://www.phgfoundation.org/blog/redefining-genomic-testing-is-it-time-to-talk-about-near-perfect-sequencing/": "2026-08-15T07:27:57.226728+00:00",
     "https://www.phgfoundation.org/blog/what-the-boadicea-breakthrough-means-for-health-policy/": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260729010740.htm": "2026-08-02T09:07:32.245867+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260729051519.htm": "2026-08-02T09:07:32.245867+00:00",
-    "https://www.sciencedaily.com/releases/2026/07/260731034139.htm": "2026-08-02T09:07:32.245867+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260801042811.htm": "2026-08-03T10:39:43.717612+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260801042814.htm": "2026-08-03T10:39:43.717612+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260801042818.htm": "2026-08-04T09:38:20.539516+00:00",
@@ -16815,8 +16903,6 @@
     "https://www.sciencedaily.com/releases/2026/08/260813045552.htm": "2026-08-16T07:27:29.969234+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260814011028.htm": "2026-08-15T07:27:57.226728+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260814011044.htm": "2026-08-15T07:27:57.226728+00:00",
-    "https://www.statnews.com/2026/07/31/health-news-federal-government-infectious-disease-monitoring-issues/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
-    "https://www.statnews.com/2026/07/31/novo-nordisk-inflammation-heart-disease-ziltivekimab/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
     "https://www.statnews.com/2026/08/02/senate-would-block-white-house-control-over-research-grants/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/2026/08/03/ai-doctors-licensing-state-medical-boards/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
@@ -16939,9 +17025,7 @@
     "https://www.statnews.com/2026/08/14/methadone-clinics-opioid-addiction-new-rules-culture-shift/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/2026/08/14/us-uk-health-care-systems-loneliness-community-prevention/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/2026/08/14/vaccine-executive-order-policy-aap-president/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/31/novo-setback-fda-panel-endorses-replimune-melanoma-drug/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/31/trump-administration-revises-rebate-pilot-drug-discount-program-hospitals/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
-    "https://www.statnews.com/pharmalot/2026/07/31/up-and-down-the-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-08-02T09:07:32.245867+00:00",
+    "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss": "2026-08-17T07:49:26.810890+00:00",
     "https://www.statnews.com/pharmalot/2026/08/02/michigan-supreme-court-ruling-allows-probe-into-lilly-insulin-pricing/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/pharmalot/2026/08/03/astrazeneca-bristol-merger-talks-340b-rebate-plan-revised/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
