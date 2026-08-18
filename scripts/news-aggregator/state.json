@@ -16807,9 +16807,140 @@
         "variants-of-uncertain-significance",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Sequence features within human uORFs found to block accumulation of the proteins they encode",
+      "is_preprint": true,
+      "run_date": "2026-08-18",
+      "run_iso": "2026-08-18T07:34:06Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-17T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "uorf-translation-restriction-sequence-intrinsic-barriers",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Sequence-intrinsic barriers define a class of translation-restricted uORFs in the human genome",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.12.739961v1?rss=1"
+        }
+      ],
+      "standfirst": "A systematic reporter study from bioRxiv identifies intrinsic sequence-level barriers that prevent most translated upstream open reading frames from yielding detectable proteins, helping resolve a long-standing discrepancy in ribosome-profiling data.",
+      "summary": "Ribosome-profiling studies have repeatedly shown that short upstream open reading frames (uORFs) embedded in the 5′ untranslated regions of human messenger RNAs are frequently translated — yet the proteins they would theoretically produce are almost never detected by proteomics. A preprint posted to bioRxiv on 17 August 2026 from Cold Spring Harbor Laboratory reports a systematic attempt to resolve this discrepancy.\n\nResearchers quantified the intracellular accumulation of 111 evolutionarily conserved human uORF-encoded proteins (uORFps) using a unified reporter platform. They report that sequence-intrinsic barriers — properties embedded in the uORF sequence itself rather than in post-translational degradation pathways — define a class of translation-restricted uORFs whose products fail to accumulate to detectable levels even when ribosomal occupancy is confirmed.\n\nThe findings have implications for understanding the true coding potential of the human genome and for interpreting ribosome-profiling datasets, which have increasingly been used to infer the existence of novel small proteins. The work also raises questions about whether apparent uORF translation represents biologically meaningful protein production or a byproduct of ribosomal scanning mechanics. The study has not yet been peer-reviewed.",
+      "tags": [
+        "uorf",
+        "ribosome-profiling",
+        "translation",
+        "small-proteins",
+        "5-prime-utr",
+        "functional-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "LPL loss-of-function variants used to model context-dependent clinical interpretation beyond current ACMG guidelines",
+      "is_preprint": true,
+      "run_date": "2026-08-18",
+      "run_iso": "2026-08-18T07:34:06Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-08-17T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "lpl-variants-context-dependent-interpretation-acmg",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Context-dependent variant interpretation from Mendelian disease to genetic predisposition: a proof-of-concept using LPL",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.12.744351v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint argues that existing variant classification frameworks assign a single verdict regardless of inheritance state, and uses lipoprotein lipase variants as a proof-of-concept for context-aware interpretation.",
+      "summary": "Current clinical variant interpretation frameworks, including the widely used ACMG/AMP guidelines, assign a single pathogenicity classification to each variant irrespective of whether it is present in a homozygous, heterozygous, or compound-heterozygous state. A preprint posted to bioRxiv on 17 August 2026 argues that this approach fails to communicate clinically important context-dependent consequences.\n\nThe researchers use loss-of-function variants in LPL — the gene encoding lipoprotein lipase — as a model system. Heterozygous LPL loss-of-function variants are associated with modestly elevated triglycerides and a predisposition to cardiovascular risk, whereas biallelic loss causes severe familial hyperchylomicronaemia, a clinically distinct condition. The authors contend that collapsing these contexts into a single classification obscures meaningful biological and clinical differences.\n\nThe preprint proposes a proof-of-concept framework for context-dependent variant interpretation intended to accommodate inheritance state, zygosity, and broader genetic background. The authors position this as relevant not only to rare Mendelian disease diagnostics but also to emerging population screening programmes, where the same variant may carry different implications depending on how it is identified.\n\nThe work has not yet been peer-reviewed. Genetic counsellors and researchers working on variant classification frameworks are the primary audience for this methodological discussion.",
+      "tags": [
+        "variant-interpretation",
+        "acmg-guidelines",
+        "lpl",
+        "familial-hyperchylomicronaemia",
+        "zygosity",
+        "population-screening",
+        "genetic-counselling",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Intestinal protease overactivity — not neuronal dysfunction — drives motor neuron loss in C. elegans SMA model",
+      "is_preprint": true,
+      "run_date": "2026-08-18",
+      "run_iso": "2026-08-18T07:34:06Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-17T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "smn1-sma-intestinal-proteolysis-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Hyperactive intestinal proteolysis underlies smn-1 mutant phenotypes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.11.744262v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that hyperactive proteolysis in the gut, rather than a cell-autonomous neuronal defect, underlies the neuromuscular phenotypes caused by loss of the SMA gene smn-1 in nematodes.",
+      "summary": "Spinal muscular atrophy (SMA) is caused by loss-of-function mutations in SMN1, a gene encoding a ubiquitously expressed spliceosome assembly factor. A longstanding puzzle in SMA biology is why a protein present in all cells selectively destroys motor neurons. A preprint posted to bioRxiv on 17 August 2026 from Cold Spring Harbor Laboratory describes work in the nematode Caenorhabditis elegans that challenges the prevailing cell-autonomous model of this selective vulnerability.\n\nUsing C. elegans strains carrying loss-of-function alleles in smn-1, researchers report that the primary driver of neuromuscular decline is not a defect intrinsic to neurons or muscle cells, but rather hyperactive intestinal proteolysis. Elevated protease activity in the gut appears to produce systemic effects that ultimately compromise motor neuron viability. The authors propose that understanding inter-tissue communication from the intestine may open alternative avenues for thinking about SMA pathology.\n\nThe study is notable for its non-neuronal framing of a canonical neurological disease gene. The C. elegans model allows tissue-specific genetic manipulations that are difficult to achieve in mammalian systems, though the translational relevance to human SMA remains to be established. The work has not yet been peer-reviewed.",
+      "tags": [
+        "spinal-muscular-atrophy",
+        "smn1",
+        "c-elegans",
+        "intestinal-proteolysis",
+        "motor-neuron-disease",
+        "neurodegeneration",
+        "inter-tissue-signalling",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-17T07:49:26.810890+00:00",
+  "last_run": "2026-08-18T07:35:16.128761+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
@@ -16829,11 +16960,10 @@
     "https://news.cancerresearchuk.org/2026/08/10/latest-winner-in-our-research-is-beautiful-competition-5/": "2026-08-11T08:09:01.900318+00:00",
     "https://news.cancerresearchuk.org/2026/08/11/the-importance-of-patients-the-decade-long-effort-to-create-next-gen-cancer-models/": "2026-08-12T08:15:02.101073+00:00",
     "https://news.cancerresearchuk.org/2026/08/14/most-people-in-britain-havent-bought-sunscreen-in-2026/": "2026-08-15T07:27:57.226728+00:00",
+    "https://news.cancerresearchuk.org/2026/08/17/we-drove-down-smoking-now-we-need-the-same-resolve-on-obesity/": "2026-08-18T07:35:16.128761+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.27.741055v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741419v1?rss=1": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.29.741553v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.29.741564v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.29.741578v1?rss=1": "2026-08-03T10:39:43.717612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.30.739400v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.30.740713v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.30.741666v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
@@ -16871,17 +17001,18 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.10.744065v1?rss=1": "2026-08-16T07:27:29.969234+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744167v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744230v1?rss=1": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.11.744262v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744330v1?rss=1": "2026-08-17T07:49:26.810890+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.12.739961v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.12.744351v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.743550v1?rss=1": "2026-08-17T07:49:26.810890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.744725v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.england.nhs.uk/2026/08/tens-of-thousands-of-young-people-get-vital-protection-from-menb-in-just-a-fortnight/": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.england.nhs.uk/2026/08/nhs-urges-those-eligible-to-book-a-flu-jab-ahead-of-this-winter-season/": "2026-08-18T07:35:16.128761+00:00",
     "https://www.phgfoundation.org/blog/policy-priorities-for-implementing-personalised-prevention-in-europe/": "2026-08-04T09:38:20.539516+00:00",
     "https://www.phgfoundation.org/blog/redefining-genomic-testing-is-it-time-to-talk-about-near-perfect-sequencing/": "2026-08-15T07:27:57.226728+00:00",
     "https://www.phgfoundation.org/blog/what-the-boadicea-breakthrough-means-for-health-policy/": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260801042811.htm": "2026-08-03T10:39:43.717612+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260801042814.htm": "2026-08-03T10:39:43.717612+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260801042818.htm": "2026-08-04T09:38:20.539516+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260802223417.htm": "2026-08-04T09:38:20.539516+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260802223433.htm": "2026-08-04T09:38:20.539516+00:00",
@@ -16903,17 +17034,14 @@
     "https://www.sciencedaily.com/releases/2026/08/260813045552.htm": "2026-08-16T07:27:29.969234+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260814011028.htm": "2026-08-15T07:27:57.226728+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260814011044.htm": "2026-08-15T07:27:57.226728+00:00",
-    "https://www.statnews.com/2026/08/02/senate-would-block-white-house-control-over-research-grants/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
-    "https://www.statnews.com/2026/08/03/ai-doctors-licensing-state-medical-boards/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
-    "https://www.statnews.com/2026/08/03/ai-scribes-medical-education-learning-tool-cognitive-crutch/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
-    "https://www.statnews.com/2026/08/03/als-diagnosis-neurologist-research-hope/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260814235856.htm": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260815064811.htm": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/2026/08/03/biontech-ceo-guido-oelkers-ugur-sahin-replacement/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/03/biotech-news-is-there-a-pharma-mega-merger-coming-astrazeneca-bms/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/03/cms-fda-breakthrough-devices-payment-pathways-eliminated/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/03/cyclospora-outbreak-two-fatalities-reported-michigan/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/03/eli-lilly-retatrutide-mystery-patient-doctors-seek-same-access-their-patients/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/03/health-news-new-york-assisted-dying-law-moves-forward/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
-    "https://www.statnews.com/2026/08/03/heart-transplant-prehabilitation-cardiologist-discusses-innovative-project/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
     "https://www.statnews.com/2026/08/04/ai-scribes-medical-devices-uk-regulator-view-health-tech/": "2026-08-05T09:35:19.884935+00:00",
     "https://www.statnews.com/2026/08/04/assisted-suicide-medical-aid-in-dying-quebec-mental-illness-suffering/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/2026/08/04/aurora-therapeutics-ends-program-baby-kj-treatments-beam-therapeutics-jennifer-doudna/": "2026-08-06T09:39:06.238482+00:00",
@@ -17025,8 +17153,17 @@
     "https://www.statnews.com/2026/08/14/methadone-clinics-opioid-addiction-new-rules-culture-shift/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/2026/08/14/us-uk-health-care-systems-loneliness-community-prevention/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/2026/08/14/vaccine-executive-order-policy-aap-president/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/2026/08/17/biotech-news-akeso-summit-ivonescimabs-worsening-tumor-progression-benefit/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.statnews.com/2026/08/17/eyepoint-duravyu-wet-amd-study/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.statnews.com/2026/08/17/health-news-everything-the-trump-administration-did-on-health-care/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.statnews.com/2026/08/17/healthy-opportunities-pilots-hop-program-north-carolina-medicaid-social-services/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.statnews.com/2026/08/17/irs-probe-unitedhealth-group-taxes-private-equity-deals-physician-groups/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.statnews.com/2026/08/17/paid-paternity-leave-baby-help-pediatricians/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss": "2026-08-17T07:49:26.810890+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/02/michigan-supreme-court-ruling-allows-probe-into-lilly-insulin-pricing/?utm_campaign=rss": "2026-08-03T10:39:43.717612+00:00",
+    "https://www.statnews.com/2026/08/17/rfk-jr-california-tour-maha-messaging-fight-fraud-addiction/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.statnews.com/2026/08/17/sanofi-layoffs-mass-blueprint-medicines/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.statnews.com/2026/08/17/ugm-epic-confronts-challenges-succession-ai-strategy-antitrust/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.statnews.com/2026/08/17/unitedhealth-irs-probe-audit-targets-foreign-subsidiary-transfers/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/pharmalot/2026/08/03/astrazeneca-bristol-merger-talks-340b-rebate-plan-revised/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
     "https://www.statnews.com/pharmalot/2026/08/03/sandoz-to-settle-price-fixing-allegations/?utm_campaign=rss": "2026-08-04T09:38:20.539516+00:00",
@@ -17046,7 +17183,8 @@
     "https://www.statnews.com/pharmalot/2026/08/13/california-insulin-sales-moderna-patent-battle/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
     "https://www.statnews.com/pharmalot/2026/08/14/controversial-lab-sues-usp-for-disparaging-its-testing-methods/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/pharmalot/2026/08/14/lab-tests-lawsuit-bristol-multiple-myeloma-drug-approved/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/14/up-down-ladder-latest-comings-goings-jobs/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/14/up-down-ladder-latest-comings-goings-jobs/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/17/astrazeneca-lung-cancer-setback-falling-drug-prices/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00"
   },
   "takedowns": []
 }
