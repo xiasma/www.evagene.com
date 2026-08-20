@@ -17028,21 +17028,353 @@
         "quantitative-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "patients",
+        "educators",
+        "students"
+      ],
+      "for_patients": "Scientists at the pharmaceutical companies Moderna and Merck have announced that a new type of personalised cancer treatment worked in a large clinical trial for a type of skin cancer called melanoma. The treatment is a vaccine made using a technology called mRNA — the same platform used in some COVID-19 vaccines — but instead of targeting a virus, it is designed to help the immune system recognise and fight a specific patient's cancer cells. Each vaccine is made individually, based on the genetic make-up of the patient's own tumour. In the trial, it was used alongside an existing cancer medicine called pembrolizumab. The companies say the combination reduced the chance of the cancer coming back or spreading compared with pembrolizumab alone. The full results have not yet been published in a scientific journal, so independent experts have not yet had the chance to review all the data. Researchers say results like these could, in future, help inform how doctors approach treatment for some cancers. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Moderna and Merck report phase 3 success for personalised mRNA melanoma vaccine",
+      "is_preprint": false,
+      "run_date": "2026-08-20",
+      "run_iso": "2026-08-20T07:37:04Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 9,
+        "newest_iso": "2026-08-19T10:45:00Z",
+        "novelty": 9
+      },
+      "slug": "moderna-merck-mrna-cancer-vaccine-melanoma-phase3",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2020/02/AdobeStock_284333299-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-19T10:45:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Moderna and Merck say mRNA cancer vaccine succeeded in late-stage melanoma trial",
+          "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/10/GettyImages-1306896898-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-08-19T11:47:26Z",
+          "publisher": "Stat News",
+          "title": "Dissecting Chinese trial strategy in wake of deaths",
+          "url": "https://www.statnews.com/2026/08/19/health-news-dissecting-chinese-trial-strategy-in-wake-of-deaths/"
+        }
+      ],
+      "standfirst": "A late-stage trial of mRNA-4157/V940 combined with pembrolizumab met its primary endpoint in advanced melanoma, according to data reported by Moderna and Merck.",
+      "summary": "Moderna and Merck have reported that their personalised mRNA cancer vaccine, mRNA-4157/V940, succeeded in a late-stage clinical trial in patients with advanced melanoma when combined with the checkpoint inhibitor pembrolizumab. The result, reported on 19 August 2026, marks a significant step for individualised neoantigen-targeting vaccine strategies in oncology.\n\nThe vaccine is designed around tumour-specific neoantigens identified from each patient's own tumour sequencing data. A personalised mRNA sequence encoding those neoantigens is then manufactured and administered alongside pembrolizumab, which blocks the PD-1 checkpoint pathway. The strategy is intended to train the immune system to recognise and attack residual tumour cells.\n\nFull data from the trial have not yet been published in a peer-reviewed journal, and independent expert analysis of the complete dataset is awaited. Earlier phase 2 results, published in 2023, showed a reduction in recurrence or death compared with pembrolizumab alone in resected high-risk melanoma. The new phase 3 readout extends that signal into a larger, randomised cohort.\n\nThe development is relevant to oncologists following the hereditary and somatic genomics of melanoma, and to researchers working on neoantigen prediction, tumour mutational burden, and personalised immunotherapy design. Regulatory filings have not yet been announced. Stat News reported the result on 19 August 2026.",
+      "tags": [
+        "mrna-vaccine",
+        "melanoma",
+        "neoantigen",
+        "personalised-medicine",
+        "immunotherapy",
+        "cancer-drug-approval",
+        "moderna",
+        "merck"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "A company in China called Huidagene was testing a new gene-editing treatment for Duchenne muscular dystrophy, a serious genetic muscle condition caused by faults in a gene called DMD. A patient in the trial died, and experts in gene editing are now looking closely at the decisions the company made when designing and running the trial. They are asking whether the particular approach used was safe and whether the company was open enough about what happened. Gene-editing treatments use molecular tools to try to correct or work around faults in DNA inside cells. Because these technologies are new and still being studied, trials are closely watched for safety. Researchers, medical regulators, and ethics experts say transparency after adverse events in trials is important for the whole field. This story does not relate to any currently available treatment. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Gene-editing experts scrutinise Huidagene trial decisions following patient death",
+      "is_preprint": false,
+      "run_date": "2026-08-20",
+      "run_iso": "2026-08-20T07:37:04Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-08-19T17:09:00Z",
+        "novelty": 6
+      },
+      "slug": "huidagene-duchenne-trial-death-expert-scrutiny",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/AdobeStock_358689048-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-19T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: In wake of boy's death, gene editing experts dissect Huidagene's decisions",
+          "url": "https://www.statnews.com/2026/08/19/huidagene-clinical-trial-deaths-experts-dissect-study-design/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2018/12/AdobeStock_201629785-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-08-19T17:09:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Experts scrutinize Huidagene's disclosures after patient death",
+          "url": "https://www.statnews.com/2026/08/19/biotech-news-experts-scrutinize-huidagene-disclosures-after-patient-death/"
+        }
+      ],
+      "standfirst": "Specialists in gene editing have questioned the study design and technical choices made by Huidagene Therapeutics in a Duchenne muscular dystrophy trial in which a patient died.",
+      "summary": "Experts in gene editing and clinical trial design are examining the decisions made by the Chinese biotechnology company Huidagene Therapeutics following the death of a patient enrolled in its Duchenne muscular dystrophy (DMD) programme. Stat News reported on 19 August 2026 that specialists are questioning technical modifications Huidagene implemented in a treatment strategy that has largely been discontinued by United States-based companies, citing safety and efficacy concerns.\n\nThe scrutiny centres on the specific genome-editing approach employed and on how trial disclosures were made after the adverse event. Experts quoted by Stat News raised concerns about whether the modifications Huidagene introduced adequately addressed the known risks associated with the underlying strategy, and about the transparency of reporting.\n\nThe case follows a broader pattern of international concern about clinical trial governance in novel genome-editing studies. Genetic Current covered related developments — including an earlier death in a Chinese gene-editing trial — in its 6 August 2026 cluster on gene-editing trial safety and research ethics.\n\nThis story is relevant to researchers working in genome editing, genetic counsellors and clinicians who advise families affected by DMD, and to those with an interest in research ethics and regulatory oversight of early-phase gene therapy studies. The underlying DMD biology involves loss-of-function variants in the dystrophin gene (*DMD*) on the X chromosome.",
+      "tags": [
+        "gene-editing",
+        "duchenne-muscular-dystrophy",
+        "clinical-trial-safety",
+        "research-ethics",
+        "genome-editing-governance",
+        "china",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "The United States medicines regulator (the FDA) has approved a new medicine called garetosmab, sold under the name Pasatru, for a very rare genetic condition called fibrodysplasia ossificans progressiva, or FOP. FOP is caused by a fault in a gene called ACVR1. This gene fault makes the body wrongly produce new bone tissue in muscles and other soft tissues, which becomes progressively disabling over time. The condition affects roughly one in two million people. Garetosmab is an antibody — a type of protein — that targets a molecule called activin A, which drives the abnormal bone-forming process. By blocking this molecule, the medicine aims to slow or reduce the formation of abnormal bone. This approval relates only to treatment in countries where the FDA's decisions apply (primarily the United States), and availability in other countries would depend on separate regulatory processes. Researchers and clinicians who specialise in rare genetic disorders will be closely watching how the medicine performs in real-world use. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "FDA approves Regeneron's garetosmab for fibrodysplasia ossificans progressiva",
+      "is_preprint": false,
+      "run_date": "2026-08-20",
+      "run_iso": "2026-08-20T07:37:04Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-08-19T17:02:11Z",
+        "novelty": 9
+      },
+      "slug": "regeneron-garetosmab-fop-fda-approval-pasatru",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/fop-drug-1-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-19T17:02:11Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Regeneron drug for disease that causes dangerous bone growth earns FDA approval",
+          "url": "https://www.statnews.com/2026/08/19/regeneron-fop-garetosmab-fda-approval-pasatru/"
+        }
+      ],
+      "standfirst": "Regeneron's antibody treatment for fibrodysplasia ossificans progressiva — an ultra-rare genetic disorder in which bone forms progressively in soft tissue — has received FDA approval under the brand name Pasatru.",
+      "summary": "The United States Food and Drug Administration has approved garetosmab (brand name Pasatru), developed by Regeneron Pharmaceuticals, for the treatment of fibrodysplasia ossificans progressiva (FOP). Stat News reported the approval on 19 August 2026.\n\nFOP is an ultra-rare autosomal dominant condition caused almost exclusively by a heterozygous gain-of-function variant in the *ACVR1* gene, which encodes the activin receptor type I (also known as ALK2), a bone morphogenetic protein receptor. The pathogenic variant — most commonly c.617G>A (p.Arg206His) — leads to aberrant BMP signalling and progressive ectopic bone formation in muscle, tendons, ligaments, and other soft tissues. The condition is severely disabling, with a cumulative effect that significantly restricts movement over time.\n\nGaretosmab is a monoclonal antibody that targets activin A, a ligand that drives the aberrant signalling cascade in FOP. Phase 2 trial data published previously showed a reduction in new lesion formation compared with placebo.\n\nFOP affects approximately one in two million people globally. The approval is relevant to clinical geneticists, genetic counsellors, and specialists in rare musculoskeletal disease who advise affected families. From a research perspective, the approval illustrates how precise molecular understanding of a single-gene disorder can underpin a targeted biological therapy.",
+      "tags": [
+        "fop",
+        "fibrodysplasia-ossificans-progressiva",
+        "acvr1",
+        "fda-approval",
+        "rare-disease",
+        "monoclonal-antibody",
+        "regeneron",
+        "bmp-signalling"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Maternal age shapes offspring health through reversible epigenetic changes, study suggests",
+      "is_preprint": false,
+      "run_date": "2026-08-20",
+      "run_iso": "2026-08-20T07:37:04Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-08-19T23:44:38Z",
+        "novelty": 7
+      },
+      "slug": "maternal-age-epigenetic-inheritance-offspring-health",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-19T23:44:38Z",
+          "publisher": "ScienceDaily",
+          "title": "A mother's age can shape her offspring without changing their DNA",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260819041220.htm"
+        }
+      ],
+      "standfirst": "Researchers have found evidence that maternal-age effects on offspring may be mediated by heritable alterations in gene activity rather than irreversible DNA damage, with potential implications for understanding multigenerational inheritance.",
+      "summary": "A study reported by ScienceDaily on 19 August 2026 presents evidence that the well-documented effects of maternal age on offspring characteristics and health may be driven primarily by reversible epigenetic changes — alterations in gene activity that do not alter the underlying DNA sequence — rather than by permanent DNA damage or mutation.\n\nThe research raises questions about transgenerational epigenetic inheritance: whether biological information acquired by one generation can be transmitted to subsequent generations, potentially influencing the health of grandchildren and great-grandchildren. This area of research is active and sometimes contested, and the mechanisms by which epigenetic marks survive the extensive reprogramming that occurs during gametogenesis and early embryonic development remain a subject of investigation.\n\nThe specific institution, research group, model organism, and journal in which the findings were published are not detailed in the ScienceDaily summary available at the time of writing. Readers are directed to the primary publication for methodological detail.\n\nThe findings are relevant to researchers working in epigenetics, reproductive biology, and developmental genetics, as well as educators covering epigenetic inheritance. The concept of reversible versus permanent molecular changes is also relevant to those teaching or studying the distinction between genetic and epigenetic modes of inheritance.",
+      "tags": [
+        "epigenetics",
+        "maternal-age",
+        "transgenerational-inheritance",
+        "gene-regulation",
+        "reproductive-biology",
+        "developmental-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Silver nanoparticles shown to increase DNA assembly efficiency fivefold in Japanese laboratory study",
+      "is_preprint": false,
+      "run_date": "2026-08-20",
+      "run_iso": "2026-08-20T07:37:04Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-19T07:46:13Z",
+        "novelty": 8
+      },
+      "slug": "silver-nanoparticles-dna-assembly-efficiency",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-19T07:46:13Z",
+          "publisher": "ScienceDaily",
+          "title": "Japanese scientists use tiny silver particles to make DNA assembly up to 5x more efficient",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260816044842.htm"
+        }
+      ],
+      "standfirst": "Scientists in Japan have demonstrated that silver nanoparticles can cleave DNA to produce longer cohesive ends, substantially improving the efficiency with which DNA fragments join during assembly.",
+      "summary": "Researchers in Japan have published findings showing that silver nanoparticles can be used to cut DNA in a manner that produces longer cohesive ('sticky') ends than conventional restriction enzymes typically generate. The extended sticky ends facilitate more efficient ligation, increasing the rate at which DNA fragments join by up to fivefold in laboratory conditions, according to the ScienceDaily report published on 19 August 2026.\n\nEfficient DNA assembly is a rate-limiting step in synthetic biology and molecular genetics workflows, including the construction of large synthetic DNA sequences for research into gene therapies, vaccine vectors, engineered proteins, and crop improvement. Existing methods, including Golden Gate assembly and Gibson assembly, rely on enzyme-generated overhangs of defined lengths; the use of nanoparticles to generate extended overhangs represents a distinct approach.\n\nThe specific institution, journal, and research team involved are not identified in the available ScienceDaily summary; readers are directed to the primary publication for full methodological and statistical detail.\n\nFrom an educational perspective, the study illustrates the intersection of nanotechnology and molecular biology in tool development. The practical application of this technique to large-scale DNA synthesis for therapeutic or agricultural purposes would require further validation under a range of conditions.",
+      "tags": [
+        "dna-assembly",
+        "silver-nanoparticles",
+        "synthetic-biology",
+        "molecular-cloning",
+        "sticky-ends",
+        "nanotechnology",
+        "tool-development"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genealogists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Elston–Stewart algorithm applied to exact Y-STR match probability calculation in pedigree forensics",
+      "is_preprint": true,
+      "run_date": "2026-08-20",
+      "run_iso": "2026-08-20T07:37:04Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-19T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "elston-stewart-y-str-pedigree-match-probabilities-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-19T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Use of the Elston-Stewart algorithm for the efficient calculation of exact pedigree-based Y-STR match probabilities",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.14.744965v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes how the Elston–Stewart algorithm can be adapted to calculate exact pedigree-based match probabilities for Y-chromosomal STR profiles, addressing a longstanding challenge in forensic genetics.",
+      "summary": "A preprint posted to bioRxiv on 19 August 2026 by researchers at Cold Spring Harbor Laboratory describes the application of the Elston–Stewart algorithm — a classical method from quantitative genetics for computing likelihoods across pedigrees — to the problem of calculating exact match probabilities for Y-chromosomal short tandem repeat (Y-STR) profiles in forensic genetics contexts.\n\nY-STR analysis is widely used in forensic casework, particularly in sexual offence investigations, because the non-recombining nature of the Y chromosome means that male-line relatives share the same Y-STR haplotype. This creates a statistical challenge: under the defence hypothesis that a suspect was not the trace donor, calculating the probability that another man in the relevant suspect population would share the same Y-STR profile requires modelling of relatedness and population structure. The Elston–Stewart algorithm, by enabling efficient traversal of pedigree structures, offers a mathematically tractable approach to this calculation.\n\nThe preprint is directly relevant to researchers in forensic genetics, population genetics, and statistical genetics, as well as to those working on pedigree-based probability methods more broadly. The Elston–Stewart algorithm is also of interest to the Evagene research community given its application to pedigree likelihood computation.\n\nThis is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "y-str",
+        "forensic-genetics",
+        "elston-stewart-algorithm",
+        "pedigree-likelihood",
+        "population-genetics",
+        "y-chromosome",
+        "statistical-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Genotype-stratified study characterises hypertrophic cardiomyopathy in Maine Coon cats carrying MYBPC3-A31P",
+      "is_preprint": true,
+      "run_date": "2026-08-20",
+      "run_iso": "2026-08-20T07:37:04Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-08-19T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "mybpc3-a31p-maine-coon-hcm-genotype-phenotype-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-19T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The Maine Coon Cat Harboring the MYBPC3-A31P Mutation: A Genotype-Stratified Phenotypic Characterization of Hypertrophic Cardiomyopathy",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744747v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint examines how heterozygosity or homozygosity for the MYBPC3 p.A31P variant shapes the severity and phenotype of hypertrophic cardiomyopathy in Maine Coon cats, reinforcing their value as a large-animal model for the human condition.",
+      "summary": "A preprint posted to bioRxiv on 19 August 2026 reports a genotype-stratified phenotypic characterisation of hypertrophic cardiomyopathy (HCM) in Maine Coon cats carrying the *MYBPC3* c.91G>C (p.A31P) variant. The study examines whether being heterozygous or homozygous for this variant affects the severity and nature of the cardiac phenotype.\n\nHCM is the most common inherited cardiac condition in both humans and cats. In humans, pathogenic variants in *MYBPC3* — which encodes cardiac myosin binding protein C — account for approximately 40–50% of genetically solved HCM cases. The feline p.A31P variant is homologous in both genetics and pathology to human *MYBPC3* mutations. The authors note that mouse models of HCM are complicated by the thin interventricular septum of the mouse heart, which can make it difficult to distinguish pathological hypertrophy from normal anatomy; the larger body size of cats and their spontaneous development of HCM make them a potentially more tractable large-animal model.\n\nThe preprint is relevant to researchers in cardiac genetics, veterinary genetics, and those developing or evaluating animal models for inherited cardiac disease. Educators teaching variant dosage effects and genotype–phenotype relationships in dominant conditions may also find the dataset illustrative. Genetic counsellors advising families with *MYBPC3*-linked HCM may find the animal-model context of background interest.\n\nThis is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "mybpc3",
+        "hypertrophic-cardiomyopathy",
+        "maine-coon",
+        "large-animal-model",
+        "veterinary-genetics",
+        "cardiac-genetics",
+        "genotype-phenotype",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-19T07:35:29.728852+00:00",
+  "last_run": "2026-08-20T07:39:17.482814+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011909": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011985": "2026-08-11T08:09:01.900318+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012239": "2026-08-14T08:13:11.734164+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012256": "2026-08-05T09:35:19.884935+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012261": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012267": "2026-08-11T08:09:01.900318+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012268": "2026-08-06T09:39:06.238482+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012271": "2026-08-12T08:15:02.101073+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012273": "2026-08-11T08:09:01.900318+00:00",
-    "https://news.cancerresearchuk.org/2026/08/04/a-legacy-written-in-dna/": "2026-08-05T09:35:19.884935+00:00",
     "https://news.cancerresearchuk.org/2026/08/05/cancer-in-motion-how-computation-is-reshaping-our-view-of-tumours/": "2026-08-06T09:39:06.238482+00:00",
     "https://news.cancerresearchuk.org/2026/08/10/latest-winner-in-our-research-is-beautiful-competition-5/": "2026-08-11T08:09:01.900318+00:00",
     "https://news.cancerresearchuk.org/2026/08/11/the-importance-of-patients-the-decade-long-effort-to-create-next-gen-cancer-models/": "2026-08-12T08:15:02.101073+00:00",
@@ -17051,11 +17383,8 @@
     "https://news.cancerresearchuk.org/2026/08/18/cancer-waiting-times-latest-updates-and-analysis/": "2026-08-19T07:35:29.728852+00:00",
     "https://news.cancerresearchuk.org/2026/08/18/how-coaching-can-help-you-become-a-research-leader/": "2026-08-19T07:35:29.728852+00:00",
     "https://news.cancerresearchuk.org/2026/08/18/making-space-for-coaching/": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.27.741055v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.29.741564v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.30.739400v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.30.740713v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.07.30.741666v1?rss=1": "2026-08-05T09:35:19.884935+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.31.741938v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.31.742092v1?rss=1": "2026-08-06T09:39:06.238482+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.07.31.742153v1?rss=1": "2026-08-07T08:12:55.445595+00:00",
@@ -17099,6 +17428,9 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.13.743550v1?rss=1": "2026-08-17T07:49:26.810890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.744610v1?rss=1": "2026-08-19T07:35:29.728852+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.744725v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.13.744747v1?rss=1": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.14.744045v1?rss=1": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.14.744965v1?rss=1": "2026-08-20T07:39:17.482814+00:00",
     "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-urges-those-eligible-to-book-a-flu-jab-ahead-of-this-winter-season/": "2026-08-18T07:35:16.128761+00:00",
@@ -17123,11 +17455,12 @@
     "https://www.sciencedaily.com/releases/2026/08/260814011044.htm": "2026-08-15T07:27:57.226728+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260814235856.htm": "2026-08-18T07:35:16.128761+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260815064811.htm": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/04/ai-scribes-medical-devices-uk-regulator-view-health-tech/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260816044842.htm": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260819041220.htm": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260819041237.htm": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/2026/08/04/aurora-therapeutics-ends-program-baby-kj-treatments-beam-therapeutics-jennifer-doudna/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/04/biotech-news-gilead-wins-case-that-scrutinized-pace-of-drug-development/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/": "2026-08-06T09:39:06.238482+00:00",
-    "https://www.statnews.com/2026/08/04/health-news-trans-federal-employees-sue-over-revoked-coverage/": "2026-08-05T09:35:19.884935+00:00",
     "https://www.statnews.com/2026/08/05/biotech-news-moderna-launches-early-ebola-mrna-vaccine-trial/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/05/china-clinical-trial-fatality-safety-questions-investigator-led-studies/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/2026/08/05/cms-drug-pricing-pilot-programs-rare-disease-drugs/": "2026-08-06T09:39:06.238482+00:00",
@@ -17252,14 +17585,28 @@
     "https://www.statnews.com/2026/08/18/farm-to-table-doritos-ultra-processed-food-ad-campaign-healthwashing/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/18/health-care-costs-surge-for-cities-counties-generous-model-deadline-for-states/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/18/health-news-kindergarten-vaccine-exemptions-are-climbing/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
+    "https://www.statnews.com/2026/08/18/heidi-overton-fda-commissioner-nominee-white-house-adviser/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/2026/08/18/massachusetts-hospital-ceo-compensation-2024/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/18/mckenna-west-surrogacy-laws-ethics/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/18/public-sector-employees-health-care-costs-out-of-pocket-series-part-4/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/18/white-house-claims-drug-price-drop-examined-ed-silverman-pharmalot/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
+    "https://www.statnews.com/2026/08/19/ai-chatbots-children-grooming-mental-health/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/ai-doctor-outperforms-chatgpt-oura-quest-ro-hims-medical-system/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/ai-prognosis-what-epic-did-and-didnt-say-about-ai-at-its-annual-meeting/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/biotech-news-experts-scrutinize-huidagene-disclosures-after-patient-death/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/brain-organoids-alive-5-years-neuroscience-research-harvard/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/cancer-society-cancels-alcohol-industry-gala-fundraiser-deadliest-drug-series/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/cdc-director-erica-schwartz-staff-meeting-truth-to-power/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/health-news-dissecting-chinese-trial-strategy-in-wake-of-deaths/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/heidi-overton-fda-commissioner-nominee-competing-interests-ahead/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/2026/08/19/heidi-overton-fda-commissioner-nominee-white-house-adviser/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
+    "https://www.statnews.com/2026/08/19/huidagene-clinical-trial-deaths-experts-dissect-study-design/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/2026/08/19/physician-group-sues-trump-administration-over-dietary-guidelines-food-pyramid-hhs-usda/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/04/latest-orphan-drug-exemptions-may-not-be-warranted-analysis-finds/": "2026-08-05T09:35:19.884935+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/04/lilly-expands-retatrutide-access-program-gilead-court-victory/": "2026-08-05T09:35:19.884935+00:00",
+    "https://www.statnews.com/2026/08/19/public-health-education-accrediting-body-ceph-walks-dei-tightrope/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/regeneron-fop-garetosmab-fda-approval-pasatru/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/science-communication-liz-marnik-vaccine-advocate/": "2026-08-20T07:39:17.482814+00:00",
+    "https://www.statnews.com/2026/08/19/trust-in-science-a-new-stat-initiative/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/pharmalot/2026/08/05/medicare-pilot-orphan-drugs-pfizer-cutbacks/": "2026-08-06T09:39:06.238482+00:00",
     "https://www.statnews.com/pharmalot/2026/08/06/medicare-gave-blockbuster-abbvie-drug-seven-extra-years-before-price-negotiations/": "2026-08-07T08:12:55.445595+00:00",
     "https://www.statnews.com/pharmalot/2026/08/06/medicare-gave-blockbuster-abbvie-drug-seven-extra-years-before-price-negotiations/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
@@ -17276,7 +17623,8 @@
     "https://www.statnews.com/pharmalot/2026/08/14/lab-tests-lawsuit-bristol-multiple-myeloma-drug-approved/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/pharmalot/2026/08/14/up-down-ladder-latest-comings-goings-jobs/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/pharmalot/2026/08/17/astrazeneca-lung-cancer-setback-falling-drug-prices/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/18/eyepoint-blindness-treatment-setback-amylyx-avexitide-win/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/18/eyepoint-blindness-treatment-setback-amylyx-avexitide-win/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/19/fda-commissioner-nominee-overton-merck-moderna-cancer-vaccine/": "2026-08-20T07:39:17.482814+00:00"
   },
   "takedowns": []
 }
