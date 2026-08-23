@@ -17617,9 +17617,97 @@
         "developmental-genetics",
         "plos-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "26S proteasome identified as mediator of cohesin removal via second meiotic pathway",
+      "is_preprint": true,
+      "run_date": "2026-08-23",
+      "run_iso": "2026-08-23T07:29:38Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-22T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "proteasome-cohesin-removal-meiosis-second-pathway",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-22T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A Kinetochore-Associated Proteasome Pool Drives a Second Pathway of Cohesin Removal during Meiosis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745540v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from bioRxiv describes how the ubiquitin-proteasome system contributes to cohesin removal during meiosis II through parallel pathways, distinct from the established separase-cleavage route.",
+      "summary": "Accurate chromosome segregation during meiosis depends on the tightly controlled removal of sister chromatid cohesion — the molecular glue that holds replicated chromosomes together until the correct moment of division. The canonical pathway involves cleavage of the cohesin complex by the endopeptidase separase, which is itself held in check by securin until the ubiquitin-proteasome system (UPS) triggers securin destruction.\n\nA preprint posted to bioRxiv on 22 August 2026 now reports that the 26S proteasome plays a second, mechanistically distinct role in cohesin removal during meiosis II. Using separation-of-function mutants that selectively impair either the proteasome's catalytic core or its regulatory particle, the authors dissect two branches of parallel pathways operating during meiotic exit. Their data indicate that the UPS contributes not only to securin destruction but also to the priming of the cohesin kleisin subunit for removal — a function that had not previously been assigned to the proteasome.\n\nThe work advances understanding of the molecular choreography governing meiotic fidelity, with potential relevance to research into aneuploidy, reproductive genetics, and the basic mechanisms of genome stability. As a preprint, these findings have not yet undergone peer review.",
+      "tags": [
+        "cohesin",
+        "meiosis",
+        "ubiquitin-proteasome",
+        "separase",
+        "chromosome-segregation",
+        "genome-stability",
+        "reproductive-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Large Drosophila panel study maps genetic variation underlying cocaine consumption and preference",
+      "is_preprint": true,
+      "run_date": "2026-08-23",
+      "run_iso": "2026-08-23T07:29:38Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-22T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "drosophila-gwas-cocaine-preference-genetic-variation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-22T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genetics of Cocaine Consumption and Preference in Drosophila melanogaster",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746013v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using nearly 75,000 flies from a sequenced wild-derived reference panel identifies significant genetic variation, sexual dimorphism, and gene-by-sex interactions for cocaine-related behaviours relevant to addiction research.",
+      "summary": "Understanding the genetic architecture of cocaine use disorder (CUD) in human populations is complicated by environmental confounding, ascertainment bias, and the difficulty of controlled experimentation. A preprint posted to bioRxiv on 22 August 2026 exploits the tractability of *Drosophila melanogaster* to address these questions at scale.\n\nThe authors assessed cocaine consumption and cocaine preference across 74,875 flies derived from 598 sequenced, wild-derived, inbred lines belonging to the expanded Drosophila melanogaster Genetic Reference Panel (DGRP3). The study identified significant broad-sense heritability for both traits, as well as sexual dimorphism — with male and female flies showing different response profiles — and genetic variation in the degree of that dimorphism across lines. Notably, the majority of lines exhibited cocaine avoidance, while approximately 10% showed preference, mirroring patterns seen in human epidemiological data where only a subset of individuals who use cocaine develop a use disorder.\n\nThe DGRP3 resource enables genome-wide association analyses within an isogenic, fully sequenced framework, allowing candidate loci to be identified without the population stratification that complicates human GWAS. The findings complement a cluster published in Genetic Current on 9 August 2026 reporting a GWAS in heterogeneous stock rats for cocaine aversion, collectively illustrating the value of invertebrate and rodent models in dissecting addiction genetics. As a preprint, these findings have not yet undergone peer review.",
+      "tags": [
+        "drosophila",
+        "cocaine-use-disorder",
+        "gwas",
+        "dgrp3",
+        "addiction-genetics",
+        "sexual-dimorphism",
+        "animal-models",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-22T07:28:37.067709+00:00",
+  "last_run": "2026-08-23T07:30:09.450988+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011985": "2026-08-11T08:09:01.900318+00:00",
@@ -17637,11 +17725,7 @@
     "https://news.cancerresearchuk.org/2026/08/18/how-coaching-can-help-you-become-a-research-leader/": "2026-08-19T07:35:29.728852+00:00",
     "https://news.cancerresearchuk.org/2026/08/18/making-space-for-coaching/": "2026-08-19T07:35:29.728852+00:00",
     "https://news.cancerresearchuk.org/2026/08/21/can-the-national-cancer-plan-deliver-faster-care-and-better-outcomes/": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.02.742371v1?rss=1": "2026-08-08T07:46:18.676027+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.03.742257v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.03.742409v1?rss=1": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.03.742420v1?rss=1": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.03.742429v1?rss=1": "2026-08-08T07:46:18.676027+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.03.742661v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.741677v1?rss=1": "2026-08-11T08:09:01.900318+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.742148v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
@@ -17678,16 +17762,17 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.14.744965v1?rss=1": "2026-08-20T07:39:17.482814+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.15.745036v1?rss=1": "2026-08-21T07:40:31.696322+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745369v1?rss=1": "2026-08-21T07:40:31.696322+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.18.745450v1?rss=1": "2026-08-23T07:30:09.450988+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745521v1?rss=1": "2026-08-21T07:40:31.696322+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.18.745540v1?rss=1": "2026-08-23T07:30:09.450988+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745541v1?rss=1": "2026-08-21T07:40:31.696322+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.20.746013v1?rss=1": "2026-08-23T07:30:09.450988+00:00",
     "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-urges-those-eligible-to-book-a-flu-jab-ahead-of-this-winter-season/": "2026-08-18T07:35:16.128761+00:00",
     "https://www.phgfoundation.org/blog/redefining-genomic-testing-is-it-time-to-talk-about-near-perfect-sequencing/": "2026-08-15T07:27:57.226728+00:00",
     "https://www.phgfoundation.org/blog/the-european-health-data-space-and-the-uk-where-things-stand-now/": "2026-08-21T07:40:31.696322+00:00",
     "https://www.phgfoundation.org/blog/what-the-boadicea-breakthrough-means-for-health-policy/": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260806050700.htm": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260806050717.htm": "2026-08-08T07:46:18.676027+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260807235243.htm": "2026-08-10T08:25:48.748163+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260811011138.htm": "2026-08-13T08:18:15.648909+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260811053042.htm": "2026-08-15T07:27:57.226728+00:00",
@@ -17704,22 +17789,6 @@
     "https://www.sciencedaily.com/releases/2026/08/260819041237.htm": "2026-08-20T07:39:17.482814+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260820002439.htm": "2026-08-22T07:28:37.067709+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260821012208.htm": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.statnews.com/2026/08/06/anthony-fauci-fifth-amendment-rand-paul-seeks-criminal-contempt/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/06/biotech-news-two-fda-approvals-a-new-drug-and-a-new-vaccine/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/06/cms-medicare-pilot-access-patient-info-health-tech/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/06/covid-accountability-9-11-style-commission-needed-not-fauci-bashing/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/06/health-news-covid-can-reactivate-dormant-viruses-study-finds/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/06/mflusiva-fda-mrna-flu-vaccine-rfk-jr/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/06/replimune-melanoma-drug-rp1-fda-approves-phase-3-confirmatory-trial/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/06/research-finds-how-tau-targets-cells-structure-alzheimers-drug-development/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/06/us-to-shut-kentucky-organ-donation-group-safety-concerns/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/07/biotech-news-boston-kendall-square-losing-ground-in-sf/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/07/cdc-shooting-anniversary-public-health-threats/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/07/fauci-contempt-congress-covid-origins-china/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/07/health-news-a-third-clinic-settles-with-doj-over-trans-care/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/07/medical-ai-doctors-autonomy/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/07/nih-k99-pathways-independence-awards-scientists-on-visas-barred/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/2026/08/07/why-did-this-boston-entrepreneur-found-his-biotech-startup-in-california/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/2026/08/10/advocate-ban-prior-authorization-340b-limits-impact-on-hospitals/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/2026/08/10/biotech-news-fda-panel-to-weigh-grail-galleri-test/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/2026/08/10/china-biotech-new-scrutiny-investigator-initiated-trials/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
@@ -17846,10 +17915,6 @@
     "https://www.statnews.com/2026/08/21/hiv-cure-survivors-harm-benefits-research-ryan-white-hiv-aids-program/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
     "https://www.statnews.com/2026/08/21/lil-nas-xs-bipolar-diagnosis-treatment-medication-achievement/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
     "https://www.statnews.com/2026/08/21/rfi-reveals-possible-kennedy-strategy-vaccine-policy-changes/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/06/medicare-gave-blockbuster-abbvie-drug-seven-extra-years-before-price-negotiations/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/06/moderna-flu-shot-gene-editing-trial-death-pharmalittle-newsletter/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/07/replimune-melanoma-drug-medicare-policy-change/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/07/up-and-down-ladder-latest-comings-and-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-08-08T07:46:18.676027+00:00",
     "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/?utm_campaign=rss": "2026-08-10T08:25:48.748163+00:00",
     "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
