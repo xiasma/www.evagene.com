@@ -17705,9 +17705,181 @@
         "animal-models",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": "Every cell in your body contains the same DNA, but different genes are switched on in different cells at different times. Special short sequences in the DNA, called promoter elements, act like 'on switches' that tell a cell when to start reading a gene. One of these switches is called the initiator element.\n\nResearchers have used an artificial intelligence tool to scan about half a million human DNA sequences and work out what this particular switch looks like — and where it sits — across the human genome. They found it near the start of roughly six in ten human genes.\n\nThis kind of work helps scientists understand how mutations in the parts of DNA that are not genes themselves can still affect how genes behave. That understanding may, in future, help researchers make better sense of genetic test results.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "AI model decodes DNA signature of transcription initiator in 60% of human genes",
+      "is_preprint": false,
+      "run_date": "2026-08-24",
+      "run_iso": "2026-08-24T07:54:29Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-08-23T12:14:40Z",
+        "novelty": 7
+      },
+      "slug": "ai-decodes-transcription-initiator-element-human-genes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-23T12:14:40Z",
+          "publisher": "ScienceDaily",
+          "title": "A hidden \"on switch\" in human DNA has finally been decoded",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260823014943.htm"
+        }
+      ],
+      "standfirst": "A machine-learning analysis of around 500,000 DNA sequences has characterised the initiator element — a core promoter signal — at unprecedented scale, offering a route to predicting the impact of non-coding mutations.",
+      "summary": "Researchers have used a machine-learning model to identify and characterise the DNA sequence signature of the initiator (Inr) element, a core component of eukaryotic promoters that is required to position RNA polymerase II at transcription start sites. Training on approximately 500,000 human DNA sequences, the model detected an initiator motif at roughly 60 per cent of human gene promoters — a substantially larger fraction than previous biochemical surveys had established.\n\nThe Inr element had been known since the early 1990s, but its precise sequence rules and genome-wide prevalence remained poorly defined, limiting the ability to predict whether variants in promoter regions affect gene expression. The new AI-assisted approach provides a more complete picture of where and how this switch operates across the genome.\n\nThe finding has potential relevance for interpreting the functional consequences of non-coding variants identified in population sequencing studies and disease genetics research. The authors suggest the model could eventually contribute to broader efforts to decode the cis-regulatory grammar that governs gene activity — a longstanding goal in functional genomics. Full institutional attribution, journal details, and authorship are not available from the ScienceDaily report; readers should consult the primary publication for methodological detail.\n\nNote: this summary is based on a ScienceDaily press-release summary; the underlying journal article should be consulted before drawing research conclusions.",
+      "tags": [
+        "promoter-elements",
+        "initiator-element",
+        "transcription",
+        "machine-learning",
+        "non-coding-variants",
+        "functional-genomics",
+        "gene-regulation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint benchmarks five machine-learning classifiers for CRISPR-Cas9 off-target prediction from GUIDE-seq data",
+      "is_preprint": true,
+      "run_date": "2026-08-24",
+      "run_iso": "2026-08-24T07:54:29Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-08-23T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "crispr-cas9-off-target-ml-benchmark-guide-seq",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Classifying CRISPR-Cas9 Off-Target Cleavage Sites from GUIDE-seq Data: A Class-Imbalanced Machine Learning Benchmark",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745843v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint evaluates logistic regression, random forest, gradient boosting, CNN, and ensemble approaches on a class-imbalanced GUIDE-seq dataset, exposing methodological pitfalls relevant to therapeutic genome editing safety.",
+      "summary": "A preprint posted to bioRxiv (Cold Spring Harbor Laboratory) benchmarks five machine-learning classifiers — logistic regression on mismatch-count features, random forest, gradient boosting, a one-dimensional convolutional neural network (CNN), and a gradient-boosting/CNN ensemble — on their ability to classify CRISPR-Cas9 off-target cleavage sites from published GUIDE-seq data (Kleinstiver et al., 2016, *Nature*).\n\nOff-target double-strand breaks are a central safety concern for therapeutic CRISPR applications, and predicting which candidate genomic sites will be cleaved by a given single-guide RNA (sgRNA) remains a difficult problem in part because genuine off-target sites are rare relative to the vast number of possible candidate sequences — a pronounced class-imbalance problem. The preprint frames this as a machine-learning benchmark, making explicit how different modelling choices and evaluation metrics perform under realistic imbalance conditions.\n\nThe work is relevant to researchers developing or assessing CRISPR-based therapeutics and to those building computational pipelines for genome-editing safety evaluation. It also provides a methodological reference for computational biologists working on similar classification problems in genomics.\n\nThis is a preprint and has not yet undergone peer review. Results and conclusions should be treated as preliminary.",
+      "tags": [
+        "crispr-cas9",
+        "off-target-cleavage",
+        "guide-seq",
+        "machine-learning",
+        "genome-editing-safety",
+        "classification",
+        "computational-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint resolves longstanding debate: C. elegans NUC-1 DNase acts in engulfing cells to clear apoptotic DNA",
+      "is_preprint": true,
+      "run_date": "2026-08-24",
+      "run_iso": "2026-08-24T07:54:29Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-23T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "nuc-1-dnase-apoptotic-dna-degradation-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The C. elegans endonuclease NUC-1 acts in engulfing cells to degrade the apoptotic cell DNA",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745295v1?rss=1"
+        }
+      ],
+      "standfirst": "A new preprint using genetic analysis in C. elegans embryos demonstrates that the endonuclease NUC-1 functions exclusively in the cells that engulf dying neighbours, not within apoptotic cells themselves.",
+      "summary": "A preprint posted to bioRxiv characterises the subcellular site of action of NUC-1, a *Caenorhabditis elegans* homologue of mammalian DNase II, during programmed cell death. During embryonic development, cells undergoing apoptosis are engulfed by neighbouring cells and degraded within phagosomes. The fate of the apoptotic cell's chromatin DNA — and which cell type is responsible for its degradation — has been contested in the literature.\n\nUsing genetic analysis of *nuc-1* mutant embryos, the authors demonstrate that NUC-1 acts exclusively within engulfing (phagocytic) cells, not within the apoptotic cell itself. In embryos lacking functional NUC-1, apoptotic cell DNA persists undegraded inside phagosomes of the engulfing cell, supporting an exclusively cell-extrinsic mechanism for chromatin clearance.\n\nDNase II homologues are conserved across metazoans, and failure to clear apoptotic DNA is associated with inflammatory and autoimmune phenotypes in mammalian systems. The *C. elegans* findings add mechanistic clarity to a question with broader relevance to understanding how the innate immune system detects and responds to cytoplasmic DNA. This is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "apoptosis",
+        "dnase-ii",
+        "nuc-1",
+        "c-elegans",
+        "phagocytosis",
+        "chromatin-clearance",
+        "innate-immunity",
+        "developmental-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies heterologous chromosome synapsis as a distinct, regulated mode of meiotic pairing in yeast",
+      "is_preprint": true,
+      "run_date": "2026-08-24",
+      "run_iso": "2026-08-24T07:54:29Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-23T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "heterologous-synapsis-distinct-meiotic-pathway-yeast",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Two distinct modes of meiotic chromosome synapsis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745786v1?rss=1"
+        }
+      ],
+      "standfirst": "New work in yeast shows that synapsis between non-homologous chromosome segments is not simply an error but reflects a second, separately regulated initiation pathway that also operates during normal early meiosis.",
+      "summary": "A bioRxiv preprint reports that heterologous synapsis — the formation of synaptonemal complex (SC) between non-homologous chromosome segments — is a regulated biological process distinct from canonical homologous synapsis, rather than merely a consequence of meiotic recombination defects.\n\nThe synaptonemal complex is a protein scaffold that aligns homologous chromosome pairs during meiosis and is required for crossover recombination and proper chromosome segregation. It has long been observed that when homologous recombination is impaired, SC forms promiscuously between non-homologous regions. Using budding yeast as a model organism, the authors demonstrate that this heterologous synapsis initiates through a pathway that operates in parallel to the well-established crossover-designated initiation sites — and that elements of it are also present transiently during wild-type meiosis at early stages.\n\nThe finding has implications for understanding the regulation of meiotic chromosome organisation, fertility genetics, and the origins of chromosomal abnormalities in gametes. It also raises questions about whether equivalent pathways exist in other organisms, including mammals. This is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "meiosis",
+        "synaptonemal-complex",
+        "chromosome-synapsis",
+        "homologous-recombination",
+        "yeast-model",
+        "chromosome-segregation",
+        "reproductive-genetics"
+      ]
     }
   ],
-  "last_run": "2026-08-23T07:30:09.450988+00:00",
+  "last_run": "2026-08-24T07:55:34.522025+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011985": "2026-08-11T08:09:01.900318+00:00",
@@ -17725,6 +17897,7 @@
     "https://news.cancerresearchuk.org/2026/08/18/how-coaching-can-help-you-become-a-research-leader/": "2026-08-19T07:35:29.728852+00:00",
     "https://news.cancerresearchuk.org/2026/08/18/making-space-for-coaching/": "2026-08-19T07:35:29.728852+00:00",
     "https://news.cancerresearchuk.org/2026/08/21/can-the-national-cancer-plan-deliver-faster-care-and-better-outcomes/": "2026-08-22T07:28:37.067709+00:00",
+    "https://news.cancerresearchuk.org/2026/08/24/new-treatment-helps-patients-with-rectal-cancer-avoid-major-surgery-and-side-effects/": "2026-08-24T07:55:34.522025+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.03.742257v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.03.742661v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.741677v1?rss=1": "2026-08-11T08:09:01.900318+00:00",
@@ -17740,7 +17913,6 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743102v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743150v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.06.743282v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.07.743619v1?rss=1": "2026-08-09T07:51:32.600587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.08.743654v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.09.743735v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.10.743091v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
@@ -17763,9 +17935,13 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.15.745036v1?rss=1": "2026-08-21T07:40:31.696322+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745369v1?rss=1": "2026-08-21T07:40:31.696322+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745450v1?rss=1": "2026-08-23T07:30:09.450988+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.18.745509v1?rss=1": "2026-08-24T07:55:34.522025+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745521v1?rss=1": "2026-08-21T07:40:31.696322+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745540v1?rss=1": "2026-08-23T07:30:09.450988+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745541v1?rss=1": "2026-08-21T07:40:31.696322+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.19.745295v1?rss=1": "2026-08-24T07:55:34.522025+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.19.745786v1?rss=1": "2026-08-24T07:55:34.522025+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.19.745843v1?rss=1": "2026-08-24T07:55:34.522025+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.20.746013v1?rss=1": "2026-08-23T07:30:09.450988+00:00",
     "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
@@ -17789,6 +17965,8 @@
     "https://www.sciencedaily.com/releases/2026/08/260819041237.htm": "2026-08-20T07:39:17.482814+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260820002439.htm": "2026-08-22T07:28:37.067709+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260821012208.htm": "2026-08-22T07:28:37.067709+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260822015217.htm": "2026-08-24T07:55:34.522025+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260823014943.htm": "2026-08-24T07:55:34.522025+00:00",
     "https://www.statnews.com/2026/08/10/advocate-ban-prior-authorization-340b-limits-impact-on-hospitals/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/2026/08/10/biotech-news-fda-panel-to-weigh-grail-galleri-test/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/2026/08/10/china-biotech-new-scrutiny-investigator-initiated-trials/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
@@ -17915,6 +18093,7 @@
     "https://www.statnews.com/2026/08/21/hiv-cure-survivors-harm-benefits-research-ryan-white-hiv-aids-program/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
     "https://www.statnews.com/2026/08/21/lil-nas-xs-bipolar-diagnosis-treatment-medication-achievement/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
     "https://www.statnews.com/2026/08/21/rfi-reveals-possible-kennedy-strategy-vaccine-policy-changes/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
+    "https://www.statnews.com/2026/08/24/snap-restrictions-12-percent-drop-soda-purchases/?utm_campaign=rss": "2026-08-24T07:55:34.522025+00:00",
     "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/?utm_campaign=rss": "2026-08-10T08:25:48.748163+00:00",
     "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
