@@ -17877,9 +17877,289 @@
         "chromosome-segregation",
         "reproductive-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "gps",
+        "genetic-counsellors",
+        "patients",
+        "educators",
+        "students"
+      ],
+      "for_patients": "NHS England is now sending home testing kits to around 4 million women in England who have not yet had their cervical screening (sometimes called a smear test). The kit lets you take a small swab yourself at home and post it back. The swab is tested for a virus called HPV — human papillomavirus — which is the main cause of cervical cancer. This is the same type of test used in NHS clinics, just done at home instead.\n\nThe kits are being offered to women aged 30 to 65 who have missed previous invitations. Researchers and public health bodies have found that home testing can help people who find clinic visits difficult or uncomfortable.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "NHS England rolls out HPV self-testing kits to nearly 4 million overdue women",
+      "is_preprint": false,
+      "run_date": "2026-08-25",
+      "run_iso": "2026-08-25T07:40:27+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-08-24T23:05:11+00:00",
+        "novelty": 6
+      },
+      "slug": "nhs-england-hpv-self-testing-kits-cervical-screening",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "ogl",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-24T23:01:19+00:00",
+          "publisher": "NHS England",
+          "title": "NHS rolls out discreet home-testing kits against cervical cancer for millions of women",
+          "url": "https://www.england.nhs.uk/2026/08/nhs-rolls-out-discreet-home-testing-kits-against-cervical-cancer-for-millions-of-women/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-08-24T23:05:11+00:00",
+          "publisher": "Cancer Research UK",
+          "title": "What does HPV self-testing mean for cervical screening in England?",
+          "url": "https://news.cancerresearchuk.org/2026/08/25/nhs-england-offering-hpv-self-testing-kits-cervical-screening/"
+        }
+      ],
+      "standfirst": "NHS England begins distributing home HPV self-sampling kits to women aged 30–65 who have not responded to cervical screening invitations, aiming to increase uptake.",
+      "summary": "NHS England has begun posting HPV self-sampling kits to approximately 4 million women in England who are overdue for cervical screening. The initiative, announced on 24 August 2026, targets those aged 30 to 65 who have not attended appointments following NHS invitations. Participants take a vaginal swab at home and return it by post for laboratory analysis of human papillomavirus (HPV), the principal cause of cervical cancer.\n\nCancer Research UK has published a question-and-answer explainer noting that self-sampling does not replace standard cervical screening but acts as an alternative pathway for those who have not yet attended. The laboratory processing of returned kits follows the same HPV testing protocols used in clinic-based screening.\n\nThe programme represents a public-health implementation of evidence that self-sampling can reach populations who persistently decline clinician-collected samples. Published literature in this area has examined barriers including discomfort, inconvenience, and anxiety around clinic attendance. NHS England has framed the rollout as a measure to reduce inequalities in cervical cancer detection.\n\nThis is a service delivery announcement rather than a new research finding. Primary-care practitioners and genetic counsellors involved in hereditary cancer risk may wish to note the expanded screening infrastructure, given that awareness of HPV-linked cervical cancer risk intersects with counselling around hereditary gynaecological cancers. The genomic basis of HPV persistence and cervical carcinogenesis is an active research area, though this announcement relates to screening delivery rather than to new genomic discoveries.",
+      "tags": [
+        "cervical-screening",
+        "hpv",
+        "self-sampling",
+        "nhs-england",
+        "cancer-screening-policy",
+        "public-health-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "FDA places second hold on Regenxbio gene therapy trial for Hunter syndrome",
+      "is_preprint": false,
+      "run_date": "2026-08-25",
+      "run_iso": "2026-08-25T07:40:27+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-08-24T11:59:48+00:00",
+        "novelty": 7
+      },
+      "slug": "regenxbio-gene-therapy-fda-hold-hunter-syndrome",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/GettyImages-1227710420-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-24T11:59:48+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: FDA pauses Regenxbio gene therapy trial again due to safety concerns",
+          "url": "https://www.statnews.com/2026/08/24/fda-pauses-regenxbio-gene-therapy-trial-hunter-syndrome-safety-concerns/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "The US Food and Drug Administration has again paused a Regenxbio clinical trial for Hunter syndrome following new safety signals, underscoring ongoing challenges in adeno-associated virus gene therapy development.",
+      "summary": "The US Food and Drug Administration (FDA) has placed a second clinical hold on a Regenxbio gene therapy trial targeting Hunter syndrome (mucopolysaccharidosis type II, MPS II), according to reporting by STAT News on 24 August 2026. The full details of the safety concerns have not been disclosed publicly; Regenxbio confirmed the hold in response to new safety information that emerged during the trial.\n\nHunter syndrome is a rare, X-linked lysosomal storage disorder caused by pathogenic variants in the IDS gene, which encodes iduronate-2-sulfatase. Without functional enzyme activity, glycosaminoglycans accumulate in multiple organ systems, causing progressive multi-system disease. Gene therapy approaches aim to deliver a functional IDS transgene, typically via an adeno-associated virus (AAV) vector.\n\nThe recurrence of a clinical hold is notable in the context of broader scrutiny of AAV-based gene therapies, where dose-dependent hepatotoxicity and immune-mediated adverse events have been documented across several programmes. The FDA's willingness to place repeated holds reflects the agency's caution in the rare-disease gene therapy space following a series of serious adverse events reported across different sponsors and indications in recent years.\n\nThe STAT News article is behind a paywall and full clinical details are not available from public sources. This summary is based on the available lede text. Researchers, clinicians, and policy-watchers with an interest in gene therapy safety and regulatory science will wish to monitor further disclosures from Regenxbio and the FDA.",
+      "tags": [
+        "gene-therapy",
+        "hunter-syndrome",
+        "mps-ii",
+        "ids",
+        "fda",
+        "clinical-trial-safety",
+        "aav",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Usher syndrome is a rare inherited condition that causes deafness from birth and gradual loss of vision. Some people who have Usher syndrome do not get a genetic result from standard DNA tests, which can make it harder to access future treatments or receive accurate genetic counselling.\n\nResearchers have now used a more detailed type of DNA test called genome sequencing to find two previously unknown genetic changes deep inside the PCDH15 gene in patients who had no previous genetic explanation for their condition. These changes are hidden far from the usual places that standard tests look, which is why they were missed before.\n\nThe study also showed — in a laboratory cell model — that a type of molecule called an antisense oligonucleotide could correct the effect of these changes on how the gene is read. This is an early-stage finding in cells, not in people, but researchers say it suggests a possible future treatment direction.\n\nThis is a preprint, meaning it has not yet been checked by independent scientific reviewers.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Genome sequencing finds deep-intronic PCDH15 variants in unsolved Usher syndrome cases",
+      "is_preprint": true,
+      "run_date": "2026-08-25",
+      "run_iso": "2026-08-25T07:40:27+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-08-24T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "pcdh15-deep-intronic-usher-syndrome-aso-correction",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-24T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genome sequencing reveals novel pathogenic deep-intronic PCDH15 variants, amenable to antisense oligonucleotide-based splice correction",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746067v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports two novel deep-intronic variants in PCDH15 that disrupt splicing in Usher syndrome patients who had previously received no genetic diagnosis, and demonstrates antisense oligonucleotide rescue in a minigene model.",
+      "summary": "A preprint posted to bioRxiv on 20 August 2026 describes the identification of two novel deep-intronic pathogenic variants in PCDH15 — the gene encoding protocadherin-15 — in patients with a clinical diagnosis of Usher syndrome who had not received a molecular diagnosis through standard testing panels.\n\nUsher syndrome is the most common cause of combined hereditary deafness and visual impairment (retinitis pigmentosa), and is caused by pathogenic variants in several genes including PCDH15 (Usher syndrome type 1F). Approximately 10–15% of clinically diagnosed Usher syndrome patients remain genetically unresolved even after comprehensive panel testing, representing a significant challenge for genetic counselling and for access to emerging therapeutic trials.\n\nThe researchers, who analysed genome sequencing data from a cohort of clinically presenting probands, identified two intronic variants — c.3983+3635A>G and c.3123-1728A>G — located far from canonical splice sites and therefore undetected by exon-focused sequencing approaches. Both variants were classified as likely pathogenic under published frameworks and were predicted computationally to alter PCDH15 pre-mRNA splicing. A minigene splice assay provided experimental confirmation of the splicing defect.\n\nCritically, the authors report that antisense oligonucleotide (ASO) treatment in the minigene system corrected the aberrant splicing, raising the possibility of an RNA-targeted therapeutic approach for patients carrying these variants. This is consistent with a broader research trend exploring ASO-based splice correction for deep-intronic variants across multiple genetic conditions.\n\nThis work is a preprint and has not yet been peer-reviewed. Findings should be interpreted accordingly.",
+      "tags": [
+        "usher-syndrome",
+        "pcdh15",
+        "deep-intronic-variants",
+        "genome-sequencing",
+        "antisense-oligonucleotide",
+        "splicing",
+        "rare-disease",
+        "genetic-counselling"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Zebrafish study links minor spliceosome component U4atac to cilium formation via tmem107l and rfx7b splicing",
+      "is_preprint": true,
+      "run_date": "2026-08-25",
+      "run_iso": "2026-08-25T07:40:27+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-08-24T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "rnu4atac-u4atac-cilium-biogenesis-zebrafish-minor-spliceosome",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-24T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "u4atac regulates cilium biogenesis through splicing of the minor intron of tmem107l and rfx7b in zebrafish developing brain",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.745718v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint demonstrates that the minor spliceosome snRNA U4atac controls cilium biogenesis in the developing zebrafish brain by regulating splicing of minor introns in two ciliary genes, connecting RNU4ATAC-associated syndromes to ciliopathy.",
+      "summary": "A preprint posted to bioRxiv on 20 August 2026 reports that u4atac — the zebrafish orthologue of the human minor spliceosome component encoded by RNU4ATAC — regulates the development of primary cilia in the embryonic brain through its control of minor intron splicing in tmem107l and rfx7b.\n\nIn humans, bi-allelic pathogenic variants in RNU4ATAC cause Roifman syndrome and MOPD1/Taybi-Linder syndrome, characterised by microcephaly, growth retardation, skeletal dysplasia, and immunodeficiency. The minor spliceosome — of which U4atac snRNA is a core component — is responsible for splicing the approximately 700 U12-type (minor) introns in the human genome, which represent less than 1% of all introns but are enriched in genes involved in cell division, differentiation, and DNA repair.\n\nThe researchers used zebrafish models with disrupted u4atac function and demonstrated defective cilium biogenesis in brain cells, phenocopying features of ciliopathy syndromes. By examining splicing of specific U12-type introns, they identified tmem107l and rfx7b — both encoding proteins with established roles in ciliogenesis — as downstream mediators of this effect.\n\nThe findings extend the mechanistic understanding of RNU4ATAC-associated disorders and suggest an underappreciated overlap between minor spliceopathy and ciliopathy, two previously considered distinct categories of rare genetic disease. The authors note that their team had previously identified patients with RNU4ATAC bi-allelic variants presenting with atypical Joubert syndrome features, a recognised ciliopathy.\n\nThis is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "rnu4atac",
+        "minor-spliceosome",
+        "ciliopathy",
+        "zebrafish",
+        "cilium-biogenesis",
+        "rare-disease",
+        "splicing",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Saturation mutagenesis platform profiles stability effects of 2,696 variants across the globin gene family",
+      "is_preprint": true,
+      "run_date": "2026-08-25",
+      "run_iso": "2026-08-25T07:40:27+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-08-24T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "vamp-seq-globin-saturation-mutagenesis-variant-abundance",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-24T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Multiplexed Quantification of Variant Abundance in the Globin Gene Family: Integrating Saturation Mutagenesis with Cross-Paralog Prediction",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.19.745862v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes an extended VAMP-seq approach that systematically measures the protein stability consequences of amino acid substitutions in zeta-globin, with a computational framework to predict effects across related paralogues.",
+      "summary": "A preprint posted to bioRxiv on 19 August 2026 reports the development and application of a modified Variant Abundance by Massively Parallel Sequencing (VAMP-seq) platform to the globin gene family. The researchers, using a lentiviral integration system in human cells, quantified the protein abundance effects of 2,696 amino acid substitutions in zeta-globin (HBZ), achieving near-complete coverage of possible single amino acid changes through saturation mutagenesis.\n\nVAMP-seq — originally described in the context of PTEN and TPMT by Matreyek and colleagues — uses deep sequencing to quantify how each variant affects intracellular protein abundance as a proxy for protein stability and function. Variants that destabilise the protein lead to reduced abundance; those that are tolerated maintain near-wild-type levels.\n\nThe preprint integrates this experimental approach with a cross-paralog computational prediction framework, aiming to extrapolate stability effects from well-characterised globin family members — such as the extensively studied HBB (beta-globin) and HBA (alpha-globin) — to less-characterised paralogues. This is relevant because variants of uncertain significance (VUS) in embryonic and foetal globin genes are increasingly encountered in the context of expanded carrier screening and prenatal sequencing.\n\nThe authors argue that comprehensive functional maps of this kind — often called multiplexed assays of variant effect (MAVEs) — can inform variant classification under published frameworks such as those from the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. The work is methodologically relevant for researchers working on haemoglobinopathies, variant interpretation, and functional genomics.\n\nThis is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "vamp-seq",
+        "saturation-mutagenesis",
+        "globin",
+        "haemoglobinopathy",
+        "variant-interpretation",
+        "mave",
+        "functional-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study shows replication–transcription collisions constrain gene length differently on leading and lagging DNA strands in bacteria",
+      "is_preprint": false,
+      "run_date": "2026-08-25",
+      "run_iso": "2026-08-25T07:40:27+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-24T14:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "replication-transcription-collisions-gene-length-bacteria-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-24T14:00:00+00:00",
+          "publisher": "Public Library of Science",
+          "title": "Replication-transcription collisions impose DNA strand-specific constraints on gene length in bacteria",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012282"
+        }
+      ],
+      "standfirst": "Research published in PLOS Genetics demonstrates that genes on the lagging strand of bacterial DNA replication tend to be shorter, reflecting selective pressure imposed by collisions between replication and transcription machinery.",
+      "summary": "A study published in PLOS Genetics by Anjali Variyar, Samhitha Patil, Jebin Babu, Akanksha Bhat, and T. Sabari Sankar investigates why gene length is constrained differently depending on a gene's orientation relative to the direction of DNA replication in bacteria.\n\nGene length shows remarkably little variation within domains of life, suggesting conserved underlying constraints. The authors focus on the well-documented observation — in Escherichia coli and Bacillus subtilis — that genes on the lagging strand tend to be shorter than those on the leading strand. The study provides evidence that this asymmetry arises from replication–transcription collisions: when the replication fork and RNA polymerase travel in opposing directions on the lagging strand (head-on collisions), the probability of DNA damage and replication fork stalling increases with gene length. Longer genes therefore face stronger negative selection on the lagging strand.\n\nLeading-strand genes, where replication and transcription proceed in the same direction (co-directional), are subject to less severe collision-associated fitness costs, and can therefore tolerate greater length.\n\nThe findings contribute to the mechanistic understanding of how genome architecture is shaped by the interplay between DNA replication and gene expression — a question relevant to understanding mutation bias, genomic organisation, and evolutionary genome biology. The work is applicable to researchers in molecular evolution, microbial genomics, and anyone teaching DNA replication and transcription at undergraduate or postgraduate level.",
+      "tags": [
+        "dna-replication",
+        "transcription",
+        "gene-length",
+        "bacteria",
+        "genome-architecture",
+        "molecular-evolution",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-08-24T07:55:34.522025+00:00",
+  "last_run": "2026-08-25T07:42:28.726686+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011985": "2026-08-11T08:09:01.900318+00:00",
@@ -17889,6 +18169,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012267": "2026-08-11T08:09:01.900318+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012271": "2026-08-12T08:15:02.101073+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012273": "2026-08-11T08:09:01.900318+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012282": "2026-08-25T07:42:28.726686+00:00",
     "https://news.cancerresearchuk.org/2026/08/10/latest-winner-in-our-research-is-beautiful-competition-5/": "2026-08-11T08:09:01.900318+00:00",
     "https://news.cancerresearchuk.org/2026/08/11/the-importance-of-patients-the-decade-long-effort-to-create-next-gen-cancer-models/": "2026-08-12T08:15:02.101073+00:00",
     "https://news.cancerresearchuk.org/2026/08/14/most-people-in-britain-havent-bought-sunscreen-in-2026/": "2026-08-15T07:27:57.226728+00:00",
@@ -17898,20 +18179,14 @@
     "https://news.cancerresearchuk.org/2026/08/18/making-space-for-coaching/": "2026-08-19T07:35:29.728852+00:00",
     "https://news.cancerresearchuk.org/2026/08/21/can-the-national-cancer-plan-deliver-faster-care-and-better-outcomes/": "2026-08-22T07:28:37.067709+00:00",
     "https://news.cancerresearchuk.org/2026/08/24/new-treatment-helps-patients-with-rectal-cancer-avoid-major-surgery-and-side-effects/": "2026-08-24T07:55:34.522025+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.03.742257v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.03.742661v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
+    "https://news.cancerresearchuk.org/2026/08/25/nhs-england-offering-hpv-self-testing-kits-cervical-screening/": "2026-08-25T07:42:28.726686+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.741677v1?rss=1": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.04.742148v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.04.742657v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.04.742818v1?rss=1": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.04.742852v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.04.742908v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.742742v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743027v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743041v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743086v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743102v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.05.743150v1?rss=1": "2026-08-10T08:25:48.748163+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.06.743282v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.08.743654v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.09.743735v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
@@ -17939,17 +18214,22 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745521v1?rss=1": "2026-08-21T07:40:31.696322+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745540v1?rss=1": "2026-08-23T07:30:09.450988+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.18.745541v1?rss=1": "2026-08-21T07:40:31.696322+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.18.745563v1?rss=1": "2026-08-25T07:42:28.726686+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.19.745295v1?rss=1": "2026-08-24T07:55:34.522025+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.19.745786v1?rss=1": "2026-08-24T07:55:34.522025+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.19.745843v1?rss=1": "2026-08-24T07:55:34.522025+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.19.745862v1?rss=1": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.20.745718v1?rss=1": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.20.745929v1?rss=1": "2026-08-25T07:42:28.726686+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.20.746013v1?rss=1": "2026-08-23T07:30:09.450988+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.20.746067v1?rss=1": "2026-08-25T07:42:28.726686+00:00",
     "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.england.nhs.uk/2026/08/nhs-rolls-out-discreet-home-testing-kits-against-cervical-cancer-for-millions-of-women/": "2026-08-25T07:42:28.726686+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-urges-those-eligible-to-book-a-flu-jab-ahead-of-this-winter-season/": "2026-08-18T07:35:16.128761+00:00",
     "https://www.phgfoundation.org/blog/redefining-genomic-testing-is-it-time-to-talk-about-near-perfect-sequencing/": "2026-08-15T07:27:57.226728+00:00",
     "https://www.phgfoundation.org/blog/the-european-health-data-space-and-the-uk-where-things-stand-now/": "2026-08-21T07:40:31.696322+00:00",
     "https://www.phgfoundation.org/blog/what-the-boadicea-breakthrough-means-for-health-policy/": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260807235243.htm": "2026-08-10T08:25:48.748163+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260811011138.htm": "2026-08-13T08:18:15.648909+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260811053042.htm": "2026-08-15T07:27:57.226728+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260812015158.htm": "2026-08-13T08:18:15.648909+00:00",
@@ -18093,8 +18373,17 @@
     "https://www.statnews.com/2026/08/21/hiv-cure-survivors-harm-benefits-research-ryan-white-hiv-aids-program/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
     "https://www.statnews.com/2026/08/21/lil-nas-xs-bipolar-diagnosis-treatment-medication-achievement/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
     "https://www.statnews.com/2026/08/21/rfi-reveals-possible-kennedy-strategy-vaccine-policy-changes/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
+    "https://www.statnews.com/2026/08/24/biotech-news-lady-gaga-and-her-fiance-launch-biotech-startup/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.statnews.com/2026/08/24/doctors-hand-shakes-patients-research/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.statnews.com/2026/08/24/fda-pauses-regenxbio-gene-therapy-trial-hunter-syndrome-safety-concerns/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.statnews.com/2026/08/24/fda-rick-abramson-generative-ai-guidances-are-coming/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.statnews.com/2026/08/24/health-news-fda-plans-to-regulate-generative-ai/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.statnews.com/2026/08/24/inside-moderna-and-merck-cancer-vaccine-triumph/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.statnews.com/2026/08/24/nurse-practitioner-preceptor-shortage-clinical-placement-challenges/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.statnews.com/2026/08/24/public-sector-workers-health-insurance-costs-hospital-union-battle/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.statnews.com/2026/08/24/retired-doctor-community-clinic-volunteering-education/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
     "https://www.statnews.com/2026/08/24/snap-restrictions-12-percent-drop-soda-purchases/?utm_campaign=rss": "2026-08-24T07:55:34.522025+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/?utm_campaign=rss": "2026-08-10T08:25:48.748163+00:00",
+    "https://www.statnews.com/2026/08/24/transgender-care-ban-precedent-could-be-broadly-applied-medicaid-states/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
     "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
     "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
     "https://www.statnews.com/pharmalot/2026/08/12/lilly-black-market-lawsuits-trump-vaccine-plan-pushback/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
@@ -18108,7 +18397,8 @@
     "https://www.statnews.com/pharmalot/2026/08/19/fda-commissioner-nominee-overton-merck-moderna-cancer-vaccine/?utm_campaign=rss": "2026-08-21T07:40:31.696322+00:00",
     "https://www.statnews.com/pharmalot/2026/08/20/regeneron-rare-disease-drug-utragenyx-gene-therapy/?utm_campaign=rss": "2026-08-21T07:40:31.696322+00:00",
     "https://www.statnews.com/pharmalot/2026/08/21/roche-genentech-investment-estrogen-patch-shortages/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/21/up-down-ladder-latest-comings-goings-jobs-2/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/21/up-down-ladder-latest-comings-goings-jobs-2/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/24/state-medicaid-obesity-drugs-regenxbio-gene-therapy/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00"
   },
   "takedowns": []
 }
