@@ -18157,20 +18157,193 @@
         "molecular-evolution",
         "plos-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Chromosome evolution follows a limited set of irreversible 'evolutionary highways', large-scale study finds",
+      "is_preprint": false,
+      "run_date": "2026-08-26",
+      "run_iso": "2026-08-26T07:41:45Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-08-25T08:48:49Z",
+        "novelty": 8
+      },
+      "slug": "evolutionary-highways-chromosome-rearrangement-animal-genomes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-25T08:48:49Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists find hidden \"highways\" guiding animal evolution",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260824065514.htm"
+        }
+      ],
+      "standfirst": "An analysis of thousands of animal genomes suggests chromosomal rearrangements across 600 million years of evolution are far from random, instead channelling through a constrained set of one-way trajectories.",
+      "summary": "A large-scale comparative genomics study, reported by ScienceDaily on 25 August 2026, has found that animal chromosomes do not evolve by random structural change but instead follow a restricted repertoire of irreversible rearrangement pathways the authors describe as 'evolutionary highways'. The analysis drew on thousands of animal genomes spanning an estimated 600 million years of evolutionary history.\n\nThe researchers argue that these directional constraints preserve deep phylogenetic signal within chromosome architecture — signal that persists long after sequence-level information has been obscured by substitution. The findings may have implications for the reconstruction of ancestral karyotypes and for understanding why certain chromosome configurations recur independently across distantly related animal lineages.\n\nThe study also raises the question of whether these highways could, in principle, be used to anticipate broad directions of future karyotypic evolution, though the authors are careful to frame this as a research question rather than a predictive tool. The primary source is a ScienceDaily write-up; the underlying journal and full author list were not specified in the available feed data. Readers are encouraged to consult the primary paper for methodological detail.",
+      "tags": [
+        "chromosome-evolution",
+        "karyotype",
+        "comparative-genomics",
+        "animal-genomes",
+        "evolutionary-genetics",
+        "genome-architecture"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Engineered tissue-resident natural killer cells slow solid tumour growth in mouse models",
+      "is_preprint": false,
+      "run_date": "2026-08-26",
+      "run_iso": "2026-08-26T07:41:45Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-08-25T12:56:22Z",
+        "novelty": 7
+      },
+      "slug": "natural-killer-cells-solid-tumours-cetuximab-mouse-study",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-25T12:56:22Z",
+          "publisher": "ScienceDaily",
+          "title": "Supercharged \"natural killer\" cells could be a powerful new cancer weapon",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260824065546.htm"
+        }
+      ],
+      "standfirst": "Researchers have developed a method to prepare natural killer cells capable of infiltrating solid tumours, with enhanced efficacy observed when combined with the antibody drug cetuximab in preclinical experiments.",
+      "summary": "A study reported by ScienceDaily on 25 August 2026 describes a laboratory approach to enhancing natural killer (NK) cells — innate immune cells with intrinsic anti-tumour activity — so that they can penetrate and sustain activity within solid tumours, an environment that typically suppresses immune cell function.\n\nThe researchers prepared tissue-resident NK cells using an undisclosed conditioning approach and tested them in mouse models of melanoma and head and neck cancers. In those models, the engineered cells slowed tumour growth. A combination with cetuximab, a monoclonal antibody that targets the epidermal growth factor receptor (EGFR) and is already used clinically in certain head and neck and colorectal cancers, produced a stronger effect than either intervention alone in the preclinical setting.\n\nThe work is at an early, animal-model stage. The full author list, institution, and journal were not specified in the available feed text; readers working in translational oncology or immunotherapy research should consult the primary publication for methodological detail, including how the tissue-resident phenotype was induced and maintained. No human trial data are described in the reported findings.",
+      "tags": [
+        "natural-killer-cells",
+        "solid-tumours",
+        "immunotherapy",
+        "cetuximab",
+        "melanoma",
+        "head-and-neck-cancer",
+        "cancer-biology",
+        "mouse-model"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Paleovirological screen of 818 vertebrate genomes identifies ancient alpharetrovirus lineage in bats",
+      "is_preprint": false,
+      "run_date": "2026-08-26",
+      "run_iso": "2026-08-26T07:41:45Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-25T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "bat-alpharetrovirus-paleovirology-vertebrate-genomes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-25T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "An ancient alpharetrovirus lineage in bats: Evolutionary insights and possible roles in reproduction",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012277"
+        }
+      ],
+      "standfirst": "A study published in PLOS Genetics identifies CHIRalphaEnv, an alpharetrovirus-related sequence embedded in bat genomes, challenging the longstanding view that alpharetroviruses are restricted to avian hosts.",
+      "summary": "Alpharetroviruses — a family of pathogens historically associated with leukaemias and tumours in birds — were long considered to have a host range confined to avian species. A study published in PLOS Genetics by Harding, Zhang, De Souza, Nino Barreat, and Katzourakis now challenges that view through a systematic paleovirological analysis of 818 vertebrate genomes.\n\nThe team identified CHIRalphaEnv, a lineage of endogenous viral elements that clusters firmly within the alpharetrovirus clade but is found in bat genomes. Endogenous retroviruses arise when a retrovirus integrates into a host germline and is subsequently inherited across generations; their presence in modern genomes serves as a molecular fossil of ancient infections.\n\nThe study examines the evolutionary relationships between CHIRalphaEnv and modern alpharetroviruses and considers the distribution of these elements across the bat genomes surveyed. The authors also explore possible functional roles the embedded sequences may play in bat reproduction, a line of inquiry consistent with growing evidence that endogenous retroviruses have been co-opted for host biological functions in multiple mammalian lineages.\n\nThe findings extend understanding of alpharetrovirus host range and evolutionary history, and contribute to the broader paleovirology literature on the deep interplay between retroviruses and vertebrate genomes.",
+      "tags": [
+        "paleovirology",
+        "endogenous-retroviruses",
+        "alpharetrovirus",
+        "bat-genomics",
+        "vertebrate-genomes",
+        "viral-evolution",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "CRISPR disruption of optix in tobacco hawkmoth replaces orange pigmentation with black eumelanin",
+      "is_preprint": true,
+      "run_date": "2026-08-26",
+      "run_iso": "2026-08-26T07:41:45Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-25T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "optix-crispr-melanin-pigmentation-manduca-sexta",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-25T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "optix regulates abdominal melanin pigmentation in the tobacco hawkmoth Manduca sexta",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746068v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint extends the known role of the optix transcription factor beyond nymphalid butterflies, showing it controls abdominal melanin patterning in the moth Manduca sexta.",
+      "summary": "Research on colour patterning in Lepidoptera has established a conserved genetic toolkit that includes the homeobox transcription factor optix, previously shown to regulate ommochrome and melanin pigmentation and structural coloration in nymphalid butterflies. Whether optix plays equivalent roles in other insect groups has remained unclear.\n\nA preprint deposited on bioRxiv (20 August 2026) describes the use of CRISPR-Cas9 to disrupt optix in the tobacco hawkmoth Manduca sexta, a species outside the Nymphalidae. Loss of optix function produced a striking abdominal pigmentation phenotype: orange pigmentation was replaced by black eumelanin, confirmed by chemical analysis. The result demonstrates that the role of optix in colour patterning is not confined to nymphalid butterflies and suggests it may act as a broader regulator of lepidopteran pigmentation programmes.\n\nThe study contributes to understanding of how a limited set of transcription factors can be repeatedly deployed across distantly related lineages to pattern colour, a question relevant to evolutionary developmental biology and the genetics of adaptation. As a preprint, this work has not yet completed peer review and the findings should be interpreted accordingly.",
+      "tags": [
+        "pigmentation",
+        "optix",
+        "crispr",
+        "manduca-sexta",
+        "lepidoptera",
+        "melanin",
+        "evo-devo",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-25T07:42:28.726686+00:00",
+  "last_run": "2026-08-26T07:42:59.995912+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011985": "2026-08-11T08:09:01.900318+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012214": "2026-08-21T07:40:31.696322+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012239": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012260": "2026-08-22T07:28:37.067709+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012267": "2026-08-11T08:09:01.900318+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012271": "2026-08-12T08:15:02.101073+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012273": "2026-08-11T08:09:01.900318+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012277": "2026-08-26T07:42:59.995912+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012281": "2026-08-26T07:42:59.995912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012282": "2026-08-25T07:42:28.726686+00:00",
-    "https://news.cancerresearchuk.org/2026/08/10/latest-winner-in-our-research-is-beautiful-competition-5/": "2026-08-11T08:09:01.900318+00:00",
     "https://news.cancerresearchuk.org/2026/08/11/the-importance-of-patients-the-decade-long-effort-to-create-next-gen-cancer-models/": "2026-08-12T08:15:02.101073+00:00",
     "https://news.cancerresearchuk.org/2026/08/14/most-people-in-britain-havent-bought-sunscreen-in-2026/": "2026-08-15T07:27:57.226728+00:00",
     "https://news.cancerresearchuk.org/2026/08/17/we-drove-down-smoking-now-we-need-the-same-resolve-on-obesity/": "2026-08-18T07:35:16.128761+00:00",
@@ -18179,9 +18352,8 @@
     "https://news.cancerresearchuk.org/2026/08/18/making-space-for-coaching/": "2026-08-19T07:35:29.728852+00:00",
     "https://news.cancerresearchuk.org/2026/08/21/can-the-national-cancer-plan-deliver-faster-care-and-better-outcomes/": "2026-08-22T07:28:37.067709+00:00",
     "https://news.cancerresearchuk.org/2026/08/24/new-treatment-helps-patients-with-rectal-cancer-avoid-major-surgery-and-side-effects/": "2026-08-24T07:55:34.522025+00:00",
+    "https://news.cancerresearchuk.org/2026/08/25/latest-winner-in-our-research-is-beautiful-competition-6/": "2026-08-26T07:42:59.995912+00:00",
     "https://news.cancerresearchuk.org/2026/08/25/nhs-england-offering-hpv-self-testing-kits-cervical-screening/": "2026-08-25T07:42:28.726686+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.04.741677v1?rss=1": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.04.742818v1?rss=1": "2026-08-11T08:09:01.900318+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.742742v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743027v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.05.743041v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
@@ -18223,7 +18395,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.20.745929v1?rss=1": "2026-08-25T07:42:28.726686+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.20.746013v1?rss=1": "2026-08-23T07:30:09.450988+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.20.746067v1?rss=1": "2026-08-25T07:42:28.726686+00:00",
-    "https://www.england.nhs.uk/2026/08/100000-people-receive-treatment-to-cure-deadly-hep-c-virus-on-nhs-in-just-ten-years/": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.20.746068v1?rss=1": "2026-08-26T07:42:59.995912+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-rolls-out-discreet-home-testing-kits-against-cervical-cancer-for-millions-of-women/": "2026-08-25T07:42:28.726686+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-urges-those-eligible-to-book-a-flu-jab-ahead-of-this-winter-season/": "2026-08-18T07:35:16.128761+00:00",
@@ -18247,18 +18419,9 @@
     "https://www.sciencedaily.com/releases/2026/08/260821012208.htm": "2026-08-22T07:28:37.067709+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260822015217.htm": "2026-08-24T07:55:34.522025+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260823014943.htm": "2026-08-24T07:55:34.522025+00:00",
-    "https://www.statnews.com/2026/08/10/advocate-ban-prior-authorization-340b-limits-impact-on-hospitals/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/biotech-news-fda-panel-to-weigh-grail-galleri-test/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/china-biotech-new-scrutiny-investigator-initiated-trials/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/ebola-outbreak-zaire-ebolavirus-bundibugyo-diagnostics-therapeutics/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/itm-radiopharma-fda-rejection/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/medicaid-work-requirement-changes-states-contact/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/radiopharmaceuticals-clinical-trials-progress-setbacks/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/rfk-jr-proposal-fda-gras-rule-generally-recognized-as-safe/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/silence-polycythemia-vera-trial-results-divesiran-takeda-rusfertide/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/sionna-cystic-fibrosis-trial-failures-sion719-vertex-trikaft/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/tenax-heart-failure-drug-trail-failure-levosimendan-ph-hfpef/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
-    "https://www.statnews.com/2026/08/10/trump-return-to-vaccine-policy-executive-order/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260823094135.htm": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260824065514.htm": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260824065546.htm": "2026-08-26T07:42:59.995912+00:00",
     "https://www.statnews.com/2026/08/11/abortion-post-dobbs-clinic-hotline-advice/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
     "https://www.statnews.com/2026/08/11/cms-rapid-breakthrough-device-coverage-health-tech/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
     "https://www.statnews.com/2026/08/11/health-care-pharma-industry-pushes-back-trump-vaccine-policy-changes/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
@@ -18384,7 +18547,17 @@
     "https://www.statnews.com/2026/08/24/retired-doctor-community-clinic-volunteering-education/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
     "https://www.statnews.com/2026/08/24/snap-restrictions-12-percent-drop-soda-purchases/?utm_campaign=rss": "2026-08-24T07:55:34.522025+00:00",
     "https://www.statnews.com/2026/08/24/transgender-care-ban-precedent-could-be-broadly-applied-medicaid-states/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss": "2026-08-11T08:09:01.900318+00:00",
+    "https://www.statnews.com/2026/08/25/ai-drug-diversion-software-human-oversight-controlcheck-sentri7/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/2026/08/25/cancer-screening-guidelines-long-term-care-facilities/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/2026/08/25/fda-promises-new-ai-guidance-and-epic-ugm-updates/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/2026/08/25/health-news-cdc-releases-latest-life-expectancy-data/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/2026/08/25/how-trumps-funding-cuts-are-reshaping-the-health-system/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/2026/08/25/human-whale-songs-of-grief-essay-dr-caroline-cherston/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/2026/08/25/massachusetts-biotech-slump-then-turnaround/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/2026/08/25/rural-hospitals-response-medicaid-cuts-part-1-unraveled-series/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/2026/08/25/russell-vought-omb-funding-comments-daughter-benefited-nih-research/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/2026/08/25/sword-health-to-acquire-headspace-per-regulatory-filing/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/2026/08/25/two-measles-deaths-reported-pennsylvania-residents-not-vaccinated/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
     "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
     "https://www.statnews.com/pharmalot/2026/08/12/lilly-black-market-lawsuits-trump-vaccine-plan-pushback/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
     "https://www.statnews.com/pharmalot/2026/08/13/california-insulin-sales-moderna-patent-battle/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
@@ -18398,7 +18571,9 @@
     "https://www.statnews.com/pharmalot/2026/08/20/regeneron-rare-disease-drug-utragenyx-gene-therapy/?utm_campaign=rss": "2026-08-21T07:40:31.696322+00:00",
     "https://www.statnews.com/pharmalot/2026/08/21/roche-genentech-investment-estrogen-patch-shortages/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
     "https://www.statnews.com/pharmalot/2026/08/21/up-down-ladder-latest-comings-goings-jobs-2/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/24/state-medicaid-obesity-drugs-regenxbio-gene-therapy/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/24/state-medicaid-obesity-drugs-regenxbio-gene-therapy/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/25/rfk-vaccine-disclosure-merck-court-loss-over-medicare/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/25/turkish-authorities-probe-teva-gaming-patent-system-disparaging-rivals/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00"
   },
   "takedowns": []
 }
