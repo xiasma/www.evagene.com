@@ -18332,19 +18332,307 @@
         "evo-devo",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "The US medicines regulator, the FDA, has approved a new drug called Rasonque for people with advanced pancreatic cancer. What makes this approval unusual is that the drug works by targeting a specific genetic fault found in cancer cells, rather than using standard chemotherapy. Pancreatic cancer is a very serious disease, and new treatments are uncommon, so this approval has been welcomed by researchers and cancer specialists.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "FDA approves first genetically targeted treatment for advanced pancreatic cancer",
+      "is_preprint": false,
+      "run_date": "2026-08-27",
+      "run_iso": "2026-08-27T18:03:44Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 9,
+        "newest_iso": "2026-08-27T14:49:21Z",
+        "novelty": 9
+      },
+      "slug": "revolution-medicines-rasonque-pancreatic-cancer-fda-approval",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/Revmed_campus2-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-26T14:56:13Z",
+          "publisher": "Stat News",
+          "title": "FDA approves new pancreatic cancer drug expected to usher in new era of treatment",
+          "url": "https://www.statnews.com/2026/08/26/pancreatic-cancer-drug-rasonque-approved/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-08-27T13:00:00Z",
+          "publisher": "Stat News",
+          "title": "Pharmalittle: We're reading about a pancreatic cancer drug approval, a Trump deal with biotechs, and more",
+          "url": "https://www.statnews.com/pharmalot/2026/08/27/pancreatic-cancer-drug-approved-trump-deal-with-biotechs/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-08-27T14:49:21Z",
+          "publisher": "Stat News",
+          "title": "What's in Merck and Moderna's cancer vaccine algorithm?",
+          "url": "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/"
+        }
+      ],
+      "standfirst": "Revolution Medicines' Rasonque (RMC-6236) becomes the first FDA-approved therapy for advanced pancreatic cancer to work by attacking a genetic driver of the disease.",
+      "summary": "The US Food and Drug Administration has approved Rasonque (RMC-6236), developed by Revolution Medicines, as a treatment for adults with advanced pancreatic ductal adenocarcinoma — the most common form of the disease. The approval is reported by STAT News as the first for any pancreatic cancer therapy that targets a defined genetic cause, marking a departure from conventional chemotherapy-based regimens that do not exploit tumour-specific molecular vulnerabilities.\n\nPancreatic cancer carries one of the lowest five-year survival rates of any common malignancy, and meaningful advances in systemic treatment have been scarce. The FDA clearance is therefore significant for oncology research and for the broader field of RAS-targeted drug development, an area that attracted sustained investment after decades in which mutant RAS proteins were considered undruggable.\n\nFull clinical and mechanistic details — including the indication's precise mutation profile, trial data, and prescribing conditions — are available in the FDA prescribing information and the underlying regulatory submissions. STAT News reports the approval is expected to prompt wider discussion about genetic testing for pancreatic cancer patients to identify those whose tumours may carry the relevant alterations.\n\nThe development is directly relevant to oncologists managing pancreatic cancer, to researchers working on RAS-pathway inhibition, and to genetic counsellors advising families with hereditary pancreatic cancer syndromes where KRAS mutations are frequently implicated.",
+      "tags": [
+        "pancreatic-cancer",
+        "ras-pathway",
+        "fda-approval",
+        "targeted-therapy",
+        "cancer-genetics",
+        "oncology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Algorithm at the heart of Moderna–Merck personalised cancer vaccine examined",
+      "is_preprint": false,
+      "run_date": "2026-08-27",
+      "run_iso": "2026-08-27T18:03:44Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-08-27T08:30:00Z",
+        "novelty": 6
+      },
+      "slug": "moderna-merck-cancer-vaccine-neoantigen-algorithm",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/AdobeStock_998225050-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-27T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "The mystery of Moderna's magic algorithm",
+          "url": "https://www.statnews.com/2026/08/27/moderna-merck-cancer-vaccine-secret-ingredient-an-algorithm/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-08-27T14:49:21Z",
+          "publisher": "Stat News",
+          "title": "What's in Merck and Moderna's cancer vaccine algorithm?",
+          "url": "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/"
+        }
+      ],
+      "standfirst": "STAT News reports that the mRNA neoantigen vaccine developed by Moderna and Merck — which showed phase 3 benefit in melanoma — may owe as much to a proprietary selection algorithm as to the underlying immunology.",
+      "summary": "A long-form investigation by STAT News examines the computational algorithm that determines which tumour-specific mutations are selected as targets in the personalised mRNA cancer vaccine co-developed by Moderna and Merck. The vaccine, known as mRNA-4157 / V940, has previously reported phase 3 success in melanoma and is now in broader oncology trials.\n\nThe piece raises questions about transparency in the neoantigen selection process: the algorithm that decides which of a patient's hundreds of somatic mutations will be encoded in a bespoke vaccine dose is proprietary, and independent researchers have limited visibility into its decision logic. STAT News notes that this opacity makes it difficult to determine whether clinical benefit derives primarily from the immunological design of the vaccine or from the algorithm's ability to prioritise immunogenic targets.\n\nFor the genetics and genomics research community, the story is notable because the entire pipeline — tumour sequencing, somatic variant calling, HLA typing, neoantigen prediction, and mRNA synthesis — is a translational application of population-scale genomic and computational methods. Researchers interested in variant effect prediction, tumour mutational burden, and personalised immunotherapy will find the methodological scrutiny particularly relevant.\n\nThe earlier phase 3 efficacy findings were reported in Genetic Current on 20 August 2026. Today's coverage focuses on the algorithm itself rather than the clinical outcome, representing additional analytical commentary rather than a new clinical result.",
+      "tags": [
+        "neoantigen",
+        "mrna-vaccine",
+        "melanoma",
+        "cancer-vaccine",
+        "algorithm",
+        "somatic-variants",
+        "personalised-medicine",
+        "oncology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "SimGEA: simulation-based method improves detection of locally adapted loci in population genomics",
+      "is_preprint": true,
+      "run_date": "2026-08-27",
+      "run_iso": "2026-08-27T18:03:44Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-27T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "simgea-genotype-environment-association-method",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-27T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A simulation-based method for genotype-environment association analysis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.23.746561v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces SimGEA, a new genotype–environment association method that uses population-structure simulations to reduce false positives and improve power in local adaptation studies.",
+      "summary": "Researchers have posted a preprint on bioRxiv describing SimGEA, a new computational method for genotype–environment association (GEA) analysis. GEA approaches are used widely in evolutionary and population genetics to identify genomic loci where allele frequencies correlate with environmental variables — a signal taken as evidence of local adaptation.\n\nA persistent methodological challenge in GEA is distinguishing genuine adaptive signals from spurious correlations that arise from population structure: if populations differ genetically for historical demographic reasons and also happen to inhabit different environments, many loci will falsely appear adaptive. Existing correction methods either reduce statistical power or produce elevated false-positive rates under certain conditions, a trade-off that limits their utility in species with complex demographic histories.\n\nSimGEA addresses this by generating null distributions through explicit demographic simulations calibrated to the study population, then testing observed allele-frequency–environment correlations against those simulated expectations. The authors report that the approach outperforms existing methods on benchmarks involving structured populations.\n\nThe method is likely to be of primary interest to population geneticists, evolutionary biologists, and computational genomics researchers working on local adaptation, landscape genomics, or conservation genetics. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "genotype-environment-association",
+        "local-adaptation",
+        "population-structure",
+        "landscape-genomics",
+        "simulation",
+        "computational-genomics",
+        "population-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Multi-tissue regulatory atlas maps sheep non-coding genome and links it to domestication traits",
+      "is_preprint": true,
+      "run_date": "2026-08-27",
+      "run_iso": "2026-08-27T18:03:44Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-08-26T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "sheep-epigenomic-atlas-domestication-complex-traits",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-26T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A multi-tissue epigenomic atlas links the sheep non-coding genome to domestication and complex traits",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.746371v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint presents SheepEpimap, a 516-dataset epigenomic atlas across 43 adult sheep tissues that annotates nearly three million regulatory elements and connects non-coding variation to domestication and complex traits.",
+      "summary": "Researchers have posted a preprint on bioRxiv describing SheepEpimap, a comprehensive multi-tissue epigenomic resource for sheep (Ovis aries). The atlas integrates 516 CUT&Tag histone modification datasets, ATAC-seq chromatin accessibility profiling, and RNA-seq transcriptomic data across 43 adult tissues.\n\nThe resource annotates 2.93 million cis-regulatory elements — genomic regions outside protein-coding sequences that control when and where genes are active — and identifies 557,441 enhancer–gene pairs and 145,407 variants with allele-specific effects on regulatory activity. The team also trained a sequence-to-function deep-learning model to decode the base-pair-level determinants of chromatin accessibility, enabling prediction of the regulatory impact of sequence variants not directly measured in the atlas.\n\nThe authors apply the resource to questions of domestication genetics and economically important complex traits in sheep, linking specific non-coding variants and regulatory elements to phenotypes relevant to livestock production and breeding. The approach mirrors similar multi-tissue regulatory atlases developed for humans (GTEx, ENCODE) and cattle, extending this class of resource to a commercially significant small ruminant species.\n\nSheepEpimap will be of primary interest to researchers in livestock genomics, comparative epigenomics, regulatory genomics, and the genetics of domestication. The work remains a preprint and has not yet undergone peer review.",
+      "tags": [
+        "epigenomics",
+        "sheep",
+        "livestock-genetics",
+        "cis-regulatory-elements",
+        "domestication",
+        "non-coding-genome",
+        "chromatin-accessibility",
+        "comparative-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint characterises order-bias in correlation estimates for assortative mating studies",
+      "is_preprint": true,
+      "run_date": "2026-08-27",
+      "run_iso": "2026-08-27T18:03:44Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-08-26T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "assortative-mating-correlation-exchangeable-variables",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-26T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Estimating the correlation of exchangeable variables in assortative mating",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.22.746446v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies systematic bias introduced when Pearson correlation is applied to exchangeable parent-pair data and proposes corrected estimators for assortative mating research.",
+      "summary": "A preprint posted to bioRxiv examines a statistical problem specific to studies of assortative mating — the tendency of individuals to pair with partners who resemble them on a given trait. Such studies commonly quantify parent–parent similarity using Pearson correlation, but the assignment of which parent is labelled 'first' or 'second' within a pair is often arbitrary.\n\nThe authors demonstrate that this arbitrariness introduces order bias into standard Pearson correlation estimates when the paired variables are exchangeable — that is, when the joint distribution is symmetric with respect to reordering. If one variable has a systematically lower expectation than the other (for example, paternal versus maternal values for a trait that differs on average between sexes), the bias can be substantial and directional rather than random noise.\n\nThe preprint characterises the mathematical form of this bias and proposes corrected correlation estimators that are robust to within-pair reordering. The work has implications for the interpretation of published assortative mating estimates in humans and other species, and for the design of future studies examining social homogamy, genetic assortative mating, and partner similarity in complex traits such as height, educational attainment, or polygenic risk scores.\n\nThis work is primarily relevant to statistical geneticists, quantitative geneticists, and researchers working on the genetic architecture of complex traits where partner correlation is a meaningful parameter. It has not yet been peer-reviewed.",
+      "tags": [
+        "assortative-mating",
+        "statistical-genetics",
+        "correlation",
+        "quantitative-genetics",
+        "complex-traits",
+        "statistical-methods"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint finds copper resistance in Drosophila comprises independently varying behavioural and physiological components",
+      "is_preprint": true,
+      "run_date": "2026-08-27",
+      "run_iso": "2026-08-27T18:03:44Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-27T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "drosophila-copper-resistance-genetic-variation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-27T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genetic variation in behavioral and physiological responses to copper in Drosophila melanogaster",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.23.746539v1?rss=1"
+        }
+      ],
+      "standfirst": "Using recombinant inbred lines from the Drosophila Synthetic Population Resource, researchers show that feeding avoidance, oviposition avoidance, and physiological tolerance to copper are genetically separable traits.",
+      "summary": "A preprint on bioRxiv from researchers using the Drosophila Synthetic Population Resource (DSPR) examines the genetic architecture of copper resistance in Drosophila melanogaster. Anthropogenic copper contamination from agricultural, mining, and industrial sources creates environmental gradients that wild fly populations must navigate, making this an accessible system for studying the genetics of ecotoxicological adaptation.\n\nThe study measured three components of the copper response in a panel of recombinant inbred lines (RILs): feeding avoidance (the extent to which flies reduce food intake on copper-laced medium), oviposition avoidance (the extent to which females avoid laying eggs on copper-contaminated substrate), and physiological tolerance (quantified as median lethal time, LT50, on high-copper medium). RILs are laboratory-generated strains with known, fixed genomes that enable mapping of genetic variants to quantitative trait differences.\n\nThe authors report that the three resistance components show largely independent genetic variation across the RIL panel, implying that copper resistance is not a single integrated trait but a collection of behaviourally and physiologically distinct responses that can evolve along separate trajectories. This finding is relevant to evolutionary genetics, ecotoxicology, and the broader question of how multidimensional environmental challenges shape genome-level adaptation.\n\nThe preprint has not yet been peer-reviewed.",
+      "tags": [
+        "drosophila",
+        "ecotoxicology",
+        "copper-resistance",
+        "quantitative-genetics",
+        "recombinant-inbred-lines",
+        "local-adaptation",
+        "behavioural-genetics"
+      ]
     }
   ],
-  "last_run": "2026-08-26T07:42:59.995912+00:00",
+  "last_run": "2026-08-27T18:05:44.267320+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012214": "2026-08-21T07:40:31.696322+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012239": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012260": "2026-08-22T07:28:37.067709+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012271": "2026-08-12T08:15:02.101073+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012277": "2026-08-26T07:42:59.995912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012281": "2026-08-26T07:42:59.995912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012282": "2026-08-25T07:42:28.726686+00:00",
-    "https://news.cancerresearchuk.org/2026/08/11/the-importance-of-patients-the-decade-long-effort-to-create-next-gen-cancer-models/": "2026-08-12T08:15:02.101073+00:00",
     "https://news.cancerresearchuk.org/2026/08/14/most-people-in-britain-havent-bought-sunscreen-in-2026/": "2026-08-15T07:27:57.226728+00:00",
     "https://news.cancerresearchuk.org/2026/08/17/we-drove-down-smoking-now-we-need-the-same-resolve-on-obesity/": "2026-08-18T07:35:16.128761+00:00",
     "https://news.cancerresearchuk.org/2026/08/18/cancer-waiting-times-latest-updates-and-analysis/": "2026-08-19T07:35:29.728852+00:00",
@@ -18354,18 +18642,12 @@
     "https://news.cancerresearchuk.org/2026/08/24/new-treatment-helps-patients-with-rectal-cancer-avoid-major-surgery-and-side-effects/": "2026-08-24T07:55:34.522025+00:00",
     "https://news.cancerresearchuk.org/2026/08/25/latest-winner-in-our-research-is-beautiful-competition-6/": "2026-08-26T07:42:59.995912+00:00",
     "https://news.cancerresearchuk.org/2026/08/25/nhs-england-offering-hpv-self-testing-kits-cervical-screening/": "2026-08-25T07:42:28.726686+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.05.742742v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.05.743027v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.05.743041v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.05.743086v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.05.743102v1?rss=1": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.06.743282v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.08.743654v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
+    "https://news.cancerresearchuk.org/2026/08/27/breaking-down-barriers-to-cervical-screening-the-evidence-for-hpv-self-sampling/": "2026-08-27T18:05:44.267320+00:00",
+    "https://news.cancerresearchuk.org/2026/08/27/lets-talk-about-hpv-7-common-questions-answered/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.09.743735v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.10.743091v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.10.743885v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.10.744065v1?rss=1": "2026-08-16T07:27:29.969234+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.11.744167v1?rss=1": "2026-08-13T08:18:15.648909+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744230v1?rss=1": "2026-08-14T08:13:11.734164+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744262v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744330v1?rss=1": "2026-08-17T07:49:26.810890+00:00",
@@ -18396,15 +18678,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.20.746013v1?rss=1": "2026-08-23T07:30:09.450988+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.20.746067v1?rss=1": "2026-08-25T07:42:28.726686+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.20.746068v1?rss=1": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.22.746371v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.22.746446v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.23.746539v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.23.746561v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-rolls-out-discreet-home-testing-kits-against-cervical-cancer-for-millions-of-women/": "2026-08-25T07:42:28.726686+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-urges-those-eligible-to-book-a-flu-jab-ahead-of-this-winter-season/": "2026-08-18T07:35:16.128761+00:00",
     "https://www.phgfoundation.org/blog/redefining-genomic-testing-is-it-time-to-talk-about-near-perfect-sequencing/": "2026-08-15T07:27:57.226728+00:00",
     "https://www.phgfoundation.org/blog/the-european-health-data-space-and-the-uk-where-things-stand-now/": "2026-08-21T07:40:31.696322+00:00",
-    "https://www.phgfoundation.org/blog/what-the-boadicea-breakthrough-means-for-health-policy/": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260811011138.htm": "2026-08-13T08:18:15.648909+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260811053042.htm": "2026-08-15T07:27:57.226728+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260812015158.htm": "2026-08-13T08:18:15.648909+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260812015214.htm": "2026-08-15T07:27:57.226728+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260813045531.htm": "2026-08-15T07:27:57.226728+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260813045552.htm": "2026-08-16T07:27:29.969234+00:00",
@@ -18420,34 +18703,11 @@
     "https://www.sciencedaily.com/releases/2026/08/260822015217.htm": "2026-08-24T07:55:34.522025+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260823014943.htm": "2026-08-24T07:55:34.522025+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260823094135.htm": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260823094151.htm": "2026-08-27T18:05:44.267320+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260824065514.htm": "2026-08-26T07:42:59.995912+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260824065546.htm": "2026-08-26T07:42:59.995912+00:00",
-    "https://www.statnews.com/2026/08/11/abortion-post-dobbs-clinic-hotline-advice/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/cms-rapid-breakthrough-device-coverage-health-tech/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/health-care-pharma-industry-pushes-back-trump-vaccine-policy-changes/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/how-we-know-splitting-up-mmr-vaccine-could-be-dangerous/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/medicaid-to-end-funding-gender-affirming-care-transgender-youth/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/medicare-weight-loss-drugs-glp-1s-bridge-program-primary-care/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/north-star-review-founders-advocate-nonprofit-approach-institutional-oversight/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/nurses-seek-involvement-clinical-ai-decisions/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/skylark-bio-gjb2-otoferlin-gene-therapies-for-deafness/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/stop-statins-age-75-lancet-study-suggests-safe-healthy-adults/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/trump-executive-order-vaccines-undecided-parents-trust/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/trump-vaccine-policy-pivot-overshadows-fda-gras-food-rule-dc-diagnosis/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/11/why-is-moonlake-immunotherapeutics-scared-of-releasing-data/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/2026/08/12/addiction-homelessness-hhs-toolkit-harm-reduction/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/boulevard-bio-georg-schett-antibody-therapies/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/cancer-patients-face-longer-wait-times-for-treatment/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/climate-change-chronic-disease-heat-smoke-arthritis-lupus-pots/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/definium-lsd-treatment-anxiety-study/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/ebola-who-drc-ebola-vaccine-trial/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/inside-commure-athelas-mad-dash-automate-health-care/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/lindsay-clancy-postpartum-psychosis-diagnosis-treatment-limits/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/neurocrine-biosciences-vykat-prader-willi/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/texas-medical-association-no-surprises-act-lawsuit-qpa/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/the-secret-startup-project-ive-been-working-on-ai-prognosis/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/trump-vaccine-executive-order-critiqued-by-tedros-who/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
-    "https://www.statnews.com/2026/08/12/vaping-cannabis-use-rates-young-adults/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260827010455.htm": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260827010516.htm": "2026-08-27T18:05:44.267320+00:00",
     "https://www.statnews.com/2026/08/13/biotech-news-eli-lilly-targets-booming-retatrutide-black-market/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
     "https://www.statnews.com/2026/08/13/commure-investigation-medicare-tech-incentives-health-tech/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
     "https://www.statnews.com/2026/08/13/commure-terminates-payments-under-customer-referral-programs/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
@@ -18558,8 +18818,25 @@
     "https://www.statnews.com/2026/08/25/russell-vought-omb-funding-comments-daughter-benefited-nih-research/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
     "https://www.statnews.com/2026/08/25/sword-health-to-acquire-headspace-per-regulatory-filing/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
     "https://www.statnews.com/2026/08/25/two-measles-deaths-reported-pennsylvania-residents-not-vaccinated/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/11/fda-rejects-radiopharmaceutical-340b-court-battles/?utm_campaign=rss": "2026-08-12T08:15:02.101073+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/12/lilly-black-market-lawsuits-trump-vaccine-plan-pushback/?utm_campaign=rss": "2026-08-13T08:18:15.648909+00:00",
+    "https://www.statnews.com/2026/08/26/biotech-insitro-ceo-daphne-koller-speeding-up-clinical-trials-ai-prognosis/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/26/biotech-news-key-data-on-new-class-of-cardio-drugs-coming/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/26/cac-scans-statin-use-prevent-calculator-heart-disease-risk/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/26/health-news-even-at-big-companies-health-care-costs-increasing/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/26/kennedy-vaccine-comments-reaction-josh-shapiro-jerome-adams/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/26/pancreatic-cancer-drug-rasonque-approved/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/alnylam-amvuttra-nucresiran-heart-drugs-esc/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/bill-cassidy-louisiana-senator-new-report-mifepristone-heidi-overton/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/binsa-biotech-china-eurowashing-geography-clinical-trials/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/health-news-decoding-dea-action-on-kratom-related-substance/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/hospitals-lobby-medicaid-cuts-rasonque-approved-dc-diagnosis/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/hospitals-lobby-reverse-medicaid-cuts-part-2-unraveled-series/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/kennedy-samoa-trip-mmr-vaccine-new-documents/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/menopause-perimenopause-symptoms-reddit-clinical-data-study/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/moderna-merck-cancer-vaccine-secret-ingredient-an-algorithm/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/opioid-settlement-funds-enforcement-or-treatment-louisiana-sheriff-investigation/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.statnews.com/pharmalot/2026/08/13/california-insulin-sales-moderna-patent-battle/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
     "https://www.statnews.com/pharmalot/2026/08/14/controversial-lab-sues-usp-for-disparaging-its-testing-methods/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/pharmalot/2026/08/14/lab-tests-lawsuit-bristol-multiple-myeloma-drug-approved/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
@@ -18573,7 +18850,8 @@
     "https://www.statnews.com/pharmalot/2026/08/21/up-down-ladder-latest-comings-goings-jobs-2/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
     "https://www.statnews.com/pharmalot/2026/08/24/state-medicaid-obesity-drugs-regenxbio-gene-therapy/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
     "https://www.statnews.com/pharmalot/2026/08/25/rfk-vaccine-disclosure-merck-court-loss-over-medicare/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/25/turkish-authorities-probe-teva-gaming-patent-system-disparaging-rivals/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/25/turkish-authorities-probe-teva-gaming-patent-system-disparaging-rivals/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/27/pancreatic-cancer-drug-approved-trump-deal-with-biotechs/": "2026-08-27T18:05:44.267320+00:00"
   },
   "takedowns": []
 }
