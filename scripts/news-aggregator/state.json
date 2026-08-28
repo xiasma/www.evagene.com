@@ -18622,17 +18622,283 @@
         "local-adaptation",
         "behavioural-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers have described a new way to calculate 'polygenic scores' — a type of genetic calculation that estimates how much a person's inherited DNA contributes to the chance of having a particular trait or condition. Current methods add up the effect of each genetic variant as if they work the same way in everyone. The new method, called PGSC, takes into account that some genetic variants may behave differently depending on a person's sex, age, or whether they take certain medications. The study used a large UK database of genetic and health information. The findings are from a preprint — meaning the research has not yet been checked by independent scientific reviewers — so the results should be treated with caution. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "New PGS framework adds gene–context interactions to improve polygenic score accuracy",
+      "is_preprint": true,
+      "run_date": "2026-08-28",
+      "run_iso": "2026-08-28T19:13:18+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-08-28T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "pgsc-gene-context-interactions-polygenic-prediction",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-28T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Locus-specific gene-context interactions improve polygenic prediction",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.746823v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from UK Biobank data introduces PGSC, a method that incorporates sex, age, and medication context into polygenic scores, outperforming standard additive models.",
+      "summary": "Polygenic scores (PGS) — numerical summaries of an individual's inherited genetic risk for a trait — are constructed from large genome-wide association studies and typically assume that each genetic variant contributes independently and additively to a trait. A preprint posted to bioRxiv on 28 August 2026 challenges that assumption by introducing PGSC, a framework that captures locus-specific gene–context interaction effects (GxC) to refine polygenic predictions.\n\nThe authors developed PGSC by analysing UK Biobank data, using sex, age, and statin treatment status as contextual variables. Simulations reported in the preprint show PGSC remains robust under a purely additive model — so it does not degrade performance when interactions are absent — while outperforming standard PGS in realistic scenarios where context-dependent effects are present.\n\nThe preprint has not yet been peer-reviewed. If the findings hold up to scrutiny, PGSC could offer a more nuanced approach to polygenic prediction in research contexts, particularly for traits whose genetic architecture is known to vary with biological or pharmacological context. The work is directly relevant to ongoing debates about the assumptions underlying current PGS methodology and their implications for research-grade applications of polygenic scores.",
+      "tags": [
+        "polygenic-scores",
+        "gene-context-interactions",
+        "uk-biobank",
+        "statistical-genetics",
+        "complex-traits",
+        "computational-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Ectopic gene conversion shown to generate recurrent variants across 534 million gnomAD sites",
+      "is_preprint": true,
+      "run_date": "2026-08-28",
+      "run_iso": "2026-08-28T19:13:18+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 8,
+        "newest_iso": "2026-08-28T00:00:00+00:00",
+        "novelty": 9
+      },
+      "slug": "ectopic-gene-conversion-allele-frequencies-gnomad",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-28T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Sequence architecture shapes human allele frequencies through ectopic gene conversion",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747289v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using gnomAD v4.1 data argues that the standard single-origin assumption for variant interpretation fails for a substantial fraction of human genetic variation, with ectopic gene conversion reintroducing the same nucleotide changes predictably across generations.",
+      "summary": "A central assumption in population genetics — that a given variant arose once and was subsequently shaped by selection, genetic drift, and demographic history — may be wrong for a substantial proportion of human variation. A preprint posted to bioRxiv on 28 August 2026 presents evidence from gnomAD v4.1 (534 million variants) that ectopic gene conversion (EGC) — a process in which DNA sequence is copied from one genomic location to a non-allelic homologous site — reintroduces the same nucleotide changes generation after generation.\n\nThe authors show that EGC rates are strongly structured by two fixed properties of genome architecture: the length of the homologous template sequence and the distance between the donor and acceptor sites. This makes the process, in principle, predictable from sequence data alone. The finding challenges standard population-genetic interpretations of allele frequencies and has direct implications for how researchers model variant origins and infer evolutionary history.\n\nFor geneticists working on variant interpretation, the results suggest that some variants currently treated as rare or unique in origin may instead represent recurrently generated alleles — a distinction that could matter for understanding their functional context. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "ectopic-gene-conversion",
+        "allele-frequency",
+        "gnomad",
+        "population-genetics",
+        "genome-architecture",
+        "variant-interpretation",
+        "molecular-evolution",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint names osteopontin as candidate gene for inherited cardiac hypertrophy in rat model",
+      "is_preprint": true,
+      "run_date": "2026-08-28",
+      "run_iso": "2026-08-28T19:13:18+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-27T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "osteopontin-cardiac-hypertrophy-shrsp-rat",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-27T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Identification of osteopontin as a positional and functional candidate gene for cardiac hypertrophy in the SHRSP rat",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746882v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using congenic SHRSP rat strains identifies osteopontin as a positional and functional candidate at a chromosome 14 locus linked to left ventricular mass, with potential relevance to human cardiometabolic disease.",
+      "summary": "Left ventricular hypertrophy — thickening of the main pumping chamber of the heart — is a heritable trait that increases risk of cardiovascular disease and is associated with cardiometabolic and renal conditions. A preprint posted to bioRxiv on 27 August 2026 reports findings from congenic rat strains derived from the spontaneously hypertensive stroke-prone (SHRSP) rat, a well-established animal model for cardiovascular genetics research.\n\nThe authors used a chromosome 14 congenic strain (WKY.SPGla14a), in which the trait-associated chromosomal region from SHRSP is introduced into the normotensive Wistar Kyoto (WKY) background, alongside cardiac phenotyping and transcriptomic analysis. Their data identify osteopontin — a secreted glycoprotein implicated in cardiac fibrosis and remodelling — as a positional and functional candidate gene at the chromosome 14 quantitative trait locus (QTL) for left ventricular mass index.\n\nThe study demonstrates a role for congenic strain methodology in dissecting the genetic basis of polygenic cardiovascular traits and offers a candidate gene for further mechanistic investigation. Osteopontin has previously been associated with cardiac remodelling in human studies, lending the finding translational interest. The preprint has not been peer-reviewed.",
+      "tags": [
+        "left-ventricular-hypertrophy",
+        "osteopontin",
+        "shrsp-rat",
+        "qtl-mapping",
+        "congenic-strains",
+        "cardiovascular-genetics",
+        "animal-models",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Study traces transcriptional regulatory activity to an intrinsic property of transposase proteins",
+      "is_preprint": true,
+      "run_date": "2026-08-28",
+      "run_iso": "2026-08-28T19:13:18+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-08-27T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "transposons-transcriptional-regulators-arabidopsis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-27T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Evolution of transposons as controlling elements",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.24.746577v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using Arabidopsis demonstrates that transposases themselves carry transcription-activating capacity, offering a molecular explanation for how transposable elements evolved into gene regulatory elements.",
+      "summary": "Transposons — repetitive DNA sequences capable of moving within genomes — were first described by Barbara McClintock as 'controlling elements' because of their influence on gene expression. The molecular basis for this regulatory activity has remained poorly defined. A preprint posted to bioRxiv on 27 August 2026 addresses this longstanding question using the model plant Arabidopsis thaliana.\n\nThe authors show that transcriptional regulatory activity is an intrinsic property of transposase (TPase) proteins — the enzymes that catalyse transposon movement. Specifically, the Arabidopsis AtMu1 TPase was found to be sufficient to induce sequence-specific transcriptional activation of cognate transposon copies, revealing a pre-existing cis-regulatory network embedded in the transposon family. The team further demonstrate that TnpA, a transcriptional regulator encoded by the Spm transposon and long known to modulate gene expression, evolved from an ancestral TPase.\n\nThe findings provide a mechanistic account of how transposons can function as controlling elements and contribute to an understanding of how transposable elements have shaped gene regulation across eukaryotic genomes. The work is relevant to researchers studying genome evolution, gene regulation, and the domestication of transposon-derived sequences by host genomes. The preprint has not been peer-reviewed.",
+      "tags": [
+        "transposons",
+        "transposase",
+        "gene-regulation",
+        "arabidopsis",
+        "cis-regulatory-elements",
+        "genome-evolution",
+        "plant-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Yeast multiparent population reveals pervasive context-dependent effects in complex trait genetics",
+      "is_preprint": false,
+      "run_date": "2026-08-28",
+      "run_iso": "2026-08-28T19:13:18+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-08-27T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "yeast-multiparent-mapping-context-dependent-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-27T14:00:00+00:00",
+          "publisher": "Public Library of Science",
+          "title": "Pervasive context-dependent effects in the genetic architecture of complex and quantitative traits revealed by a powerful multiparent mapping population in yeast",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012288"
+        }
+      ],
+      "standfirst": "A study published in PLOS Genetics uses a panel of 9,344 haploid yeast strains derived from eight founder genomes to show that gene–environment and gene–gene interactions are far more common in complex trait architecture than additive models suggest.",
+      "summary": "A large-scale genetic mapping study published in PLOS Genetics on 27 August 2026 uses CYClones — a novel multiparent mapping population of budding yeast comprising 9,344 haploid strains derived from eight divergent founder genotypes — to dissect the genetic architecture of complex and quantitative traits.\n\nThe team, led by researchers including Joshua M. Akey and Aimée M. Dudley, found that context-dependent genetic effects — instances where the influence of a genetic variant depends on the genetic background or environment — are pervasive across the traits they studied. Their analysis revealed that standard additive models, which treat each variant as contributing independently to a phenotype, substantially underestimate this complexity.\n\nThe CYClones population offers exceptional statistical power for detecting epistasis (gene–gene interactions) and genotype-by-environment interactions because of its large size, known founder genomes, and controlled experimental setting. The authors argue that similar context-dependent effects are likely to operate in human complex traits and diseases, with implications for the interpretation of genome-wide association study results and the predictive accuracy of polygenic models.\n\nThe paper is peer-reviewed and published in an open-access journal, making it directly accessible to researchers working on quantitative genetics and complex trait biology.",
+      "tags": [
+        "yeast-model",
+        "multiparent-mapping",
+        "quantitative-genetics",
+        "epistasis",
+        "genotype-by-environment-interaction",
+        "complex-traits",
+        "gwas",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint catalogues how different mutant tRNA mistranslation errors produce distinct outcomes across species",
+      "is_preprint": true,
+      "run_date": "2026-08-28",
+      "run_iso": "2026-08-28T19:13:18+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-27T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "mutant-trna-mistranslation-phenotypes-model-organisms",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-27T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Varied forms of mutant tRNA mistranslation produce distinct phenotypes across multiple model organisms",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747118v1?rss=1"
+        }
+      ],
+      "standfirst": "A systematic bioRxiv preprint generates a curated array of mistranslating tRNA variants across multiple model organisms, finding that phenotypic consequences depend heavily on the biochemical nature of the amino acid substitution and its frequency of use.",
+      "summary": "Transfer RNAs (tRNAs) are the molecular adaptors that decode genetic information during protein synthesis. Mutations in tRNA genes can cause mistranslation — errors in which the wrong amino acid is incorporated into a growing protein chain — leading to a range of biological consequences. A preprint posted to bioRxiv on 27 August 2026 takes a systematic approach to characterising how these consequences vary.\n\nThe authors generated a carefully curated panel of tRNA variants known to cause mistranslation and assessed them across multiple model organisms. Their findings show that phenotypic outcomes are highly variable and context-dependent: the biochemical similarity of the exchanged amino acids, the frequency with which the mistranslating codon is used, and the identity of the mistranslated protein products all influence whether and how severely mistranslation affects the organism.\n\nThe study contributes to a growing understanding of how errors in the translation machinery interact with cellular buffering mechanisms and organismal biology. The work has relevance for researchers studying protein homeostasis, the genetic code's robustness, and the molecular basis of tRNA-related genetic disorders. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "trna",
+        "mistranslation",
+        "translation",
+        "protein-homeostasis",
+        "model-organisms",
+        "genetic-code",
+        "molecular-biology",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-27T18:05:44.267320+00:00",
+  "last_run": "2026-08-28T19:15:20.841426+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011820": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012214": "2026-08-21T07:40:31.696322+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012239": "2026-08-14T08:13:11.734164+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012260": "2026-08-22T07:28:37.067709+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012266": "2026-08-28T19:15:20.841426+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012275": "2026-08-28T19:15:20.841426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012277": "2026-08-26T07:42:59.995912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012281": "2026-08-26T07:42:59.995912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012282": "2026-08-25T07:42:28.726686+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012288": "2026-08-28T19:15:20.841426+00:00",
     "https://news.cancerresearchuk.org/2026/08/14/most-people-in-britain-havent-bought-sunscreen-in-2026/": "2026-08-15T07:27:57.226728+00:00",
     "https://news.cancerresearchuk.org/2026/08/17/we-drove-down-smoking-now-we-need-the-same-resolve-on-obesity/": "2026-08-18T07:35:16.128761+00:00",
     "https://news.cancerresearchuk.org/2026/08/18/cancer-waiting-times-latest-updates-and-analysis/": "2026-08-19T07:35:29.728852+00:00",
@@ -18648,7 +18914,6 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.10.743091v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.10.743885v1?rss=1": "2026-08-15T07:27:57.226728+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.10.744065v1?rss=1": "2026-08-16T07:27:29.969234+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.11.744230v1?rss=1": "2026-08-14T08:13:11.734164+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744262v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744330v1?rss=1": "2026-08-17T07:49:26.810890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.12.739961v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
@@ -18682,7 +18947,12 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.22.746446v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.23.746539v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.23.746561v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.england.nhs.uk/2026/08/nhs-keeps-its-cool-as-temperatures-and-demand-soar/": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.24.746577v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.24.746877v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.24.746882v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.25.747118v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.26.746823v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.26.747289v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-rolls-out-discreet-home-testing-kits-against-cervical-cancer-for-millions-of-women/": "2026-08-25T07:42:28.726686+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-urges-those-eligible-to-book-a-flu-jab-ahead-of-this-winter-season/": "2026-08-18T07:35:16.128761+00:00",
     "https://www.phgfoundation.org/blog/redefining-genomic-testing-is-it-time-to-talk-about-near-perfect-sequencing/": "2026-08-15T07:27:57.226728+00:00",
@@ -18708,17 +18978,8 @@
     "https://www.sciencedaily.com/releases/2026/08/260824065546.htm": "2026-08-26T07:42:59.995912+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260827010455.htm": "2026-08-27T18:05:44.267320+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260827010516.htm": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/13/biotech-news-eli-lilly-targets-booming-retatrutide-black-market/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/2026/08/13/commure-investigation-medicare-tech-incentives-health-tech/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/2026/08/13/commure-terminates-payments-under-customer-referral-programs/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/2026/08/13/how-medicare-cms-pays-ntap-for-new-ai-medical-devices/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/2026/08/13/neurocrine-biosciences-vykat-prader-willi-2/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/2026/08/13/newsom-california-generic-insulin-calrx-availability-slow-to-reach-patients/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/2026/08/13/patient-perspectives-on-brain-implants-for-depression/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/2026/08/13/rfk-california-tour-hhs-addiction-treatment-plan-dc-diagnosis/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/2026/08/13/statin-misinformation-medicine-scams-online-regulation-fact-checks/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/2026/08/13/trump-vaccine-executive-order-mmr-separate-shots-policy/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
-    "https://www.statnews.com/2026/08/13/young-people-cancer-new-fertility-tech/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260828005216.htm": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260828005224.htm": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/14/biotech-news-pbms-agree-to-display-trumprx-drug-prices/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/2026/08/14/cms-transgender-care-rule-how-will-legal-challenges-fare/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/2026/08/14/epic-systems-ftc-review-nda-use-possible-anticompetitive-practices/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
@@ -18824,20 +19085,28 @@
     "https://www.statnews.com/2026/08/26/health-news-even-at-big-companies-health-care-costs-increasing/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.statnews.com/2026/08/26/kennedy-vaccine-comments-reaction-josh-shapiro-jerome-adams/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.statnews.com/2026/08/26/pancreatic-cancer-drug-rasonque-approved/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/27/alnylam-amvuttra-nucresiran-heart-drugs-esc/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/27/bill-cassidy-louisiana-senator-new-report-mifepristone-heidi-overton/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/alnylam-amvuttra-nucresiran-heart-drugs-esc/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/27/bill-cassidy-louisiana-senator-new-report-mifepristone-heidi-overton/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/binsa-biotech-china-eurowashing-geography-clinical-trials/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/27/health-news-decoding-dea-action-on-kratom-related-substance/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/27/hospitals-lobby-medicaid-cuts-rasonque-approved-dc-diagnosis/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/27/fda-approves-roivant-therapy-for-rare-autoimmune-disease/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/27/health-news-decoding-dea-action-on-kratom-related-substance/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/27/hospitals-lobby-medicaid-cuts-rasonque-approved-dc-diagnosis/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/hospitals-lobby-reverse-medicaid-cuts-part-2-unraveled-series/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/27/kennedy-samoa-trip-mmr-vaccine-new-documents/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech/": "2026-08-27T18:05:44.267320+00:00",
+    "https://www.statnews.com/2026/08/27/kennedy-samoa-trip-mmr-vaccine-new-documents/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/menopause-perimenopause-symptoms-reddit-clinical-data-study/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.statnews.com/2026/08/27/moderna-merck-cancer-vaccine-secret-ingredient-an-algorithm/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.statnews.com/2026/08/27/opioid-settlement-funds-enforcement-or-treatment-louisiana-sheriff-investigation/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/13/california-insulin-sales-moderna-patent-battle/?utm_campaign=rss": "2026-08-14T08:13:11.734164+00:00",
+    "https://www.statnews.com/2026/08/28/astrazeneca-ionis-wainua-eplontersen-attr-cm-study-failure-bridgebio-alnylam/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/28/biotech-news-astrazeneca-ionis-detail-surprise-failure-of-heart-disease-drug/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/28/cdc-protest-resignations-one-year-later-houry-jernigan-daskalakis/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/28/cytokinetics-myqorzo-aficamten-nhcm-acacia-trial-success/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/28/health-news-federal-autism-adcomm-doubles-down-on-debunked-theory/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/28/lindsay-clancy-postpartum-psychosis-reproductive-psychiatrists-liability/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/28/medicare-g2211-code-billing-research-primary-care/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/08/28/vaccines-autism-advisory-committee-strategic-plan-boost-research-funding/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/pharmalot/2026/08/14/controversial-lab-sues-usp-for-disparaging-its-testing-methods/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/pharmalot/2026/08/14/lab-tests-lawsuit-bristol-multiple-myeloma-drug-approved/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
     "https://www.statnews.com/pharmalot/2026/08/14/up-down-ladder-latest-comings-goings-jobs/?utm_campaign=rss": "2026-08-15T07:27:57.226728+00:00",
@@ -18851,7 +19120,9 @@
     "https://www.statnews.com/pharmalot/2026/08/24/state-medicaid-obesity-drugs-regenxbio-gene-therapy/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
     "https://www.statnews.com/pharmalot/2026/08/25/rfk-vaccine-disclosure-merck-court-loss-over-medicare/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
     "https://www.statnews.com/pharmalot/2026/08/25/turkish-authorities-probe-teva-gaming-patent-system-disparaging-rivals/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/27/pancreatic-cancer-drug-approved-trump-deal-with-biotechs/": "2026-08-27T18:05:44.267320+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/27/pancreatic-cancer-drug-approved-trump-deal-with-biotechs/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/": "2026-08-28T19:15:20.841426+00:00"
   },
   "takedowns": []
 }
