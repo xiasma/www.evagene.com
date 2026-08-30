@@ -18975,9 +18975,141 @@
         "mouse-model",
         "gene-regulation"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Dynema method maps context-dependent eQTLs at true single-cell resolution",
+      "is_preprint": true,
+      "run_date": "2026-08-30",
+      "run_iso": "2026-08-30T12:33:41Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "dynema-single-cell-eqtl-mapping-context-dependent",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Efficient genome-wide mapping of reproducible, context-dependent eQTLs at single-cell resolution",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747138v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from bioRxiv describes Dynema, a Poisson-model framework that goes beyond pseudobulking to detect how disease-risk variants regulate gene expression in specific cell states.",
+      "summary": "A preprint posted to bioRxiv on 29 August 2026 introduces Dynema (Dynamic eQTL mapping in single cells), a computational method for genome-wide identification of expression quantitative trait loci (eQTLs) at the resolution of individual cells rather than collapsed pseudobulk aggregates.\n\nMost existing single-cell eQTL studies compress single-cell data into per-donor, per-cluster averages — a pseudobulking step that improves statistical tractability but may obscure regulatory effects that vary continuously with cell state. Dynema instead fits a Poisson model with cluster-robust variance estimators directly to single-cell count data, enabling the detection of both context-independent eQTLs and context-dependent eQTLs whose effect sizes shift along cell-state gradients.\n\nThe authors report that Dynema achieves efficient genome-wide mapping speeds and reproduces established eQTLs while additionally recovering dynamic regulatory signals missed by pseudobulk approaches. The method is framed as a tool for connecting disease-associated variants — identified through genome-wide association studies — to the specific cell states in which those variants exert their regulatory effects.\n\nThis is a preprint and has not yet undergone peer review. The statistical claims and benchmarks reported should be treated as preliminary until independent evaluation is complete.",
+      "tags": [
+        "eqtl",
+        "single-cell-genomics",
+        "pseudobulking",
+        "disease-variants",
+        "gene-regulation",
+        "computational-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Kosaki overgrowth syndrome is a rare inherited condition caused by changes in a gene called PDGFRb. People with this condition can develop unusually large bones and other connective tissues.\n\nResearchers who posted this early-stage study — not yet checked by independent experts — used mice carrying similar gene changes to study what goes wrong inside cells. They found that the faulty PDGFRb gene appears to switch on a growth signalling chain normally controlled by growth hormone, involving proteins called STAT5 and IGF1. Understanding this chain may, in future, help scientists develop treatments aimed at interrupting it.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Mouse models implicate STAT5–IGF1 pathway in PDGFRb-driven connective tissue overgrowth",
+      "is_preprint": true,
+      "run_date": "2026-08-30",
+      "run_iso": "2026-08-30T12:33:41Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-08-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "pdgfrb-stat5-igf1-kosaki-overgrowth-syndrome",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Constitutive PDGFRb activation drives connective tissue overgrowth through STAT5-IGF1 signaling",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747555v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies the GH–STAT5–IGF1 signalling axis as a mediator of skeletal and connective tissue overgrowth caused by gain-of-function PDGFRb mutations in Kosaki overgrowth syndrome.",
+      "summary": "A preprint posted to bioRxiv on 29 August 2026 reports findings from mouse models engineered to carry constitutively activating mutations in platelet-derived growth factor receptor beta (PDGFRb), the gene responsible for the autosomal dominant Kosaki overgrowth syndrome — a rare condition characterised by excessive growth of the skeleton and other connective tissues.\n\nThe authors investigated which cell types and downstream signalling pathways mediate the overgrowth phenotype. Normal postnatal skeletal growth depends on pituitary-derived growth hormone (GH), which activates the transcription factor STAT5, which in turn drives expression of insulin-like growth factor 1 (IGF1). The preprint reports that constitutive PDGFRb activation in mouse connective tissue engages this same GH–STAT5–IGF1 axis ectopically, identifying it as a mechanistic driver of the syndrome's overgrowth features.\n\nThe findings suggest that the target cell population for pathological PDGFRb signalling lies within the connective tissue compartment rather than in neural or endocrine cells, and that STAT5-dependent IGF1 upregulation is a key molecular step. The authors propose this pathway as a candidate focus for future therapeutic investigation in Kosaki syndrome and potentially related PDGFRb-associated conditions.\n\nThis is a preprint and has not undergone peer review. Results from mouse models may not translate directly to human biology.",
+      "tags": [
+        "pdgfrb",
+        "kosaki-overgrowth-syndrome",
+        "stat5",
+        "igf1",
+        "rare-disease",
+        "connective-tissue",
+        "mouse-model",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "QxxR motif of RNA helicase Me31B shown to be essential for Drosophila female fertility",
+      "is_preprint": true,
+      "run_date": "2026-08-30",
+      "run_iso": "2026-08-30T12:33:41Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-29T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "me31b-qxxr-motif-drosophila-germline-ddx6",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The QxxR Motif of RNA Helicase Me31B Is Essential for Drosophila Female Fertility and Germline Development",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.27.747641v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses a Drosophila missense mutation equivalent to a human DDX6 pathogenic variant to define how the conserved QxxR motif controls germline RNA regulation and fertility.",
+      "summary": "A preprint posted to bioRxiv on 29 August 2026 reports the functional characterisation of the QxxR motif in Me31B, the Drosophila melanogaster orthologue of the human DEAD-box RNA helicase DDX6. The QxxR motif is conserved across the DEAD-box helicase family, which post-transcriptionally regulates gene expression during animal development, but its precise in vivo role has remained unclear.\n\nThe authors generated a Drosophila strain carrying the H333R missense mutation in Me31B — the equivalent of the human pathogenic H372R substitution in DDX6, previously associated with developmental defects. In human DDX6, this substitution converts the QxHR sequence to QxRR within the motif. The preprint reports that flies homozygous for the Drosophila equivalent mutation show severely reduced female fertility and defects in germline development, establishing that the QxxR motif is functionally required for normal oogenesis in vivo.\n\nBecause Me31B and DDX6 share high sequence and functional conservation, Drosophila is presented as a tractable in vivo model for understanding the developmental consequences of DDX6 variants. The work adds mechanistic context to the human clinical genetics of DDX6-associated conditions.\n\nThis is a preprint and has not undergone peer review.",
+      "tags": [
+        "ddx6",
+        "dead-box-helicase",
+        "rna-regulation",
+        "drosophila",
+        "germline-development",
+        "fertility",
+        "animal-models",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-29T12:58:15.867374+00:00",
+  "last_run": "2026-08-30T12:34:27.686020+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012214": "2026-08-21T07:40:31.696322+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012260": "2026-08-22T07:28:37.067709+00:00",
@@ -18997,7 +19129,6 @@
     "https://news.cancerresearchuk.org/2026/08/25/nhs-england-offering-hpv-self-testing-kits-cervical-screening/": "2026-08-25T07:42:28.726686+00:00",
     "https://news.cancerresearchuk.org/2026/08/27/breaking-down-barriers-to-cervical-screening-the-evidence-for-hpv-self-sampling/": "2026-08-27T18:05:44.267320+00:00",
     "https://news.cancerresearchuk.org/2026/08/27/lets-talk-about-hpv-7-common-questions-answered/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.10.744065v1?rss=1": "2026-08-16T07:27:29.969234+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744262v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744330v1?rss=1": "2026-08-17T07:49:26.810890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.12.739961v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
@@ -19035,12 +19166,14 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.24.746882v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.746822v1?rss=1": "2026-08-29T12:58:15.867374+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.747118v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.25.747138v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.746823v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.747289v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.27.747555v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.27.747641v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-rolls-out-discreet-home-testing-kits-against-cervical-cancer-for-millions-of-women/": "2026-08-25T07:42:28.726686+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-urges-those-eligible-to-book-a-flu-jab-ahead-of-this-winter-season/": "2026-08-18T07:35:16.128761+00:00",
     "https://www.phgfoundation.org/blog/the-european-health-data-space-and-the-uk-where-things-stand-now/": "2026-08-21T07:40:31.696322+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260813045552.htm": "2026-08-16T07:27:29.969234+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260814235856.htm": "2026-08-18T07:35:16.128761+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260815064811.htm": "2026-08-18T07:35:16.128761+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260816044842.htm": "2026-08-20T07:39:17.482814+00:00",
