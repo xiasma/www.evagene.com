@@ -19107,9 +19107,186 @@
         "animal-models",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists studying mice have found that two common zero-calorie sweeteners — sucralose (found in some diet drinks and foods) and stevia — may do more than just sweeten food. In the mice studied, both sweeteners changed the mix of bacteria living in the gut, reduced the production of helpful substances those bacteria normally make, and altered how certain genes behaved. Perhaps most surprisingly, some of these changes were also found in the next generation of mice that had never eaten the sweeteners at all.\n\nIt is important to know that this research was done in mice, not people. How mice digest and respond to sweeteners is not the same as how humans do, so it would be wrong to draw firm conclusions about what this means for people. Scientists will need to do much more research before anyone can say whether these findings apply to humans. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Sucralose and stevia alter gut microbiome and gene activity across generations in mice",
+      "is_preprint": false,
+      "run_date": "2026-08-31",
+      "run_iso": "2026-08-31T14:48:17Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-08-31T14:04:01Z",
+        "novelty": 7
+      },
+      "slug": "sweeteners-sucralose-stevia-transgenerational-gut-microbiome",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-31T14:04:01Z",
+          "publisher": "ScienceDaily",
+          "title": "Popular sweeteners may leave effects that last for generations",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260830000019.htm"
+        }
+      ],
+      "standfirst": "A mouse study finds both zero-calorie sweeteners changed gut bacteria, reduced beneficial metabolites, and shifted metabolic gene expression — with some effects detectable in offspring that never consumed them.",
+      "summary": "Researchers have found that two widely used zero-calorie sweeteners — sucralose and stevia — can alter the gut microbiome, reduce the output of beneficial bacterial metabolites, and change the activity of genes involved in metabolism and inflammation in mice. Notably, some of these changes were also detected in subsequent generations of animals that had never themselves been exposed to either compound, raising questions about possible transgenerational epigenetic effects.\n\nThe findings, reported via ScienceDaily from an as-yet unspecified primary publication, add to a growing body of research examining whether non-nutritive sweeteners have biological consequences beyond the gastrointestinal tract. Prior work has produced mixed results; this study is notable for its multigenerational design, though the authors and independent commentators caution that mouse gut physiology differs substantially from human gut physiology and that direct extrapolation is premature.\n\nThe mechanisms proposed centre on microbiome-mediated changes in short-chain fatty acid and other metabolite production, which in turn may influence epigenetic marks transmissible to offspring. The relative contributions of germline epigenetic inheritance versus shared maternal microbiome transfer to pups remain to be disentangled. Researchers and educators interested in transgenerational inheritance, diet–microbiome interactions, or epigenetic programming will find the conceptual framework of interest, while the preliminary and animal-model nature of the data warrants scrutiny before conclusions are drawn about human relevance.",
+      "tags": [
+        "transgenerational-inheritance",
+        "gut-microbiome",
+        "epigenetics",
+        "sweeteners",
+        "diet-genetics",
+        "mouse-model",
+        "gene-regulation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "CAR T-cell therapy achieves medication-free remission in small severe rheumatoid arthritis study",
+      "is_preprint": false,
+      "run_date": "2026-08-31",
+      "run_iso": "2026-08-31T14:48:17Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-08-30T01:28:13Z",
+        "novelty": 6
+      },
+      "slug": "car-t-rheumatoid-arthritis-remission-pilot",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-30T01:28:13Z",
+          "publisher": "ScienceDaily",
+          "title": "A cancer therapy put severe rheumatoid arthritis into remission",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260828082330.htm"
+        }
+      ],
+      "standfirst": "Six patients with treatment-resistant rheumatoid arthritis showed dramatic reductions in disease activity after CAR T-cell treatment, with three reaching drug-free remission — though researchers stress that far larger trials are needed.",
+      "summary": "A small pilot study has reported that CAR T-cell therapy — a form of cellular immunotherapy in which a patient's own T cells are genetically re-engineered to target specific immune populations — substantially reduced disease activity in six individuals with severe rheumatoid arthritis that had not responded to existing treatments. Three of the six participants achieved remission without requiring any ongoing medication.\n\nThe proposed mechanism is an immune system reset: the engineered cells selectively deplete autoreactive B cells or related populations thought to sustain the autoimmune attack on joint tissue, potentially allowing the immune system to reconstitute without the pathological subset. The findings, reported via ScienceDaily from an undisclosed primary source, parallel earlier preliminary data from groups including those at the University of Erlangen-Nuremberg, which have explored CAR T approaches in systemic lupus erythematosus and other autoimmune conditions.\n\nThe authors themselves acknowledge that sample sizes are far too small to draw firm conclusions about efficacy or safety. CAR T-cell manufacturing remains complex and expensive, and the therapy currently carries risks including cytokine release syndrome and other immune-related adverse events well characterised in its oncology applications. For researchers working at the intersection of immunogenetics, autoimmunity, and cell therapy, the mechanistic rationale and early signal are of interest. For oncologists and genetic counsellors, the cross-disciplinary transfer of a technology developed in haematological malignancy to autoimmune disease represents a notable development worth tracking.",
+      "tags": [
+        "car-t-cell-therapy",
+        "rheumatoid-arthritis",
+        "autoimmunity",
+        "immunogenetics",
+        "cell-therapy",
+        "immune-reconstitution"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "FDA approves Mimrylo for polycythaemia vera, a new class of treatment for the rare blood cancer",
+      "is_preprint": false,
+      "run_date": "2026-08-31",
+      "run_iso": "2026-08-31T14:48:17Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-08-30T18:30:18Z",
+        "novelty": 8
+      },
+      "slug": "fda-approves-mimrylo-polycythemia-vera-takeda-protagonist",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/08/AdobeStock_729644280_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-30T18:30:18Z",
+          "publisher": "Stat News",
+          "title": "STAT+: FDA approves Protagonist and Takeda's drug for rare blood cancer",
+          "url": "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/"
+        }
+      ],
+      "standfirst": "The US Food and Drug Administration has approved Mimrylo (rusfertide), developed by Protagonist Therapeutics and Takeda, as a novel treatment for polycythaemia vera — a rare myeloproliferative neoplasm driven by JAK2 mutations.",
+      "summary": "The US Food and Drug Administration has granted approval to Mimrylo (rusfertide), a hepcidin mimetic co-developed by Protagonist Therapeutics and Takeda, for the treatment of polycythaemia vera (PV) — a rare myeloproliferative neoplasm characterised in the large majority of cases by an acquired gain-of-function mutation in the JAK2 gene (most commonly JAK2 V617F).\n\nPV causes the bone marrow to overproduce red blood cells, raising the risk of thrombotic events. Existing management has relied on phlebotomy, hydroxyurea, and JAK inhibitors such as ruxolitinib. Rusfertide takes a different mechanistic approach: by mimicking hepcidin, the peptide hormone that regulates iron availability, it restricts the iron supply required for erythropoiesis, thereby controlling haematocrit without directly targeting the JAK–STAT signalling axis.\n\nThe approval represents the first regulatory clearance for a hepcidin mimetic in a haematological malignancy and may be of interest to oncologists and haematologists managing patients with PV, particularly those with inadequate haematocrit control on current agents. The genetic basis of PV — somatic JAK2 mutations detectable by molecular testing — means that genetic counsellors involved in the diagnostic workup of myeloproliferative neoplasms may also note this addition to the therapeutic landscape. Researchers working on iron regulation, erythropoiesis, or myeloid disease genetics will find the mechanistic rationale of independent interest.",
+      "tags": [
+        "polycythaemia-vera",
+        "jak2",
+        "fda-approval",
+        "hepcidin",
+        "myeloproliferative-neoplasm",
+        "haematological-cancer",
+        "erythropoiesis",
+        "targeted-therapy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Transcriptional coactivator MED15 required to sustain mature beta-cell function in adult mice",
+      "is_preprint": true,
+      "run_date": "2026-08-31",
+      "run_iso": "2026-08-31T14:48:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-31T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "med15-beta-cell-maturity-adult-pancreas-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-31T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Transcriptional coactivator MED15 is required to maintain β-cell maturity",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.745805v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from Cold Spring Harbor Laboratory finds that the Mediator subunit MED15 is needed not only for pancreatic beta-cell development but for maintaining functional maturity throughout adult life in mice.",
+      "summary": "A preprint posted to bioRxiv (Cold Spring Harbor Laboratory) reports that MED15 — a subunit of the Mediator transcriptional coactivator complex — is required to maintain the functional maturity of pancreatic beta cells in adult mice, extending beyond its previously characterised role in prenatal development and early post-natal maturation.\n\nUsing an inducible, beta-cell-specific Med15 knockout strategy in six-week-old male and female mice, the researchers were able to ablate MED15 function after the initial maturation window had closed. The findings suggest that ongoing Mediator-dependent transcriptional activity is necessary to preserve the gene-expression programmes that define a mature, insulin-secreting beta cell, rather than being required only during a discrete developmental period. Loss of MED15 post-maturation appears to push cells towards an immature or de-differentiated state.\n\nThe Mediator complex sits at a central node in eukaryotic gene regulation, linking sequence-specific transcription factors — including those with established roles in beta-cell identity such as PDX1 and NEUROD1 — to the core RNA polymerase II machinery. Findings in mouse models do not automatically translate to human biology, and this work has not yet been peer-reviewed. For researchers working on pancreatic development, beta-cell plasticity, or the transcriptional regulation of metabolic tissues, the dataset and mechanistic framing are of interest. Diabetes researchers and educators covering gene regulatory networks in metabolic disease will also find the conceptual contribution relevant.",
+      "tags": [
+        "mediator-complex",
+        "med15",
+        "beta-cell",
+        "pancreas",
+        "transcription",
+        "diabetes-genetics",
+        "developmental-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-30T12:34:27.686020+00:00",
+  "last_run": "2026-08-31T14:49:39.453780+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012214": "2026-08-21T07:40:31.696322+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012260": "2026-08-22T07:28:37.067709+00:00",
@@ -19130,12 +19307,10 @@
     "https://news.cancerresearchuk.org/2026/08/27/breaking-down-barriers-to-cervical-screening-the-evidence-for-hpv-self-sampling/": "2026-08-27T18:05:44.267320+00:00",
     "https://news.cancerresearchuk.org/2026/08/27/lets-talk-about-hpv-7-common-questions-answered/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.11.744262v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.11.744330v1?rss=1": "2026-08-17T07:49:26.810890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.12.739961v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.12.744351v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.12.744474v1?rss=1": "2026-08-19T07:35:29.728852+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.737497v1?rss=1": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.13.743550v1?rss=1": "2026-08-17T07:49:26.810890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.744610v1?rss=1": "2026-08-19T07:35:29.728852+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.744747v1?rss=1": "2026-08-20T07:39:17.482814+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.14.744045v1?rss=1": "2026-08-20T07:39:17.482814+00:00",
@@ -19167,10 +19342,12 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.25.746822v1?rss=1": "2026-08-29T12:58:15.867374+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.747118v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.747138v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.26.745805v1?rss=1": "2026-08-31T14:49:39.453780+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.746823v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.747289v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.27.747555v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.27.747641v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
+    "https://www.england.nhs.uk/2026/08/high-street-pharmacies-to-launch-seven-minute-cholesterol-checks/": "2026-08-31T14:49:39.453780+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-rolls-out-discreet-home-testing-kits-against-cervical-cancer-for-millions-of-women/": "2026-08-25T07:42:28.726686+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-urges-those-eligible-to-book-a-flu-jab-ahead-of-this-winter-season/": "2026-08-18T07:35:16.128761+00:00",
     "https://www.phgfoundation.org/blog/the-european-health-data-space-and-the-uk-where-things-stand-now/": "2026-08-21T07:40:31.696322+00:00",
@@ -19192,13 +19369,15 @@
     "https://www.sciencedaily.com/releases/2026/08/260828005216.htm": "2026-08-28T19:15:20.841426+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260828005224.htm": "2026-08-28T19:15:20.841426+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260828005427.htm": "2026-08-29T12:58:15.867374+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260828082330.htm": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260830000019.htm": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260831015205.htm": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/2026/08/17/biotech-news-akeso-summit-ivonescimabs-worsening-tumor-progression-benefit/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/2026/08/17/eyepoint-duravyu-wet-amd-study/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/2026/08/17/health-news-everything-the-trump-administration-did-on-health-care/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/2026/08/17/healthy-opportunities-pilots-hop-program-north-carolina-medicaid-social-services/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/2026/08/17/irs-probe-unitedhealth-group-taxes-private-equity-deals-physician-groups/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/2026/08/17/paid-paternity-leave-baby-help-pediatricians/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026/?utm_campaign=rss": "2026-08-17T07:49:26.810890+00:00",
     "https://www.statnews.com/2026/08/17/rfk-jr-california-tour-maha-messaging-fight-fraud-addiction/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/2026/08/17/sanofi-layoffs-mass-blueprint-medicines/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/2026/08/17/ugm-epic-confronts-challenges-succession-ai-strategy-antitrust/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
@@ -19327,6 +19506,13 @@
     "https://www.statnews.com/2026/08/28/vaccines-autism-advisory-committee-strategic-plan-boost-research-funding/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/28/vaccines-autism-advisory-committee-strategic-plan-boost-research-funding/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/2026/08/29/novartis-pacibekitug-inflammation-il6-tourmaline-heart-disease/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
+    "https://www.statnews.com/2026/08/30/alnylam-attr-astrazeneca-wainua-attruby-heart-disease/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.statnews.com/2026/08/31/biotech-news-can-a-pregnancy-hormone-steer-a-cardiovascular-treatment/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.statnews.com/2026/08/31/health-news-mid-stage-results-from-esc-2026-cardiology/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.statnews.com/2026/08/31/mrna-cancer-vaccine-intersects-politics-medicine/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.statnews.com/2026/08/31/radiopharmaceuticals-dosing-pushing-bounds-cancer-treatment/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/pharmalot/2026/08/17/astrazeneca-lung-cancer-setback-falling-drug-prices/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/pharmalot/2026/08/18/eyepoint-blindness-treatment-setback-amylyx-avexitide-win/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/pharmalot/2026/08/19/fda-commissioner-nominee-overton-merck-moderna-cancer-vaccine/": "2026-08-20T07:39:17.482814+00:00",
@@ -19342,7 +19528,8 @@
     "https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/": "2026-08-28T19:15:20.841426+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/31/drug-pricing-deals-polycythemia-vera-mimrylo-pharmalittle-newsletter/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00"
   },
   "takedowns": []
 }
