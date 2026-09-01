@@ -19284,9 +19284,188 @@
         "developmental-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "PIGA-CDG is a rare inherited condition caused by a fault in a gene called PIGA. This gene makes a protein that helps attach certain molecules to the surface of cells. When it does not work properly, it mainly affects the nervous system, causing seizures, learning difficulties, and developmental delays. At present there are very few specific treatments, and care focuses on managing symptoms.\n\nResearchers publishing in the journal PLOS Genetics have used a method called drug repurposing — testing existing medicines to see whether any might help — and found that drugs affecting a chemical messenger in the brain called dopamine could be worth investigating further. This is early-stage laboratory research, and the scientists say more work is needed before any conclusions can be drawn about treatment in people.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Drug repurposing screen identifies dopamine pathway as candidate therapy for PIGA-CDG",
+      "is_preprint": false,
+      "run_date": "2026-09-01",
+      "run_iso": "2026-09-01T12:19:20Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-08-31T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "piga-cdg-dopamine-drug-repurposing-screen",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-08-31T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "A drug repurposing screen reveals dopamine signaling as a candidate therapeutic pathway for PIGA-CDG",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012294"
+        }
+      ],
+      "standfirst": "Researchers publishing in PLOS Genetics have found that dopamine signalling may offer a therapeutic avenue for PIGA-CDG, a rare congenital disorder of glycosylation with few current treatment options.",
+      "summary": "Miriam C. Aziz, Jennie Wilson, and Clement Y. Chow at the University of Utah have published a drug repurposing screen in PLOS Genetics identifying dopamine signalling as a candidate therapeutic pathway for PIGA-CDG, a congenital disorder of glycosylation caused by pathogenic partial loss-of-function variants in the PIGA gene.\n\nPIGA encodes an enzyme that catalyses the first step in glycosylphosphatidylinositol (GPI) anchor biosynthesis — the attachment of N-acetylglucosamine to phosphatidylinositol. Loss of this function has wide phenotypic consequences but primarily manifests as neurological symptoms including seizures, intellectual disability, and developmental delay. Existing management focuses on symptom control rather than the underlying mechanism.\n\nUsing a systematic screen of approved and investigational compounds, the team identified drugs acting on dopamine signalling as candidates capable of modifying the disease phenotype in their model system. The authors note that the findings are preliminary and that further work is needed to establish whether the pathway represents a viable therapeutic target in human PIGA-CDG.\n\nThe study is published in PLOS Genetics (DOI: 10.1371/journal.pgen.1012294). Because PIGA-CDG is a rare disorder with a defined genetic basis, the findings are likely to be of particular interest to researchers working on congenital disorders of glycosylation, as well as to genetic counsellors supporting affected families.",
+      "tags": [
+        "piga-cdg",
+        "congenital-disorders-of-glycosylation",
+        "drug-repurposing",
+        "dopamine-signalling",
+        "rare-disease",
+        "neurogenetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Bayesian adaptive design cuts phenotyping burden in microbial genome-wide association studies",
+      "is_preprint": true,
+      "run_date": "2026-09-01",
+      "run_iso": "2026-09-01T12:19:20Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-08-31T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "bass-gwas-bayesian-adaptive-microbial-gwas",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-31T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Bayesian adaptive experimental design for efficient microbial genome-wide association studies",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747358v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory describes BASS-GWAS, a method that selects the most informative bacterial isolates for phenotyping, reducing the experimental work needed to achieve statistical power in microbial GWAS.",
+      "summary": "A preprint posted to bioRxiv describes BASS-GWAS (Bayesian Adaptive Sequential Sampling GWAS), a computational framework designed to reduce the phenotyping bottleneck in bacterial genome-wide association studies.\n\nAs collections of sequenced bacterial isolates have expanded, the main limiting factor for microbial GWAS has shifted from genome sequencing to the labour-intensive phenotyping of sufficient isolates to reach adequate statistical power. BASS-GWAS addresses this by coupling Bayesian adaptive experimental design with a sparse regression model. Rather than phenotyping isolates at random or exhaustively, the algorithm iteratively selects the isolates whose phenotypic data would be most informative, prioritising those expected to maximally update genetic effect estimates.\n\nAccording to the preprint, the method efficiently recovered genetic associations in benchmarking analyses while requiring substantially fewer phenotyped isolates than conventional approaches. The authors suggest the framework could be applied broadly across microbial traits of biological and applied interest, including antimicrobial resistance and virulence phenotypes.\n\nThis work has not yet been peer-reviewed. The preprint is available at bioRxiv (DOI: 10.64898/2026.08.26.747358). It is likely to be of primary interest to researchers working in microbial genomics, statistical genetics, and experimental design.",
+      "tags": [
+        "microbial-gwas",
+        "bayesian-methods",
+        "experimental-design",
+        "antimicrobial-resistance",
+        "statistical-genetics",
+        "computational-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Kleefstra syndrome is a rare condition caused by a change in a gene called EHMT1. People with this condition often have learning difficulties and low muscle tone from early childhood. Some individuals — though not all — experience a period of developmental regression, meaning they lose skills they had previously gained. This often happens in the teenage years or early adulthood, and sleep problems frequently come first.\n\nResearchers have used a type of brain scan called FDG-PET/CT — which shows how the brain uses sugar for energy — in people with Kleefstra syndrome, and also studied flies with a similar gene change in the laboratory. Both lines of evidence point to the brain having difficulty managing energy during times of physical and developmental stress, which the researchers suggest might help explain why regression happens when it does.\n\nThis is very early research and has not yet been reviewed by other scientists. It does not change current care, but it offers a possible explanation that the research community will investigate further.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint links metabolic collapse to developmental regression in Kleefstra syndrome",
+      "is_preprint": true,
+      "run_date": "2026-09-01",
+      "run_iso": "2026-09-01T12:19:20Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-08-31T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "kleefstra-syndrome-metabolic-collapse-regression",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-31T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Metabolic collapse as a mechanism of developmental regression: convergent evidence from Kleefstra syndrome FDG-PET/CT imaging and Drosophila modelling",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747020v1?rss=1"
+        }
+      ],
+      "standfirst": "FDG-PET/CT imaging in people with Kleefstra syndrome and a Drosophila model both point to impaired glucose metabolism as a mechanism underlying the adolescent-onset developmental regression seen in this rare neurodevelopmental condition.",
+      "summary": "A preprint posted to bioRxiv reports convergent evidence that altered glucose metabolism may drive the severe developmental regression that occurs in some individuals with Kleefstra syndrome (KLEFS1), a rare neurodevelopmental disorder caused by haploinsufficiency of EHMT1.\n\nKleefstra syndrome is characterised by intellectual disability, childhood hypotonia, and distinctive facial features. A subset of affected individuals experience marked regression — loss of previously acquired skills — during adolescence or early adulthood, often preceded by severe sleep disturbance. The mechanisms underlying this regression have not been well understood.\n\nThe research team combined two lines of evidence. First, they used FDG-PET/CT imaging — a technique that maps glucose uptake across tissues — in individuals with KLEFS1, finding patterns consistent with impaired cerebral metabolism. Second, they used a Drosophila model of EHMT1/G9a loss to investigate metabolic phenotypes experimentally, observing that flies with reduced G9a function showed evidence of metabolic vulnerability under stress conditions.\n\nThe authors propose that EHMT1's known roles in metabolic regulation and stress responses may leave affected individuals with insufficient metabolic resilience to sustain normal brain function during the physiological demands of adolescence, potentially explaining the timing of regression episodes.\n\nThis work has not yet been peer-reviewed. The preprint is available at bioRxiv (DOI: 10.64898/2026.08.28.747020). It is relevant to researchers in neurodevelopmental genetics, rare disease biology, and clinical geneticists and genetic counsellors who support families affected by Kleefstra syndrome.",
+      "tags": [
+        "kleefstra-syndrome",
+        "ehmt1",
+        "developmental-regression",
+        "neurodevelopmental-disorders",
+        "glucose-metabolism",
+        "fdg-pet",
+        "drosophila",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint compares SNP selection strategies for reduced-density genomic panels in beef cattle",
+      "is_preprint": true,
+      "run_date": "2026-09-01",
+      "run_iso": "2026-09-01T12:19:20Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-08-31T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "snp-panel-optimisation-genomic-selection-beef-cattle",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-08-31T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Optimizing genomic selection: A comparison of SNP selection strategies for reduced-density panels in beef cattle",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.26.747408v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint evaluates five approaches to selecting informative SNP subsets for genomic prediction in beef cattle, finding that strategic panel reduction can preserve prediction accuracy while substantially cutting computational costs.",
+      "summary": "A preprint posted to bioRxiv describes a systematic comparison of five SNP selection strategies for constructing reduced-density genotyping panels suited to routine genomic evaluations in beef cattle.\n\nAs the number of genotyped animals in livestock breeding programmes has grown into the millions, building the genomic relationship matrices used in genomic selection has become computationally demanding. High-density SNP chips — while capable in principle of capturing causal variants — impose substantial computational costs without proportional gains in prediction accuracy for most traits. The authors compared strategies including random selection, equal-interval spacing across chromosomes, MAF-based filtering, linkage-disequilibrium pruning, and a method prioritising variants with the largest estimated effects from prior analyses.\n\nAcross the traits examined, the study found that informed SNP selection approaches — particularly those prioritising variants with known or estimated effect sizes — maintained genomic prediction accuracy comparable to full high-density panels while using markedly fewer markers. The work contributes to an active area of livestock genomics research aimed at making large-scale genomic evaluation computationally tractable as herd databases expand.\n\nThis work has not yet been peer-reviewed. The preprint is available at bioRxiv (DOI: 10.64898/2026.08.26.747408). It is primarily relevant to researchers and educators working in quantitative genetics, livestock genomics, and animal breeding.",
+      "tags": [
+        "genomic-selection",
+        "snp-panels",
+        "livestock-genetics",
+        "beef-cattle",
+        "quantitative-genetics",
+        "animal-breeding",
+        "computational-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-08-31T14:49:39.453780+00:00",
+  "last_run": "2026-09-01T12:20:41.665653+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012214": "2026-08-21T07:40:31.696322+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012260": "2026-08-22T07:28:37.067709+00:00",
@@ -19295,8 +19474,10 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012277": "2026-08-26T07:42:59.995912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012281": "2026-08-26T07:42:59.995912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012282": "2026-08-25T07:42:28.726686+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012287": "2026-09-01T12:20:41.665653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012288": "2026-08-28T19:15:20.841426+00:00",
-    "https://news.cancerresearchuk.org/2026/08/17/we-drove-down-smoking-now-we-need-the-same-resolve-on-obesity/": "2026-08-18T07:35:16.128761+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012292": "2026-09-01T12:20:41.665653+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012294": "2026-09-01T12:20:41.665653+00:00",
     "https://news.cancerresearchuk.org/2026/08/18/cancer-waiting-times-latest-updates-and-analysis/": "2026-08-19T07:35:29.728852+00:00",
     "https://news.cancerresearchuk.org/2026/08/18/how-coaching-can-help-you-become-a-research-leader/": "2026-08-19T07:35:29.728852+00:00",
     "https://news.cancerresearchuk.org/2026/08/18/making-space-for-coaching/": "2026-08-19T07:35:29.728852+00:00",
@@ -19306,9 +19487,6 @@
     "https://news.cancerresearchuk.org/2026/08/25/nhs-england-offering-hpv-self-testing-kits-cervical-screening/": "2026-08-25T07:42:28.726686+00:00",
     "https://news.cancerresearchuk.org/2026/08/27/breaking-down-barriers-to-cervical-screening-the-evidence-for-hpv-self-sampling/": "2026-08-27T18:05:44.267320+00:00",
     "https://news.cancerresearchuk.org/2026/08/27/lets-talk-about-hpv-7-common-questions-answered/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.11.744262v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.12.739961v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.12.744351v1?rss=1": "2026-08-18T07:35:16.128761+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.12.744474v1?rss=1": "2026-08-19T07:35:29.728852+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.737497v1?rss=1": "2026-08-19T07:35:29.728852+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.744610v1?rss=1": "2026-08-19T07:35:29.728852+00:00",
@@ -19345,14 +19523,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.26.745805v1?rss=1": "2026-08-31T14:49:39.453780+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.746823v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.747289v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.26.747358v1?rss=1": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.26.747408v1?rss=1": "2026-09-01T12:20:41.665653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.27.747555v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.27.747641v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.28.747020v1?rss=1": "2026-09-01T12:20:41.665653+00:00",
     "https://www.england.nhs.uk/2026/08/high-street-pharmacies-to-launch-seven-minute-cholesterol-checks/": "2026-08-31T14:49:39.453780+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-rolls-out-discreet-home-testing-kits-against-cervical-cancer-for-millions-of-women/": "2026-08-25T07:42:28.726686+00:00",
-    "https://www.england.nhs.uk/2026/08/nhs-urges-those-eligible-to-book-a-flu-jab-ahead-of-this-winter-season/": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.england.nhs.uk/2026/09/nhs-kicks-off-flu-jabs-for-children-and-pregnant-women-ahead-of-winter/": "2026-09-01T12:20:41.665653+00:00",
     "https://www.phgfoundation.org/blog/the-european-health-data-space-and-the-uk-where-things-stand-now/": "2026-08-21T07:40:31.696322+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260814235856.htm": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260815064811.htm": "2026-08-18T07:35:16.128761+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260816044842.htm": "2026-08-20T07:39:17.482814+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260819041220.htm": "2026-08-20T07:39:17.482814+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260819041237.htm": "2026-08-20T07:39:17.482814+00:00",
@@ -19372,16 +19551,6 @@
     "https://www.sciencedaily.com/releases/2026/08/260828082330.htm": "2026-08-31T14:49:39.453780+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260830000019.htm": "2026-08-31T14:49:39.453780+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260831015205.htm": "2026-08-31T14:49:39.453780+00:00",
-    "https://www.statnews.com/2026/08/17/biotech-news-akeso-summit-ivonescimabs-worsening-tumor-progression-benefit/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/17/eyepoint-duravyu-wet-amd-study/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/17/health-news-everything-the-trump-administration-did-on-health-care/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/17/healthy-opportunities-pilots-hop-program-north-carolina-medicaid-social-services/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/17/irs-probe-unitedhealth-group-taxes-private-equity-deals-physician-groups/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/17/paid-paternity-leave-baby-help-pediatricians/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/17/rfk-jr-california-tour-maha-messaging-fight-fraud-addiction/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/17/sanofi-layoffs-mass-blueprint-medicines/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/17/ugm-epic-confronts-challenges-succession-ai-strategy-antitrust/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
-    "https://www.statnews.com/2026/08/17/unitedhealth-irs-probe-audit-targets-foreign-subsidiary-transfers/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
     "https://www.statnews.com/2026/08/18/amylyx-endocrine-drug-succeeds-in-pivotal-study-avexitide-bariatric-surgery-patients/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/18/antibiotic-underuse-overuse-resistance-aware/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/18/biotech-news-real-world-psilocybin-data-suggest-need-for-close-monitoring/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
@@ -19508,12 +19677,19 @@
     "https://www.statnews.com/2026/08/29/novartis-pacibekitug-inflammation-il6-tourmaline-heart-disease/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/2026/08/30/alnylam-attr-astrazeneca-wainua-attruby-heart-disease/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
     "https://www.statnews.com/2026/08/31/biotech-news-can-a-pregnancy-hormone-steer-a-cardiovascular-treatment/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/2026/08/31/cte-nfl-boston-university-study-football-concussion-history/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.statnews.com/2026/08/31/health-care-inc-glp-1s-are-breaking-employers-and-340-battles/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
     "https://www.statnews.com/2026/08/31/health-news-mid-stage-results-from-esc-2026-cardiology/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.statnews.com/2026/08/31/migraine-prevention-medication-guidelines/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
     "https://www.statnews.com/2026/08/31/mrna-cancer-vaccine-intersects-politics-medicine/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/2026/08/31/radiopharmaceuticals-dosing-pushing-bounds-cancer-treatment/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/17/astrazeneca-lung-cancer-setback-falling-drug-prices/?utm_campaign=rss": "2026-08-18T07:35:16.128761+00:00",
+    "https://www.statnews.com/2026/08/31/trump-most-favored-nation-drug-pricing-new-round-price-cuts-announced/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.statnews.com/2026/09/01/house-spending-bill-vote-grant-rule-trump-mfn-deals-dc-diagnois/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.statnews.com/2026/09/01/maha-nutrition-makeover-hampered-dietitian-workforce-crisis/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.statnews.com/2026/09/01/nih-grant-cap-proposal-researcher-feedback/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.statnews.com/2026/09/01/white-house-science-medicaid-bureaucracy-paperwork/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
     "https://www.statnews.com/pharmalot/2026/08/18/eyepoint-blindness-treatment-setback-amylyx-avexitide-win/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/pharmalot/2026/08/19/fda-commissioner-nominee-overton-merck-moderna-cancer-vaccine/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/pharmalot/2026/08/19/fda-commissioner-nominee-overton-merck-moderna-cancer-vaccine/?utm_campaign=rss": "2026-08-21T07:40:31.696322+00:00",
@@ -19529,7 +19705,8 @@
     "https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/31/drug-pricing-deals-polycythemia-vera-mimrylo-pharmalittle-newsletter/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/31/drug-pricing-deals-polycythemia-vera-mimrylo-pharmalittle-newsletter/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.statnews.com/pharmalot/2026/08/31/pending-drug-patent-applications-amgen-carefirst/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00"
   },
   "takedowns": []
 }
