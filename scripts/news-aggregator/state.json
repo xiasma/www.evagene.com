@@ -19463,33 +19463,383 @@
         "computational-genomics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "patients"
+      ],
+      "for_patients": "Researchers at the PHG Foundation, a health policy group connected to the University of Cambridge, have published a commentary about why it can be difficult to introduce tools that predict the risk of diseases into GP surgeries and other primary care settings.\n\nThe authors argue that even when a risk prediction tool works well technically, it may still not be used effectively unless the way GP practices are organised, and the way doctors and nurses work day-to-day, are also taken into account when the tool is being planned.\n\nThe piece does not describe a new test or tool available to the public. It is an academic commentary aimed at researchers and health system planners who design and evaluate these kinds of tools.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "PHG Foundation examines structural barriers to risk prediction tools in primary care",
+      "is_preprint": false,
+      "run_date": "2026-09-02",
+      "run_iso": "2026-09-02T11:55:47+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-09-02T09:09:09+00:00",
+        "novelty": 6
+      },
+      "slug": "phg-foundation-risk-prediction-tools-primary-care-implementation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-02T09:09:09+00:00",
+          "publisher": "PHG Foundation",
+          "title": "Risk prediction tools in primary care: it's not just about the model",
+          "url": "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-its-not-just-about-the-model/"
+        }
+      ],
+      "standfirst": "A new commentary from the PHG Foundation at the University of Cambridge argues that deploying disease risk prediction models in primary care requires overcoming organisational and workflow challenges that go well beyond model accuracy.",
+      "summary": "A commentary published on 2 September 2026 by the PHG Foundation, the health policy think tank based at the University of Cambridge, addresses what it describes as the non-technical obstacles to embedding disease risk prediction tools in primary care settings.\n\nThe piece argues that even technically sound models can fail to achieve real-world impact if the structural conditions in which they would be used — including clinical workflow integration, practitioner trust, and system-level incentives — are not adequately considered during design and deployment planning. The authors position this as a wider challenge for translational genomics and precision public health, drawing on examples from cardiovascular and cancer risk stratification research.\n\nThe commentary does not evaluate a specific tool or model but instead frames implementation science as a prerequisite for any risk prediction technology that aims to reach patients through primary care. It situates the discussion within ongoing debates about polygenic risk scores and multi-factorial risk tools entering health systems without sufficient attention to how frontline clinicians will use them.\n\nThe piece is relevant to policymakers, health systems researchers, and primary care educators thinking about how genomic and epidemiological evidence is translated into practice. It does not provide clinical recommendations, and its observations are framed at the level of health systems research rather than individual clinical guidance.",
+      "tags": [
+        "risk-prediction",
+        "primary-care",
+        "implementation-science",
+        "polygenic-risk-scores",
+        "health-policy",
+        "genomic-medicine"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "High blood sugar may thicken cancer cells' sugar coating to evade immune detection",
+      "is_preprint": false,
+      "run_date": "2026-09-02",
+      "run_iso": "2026-09-02T11:55:47+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-09-01T02:39:55+00:00",
+        "novelty": 7
+      },
+      "slug": "high-blood-sugar-cancer-immune-evasion-hsf1-glycocalyx",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-01T02:39:55+00:00",
+          "publisher": "ScienceDaily",
+          "title": "High blood sugar may help cancer cells hide from the immune system",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260829235950.htm"
+        }
+      ],
+      "standfirst": "A new study proposes that elevated glucose promotes formation of a dense glycocalyx around tumour cells via the protein HSF1, potentially shielding them from immune recognition.",
+      "summary": "Researchers have identified a possible mechanism by which high blood sugar may help cancer cells avoid detection by the immune system, according to findings reported by ScienceDaily on 1 September 2026, drawing on underlying laboratory research.\n\nThe study describes how cancer cells can build a thick, sugar-rich outer coating — known as the glycocalyx — around themselves. Under conditions of elevated glucose resembling the tumour microenvironment, this protective layer appears to become denser. The protein HSF1 (heat shock factor 1) is identified as playing a central role in this process.\n\nThe researchers propose that blocking this HSF1-mediated pathway could, in principle, make tumour cells more visible to immune cells, which might then be better able to recognise and target them. The findings are presented as a mechanistic discovery rather than a clinical intervention, and the work does not advance a specific drug or therapy.\n\nThe study is likely to be of interest to cancer biologists and oncology researchers exploring the intersection of metabolic states and tumour immunology. The glycocalyx has been an area of growing interest in immuno-oncology, and HSF1 is already known to play roles in stress responses and oncogenesis. The full primary research paper and the authors' institutional affiliations were not identified in the available source summary.",
+      "tags": [
+        "glycocalyx",
+        "tumour-immunology",
+        "hsf1",
+        "glucose-metabolism",
+        "immune-evasion",
+        "cancer-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: TigerAI benchmarks GPT-5 for aggregating genetic evidence in drug development",
+      "is_preprint": true,
+      "run_date": "2026-09-02",
+      "run_iso": "2026-09-02T11:55:47+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-09-01T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "tigerai-llm-genetic-evidence-drug-development-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-01T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "TigerAI: An AI-powered genetic evidence platform to support clinical development",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.29.748046v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory describes TigerAI, a framework that uses large language models to synthesise genetic evidence across more than 13,000 target–indication pairs, aiming to scale knowledge curation for clinical trial prioritisation.",
+      "summary": "A preprint posted to bioRxiv on 1 September 2026 introduces TigerAI, a system designed to evaluate whether large language models (LLMs) — specifically GPT-5 — can reliably aggregate and summarise genetic evidence relevant to drug development decisions.\n\nThe authors developed a domain-grounded instruction framework and benchmarked LLM-derived genetic evidence against curated data drawn from 13,022 target–indication pairs sourced from a comprehensive drug development database. The paper focuses on the potential for AI-assisted curation to reduce the laborious manual effort currently required to compile genetic support for candidate drug targets before and during clinical trials.\n\nThe work positions LLMs as tools for scaling knowledge synthesis in drug discovery, rather than as replacements for expert judgement. The authors benchmark outputs against existing curated evidence to assess accuracy and reproducibility, though the preprint has not yet been peer-reviewed.\n\nTigerAI is described as a research and evidence-generation platform to support clinical development decisions; it is not presented as a diagnostic or clinical decision-support product. The study will be of interest to translational researchers, computational geneticists, and those working at the interface of genomics and drug discovery. The preprint has not yet undergone peer review and findings should be interpreted accordingly.",
+      "tags": [
+        "large-language-models",
+        "drug-discovery",
+        "genetic-evidence",
+        "ai-assisted-curation",
+        "translational-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Parallel FKS1 mutations drive echinocandin resistance in globally spreading Candida auris",
+      "is_preprint": true,
+      "run_date": "2026-09-02",
+      "run_iso": "2026-09-02T11:55:47+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-01T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "candida-auris-echinocandin-resistance-fks1-parallel-evolution-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-01T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Parallel evolution under constraint shapes echinocandin resistance in Candida auris",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.30.748140v1?rss=1"
+        }
+      ],
+      "standfirst": "A genome-wide association study across more than 600 isolates traces repeated, convergent mutations in the FKS1 gene as the principal route to antifungal resistance in the emerging pathogen Candida auris.",
+      "summary": "A preprint posted to bioRxiv on 1 September 2026 presents a large-scale population genomic analysis of echinocandin resistance in Candida auris, a clonal fungal pathogen that has emerged as a global healthcare concern over the past decade.\n\nUsing genome-wide association across more than 600 isolates, the authors identified mutations in FKS1 — the gene encoding the enzyme β-1,3-glucan synthase, which is the molecular target of echinocandin antifungal drugs — as the dominant driver of resistance. Ancestral reconstruction of the population suggested that shared resistance mutations arose independently on multiple occasions in small outbreak clusters, a pattern the authors describe as parallel evolution operating under evolutionary constraint.\n\nThe findings have implications for understanding how resistance emerges and spreads in predominantly clonal pathogens, and may inform surveillance strategies for antifungal resistance. The work contributes to a growing literature on the genomic epidemiology of Candida auris, which has been designated a priority pathogen by several public health agencies.\n\nThis is a preprint that has not yet been peer-reviewed, and its findings should be interpreted accordingly. The study is primarily of interest to clinical and research mycologists, infectious disease specialists, and population geneticists working on antimicrobial resistance.",
+      "tags": [
+        "candida-auris",
+        "antifungal-resistance",
+        "fks1",
+        "parallel-evolution",
+        "fungal-genomics",
+        "antimicrobial-resistance",
+        "population-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Loss of paternal KDM6A reshapes sperm epigenome and elevates cancer risk in wild-type offspring",
+      "is_preprint": true,
+      "run_date": "2026-09-02",
+      "run_iso": "2026-09-02T11:55:47+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-01T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "kdm6a-paternal-epigenetics-cancer-risk-offspring-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-01T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Paternal regulation of H3K4 methylation supports tumor suppressor networks in mammals intergenerationally",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747954v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that KDM6A, an X-linked histone modifier and tumour suppressor, regulates transmissible epigenetic marks in sperm via H3K4 methylation, with paternal loss raising cancer risk in genetically unaffected offspring.",
+      "summary": "A preprint posted to bioRxiv on 1 September 2026 describes a mechanistic study of how paternal epigenetic information transmitted through sperm can influence cancer susceptibility in offspring that do not themselves carry the causative mutation.\n\nThe researchers focused on KDM6A (also known as UTX), an X-linked histone demethylase and tumour suppressor. Using mouse models in which Kdm6a was knocked out specifically in the paternal germline, the team found that paternal loss of KDM6A increased cancer risk in genetically wild-type offspring — that is, offspring that did not inherit the knockout allele. The study identifies the mechanism: KDM6A functions during spermatogenesis to promote methylation of histone H3 at lysine 4 (H3K4) through selective interaction with the COMPASS complex, and this chromatin state is transmitted to the next generation in a way that influences tumour suppressor network activity.\n\nThe findings extend an emerging literature on intergenerational epigenetic inheritance in mammals and have potential relevance for understanding why cancer risk sometimes clusters in families beyond what Mendelian inheritance alone can explain. KDM6A is already implicated in several human cancers as a recurrently mutated gene.\n\nThis is a preprint that has not yet been peer-reviewed. The study is primarily of interest to researchers working in epigenetics, cancer genetics, and reproductive biology.",
+      "tags": [
+        "epigenetics",
+        "kdm6a",
+        "utx",
+        "transgenerational-inheritance",
+        "tumour-suppressor",
+        "h3k4-methylation",
+        "sperm-epigenome",
+        "cancer-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: X-inactivation escapee regions form chromatin compartments independently of CTCF and cohesin",
+      "is_preprint": true,
+      "run_date": "2026-09-02",
+      "run_iso": "2026-09-02T11:55:47+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-01T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "x-inactivation-escape-domains-ctcf-cohesin-independent-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-01T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "X-inactivation escapee domains are CTCF-cohesin independent chromatin compartments",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.31.748372v1?rss=1"
+        }
+      ],
+      "standfirst": "Using acute degron approaches to deplete CTCF and cohesin, researchers find that genes escaping X-chromosome inactivation maintain their active chromatin domains through a mechanism distinct from cohesin-mediated loop extrusion.",
+      "summary": "A preprint posted to bioRxiv on 1 September 2026 revisits the molecular basis of X-chromosome inactivation escape, challenging a prevalent model in which the architectural proteins CTCF and cohesin are required to maintain the three-dimensional domains that allow certain genes to remain transcriptionally active on the otherwise silenced inactive X chromosome.\n\nThe researchers used acute degradation (degron) technology to rapidly deplete CTCF and the cohesin complex from cells, then assessed the chromatin architecture and transcriptional status of known escape regions. Contrary to the prevailing hypothesis, the escape domains were maintained even in the absence of CTCF and cohesin, indicating that these genomic regions constitute chromatin compartments that are stabilised by a separate mechanism not dependent on cohesin-mediated loop extrusion.\n\nX-inactivation escape is of broad biological interest because the genes involved represent a source of sex-biased gene expression and are implicated in sex differences in disease susceptibility and in the phenotypic consequences of sex chromosome aneuploidy conditions such as Turner syndrome and Klinefelter syndrome. Understanding the structural basis of escape has implications for interpreting why these conditions display variable expressivity.\n\nThis is a preprint that has not yet been peer-reviewed. The work is primarily of interest to researchers in chromosome biology, gene regulation, and sex chromosome biology.",
+      "tags": [
+        "x-chromosome-inactivation",
+        "escape-genes",
+        "ctcf",
+        "cohesin",
+        "chromatin-architecture",
+        "gene-regulation",
+        "sex-chromosomes",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Retinitis pigmentosa is a group of inherited conditions that cause the cells in the retina — the light-sensitive layer at the back of the eye — to break down over time, leading to progressive loss of vision. One common form is caused by faults (mutations) in a gene called RHO, which carries instructions for making a protein called rhodopsin.\n\nResearchers have described a new laboratory approach called SNARE, designed to work across many different RHO faults at once, rather than needing a separate treatment for each one. It uses a type of molecule called an antisense oligonucleotide — a short piece of engineered genetic material — to selectively quieten the faulty copy of the RHO gene while leaving the working copy alone.\n\nIn laboratory models, the approach preserved retinal structure and function. This work is at an early, preclinical stage and has not yet been tested in people. It has also not yet been reviewed by independent scientific experts (it is a preprint).\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint: Allele-specific antisense strategy rescues retinal function across diverse RHO mutations in preclinical models",
+      "is_preprint": true,
+      "run_date": "2026-09-02",
+      "run_iso": "2026-09-02T11:55:47+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-09-01T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "snare-aso-allele-specific-rho-retinitis-pigmentosa-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-01T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A mutation-agnostic and allele-specific ASO strategy demonstrates potent functional rescue and retinal preservation in RHO-linked retinitis pigmentosa",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.08.25.747013v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers describe SNARE, an antisense oligonucleotide approach that selectively silences mutant rhodopsin transcripts regardless of the underlying pathogenic variant, using a common SNP as an allele discriminator.",
+      "summary": "A preprint posted to bioRxiv on 1 September 2026 presents SNARE (SNP-guided Silencing of Aberrant RHO Expression), an antisense oligonucleotide (ASO) strategy designed to treat autosomal dominant retinitis pigmentosa (adRP) caused by mutations in the RHO gene, which encodes rhodopsin.\n\nAutosomal dominant retinitis pigmentosa linked to RHO is characterised by extensive allelic heterogeneity: hundreds of distinct pathogenic variants have been identified, which has historically made mutation-specific gene therapy approaches impractical to scale. SNARE addresses this by targeting a common, benign single-nucleotide polymorphism (SNP) — c.-26A/G — as an allelic discriminator, enabling selective suppression of the mutant RHO transcript irrespective of which downstream pathogenic variant is present.\n\nIn preclinical models, the authors report potent functional rescue and preservation of retinal architecture. The strategy is described as mutation-agnostic and allele-specific, meaning it does not require a patient-specific therapeutic to be developed for each of the many known RHO variants.\n\nThe work is of interest to researchers in inherited retinal disease, gene therapy, and RNA therapeutics, and to genetic counsellors and educators working with families affected by dominant retinal dystrophies. The preprint has not yet undergone peer review, and the approach remains at the preclinical stage.",
+      "tags": [
+        "retinitis-pigmentosa",
+        "rho",
+        "antisense-oligonucleotide",
+        "allele-specific-silencing",
+        "inherited-retinal-disease",
+        "gene-therapy",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Multi-organ single-cell atlas of oak identifies candidate regulator of adventitious root formation",
+      "is_preprint": false,
+      "run_date": "2026-09-02",
+      "run_iso": "2026-09-02T11:55:47+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-09-01T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "plos-genetics-oak-single-cell-atlas-qriaa14-root-development",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-01T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Multi-organ single-cell transcriptomic atlas identifies QrIAA14 as a candidate negative regulator of adventitious root development in Quercus robur",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012300"
+        }
+      ],
+      "standfirst": "A comprehensive single-cell transcriptomic map of leaf, stem, and root tissues in pedunculate oak identifies QrIAA14 as a candidate negative regulator of adventitious root development, with implications for vegetative propagation of woody plants.",
+      "summary": "Researchers have published a multi-organ single-cell transcriptomic atlas of Quercus robur (pedunculate oak) in PLOS Genetics, covering leaf, stem, and root tissues. The study, led by Wenkai Hui, Jiayue Li, and colleagues, represents one of the most detailed cellular-resolution maps of gene expression produced for a temperate woody tree species.\n\nUsing the atlas, the team identified QrIAA14, a gene encoding an auxin-signalling repressor, as a candidate negative regulator of adventitious root development — the process by which roots form from non-root tissue, which is critical for vegetative propagation (clonal multiplication) of oak. Efficient vegetative propagation of oak has long been technically challenging, limiting forestry and conservation efforts.\n\nThe single-cell approach allowed the researchers to resolve cell-type-specific transcriptional programmes that are obscured in bulk tissue sequencing, revealing how cell fate transitions are coordinated across different organs during root development. The authors suggest that QrIAA14 may represent a target for improving rooting efficiency in oak and potentially other recalcitrant woody species.\n\nThe study is published as a peer-reviewed article in PLOS Genetics and is primarily of interest to plant geneticists, forest biologists, and researchers working on developmental genomics in non-model organisms.",
+      "tags": [
+        "single-cell-transcriptomics",
+        "quercus-robur",
+        "oak",
+        "plant-genetics",
+        "auxin-signalling",
+        "root-development",
+        "woody-plants",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-09-01T12:20:41.665653+00:00",
+  "last_run": "2026-09-02T11:58:02.206145+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012214": "2026-08-21T07:40:31.696322+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012260": "2026-08-22T07:28:37.067709+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012266": "2026-08-28T19:15:20.841426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012275": "2026-08-28T19:15:20.841426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012277": "2026-08-26T07:42:59.995912+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012278": "2026-09-02T11:58:02.206145+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012281": "2026-08-26T07:42:59.995912+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012282": "2026-08-25T07:42:28.726686+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012287": "2026-09-01T12:20:41.665653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012288": "2026-08-28T19:15:20.841426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012292": "2026-09-01T12:20:41.665653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012294": "2026-09-01T12:20:41.665653+00:00",
-    "https://news.cancerresearchuk.org/2026/08/18/cancer-waiting-times-latest-updates-and-analysis/": "2026-08-19T07:35:29.728852+00:00",
-    "https://news.cancerresearchuk.org/2026/08/18/how-coaching-can-help-you-become-a-research-leader/": "2026-08-19T07:35:29.728852+00:00",
-    "https://news.cancerresearchuk.org/2026/08/18/making-space-for-coaching/": "2026-08-19T07:35:29.728852+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012298": "2026-09-02T11:58:02.206145+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012300": "2026-09-02T11:58:02.206145+00:00",
     "https://news.cancerresearchuk.org/2026/08/21/can-the-national-cancer-plan-deliver-faster-care-and-better-outcomes/": "2026-08-22T07:28:37.067709+00:00",
     "https://news.cancerresearchuk.org/2026/08/24/new-treatment-helps-patients-with-rectal-cancer-avoid-major-surgery-and-side-effects/": "2026-08-24T07:55:34.522025+00:00",
     "https://news.cancerresearchuk.org/2026/08/25/latest-winner-in-our-research-is-beautiful-competition-6/": "2026-08-26T07:42:59.995912+00:00",
     "https://news.cancerresearchuk.org/2026/08/25/nhs-england-offering-hpv-self-testing-kits-cervical-screening/": "2026-08-25T07:42:28.726686+00:00",
     "https://news.cancerresearchuk.org/2026/08/27/breaking-down-barriers-to-cervical-screening-the-evidence-for-hpv-self-sampling/": "2026-08-27T18:05:44.267320+00:00",
     "https://news.cancerresearchuk.org/2026/08/27/lets-talk-about-hpv-7-common-questions-answered/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.12.744474v1?rss=1": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.13.737497v1?rss=1": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.13.744610v1?rss=1": "2026-08-19T07:35:29.728852+00:00",
+    "https://news.cancerresearchuk.org/2026/09/02/getting-back-into-the-lab-its-not-out-of-reach/": "2026-09-02T11:58:02.206145+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.13.744747v1?rss=1": "2026-08-20T07:39:17.482814+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.14.744045v1?rss=1": "2026-08-20T07:39:17.482814+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.14.744965v1?rss=1": "2026-08-20T07:39:17.482814+00:00",
@@ -19518,6 +19868,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.24.746877v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.24.746882v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.746822v1?rss=1": "2026-08-29T12:58:15.867374+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.25.747013v1?rss=1": "2026-09-02T11:58:02.206145+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.747118v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.747138v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.745805v1?rss=1": "2026-08-31T14:49:39.453780+00:00",
@@ -19528,9 +19879,14 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.27.747555v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.27.747641v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.28.747020v1?rss=1": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.28.747954v1?rss=1": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.29.748046v1?rss=1": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.30.748140v1?rss=1": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.31.748372v1?rss=1": "2026-09-02T11:58:02.206145+00:00",
     "https://www.england.nhs.uk/2026/08/high-street-pharmacies-to-launch-seven-minute-cholesterol-checks/": "2026-08-31T14:49:39.453780+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-rolls-out-discreet-home-testing-kits-against-cervical-cancer-for-millions-of-women/": "2026-08-25T07:42:28.726686+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-kicks-off-flu-jabs-for-children-and-pregnant-women-ahead-of-winter/": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-its-not-just-about-the-model/": "2026-09-02T11:58:02.206145+00:00",
     "https://www.phgfoundation.org/blog/the-european-health-data-space-and-the-uk-where-things-stand-now/": "2026-08-21T07:40:31.696322+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260816044842.htm": "2026-08-20T07:39:17.482814+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260819041220.htm": "2026-08-20T07:39:17.482814+00:00",
@@ -19549,24 +19905,10 @@
     "https://www.sciencedaily.com/releases/2026/08/260828005224.htm": "2026-08-28T19:15:20.841426+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260828005427.htm": "2026-08-29T12:58:15.867374+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260828082330.htm": "2026-08-31T14:49:39.453780+00:00",
+    "https://www.sciencedaily.com/releases/2026/08/260829235950.htm": "2026-09-02T11:58:02.206145+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260830000019.htm": "2026-08-31T14:49:39.453780+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260831015205.htm": "2026-08-31T14:49:39.453780+00:00",
-    "https://www.statnews.com/2026/08/18/amylyx-endocrine-drug-succeeds-in-pivotal-study-avexitide-bariatric-surgery-patients/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/antibiotic-underuse-overuse-resistance-aware/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/biotech-news-real-world-psilocybin-data-suggest-need-for-close-monitoring/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/bon-secours-mercy-revenue-cycle-firm-ensemble-2026-payouts/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/david-baker-genbio-ai-new-virtual-model-unveiled-aido-cell/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/david-morens-guilty-plea-niaid-fauci-adviser/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/dhs-sued-over-visa-time-limit-for-foreign-students/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/enveda-pill-mimics-exercise-phase-one-trial-leptin-weight-loss-maintenance/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/farm-to-table-doritos-ultra-processed-food-ad-campaign-healthwashing/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/health-care-costs-surge-for-cities-counties-generous-model-deadline-for-states/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/health-news-kindergarten-vaccine-exemptions-are-climbing/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/18/heidi-overton-fda-commissioner-nominee-white-house-adviser/": "2026-08-20T07:39:17.482814+00:00",
-    "https://www.statnews.com/2026/08/18/massachusetts-hospital-ceo-compensation-2024/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/mckenna-west-surrogacy-laws-ethics/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/public-sector-employees-health-care-costs-out-of-pocket-series-part-4/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
-    "https://www.statnews.com/2026/08/18/white-house-claims-drug-price-drop-examined-ed-silverman-pharmalot/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/19/ai-chatbots-children-grooming-mental-health/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/2026/08/19/ai-doctor-outperforms-chatgpt-oura-quest-ro-hims-medical-system/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/2026/08/19/ai-prognosis-what-epic-did-and-didnt-say-about-ai-at-its-annual-meeting/": "2026-08-20T07:39:17.482814+00:00",
@@ -19582,10 +19924,8 @@
     "https://www.statnews.com/2026/08/19/health-news-dissecting-chinese-trial-strategy-in-wake-of-deaths/?utm_campaign=rss": "2026-08-21T07:40:31.696322+00:00",
     "https://www.statnews.com/2026/08/19/heidi-overton-fda-commissioner-nominee-competing-interests-ahead/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/2026/08/19/heidi-overton-fda-commissioner-nominee-competing-interests-ahead/?utm_campaign=rss": "2026-08-21T07:40:31.696322+00:00",
-    "https://www.statnews.com/2026/08/19/heidi-overton-fda-commissioner-nominee-white-house-adviser/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/19/huidagene-clinical-trial-deaths-experts-dissect-study-design/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/": "2026-08-20T07:39:17.482814+00:00",
-    "https://www.statnews.com/2026/08/19/physician-group-sues-trump-administration-over-dietary-guidelines-food-pyramid-hhs-usda/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
     "https://www.statnews.com/2026/08/19/public-health-education-accrediting-body-ceph-walks-dei-tightrope/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/2026/08/19/regeneron-fop-garetosmab-fda-approval-pasatru/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/2026/08/19/regeneron-fop-garetosmab-fda-approval-pasatru/?utm_campaign=rss": "2026-08-21T07:40:31.696322+00:00",
@@ -19686,11 +20026,21 @@
     "https://www.statnews.com/2026/08/31/mrna-cancer-vaccine-intersects-politics-medicine/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/2026/08/31/radiopharmaceuticals-dosing-pushing-bounds-cancer-treatment/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/2026/08/31/trump-most-favored-nation-drug-pricing-new-round-price-cuts-announced/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.statnews.com/2026/09/01/ada-members-review-june-expulsion-denies-censoring-opinions-calling-new-orleans-police/": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.statnews.com/2026/09/01/american-diabetes-association-june-conference-independent-review/": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.statnews.com/2026/09/01/biotech-news-novartis-gets-multiple-sclerosis-win-with-btk-inhibitor/": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.statnews.com/2026/09/01/fda-stryker-surgical-cockpit-apple-vr-headset-health-tech/": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.statnews.com/2026/09/01/health-news-paxlovid-did-not-help-long-covid-study-finds/": "2026-09-02T11:58:02.206145+00:00",
     "https://www.statnews.com/2026/09/01/house-spending-bill-vote-grant-rule-trump-mfn-deals-dc-diagnois/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.statnews.com/2026/09/01/lindsay-clancy-trial-verdict-postpartum-psychosis-psychiatry/": "2026-09-02T11:58:02.206145+00:00",
     "https://www.statnews.com/2026/09/01/maha-nutrition-makeover-hampered-dietitian-workforce-crisis/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
     "https://www.statnews.com/2026/09/01/nih-grant-cap-proposal-researcher-feedback/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.statnews.com/2026/09/01/stopgap-spending-bill-contains-reprieve-nih-research-grant-control/": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.statnews.com/2026/09/01/trump-pharma-deals-analysis-latest-round-most-favored-nation-drug-pricing/": "2026-09-02T11:58:02.206145+00:00",
     "https://www.statnews.com/2026/09/01/white-house-science-medicaid-bureaucracy-paperwork/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/18/eyepoint-blindness-treatment-setback-amylyx-avexitide-win/?utm_campaign=rss": "2026-08-19T07:35:29.728852+00:00",
+    "https://www.statnews.com/2026/09/02/dsm-6-eating-disorders-algorithms-social-media-influence-screening/": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.statnews.com/2026/09/02/ig-nobel-prizes-europe-trump-policies/": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.statnews.com/2026/09/02/trump-most-favored-nation-drug-pricing-industry-analysts-skeptical/": "2026-09-02T11:58:02.206145+00:00",
     "https://www.statnews.com/pharmalot/2026/08/19/fda-commissioner-nominee-overton-merck-moderna-cancer-vaccine/": "2026-08-20T07:39:17.482814+00:00",
     "https://www.statnews.com/pharmalot/2026/08/19/fda-commissioner-nominee-overton-merck-moderna-cancer-vaccine/?utm_campaign=rss": "2026-08-21T07:40:31.696322+00:00",
     "https://www.statnews.com/pharmalot/2026/08/20/regeneron-rare-disease-drug-utragenyx-gene-therapy/?utm_campaign=rss": "2026-08-21T07:40:31.696322+00:00",
@@ -19706,7 +20056,8 @@
     "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/pharmalot/2026/08/31/drug-pricing-deals-polycythemia-vera-mimrylo-pharmalittle-newsletter/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/31/pending-drug-patent-applications-amgen-carefirst/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00"
+    "https://www.statnews.com/pharmalot/2026/08/31/pending-drug-patent-applications-amgen-carefirst/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/01/novartis-bristol-trials-paused-pancreatic-cancer-drug-price-pharmalittle-newsletter/": "2026-09-02T11:58:02.206145+00:00"
   },
   "takedowns": []
 }
