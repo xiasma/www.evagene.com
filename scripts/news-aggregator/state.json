@@ -20260,11 +20260,186 @@
         "abiotic-stress",
         "plos-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": "DNA — the molecule that carries genetic instructions in every living cell — uses four chemical 'letters'. Researchers at the University of California San Diego have shown that a cell's machinery for reading DNA can also accurately read a made-up alphabet of eight letters, doubling the natural set. Scientists designed the extra four letters in the laboratory; they do not occur in nature.\n\nThis kind of research, sometimes called synthetic biology, explores whether it is possible to build genetic systems that go beyond what evolution has produced. Potential future uses that researchers discuss include new ways to store information or to engineer living cells with new abilities. These possibilities are at an early, exploratory stage and are not yet clinical applications.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "RNA polymerase shown to read an eight-letter genetic alphabet accurately",
+      "is_preprint": false,
+      "run_date": "2026-09-05",
+      "run_iso": "2026-09-05T11:07:04+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-05T05:25:54+00:00",
+        "novelty": 8
+      },
+      "slug": "eight-letter-dna-alphabet-rna-polymerase-uc-san-diego",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-05T05:25:54+00:00",
+          "publisher": "ScienceDaily",
+          "title": "Life uses 4 DNA letters. Scientists just made 8 work",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260904000310.htm"
+        }
+      ],
+      "standfirst": "Researchers at UC San Diego have used detailed imaging to show that a key cellular enzyme can faithfully transcribe synthetic DNA letters alongside natural ones, advancing work on expanded genetic systems.",
+      "summary": "All life on Earth encodes genetic information using four DNA letters — adenine, thymine, cytosine, and guanine. Researchers at the University of California San Diego have now demonstrated that RNA polymerase, the enzyme responsible for reading DNA and producing RNA, can accurately transcribe a synthetic eight-letter genetic alphabet that doubles this natural set.\n\nPublished findings described in ScienceDaily reporting draw on detailed structural imaging to show that the enzyme handles the four synthetic, unnatural base pairs in ways that are mechanistically similar to its handling of the four canonical letters. The work suggests that the machinery of gene expression does not fundamentally break down when confronted with expanded alphabets, a question that had remained open in the field of synthetic biology.\n\nThe research contributes to an effort, sometimes called hachimoji DNA (from the Japanese for 'eight letters'), to build genetic systems capable of storing more information per unit length or performing biological functions inaccessible to natural nucleic acids. Potential applications discussed in the synthetic-biology literature include novel data-storage materials and engineered organisms with expanded chemical repertoires, though these remain research-stage ambitions.\n\nThe finding is reported via ScienceDaily; the primary research source and journal have not been specified in available feed materials. Readers seeking the peer-reviewed article should search the UC San Diego research communications office for the corresponding publication.",
+      "tags": [
+        "synthetic-biology",
+        "hachimoji-dna",
+        "rna-polymerase",
+        "expanded-genetic-alphabet",
+        "nucleic-acids",
+        "structural-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Experts weigh prospects for Angelman syndrome after Ultragenyx Phase 3 failure",
+      "is_preprint": false,
+      "run_date": "2026-09-05",
+      "run_iso": "2026-09-05T11:07:04+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-09-04T15:34:42+00:00",
+        "novelty": 4
+      },
+      "slug": "angelman-syndrome-ultragenyx-failure-other-therapies",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/AdobeStock_188087817-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-04T15:34:42+00:00",
+          "publisher": "Stat News",
+          "title": "After failure of Angelman syndrome drug, experts see hope in other experimental therapies",
+          "url": "https://www.statnews.com/2026/09/04/angelman-syndrome-drug-ultragenyx-oak-hill-ionis/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Following the failure of Ultragenyx's experimental therapy in a pivotal trial, specialists say other investigational approaches for the rare neurodevelopmental condition remain active.",
+      "summary": "A pivotal Phase 3 clinical trial of an experimental drug for Angelman syndrome, a rare neurodevelopmental disorder caused by loss of function of the maternally inherited UBE3A gene, has returned a negative result. The trial was run by Ultragenyx; the result was reported by Stat News on 4 September 2026, following earlier coverage on 3 September 2026 also carried by Stat News.\n\nAngelman syndrome is characterised by severe intellectual disability, absent or minimal speech, seizures, and movement difficulties. It is caused primarily by deletion or mutation of the maternal copy of UBE3A on chromosome 15; the paternal copy is silenced in neurons by genomic imprinting. Therapeutic strategies under investigation aim either to restore UBE3A protein function or to unsilence the paternal allele.\n\nFollowing the Ultragenyx result, clinical experts quoted by Stat News expressed continued confidence in other experimental approaches in the field, including antisense oligonucleotide programmes and gene-therapy strategies aimed at different mechanistic targets. None of these alternatives has yet reached regulatory approval.\n\nThis cluster combines two Stat News items covering the same trial result from different angles; the 3 September item was previously published as a Genetic Current cluster on 2026-09-03. The 4 September item adds expert commentary on the wider therapeutic landscape. Readers should note that both items are behind a STAT+ paywall; full methodological details of the trial are not available from feed-level content.",
+      "tags": [
+        "angelman-syndrome",
+        "ube3a",
+        "rare-disease",
+        "phase-3-trial",
+        "ultragenyx",
+        "neurodevelopmental-disorders",
+        "clinical-trial-news",
+        "antisense-oligonucleotide"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Large-scale pig study maps a major genetic locus controlling daily feeding rhythms",
+      "is_preprint": true,
+      "run_date": "2026-09-05",
+      "run_iso": "2026-09-05T11:07:04+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-09-04T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "pig-circadian-feeding-qtl-chromosome-4-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-04T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A large-effect locus on chromosome 4 underlies circadian feeding rhythmicity in pigs",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.01.748529v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Swiss agricultural genomics researchers identifies a large-effect quantitative trait locus on chromosome 4 that influences the regularity of circadian feeding patterns in two commercial pig breeds.",
+      "summary": "Researchers analysing feed intake data from more than 18,000 Swiss Landrace and Swiss Large White pigs have identified a large-effect quantitative trait locus (QTL) on chromosome 4 that is associated with circadian feeding rhythmicity — the degree to which an animal distributes its daily food intake according to a regular 24-hour pattern.\n\nThe preprint, posted to bioRxiv on 4 September 2026, used approximately 40.5 million records collected from automated feeding systems. Hourly intake data were subjected to wavelet analysis to quantify the proportion of days on which individual animals showed a statistically significant feeding rhythm. This measure of rhythmicity was then used as the trait for genome-wide mapping.\n\nThe chromosome 4 locus explained a substantial portion of phenotypic variance in feeding rhythm regularity. Circadian feeding patterns are of interest in livestock research because regular feeding–fasting cycles are associated with metabolic regulation, feed-conversion efficiency, and animal welfare indicators.\n\nThis is a preprint and has not yet been peer-reviewed. Results should be regarded as preliminary pending independent review and publication. Readers interested in the primary data should consult the bioRxiv posting directly.",
+      "tags": [
+        "quantitative-trait-locus",
+        "circadian-rhythm",
+        "livestock-genetics",
+        "pig-genomics",
+        "feed-intake",
+        "animal-models",
+        "wavelet-analysis",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint traces wolf range expansion and dynamic admixture zones across Central Europe",
+      "is_preprint": true,
+      "run_date": "2026-09-05",
+      "run_iso": "2026-09-05T11:07:04+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-09-04T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "wolf-range-expansion-admixture-central-europe-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-04T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Wolf microevolution in the melting pot: range expansion, population sympatry, dynamic mosaic admixture zone and asymmetric gene flow",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.02.748779v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint drawing on five years of large-scale monitoring in the Czech Republic and Slovakia describes substantial range shifts, novel sympatric zones, and asymmetric gene flow between historically distinct wolf populations.",
+      "summary": "A preprint posted to bioRxiv on 4 September 2026 presents a population genomics analysis of grey wolves across Central Europe, based on sampling conducted through large-scale monitoring programmes over five wolf years spanning 2020/21 to 2024/25, with comparative material from wider European populations.\n\nThe study documents considerable range shifts of historically differentiated wolf populations and the formation of novel sympatric zones — areas where previously geographically separated populations now overlap — in the Czech Republic and Slovakia. Using population genetic methods, the authors characterise a dynamic mosaic admixture zone and describe asymmetric gene flow between populations, meaning that genetic material moves more readily in one direction than the other between the interacting groups.\n\nThe work frames Central Europe as a natural laboratory for testing alternative scenarios of population interaction, from continued isolation through restricted gene flow to progressive population fusion. The findings are relevant to conservation genetics, as wolf population management in Europe increasingly requires an understanding of connectivity and hybridisation dynamics.\n\nThe research is a preprint and has not been peer-reviewed. Findings should be treated as preliminary. The authors used sampling from national wildlife monitoring programmes, providing unusually dense temporal and geographic coverage for a large carnivore study.",
+      "tags": [
+        "population-genetics",
+        "wolf-genomics",
+        "conservation-genetics",
+        "admixture",
+        "range-expansion",
+        "gene-flow",
+        "large-carnivore-ecology",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-09-04T11:59:07.339510+00:00",
+  "last_run": "2026-09-05T11:08:34.649960+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012260": "2026-08-22T07:28:37.067709+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012266": "2026-08-28T19:15:20.841426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012275": "2026-08-28T19:15:20.841426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012277": "2026-08-26T07:42:59.995912+00:00",
@@ -20280,7 +20455,6 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012295": "2026-09-04T11:59:07.339510+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012298": "2026-09-02T11:58:02.206145+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012300": "2026-09-02T11:58:02.206145+00:00",
-    "https://news.cancerresearchuk.org/2026/08/21/can-the-national-cancer-plan-deliver-faster-care-and-better-outcomes/": "2026-08-22T07:28:37.067709+00:00",
     "https://news.cancerresearchuk.org/2026/08/24/new-treatment-helps-patients-with-rectal-cancer-avoid-major-surgery-and-side-effects/": "2026-08-24T07:55:34.522025+00:00",
     "https://news.cancerresearchuk.org/2026/08/25/latest-winner-in-our-research-is-beautiful-competition-6/": "2026-08-26T07:42:59.995912+00:00",
     "https://news.cancerresearchuk.org/2026/08/25/nhs-england-offering-hpv-self-testing-kits-cervical-screening/": "2026-08-25T07:42:28.726686+00:00",
@@ -20330,13 +20504,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.08.31.748193v1?rss=1": "2026-09-04T11:59:07.339510+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.31.748265v1?rss=1": "2026-09-04T11:59:07.339510+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.31.748372v1?rss=1": "2026-09-02T11:58:02.206145+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.08.31.748413v1?rss=1": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.01.748529v1?rss=1": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.02.748779v1?rss=1": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.02.748885v1?rss=1": "2026-09-05T11:08:34.649960+00:00",
     "https://www.england.nhs.uk/2026/08/high-street-pharmacies-to-launch-seven-minute-cholesterol-checks/": "2026-08-31T14:49:39.453780+00:00",
     "https://www.england.nhs.uk/2026/08/nhs-rolls-out-discreet-home-testing-kits-against-cervical-cancer-for-millions-of-women/": "2026-08-25T07:42:28.726686+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-delivers-almost-a-quarter-of-a-million-menb-jabs-to-young-people-ahead-of-university-year/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-kicks-off-flu-jabs-for-children-and-pregnant-women-ahead-of-winter/": "2026-09-01T12:20:41.665653+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-its-not-just-about-the-model/": "2026-09-02T11:58:02.206145+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260820002439.htm": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260821012208.htm": "2026-08-22T07:28:37.067709+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260822015217.htm": "2026-08-24T07:55:34.522025+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260823014943.htm": "2026-08-24T07:55:34.522025+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260823094135.htm": "2026-08-26T07:42:59.995912+00:00",
@@ -20353,12 +20529,10 @@
     "https://www.sciencedaily.com/releases/2026/08/260830000019.htm": "2026-08-31T14:49:39.453780+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260831015205.htm": "2026-08-31T14:49:39.453780+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260901010717.htm": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.statnews.com/2026/08/21/biotech-news-are-cancer-patients-us-getting-too-much-drug/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.statnews.com/2026/08/21/focal-therapy-prostate-cancer-still-experimental-or-viable-alternative/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.statnews.com/2026/08/21/health-news-scientists-deploy-merck-ebola-vaccine-in-drc/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.statnews.com/2026/08/21/hiv-cure-survivors-harm-benefits-research-ryan-white-hiv-aids-program/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.statnews.com/2026/08/21/lil-nas-xs-bipolar-diagnosis-treatment-medication-achievement/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.statnews.com/2026/08/21/rfi-reveals-possible-kennedy-strategy-vaccine-policy-changes/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260901070526.htm": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260902234508.htm": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260902234512.htm": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260904000310.htm": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/08/24/biotech-news-lady-gaga-and-her-fiance-launch-biotech-startup/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
     "https://www.statnews.com/2026/08/24/doctors-hand-shakes-patients-research/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
     "https://www.statnews.com/2026/08/24/fda-pauses-regenxbio-gene-therapy-trial-hunter-syndrome-safety-concerns/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
@@ -20459,22 +20633,36 @@
     "https://www.statnews.com/2026/09/02/why-transfyr-tackles-dumb-problems-intersection-bio-ai-prognosis/": "2026-09-03T11:56:07.043021+00:00",
     "https://www.statnews.com/2026/09/03/abivax-acquisition-target-replimune-fda/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/anthony-fauci-vaccine-skeptics-book-trump-drug-pricing-deals-medicaid/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/03/anthony-fauci-vaccine-skeptics-book-trump-drug-pricing-deals-medicaid/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/03/biotech-news-seattle-scientists-launch-95-million-ai-biology-effort/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/03/biotech-news-seattle-scientists-launch-95-million-ai-biology-effort/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/03/doula-turned-ob-gyn-birth-plan-disappointment-urgency/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/drug-overdose-deaths-down-sharply-commonwealth-fund-study/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/health-news-hhs-flip-flops-on-disability-lawsuit-community-integration/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/03/health-news-hhs-flip-flops-on-disability-lawsuit-community-integration/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/03/ionis-fda-approval-zanvastro-alexander-disease/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/03/ionis-fda-approval-zanvastro-alexander-disease/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/03/openevidence-launches-new-ai-models-clinicians-health-tech/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/03/openevidence-launches-new-ai-models-clinicians-health-tech/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/03/recipients-of-gene-edited-pig-kidneys-receive-human-organs/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/03/recipients-of-gene-edited-pig-kidneys-receive-human-organs/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/03/stem-cell-clinics-fda-cber-warning-letters-marketing/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/tactical-athlete-health-risks-new-cardiovascular-guidelines-police-firefighters/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/03/tactical-athlete-health-risks-new-cardiovascular-guidelines-police-firefighters/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/vaccine-hesitant-parents-how-pediatrician-builds-trust/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/04/angelman-syndrome-drug-ultragenyx-oak-hill-ionis/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.statnews.com/2026/09/04/biotech-news-fda-takes-another-look-at-botanical-drugs/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/04/clozapine-children-schizophrenia-neutrophil-fda-monitoring/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/04/clozapine-children-schizophrenia-neutrophil-fda-monitoring/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.statnews.com/2026/09/04/health-news-disabled-workers-at-greater-risk-of-losing-insurance/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/04/lindsay-clancy-health-care-silos-postpartum-care-failures/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/04/lindsay-clancy-health-care-silos-postpartum-care-failures/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.statnews.com/2026/09/04/mass-general-brigham-medicare-advantage-network-cancer-treatment-dana-farber/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/04/pennsylvania-measles-deaths-data-cdc-director-rfk-jr/": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/21/roche-genentech-investment-estrogen-patch-shortages/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/21/up-down-ladder-latest-comings-goings-jobs-2/?utm_campaign=rss": "2026-08-22T07:28:37.067709+00:00",
+    "https://www.statnews.com/2026/09/04/pennsylvania-measles-deaths-data-cdc-director-rfk-jr/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.statnews.com/2026/09/05/md-vs-do-surrogacy-ai-medicine-stat-letters-to-editor/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/pharmalot/2026/08/24/state-medicaid-obesity-drugs-regenxbio-gene-therapy/?utm_campaign=rss": "2026-08-25T07:42:28.726686+00:00",
     "https://www.statnews.com/pharmalot/2026/08/25/rfk-vaccine-disclosure-merck-court-loss-over-medicare/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
     "https://www.statnews.com/pharmalot/2026/08/25/turkish-authorities-probe-teva-gaming-patent-system-disparaging-rivals/?utm_campaign=rss": "2026-08-26T07:42:59.995912+00:00",
@@ -20488,7 +20676,9 @@
     "https://www.statnews.com/pharmalot/2026/08/31/pending-drug-patent-applications-amgen-carefirst/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
     "https://www.statnews.com/pharmalot/2026/09/01/novartis-bristol-trials-paused-pancreatic-cancer-drug-price-pharmalittle-newsletter/": "2026-09-02T11:58:02.206145+00:00",
     "https://www.statnews.com/pharmalot/2026/09/02/uniqure-huntingtons-fda-novo-nordisk-investors-pharmalittle-newsletter/": "2026-09-03T11:56:07.043021+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/03/pharmalittle-ultrangenyx-gene-therapy-failure-rev-med-lung-cancer/": "2026-09-04T11:59:07.339510+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/03/pharmalittle-ultrangenyx-gene-therapy-failure-rev-med-lung-cancer/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/03/pharmalittle-ultrangenyx-gene-therapy-failure-rev-med-lung-cancer/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/04/pharmalittle-bristol-car-t-trial-pause-pfizer-offloads-shelved-candidate/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00"
   },
   "takedowns": []
 }
