@@ -20663,21 +20663,21 @@
     {
       "audiences": [
         "researchers",
+        "oncologists",
         "genetic-counsellors",
         "educators",
-        "students",
-        "patients"
+        "students"
       ],
-      "for_patients": "UniQure, a biotechnology company, is expected to share four years' worth of results from a clinical trial of its experimental gene therapy for Huntington's disease before the end of September 2026. The therapy, called AMT-130, is designed to reduce the amount of a harmful protein produced by the faulty gene that causes Huntington's disease. It is delivered once, directly into the brain, using a modified virus. Four-year follow-up data are considered important because they can show whether any early benefit is maintained over time and whether there are longer-term safety concerns. UniQure has already applied to the US Food and Drug Administration for permission to market the therapy — these new results may form part of that assessment. No results have been published yet; this article reports that they are expected soon. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
-      "headline": "UniQure's Huntington's gene therapy trial four-year results expected before end of September",
+      "for_patients": null,
+      "headline": "UniQure's Huntington's gene therapy four-year trial results expected imminently",
       "is_preprint": false,
-      "run_date": "2026-09-10",
-      "run_iso": "2026-09-10T12:01:41+00:00",
+      "run_date": "2026-09-11",
+      "run_iso": "2026-09-11T12:00:49Z",
       "scores": {
-        "audience_breadth": 6,
-        "importance": 8,
-        "newest_iso": "2026-09-10T10:30:00+00:00",
-        "novelty": 7
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-10T10:30:00Z",
+        "novelty": 5
       },
       "slug": "uniqure-huntingtons-gene-therapy-four-year-readout",
       "sources": [
@@ -20687,14 +20687,14 @@
           "image_url": "https://www.statnews.com/wp-content/uploads/2020/12/AP_464867626358-1024x576.jpg",
           "is_preprint": false,
           "is_primary": true,
-          "published_iso": "2026-09-10T10:30:00+00:00",
-          "publisher": "STAT News",
+          "published_iso": "2026-09-10T10:30:00Z",
+          "publisher": "Stat News",
           "title": "STAT+: What to expect from UniQure's upcoming Huntington's gene therapy readout",
-          "url": "https://www.statnews.com/2026/09/10/uniqure-huntingtons-gene-therapy-trial-readout/"
+          "url": "https://www.statnews.com/2026/09/10/uniquere-huntingtons-gene-therapy-trial-readout/"
         }
       ],
-      "standfirst": "STAT News reports that UniQure is expected to release four-year efficacy and safety data from its AMT-130 gene therapy trial for Huntington's disease before the end of September 2026.",
-      "summary": "UniQure is expected to publish four-year follow-up results from its closely tracked phase 1/2 clinical trial of AMT-130, an AAV-delivered gene therapy for Huntington's disease, before the end of September 2026, according to STAT News reporting.\n\nAMT-130 uses an RNA interference mechanism delivered via adeno-associated virus to reduce expression of mutant huntingtin (HTT) protein in the striatum. The trial has been a focus of the rare-disease gene therapy field given the limited treatment options for Huntington's disease and the precedent that a positive readout would set for allele-selective neurological gene therapies.\n\nThis item is significant in the context of an existing recent cluster: Genetic Current reported on 3 September 2026 that UniQure submitted AMT-130 to the FDA for regulatory review. The upcoming four-year clinical data readout is therefore distinct from, and materially relevant to, that regulatory submission — the data package will bear directly on how the FDA evaluates the filing. Researchers, neurologists, genetic counsellors, and the rare-disease patient community are likely to follow this readout closely.\n\nNote: the STAT News article is behind a paywall; this summary is based on the publicly accessible lede and the editorial team's knowledge of the publicly reported trial context. The full data have not yet been released.",
+      "standfirst": "Stat News outlines what researchers and clinicians should expect from the forthcoming phase 1/2 readout of UniQure's AMT-130 gene therapy for Huntington's disease.",
+      "summary": "Stat News reports that UniQure is expected to release four-year data from its closely watched phase 1/2 clinical trial of AMT-130, an AAV-delivered gene therapy for Huntington's disease, before the end of September 2026. The report provides context on what observers regard as meaningful signals at this stage of follow-up.\n\nAMT-130 uses an AAV5 vector to deliver a microRNA designed to reduce expression of the huntingtin (HTT) protein. Earlier readouts at one and two years showed reductions in cerebrospinal fluid neurofilament light chain (NfL), a marker of neuronal damage, and some signals in clinical rating scales, though the trial was not powered for definitive efficacy conclusions at those timepoints.\n\nThe four-year data are considered particularly significant because Huntington's disease progression is slow and earlier timepoints offer limited resolution on whether functional decline has been altered. Analysts and patient advocacy groups have highlighted this readout as one of the most consequential near-term milestones in the rare neurological disease pipeline. UniQure previously submitted AMT-130 to the FDA for regulatory review, a development reported in Genetic Current on 3 September 2026.\n\nNo results have been published. This item covers anticipated reporting only.",
       "tags": [
         "huntingtons-disease",
         "htt",
@@ -20702,7 +20702,8 @@
         "aav",
         "clinical-trial-news",
         "rare-disease",
-        "neurodegeneration"
+        "neurodegeneration",
+        "uniqure"
       ]
     },
     {
@@ -21054,9 +21055,189 @@
         "molecular-genetics",
         "plos-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "A new study has found that some chemotherapy medicines used to treat childhood cancers — called platinum-based drugs, including cisplatin and carboplatin — can leave lasting marks on the cells of the liver. These marks make the liver cells of treated children look more like those of adults, which researchers say could mean the cells have aged more quickly than usual. Scientists think this might be one reason why some childhood cancer survivors have a slightly higher chance of developing a new cancer later in life.\n\nThis is an early-stage finding that helps explain something scientists already suspected from looking at large groups of survivors over time. It does not mean that current treatments will stop, as these medicines save many lives. Researchers hope the discovery will eventually help doctors keep a better eye on people who had this type of chemotherapy as children.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Platinum-based chemotherapy in childhood causes mutations that age liver cells",
+      "is_preprint": false,
+      "run_date": "2026-09-11",
+      "run_iso": "2026-09-11T12:00:49Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-09-10T18:00:00Z",
+        "novelty": 8
+      },
+      "slug": "platinum-chemo-childhood-liver-mutation-ageing",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/AP20318535258793-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-10T18:00:00Z",
+          "publisher": "Stat News",
+          "title": "Platinum-based chemotherapy in childhood causes mutations that age the liver",
+          "url": "https://www.statnews.com/2026/09/10/childhood-chemotherapy-cisplatin-carboplatin-new-study-liver-impact/"
+        }
+      ],
+      "standfirst": "A study finds that cisplatin and carboplatin leave mutational signatures in children's livers that accelerate cellular ageing and may raise long-term cancer risk.",
+      "summary": "Research published in late 2026 and reported by Stat News describes how platinum-based chemotherapy agents — cisplatin and carboplatin — leave persistent mutational signatures in the liver cells of children who receive them, causing those cells to take on characteristics more typical of adult liver tissue. The finding suggests that exposure to these drugs during childhood accelerates a form of hepatic cellular ageing.\n\nThe investigators found that treated children's liver cells more closely resembled adult cells in terms of their mutational and transcriptional profiles, a shift that may increase the long-term risk of secondary liver tumours. The study adds to a growing body of evidence examining the late effects of paediatric cancer treatment, which has become more pressing as survival rates for childhood cancers have improved significantly over recent decades.\n\nThe work does not overturn current treatment protocols, which rely on platinum compounds for a range of paediatric solid tumours and haematological malignancies. Rather, it characterises a biological mechanism underlying previously observed epidemiological signals of increased secondary cancer risk in childhood cancer survivors. Researchers say the findings may inform future monitoring strategies for this population, though any changes to clinical surveillance would depend on guidance from relevant professional bodies and regulatory authorities.",
+      "tags": [
+        "platinum-chemotherapy",
+        "paediatric-oncology",
+        "liver-mutagenesis",
+        "late-effects",
+        "cancer-survivorship",
+        "somatic-mutation",
+        "childhood-cancer"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: underestimating causal variants may explain why sequence-to-function models underperform",
+      "is_preprint": true,
+      "run_date": "2026-09-11",
+      "run_iso": "2026-09-11T12:00:49Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-11T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "causal-variant-underestimation-s2f-model-underperformance",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-11T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Causal variant underestimation is a major overlooked driver of sequence-to-function model underperformance",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750172v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint argues that systematic underestimation of causal variant sets — not model architecture — is the primary reason deep-learning sequence-to-function models fail to rank individual gene expression from whole-genome sequences.",
+      "summary": "A preprint posted to bioRxiv from Cold Spring Harbor Laboratory (not yet peer-reviewed) proposes that a long-standing puzzle in regulatory genomics — why deep-learning sequence-to-function (S2F) models classify putatively causal eQTL single-nucleotide variants (SNVs) reasonably well but dramatically underperform simple linear baselines when asked to rank individuals' gene expression levels from their whole-genome sequences — has a methodological rather than architectural cause.\n\nThe authors argue that causal variant underestimation is the dominant overlooked driver: benchmark sets used to assess S2F models systematically exclude many true causal variants, so the models are evaluated against an incomplete reference. When the ground-truth variant set is sparse or biased, models that correctly weight a broader set of variants appear to perform poorly against a metric tuned to a narrow target.\n\nThe finding has implications for how the field evaluates and iterates on S2F models, which are widely used in functional fine-mapping of GWAS loci — the process of identifying which specific variant within an associated genomic region is most likely to be biologically causal. If the authors' analysis is confirmed, improvements to variant curation and benchmark construction may yield larger gains than further architectural innovation.\n\nAs a preprint, this work has not been peer-reviewed and findings should be interpreted with appropriate caution.",
+      "tags": [
+        "sequence-to-function-models",
+        "eqtl",
+        "fine-mapping",
+        "deep-learning",
+        "gwas",
+        "computational-genomics",
+        "variant-interpretation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: human accelerated region HACNS1 drives opposing developmental timing shifts in face and limb",
+      "is_preprint": true,
+      "run_date": "2026-09-11",
+      "run_iso": "2026-09-11T12:00:49Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-10T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "hacns1-har-heterochrony-craniofacial-limb-development",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A Human Accelerated Region Drives Opposing Heterochronic Changes in Craniofacial and Limb Development",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750211v1?rss=1"
+        }
+      ],
+      "standfirst": "A genetically humanised mouse study finds that the human accelerated region HACNS1 speeds up craniofacial development while slowing limb development, implicating regulatory enhancers in the evolution of human-specific developmental timing.",
+      "summary": "A preprint posted to bioRxiv (not yet peer-reviewed) uses a genetically humanised mouse model carrying the human sequence of HACNS1 — one of the most conserved human accelerated regions (HARs), a class of genomic loci that are highly conserved across vertebrates but show a burst of substitutions on the human lineage — to investigate its role in developmental timing, a phenomenon known as heterochrony.\n\nUsing single-nucleus RNA sequencing and developmental trajectory analyses, the authors find that HACNS1 drives opposing heterochronic shifts: it accelerates development in craniofacial tissues whilst slowing it in limb tissues. HACNS1 encodes a transcriptional enhancer with human-specific activity, and this work suggests that regulatory sequence changes at this locus contributed to the reshaping of developmental schedules that distinguish humans from other primates.\n\nThe study is notable for linking a specific non-coding regulatory element to bidirectional changes in developmental timing across distinct tissue types — an unusual result that challenges simple models in which HARs exert uniform effects on human-specific traits. The findings contribute to ongoing research into the evolutionary origins of human craniofacial and limb anatomy.\n\nAs a preprint, this work has not yet been peer-reviewed.",
+      "tags": [
+        "human-accelerated-regions",
+        "hacns1",
+        "heterochrony",
+        "craniofacial-development",
+        "limb-development",
+        "evo-devo",
+        "transcriptional-enhancer",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint maps opposing transcriptional programmes in SCN8A gain- and loss-of-function epilepsy",
+      "is_preprint": true,
+      "run_date": "2026-09-11",
+      "run_iso": "2026-09-11T12:00:49Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-10T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "scn8a-gain-loss-of-function-transcriptional-programs-epilepsy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cis-Attenuation of Pathogenic Scn8a Variant Causing Childhood Epilepsy Reveals Opposing Transcriptional Programs Driving NaV1.6 Gain and Loss of Function Phenotypes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750173v1?rss=1"
+        }
+      ],
+      "standfirst": "An isogenic mouse allelic series resolves the distinct hippocampal gene-expression programmes driven by gain-of-function versus loss-of-function variants in SCN8A, a gene associated with severe childhood epilepsy.",
+      "summary": "A preprint posted to bioRxiv (not yet peer-reviewed) addresses a long-standing problem in SCN8A-related epilepsy research: pathogenic variants in SCN8A — which encodes the voltage-gated sodium channel NaV1.6 — cause disease through either gain-of-function (GoF) or loss-of-function (LoF) mechanisms, yet the downstream cellular and transcriptional consequences of each direction have been difficult to disentangle because they typically involve different genetic backgrounds.\n\nThe authors constructed an isogenic Scn8a allelic series in mice in which a cis-acting modifier produces stepwise reductions in NaV1.6 protein levels on the same N1768D pathogenic background, allowing GoF, rescued, and LoF states to be compared on a shared genetic context. Hippocampal transcriptomes were profiled and pathway-level inference applied. The study finds that GoF and LoF states are associated with distinct, opposing transcriptional programmes — a result that could inform future stratification of patients for therapeutic approaches, given that treatments appropriate for one functional class may be contraindicated in the other.\n\nSCN8A variants are a recognised cause of DEE (developmental and epileptic encephalopathy), a group of severe childhood epilepsies. The mechanistic distinction between GoF and LoF is clinically meaningful because sodium channel blockers may worsen LoF epilepsies while benefiting GoF epilepsies, and vice versa.\n\nAs a preprint, this work has not been peer-reviewed.",
+      "tags": [
+        "scn8a",
+        "nav1-6",
+        "childhood-epilepsy",
+        "gain-of-function",
+        "loss-of-function",
+        "transcriptomics",
+        "rare-disease",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-09-10T12:04:38.007932+00:00",
+  "last_run": "2026-09-11T12:02:29.887638+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012126": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012266": "2026-08-28T19:15:20.841426+00:00",
@@ -21077,18 +21258,12 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012300": "2026-09-02T11:58:02.206145+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012301": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012303": "2026-09-10T12:04:38.007932+00:00",
-    "https://news.cancerresearchuk.org/2026/08/27/breaking-down-barriers-to-cervical-screening-the-evidence-for-hpv-self-sampling/": "2026-08-27T18:05:44.267320+00:00",
-    "https://news.cancerresearchuk.org/2026/08/27/lets-talk-about-hpv-7-common-questions-answered/": "2026-08-27T18:05:44.267320+00:00",
     "https://news.cancerresearchuk.org/2026/09/02/getting-back-into-the-lab-its-not-out-of-reach/": "2026-09-02T11:58:02.206145+00:00",
     "https://news.cancerresearchuk.org/2026/09/03/balancing-tried-and-tested-against-future-innovation-a-strategy-for-boosting-earlier-cancer-diagnosis/": "2026-09-03T11:56:07.043021+00:00",
     "https://news.cancerresearchuk.org/2026/09/08/2025-26-in-review-cancer-research-uk-drives-major-progress-against-cancer/": "2026-09-08T11:58:32.729719+00:00",
     "https://news.cancerresearchuk.org/2026/09/08/how-northern-ireland-can-save-almost-6000-lives-from-cancer/": "2026-09-10T12:04:38.007932+00:00",
     "https://news.cancerresearchuk.org/2026/09/09/from-ai-to-the-death-of-the-default-what-cancer-science-will-look-like-in-2036/": "2026-09-10T12:04:38.007932+00:00",
     "https://news.cancerresearchuk.org/2026/09/09/link-between-hot-drinks-and-type-of-oesophageal-cancer-in-the-uk/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.22.746371v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.22.746446v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.23.746539v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.23.746561v1?rss=1": "2026-08-27T18:05:44.267320+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.24.746577v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.24.746877v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.24.746882v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
@@ -21124,15 +21299,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.03.749262v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749444v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749500v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.08.749845v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.08.750172v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.08.750173v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.08.750211v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
     "https://www.england.nhs.uk/2026/08/high-street-pharmacies-to-launch-seven-minute-cholesterol-checks/": "2026-08-31T14:49:39.453780+00:00",
     "https://www.england.nhs.uk/2026/09/busiest-summer-ever-for-nhs-but-aes-see-record-numbers-within-four-hours/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-delivers-almost-a-quarter-of-a-million-menb-jabs-to-young-people-ahead-of-university-year/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-kicks-off-flu-jabs-for-children-and-pregnant-women-ahead-of-winter/": "2026-09-01T12:20:41.665653+00:00",
     "https://www.england.nhs.uk/2026/09/patients-to-get-quicker-treatment-for-migraines-acne-and-3-other-everyday-conditions-at-pharmacies/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-its-not-just-about-the-model/": "2026-09-02T11:58:02.206145+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260823094151.htm": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260827010455.htm": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260827010516.htm": "2026-08-27T18:05:44.267320+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260828005216.htm": "2026-08-28T19:15:20.841426+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260828005224.htm": "2026-08-28T19:15:20.841426+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260828005427.htm": "2026-08-29T12:58:15.867374+00:00",
@@ -21150,15 +21326,8 @@
     "https://www.sciencedaily.com/releases/2026/09/260904000330.htm": "2026-09-07T13:15:46.420318+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201554.htm": "2026-09-10T12:04:38.007932+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201609.htm": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/08/26/biotech-insitro-ceo-daphne-koller-speeding-up-clinical-trials-ai-prognosis/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/26/biotech-news-key-data-on-new-class-of-cardio-drugs-coming/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/26/cac-scans-statin-use-prevent-calculator-heart-disease-risk/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/26/health-news-even-at-big-companies-health-care-costs-increasing/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/26/kennedy-vaccine-comments-reaction-josh-shapiro-jerome-adams/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/26/pancreatic-cancer-drug-rasonque-approved/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.statnews.com/2026/08/27/alnylam-amvuttra-nucresiran-heart-drugs-esc/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/bill-cassidy-louisiana-senator-new-report-mifepristone-heidi-overton/": "2026-08-28T19:15:20.841426+00:00",
-    "https://www.statnews.com/2026/08/27/binsa-biotech-china-eurowashing-geography-clinical-trials/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech/": "2026-08-28T19:15:20.841426+00:00",
@@ -21169,14 +21338,10 @@
     "https://www.statnews.com/2026/08/27/health-news-decoding-dea-action-on-kratom-related-substance/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/2026/08/27/hospitals-lobby-medicaid-cuts-rasonque-approved-dc-diagnosis/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/hospitals-lobby-medicaid-cuts-rasonque-approved-dc-diagnosis/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/hospitals-lobby-reverse-medicaid-cuts-part-2-unraveled-series/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.statnews.com/2026/08/27/kennedy-samoa-trip-mmr-vaccine-new-documents/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/kennedy-samoa-trip-mmr-vaccine-new-documents/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/menopause-perimenopause-symptoms-reddit-clinical-data-study/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/27/moderna-merck-cancer-vaccine-secret-ingredient-an-algorithm/": "2026-08-27T18:05:44.267320+00:00",
-    "https://www.statnews.com/2026/08/27/opioid-settlement-funds-enforcement-or-treatment-louisiana-sheriff-investigation/": "2026-08-27T18:05:44.267320+00:00",
     "https://www.statnews.com/2026/08/28/astrazeneca-ionis-wainua-eplontersen-attr-cm-study-failure-bridgebio-alnylam/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/28/astrazeneca-ionis-wainua-eplontersen-attr-cm-study-failure-bridgebio-alnylam/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/2026/08/28/biotech-news-astrazeneca-ionis-detail-surprise-failure-of-heart-disease-drug/": "2026-08-28T19:15:20.841426+00:00",
@@ -21282,13 +21447,24 @@
     "https://www.statnews.com/2026/09/09/health-news-telemedicine-company-offers-glp-1s-for-addiction/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/2026/09/09/kura-oncology-spins-off-diabetes-focused-caspian-therapeutics/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/2026/09/09/scribe-emergency-room-fix-health-care-ai-prognosis/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/09/uk-unveils-recommendations-ai-regulation-medicine/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/10/2026-midterms-health-care-issues-analyzed-vaccine-policy/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/10/john-fetterman-post-stroke-behavior-experts-see-neurological-changes/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/10/roivant-biotech-dealmaking-mosliciguat-origins/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series/": "2026-09-10T12:04:38.007932+00:00",
+    "https://www.statnews.com/2026/09/09/uk-unveils-recommendations-ai-regulation-medicine/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/2026-midterms-health-care-issues-analyzed-vaccine-policy/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/ai-rural-health-hospitals-chris-klomp-nicole-saphier-senate-hearings/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/biotech-news-fda-expands-bayer-lung-cancer-drug-approval/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/childhood-chemotherapy-cisplatin-carboplatin-new-study-liver-impact/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/john-fetterman-post-stroke-behavior-experts-see-neurological-changes/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/readout-loud-podcast-heart-disease-drugs-failed-trials/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/roivant-biotech-dealmaking-mosliciguat-origins/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/trump-affordable-care-act-refund-checks-who-is-eligible/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/uniquere-huntingtons-gene-therapy-trial-readout/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/uniqure-huntingtons-gene-therapy-trial-readout/": "2026-09-10T12:04:38.007932+00:00",
+    "https://www.statnews.com/2026/09/11/fda-new-ekg-heart-attack-detection-algo-queen-of-hearts/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/11/health-news-boycott-launched-against-ada-includes-journal/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/11/pro-vaccine-advocacy-celebration-party/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/pharmalot/2026/08/27/pancreatic-cancer-drug-approved-trump-deal-with-biotechs/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/pharmalot/2026/08/27/pancreatic-cancer-drug-approved-trump-deal-with-biotechs/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest/": "2026-08-28T19:15:20.841426+00:00",
@@ -21303,7 +21479,10 @@
     "https://www.statnews.com/pharmalot/2026/09/03/pharmalittle-ultrangenyx-gene-therapy-failure-rev-med-lung-cancer/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/pharmalot/2026/09/04/pharmalittle-bristol-car-t-trial-pause-pfizer-offloads-shelved-candidate/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/pharmalot/2026/09/08/fda-warns-api-supplier-residue-corroded-production-line-sandals/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/09/astrazeneca-copd-win-fda-filling-key-jobs/": "2026-09-10T12:04:38.007932+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/09/astrazeneca-copd-win-fda-filling-key-jobs/": "2026-09-10T12:04:38.007932+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/10/cancer-medicines-remain-in-short-supply-across-the-united-states/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/10/many-doctors-still-embrace-pharma-freebies-rely-on-sales-reps/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/": "2026-09-11T12:02:29.887638+00:00"
   },
   "takedowns": []
 }
