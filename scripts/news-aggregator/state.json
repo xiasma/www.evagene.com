@@ -21235,19 +21235,414 @@
         "rare-disease",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists studying bats have found that these animals, which can live for several decades despite their small size, carry unusual genetic features in their DNA. Two broad patterns stand out: their immune systems appear especially powerful at fighting infections, and their bodies seem particularly good at getting rid of old or damaged cells before those cells cause problems. Researchers think understanding how bats do this might one day help scientists learn more about how ageing and some diseases work in other animals, including humans. This research is at an early, exploratory stage — the scientists are comparing bat genes to understand the biology of a long life, not developing a treatment. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Bat genomes reveal dual strategy of immune vigour and cellular clearance behind unusual longevity",
+      "is_preprint": false,
+      "run_date": "2026-09-12",
+      "run_iso": "2026-09-12T11:27:53Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-09-12T00:25:05Z",
+        "novelty": 7
+      },
+      "slug": "bat-longevity-immune-senescence-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-12T00:25:05Z",
+          "publisher": "ScienceDaily",
+          "title": "The secret to longer life may be hidden in bat DNA",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260911003852.htm"
+        }
+      ],
+      "standfirst": "A study of long-lived bat species describes genetic adaptations combining enhanced immune defences with efficient removal of damaged cells, offering a comparative model for ageing research.",
+      "summary": "Researchers studying long-lived bat species have identified a combination of genetic features that may underpin their exceptional lifespans — in some cases exceeding 40 years for animals of their body size. The work, reported via ScienceDaily on 12 September 2026, describes two broad categories of adaptation: unusually robust innate and adaptive immune responses, and heightened capacity to clear senescent or damaged cells before they accumulate and drive inflammation.\n\nThe findings are based on comparative genomic and transcriptomic analyses across multiple bat lineages, with particular attention to genes involved in DNA-damage response, autophagy, and interferon signalling. Bats are already noted for tolerating viral infections that are lethal to other mammals; the new analysis suggests the same immune architecture may limit oncogenic and age-related cellular stress.\n\nResearchers caution that bat biology cannot be directly translated to human interventions — the evolutionary pressures on bats, including flight-associated metabolic intensity, differ substantially from those on primates. The study is described as a framework for identifying candidate pathways that might be investigated further in model organisms. No clinical implications are proposed by the authors.",
+      "tags": [
+        "bat-genomics",
+        "longevity",
+        "ageing",
+        "senescence",
+        "comparative-genomics",
+        "immune-evolution",
+        "cancer-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Scientists directly observe how two DNA strands align groove-for-groove via metal-ion bridging",
+      "is_preprint": false,
+      "run_date": "2026-09-12",
+      "run_iso": "2026-09-12T11:27:53Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-10T14:33:06Z",
+        "novelty": 8
+      },
+      "slug": "dna-duplex-pairing-metal-ions-zipper-observed",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-10T14:33:06Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists capture two DNA strands zipping together for the first time",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909231717.htm"
+        }
+      ],
+      "standfirst": "High-resolution imaging has captured the pairing of two negatively charged DNA helices for the first time, confirming a two-decade-old theory about how metal ions mediate DNA–DNA attraction.",
+      "summary": "Researchers have directly imaged two DNA double helices coming together — an event long proposed but never before visualised at this resolution. Reported by ScienceDaily on 10 September 2026, the study shows that positively charged metal ions act as bridges between the two negatively charged molecules, allowing them to align groove-for-groove in a zipper-like arrangement despite electrostatic repulsion that would ordinarily keep them apart.\n\nThe observation confirms a theoretical model put forward approximately 20 years ago. The experimental approach used to capture the interaction is not specified in the available reporting, but the finding is described as resolving a longstanding debate in the structural biology of nucleic acids.\n\nThe authors note that DNA–DNA pairing of this type is relevant to understanding how chromosomes align during recombination and how certain nuclear processes involved in genome stability operate. They also suggest the mechanism may have implications for understanding chromosomal rearrangements observed in cancer, though the reporting does not identify specific cancer types or clinical contexts. The study is presented as a structural and mechanistic advance.",
+      "tags": [
+        "structural-biology",
+        "dna-pairing",
+        "nucleic-acids",
+        "metal-ions",
+        "genome-stability",
+        "chromosome-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists at UCLA in the United States have found a way to make cancer-fighting immune cells — called T cells — from blood collected from umbilical cords at birth. These specially engineered cells are designed to spot tumours in two different ways, making it harder for cancer cells to hide. In experiments in mice with solid tumours, a single treatment with these cells helped control the cancer and helped the animals live longer. The approach also avoided a serious side effect called graft-versus-host disease, where donor immune cells can mistakenly attack the patient's own body. This research is at an early laboratory stage and has not yet been tested in people. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UCLA team engineers cord-blood-derived T cells with dual tumour-detection systems to target solid cancers",
+      "is_preprint": false,
+      "run_date": "2026-09-12",
+      "run_iso": "2026-09-12T11:27:53Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-09-11T01:08:27Z",
+        "novelty": 7
+      },
+      "slug": "ucla-cord-blood-t-cells-solid-tumour-mice",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-11T01:08:27Z",
+          "publisher": "ScienceDaily",
+          "title": "UCLA scientists turn cord blood into powerful cancer-fighting T cells",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909231723.htm"
+        }
+      ],
+      "standfirst": "Researchers at UCLA report that off-the-shelf T cells made from cord blood stem cells controlled solid tumour growth in mice through two independent recognition mechanisms, while avoiding a key complication of donor-derived cell therapies.",
+      "summary": "Researchers at the University of California, Los Angeles have developed a method for generating ready-made cancer-fighting T cells from cord blood haematopoietic stem cells, according to reporting published by ScienceDaily on 11 September 2026. The engineered cells are designed with two separate tumour-detection systems, an approach intended to reduce the risk of cancer cells escaping immune recognition by losing a single surface marker.\n\nIn mouse models of solid tumours, a single dose of the cord-blood-derived T cells was reported to control tumour growth and extend survival. Importantly, the approach was described as avoiding graft-versus-host disease — a dangerous complication that can arise when donor-derived T cells attack the recipient's healthy tissues. Cord blood is an established source for allogeneic cell therapies because its immune cells are comparatively immature and less likely to trigger this response.\n\nThe work is at a preclinical stage. The specific tumour types tested, the precise engineering strategy, and the institution's research group are not detailed in the available summary reporting. No human trial data are presented. The finding is relevant to the broader field of allogeneic CAR T-cell therapy, where manufacturing scalability and the challenge of solid tumour targeting remain active areas of research.",
+      "tags": [
+        "car-t-cell-therapy",
+        "cord-blood",
+        "solid-tumours",
+        "allogeneic-therapy",
+        "cancer-immunotherapy",
+        "preclinical-research",
+        "cell-therapy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "The US medicines regulator (the FDA) has approved a new drug called Isembyld for people with spinal muscular atrophy (SMA). SMA is a genetic condition that weakens muscles because of a fault in a gene called SMN1. Existing treatments mainly work by boosting a related gene called SMN2 to help produce more of a missing protein. Isembyld works differently — it targets a protein called myostatin that limits muscle growth, so it tackles the muscle-wasting part of SMA directly. In a clinical trial, patients who took Isembyld alongside an existing SMA medicine showed improved ability to move after one year. This approval is specific to the United States. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Scholar Rock wins FDA approval for Isembyld, the first drug targeting muscle loss in spinal muscular atrophy",
+      "is_preprint": false,
+      "run_date": "2026-09-12",
+      "run_iso": "2026-09-12T11:27:53Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-09-11T23:30:21Z",
+        "novelty": 9
+      },
+      "slug": "scholar-rock-isembyld-sma-fda-approval",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/05/AdobeStock_406860486-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-11T23:30:21Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Scholar Rock wins FDA approval for first drug to target SMA muscle loss",
+          "url": "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/"
+        }
+      ],
+      "standfirst": "The FDA has approved Scholar Rock's Isembyld for spinal muscular atrophy, the first therapy to address the muscle-wasting component of the disease when combined with an SMN2-targeting agent.",
+      "summary": "The US Food and Drug Administration has approved Isembyld (apitegromab), developed by Scholar Rock, for use in patients with spinal muscular atrophy (SMA). Reported by Stat News on 11 September 2026, the approval marks the first time a drug targeting skeletal muscle loss — rather than the underlying SMN protein deficit — has been cleared for SMA.\n\nIsembyld is a selective inhibitor of myostatin, a protein that limits muscle growth. In SMA, loss of the SMN protein causes motor neuron degeneration and consequent muscle wasting; approved SMN2-targeting agents address the neurological deficit but do not directly reverse the muscle component of the disease. The pivotal trial combined Isembyld with an SMN2-targeting drug and found that patients' motor function scores improved over one year.\n\nSMA is caused by homozygous deletion or mutation of the SMN1 gene; its severity ranges from early-onset, fatal forms to milder adult presentations. The approval adds a complementary mechanism to an already transformed treatment landscape that includes nusinersen, onasemnogene abeparvovec, and risdiplam. Details of the approved indication — including patient age range, SMA type, and required co-administration conditions — are not fully specified in the available reporting. Genetic counsellors and paediatric neurologists managing SMA patients should consult the full prescribing information.",
+      "tags": [
+        "spinal-muscular-atrophy",
+        "smn1",
+        "myostatin",
+        "fda-approval",
+        "rare-disease",
+        "neuromuscular",
+        "regulatory-news",
+        "cell-therapy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Platinum-based chemotherapy in childhood causes somatic mutations that accelerate liver cell ageing",
+      "is_preprint": false,
+      "run_date": "2026-09-12",
+      "run_iso": "2026-09-12T11:27:53Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-10T18:00:00Z",
+        "novelty": 3
+      },
+      "slug": "platinum-chemo-childhood-liver-mutations-ageing",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/AP20318535258793-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-10T18:00:00Z",
+          "publisher": "Stat News",
+          "title": "Platinum-based chemotherapy in childhood causes mutations that age the liver",
+          "url": "https://www.statnews.com/2026/09/10/childhood-chemotherapy-cisplatin-carboplatin-new-study-liver-impact/"
+        }
+      ],
+      "standfirst": "A new study finds that cisplatin and carboplatin treatment in children produces patterns of somatic mutation in liver cells that resemble those found in adult livers, raising questions about long-term cancer risk in survivors.",
+      "summary": "A study published on 10 September 2026 and reported by Stat News describes findings that platinum-based chemotherapy agents — cisplatin and carboplatin, widely used in paediatric oncology — leave a distinctive somatic mutational signature in the liver cells of treated children. The mutation pattern makes treated children's liver cells resemble those of much older adults, a form of accelerated biological ageing at the cellular level.\n\nThe authors suggest this age-like mutational landscape may be associated with elevated long-term risk of secondary liver tumours in cancer survivors, though the reporting does not detail precise risk estimates or follow-up periods. The work adds to a growing literature on the late effects of childhood cancer treatment, characterising the molecular footprint of platinum compounds in a solid organ rather than in haematological cells where such signatures have been more extensively studied.\n\nThe study is relevant to paediatric oncologists, genetic counsellors supporting cancer survivors, and researchers working on treatment-related mutagenesis. It does not propose changes to clinical protocols. This item was also noted as a brief in Stat News's Readout digest (13 September); the primary research article and its authoring institution are not fully identified in the available reporting.",
+      "tags": [
+        "platinum-chemotherapy",
+        "paediatric-oncology",
+        "somatic-mutation",
+        "liver-mutagenesis",
+        "late-effects",
+        "cancer-survivorship",
+        "childhood-cancer"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Drosophila expressing AD-associated APOE4 variants show progressive behavioural and cognitive decline",
+      "is_preprint": true,
+      "run_date": "2026-09-12",
+      "run_iso": "2026-09-12T11:27:53Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-09-12T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "apoe4-drosophila-behavioural-cognitive-decline-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Progressive behavioral and cognitive decline in Drosophila harboring AD-associated APOE4 variants",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750261v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that fruit flies engineered to carry human APOE4 variants display worsening behavioural and cognitive phenotypes over time, offering a genetically tractable model for dissecting APOE4's role in Alzheimer's disease.",
+      "summary": "A preprint posted to bioRxiv on 12 September 2026 describes the development and characterisation of a Drosophila melanogaster model carrying human APOE4 variants associated with Alzheimer's disease (AD). The authors report that flies expressing APOE4 showed progressive declines in behavioural and cognitive readouts compared with controls, providing phenotypic parallels to features of human AD.\n\nAPOE4 is the strongest and most common genetic risk factor for late-onset AD, present in approximately 75 per cent of AD patients according to the preprint's introduction, though APOE4 is neither necessary nor sufficient for disease. The authors note that because additional genetic and environmental factors modulate APOE4's effects, a tractable in vivo model that isolates APOE4 variant contributions would be valuable for pathway dissection and candidate therapeutic screening.\n\nDrosophila models cannot recapitulate the full complexity of human neurodegeneration, and the specific APOE4 variants introduced, the behavioural assays used, and the research group responsible are not detailed in the available lede. As a preprint, this work has not yet undergone peer review. The study is primarily relevant to basic researchers working on AD genetics and model organisms, and to educators covering neurogenetics.",
+      "tags": [
+        "apoe",
+        "apoe4",
+        "alzheimers-disease",
+        "drosophila",
+        "neurodegeneration",
+        "animal-models",
+        "neurogenetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Anopheles gambiae VGSC knockouts reveal haplosufficiency with implications for insecticide resistance and genetic control",
+      "is_preprint": true,
+      "run_date": "2026-09-12",
+      "run_iso": "2026-09-12T11:27:53Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-11T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "vgsc-anopheles-insecticide-resistance-haplosufficiency-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-11T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Functional disruption of vgsc reveals haplosufficiency with implications for insecticide resistance and genetic control in Anopheles gambiae",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750417v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes the first functional disruption of the voltage-gated sodium channel gene in the malaria mosquito Anopheles gambiae, finding that a single functional copy is sufficient for normal biology and exploring the gene's potential as a genetic control target.",
+      "summary": "A preprint posted to bioRxiv on 11 September 2026 reports the first systematic functional disruption of the voltage-gated sodium channel gene (vgsc) in Anopheles gambiae, the primary mosquito vector of malaria. Pyrethroid insecticides — the active ingredient on insecticide-treated bednets, a cornerstone of malaria control — kill mosquitoes by targeting VGSC. Resistance mutations at the pyrethroid binding site (L995F/S) have spread widely across sub-Saharan Africa, but tools to functionally interrogate the gene itself have lagged behind population surveillance data.\n\nThe authors generated vgsc knockouts and report that the gene exhibits haplosufficiency — meaning one functional copy is sufficient to maintain normal mosquito physiology. This finding has implications both for understanding how resistance mutations spread (heterozygous resistance alleles may be phenotypically tolerated) and for evaluating vgsc as a candidate target for genetic control approaches such as gene drive.\n\nThe work provides a functional resource for the vector biology and insecticide-resistance research communities. As a preprint, it has not yet been peer-reviewed. Findings are not directly applicable to clinical or public health policy without further validation.",
+      "tags": [
+        "anopheles-gambiae",
+        "insecticide-resistance",
+        "vgsc",
+        "malaria-vector",
+        "gene-drive",
+        "functional-genomics",
+        "vector-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Loss of XPD helicase activity traps DNA repair complex TFIIH in a futile cycle, causing severe Cockayne syndrome features",
+      "is_preprint": true,
+      "run_date": "2026-09-12",
+      "run_iso": "2026-09-12T11:27:53Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-11T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "tfiih-xpd-helicase-deficient-cockayne-syndrome-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-11T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Helicase-deficient TFIIH causes severe disease features via persistent DNA excision without damage removal",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.05.749592v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint shows that specific XPD mutations associated with Cockayne syndrome — rather than the milder xeroderma pigmentosum — prevent proper damage removal by locking the nucleotide excision repair machinery in persistent, misdirected DNA incision.",
+      "summary": "A preprint deposited to bioRxiv on 11 September 2026 addresses a longstanding puzzle in DNA repair biology: why certain mutations in XPD, a helicase subunit of the ten-component TFIIH complex, cause severe Cockayne syndrome (CS) features — including progressive neurodegeneration — whilst most XPD mutations cause the comparatively milder condition xeroderma pigmentosum.\n\nNucleotide excision repair (NER) removes helix-distorting DNA lesions. TFIIH's XPB and XPD subunits unwind DNA to allow damage verification and subsequent endonucleolytic incision. The authors report that when XPD helicase activity is abolished by CS-associated mutations, TFIIH becomes trapped in a futile repair cycle: DNA is incised at incorrect positions, generating persistent DNA strand breaks without actually removing the damage. This toxic intermediate, rather than failed repair per se, is proposed to underlie the severe neurological phenotype.\n\nThe mechanistic model has potential implications for understanding other NER-related disorders and may inform thinking about therapeutic strategies for Cockayne syndrome, though the preprint does not propose clinical interventions. The work has not yet been peer-reviewed. It is primarily relevant to researchers in DNA repair, rare disease, and neurogenetics.",
+      "tags": [
+        "cockayne-syndrome",
+        "xpd",
+        "tfiih",
+        "nucleotide-excision-repair",
+        "dna-repair",
+        "rare-disease",
+        "neurodegeneration",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study finds sexual-mode speciation in Shewanella baltica driven by stratified Baltic Sea sediment habitats",
+      "is_preprint": false,
+      "run_date": "2026-09-12",
+      "run_iso": "2026-09-12T11:27:53Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-09-11T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "shewanella-baltica-sexual-speciation-sediments-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-11T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Life in sediments fosters 'sexual' speciation in the Shewanella baltica complex",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012306"
+        }
+      ],
+      "standfirst": "Genomic analysis of 112 Shewanella baltica strains from Baltic Sea sediment cores reveals that fine-scale spatial structure in the habitat promotes recombination-driven speciation patterns more reminiscent of sexual than clonal evolution.",
+      "summary": "A study published on 11 September 2026 in PLOS Genetics by Víctor Fernández-Juárez, Francisco Salvà-Serra, Guillem Seguí, Alberto J. Martín-Rodríguez and colleagues investigates how bacterial species boundaries form and are maintained in the stratified sediment environment of the Baltic Sea.\n\nThe researchers analysed 112 genome sequences from Shewanella baltica strains collected across multiple sediment cores and depths (0–6 cm) at Vaxön, Sweden. Their genomic analysis of this species complex — a group of closely related but distinct lineages co-occurring at fine spatial scales — found patterns of intraspecific and interspecific differentiation consistent with recombination-driven, or 'sexual', speciation rather than the strictly clonal mode traditionally associated with bacteria.\n\nThe findings contribute to understanding how microbial diversity is generated and maintained in physically structured environments, with implications for models of bacterial evolution and ecology. Shewanella baltica is not a human pathogen; the study's significance is primarily for evolutionary microbiology, microbial ecology, and educators covering concepts of speciation and bacterial population genetics.",
+      "tags": [
+        "bacterial-evolution",
+        "speciation",
+        "shewanella",
+        "microbial-genomics",
+        "recombination",
+        "population-genetics",
+        "plos-genetics",
+        "marine-microbiology"
+      ]
     }
   ],
-  "last_run": "2026-09-11T12:02:29.887638+00:00",
+  "last_run": "2026-09-12T11:30:23.901718+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012126": "2026-09-10T12:04:38.007932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012266": "2026-08-28T19:15:20.841426+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012275": "2026-08-28T19:15:20.841426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012278": "2026-09-02T11:58:02.206145+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012279": "2026-09-03T11:56:07.043021+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012285": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012286": "2026-09-03T11:56:07.043021+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012287": "2026-09-01T12:20:41.665653+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012288": "2026-08-28T19:15:20.841426+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012289": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012292": "2026-09-01T12:20:41.665653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012293": "2026-09-10T12:04:38.007932+00:00",
@@ -21258,22 +21653,17 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012300": "2026-09-02T11:58:02.206145+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012301": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012303": "2026-09-10T12:04:38.007932+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012306": "2026-09-12T11:30:23.901718+00:00",
     "https://news.cancerresearchuk.org/2026/09/02/getting-back-into-the-lab-its-not-out-of-reach/": "2026-09-02T11:58:02.206145+00:00",
     "https://news.cancerresearchuk.org/2026/09/03/balancing-tried-and-tested-against-future-innovation-a-strategy-for-boosting-earlier-cancer-diagnosis/": "2026-09-03T11:56:07.043021+00:00",
     "https://news.cancerresearchuk.org/2026/09/08/2025-26-in-review-cancer-research-uk-drives-major-progress-against-cancer/": "2026-09-08T11:58:32.729719+00:00",
     "https://news.cancerresearchuk.org/2026/09/08/how-northern-ireland-can-save-almost-6000-lives-from-cancer/": "2026-09-10T12:04:38.007932+00:00",
     "https://news.cancerresearchuk.org/2026/09/09/from-ai-to-the-death-of-the-default-what-cancer-science-will-look-like-in-2036/": "2026-09-10T12:04:38.007932+00:00",
     "https://news.cancerresearchuk.org/2026/09/09/link-between-hot-drinks-and-type-of-oesophageal-cancer-in-the-uk/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.24.746577v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.24.746877v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.24.746882v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.746822v1?rss=1": "2026-08-29T12:58:15.867374+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.747013v1?rss=1": "2026-09-02T11:58:02.206145+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.25.747118v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.747138v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.745805v1?rss=1": "2026-08-31T14:49:39.453780+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.26.746823v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.26.747289v1?rss=1": "2026-08-28T19:15:20.841426+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.747358v1?rss=1": "2026-09-01T12:20:41.665653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.747408v1?rss=1": "2026-09-01T12:20:41.665653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.27.747555v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
@@ -21299,18 +21689,20 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.03.749262v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749444v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749500v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.05.749590v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.05.749592v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.749845v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.750172v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.750173v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.750211v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.08.750261v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.09.750417v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.england.nhs.uk/2026/08/high-street-pharmacies-to-launch-seven-minute-cholesterol-checks/": "2026-08-31T14:49:39.453780+00:00",
     "https://www.england.nhs.uk/2026/09/busiest-summer-ever-for-nhs-but-aes-see-record-numbers-within-four-hours/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-delivers-almost-a-quarter-of-a-million-menb-jabs-to-young-people-ahead-of-university-year/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-kicks-off-flu-jabs-for-children-and-pregnant-women-ahead-of-winter/": "2026-09-01T12:20:41.665653+00:00",
     "https://www.england.nhs.uk/2026/09/patients-to-get-quicker-treatment-for-migraines-acne-and-3-other-everyday-conditions-at-pharmacies/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-its-not-just-about-the-model/": "2026-09-02T11:58:02.206145+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260828005216.htm": "2026-08-28T19:15:20.841426+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260828005224.htm": "2026-08-28T19:15:20.841426+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260828005427.htm": "2026-08-29T12:58:15.867374+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260828082330.htm": "2026-08-31T14:49:39.453780+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260829235950.htm": "2026-09-02T11:58:02.206145+00:00",
@@ -21326,38 +21718,24 @@
     "https://www.sciencedaily.com/releases/2026/09/260904000330.htm": "2026-09-07T13:15:46.420318+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201554.htm": "2026-09-10T12:04:38.007932+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201609.htm": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/08/27/alnylam-amvuttra-nucresiran-heart-drugs-esc/": "2026-08-28T19:15:20.841426+00:00",
-    "https://www.statnews.com/2026/08/27/bill-cassidy-louisiana-senator-new-report-mifepristone-heidi-overton/": "2026-08-28T19:15:20.841426+00:00",
-    "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260909231717.htm": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260909231723.htm": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260911003852.htm": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/fda-approves-roivant-therapy-for-rare-autoimmune-disease/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/fda-approves-roivant-therapy-for-rare-autoimmune-disease/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/health-news-decoding-dea-action-on-kratom-related-substance/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/health-news-decoding-dea-action-on-kratom-related-substance/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/hospitals-lobby-medicaid-cuts-rasonque-approved-dc-diagnosis/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/hospitals-lobby-medicaid-cuts-rasonque-approved-dc-diagnosis/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/kennedy-samoa-trip-mmr-vaccine-new-documents/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/kennedy-samoa-trip-mmr-vaccine-new-documents/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/astrazeneca-ionis-wainua-eplontersen-attr-cm-study-failure-bridgebio-alnylam/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/28/astrazeneca-ionis-wainua-eplontersen-attr-cm-study-failure-bridgebio-alnylam/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/biotech-news-astrazeneca-ionis-detail-surprise-failure-of-heart-disease-drug/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/28/biotech-news-astrazeneca-ionis-detail-surprise-failure-of-heart-disease-drug/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/cdc-protest-resignations-one-year-later-houry-jernigan-daskalakis/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/28/cdc-protest-resignations-one-year-later-houry-jernigan-daskalakis/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/cytokinetics-myqorzo-aficamten-nhcm-acacia-trial-success/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/28/cytokinetics-myqorzo-aficamten-nhcm-acacia-trial-success/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/health-news-federal-autism-adcomm-doubles-down-on-debunked-theory/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/28/health-news-federal-autism-adcomm-doubles-down-on-debunked-theory/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/2026/08/28/juul-fda-clearance-updated-ecigarette-age-gating-technology/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/lindsay-clancy-postpartum-psychosis-reproductive-psychiatrists-liability/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/28/lindsay-clancy-postpartum-psychosis-reproductive-psychiatrists-liability/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/medicare-g2211-code-billing-research-primary-care/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/28/medicare-g2211-code-billing-research-primary-care/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/vaccines-autism-advisory-committee-strategic-plan-boost-research-funding/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/2026/08/28/vaccines-autism-advisory-committee-strategic-plan-boost-research-funding/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/2026/08/29/novartis-pacibekitug-inflammation-il6-tourmaline-heart-disease/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/2026/08/30/alnylam-attr-astrazeneca-wainua-attruby-heart-disease/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
@@ -21449,27 +21827,29 @@
     "https://www.statnews.com/2026/09/09/scribe-emergency-room-fix-health-care-ai-prognosis/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/2026/09/09/uk-unveils-recommendations-ai-regulation-medicine/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/2026-midterms-health-care-issues-analyzed-vaccine-policy/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/10/ai-rural-health-hospitals-chris-klomp-nicole-saphier-senate-hearings/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/10/biotech-news-fda-expands-bayer-lung-cancer-drug-approval/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/10/childhood-chemotherapy-cisplatin-carboplatin-new-study-liver-impact/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/ai-rural-health-hospitals-chris-klomp-nicole-saphier-senate-hearings/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/10/biotech-news-fda-expands-bayer-lung-cancer-drug-approval/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/10/childhood-chemotherapy-cisplatin-carboplatin-new-study-liver-impact/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/john-fetterman-post-stroke-behavior-experts-see-neurological-changes/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/10/readout-loud-podcast-heart-disease-drugs-failed-trials/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/readout-loud-podcast-heart-disease-drugs-failed-trials/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/10/roivant-biotech-dealmaking-mosliciguat-origins/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/10/trump-affordable-care-act-refund-checks-who-is-eligible/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/10/trump-affordable-care-act-refund-checks-who-is-eligible/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/10/uniquere-huntingtons-gene-therapy-trial-readout/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/uniqure-huntingtons-gene-therapy-trial-readout/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/11/fda-new-ekg-heart-attack-detection-algo-queen-of-hearts/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/11/health-news-boycott-launched-against-ada-includes-journal/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/11/pro-vaccine-advocacy-celebration-party/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/27/pancreatic-cancer-drug-approved-trump-deal-with-biotechs/": "2026-08-28T19:15:20.841426+00:00",
+    "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/fda-new-ekg-heart-attack-detection-algo-queen-of-hearts/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/health-news-boycott-launched-against-ada-includes-journal/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/medicaid-work-requirements-new-tier-system-define-medical-frailty/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/pro-vaccine-advocacy-celebration-party/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/pharmalot/2026/08/27/pancreatic-cancer-drug-approved-trump-deal-with-biotechs/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/": "2026-08-28T19:15:20.841426+00:00",
     "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
     "https://www.statnews.com/pharmalot/2026/08/31/drug-pricing-deals-polycythemia-vera-mimrylo-pharmalittle-newsletter/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/pharmalot/2026/08/31/pending-drug-patent-applications-amgen-carefirst/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
@@ -21481,8 +21861,11 @@
     "https://www.statnews.com/pharmalot/2026/09/08/fda-warns-api-supplier-residue-corroded-production-line-sandals/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/09/astrazeneca-copd-win-fda-filling-key-jobs/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/cancer-medicines-remain-in-short-supply-across-the-united-states/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/10/many-doctors-still-embrace-pharma-freebies-rely-on-sales-reps/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/": "2026-09-11T12:02:29.887638+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/10/many-doctors-still-embrace-pharma-freebies-rely-on-sales-reps/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/11/pharma-wins-cost-of-wastewater-treatment-fight-europe/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/": "2026-09-12T11:30:23.901718+00:00"
   },
   "takedowns": []
 }
