@@ -21633,9 +21633,274 @@
         "plos-genetics",
         "marine-microbiology"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers have posted a new study — not yet reviewed by independent experts — describing a natural genetic 'modifier' found in mice that carry a faulty version of a gene called SCN8A. Faults in SCN8A can cause a severe form of childhood epilepsy in people. In this mouse study, the modifier appeared to reduce the severity of the disease, turning what is usually a fatal condition into a range of milder outcomes. The finding is important because it helps scientists understand how much they can safely turn down the activity of this gene as a treatment — too little activity appears to be just as harmful as too much. The research is at an early, laboratory stage and does not directly change anything for families affected by SCN8A epilepsy right now. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "De novo cis modifier rescues severe SCN8A epilepsy and defines a therapeutic safety corridor",
+      "is_preprint": true,
+      "run_date": "2026-09-13",
+      "run_iso": "2026-09-13T12:31:44Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-09-13T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "scn8a-de-novo-modifier-epilepsy-therapeutic-window",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-13T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A De Novo, Intragenic Modifier in Cis Rescues Scn8a-N1768D Epilepsy and Defines a Therapeutic Window Bounded by Gain- and Loss-of-Function",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.750161v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from a congenic mouse study identifies an intragenic suppressor variant that converts a lethal SCN8A gain-of-function phenotype into graded outcomes, illuminating the narrow window for NaV1.6-targeted therapies.",
+      "summary": "A preprint posted to bioRxiv describes the characterisation of a naturally arising, cis-acting intragenic modifier in mice carrying the Scn8a-N1768D variant — a gain-of-function mutation in the gene encoding the voltage-gated sodium channel NaV1.6 that, in humans, causes developmental and epileptic encephalopathy (DEE) with early-onset, drug-resistant seizures.\n\nWorking with a congenic C3H/HeJ.C57BL/6J colony, the authors identified a tightly linked modifier locus (designated L) that arose de novo and segregates independently of the N1768D allele. In N1768D homozygotes carrying L on a 98.4% C3H background, three phenotypic classes emerge: short-lived mice, intermediate survivors, and apparently rescued animals — compared with near-uniform lethality in modifier-absent homozygotes. The modifier acts in cis, meaning it must reside on the same chromosomal copy as N1768D to exert its effect.\n\nThe findings carry direct implications for the design of SCN8A therapies. Because both excess and deficit of NaV1.6 are harmful — the authors describe SCN8A as a 'Goldilocks gene' — any therapeutic strategy that reduces channel activity must be calibrated carefully. The modifier study provides in vivo evidence that partial reduction of a gain-of-function allele can shift outcomes across a spectrum from lethality to apparent rescue, but that overshooting into loss-of-function territory remains dangerous.\n\nThis work is a preprint and has not yet undergone peer review. The research was conducted in mouse models; applicability to human SCN8A-DEE awaits further investigation. A related peer-reviewed preprint mapping opposing transcriptional programmes in SCN8A gain- and loss-of-function epilepsy was noted in Genetic Current on 11 September 2026.",
+      "tags": [
+        "scn8a",
+        "nav1-6",
+        "childhood-epilepsy",
+        "gain-of-function",
+        "intragenic-modifier",
+        "rare-disease",
+        "therapeutic-window",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint maps transcription factor binding site changes underlying human-specific traits",
+      "is_preprint": true,
+      "run_date": "2026-09-13",
+      "run_iso": "2026-09-13T12:31:44Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-12T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "human-specific-tfbs-gains-losses-phenotypes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Identifying human-specific transcription factor binding site gains and losses that contribute to human-specific phenotypes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.06.747930v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers have predicted gains and losses at over 16,000 human-specific high-frequency variant sites and integrated the results with cis-regulatory element annotations to identify candidates shaping distinctly human phenotypes.",
+      "summary": "A preprint posted to bioRxiv reports a large-scale computational analysis of transcription factor binding site (TFBS) gains and losses associated with human-specific genetic variants — changes that distinguish modern humans from Neanderthals, Denisovans, and great apes.\n\nThe authors analysed 16,883 human-specific high-frequency variants, predicting which alter binding affinity for known transcription factors. These predictions were then integrated with experimentally annotated cis-regulatory elements (cCREs) to prioritise variants most likely to affect gene expression in biologically meaningful contexts. The study sits within the broader field of human evolutionary genomics, where identifying the functional consequences of the non-coding variants that distinguish our species has remained a central and largely unsolved challenge.\n\nBy focusing specifically on TFBS gains and losses rather than protein-coding changes, the analysis targets a category of variant that can have large regulatory effects but is difficult to interpret through standard coding-sequence approaches. The preprint does not claim to have identified definitive causal variants for any specific human trait, but proposes a ranked set of candidates for experimental follow-up.\n\nThis work is a preprint and has not yet undergone peer review. The methods draw on comparative genomic resources including Neanderthal and Denisovan reference sequences as well as modern great-ape genomes.",
+      "tags": [
+        "human-accelerated-variants",
+        "transcription-factor-binding",
+        "cis-regulatory-elements",
+        "evolutionary-genomics",
+        "neanderthal",
+        "comparative-genomics",
+        "non-coding-variation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Large-scale RNA-seq analysis identifies over 3,000 recursive splice sites in human introns",
+      "is_preprint": true,
+      "run_date": "2026-09-13",
+      "run_iso": "2026-09-13T12:31:44Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-12T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "recursive-splicing-human-introns-large-scale-rna-seq",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Large-scale analysis of transcript data reveals thousands of recursive splicing events in human introns",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.10.750672v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces a new detection method and finds recursive splicing — a stepwise intron-removal process — to be far more widespread in human genes than previously appreciated, with implications for transcriptome complexity.",
+      "summary": "A preprint posted to bioRxiv presents a new computational approach for detecting recursive splice sites (RSSs) and applies it to a large total RNA-sequencing dataset from human brain tissue, identifying 3,022 RSSs distributed across 2,775 introns in 2,407 genes.\n\nRecursive splicing (RS) is a process in which a long intron is excised from a pre-messenger RNA in two or more sequential steps rather than in a single reaction. It was first characterised in Drosophila and has been documented in mammals, but its full prevalence in the human transcriptome has been difficult to assess because standard RNA-seq pipelines are not optimised to detect it.\n\nThe authors developed a detection strategy based on aligning RNA-seq reads to short, customised target sequences designed to capture RS intermediates, using parameters calibrated to achieve a very low false-discovery rate. Applying this to brain expression data, they found that 96% of detected RSSs — some 2,891 sites — appeared in their analysis, suggesting the phenomenon is a routine feature of transcription across thousands of human genes rather than an exceptional case.\n\nThe findings have potential relevance to understanding splicing regulation, disease-causing splicing variants, and the interpretation of long-intron genes. The preprint does not report disease associations but notes that many affected genes are highly expressed in the brain. This work has not yet undergone peer review.",
+      "tags": [
+        "rna-splicing",
+        "recursive-splicing",
+        "human-transcriptome",
+        "rna-seq",
+        "intron-biology",
+        "splicing-regulation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Endogenous retrovirus K111 traces structural diversification of human acrocentric chromosomes across great-ape evolution",
+      "is_preprint": true,
+      "run_date": "2026-09-13",
+      "run_iso": "2026-09-13T12:31:44Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-09-12T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "endogenous-retrovirus-k111-acrocentric-chromosome-diversity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Human-specific remodeling of an endogenous retrovirus shapes structural diversity at acrocentric nucleolar organizer regions",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.11.751073v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint uses the embedded retroviral sequence K111 as a genomic marker to reveal how the nucleolar organiser regions on human acrocentric chromosomes have expanded and diversified relative to other great apes.",
+      "summary": "A preprint posted to bioRxiv reports the use of K111 — an endogenous retrovirus embedded within the short arms of human acrocentric chromosomes — as a sequence marker to track how nucleolar organiser regions (NORs) have evolved across great-ape lineages and within human populations.\n\nThe five pairs of human acrocentric chromosomes (13, 14, 15, 21, and 22) carry NOR-associated repeat domains on their short arms. These regions are notoriously difficult to sequence and assemble, and their evolutionary history has remained poorly resolved. The authors leveraged comparative and haplotype-resolved genome assemblies to show that K111-derived sequences have expanded specifically across human acrocentrics, with predominantly full-length ancestral forms giving way to extensive structural diversification — including recurrent sequence mosaicism — that varies across human populations and between parent and offspring.\n\nThe study addresses a long-standing gap in understanding how these structurally complex chromosome regions are transmitted and how they contribute to genome diversity. NORs are essential for ribosome biogenesis, and structural variation in these regions has been linked to human disease in other contexts, though the preprint does not report direct clinical associations.\n\nThe work draws on parent-offspring trio data to examine transmission patterns. It has not yet undergone peer review and is a preprint.",
+      "tags": [
+        "endogenous-retrovirus",
+        "acrocentric-chromosomes",
+        "nucleolar-organiser-region",
+        "structural-variation",
+        "comparative-genomics",
+        "great-ape-evolution",
+        "human-genome",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Molecular characterisation of rfk-2 identifies the gene required for spore killing by Neurospora Sk-3",
+      "is_preprint": true,
+      "run_date": "2026-09-13",
+      "run_iso": "2026-09-13T12:31:44Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-09-13T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "neurospora-rfk2-spore-killing-sk3-characterisation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-13T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Molecular characterization of required for killing-2: a gene required for spore killing by Neurospora Sk-3.",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.07.749943v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint pinpoints a T>G transversion in the rfk-2 coding sequence as the mutation that disrupts the Sk-3 selfish genetic element's ability to kill non-carrier spores in Neurospora fungi.",
+      "summary": "A preprint posted to bioRxiv reports the molecular characterisation of rfk-2, a gene on Chromosome III of Neurospora crassa required for spore killing by the Sk-3 selfish genetic element.\n\nSpore killing is a form of meiotic drive — a phenomenon in which a selfish genetic element biases its own inheritance by destroying competing gametes that do not carry it. In crosses between Sk-3 strains and spore-killing-sensitive (Sk-S) strains of Neurospora, nearly all offspring that fail to inherit Sk-3 are killed. An earlier study had isolated a mutation called rfk-2UV that disrupts this killing activity, but its precise location within the Sk-3 element was not known.\n\nThe authors now demonstrate that rfk-2UV is a T>G transversion within the protein-coding sequence of rfk-2, and that the rfk-2 gene is located on Chromosome III within the Sk-3 element itself. The molecular identification of this component advances the mechanistic understanding of how Sk-3 executes spore killing and how loss-of-function mutations can suppress it.\n\nThe study is relevant to the broader field of selfish genetic element biology, meiotic drive, and the evolutionary dynamics of genetic conflict. Neurospora remains a key model organism for fungal genetics. This work is a preprint and has not undergone peer review.",
+      "tags": [
+        "meiotic-drive",
+        "selfish-genetic-elements",
+        "spore-killing",
+        "neurospora",
+        "fungal-genetics",
+        "genetic-conflict",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint confirms ZZ/ZW sex-determination system in Pacific saury and maps sex-chromosome diversity in Beloniformes",
+      "is_preprint": true,
+      "run_date": "2026-09-13",
+      "run_iso": "2026-09-13T12:31:44Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-09-13T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "pacific-saury-zw-sex-determination-beloniformes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-13T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genomic evidence for Z-W differentiation in Pacific saury (Cololabis saira) and sex-chromosome diversity in Beloniformes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.08.749792v1?rss=1"
+        }
+      ],
+      "standfirst": "Using ddRAD-seq and pooled whole-genome sequencing, researchers have identified a female-specific marker set in Pacific saury consistent with a ZZ/ZW system, adding to the diverse sex-determination landscape documented in this fish order.",
+      "summary": "A preprint posted to bioRxiv reports the genomic characterisation of the sex-determination system in Pacific saury (Cololabis saira), a commercially important fish in the order Beloniformes.\n\nUsing double-digest restriction-site-associated DNA sequencing (ddRAD-seq) and pooled whole-genome sequencing (Pool-seq), the authors identified numerous genetic markers that occur predominantly or exclusively in phenotypic females. Mapping of these markers indicated clustering consistent with a ZZ/ZW sex-determination system — one in which females carry two different sex chromosomes (ZW) and males carry two identical copies (ZZ), analogous to but distinct from the XY system found in humans.\n\nThe finding adds Pacific saury to a growing catalogue of teleost fish with characterised sex-determination mechanisms. Sex-determination in teleosts evolves rapidly and is unusually diverse; Beloniformes in particular show variation across species and the preprint discusses how the Pacific saury results fit within this broader picture. The authors also developed a DNA marker suitable for inferring genetic sex, which may have practical value for aquaculture and fisheries biology.\n\nThe study is relevant to researchers working on sex chromosome evolution, comparative genomics, and aquaculture genetics. This work is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "sex-chromosomes",
+        "sex-determination",
+        "teleost-fish",
+        "beloniformes",
+        "zw-system",
+        "comparative-genomics",
+        "aquaculture-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-09-12T11:30:23.901718+00:00",
+  "last_run": "2026-09-13T12:33:30.678004+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012126": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012278": "2026-09-02T11:58:02.206145+00:00",
@@ -21660,7 +21925,7 @@
     "https://news.cancerresearchuk.org/2026/09/08/how-northern-ireland-can-save-almost-6000-lives-from-cancer/": "2026-09-10T12:04:38.007932+00:00",
     "https://news.cancerresearchuk.org/2026/09/09/from-ai-to-the-death-of-the-default-what-cancer-science-will-look-like-in-2036/": "2026-09-10T12:04:38.007932+00:00",
     "https://news.cancerresearchuk.org/2026/09/09/link-between-hot-drinks-and-type-of-oesophageal-cancer-in-the-uk/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.25.746822v1?rss=1": "2026-08-29T12:58:15.867374+00:00",
+    "https://news.cancerresearchuk.org/2026/09/13/cancer-waiting-times-latest-updates-and-analysis/": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.747013v1?rss=1": "2026-09-02T11:58:02.206145+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.747138v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.745805v1?rss=1": "2026-08-31T14:49:39.453780+00:00",
@@ -21691,19 +21956,24 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749500v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.05.749590v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.05.749592v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.06.747930v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.07.749943v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.08.749792v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.749845v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.08.750161v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.750172v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.750173v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.750211v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.750261v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.09.750417v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.10.750672v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.11.751073v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.england.nhs.uk/2026/08/high-street-pharmacies-to-launch-seven-minute-cholesterol-checks/": "2026-08-31T14:49:39.453780+00:00",
     "https://www.england.nhs.uk/2026/09/busiest-summer-ever-for-nhs-but-aes-see-record-numbers-within-four-hours/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-delivers-almost-a-quarter-of-a-million-menb-jabs-to-young-people-ahead-of-university-year/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-kicks-off-flu-jabs-for-children-and-pregnant-women-ahead-of-winter/": "2026-09-01T12:20:41.665653+00:00",
     "https://www.england.nhs.uk/2026/09/patients-to-get-quicker-treatment-for-migraines-acne-and-3-other-everyday-conditions-at-pharmacies/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-its-not-just-about-the-model/": "2026-09-02T11:58:02.206145+00:00",
-    "https://www.sciencedaily.com/releases/2026/08/260828005427.htm": "2026-08-29T12:58:15.867374+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260828082330.htm": "2026-08-31T14:49:39.453780+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260829235950.htm": "2026-09-02T11:58:02.206145+00:00",
     "https://www.sciencedaily.com/releases/2026/08/260830000019.htm": "2026-08-31T14:49:39.453780+00:00",
@@ -21721,23 +21991,9 @@
     "https://www.sciencedaily.com/releases/2026/09/260909231717.htm": "2026-09-12T11:30:23.901718+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260909231723.htm": "2026-09-12T11:30:23.901718+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911003852.htm": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/08/27/biotech-news-whats-in-merck-and-modernas-cancer-vaccine-algorithm/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/cms-plans-launch-event-access-medicare-pilot-health-tech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/fda-approves-roivant-therapy-for-rare-autoimmune-disease/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/health-news-decoding-dea-action-on-kratom-related-substance/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/hospitals-lobby-medicaid-cuts-rasonque-approved-dc-diagnosis/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/kennedy-samoa-trip-mmr-vaccine-new-documents/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/27/marc-tessier-lavigne-responds-theo-baker-book-misconduct-stanford-genentech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/astrazeneca-ionis-wainua-eplontersen-attr-cm-study-failure-bridgebio-alnylam/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/biotech-news-astrazeneca-ionis-detail-surprise-failure-of-heart-disease-drug/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/cdc-protest-resignations-one-year-later-houry-jernigan-daskalakis/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/cytokinetics-myqorzo-aficamten-nhcm-acacia-trial-success/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/health-news-federal-autism-adcomm-doubles-down-on-debunked-theory/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/juul-fda-clearance-updated-ecigarette-age-gating-technology/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/lindsay-clancy-postpartum-psychosis-reproductive-psychiatrists-liability/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/medicare-g2211-code-billing-research-primary-care/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/28/vaccines-autism-advisory-committee-strategic-plan-boost-research-funding/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/2026/08/29/novartis-pacibekitug-inflammation-il6-tourmaline-heart-disease/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260911214241.htm": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260911214250.htm": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260911214306.htm": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/2026/08/30/alnylam-attr-astrazeneca-wainua-attruby-heart-disease/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
@@ -21839,18 +22095,20 @@
     "https://www.statnews.com/2026/09/10/uniquere-huntingtons-gene-therapy-trial-readout/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/uniqure-huntingtons-gene-therapy-trial-readout/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/2026/09/11/fda-new-ekg-heart-attack-detection-algo-queen-of-hearts/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/11/health-news-boycott-launched-against-ada-includes-journal/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/11/medicaid-work-requirements-new-tier-system-define-medical-frailty/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/medicaid-work-requirements-new-tier-system-define-medical-frailty/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/11/pro-vaccine-advocacy-celebration-party/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/27/pancreatic-cancer-drug-approved-trump-deal-with-biotechs/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/28/astrazeneca-trial-failure-monstrous-conflict-of-interest/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
-    "https://www.statnews.com/pharmalot/2026/08/28/up-down-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-08-29T12:58:15.867374+00:00",
+    "https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/pharmalot/2026/08/31/drug-pricing-deals-polycythemia-vera-mimrylo-pharmalittle-newsletter/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/pharmalot/2026/08/31/pending-drug-patent-applications-amgen-carefirst/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
     "https://www.statnews.com/pharmalot/2026/09/01/novartis-bristol-trials-paused-pancreatic-cancer-drug-price-pharmalittle-newsletter/": "2026-09-02T11:58:02.206145+00:00",
@@ -21864,8 +22122,11 @@
     "https://www.statnews.com/pharmalot/2026/09/10/many-doctors-still-embrace-pharma-freebies-rely-on-sales-reps/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/pharmalot/2026/09/11/pharma-wins-cost-of-wastewater-treatment-fight-europe/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/": "2026-09-12T11:30:23.901718+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/11/pharma-wins-cost-of-wastewater-treatment-fight-europe/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00"
   },
   "takedowns": []
 }
