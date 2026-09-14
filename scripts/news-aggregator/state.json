@@ -21898,9 +21898,53 @@
         "aquaculture-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have published research showing that the way DNA is physically folded and organised inside brain cells is disrupted in Alzheimer's disease. DNA does not just sit as a flat strand inside a cell — it is folded into complex three-dimensional shapes, and those shapes help control which genes are switched on or off. This study found that the folding is altered in several types of brain cells that are affected by Alzheimer's, changing how important genes behave.\n\nThis is a different angle from most Alzheimer's genetics research, which typically looks at changes in the DNA sequence itself. The researchers say their findings reveal a previously underexplored aspect of the disease that could help scientists better understand how it develops.\n\nThe work is at an early, research stage and does not change how Alzheimer's disease is diagnosed or managed. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "3D genome organisation is disrupted across multiple brain cell types in Alzheimer's disease",
+      "is_preprint": false,
+      "run_date": "2026-09-14",
+      "run_iso": "2026-09-14T13:36:18Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-09-13T13:56:06Z",
+        "novelty": 7
+      },
+      "slug": "alzheimers-3d-genome-organisation-brain-cells",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-13T13:56:06Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists find a new layer of Alzheimer's hidden in the genome",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260912220051.htm"
+        }
+      ],
+      "standfirst": "Researchers have found that the three-dimensional folding of DNA is altered in several brain cell populations affected by Alzheimer's disease, changing how key genes are switched on and off.",
+      "summary": "A study reported by ScienceDaily describes researchers identifying widespread disruption to the three-dimensional organisation of chromatin — the higher-order structure in which DNA is packaged inside the cell nucleus — across multiple brain cell types implicated in Alzheimer's disease. Rather than examining which genes are mutated or simply which genes are active, the work focuses on how the physical folding and looping of the genome affects the regulation of gene expression in affected cells.\n\nThis layer of regulation, sometimes called three-dimensional genomics or chromatin architecture, governs which enhancer sequences can physically contact which gene promoters, thereby controlling when and how strongly individual genes are expressed. The researchers found that these spatial contacts are disrupted in Alzheimer's-affected brain cells in ways that alter the activity of genes relevant to the disease — adding a regulatory dimension that sits largely upstream of, or in parallel to, changes in DNA sequence.\n\nThe original announcement does not name the lead institution, researchers, or the journal in which the findings were published. The ScienceDaily report does not provide sufficient detail to identify the primary source. Readers seeking full methodological detail are encouraged to identify the peer-reviewed publication directly.\n\nThe work contributes to a growing body of research examining how epigenomic and chromatin-structural changes — rather than coding mutations alone — contribute to late-onset neurodegenerative disease. Earlier clusters on this feed have examined related questions through the lens of APOE mRNA editing and APOE isoform biology; the present findings add a chromatin-architecture perspective to that picture.",
+      "tags": [
+        "alzheimers-disease",
+        "chromatin-architecture",
+        "3d-genomics",
+        "gene-regulation",
+        "neurodegeneration",
+        "epigenomics",
+        "brain-cell-types"
+      ]
     }
   ],
-  "last_run": "2026-09-13T12:33:30.678004+00:00",
+  "last_run": "2026-09-14T13:36:58.531625+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012126": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012278": "2026-09-02T11:58:02.206145+00:00",
@@ -21927,13 +21971,10 @@
     "https://news.cancerresearchuk.org/2026/09/09/link-between-hot-drinks-and-type-of-oesophageal-cancer-in-the-uk/": "2026-09-10T12:04:38.007932+00:00",
     "https://news.cancerresearchuk.org/2026/09/13/cancer-waiting-times-latest-updates-and-analysis/": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.25.747013v1?rss=1": "2026-09-02T11:58:02.206145+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.25.747138v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.745805v1?rss=1": "2026-08-31T14:49:39.453780+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.747358v1?rss=1": "2026-09-01T12:20:41.665653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.26.747408v1?rss=1": "2026-09-01T12:20:41.665653+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.27.747555v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.27.747613v1?rss=1": "2026-09-03T11:56:07.043021+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.27.747641v1?rss=1": "2026-08-30T12:34:27.686020+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.28.747020v1?rss=1": "2026-09-01T12:20:41.665653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.28.747744v1?rss=1": "2026-09-03T11:56:07.043021+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.28.747747v1?rss=1": "2026-09-04T11:59:07.339510+00:00",
@@ -21994,6 +22035,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260911214241.htm": "2026-09-13T12:33:30.678004+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911214250.htm": "2026-09-13T12:33:30.678004+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911214306.htm": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260912220051.htm": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/2026/08/30/alnylam-attr-astrazeneca-wainua-attruby-heart-disease/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/2026/08/30/fda-approves-mimrylo-takeda-protagonist-treatment-for-polycythemia-vera/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
@@ -22109,6 +22151,13 @@
     "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.statnews.com/2026/09/14/biotech-news-gsk-touts-lung-cancer-data-from-two-drugs/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
+    "https://www.statnews.com/2026/09/14/definiums-lsd-therapy-eased-anxiety-large-trial-psychedelic/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
+    "https://www.statnews.com/2026/09/14/football-cte-risk-should-we-feel-guilty-for-watching-nfl/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
+    "https://www.statnews.com/2026/09/14/health-enws-pennsylvania-records-third-measles-related-death-amid-outbreak/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
+    "https://www.statnews.com/2026/09/14/novo-nordisk-company-rebrand-obesity-diabetes/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
+    "https://www.statnews.com/2026/09/14/rural-health-transformation-fund-skepticism-shortcomings-part-5-unraveled-series/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
+    "https://www.statnews.com/2026/09/14/trust-in-science-academia-research-communication-listening/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/pharmalot/2026/08/31/drug-pricing-deals-polycythemia-vera-mimrylo-pharmalittle-newsletter/?utm_campaign=rss": "2026-08-31T14:49:39.453780+00:00",
     "https://www.statnews.com/pharmalot/2026/08/31/pending-drug-patent-applications-amgen-carefirst/?utm_campaign=rss": "2026-09-01T12:20:41.665653+00:00",
     "https://www.statnews.com/pharmalot/2026/09/01/novartis-bristol-trials-paused-pancreatic-cancer-drug-price-pharmalittle-newsletter/": "2026-09-02T11:58:02.206145+00:00",
@@ -22126,7 +22175,9 @@
     "https://www.statnews.com/pharmalot/2026/09/11/pharma-wins-cost-of-wastewater-treatment-fight-europe/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/pharmalot/2026/09/11/pharma-wins-cost-of-wastewater-treatment-fight-europe/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/13/trump-secretive-pharma-deals-undermine-most-favored-nation-pricing/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/14/another-astrazeneca-trial-failure-novo-name-change/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00"
   },
   "takedowns": []
 }
