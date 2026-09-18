@@ -22614,20 +22614,422 @@
         "cis-regulation",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Sanfilippo syndrome type A is a rare inherited condition that affects the brain and other parts of the body. It is caused by a fault in a gene that normally produces an enzyme the body needs to break down certain large molecules. Without that enzyme, harmful material builds up in cells, particularly in the brain, leading to progressive loss of skills in childhood.\n\nThe US medicines regulator (the FDA) has approved a gene therapy made by a company called Ultragenyx for this condition. Gene therapies aim to introduce a working copy of the faulty gene into the body's cells. This is the first approved treatment specifically targeting the underlying cause of this form of Sanfilippo syndrome.\n\nFor families affected by this condition, the best source of information about whether and how any new treatment might be relevant is a clinical genetics or metabolic medicine specialist team.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "FDA approves Ultragenyx gene therapy for Sanfilippo syndrome type A",
+      "is_preprint": false,
+      "run_date": "2026-09-18",
+      "run_iso": "2026-09-18T12:03:00Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 9,
+        "newest_iso": "2026-09-17T19:55:46Z",
+        "novelty": 9
+      },
+      "slug": "fda-gene-therapy-approval-sanfilippo-syndrome-ultragenyx",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/Eliza-treated-with-Gene-therapy-2016-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-17T19:55:46Z",
+          "publisher": "Stat News",
+          "title": "STAT+: FDA approves a new gene therapy for Sanfilippo syndrome, an ultra-rare disease",
+          "url": "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/"
+        }
+      ],
+      "standfirst": "The first approved disease-modifying treatment for Sanfilippo syndrome type A — a severe paediatric neurological disorder — has received FDA authorisation, according to reports citing Ultragenyx Pharmaceutical.",
+      "summary": "The US Food and Drug Administration has approved a gene therapy developed by Ultragenyx Pharmaceutical for Sanfilippo syndrome type A (mucopolysaccharidosis type IIIA, MPS IIIA), an ultra-rare autosomal-recessive lysosomal storage disorder caused by pathogenic variants in the SGSH gene. The condition is sometimes described informally as 'childhood Alzheimer's' because of its progressive and severe neurocognitive deterioration; most affected children do not survive into adulthood.\n\nThe approval marks the first regulatory authorisation of a disease-modifying intervention for this indication. MPS IIIA results from deficiency of the enzyme N-sulphoglucosamine sulphohydrolase, leading to accumulation of heparan sulphate in the central nervous system and other tissues. Gene therapy approaches for this disorder have sought to restore functional enzyme expression via viral-vector-mediated gene delivery.\n\nDetailed trial data, regulatory review documents, and prescribing information had not been fully available in open-access sources at time of compilation; readers should consult the FDA's approval announcement and Ultragenyx's published trial literature for primary data. The approval is reported to follow an earlier negative Phase 3 outcome for a separate Ultragenyx programme in Angelman syndrome, underscoring variability of outcomes across rare-disease gene therapy programmes.\n\nThis approval will be of immediate interest to genetic counsellors, metabolic paediatricians, and rare-disease researchers tracking the gene therapy regulatory landscape. Sanfilippo syndrome advocacy groups and affected families have been closely engaged in trial recruitment and are likely to seek information from specialist teams.",
+      "tags": [
+        "sanfilippo-syndrome",
+        "mps-iiia",
+        "sgsh",
+        "gene-therapy",
+        "fda-approval",
+        "rare-disease",
+        "ultragenyx",
+        "lysosomal-storage-disorder"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Most lung cancers are linked to smoking, but a smaller number occur in people who have never smoked. Researchers have found a very rare change in a gene that appears to be associated with a much higher chance of developing lung cancer in non-smokers. This kind of inherited genetic change is different from the changes that happen inside a tumour itself.\n\nBecause the variant is very rare, it would affect only a very small number of people. Scientists say further research is needed to confirm the finding and to understand how the variant might work biologically. This is an early-stage finding reported by specialist journalists, and the full research paper was not openly accessible at the time of this summary.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Rare genetic variant linked to 25-fold elevated lung cancer risk in never-smokers",
+      "is_preprint": false,
+      "run_date": "2026-09-18",
+      "run_iso": "2026-09-18T12:03:00Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 8,
+        "newest_iso": "2026-09-17T18:00:00Z",
+        "novelty": 9
+      },
+      "slug": "rare-variant-lung-cancer-never-smokers",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/F0013020-Lung_cancer_CT_scan-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-17T18:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Why do 'never-smokers' get lung cancer? In some cases, rare genetic variant may be a factor",
+          "url": "https://www.statnews.com/2026/09/17/rare-gene-variant-boosts-lung-cancer-risk-25-fold-in-non-smokers/"
+        }
+      ],
+      "standfirst": "Researchers have identified a very rare germline variant associated with substantially elevated lung cancer odds in people with no smoking history, pointing to a distinct hereditary aetiology in a clinically puzzling group.",
+      "summary": "A study reported by Stat News has identified a rare genetic variant associated with markedly higher odds of lung cancer — described as a roughly 25-fold increase — in individuals who have never smoked. The finding addresses a longstanding clinical question: why a subset of lung cancer cases arises in people with no tobacco exposure, a population that accounts for a meaningful proportion of global lung cancer diagnoses and who often present with distinct molecular tumour profiles.\n\nThe variant identified is described as very rare in the general population. The reporting does not identify the specific gene or variant in freely accessible detail (the full article is behind a paywall), but the study fits within a broader body of research seeking germline contributors to lung cancer susceptibility beyond the well-established EGFR somatic landscape and familial aggregation studies previously conducted in East Asian populations.\n\nFor researchers in cancer genetics and genetic epidemiology, a finding of this effect size in never-smokers warrants attention, though the rarity of the variant means its population-attributable fraction is likely modest. Replication in independent cohorts and functional characterisation will be necessary steps. Genetic counsellors working with hereditary cancer families may find the direction of the research relevant to their practice context, with reference to published guidance from bodies such as NICE and relevant professional societies for any clinical implications.\n\nFull methodological detail — including cohort size, variant identification approach, and confidence intervals — was not accessible in the open portion of the article at time of compilation.",
+      "tags": [
+        "lung-cancer",
+        "never-smokers",
+        "rare-variant",
+        "cancer-genetics",
+        "germline",
+        "hereditary-cancer",
+        "genetic-epidemiology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Opinion: ALDH2 deficiency and the genetics behind alcohol flushing deserves greater clinical attention",
+      "is_preprint": false,
+      "run_date": "2026-09-18",
+      "run_iso": "2026-09-18T12:03:00Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 5,
+        "newest_iso": "2026-09-18T08:30:00Z",
+        "novelty": 4
+      },
+      "slug": "aldh2-asian-flush-alcohol-risk-education",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/GettyImages-1732669238-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-18T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "Opinion: Doctors should educate patients about 'Asian glow' and drinking risks",
+          "url": "https://www.statnews.com/2026/09/18/what-is-asian-glow-alcohol-flushing-aldh2-drinking-health-consequences/"
+        }
+      ],
+      "standfirst": "A medical student opinion piece in Stat News argues that the alcohol-flushing response common in people of East Asian ancestry reflects ALDH2 variant biology and that its health implications are under-communicated in clinical settings.",
+      "summary": "An opinion article published by Stat News, written by Brian Zhang, a medical student, argues that the alcohol-flushing response colloquially known as 'Asian glow' is underpinned by inherited variation in the ALDH2 gene and that its associated health risks are insufficiently explained to patients by clinicians.\n\nALDH2 encodes aldehyde dehydrogenase 2, the enzyme responsible for metabolising acetaldehyde — a toxic intermediate produced during ethanol metabolism. Individuals carrying the ALDH2*2 allele (rs671), which is present at high frequency in populations of East Asian ancestry, have reduced or absent enzyme activity. This leads to acetaldehyde accumulation after alcohol consumption, producing characteristic facial flushing, tachycardia, and nausea. Epidemiological studies have associated ALDH2*2 homozygosity and heterozygosity with elevated risk of oesophageal cancer in people who consume alcohol, a relationship that has been documented in published literature for several decades.\n\nThe article is explicitly an opinion piece and advocacy in framing rather than a primary research report. It does not present new data. Its relevance to Genetic Current readers lies in the underlying genetics: ALDH2 is a well-characterised pharmacogenomic and population-genetics example, and the broader question of how population-frequency variants with significant phenotypic consequences are communicated across clinical settings is relevant to genetic counsellors, GPs with genetics-aware patient populations, and educators.\n\nFor educators, the ALDH2*2 allele represents a textbook example of a founder-effect-associated variant with measurable health consequences — relevant to teaching population genetics, pharmacogenomics, and gene–environment interaction.",
+      "tags": [
+        "aldh2",
+        "pharmacogenomics",
+        "population-genetics",
+        "alcohol-metabolism",
+        "east-asian-ancestry",
+        "founder-effect",
+        "gene-environment-interaction"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: elexacaftor/tezacaftor/ivacaftor treatment associated with decelerated epigenetic ageing in cystic fibrosis",
+      "is_preprint": true,
+      "run_date": "2026-09-18",
+      "run_iso": "2026-09-18T12:03:00Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-09-18T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "eti-epigenetic-age-deceleration-cystic-fibrosis-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-18T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Elexacaftor/tezacaftor/ivacaftor treatment is associated with epigenetic age deceleration in cystic fibrosis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.13.751273v1?rss=1"
+        }
+      ],
+      "standfirst": "A small pilot study reports that one year of ETI modulator therapy was associated with reduced epigenetic age acceleration in people with cystic fibrosis, with changes correlating with markers of inflammation.",
+      "summary": "A preprint deposited on bioRxiv presents findings from a pilot longitudinal study examining whether treatment with the CFTR modulator combination elexacaftor/tezacaftor/ivacaftor (ETI, marketed as Kaftrio in the UK) influences epigenetic ageing trajectories in people with cystic fibrosis (CF).\n\nThe study enrolled eight modulator-naive individuals with CF. Blood DNA methylation was profiled before ETI initiation and after 12 months of treatment, with epigenetic age acceleration estimated using the DNAmGrimAge2 clock — an established methylation-based surrogate for biological ageing derived from longitudinal mortality data. The authors report that ETI treatment was associated with deceleration of epigenetic age acceleration, and that this change correlated with reductions in inflammatory markers.\n\nCF is caused by pathogenic variants in the CFTR gene, and ETI substantially improves lung function and clinical outcomes in individuals with at least one copy of the F508del allele. The hypothesis explored here — that the systemic inflammatory burden of CF may contribute to accelerated biological ageing, and that modulator therapy reverses part of this — is biologically plausible given ETI's documented effects on systemic inflammation.\n\nThe study is limited by its very small sample size (n = 8) and pilot design, and has not yet undergone peer review. DNAmGrimAge2 clocks provide population-level associations rather than individual biological-age readouts, and effect sizes and confidence intervals should be interpreted cautiously in a sample of this scale. Researchers in CF biology, epigenomics, and ageing will find the mechanistic framing of interest. Genetic counsellors working with CF families may note the emerging evidence base on long-term modulator effects.",
+      "tags": [
+        "cystic-fibrosis",
+        "cftr",
+        "cftr-modulators",
+        "epigenetic-ageing",
+        "dna-methylation",
+        "dnAmGrimAge",
+        "inflammation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "GWAS of Norwegian cohorts maps genetic associations across discrete educational milestones beyond years of schooling",
+      "is_preprint": false,
+      "run_date": "2026-09-18",
+      "run_iso": "2026-09-18T12:03:00Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-17T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "educational-attainment-gwas-polygenic-milestones-norway",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-17T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Beyond years of schooling: Genetic associations across educational milestones in two Norwegian cohorts",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012310"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study combining genome-wide association data with twin models in two large Norwegian cohorts finds that genetic associations with educational attainment differ across high-school completion, bachelor's, master's, and doctoral milestones.",
+      "summary": "Researchers including Eirik Haugland Kvalvik, Yunpeng Wang, Kristine Beate Walhovd, and colleagues from Norwegian institutions have published a study in PLOS Genetics examining whether genetic associations with educational attainment, typically measured as a continuous 'years of education' (EduYears) variable, vary across discrete educational milestones.\n\nThe study draws on two large Norwegian datasets: the Norwegian Mother, Father and Child Cohort Study (MoBa, N = 120,527) and the Norwegian Twin Registry (N = 8,910). The researchers applied genome-wide association studies (GWAS), polygenic indices (PGIs), and twin-based variance-component models to characterise genetic associations separately for high-school completion and attainment of bachelor's, master's, and doctoral degrees.\n\nThe paper reports that genetic associations are not uniform across these thresholds — suggesting that treating educational attainment as a single continuous trait conflates biologically and environmentally distinct transitions. The twin-model analyses allow partial separation of genetic from shared-environmental contributions at each stage, a methodological strength relative to GWAS-only designs.\n\nThis work is relevant to researchers in statistical genetics, behavioural genetics, and the sociology of genetics. The EduYears phenotype is among the most widely used polygenic score benchmarks, and findings that its genetic architecture varies by milestone have implications for how polygenic indices are constructed and interpreted in downstream analyses — including gene–environment interaction studies and Mendelian randomisation. Educators teaching quantitative and behavioural genetics will find the methodological contrasts instructive. The study does not address causal mechanisms linking genetic variants to educational outcomes, and causal inference from polygenic associations in this domain remains complex.",
+      "tags": [
+        "educational-attainment",
+        "gwas",
+        "polygenic-scores",
+        "twin-study",
+        "behavioural-genetics",
+        "statistical-genetics",
+        "norway",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Systematic zebrafish atlas of mitochondrial genome loss-of-function alleles published in preprint",
+      "is_preprint": true,
+      "run_date": "2026-09-18",
+      "run_iso": "2026-09-18T12:03:00Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-17T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "zebrafish-mitochondrial-lof-atlas-z-terminator",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Systematic Engineering of Loss-of-Function Alleles in the Zebrafish Mitochondrial Proteome",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.751483v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers describe Z-Terminator, a comprehensive in vivo atlas of loss-of-function alleles covering all 13 mtDNA-encoded OXPHOS subunits in zebrafish, generated using mitochondrial TALE base editors.",
+      "summary": "A preprint on bioRxiv describes the construction of Z-Terminator, a systematic in vivo atlas of loss-of-function (LOF) alleles for all 13 protein-coding genes of the mitochondrial genome in zebrafish (Danio rerio). The work addresses a significant gap in mitochondrial disease research: despite pathogenic variants in mtDNA-encoded genes being known to underlie a diverse and clinically heterogeneous group of disorders, most of these genes have lacked defined in vivo LOF models.\n\nThe team used mitochondrial TALE base editors — a class of programmable base-editing tools adapted for the mitochondrial genome — to introduce premature termination codon (PTC) alleles via C-to-T transitions across components of the oxidative phosphorylation (OXPHOS) system: Complexes I, III, IV, and V. Zebrafish larvae harbouring PTC alleles are reported to display bioenergetic phenotypes consistent with OXPHOS dysfunction.\n\nThe atlas is of broad utility for researchers studying mitochondrial disease mechanisms, genotype–phenotype relationships in mitochondrial disorders, and the in vivo consequences of heteroplasmy. The zebrafish system offers advantages in terms of transparency, reproductive rate, and tractability for phenotypic readouts. Mitochondrial base editing in vivo remains technically demanding and the preprint has not yet undergone peer review.\n\nFor researchers in mitochondrial medicine, clinical genetics of mitochondrial disorders, and functional genomics, Z-Terminator represents a resource likely to support downstream mechanistic studies. Educators teaching mitochondrial genetics and gene-editing methodologies may find the study design illustrative of emerging base-editor applications beyond the nuclear genome.",
+      "tags": [
+        "mitochondrial-genetics",
+        "oxphos",
+        "base-editing",
+        "zebrafish",
+        "loss-of-function",
+        "mitochondrial-disease",
+        "functional-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes corrected liability-scale variance explained for polygenic scores derived from logistic regression",
+      "is_preprint": true,
+      "run_date": "2026-09-18",
+      "run_iso": "2026-09-18T12:03:00Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-09-17T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "polygenic-score-liability-scale-r2-logistic-regression-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "From Nagelkerke's R2 to Liability-Scale Variance Explained for Polygenic Scores",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.12.751172v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies a systematic discrepancy in how polygenic score accuracy is calculated when logistic rather than linear regression is used, and derives corrected expressions adjusted for case-control ascertainment.",
+      "summary": "A preprint deposited on bioRxiv addresses a technical problem in the quantification of polygenic score (PGS) prediction accuracy for binary disease outcomes. Standard practice converts Nagelkerke's R² from logistic regression on the observed 0–1 scale to a liability-scale R² adjusted for case-control ascertainment, enabling comparisons across studies with different disease prevalences and sampling designs. However, previous derivations were developed primarily with linear regression in mind. The preprint argues that applying these transformations to logistic regression outputs introduces systematic error, and derives corrected expressions appropriate for the logistic setting.\n\nThe work is technical in scope and directed at researchers who construct, evaluate, or compare polygenic scores for disease traits — a large and methodologically active community given the proliferation of PGS analyses in biobank-scale datasets. Incorrect liability-scale R² estimates have downstream consequences for published comparisons of model performance, heritability benchmarking, and meta-analyses of polygenic prediction.\n\nThe preprint does not present new biological findings or polygenic scores for specific diseases; its contribution is methodological. Researchers in statistical genetics, genetic epidemiology, and bioinformatics are the primary intended audience. The work has not yet undergone peer review, and independent verification of the derived expressions will be an important validation step.",
+      "tags": [
+        "polygenic-scores",
+        "statistical-genetics",
+        "liability-scale",
+        "logistic-regression",
+        "case-control",
+        "gwas",
+        "methodology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint introduces GeneSIS framework to improve polygenic score transferability by modelling gene-by-sex interactions",
+      "is_preprint": true,
+      "run_date": "2026-09-18",
+      "run_iso": "2026-09-18T12:03:00Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-17T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "genesис-polygenic-score-transferability-sex-interaction-uk-biobank",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "GeneSIS: enhancing transferability of polygenic scores with variant-level gene-by-sex interaction effects",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751652v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers analysing over 400,000 UK Biobank participants propose a supervised learning framework that jointly models additive and sex-dependent genetic effects at single-variant resolution to improve polygenic score performance across ancestry groups.",
+      "summary": "A preprint on bioRxiv describes GeneSIS (GENE and Sex Interaction Score), a supervised statistical learning framework designed to improve the transferability of polygenic scores (PGS) across genetic ancestry groups by explicitly modelling gene-by-sex interaction effects at the variant level.\n\nThe authors analysed 406,659 individuals in the UK Biobank — including admixed individuals — and 1.3 million genetic variants to build predictive models for 99 complex traits. The core methodological innovation is the joint modelling of additive genetic effects and context-dependent (specifically sex-stratified) effects at single-variant resolution, rather than applying sex stratification post hoc at the score level. The framework is supervised in the sense that it is trained directly on individual-level data rather than relying solely on publicly available GWAS summary statistics.\n\nPolygenic score transferability across ancestry groups is a widely recognised limitation of current PGS methodology, driven by differences in linkage disequilibrium patterns, allele frequencies, and gene–environment interactions across populations. The inclusion of sex as a context variable in GeneSIS addresses an additional axis of heterogeneity that is frequently treated as a covariate to adjust away rather than a modifier of genetic effect.\n\nThe preprint has not undergone peer review. Researchers in statistical genetics, genetic epidemiology, and the methodology of polygenic prediction — particularly those working on ancestry-diverse datasets — are the primary audience. Educators covering polygenic risk scores and their limitations may find the study a useful case study in model design.",
+      "tags": [
+        "polygenic-scores",
+        "transferability",
+        "gene-by-sex-interaction",
+        "uk-biobank",
+        "statistical-genetics",
+        "ancestry-diversity",
+        "admixture",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: DiffDomain-Spectrum identifies reorganised topologically associating domains from sparse single-cell Hi-C data",
+      "is_preprint": true,
+      "run_date": "2026-09-18",
+      "run_iso": "2026-09-18T12:03:00Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-09-17T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "diffdomain-spectrum-tad-reorganisation-single-cell-hic-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-17T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "DiffDomain-Spectrum identifies structurally reorganized TADs from sparse aggregated single-cell Hi-C contact maps",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751728v1?rss=1"
+        }
+      ],
+      "standfirst": "A new spectral statistical framework addresses a key analytical challenge in single-cell chromatin architecture research by reliably detecting TAD reorganisation at biologically informative resolution in sparse aggregated scHi-C contact maps.",
+      "summary": "A preprint on bioRxiv describes DiffDomain-Spectrum, a spectral statistical framework for identifying structurally reorganised topologically associating domains (TADs) between conditions or cell types using aggregated single-cell Hi-C (scHi-C) contact maps.\n\nTADs are megabase-scale chromatin domains that constrain enhancer–promoter interactions and whose boundaries are maintained by architectural proteins such as CTCF and cohesin. Disruption of TAD structure has been linked to dysregulation of gene expression in cancer and developmental disorders. Single-cell Hi-C technologies allow chromatin architecture to be profiled across heterogeneous cell populations, but the resulting contact maps are extremely sparse — particularly at the 25 kilobase resolution considered biologically meaningful for TAD boundary detection. This sparsity has limited the reliability of TAD reorganisation calls from scHi-C data.\n\nDiffDomain-Spectrum addresses this by applying a spectral decomposition approach to the aggregated contact maps, exploiting the mathematical structure of chromatin contact data to improve signal extraction at low coverage. The framework is designed to compare reorganised TADs between conditions or cell types, rather than simply calling TAD boundaries within a single sample.\n\nFor researchers in 3D genomics, chromatin biology, cancer genomics, and developmental genetics, improved detection of TAD reorganisation in single-cell data is a methodologically important advance. The preprint has not yet undergone peer review. Educators teaching genome organisation and chromosome biology may find the tool conceptually relevant to discussions of how chromatin architecture varies between cell states.",
+      "tags": [
+        "chromatin-architecture",
+        "tad",
+        "single-cell-genomics",
+        "hi-c",
+        "3d-genomics",
+        "genome-organisation",
+        "spectral-methods",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-09-17T12:25:38.389802+00:00",
+  "last_run": "2026-09-18T12:05:41.594212+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012126": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012285": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012289": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012293": "2026-09-10T12:04:38.007932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012295": "2026-09-04T11:59:07.339510+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012297": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012301": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012303": "2026-09-10T12:04:38.007932+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012304": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012306": "2026-09-12T11:30:23.901718+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012310": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012311": "2026-09-16T12:25:46.637828+00:00",
     "https://news.cancerresearchuk.org/2026/09/08/2025-26-in-review-cancer-research-uk-drives-major-progress-against-cancer/": "2026-09-08T11:58:32.729719+00:00",
     "https://news.cancerresearchuk.org/2026/09/08/how-northern-ireland-can-save-almost-6000-lives-from-cancer/": "2026-09-10T12:04:38.007932+00:00",
@@ -22638,10 +23040,6 @@
     "https://news.cancerresearchuk.org/2026/09/15/data-science-unpicking-data-diversity-and-inclusive-research-design/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/15/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/16/tracking-immune-system-genetics-smouldering-myeloma-prevent-myeloma/": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.28.747747v1?rss=1": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.28.747754v1?rss=1": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.31.748193v1?rss=1": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.31.748265v1?rss=1": "2026-09-04T11:59:07.339510+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.08.31.748413v1?rss=1": "2026-09-05T11:08:34.649960+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.01.748516v1?rss=1": "2026-09-07T13:15:46.420318+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.01.748529v1?rss=1": "2026-09-05T11:08:34.649960+00:00",
@@ -22677,13 +23075,18 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.11.750860v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.11.750947v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.11.751073v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.12.751172v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.13.751273v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.750853v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.14.751452v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.14.751483v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.15.751489v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.15.751652v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.15.751728v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.751136v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.england.nhs.uk/2026/09/busiest-summer-ever-for-nhs-but-aes-see-record-numbers-within-four-hours/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.england.nhs.uk/2026/09/nhs-delivers-almost-a-quarter-of-a-million-menb-jabs-to-young-people-ahead-of-university-year/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.england.nhs.uk/2026/09/patients-to-get-quicker-treatment-for-migraines-acne-and-3-other-everyday-conditions-at-pharmacies/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260901010717.htm": "2026-09-04T11:59:07.339510+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260901070526.htm": "2026-09-05T11:08:34.649960+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260902234508.htm": "2026-09-05T11:08:34.649960+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260902234512.htm": "2026-09-05T11:08:34.649960+00:00",
@@ -22707,39 +23110,23 @@
     "https://www.sciencedaily.com/releases/2026/09/260914102441.htm": "2026-09-16T12:25:46.637828+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260915232130.htm": "2026-09-17T12:25:38.389802+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260915232136.htm": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/02/biotech-news-arp-h-funds-biotechs-working-on-custom-rna-therapies/": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.statnews.com/2026/09/02/ultragenyx-drug-angelman-syndrome-clinical-trial/": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.statnews.com/2026/09/02/vaccine-integrity-project-fall-winter-guidelines-rsv-covid-flu-shots/": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.statnews.com/2026/09/03/abivax-acquisition-target-replimune-fda/": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.statnews.com/2026/09/03/anthony-fauci-vaccine-skeptics-book-trump-drug-pricing-deals-medicaid/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260915232138.htm": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260916232529.htm": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260918000437.htm": "2026-09-18T12:05:41.594212+00:00",
     "https://www.statnews.com/2026/09/03/anthony-fauci-vaccine-skeptics-book-trump-drug-pricing-deals-medicaid/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/biotech-news-seattle-scientists-launch-95-million-ai-biology-effort/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/biotech-news-seattle-scientists-launch-95-million-ai-biology-effort/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/doula-turned-ob-gyn-birth-plan-disappointment-urgency/": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.statnews.com/2026/09/03/drug-overdose-deaths-down-sharply-commonwealth-fund-study/": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.statnews.com/2026/09/03/health-news-hhs-flip-flops-on-disability-lawsuit-community-integration/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/health-news-hhs-flip-flops-on-disability-lawsuit-community-integration/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/ionis-fda-approval-zanvastro-alexander-disease/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/ionis-fda-approval-zanvastro-alexander-disease/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/openevidence-launches-new-ai-models-clinicians-health-tech/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/openevidence-launches-new-ai-models-clinicians-health-tech/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/recipients-of-gene-edited-pig-kidneys-receive-human-organs/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/recipients-of-gene-edited-pig-kidneys-receive-human-organs/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/stem-cell-clinics-fda-cber-warning-letters-marketing/": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.statnews.com/2026/09/03/tactical-athlete-health-risks-new-cardiovascular-guidelines-police-firefighters/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/03/tactical-athlete-health-risks-new-cardiovascular-guidelines-police-firefighters/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation/": "2026-09-04T11:59:07.339510+00:00",
-    "https://www.statnews.com/2026/09/03/vaccine-hesitant-parents-how-pediatrician-builds-trust/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/04/angelman-syndrome-drug-ultragenyx-oak-hill-ionis/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/04/biotech-news-fda-takes-another-look-at-botanical-drugs/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/clozapine-children-schizophrenia-neutrophil-fda-monitoring/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/04/clozapine-children-schizophrenia-neutrophil-fda-monitoring/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/04/health-news-disabled-workers-at-greater-risk-of-losing-insurance/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/lindsay-clancy-health-care-silos-postpartum-care-failures/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/04/lindsay-clancy-health-care-silos-postpartum-care-failures/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/04/mass-general-brigham-medicare-advantage-network-cancer-treatment-dana-farber/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/pennsylvania-measles-deaths-data-cdc-director-rfk-jr/": "2026-09-04T11:59:07.339510+00:00",
     "https://www.statnews.com/2026/09/04/pennsylvania-measles-deaths-data-cdc-director-rfk-jr/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/05/md-vs-do-surrogacy-ai-medicine-stat-letters-to-editor/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/06/ada-diabetes-association-ejection-conference-review-not-final/?utm_campaign=rss": "2026-09-07T13:15:46.420318+00:00",
@@ -22836,10 +23223,23 @@
     "https://www.statnews.com/2026/09/16/senators-highlight-chris-klomp-power-rfk-jr-second-in-command/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/17/astrazeneca-enhertu-breast-cancer-england-nice-pricing-agreement-us-trade-deal/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/17/biotech-hedge-fund-startup-north-immunology/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
+    "https://www.statnews.com/2026/09/17/biotech-news-ariadne-testing-psychedelic-like-drug-parkinsons-apathy/": "2026-09-18T12:05:41.594212+00:00",
     "https://www.statnews.com/2026/09/17/fda-doge-cuts-new-hires-slowed-centralized-hiring-center-short-staffed/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
+    "https://www.statnews.com/2026/09/17/fda-hiring-bottleneck-senate-hearings-chris-klomp-nicole-saphier/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/17/health-news-fentanyl-overdoses-fda-doge-morning-rounds/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/17/kennedy-announces-new-research-fund-to-improve-autism-diagnoses/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/17/kennedy-names-eight-new-members-uspstf-task-force/": "2026-09-18T12:05:41.594212+00:00",
     "https://www.statnews.com/2026/09/17/oppositional-defiant-disorder-use-of-odd-diagnosis-declines-in-children/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
+    "https://www.statnews.com/2026/09/17/psychedelics-definium-visas-international-students-court-ruling-readout-loud-podcast/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/17/rare-gene-variant-boosts-lung-cancer-risk-25-fold-in-non-smokers/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/": "2026-09-18T12:05:41.594212+00:00",
     "https://www.statnews.com/2026/09/17/sellas-immunotherapy-study-acute-myeloid-leukemia/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/03/pharmalittle-ultrangenyx-gene-therapy-failure-rev-med-lung-cancer/": "2026-09-04T11:59:07.339510+00:00",
+    "https://www.statnews.com/2026/09/17/zocdoc-for-chatbots-and-medicares-access-healh-tech/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/18/sudan-civil-war-cancer-treatment-wartime-tom-catena-mother-mercy-hospital/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/18/what-is-asian-glow-alcohol-flushing-aldh2-drinking-health-consequences/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/18/young-men-plastic-surgery-rates-influencers-lookmaxxing-clavicular/": "2026-09-18T12:05:41.594212+00:00",
     "https://www.statnews.com/pharmalot/2026/09/03/pharmalittle-ultrangenyx-gene-therapy-failure-rev-med-lung-cancer/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/pharmalot/2026/09/04/pharmalittle-bristol-car-t-trial-pause-pfizer-offloads-shelved-candidate/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/pharmalot/2026/09/08/fda-warns-api-supplier-residue-corroded-production-line-sandals/": "2026-09-10T12:04:38.007932+00:00",
