@@ -23015,9 +23015,275 @@
         "spectral-methods",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have found a type of cell that can begin the process of self-destruction — a normal biological process called programmed cell death — but then survive it. These surviving cells appear to become tougher than cells that never started that process, and they may help the body repair damaged tissue more quickly.\n\nResearchers are also interested in whether the same process might explain why some cancers come back after treatment. If cancer cells can also survive the early stages of cell death triggered by chemotherapy, they might re-establish a tumour later on.\n\nThis is early-stage scientific research. It describes a biological mechanism and does not change how cancer or other conditions are currently diagnosed or treated.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Cells that survive programmed death may aid tissue repair but also fuel cancer recurrence",
+      "is_preprint": false,
+      "run_date": "2026-09-19",
+      "run_iso": "2026-09-19T11:46:01Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-09-18T12:30:43Z",
+        "novelty": 8
+      },
+      "slug": "anastasis-cells-survive-apoptosis-tissue-repair-cancer",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-18T12:30:43Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover cells that cheat death and rebuild damaged tissue",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260917003722.htm"
+        }
+      ],
+      "standfirst": "A newly characterised population of cells that initiate but survive apoptosis acquires stress-resistance and contributes to tissue rebuilding, with potential implications for understanding how tumours return after treatment.",
+      "summary": "Researchers have described a population of cells capable of entering the early stages of programmed cell death — apoptosis — and then surviving the process, a phenomenon sometimes called anastasis. Writing in findings reported by ScienceDaily on 18 September 2026, the team found that these cells do not simply return to their prior state: their descendants become markedly more resistant to subsequent cellular damage than cells that never initiated apoptosis.\n\nThe study identifies a previously underappreciated mechanism by which tissues might rapidly rebuild after injury, with anastasis-competent cells contributing disproportionately to regeneration. However, the same stress-hardening properties that make these cells useful in repair may also allow cancer cells that partially commit to apoptosis — for instance, under chemotherapy pressure — to survive, persist, and re-establish tumours. The work thus offers a potential mechanistic explanation for a longstanding clinical observation: that some cancers return after treatment appeared to have largely eliminated them.\n\nThe primary report cited does not name the lead institution, journal, or researchers in sufficient detail to identify the source publication. Genetic Current will update this summary when the peer-reviewed paper is identified. The findings are relevant to cancer biology, tumour dormancy research, and the broader genetics of cell-fate decisions, but remain at the level of mechanistic discovery and do not change current clinical practice.",
+      "tags": [
+        "anastasis",
+        "apoptosis",
+        "cancer-recurrence",
+        "tissue-repair",
+        "cancer-biology",
+        "cell-fate"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Drosophila study maps dual role of Xrp1 in DNA damage response and cell competition downstream of p53",
+      "is_preprint": false,
+      "run_date": "2026-09-19",
+      "run_iso": "2026-09-19T11:46:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-18T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "plos-genetics-xrp1-p53-dna-damage-cell-competition-drosophila",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-18T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Dual contributions of Xrp1 to genome integrity through the DNA damage response and cell competition",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012309"
+        }
+      ],
+      "standfirst": "Research in PLOS Genetics identifies Xrp1 as a mediator of both p53-dependent DNA damage signalling and a separate p53-independent cell-competition mechanism, offering a model for understanding p53 tumour suppression in mammals.",
+      "summary": "A study published in PLOS Genetics (DOI: 10.1371/journal.pgen.1012309) by Chaitali Khan, Nasser M. Rusan, and Nicholas E. Baker reports that the bZip AT-hook transcription factor Xrp1 carries out at least two distinct genome-protective functions in Drosophila.\n\nFirst, Xrp1 acts as a transcriptional effector of p53, mediating p53-dependent gene expression and DNA damage-induced apoptosis as part of the DNA damage response (DDR). This places Xrp1 directly downstream of the fly's primary tumour-suppressor pathway. Second, the study describes a p53-independent role for Xrp1 in cell competition — a quality-control process by which less-fit cells are eliminated from a tissue by their neighbours. The two functions are separable, suggesting Xrp1 integrates multiple genome-integrity mechanisms.\n\nBecause Drosophila p53 biology is considered a tractable model for understanding how the mammalian p53 pathway suppresses tumourigenesis, these findings may inform research into how p53 coordinates apoptosis, cell competition, and genome stability in human cells. The work is of primary relevance to basic research in cancer biology, developmental genetics, and model-organism genomics.",
+      "tags": [
+        "xrp1",
+        "p53",
+        "dna-damage-response",
+        "cell-competition",
+        "drosophila",
+        "apoptosis",
+        "tumour-suppression",
+        "cancer-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study maps localised shared polygenic risk across 16 cancer types",
+      "is_preprint": false,
+      "run_date": "2026-09-19",
+      "run_iso": "2026-09-19T11:46:01Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-09-18T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "plos-genetics-shared-polygenic-risk-across-cancers",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-18T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Identifying shared polygenic risk across cancers",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012308"
+        }
+      ],
+      "standfirst": "Analysis of local genetic correlations and cross-cancer polygenic risk scores reveals structured patterns of shared susceptibility at specific genomic regions, even where genome-wide sharing appears modest.",
+      "summary": "A study published in PLOS Genetics (DOI: 10.1371/journal.pgen.1012308) by Jiaqi Hu, Maiyier Muheyati, Leqi Xu, Andrew DeWan, and Hongyu Zhao investigates the extent to which genetic susceptibility to cancer is shared across tumour types, and whether any sharing is distributed randomly or converges at specific genomic regions or functional loci.\n\nUsing SUPERGNOVA to estimate pairwise local genetic correlations across 16 specific cancers and a pan-cancer phenotype, the team found that shared polygenic risk is not spread uniformly across the genome. Instead, it shows structured regional convergence that is not apparent from genome-wide analyses alone. The researchers integrated these local correlation findings with cross-cancer polygenic risk score (PRS) associations to characterise where and how shared susceptibility manifests.\n\nThe work advances understanding of the genetic architecture of cancer risk and may inform future research into shared biological pathways — such as DNA repair, cell-cycle control, or immune regulation — that underpin susceptibility to multiple cancer types. As an analytical and epidemiological study, it does not alter clinical guidance on cancer screening or risk assessment. Results represent illustrative findings from published statistical models, not individually actionable risk estimates.",
+      "tags": [
+        "polygenic-risk-score",
+        "pan-cancer",
+        "cancer-genetics",
+        "local-genetic-correlation",
+        "gwas",
+        "shared-susceptibility",
+        "statistical-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Cntnap2 knockout mice show transient auditory brainstem changes and lasting startle hyperreactivity",
+      "is_preprint": true,
+      "run_date": "2026-09-19",
+      "run_iso": "2026-09-19T11:46:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-19T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "cntnap2-mouse-auditory-processing-autism-startle",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-19T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cntnap2 deletion in mice causes developmentally transient alterations in auditory processing and persistent startle hyperreactivity",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752490v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from bioRxiv reports that mice lacking the ASD-associated gene Cntnap2 display early auditory brainstem abnormalities that partially resolve with age, while exaggerated startle responses persist — modelling sensory symptoms seen in autism spectrum disorder.",
+      "summary": "A preprint posted to bioRxiv (10.64898/2026.09.17.752490v1) examines how loss of Cntnap2 — a gene associated with auditory processing, language development, and autism spectrum disorder (ASD) — affects hearing and sensory reactivity in mice across development.\n\nThe study finds that Cntnap2 knockout animals display aberrant auditory brainstem responses (ABRs) and exaggerated acoustic startle reactions at early developmental time points. Notably, the auditory brainstem abnormalities are developmentally transient, partially resolving as the animals mature, which mirrors observations of delayed rather than permanently disrupted auditory development in some individuals diagnosed with ASD. However, startle hyperreactivity persists throughout the lifespan of the knockout animals, suggesting the two phenotypes have distinct underlying mechanisms and trajectories.\n\nCNTNAP2 variants in humans have been associated with language impairment and ASD, and auditory hypersensitivity is a clinically recognised feature of the condition. This mouse model work characterises the developmental time course of sensory abnormalities and may inform the design of future studies testing interventions targeted at auditory or sensory processing in ASD-related conditions. As a preprint, these findings have not yet completed peer review.",
+      "tags": [
+        "cntnap2",
+        "autism-spectrum-disorder",
+        "auditory-processing",
+        "startle-response",
+        "mouse-model",
+        "neurodevelopmental-disorders",
+        "neurogenetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: genetic background shapes trajectory of organ-system decline in ageing Drosophila",
+      "is_preprint": true,
+      "run_date": "2026-09-19",
+      "run_iso": "2026-09-19T11:46:01Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-18T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "drosophila-genetics-reference-panel-organ-ageing-genotype",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-18T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genetic Variation in Organ System Decline Across the Drosophila Genetics Reference Panel",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.750524v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using 19 lines from the Drosophila Genetics Reference Panel finds that genotype influences not just lifespan but the rate and sequence of physiological decline across five organ systems.",
+      "summary": "A preprint posted to bioRxiv (10.64898/2026.09.14.750524v1) reports a systematic study of how genetic background shapes the trajectory of organ-system decline during ageing in Drosophila, using 19 lines from the Drosophila Genetics Reference Panel (DGRP).\n\nRather than relying solely on lifespan as a proxy for ageing — the conventional approach in model-organism genetics — the researchers repeatedly measured the function of five organ systems throughout each line's lifespan. They found that genotype has a significant influence on the rate and pattern of physiological decline, independent of its effect on total lifespan. Different genetic backgrounds produced distinct trajectories of organ-system deterioration, suggesting that the genetic architecture of ageing acts through multiple organ-specific mechanisms rather than a single shared process.\n\nThe work advocates for physiological decline measures as complementary or superior metrics to lifespan alone in ageing research, and provides a multi-organ framework for dissecting the genetics of biological ageing in a powerful model system. The findings are relevant to researchers in ageing genetics, quantitative genetics, and functional genomics. As a preprint, these results have not yet been peer-reviewed.",
+      "tags": [
+        "drosophila",
+        "ageing-genetics",
+        "organ-decline",
+        "dgrp",
+        "quantitative-genetics",
+        "lifespan",
+        "physiological-ageing",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint profiles conservation genetics of naturally small Turks and Caicos Rock Iguana island populations",
+      "is_preprint": true,
+      "run_date": "2026-09-19",
+      "run_iso": "2026-09-19T11:46:01Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-09-18T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "turks-caicos-rock-iguana-conservation-genetics-small-population",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-18T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "How small is too small? Genetic signatures from naturally small populations of a large island vertebrate, the Turks and Caicos Rock Iguana",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.13.751268v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint examines genetic signatures of inbreeding, drift, and founder effects in naturally small island populations of a large vertebrate, probing how such populations persist despite textbook extinction risks.",
+      "summary": "A preprint posted to bioRxiv (10.64898/2026.09.13.751268v1) reports on the population genetics of the Turks and Caicos Rock Iguana, a large island lizard whose populations are naturally small and geographically fragmented — conditions that population genetics theory predicts should impose severe costs through inbreeding, genetic drift, and reduced adaptive potential.\n\nThe study characterises genetic signatures including reduced genetic diversity, expression of deleterious alleles, founder effects, and limited gene flow across island populations. Despite these factors, the populations have persisted across many generations, raising questions about what genetic or demographic mechanisms allow naturally small island populations to avoid the extinction vortex predicted by classical models. The authors use the iguana system to interrogate thresholds of genetic risk and the degree to which island biota may be adapted to conditions that would be devastating in recently fragmented continental populations.\n\nThe work is relevant to conservation genetics, island biogeography, and population genetics theory, and may inform conservation management strategies for other naturally small or island-restricted vertebrate populations. Genealogists and educators interested in founder effects and genetic drift in isolated populations may also find the conceptual framing accessible. As a preprint, these findings have not yet been peer-reviewed.",
+      "tags": [
+        "conservation-genetics",
+        "island-biogeography",
+        "small-populations",
+        "founder-effect",
+        "genetic-drift",
+        "inbreeding",
+        "reptile-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-09-18T12:05:41.594212+00:00",
+  "last_run": "2026-09-19T11:47:52.680890+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012126": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
@@ -23029,6 +23295,8 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012303": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012304": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012306": "2026-09-12T11:30:23.901718+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012308": "2026-09-19T11:47:52.680890+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012309": "2026-09-19T11:47:52.680890+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012310": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012311": "2026-09-16T12:25:46.637828+00:00",
     "https://news.cancerresearchuk.org/2026/09/08/2025-26-in-review-cancer-research-uk-drives-major-progress-against-cancer/": "2026-09-08T11:58:32.729719+00:00",
@@ -23040,12 +23308,8 @@
     "https://news.cancerresearchuk.org/2026/09/15/data-science-unpicking-data-diversity-and-inclusive-research-design/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/15/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/16/tracking-immune-system-genetics-smouldering-myeloma-prevent-myeloma/": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.08.31.748413v1?rss=1": "2026-09-05T11:08:34.649960+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.01.748516v1?rss=1": "2026-09-07T13:15:46.420318+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.01.748529v1?rss=1": "2026-09-05T11:08:34.649960+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.01.748656v1?rss=1": "2026-09-06T11:30:09.847455+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.02.748779v1?rss=1": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.02.748885v1?rss=1": "2026-09-05T11:08:34.649960+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.03.748596v1?rss=1": "2026-09-07T13:15:46.420318+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.03.749262v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749444v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
@@ -23075,8 +23339,11 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.11.750860v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.11.750947v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.11.751073v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.11.751087v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.12.751172v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.13.751268v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.13.751273v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.14.750524v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.750853v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.751452v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.751483v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
@@ -23084,14 +23351,11 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751652v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751728v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.751136v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.17.752490v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.england.nhs.uk/2026/09/busiest-summer-ever-for-nhs-but-aes-see-record-numbers-within-four-hours/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.england.nhs.uk/2026/09/patients-to-get-quicker-treatment-for-migraines-acne-and-3-other-everyday-conditions-at-pharmacies/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260901070526.htm": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260902234508.htm": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260902234512.htm": "2026-09-05T11:08:34.649960+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260903064219.htm": "2026-09-06T11:30:09.847455+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260904000310.htm": "2026-09-05T11:08:34.649960+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260904000326.htm": "2026-09-07T13:15:46.420318+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260904000330.htm": "2026-09-07T13:15:46.420318+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201554.htm": "2026-09-10T12:04:38.007932+00:00",
@@ -23112,23 +23376,8 @@
     "https://www.sciencedaily.com/releases/2026/09/260915232136.htm": "2026-09-17T12:25:38.389802+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260915232138.htm": "2026-09-18T12:05:41.594212+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260916232529.htm": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260917003722.htm": "2026-09-19T11:47:52.680890+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260918000437.htm": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/03/anthony-fauci-vaccine-skeptics-book-trump-drug-pricing-deals-medicaid/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/biotech-news-seattle-scientists-launch-95-million-ai-biology-effort/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/health-news-hhs-flip-flops-on-disability-lawsuit-community-integration/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/ionis-fda-approval-zanvastro-alexander-disease/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/openevidence-launches-new-ai-models-clinicians-health-tech/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/recipients-of-gene-edited-pig-kidneys-receive-human-organs/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/03/tactical-athlete-health-risks-new-cardiovascular-guidelines-police-firefighters/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/angelman-syndrome-drug-ultragenyx-oak-hill-ionis/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/biotech-news-fda-takes-another-look-at-botanical-drugs/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/clozapine-children-schizophrenia-neutrophil-fda-monitoring/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/health-news-disabled-workers-at-greater-risk-of-losing-insurance/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/lindsay-clancy-health-care-silos-postpartum-care-failures/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/mass-general-brigham-medicare-advantage-network-cancer-treatment-dana-farber/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/04/pennsylvania-measles-deaths-data-cdc-director-rfk-jr/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/2026/09/05/md-vs-do-surrogacy-ai-medicine-stat-letters-to-editor/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
     "https://www.statnews.com/2026/09/06/ada-diabetes-association-ejection-conference-review-not-final/?utm_campaign=rss": "2026-09-07T13:15:46.420318+00:00",
     "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab/?utm_campaign=rss": "2026-09-07T13:15:46.420318+00:00",
     "https://www.statnews.com/2026/09/08/astrazeneca-tozorakimab-copd-exacerbations-titania-oberon/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
@@ -23223,25 +23472,27 @@
     "https://www.statnews.com/2026/09/16/senators-highlight-chris-klomp-power-rfk-jr-second-in-command/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/17/astrazeneca-enhertu-breast-cancer-england-nice-pricing-agreement-us-trade-deal/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/17/biotech-hedge-fund-startup-north-immunology/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/17/biotech-news-ariadne-testing-psychedelic-like-drug-parkinsons-apathy/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/17/biotech-news-ariadne-testing-psychedelic-like-drug-parkinsons-apathy/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/17/fda-doge-cuts-new-hires-slowed-centralized-hiring-center-short-staffed/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/17/fda-hiring-bottleneck-senate-hearings-chris-klomp-nicole-saphier/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/17/health-news-fentanyl-overdoses-fda-doge-morning-rounds/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/17/kennedy-announces-new-research-fund-to-improve-autism-diagnoses/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/17/kennedy-names-eight-new-members-uspstf-task-force/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/17/fda-hiring-bottleneck-senate-hearings-chris-klomp-nicole-saphier/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/17/health-news-fentanyl-overdoses-fda-doge-morning-rounds/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/17/kennedy-announces-new-research-fund-to-improve-autism-diagnoses/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/17/kennedy-names-eight-new-members-uspstf-task-force/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/17/oppositional-defiant-disorder-use-of-odd-diagnosis-declines-in-children/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/17/psychedelics-definium-visas-international-students-court-ruling-readout-loud-podcast/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/17/rare-gene-variant-boosts-lung-cancer-risk-25-fold-in-non-smokers/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.statnews.com/2026/09/17/psychedelics-definium-visas-international-students-court-ruling-readout-loud-podcast/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/17/rare-gene-variant-boosts-lung-cancer-risk-25-fold-in-non-smokers/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/17/sellas-immunotherapy-study-acute-myeloid-leukemia/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/17/zocdoc-for-chatbots-and-medicares-access-healh-tech/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/18/sudan-civil-war-cancer-treatment-wartime-tom-catena-mother-mercy-hospital/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/18/what-is-asian-glow-alcohol-flushing-aldh2-drinking-health-consequences/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/2026/09/18/young-men-plastic-surgery-rates-influencers-lookmaxxing-clavicular/": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/03/pharmalittle-ultrangenyx-gene-therapy-failure-rev-med-lung-cancer/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/04/pharmalittle-bristol-car-t-trial-pause-pfizer-offloads-shelved-candidate/?utm_campaign=rss": "2026-09-05T11:08:34.649960+00:00",
+    "https://www.statnews.com/2026/09/17/zocdoc-for-chatbots-and-medicares-access-healh-tech/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/health-news-who-supports-health-equity-policy-in-america/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/sudan-civil-war-cancer-treatment-wartime-tom-catena-mother-mercy-hospital/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/trump-touts-state-participation-generous-medicaid-drug-discount-program/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/what-is-asian-glow-alcohol-flushing-aldh2-drinking-health-consequences/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/young-men-plastic-surgery-rates-influencers-lookmaxxing-clavicular/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/pharmalot/2026/09/08/fda-warns-api-supplier-residue-corroded-production-line-sandals/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/09/astrazeneca-copd-win-fda-filling-key-jobs/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/cancer-medicines-remain-in-short-supply-across-the-united-states/": "2026-09-11T12:02:29.887638+00:00",
@@ -23257,7 +23508,9 @@
     "https://www.statnews.com/pharmalot/2026/09/14/another-astrazeneca-trial-failure-novo-name-change/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/pharmalot/2026/09/15/gsk-china-drug-licensing-deal-job-losses/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/17/fda-hiring-delays-bavarian-nordic-appoints-ceo/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/17/fda-hiring-delays-bavarian-nordic-appoints-ceo/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/": "2026-09-19T11:47:52.680890+00:00"
   },
   "takedowns": []
 }
