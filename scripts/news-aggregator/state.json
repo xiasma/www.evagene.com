@@ -23281,9 +23281,140 @@
         "reptile-genomics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Blood groups are proteins on the surface of red blood cells. Most people are familiar with the ABO and rhesus (Rh) systems, but there are dozens of other blood group systems. One of these — called AnWj — has been puzzling scientists since 1972 because no one knew which gene controlled it.\n\nResearchers have now found the answer: a gene called MAL. This means it is now possible, in principle, to screen blood donors using a genetic test rather than a slower laboratory method. For the very small number of people who lack the AnWj antigen and need a blood transfusion, finding a compatible donor should become much easier, reducing the risk of a serious reaction.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Scientists identify genetic basis of AnWj blood group antigen, establishing MAL system",
+      "is_preprint": false,
+      "run_date": "2026-09-20",
+      "run_iso": "2026-09-20T12:00:08+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-09-19T11:49:45+00:00",
+        "novelty": 9
+      },
+      "slug": "mal-blood-group-anwj-antigen-genetic-cause",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-19T10:14:15+00:00",
+          "publisher": "ScienceDaily",
+          "title": "Scientists solve a 50-year mystery and discover a new human blood group",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260918024828.htm"
+        }
+      ],
+      "standfirst": "A 54-year-old mystery in transfusion medicine is resolved as researchers pinpoint the gene responsible for the AnWj antigen, opening a route to safer matching for rare AnWj-negative patients.",
+      "summary": "Researchers have identified the genetic basis of the AnWj blood group antigen, solving a puzzle that dates to its original description in 1972 and formally establishing a new blood group system designated MAL. The findings, reported by ScienceDaily drawing on primary research, show that variation in the MAL gene — encoding a proteolipid involved in membrane transport — determines whether the AnWj antigen is expressed on red blood cells.\n\nAnWj-negative individuals are exceptionally rare, but when they require transfusion they are at risk of serious haemolytic reactions because compatible blood is extremely difficult to source. Prior to this work, the absence of a known genetic marker meant that identifying AnWj-negative donors and patients depended on laborious serological screening. A molecular test based on the MAL gene could substantially reduce that burden and improve safety for affected individuals.\n\nThe discovery extends the International Society of Blood Transfusion's catalogue of recognised blood group systems. For transfusion medicine services, the finding provides a framework for genotyping-based donor screening alongside existing systems such as ABO, Rh, and Kell. Researchers note that the MAL system joins a growing number of blood group loci resolved through genomic approaches, reflecting the broader utility of large-scale sequencing databases for rare antigen discovery.\n\nThe primary research source has not been individually identified in the feed item; the ScienceDaily write-up does not name the publishing journal or lead institution, so those details cannot be confirmed from available information.",
+      "tags": [
+        "blood-groups",
+        "mal-gene",
+        "anwj-antigen",
+        "transfusion-medicine",
+        "red-cell-immunology",
+        "rare-antigen",
+        "genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: expanded gnomAD v4.1 data shifts variant classifications for globin gene loci",
+      "is_preprint": true,
+      "run_date": "2026-09-20",
+      "run_iso": "2026-09-20T12:00:08+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-19T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "gnomad-v4-globin-gene-variants-hemoglobinopathies",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-19T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Analyzing globin gene variation in gnomAD: implications for variant interpretation in hemoglobinopathies",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.750622v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that the larger and more ancestry-diverse gnomAD v4.1 database alters fulfilment of ACMG/AMP population-frequency criteria for variants across eight globin genes relevant to haemoglobinopathies.",
+      "summary": "A preprint posted to bioRxiv by researchers at Cold Spring Harbor Laboratory analyses how the substantially enlarged Genome Aggregation Database (gnomAD) version 4.1 affects variant interpretation at the globin gene loci involved in sickle-cell disease, thalassaemias, and related haemoglobinopathies. The study examines eight genes across the alpha-globin locus (HBA1, HBA2, HBZ) and the beta-globin locus (HBB, HBD, HBG1, HBG2, HBE1).\n\ngnomAD v4.1 offers substantially greater sample sizes and improved ancestry stratification compared with v2.1.1, the version on which many existing variant classifications were based. The authors assess how this expanded population evidence alters fulfilment of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology (ACMG/AMP) variant classification criteria — specifically criteria that use allele frequency as evidence for or against pathogenicity. Variants that previously met a threshold for population frequency evidence may cross reclassification boundaries when re-evaluated against the larger dataset.\n\nThe work has direct relevance for molecular diagnostic laboratories and genetic counsellors working in haemoglobinopathy services, as reclassification of variants in these genes can affect carrier screening programmes, prenatal counselling, and the interpretation of variants of uncertain significance (VUS). Because gnomAD itself does not include disease cohorts, allele-frequency evidence is one of several criteria that laboratories must weigh alongside functional and segregation data.\n\nThis is a preprint and has not yet been peer-reviewed. Findings should be interpreted accordingly and are not a basis for immediate changes to laboratory practice without further validation.",
+      "tags": [
+        "gnomad",
+        "haemoglobinopathies",
+        "globin-genes",
+        "variant-interpretation",
+        "acmg-amp",
+        "carrier-screening",
+        "population-genetics",
+        "vus"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Roche opens Boston research centre as Sanfilippo gene therapy enters clinical use",
+      "is_preprint": false,
+      "run_date": "2026-09-20",
+      "run_iso": "2026-09-20T12:00:08+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 3,
+        "newest_iso": "2026-09-18T13:42:29+00:00",
+        "novelty": 2
+      },
+      "slug": "sanfilippo-gene-therapy-fda-approved-roche-boston",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2022/10/GettyImages-1211395654-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-18T13:42:29+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Roche expands its Boston footprint with new research center",
+          "url": "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "A newly FDA-approved gene therapy for Sanfilippo syndrome type A — reported in biotech news alongside Roche's expanded Boston presence — marks a further step in the translation of AAV-based approaches for lysosomal storage disorders.",
+      "summary": "A Stat News biotech round-up notes that a gene therapy has received FDA approval for Sanfilippo syndrome (mucopolysaccharidosis type III A, MPS IIIA), a rare autosomal recessive lysosomal storage disorder caused by deficiency of the enzyme heparan sulphate sulphamidase, encoded by SGSH. The approval was reported alongside news of Roche expanding its research footprint in Boston.\n\nSanfilippo syndrome type A is among the most common and severe subtypes of MPS III. It is characterised by progressive neurodegeneration in childhood, with onset typically in the first years of life and no previously approved disease-modifying treatment. An AAV-based gene therapy delivering a functional copy of SGSH has been the subject of clinical investigation for several years; regulatory approval marks a significant development for affected families and rare-disease researchers.\n\nThis item overlaps in subject matter with the Genetic Current cluster published on 18 September 2026 covering the Ultragenyx FDA approval for Sanfilippo syndrome type A. The Stat News item references the same approval in passing within a wider biotech digest, and does not provide additional primary findings. It is included here only to note the Roche research centre news context; readers seeking detail on the Sanfilippo approval are directed to the 18 September cluster.",
+      "tags": [
+        "sanfilippo-syndrome",
+        "mps-iiia",
+        "gene-therapy",
+        "fda-approval",
+        "rare-disease",
+        "roche"
+      ]
     }
   ],
-  "last_run": "2026-09-19T11:47:52.680890+00:00",
+  "last_run": "2026-09-20T12:01:14.083696+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012126": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
@@ -23309,7 +23440,6 @@
     "https://news.cancerresearchuk.org/2026/09/15/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/16/tracking-immune-system-genetics-smouldering-myeloma-prevent-myeloma/": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.01.748516v1?rss=1": "2026-09-07T13:15:46.420318+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.01.748656v1?rss=1": "2026-09-06T11:30:09.847455+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.03.748596v1?rss=1": "2026-09-07T13:15:46.420318+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.03.749262v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749444v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
@@ -23344,6 +23474,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.13.751268v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.13.751273v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.750524v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.14.750622v1?rss=1": "2026-09-20T12:01:14.083696+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.750853v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.751452v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.751483v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
@@ -23355,7 +23486,6 @@
     "https://www.england.nhs.uk/2026/09/busiest-summer-ever-for-nhs-but-aes-see-record-numbers-within-four-hours/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.england.nhs.uk/2026/09/patients-to-get-quicker-treatment-for-migraines-acne-and-3-other-everyday-conditions-at-pharmacies/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260903064219.htm": "2026-09-06T11:30:09.847455+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260904000326.htm": "2026-09-07T13:15:46.420318+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260904000330.htm": "2026-09-07T13:15:46.420318+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201554.htm": "2026-09-10T12:04:38.007932+00:00",
@@ -23378,6 +23508,10 @@
     "https://www.sciencedaily.com/releases/2026/09/260916232529.htm": "2026-09-18T12:05:41.594212+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260917003722.htm": "2026-09-19T11:47:52.680890+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260918000437.htm": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260918024810.htm": "2026-09-20T12:01:14.083696+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260918024812.htm": "2026-09-20T12:01:14.083696+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260918024814.htm": "2026-09-20T12:01:14.083696+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260918024828.htm": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/2026/09/06/ada-diabetes-association-ejection-conference-review-not-final/?utm_campaign=rss": "2026-09-07T13:15:46.420318+00:00",
     "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab/?utm_campaign=rss": "2026-09-07T13:15:46.420318+00:00",
     "https://www.statnews.com/2026/09/08/astrazeneca-tozorakimab-copd-exacerbations-titania-oberon/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
@@ -23486,13 +23620,18 @@
     "https://www.statnews.com/2026/09/17/sellas-immunotherapy-study-acute-myeloid-leukemia/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/17/zocdoc-for-chatbots-and-medicares-access-healh-tech/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/2026/09/18/geriatrician-explains-why-ai-for-older-adults-deserves-careful-scrutiny/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/2026/09/18/health-news-who-supports-health-equity-policy-in-america/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/health-news-who-supports-health-equity-policy-in-america/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/2026/09/18/sudan-civil-war-cancer-treatment-wartime-tom-catena-mother-mercy-hospital/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/18/trump-touts-state-participation-generous-medicaid-drug-discount-program/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/18/trump-touts-state-participation-generous-medicaid-drug-discount-program/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/2026/09/18/what-is-asian-glow-alcohol-flushing-aldh2-drinking-health-consequences/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/18/young-men-plastic-surgery-rates-influencers-lookmaxxing-clavicular/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/2026/09/19/jehovahs-witnesses-blood-derived-products-transfusions/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/pharmalot/2026/09/08/fda-warns-api-supplier-residue-corroded-production-line-sandals/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/09/astrazeneca-copd-win-fda-filling-key-jobs/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/cancer-medicines-remain-in-short-supply-across-the-united-states/": "2026-09-11T12:02:29.887638+00:00",
@@ -23510,7 +23649,9 @@
     "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/pharmalot/2026/09/17/fda-hiring-delays-bavarian-nordic-appoints-ceo/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/": "2026-09-19T11:47:52.680890+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/": "2026-09-19T11:47:52.680890+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00"
   },
   "takedowns": []
 }
