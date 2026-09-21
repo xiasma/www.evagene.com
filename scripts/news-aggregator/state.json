@@ -23412,9 +23412,52 @@
         "rare-disease",
         "roche"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint proposes chromatin polyvalency model for precise gene timing in embryonic development",
+      "is_preprint": true,
+      "run_date": "2026-09-21",
+      "run_iso": "2026-09-21T13:35:22Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-20T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "chromatin-polyvalency-gene-regulation-organogenesis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-20T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Hierarchical chromatin polyvalency governs robust gene regulation and organogenesis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751898v1?rss=1"
+        }
+      ],
+      "standfirst": "Temporal epigenomic profiling of post-implantation mouse embryos suggests that combinations of multiple histone marks, rather than bivalency alone, govern transcriptional timing during organogenesis.",
+      "summary": "Researchers at Cold Spring Harbor Laboratory have posted a preprint on bioRxiv describing what they term 'hierarchical chromatin polyvalency' — a model proposing that the coordinated action of multiple histone modifications, acting together, controls the precise timing of gene activation during embryonic development.\n\nThe work challenges a widely cited model in developmental epigenomics: bivalency, in which the simultaneous presence of activating mark H3K4me3 and repressive mark H3K27me3 was thought to hold genes in a poised, readily activatable state. The bivalency model has attracted scepticism in recent years because depleting H3K27me3 does not consistently trigger rapid gene activation — an observation difficult to reconcile with H3K27me3 acting as the primary silencing mechanism.\n\nUsing temporal epigenomic profiling of post-implantation mouse embryos, the authors map how combinations of histone marks change across developmental time points and argue that robust gene regulation and organogenesis require a hierarchy of co-occurring chromatin states — polyvalency — rather than the simpler bivalent pairing. The study is a preprint and has not yet been peer-reviewed; the data and conclusions should be treated accordingly.\n\nFor developmental biologists and chromatin researchers, the findings add to growing evidence that chromatin-based gene regulation during embryogenesis is more combinatorial than early models suggested. The work may also have implications for understanding how developmental gene-regulation errors arise in congenital conditions, though no direct clinical claims are made.",
+      "tags": [
+        "chromatin-architecture",
+        "histone-modifications",
+        "bivalency",
+        "epigenomics",
+        "embryonic-development",
+        "organogenesis",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-09-20T12:01:14.083696+00:00",
+  "last_run": "2026-09-21T13:35:59.465310+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012126": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
@@ -23439,8 +23482,6 @@
     "https://news.cancerresearchuk.org/2026/09/15/data-science-unpicking-data-diversity-and-inclusive-research-design/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/15/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/16/tracking-immune-system-genetics-smouldering-myeloma-prevent-myeloma/": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.01.748516v1?rss=1": "2026-09-07T13:15:46.420318+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.03.748596v1?rss=1": "2026-09-07T13:15:46.420318+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.03.749262v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749444v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749500v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
@@ -23481,13 +23522,12 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751489v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751652v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751728v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.15.751898v1?rss=1": "2026-09-21T13:35:59.465310+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.751136v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.17.752490v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.england.nhs.uk/2026/09/busiest-summer-ever-for-nhs-but-aes-see-record-numbers-within-four-hours/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.england.nhs.uk/2026/09/patients-to-get-quicker-treatment-for-migraines-acne-and-3-other-everyday-conditions-at-pharmacies/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260904000326.htm": "2026-09-07T13:15:46.420318+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260904000330.htm": "2026-09-07T13:15:46.420318+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201554.htm": "2026-09-10T12:04:38.007932+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201609.htm": "2026-09-10T12:04:38.007932+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260909231717.htm": "2026-09-12T11:30:23.901718+00:00",
@@ -23512,8 +23552,8 @@
     "https://www.sciencedaily.com/releases/2026/09/260918024812.htm": "2026-09-20T12:01:14.083696+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260918024814.htm": "2026-09-20T12:01:14.083696+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260918024828.htm": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.statnews.com/2026/09/06/ada-diabetes-association-ejection-conference-review-not-final/?utm_campaign=rss": "2026-09-07T13:15:46.420318+00:00",
-    "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab/?utm_campaign=rss": "2026-09-07T13:15:46.420318+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260919031033.htm": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260920222354.htm": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/08/astrazeneca-tozorakimab-copd-exacerbations-titania-oberon/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
     "https://www.statnews.com/2026/09/08/fat-medical-student-inclusivity-advocacy-health-at-any-size-physician/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
     "https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
@@ -23632,6 +23672,16 @@
     "https://www.statnews.com/2026/09/18/what-is-asian-glow-alcohol-flushing-aldh2-drinking-health-consequences/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/18/young-men-plastic-surgery-rates-influencers-lookmaxxing-clavicular/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/19/jehovahs-witnesses-blood-derived-products-transfusions/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
+    "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/alkermes-orexin-agonist-adhd-study/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/clinical-trials-website-pregnant-lactating-patients-checkbox/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/health-news-trump-newest-vaccine-demands-repeat-old-misinformation/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/kratom-withdrawal-addiction-centers-report-surge/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/nih-budget-double-100-billion-reed-jobs/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/novo-nordisk-capital-markets-day-obesity-strategy/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/rfk-jr-maha-movement-gop-midterm-candidates/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/trust-in-science-nick-florko-on-understanding-growing-scientific-mistrust/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/trust-in-science-reporter-nick-florko-interview-status-report-alex-hogan/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/pharmalot/2026/09/08/fda-warns-api-supplier-residue-corroded-production-line-sandals/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/09/astrazeneca-copd-win-fda-filling-key-jobs/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/cancer-medicines-remain-in-short-supply-across-the-united-states/": "2026-09-11T12:02:29.887638+00:00",
@@ -23651,7 +23701,8 @@
     "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/": "2026-09-19T11:47:52.680890+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00"
   },
   "takedowns": []
 }
