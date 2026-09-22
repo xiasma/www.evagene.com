@@ -23455,11 +23455,319 @@
         "organogenesis",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers have posted a large study — not yet reviewed by other scientists — examining the genetics of schizophrenia. They analysed genetic data from nearly 88,000 people with schizophrenia and 150,000 people without it, looking specifically for rare changes in protein-coding genes.\n\nThe study identified 16 genes where rare, damaging mutations appeared significantly more often in people with schizophrenia than in people without it. Several of these genes are also linked to other conditions affecting brain development in childhood.\n\nBecause many people with schizophrenia do not carry any of these rare variants, and because the study is still a preprint and not yet peer-reviewed, these findings are an early step in understanding the biology of schizophrenia rather than a tool for predicting an individual's risk. Researchers say the results could eventually help scientists understand what goes wrong in the brain and potentially point towards new areas of investigation.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Largest rare-variant study of schizophrenia identifies 16 genes at exome-wide significance",
+      "is_preprint": true,
+      "run_date": "2026-09-22",
+      "run_iso": "2026-09-22T12:19:23Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-09-21T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "schizophrenia-rare-coding-variant-study-16-genes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-21T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Analysis of Rare Coding Variation Identifies New Genetic Contributors to Schizophrenia",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751936v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reporting 87,959 cases implicates 16 genes — including SETD1A, SCN2A, and SP4 — with consistent effects across ancestries and overlap with other neurodevelopmental conditions.",
+      "summary": "A preprint posted to bioRxiv by researchers who have not yet been named in the available lede presents what they describe as the largest rare coding variant association study of schizophrenia conducted to date, drawing on 87,959 schizophrenia cases and 150,587 controls. The analysis identifies 16 genes reaching exome-wide significance: SETD1A, ZMYM2, HERC1, RB1CC1, SCAF1, XPO7, SP4, FYN, PPP3CA, CUL1, HDAC9, JARID2, ATP9A, PTK2, STAG1, and SCN2A. A further 24 genes reach a 5% false discovery rate threshold.\n\nCases carrying ultra-rare, damaging variants — predominantly protein-truncating mutations and deleterious missense changes — show strong enrichment in constrained genes, meaning genes where natural selection has historically acted against functional disruption. The authors report that these effects are consistent across ancestries included in the study, which strengthens confidence in the findings relative to single-ancestry analyses.\n\nThe preprint notes that half of the 40 genes identified overlap with genes implicated in other neurodevelopmental conditions, echoing a pattern observed in earlier smaller studies. Several of the genes — including SCN2A and SETD1A — have already attracted attention in developmental and epileptic encephalopathy research, suggesting shared rare-variant biology across a range of neurodevelopmental presentations.\n\nAs a preprint, these findings have not yet undergone peer review and should be read accordingly. If confirmed, the dataset would substantially expand the catalogue of rare variants contributing to schizophrenia risk and provide a richer framework for understanding its genetic architecture.",
+      "tags": [
+        "schizophrenia",
+        "rare-variant",
+        "exome-sequencing",
+        "neurodevelopmental-disorders",
+        "protein-truncating-variants",
+        "constrained-genes",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Multi-ancestry single-cell eQTL map of lupus identifies regulatory variants missed by bulk analyses",
+      "is_preprint": true,
+      "run_date": "2026-09-22",
+      "run_iso": "2026-09-22T12:19:23Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 7,
+        "newest_iso": "2026-09-21T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "sle-single-cell-multi-ancestry-eqtl-map",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-21T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Single-cell multi-ancestry regulatory map of systemic lupus erythematosus",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752560v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports SLEmap, generated from 281 patients with systemic lupus erythematosus, which colocalises 149 eQTL signals with known GWAS loci — nearly half detectable only at cell-type resolution.",
+      "summary": "Researchers have posted a preprint to bioRxiv presenting SLEmap, a multi-ancestry single-cell expression quantitative trait locus (sc-eQTL) map built from peripheral blood mononuclear cells derived from 281 patients with systemic lupus erythematosus (SLE). The dataset yields 18,608 independent eQTLs across 5,656 genes.\n\nOf particular note, 149 signals in 66 genes colocalise with established SLE genome-wide association study (GWAS) loci. Critically, the authors report that nearly half of these colocalised signals were detectable only through cell-type-level analyses — that is, they would have been invisible in conventional bulk-tissue eQTL studies. This underscores the value of single-cell resolution for translating GWAS hits into specific regulatory mechanisms and candidate genes.\n\nThe multi-ancestry design is a deliberate methodological choice aimed at improving the generalisability of findings beyond predominantly European-ancestry cohorts, which have historically dominated eQTL catalogues. The preprint describes which ancestries are represented, though the available lede does not enumerate them.\n\nSLEmap adds to a growing ecosystem of disease-specific single-cell regulatory maps — analogous to efforts in inflammatory bowel disease and rheumatoid arthritis — that pair genomic and transcriptomic data to prioritise candidates for functional follow-up. As a preprint, the findings await peer review.",
+      "tags": [
+        "systemic-lupus-erythematosus",
+        "eqtl",
+        "single-cell-genomics",
+        "multi-ancestry",
+        "gwas",
+        "regulatory-genomics",
+        "peripheral-blood",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Single-cell multiome study maps how cellular senescence reshapes genetic regulation of chromatin and gene expression",
+      "is_preprint": true,
+      "run_date": "2026-09-22",
+      "run_iso": "2026-09-22T12:19:23Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-09-21T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "senescence-eqtl-catl-single-cell-multiome",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-21T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Single-cell multiomic QTL mapping reveals state-dependent genetic regulation and associated gene during cellular senescence",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.17.752532v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using 100 genotyped donors finds that replicative senescence substantially alters eQTL and chromatin accessibility QTL landscapes, with implications for non-coding risk loci in complex disease.",
+      "summary": "A preprint posted to bioRxiv reports single-cell multiome ATAC-RNA profiling from proliferating and replicatively senescent primary human umbilical vein endothelial cells (HUVECs) derived from 100 genotyped donors. The study maps expression quantitative trait loci (eQTLs) and chromatin accessibility QTLs (caQTLs) separately in each cellular state, allowing direct comparison of how the inherited regulatory landscape changes as cells undergo senescence.\n\nThe authors additionally implement a covariance-aware multivariate QTL mapping approach to identify chromatin accessibility-expression QTLs (caeQTLs), which model accessibility and expression jointly rather than treating them as independent phenotypes. The joint analysis recovers regulatory signals not captured by either univariate approach alone.\n\nSenescence — the state in which cells cease dividing in response to stress or replicative exhaustion — is increasingly recognised as a contributor to ageing-related disease and tissue dysfunction. By characterising how this state alters the effects of inherited genetic variants on chromatin and transcription, the work provides a framework for understanding why some disease-associated variants identified through GWAS may exert their effects specifically in aged or stressed cell populations rather than in proliferating cells.\n\nThe preprint does not yet carry peer-reviewed status. The HUVEC system, while tractable for QTL mapping, represents a single endothelial cell type, and the generalisability to other tissues remains to be established.",
+      "tags": [
+        "senescence",
+        "eqtl",
+        "caqtl",
+        "single-cell-genomics",
+        "chromatin-accessibility",
+        "multiome",
+        "endothelial-cells",
+        "ageing",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Classic galactosemia is a rare inherited condition caused by the body's inability to properly process a sugar called galactose, found in dairy products and some other foods. It is detected at birth through newborn screening in many countries, and affected babies are immediately placed on a restricted diet.\n\nDespite early dietary treatment, some people with galactosemia experience lasting problems such as learning difficulties or fertility issues. Scientists have wondered whether some of these complications might begin before birth, when a developing baby is exposed to high levels of galactose-related substances through the mother's metabolism.\n\nResearchers publishing in the journal PLOS Genetics used rats that lack the GALT enzyme — the same enzyme affected in classic galactosemia — to study what happens before birth. Their findings suggest that galactose metabolites do accumulate in the womb and that this has measurable effects on development.\n\nThis is early-stage research in an animal model, and it does not change current guidance for managing galactosemia. Researchers say it may help explain why some long-term complications arise even with early treatment, which could eventually guide new research directions.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Rat model study probes prenatal origins of long-term complications in classic galactosemia",
+      "is_preprint": false,
+      "run_date": "2026-09-22",
+      "run_iso": "2026-09-22T12:19:23Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-09-21T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "galactosemia-galt-prenatal-rat-model",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-21T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Prenatal consequences of GALT deficiency in a rat model of classic galactosemia",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study using GALT-deficient rats documents elevated galactose metabolites and downstream consequences in utero, suggesting that complications may begin before birth.",
+      "summary": "Researchers at Emory University School of Medicine, led by Judith L. Fridovich-Keil and colleagues, have published a study in PLOS Genetics examining prenatal consequences of galactose-1-P uridylyltransferase (GALT) deficiency — the enzyme whose loss causes classic galactosemia (CG), a potentially life-threatening inherited metabolic disorder detectable by newborn screening.\n\nClassic galactosemia is caused by biallelic loss-of-function variants in the GALT gene. Despite newborn screening and dietary restriction of galactose from birth, many affected individuals develop long-term complications including cognitive difficulties, speech and language problems, and, in females, primary ovarian insufficiency. The reasons why these complications persist despite early dietary intervention have remained poorly understood.\n\nPrior work has shown that galactose metabolites accumulate in utero in CG. The new study, using a rat model of GALT deficiency, characterises the nature and extent of prenatal consequences in greater detail, with the authors investigating whether intrauterine exposure to elevated galactose metabolites may contribute to the long-term outcomes seen postnatally. The available data suggest prenatal effects are measurable, though the precise mechanisms linking foetal metabolite exposure to adult complications require further investigation.\n\nFor genetic counsellors and clinicians working with families affected by galactosemia, the findings add biological plausibility to the hypothesis that the window for intervention may extend to the prenatal period, a question with implications for how the disorder is conceptualised and monitored — though this remains a research finding rather than a basis for changed clinical practice.",
+      "tags": [
+        "galactosemia",
+        "galt",
+        "inborn-errors-of-metabolism",
+        "prenatal-development",
+        "newborn-screening",
+        "rat-model",
+        "rare-disease",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Base editing used to generate iPSC model collection for centronuclear myopathy",
+      "is_preprint": true,
+      "run_date": "2026-09-22",
+      "run_iso": "2026-09-22T12:19:23Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-09-21T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "ips-base-editing-centronuclear-myopathy-collection",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-21T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "iPS-CNM: an iPSC collection generated by base editing for centronuclear myopathy",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751756v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports iPS-CNM, a library of iPSC lines carrying distinct centronuclear myopathy mutations introduced by base editing into a common healthy-donor background, enabling controlled comparison across genotypes.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing iPS-CNM, a collection of induced pluripotent stem cell (iPSC) lines engineered to carry distinct mutations associated with centronuclear myopathy (CNM), a rare inherited muscle disease characterised by progressive weakness and abnormal positioning of nuclei within muscle fibres.\n\nCNM is genetically heterogeneous, with pathogenic variants identified in genes including MTM1, DNM2, BIN1, and RYR1, among others. Studying CNM has historically been complicated by this mutation diversity and by differences in genetic background between patient-derived cell lines, which make it difficult to attribute observed cellular phenotypes specifically to the disease variant rather than to broader genomic differences between individuals.\n\nThe iPS-CNM approach addresses this by using base editing — a form of genome editing that chemically converts one DNA base to another without making double-strand breaks — to introduce specific CNM-associated mutations directly into a single iPSC line derived from a healthy donor. This creates a matched panel of lines that differ only at the introduced variant, enabling cleaner comparisons.\n\nThe preprint describes optimisation of base editor selection and guide RNA design, noting that editing efficiency was strongly dependent on both the choice of base editor variant and the target sequence context. The resulting collection is positioned as a community resource for CNM research and, more broadly, as a demonstration of the base-editing-for-disease-modelling workflow. As a preprint, the work has not yet undergone peer review.",
+      "tags": [
+        "centronuclear-myopathy",
+        "base-editing",
+        "ipsc",
+        "disease-modelling",
+        "rare-disease",
+        "neuromuscular",
+        "genome-editing",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Condensin I complex shown to control higher-order chromosome structure and recombination in male meiosis",
+      "is_preprint": true,
+      "run_date": "2026-09-22",
+      "run_iso": "2026-09-22T12:19:23Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-09-21T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "condensin-i-meiotic-chromosome-organisation-ncapd2",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-21T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mammalian condensin I controls higher-order chromosome organization and homologous recombination in meiotic prophase I",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.15.751738v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that the NCAPD2 subunit of condensin I is essential for prophase I chromosome organisation and male fertility in mammals, with condensin loss disrupting homologous recombination.",
+      "summary": "Researchers have posted a preprint to bioRxiv examining the role of the condensin I complex in organising chromosomes during meiosis — the specialised cell division that produces sperm and eggs. The study focusses on NCAPD2, a subunit of the SMC-condensin I complex, which shapes chromatin through a process called loop extrusion.\n\nMeiotic chromosomes adopt a characteristic axis-loop architecture in prophase I — the stage at which homologous chromosome pairs align and exchange genetic material through homologous recombination. Accurate recombination is essential for generating genetic diversity and for ensuring that chromosomes segregate correctly into gametes. Failures in this process can lead to infertility or chromosomally abnormal offspring.\n\nUsing mouse models, the authors demonstrate that NCAPD2 colocalises with prophase I chromatin and that its loss results in male infertility. The data implicate condensin I in establishing the higher-order chromatin loop structure required for normal synapsis — the close pairing of homologous chromosomes via the synaptonemal complex — and for faithful homologous recombination.\n\nThe condensin complexes (condensin I and condensin II) have well-established roles in mitotic chromosome compaction, but their contributions to meiotic chromosome structure have been less thoroughly characterised in mammals. This study adds to an emerging picture in which chromatin loop extrusion machinery plays active roles in the meiotic programme. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "condensin",
+        "meiosis",
+        "homologous-recombination",
+        "chromosome-architecture",
+        "chromatin-loop-extrusion",
+        "male-fertility",
+        "molecular-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study maps epistasis between two DNA repair pathways in bacterial survival after antibiotic treatment",
+      "is_preprint": false,
+      "run_date": "2026-09-22",
+      "run_iso": "2026-09-22T12:19:23Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-09-21T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "fluoroquinolone-persisters-ner-homologous-recombination-epistasis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-21T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Genetic analysis of epistasis between nucleotide excision repair and homologous recombination in the recovery of persisters after fluoroquinolone treatment",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012305"
+        }
+      ],
+      "standfirst": "Research from Princeton University examines how nucleotide excision repair and homologous recombination interact genetically to determine whether bacterial persisters recover from fluoroquinolone-induced DNA damage.",
+      "summary": "Researchers at Princeton University, led by Mark P. Brynildsen and colleagues, have published a study in PLOS Genetics investigating how two major DNA repair pathways — nucleotide excision repair (NER) and homologous recombination (HR) — interact epistatically to govern the recovery of bacterial persisters following fluoroquinolone (FQ) antibiotic treatment.\n\nPersister cells are a sub-population of bacteria within a culture that survive antibiotic exposure not through acquired resistance mutations but through a transient, phenotypically tolerant state. Fluoroquinolones, which target DNA gyrase and topoisomerase IV to generate lethal double-strand DNA breaks, are among the most effective antibiotic classes against non-growing bacteria including those in stationary phase. Previous work established that FQ-treated persisters survive by actively repairing DNA damage rather than by avoiding it.\n\nThe new study dissects the genetic relationship between NER and HR in this repair process. Epistasis analysis — examining the phenotypic consequences of disrupting each pathway alone versus in combination — allows inference of whether the two pathways act in the same or parallel routes. The findings clarify the hierarchy and interdependence of these repair systems in post-FQ recovery, with implications for understanding why some persister populations are more refractory to treatment than others.\n\nFor researchers studying antibiotic tolerance and the roots of clinical treatment failure, the work provides a more granular picture of the repair genetics underpinning persistence. The study is peer-reviewed and published in full in PLOS Genetics.",
+      "tags": [
+        "antibiotic-persistence",
+        "fluoroquinolones",
+        "nucleotide-excision-repair",
+        "homologous-recombination",
+        "epistasis",
+        "dna-repair",
+        "bacterial-genetics",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-09-21T13:35:59.465310+00:00",
+  "last_run": "2026-09-22T12:21:37.504788+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012126": "2026-09-10T12:04:38.007932+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012285": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012289": "2026-09-10T12:04:38.007932+00:00",
@@ -23468,12 +23776,13 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012301": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012303": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012304": "2026-09-18T12:05:41.594212+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012305": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012306": "2026-09-12T11:30:23.901718+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012308": "2026-09-19T11:47:52.680890+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012309": "2026-09-19T11:47:52.680890+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012310": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012311": "2026-09-16T12:25:46.637828+00:00",
-    "https://news.cancerresearchuk.org/2026/09/08/2025-26-in-review-cancer-research-uk-drives-major-progress-against-cancer/": "2026-09-08T11:58:32.729719+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012316": "2026-09-22T12:21:37.504788+00:00",
     "https://news.cancerresearchuk.org/2026/09/08/how-northern-ireland-can-save-almost-6000-lives-from-cancer/": "2026-09-10T12:04:38.007932+00:00",
     "https://news.cancerresearchuk.org/2026/09/09/from-ai-to-the-death-of-the-default-what-cancer-science-will-look-like-in-2036/": "2026-09-10T12:04:38.007932+00:00",
     "https://news.cancerresearchuk.org/2026/09/09/link-between-hot-drinks-and-type-of-oesophageal-cancer-in-the-uk/": "2026-09-10T12:04:38.007932+00:00",
@@ -23482,6 +23791,7 @@
     "https://news.cancerresearchuk.org/2026/09/15/data-science-unpicking-data-diversity-and-inclusive-research-design/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/15/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/16/tracking-immune-system-genetics-smouldering-myeloma-prevent-myeloma/": "2026-09-17T12:25:38.389802+00:00",
+    "https://news.cancerresearchuk.org/2026/09/22/tackling-variation-in-cancer-treatment-can-the-national-cancer-plan-deliver/": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.03.749262v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749444v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.04.749500v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
@@ -23519,13 +23829,20 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.14.750853v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.751452v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.751483v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.15.751127v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751489v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751652v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751728v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.15.751738v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.15.751756v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751898v1?rss=1": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.15.751936v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.751136v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.17.752490v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.17.752532v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.18.752560v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.england.nhs.uk/2026/09/busiest-summer-ever-for-nhs-but-aes-see-record-numbers-within-four-hours/": "2026-09-10T12:04:38.007932+00:00",
+    "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
     "https://www.england.nhs.uk/2026/09/patients-to-get-quicker-treatment-for-migraines-acne-and-3-other-everyday-conditions-at-pharmacies/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260907201554.htm": "2026-09-10T12:04:38.007932+00:00",
@@ -23554,18 +23871,9 @@
     "https://www.sciencedaily.com/releases/2026/09/260918024828.htm": "2026-09-20T12:01:14.083696+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260919031033.htm": "2026-09-21T13:35:59.465310+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260920222354.htm": "2026-09-21T13:35:59.465310+00:00",
-    "https://www.statnews.com/2026/09/08/astrazeneca-tozorakimab-copd-exacerbations-titania-oberon/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
-    "https://www.statnews.com/2026/09/08/fat-medical-student-inclusivity-advocacy-health-at-any-size-physician/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
-    "https://www.statnews.com/2026/09/08/fda-guidance-reynolds-selling-fruity-new-vapes-unauthorized/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260920222410.htm": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260921081116.htm": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/2026/09/08/fda-names-leaders-cder-cber-michael-davis-karim-mikhail/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/08/flu-vaccination-season-gloves-waste-climate-changes/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
-    "https://www.statnews.com/2026/09/08/health-news-administrative-gap-delays-access-to-revmed-pancreatic-cancer-drug/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
-    "https://www.statnews.com/2026/09/08/inhibrx-inbrx-106-ox40-immunotherapy-head-and-neck-cancer-hpv-positive/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
-    "https://www.statnews.com/2026/09/08/novartis-del-desiran-myotonic-dystrophy-harbor-trial-failure-neuromuscular/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
-    "https://www.statnews.com/2026/09/08/pancreatic-cancer-patients-caught-beween-fda-drug-approval-insurance-coverage/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
-    "https://www.statnews.com/2026/09/08/roivant-mosliciguat-pulmonary-hypertension-interstitial-lung-disease-results/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
-    "https://www.statnews.com/2026/09/08/rural-hospital-mergers-medicaid-cuts-part-3-unraveled-series/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
-    "https://www.statnews.com/2026/09/08/uhg-political-donations-katherine-clark-democratic-whip-medicare-for-all/?utm_campaign=rss": "2026-09-08T11:58:32.729719+00:00",
     "https://www.statnews.com/2026/09/08/unitedhealth-campaign-donations-katherine-clark-no-surprises-act-debate/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/2026/09/09/ai-healthcare-limitations-emergency-room-study-medical-scribe-impact/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/2026/09/09/ai-medicine-assisted-physicians-research-autonomy/": "2026-09-10T12:04:38.007932+00:00",
@@ -23674,14 +23982,22 @@
     "https://www.statnews.com/2026/09/19/jehovahs-witnesses-blood-derived-products-transfusions/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/21/alkermes-orexin-agonist-adhd-study/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/2026/09/21/clinical-trials-website-pregnant-lactating-patients-checkbox/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/2026/09/21/health-news-trump-newest-vaccine-demands-repeat-old-misinformation/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/21/kratom-withdrawal-addiction-centers-report-surge/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/21/nih-budget-double-100-billion-reed-jobs/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/21/novo-nordisk-capital-markets-day-obesity-strategy/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/21/rfk-jr-maha-movement-gop-midterm-candidates/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/21/trump-plan-for-commission-to-review-nih-grants-push-back/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/2026/09/21/trust-in-science-nick-florko-on-understanding-growing-scientific-mistrust/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/21/trust-in-science-reporter-nick-florko-interview-status-report-alex-hogan/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/09/22/brian-blase-paragon-health-institute-gop-aca-medicaid-reforms/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.statnews.com/2026/09/22/health-news-federal-autism-committee-head-has-financial-ties-to-leucovorin/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.statnews.com/2026/09/22/integrative-oncology-cancer-symptoms-insurance-asco-sio-pain-fatigue/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.statnews.com/2026/09/22/ohio-governor-election-health-care-policy-acton-ramaswamy/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.statnews.com/2026/09/22/social-media-bans-australia-uk-teen-mental-health/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/pharmalot/2026/09/08/fda-warns-api-supplier-residue-corroded-production-line-sandals/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/09/astrazeneca-copd-win-fda-filling-key-jobs/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/cancer-medicines-remain-in-short-supply-across-the-united-states/": "2026-09-11T12:02:29.887638+00:00",
