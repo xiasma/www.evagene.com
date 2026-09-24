@@ -23934,19 +23934,155 @@
         "genome-editing",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "gps",
+        "patients"
+      ],
+      "for_patients": "Researchers and regulators in the United States have been looking at a blood test called Galleri, made by a company called Grail. The test works by looking for tiny fragments of DNA that cancer cells shed into the blood — a technique known as liquid biopsy. An expert advisory panel set up by the US Food and Drug Administration (FDA) has said it believes the benefits of Galleri outweigh the risks, which is an important step in the process of deciding whether to formally approve the test.\n\nThis does not mean the test is approved yet — the FDA makes its own final decision, usually sometime after the advisory panel reports. Researchers note that more evidence is still needed on how well the test works in different groups of people, and how its results would fit into existing cancer care.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "FDA advisory panel endorses Grail's Galleri multi-cancer blood test",
+      "is_preprint": false,
+      "run_date": "2026-09-24",
+      "run_iso": "2026-09-24T12:30:44Z",
+      "scores": {
+        "audience_breadth": 8,
+        "importance": 8,
+        "newest_iso": "2026-09-23T23:26:01Z",
+        "novelty": 9
+      },
+      "slug": "grail-galleri-fda-advisory-panel-endorsement",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/Grail_Lab-Tour_FrameCaps_50-1-scaled-1-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-23T21:47:58Z",
+          "publisher": "Stat News",
+          "title": "STAT+: FDA advisory panel endorses Grail blood test for cancer, saying benefits outweigh risks",
+          "url": "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/?utm_campaign=rss"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-09-24T10:49:01Z",
+          "publisher": "Cancer Research UK",
+          "title": "What's next for liquid biopsy in cancer diagnosis and treatment?",
+          "url": "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/"
+        }
+      ],
+      "standfirst": "An FDA advisory committee has concluded that the benefits of Galleri, a circulating-tumour-DNA screening test covering multiple cancer types, outweigh its risks.",
+      "summary": "An FDA advisory panel has voted to endorse Galleri, a liquid-biopsy blood test developed by the biotech company Grail, designed to detect signals from more than 50 cancer types from a single blood draw. The committee's conclusion — that the test's benefits outweigh its risks — marks a significant step towards potential regulatory approval, though a formal FDA decision would follow separately.\n\nGalleri detects cell-free DNA shed by tumours into the bloodstream and uses methylation patterns to infer both the presence of a cancer signal and the likely tissue of origin. The test has been available in the United States on a commercial basis since 2021 as a laboratory-developed test, but an FDA advisory panel endorsement brings it closer to a regulated approval pathway.\n\nLiquid-biopsy approaches such as Galleri have attracted considerable research and policy interest because they offer the potential to detect cancers at earlier stages and across multiple sites without invasive procedures. Cancer Research UK published a parallel analysis noting that, while the technology holds promise for improving detection and treatment monitoring, broader deployment will require robust evidence on clinical utility, equitable access, and integration into established care pathways.\n\nThe advisory panel's endorsement does not constitute FDA approval; the agency is not bound by its advisory committees' recommendations, though it typically gives them substantial weight. Researchers and clinicians will be watching for the agency's final decision and for further data on performance across diverse populations.",
+      "tags": [
+        "liquid-biopsy",
+        "galleri",
+        "grail",
+        "multi-cancer-screening",
+        "fda-advisory-panel",
+        "ctdna",
+        "cancer-detection"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "UniLasso sparse regression framework scales polygenic risk score computation to biobank data",
+      "is_preprint": false,
+      "run_date": "2026-09-24",
+      "run_iso": "2026-09-24T12:30:44Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-23T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "unilasso-polygenic-risk-scores-biobank-scale",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-23T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Univariate-guided sparse regression for Biobank-scale high-dimensional omics data",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012314"
+        }
+      ],
+      "standfirst": "A team including researchers from Stanford University has adapted a two-stage penalised regression method, uniLasso, to compute polygenic risk scores efficiently in high-dimensional genomic datasets.",
+      "summary": "Researchers including Joshua Richland, Tuomo Kiiskinen, William Wang, Wenhui Sophia Lu, Balasubramanian Narasimhan, Trevor Hastie, Manuel Rivas, and Robert Tibshirani have published a study in *PLOS Genetics* introducing a scalable framework for computing polygenic risk scores (PRS) in biobank-scale, high-dimensional genomic settings.\n\nThe framework is built around Univariate-Guided Sparse Regression (uniLasso), a two-stage penalised regression procedure. In the first stage, univariate association coefficients and their magnitudes are used to guide feature selection; in the second, a sparse predictive model is fitted using this informed prior. The authors argue this approach stabilises variable selection in settings where the number of genetic variants vastly exceeds sample size — a persistent challenge in PRS methodology.\n\nThe paper provides both theoretical justification and empirical benchmarking, reporting improved predictive performance relative to established PRS methods across several traits. The authors frame the contribution primarily as a methodological advance for statistical genetics and population genomics research.\n\nThe study complements a growing body of work on PRS methodology published recently, including efforts to improve score transferability across ancestries and to correct for biases introduced by standard logistic regression frameworks — topics that have featured in several recent preprints and PLOS Genetics papers.",
+      "tags": [
+        "polygenic-risk-score",
+        "statistical-genetics",
+        "sparse-regression",
+        "biobank",
+        "prs-methodology",
+        "plos-genetics",
+        "penalised-regression"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "oncologists"
+      ],
+      "for_patients": null,
+      "headline": "Opinion: failed Lp(a)-lowering trial raises questions about the limits of precision preventive cardiology",
+      "is_preprint": false,
+      "run_date": "2026-09-24",
+      "run_iso": "2026-09-24T12:30:44Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-24T08:30:00Z",
+        "novelty": 7
+      },
+      "slug": "pelacarsen-lpa-horizon-zeus-preventive-cardiology",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/09/TheWorkup_Illustration_MollyFerguson_093025-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-24T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "Opinion: STAT+: A moment of reckoning for preventive cardiology and the precision medicine revolution",
+          "url": "https://www.statnews.com/2026/09/24/lpa-horizon-zeus-results-pelacarsen-preventive-cardiology-precision-medicine-disappointment/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "A cardiologist writing in Stat News argues that disappointing results from the HORIZON/ZEUS pelacarsen trials expose a gap between the genetics of cardiovascular risk and the current ability to intervene on it.",
+      "summary": "Writing in *Stat News*, cardiologist Vishal Khetpal offers a commentary on the implications of the HORIZON and ZEUS trial results for pelacarsen, an RNA-targeting therapy developed to lower lipoprotein(a) — a heritable lipid fraction whose elevated levels have been robustly associated with cardiovascular disease risk through large-scale genetic studies.\n\nLipoprotein(a), or Lp(a), is predominantly genetically determined, largely through variants at the *LPA* gene locus, and elevated levels represent one of the cleaner examples of a causal, Mendelian-randomisation-supported cardiovascular risk factor. The failure of pelacarsen to demonstrate the expected reduction in hard cardiovascular outcomes in large trials has therefore prompted a broader reassessment of the precision-medicine paradigm in preventive cardiology, where genetic epidemiology had appeared to identify a tractable target.\n\nKhetpal argues that the results illustrate that strong genetic epidemiological associations do not automatically translate into therapeutic benefit when the causal pathway is intervened upon pharmacologically, and that epidemiology and genetics of complex disease risk may currently be outpacing the therapeutic toolkit. The piece is framed as opinion and reflects one clinician-researcher's interpretation; it does not represent formal guidance from any professional body.\n\nThe commentary is relevant for researchers working at the intersection of statistical genetics, Mendelian randomisation, and clinical translation, and for educators using cardiovascular genetics as a teaching case for the pipeline from GWAS association to therapeutic target validation.",
+      "tags": [
+        "lpa",
+        "lipoprotein-a",
+        "pelacarsen",
+        "mendelian-randomisation",
+        "cardiovascular-genetics",
+        "clinical-trial-news",
+        "therapeutic-translation",
+        "opinion"
+      ]
     }
   ],
-  "last_run": "2026-09-23T12:33:42.633094+00:00",
+  "last_run": "2026-09-24T12:31:59.253404+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012126": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012285": "2026-09-10T12:04:38.007932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012289": "2026-09-10T12:04:38.007932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012293": "2026-09-10T12:04:38.007932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012297": "2026-09-10T12:04:38.007932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012301": "2026-09-10T12:04:38.007932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012303": "2026-09-10T12:04:38.007932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012304": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012305": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012306": "2026-09-12T11:30:23.901718+00:00",
@@ -23955,10 +24091,8 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012309": "2026-09-19T11:47:52.680890+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012310": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012311": "2026-09-16T12:25:46.637828+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012314": "2026-09-24T12:31:59.253404+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012316": "2026-09-22T12:21:37.504788+00:00",
-    "https://news.cancerresearchuk.org/2026/09/08/how-northern-ireland-can-save-almost-6000-lives-from-cancer/": "2026-09-10T12:04:38.007932+00:00",
-    "https://news.cancerresearchuk.org/2026/09/09/from-ai-to-the-death-of-the-default-what-cancer-science-will-look-like-in-2036/": "2026-09-10T12:04:38.007932+00:00",
-    "https://news.cancerresearchuk.org/2026/09/09/link-between-hot-drinks-and-type-of-oesophageal-cancer-in-the-uk/": "2026-09-10T12:04:38.007932+00:00",
     "https://news.cancerresearchuk.org/2026/09/13/cancer-waiting-times-latest-updates-and-analysis/": "2026-09-13T12:33:30.678004+00:00",
     "https://news.cancerresearchuk.org/2026/09/14/is-the-national-cancer-plan-properly-funded/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/15/data-science-unpicking-data-diversity-and-inclusive-research-design/": "2026-09-15T12:27:55.080800+00:00",
@@ -23967,9 +24101,7 @@
     "https://news.cancerresearchuk.org/2026/09/22/form-follows-function-decoding-pancreatic-cancer/": "2026-09-23T12:33:42.633094+00:00",
     "https://news.cancerresearchuk.org/2026/09/22/tackling-variation-in-cancer-treatment-can-the-national-cancer-plan-deliver/": "2026-09-22T12:21:37.504788+00:00",
     "https://news.cancerresearchuk.org/2026/09/23/latest-winner-in-our-research-is-beautiful-competition-7/": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.03.749262v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.04.749444v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.04.749500v1?rss=1": "2026-09-10T12:04:38.007932+00:00",
+    "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.05.749590v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.05.749592v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.06.747930v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
@@ -24020,12 +24152,8 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752151v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752560v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.20.753023v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.england.nhs.uk/2026/09/busiest-summer-ever-for-nhs-but-aes-see-record-numbers-within-four-hours/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.england.nhs.uk/2026/09/patients-to-get-quicker-treatment-for-migraines-acne-and-3-other-everyday-conditions-at-pharmacies/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260907201554.htm": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260907201609.htm": "2026-09-10T12:04:38.007932+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260909231717.htm": "2026-09-12T11:30:23.901718+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260909231723.htm": "2026-09-12T11:30:23.901718+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911003852.htm": "2026-09-12T11:30:23.901718+00:00",
@@ -24052,17 +24180,8 @@
     "https://www.sciencedaily.com/releases/2026/09/260920222354.htm": "2026-09-21T13:35:59.465310+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260920222410.htm": "2026-09-22T12:21:37.504788+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260921081116.htm": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.statnews.com/2026/09/08/fda-names-leaders-cder-cber-michael-davis-karim-mikhail/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/08/unitedhealth-campaign-donations-katherine-clark-no-surprises-act-debate/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/09/ai-healthcare-limitations-emergency-room-study-medical-scribe-impact/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/09/ai-medicine-assisted-physicians-research-autonomy/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/09/ai-medicine-doctors-replacement-debate-ama-ceo/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/09/arpa-h-advocate-program-autonomous-ai-bots-for-heart-failure/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/09/biotech-news-orexin-discovers-awawrded-prestigious-lasker-award/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/09/coroner-details-infant-deaths-pennsylvania-measles-outbreak/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/09/health-news-telemedicine-company-offers-glp-1s-for-addiction/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/09/kura-oncology-spins-off-diabetes-focused-caspian-therapeutics/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/2026/09/09/scribe-emergency-room-fix-health-care-ai-prognosis/": "2026-09-10T12:04:38.007932+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260922005712.htm": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260922223008.htm": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/09/uk-unveils-recommendations-ai-regulation-medicine/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/2026-midterms-health-care-issues-analyzed-vaccine-policy/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/ai-rural-health-hospitals-chris-klomp-nicole-saphier-senate-hearings/": "2026-09-12T11:30:23.901718+00:00",
@@ -24075,7 +24194,6 @@
     "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/trump-affordable-care-act-refund-checks-who-is-eligible/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/10/uniquere-huntingtons-gene-therapy-trial-readout/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/10/uniqure-huntingtons-gene-therapy-trial-readout/": "2026-09-10T12:04:38.007932+00:00",
     "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/": "2026-09-12T11:30:23.901718+00:00",
@@ -24181,13 +24299,25 @@
     "https://www.statnews.com/2026/09/22/integrative-oncology-cancer-symptoms-insurance-asco-sio-pain-fatigue/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/2026/09/22/ohio-governor-election-health-care-policy-acton-ramaswamy/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/2026/09/22/social-media-bans-australia-uk-teen-mental-health/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.statnews.com/2026/09/23/biotech-news-flagship-gets-a-pentagon-contract/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/23/biotech-vc-investors-new-opportunity-osteoporosis-treatments/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
+    "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/23/health-news-legal-saga-for-youth-gender-affirming-care-in-the-us/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
+    "https://www.statnews.com/2026/09/23/heidi-overton-fda-nominee-opening-statement-senate-hearing-clinical-trials/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/23/how-to-make-sense-of-ai-doomerism-ai-prognosis/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/23/lindsay-clancy-patrick-60-minutes-reproductive-psychiatry-mentally-ill-mothers/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
+    "https://www.statnews.com/2026/09/23/nih-grants-political-control-executive-order-bipartisan-pushback/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/23/quorum-hospitals-nonprofit-conversion-increases-debt-load/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/23/unitedhealth-cvs-pushback-medicare-plan-rpm-abuse/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/08/fda-warns-api-supplier-residue-corroded-production-line-sandals/": "2026-09-10T12:04:38.007932+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/09/astrazeneca-copd-win-fda-filling-key-jobs/": "2026-09-10T12:04:38.007932+00:00",
+    "https://www.statnews.com/2026/09/24/gilead-immunology-inflammation-biotech-moderna-merck/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/24/health-news-measles-contagious-outbreak-u-s-deaths-1991/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/24/heidi-overton-fda-commissioner-confirmation-hearing-2/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/24/heidi-overton-profile-fda-commissioner-nominee/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/24/lpa-horizon-zeus-results-pelacarsen-preventive-cardiology-precision-medicine-disappointment/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/24/measles-outbreak-experience-child-doctor-1961/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/24/patients-first-act-congress-moves-on-doctor-pay-medicare-reform/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/24/radiology-ai-blurred-line-between-tech-development-clinical-practice/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/24/trump-medicaid-generous-model-state-interest/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/cancer-medicines-remain-in-short-supply-across-the-united-states/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/many-doctors-still-embrace-pharma-freebies-rely-on-sales-reps/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/": "2026-09-12T11:30:23.901718+00:00",
@@ -24208,7 +24338,8 @@
     "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/23/loophole-closing-for-importing-meds-european-competitiveness/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00"
   },
   "takedowns": []
 }
