@@ -24077,9 +24077,274 @@
         "therapeutic-translation",
         "opinion"
       ]
+    },
+    {
+      "audiences": [
+        "oncologists",
+        "genetic-counsellors",
+        "gps",
+        "patients",
+        "researchers"
+      ],
+      "for_patients": "NHS England has announced a pilot of a faster genomic test for people who may have a brain tumour. At the moment, after a biopsy — where a small piece of the tumour is removed — it can take weeks to get a full diagnosis, because doctors need to look at the tissue carefully and also run tests on the tumour's genetic make-up. The new pilot aims to do the genetic testing much faster, so that people could get a complete diagnosis in days rather than weeks. Knowing the exact type of brain tumour more quickly helps doctors decide on the best treatment sooner. The pilot is running at specialist hospital centres in England. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "NHS England launches pilot of rapid genomic test for brain tumour diagnosis",
+      "is_preprint": false,
+      "run_date": "2026-09-25",
+      "run_iso": "2026-09-25T12:32:09Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 8,
+        "newest_iso": "2026-09-24T23:01:29Z",
+        "novelty": 9
+      },
+      "slug": "nhs-rapid-genomic-test-brain-tumour-diagnosis-pilot",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "ogl",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-24T23:01:29Z",
+          "publisher": "NHS England",
+          "title": "NHS pilots rapid genomic test to transform brain tumour diagnosis",
+          "url": "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/"
+        }
+      ],
+      "standfirst": "A UK-first pilot across specialist centres in England aims to cut the time from biopsy to definitive brain tumour diagnosis from weeks to days using genomic profiling.",
+      "summary": "NHS England has announced an expanded pilot of a rapid genomic diagnostic test for patients with suspected brain tumours, describing it as a world-first deployment at this scale within a national health service. The pilot, being rolled out across specialist neuroscience centres in England, uses genomic analysis of tumour tissue to produce a definitive classification of brain tumour type within days rather than the weeks currently required by conventional histopathology workflows.\n\nBrain tumour diagnosis is complex: the 2021 WHO classification of central nervous system tumours is now built substantially on molecular and genomic markers alongside histological appearance. Accurate subtyping determines treatment pathway, trial eligibility, and prognosis. Delays in molecular diagnosis can therefore delay treatment decisions. The NHS pilot is designed to address this bottleneck by integrating genomic testing more tightly into the post-surgical diagnostic pathway.\n\nNHS England has not specified in the publicly available announcement which sequencing platform or panel is being used, nor the precise number of centres involved in the initial expansion. The announcement does not constitute clinical guidance; it describes a service-evaluation pilot. Genetic counsellors and oncology teams working in neuro-oncology settings may wish to monitor NHS England updates for implementation details as the pilot progresses.",
+      "tags": [
+        "brain-tumour",
+        "genomic-diagnostics",
+        "nhs-england",
+        "neuro-oncology",
+        "who-cns-classification",
+        "rapid-diagnosis",
+        "cancer-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Newly described cysteine synthesis backup pathway may help cancer cells resist treatment",
+      "is_preprint": false,
+      "run_date": "2026-09-25",
+      "run_iso": "2026-09-25T12:32:09Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-09-25T01:55:32Z",
+        "novelty": 8
+      },
+      "slug": "cancer-cell-cysteine-backup-pathway-treatment-resistance",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-25T01:55:32Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover an \"impossible\" cellular survival pathway that could help fight cancer",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260923035939.htm"
+        }
+      ],
+      "standfirst": "Researchers have identified a previously unrecognised route by which mammalian cells produce the amino acid cysteine, a finding that may explain why some tumours survive therapies targeting canonical cysteine metabolism.",
+      "summary": "Researchers have described a backup biochemical pathway that allows mammalian cells to synthesise cysteine even when the routes considered essential for this process are pharmacologically or genetically disabled. The work, reported via ScienceDaily, identifies what the authors describe as a surprising cellular survival mechanism — one that operates independently of the two pathways previously thought to be indispensable for cysteine production in mammalian cells.\n\nCysteine is required for the synthesis of glutathione, the cell's principal antioxidant buffer. Several cancer therapeutic strategies under investigation aim to deplete tumour cells of glutathione by blocking cysteine uptake or synthesis, thereby inducing a form of oxidative cell death known as ferroptosis. If tumour cells can activate this alternative cysteine synthesis route, they may be able to maintain glutathione levels and resist such approaches.\n\nThe researchers suggest that inhibiting this newly described backup pathway could potentially sensitise cancer cells to treatments that already target cysteine metabolism. The source report does not specify the institution, research team, or journal of record; accordingly, this summary is based on secondary reporting from ScienceDaily and the underlying primary publication has not been independently verified. Readers are encouraged to locate the primary paper before drawing further conclusions. The finding is at an early, mechanistic stage and does not have direct translational implications at this time.",
+      "tags": [
+        "cysteine-metabolism",
+        "ferroptosis",
+        "glutathione",
+        "cancer-biology",
+        "metabolic-resistance",
+        "oxidative-stress",
+        "cancer-therapeutics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "High-throughput splicing assay assesses pathogenicity of deep intronic variants in inherited retinal disease",
+      "is_preprint": true,
+      "run_date": "2026-09-25",
+      "run_iso": "2026-09-25T12:32:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-24T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "deep-intronic-variants-retinal-disease-splicing-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-24T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "In vitro pathogenicity evaluation of deep intronic variants for recessive genetic retinal diseases",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752412v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes a large-scale functional assay that tests 640 rare deep intronic variants in genes associated with recessive inherited retinal diseases, offering a route to resolve variants of uncertain significance that standard prediction tools miss.",
+      "summary": "A preprint posted to bioRxiv presents results from a high-throughput splicing assay (HTSA) designed to evaluate the pathogenicity of deep intronic variants in genes associated with recessively inherited retinal diseases (IRDs). Deep intronic variants — sequence changes located far from canonical splice sites — are increasingly recognised as a significant cause of Mendelian disorders because they can activate cryptic exons and thereby disrupt normal pre-mRNA splicing. The authors estimate that such variants may account for approximately 20% of IRD cases.\n\nThe research team tested 640 rare deep intronic variants drawn from 76 patients who carried one confirmed pathogenic variant but lacked a second identifiable hit on the same gene — a common diagnostic impasse in recessive disease. Each candidate variant was placed in trans (on the opposite chromosome copy) with the known pathogenic allele, and splicing outcomes were measured using the HTSA system.\n\nThe authors report that the assay successfully classified a substantial proportion of the tested variants, identifying those that activate cryptic exons and those that do not affect splicing. The work is directly relevant to variant classification pipelines used in clinical genetics laboratories and has implications for the interpretation of variants of uncertain significance (VUS) in diagnostic whole-genome sequencing. The manuscript has not yet undergone peer review; results should be interpreted accordingly.",
+      "tags": [
+        "inherited-retinal-disease",
+        "deep-intronic-variants",
+        "cryptic-exons",
+        "splicing-assay",
+        "variant-interpretation",
+        "vus",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Open imaging and AI resource enables large-scale quantification of extrachromosomal DNA in cancer",
+      "is_preprint": true,
+      "run_date": "2026-09-25",
+      "run_iso": "2026-09-25T12:32:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-24T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "ecdna-open-imaging-ai-resource-cancer-heterogeneity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-24T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "An open imaging and AI resource enabling unbiased quantification of extrachromosomal DNA at scale",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.18.752721v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces a publicly available benchmark dataset and computational toolkit for automated quantification of extrachromosomal DNA, a genomic feature increasingly implicated in cancer adaptation and therapy resistance.",
+      "summary": "A preprint posted to bioRxiv describes an open computational resource designed to accelerate research into extrachromosomal DNA (ecDNA) — circular DNA elements that exist outside normal chromosomes and are found in a variety of cancer types. ecDNA is of growing research interest because it can carry oncogene copies at high amplification levels, contributes to intratumour heterogeneity, and has been associated with poor prognosis and resistance to treatment in several cancer contexts.\n\nThe resource integrates 2,986 native-resolution metaphase FISH (fluorescence in situ hybridisation) image sets with expert manual annotations, standardised benchmarks, and open-source computational frameworks for automated ecDNA detection and quantification. The authors use this dataset to systematically compare existing and newly developed analytical approaches, spanning rule-based algorithms and machine-learning methods, identifying strengths and limitations of each.\n\nPrior to this work, automated ecDNA analysis has been constrained by the absence of accessible, annotated imaging data and validated computational tools. By releasing both data and code openly, the authors aim to enable reproducible, unbiased quantification of ecDNA across research groups. The preprint has not yet been peer reviewed. Researchers working on cancer genomics, structural variation, or intratumour heterogeneity may find the dataset and benchmarks directly applicable to their own studies.",
+      "tags": [
+        "ecdna",
+        "extrachromosomal-dna",
+        "cancer-heterogeneity",
+        "fish-imaging",
+        "open-data",
+        "computational-genomics",
+        "cancer-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Auto-SMART web platform automates repair-template design for CRISPR/Cas9 homology-directed editing",
+      "is_preprint": true,
+      "run_date": "2026-09-25",
+      "run_iso": "2026-09-25T12:32:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-24T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "auto-smart-crispr-repair-template-design-web-tool",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-24T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Auto-SMART: a web-based platform for repair-template design for CRISPR/Cas9 homology-directed editing",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.16.752223v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes a freely accessible web tool that automates the design of repair templates for CRISPR/Cas9 homology-directed editing, expanding the usable guide-RNA space by exploiting silent mutations between cut site and intended edit.",
+      "summary": "A preprint posted to bioRxiv introduces Auto-SMART, a web-based platform that automates the design of repair templates for CRISPR/Cas9 homology-directed repair (HDR). A persistent practical constraint in precision genome editing is that the efficiency of HDR depends partly on the proximity of the guide-RNA cut site to the intended edit: when these are far apart, editing efficiency drops substantially. The SMART strategy (Silently Mutate And Repair Template) addresses this by introducing silent (synonymous) mutations in the sequence between the Cas9 cut and the desired edit, preserving the encoded protein sequence whilst expanding the range of usable guide RNAs.\n\nDesigning SMART repair templates manually is laborious and requires specialist knowledge. Auto-SMART implements this process as an automated web interface, accepting a target sequence and desired edit as inputs and returning optimised repair-template designs with expanded guide-RNA options. The authors describe the tool as applicable to both basic research applications and the early stages of gene therapy development.\n\nThe preprint has not yet been peer reviewed. The tool addresses a recognised bottleneck in genome engineering workflows and may be of immediate practical use to researchers designing HDR experiments across model organisms and human cell systems. Details of the web platform's availability are described in the preprint.",
+      "tags": [
+        "crispr",
+        "homology-directed-repair",
+        "genome-editing",
+        "repair-template",
+        "guide-rna-design",
+        "gene-therapy",
+        "web-tool",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study maps developmental role of m6A methyltransferase Mettl16 in Drosophila",
+      "is_preprint": false,
+      "run_date": "2026-09-25",
+      "run_iso": "2026-09-25T12:32:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-09-24T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "mettl16-drosophila-m6a-rna-modification-development",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-24T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Role of the m6A methyltransferase Mettl16 in Drosophila development",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317"
+        }
+      ],
+      "standfirst": "Research published in PLOS Genetics finds that Mettl16, an RNA methyltransferase that installs N6-methyladenosine marks, is dispensable for viability in Drosophila but essential for gametogenesis and several developmental processes.",
+      "summary": "A study published in PLOS Genetics by Penghui Song, Lijuan Ma, and Dong Yan characterises the function of the RNA methyltransferase Mettl16 in Drosophila melanogaster, adding to the comparative biology of N6-methyladenosine (m6A) RNA modification across model organisms.\n\nm6A is one of the most abundant internal chemical modifications found on messenger RNA and is installed by several methyltransferases, the best characterised of which is METTL3. METTL16 has been studied in mammalian systems and other organisms, but its function in Drosophila had not previously been described. The authors generated Mettl16 mutant flies and report a notably different phenotype from that seen in mammals: Mettl16 mutants are viable, indicating the enzyme is not essential for survival in this organism. However, both male and female mutants are completely sterile, exhibiting severe gametogenesis defects. Mutant germ cells progress through mitotic and meiotic stages but subsequently fail, suggesting a role for Mettl16 in post-meiotic germ cell development. The mutants also display multiple additional developmental and behavioural abnormalities.\n\nThe divergence between Drosophila and mammalian Mettl16 phenotypes provides insight into how the functional importance of RNA modification enzymes has shifted across evolution. The work is relevant to researchers studying epitranscriptomics, RNA biology, and reproductive genetics.",
+      "tags": [
+        "rna-modification",
+        "m6a",
+        "mettl16",
+        "drosophila",
+        "epitranscriptomics",
+        "gametogenesis",
+        "comparative-genomics",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-09-24T12:31:59.253404+00:00",
+  "last_run": "2026-09-25T12:34:00.804612+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
@@ -24093,6 +24358,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012311": "2026-09-16T12:25:46.637828+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012314": "2026-09-24T12:31:59.253404+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012316": "2026-09-22T12:21:37.504788+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317": "2026-09-25T12:34:00.804612+00:00",
     "https://news.cancerresearchuk.org/2026/09/13/cancer-waiting-times-latest-updates-and-analysis/": "2026-09-13T12:33:30.678004+00:00",
     "https://news.cancerresearchuk.org/2026/09/14/is-the-national-cancer-plan-properly-funded/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/15/data-science-unpicking-data-diversity-and-inclusive-research-design/": "2026-09-15T12:27:55.080800+00:00",
@@ -24101,6 +24367,7 @@
     "https://news.cancerresearchuk.org/2026/09/22/form-follows-function-decoding-pancreatic-cancer/": "2026-09-23T12:33:42.633094+00:00",
     "https://news.cancerresearchuk.org/2026/09/22/tackling-variation-in-cancer-treatment-can-the-national-cancer-plan-deliver/": "2026-09-22T12:21:37.504788+00:00",
     "https://news.cancerresearchuk.org/2026/09/23/latest-winner-in-our-research-is-beautiful-competition-7/": "2026-09-23T12:33:42.633094+00:00",
+    "https://news.cancerresearchuk.org/2026/09/24/the-national-cancer-plan-promises-a-bold-vision-now-to-make-it-a-reality/": "2026-09-25T12:34:00.804612+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.05.749590v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.05.749592v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
@@ -24109,11 +24376,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.07.749943v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.749716v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.749792v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.08.749845v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.750161v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.08.750172v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.08.750173v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.08.750211v1?rss=1": "2026-09-11T12:02:29.887638+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.750261v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.09.750329v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.09.750372v1?rss=1": "2026-09-16T12:25:46.637828+00:00",
@@ -24147,11 +24410,20 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.16.750837v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.751136v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.751930v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.16.752223v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.17.752490v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.17.752532v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752151v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.18.752412v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752560v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.18.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.19.752832v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.19.752864v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.20.753023v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.21.751561v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.21.752589v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.21.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260909231717.htm": "2026-09-12T11:30:23.901718+00:00",
@@ -24182,18 +24454,12 @@
     "https://www.sciencedaily.com/releases/2026/09/260921081116.htm": "2026-09-22T12:21:37.504788+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260922005712.htm": "2026-09-24T12:31:59.253404+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260922223008.htm": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/09/uk-unveils-recommendations-ai-regulation-medicine/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/10/2026-midterms-health-care-issues-analyzed-vaccine-policy/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260923035939.htm": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/10/ai-rural-health-hospitals-chris-klomp-nicole-saphier-senate-hearings/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/10/biotech-news-fda-expands-bayer-lung-cancer-drug-approval/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/10/childhood-chemotherapy-cisplatin-carboplatin-new-study-liver-impact/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/10/health-news-oz-says-ai-based-avatars-can-help-rural-communities-despite-skepticism/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/10/john-fetterman-post-stroke-behavior-experts-see-neurological-changes/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/readout-loud-podcast-heart-disease-drugs-failed-trials/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/10/roivant-biotech-dealmaking-mosliciguat-origins/": "2026-09-11T12:02:29.887638+00:00",
-    "https://www.statnews.com/2026/09/10/rural-health-care-ai-adoption-challenges-part-4-unraveled-series/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/10/trump-affordable-care-act-refund-checks-who-is-eligible/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/10/uniquere-huntingtons-gene-therapy-trial-readout/": "2026-09-11T12:02:29.887638+00:00",
     "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/": "2026-09-12T11:30:23.901718+00:00",
@@ -24309,6 +24575,9 @@
     "https://www.statnews.com/2026/09/23/nih-grants-political-control-executive-order-bipartisan-pushback/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/23/quorum-hospitals-nonprofit-conversion-increases-debt-load/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/23/unitedhealth-cvs-pushback-medicare-plan-rpm-abuse/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
+    "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/24/fda-commissioner-nominee-heidi-overton-senate-hearing-dodges-questions/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/gilead-immunology-inflammation-biotech-moderna-merck/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/24/health-news-measles-contagious-outbreak-u-s-deaths-1991/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/24/heidi-overton-fda-commissioner-confirmation-hearing-2/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
@@ -24317,8 +24586,14 @@
     "https://www.statnews.com/2026/09/24/measles-outbreak-experience-child-doctor-1961/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/24/patients-first-act-congress-moves-on-doctor-pay-medicare-reform/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/24/radiology-ai-blurred-line-between-tech-development-clinical-practice/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/24/the-fda-overton-era-and-dispatches-from-shanghai/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/trump-medicaid-generous-model-state-interest/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/10/cancer-medicines-remain-in-short-supply-across-the-united-states/": "2026-09-11T12:02:29.887638+00:00",
+    "https://www.statnews.com/2026/09/25/died-with-not-from-measles-physicians-explain-death-certificate-rules/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/25/measles-deaths-statistics-pennsylvania-outbreak-cdc-nchs/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/25/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/many-doctors-still-embrace-pharma-freebies-rely-on-sales-reps/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/": "2026-09-12T11:30:23.901718+00:00",
@@ -24339,7 +24614,9 @@
     "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/23/loophole-closing-for-importing-meds-european-competitiveness/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/23/loophole-closing-for-importing-meds-european-competitiveness/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/": "2026-09-25T12:34:00.804612+00:00"
   },
   "takedowns": []
 }
