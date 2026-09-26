@@ -24342,15 +24342,418 @@
         "comparative-genomics",
         "plos-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have reported early results from a trial in people with aggressive blood cancers. They used a gene-editing technology called CRISPR to modify donor blood stem cells before transplanting them into patients. The modification removed a protein called CD33 from the surface of those donor cells. A cancer drug that targets CD33 could then be given to attack the leukaemia, while the transplanted healthy cells — which no longer carry CD33 — were protected from that same drug. In the 30 people in the trial, the modified cells appeared to take hold successfully and to provide this protective effect. This is early-stage research and further study is needed before the approach could become widely available. Researchers say the result may help doctors think about new ways to treat blood cancers in future.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "CRISPR-edited donor stem cells shield healthy blood cells during CD33-targeted leukaemia treatment",
+      "is_preprint": false,
+      "run_date": "2026-09-26",
+      "run_iso": "2026-09-26T12:02:03Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 8,
+        "newest_iso": "2026-09-25T13:13:03Z",
+        "novelty": 9
+      },
+      "slug": "crispr-cd33-stem-cell-blood-cancer-trial",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-25T13:13:03Z",
+          "publisher": "ScienceDaily",
+          "title": "CRISPR could help doctors attack blood cancer without destroying healthy cells",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260924020408.htm"
+        }
+      ],
+      "standfirst": "A 30-patient trial found that removing CD33 from donor haematopoietic stem cells allowed a CD33-directed cancer therapy to attack leukaemia whilst leaving the engrafted healthy cells intact.",
+      "summary": "Researchers have reported results from a 30-patient clinical trial in which CRISPR gene editing was used to delete the CD33 surface protein from donor haematopoietic stem and progenitor cells before transplantation into patients with aggressive blood cancers. CD33 is a target of gemtuzumab ozogamicin and similar antibody-drug conjugates used to kill leukaemic blasts; the problem has historically been that these drugs also destroy healthy myeloid cells, limiting their utility after stem-cell transplantation.\n\nBy removing CD33 from the donor cells prior to infusion, the trial aimed to create a population of engrafted blood-forming cells that are invisible to the CD33-targeted therapy. According to the ScienceDaily report, the edited cells successfully engrafted and appeared to confer protection to the reconstituting blood-cell population whilst the cancer treatment remained active against the CD33-expressing tumour cells.\n\nThe approach is an example of an 'epitope editing' strategy — modifying the very target of a drug on normal cells so that the drug can be deployed with greater specificity. The source reporting does not name the specific institution, principal investigators, or journal at this stage, and full peer-reviewed data have not yet been cited. Genetic Current will update this cluster when primary publication details become available.\n\nThis trial-stage finding is of interest to researchers working in haematological malignancy, genome editing, and transplant biology, and to oncologists following developments in leukaemia treatment approaches.",
+      "tags": [
+        "crispr",
+        "leukaemia",
+        "cd33",
+        "haematopoietic-stem-cells",
+        "epitope-editing",
+        "clinical-trial-news",
+        "blood-cancer"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: LMNA missense variant disrupts nuclear integrity and sarcomere remodelling in iPSC-derived heart cells",
+      "is_preprint": true,
+      "run_date": "2026-09-26",
+      "run_iso": "2026-09-26T12:02:03Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-09-25T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "lmna-variant-dilated-cardiomyopathy-ipsc-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-25T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Missense LMNA Variant Compromises Nuclear Integrity and Sarcomeric Remodeling in Dilated Cardiomyopathy",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753175v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses patient-derived induced pluripotent stem cell cardiomyocytes to characterise how a Leu92Phe variant in the LMNA gene — previously linked to lipodystrophy — impairs nuclear and sarcomeric function in dilated cardiomyopathy.",
+      "summary": "Pathogenic variants in LMNA, which encodes the nuclear envelope proteins lamin A and lamin C, are a well-established cause of inherited dilated cardiomyopathy (DCM), a leading indication for heart failure and cardiac transplantation. A preprint posted to bioRxiv investigates the molecular consequences of a specific missense variant, NM_170707.4(LMNA):c.274C>T (p.Leu92Phe), which has previously been associated with lipodystrophy features rather than primary cardiomyopathy.\n\nThe researchers generated induced pluripotent stem cells (iPSCs) from variant carriers and differentiated them into cardiomyocytes to create a patient-relevant cellular model. Their findings indicate that the Leu92Phe variant compromises nuclear integrity — consistent with the known role of lamins in maintaining nuclear architecture — and additionally implicates LMNA in sarcomeric remodelling, a process critical to the contractile machinery of heart muscle cells.\n\nThe work extends understanding of genotype-phenotype relationships in LMNA-associated disease and may be relevant to variant classification discussions for this locus. The preprint has not yet undergone peer review, and findings should be interpreted accordingly.\n\nThis study is of primary interest to researchers in cardiac genetics, cell biology, and iPSC disease modelling, and to genetic counsellors working with families in whom LMNA variants have been identified.",
+      "tags": [
+        "lmna",
+        "dilated-cardiomyopathy",
+        "nuclear-lamins",
+        "ipsc",
+        "sarcomere",
+        "cardiac-genetics",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: de novo GABPA variant identified as candidate cause of novel congenital vascular anomaly",
+      "is_preprint": true,
+      "run_date": "2026-09-26",
+      "run_iso": "2026-09-26T12:02:03Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-09-25T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "gabpa-de-novo-variant-vascular-tumours-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-25T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A de novo GABPA Variant in a Patient with Multifocal Cutaneous Vascular Tumors of an Unclassified Entity",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.21.753178v1?rss=1"
+        }
+      ],
+      "standfirst": "Genomic analysis of a patient with multifocal cutaneous vascular tumours of undetermined classification has identified a heterozygous de novo germline variant in the ETS transcription factor GABPA.",
+      "summary": "A bioRxiv preprint reports the genomic characterisation of a previously unclassified congenital vascular anomaly in a single patient presenting with multifocal cutaneous vascular tumours. Through comprehensive genomic analysis, the authors identified a novel heterozygous de novo germline variant in GABPA, which encodes GA-binding protein-alpha, a member of the ETS family of transcription factors.\n\nHistopathological assessment revealed capillary-venous lesions that lacked expression of glucose transporter 1 (GLUT1), a feature that distinguishes this entity from infantile haemangioma. The tumour vasculature showed a prominent layer of alpha-smooth muscle actin (alpha-SMA)-positive perivascular cells, and nuclear localisation of GABPA was noted in the affected tissue.\n\nThe findings propose GABPA as a candidate disease gene for this unclassified vascular anomaly and contribute to the expanding literature on transcription factor variants underlying congenital vascular malformations. Because this is a single-patient report and a preprint not yet subject to peer review, replication in additional affected individuals will be needed to establish causality.\n\nThe study is primarily of interest to researchers in vascular biology and developmental genetics, and to genetic counsellors with an interest in rare congenital anomalies and de novo variant interpretation.",
+      "tags": [
+        "gabpa",
+        "vascular-anomaly",
+        "de-novo-variant",
+        "congenital-disorders",
+        "ets-transcription-factor",
+        "rare-disease",
+        "developmental-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: biological sex shapes disease severity and drug response in a mouse model of Helsmoortel-Van der Aa syndrome",
+      "is_preprint": true,
+      "run_date": "2026-09-26",
+      "run_iso": "2026-09-26T12:02:03Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-09-25T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "adnp-helsmoortel-sex-differences-davunetide-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-25T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The Female Side of Autism: Sexual Dichotomies impacting the Helsmoortel-Van der Aa syndrome pathology.",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752986v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint finds that sex modifies behavioural, molecular, and treatment outcomes in mice carrying an Adnp variant associated with Helsmoortel-Van der Aa syndrome, a rare neurodevelopmental condition caused by ADNP mutations.",
+      "summary": "Helsmoortel-Van der Aa syndrome is a rare neurodevelopmental disorder caused by pathogenic variants in ADNP, a gene encoding a chromatin-remodelling protein. The condition is characterised by intellectual disability, autism spectrum features, and substantial clinical heterogeneity. A preprint posted to bioRxiv investigates whether biological sex modifies disease biology and treatment response in this syndrome.\n\nThe researchers studied male and female mice heterozygous for an Adnp frameshift variant (p.Leu822Hisfs*6) and examined behavioural and molecular outcomes, as well as response to davunetide (NAP), an investigational neuroprotective peptide. The preprint reports that sex influenced the consequences of Adnp deficiency at both behavioural and molecular levels, and affected the response to davunetide treatment. Clinical phenotyping data from individuals with Helsmoortel-Van der Aa syndrome were also examined for sex-related differences.\n\nThe study contributes to a growing body of work examining sex as a biological variable in neurodevelopmental disorders — an area of increasing importance given that conditions such as autism spectrum disorder show well-documented sex differences in presentation. The preprint has not yet been peer reviewed.\n\nThis finding is of primary interest to researchers in neurodevelopmental genetics, preclinical therapeutic modelling, and the basic biology of ADNP-associated disorders, and to educators covering sex differences in genetics and neurodevelopment.",
+      "tags": [
+        "adnp",
+        "helsmoortel-van-der-aa-syndrome",
+        "neurodevelopmental-disorders",
+        "sex-differences",
+        "davunetide",
+        "mouse-model",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: KLHL40 gene replacement improves survival and muscle function in a severe nemaline myopathy mouse model",
+      "is_preprint": true,
+      "run_date": "2026-09-26",
+      "run_iso": "2026-09-26T12:02:03Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-09-25T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "klhl40-gene-therapy-nemaline-myopathy-mouse-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-25T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "KLHL40 gene replacement therapy in severe nemaline myopathy improves survival and skeletal muscle function in a preclinical mouse model",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753846v1?rss=1"
+        }
+      ],
+      "standfirst": "A preclinical bioRxiv study reports that AAV-mediated replacement of KLHL40 — a gene whose loss causes one of the most lethal forms of nemaline myopathy — improved survival and skeletal muscle function in mice.",
+      "summary": "Nemaline myopathy is a group of inherited skeletal muscle disorders characterised by profound muscle weakness and, in the most severe forms, perinatal lethality. No disease-modifying therapies currently exist. Recessive loss-of-function mutations in KLHL40, which encodes a muscle-specific protein that stabilises sarcomeric components, cause a particularly severe subtype. A preprint posted to bioRxiv describes preclinical work using adeno-associated virus (AAV)-mediated gene replacement to restore KLHL40 expression in a mouse model of this condition.\n\nThe researchers report that KLHL40 gene replacement therapy improved survival and skeletal muscle function relative to untreated animals. Given that KLHL40 deficiency results from loss of a structural or stability protein rather than a gain-of-function mechanism, gene replacement — providing a working copy of the gene — is a conceptually straightforward therapeutic approach, though translating such strategies to human patients involves numerous additional steps.\n\nThe preprint has not yet undergone peer review. The study sits within a broader wave of preclinical gene therapy programmes targeting rare inherited muscle disorders, several of which have now reached clinical trials for related conditions.\n\nThis finding is of primary interest to researchers in neuromuscular genetics, gene therapy, and skeletal muscle biology, and to educators and students covering inherited myopathies.",
+      "tags": [
+        "klhl40",
+        "nemaline-myopathy",
+        "gene-therapy",
+        "aav",
+        "neuromuscular",
+        "rare-disease",
+        "sarcomere",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: copy-number mutational signatures can be extracted from targeted gene panels and retain prognostic relevance",
+      "is_preprint": true,
+      "run_date": "2026-09-26",
+      "run_iso": "2026-09-26T12:02:03Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-09-25T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "copy-number-signatures-targeted-panels-outcomes-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-25T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Copy number signatures in targeted gene panels associate with patient outcomes in routine clinical data",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.20.752979v1?rss=1"
+        }
+      ],
+      "standfirst": "Analysis of over 1,700 patients across 62 tumour types shows that copy-number signatures derived from targeted gene panels — not just genome-wide assays — associate with established biological features and patient outcomes.",
+      "summary": "Copy-number (CN) mutational signatures — recurring patterns of genomic gain and loss thought to reflect underlying mutational processes — have typically been characterised using whole-genome or whole-exome sequencing. Targeted gene panels (TGPs), which sequence a defined subset of cancer-relevant genes, dominate routine clinical sequencing, but whether CN signatures can be reliably extracted from TGP data has remained unclear.\n\nA bioRxiv preprint addresses this question using two real-world TGP cohorts comprising 1,726 patients across 62 tumour types, of which 825 had associated clinical outcome data. The authors report that TGP-derived CN signatures recapitulated established biological associations seen in genome-wide studies, including links to homologous recombination deficiency and TP53 alterations. Critically, the signatures also associated with patient outcomes in the clinically annotated subset, suggesting that prognostically relevant information is not entirely lost when using TGPs rather than broader assays.\n\nThe authors have made the underlying data publicly available, which will facilitate independent validation. The study has not yet been peer reviewed.\n\nThis is of interest to researchers in cancer genomics and computational oncology, and to oncologists who use or evaluate TGP-based sequencing platforms. It also has methodological relevance to those designing or interpreting biomarker studies in routine clinical sequencing settings.",
+      "tags": [
+        "copy-number-signatures",
+        "targeted-gene-panels",
+        "cancer-genomics",
+        "homologous-recombination-deficiency",
+        "tp53",
+        "biomarker",
+        "computational-oncology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: mutant ATAD3A disrupts mTORC1-TFEB signalling and lysosomal homeostasis in a neurological syndrome",
+      "is_preprint": true,
+      "run_date": "2026-09-26",
+      "run_iso": "2026-09-26T12:02:03Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-25T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "atad3a-mtorc1-tfeb-lysosomal-neurodevelopment-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-25T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Pathogenic mutations in ATAD3A cause dysregulation of RagC/D-TFEB axis and disrupt lysosomal homeostasis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753918v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint finds that a pathogenic ATAD3A variant known to cause a human neurological syndrome dysregulates the RagC/D-TFEB axis, implicating lysosomal dysfunction in the disease mechanism.",
+      "summary": "ATAD3A encodes a mitochondrial membrane-anchored ATPase, and de novo variants in this gene have been reported to cause a severe human neurological syndrome characterised by developmental delay and neurological deterioration. Prior work showed that pathogenic ATAD3A mutations induce aberrant lysosomal expansion with accumulation of undigested material, but the underlying mechanism linking mitochondrial dysfunction to lysosomal pathology had not been established.\n\nA preprint posted to bioRxiv now reports that the pathogenic ATAD3A p.R528W variant disrupts the mTORC1-TFEB signalling axis. mTORC1 (mechanistic target of rapamycin complex 1) phosphorylates TFEB to retain it in the cytoplasm; when mTORC1 activity is reduced, TFEB translocates to the nucleus and activates lysosomal biogenesis genes (the CLEAR network). The authors found dysregulated mTORC1 substrate phosphorylation, altered TFEB nuclear localisation, and changes in CLEAR gene activation associated with expression of mutant ATAD3A. Upstream, dysregulation of the RagC/D GTPase complex — which recruits mTORC1 to lysosomal membranes — was implicated.\n\nThe findings mechanistically connect mitochondrial membrane protein dysfunction to lysosomal homeostasis disruption and suggest that aberrant TFEB activity may contribute to neurodevelopmental defects in this syndrome. The preprint has not yet been peer reviewed.\n\nThis study will be of primary interest to researchers in mitochondrial biology, lysosomal biology, mTOR signalling, and the molecular basis of rare neurodevelopmental disorders.",
+      "tags": [
+        "atad3a",
+        "mtorc1",
+        "tfeb",
+        "lysosomal-homeostasis",
+        "mitochondria",
+        "neurodevelopmental-disorders",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study identifies SynMuvA gene lin-15A as a licensing factor for natural cellular transdifferentiation",
+      "is_preprint": false,
+      "run_date": "2026-09-26",
+      "run_iso": "2026-09-26T12:02:03Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-25T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "lin-15a-synmuva-transdifferentiation-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-25T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "The SynMuvA lin-15A licenses natural transdifferentiation by antagonizing identity safeguarding mechanisms",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290"
+        }
+      ],
+      "standfirst": "Work published in PLOS Genetics finds that the THAP domain gene lin-15A antagonises identity-preserving mechanisms in C. elegans to permit a rare, naturally occurring cell-fate switch, with implications for understanding cellular plasticity in cancer and regeneration.",
+      "summary": "Cellular plasticity — the capacity of a cell to change its identity — is normally tightly constrained by molecular safeguards that preserve cell fate. Understanding the mechanisms that either permit or block such plasticity has implications for cancer biology, where aberrant transdifferentiation can drive disease, and for regenerative medicine, where controlled plasticity is a therapeutic goal.\n\nResearchers including Sarah Frieda Becker, Marie-Charlotte Morin, Julien Lambert, and colleagues — including Julie Ahringer and Sophie Jarriault — have published a study in PLOS Genetics identifying lin-15A, a THAP domain-containing gene and member of the SynMuvA class of chromatin regulators, as a factor required to licence a naturally occurring transdifferentiation event in Caenorhabditis elegans. The work shows that lin-15A achieves this by antagonising identity-safeguarding mechanisms that would otherwise prevent the cell-fate switch.\n\nThe findings extend understanding of how endogenous cellular reprogramming is normally controlled and identify a new category of pro-plasticity regulatory factor. The SynMuvA pathway has previously been linked to tumour suppression, adding context to the broader relevance of this regulatory axis.\n\nThis peer-reviewed study is of primary interest to researchers in cell biology, epigenetics, and the molecular basis of cellular plasticity, and to educators covering developmental biology and cancer.",
+      "tags": [
+        "transdifferentiation",
+        "cellular-plasticity",
+        "lin-15a",
+        "synmuva",
+        "thap-domain",
+        "c-elegans",
+        "epigenetics",
+        "cancer-biology",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "gps",
+        "genetic-counsellors",
+        "oncologists",
+        "researchers"
+      ],
+      "for_patients": null,
+      "headline": "NHS England mandates immediate suspension of staff suspected of unlawfully accessing patient records",
+      "is_preprint": false,
+      "run_date": "2026-09-26",
+      "run_iso": "2026-09-26T12:02:03Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 5,
+        "newest_iso": "2026-09-25T13:36:51Z",
+        "novelty": 6
+      },
+      "slug": "nhs-england-patient-record-snooping-suspension-policy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "ogl",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-25T13:36:51Z",
+          "publisher": "NHS England",
+          "title": "NHS staff suspected of snooping on patient records to be immediately suspended",
+          "url": "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/"
+        }
+      ],
+      "standfirst": "NHS England has directed every trust to suspend staff and revoke system access immediately upon suspicion of improper access to patient medical records, formalising a zero-tolerance approach to data snooping.",
+      "summary": "NHS England has announced a policy requiring every NHS trust to impose immediate suspension and revoke access to NHS computer systems for any member of staff suspected of improperly or unlawfully accessing patient medical records without clinical justification.\n\nThe measure formalises what NHS England describes as a zero-tolerance approach to so-called 'snooping' — the accessing of patient records for reasons other than direct care or authorised administrative need. Improper access to patient records is a breach of the UK Data Protection Act 2018, the common law duty of confidentiality, and NHS information governance frameworks.\n\nWhilst this story does not concern genetics or genomics directly, it is relevant context for readers of Genetic Current: genomic and genetic health records — including family-history data, variant classifications, and hereditary cancer risk information — are among the most sensitive categories of health information held by NHS systems. The policy underscores the information governance environment within which NHS genomic services operate.\n\nThe announcement was published via NHS England's official communications channel and is relevant to professionals across NHS settings, including those working within genomic medicine services.",
+      "tags": [
+        "information-governance",
+        "patient-data",
+        "nhs-england",
+        "data-protection",
+        "genomic-medicine",
+        "health-policy"
+      ]
     }
   ],
-  "last_run": "2026-09-25T12:34:00.804612+00:00",
+  "last_run": "2026-09-26T12:04:39.789841+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290": "2026-09-26T12:04:39.789841+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012304": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012305": "2026-09-22T12:21:37.504788+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012306": "2026-09-12T11:30:23.901718+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012307": "2026-09-23T12:33:42.633094+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012308": "2026-09-19T11:47:52.680890+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012309": "2026-09-19T11:47:52.680890+00:00",
@@ -24369,19 +24772,15 @@
     "https://news.cancerresearchuk.org/2026/09/23/latest-winner-in-our-research-is-beautiful-competition-7/": "2026-09-23T12:33:42.633094+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/the-national-cancer-plan-promises-a-bold-vision-now-to-make-it-a-reality/": "2026-09-25T12:34:00.804612+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.05.749590v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.05.749592v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.06.747930v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.07.749900v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.07.749943v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.749716v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.749792v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.750161v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.08.750261v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.09.750329v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.09.750372v1?rss=1": "2026-09-16T12:25:46.637828+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.09.750381v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.09.750417v1?rss=1": "2026-09-12T11:30:23.901718+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750611v1?rss=1": "2026-09-16T12:25:46.637828+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750672v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750683v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
@@ -24419,16 +24818,20 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.19.752832v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.19.752864v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.20.752979v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.20.752986v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.20.753023v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.751561v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.752589v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.21.753175v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.21.753178v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.23.753846v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.23.753918v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260909231717.htm": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260909231723.htm": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260911003852.htm": "2026-09-12T11:30:23.901718+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911214241.htm": "2026-09-13T12:33:30.678004+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911214250.htm": "2026-09-13T12:33:30.678004+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911214301.htm": "2026-09-15T12:27:55.080800+00:00",
@@ -24455,25 +24858,11 @@
     "https://www.sciencedaily.com/releases/2026/09/260922005712.htm": "2026-09-24T12:31:59.253404+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260922223008.htm": "2026-09-24T12:31:59.253404+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260923035939.htm": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.statnews.com/2026/09/10/ai-rural-health-hospitals-chris-klomp-nicole-saphier-senate-hearings/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/10/biotech-news-fda-expands-bayer-lung-cancer-drug-approval/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/10/childhood-chemotherapy-cisplatin-carboplatin-new-study-liver-impact/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/10/readout-loud-podcast-heart-disease-drugs-failed-trials/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/10/trump-affordable-care-act-refund-checks-who-is-eligible/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260924020408.htm": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/2026/09/11/fda-new-ekg-heart-attack-detection-algo-queen-of-hearts/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/11/health-news-boycott-launched-against-ada-includes-journal/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/11/medicaid-work-requirements-new-tier-system-define-medical-frailty/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/11/medicaid-work-requirements-new-tier-system-define-medical-frailty/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/2026/09/11/novartis-novo-nordisk-cardiovascular-drug-trials-fallout/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/11/pro-vaccine-advocacy-celebration-party/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/2026/09/14/abbott-settlement-closure-baby-formula-plant-shortages/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
     "https://www.statnews.com/2026/09/14/biotech-news-gsk-touts-lung-cancer-data-from-two-drugs/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
@@ -24576,8 +24965,12 @@
     "https://www.statnews.com/2026/09/23/quorum-hospitals-nonprofit-conversion-increases-debt-load/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/23/unitedhealth-cvs-pushback-medicare-plan-rpm-abuse/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/2026/09/24/chronicling-chinese-drug-development-from-shanghai-readout-loud/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/fda-commissioner-nominee-heidi-overton-senate-hearing-dodges-questions/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/24/fda-commissioner-nominee-heidi-overton-senate-hearing-dodges-questions/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/gilead-immunology-inflammation-biotech-moderna-merck/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/24/health-news-measles-contagious-outbreak-u-s-deaths-1991/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/24/heidi-overton-fda-commissioner-confirmation-hearing-2/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
@@ -24586,21 +24979,28 @@
     "https://www.statnews.com/2026/09/24/measles-outbreak-experience-child-doctor-1961/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/24/patients-first-act-congress-moves-on-doctor-pay-medicare-reform/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/24/radiology-ai-blurred-line-between-tech-development-clinical-practice/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/24/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/the-fda-overton-era-and-dispatches-from-shanghai/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/trump-medicaid-generous-model-state-interest/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/25/died-with-not-from-measles-physicians-explain-death-certificate-rules/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/25/died-with-not-from-measles-physicians-explain-death-certificate-rules/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/2026/09/25/health-news-federal-judge-rolls-back-landmark-disability-protections/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/2026/09/25/heidi-overton-confirmation-hearing-mifepristone-abortion-evasive/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/25/measles-deaths-statistics-pennsylvania-outbreak-cdc-nchs/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/25/measles-deaths-statistics-pennsylvania-outbreak-cdc-nchs/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/25/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/09/25/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/2026/09/25/trump-administration-cancel-spending-hhs-programs/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/10/many-doctors-still-embrace-pharma-freebies-rely-on-sales-reps/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/10/novartis-investor-seeking-shake-up-gilead-uk-hiv-setback/": "2026-09-12T11:30:23.901718+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/": "2026-09-12T11:30:23.901718+00:00",
+    "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/2026/09/26/anthrax-letters-25th-anniversary-cdc-investigation-new-biothreats-ai/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/11/pharma-wins-cost-of-wastewater-treatment-fight-europe/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/pharmalot/2026/09/11/pharma-wins-cost-of-wastewater-treatment-fight-europe/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/": "2026-09-12T11:30:23.901718+00:00",
     "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/pharmalot/2026/09/13/trump-secretive-pharma-deals-undermine-most-favored-nation-pricing/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/pharmalot/2026/09/14/another-astrazeneca-trial-failure-novo-name-change/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
@@ -24616,7 +25016,12 @@
     "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/pharmalot/2026/09/23/loophole-closing-for-importing-meds-european-competitiveness/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/": "2026-09-25T12:34:00.804612+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/25/reticent-fda-commish-nominee-novo-deal/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/25/roche-xofluza-influenza-treatment-agreements/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/25/up-and-down-the-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00"
   },
   "takedowns": []
 }
