@@ -24745,9 +24745,184 @@
         "genomic-medicine",
         "health-policy"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "OPA1 identified as regulator of mitochondrial dysfunction-driven liver fibrosis in MASLD",
+      "is_preprint": true,
+      "run_date": "2026-09-27",
+      "run_iso": "2026-09-27T12:41:13Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-27T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "opa1-mitochondrial-dynamics-liver-fibrosis-masld",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-27T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "OPA1 controls mitochondrial dysfunction-driven liver fibrosis in MASLD",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.753666v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports large-scale genomic analyses implicating OPA1, a mitochondrial fusion protein, in the fibrotic progression of metabolic dysfunction-associated steatotic liver disease.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing large-scale genomic analyses of mitochondrial genes — covering mitophagy, fusion, and fission — in cohorts of patients with metabolic dysfunction-associated steatotic liver disease and steatohepatitis (MASLD/MASH). The work identifies OPA1, a dynamin-like GTPase that governs the fusion of inner mitochondrial membranes, as a central regulator of the fibrotic response in this condition.\n\nProgressive hepatic fibrosis is recognised as the principal determinant of morbidity and mortality in MASLD/MASH. The preprint's authors propose that mitochondrial damage-associated molecular patterns (mito-DAMPs) released from injured hepatocytes act as a mechanistic bridge between organelle dysfunction and fibrosis-promoting signalling. OPA1's role in maintaining mitochondrial quality control and limiting mito-DAMP release is presented as a candidate node through which mitochondrial dynamics shape disease trajectory.\n\nThe work has not yet been peer-reviewed. If the findings are confirmed through independent validation and peer review, they may offer a mechanistic framework for understanding fibrosis risk in MASLD that could inform future research directions. The study draws on human genomic data, though specific cohort sizes and analytical methods should be assessed by reading the primary preprint.",
+      "tags": [
+        "opa1",
+        "mitochondrial-dynamics",
+        "liver-fibrosis",
+        "masld",
+        "mash",
+        "mitophagy",
+        "mito-damps",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Early-life mtDNA mutations sufficient to drive age-related pathology, mouse study finds",
+      "is_preprint": true,
+      "run_date": "2026-09-27",
+      "run_iso": "2026-09-27T12:41:13Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-27T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "mtdna-mutations-early-life-ageing-pathology-mouse",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-27T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Temporal control of mitochondrial mutagenesis reveals the fate of mtDNA mutations with age",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754271v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using a temporally controlled mutagenesis model in mice finds that mitochondrial genome mutations arising in the first two months of life are sufficient to produce a broad spectrum of age-related disease.",
+      "summary": "Researchers have posted a preprint to bioRxiv reporting a new mouse model that allows mitochondrial mutagenesis to be confined to a defined developmental window. Using this system, the team found that mutations in the mitochondrial genome (mtDNA) introduced during the first two months of life were sufficient to drive a wide variety of age-related pathologies later in life — a finding the authors describe as surprising given existing uncertainty about the timing of mutagenic events that underlie physiological decline.\n\nThe study also reports that the severity of pathology is regulated in a broadly tissue-specific manner, suggesting that distinct selective pressures operate across organ systems as mtDNA mutations accumulate. The model offers a tool to dissect the temporal origins of mitochondrial contributions to ageing without the confound of lifetime mutation accumulation.\n\nThe work is a preprint and has not yet undergone peer review. The mechanisms by which early mtDNA mutations escape clearance by mitophagy and quality-control pathways to exert late-life effects remain to be clarified. Researchers in mitochondrial biology, ageing genetics, and disease modelling may find the mouse model of particular interest as a resource for future studies.",
+      "tags": [
+        "mitochondrial-genetics",
+        "mtdna",
+        "ageing",
+        "mouse-model",
+        "mutagenesis",
+        "mitochondrial-disease",
+        "age-related-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "genetic-counsellors"
+      ],
+      "for_patients": null,
+      "headline": "STARD9 identified as causal gene for divergent familial dyslipidemias via lysosomal cholesterol trafficking",
+      "is_preprint": true,
+      "run_date": "2026-09-27",
+      "run_iso": "2026-09-27T12:41:13Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-26T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "stard9-lysosomal-cholesterol-familial-dyslipidaemia",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-26T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Variant-Specific Rewiring of Lysosomal Positioning by STARD9 Produces Opposite Cholesterol Trafficking Outcomes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.25.754437v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies STARD9, a lysosomal cholesterol-sensing kinesin, as a causal gene for both autosomal dominant hypercholesterolaemia and reduced HDL with elevated triglycerides, depending on variant type.",
+      "summary": "Researchers have posted a preprint to bioRxiv proposing STARD9 — a kinesin motor protein with a START domain that binds cholesterol to govern lysosomal positioning — as a causal gene for divergent familial dyslipidemias and premature atherosclerosis.\n\nThe preprint reports that rare variants in STARD9 segregate with autosomal dominant hypercholesterolaemia and premature coronary disease in affected families, while common variants in the same gene associate with reduced high-density lipoprotein (HDL) cholesterol and elevated triglycerides. Despite these opposing lipid phenotypes, both classes of variant are described as converging on lysosomal cholesterol sequestration and endoplasmic reticulum (ER) cholesterol depletion, with downstream effects on mTOR signalling. The authors propose that variant-specific differences in how STARD9 alters lysosomal positioning produce these opposing trafficking outcomes.\n\nThe finding is of potential interest to researchers working on residual cardiovascular risk — defined by the authors as cardiovascular events that persist despite lipid-lowering therapy, independent of LDL cholesterol and Lp(a) — as well as to those studying lysosomal biology and intracellular lipid trafficking. The work has not yet been peer-reviewed, and independent replication of the familial segregation data would be needed to establish STARD9 as a clinically recognised dyslipidaemia gene.",
+      "tags": [
+        "stard9",
+        "lysosomal-cholesterol",
+        "familial-hypercholesterolaemia",
+        "dyslipidaemia",
+        "cardiovascular-genetics",
+        "lipoprotein-metabolism",
+        "kinesin",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Innate immune pathway activation links heterochromatin dysfunction to disease phenotypes in C. elegans",
+      "is_preprint": true,
+      "run_date": "2026-09-27",
+      "run_iso": "2026-09-27T12:41:13Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-26T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "heterochromatin-loss-innate-immune-ipr-pathway-caenorhabditis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-26T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Innate immune stress pathway activation underlies heterochromatin dysfunction pathology",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753861v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using genetic interaction screening in C. elegans identifies constitutive activation of an innate immune stress pathway as a major driver of the pathological phenotypes seen when heterochromatin is disrupted.",
+      "summary": "Researchers have posted a preprint to bioRxiv reporting that secondary activation of the Intracellular Pathogen Response (IPR) — an innate immune stress pathway in Caenorhabditis elegans — is a principal mechanism linking heterochromatin dysfunction to pathological outcomes such as slow growth and indirect transcriptional changes.\n\nUsing genetic interaction screening and genomic analyses in C. elegans, the team found that constitutive IPR activation phenocopies the growth and transcriptional defects observed in heterochromatin mutants. Heterochromatin loss is associated with disrupted nuclear architecture, dysregulated gene expression, and failure of repetitive element silencing; it has been implicated in a range of human diseases. The study provides mechanistic evidence for how these upstream changes translate to downstream pathological phenotypes through an innate immune signalling axis.\n\nThe work is conducted in an invertebrate model organism and is a preprint that has not yet been peer-reviewed. Whether homologous pathways in vertebrates — where cGAS–STING signalling has been proposed as a related mechanism linking nucleic acid sensing to heterochromatin-associated pathology — operate similarly would require independent investigation. Researchers in epigenomics, innate immunity, and ageing biology may find the genetic interaction data of interest as a starting point for comparative studies.",
+      "tags": [
+        "heterochromatin",
+        "innate-immunity",
+        "intracellular-pathogen-response",
+        "c-elegans",
+        "epigenomics",
+        "repetitive-elements",
+        "nuclear-architecture",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-09-26T12:04:39.789841+00:00",
+  "last_run": "2026-09-27T12:42:11.322410+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
@@ -24762,7 +24937,6 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012314": "2026-09-24T12:31:59.253404+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012316": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317": "2026-09-25T12:34:00.804612+00:00",
-    "https://news.cancerresearchuk.org/2026/09/13/cancer-waiting-times-latest-updates-and-analysis/": "2026-09-13T12:33:30.678004+00:00",
     "https://news.cancerresearchuk.org/2026/09/14/is-the-national-cancer-plan-properly-funded/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/15/data-science-unpicking-data-diversity-and-inclusive-research-design/": "2026-09-15T12:27:55.080800+00:00",
     "https://news.cancerresearchuk.org/2026/09/15/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-09-15T12:27:55.080800+00:00",
@@ -24772,23 +24946,18 @@
     "https://news.cancerresearchuk.org/2026/09/23/latest-winner-in-our-research-is-beautiful-competition-7/": "2026-09-23T12:33:42.633094+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/the-national-cancer-plan-promises-a-bold-vision-now-to-make-it-a-reality/": "2026-09-25T12:34:00.804612+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.06.747930v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
+    "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.07.749900v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.07.749943v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.08.749716v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.08.749792v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.08.750161v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.09.750329v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.09.750372v1?rss=1": "2026-09-16T12:25:46.637828+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.09.750381v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750611v1?rss=1": "2026-09-16T12:25:46.637828+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.10.750672v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750683v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750746v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750755v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.11.750860v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.11.750947v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.11.751073v1?rss=1": "2026-09-13T12:33:30.678004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.11.751087v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.12.751172v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.13.751268v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
@@ -24827,15 +24996,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.21.753175v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.753178v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753846v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.23.753861v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753918v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.24.753666v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.24.754271v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.25.754437v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260911214241.htm": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260911214250.htm": "2026-09-13T12:33:30.678004+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911214301.htm": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260911214306.htm": "2026-09-13T12:33:30.678004+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260912220051.htm": "2026-09-14T13:36:58.531625+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260912220103.htm": "2026-09-16T12:25:46.637828+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260912220107.htm": "2026-09-15T12:27:55.080800+00:00",
@@ -24859,11 +25029,8 @@
     "https://www.sciencedaily.com/releases/2026/09/260922223008.htm": "2026-09-24T12:31:59.253404+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260923035939.htm": "2026-09-25T12:34:00.804612+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924020408.htm": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/11/biotech-news-cancer-drug-shortages-keep-disrupting-patient-care/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/2026/09/11/cyclospora-outbreak-declared-over-origin-unknown/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/2026/09/11/medicaid-work-requirements-new-tier-system-define-medical-frailty/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/2026/09/11/scholar-rock-spinal-muscular-atrophy-isembyld-clinical-trial-fda-approval/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/2026/09/12/astrazeneca-breast-cancer-camizestrant-etcamah-serena-4-trail-failure/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260924231711.htm": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260925093152.htm": "2026-09-27T12:42:11.322410+00:00",
     "https://www.statnews.com/2026/09/14/abbott-settlement-closure-baby-formula-plant-shortages/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
     "https://www.statnews.com/2026/09/14/biotech-news-gsk-touts-lung-cancer-data-from-two-drugs/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/2026/09/14/court-halts-dhs-visa-limits-foreign-scholars/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
@@ -24999,9 +25166,6 @@
     "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/26/anthrax-letters-25th-anniversary-cdc-investigation-new-biothreats-ai/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/11/anxious-novartis-investors-biologics-facing-patent-expirations/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/11/pharma-wins-cost-of-wastewater-treatment-fight-europe/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/11/up-down-ladder-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-13T12:33:30.678004+00:00",
     "https://www.statnews.com/pharmalot/2026/09/13/trump-secretive-pharma-deals-undermine-most-favored-nation-pricing/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/pharmalot/2026/09/14/another-astrazeneca-trial-failure-novo-name-change/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/pharmalot/2026/09/15/gsk-china-drug-licensing-deal-job-losses/": "2026-09-16T12:25:46.637828+00:00",
