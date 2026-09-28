@@ -24920,9 +24920,228 @@
         "nuclear-architecture",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have produced a large genetic map of cancers in domestic cats and found that some of these tumours are surprisingly similar, at a molecular level, to cancers in humans. Cats develop cancer naturally as they age, and this means studying their tumours could help researchers understand how certain human cancers work and how they respond to treatment. The researchers say the findings might point towards new approaches for treating both cats and people in future, though this work is at an early stage and no new treatments are available as a result of this study yet. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Feline cancer genome atlas reveals striking parallels with human tumours",
+      "is_preprint": false,
+      "run_date": "2026-09-28",
+      "run_iso": "2026-09-28T14:54:15Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-09-27T02:01:42Z",
+        "novelty": 7
+      },
+      "slug": "cat-cancer-genomics-human-tumour-similarities",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-27T02:01:42Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists say house cats could help unlock better cancer treatments for humans",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260924231826.htm"
+        }
+      ],
+      "standfirst": "A large-scale mapping of cat cancer genetics has identified molecular similarities with human cancers that researchers say could inform both veterinary oncology and the study of human tumour biology.",
+      "summary": "Researchers have published what they describe as an unprecedented-scale genetic characterisation of cancers in domestic cats, identifying substantial molecular similarities between feline tumours and their human counterparts. The work, reported by ScienceDaily citing the underlying research team, compared genomic and transcriptomic features across multiple feline cancer types and found that certain tumour subtypes share driver mutations, gene expression patterns, and pathway dysregulation with human cancers.\n\nThe authors suggest that cats, which develop cancers spontaneously under natural conditions, may serve as a more physiologically relevant comparative model than some laboratory animal systems. Unlike inbred mouse models, companion animals are exposed to similar environmental factors as humans and carry greater genetic diversity.\n\nThe findings are being positioned by the researchers as relevant in two directions: they could support the development of precision oncology approaches adapted for cats, while simultaneously offering a window into the mechanisms by which equivalent human cancers develop and respond to systemic therapies. The study does not present clinical recommendations for human patients but identifies candidate pathways and drug targets warranting further investigation in both species.\n\nThe source article does not name the specific institution, researchers, or journal of record; the primary ScienceDaily item was received as a duplicate (items 2 and 8). Further detail will be available once the peer-reviewed paper is indexed.",
+      "tags": [
+        "comparative-oncology",
+        "feline-cancer",
+        "cancer-genomics",
+        "cancer-biology",
+        "translational-research"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint uses large language models to audit population descriptor use in genetics research",
+      "is_preprint": true,
+      "run_date": "2026-09-28",
+      "run_iso": "2026-09-28T14:54:15Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-28T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "llm-bibliometric-population-descriptors-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Large language model-based bibliometric evaluation of population descriptors in human genetics",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754051v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory applies LLM-based bibliometric analysis to assess how race, ethnicity, and ancestry are described across human genetics literature, benchmarking practice against 2023 NASEM recommendations.",
+      "summary": "A preprint posted to bioRxiv applies large language model-based bibliometric methods to evaluate how population descriptors — including race, ethnicity, and ancestry — are used in human genetics and genomics publications. The work responds directly to the 2023 report from the National Academies of Sciences, Engineering, and Medicine (NASEM), titled *Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field*, which issued eight actionable recommendations for researchers.\n\nThe authors used language model-assisted classification to systematically assess whether and how published genetics studies conform to those NASEM recommendations, characterising patterns across a large corpus of literature. The bibliometric approach is designed to scale the kind of qualitative audit that would be impractical to perform manually across thousands of papers.\n\nThe preprint has not yet undergone peer review. Its findings are relevant to researchers thinking about how to describe study populations accurately and ethically, to educators teaching research methods and responsible conduct, and to students beginning to engage with primary genetics literature. The work also bears on ongoing debates in the field about the relationship between social categories and biological ancestry, and how that relationship should be communicated in scientific writing.\n\nNo specific institutional affiliation or lead author is named in the feed lede; full authorship details are available at the bioRxiv record.",
+      "tags": [
+        "population-descriptors",
+        "research-ethics",
+        "bibliometrics",
+        "nasem",
+        "ancestry",
+        "race-ethnicity",
+        "large-language-models"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies mitigation strategies for rescaling biases in forward-in-time population genetic simulations",
+      "is_preprint": true,
+      "run_date": "2026-09-28",
+      "run_iso": "2026-09-28T14:54:15Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-09-28T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "rescaling-bias-forward-time-population-simulations",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mitigating biases of rescaling in forward-in-time population genetic simulations",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754284v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint demonstrates that many accuracy concerns raised about parameter rescaling in SLiM-based population simulations can be reduced by adopting an alternative simulator, with implications for the reliability of evolutionary inference.",
+      "summary": "Researchers have posted a preprint to bioRxiv addressing a methodological concern that has attracted attention in the population genetics simulation community: the accuracy of parameter rescaling in forward-in-time simulations. Forward-in-time simulators such as SLiM are widely used to model evolutionary processes, including natural selection, demographic history, and mutation accumulation. Because simulating realistic population sizes over realistic timescales is computationally prohibitive, rescaling — reducing population size and generation count by a common factor — is a common pragmatic shortcut.\n\nSeveral recent studies have documented biases introduced by this approach, particularly when using the SLiM simulator. The new preprint argues that many of these reported biases are not intrinsic to rescaling as a principle but are instead consequences of particular implementation choices. The authors show that switching to a different forward-in-time simulator substantially mitigates the biases described in the literature, suggesting that the concerns may be more tractable than previously implied.\n\nThe work is primarily of technical interest to researchers who rely on forward-in-time simulations for evolutionary analyses — including those studying population history, adaptation, and the generation of synthetic data for method benchmarking. The preprint has not yet been peer reviewed. No lead author or institutional affiliation is identified in the feed lede; full details are at the bioRxiv record.",
+      "tags": [
+        "population-genetics",
+        "forward-in-time-simulation",
+        "parameter-rescaling",
+        "slim",
+        "computational-genomics",
+        "evolutionary-genetics",
+        "methods"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "ERCC2 is a gene that plays two important roles in the body: helping to repair damage to DNA caused by ultraviolet light, and helping cells to read the instructions encoded in DNA. Faults in this gene can cause two different inherited conditions — xeroderma pigmentosum, which causes very high sensitivity to sunlight and a raised risk of skin cancer, and trichothiodystrophy, which affects development in multiple ways. Researchers have now used a large-scale laboratory technique to test almost every possible change that could occur in this gene and to work out which of the two cellular functions each change disrupts. The findings could help scientists better categorise genetic changes in ERCC2 that are currently difficult to interpret, including those sometimes described as 'variants of uncertain significance'. This work is at an early stage and has not yet been checked by independent scientific reviewers. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint: mechanism-selective deep mutational scanning distinguishes ERCC2 disease phenotypes at residue level",
+      "is_preprint": true,
+      "run_date": "2026-09-28",
+      "run_iso": "2026-09-28T14:54:15Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-09-27T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "ercc2-deep-mutational-scanning-xp-ttd-mechanism",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-27T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mechanism-selective deep mutational scanning distinguishes ERCC2 disease phenotypes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754105v1?rss=1"
+        }
+      ],
+      "standfirst": "A yeast-complementation deep mutational scan of nearly all XPD amino acid substitutions separates ERCC2 variants that disrupt nucleotide excision repair from those that disrupt transcription, offering a functional framework for interpreting pathogenic variants in xeroderma pigmentosum and trichothiodystrophy.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing a mechanism-selective deep mutational scanning study of ERCC2, the gene encoding the XPD subunit of the general transcription and DNA repair factor TFIIH. Pathogenic ERCC2 variants cause at least two clinically distinct disorders — xeroderma pigmentosum (XP), characterised by extreme UV sensitivity and elevated skin cancer risk, and trichothiodystrophy (TTD), a multisystem developmental syndrome — as well as combinations of features from both. The mechanistic basis for this clinical divergence has remained incompletely understood.\n\nThe study used yeast complementation assays to measure the functional consequences of nearly every possible single amino acid substitution across XPD. Critically, the assay was designed to be mechanism-selective: it preferentially reports on the transcription-associated function of XPD rather than its DNA repair role, with pronounced sensitivity to variants at the p44 interface. This design allows individual variants to be assigned to disruption of one or both TFIIH functions, rather than producing a single aggregate pathogenicity score.\n\nThe authors argue that this functional separation can help reclassify variants of uncertain significance (VUS) in ERCC2 and may explain why different variant classes produce phenotypically divergent disease. The approach could serve as a template for mechanism-selective functional characterisation of other multi-disease genes. The preprint has not yet undergone peer review. Full author and institutional details are available at the bioRxiv record.",
+      "tags": [
+        "ercc2",
+        "xpd",
+        "xeroderma-pigmentosum",
+        "trichothiodystrophy",
+        "deep-mutational-scanning",
+        "tfiih",
+        "variant-interpretation",
+        "vus",
+        "dna-repair",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Resurrected 160-million-year-old mammalian peptides show potency against drug-resistant bacteria",
+      "is_preprint": false,
+      "run_date": "2026-09-28",
+      "run_iso": "2026-09-28T14:54:15Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-28T09:59:57Z",
+        "novelty": 8
+      },
+      "slug": "ancient-antimicrobial-peptides-superbug-activity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-28T09:59:57Z",
+          "publisher": "ScienceDaily",
+          "title": "160-million-year-old proteins show surprising power against superbugs",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260925093155.htm"
+        }
+      ],
+      "standfirst": "Researchers have used ancestral sequence reconstruction to resurrect antimicrobial peptides from early mammals and found that some outperform modern human equivalents against drug-resistant pathogens, providing evolutionary leads for antibiotic design.",
+      "summary": "Scientists have applied ancestral sequence reconstruction — a technique that uses computational phylogenetics to infer and then synthesise the protein sequences of ancient organisms — to recover antimicrobial peptides (AMPs) from mammals that lived approximately 160 million years ago. The study, reported by ScienceDaily, found that several of these resurrected peptides displayed greater potency against drug-resistant bacteria than their modern human counterparts.\n\nAntimicrobial peptides are short proteins produced by immune systems as a first line of defence against pathogens. They are of significant research interest as potential leads for new antibiotics, particularly given the escalating global threat from antimicrobial resistance. The evolutionary logic behind testing ancient variants is that peptides from earlier mammalian lineages may have been optimised for a different and in some respects more diverse microbial environment, and may therefore carry structural features that modern versions have lost.\n\nThe researchers say their findings provide new structural and functional clues for the rational design of AMP-based therapeutic candidates. The work sits at the intersection of evolutionary biology and infectious disease research and is relevant to researchers in genomics, molecular evolution, and antimicrobial pharmacology. The underlying journal, lead authors, and institution are not specified in the ScienceDaily lede; those details will be available in the primary publication. No clinical applications are described in the source material.",
+      "tags": [
+        "ancestral-sequence-reconstruction",
+        "antimicrobial-peptides",
+        "antimicrobial-resistance",
+        "molecular-evolution",
+        "comparative-genomics",
+        "drug-discovery"
+      ]
     }
   ],
-  "last_run": "2026-09-27T12:42:11.322410+00:00",
+  "last_run": "2026-09-28T14:55:48.823465+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
@@ -24999,14 +25218,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753861v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753918v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.753666v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.24.754051v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.24.754105v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754271v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.24.754284v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.25.754437v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
     "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260911214301.htm": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260912220051.htm": "2026-09-14T13:36:58.531625+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260912220103.htm": "2026-09-16T12:25:46.637828+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260912220107.htm": "2026-09-15T12:27:55.080800+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260913081913.htm": "2026-09-15T12:27:55.080800+00:00",
@@ -25030,19 +25251,19 @@
     "https://www.sciencedaily.com/releases/2026/09/260923035939.htm": "2026-09-25T12:34:00.804612+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924020408.htm": "2026-09-26T12:04:39.789841+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924231711.htm": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260924231826.htm": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260925005441.htm": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260925093150.htm": "2026-09-28T14:55:48.823465+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925093152.htm": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260925093155.htm": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260925093157.htm": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260927033754.htm": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260927225030.htm": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/2026/09/14/abbott-settlement-closure-baby-formula-plant-shortages/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.statnews.com/2026/09/14/biotech-news-gsk-touts-lung-cancer-data-from-two-drugs/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/2026/09/14/court-halts-dhs-visa-limits-foreign-scholars/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.statnews.com/2026/09/14/definiums-lsd-therapy-eased-anxiety-large-trial-psychedelic/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
-    "https://www.statnews.com/2026/09/14/football-cte-risk-should-we-feel-guilty-for-watching-nfl/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
-    "https://www.statnews.com/2026/09/14/health-enws-pennsylvania-records-third-measles-related-death-amid-outbreak/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
-    "https://www.statnews.com/2026/09/14/novo-nordisk-company-rebrand-obesity-diabetes/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/2026/09/14/rfk-speech-childrens-health-defense-conference-washington/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.statnews.com/2026/09/14/rural-health-transformation-fund-skepticism-shortcomings-part-5-unraveled-series/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/2026/09/14/third-measles-related-death-pennsylvania-outbreak/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
     "https://www.statnews.com/2026/09/14/trump-cash-obamacare-plans-rural-hospitals-artificial-intelligence/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.statnews.com/2026/09/14/trust-in-science-academia-research-communication-listening/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
     "https://www.statnews.com/2026/09/15/biotech-news-obesity-drugmakers-are-testing-in-kids-as-young-as-si/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/15/fda-launches-program-to-shorten-drug-approval-times/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/15/fourth-measles-death-pennsylvania-acute-disseminated-encephalomyelitis/": "2026-09-16T12:25:46.637828+00:00",
@@ -25166,8 +25387,11 @@
     "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/26/anthrax-letters-25th-anniversary-cdc-investigation-new-biothreats-ai/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/13/trump-secretive-pharma-deals-undermine-most-favored-nation-pricing/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/14/another-astrazeneca-trial-failure-novo-name-change/?utm_campaign=rss": "2026-09-14T13:36:58.531625+00:00",
+    "https://www.statnews.com/2026/09/28/ai-bioweapons-pathogens-guardrails-policy-warning/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.statnews.com/2026/09/28/biotech-news-abbvie-wins-fda-nod-for-parkinsons-pill/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.statnews.com/2026/09/28/glp1-marketing-shift-obesity-medicine-weight-loss-drug/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.statnews.com/2026/09/28/health-news-trump-uses-contested-power-to-cut-more-funding-to-hhs/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.statnews.com/2026/09/28/heart-structure-left-atrial-septal-pouch-lasp-anatomy-discovery/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/pharmalot/2026/09/15/gsk-china-drug-licensing-deal-job-losses/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/pharmalot/2026/09/17/fda-hiring-delays-bavarian-nordic-appoints-ceo/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
@@ -25185,7 +25409,8 @@
     "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/pharmalot/2026/09/25/reticent-fda-commish-nominee-novo-deal/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/pharmalot/2026/09/25/roche-xofluza-influenza-treatment-agreements/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/25/up-and-down-the-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/25/up-and-down-the-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/28/glp1-lifestyle-drug-marketing-merck-daiichi-lung-cancer-setback/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00"
   },
   "takedowns": []
 }
