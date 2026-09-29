@@ -25139,10 +25139,142 @@
         "comparative-genomics",
         "drug-discovery"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "patients",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": "UniQure, a biotechnology company, has shared new information about its experimental Huntington's disease gene therapy called AMT-130. Huntington's disease is an inherited condition caused by a change in a single gene; it gradually affects movement, thinking, and behaviour. There is currently no approved treatment that slows the disease.\n\nThe new data, covering four years of follow-up, suggest the therapy continues to slow how quickly the disease progresses compared with what would be expected without treatment. However, the degree of slowing appears somewhat smaller than was reported a year ago, and the full results have not yet been published in a peer-reviewed scientific journal.\n\nResearchers and doctors will need to study the complete data carefully before drawing firm conclusions. The therapy is still in clinical trials and is not yet approved anywhere.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UniQure's Huntington's gene therapy maintains benefit at four years, though effect size narrows",
+      "is_preprint": false,
+      "run_date": "2026-09-29",
+      "run_iso": "2026-09-29T13:42:07Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-09-29T11:05:00Z",
+        "novelty": 7
+      },
+      "slug": "uniqure-huntingtons-gene-therapy-four-year-followup",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2020/12/AP_464867626358-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-29T11:05:00Z",
+          "publisher": "Stat News",
+          "title": "UniQure's gene therapy continues to slow Huntington's progression after four years",
+          "url": "https://www.statnews.com/2026/09/29/uniqure-huntingtons-gene-therapy-slows-disease-progression-four-years/"
+        }
+      ],
+      "standfirst": "Four-year follow-up data for AMT-130 continue to show slowed disease progression compared with natural history, but the magnitude of benefit is smaller than reported at three years.",
+      "summary": "UniQure has presented four-year follow-up data for AMT-130, its investigational intrathecally delivered gene therapy for Huntington's disease, according to reporting by Stat News. The therapy, which uses an AAV5 vector to deliver a microRNA targeting huntingtin mRNA, continues to demonstrate a slowing of disease progression relative to natural-history comparators.\n\nHowever, the updated analysis shows a reduced magnitude of benefit compared with the equivalent assessment reported approximately one year ago. The company has not yet published full peer-reviewed data for this timepoint; the figures reported by Stat News appear to derive from conference or investor presentations.\n\nHuntington's disease is a monogenic, autosomal dominant neurodegenerative disorder caused by CAG-repeat expansion in the HTT gene. There are currently no disease-modifying therapies approved for it. AMT-130 remains in clinical development; no regulatory submission has been announced.\n\nThe narrowing of apparent effect size over time warrants careful interpretation. Natural-history cohort comparisons can be subject to selection bias, and longer follow-up periods introduce additional confounders. Independent peer-reviewed publication of the full dataset will be important for researchers and clinicians assessing the trajectory of benefit.",
+      "tags": [
+        "huntingtons-disease",
+        "gene-therapy",
+        "amt-130",
+        "uniqure",
+        "htt",
+        "neurodegeneration",
+        "clinical-trial-news"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "First transgenic cephalopod generated using microinjection and CRISPR-based approaches",
+      "is_preprint": true,
+      "run_date": "2026-09-29",
+      "run_iso": "2026-09-29T13:42:07Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-28T00:00:00Z",
+        "novelty": 10
+      },
+      "slug": "transgenic-cephalopod-generation-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Generation of a transgenic cephalopod",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753964v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory describes a method for producing transgenic squid or cuttlefish expressing fluorescent reporters — a technical milestone for cephalopod neuroscience.",
+      "summary": "A preprint posted to bioRxiv reports the first successful generation of a transgenic cephalopod, overcoming long-standing technical barriers that have prevented stable germline transformation in this group of molluscs. Coleoid cephalopods — which include cuttlefish, octopus, and squid — possess highly elaborate nervous systems and exhibit complex behaviours including adaptive camouflage and pattern generation in the skin, making them attractive models for neuroscience and evolutionary biology.\n\nThe work, from researchers at Cold Spring Harbor Laboratory, describes a methodology for introducing transgenes — including fluorescent protein reporters, optogenetic actuators, and indicators of neural activity — into cephalopod embryos. The approach opens a route to studying neural circuit function, skin patterning, and behaviour in vivo in these animals with molecular precision.\n\nThe preprint has not yet undergone peer review, and independent replication of the transgenic line generation will be necessary to confirm the approach is robust and transferable to other laboratories. If validated, the method could establish cephalopods as a new genetically tractable model system alongside zebrafish and Drosophila.\n\nThe work is primarily of interest to researchers in neuroscience, evolutionary developmental biology, and comparative genomics. There is no direct human-genetics or clinical relevance at this stage.",
+      "tags": [
+        "cephalopod",
+        "transgenics",
+        "genome-editing",
+        "neuroscience",
+        "comparative-genomics",
+        "model-organism",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Zebrafish study maps genome-wide transcriptional changes underlying adaptation to protein malnutrition",
+      "is_preprint": false,
+      "run_date": "2026-09-29",
+      "run_iso": "2026-09-29T13:42:07Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-09-28T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "zebrafish-transcriptome-protein-malnutrition-adaptation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-28T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Genome wide transcriptional changes underlie gradual and recurrent adaptation to protein malnutrition in zebrafish",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071"
+        }
+      ],
+      "standfirst": "Researchers report that zebrafish with impaired intestinal protein absorption mount a recurrent, transcriptionally coordinated adaptive response involving lysosome-rich enterocytes.",
+      "summary": "A study published in PLOS Genetics by Siyao Wang, Laura Childers, Fernando Martinez III, Michel Bagnat, Jieun Park, and colleagues describes genome-wide transcriptional changes that allow zebrafish to adapt gradually and repeatedly to severe protein malnutrition caused by loss of Plasmolipin (pllp) function.\n\nPlasmolipin is an endosomal membrane protein highly expressed in lysosome-rich enterocytes (LREs) — a specialised population of intestinal cells that mediate dietary protein uptake in fish and neonatal mammals. Loss of pllp impairs LRE differentiation and protein absorption, normally resulting in poor growth and markedly reduced survival. The team found that homozygous pllp mutant zebrafish that do survive undergo coordinated, reproducible transcriptional reprogramming, identifying gene networks involved in adaptive responses to nutritional stress.\n\nThe findings contribute to understanding how intestinal cells respond to protein malnutrition at the molecular level and may inform future research on LRE biology relevant to neonatal nutrition and intestinal disease in mammals. The study is published as a peer-reviewed article and is therefore not subject to the caveats that apply to preprint material.",
+      "tags": [
+        "zebrafish",
+        "protein-malnutrition",
+        "lysosome-rich-enterocytes",
+        "plasmolipin",
+        "transcriptomics",
+        "intestinal-biology",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-09-28T14:55:48.823465+00:00",
+  "last_run": "2026-09-29T13:43:13.076241+00:00",
   "seen_urls": {
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290": "2026-09-26T12:04:39.789841+00:00",
@@ -25156,9 +25288,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012314": "2026-09-24T12:31:59.253404+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012316": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317": "2026-09-25T12:34:00.804612+00:00",
-    "https://news.cancerresearchuk.org/2026/09/14/is-the-national-cancer-plan-properly-funded/": "2026-09-15T12:27:55.080800+00:00",
-    "https://news.cancerresearchuk.org/2026/09/15/data-science-unpicking-data-diversity-and-inclusive-research-design/": "2026-09-15T12:27:55.080800+00:00",
-    "https://news.cancerresearchuk.org/2026/09/15/new-trustees-announced-as-cancer-research-uk-strengthens-research-and-governance-leadership/": "2026-09-15T12:27:55.080800+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012319": "2026-09-29T13:43:13.076241+00:00",
     "https://news.cancerresearchuk.org/2026/09/16/tracking-immune-system-genetics-smouldering-myeloma-prevent-myeloma/": "2026-09-17T12:25:38.389802+00:00",
     "https://news.cancerresearchuk.org/2026/09/22/form-follows-function-decoding-pancreatic-cancer/": "2026-09-23T12:33:42.633094+00:00",
     "https://news.cancerresearchuk.org/2026/09/22/tackling-variation-in-cancer-treatment-can-the-national-cancer-plan-deliver/": "2026-09-22T12:21:37.504788+00:00",
@@ -25166,11 +25296,7 @@
     "https://news.cancerresearchuk.org/2026/09/24/the-national-cancer-plan-promises-a-bold-vision-now-to-make-it-a-reality/": "2026-09-25T12:34:00.804612+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
     "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.07.749900v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.08.749716v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.09.750329v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.09.750372v1?rss=1": "2026-09-16T12:25:46.637828+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.09.750381v1?rss=1": "2026-09-15T12:27:55.080800+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750611v1?rss=1": "2026-09-16T12:25:46.637828+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750683v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750746v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
@@ -25217,6 +25343,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753846v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753861v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753918v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.23.753964v1?rss=1": "2026-09-29T13:43:13.076241+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.753666v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754051v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754105v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
@@ -25226,11 +25353,7 @@
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.phgfoundation.org/blog/risk-prediction-tools-in-primary-care-why-a-shared-deployment-infrastructure-is-key/": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260911214301.htm": "2026-09-15T12:27:55.080800+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260912220103.htm": "2026-09-16T12:25:46.637828+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260912220107.htm": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260913081913.htm": "2026-09-15T12:27:55.080800+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260914102441.htm": "2026-09-16T12:25:46.637828+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260915232130.htm": "2026-09-17T12:25:38.389802+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260915232136.htm": "2026-09-17T12:25:38.389802+00:00",
@@ -25258,26 +25381,17 @@
     "https://www.sciencedaily.com/releases/2026/09/260925093155.htm": "2026-09-28T14:55:48.823465+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925093157.htm": "2026-09-28T14:55:48.823465+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260927033754.htm": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260927225027.htm": "2026-09-29T13:43:13.076241+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260927225030.htm": "2026-09-28T14:55:48.823465+00:00",
-    "https://www.statnews.com/2026/09/14/abbott-settlement-closure-baby-formula-plant-shortages/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.statnews.com/2026/09/14/court-halts-dhs-visa-limits-foreign-scholars/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.statnews.com/2026/09/14/rfk-speech-childrens-health-defense-conference-washington/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.statnews.com/2026/09/14/third-measles-related-death-pennsylvania-outbreak/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.statnews.com/2026/09/14/trump-cash-obamacare-plans-rural-hospitals-artificial-intelligence/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
     "https://www.statnews.com/2026/09/15/biotech-news-obesity-drugmakers-are-testing-in-kids-as-young-as-si/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/15/fda-launches-program-to-shorten-drug-approval-times/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/15/fourth-measles-death-pennsylvania-acute-disseminated-encephalomyelitis/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/15/fourth-measles-death-pennsylvania-acute-disseminated-encephalomyelitis/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/15/health-news-businesses-can-now-apply-for-nih-funding/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.statnews.com/2026/09/15/heart-research-in-space-cardiovascular-health-nasa-astronauts-mars-mission/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
     "https://www.statnews.com/2026/09/15/medicare-access-chronic-care-management-tech-pilot-expanding/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/15/medicare-access-chronic-care-management-tech-pilot-expanding/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/15/medicare-ai-prior-authorization-pilot-problems-health-tech/": "2026-09-16T12:25:46.637828+00:00",
-    "https://www.statnews.com/2026/09/15/medicare-wiser-ai-prior-authorization-pilot-rushed-launch-delayed-care/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
-    "https://www.statnews.com/2026/09/15/meta-facebook-social-media-addiction-lessons-learned-tobacco-master-settlement/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
     "https://www.statnews.com/2026/09/15/rfk-childrens-health-defense-chris-klomp-hearings-dc-diagnosis/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/15/rfk-childrens-health-defense-chris-klomp-hearings-dc-diagnosis/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/15/vera-kidney-drug-trutakna-shows-strong-phase-3-results-igan/?utm_campaign=rss": "2026-09-15T12:27:55.080800+00:00",
     "https://www.statnews.com/2026/09/16/biotech-news-sen-warren-demands-to-see-trump-drug-pricing-contracts/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/16/dementia-november-2026-midterm-elections-policy-privacy-caregivers-economy/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/16/dementia-november-2026-midterm-elections-policy-privacy-caregivers-economy/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
@@ -25390,8 +25504,19 @@
     "https://www.statnews.com/2026/09/28/ai-bioweapons-pathogens-guardrails-policy-warning/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/2026/09/28/biotech-news-abbvie-wins-fda-nod-for-parkinsons-pill/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/2026/09/28/glp1-marketing-shift-obesity-medicine-weight-loss-drug/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.statnews.com/2026/09/28/hawaii-wildfire-air-quality-risk-study/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/2026/09/28/health-insurance-premiums-soar-2027-quorum-health-nonprofit-conversion/": "2026-09-29T13:43:13.076241+00:00",
     "https://www.statnews.com/2026/09/28/health-news-trump-uses-contested-power-to-cut-more-funding-to-hhs/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/2026/09/28/heart-structure-left-atrial-septal-pouch-lasp-anatomy-discovery/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.statnews.com/2026/09/28/trump-administration-supreme-court-transgender-medical-care-restrictions-prison/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/2026/09/29/childrens-health-national-security-military-labor-workforce-policy-fixes/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/2026/09/29/fda-breakthrough-medical-devices-special-treatment-medicare/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/2026/09/29/health-news-researchers-slow-neurodegeneration-in-mice-t-cells/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/2026/09/29/healthcare-industry-midterm-elections-analysis/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/2026/09/29/snap-cuts-states-health-child-welfare-cps-foster-care/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/2026/09/29/understanding-vaccine-skepticism-in-parents/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/2026/09/29/uniqure-huntingtons-gene-therapy-slows-disease-progression-four-years/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/2026/09/29/why-maha-wants-to-make-health-data-much-more-accessible/": "2026-09-29T13:43:13.076241+00:00",
     "https://www.statnews.com/pharmalot/2026/09/15/gsk-china-drug-licensing-deal-job-losses/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/pharmalot/2026/09/17/fda-hiring-delays-bavarian-nordic-appoints-ceo/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
@@ -25410,7 +25535,9 @@
     "https://www.statnews.com/pharmalot/2026/09/25/reticent-fda-commish-nominee-novo-deal/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/pharmalot/2026/09/25/roche-xofluza-influenza-treatment-agreements/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/pharmalot/2026/09/25/up-and-down-the-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/28/glp1-lifestyle-drug-marketing-merck-daiichi-lung-cancer-setback/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/28/glp1-lifestyle-drug-marketing-merck-daiichi-lung-cancer-setback/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/28/merck-discontinues-antibiotic-recarbrio-in-u-s-despite-superbug-concerns/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/29/novo-licenses-obesity-pill-from-china-merck-pulls-antibiotic/": "2026-09-29T13:43:13.076241+00:00"
   },
   "takedowns": []
 }
