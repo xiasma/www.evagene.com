@@ -25270,13 +25270,320 @@
         "intestinal-biology",
         "plos-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "patients",
+        "educators",
+        "students"
+      ],
+      "for_patients": "Huntington's disease is a hereditary condition that gradually affects movement, thinking, and behaviour. It is caused by a change in a gene called HTT that is passed down in families. There is currently no treatment that can stop or reverse the disease.\n\nA company called UniQure has been testing a gene therapy called AMT-130 that aims to reduce the harmful effects of the faulty gene. New information released after four years of follow-up suggests that people who received the treatment continued to show slower progression of symptoms compared with those who did not, which is encouraging. However, the size of that benefit appears to be somewhat smaller than data reported a year earlier, and researchers are still working to understand why.\n\nThe treatment is still being studied in a clinical trial and has not yet been approved by any medicines regulator. Scientists and clinicians will continue to monitor participants to understand whether the effect remains stable over time.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UniQure's Huntington's gene therapy shows sustained but narrowing benefit at four years",
+      "is_preprint": false,
+      "run_date": "2026-09-30",
+      "run_iso": "2026-09-30T13:18:17Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-09-29T11:05:00Z",
+        "novelty": 4
+      },
+      "slug": "uniqure-huntingtons-gene-therapy-four-year-update",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2020/12/AP_464867626358-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-29T11:05:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: UniQure's gene therapy continues to slow Huntington's progression after four years",
+          "url": "https://www.statnews.com/2026/09/29/uniqure-huntingtons-gene-therapy-slows-disease-progression-four-years/"
+        }
+      ],
+      "standfirst": "Updated data from UniQure's AMT-130 programme show continued slowing of Huntington's disease progression four years post-treatment, though the magnitude of effect has diminished compared with earlier readouts.",
+      "summary": "UniQure has released updated long-term data for AMT-130, its investigational gene therapy for Huntington's disease, showing that treated patients continue to show slower disease progression relative to untreated comparators at the four-year mark. The therapy uses an adeno-associated virus to deliver a microRNA targeting the huntingtin (HTT) gene, aiming to reduce levels of the mutant HTT protein that drives neurodegeneration.\n\nAccording to reporting by STAT News, whilst the directional benefit is maintained, the magnitude of the effect appears smaller than data presented at the three-year timepoint. UniQure has not yet offered a full mechanistic explanation for the attenuation; possibilities under discussion in the field include waning transgene expression, disease progression outpacing the therapy's capacity to slow it at later stages, or regression-to-the-mean artefacts from the non-randomised comparison cohort.\n\nAMT-130 is currently in a Phase I/II trial. Huntington's disease is a dominantly inherited, progressive neurodegenerative condition caused by a CAG repeat expansion in HTT; there are currently no approved disease-modifying treatments. The four-year data will be important context for any future regulatory submission, and the field will be watching whether the effect plateau stabilises or continues to narrow with longer follow-up.\n\nThis story was published by STAT News on 29 September 2026. The underlying trial data have not yet appeared in peer-reviewed form; this summary is based on conference or company reporting as covered in the press.",
+      "tags": [
+        "huntingtons-disease",
+        "gene-therapy",
+        "amt-130",
+        "uniqure",
+        "htt",
+        "neurodegeneration",
+        "clinical-trial-news"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Beam Therapeutics sues former scientist and Chinese biotech over alleged gene-editing IP theft",
+      "is_preprint": false,
+      "run_date": "2026-09-30",
+      "run_iso": "2026-09-30T13:18:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-09-29T17:54:41Z",
+        "novelty": 9
+      },
+      "slug": "beam-therapeutics-ip-theft-lawsuit-yoltech",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_Wiggs-_Beam_3-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-29T17:54:41Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Beam Therapeutics sues Chinese biotech, VC-backed startup, alleging theft of intellectual property",
+          "url": "https://www.statnews.com/2026/09/29/beam-therapeutics-yoltech-serapha-gene-editing-lawsuit/"
+        }
+      ],
+      "standfirst": "Beam Therapeutics has filed suit alleging that a scientist stole proprietary base-editing intellectual property to co-found a China-based company backed by venture capital.",
+      "summary": "The base-editing company Beam Therapeutics has initiated legal action against a former employee, the Chinese biotech company Yoltech, and a VC-backed start-up called Serapha, alleging misappropriation of trade secrets and intellectual property related to its gene-editing platform. According to reporting by STAT News, Beam claims the scientist in question used proprietary information obtained during their employment to help establish Yoltech, which subsequently entered into agreements with venture capital investors.\n\nBeam Therapeutics, founded in part on technology developed from the laboratory of David Liu at the Broad Institute of MIT and Harvard, is one of a small number of companies with advanced base-editing capabilities — techniques that allow single-letter changes to DNA without introducing double-strand breaks. The company has active programmes in sickle cell disease, leukaemia, and other conditions.\n\nThe case illustrates the intensifying competition in the gene-editing sector between US and China-based biotechnology companies, and raises questions about how proprietary platform technologies are protected as the field globalises. The lawsuit was filed in a US federal court; the defendants had not publicly responded to the allegations at the time of publication.\n\nThis summary is based on reporting by STAT News published on 29 September 2026. The allegations are untested in court; Evagene presents the filing as reported, not as established fact.",
+      "tags": [
+        "base-editing",
+        "gene-editing",
+        "intellectual-property",
+        "beam-therapeutics",
+        "biotech-industry",
+        "crispr"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Single-cell RNA-seq and machine learning distinguish gain- and loss-of-function CASR variants",
+      "is_preprint": true,
+      "run_date": "2026-09-30",
+      "run_iso": "2026-09-30T13:18:17Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "casr-variant-mechanism-single-cell-classification",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Single-cell profiling resolves gain- and loss-of-function mechanisms in CASR to advance mechanism-aware variant classification",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754690v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes a multiplexed assay that separates CASR gain-of-function from loss-of-function variants using single-cell transcriptional profiling, potentially improving classification accuracy for a gene with two opposing disease phenotypes.",
+      "summary": "Classifying variants in genes where gain-of-function (GOF) and loss-of-function (LOF) mutations cause clinically distinct disorders poses a particular challenge for standard variant interpretation frameworks. A preprint posted to bioRxiv on 29 September 2026 describes a new approach applied to CASR, which encodes the calcium-sensing receptor: GOF variants in CASR cause autosomal dominant hypocalcaemia, whilst LOF variants cause familial hypocalciuric hypercalcaemia and neonatal severe hyperparathyroidism.\n\nThe authors engineered CASR-depleted HEK293 cells to express individual exogenous variants, then used single-cell RNA sequencing to capture transcriptional profiles for each variant. A supervised machine-learning classifier trained on these profiles was able to separate GOF from LOF variants with high accuracy, and also identified variants of uncertain significance (VUS) as more likely to be GOF or LOF based on their transcriptional signatures.\n\nThe study represents an advance for multiplexed assays of variant effect (MAVEs) — high-throughput experimental approaches that can characterise many variants simultaneously. The authors note that existing MAVE approaches often struggle with multi-mechanism genes, and argue that cell-type-resolved transcriptional readouts may offer a more granular signal than functional assays that collapse to a single output.\n\nThis is a preprint and has not yet undergone peer review. The findings should be interpreted as preliminary. The work was posted to bioRxiv (doi: 10.64898/2026.09.26.754690).",
+      "tags": [
+        "casr",
+        "variant-interpretation",
+        "vus",
+        "gain-of-function",
+        "loss-of-function",
+        "mave",
+        "single-cell-genomics",
+        "calcium-sensing",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Zebrafish model of SNUPN loss-of-function recapitulates limb-girdle muscular dystrophy features",
+      "is_preprint": true,
+      "run_date": "2026-09-30",
+      "run_iso": "2026-09-30T13:18:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-29T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "snupn-snurportin1-limb-girdle-muscular-dystrophy-zebrafish",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Snurportin-1 maintains muscle niche integrity and myogenic progenitor homeostasis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.749599v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports the first in vivo model of Snurportin-1 deficiency, finding that zebrafish lacking SNUPN develop progressive muscle degeneration and myogenic progenitor loss consistent with a recently described form of LGMD.",
+      "summary": "Loss-of-function variants in SNUPN, the gene encoding the nuclear import factor Snurportin-1 (SPN1), were recently identified as the cause of a novel subtype of limb-girdle muscular dystrophy (LGMD). SPN1 is required for the nuclear import of spliceosomal small nuclear ribonucleoproteins (snRNPs), making it essential for pre-mRNA splicing and, by extension, normal gene expression across tissues. Despite the clinical description, the mechanistic basis of muscle pathology in SNUPN-related LGMD has been poorly understood.\n\nA preprint posted to bioRxiv on 29 September 2026 describes a zebrafish snupn loss-of-function model generated by the authors to address this gap. Mutant larvae developed severe locomotor impairment by six days post-fertilisation, with histological and molecular analyses revealing disruption of muscle niche integrity and depletion of myogenic progenitor cells — the satellite-cell-like population responsible for muscle maintenance and repair. The authors report that SPN1 deficiency compromises the capacity for muscle regeneration, suggesting that the progressive nature of LGMD in affected individuals may in part reflect an inability to replenish damaged fibres.\n\nThe zebrafish model recapitulates key pathological features observed in patient muscle biopsies and provides a platform for future therapeutic screening. This work is a preprint and has not yet been peer reviewed (bioRxiv doi: 10.64898/2026.09.24.749599).",
+      "tags": [
+        "snupn",
+        "snurportin-1",
+        "limb-girdle-muscular-dystrophy",
+        "spliceosome-biology",
+        "zebrafish",
+        "muscle-regeneration",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "MOD-scTWAS method improves cell-type-resolved genetic association with complex traits using gene co-expression",
+      "is_preprint": true,
+      "run_date": "2026-09-30",
+      "run_iso": "2026-09-30T13:18:17Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-09-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "mod-sctwas-coexpression-single-cell-trait-association",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "MOD-scTWAS: Leveraging gene co-expression for single-cell transcriptome-wide association studies",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754034v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces a module-based transcriptome-wide association method that jointly models genetically regulated expression across co-expressed gene sets, improving power to detect cell-type-specific trait associations from single-cell data.",
+      "summary": "Transcriptome-wide association studies (TWAS) aim to identify genes whose genetically regulated expression (GReX) is associated with a complex trait, bridging GWAS signals and gene function. The emergence of population-scale single-cell transcriptomic data offers the prospect of running TWAS at cell-type resolution — an advance that could help pinpoint the specific cellular contexts in which associated genes act. Existing single-cell TWAS methods, however, have shown limited predictive performance for GReX, partly because they model genes independently and fail to exploit correlated expression structure.\n\nA preprint posted to bioRxiv on 29 September 2026 describes MOD-scTWAS, a module-based method that addresses this limitation by jointly modelling GReX for genes within co-expression modules. Starting from a generative model for single-cell gene expression, the framework borrows information across genes in the same module to improve GReX prediction, then propagates these predictions into cell-type-resolved TWAS analyses.\n\nThe authors benchmark MOD-scTWAS against existing approaches across a range of complex traits and report improvements in predictive accuracy and in the identification of cell-type-specific associations. The method is designed to scale to biobank-sized datasets. This is a preprint and has not yet undergone peer review (bioRxiv doi: 10.64898/2026.09.24.754034).",
+      "tags": [
+        "twas",
+        "single-cell-genomics",
+        "eqtl",
+        "gene-co-expression",
+        "statistical-genetics",
+        "gwas",
+        "complex-traits",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Single-cell eQTL mapping in the human pancreas reveals cell-type-specific regulatory variants masked in bulk studies",
+      "is_preprint": true,
+      "run_date": "2026-09-30",
+      "run_iso": "2026-09-30T13:18:17Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-09-29T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "pancreas-single-cell-eqtl-cell-type-specific",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Utilizing single-cell data for per-cell type eQTL mapping in the human pancreas",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.23.753551v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint performs per-cell-type eQTL discovery across diverse pancreatic cell populations, identifying regulatory variants that are invisible in whole-pancreas or islet-level bulk analyses.",
+      "summary": "Expression quantitative trait loci (eQTL) studies link genetic variants to variation in gene expression, helping to interpret GWAS signals in functional terms. In the human pancreas, prior eQTL work has largely been conducted in bulk tissue or in isolated pancreatic islets, treating the organ as a relatively homogeneous entity. However, the pancreas comprises a diverse range of cell types — including alpha, beta, delta, acinar, and ductal cells — each with distinct gene expression programmes and physiological roles.\n\nA preprint posted to bioRxiv on 29 September 2026 reports single-cell eQTL mapping performed separately within individual pancreatic cell populations, using single-cell RNA-sequencing data from human donors. The authors identify eQTLs that are either cell-type-specific or differ in effect direction between cell types, findings that were not detectable in bulk analyses. The study also seeks to implicate specific cell types of action for eQTLs that co-localise with GWAS loci for metabolic disorders, including type 2 diabetes.\n\nThe work adds to a growing body of single-cell regulatory genomics resources and highlights that bulk-tissue eQTL catalogues may systematically miss biologically important regulatory variation that is confined to minority cell populations. This is a preprint and has not yet been peer reviewed (bioRxiv doi: 10.64898/2026.09.23.753551).",
+      "tags": [
+        "eqtl",
+        "pancreas",
+        "single-cell-genomics",
+        "type-2-diabetes",
+        "regulatory-genomics",
+        "gwas",
+        "islet-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Perturb-seq screen implicates transcriptional adaptation in buffering essential paralog gene families",
+      "is_preprint": true,
+      "run_date": "2026-09-30",
+      "run_iso": "2026-09-30T13:18:17Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-09-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "transcriptional-adaptation-paralog-buffering-perturb-seq",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Transcriptional adaptation influences buffering among essential paralog gene families",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754217v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that transcriptional adaptation — compensatory upregulation of related genes — contributes to genetic buffering among essential paralogs, identified through a systematic Perturb-seq screen of 110 paralog knockouts.",
+      "summary": "Genetic buffering among paralogs — where the loss of one member of a gene family is partially compensated by related genes sharing similar functions — is a well-established source of genetic robustness. The molecular mechanisms underlying this compensation, however, are incompletely understood. Transcriptional adaptation is one proposed mechanism: the sequence similarity between paralogous genes may allow the transcriptional machinery to upregulate family members when one is inactivated, possibly through recognition of the degraded mRNA or related sequence features.\n\nA preprint posted to bioRxiv on 29 September 2026 describes a systematic Perturb-seq screen — combining CRISPR-based perturbation with single-cell RNA sequencing readout — targeting 110 paralog gene knockouts. The authors assess compensatory expression changes both within paralog families and across the whole transcriptome, finding evidence that transcriptional adaptation contributes to paralog buffering in a subset of cases. The magnitude and directionality of compensation varied by gene family, and the study begins to map the features of paralog pairs where adaptation is most pronounced.\n\nThe findings have implications for understanding why loss-of-function variants in some essential genes produce surprisingly mild phenotypes, and for the interpretation of functional genomics screens that rely on complete gene inactivation. This is a preprint and has not yet been peer reviewed (bioRxiv doi: 10.64898/2026.09.24.754217).",
+      "tags": [
+        "paralog-buffering",
+        "transcriptional-adaptation",
+        "perturb-seq",
+        "crispr",
+        "genetic-robustness",
+        "functional-genomics",
+        "gene-expression",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-09-29T13:43:13.076241+00:00",
+  "last_run": "2026-09-30T13:20:27.263732+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012280": "2026-09-16T12:25:46.637828+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290": "2026-09-26T12:04:39.789841+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012304": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012305": "2026-09-22T12:21:37.504788+00:00",
@@ -25284,7 +25591,6 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012308": "2026-09-19T11:47:52.680890+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012309": "2026-09-19T11:47:52.680890+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012310": "2026-09-18T12:05:41.594212+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012311": "2026-09-16T12:25:46.637828+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012314": "2026-09-24T12:31:59.253404+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012316": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317": "2026-09-25T12:34:00.804612+00:00",
@@ -25296,8 +25602,7 @@
     "https://news.cancerresearchuk.org/2026/09/24/the-national-cancer-plan-promises-a-bold-vision-now-to-make-it-a-reality/": "2026-09-25T12:34:00.804612+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
     "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.09.750372v1?rss=1": "2026-09-16T12:25:46.637828+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.10.750611v1?rss=1": "2026-09-16T12:25:46.637828+00:00",
+    "https://news.cancerresearchuk.org/2026/09/30/childrens-and-young-peoples-cancers-the-government-must-turn-momentum-into-action/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750683v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750746v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.10.750755v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
@@ -25340,21 +25645,26 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.21.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.753175v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.753178v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.23.753551v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753846v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753861v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753918v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753964v1?rss=1": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.24.749599v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.753666v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.24.754034v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754051v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754105v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.24.754106v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.24.754217v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754271v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754284v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.25.754437v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.26.754690v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.28.754465v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260912220103.htm": "2026-09-16T12:25:46.637828+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260914102441.htm": "2026-09-16T12:25:46.637828+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260915232130.htm": "2026-09-17T12:25:38.389802+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260915232136.htm": "2026-09-17T12:25:38.389802+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260915232138.htm": "2026-09-18T12:05:41.594212+00:00",
@@ -25383,26 +25693,16 @@
     "https://www.sciencedaily.com/releases/2026/09/260927033754.htm": "2026-09-28T14:55:48.823465+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260927225027.htm": "2026-09-29T13:43:13.076241+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260927225030.htm": "2026-09-28T14:55:48.823465+00:00",
-    "https://www.statnews.com/2026/09/15/biotech-news-obesity-drugmakers-are-testing-in-kids-as-young-as-si/": "2026-09-16T12:25:46.637828+00:00",
-    "https://www.statnews.com/2026/09/15/fda-launches-program-to-shorten-drug-approval-times/": "2026-09-16T12:25:46.637828+00:00",
-    "https://www.statnews.com/2026/09/15/fourth-measles-death-pennsylvania-acute-disseminated-encephalomyelitis/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/15/fourth-measles-death-pennsylvania-acute-disseminated-encephalomyelitis/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/15/medicare-access-chronic-care-management-tech-pilot-expanding/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/15/medicare-access-chronic-care-management-tech-pilot-expanding/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/15/medicare-ai-prior-authorization-pilot-problems-health-tech/": "2026-09-16T12:25:46.637828+00:00",
-    "https://www.statnews.com/2026/09/15/rfk-childrens-health-defense-chris-klomp-hearings-dc-diagnosis/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/15/rfk-childrens-health-defense-chris-klomp-hearings-dc-diagnosis/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/16/biotech-news-sen-warren-demands-to-see-trump-drug-pricing-contracts/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/dementia-november-2026-midterm-elections-policy-privacy-caregivers-economy/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/16/dementia-november-2026-midterm-elections-policy-privacy-caregivers-economy/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/16/ebola-outbreak-drc-who-cautious-optimism/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/health-news-us-reaches-measles-death-high-in-decades/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/16/health-news-us-reaches-measles-death-high-in-decades/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/healthcare-reform-house-democrats-oversight-targets-after-midterms/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/16/healthcare-reform-house-democrats-oversight-targets-after-midterms/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/16/human-brain-organoids-neuro-chimeric-mice-study-published-nature/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/16/lawsuit-argues-nih-violated-researcher-first-amendment-rights-aclu/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/medical-school-cancer-structure-pathology-professor-personal-experience/": "2026-09-16T12:25:46.637828+00:00",
     "https://www.statnews.com/2026/09/16/medical-school-cancer-structure-pathology-professor-personal-experience/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/16/medicare-advantage-overpayments-analysis-medpac-change-apples-to-apples-act/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/16/senators-highlight-chris-klomp-power-rfk-jr-second-in-command/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
@@ -25509,15 +25809,24 @@
     "https://www.statnews.com/2026/09/28/health-news-trump-uses-contested-power-to-cut-more-funding-to-hhs/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/2026/09/28/heart-structure-left-atrial-septal-pouch-lasp-anatomy-discovery/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/2026/09/28/trump-administration-supreme-court-transgender-medical-care-restrictions-prison/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/2026/09/29/childrens-health-national-security-military-labor-workforce-policy-fixes/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/2026/09/29/fda-breakthrough-medical-devices-special-treatment-medicare/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/2026/09/29/health-news-researchers-slow-neurodegeneration-in-mice-t-cells/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/2026/09/29/healthcare-industry-midterm-elections-analysis/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/2026/09/29/snap-cuts-states-health-child-welfare-cps-foster-care/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/2026/09/29/understanding-vaccine-skepticism-in-parents/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/2026/09/29/uniqure-huntingtons-gene-therapy-slows-disease-progression-four-years/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/2026/09/29/why-maha-wants-to-make-health-data-much-more-accessible/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/15/gsk-china-drug-licensing-deal-job-losses/": "2026-09-16T12:25:46.637828+00:00",
+    "https://www.statnews.com/2026/09/29/anthropic-joins-arpa-h-clinical-ai-moonshot-health-tech/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/beam-therapeutics-yoltech-serapha-gene-editing-lawsuit/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/biotech-news-astrazeneca-invests-2-billion-in-summit-therapeautics/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/childrens-health-national-security-military-labor-workforce-policy-fixes/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/eric-cantor-named-phrma-ceo/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/fda-breakthrough-medical-devices-special-treatment-medicare/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/health-news-researchers-slow-neurodegeneration-in-mice-t-cells/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/healthcare-industry-midterm-elections-analysis/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/heidi-overton-fda-commissioner-vote-midterms-health-care-policy/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/maha-summit-washington-dc-2026-corporate-interests-swamp-grassroots/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/snap-cuts-states-health-child-welfare-cps-foster-care/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/understanding-vaccine-skepticism-in-parents/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/uniqure-huntingtons-gene-therapy-slows-disease-progression-four-years/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/29/why-maha-wants-to-make-health-data-much-more-accessible/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/30/china-america-biotech-race-security/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/30/dea-proposal-7-oh-kratom-schedule-1-drug/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/30/health-news-cdc-measles-death-count-still-lags-pennsylvania/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/30/xeno-mice-human-brains-cortex-research-ethics/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/pharmalot/2026/09/17/fda-hiring-delays-bavarian-nordic-appoints-ceo/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/": "2026-09-19T11:47:52.680890+00:00",
@@ -25537,7 +25846,8 @@
     "https://www.statnews.com/pharmalot/2026/09/25/up-and-down-the-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/pharmalot/2026/09/28/glp1-lifestyle-drug-marketing-merck-daiichi-lung-cancer-setback/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/pharmalot/2026/09/28/merck-discontinues-antibiotic-recarbrio-in-u-s-despite-superbug-concerns/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/29/novo-licenses-obesity-pill-from-china-merck-pulls-antibiotic/": "2026-09-29T13:43:13.076241+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/29/lawmakers-urge-trump-rethink-new-rule-that-could-restrict-imported-medicines/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/29/novo-licenses-obesity-pill-from-china-merck-pulls-antibiotic/": "2026-09-30T13:20:27.263732+00:00"
   },
   "takedowns": []
 }
