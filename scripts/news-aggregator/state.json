@@ -25578,11 +25578,458 @@
         "gene-expression",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "A well-known genetics researcher from Stanford University has written an opinion piece describing how a type of artificial intelligence (AI) called Claude was able to look through his entire genetic code in just 30 minutes, at a cost of about $5. The same task once needed a large team working for nearly a year. The researcher's main point is not that this is straightforwardly good news — it is that the rules and standards needed to make sure such AI analysis is accurate, safe, and fairly used have not kept up with how fast the technology is moving. He is calling on scientists, doctors, and regulators to work together to set clear guidelines. This is an opinion piece commenting on a general development in the field, not a report of a new medical test or treatment. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Opinion: AI analysed a whole genome in 30 minutes — now standards must follow",
+      "is_preprint": false,
+      "run_date": "2026-10-01",
+      "run_iso": "2026-10-01T14:08:10Z",
+      "scores": {
+        "audience_breadth": 8,
+        "importance": 8,
+        "newest_iso": "2026-10-01T08:30:00Z",
+        "novelty": 9
+      },
+      "slug": "claude-ai-genome-analysis-standards-ethics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/09/AdobeStock_2094749636_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-01T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "Opinion: Claude analyzed my genome in 30 minutes. Now we need standards for the results",
+          "url": "https://www.statnews.com/2026/10/01/claude-ai-genome-analysis-standards-ethics/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Stanford geneticist Euan Ashley argues that Claude completing a whole-genome analysis in under an hour for roughly $5 has outpaced the ethical and regulatory frameworks governing such outputs.",
+      "summary": "Writing in *Stat News*, Professor Euan Ashley of Stanford University describes a striking demonstration: the large language model Claude analysed his whole genome in approximately 30 minutes at a cost of around $5 — a task that in 2009 required 30 people and nearly a year. Ashley uses the comparison not to celebrate the speed, but to argue that the genetics and genomics community is now urgently behind on developing standards for what AI-generated genomic interpretation should look like, who should be able to access it, and what safeguards should govern its outputs.\n\nThe opinion piece does not present new primary research but raises pointed questions about quality control, variant interpretation accuracy, liability, and equitable access. Ashley notes that without agreed frameworks, AI-assisted genome analysis will develop unevenly — some outputs rigorous, others misleading — with limited ability for clinicians, researchers, or the public to distinguish between them.\n\nThe piece arrives as AI-assisted genomic tools are proliferating rapidly across both research and direct-to-consumer markets. Ashley's central call is for professional bodies, regulators, and technology developers to convene around shared standards before the gap between capability and governance widens further. For researchers and genetic counsellors, the commentary highlights an emerging tension between the democratisation of genomic analysis and the specialist knowledge required to contextualise its outputs responsibly.",
+      "tags": [
+        "ai-genomics",
+        "whole-genome-sequencing",
+        "standards",
+        "ethics",
+        "large-language-models",
+        "genomic-interpretation",
+        "opinion"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "A gene therapy called AMT-130, developed by a company called UniQure, is being studied as a potential treatment for Huntington's disease — an inherited condition that progressively damages the nervous system. Data collected four years after treatment in a small number of participants suggest the therapy may still be providing some benefit, but the level of benefit appears to have reduced compared with what was seen earlier. The company's scientists are still studying why this might be and what it means for people in the longer term. This therapy is still being researched and is not yet an approved treatment. A news article also highlighted that patients themselves — unlike financial analysts — often find even a modest slowing of the disease meaningful. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UniQure's Huntington's gene therapy shows sustained but narrowing benefit at four years",
+      "is_preprint": false,
+      "run_date": "2026-10-01",
+      "run_iso": "2026-10-01T14:08:10Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-10-01T10:30:00Z",
+        "novelty": 4
+      },
+      "slug": "uniqure-huntingtons-gene-therapy-four-year-durability",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2020/12/AP_464867626358-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-01T10:30:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Why a Huntington's patient isn't fazed by the waning effect of UniQure's gene therapy",
+          "url": "https://www.statnews.com/2026/10/01/huntingtons-disease-uniqure-drug-study-results-patients/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Long-term follow-up data for UniQure's AMT-130 gene therapy indicate continued benefit in Huntington's disease, though the magnitude of effect has diminished over time — raising durability questions for patients and the field.",
+      "summary": "New data from UniQure's ongoing study of AMT-130, an AAV5-delivered gene therapy targeting huntingtin (HTT) mRNA in Huntington's disease, show that treated participants continue to demonstrate measurable benefit compared with historical controls four years after dosing. However, the effect size has narrowed compared with earlier time points, prompting questions about whether the therapy's benefit is durable at clinically meaningful levels over the longer term.\n\nA *Stat News* report draws on patient perspectives to highlight the gap between the concerns driving Wall Street scrutiny — centred on whether narrowing efficacy signals undermine the therapy's commercial case — and those of people living with Huntington's disease, for whom any sustained slowing of a uniformly fatal condition carries significant personal weight. The piece quotes a patient participant who describes remaining unfazed by the waning signal, a framing that underscores the complexity of interpreting surrogate endpoints from the perspective of those most affected.\n\nAMT-130 uses a microRNA-based approach delivered directly to the striatum via stereotactic neurosurgical infusion. The four-year data have not yet been published in a peer-reviewed journal; the figures described derive from conference and investor presentations. Genetic counsellors and clinicians working with Huntington's families will note that the therapy remains investigational. Researchers tracking the gene therapy field will be watching how UniQure interprets these durability findings as it navigates potential regulatory discussions.",
+      "tags": [
+        "huntingtons-disease",
+        "gene-therapy",
+        "amt-130",
+        "uniqure",
+        "htt",
+        "neurodegeneration",
+        "clinical-trial-news"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "APOE4 is a version of a gene called APOE that increases a person's risk of developing Alzheimer's disease. New research suggests that this gene variant may damage tiny blood vessels in the brain and disrupt the systems that normally remove harmful proteins. Scientists found that some of these damaging effects could be reversed in laboratory experiments, which may point to new directions for future treatment research. This finding is at an early, experimental stage and does not represent a new treatment or test. Many people carry the APOE4 variant and never develop Alzheimer's disease; many people without it do. Carrying this variant is one of many factors researchers study in relation to dementia risk. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "APOE4 Alzheimer's risk variant damages brain blood vessels via reversible mechanisms, study finds",
+      "is_preprint": false,
+      "run_date": "2026-10-01",
+      "run_iso": "2026-10-01T14:08:10Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 7,
+        "newest_iso": "2026-10-01T04:45:26Z",
+        "novelty": 7
+      },
+      "slug": "apoe4-brain-vessel-damage-reversible-targets",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-01T04:45:26Z",
+          "publisher": "ScienceDaily",
+          "title": "Alzheimer's risk gene APOE4 may have a reversible weakness",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260930225450.htm"
+        }
+      ],
+      "standfirst": "Researchers have shown that the APOE4 genetic risk variant for Alzheimer's disease actively disrupts cerebrovascular function and protein-clearance systems, and some of these effects could be reversed experimentally.",
+      "summary": "A study reported by ScienceDaily describes new mechanistic insights into how APOE4 — the most significant common genetic risk factor for late-onset Alzheimer's disease — damages brain blood vessels and impairs cellular systems responsible for clearing harmful proteins, including amyloid-beta and alpha-synuclein.\n\nThe researchers, whose institutional affiliation and journal of publication are not specified in the available lede, found that APOE4 appears to actively sabotage the integrity of the blood-brain barrier and compromise autophagy-lysosomal protein clearance pathways. Crucially, the team report that some of these effects were reversible in experimental models, identifying potential therapeutic targets relevant not only to Alzheimer's disease but also to Parkinson's disease and other neurodegenerative conditions in which protein aggregation and vascular dysfunction play a role.\n\nAPOE4 is carried by roughly 25% of the general population in one copy; approximately 2–3% carry two copies, which is associated with substantially elevated risk for Alzheimer's disease. The gene encodes apolipoprotein E, a lipid transport protein abundant in the brain. Understanding the specific downstream consequences of APOE4 — as distinct from the more common APOE3 isoform — is an active area of research. The finding that vascular damage mechanisms may be pharmacologically reversible is of interest to researchers developing APOE-targeted therapies, though the work remains at a preclinical stage and the full publication was not available for review.",
+      "tags": [
+        "apoe4",
+        "alzheimers-disease",
+        "cerebrovascular",
+        "neurodegeneration",
+        "protein-clearance",
+        "blood-brain-barrier",
+        "therapeutic-targets"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Genomic study identifies immune markers as mediators linking immune and psychiatric disorder genetics",
+      "is_preprint": false,
+      "run_date": "2026-10-01",
+      "run_iso": "2026-10-01T14:08:10Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-30T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "immune-markers-mediate-genetics-immune-psychiatric-disorders",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-30T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Immune markers mediate genetic relationships between immune diseases and psychiatric disorders",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012328"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study using genomic structural equation modelling finds that circulating immune markers such as CRP and IL-6 partially mediate the shared genetic architecture between immune-mediated diseases and psychiatric disorders.",
+      "summary": "A study published in *PLOS Genetics* by Breunig, Kelly, Schaffer, Lawrence, Lee, Karlson, and Grotzinger investigates the biological mechanisms connecting the genetic risk for immune-mediated diseases with that for psychiatric disorders — a relationship long observed epidemiologically but poorly understood at the molecular level.\n\nUsing genomic structural equation modelling applied to genome-wide association study summary statistics, the team examined 11 immune-mediated diseases and 13 psychiatric disorders simultaneously, testing whether 14 immune markers — including C-reactive protein (CRP) and interleukin-6 (IL-6) — mediate the genetic associations between the two disease domains. The modelling approach allows researchers to distinguish shared genetic liability that operates through immune pathways from that which does not, yielding a more mechanistically granular picture than standard genetic correlation analyses.\n\nThe results suggest that immune markers do partly mediate cross-domain genetic associations, indicating that the shared genetic signal between, for instance, autoimmune conditions and depression or schizophrenia is in part explained by genetically influenced variation in systemic immune activation. The work has implications for understanding why immune-modulating treatments show some efficacy in psychiatric contexts and for identifying which patients might benefit from immunological approaches. Researchers in psychiatric genetics, immunogenetics, and translational medicine will find the structural modelling methodology of particular interest.",
+      "tags": [
+        "immunogenetics",
+        "psychiatric-genetics",
+        "genomic-sem",
+        "crp",
+        "il-6",
+        "genetic-correlation",
+        "immune-mediated-disease",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Protein misfolding identified as a prevalent mechanism behind hereditary deafness variants",
+      "is_preprint": false,
+      "run_date": "2026-10-01",
+      "run_iso": "2026-10-01T14:08:10Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-09-30T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "protein-misfolding-hereditary-deafness-vus-classification",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-09-30T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "The prevalence of protein misfolding as a mechanism for hereditary deafness",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study systematically evaluates nearly 382,000 missense variants across 224 deafness genes, finding protein misfolding to be a common but under-recognised mechanism and offering a scalable approach to reclassifying variants of uncertain significance.",
+      "summary": "Published in *PLOS Genetics*, a study by Gogal, Cox, Kolbe, Odell, Ovel, McCormick, Hong, Azaiez, Casavant, Smith, Braun, and Schnieders addresses a major bottleneck in the genetics of hereditary hearing loss: the classification of variants of uncertain significance (VUS).\n\nThe team drew on the Deafness Variation Database (DVD), a public resource containing 381,924 missense variants across 224 hearing-loss-associated genes, of which 303,577 remain classified as VUS. Rather than evaluating variants individually — an approach that cannot scale — the researchers applied computational modelling of protein structure and thermodynamic stability to assess protein misfolding as a mechanism of pathogenicity across this entire variant landscape.\n\nTheir analysis identifies protein misfolding as a prevalent mechanism underlying hereditary deafness, suggesting that a large proportion of currently unclassified variants in deafness genes may act by destabilising the encoded protein rather than through other molecular mechanisms. The framework offers a route to systematic, mechanism-informed reclassification of VUS at scale, which has direct implications for diagnostic yield in clinical genomics programmes serving individuals and families with hearing loss.\n\nGenetic counsellors and researchers involved in deafness genetics will note the potential of this approach to reduce the burden of uncertainty in variant reporting, while acknowledging that computational predictions require orthogonal functional validation before clinical application.",
+      "tags": [
+        "hereditary-deafness",
+        "vus",
+        "protein-misfolding",
+        "variant-interpretation",
+        "hearing-loss",
+        "computational-genomics",
+        "plos-genetics",
+        "missense-variants"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Mendel foundation model trained on human genetic variation improves regulatory variant prioritisation",
+      "is_preprint": true,
+      "run_date": "2026-10-01",
+      "run_iso": "2026-10-01T14:08:10Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-30T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "mendel-dna-foundation-model-regulatory-variants",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-30T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mendel, a foundation model of human genetic variation, prioritizes regulatory variants and improves gene expression prediction",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755183v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory introduces Mendel, a DNA foundation model trained specifically on human whole-genome sequences, demonstrating improved performance in prioritising regulatory variants and predicting gene expression compared with models trained on cross-species conservation data.",
+      "summary": "A preprint posted to bioRxiv describes Mendel, a DNA foundation model trained from scratch on human whole-genome sequencing data rather than on multi-species genomic alignments — the training corpus used by most current DNA foundation models. The authors argue that models trained on conservation-dominated corpora learn features that reflect the conserved genomic background shared across all individuals, rather than the sparse variant positions where human genetic variation is actually concentrated.\n\nBy reorienting training towards human sequence variation, Mendel learns representations that are more informative about the regulatory consequences of individual alleles. The preprint reports that the model outperforms existing DNA language models in prioritising regulatory variants identified through genome-wide association studies and in predicting allele-specific gene expression — two tasks central to the functional interpretation of GWAS findings.\n\nThe work addresses a recognised limitation in the field: hundreds of thousands of variant-trait associations from GWAS remain mechanistically unresolved, in part because linking a variant to a regulatory consequence at allele resolution is technically demanding. Foundation models that better capture human-specific variation could accelerate this interpretation. The preprint has not been peer-reviewed; independent benchmarking on held-out datasets will be important to assess the generalisability of the reported performance gains. Researchers in statistical genomics, functional genomics, and machine learning applied to biology will be the primary audience for this work.",
+      "tags": [
+        "foundation-model",
+        "regulatory-variants",
+        "gwas",
+        "gene-expression",
+        "machine-learning",
+        "functional-genomics",
+        "dna-language-model",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: somatic NF1 second-hit mutations show strong clonal selection in oligodendrocyte lineage cells",
+      "is_preprint": true,
+      "run_date": "2026-10-01",
+      "run_iso": "2026-10-01T14:08:10Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-09-30T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "nf1-somatic-second-hit-oligodendrocyte-clonal-selection",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-30T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Pervasive Somatic Mutations in NF1 Drive Cell Type and Spatially Specific Clonal Selection in Neurofibromatosis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755447v1?rss=1"
+        }
+      ],
+      "standfirst": "A large-scale single-cell genomics preprint spanning over 1.7 million cells from neurofibromatosis type 1 donors finds that somatic second-hit mutations in NF1 occur widely but are positively selected almost exclusively in oligodendrocytes and their precursors.",
+      "summary": "A preprint posted to bioRxiv reports findings from single-cell genomic profiling of more than 1.7 million individual cells across multiple donors carrying germline pathogenic variants in NF1, the tumour suppressor gene mutated in neurofibromatosis type 1 (NF-1). The study, using combined spatial genotyping and transcriptomics, tracks where and when somatic 'second-hit' loss-of-function mutations in NF1 arise and which cell types retain them.\n\nThe core finding is that somatic NF1 second-hit mutations are pervasive across tissues — but positive clonal selection (the process by which a mutated cell out-competes neighbours and expands) is almost entirely restricted to oligodendrocytes (OLs) and oligodendrocyte precursor cells (OPCs). In neurons and most other cell lineages, NF1 second-hit mutations are exceedingly rare or non-selected. This cell-type specificity in clonal dynamics may help explain why NF-1-associated tumours of the nervous system, particularly optic pathway gliomas and neurofibromas, arise in specific cellular contexts.\n\nThe spatial genotyping component allowed the authors to link clonal expansions to their anatomical locations, providing a spatially resolved map of early tumourigenic steps in a cancer predisposition syndrome. The preprint has not been peer-reviewed. Researchers studying NF-1 biology, tumour suppressor function, and the cell-of-origin problem in cancer will find this a substantial dataset. Genetic counsellors supporting NF-1 families may note the mechanistic context this provides for understanding somatic second-hit dynamics, though clinical interpretation is not changed by this preclinical finding.",
+      "tags": [
+        "neurofibromatosis",
+        "nf1",
+        "somatic-mutation",
+        "second-hit",
+        "oligodendrocytes",
+        "clonal-selection",
+        "single-cell-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: SysNDD database curates over 4,200 gene-disease entities for neurodevelopmental disorders",
+      "is_preprint": true,
+      "run_date": "2026-10-01",
+      "run_iso": "2026-10-01T14:08:10Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-01T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "sysndd-database-neurodevelopmental-disorders",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-01T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "SysNDD: A Systematic Database for Neurodevelopmental Disorders",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755401v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces SysNDD, an open-access expert-curated database representing gene-inheritance-disease associations for neurodevelopmental disorders with standardised confidence scoring and full curation history.",
+      "summary": "A preprint on bioRxiv describes SysNDD, an open-access resource designed to systematically catalogue the genetic basis of neurodevelopmental disorders (NDDs) — a clinically and genetically heterogeneous group of conditions including intellectual disability, autism spectrum disorder, and developmental epilepsies.\n\nThe database currently contains 4,275 curated entities drawn from 4,932 publications. Of these, 3,758 entities involving 3,271 genes describe NDDs specifically. Each entity represents a distinct gene–inheritance pattern–disease association and carries standardised confidence categories, phenotype annotations, and variant information. Crucially, every entity retains its full curation history, enabling the resource to update confidence classifications as new evidence accumulates — a design choice that addresses one of the persistent limitations of static gene–disease databases.\n\nNeurodevelopmental genetics is an area where new gene–disease relationships are described at high frequency and where distinguishing established from emerging associations directly affects clinical variant interpretation. Resources such as SysNDD contribute to standardising evidence thresholds across diagnostic laboratories and research groups. The preprint has not yet been peer-reviewed. Genetic counsellors, clinical scientists in genomic medicine, and researchers working on NDDs will find the database architecture and curation model of interest, particularly the dynamic confidence scoring system.",
+      "tags": [
+        "neurodevelopmental-disorders",
+        "gene-disease-database",
+        "intellectual-disability",
+        "variant-interpretation",
+        "open-data",
+        "curation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: pangenome study resolves polymorphic transposable elements as active drivers of human regulatory evolution",
+      "is_preprint": true,
+      "run_date": "2026-10-01",
+      "run_iso": "2026-10-01T14:08:10Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-30T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "polymorphic-transposable-elements-pangenome-regulatory-evolution",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-30T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Pangenome-resolved polymorphic transposable elements reveal human regulatory evolution in action",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.24.754167v1?rss=1"
+        }
+      ],
+      "standfirst": "Using 231 haplotype-resolved human pangenomes with long-read multi-omics, a preprint characterises segregating transposable element alleles as sequences, epigenetic states, and transcript components — revealing their ongoing role in shaping human gene regulation.",
+      "summary": "A preprint on bioRxiv describes a systematic analysis of polymorphic transposable elements (TEs) — those still segregating in human populations rather than fixed in the genome — using 231 haplotype-resolved human pangenomes paired with long-read epigenomic and transcriptomic data.\n\nMost existing knowledge of TE contributions to gene regulation derives from ancient insertions already fixed across all humans: elements whose regulatory consequences have been observed and filtered by evolution over millions of years. The polymorphic phase — where a TE insertion is present in some individuals but absent in others — has been difficult to study because short-read sequencing cannot reliably resolve TE alleles as sequences. Long-read pangenomics changes this, enabling the authors to characterise segregating TE alleles not just as presence/absence markers but as full sequences with associated epigenetic states and splicing consequences.\n\nThe study finds that polymorphic TEs are active contributors to regulatory variation in living human populations: they influence chromatin accessibility, DNA methylation, and gene expression in ways that overlap with functional GWAS signals. Their origins extend beyond recent transposition events, and their regulatory activity is shaped by the genomic and epigenomic context into which they insert. The preprint has not been peer-reviewed. Population geneticists, functional genomicists, and researchers working on non-coding variation and regulatory evolution will find this a methodologically and conceptually significant contribution.",
+      "tags": [
+        "transposable-elements",
+        "pangenome",
+        "regulatory-evolution",
+        "long-read-sequencing",
+        "population-genetics",
+        "epigenomics",
+        "non-coding-variation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: prion-like protein conformations transmit heritable states across generations in C. elegans",
+      "is_preprint": true,
+      "run_date": "2026-10-01",
+      "run_iso": "2026-10-01T14:08:10Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-09-30T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "prion-transgenerational-inheritance-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-09-30T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Prion-induced heritable states in Caenorhabditis elegans",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.753494v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that self-replicating protein conformations — analogous to prions in fungi — can encode and transmit heritable phenotypic states across generations in the multicellular animal Caenorhabditis elegans, extending the known scope of protein-based epigenetic inheritance.",
+      "summary": "A preprint posted to bioRxiv investigates whether prion-like, self-replicating protein conformations can act as vehicles for transgenerational epigenetic inheritance in a metazoan animal. In fungi, prion conformers transmit through mitosis and meiosis to produce heritable phenotypic variation without DNA sequence change. Whether analogous mechanisms operate in multicellular animals has remained an open question.\n\nWorking in *Caenorhabditis elegans* — a nematode worm widely used in genetics because of its short generation time, optical transparency, and tractable genetics — the authors demonstrate that specific protein conformational states can be transmitted from parent to offspring over multiple generations, generating heritable phenotypic differences. The work suggests that protein-based inheritance is not confined to unicellular organisms and may represent a more broadly conserved mechanism of non-DNA epigenetic transmission in animals.\n\nThe findings carry implications for understanding age-related neurodegenerative diseases, in which protein aggregates with prion-like properties — including those formed by tau and alpha-synuclein — spread between cells and may influence organismal phenotypes over time. They are also relevant to the broader field of epigenetic inheritance, which examines how information beyond DNA sequence can be passed between generations. The preprint has not been peer-reviewed. Researchers in epigenetics, molecular genetics, and neurodegenerative disease biology will find the conceptual and experimental scope of the study of considerable interest.",
+      "tags": [
+        "prion",
+        "epigenetic-inheritance",
+        "transgenerational",
+        "c-elegans",
+        "protein-conformation",
+        "neurodegeneration",
+        "molecular-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-09-30T13:20:27.263732+00:00",
+  "last_run": "2026-10-01T14:11:14.820845+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290": "2026-09-26T12:04:39.789841+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012304": "2026-09-18T12:05:41.594212+00:00",
@@ -25595,7 +26042,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012316": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317": "2026-09-25T12:34:00.804612+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012319": "2026-09-29T13:43:13.076241+00:00",
-    "https://news.cancerresearchuk.org/2026/09/16/tracking-immune-system-genetics-smouldering-myeloma-prevent-myeloma/": "2026-09-17T12:25:38.389802+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012328": "2026-10-01T14:11:14.820845+00:00",
     "https://news.cancerresearchuk.org/2026/09/22/form-follows-function-decoding-pancreatic-cancer/": "2026-09-23T12:33:42.633094+00:00",
     "https://news.cancerresearchuk.org/2026/09/22/tackling-variation-in-cancer-treatment-can-the-national-cancer-plan-deliver/": "2026-09-22T12:21:37.504788+00:00",
     "https://news.cancerresearchuk.org/2026/09/23/latest-winner-in-our-research-is-beautiful-competition-7/": "2026-09-23T12:33:42.633094+00:00",
@@ -25603,18 +26050,12 @@
     "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
     "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
     "https://news.cancerresearchuk.org/2026/09/30/childrens-and-young-peoples-cancers-the-government-must-turn-momentum-into-action/": "2026-09-30T13:20:27.263732+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.10.750683v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.10.750746v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.10.750755v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.11.750860v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.11.750947v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.11.751087v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.12.751172v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.13.751268v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.13.751273v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.750524v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.750622v1?rss=1": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.14.750853v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.751452v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.751483v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751127v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
@@ -25626,7 +26067,6 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751898v1?rss=1": "2026-09-21T13:35:59.465310+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751936v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.750837v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.16.751136v1?rss=1": "2026-09-17T12:25:38.389802+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.751930v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.752223v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.17.752490v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
@@ -25656,17 +26096,22 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754051v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754105v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754106v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.24.754167v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754217v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754271v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754284v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.25.754302v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.25.754437v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.26.754621v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.26.754690v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.27.753494v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.28.754465v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.28.755183v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.29.755401v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.29.755447v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260915232130.htm": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260915232136.htm": "2026-09-17T12:25:38.389802+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260915232138.htm": "2026-09-18T12:05:41.594212+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260916232529.htm": "2026-09-18T12:05:41.594212+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260917003722.htm": "2026-09-19T11:47:52.680890+00:00",
@@ -25693,33 +26138,18 @@
     "https://www.sciencedaily.com/releases/2026/09/260927033754.htm": "2026-09-28T14:55:48.823465+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260927225027.htm": "2026-09-29T13:43:13.076241+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260927225030.htm": "2026-09-28T14:55:48.823465+00:00",
-    "https://www.statnews.com/2026/09/15/fourth-measles-death-pennsylvania-acute-disseminated-encephalomyelitis/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/15/medicare-access-chronic-care-management-tech-pilot-expanding/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/15/rfk-childrens-health-defense-chris-klomp-hearings-dc-diagnosis/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/biotech-news-sen-warren-demands-to-see-trump-drug-pricing-contracts/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/dementia-november-2026-midterm-elections-policy-privacy-caregivers-economy/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/ebola-outbreak-drc-who-cautious-optimism/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/health-news-us-reaches-measles-death-high-in-decades/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/healthcare-reform-house-democrats-oversight-targets-after-midterms/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/human-brain-organoids-neuro-chimeric-mice-study-published-nature/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/lawsuit-argues-nih-violated-researcher-first-amendment-rights-aclu/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/medical-school-cancer-structure-pathology-professor-personal-experience/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/medicare-advantage-overpayments-analysis-medpac-change-apples-to-apples-act/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/16/senators-highlight-chris-klomp-power-rfk-jr-second-in-command/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/17/astrazeneca-enhertu-breast-cancer-england-nice-pricing-agreement-us-trade-deal/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/2026/09/17/biotech-hedge-fund-startup-north-immunology/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260928100551.htm": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260929053531.htm": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260930225450.htm": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/09/17/biotech-news-ariadne-testing-psychedelic-like-drug-parkinsons-apathy/": "2026-09-19T11:47:52.680890+00:00",
-    "https://www.statnews.com/2026/09/17/fda-doge-cuts-new-hires-slowed-centralized-hiring-center-short-staffed/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/17/fda-hiring-bottleneck-senate-hearings-chris-klomp-nicole-saphier/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/17/health-news-fentanyl-overdoses-fda-doge-morning-rounds/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/17/kennedy-announces-new-research-fund-to-improve-autism-diagnoses/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/17/kennedy-names-eight-new-members-uspstf-task-force/": "2026-09-19T11:47:52.680890+00:00",
-    "https://www.statnews.com/2026/09/17/oppositional-defiant-disorder-use-of-odd-diagnosis-declines-in-children/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/17/psychedelics-definium-visas-international-students-court-ruling-readout-loud-podcast/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/17/rare-gene-variant-boosts-lung-cancer-risk-25-fold-in-non-smokers/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/": "2026-09-19T11:47:52.680890+00:00",
-    "https://www.statnews.com/2026/09/17/sellas-immunotherapy-study-acute-myeloid-leukemia/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
     "https://www.statnews.com/2026/09/17/zocdoc-for-chatbots-and-medicares-access-healh-tech/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
@@ -25823,12 +26253,28 @@
     "https://www.statnews.com/2026/09/29/understanding-vaccine-skepticism-in-parents/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/2026/09/29/uniqure-huntingtons-gene-therapy-slows-disease-progression-four-years/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/2026/09/29/why-maha-wants-to-make-health-data-much-more-accessible/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/30/biotech-news-updates-accusations-of-theft-new-phrma-guy/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/09/30/china-america-biotech-race-security/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/2026/09/30/dea-proposal-7-oh-kratom-schedule-1-drug/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/30/eli-lilly-zepbound-amylin-combination-drug-study/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/09/30/health-news-cdc-measles-death-count-still-lags-pennsylvania/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/09/30/health-tech-policy-conversations-washington-ai-prognosis/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/09/30/hhs-arpa-h-clinical-trials-artificial-intelligence-surpass-program/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/09/30/legal-immigrants-risk-losing-medicaid-coverage-trump/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/09/30/rural-maha-followers-poll-trump-hasnt-improved-community-health/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/09/30/trump-final-globe-rule-will-save-medicare-much-less-money-on-drugs/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/09/30/unitedhealth-investor-lawsuit-moves-forward-allegations-of-manufactured-earnings-to-hide-declining-profits/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/09/30/xeno-mice-human-brains-cortex-research-ethics/": "2026-09-30T13:20:27.263732+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/17/fda-hiring-delays-bavarian-nordic-appoints-ceo/?utm_campaign=rss": "2026-09-17T12:25:38.389802+00:00",
+    "https://www.statnews.com/2026/10/01/china-biotech-boom-jefferies-conference-shanghai/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/claude-ai-genome-analysis-standards-ethics/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/eric-cantor-phrma-populist-drug-policy/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/glp-1-weight-loss-drugs-children-research-obesity-disease/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/health-news-trump-administration-appeals-ruling-blocking-student-visa-limits/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/huntingtons-disease-uniqure-drug-study-results-patients/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/invivyds-covid-antibody-development/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/major-insurer-on-medicare-access-model-health-tech/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/midterm-election-health-care-policy-impact-senate-republican-turnover/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/sanofi-regeneron-agreement-dupixent-antibodies-immunology/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/": "2026-09-19T11:47:52.680890+00:00",
@@ -25847,7 +26293,9 @@
     "https://www.statnews.com/pharmalot/2026/09/28/glp1-lifestyle-drug-marketing-merck-daiichi-lung-cancer-setback/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/pharmalot/2026/09/28/merck-discontinues-antibiotic-recarbrio-in-u-s-despite-superbug-concerns/": "2026-09-29T13:43:13.076241+00:00",
     "https://www.statnews.com/pharmalot/2026/09/29/lawmakers-urge-trump-rethink-new-rule-that-could-restrict-imported-medicines/": "2026-09-30T13:20:27.263732+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/29/novo-licenses-obesity-pill-from-china-merck-pulls-antibiotic/": "2026-09-30T13:20:27.263732+00:00"
+    "https://www.statnews.com/pharmalot/2026/09/29/novo-licenses-obesity-pill-from-china-merck-pulls-antibiotic/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/pharmalot/2026/09/30/beam-sues-over-trade-secret-theft-trump-drug-import-rule/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/01/trump-plan-to-lower-medicare-drug-prices-lilly-obesity-drug/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00"
   },
   "takedowns": []
 }
