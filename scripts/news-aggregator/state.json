@@ -26024,20 +26024,328 @@
         "molecular-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers at Cold Spring Harbor Laboratory have published early findings — not yet peer reviewed — about how certain gene mutations affect blood cells in mice. The genes studied, called TET2 and TET3, help control how DNA is chemically marked inside cells. When both genes were switched off, immune cells in mice multiplied aggressively and consistently gained an extra copy of one chromosome. Similar TET2 mutations are known to occur in human blood cells as people age, and are sometimes linked to an increased risk of blood cancers. This mouse study helps scientists understand one way those mutations might cause problems. The research does not involve human patients and is at an early, laboratory stage. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "TET enzyme loss drives chromosomal instability and aggressive lymphoid growth",
+      "is_preprint": true,
+      "run_date": "2026-10-02",
+      "run_iso": "2026-10-02T13:31:27Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-10-01T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "tet2-tet3-loss-aneuploidy-lymphoid-expansion",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-01T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "TET loss of function selects for aneuploidies that confer a proliferative advantage",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.27.754858v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory shows that loss of Tet2 and Tet3 in mouse immune cells consistently selects for trisomy 17, offering a mechanistic window into how epigenetic mutations may fuel blood cancers.",
+      "summary": "Researchers at Cold Spring Harbor Laboratory report in a bioRxiv preprint that deletion of the DNA dioxygenases Tet2 and Tet3 in invariant natural killer T (iNKT) cells drives aggressive lymphoid expansion consistently accompanied by trisomy of chromosome 17. The finding was reproduced across more than ten independently derived tumours following transplantation into immunocompromised host animals, suggesting that this specific aneuploid state confers a strong proliferative advantage rather than arising by chance.\n\nTET2 loss-of-function mutations are among the most prevalent epigenetic alterations seen in clonal haematopoiesis and in myeloid and lymphoid malignancies in humans. This mouse study extends that picture by demonstrating that TET enzyme deficiency does not merely impair DNA demethylation but actively reshapes the genome through selection for specific chromosomal gains. The recurrent nature of the chromosome 17 trisomy implies that particular genes on that chromosome — candidates for which are discussed in the preprint — provide a selective growth advantage in cells already lacking TET-mediated epigenetic control.\n\nBecause TET2 mutations are common in clonal haematopoiesis of indeterminate potential (CHIP), a condition detectable in the general population with increasing age, understanding how TET loss interacts with genome stability pathways is of broad relevance to cancer biology and haematological research. The work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "tet2",
+        "clonal-haematopoiesis",
+        "aneuploidy",
+        "lymphoid-malignancy",
+        "epigenetics",
+        "dna-demethylation",
+        "cancer-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Mouse study implicates STEAP2 in glucose-stimulated insulin secretion",
+      "is_preprint": true,
+      "run_date": "2026-10-02",
+      "run_iso": "2026-10-02T13:31:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-02T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "steap2-insulin-secretion-type2-diabetes-mouse",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-02T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The ortholog of the Human T2D Risk Gene STEAP2 is Required for Glucose Stimulated Insulin Secretion in Mice",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754731v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that conditional deletion of Steap2 from pancreatic beta-cells impairs insulin release in mice, providing the first functional evidence for this type 2 diabetes GWAS locus.",
+      "summary": "Researchers have posted a preprint on bioRxiv showing that the protein STEAP2 — encoded by a gene whose locus is associated with altered glycaemic traits and type 2 diabetes risk in genome-wide association studies — is required for normal glucose-stimulated insulin secretion in mice.\n\nUsing CRISPR-Cas9-assisted homologous recombination, the team generated mice carrying a conditional null allele for Steap2 (Steap2fl/fl) and crossed these animals to a line expressing Cre recombinase under the rat insulin promoter, thereby deleting Steap2 specifically in pancreatic beta-cells. The resulting animals showed impaired insulin secretion in response to glucose challenge, providing direct functional evidence that this locus influences beta-cell physiology rather than another metabolic tissue.\n\nSteap2 encodes Six-transmembrane epithelial antigen of the prostate-2, a protein with roles in metal ion transport and endosomal trafficking whose function in the pancreas had not previously been established. Type 2 diabetes is influenced by common variants distributed across hundreds of loci, most of which remain functionally uncharacterised. This work represents a step towards closing that gap for one such locus, though as a preprint the findings await peer review and replication. The study is of primary interest to researchers working in diabetes genetics and islet biology, and connects naturally to recent single-cell eQTL work in the human pancreas published on Genetic Current.",
+      "tags": [
+        "steap2",
+        "type-2-diabetes",
+        "beta-cell-biology",
+        "insulin-secretion",
+        "gwas",
+        "crispr",
+        "mouse-model",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Genetic background and sex modify how one mouse's genes affect its cage-mates",
+      "is_preprint": true,
+      "run_date": "2026-10-02",
+      "run_iso": "2026-10-02T13:31:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-01T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "epha4-indirect-genetic-effects-mice-sex-background",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-01T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genetic backgrounds and sex modulate indirect genetic effects of Epha4 in laboratory mice",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755759v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint shows that indirect genetic effects arising from the Epha4 gene in laboratory mice — whereby one individual's genotype shapes the phenotype of others in its social group — vary substantially depending on genetic background and sex.",
+      "summary": "A bioRxiv preprint investigates indirect genetic effects (IGE) — the phenomenon whereby the genes of one individual influence the observable traits of others in the same social group — focusing on the Epha4 gene in laboratory mice.\n\nEpha4 encodes Ephrin type-A receptor 4, a cell-surface receptor previously associated with stress-related and social behaviours via direct genetic effects in individuals carrying the gene. The preprint reports that the magnitude and direction of IGE arising from Epha4 carriers vary with both the genetic background of the focal (receiving) individual — a form of social epistasis — and with the sex of the animals involved. These findings suggest that interpreting genotype-phenotype relationships in socially housed animals requires accounting not only for the focal animal's own genotype but also for the genotypes of its social partners.\n\nThe study is principally of interest to quantitative geneticists and animal behaviour researchers, and has methodological relevance for the design and analysis of mouse model experiments more broadly. The authors note that a better understanding of IGE may also inform models of how social environments mediate genetic influences on behaviour in other species. This is a preprint and has not yet been peer reviewed.",
+      "tags": [
+        "indirect-genetic-effects",
+        "epha4",
+        "social-epistasis",
+        "quantitative-genetics",
+        "mouse-model",
+        "behavioural-genetics",
+        "sex-differences",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Validated eDNA assay enables non-invasive dugong population surveillance",
+      "is_preprint": true,
+      "run_date": "2026-10-02",
+      "run_iso": "2026-10-02T13:31:27Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-10-01T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "edna-dugong-population-surveillance-taqman",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-01T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Finding dugongs through environmental DNA: a complementary tool for population surveillance",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755531v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes development and analytical validation of a quantitative PCR TaqMan assay for detecting dugong environmental DNA, tested in both aquarium settings and wild populations across Australia and the Arabian Gulf.",
+      "summary": "Researchers have posted a preprint on bioRxiv describing the development and validation of a species-specific environmental DNA (eDNA) assay for the dugong (Dugong dugon), a vulnerable marine mammal that is difficult to survey using conventional methods in remote or turbid coastal habitats.\n\nThe team designed a quantitative PCR TaqMan assay to detect dugong-shed DNA from water samples, then evaluated its performance in controlled aquarium conditions at institutions in Australia and Abu Dhabi before applying it to wild populations in northern Australia and the Arabian Gulf region. The assay performed robustly across both controlled and field settings, correctly identifying dugong presence and discriminating against closely related species.\n\nEnvironmental DNA approaches have grown substantially as tools for biodiversity monitoring and conservation genetics over the past decade, enabling detection of species at low densities without requiring direct capture or observation. For dugongs — which are legally protected across much of their range and are listed as vulnerable by the IUCN — a validated, non-invasive detection tool could materially improve population surveillance capacity, particularly in areas where aerial or boat-based surveys are logistically challenging. The study is a preprint and has not completed peer review.",
+      "tags": [
+        "environmental-dna",
+        "edna",
+        "conservation-genetics",
+        "dugong",
+        "population-surveillance",
+        "qpcr",
+        "biodiversity-monitoring",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Multi-omics fine-mapping pins pleiotropic pig growth-and-fatness signal to a single enhancer variant",
+      "is_preprint": true,
+      "run_date": "2026-10-02",
+      "run_iso": "2026-10-02T13:31:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-01T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "pmaip1-enhancer-variant-pig-growth-fatness-pleiotropic",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-01T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Multi-omics fine-mapping uncovers a pleiotropic intestinal enhancer variant linking PMAIP1 regulation to pig growth and fatness",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.26.754598v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint integrating GWAS, epigenomic annotation, and 3D chromatin data in nearly 8,000 Yorkshire pigs narrows a locus for daily gain and backfat to a functional variant that regulates PMAIP1 via an intestinal enhancer.",
+      "summary": "Researchers describe in a bioRxiv preprint a multi-omics fine-mapping exercise that resolves a shared genetic signal influencing average daily gain and backfat thickness in Yorkshire pigs to a single candidate functional variant, rs334769214, located within a 1.59-megabase region on Sus scrofa chromosome 1 (SSC1).\n\nThe study integrated genome-wide association data from 7,972 pigs with targeted capture sequencing, linkage-disequilibrium-based fine-mapping, porcine epigenomic annotations, three-dimensional chromatin interaction maps, and functional assays to prioritise the variant. The causal candidate lies within an intestinal enhancer that regulates expression of PMAIP1, a gene encoding a pro-apoptotic BCL-2 family protein. The preprint presents this as an example of pleiotropy — where a single regulatory variant influences multiple biologically distinct traits — resolved through the integration of multiple genomic data layers.\n\nThe work is primarily of interest to researchers in agricultural genomics, quantitative genetics, and regulatory genomics. The methods applied here — combining GWAS fine-mapping with single-tissue epigenomic and chromatin conformation data — are increasingly standard approaches for dissecting the regulatory architecture of complex traits across species, and the study may have methodological relevance beyond its livestock context. This is a preprint and has not yet been peer reviewed.",
+      "tags": [
+        "gwas",
+        "fine-mapping",
+        "regulatory-genomics",
+        "enhancer",
+        "pmaip1",
+        "livestock-genomics",
+        "pleiotropy",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Forward genetic screen links EAG potassium channel domain interface to sleep regulation",
+      "is_preprint": false,
+      "run_date": "2026-10-02",
+      "run_iso": "2026-10-02T13:31:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-01T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "kcnh-eag-cnbhd-interface-sleep-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-01T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Forward genetics reveals a conserved CNBHD-CNBHD interface that restrains EAG channel activation to regulate sleep",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012255"
+        }
+      ],
+      "standfirst": "A peer-reviewed PLOS Genetics study identifies a conserved gain-of-function mutation in the C. elegans EGL-2 channel that suppresses sleep by altering the interface between cyclic-nucleotide-binding homology domains.",
+      "summary": "Researchers at the University of Wisconsin-Madison, publishing in PLOS Genetics, used an unbiased forward genetic screen in the nematode Caenorhabditis elegans to identify a gain-of-function mutation in EGL-2, a member of the EAG-subfamily of KCNH voltage-gated potassium channels, that suppresses sleep behaviour.\n\nThe mutation — G574E — alters a highly conserved glycine residue at the interface between cyclic nucleotide-binding homology domains (CNBHDs) of adjacent channel subunits. CNBHDs are a hallmark structural feature of the KCNH family, but their precise role in gating and in downstream behavioural regulation had remained unclear. The authors demonstrate that EGL-2 functions in a cell-autonomous manner and that the CNBHD-CNBHD interface acts to restrain channel activation under normal conditions; disrupting this interface via G574E prolongs channel activity and thereby suppresses sleep.\n\nKCNH channels are conserved from nematodes to humans, and human family members — including hERG (KCNH2), EAG1 (KCNH1), and EAG2 (KCNH5) — are implicated in cardiac arrhythmia, neurological conditions, and neurodevelopmental disorders. The study illustrates how forward genetics in a simple model organism can reveal conserved structural mechanisms with potential broader relevance to ion-channel biology. The paper is peer reviewed and published in PLOS Genetics.",
+      "tags": [
+        "kcnh",
+        "eag-channel",
+        "potassium-channels",
+        "sleep",
+        "c-elegans",
+        "forward-genetics",
+        "ion-channel-biology",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "STAT podcast examines gene-editing IP dispute and declining public trust in science",
+      "is_preprint": false,
+      "run_date": "2026-10-02",
+      "run_iso": "2026-10-02T13:31:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-10-01T16:31:11Z",
+        "novelty": 3
+      },
+      "slug": "gene-editing-lawsuit-podcast-beam-stat-readout",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/07/ROL_Rectangle-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-01T16:31:11Z",
+          "publisher": "Stat News",
+          "title": "Mistrust in science and a juicy gene-editing lawsuit",
+          "url": "https://www.statnews.com/2026/10/01/readout-loud-podcast-trust-in-science-gene-editing-lawsuit/"
+        }
+      ],
+      "standfirst": "The STAT 'Readout LOUD' podcast addresses a gene-editing intellectual property lawsuit — likely connected to the Beam Therapeutics case reported earlier this week — alongside discussion of eroding public confidence in scientific institutions.",
+      "summary": "STAT News published an episode of its 'The Readout LOUD' podcast on 1 October 2026 covering two distinct topics: a gene-editing intellectual property lawsuit, and the question of why public trust in science has fallen among significant portions of the US population.\n\nThe podcast does not appear to introduce new primary research but provides commentary and analysis on ongoing developments in the biotech-legal landscape. The gene-editing lawsuit component almost certainly relates to the case involving Beam Therapeutics and allegations of IP theft by a former scientist, which Genetic Current covered on 30 September 2026. The public-trust discussion addresses a recurring theme in science communication.\n\nThis item is included here primarily because it signals continued public interest in the gene-editing IP dispute, and because the trust-in-science theme intersects with genetics and genomics communication more broadly. Readers interested in the underlying Beam Therapeutics case are directed to the 30 September cluster. The podcast is a STAT+ subscriber item.",
+      "tags": [
+        "gene-editing",
+        "intellectual-property",
+        "beam-therapeutics",
+        "trust-in-science",
+        "science-communication",
+        "biotech-industry"
+      ]
     }
   ],
-  "last_run": "2026-10-01T14:11:14.820845+00:00",
+  "last_run": "2026-10-02T13:33:27.695086+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012255": "2026-10-02T13:33:27.695086+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290": "2026-09-26T12:04:39.789841+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012304": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012305": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012307": "2026-09-23T12:33:42.633094+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012308": "2026-09-19T11:47:52.680890+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012309": "2026-09-19T11:47:52.680890+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012310": "2026-09-18T12:05:41.594212+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012314": "2026-09-24T12:31:59.253404+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012316": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317": "2026-09-25T12:34:00.804612+00:00",
@@ -26050,18 +26358,12 @@
     "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
     "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
     "https://news.cancerresearchuk.org/2026/09/30/childrens-and-young-peoples-cancers-the-government-must-turn-momentum-into-action/": "2026-09-30T13:20:27.263732+00:00",
+    "https://news.cancerresearchuk.org/2026/10/01/research-integrity-why-robust-antibody-validation-is-vital-for-drug-discovery/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.11.751087v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.12.751172v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.13.751268v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.13.751273v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.750524v1?rss=1": "2026-09-19T11:47:52.680890+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.14.750622v1?rss=1": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.14.751452v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.14.751483v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751127v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.15.751489v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.15.751652v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.15.751728v1?rss=1": "2026-09-18T12:05:41.594212+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751738v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751756v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751898v1?rss=1": "2026-09-21T13:35:59.465310+00:00",
@@ -26100,22 +26402,28 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754217v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754271v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754284v1?rss=1": "2026-09-28T14:55:48.823465+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.25.753906v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.25.754302v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.25.754437v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.25.754494v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.26.754598v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.26.754621v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.26.754690v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.26.754731v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.27.753494v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.27.754858v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.28.754465v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.28.755174v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.28.755183v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755401v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755447v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.30.755531v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.30.755759v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260915232138.htm": "2026-09-18T12:05:41.594212+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260916232529.htm": "2026-09-18T12:05:41.594212+00:00",
+    "https://www.england.nhs.uk/2026/10/nhs-protects-thousands-of-rough-sleepers-ahead-of-winter-with-vital-vaccines/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260917003722.htm": "2026-09-19T11:47:52.680890+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260918000437.htm": "2026-09-18T12:05:41.594212+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260918024810.htm": "2026-09-20T12:01:14.083696+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260918024812.htm": "2026-09-20T12:01:14.083696+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260918024814.htm": "2026-09-20T12:01:14.083696+00:00",
@@ -26140,6 +26448,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260927225030.htm": "2026-09-28T14:55:48.823465+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100551.htm": "2026-10-01T14:11:14.820845+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260929053531.htm": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.sciencedaily.com/releases/2026/09/260930020257.htm": "2026-10-02T13:33:27.695086+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930225450.htm": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/09/17/biotech-news-ariadne-testing-psychedelic-like-drug-parkinsons-apathy/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/2026/09/17/fda-hiring-bottleneck-senate-hearings-chris-klomp-nicole-saphier/": "2026-09-19T11:47:52.680890+00:00",
@@ -26265,6 +26574,8 @@
     "https://www.statnews.com/2026/09/30/trump-final-globe-rule-will-save-medicare-much-less-money-on-drugs/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/09/30/unitedhealth-investor-lawsuit-moves-forward-allegations-of-manufactured-earnings-to-hide-declining-profits/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/09/30/xeno-mice-human-brains-cortex-research-ethics/": "2026-09-30T13:20:27.263732+00:00",
+    "https://www.statnews.com/2026/10/01/biotech-news-journey-to-witness-chinas-biotech-boom-up-close/": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.statnews.com/2026/10/01/cdc-health-survey-redesign-removes-questions-about-disabilities/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.statnews.com/2026/10/01/china-biotech-boom-jefferies-conference-shanghai/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/10/01/claude-ai-genome-analysis-standards-ethics/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/10/01/eric-cantor-phrma-populist-drug-policy/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
@@ -26272,9 +26583,17 @@
     "https://www.statnews.com/2026/10/01/health-news-trump-administration-appeals-ruling-blocking-student-visa-limits/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/10/01/huntingtons-disease-uniqure-drug-study-results-patients/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/10/01/invivyds-covid-antibody-development/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/maha-goes-corporate-trump-waters-down-medicare-drug-pricing-model/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.statnews.com/2026/10/01/major-insurer-on-medicare-access-model-health-tech/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/medicare-advantage-plans-have-higher-deductibles-fewer-benefits-in-2027/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.statnews.com/2026/10/01/midterm-election-health-care-policy-impact-senate-republican-turnover/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/readout-loud-podcast-trust-in-science-gene-editing-lawsuit/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.statnews.com/2026/10/01/sanofi-regeneron-agreement-dupixent-antibodies-immunology/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/01/womens-health-issues-academic-journal-science-special-edition/": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.statnews.com/2026/10/02/340b-policy-orphan-designated-drugs-pharmacy-losses-hrsa-congress/": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.statnews.com/2026/10/02/health-news-how-big-is-pennsylvania-measles-outbreak/": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.statnews.com/2026/10/02/marathons-climate-change-extreme-heat-medical-planning/": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.statnews.com/2026/10/02/nih-grant-funding-fy2026-analysis/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/": "2026-09-19T11:47:52.680890+00:00",
     "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
     "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/": "2026-09-19T11:47:52.680890+00:00",
@@ -26295,7 +26614,9 @@
     "https://www.statnews.com/pharmalot/2026/09/29/lawmakers-urge-trump-rethink-new-rule-that-could-restrict-imported-medicines/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/pharmalot/2026/09/29/novo-licenses-obesity-pill-from-china-merck-pulls-antibiotic/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/pharmalot/2026/09/30/beam-sues-over-trade-secret-theft-trump-drug-import-rule/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/01/trump-plan-to-lower-medicare-drug-prices-lilly-obesity-drug/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/01/trump-plan-to-lower-medicare-drug-prices-lilly-obesity-drug/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/": "2026-10-02T13:33:27.695086+00:00"
   },
   "takedowns": []
 }
