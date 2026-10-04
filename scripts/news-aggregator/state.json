@@ -26419,9 +26419,96 @@
         "science-communication",
         "biotech-industry"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Mary-Claire King is a geneticist who, in 1990, discovered that faults in a single gene — later called BRCA1 — can run in families and significantly increase the chance of developing breast or ovarian cancer. This discovery changed how doctors think about inherited cancer risk and led to genetic tests now used worldwide.\n\nA new interview with King, published by STAT News, discusses what it is like to be frequently mentioned as a potential Nobel Prize winner. She also describes her work helping identify victims of enforced disappearance in Argentina using DNA analysis.\n\nNo new research findings are announced in this interview. It is a personal and historical account of one scientist's career.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Mary-Claire King reflects on BRCA1 discovery and Nobel speculation",
+      "is_preprint": false,
+      "run_date": "2026-10-04",
+      "run_iso": "2026-10-04T13:01:12Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 5,
+        "newest_iso": "2026-10-02T16:07:11Z",
+        "novelty": 6
+      },
+      "slug": "mary-claire-king-brca1-nobel-prize-wait",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/GettyImages-532756516-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-02T16:07:11Z",
+          "publisher": "Stat News",
+          "title": "What it's like to wait for the call from the Nobel Prize committee",
+          "url": "https://www.statnews.com/2026/10/02/nobel-prize-2026-geneticist-mary-claire-king-long-waiting-not-getting-winner-call/"
+        }
+      ],
+      "standfirst": "In a conversation with STAT News, geneticist Mary-Claire King discusses her landmark identification of the BRCA cancer mutations and what it is like to be a perennial Nobel contender.",
+      "summary": "STAT News has published a profile interview with Mary-Claire King, the University of Washington geneticist who in 1990 identified that a single gene — later named BRCA1 — accounts for a substantial proportion of hereditary breast and ovarian cancers in affected families. The piece, timed to coincide with this year's Nobel Prize season announcements, explores King's experience of being frequently named in prize predictions without yet receiving the call from the Nobel Committee.\n\nKing describes the particular psychological texture of the October announcement period for researchers whose work is regularly cited in Nobel commentary. The conversation also touches on her broader scientific contributions, including the use of mitochondrial DNA analysis to identify victims of enforced disappearance in Argentina — work that demonstrated early applications of forensic genetics.\n\nThe item is a feature profile rather than a report on new research. It is editorially relevant to Genetic Current because King's identification of hereditary breast and ovarian cancer susceptibility remains foundational to clinical and research genetics, and because the conversation illustrates the trajectory from basic linkage mapping to clinical application that defines much of modern medical genetics. No new findings are reported.",
+      "tags": [
+        "brca1",
+        "hereditary-breast-ovarian-cancer",
+        "cancer-genetics",
+        "history-of-genetics",
+        "nobel-prize",
+        "science-communication"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have found that leucine — an amino acid found in many protein-rich foods such as meat, dairy, eggs, and legumes — appears to do more than help build muscle. A new study suggests leucine can also protect important proteins inside mitochondria, the structures in our cells that generate energy, from being broken down too quickly.\n\nThe researchers say this finding sheds light on how diet and cellular energy production are connected. They believe it could eventually inform research into metabolic conditions and cancer, though no treatments or dietary recommendations follow from this early-stage study.\n\nThe institution and journal behind the study were not specified in the available reports at the time of publication.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Leucine found to protect mitochondrial proteins and boost cellular energy output",
+      "is_preprint": false,
+      "run_date": "2026-10-04",
+      "run_iso": "2026-10-04T13:01:12Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 4,
+        "newest_iso": "2026-10-03T12:33:15Z",
+        "novelty": 6
+      },
+      "slug": "leucine-mitochondrial-energy-metabolism-discovery",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-03T12:33:15Z",
+          "publisher": "ScienceDaily",
+          "title": "Leucine does more than build muscle. It powers up your cells",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261001095319.htm"
+        }
+      ],
+      "standfirst": "A study reports that the essential amino acid leucine stabilises key mitochondrial proteins against degradation, revealing a previously unrecognised link between dietary amino acid availability and mitochondrial energy metabolism.",
+      "summary": "Researchers have published findings indicating that leucine — one of the three branched-chain amino acids and an essential component of human diet — has a role in maintaining mitochondrial function beyond its established contribution to protein synthesis and muscle metabolism. According to a summary published by ScienceDaily, the study demonstrates that leucine can protect proteins located on the mitochondrial membrane from being targeted for destruction, thereby sustaining the organelle's capacity for cellular energy production.\n\nThe work identifies a connection between nutritional status — specifically leucine availability — and mitochondrial proteostasis (the balance of protein production and degradation within a cell). The researchers suggest this relationship may be relevant to understanding metabolic disorders and to aspects of cancer cell biology, where altered mitochondrial function is frequently observed.\n\nThe primary source for this item is a ScienceDaily press release; the underlying journal, institution, and lead researchers are not specified in the available feed text. Genetic Current will update this summary if primary source details become available. Readers with research access are encouraged to locate the primary publication for full methodological detail.\n\nThis is a basic-science finding with potential longer-term relevance to metabolism research. No clinical application or therapeutic recommendation follows from the reported results at this stage.",
+      "tags": [
+        "leucine",
+        "mitochondria",
+        "amino-acid-metabolism",
+        "proteostasis",
+        "metabolic-disorders",
+        "cancer-biology"
+      ]
     }
   ],
-  "last_run": "2026-10-03T12:12:53.972950+00:00",
+  "last_run": "2026-10-04T13:01:58.816580+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
@@ -26443,7 +26530,6 @@
     "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
     "https://news.cancerresearchuk.org/2026/09/30/childrens-and-young-peoples-cancers-the-government-must-turn-momentum-into-action/": "2026-09-30T13:20:27.263732+00:00",
     "https://news.cancerresearchuk.org/2026/10/01/research-integrity-why-robust-antibody-validation-is-vital-for-drug-discovery/": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.14.750622v1?rss=1": "2026-09-20T12:01:14.083696+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751127v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751738v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751756v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
@@ -26502,11 +26588,8 @@
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.england.nhs.uk/2026/10/nhs-cuts-british-forces-waiting-times-by-a-month-in-targeted-campaign/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-protects-thousands-of-rough-sleepers-ahead-of-winter-with-vital-vaccines/": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260918024810.htm": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260918024812.htm": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260918024814.htm": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260918024828.htm": "2026-09-20T12:01:14.083696+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260919031033.htm": "2026-09-21T13:35:59.465310+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260920222354.htm": "2026-09-21T13:35:59.465310+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260920222410.htm": "2026-09-22T12:21:37.504788+00:00",
@@ -26529,11 +26612,7 @@
     "https://www.sciencedaily.com/releases/2026/09/260929053531.htm": "2026-10-01T14:11:14.820845+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930020257.htm": "2026-10-02T13:33:27.695086+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930225450.htm": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/09/18/biotech-news-roche-expands-it-boston-footprint-with-research-center/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.statnews.com/2026/09/18/health-news-who-supports-health-equity-policy-in-america/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.statnews.com/2026/09/18/trump-touts-state-participation-generous-medicaid-drug-discount-program/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.statnews.com/2026/09/19/jehovahs-witnesses-blood-derived-products-transfusions/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261001095319.htm": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/21/alkermes-orexin-agonist-adhd-study/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
@@ -26652,16 +26731,14 @@
     "https://www.statnews.com/2026/10/01/sanofi-regeneron-agreement-dupixent-antibodies-immunology/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/10/01/womens-health-issues-academic-journal-science-special-edition/": "2026-10-03T12:12:53.972950+00:00",
     "https://www.statnews.com/2026/10/02/340b-policy-orphan-designated-drugs-pharmacy-losses-hrsa-congress/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/02/biotech-news-lilly-bypasses-australian-phramacies-with-dtc-model/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/02/ebola-outbreak-congo-4000-deaths/": "2026-10-03T12:12:53.972950+00:00",
+    "https://www.statnews.com/2026/10/02/biotech-news-lilly-bypasses-australian-phramacies-with-dtc-model/": "2026-10-04T13:01:58.816580+00:00",
+    "https://www.statnews.com/2026/10/02/ebola-outbreak-congo-4000-deaths/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/2026/10/02/health-news-how-big-is-pennsylvania-measles-outbreak/": "2026-10-03T12:12:53.972950+00:00",
     "https://www.statnews.com/2026/10/02/marathons-climate-change-extreme-heat-medical-planning/": "2026-10-03T12:12:53.972950+00:00",
     "https://www.statnews.com/2026/10/02/nih-grant-funding-fy2026-analysis/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/02/nih-launching-streamlined-website-to-help-public-find-information/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/02/nobel-prize-2026-geneticist-mary-claire-king-long-waiting-not-getting-winner-call/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/02/youth-opioid-treatment-retention-study-barriers-to-care/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/18/rules-for-china-licensing-deals-making-drugs-in-space/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/18/up-down-ladder-latest-comings-goings-job-changes/?utm_campaign=rss": "2026-09-20T12:01:14.083696+00:00",
+    "https://www.statnews.com/2026/10/02/nih-launching-streamlined-website-to-help-public-find-information/": "2026-10-04T13:01:58.816580+00:00",
+    "https://www.statnews.com/2026/10/02/nobel-prize-2026-geneticist-mary-claire-king-long-waiting-not-getting-winner-call/": "2026-10-04T13:01:58.816580+00:00",
+    "https://www.statnews.com/2026/10/02/youth-opioid-treatment-retention-study-barriers-to-care/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
@@ -26679,8 +26756,8 @@
     "https://www.statnews.com/pharmalot/2026/09/29/novo-licenses-obesity-pill-from-china-merck-pulls-antibiotic/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/pharmalot/2026/09/30/beam-sues-over-trade-secret-theft-trump-drug-import-rule/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/pharmalot/2026/10/01/trump-plan-to-lower-medicare-drug-prices-lilly-obesity-drug/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/": "2026-10-03T12:12:53.972950+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/": "2026-10-04T13:01:58.816580+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/": "2026-10-04T13:01:58.816580+00:00"
   },
   "takedowns": []
 }
