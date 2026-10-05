@@ -26506,9 +26506,197 @@
         "metabolic-disorders",
         "cancer-biology"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Human brain gene BC200 retains ability to jump through the genome",
+      "is_preprint": false,
+      "run_date": "2026-10-05",
+      "run_iso": "2026-10-05T15:31:19+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-05T10:06:28+00:00",
+        "novelty": 9
+      },
+      "slug": "bc200-mobile-gene-brain-transposon-poxvirus",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-05T10:06:28+00:00",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover a human brain gene that can jump through DNA",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261002080013.htm"
+        }
+      ],
+      "standfirst": "Researchers have found that BC200, a gene active in brain cells, descended from a transposon and has apparently retained genomic mobility — and may even have inserted itself into a human poxvirus.",
+      "summary": "Researchers have identified an unusual property of BC200, a gene expressed in human neurones: unlike the vast majority of genes that descended from mobile genetic elements, BC200 appears to have retained the ability to move within the genome. The gene evolved millions of years ago from a transposable element — a class of DNA sequences sometimes called 'jumping genes' — but, according to findings reported via ScienceDaily, it did not lose mobility during that evolutionary transition.\n\nThe study provides two lines of evidence for ongoing mobility. First, the researchers detected structural hallmarks associated with active transposition in BC200 itself. Second, and more strikingly, they identified BC200 sequences embedded within the genome of a human poxvirus, which they interpret as evidence that the gene may have jumped from infected epithelial cells into the virus during an infection event.\n\nBC200 is of interest to neurobiologists because it encodes a non-coding RNA that has been linked to the regulation of local protein synthesis at synapses. The new findings add a layer of evolutionary and genomic complexity to its biology. The primary research publication and institutional authorship were not named in the available reporting; the full peer-reviewed paper should be consulted for methodological detail.\n\nFor educators and students, the story illustrates that the boundary between 'gene' and 'transposable element' can be less fixed than classical models suggest, and that host–virus interactions can serve as unexpected vectors of horizontal genetic transfer.",
+      "tags": [
+        "transposable-elements",
+        "bc200",
+        "non-coding-rna",
+        "neuroscience",
+        "viral-integration",
+        "molecular-evolution",
+        "genome-mobility"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Cancer Research UK has launched a large study called PROSPECT, which plans to follow 250,000 people in the UK. The aim is to understand why bowel cancer is being diagnosed more often in people under 50 than it used to be. Researchers will look at things like diet, exercise, gut bacteria, and genetic factors — and track participants over time to see which combinations might be linked to cancer developing. This kind of large-scale research is important because, for most younger people who develop bowel cancer, there is no obvious inherited reason that explains it. Scientists hope the results will eventually help doctors understand the causes better. PROSPECT is a research study, not a screening programme. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UK recruits 250,000 participants to study early-onset bowel cancer",
+      "is_preprint": false,
+      "run_date": "2026-10-05",
+      "run_iso": "2026-10-05T15:31:19+00:00",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 7,
+        "newest_iso": "2026-10-04T23:06:51+00:00",
+        "novelty": 8
+      },
+      "slug": "prospect-uk-cohort-early-onset-bowel-cancer-diet-lifestyle",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-04T23:06:51+00:00",
+          "publisher": "Cancer Research UK",
+          "title": "New study to investigate diet, lifestyle and the rise of bowel cancer in under-50s",
+          "url": "https://news.cancerresearchuk.org/2026/10/05/prospect-uk-250000-people-investigate-diet-lifestyle-and-the-rise-of-early-onset-bowel-cancer/"
+        }
+      ],
+      "standfirst": "Cancer Research UK's PROSPECT study will follow a quarter of a million volunteers to investigate why bowel cancer diagnoses in under-50s are rising in the UK.",
+      "summary": "Cancer Research UK has announced the launch of PROSPECT, a large prospective cohort study aiming to recruit 250,000 participants in the United Kingdom. The study is designed to investigate the environmental, dietary, and lifestyle factors that may be driving an observed increase in colorectal cancer diagnoses in people under the age of 50 — a trend that has been documented in multiple high-income countries over recent decades.\n\nThe precise aetiology of early-onset colorectal cancer remains poorly understood. While hereditary syndromes such as Lynch syndrome and familial adenomatous polyposis account for a proportion of early-onset cases, the majority do not carry a high-penetrance germline predisposition variant, pointing to environmental and possibly gene–environment interaction effects as important contributors.\n\nPROSPECT will collect detailed information on participants' diets, physical activity, gut microbiome, and other lifestyle exposures over time, linking these to cancer incidence data. Genetic data collection is expected to allow examination of polygenic risk in conjunction with modifiable risk factors.\n\nFor genetics researchers, the cohort will offer a resource for studying gene–environment interactions and the contribution of common and rare germline variation to early-onset colorectal cancer. For oncologists and genetic counsellors, the eventual findings may inform how hereditary and non-hereditary early-onset cases are distinguished in practice, though published guidance will be required before any clinical implications can be drawn.",
+      "tags": [
+        "colorectal-cancer",
+        "early-onset-cancer",
+        "cohort-study",
+        "cancer-epidemiology",
+        "gene-environment-interaction",
+        "lynch-syndrome",
+        "cancer-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "The 2026 Nobel Prize in Medicine has been awarded to three scientists — Karl Deisseroth, Peter Hegemann, and Georg Nagel — for developing a technique called optogenetics. This uses proteins originally found in algae that respond to light. Scientists engineered brain cells to contain these proteins, which then allowed them to switch specific groups of brain cells on or off using flashes of light. This has become a very widely used tool for studying how the brain works. It is mainly a research technique, though scientists are exploring whether a similar approach could one day help restore some vision in people with certain inherited eye conditions. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Nobel Prize in Physiology or Medicine 2026 awarded for optogenetics",
+      "is_preprint": false,
+      "run_date": "2026-10-05",
+      "run_iso": "2026-10-05T15:31:19+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 9,
+        "newest_iso": "2026-10-05T10:00:11+00:00",
+        "novelty": 10
+      },
+      "slug": "2026-nobel-prize-medicine-optogenetics-deisseroth-hegemann-nagel",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/AP26278347243526-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-05T10:00:11+00:00",
+          "publisher": "Stat News",
+          "title": "2026 Nobel Prize in Medicine awarded for brain research tool called optogenetics",
+          "url": "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/"
+        }
+      ],
+      "standfirst": "Karl Deisseroth, Peter Hegemann, and Georg Nagel have been awarded the 2026 Nobel Prize in Physiology or Medicine for their discoveries of light-gated ion channels and the development of optogenetics.",
+      "summary": "The Nobel Assembly at Karolinska Institutet has awarded the 2026 Nobel Prize in Physiology or Medicine jointly to Karl Deisseroth (Stanford University), Peter Hegemann (Humboldt University of Berlin), and Georg Nagel (University of Würzburg). The prize recognises their discoveries concerning light-gated ion channels — proteins called channelrhodopsins, originally identified in algae — and the development of optogenetics, the technique that uses these channels to control the activity of specific neurones with light.\n\nOptogenetics has become a foundational tool in neuroscience research over the past two decades. By introducing channelrhodopsin genes into defined neuronal populations, researchers can activate or silence those cells with millisecond precision using targeted light pulses. The approach has transformed the study of neural circuits underlying behaviour, memory, and disease, and has opened avenues of investigation relevant to neurological and psychiatric conditions.\n\nWhile optogenetics is primarily a research tool at present, early-stage clinical trials have explored its application in restoring vision in patients with inherited retinal degenerations. For genetics researchers and educators, the Nobel recognises a discovery that illustrates how characterising a non-human gene — channelrhodopsin from green algae — yielded an instrument that reshaped an entire field of biomedical science.\n\nThe prize was reported by Stat News, citing the Nobel Assembly announcement.",
+      "tags": [
+        "optogenetics",
+        "channelrhodopsin",
+        "neuroscience",
+        "nobel-prize",
+        "neural-circuits",
+        "inherited-retinal-disease",
+        "ion-channels"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Divergent trial results prompt hard questions for cancer vaccine field",
+      "is_preprint": false,
+      "run_date": "2026-10-05",
+      "run_iso": "2026-10-05T15:31:19+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-10-05T12:00:51+00:00",
+        "novelty": 7
+      },
+      "slug": "mrna-cancer-vaccines-field-divergent-trial-results-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/AdobeStock_256112802-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-05T08:30:00+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Divergent trial results on cancer vaccines have the field grappling with hard questions",
+          "url": "https://www.statnews.com/2026/10/05/cancer-vaccines-mrna-clinical-trials/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2023/01/AdobeStock_495905778-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-05T12:00:51+00:00",
+          "publisher": "Stat News",
+          "title": "Could we one day vaccinate against every cancer?",
+          "url": "https://www.statnews.com/2026/10/05/health-news-could-we-one-day-vaccinate-against-every-cancer/"
+        }
+      ],
+      "standfirst": "A late-stage melanoma mRNA vaccine trial has succeeded, but mixed results across other cancer types are prompting debate about which tumours and which platforms are viable targets.",
+      "summary": "The cancer vaccine field is grappling with a complex picture following divergent results from clinical trials reported in late 2026. According to Stat News, a late-stage trial of an mRNA-based vaccine in melanoma produced positive results, representing a significant step for the approach. However, results across other cancer types have been less consistent, prompting researchers and developers to reconsider which tumour settings and which vaccine platforms are most likely to succeed.\n\nThe melanoma success builds on earlier phase 2 data and is expected to intensify investment in personalised neoantigen vaccine strategies, in which tumour mutational burden and specific somatic mutations identified by genomic sequencing are used to design patient-specific immunogens. This approach requires integration of cancer genomics, bioinformatics, and manufacturing at scale — areas in which the genetics community plays a central role.\n\nParallel commentary from Stat News raises the broader question of whether vaccines can be designed for cancers that are not driven by a viral aetiology (such as the HPV–cervical cancer and HBV–hepatocellular carcinoma relationships where prophylactic vaccines are already established) and whether mRNA platforms provide sufficient immunogenicity in cold tumour microenvironments.\n\nThe articles are reporting and commentary; the underlying trial data should be consulted in the primary literature for full methodological detail. No specific research group or journal publication was named in the available lede text.",
+      "tags": [
+        "cancer-vaccines",
+        "mrna",
+        "melanoma",
+        "neoantigen",
+        "clinical-trial-news",
+        "tumour-immunology",
+        "cancer-genomics"
+      ]
     }
   ],
-  "last_run": "2026-10-04T13:01:58.816580+00:00",
+  "last_run": "2026-10-05T15:32:42.485173+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
@@ -26530,10 +26718,10 @@
     "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
     "https://news.cancerresearchuk.org/2026/09/30/childrens-and-young-peoples-cancers-the-government-must-turn-momentum-into-action/": "2026-09-30T13:20:27.263732+00:00",
     "https://news.cancerresearchuk.org/2026/10/01/research-integrity-why-robust-antibody-validation-is-vital-for-drug-discovery/": "2026-10-02T13:33:27.695086+00:00",
+    "https://news.cancerresearchuk.org/2026/10/05/prospect-uk-250000-people-investigate-diet-lifestyle-and-the-rise-of-early-onset-bowel-cancer/": "2026-10-05T15:32:42.485173+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751127v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751738v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751756v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.15.751898v1?rss=1": "2026-09-21T13:35:59.465310+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.15.751936v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.750837v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.751930v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
@@ -26590,8 +26778,6 @@
     "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-cuts-british-forces-waiting-times-by-a-month-in-targeted-campaign/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-protects-thousands-of-rough-sleepers-ahead-of-winter-with-vital-vaccines/": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260919031033.htm": "2026-09-21T13:35:59.465310+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260920222354.htm": "2026-09-21T13:35:59.465310+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260920222410.htm": "2026-09-22T12:21:37.504788+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260921081116.htm": "2026-09-22T12:21:37.504788+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260922005712.htm": "2026-09-24T12:31:59.253404+00:00",
@@ -26613,19 +26799,11 @@
     "https://www.sciencedaily.com/releases/2026/09/260930020257.htm": "2026-10-02T13:33:27.695086+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930225450.htm": "2026-10-01T14:11:14.820845+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261001095319.htm": "2026-10-04T13:01:58.816580+00:00",
-    "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
-    "https://www.statnews.com/2026/09/21/alkermes-orexin-agonist-adhd-study/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261002080013.htm": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261002080023.htm": "2026-10-05T15:32:42.485173+00:00",
     "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.statnews.com/2026/09/21/clinical-trials-website-pregnant-lactating-patients-checkbox/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.statnews.com/2026/09/21/health-news-trump-newest-vaccine-demands-repeat-old-misinformation/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
-    "https://www.statnews.com/2026/09/21/kratom-withdrawal-addiction-centers-report-surge/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
-    "https://www.statnews.com/2026/09/21/nih-budget-double-100-billion-reed-jobs/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
-    "https://www.statnews.com/2026/09/21/novo-nordisk-capital-markets-day-obesity-strategy/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
-    "https://www.statnews.com/2026/09/21/rfk-jr-maha-movement-gop-midterm-candidates/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/21/trump-plan-for-commission-to-review-nih-grants-push-back/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.statnews.com/2026/09/21/trust-in-science-nick-florko-on-understanding-growing-scientific-mistrust/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
-    "https://www.statnews.com/2026/09/21/trust-in-science-reporter-nick-florko-interview-status-report-alex-hogan/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
     "https://www.statnews.com/2026/09/22/biotech-news-novo-may-be-getting-a-better-deal-than-expected-with-medicare-bridge/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/22/brian-blase-paragon-health-institute-gop-aca-medicaid-reforms/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/2026/09/22/dc-diagnosis-did-trump-administration-cut-novo-huge-financial-win/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
@@ -26739,7 +26917,16 @@
     "https://www.statnews.com/2026/10/02/nih-launching-streamlined-website-to-help-public-find-information/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/2026/10/02/nobel-prize-2026-geneticist-mary-claire-king-long-waiting-not-getting-winner-call/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/2026/10/02/youth-opioid-treatment-retention-study-barriers-to-care/": "2026-10-04T13:01:58.816580+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/21/novo-to-expand-pipeline-alkermes-releases-adhd-data/?utm_campaign=rss": "2026-09-21T13:35:59.465310+00:00",
+    "https://www.statnews.com/2026/10/04/trump-announces-90-dollar-payments-for-medicare-premiums/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/biotech-news-lilly-jaypirca-approved-as-first-line-cll-therapy/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/cancer-vaccines-mrna-clinical-trials/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/could-ai-win-nobel-prize-medicine/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/energy-drinks-public-health-college-sports-partnerships-research/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/health-news-could-we-one-day-vaccinate-against-every-cancer/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/hospital-bills-drug-prices-insurance-premiums-spiral-part-5-out-of-pocket-series/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/stem-cell-industry-seeks-fda-regulation-like-peptides/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/": "2026-10-05T15:32:42.485173+00:00",
     "https://www.statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/pharmalot/2026/09/23/loophole-closing-for-importing-meds-european-competitiveness/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
@@ -26757,7 +26944,8 @@
     "https://www.statnews.com/pharmalot/2026/09/30/beam-sues-over-trade-secret-theft-trump-drug-import-rule/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/pharmalot/2026/10/01/trump-plan-to-lower-medicare-drug-prices-lilly-obesity-drug/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/": "2026-10-04T13:01:58.816580+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/": "2026-10-04T13:01:58.816580+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/": "2026-10-04T13:01:58.816580+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/05/vaxcyte-pneumococcal-vaccine-rising-pharma-mergers-acquisitions/": "2026-10-05T15:32:42.485173+00:00"
   },
   "takedowns": []
 }
