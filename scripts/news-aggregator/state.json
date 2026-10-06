@@ -26694,24 +26694,395 @@
         "tumour-immunology",
         "cancer-genomics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors"
+      ],
+      "for_patients": null,
+      "headline": "Cancer Research UK appoints Professor Mariam Jamal-Hanjani as Chief Clinician",
+      "is_preprint": false,
+      "run_date": "2026-10-06",
+      "run_iso": "2026-10-06T13:53:05Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-06T08:02:51Z",
+        "novelty": 8
+      },
+      "slug": "cruk-mariam-jamal-hanjani-chief-clinician",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-06T08:00:17Z",
+          "publisher": "Cancer Research UK",
+          "title": "Cancer Research UK appoints Professor Mariam Jamal-Hanjani as its new chief clinician",
+          "url": "https://news.cancerresearchuk.org/2026/10/06/cancer-research-uk-appoints-professor-mariam-jamal-hanjani-as-its-new-chief-clinician/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-06T08:02:51Z",
+          "publisher": "Cancer Research UK",
+          "title": "A moment with Mariam: Meeting CRUK's new Chief Clinician",
+          "url": "https://news.cancerresearchuk.org/2026/10/06/a-moment-with-mariam-meeting-cruks-new-chief-clinician/"
+        }
+      ],
+      "standfirst": "The thoracic oncologist and TRACERx investigator takes up the newly prominent role as CRUK's scientific leadership structure evolves.",
+      "summary": "Cancer Research UK has appointed Professor Mariam Jamal-Hanjani as its new Chief Clinician. Jamal-Hanjani is a consultant oncologist and professor at University College London, widely known for her leadership of the TRACERx lung cancer evolution study, which has produced a series of landmark findings on tumour heterogeneity, clonal dynamics, and the genomic basis of metastasis.\n\nThe role of Chief Clinician is intended to bridge CRUK's research strategy with clinical translation and health-system engagement. In an accompanying profile published by CRUK, Jamal-Hanjani described her priorities as spanning early detection, treatment science, and ensuring that research findings reach patients equitably.\n\nThe appointment is of note to the genetics and genomics research community given Jamal-Hanjani's track record in longitudinal tumour sequencing and her advocacy for integrating multi-region genomic profiling into the design of cancer trials. Her elevation to a senior leadership position at the UK's largest cancer research charity signals continued institutional investment in cancer genomics as a translational priority.",
+      "tags": [
+        "cancer-research-uk",
+        "cancer-genetics",
+        "cancer-genomics",
+        "tracerx",
+        "tumour-heterogeneity",
+        "science-leadership"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers and clinicians in the UK have been developing a computer programme called CanRisk, which uses information about a person's genes, family history, and other factors to estimate the likelihood of developing breast cancer. Unlike older approaches that focused mainly on faults in the BRCA1 and BRCA2 genes, CanRisk also takes into account many smaller genetic differences — sometimes called a polygenic risk score — that together can add up to a meaningful change in risk. The aim is to identify younger women who may have a higher-than-average risk, so that research can explore whether earlier or more tailored monitoring might be beneficial. This is an area of active research rather than a settled clinical pathway. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "CanRisk tool combines polygenic scores and family history to identify elevated breast cancer risk in younger women",
+      "is_preprint": false,
+      "run_date": "2026-10-06",
+      "run_iso": "2026-10-06T13:53:05Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 7,
+        "newest_iso": "2026-10-05T23:01:38Z",
+        "novelty": 6
+      },
+      "slug": "canrisk-polygenic-breast-cancer-risk-younger-women",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-05T23:01:38Z",
+          "publisher": "Cancer Research UK",
+          "title": "BRCA and beyond: finding younger women with a higher risk of breast cancer",
+          "url": "https://news.cancerresearchuk.org/2026/10/06/canrisk-finding-younger-women-with-a-higher-risk-of-breast-cancer/"
+        }
+      ],
+      "standfirst": "A Cancer Research UK feature examines how the CanRisk programme uses germline variant data, polygenic scores, and questionnaire-based risk factors to stratify breast cancer risk beyond BRCA1 and BRCA2.",
+      "summary": "Cancer Research UK has published an overview of the CanRisk programme, a risk-stratification initiative developed by researchers including those at the University of Cambridge. CanRisk uses a validated computational tool — the BOADICEA model — that integrates rare pathogenic variants in genes such as BRCA1, BRCA2, PALB2, ATM, and CHEK2 with polygenic risk scores, hormonal and reproductive factors, imaging data, and family history to estimate an individual's lifetime risk of breast and ovarian cancer.\n\nThe feature focuses specifically on the programme's potential to identify younger women whose risk is substantially elevated but who would not be flagged under criteria that consider BRCA1 and BRCA2 alone. Researchers have argued that broadening the genetic panel and integrating polygenic risk scores could allow risk-stratified surveillance to be offered earlier and more equitably.\n\nFrom an educational standpoint, the piece illustrates how modern breast cancer risk models differ structurally from earlier single-gene frameworks: they are probabilistic, multi-input, and explicitly designed to handle uncertainty in variant classification. The CanRisk web tool is available to clinicians for research and educational purposes. Published guidance from NHS England and NICE describes criteria under which risk assessment and surveillance may be considered for women with elevated familial or genetic risk; readers are directed to those sources for current clinical frameworks.",
+      "tags": [
+        "canrisk",
+        "boadicea",
+        "breast-cancer",
+        "polygenic-risk-score",
+        "brca1",
+        "brca2",
+        "hereditary-cancer",
+        "risk-stratification"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "oncologists",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Opinion: H. Gilbert Welch argues FDA should reject Grail's Galleri multi-cancer screening test",
+      "is_preprint": false,
+      "run_date": "2026-10-06",
+      "run_iso": "2026-10-06T13:53:05Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-10-06T08:30:00Z",
+        "novelty": 6
+      },
+      "slug": "grail-galleri-fda-approval-opinion",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/06/GRAIL-STOCK_Aug2025-34-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-06T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "Opinion: Why the FDA should not approve an ineffective multicancer screening test",
+          "url": "https://www.statnews.com/2026/10/06/grail-multi-cancer-screening-test-criticism/"
+        }
+      ],
+      "standfirst": "A STAT News opinion piece contends that Grail's Galleri test does not meet the evidentiary bar for approval, warning that detecting more cancers does not automatically translate to lives saved.",
+      "summary": "Writing in STAT News, physician and researcher H. Gilbert Welch argues that the FDA should not approve Grail's Galleri multi-cancer early detection test. Welch, a longstanding commentator on cancer screening science, contends that the available evidence does not demonstrate that the test reduces cancer mortality — the outcome that matters most for any population-level screening programme.\n\nWelch's central argument is that detecting more cancers at earlier stages is not itself a measure of benefit. He points to the risk of overdiagnosis — identifying cancers that would never have caused harm — and the potential for a cascade of follow-up investigations, anxiety, and procedures in people whose signal does not ultimately prove to be cancer. He frames the approval question around a principle he attributes to the screening science community: progress means fewer people dying from cancer, not more people being told they have it.\n\nThis opinion piece is contextually relevant to the genetics community because Galleri is a circulating tumour DNA (ctDNA) methylation-based liquid biopsy, and its proposed positioning as a population screening tool touches directly on questions of analytical validity, clinical validity, and clinical utility that are central to genomic medicine evaluation frameworks. The piece follows an FDA advisory panel's endorsement of Galleri reported by Genetic Current on 24 September 2026. The views expressed are those of the author and do not represent the editorial position of Evagene or Genetic Current.",
+      "tags": [
+        "galleri",
+        "grail",
+        "multi-cancer-screening",
+        "liquid-biopsy",
+        "ctdna",
+        "cancer-detection",
+        "fda",
+        "overdiagnosis",
+        "opinion"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "MIT researchers find ketogenic diet increases small-intestinal tumours in cancer-prone mice via fat metabolism in stem cells",
+      "is_preprint": false,
+      "run_date": "2026-10-06",
+      "run_iso": "2026-10-06T13:53:05Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-10-06T01:18:45Z",
+        "novelty": 8
+      },
+      "slug": "keto-diet-intestinal-stem-cells-tumour-risk-mice",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-06T01:18:45Z",
+          "publisher": "ScienceDaily",
+          "title": "MIT scientists find a hidden cancer risk of the keto diet",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261002080037.htm"
+        }
+      ],
+      "standfirst": "A study in cancer-prone mice links a ketogenic diet to accelerated intestinal stem cell proliferation and higher small-intestinal tumour burden, while reducing colonic tumours — an effect attributed to fat-burning activity rather than ketones.",
+      "summary": "Researchers at the Massachusetts Institute of Technology have published findings showing that a ketogenic diet produced markedly different outcomes in neighbouring regions of the gut in cancer-prone mice. Small-intestinal tumours increased on the diet, while colonic tumours were reduced — a divergence the team traced to the way intestinal stem cells processed the diet's high fat content.\n\nThe investigators found that the elevated fat availability prompted intestinal stem cells to upregulate fat-oxidation pathways, which in turn drove more rapid cell proliferation. Increased stem cell division raises the probability of replication-associated mutations accumulating, which may underlie the higher tumour burden observed in the small intestine. Importantly, the team identified fat metabolism — rather than circulating ketone bodies — as the mechanistic driver, a distinction that has implications for how dietary interventions interact with cancer risk biology.\n\nThe findings are reported from a mouse model and have not been tested in humans. Cancer-prone mouse models carry germline or somatic alterations that accelerate tumour formation at rates not directly translatable to human populations. The study does not provide a basis for dietary recommendations. From a research perspective, the work adds to a growing literature on how metabolic state influences stem cell behaviour and cancer risk, with relevance to researchers studying the intersection of diet, metabolism, and intestinal biology.",
+      "tags": [
+        "ketogenic-diet",
+        "intestinal-stem-cells",
+        "cancer-biology",
+        "fat-oxidation",
+        "colon-cancer",
+        "small-intestine",
+        "mouse-model",
+        "metabolic-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Histone acetyltransferase RTT109 required for epigenetic maintenance of PRC2-repressed chromatin in Neurospora",
+      "is_preprint": false,
+      "run_date": "2026-10-06",
+      "run_iso": "2026-10-06T13:53:05Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-05T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "rtt109-prc2-chromatin-maintenance-neurospora",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-05T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Epigenetic maintenance of PRC2-repressed chromatin requires RTT109 but not H3K56 acetylation",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012327"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study in the model fungus Neurospora crassa identifies RTT109 as a key regulator of Polycomb-silenced chromatin domains, acting independently of its canonical H3K56 acetylation activity.",
+      "summary": "Researchers including Rochelle E. Yap and colleagues have published findings in PLOS Genetics identifying the histone acetyltransferase RTT109 as a critical factor in maintaining chromatin domains repressed by Polycomb Repressive Complex 2 (PRC2) in the model fungus Neurospora crassa.\n\nPRC2 establishes transcriptional silencing by catalysing trimethylation of histone H3 at lysine 27 (H3K27me3), a modification conserved across animals, plants, and some fungi. The study shows that RTT109 is required for the proper structure and function of these PRC2-methylated domains. Notably, the requirement is independent of H3K56 acetylation — the canonical substrate of RTT109 — indicating that the enzyme contributes to Polycomb silencing through a distinct, as-yet-uncharacterised mechanism. RTT109 was found to interact with the Vps75 homologue Nucleosome Assembly Factor 2 (NAF-2), though NAF-2 interaction alone does not account for the epigenetic maintenance function.\n\nThe work uses Neurospora as a tractable genetic system in which PRC2 biology can be dissected with fine resolution. The findings contribute to the broader question of how Polycomb-mediated gene silencing — implicated in development, differentiation, and cancer — is maintained through cell division, and raise the possibility that acetyltransferases play underappreciated roles in heterochromatin stability beyond their direct histone modification targets.",
+      "tags": [
+        "prc2",
+        "rtt109",
+        "epigenetics",
+        "polycomb",
+        "chromatin-silencing",
+        "histone-modification",
+        "neurospora",
+        "h3k27me3",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Superoxide dismutase 1 loss unleashes genome-wide instability in yeast, study finds",
+      "is_preprint": false,
+      "run_date": "2026-10-06",
+      "run_iso": "2026-10-06T13:53:05Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-05T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "sod1-genome-instability-yeast-aneuploidy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-05T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Decoupling metabolic defense: Mutational and recombinational chaos in Sod1-deficient cells",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012326"
+        }
+      ],
+      "standfirst": "Researchers using a yeast model show that Sod1 deficiency produces a dramatic surge in mutations, chromosomal rearrangements, and aneuploidy, casting the antioxidant enzyme as a broad guardian of genomic integrity.",
+      "summary": "A study published in PLOS Genetics by Yang Sui, Dao-Qiong Zheng, and colleagues at institutions including those in the Zheng laboratory has used whole-genome sequencing of Sod1-deficient yeast to reveal the full scale of genomic damage that accumulates when the frontline antioxidant enzyme superoxide dismutase 1 (Sod1) is absent.\n\nIn the absence of Sod1, the researchers observed a 13-fold increase in single nucleotide variants, a 12-fold increase in loss of heterozygosity events, a 4-fold increase in chromosomal rearrangements, and a striking 48-fold increase in aneuploidy — gain or loss of whole chromosomes. The breadth of the genomic phenotype indicates that Sod1's role in genome maintenance extends well beyond its classical function of neutralising superoxide radicals.\n\nThe study is conducted in a yeast model (Saccharomyces cerevisiae or equivalent), a well-established eukaryotic system for dissecting genome instability mechanisms. While the findings cannot be directly extrapolated to human biology, Sod1 is encoded by a gene with a direct human orthologue; variants in human SOD1 are among the best-characterised causes of familial amyotrophic lateral sclerosis (ALS). The finding that Sod1 loss destabilises the genome at multiple levels may have implications for understanding disease mechanisms beyond classical oxidative stress models, and is relevant to researchers working on genome integrity, cancer biology, and neurodegenerative disease.",
+      "tags": [
+        "sod1",
+        "genome-instability",
+        "aneuploidy",
+        "oxidative-stress",
+        "dna-repair",
+        "yeast-genetics",
+        "als",
+        "loss-of-heterozygosity",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Genetic architecture of heart rate and its response to dietary salt mapped in Drosophila",
+      "is_preprint": false,
+      "run_date": "2026-10-06",
+      "run_iso": "2026-10-06T13:53:05Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-10-05T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "drosophila-heart-rate-genetics-dietary-salt",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-05T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Genetic architecture of basal heart rate and its modulation by dietary salt in Drosophila melanogaster",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012313"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study uses Drosophila melanogaster to identify the genetic basis of cardiac pacing and its modulation by salt intake, revealing gene-environment interactions relevant to cardiac physiology research.",
+      "summary": "Researchers including Gulnur Ipek Erdemli, Murat Yilmaz, and colleagues have published a PLOS Genetics study mapping the genetic architecture of basal heart rate and its response to dietary salt in the model organism Drosophila melanogaster.\n\nHeart rate is a heritable quantitative trait influenced by both genetic variation and environmental exposures. Despite the identification of numerous genes associated with heart-rate variation in humans and other organisms, how those genes interact with environmental stressors — and with each other — remains incompletely characterised. Using Drosophila, which offers experimental tractability and a well-annotated genome, the team identified genetic loci associated with basal heart rate and with the degree to which heart rate changes in response to varying dietary salt levels.\n\nThe Drosophila cardiac system is structurally simpler than the mammalian heart, but conserved ion channel genes and signalling pathways make it a useful platform for dissecting the genetic basis of cardiac rhythm. The study contributes to a broader research effort to understand how polygenic variation interacts with diet to shape physiological traits — a question with relevance to the genetics of hypertension, arrhythmia, and cardiovascular disease in humans, though direct translational claims are not warranted from a fly model alone.",
+      "tags": [
+        "drosophila",
+        "heart-rate",
+        "quantitative-genetics",
+        "gene-environment-interaction",
+        "dietary-salt",
+        "cardiac-physiology",
+        "ion-channels",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "CRISPR-Cas9 mouse model carrying the high-risk ARMS2 A69S AMD variant created to resolve chromosome 10q26 dispute",
+      "is_preprint": true,
+      "run_date": "2026-10-06",
+      "run_iso": "2026-10-06T13:53:05Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-05T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "arms2-crispr-mouse-model-amd-chromosome-10q26",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-05T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A new mouse model for a high-risk AMD variant, ARMS2A69S",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756275v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes the first in vivo mouse model for the ARMS2 A69S variant, a major genetic risk factor for age-related macular degeneration, generated by inserting a humanised sequence into the murine genome.",
+      "summary": "Researchers have posted a bioRxiv preprint describing the generation of a mouse model carrying the ARMS2 A69S variant, one of the highest-risk common genetic associations for age-related macular degeneration (AMD). AMD is the leading cause of irreversible central vision loss in older adults, and the strongest genetic risk signal maps to chromosome 10q26 — a region containing two genes, ARMS2 and HTRA1, in strong linkage disequilibrium. This co-localisation has made it difficult to determine whether one or both genes contribute to AMD risk.\n\nBecause ARMS2 orthologues are found only in higher primates and are absent from the rodent genome, no mouse model for ARMS2 biology has previously been available. The team used CRISPR-Cas9 to insert a humanised sequence carrying the A69S variant into the murine genome, creating the first mammalian model in which ARMS2 function can be interrogated in vivo. The preprint describes the characterisation of this model and its potential to resolve which gene or genes at 10q26 are causally responsible for AMD risk.\n\nThis is a preprint and has not yet been peer-reviewed. The findings are of interest to researchers studying AMD genetics, retinal disease, and the use of CRISPR-based humanisation strategies to model variants at loci absent from conventional model organisms.",
+      "tags": [
+        "arms2",
+        "htra1",
+        "age-related-macular-degeneration",
+        "crispr",
+        "mouse-model",
+        "retinal-disease",
+        "chromosome-10q26",
+        "linkage-disequilibrium",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-10-05T15:32:42.485173+00:00",
+  "last_run": "2026-10-06T13:55:26.940932+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012255": "2026-10-02T13:33:27.695086+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012276": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290": "2026-09-26T12:04:39.789841+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012305": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012307": "2026-09-23T12:33:42.633094+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012313": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012314": "2026-09-24T12:31:59.253404+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012316": "2026-09-22T12:21:37.504788+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317": "2026-09-25T12:34:00.804612+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012319": "2026-09-29T13:43:13.076241+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012326": "2026-10-06T13:55:26.940932+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012327": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012328": "2026-10-01T14:11:14.820845+00:00",
     "https://news.cancerresearchuk.org/2026/09/22/form-follows-function-decoding-pancreatic-cancer/": "2026-09-23T12:33:42.633094+00:00",
-    "https://news.cancerresearchuk.org/2026/09/22/tackling-variation-in-cancer-treatment-can-the-national-cancer-plan-deliver/": "2026-09-22T12:21:37.504788+00:00",
     "https://news.cancerresearchuk.org/2026/09/23/latest-winner-in-our-research-is-beautiful-competition-7/": "2026-09-23T12:33:42.633094+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/the-national-cancer-plan-promises-a-bold-vision-now-to-make-it-a-reality/": "2026-09-25T12:34:00.804612+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
@@ -26719,17 +27090,14 @@
     "https://news.cancerresearchuk.org/2026/09/30/childrens-and-young-peoples-cancers-the-government-must-turn-momentum-into-action/": "2026-09-30T13:20:27.263732+00:00",
     "https://news.cancerresearchuk.org/2026/10/01/research-integrity-why-robust-antibody-validation-is-vital-for-drug-discovery/": "2026-10-02T13:33:27.695086+00:00",
     "https://news.cancerresearchuk.org/2026/10/05/prospect-uk-250000-people-investigate-diet-lifestyle-and-the-rise-of-early-onset-bowel-cancer/": "2026-10-05T15:32:42.485173+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.15.751127v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.15.751738v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.15.751756v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.15.751936v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
+    "https://news.cancerresearchuk.org/2026/10/06/a-moment-with-mariam-meeting-cruks-new-chief-clinician/": "2026-10-06T13:55:26.940932+00:00",
+    "https://news.cancerresearchuk.org/2026/10/06/cancer-research-uk-appoints-professor-mariam-jamal-hanjani-as-its-new-chief-clinician/": "2026-10-06T13:55:26.940932+00:00",
+    "https://news.cancerresearchuk.org/2026/10/06/canrisk-finding-younger-women-with-a-higher-risk-of-breast-cancer/": "2026-10-06T13:55:26.940932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.750837v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.751930v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.752223v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.17.752532v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752151v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752412v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.18.752560v1?rss=1": "2026-09-22T12:21:37.504788+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.19.752832v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.19.752864v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
@@ -26770,16 +27138,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.28.755174v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.28.755183v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755401v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.29.755441v1?rss=1": "2026-10-06T13:55:26.940932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755447v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.30.755531v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.30.755759v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.02.756275v1?rss=1": "2026-10-06T13:55:26.940932+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.england.nhs.uk/2026/09/nhs-to-expand-life-saving-marthas-rule-to-all-aes/": "2026-09-22T12:21:37.504788+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-cuts-british-forces-waiting-times-by-a-month-in-targeted-campaign/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-protects-thousands-of-rough-sleepers-ahead-of-winter-with-vital-vaccines/": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260920222410.htm": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260921081116.htm": "2026-09-22T12:21:37.504788+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260922005712.htm": "2026-09-24T12:31:59.253404+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260922223008.htm": "2026-09-24T12:31:59.253404+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260923035939.htm": "2026-09-25T12:34:00.804612+00:00",
@@ -26801,18 +27168,12 @@
     "https://www.sciencedaily.com/releases/2026/10/261001095319.htm": "2026-10-04T13:01:58.816580+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080013.htm": "2026-10-05T15:32:42.485173+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080023.htm": "2026-10-05T15:32:42.485173+00:00",
-    "https://www.statnews.com/2026/09/21/biotech-news-lilly-breast-cancer-combo-wins-approval/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.statnews.com/2026/09/21/trump-plan-for-commission-to-review-nih-grants-push-back/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261002080037.htm": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261005011249.htm": "2026-10-06T13:55:26.940932+00:00",
     "https://www.statnews.com/2026/09/22/biotech-news-novo-may-be-getting-a-better-deal-than-expected-with-medicare-bridge/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/2026/09/22/brian-blase-paragon-health-institute-gop-aca-medicaid-reforms/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/2026/09/22/dc-diagnosis-did-trump-administration-cut-novo-huge-financial-win/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/22/epics-mortality-model-omadas-future-products-health-tech/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/2026/09/22/health-news-federal-autism-committee-head-has-financial-ties-to-leucovorin/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/2026/09/22/heidi-overton-fda-commissioner-confirmation-hearing/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/2026/09/22/integrative-oncology-cancer-symptoms-insurance-asco-sio-pain-fatigue/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.statnews.com/2026/09/22/ohio-governor-election-health-care-policy-acton-ramaswamy/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
-    "https://www.statnews.com/2026/09/22/social-media-bans-australia-uk-teen-mental-health/?utm_campaign=rss": "2026-09-22T12:21:37.504788+00:00",
     "https://www.statnews.com/2026/09/23/biotech-news-flagship-gets-a-pentagon-contract/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/23/biotech-vc-investors-new-opportunity-osteoporosis-treatments/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
@@ -26918,15 +27279,25 @@
     "https://www.statnews.com/2026/10/02/nobel-prize-2026-geneticist-mary-claire-king-long-waiting-not-getting-winner-call/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/2026/10/02/youth-opioid-treatment-retention-study-barriers-to-care/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/2026/10/04/trump-announces-90-dollar-payments-for-medicare-premiums/": "2026-10-05T15:32:42.485173+00:00",
-    "https://www.statnews.com/2026/10/05/biotech-news-lilly-jaypirca-approved-as-first-line-cll-therapy/": "2026-10-05T15:32:42.485173+00:00",
-    "https://www.statnews.com/2026/10/05/cancer-vaccines-mrna-clinical-trials/": "2026-10-05T15:32:42.485173+00:00",
-    "https://www.statnews.com/2026/10/05/could-ai-win-nobel-prize-medicine/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/2026-nobel-prize-winning-optogenetics-research-explained/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/biotech-news-lilly-jaypirca-approved-as-first-line-cll-therapy/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/cancer-vaccines-mrna-clinical-trials/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/could-ai-win-nobel-prize-medicine/": "2026-10-06T13:55:26.940932+00:00",
     "https://www.statnews.com/2026/10/05/energy-drinks-public-health-college-sports-partnerships-research/": "2026-10-05T15:32:42.485173+00:00",
-    "https://www.statnews.com/2026/10/05/health-news-could-we-one-day-vaccinate-against-every-cancer/": "2026-10-05T15:32:42.485173+00:00",
-    "https://www.statnews.com/2026/10/05/hospital-bills-drug-prices-insurance-premiums-spiral-part-5-out-of-pocket-series/": "2026-10-05T15:32:42.485173+00:00",
-    "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/": "2026-10-05T15:32:42.485173+00:00",
-    "https://www.statnews.com/2026/10/05/stem-cell-industry-seeks-fda-regulation-like-peptides/": "2026-10-05T15:32:42.485173+00:00",
-    "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/": "2026-10-05T15:32:42.485173+00:00",
+    "https://www.statnews.com/2026/10/05/health-care-prices-make-care-insurance-expensive-health-care-inc/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/health-news-could-we-one-day-vaccinate-against-every-cancer/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/hospital-bills-drug-prices-insurance-premiums-spiral-part-5-out-of-pocket-series/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/humana-medicare-advantage-radv-audits-lawsuit-hearing/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/stem-cell-industry-seeks-fda-regulation-like-peptides/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/trump-kennedy-transparency-in-coverage-regulations-health-care-prices-disclosure/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/utah-expands-health-ai-sandbox-picks-third-party-auditors/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/06/ai-tools-health-care-costs-bcbs-research/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/06/grail-multi-cancer-screening-test-criticism/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/06/health-news-consider-these-factors-to-decide-when-to-get-flu-shot/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/06/hospitals-longevity-clinics-healthy-aging-wellness-trend/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/06/pulse-oximeters-overestimate-and-underestimate-blood-oxygen-study/": "2026-10-06T13:55:26.940932+00:00",
     "https://www.statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/pharmalot/2026/09/23/loophole-closing-for-importing-meds-european-competitiveness/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
@@ -26945,7 +27316,8 @@
     "https://www.statnews.com/pharmalot/2026/10/01/trump-plan-to-lower-medicare-drug-prices-lilly-obesity-drug/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/": "2026-10-04T13:01:58.816580+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/05/vaxcyte-pneumococcal-vaccine-rising-pharma-mergers-acquisitions/": "2026-10-05T15:32:42.485173+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/05/vaxcyte-pneumococcal-vaccine-rising-pharma-mergers-acquisitions/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/06/us-funded-psychedelic-trials-astrazeneca-research-center/": "2026-10-06T13:55:26.940932+00:00"
   },
   "takedowns": []
 }
