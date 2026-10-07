@@ -27066,24 +27066,327 @@
         "linkage-disequilibrium",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "CAR-T therapy is a type of cancer treatment in which a patient's own immune cells — called T cells — are taken out of the body, modified in a laboratory to recognise cancer, and then put back in. This process is complex and expensive. Researchers at UC San Francisco have been working on a way to skip the step of removing the cells at all. Instead, they used tiny particles to deliver gene-editing tools directly into T cells while they are still inside the body, reprogramming them to fight cancer. The approach has only been tested in early laboratory and animal studies so far, and it would need to pass many more tests before it could be used in patients. Researchers say the method could eventually make this type of treatment simpler and more accessible, but those steps are still some way off.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UCSF team engineers CAR-T cells inside the living body using CRISPR two-particle system",
+      "is_preprint": false,
+      "run_date": "2026-10-07",
+      "run_iso": "2026-10-07T14:10:35Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 8,
+        "newest_iso": "2026-10-07T09:50:16Z",
+        "novelty": 9
+      },
+      "slug": "ucsf-in-vivo-car-t-crispr-two-particle-delivery",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-07T09:50:16Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists reprogram immune cells inside the body to fight cancer",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261005071532.htm"
+        }
+      ],
+      "standfirst": "Researchers at UC San Francisco have bypassed ex-vivo cell manufacturing by delivering CRISPR machinery directly into circulating T cells, inserting cancer-targeting DNA at a defined genomic site.",
+      "summary": "Scientists at the University of California, San Francisco have published a method for generating chimeric antigen receptor T (CAR-T) cells without removing cells from the patient. The approach uses a two-particle delivery system: one particle carries CRISPR gene-editing tools and a second carries a DNA template encoding a cancer-targeting receptor. Together, the particles direct targeted insertion of the new DNA into a defined locus within circulating T cells in vivo.\n\nCurrent approved CAR-T therapies require leukapheresis to harvest a patient's T cells, followed by ex-vivo viral transduction and expansion before reinfusion — a process that can take several weeks and costs hundreds of thousands of pounds per treatment course. The UCSF method, if it translates to clinical settings, could substantially simplify manufacturing logistics and potentially reduce cost, though the researchers note that preclinical to clinical translation will require further safety and efficacy evaluation.\n\nThe work adds to a growing body of research exploring in-vivo cell engineering as an alternative to ex-vivo manufacture. It is conceptually related to earlier lipid-nanoparticle approaches for transient T-cell modification, but the UCSF team's two-particle design and site-specific integration distinguish it from previous work. The study was described in reporting by ScienceDaily; the primary journal publication details had not been confirmed at time of writing.",
+      "tags": [
+        "car-t",
+        "crispr",
+        "in-vivo-cell-engineering",
+        "cancer-immunotherapy",
+        "t-cell-therapy",
+        "gene-editing"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Caribou Biosciences shuts down after failing to fund late-stage CAR-T lymphoma trial",
+      "is_preprint": false,
+      "run_date": "2026-10-07",
+      "run_iso": "2026-10-07T14:10:35Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-07T08:30:00Z",
+        "novelty": 9
+      },
+      "slug": "caribou-biosciences-shutdown-off-the-shelf-car-t",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/GettyImages-1179020747-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-07T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Caribou Biosciences, biotech co-founded by Jennifer Doudna, is shutting down",
+          "url": "https://www.statnews.com/2026/10/07/caribou-biosciences-shutting-down-lymphoma-car-t-therapy/"
+        }
+      ],
+      "standfirst": "The CRISPR-focused biotech co-founded by Jennifer Doudna is closing after it could not secure sufficient investment to progress its allogeneic CAR-T lymphoma candidate into a pivotal trial.",
+      "summary": "Caribou Biosciences, a California-based biotechnology company co-founded by Nobel laureate Jennifer Doudna, has announced it is shutting down following an unsuccessful effort to raise the capital required to fund a late-stage clinical trial of its lead asset — an off-the-shelf (allogeneic) CAR-T cell therapy for lymphoma.\n\nAllogeneic CAR-T approaches use donor-derived cells rather than the patient's own, with the aim of enabling a ready-made product that avoids the lengthy manufacturing timelines associated with autologous therapies. Caribou's programme had advanced to mid-stage clinical evaluation, but the company was unable to bridge the significant financial gap to a pivotal study.\n\nThe closure is notable in the context of the broader allogeneic CAR-T field, which has faced repeated setbacks across multiple developers. Fundraising conditions for mid-stage clinical-stage biotechs — particularly those without near-term revenue or partnership backing — have remained difficult. Caribou's winding down comes shortly after STAT News reported on the in-vivo CAR-T engineering work from UCSF (covered separately in this edition), illustrating the range of competing approaches to solving the ex-vivo manufacturing bottleneck in cell therapy.\n\nReporting on the closure came from STAT News; the article is behind a subscription paywall but sufficient detail was available from the lede for accurate summarisation.",
+      "tags": [
+        "caribou-biosciences",
+        "car-t",
+        "allogeneic-cell-therapy",
+        "lymphoma",
+        "biotech-industry",
+        "gene-editing",
+        "clinical-trial-news"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "educators",
+        "students",
+        "patients",
+        "genetic-counsellors"
+      ],
+      "for_patients": "Duchenne muscular dystrophy (DMD) is an inherited condition — caused by changes in a gene called DMD — that progressively weakens the muscles. It mainly affects boys and young men. One group of treatments, called exon-skipping drugs, works by helping cells read around the faulty part of the gene, so they can still make a shorter version of an important muscle protein called dystrophin. Some of these drugs have been approved by medicines regulators in the United States. However, a new report describes how very few of the patients who might benefit are actually receiving them, largely because of high costs and questions about what benefit they provide in practice. Researchers and regulators continue to study these treatments to understand their long-term effects.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Exon-skipping drugs for Duchenne muscular dystrophy reach only a fraction of eligible patients",
+      "is_preprint": false,
+      "run_date": "2026-10-07",
+      "run_iso": "2026-10-07T14:10:35Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 7,
+        "newest_iso": "2026-10-07T08:30:00Z",
+        "novelty": 7
+      },
+      "slug": "duchenne-exon-skipping-drugs-access-fda-rare-disease",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/Exon-Skipping-handout-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-07T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: In Duchenne muscular dystrophy, a promising therapy is available to a fortunate few",
+          "url": "https://www.statnews.com/2026/10/07/muscular-dystrophy-exon-skipping-drugs-novartis-dyne/"
+        }
+      ],
+      "standfirst": "STAT News reports that exon-skipping therapies approved for Duchenne muscular dystrophy — including candidates from Novartis and Dyne — remain inaccessible to most patients who could benefit, testing the FDA's rare-disease drug framework.",
+      "summary": "A detailed report from STAT News examines the state of exon-skipping therapies for Duchenne muscular dystrophy (DMD), a severe X-linked neuromuscular disorder caused by mutations in the DMD gene encoding dystrophin. Exon-skipping drugs use antisense oligonucleotides to cause the cellular splicing machinery to bypass specific faulty exons, allowing production of a shorter but partially functional dystrophin protein. Different exon-skipping drugs target different subsets of DMD mutations, meaning each approved product is eligible only for a defined proportion of the patient population.\n\nAccording to the reporting, despite regulatory approvals — granted in part under accelerated and conditional pathways designed to expedite access for rare diseases — relatively few patients are receiving these treatments. Barriers include cost, payer coverage decisions, and the requirement for precise genotyping to confirm mutation eligibility. The article highlights programmes from Novartis and Dyne Therapeutics among those under scrutiny.\n\nThe situation is described as a test case for the FDA's broader strategy of using accelerated approval to encourage investment in rare-disease therapeutics. Critics have questioned whether approvals based on surrogate endpoints such as dystrophin protein levels translate to meaningful clinical benefit; proponents argue they create the conditions for further research and market entry. The STAT article is behind a subscription paywall; this summary is based on the published lede and contextual knowledge of the published literature.",
+      "tags": [
+        "duchenne-muscular-dystrophy",
+        "exon-skipping",
+        "antisense-oligonucleotides",
+        "rare-disease",
+        "fda",
+        "neuromuscular",
+        "dystrophin",
+        "clinical-trial-news"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "2026 Nobel Prize in Chemistry awarded to Henri Kagan and Kenso Soai for chiral molecule research",
+      "is_preprint": false,
+      "run_date": "2026-10-07",
+      "run_iso": "2026-10-07T14:10:35Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-07T10:42:28Z",
+        "novelty": 10
+      },
+      "slug": "nobel-chemistry-2026-kagan-soai-chiral-molecules",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2016/09/NOBEL_2-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-07T10:42:28Z",
+          "publisher": "Stat News",
+          "title": "2026 Nobel Prize in chemistry awarded for 'mirror image' molecule research, with impact on pharmacology",
+          "url": "https://www.statnews.com/2026/10/07/nobel-prize-chemistry-henri-kagan-kenso-soai-2026-winner/"
+        }
+      ],
+      "standfirst": "The Royal Swedish Academy of Sciences has awarded the 2026 Nobel Prize in Chemistry to Henri B. Kagan and Kenso Soai for resolving the chemistry of mirror-image molecules, with downstream significance for pharmacology and drug development.",
+      "summary": "The 2026 Nobel Prize in Chemistry has been awarded to Henri B. Kagan and Kenso Soai for their foundational work on chirality — the property by which molecules exist as non-superimposable mirror images of one another, analogous to left and right hands. The award was announced on Wednesday 7 October 2026.\n\nKagan, a French chemist, made landmark contributions to asymmetric catalysis — the development of catalysts that selectively produce one mirror-image form (enantiomer) of a molecule over the other. Soai is recognised for the discovery of the Soai reaction, a striking example of asymmetric autocatalysis in which a chiral product catalyses its own production, amplifying tiny initial imbalances in chirality to near-complete enantiomeric excess.\n\nThe pharmacological relevance of chirality is substantial: many drugs are chiral molecules where one enantiomer is therapeutically active and the other may be inactive or harmful. The ability to synthesise a desired enantiomer selectively — rather than producing a racemic mixture — is central to modern pharmaceutical chemistry. The Nobel Committee cited the broad impact of the laureates' work on chemistry and pharmacology.\n\nNeither Kagan nor Soai's work is directly within genetics or genomics, but the intersection with drug development and the pharmacogenomics of drug metabolism gives the award peripheral relevance to the Genetic Current audience.",
+      "tags": [
+        "nobel-prize",
+        "chemistry",
+        "chirality",
+        "asymmetric-catalysis",
+        "pharmacology",
+        "drug-development"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Genetic Probabilistic Circuits offer a tractable deep generative model for population genomic data",
+      "is_preprint": false,
+      "run_date": "2026-10-07",
+      "run_iso": "2026-10-07T14:10:35Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-10-06T14:00:00Z",
+        "novelty": 9
+      },
+      "slug": "gpc-deep-generative-model-genetic-variation-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-06T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "GPC: An expressive and tractable deep generative model for genetic variation data",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012321"
+        }
+      ],
+      "standfirst": "Researchers have introduced GPC, a deep generative model that more faithfully captures dependencies in genetic variation data while remaining computationally tractable and preserving data-sharing privacy constraints.",
+      "summary": "A team including Prateek Anand, Anji Liu, Meihua Dang, Boyang Fu, Xinzhu Wei, Guy Van den Broeck, and Sriram Sankararaman has published a study in PLOS Genetics introducing Genetic Probabilistic Circuits (GPC), a new class of deep generative model designed specifically for genetic variation data.\n\nGenerative models of genotype data serve several functions in population genetics and statistical genomics: they are used to simulate artificial genomes for benchmarking methods and testing evolutionary hypotheses, and to construct reference panels for genotype imputation — allowing researchers to work with privacy-compliant synthetic data rather than sharing real participant records.\n\nExisting approaches face a tension between expressiveness and tractability. Models that capture complex dependencies across the genome tend to be computationally demanding and difficult to interpret or scale; simpler models sacrifice fidelity to the true distribution of genetic variation. The GPC framework is described by the authors as addressing both limitations simultaneously, using a circuit-based probabilistic architecture that allows efficient exact inference while modelling higher-order dependencies among genetic variants.\n\nThe authors benchmarked GPC against existing generative models and report improved performance on standard population genetics criteria including fidelity to linkage disequilibrium patterns and rare variant distributions. The study was published in PLOS Genetics on 6 October 2026.",
+      "tags": [
+        "population-genetics",
+        "generative-models",
+        "probabilistic-circuits",
+        "genotype-imputation",
+        "synthetic-data",
+        "statistical-genetics",
+        "computational-genomics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: linkage disequilibrium moderates how an evolving genetic background shapes variant-level trait architecture",
+      "is_preprint": true,
+      "run_date": "2026-10-07",
+      "run_iso": "2026-10-07T14:10:35Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-10-06T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "ld-evolving-genetic-background-variant-architecture-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Linkage disequilibrium moderates how evolving genetic background shapes variant-level architecture",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756092v1?rss=1"
+        }
+      ],
+      "standfirst": "A new theoretical model shows that ignoring linkage disequilibrium between a causal variant and its genetic background leads to systematic errors in predictions about complex trait architecture under stabilising selection.",
+      "summary": "A preprint deposited on bioRxiv presents a population-genetic model that explicitly incorporates linkage disequilibrium (LD) — the non-random association between alleles at nearby loci — into the description of how a variant's effect on a complex trait is shaped by the genetic background in which it resides.\n\nMost widely used single-variant theoretical frameworks in statistical genetics either omit the coupling between a focal variant and the surrounding haplotype background, or hold the background fixed. The authors argue that this omission introduces systematic biases, particularly when LD is strong, because the background itself evolves under selection and drift in ways that feed back on the apparent effect size and frequency of the focal variant.\n\nThe model developed in this work incorporates stabilising selection, recombination, and genetic drift, and derives predictions for variant-level effect-size distributions and allele frequencies that differ materially from standard single-variant theory when LD is substantial. The authors suggest their framework could help explain discrepancies between the expected and observed genetic architecture of complex traits — for example, patterns of effect-size variation across the allele-frequency spectrum.\n\nThis work is technical and primarily of interest to population geneticists and statistical geneticists developing or evaluating methods for GWAS interpretation. It has not yet been peer-reviewed.",
+      "tags": [
+        "linkage-disequilibrium",
+        "population-genetics",
+        "complex-traits",
+        "stabilising-selection",
+        "variant-effect-sizes",
+        "statistical-genetics",
+        "gwas",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: genomic SEM identifies shared and divergent genetic architecture for locomotor activity across rat studies",
+      "is_preprint": true,
+      "run_date": "2026-10-07",
+      "run_iso": "2026-10-07T14:10:35Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-10-06T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "genomic-sem-locomotor-activity-hs-rats-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genomic SEM reveals shared genetic architecture and expands locus discovery for locomotor activity in heterogeneous stock rats",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756043v1?rss=1"
+        }
+      ],
+      "standfirst": "Applying genomic structural equation modelling to nearly 9,400 heterogeneous stock rats, researchers uncover shared but non-identical genetic influences on locomotor response — an addiction-relevant behavioural trait — and identify new loci missed by standard GWAS.",
+      "summary": "A preprint posted to bioRxiv reports a large-scale genetic analysis of locomotor activity in heterogeneous stock (HS) rats — a multiparental outbred population used in addiction and behavioural genetics research. The study draws on 9,341 male and female rats from eight independent studies, exploiting the large combined sample to characterise the genetic architecture of novelty-induced locomotor response, a heritable trait associated with addiction vulnerability in rodents.\n\nThe authors found that locomotor activity was heritable within studies, and that pairwise genetic correlations across studies were consistently positive but varied in magnitude — indicating that the studies are measuring related but not identical phenotypes, potentially reflecting differences in environmental context, sex ratios, or measurement protocol.\n\nTo address this non-uniform architecture, the team compared three complementary locus-discovery strategies: a pooled analysis across studies (MEGA), a fixed-effects meta-analysis of per-study GWAS results, and genomic structural equation modelling (Genomic SEM), which can model a latent common factor underlying the correlated phenotypes while allowing study-specific residual variation. Genomic SEM identified additional loci not detected by the other approaches, and the authors argue this approach is better suited to multi-study behavioural data with heterogeneous genetic architectures.\n\nThe work is relevant to researchers in statistical genetics, quantitative genetics, and the neurobiology of addiction. It has not yet been peer-reviewed.",
+      "tags": [
+        "genomic-sem",
+        "gwas",
+        "locomotor-activity",
+        "heterogeneous-stock-rats",
+        "addiction-genetics",
+        "behavioural-genetics",
+        "statistical-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-10-06T13:55:26.940932+00:00",
+  "last_run": "2026-10-07T14:12:55.544786+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012255": "2026-10-02T13:33:27.695086+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290": "2026-09-26T12:04:39.789841+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012307": "2026-09-23T12:33:42.633094+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012313": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012314": "2026-09-24T12:31:59.253404+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317": "2026-09-25T12:34:00.804612+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012319": "2026-09-29T13:43:13.076241+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012321": "2026-10-07T14:12:55.544786+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012326": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012327": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012328": "2026-10-01T14:11:14.820845+00:00",
-    "https://news.cancerresearchuk.org/2026/09/22/form-follows-function-decoding-pancreatic-cancer/": "2026-09-23T12:33:42.633094+00:00",
-    "https://news.cancerresearchuk.org/2026/09/23/latest-winner-in-our-research-is-beautiful-competition-7/": "2026-09-23T12:33:42.633094+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/the-national-cancer-plan-promises-a-bold-vision-now-to-make-it-a-reality/": "2026-09-25T12:34:00.804612+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
     "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
@@ -27093,17 +27396,14 @@
     "https://news.cancerresearchuk.org/2026/10/06/a-moment-with-mariam-meeting-cruks-new-chief-clinician/": "2026-10-06T13:55:26.940932+00:00",
     "https://news.cancerresearchuk.org/2026/10/06/cancer-research-uk-appoints-professor-mariam-jamal-hanjani-as-its-new-chief-clinician/": "2026-10-06T13:55:26.940932+00:00",
     "https://news.cancerresearchuk.org/2026/10/06/canrisk-finding-younger-women-with-a-higher-risk-of-breast-cancer/": "2026-10-06T13:55:26.940932+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.16.750837v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.16.751930v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
+    "https://news.cancerresearchuk.org/2026/10/06/circulating-dna-pioneer-wins-early-detection-impact-award/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.752223v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.18.752151v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752412v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.19.752832v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.19.752864v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.20.752979v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.20.752986v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.20.753023v1?rss=1": "2026-09-23T12:33:42.633094+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.751561v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.752589v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
@@ -27138,10 +27438,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.28.755174v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.28.755183v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755401v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.29.755427v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755441v1?rss=1": "2026-10-06T13:55:26.940932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755447v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.09.30.752484v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.30.755531v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.30.755759v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.01.754988v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.01.755638v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.01.756043v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.01.756092v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.02.756275v1?rss=1": "2026-10-06T13:55:26.940932+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
@@ -27170,20 +27476,14 @@
     "https://www.sciencedaily.com/releases/2026/10/261002080023.htm": "2026-10-05T15:32:42.485173+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080037.htm": "2026-10-06T13:55:26.940932+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261005011249.htm": "2026-10-06T13:55:26.940932+00:00",
-    "https://www.statnews.com/2026/09/22/biotech-news-novo-may-be-getting-a-better-deal-than-expected-with-medicare-bridge/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/2026/09/22/dc-diagnosis-did-trump-administration-cut-novo-huge-financial-win/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/2026/09/22/epics-mortality-model-omadas-future-products-health-tech/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/2026/09/22/heidi-overton-fda-commissioner-confirmation-hearing/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261005012230.htm": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261005071532.htm": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261007042059.htm": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/2026/09/23/biotech-news-flagship-gets-a-pentagon-contract/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/23/biotech-vc-investors-new-opportunity-osteoporosis-treatments/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/23/health-news-legal-saga-for-youth-gender-affirming-care-in-the-us/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/23/heidi-overton-fda-nominee-opening-statement-senate-hearing-clinical-trials/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/23/how-to-make-sense-of-ai-doomerism-ai-prognosis/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/23/lindsay-clancy-patrick-60-minutes-reproductive-psychiatry-mentally-ill-mothers/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/23/nih-grants-political-control-executive-order-bipartisan-pushback/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/23/quorum-hospitals-nonprofit-conversion-increases-debt-load/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/2026/09/23/unitedhealth-cvs-pushback-medicare-plan-rpm-abuse/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
     "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/": "2026-09-25T12:34:00.804612+00:00",
@@ -27293,13 +27593,24 @@
     "https://www.statnews.com/2026/10/05/trump-kennedy-transparency-in-coverage-regulations-health-care-prices-disclosure/": "2026-10-06T13:55:26.940932+00:00",
     "https://www.statnews.com/2026/10/05/utah-expands-health-ai-sandbox-picks-third-party-auditors/": "2026-10-06T13:55:26.940932+00:00",
     "https://www.statnews.com/2026/10/05/vaxcyte-pneumococcal-vaccine-study-pfizer-merck/": "2026-10-06T13:55:26.940932+00:00",
-    "https://www.statnews.com/2026/10/06/ai-tools-health-care-costs-bcbs-research/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/06/ai-tools-health-care-costs-bcbs-research/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/06/biotech-news-astrazeneca-opens-new-boston-site/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/06/democrats-focus-on-food-toxins-win-maha-voters-midterm-elections/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/06/fda-spells-out-2027-ai-guidance-plans-health-tech/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/2026/10/06/grail-multi-cancer-screening-test-criticism/": "2026-10-06T13:55:26.940932+00:00",
-    "https://www.statnews.com/2026/10/06/health-news-consider-these-factors-to-decide-when-to-get-flu-shot/": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.statnews.com/2026/10/06/health-news-consider-these-factors-to-decide-when-to-get-flu-shot/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/06/hospital-longevity-programs-health-status-report-alex-hogan/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/2026/10/06/hospitals-longevity-clinics-healthy-aging-wellness-trend/": "2026-10-06T13:55:26.940932+00:00",
-    "https://www.statnews.com/2026/10/06/pulse-oximeters-overestimate-and-underestimate-blood-oxygen-study/": "2026-10-06T13:55:26.940932+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug/?utm_campaign=rss": "2026-09-23T12:33:42.633094+00:00",
+    "https://www.statnews.com/2026/10/06/pulse-oximeters-overestimate-and-underestimate-blood-oxygen-study/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/06/russia-plague-reports-pneuomonia-siberia-expert-calm/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/06/trump-medicare-checks-stem-cell-treatments-fda-dc-diagnosis/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/07/active-surveillance-prostate-cancer-life-insurance-policy/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/07/biotech-news-forbion-raises-2-6-billion-largest-fundraise/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/07/caribou-biosciences-shutting-down-lymphoma-car-t-therapy/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/07/health-news-er-visits-from-people-born-outside-the-u-s-dropped-after-ice-raids/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/07/muscular-dystrophy-exon-skipping-drugs-novartis-dyne/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/07/nobel-prize-chemistry-henri-kagan-kenso-soai-2026-winner/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/07/utah-sandbox-health-ai-pilots-and-fda-regulations-ai-prognosis/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/pharmalot/2026/09/23/loophole-closing-for-importing-meds-european-competitiveness/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
@@ -27317,7 +27628,10 @@
     "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/pharmalot/2026/10/05/vaxcyte-pneumococcal-vaccine-rising-pharma-mergers-acquisitions/": "2026-10-06T13:55:26.940932+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/06/us-funded-psychedelic-trials-astrazeneca-research-center/": "2026-10-06T13:55:26.940932+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/06/us-funded-psychedelic-trials-astrazeneca-research-center/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/07/merck-suffers-setback-in-europe-over-new-keytruda-formulation/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/07/trump-administration-adds-pharma-to-list-priorities-combating-white-collar-fraud/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/": "2026-10-07T14:12:55.544786+00:00"
   },
   "takedowns": []
 }
