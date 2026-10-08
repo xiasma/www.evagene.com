@@ -27371,24 +27371,246 @@
         "statistical-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Ancient mitogenomes from Belize shed light on Maya population mobility over three millennia",
+      "is_preprint": true,
+      "run_date": "2026-10-08",
+      "run_iso": "2026-10-08T14:21:12Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-10-08T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "ancient-maya-mitogenomes-mesoamerica-caribbean-mobility",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Ancient Mitogenomes from Belize Provide Insights into the Mobility and Migration of Ancient Communities in Mesoamerica and the Caribbean.",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756460v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint analyses mitochondrial genomes from ancient Belizean sites to trace demographic change and migration across the Maya lowlands and into the Caribbean.",
+      "summary": "A preprint posted to bioRxiv by researchers working on ancient DNA from Belize presents mitochondrial genome data bearing on the demographic history of Maya communities across roughly three thousand years. The study draws on archaeological contexts spanning the formation and collapse of major urban centres, climatic disruptions, and successive colonial periods — events previously documented through material culture and stable-isotope evidence but less thoroughly characterised at the genomic level.\n\nThe authors report that ancient mitogenomes from Belizean sites show patterns consistent with substantial population mobility, including movements that link Maya lowland polities to Caribbean communities. The findings add genomic resolution to existing archaeological models of a demographically dynamic population whose relationships between urban centres were complex and shifting.\n\nBecause the work analyses mitochondrial DNA — maternally inherited and therefore informative about female-line ancestry — it complements but does not replace nuclear-genome approaches. The authors note that present-day Maya communities are included in comparative analyses, providing a bridge between ancient and contemporary genetic diversity.\n\nThis is a preprint and has not yet been peer-reviewed. Results and interpretations are subject to change following formal review.",
+      "tags": [
+        "ancient-dna",
+        "maya",
+        "mesoamerica",
+        "mitogenomics",
+        "population-genetics",
+        "archaeogenomics",
+        "caribbean",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Placental cis-eQTL study identifies preeclampsia-dependent genetic regulation at gene promoters",
+      "is_preprint": true,
+      "run_date": "2026-10-08",
+      "run_iso": "2026-10-08T14:21:12Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-07T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "placental-cis-eqtl-preeclampsia-promoter-regulation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-07T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Placental cis-eQTL analysis identifies preeclampsia-dependent genetic regulation at promoters",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756656v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from the FINNPEC cohort maps maternal and fetal cis-eQTLs in placental tissue and finds that some genetic effects on gene expression differ specifically between pregnancies affected by preeclampsia and those that are not.",
+      "summary": "Researchers working with data from the FINNPEC cohort have posted a bioRxiv preprint reporting cis-expression quantitative trait locus (cis-eQTL) analyses of placental tissue from 59 pregnancies. The study uses 5′-end RNA sequencing to capture both gene-level and promoter-level expression — the latter defined as Transcript Far 5′ Ends — and performs separate analyses for maternal and fetal genotypes.\n\nA key analytical feature is a genotype-by-preeclampsia interaction model, designed to detect genetic effects on placental transcription that are present or enhanced specifically when preeclampsia (PE) is present. The authors report that no gene-level eQTLs reached significance in interaction models, but promoter-level analyses identified candidate regulatory variants whose effects differed according to PE status. This suggests that some genetic influences on placental gene regulation may be context-dependent in ways that bulk gene-level measurements obscure.\n\nPreeclampsia is a hypertensive disorder of pregnancy with contributions from both maternal and fetal genomes; how those genomes jointly regulate placental transcription has been incompletely characterised. The findings from this study may inform future functional work on candidate regulatory variants, though the sample size of 59 pregnancies limits statistical power and the preprint has not yet undergone peer review.\n\nThis is a preprint. Results and interpretations are preliminary and subject to change.",
+      "tags": [
+        "eqtl",
+        "placenta",
+        "preeclampsia",
+        "regulatory-genomics",
+        "promoter-variation",
+        "pregnancy",
+        "maternal-fetal-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study characterises GTBP-1 role in heat stress response and germline P-body dynamics in C. elegans",
+      "is_preprint": false,
+      "run_date": "2026-10-08",
+      "run_iso": "2026-10-08T14:21:12Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-07T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gtbp-1-p-bodies-c-elegans-heat-stress-germline",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-07T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Heat stress promotes GTBP-1 association with perinuclear P-bodies in the C. elegans germline",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012336"
+        }
+      ],
+      "standfirst": "Researchers describe how GTBP-1, the C. elegans homologue of human stress-granule protein G3BP1, relocates to perinuclear P-bodies under heat stress and influences reproductive homeostasis.",
+      "summary": "A peer-reviewed study published in PLOS Genetics by Diya Zang, Yifan Jing, and colleagues characterises GTBP-1, the Caenorhabditis elegans homologue of the human RNA-binding protein G3BP1, and investigates its contributions to heat stress responses in the nematode germline.\n\nThe authors show that gtbp-1 mutants display temperature-dependent reproductive phenotypes, suggesting that GTBP-1 function becomes particularly important under thermal stress. Under heat stress conditions, GTBP-1 associates with perinuclear P-bodies — constitutive cytoplasmic RNA granules distinct from the stress granules with which G3BP1 family proteins are more commonly associated in somatic cells. This perinuclear P-body localisation implies a specialised role for GTBP-1 in germline RNA regulation that may differ from its somatic counterparts.\n\nStress granules and P-bodies are dynamic ribonucleoprotein condensates that compartmentalise mRNA and associated factors, but their regulation and function in the germline have been less thoroughly studied than in somatic tissues. This work adds to a growing body of literature exploring how RNA granule biology intersects with reproductive resilience and germline homeostasis.\n\nG3BP1 is conserved across metazoans, and the C. elegans model offers tractable genetics for dissecting granule-assembly mechanisms. The study was published in PLOS Genetics on 7 October 2026.",
+      "tags": [
+        "stress-granules",
+        "p-bodies",
+        "gtbp-1",
+        "g3bp1",
+        "c-elegans",
+        "germline",
+        "rna-granules",
+        "heat-stress",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Nicolaides-Baraitser syndrome is an extremely rare condition caused by changes in a single gene called SMARCA2. This gene helps control how DNA is packaged inside cells. People with the condition often have learning difficulties, limited speech, and other features that vary between individuals.\n\nBecause so few people in the world have this diagnosis, families can feel very isolated. The STAT News article describes one family's journey — from receiving the diagnosis to eventually finding and connecting with others living with the same condition. Their story highlights how patient communities, online registries, and advocacy groups can bring families together when a condition is too rare for most doctors to have seen more than one or two cases.\n\nResearchers and clinicians studying ultra-rare conditions often rely on families sharing their experiences and participating in international registries. These contributions help build the natural history data that future research depends on.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "A family's search for others with Nicolaides-Baraitser syndrome illuminates the ultra-rare disease experience",
+      "is_preprint": false,
+      "run_date": "2026-10-08",
+      "run_iso": "2026-10-08T14:21:12Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-10-08T08:30:00Z",
+        "novelty": 7
+      },
+      "slug": "nicolaides-baraitser-syndrome-rare-disease-community",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/deepa-final-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-08T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "A mother-daughter quest to find fellow members of an ultra-rare genetic community",
+          "url": "https://www.statnews.com/2026/10/08/rare-disease-nicolaides-baraitser-syndrome-history-ncbrs-researchers/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "STAT News profiles a mother and daughter's years-long effort to connect with other families affected by Nicolaides-Baraitser syndrome, an ultra-rare genetic neurodevelopmental condition.",
+      "summary": "A long-read feature published by STAT News recounts the experiences of a family navigating a diagnosis of Nicolaides-Baraitser syndrome (NCBRS), an ultra-rare neurodevelopmental disorder caused by pathogenic variants in the SMARCA2 gene, which encodes a component of the SWI/SNF chromatin-remodelling complex. The piece, written from the perspective of a family member, describes the years that elapsed between a paediatric geneticist's warning not to search online and the family's eventual decision to engage with the broader NCBRS community.\n\nThe feature touches on themes familiar to families with rare genetic diagnoses: diagnostic odyssey, the isolation of conditions with small patient populations, the role of family-led registries and patient advocacy groups in connecting affected individuals, and the emotional weight of receiving a genetic diagnosis with limited natural history data.\n\nNicolaides-Baraitser syndrome is characterised by intellectual disability, limited speech, behavioural features, and distinctive facial features. Fewer than several hundred cases have been described in the published literature, making it representative of a broad category of Mendelian neurodevelopmental conditions where research progress depends heavily on international collaboration and family participation in registries.\n\nThe piece is an editorial/personal narrative rather than a primary research report, but it offers perspectives of direct relevance to genetic counsellors, educators working on rare disease communication, and patients and families encountering similar situations.",
+      "tags": [
+        "nicolaides-baraitser-syndrome",
+        "smarca2",
+        "rare-disease",
+        "neurodevelopmental-disorders",
+        "patient-advocacy",
+        "diagnostic-odyssey",
+        "rare-disease-community"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Retinitis pigmentosa is an inherited eye condition caused by faults in any one of many different genes. Over time, the light-sensing cells at the back of the eye — called photoreceptors — gradually stop working, which can lead to severe loss of vision.\n\nOptogenetics is a scientific technique that uses genes to make surviving cells in the eye respond to light, taking over some of the job that the lost photoreceptors used to do. In a small trial reported by STAT News, roughly half of the patients treated this way regained some ability to detect light. They also wore special goggles that convert ordinary light into the specific wavelengths that the treated cells can respond to.\n\nThis is an early-stage study with a small number of participants. Researchers say the results are encouraging, but much more work is needed before this approach could become widely available. The scientists who first developed the underlying optogenetics technique were awarded the 2026 Nobel Prize in Physiology or Medicine.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Small trial reports optogenetics restores partial photosensitivity in retinitis pigmentosa patients",
+      "is_preprint": false,
+      "run_date": "2026-10-08",
+      "run_iso": "2026-10-08T14:21:12Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-10-07T21:00:00Z",
+        "novelty": 6
+      },
+      "slug": "optogenetics-retinitis-pigmentosa-small-trial-vision",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/C0277118-Optogenetics_Illustration-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-07T21:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: In small trial, optogenetics restores some vision lost to retinitis pigmentosa",
+          "url": "https://www.statnews.com/2026/10/07/optogenetics-restores-some-vision-retinitis-pigmentosa/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "About half of participants in an early-phase trial regained measurable photosensitivity following optogenetic treatment for vision loss caused by retinitis pigmentosa, according to STAT News reporting.",
+      "summary": "STAT News reports on a small clinical trial in which optogenetics — a technique that introduces light-sensitive proteins into surviving retinal cells — restored some degree of photosensitivity in approximately half of participants with vision loss attributable to retinitis pigmentosa (RP). Retinitis pigmentosa is a group of inherited retinal dystrophies caused by pathogenic variants in more than 70 genes; it leads to progressive loss of photoreceptors, leaving many patients with severely reduced or absent vision.\n\nThe optogenetic approach bypasses lost photoreceptors by delivering a gene encoding a channelrhodopsin or related light-gated ion channel protein into surviving inner retinal cells, most commonly retinal ganglion cells, enabling those cells to respond to light. Participants in this trial wore specially designed goggles that translate visual information into wavelengths compatible with the introduced light-sensitive protein.\n\nThe trial is reported as an early-phase study with a small participant number; the results indicate proof-of-concept photosensitivity recovery rather than restoration of full functional vision. The findings build on prior work in the field, including a widely reported 2021 Nature Medicine case study, and extend evidence that optogenetic strategies can confer meaningful, if partial, visual responses in patients with advanced RP.\n\nThis report is based on STAT News coverage; the underlying trial data have not yet been independently verified by Genetic Current from a peer-reviewed primary publication. The 2026 Nobel Prize in Physiology or Medicine was awarded for the foundational optogenetics research that underpins this clinical work.",
+      "tags": [
+        "optogenetics",
+        "retinitis-pigmentosa",
+        "inherited-retinal-disease",
+        "channelrhodopsin",
+        "gene-therapy",
+        "clinical-trial-news",
+        "vision-restoration"
+      ]
     }
   ],
-  "last_run": "2026-10-07T14:12:55.544786+00:00",
+  "last_run": "2026-10-08T14:23:05.539264+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012255": "2026-10-02T13:33:27.695086+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290": "2026-09-26T12:04:39.789841+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012313": "2026-10-06T13:55:26.940932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012314": "2026-09-24T12:31:59.253404+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317": "2026-09-25T12:34:00.804612+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012319": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012321": "2026-10-07T14:12:55.544786+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012326": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012327": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012328": "2026-10-01T14:11:14.820845+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012336": "2026-10-08T14:23:05.539264+00:00",
     "https://news.cancerresearchuk.org/2026/09/24/the-national-cancer-plan-promises-a-bold-vision-now-to-make-it-a-reality/": "2026-09-25T12:34:00.804612+00:00",
-    "https://news.cancerresearchuk.org/2026/09/24/whats-next-for-liquid-biopsy-in-cancer-diagnosis-and-treatment/": "2026-09-24T12:31:59.253404+00:00",
     "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
     "https://news.cancerresearchuk.org/2026/09/30/childrens-and-young-peoples-cancers-the-government-must-turn-momentum-into-action/": "2026-09-30T13:20:27.263732+00:00",
     "https://news.cancerresearchuk.org/2026/10/01/research-integrity-why-robust-antibody-validation-is-vital-for-drug-discovery/": "2026-10-02T13:33:27.695086+00:00",
@@ -27397,6 +27619,7 @@
     "https://news.cancerresearchuk.org/2026/10/06/cancer-research-uk-appoints-professor-mariam-jamal-hanjani-as-its-new-chief-clinician/": "2026-10-06T13:55:26.940932+00:00",
     "https://news.cancerresearchuk.org/2026/10/06/canrisk-finding-younger-women-with-a-higher-risk-of-breast-cancer/": "2026-10-06T13:55:26.940932+00:00",
     "https://news.cancerresearchuk.org/2026/10/06/circulating-dna-pioneer-wins-early-detection-impact-award/": "2026-10-07T14:12:55.544786+00:00",
+    "https://news.cancerresearchuk.org/2026/10/07/could-clearing-immune-fog-stop-lung-cancer/": "2026-10-08T14:23:05.539264+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.16.752223v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752412v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.18.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
@@ -27449,12 +27672,13 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.01.756043v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.01.756092v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.02.756275v1?rss=1": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.05.756656v1?rss=1": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.06.756460v1?rss=1": "2026-10-08T14:23:05.539264+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-cuts-british-forces-waiting-times-by-a-month-in-targeted-campaign/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-protects-thousands-of-rough-sleepers-ahead-of-winter-with-vital-vaccines/": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260922005712.htm": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260922223008.htm": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.england.nhs.uk/2026/10/ominous-signs-of-winter-pressure-growing-as-aes-and-ambulances-see-record-september/": "2026-10-08T14:23:05.539264+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260923035939.htm": "2026-09-25T12:34:00.804612+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924020408.htm": "2026-09-26T12:04:39.789841+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924231711.htm": "2026-09-27T12:42:11.322410+00:00",
@@ -27478,12 +27702,9 @@
     "https://www.sciencedaily.com/releases/2026/10/261005011249.htm": "2026-10-06T13:55:26.940932+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261005012230.htm": "2026-10-07T14:12:55.544786+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261005071532.htm": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261005071533.htm": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261006234528.htm": "2026-10-08T14:23:05.539264+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042059.htm": "2026-10-07T14:12:55.544786+00:00",
-    "https://www.statnews.com/2026/09/23/biotech-news-flagship-gets-a-pentagon-contract/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/23/heidi-overton-fda-nominee-opening-statement-senate-hearing-clinical-trials/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/23/how-to-make-sense-of-ai-doomerism-ai-prognosis/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/23/nih-grants-political-control-executive-order-bipartisan-pushback/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/": "2026-09-25T12:34:00.804612+00:00",
@@ -27491,19 +27712,10 @@
     "https://www.statnews.com/2026/09/24/chronicling-chinese-drug-development-from-shanghai-readout-loud/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/fda-commissioner-nominee-heidi-overton-senate-hearing-dodges-questions/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/fda-commissioner-nominee-heidi-overton-senate-hearing-dodges-questions/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/24/gilead-immunology-inflammation-biotech-moderna-merck/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/24/health-news-measles-contagious-outbreak-u-s-deaths-1991/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/24/heidi-overton-fda-commissioner-confirmation-hearing-2/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/24/heidi-overton-profile-fda-commissioner-nominee/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/24/lpa-horizon-zeus-results-pelacarsen-preventive-cardiology-precision-medicine-disappointment/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/24/measles-outbreak-experience-child-doctor-1961/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/24/patients-first-act-congress-moves-on-doctor-pay-medicare-reform/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
-    "https://www.statnews.com/2026/09/24/radiology-ai-blurred-line-between-tech-development-clinical-practice/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/24/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/the-fda-overton-era-and-dispatches-from-shanghai/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/24/trump-medicaid-generous-model-state-interest/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
     "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/25/died-with-not-from-measles-physicians-explain-death-certificate-rules/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/25/died-with-not-from-measles-physicians-explain-death-certificate-rules/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
@@ -27606,12 +27818,27 @@
     "https://www.statnews.com/2026/10/06/trump-medicare-checks-stem-cell-treatments-fda-dc-diagnosis/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/2026/10/07/active-surveillance-prostate-cancer-life-insurance-policy/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/2026/10/07/biotech-news-forbion-raises-2-6-billion-largest-fundraise/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/07/biotech-news-forbion-raises-2-6-billion-largest-fundraise/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/07/caribou-biosciences-shutting-down-lymphoma-car-t-therapy/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/2026/10/07/health-news-er-visits-from-people-born-outside-the-u-s-dropped-after-ice-raids/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/07/health-news-er-visits-from-people-born-outside-the-u-s-dropped-after-ice-raids/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/07/muscular-dystrophy-exon-skipping-drugs-novartis-dyne/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/2026/10/07/nobel-prize-chemistry-henri-kagan-kenso-soai-2026-winner/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/2026/10/07/optogenetics-restores-some-vision-retinitis-pigmentosa/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/07/phrma-sues-over-drug-pricing-model-globe/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/07/trump-administration-proposes-fee-targeting-interational-students-optional-practical-training/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/07/utah-sandbox-health-ai-pilots-and-fda-regulations-ai-prognosis/": "2026-10-07T14:12:55.544786+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/23/loophole-closing-for-importing-meds-european-competitiveness/?utm_campaign=rss": "2026-09-24T12:31:59.253404+00:00",
+    "https://www.statnews.com/2026/10/07/utah-sandbox-health-ai-pilots-and-fda-regulations-ai-prognosis/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/340b-drug-discount-program-cms-reform-proposal/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/breast-cancer-research-older-women-neil-carleton-stat-wunderkind/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/health-news-nobel-boys-club-again-2026-winners/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/midterm-election-democrats-vie-for-roles-house-health-care-committees/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/rare-disease-nicolaides-baraitser-syndrome-history-ncbrs-researchers/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/roche-defand-therapeutics-drug-development-deal/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/trump-tariffs-section-232-imported-prescription-drugs-challenge-biotech-companies/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/us-hepatitis-c-cure-medication-cost-elimination/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/why-clairity-took-breast-cancer-risk-prediction-ai-directly-to-patients/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/": "2026-09-25T12:34:00.804612+00:00",
@@ -27630,8 +27857,12 @@
     "https://www.statnews.com/pharmalot/2026/10/05/vaxcyte-pneumococcal-vaccine-rising-pharma-mergers-acquisitions/": "2026-10-06T13:55:26.940932+00:00",
     "https://www.statnews.com/pharmalot/2026/10/06/us-funded-psychedelic-trials-astrazeneca-research-center/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/pharmalot/2026/10/07/merck-suffers-setback-in-europe-over-new-keytruda-formulation/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/07/merck-suffers-setback-in-europe-over-new-keytruda-formulation/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/pharmalot/2026/10/07/trump-administration-adds-pharma-to-list-priorities-combating-white-collar-fraud/": "2026-10-07T14:12:55.544786+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/": "2026-10-07T14:12:55.544786+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/07/trump-administration-adds-pharma-to-list-priorities-combating-white-collar-fraud/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/08/phrma-suing-trump-biotech-frustration-tariffs-pharmalittle-newsletter/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00"
   },
   "takedowns": []
 }
