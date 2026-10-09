@@ -27594,23 +27594,241 @@
         "clinical-trial-news",
         "vision-restoration"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Freshwater protist found to reassign two stop codons to amino acids",
+      "is_preprint": false,
+      "run_date": "2026-10-09",
+      "run_iso": "2026-10-09T14:05:34Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-08T13:31:39Z",
+        "novelty": 9
+      },
+      "slug": "protist-genetic-code-stop-codon-amino-acid-reassignment",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-08T13:31:39Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists accidentally discover a genetic code that breaks the rules of life",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261007233136.htm"
+        }
+      ],
+      "standfirst": "A previously undescribed protist from an Oxford University pond uses two canonical stop codons to encode amino acids, challenging assumptions about the near-universality of the standard genetic code.",
+      "summary": "Researchers examining environmental samples collected from a freshwater pond at Oxford University have described a previously unknown protist whose genetic code departs from the near-universal rules that govern how DNA triplets are translated into protein. In most organisms — and in the standard genetic code — three triplets (UAA, UAG, and UGA) function exclusively as stop signals that terminate protein synthesis. The newly described organism reassigns two of these signals to encode amino acids instead, a form of stop-codon reassignment that had been observed in isolation before but whose simultaneous reassignment of two signals in one lineage was considered improbable because evolutionary models predicted the two would co-evolve.\n\nThe organism came to light during testing of a new DNA sequencing technique, illustrating how methodological advances can surface biology that was invisible to earlier approaches. The work adds to a growing catalogue of non-canonical genetic codes documented in microbial eukaryotes, ciliates, and certain mitochondrial genomes, and raises questions about the mechanisms that constrain — or occasionally permit — departure from the standard code.\n\nThe finding is of direct relevance to researchers working on the evolution of the genetic code, translation machinery, and the origins of universal biological rules. It also has practical implications for genome annotation pipelines, which typically treat stop codons as unambiguous gene-boundary markers; pipelines applied to environmental sequence data may misannotate genes in organisms with reassigned codons.",
+      "tags": [
+        "genetic-code",
+        "stop-codon-reassignment",
+        "protist",
+        "translation",
+        "microbial-eukaryotes",
+        "molecular-evolution"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Histone mutation study reveals chromatin signals back to regulate TORC1 and mitochondrial health",
+      "is_preprint": false,
+      "run_date": "2026-10-09",
+      "run_iso": "2026-10-09T14:05:34Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-08T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "chromatin-torc1-mitochondrial-homeostasis-h3k37",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-08T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Chromatin stability safeguards mitochondrial homeostasis and restrains TORC1 signaling",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012330"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study using a histone H3 lysine-37 mutant shows that disrupting a histone–DNA contact destabilises histones, hyperactivates TORC1, and impairs mitochondrial homeostasis — defining a chromatin-to-nutrient-sensing feedback loop.",
+      "summary": "A study published in PLOS Genetics by Vinoth Sigamani, Mohd Yousuf, Daniel L. Johnson, Brian D. Strahl, R. Nicholas Laribee and colleagues has used a histone H3 lysine-37-to-alanine (H3K37A) point mutant in yeast to probe whether chromatin can feed back on the mechanistic target of rapamycin complex 1 (TORC1), the master nutrient-sensing kinase.\n\nChromatin organisation is known to change in response to nutrient availability, and TORC1 is an established upstream regulator of those changes. Whether chromatin in turn signals back to modulate TORC1 activity had remained unclear. The authors report that the H3K37A mutation, which is predicted to weaken a direct contact between the histone tail and DNA, leads to histone degradation and hyperactivation of TORC1. The hyperactivated TORC1 state is associated with impaired mitochondrial homeostasis and cytotoxicity when cells are exposed to TORC1-challenging conditions.\n\nThe findings position chromatin stability as a sensor and regulator upstream of TORC1, not merely a downstream target, and reveal a feedback circuit coupling epigenetic integrity to mitochondrial function and cell survival. The work is performed in yeast (Saccharomyces cerevisiae) and is a mechanistic basic-science study; translational implications for higher organisms remain to be established.",
+      "tags": [
+        "chromatin",
+        "torc1",
+        "mtor",
+        "histone-h3",
+        "mitochondrial-homeostasis",
+        "nutrient-sensing",
+        "yeast-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "ZBED6 identified as a suppressor of pathological cardiac hypertrophy via MEOX1–ERK1/2 and autophagy",
+      "is_preprint": false,
+      "run_date": "2026-10-09",
+      "run_iso": "2026-10-09T14:05:34Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-08T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "zbed6-cardiac-hypertrophy-meox1-erk-autophagy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-08T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "ZBED6 deficiency drives pathological cardiac hypertrophy through MEOX1–ERK1/2–dependent autophagy dysfunction",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012329"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study reports that the transcription factor ZBED6 is markedly reduced in hypertrophic myocardial tissue and that its loss drives pathological cardiac growth through MEOX1-dependent ERK1/2 activation and autophagy dysfunction.",
+      "summary": "Research published in PLOS Genetics by Xiao Zhang, Xiaopeng Liu, Ruirui Pan and colleagues has identified ZBED6, a zinc-finger BED-domain transcription factor previously characterised in the context of skeletal muscle hypertrophy, as a key suppressor of pathological cardiac hypertrophy.\n\nUsing myocardial tissue from patients with cardiac hypertrophy alongside cellular and animal models, the authors demonstrate that ZBED6 protein levels are substantially reduced under hypertrophic conditions. Loss of ZBED6 function activates MEOX1, a homeobox transcription factor, which in turn sustains ERK1/2 signalling and disrupts autophagy — the cellular degradation pathway that clears damaged proteins and organelles. The resulting autophagy dysfunction promotes the pathological cell growth that characterises hypertrophic cardiomyopathy.\n\nThe study provides mechanistic detail on a previously unexplored transcriptional axis in cardiac disease and positions ZBED6 as a candidate regulatory node in pathological remodelling. The authors caution that the translation of these findings to human therapeutics requires further work; the study is a mechanistic investigation rather than a clinical intervention report. Researchers in cardiovascular genetics and cardiac cell biology will find the MEOX1–ERK1/2–autophagy pathway a tractable target for further investigation.",
+      "tags": [
+        "zbed6",
+        "cardiac-hypertrophy",
+        "meox1",
+        "erk1-2",
+        "autophagy",
+        "transcription-factors",
+        "cardiovascular-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: tumour microenvironment shapes which gene–gene interactions drive metastatic fitness",
+      "is_preprint": true,
+      "run_date": "2026-10-09",
+      "run_iso": "2026-10-09T14:05:34Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-09T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "epistasis-cancer-metastatic-niche-crispr-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Niche-dependent epistasis within the cancer genome shapes metastatic fitness",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756296v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using combinatorial CRISPR perturbation in mouse lung metastasis models finds that the tissue niche determines which epistatic gene combinations confer survival advantage, then drives transcriptome convergence regardless of genotype.",
+      "summary": "A preprint posted to bioRxiv describes a study in which researchers mapped gene-by-gene-by-environment (GxGxE) interactions in a lung metastasis model by combining combinatorial CRISPR perturbation of tumour cell genomes with depletion of defined host myeloid cell populations in mice.\n\nThe central finding is that epistasis — the non-additive interaction between genetic loci — is not a fixed property of a tumour genome but is instead shaped by the tissue niche in which disseminated tumour cells find themselves. The metastatic niche first selects disseminated tumour cells based on their GxG epistatic fitness profile, then drives convergence of the transcriptome across surviving cells regardless of their underlying genotype. Removing anatomically localised myeloid populations altered which epistatic combinations were selected, demonstrating that host immune composition is part of the epistatic environment.\n\nThe work is relevant to researchers in cancer genomics, tumour immunology, and quantitative genetics, and has implications for understanding why the same oncogenic mutations can have different outcomes in different metastatic sites. It also raises methodological questions for the design of combinatorial genetic screens in cancer, which have typically been performed in uniform culture conditions rather than in niche-matched in vivo settings.\n\nThis is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "epistasis",
+        "metastasis",
+        "tumour-microenvironment",
+        "crispr",
+        "myeloid-cells",
+        "cancer-genomics",
+        "gxe-interaction",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: genome-wide study maps polygenic basis of human brain globularity and links it to evolutionary selection",
+      "is_preprint": true,
+      "run_date": "2026-10-09",
+      "run_iso": "2026-10-09T14:05:34Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-10-08T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "brain-globularity-polygenic-gwas-human-evolution-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-08T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Contextualizing the polygenic basis of human brain shape",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.754889v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint analyses MRI and genetic data from nearly 35,000 adults to identify variants associated with the distinctive rounded head shape of Homo sapiens and places the findings within the context of recent human evolution.",
+      "summary": "A preprint posted to bioRxiv reports a genome-wide association study (GWAS) of brain globularity — the rounded, high-vaulted skull shape that distinguishes modern Homo sapiens from earlier hominins — using paired genetic and MRI-derived brain-shape measurements from 34,595 adults of European ancestry.\n\nThe authors identify genetic variants associated with globularity and embed these findings within analyses of genetic variation under recent natural selection and evolutionary constraint. The study frames globularity as a tractable phenotype for investigating the genetic underpinnings of traits that may be unique to our species, and the authors explore possible associations between brain morphology and cognitive traits that are candidates for being distinctively human.\n\nThe work is relevant to researchers in human evolutionary genetics, neurogenomics, and cognitive genomics. The ancestry composition of the study sample (predominantly European) is a limitation the authors note, and the preprint describes associations rather than causal mechanisms. As with all large imaging-genetic studies, the effect sizes of individual variants are small and the findings describe population-level patterns rather than individual-level predictions.\n\nThis is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "gwas",
+        "brain-morphology",
+        "globularity",
+        "human-evolution",
+        "neurogenomics",
+        "polygenic",
+        "mri-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-10-08T14:23:05.539264+00:00",
+  "last_run": "2026-10-09T14:07:02.894122+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012255": "2026-10-02T13:33:27.695086+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290": "2026-09-26T12:04:39.789841+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012313": "2026-10-06T13:55:26.940932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012317": "2026-09-25T12:34:00.804612+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012319": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012321": "2026-10-07T14:12:55.544786+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012326": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012327": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012328": "2026-10-01T14:11:14.820845+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012329": "2026-10-09T14:07:02.894122+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012330": "2026-10-09T14:07:02.894122+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012336": "2026-10-08T14:23:05.539264+00:00",
-    "https://news.cancerresearchuk.org/2026/09/24/the-national-cancer-plan-promises-a-bold-vision-now-to-make-it-a-reality/": "2026-09-25T12:34:00.804612+00:00",
     "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
     "https://news.cancerresearchuk.org/2026/09/30/childrens-and-young-peoples-cancers-the-government-must-turn-momentum-into-action/": "2026-09-30T13:20:27.263732+00:00",
     "https://news.cancerresearchuk.org/2026/10/01/research-integrity-why-robust-antibody-validation-is-vital-for-drug-discovery/": "2026-10-02T13:33:27.695086+00:00",
@@ -27620,16 +27838,8 @@
     "https://news.cancerresearchuk.org/2026/10/06/canrisk-finding-younger-women-with-a-higher-risk-of-breast-cancer/": "2026-10-06T13:55:26.940932+00:00",
     "https://news.cancerresearchuk.org/2026/10/06/circulating-dna-pioneer-wins-early-detection-impact-award/": "2026-10-07T14:12:55.544786+00:00",
     "https://news.cancerresearchuk.org/2026/10/07/could-clearing-immune-fog-stop-lung-cancer/": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.16.752223v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.18.752412v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.18.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.19.752832v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.19.752864v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.20.752979v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.20.752986v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.21.751561v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.21.752589v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.21.752721v1?rss=1": "2026-09-25T12:34:00.804612+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.753175v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.21.753178v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753551v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
@@ -27667,19 +27877,20 @@
     "https://www.biorxiv.org/content/10.64898/2026.09.30.752484v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.30.755531v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.30.755759v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.01.754889v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.01.754988v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.01.755638v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.01.756043v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.01.756092v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.02.756275v1?rss=1": "2026-10-06T13:55:26.940932+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.02.756296v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.04.756277v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756656v1?rss=1": "2026-10-08T14:23:05.539264+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.06.756460v1?rss=1": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.england.nhs.uk/2026/09/nhs-pilots-rapid-genomic-test-to-transform-brain-tumour-diagnosis/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-cuts-british-forces-waiting-times-by-a-month-in-targeted-campaign/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-protects-thousands-of-rough-sleepers-ahead-of-winter-with-vital-vaccines/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.england.nhs.uk/2026/10/ominous-signs-of-winter-pressure-growing-as-aes-and-ambulances-see-record-september/": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260923035939.htm": "2026-09-25T12:34:00.804612+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924020408.htm": "2026-09-26T12:04:39.789841+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924231711.htm": "2026-09-27T12:42:11.322410+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924231826.htm": "2026-09-28T14:55:48.823465+00:00",
@@ -27704,31 +27915,23 @@
     "https://www.sciencedaily.com/releases/2026/10/261005071532.htm": "2026-10-07T14:12:55.544786+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261005071533.htm": "2026-10-08T14:23:05.539264+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261006234528.htm": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261006234531.htm": "2026-10-09T14:07:02.894122+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042059.htm": "2026-10-07T14:12:55.544786+00:00",
-    "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261007233136.htm": "2026-10-09T14:07:02.894122+00:00",
     "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/chronicling-chinese-drug-development-from-shanghai-readout-loud/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/24/fda-commissioner-nominee-heidi-overton-senate-hearing-dodges-questions/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/fda-commissioner-nominee-heidi-overton-senate-hearing-dodges-questions/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/24/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/24/the-fda-overton-era-and-dispatches-from-shanghai/": "2026-09-25T12:34:00.804612+00:00",
-    "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/died-with-not-from-measles-physicians-explain-death-certificate-rules/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/25/died-with-not-from-measles-physicians-explain-death-certificate-rules/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/25/health-news-federal-judge-rolls-back-landmark-disability-protections/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/25/heidi-overton-confirmation-hearing-mifepristone-abortion-evasive/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/measles-deaths-statistics-pennsylvania-outbreak-cdc-nchs/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/25/measles-deaths-statistics-pennsylvania-outbreak-cdc-nchs/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/25/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/25/trump-administration-cancel-spending-hhs-programs/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/26/anthrax-letters-25th-anniversary-cdc-investigation-new-biothreats-ai/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/28/ai-bioweapons-pathogens-guardrails-policy-warning/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
@@ -27831,17 +28034,27 @@
     "https://www.statnews.com/2026/10/07/utah-sandbox-health-ai-pilots-and-fda-regulations-ai-prognosis/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/340b-drug-discount-program-cms-reform-proposal/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/biotech-news-roche-goes-beyond-licensing-in-deal-with-chinese-biotech/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/08/breast-cancer-ai-goes-dtc-utah-sandbox-ai-psychosis-health-tech/": "2026-10-09T14:07:02.894122+00:00",
     "https://www.statnews.com/2026/10/08/breast-cancer-research-older-women-neil-carleton-stat-wunderkind/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/fda-mifepristone-abortion-pill-safety-review-continue-into-2027/": "2026-10-09T14:07:02.894122+00:00",
     "https://www.statnews.com/2026/10/08/health-news-nobel-boys-club-again-2026-winners/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/health-policy-news-fresh-faces-shake-up-senate-committees-2026-midterms/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/08/house-democrat-proposes-change-to-no-surprises-act-arbitration-process/": "2026-10-09T14:07:02.894122+00:00",
     "https://www.statnews.com/2026/10/08/midterm-election-democrats-vie-for-roles-house-health-care-committees/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/rare-disease-nicolaides-baraitser-syndrome-history-ncbrs-researchers/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/readout-loud-podcast-nih-funding-research-biotech-caribou-nobel-prize/": "2026-10-09T14:07:02.894122+00:00",
     "https://www.statnews.com/2026/10/08/roche-defand-therapeutics-drug-development-deal/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/08/trump-administration-investigates-universities-j1-visa-fraud/": "2026-10-09T14:07:02.894122+00:00",
     "https://www.statnews.com/2026/10/08/trump-tariffs-section-232-imported-prescription-drugs-challenge-biotech-companies/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/us-hepatitis-c-cure-medication-cost-elimination/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/why-clairity-took-breast-cancer-risk-prediction-ai-directly-to-patients/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/": "2026-09-25T12:34:00.804612+00:00",
+    "https://www.statnews.com/2026/10/09/2030-census-public-health-data-equity-morbidity-mortality/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/09/betsy-pleasants-stat-wunderkind-abortion-access-reddit-nlp/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/09/health-news-census-changes-threaten-public-data-collection/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/09/maha-movement-rfk-jr-campaign-trail-midterm-elections/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/09/robert-gallo-interleukin-2-human-retroviruses-immunotherapy-basic-science/": "2026-10-09T14:07:02.894122+00:00",
     "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/": "2026-09-25T12:34:00.804612+00:00",
     "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/pharmalot/2026/09/25/reticent-fda-commish-nominee-novo-deal/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/pharmalot/2026/09/25/roche-xofluza-influenza-treatment-agreements/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
@@ -27862,7 +28075,9 @@
     "https://www.statnews.com/pharmalot/2026/10/07/trump-administration-adds-pharma-to-list-priorities-combating-white-collar-fraud/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/08/phrma-suing-trump-biotech-frustration-tariffs-pharmalittle-newsletter/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/08/phrma-suing-trump-biotech-frustration-tariffs-pharmalittle-newsletter/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/09/pharmalittle-were-reading-about-a-setback-for-argenx-lilly-suits-over-copycat-versions-of-an-obesity-drug-and-more/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/": "2026-10-09T14:07:02.894122+00:00"
   },
   "takedowns": []
 }
