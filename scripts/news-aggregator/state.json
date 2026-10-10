@@ -27812,14 +27812,234 @@
         "mri-genetics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": "Scientists studying inherited diseases often use scores that measure how well a gene has been preserved across different species, or how rarely variants in that gene appear in the general population, as clues to which gene changes might cause disease. A new study — not yet reviewed by other scientists — looked at nearly 3,000 inherited conditions and found that these scores are less useful for diseases that appear later in life. This is because natural selection has less opportunity to weed out harmful gene changes that only show up after people have already had children. The finding matters mainly for researchers building tools to identify disease-causing gene variants, particularly for conditions with adult onset. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Gene constraint scores lose predictive power for late-onset Mendelian disease, preprint finds",
+      "is_preprint": true,
+      "run_date": "2026-10-10",
+      "run_iso": "2026-10-10T13:15:50Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-10T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "gene-constraint-conservation-mendelian-disease-age-of-onset",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-10T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Gene-level evolutionary conservation and human constraint decline at comparable rates across the age of onset of Mendelian disease",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757734v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv study of 2,885 Mendelian diseases shows that both cross-species conservation and human population constraint scores decline in parallel as age of disease onset increases, with practical implications for variant prioritisation pipelines.",
+      "summary": "Researchers have posted a preprint to bioRxiv reporting that gene-level evolutionary conservation and human constraint scores — two widely used metrics for prioritising disease-causing variants — decline at comparable rates as the age of onset of Mendelian disease increases. The study assembled an age-of-onset axis for 2,885 Mendelian diseases catalogued in Orphanet and then fitted two established scores — 241-way phyloP cross-species conservation and human-population constraint derived from allele frequencies — against that axis.\n\nThe findings extend a previously demonstrated onset-dependent gradient from allele-frequency-level signals to the gene-level composite scores actually used in clinical and research variant-prioritisation workflows. In practical terms, the authors note that both phyloP and constraint scores carry progressively less signal about pathogenic variants as the phenotype manifests later in life, because purifying selection acts more weakly on genes whose effects emerge after reproductive age.\n\nThe result has direct relevance to the benchmarking of genomic language models and to the design of variant prioritisation pipelines: tools validated against early-onset disease genes may perform systematically worse when applied to adult-onset conditions. The authors suggest that onset-stratified evaluation sets should be used when assessing the performance of such models.\n\nThe work remains a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "constraint-scores",
+        "conservation",
+        "mendelian-disease",
+        "age-of-onset",
+        "variant-prioritisation",
+        "purifying-selection",
+        "genomic-language-models",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Frameshift variant in PRICKLE1 identified as cause of skeletal dysplasia in Cheviot sheep",
+      "is_preprint": true,
+      "run_date": "2026-10-10",
+      "run_iso": "2026-10-10T13:15:50Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-09T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "prickle1-frameshift-skeletal-dysplasia-cheviot-sheep",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A frameshift mutation in PRICKLE1 causes skeletal dysplasia in Cheviot sheep",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757262v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint links a frameshift mutation in the planar cell polarity gene PRICKLE1 to an achondroplasia-like syndrome long observed in Scotland's South Country Cheviot breed, offering both a livestock-management finding and a model for studying skeletal development.",
+      "summary": "Researchers have posted a preprint to bioRxiv reporting that a frameshift mutation in PRICKLE1 — a gene encoding a component of the planar cell polarity pathway — underlies an achondroplasia-like skeletal dysplasia that has been documented in South Country Cheviot sheep in Scotland. The syndrome, which causes disproportionate dwarfism, has been recognised in the breed for some time, but its genetic basis had not previously been resolved.\n\nUsing a combination of phenotypic characterisation and genomic approaches, the authors identified the PRICKLE1 frameshift variant as the causal mutation. PRICKLE1 encodes a scaffold protein involved in non-canonical Wnt and planar cell polarity signalling, pathways known to regulate skeletal morphogenesis. The finding adds PRICKLE1 to the set of genes implicated in skeletal dysplasia across vertebrate species.\n\nFor the livestock-genetics community, the result offers a molecular target for genotyping-based management to reduce the prevalence of the syndrome in affected flocks, moving beyond selective breeding based on phenotype alone. More broadly, the Cheviot sheep model may be useful for studying the developmental mechanisms through which planar cell polarity disruption produces skeletal abnormalities. The work remains a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "prickle1",
+        "skeletal-dysplasia",
+        "cheviot-sheep",
+        "planar-cell-polarity",
+        "livestock-genomics",
+        "wnt-signalling",
+        "comparative-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Replication checkpoint kinase Rad53 coordinates release of active genes from nuclear pores during DNA replication stress",
+      "is_preprint": true,
+      "run_date": "2026-10-10",
+      "run_iso": "2026-10-10T13:15:50Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-09T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "replication-checkpoint-rad53-nuclear-pore-transcription",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The replication checkpoint couples fork progression to the release of transcribed genes from nuclear pores",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.757421v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes how the DNA replication checkpoint kinase Rad53/CHK1 globally regulates the detachment of transcribed genes from nuclear pore complexes, potentially resolving a topological conflict between transcription and replication.",
+      "summary": "Researchers have posted a preprint to bioRxiv examining how the nuclear envelope influences DNA replication fidelity. In eukaryotic cells, actively transcribed genes are known to associate with nuclear pore complexes (NPCs), while heterochromatin is anchored to the nuclear lamina. During DNA replication, these attachment sites are thought to pose a topological barrier to DNA polymerases — a potential source of transcription–replication conflicts (TRCs).\n\nThe study reports that the DNA replication checkpoint kinase Rad53 (the yeast homologue of human CHK1) promotes the global release of transcribed genes from NPCs during replicative stress. Earlier work had suggested such a mechanism operating at individual loci; this preprint characterises the phenomenon at genome-wide scale and examines its precise regulation. The authors propose that checkpoint-mediated NPC release constitutes a conserved mechanism for resolving or pre-empting TRCs when fork progression is challenged.\n\nThe work is primarily of interest to researchers studying DNA replication, genome stability, and nuclear architecture. CHK1 is a well-established target in oncology research given its role in the replication stress response; this study adds mechanistic detail to understanding how checkpoint signalling coordinates chromatin topology with fork progression. The work remains a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "dna-replication",
+        "nuclear-pore-complex",
+        "rad53",
+        "chk1",
+        "transcription-replication-conflict",
+        "genome-stability",
+        "nuclear-architecture",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Single-cell transcriptomics reveals unexpected cellular complexity in Müllerian duct differentiation",
+      "is_preprint": false,
+      "run_date": "2026-10-10",
+      "run_iso": "2026-10-10T13:15:50Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-09T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "mullerian-duct-differentiation-single-cell-chicken-embryo",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-09T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "New insights into Müllerian duct differentiation provided by single cell transcriptomics in the chicken embryo",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012302"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study using the chicken embryo as a model organism identifies molecular signatures for Müllerian duct epithelium and mesenchyme that point to greater cellular diversity during female reproductive tract development than previously recognised.",
+      "summary": "Researchers at an institution not specified in the source lede, publishing in PLOS Genetics, have used single-cell transcriptomics to produce a comprehensive analysis of Müllerian duct differentiation in the chicken embryo. In vertebrate development, the Müllerian ducts give rise to the female reproductive tract — including the fallopian tubes, uterus, and upper vagina in mammals — making their differentiation a foundational topic in developmental biology and reproductive genetics.\n\nThe study's transcriptomic profiling of early-formed Müllerian ducts identifies distinct molecular signatures for the Müllerian duct epithelium (MDE) and the Müllerian duct mesenchyme (MDM). The authors report that the cellular complexity of Müllerian duct differentiation is greater than previously understood, with the single-cell data revealing subpopulations and gene-expression programmes not resolved by earlier bulk approaches.\n\nThe chicken embryo is highlighted as a particularly informative model for this system because it permits experimental access to duct development at stages that are difficult to study in mammals. The findings contribute to understanding the transcriptional programmes governing female reproductive tract formation and may provide a reference dataset for researchers studying disorders of sex development and congenital reproductive tract anomalies. The study is published as peer-reviewed research in PLOS Genetics.",
+      "tags": [
+        "mullerian-duct",
+        "single-cell-transcriptomics",
+        "chicken-embryo",
+        "reproductive-development",
+        "developmental-genetics",
+        "disorders-of-sex-development",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Phosphate transporter mutations rescue Mycobacterium tuberculosis growth arrest under acidic conditions",
+      "is_preprint": false,
+      "run_date": "2026-10-10",
+      "run_iso": "2026-10-10T13:15:50Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-09T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "mtb-lactate-phosphate-acid-growth-arrest-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-09T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Combined lactate- and phosphate-dependent cytoplasmic acidification is associated with Mycobacterium tuberculosis growth arrest at acidic pH",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012331"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study identifies components of a phosphate ABC transporter as suppressors of acid growth arrest in Mycobacterium tuberculosis, linking combined lactate and phosphate metabolism to the bacterium's survival strategy at the acidic pH of the phagosome.",
+      "summary": "Researchers publishing in PLOS Genetics have investigated the mechanism by which Mycobacterium tuberculosis (Mtb) arrests growth when cultured in minimal medium at acidic pH in the presence of specific carbon sources, including lactate. The authors describe this phenomenon as acid growth arrest, and used a transposon mutant screen — selecting for mutants capable of growth under these restrictive conditions — to identify genes required for the effect.\n\nFive mutants carrying insertions in phoT or pstC2, which encode components of a phosphate ABC transporter, were among the suppressors identified. Depleting phosphate rescued growth, pointing to a combined role for lactate-dependent acidification and phosphate availability in establishing the growth arrest state. The finding advances mechanistic understanding of how Mtb responds to the acidic, nutrient-limited environment of the macrophage phagosome — a condition the bacterium encounters during infection and latency.\n\nWhile the paper is published in PLOS Genetics and concerns tuberculosis biology rather than human genetics per se, it carries relevance for researchers studying mycobacterial physiology, the genetics of host–pathogen interactions, and the metabolic adaptation strategies that underpin Mtb persistence. Understanding the signals that trigger or sustain growth arrest may inform future approaches to targeting latent tuberculosis. The study is published as peer-reviewed research.",
+      "tags": [
+        "mycobacterium-tuberculosis",
+        "acid-growth-arrest",
+        "phosphate-transporter",
+        "phoT",
+        "pstC2",
+        "host-pathogen-genetics",
+        "latency",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-10-09T14:07:02.894122+00:00",
+  "last_run": "2026-10-10T13:17:27.873990+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012255": "2026-10-02T13:33:27.695086+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012290": "2026-09-26T12:04:39.789841+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012302": "2026-10-10T13:17:27.873990+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012313": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012319": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012321": "2026-10-07T14:12:55.544786+00:00",
@@ -27828,6 +28048,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012328": "2026-10-01T14:11:14.820845+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012329": "2026-10-09T14:07:02.894122+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012330": "2026-10-09T14:07:02.894122+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012331": "2026-10-10T13:17:27.873990+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012336": "2026-10-08T14:23:05.539264+00:00",
     "https://news.cancerresearchuk.org/2026/09/27/new-report-links-33800-annual-cancer-cases-to-deprivation-in-uk/": "2026-09-27T12:42:11.322410+00:00",
     "https://news.cancerresearchuk.org/2026/09/30/childrens-and-young-peoples-cancers-the-government-must-turn-momentum-into-action/": "2026-09-30T13:20:27.263732+00:00",
@@ -27838,14 +28059,8 @@
     "https://news.cancerresearchuk.org/2026/10/06/canrisk-finding-younger-women-with-a-higher-risk-of-breast-cancer/": "2026-10-06T13:55:26.940932+00:00",
     "https://news.cancerresearchuk.org/2026/10/06/circulating-dna-pioneer-wins-early-detection-impact-award/": "2026-10-07T14:12:55.544786+00:00",
     "https://news.cancerresearchuk.org/2026/10/07/could-clearing-immune-fog-stop-lung-cancer/": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.20.752979v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.20.752986v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.21.753175v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.21.753178v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753551v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.23.753846v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753861v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.23.753918v1?rss=1": "2026-09-26T12:04:39.789841+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753964v1?rss=1": "2026-09-29T13:43:13.076241+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.749599v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.753666v1?rss=1": "2026-09-27T12:42:11.322410+00:00",
@@ -27887,11 +28102,12 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.04.756277v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756656v1?rss=1": "2026-10-08T14:23:05.539264+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.06.756460v1?rss=1": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.england.nhs.uk/2026/09/nhs-staff-suspected-snooping-patient-records-immediately-suspended/": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.07.757262v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.07.757421v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.08.757734v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-cuts-british-forces-waiting-times-by-a-month-in-targeted-campaign/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-protects-thousands-of-rough-sleepers-ahead-of-winter-with-vital-vaccines/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.england.nhs.uk/2026/10/ominous-signs-of-winter-pressure-growing-as-aes-and-ambulances-see-record-september/": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260924020408.htm": "2026-09-26T12:04:39.789841+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924231711.htm": "2026-09-27T12:42:11.322410+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260924231826.htm": "2026-09-28T14:55:48.823465+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260925005441.htm": "2026-09-28T14:55:48.823465+00:00",
@@ -27918,22 +28134,6 @@
     "https://www.sciencedaily.com/releases/2026/10/261006234531.htm": "2026-10-09T14:07:02.894122+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042059.htm": "2026-10-07T14:12:55.544786+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007233136.htm": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.statnews.com/2026/09/24/biotech-news-kyverna-cell-therapy-shows-lasting-autoimmune-benefit/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/24/chris-klomp-vote-senate-finance-committee-hhs-deputy-secretary/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/24/chronicling-chinese-drug-development-from-shanghai-readout-loud/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/24/fda-commissioner-nominee-heidi-overton-senate-hearing-dodges-questions/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/24/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/24/the-rise-of-the-ai-native-radiology-practice-health-tech/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/biotech-news-lilly-wins-approval-for-weekly-insulin-shot/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/died-with-not-from-measles-physicians-explain-death-certificate-rules/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/fake-grassroots-campaign-jama-study-rutgers-researchers-fda-menthol-ban/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/health-news-federal-judge-rolls-back-landmark-disability-protections/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/heidi-overton-confirmation-hearing-mifepristone-abortion-evasive/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/measles-deaths-statistics-pennsylvania-outbreak-cdc-nchs/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/russell-shilling-leads-arpa-h-spectra-initiative-autism-care/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/trump-administration-cancel-spending-hhs-programs/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/25/world-health-organization-candidates-for-next-director-general/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/2026/09/26/anthrax-letters-25th-anniversary-cdc-investigation-new-biothreats-ai/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
     "https://www.statnews.com/2026/09/28/ai-bioweapons-pathogens-guardrails-policy-warning/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/2026/09/28/biotech-news-abbvie-wins-fda-nod-for-parkinsons-pill/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/2026/09/28/glp1-marketing-shift-obesity-medicine-weight-loss-drug/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
@@ -28034,31 +28234,30 @@
     "https://www.statnews.com/2026/10/07/utah-sandbox-health-ai-pilots-and-fda-regulations-ai-prognosis/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/340b-drug-discount-program-cms-reform-proposal/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/08/biotech-news-roche-goes-beyond-licensing-in-deal-with-chinese-biotech/": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.statnews.com/2026/10/08/breast-cancer-ai-goes-dtc-utah-sandbox-ai-psychosis-health-tech/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/08/biotech-news-roche-goes-beyond-licensing-in-deal-with-chinese-biotech/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/08/breast-cancer-ai-goes-dtc-utah-sandbox-ai-psychosis-health-tech/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/08/breast-cancer-research-older-women-neil-carleton-stat-wunderkind/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/08/fda-mifepristone-abortion-pill-safety-review-continue-into-2027/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/08/fda-mifepristone-abortion-pill-safety-review-continue-into-2027/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/08/health-news-nobel-boys-club-again-2026-winners/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/08/health-policy-news-fresh-faces-shake-up-senate-committees-2026-midterms/": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.statnews.com/2026/10/08/house-democrat-proposes-change-to-no-surprises-act-arbitration-process/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/08/health-policy-news-fresh-faces-shake-up-senate-committees-2026-midterms/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/08/house-democrat-proposes-change-to-no-surprises-act-arbitration-process/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/08/midterm-election-democrats-vie-for-roles-house-health-care-committees/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/rare-disease-nicolaides-baraitser-syndrome-history-ncbrs-researchers/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/08/readout-loud-podcast-nih-funding-research-biotech-caribou-nobel-prize/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/08/readout-loud-podcast-nih-funding-research-biotech-caribou-nobel-prize/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/08/roche-defand-therapeutics-drug-development-deal/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/08/trump-administration-investigates-universities-j1-visa-fraud/": "2026-10-09T14:07:02.894122+00:00",
+    "https://www.statnews.com/2026/10/08/trump-administration-investigates-universities-j1-visa-fraud/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/08/trump-tariffs-section-232-imported-prescription-drugs-challenge-biotech-companies/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/us-hepatitis-c-cure-medication-cost-elimination/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/why-clairity-took-breast-cancer-risk-prediction-ai-directly-to-patients/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/09/2030-census-public-health-data-equity-morbidity-mortality/": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.statnews.com/2026/10/09/betsy-pleasants-stat-wunderkind-abortion-access-reddit-nlp/": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.statnews.com/2026/10/09/health-news-census-changes-threaten-public-data-collection/": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.statnews.com/2026/10/09/maha-movement-rfk-jr-campaign-trail-midterm-elections/": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.statnews.com/2026/10/09/robert-gallo-interleukin-2-human-retroviruses-immunotherapy-basic-science/": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/24/fda-commissioner-nominee-heidi-overton-lilly-china-partnership/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/24/indonesian-court-rules-against-patent-evergreening-boosting-access-medicines/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/25/reticent-fda-commish-nominee-novo-deal/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/25/roche-xofluza-influenza-treatment-agreements/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/25/up-and-down-the-ladder-latest-comings-goings-jobs-pharma-biotech/?utm_campaign=rss": "2026-09-26T12:04:39.789841+00:00",
+    "https://www.statnews.com/2026/10/09/2030-census-public-health-data-equity-morbidity-mortality/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/09/betsy-pleasants-stat-wunderkind-abortion-access-reddit-nlp/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/09/health-news-census-changes-threaten-public-data-collection/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/09/hospitals-sue-to-halt-340b-rebate-pilot-trump/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/09/maha-movement-rfk-jr-campaign-trail-midterm-elections/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/09/robert-gallo-interleukin-2-human-retroviruses-immunotherapy-basic-science/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/09/steven-quay-no-longer-in-consideration-for-top-infectious-disease-role/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/pharmalot/2026/09/28/glp1-lifestyle-drug-marketing-merck-daiichi-lung-cancer-setback/?utm_campaign=rss": "2026-09-28T14:55:48.823465+00:00",
     "https://www.statnews.com/pharmalot/2026/09/28/merck-discontinues-antibiotic-recarbrio-in-u-s-despite-superbug-concerns/": "2026-09-29T13:43:13.076241+00:00",
     "https://www.statnews.com/pharmalot/2026/09/29/lawmakers-urge-trump-rethink-new-rule-that-could-restrict-imported-medicines/": "2026-09-30T13:20:27.263732+00:00",
@@ -28076,8 +28275,9 @@
     "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/": "2026-10-07T14:12:55.544786+00:00",
     "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/pharmalot/2026/10/08/phrma-suing-trump-biotech-frustration-tariffs-pharmalittle-newsletter/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/09/pharmalittle-were-reading-about-a-setback-for-argenx-lilly-suits-over-copycat-versions-of-an-obesity-drug-and-more/": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/": "2026-10-09T14:07:02.894122+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/09/pharmalittle-were-reading-about-a-setback-for-argenx-lilly-suits-over-copycat-versions-of-an-obesity-drug-and-more/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/": "2026-10-10T13:17:27.873990+00:00"
   },
   "takedowns": []
 }
