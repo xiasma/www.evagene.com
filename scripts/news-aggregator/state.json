@@ -28075,16 +28075,318 @@
         "natural-variation",
         "functional-genomics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have built a kind of biological 'black box' that records the history of every cell in a developing mouse embryo. As cells divide and specialise to form organs, the recorder leaves molecular notes inside the DNA of each cell. By reading those notes afterwards, researchers can work out exactly when each type of cell — such as heart cells or brain cells — was 'born' and where it came from.\n\nThe study found that different cell types appear on their own timetables during development, which is helping researchers understand why some pregnancies result in birth defects or other conditions. This kind of foundational research in mice gives scientists a clearer picture of what a healthy developmental process looks like, which is an important first step towards understanding what can go wrong.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "DNA recording system traces mouse embryo development from two cells to organs",
+      "is_preprint": false,
+      "run_date": "2026-10-13",
+      "run_iso": "2026-10-13T14:46:09Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-10-13T10:17:08Z",
+        "novelty": 9
+      },
+      "slug": "dna-recording-system-mouse-embryo-cell-lineage",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-13T10:17:08Z",
+          "publisher": "ScienceDaily",
+          "title": "DNA recording system reveals how a single cell becomes a body",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261011211556.htm"
+        }
+      ],
+      "standfirst": "A lineage-tracing tool embedded in mouse DNA has charted when and how distinct cell types emerge during embryogenesis, offering a new framework for studying birth defects and developmental disorders.",
+      "summary": "Researchers have used an in vivo DNA recording system to reconstruct the complete cellular family tree of a developing mouse embryo — from the first two-cell stage through to organised organ formation. By writing heritable molecular barcodes into the genome at each cell division, the system allows scientists to read back the history of any individual cell and determine precisely when it diverged from related lineages.\n\nThe study, reported by ScienceDaily citing the underlying research team, found that different cell types emerge on distinct, asynchronous schedules rather than in a simple coordinated programme. Some progenitor populations commit to their fates surprisingly early, while others remain flexible for longer than expected.\n\nThe findings provide a high-resolution map of normal mammalian development that researchers say could inform understanding of how errors in cell-fate specification contribute to congenital anomalies, genetic disorders, and cancer. Because the recording system operates passively during development, it avoids the need to fix or stain tissue at specific time points — a long-standing limitation of conventional lineage-tracing approaches.\n\nThe source report does not identify the specific institution, lead authors, or journal of publication; further details are expected when the primary paper becomes available. The technology itself represents a methodological advance in developmental genomics with broad potential applications across mammalian model systems.",
+      "tags": [
+        "lineage-tracing",
+        "developmental-genomics",
+        "embryogenesis",
+        "mouse-model",
+        "cell-fate",
+        "congenital-disorders"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Ancient 3D genome restructuring may underlie cephalopod intelligence",
+      "is_preprint": false,
+      "run_date": "2026-10-13",
+      "run_iso": "2026-10-13T14:46:09Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-12T20:44:50Z",
+        "novelty": 8
+      },
+      "slug": "cephalopod-intelligence-3d-genome-restructuring",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-12T20:44:50Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists find a surprising genetic twist behind octopus intelligence",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261011211552.htm"
+        }
+      ],
+      "standfirst": "Researchers report that reshuffling of the three-dimensional genome architecture in octopuses, squid, and cuttlefish created new gene regulatory connections that may have driven evolution of their complex nervous systems.",
+      "summary": "A study into the genomic basis of cephalopod intelligence has found that ancient rearrangements in the three-dimensional organisation of the genome — rather than changes to the DNA sequence itself — may have been a key driver of nervous system complexity in octopuses, squid, and cuttlefish.\n\nThe researchers, cited via ScienceDaily, identified alterations in how genomic regions are folded and brought into proximity with one another, changes that would have placed genes under new regulatory influences and potentially enabled novel patterns of neural gene expression. The team argues this represents a distinct evolutionary mechanism from the one typically invoked for vertebrate brain complexity.\n\nCephalopods are already known to possess unusually large and architecturally sophisticated brains relative to their body size, and their lineage diverged from vertebrates over 500 million years ago. The new findings suggest that convergent evolution of complex cognition may be achievable through fundamentally different genomic routes.\n\nThe source report does not name the specific institution, authors, or journal. The research is of interest to comparative genomicists, evolutionary biologists, and neurogeneticists. It is also directly relevant to the Evagene Genetic Current audience interested in how genome architecture contributes to phenotypic complexity. A previously published Genetic Current cluster (2026-09-29) covered the first transgenic cephalopod work; this represents a distinct and independent finding focused on regulatory evolution rather than transgenics.",
+      "tags": [
+        "cephalopod",
+        "genome-architecture",
+        "3d-genome",
+        "comparative-genomics",
+        "neural-evolution",
+        "regulatory-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists and doctors have spent more than 30 years trying to find a treatment for Alexander disease, a very rare brain condition caused by a fault in a single gene called GFAP. This gene provides instructions for making a protein that helps support brain cells called astrocytes. When the protein does not work correctly, it builds up in clumps inside those cells, causing the brain to deteriorate over time.\n\nThe US medicines regulator, the FDA, has now approved the first drug specifically designed to treat this condition. The drug is called Zanvastro. In clinical trials, people taking it showed their condition stabilising, and some experienced improvements in their movement.\n\nAlexander disease is exceptionally rare — it affects fewer than one person in every million. This approval may be significant for the small number of families living with the condition.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "FDA approves first drug directly targeting Alexander disease after three decades of research",
+      "is_preprint": false,
+      "run_date": "2026-10-13",
+      "run_iso": "2026-10-13T14:46:09Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 9,
+        "newest_iso": "2026-10-13T00:43:43Z",
+        "novelty": 10
+      },
+      "slug": "alexander-disease-zanvastro-fda-approval",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-13T00:43:43Z",
+          "publisher": "ScienceDaily",
+          "title": "After 30 years, scientists finally have a drug for a deadly brain disease",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261007042111.htm"
+        }
+      ],
+      "standfirst": "Zanvastro has received FDA approval for Alexander disease, a devastating ultra-rare neurological disorder, marking the culmination of more than 30 years of scientific work on this leukodystrophy.",
+      "summary": "The United States Food and Drug Administration has approved Zanvastro, the first therapeutic to directly target Alexander disease — a progressive and often fatal neurological disorder affecting fewer than one in a million people. The approval follows decades of research into the condition, which is caused by variants in the GFAP gene encoding glial fibrillary acidic protein, a structural component of astrocytes in the brain.\n\nIn clinical trials, Zanvastro demonstrated stabilisation of motor function in participants, with some patients showing measurable improvement in movement. The disease has until now had no approved disease-modifying treatments, leaving affected individuals and their families with limited options beyond supportive care.\n\nAlexander disease typically presents in infancy or early childhood, though adult-onset forms exist. It is characterised by the accumulation of Rosenthal fibres — aggregates of GFAP — within astrocytes, leading to progressive neurological deterioration. The underlying genetic cause was identified in 2001, and subsequent research has aimed to reduce GFAP expression as a therapeutic strategy.\n\nThe source report, via ScienceDaily, does not name the developing institution or trial sponsor beyond the drug name Zanvastro. Genetic counsellors and clinicians working with families affected by rare leukodystrophies may wish to consult the FDA label and primary trial publications for further detail. Published guidance from relevant clinical bodies should be consulted regarding its application.",
+      "tags": [
+        "alexander-disease",
+        "gfap",
+        "leukodystrophy",
+        "rare-disease",
+        "fda-approval",
+        "neurodegeneration",
+        "drug-approval"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "scMOCHA framework resolves mitochondrial DNA heteroplasmy at single-cell resolution from standard RNA-seq data",
+      "is_preprint": true,
+      "run_date": "2026-10-13",
+      "run_iso": "2026-10-13T14:46:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-10-13T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "scmocha-mtdna-heteroplasmy-single-cell",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-13T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Single-cell variant landscape of the human mitochondrial genome reveals cell type-specific functions and disease mechanisms",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758340v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes a computational tool that extracts cell-type-specific mitochondrial DNA variant information from existing single-cell RNA sequencing datasets, revealing heteroplasmy patterns linked to disease mechanisms.",
+      "summary": "Researchers have developed scMOCHA (Single-Cell Mitochondrial Omics for Cellular Heteroplasmy Analysis), a scalable computational framework that detects mitochondrial DNA (mtDNA) heteroplasmy — the coexistence of multiple mtDNA variants within individual cells — directly from standard single-cell RNA sequencing (scRNA-seq) data, without requiring dedicated mitochondrial sequencing protocols.\n\nThe preprint, posted to bioRxiv, describes application of scMOCHA to publicly available scRNA-seq datasets from human peripheral blood mononuclear cells. The analysis revealed that heteroplasmy distributions differ substantially across cell types, suggesting that selective pressures on mtDNA variants are cell-type-specific rather than uniform across tissues. The authors argue this has implications for understanding how pathogenic mtDNA variants manifest in disease and how variant load might be modulated by cellular context.\n\nMitochondrial heteroplasmy is relevant to a range of inherited mitochondrial disorders, ageing biology, and cancer metabolism. Because scMOCHA operates on datasets already generated for other purposes, it offers a route to retrospective analysis of large existing data repositories without additional experimental cost.\n\nAs this work is a preprint and has not yet undergone peer review, its conclusions should be treated as preliminary. Researchers working in single-cell genomics, mitochondrial disease, and functional genomics are the primary audience for this methodological advance.",
+      "tags": [
+        "mitochondrial-dna",
+        "heteroplasmy",
+        "single-cell-genomics",
+        "scRNA-seq",
+        "mitochondrial-disease",
+        "computational-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Dog–human genomic comparison links synaptic signalling and ubiquitination pathways to compulsive disorders",
+      "is_preprint": true,
+      "run_date": "2026-10-13",
+      "run_iso": "2026-10-13T14:46:09Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-12T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "dog-human-ocd-gwas-synaptic-ubiquitination",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Dog-human gene network colocalization links synaptic signalling and ubiquitination to compulsive disorders",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758413v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that genome-wide association data from dogs with compulsive disorder, combined with human OCD data, converges on synaptic and protein-degradation gene networks — providing statistical power otherwise requiring millions of human participants.",
+      "summary": "Researchers behind the community science project Darwin's Ark have conducted a genome-wide association study (GWAS) of compulsive disorder in 2,584 pet dogs and co-localised the results with the largest available human OCD GWAS (53,660 cases). The preprint, posted to bioRxiv, reports that each dog locus explains roughly 40-fold more phenotypic variance than each human locus — a consequence of the selective breeding history of domestic dogs, which concentrates trait-associated variants — giving dog GWAS statistical power equivalent to the human study while using 80-fold fewer individuals.\n\nCo-localisation analysis identified shared signals in genes involved in synaptic signalling and the ubiquitin–proteasome system, the cellular machinery responsible for tagging and degrading proteins. The authors propose that convergent genomic architecture between dog compulsive disorder and human OCD supports a genuine biological homology between the two conditions, rather than a superficial behavioural resemblance.\n\nOCD is estimated to affect roughly 2–3% of the global population and remains genetically complex, with even the largest human GWAS capturing only a fraction of its heritable architecture. Leveraging naturally occurring canine phenotypes as a complementary mapping population represents a cross-species genomic strategy that the authors argue is broadly applicable to other polygenic psychiatric traits.\n\nThe work is a preprint and has not been peer reviewed. Researchers in psychiatric genetics, comparative genomics, and behavioural genetics are the primary audience.",
+      "tags": [
+        "ocd",
+        "gwas",
+        "comparative-genomics",
+        "psychiatric-genetics",
+        "darwin-ark",
+        "dog-genetics",
+        "synaptic-signalling",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies small non-coding RNAs as participants in DNA double-strand break repair in Arabidopsis",
+      "is_preprint": true,
+      "run_date": "2026-10-13",
+      "run_iso": "2026-10-13T14:46:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-12T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "small-rna-dsb-repair-arabidopsis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Role of small non-coding RNAs in DSB repair in Arabidopsis thaliana",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757836v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that small RNAs accumulate at sites of DNA double-strand breaks in Arabidopsis thaliana and contribute to repair pathway choice, extending evidence for RNA-mediated genome maintenance beyond animal systems.",
+      "summary": "A preprint posted to bioRxiv describes a study in Arabidopsis thaliana examining the role of small non-coding RNAs in the repair of DNA double-strand breaks (DSBs) — among the most toxic forms of DNA damage, capable of causing chromosomal rearrangements or cell death if left unrepaired.\n\nThe researchers report that small RNAs are produced at sequences flanking induced DSB sites in Arabidopsis and that these so-called DSB-induced small RNAs (diRNAs) appear to influence which repair pathway is engaged. Multiple conserved DSB repair pathways exist — including homologous recombination and non-homologous end joining — and each produces different outcomes in terms of fidelity and genomic consequence. The work builds on a body of evidence, largely from animal and yeast systems, suggesting RNA participates in repair processes beyond its canonical role in gene expression.\n\nThe study is notable for demonstrating this mechanism in a plant model, broadening the phylogenetic scope of RNA-mediated genome maintenance and raising questions about whether diRNA-based regulation of DSB repair is a widespread feature of eukaryotic biology.\n\nAs a preprint, these findings are preliminary and have not yet undergone peer review. The work is most relevant to plant molecular biologists, DNA repair researchers, and RNA biologists.",
+      "tags": [
+        "dna-repair",
+        "double-strand-break",
+        "small-rna",
+        "arabidopsis",
+        "plant-genetics",
+        "genome-stability",
+        "non-coding-rna",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint maps fine-scale maternal structure and high nuclear connectivity in French Geoffroy's bat populations",
+      "is_preprint": true,
+      "run_date": "2026-10-13",
+      "run_iso": "2026-10-13T14:46:09Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-12T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "geoffroys-bat-population-genetics-france",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Fine-scale maternal structure and high nuclear connectivity in the French populations of the Geoffroy's Bat (Myotis emarginatus)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756748v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint combining microsatellites and mitochondrial sequencing across 760 Geoffroy's bats reveals female philopatry alongside male-mediated gene flow, with implications for conservation of this threatened species.",
+      "summary": "Researchers have characterised the genetic diversity and population structure of the Geoffroy's bat (Myotis emarginatus) across 18 maternity colonies in France, using a combined approach of 34 microsatellite markers and mitochondrial D-loop sequencing in 760 individuals. The preprint, posted to bioRxiv, reports a clear divergence between the signals provided by the two marker types.\n\nMitochondrial data — which track maternal lineages — revealed subtle but detectable regional structure, consistent with female philopatry: females tend to return to their birth colony to breed, carrying their maternal haplotype with them. A broader phylogeographic split was also detected between Western European and Greater Middle Eastern populations, suggesting historical isolation, likely during Pleistocene glacial periods.\n\nBy contrast, microsatellite data — which capture nuclear, biparentally inherited variation — showed high diversity and minimal structure across the sampled colonies. The authors interpret this as evidence of extensive male-mediated gene flow, with males dispersing widely between colonies and thereby homogenising nuclear diversity even as maternal lineages remain locally differentiated.\n\nThe Geoffroy's bat is classed as increasingly threatened by habitat alteration across much of its European range. The population genetic portrait provided by this study may assist conservation planning by identifying which colonies maintain distinct maternal lineages and how nuclear connectivity might buffer against local extinctions. As a preprint, the findings have not yet been peer reviewed.",
+      "tags": [
+        "conservation-genetics",
+        "population-genetics",
+        "bat-ecology",
+        "phylogeography",
+        "microsatellites",
+        "mitochondrial-dna",
+        "philopatry",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-10-12T16:26:59.841194+00:00",
+  "last_run": "2026-10-13T14:48:16.207143+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012071": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012255": "2026-10-02T13:33:27.695086+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012302": "2026-10-10T13:17:27.873990+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012313": "2026-10-06T13:55:26.940932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012319": "2026-09-29T13:43:13.076241+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012321": "2026-10-07T14:12:55.544786+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012326": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012327": "2026-10-06T13:55:26.940932+00:00",
@@ -28092,7 +28394,9 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012329": "2026-10-09T14:07:02.894122+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012330": "2026-10-09T14:07:02.894122+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012331": "2026-10-10T13:17:27.873990+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012334": "2026-10-13T14:48:16.207143+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012336": "2026-10-08T14:23:05.539264+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012339": "2026-10-13T14:48:16.207143+00:00",
     "https://news.cancerresearchuk.org/2026/09/30/childrens-and-young-peoples-cancers-the-government-must-turn-momentum-into-action/": "2026-09-30T13:20:27.263732+00:00",
     "https://news.cancerresearchuk.org/2026/10/01/research-integrity-why-robust-antibody-validation-is-vital-for-drug-discovery/": "2026-10-02T13:33:27.695086+00:00",
     "https://news.cancerresearchuk.org/2026/10/05/prospect-uk-250000-people-investigate-diet-lifestyle-and-the-rise-of-early-onset-bowel-cancer/": "2026-10-05T15:32:42.485173+00:00",
@@ -28103,7 +28407,6 @@
     "https://news.cancerresearchuk.org/2026/10/07/could-clearing-immune-fog-stop-lung-cancer/": "2026-10-08T14:23:05.539264+00:00",
     "https://news.cancerresearchuk.org/2026/10/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.23.753551v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.23.753964v1?rss=1": "2026-09-29T13:43:13.076241+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.749599v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754034v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.24.754106v1?rss=1": "2026-09-30T13:20:27.263732+00:00",
@@ -28138,17 +28441,23 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.04.756277v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756630v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756656v1?rss=1": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.05.756748v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.05.756803v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.06.756460v1?rss=1": "2026-10-08T14:23:05.539264+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.06.757091v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.07.757262v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.07.757421v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.08.757717v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.08.757734v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.09.757836v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.09.757891v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.09.757896v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.11.758340v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.12.758413v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-cuts-british-forces-waiting-times-by-a-month-in-targeted-campaign/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-protects-thousands-of-rough-sleepers-ahead-of-winter-with-vital-vaccines/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-rolls-out-prescription-ready-alerts-on-smartwatches-and-mobiles/": "2026-10-12T16:26:59.841194+00:00",
     "https://www.england.nhs.uk/2026/10/ominous-signs-of-winter-pressure-growing-as-aes-and-ambulances-see-record-september/": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260927225027.htm": "2026-09-29T13:43:13.076241+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260928100551.htm": "2026-10-01T14:11:14.820845+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260929053531.htm": "2026-10-01T14:11:14.820845+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930020257.htm": "2026-10-02T13:33:27.695086+00:00",
@@ -28165,6 +28474,7 @@
     "https://www.sciencedaily.com/releases/2026/10/261006234531.htm": "2026-10-09T14:07:02.894122+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261006234534.htm": "2026-10-11T13:44:58.972773+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042059.htm": "2026-10-07T14:12:55.544786+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261007042111.htm": "2026-10-13T14:48:16.207143+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007233136.htm": "2026-10-09T14:07:02.894122+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008005254.htm": "2026-10-11T13:44:58.972773+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008102716.htm": "2026-10-12T16:26:59.841194+00:00",
@@ -28172,9 +28482,11 @@
     "https://www.sciencedaily.com/releases/2026/10/261009025434.htm": "2026-10-11T13:44:58.972773+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261009025708.htm": "2026-10-12T16:26:59.841194+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261011211550.htm": "2026-10-12T16:26:59.841194+00:00",
-    "https://www.statnews.com/2026/09/28/hawaii-wildfire-air-quality-risk-study/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/2026/09/28/health-insurance-premiums-soar-2027-quorum-health-nonprofit-conversion/": "2026-09-29T13:43:13.076241+00:00",
-    "https://www.statnews.com/2026/09/28/trump-administration-supreme-court-transgender-medical-care-restrictions-prison/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261011211552.htm": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261011211556.htm": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261011211613.htm": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261012185008.htm": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261012185011.htm": "2026-10-13T14:48:16.207143+00:00",
     "https://www.statnews.com/2026/09/29/anthropic-joins-arpa-h-clinical-ai-moonshot-health-tech/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/2026/09/29/beam-therapeutics-yoltech-serapha-gene-editing-lawsuit/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/2026/09/29/biotech-news-astrazeneca-invests-2-billion-in-summit-therapeautics/": "2026-09-30T13:20:27.263732+00:00",
@@ -28296,7 +28608,12 @@
     "https://www.statnews.com/2026/10/09/steven-quay-no-longer-in-consideration-for-top-infectious-disease-role/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/09/steven-quay-no-longer-in-consideration-for-top-infectious-disease-role/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
     "https://www.statnews.com/2026/10/10/u-s-trust-science-higher-than-other-nations-wellcome-survey/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/28/merck-discontinues-antibiotic-recarbrio-in-u-s-despite-superbug-concerns/": "2026-09-29T13:43:13.076241+00:00",
+    "https://www.statnews.com/2026/10/13/christa-pike-botched-execution-bioethics-end-of-lethal-injection/": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.statnews.com/2026/10/13/doctors-learned-helplessness-chief-complaint-frances-mei-hardin/": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.statnews.com/2026/10/13/google-amie-diagnostic-chatbot-study-lancet-health-tech/": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.statnews.com/2026/10/13/health-news-trump-admin-clamps-down-on-international-researchers/": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.statnews.com/2026/10/13/martin-shkreli-pharma-bro-ftc-contempt-stock-trades/": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.statnews.com/2026/10/13/neurocrine-biosciences-prader-willi-vykat-xr/": "2026-10-13T14:48:16.207143+00:00",
     "https://www.statnews.com/pharmalot/2026/09/29/lawmakers-urge-trump-rethink-new-rule-that-could-restrict-imported-medicines/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/pharmalot/2026/09/29/novo-licenses-obesity-pill-from-china-merck-pulls-antibiotic/": "2026-09-30T13:20:27.263732+00:00",
     "https://www.statnews.com/pharmalot/2026/09/30/beam-sues-over-trade-secret-theft-trump-drug-import-rule/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
@@ -28316,7 +28633,8 @@
     "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
     "https://www.statnews.com/pharmalot/2026/10/09/pharmalittle-were-reading-about-a-setback-for-argenx-lilly-suits-over-copycat-versions-of-an-obesity-drug-and-more/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/13/neurocrine-rare-disease-drug-concerns-pharma-payments-to-doctors/": "2026-10-13T14:48:16.207143+00:00"
   },
   "takedowns": []
 }
