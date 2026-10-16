@@ -28552,19 +28552,254 @@
         "macsyfinder",
         "plos-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Congenital adrenal hyperplasia (CAH) is a group of inherited conditions affecting the adrenal glands, which sit above the kidneys and make hormones the body needs to control salt, blood pressure, and stress responses. Most cases are caused by faults in a gene called CYP21A2. Identifying exactly which fault a person has can be difficult because the gene has a very similar-looking \"decoy\" nearby in the genome.\n\nA new piece of research — not yet formally checked by other scientists — has used a computer model called Alphagenome to predict what different possible faults in CYP21A2 would do to the gene and the protein it makes. The aim is to help scientists and specialists understand which genetic changes matter and why. The work is at an early stage and has not yet been confirmed in laboratory experiments.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint applies Alphagenome to map functional effects of CYP21A2 variants",
+      "is_preprint": true,
+      "run_date": "2026-10-16",
+      "run_iso": "2026-10-16T12:04:16Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-10-16T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "cyp21a2-variant-analysis-alphagenome-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Analysis of single nucleotide substitution in CYP21A2 gene using Alphagenome",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759360v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses reference-locus saturation analysis and the Alphagenome model to distinguish transcriptional, splicing, and protein-level consequences of single-nucleotide substitutions in CYP21A2, the gene responsible for most cases of congenital adrenal hyperplasia.",
+      "summary": "A preprint deposited on bioRxiv describes a systematic analysis of single-nucleotide variants in CYP21A2, which encodes steroid 21-hydroxylase and whose variants underlie the majority of congenital adrenal hyperplasia (CAH) cases. Interpreting CYP21A2 variants is complicated by the presence of a closely homologous pseudogene, complex allele structures, heterogeneous functional assay data, and uncertainty around noncoding effects — factors that frequently complicate clinical-grade variant classification in specialist centres.\n\nThe authors reconstructed the MANE select transcript (NM_000500.9) from GRCh38 genomic sequence and cross-referenced ClinVar, gnomAD, and UniProt variant annotations. They then applied Alphagenome, a recently described genomic deep-learning model, to perform a saturation-style in silico mutagenesis across the locus, predicting the transcriptional, splicing, and protein-structural consequences of each possible single-nucleotide substitution.\n\nBy integrating observed population variation with the model's predictions, the authors report the ability to assign candidate functional mechanisms to variants that currently lack confident classification. The preprint does not report experimental validation of the model's predictions. As this work has not yet undergone peer review, all findings should be regarded as preliminary.",
+      "tags": [
+        "cyp21a2",
+        "congenital-adrenal-hyperplasia",
+        "alphagenome",
+        "variant-interpretation",
+        "saturation-mutagenesis",
+        "deep-learning",
+        "steroid-metabolism",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Gastric cancer (cancer of the stomach) is often found late because early-stage disease causes few symptoms. Researchers are working on blood tests that could detect cancer earlier by looking for tiny fragments of DNA shed by tumour cells into the bloodstream — this is called a \"liquid biopsy\".\n\nA study published in the scientific journal PLOS Genetics reports that scientists were able to use a type of blood test, combined with a computer programme, to tell apart 61 patients with gastric cancer from 29 healthy people. The test looks at chemical tags on DNA fragments in the blood called methylation marks. The study involved a small number of people, so much more research is needed before anything like this could be used routinely.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Plasma cfDNA methylation profile supports non-invasive gastric cancer detection in small cohort study",
+      "is_preprint": false,
+      "run_date": "2026-10-16",
+      "run_iso": "2026-10-16T12:04:16Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 6,
+        "newest_iso": "2026-10-15T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "cfDNA-methylation-gastric-cancer-diagnosis-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-15T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Genome-Wide DNA methylation profiling of tissue-plasma pairs identifies Novel cfDNA biomarkers for the diagnosis of gastric cancer",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012322"
+        }
+      ],
+      "standfirst": "Researchers publishing in PLOS Genetics report that whole-genome bisulfite sequencing of circulating free DNA, combined with a machine learning classifier, distinguished gastric cancer patients from healthy controls in a 90-person dataset.",
+      "summary": "A peer-reviewed study published in PLOS Genetics by Hailing Ou, Jinli Miao, and colleagues describes the development of a machine learning model for non-invasive detection of gastric cancer (GC) using whole-genome methylation profiling of circulating free DNA (cfDNA) in plasma.\n\nThe researchers performed whole-genome bisulfite sequencing (WGBS) on paired tumour tissue and plasma samples from 61 patients with GC and 29 healthy controls. By comparing tissue and plasma methylation landscapes, they identified novel differentially methylated regions that were detectable in cfDNA. A machine learning classifier trained on these cfDNA methylation features is reported to distinguish GC cases from controls, with the authors arguing the approach shows superior sensitivity compared with existing non-invasive methods.\n\nGastric cancer carries a poor prognosis when diagnosed at advanced stage; non-invasive early-detection strategies based on liquid biopsy remain an active area of research across several tumour types. The study's cohort is small, and external validation in independent populations will be required before the performance characteristics described can be assessed in broader contexts. The work represents a research advance in cfDNA biomarker discovery rather than a validated diagnostic tool.",
+      "tags": [
+        "gastric-cancer",
+        "liquid-biopsy",
+        "cfDNA",
+        "dna-methylation",
+        "wgbs",
+        "cancer-detection",
+        "machine-learning",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint describes 96-well format for high-throughput QTL mapping across 40 yeast isolates",
+      "is_preprint": true,
+      "run_date": "2026-10-16",
+      "run_iso": "2026-10-16T12:04:16Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-15T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "microscale-bulk-segregant-analysis-yeast-qtl-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-15T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Microscale bulk segregant analysis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757075v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers present a miniaturised bulk segregant analysis protocol in Saccharomyces cerevisiae that enables quantitative trait loci mapping across multiple genetic backgrounds and environments simultaneously.",
+      "summary": "A bioRxiv preprint introduces a microscale, 96-well liquid-format adaptation of extreme QTL mapping (X-QTL) in the budding yeast Saccharomyces cerevisiae. Conventional bulk segregant analysis (BSA) identifies genomic regions linked to quantitative traits by measuring parental allele frequencies in pools of genetically recombined progeny, but the approach has been limited by the need for separate sample handling for each cross and environmental condition tested.\n\nThe authors report crossing 40 yeast isolates to a common parent carrying mating-type-specific drug-resistance markers at the HO locus, enabling selection of diploids and haploid segregants at scale. The miniaturised format is designed to allow simultaneous mapping of quantitative trait loci (QTL) across many genetic backgrounds and growth conditions within a single experimental run, substantially reducing the labour and materials required.\n\nThe preprint does not focus on a specific biological finding but presents the platform itself as a tool for the quantitative genetics community working with yeast model systems. Potential applications include studying how genetic background modifies trait architecture — a question relevant to understanding the basis of complex traits more broadly. The work has not yet been peer reviewed.",
+      "tags": [
+        "bulk-segregant-analysis",
+        "qtl-mapping",
+        "yeast-genetics",
+        "quantitative-genetics",
+        "saccharomyces-cerevisiae",
+        "high-throughput-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint explores why B chromosomes experience transmission drag through the Drosophila male germline",
+      "is_preprint": true,
+      "run_date": "2026-10-16",
+      "run_iso": "2026-10-16T12:04:16Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-10-15T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "b-chromosome-drive-drag-drosophila-male-germline-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-15T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Influence of the male germline on B chromosome transmission in D. melanogaster",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.756769v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint examines the asymmetric inheritance of supernumerary B chromosomes in a Drosophila melanogaster laboratory stock, finding that drag through the male germline is not explained by reduced male fertility.",
+      "summary": "A bioRxiv preprint investigates the transmission dynamics of supernumerary B chromosomes recently identified in a mutant Drosophila melanogaster laboratory stock. B chromosomes are accessory genomic elements found in many species that can behave as selfish genetic elements, manipulating their own inheritance at the expense of the host organism.\n\nIn the stock studied, B chromosomes exhibit drive — transmission rates above the expected 50% — when passed through the female germline, but the opposite pattern, termed drag (transmission below 50%), when inherited through the male germline. The authors set out to determine whether male fertility defects could explain the reduced transmission through males, concluding that fertility is not impaired. This rules out one candidate mechanism and directs attention towards other potential explanations, such as meiotic or post-meiotic processes specific to the male germline.\n\nThe study contributes to understanding of selfish genetic elements and the evolutionary arms races between such elements and host-derived suppression mechanisms. The findings are specific to a laboratory stock and their generalisability to natural populations or other species would require further investigation. The work has not yet been peer reviewed.",
+      "tags": [
+        "b-chromosomes",
+        "meiotic-drive",
+        "selfish-genetic-elements",
+        "drosophila",
+        "germline",
+        "chromosome-transmission",
+        "evolutionary-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Moderna and Merck outline strategy for pairing personalised mRNA cancer vaccines with Keytruda",
+      "is_preprint": false,
+      "run_date": "2026-10-16",
+      "run_iso": "2026-10-16T12:04:16Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-10-15T19:58:35Z",
+        "novelty": 4
+      },
+      "slug": "moderna-merck-mrna-cancer-vaccine-keytruda-strategy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/STATday2269-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-15T19:58:35Z",
+          "publisher": "Stat News",
+          "title": "Merck and Moderna have 'lot of exploring to do' after initial cancer vaccine success",
+          "url": "https://www.statnews.com/2026/10/15/moderna-merck-keytruda-mrna-cancer-vaccine-strategy/?utm_campaign=rss"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/02/26184671492_008f3fe160_k-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-15T15:25:08Z",
+          "publisher": "Stat News",
+          "title": "After a melanoma diagnosis, mRNA cancer vaccine delivered a patient hope — and a path forward",
+          "url": "https://www.statnews.com/2026/10/15/melanoma-diagnosis-mrna-cancer-vaccine-stat-summit-boston-2026/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Executives from Moderna and Merck addressed the STAT Summit in Boston on how the companies plan to develop personalised neoantigen mRNA vaccines alongside the PD-1 inhibitor pembrolizumab (Keytruda) for solid tumour treatment.",
+      "summary": "Speaking at the STAT Summit in Boston, Moderna president Stephen Hoge and Merck Research Laboratories president Dean Li discussed the ongoing collaboration between the two companies on personalised mRNA-based cancer vaccines. The partnership centres on combining tumour-specific neoantigen vaccines with pembrolizumab (Keytruda), Merck's PD-1 checkpoint inhibitor, in the hope that the combination will generate stronger and more durable anti-tumour immune responses than either agent alone.\n\nHoge and Li described the programme as still at an exploratory stage, noting there is a \"lot of exploring to do\" following earlier clinical results that drew attention to the approach. The strategy relies on sequencing an individual patient's tumour to identify somatic mutations that give rise to neoantigens — peptides unique to that tumour — and then encoding those neoantigens in a personalised mRNA vaccine manufactured to order.\n\nThe STAT Summit discussion did not include new trial data; reporting reflects the executives' public statements on strategy and direction. Earlier data from the Moderna–Merck melanoma programme were covered in a recent Genetic Current cluster on 5 October 2026. The broader clinical picture for cancer mRNA vaccines, including divergent trial results from other programmes, has also been previously reported.",
+      "tags": [
+        "mrna-cancer-vaccine",
+        "neoantigen",
+        "pembrolizumab",
+        "keytruda",
+        "melanoma",
+        "cancer-immunotherapy",
+        "moderna",
+        "merck"
+      ]
     }
   ],
-  "last_run": "2026-10-15T12:26:51.800470+00:00",
+  "last_run": "2026-10-16T12:05:57.821152+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012085": "2026-10-01T14:11:14.820845+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012139": "2026-10-15T12:26:51.800470+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012255": "2026-10-02T13:33:27.695086+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012302": "2026-10-10T13:17:27.873990+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012313": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012321": "2026-10-07T14:12:55.544786+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012322": "2026-10-16T12:05:57.821152+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012326": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012327": "2026-10-06T13:55:26.940932+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012328": "2026-10-01T14:11:14.820845+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012329": "2026-10-09T14:07:02.894122+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012330": "2026-10-09T14:07:02.894122+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012331": "2026-10-10T13:17:27.873990+00:00",
@@ -28580,21 +28815,15 @@
     "https://news.cancerresearchuk.org/2026/10/07/could-clearing-immune-fog-stop-lung-cancer/": "2026-10-08T14:23:05.539264+00:00",
     "https://news.cancerresearchuk.org/2026/10/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-10-12T16:26:59.841194+00:00",
     "https://news.cancerresearchuk.org/2026/10/14/understanding-the-architecture-of-pancreatic-cancer-risk/": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.24.754167v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
+    "https://news.cancerresearchuk.org/2026/10/16/fibremaxxing-sleepmaxxing-can-maxxing-help-prevent-cancer/": "2026-10-16T12:05:57.821152+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.25.753906v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.25.754302v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.25.754494v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.26.754598v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.26.754621v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.26.754731v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.27.753494v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.27.754858v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.28.755174v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.28.755183v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.29.755401v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755427v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755441v1?rss=1": "2026-10-06T13:55:26.940932+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.29.755447v1?rss=1": "2026-10-01T14:11:14.820845+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.30.752484v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.30.755531v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.30.755759v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
@@ -28614,22 +28843,22 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.06.757091v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.07.757262v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.07.757421v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.08.756769v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.08.757717v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.08.757734v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.09.757075v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757836v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757891v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757896v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.11.758340v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.12.758413v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.15.759360v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-cuts-british-forces-waiting-times-by-a-month-in-targeted-campaign/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-protects-thousands-of-rough-sleepers-ahead-of-winter-with-vital-vaccines/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-rolls-out-prescription-ready-alerts-on-smartwatches-and-mobiles/": "2026-10-12T16:26:59.841194+00:00",
     "https://www.england.nhs.uk/2026/10/ominous-signs-of-winter-pressure-growing-as-aes-and-ambulances-see-record-september/": "2026-10-08T14:23:05.539264+00:00",
     "https://www.phgfoundation.org/blog/phg-foundation-becomes-phg-cambridge/": "2026-10-14T12:38:26.625335+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260928100551.htm": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260929053531.htm": "2026-10-01T14:11:14.820845+00:00",
     "https://www.sciencedaily.com/releases/2026/09/260930020257.htm": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260930225450.htm": "2026-10-01T14:11:14.820845+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261001095319.htm": "2026-10-04T13:01:58.816580+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080013.htm": "2026-10-05T15:32:42.485173+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080023.htm": "2026-10-05T15:32:42.485173+00:00",
@@ -28657,32 +28886,16 @@
     "https://www.sciencedaily.com/releases/2026/10/261012185011.htm": "2026-10-13T14:48:16.207143+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261013015801.htm": "2026-10-14T12:38:26.625335+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261013015805.htm": "2026-10-14T12:38:26.625335+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261013015814.htm": "2026-10-16T12:05:57.821152+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261013015838.htm": "2026-10-14T12:38:26.625335+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261013234801.htm": "2026-10-14T12:38:26.625335+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261014015501.htm": "2026-10-16T12:05:57.821152+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014015521.htm": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/09/30/biotech-news-updates-accusations-of-theft-new-phrma-guy/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/09/30/eli-lilly-zepbound-amylin-combination-drug-study/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/09/30/health-tech-policy-conversations-washington-ai-prognosis/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/09/30/hhs-arpa-h-clinical-trials-artificial-intelligence-surpass-program/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/09/30/legal-immigrants-risk-losing-medicaid-coverage-trump/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/09/30/rural-maha-followers-poll-trump-hasnt-improved-community-health/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/09/30/trump-final-globe-rule-will-save-medicare-much-less-money-on-drugs/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/09/30/unitedhealth-investor-lawsuit-moves-forward-allegations-of-manufactured-earnings-to-hide-declining-profits/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/10/01/biotech-news-journey-to-witness-chinas-biotech-boom-up-close/": "2026-10-03T12:12:53.972950+00:00",
     "https://www.statnews.com/2026/10/01/cdc-health-survey-redesign-removes-questions-about-disabilities/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/01/china-biotech-boom-jefferies-conference-shanghai/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/10/01/claude-ai-genome-analysis-standards-ethics/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/10/01/eric-cantor-phrma-populist-drug-policy/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/10/01/glp-1-weight-loss-drugs-children-research-obesity-disease/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/10/01/health-news-trump-administration-appeals-ruling-blocking-student-visa-limits/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/10/01/huntingtons-disease-uniqure-drug-study-results-patients/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/2026/10/01/invivyds-covid-antibody-development/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/10/01/maha-goes-corporate-trump-waters-down-medicare-drug-pricing-model/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/01/major-insurer-on-medicare-access-model-health-tech/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/10/01/medicare-advantage-plans-have-higher-deductibles-fewer-benefits-in-2027/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/01/midterm-election-health-care-policy-impact-senate-republican-turnover/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/10/01/readout-loud-podcast-trust-in-science-gene-editing-lawsuit/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/01/sanofi-regeneron-agreement-dupixent-antibodies-immunology/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
     "https://www.statnews.com/2026/10/01/womens-health-issues-academic-journal-science-special-edition/": "2026-10-03T12:12:53.972950+00:00",
     "https://www.statnews.com/2026/10/02/340b-policy-orphan-designated-drugs-pharmacy-losses-hrsa-congress/": "2026-10-03T12:12:53.972950+00:00",
     "https://www.statnews.com/2026/10/02/biotech-news-lilly-bypasses-australian-phramacies-with-dtc-model/": "2026-10-04T13:01:58.816580+00:00",
@@ -28788,13 +29001,24 @@
     "https://www.statnews.com/2026/10/14/state-vaccine-factories-trump-shortages-vicp/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/2026/10/14/the-startup-chasing-general-biological-intelligence-ai-prognosis/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/2026/10/14/whoop-ami-bhatt-population-health-stat-summit-boston-2026/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
+    "https://www.statnews.com/2026/10/15/auchincloss-us-biotech-vs-china-protectionism/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/15/biotech-news-verastem-kras-inhibitor-shows-promise-in-pancreatic-cancer/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/15/compass-pathways-psychedelics-stat-summit/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/15/health-data-privacy-medical-record-opt-out-barriers-investigated/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/2026/10/15/health-news-kenya-reports-second-ebola-case/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
+    "https://www.statnews.com/2026/10/15/health-policy-news-fda-califf-gottlieb-sharpless-criticize-hhs-leadership/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/15/healthcare-fraud-new-doj-policy-rewards-self-disclosure/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/15/melanoma-diagnosis-mrna-cancer-vaccine-stat-summit-boston-2026/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/15/moderna-merck-keytruda-mrna-cancer-vaccine-strategy/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/15/nursing-shortage-workforce-direct-support-home-care-workers-group-home/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
+    "https://www.statnews.com/2026/10/15/scramble-to-shape-regulations-around-state-ai-sandboxes-health-tech/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/15/teenage-binge-eating-cdc-survey-finds-alarming-rate/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
+    "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/15/wall-street-biotech-trouble-stirring/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/pharmalot/2026/09/30/beam-sues-over-trade-secret-theft-trump-drug-import-rule/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/01/trump-plan-to-lower-medicare-drug-prices-lilly-obesity-drug/?utm_campaign=rss": "2026-10-01T14:11:14.820845+00:00",
+    "https://www.statnews.com/2026/10/16/david-sabatini-civil-trial-highlights-permissive-sexual-norms-whitehead-metoo/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/16/federal-performance-reviews-health-agency-employees-wary-after-doge/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/16/neoliberalism-health-care-milton-friedman-john-mcdonough-stuart-butler-debate/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/16/nonadherence-medication-stopped-identity-pharmacist-side-effects-prevent/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/pharmalot/2026/10/05/vaxcyte-pneumococcal-vaccine-rising-pharma-mergers-acquisitions/": "2026-10-06T13:55:26.940932+00:00",
@@ -28817,7 +29041,8 @@
     "https://www.statnews.com/pharmalot/2026/10/14/sanofi-avoids-fine-as-eu-accepts-offer-ends-antitrust-probe-over-disparaging-rival-vaccine/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.statnews.com/pharmalot/2026/10/14/sanofi-avoids-fine-as-eu-accepts-offer-ends-antitrust-probe-over-disparaging-rival-vaccine/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/pharmalot/2026/10/14/sanofi-settling-european-antitrust-probe-pharma-bro-shkreli/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/14/trump-administration-delays-new-rule-that-could-restrict-imported-meds-from-canad-and-overseas/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/14/trump-administration-delays-new-rule-that-could-restrict-imported-meds-from-canad-and-overseas/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/15/former-fda-commissioner-califf-criticized-doge-astrazeneca-ai-deal/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00"
   },
   "takedowns": []
 }
