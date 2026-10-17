@@ -28788,12 +28788,275 @@
         "moderna",
         "merck"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists at the University of Southern California have been exploring a new way to make immune cells that can fight cancer. Most approaches today take immune cells from a patient, modify them in a laboratory, and put them back — but these cells can wear out over time. The USC researchers tried starting with more immature immune cells, which can keep dividing and developing inside the body, in the hope that the body itself would keep producing cancer-fighting cells over a longer period.\n\nThis research is at an early, laboratory stage. It has not yet been tested in people as a treatment, and there is a long road of further research and testing before anything like this could reach patients.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "USC scientists engineer self-renewing immune cells to sustain anti-tumour attack",
+      "is_preprint": false,
+      "run_date": "2026-10-17",
+      "run_iso": "2026-10-17T11:19:27Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-10-16T12:46:50Z",
+        "novelty": 7
+      },
+      "slug": "usc-renewable-immune-cells-cancer-engineered",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-16T12:46:50Z",
+          "publisher": "ScienceDaily",
+          "title": "USC scientists discover how to create a never-ending supply of cancer-fighting cells",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015003803.htm"
+        }
+      ],
+      "standfirst": "Researchers at the University of Southern California describe a method for continuously generating genetically engineered tumour-fighting immune cells from immature precursors, potentially addressing a key limitation of current cell therapies.",
+      "summary": "Researchers at the University of Southern California have developed a method to produce a sustained supply of genetically engineered immune cells capable of targeting tumours. Rather than modifying mature immune cells — the conventional starting point for therapies such as CAR-T — the team worked with immature progenitor cells, which retain the capacity to proliferate and differentiate inside the body.\n\nThe approach, reported via ScienceDaily from USC, is designed to overcome one of the central challenges in adoptive cell therapy: that populations of engineered mature T cells tend to become exhausted or fail to persist long term after infusion. By engineering cells earlier in their developmental trajectory, the researchers argue the body can be induced to generate tumour-reactive cells on an ongoing basis.\n\nFull methodological detail and peer-review status were not available at the time of writing; the ScienceDaily summary does not link to a published journal article. The work appears to involve genetic modification of progenitor cells, though the specific gene-editing platform and target antigens are not described in public reporting.\n\nThis is an early-stage research finding. No clinical data in human patients have been reported, and the pathway from laboratory discovery to any eventual clinical application involves multiple further stages of development and regulatory evaluation.",
+      "tags": [
+        "cancer-immunotherapy",
+        "cell-therapy",
+        "progenitor-cells",
+        "t-cell-therapy",
+        "gene-editing",
+        "cancer-biology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "DEAF1 gene identified as a key regulator of age-related muscle decline",
+      "is_preprint": false,
+      "run_date": "2026-10-17",
+      "run_iso": "2026-10-17T11:19:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-16T00:41:45Z",
+        "novelty": 7
+      },
+      "slug": "deaf1-gene-muscle-ageing-exercise",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-16T00:41:45Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover how exercise reverses muscle aging",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261015003550.htm"
+        }
+      ],
+      "standfirst": "A new study names DEAF1 as a transcription factor that becomes overactive in ageing muscle and disrupts protein clearance, with exercise shown to partially counteract its effects.",
+      "summary": "Scientists have identified DEAF1, a transcription factor gene, as a mediator of age-related decline in skeletal muscle. Reporting via ScienceDaily, researchers found that DEAF1 activity increases in older muscle tissue, where it interferes with autophagy — the cellular process that clears damaged or misfolded proteins — thereby impairing the muscles' capacity for repair and regeneration.\n\nThe study further found that exercise can partially restore the balance disrupted by excessive DEAF1 activity, enabling older muscle to rebuild more effectively. However, the investigators note that when dysregulation of this pathway becomes severe, the protective effects of exercise diminish, suggesting DEAF1 activity may act as a threshold-dependent modifier of the muscle's response to physical activity.\n\nThe underlying journal publication and institution were not named in available public reporting. No peer-reviewed article link was provided in the ScienceDaily item at the time of writing. The mechanism was characterised at the molecular level; the study does not report data in human clinical populations.\n\nThe finding adds DEAF1 to the growing list of transcriptional regulators implicated in sarcopenia and age-related muscle loss, and may offer a target for future mechanistic investigation. Researchers studying proteostasis, exercise physiology, and the genetics of ageing may find the DEAF1 axis of interest.",
+      "tags": [
+        "deaf1",
+        "sarcopenia",
+        "muscle-ageing",
+        "autophagy",
+        "proteostasis",
+        "exercise-genetics",
+        "transcription-factors"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study maps distinct synaptic and sleep effects of NLGN3 autism variants in Drosophila",
+      "is_preprint": false,
+      "run_date": "2026-10-17",
+      "run_iso": "2026-10-17T11:19:27Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-10-16T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "nlgn3-autism-variants-drosophila-synapses-sleep",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-16T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "NLGN3 autism variants have distinct functional impact on synapses and sleep behavior in Drosophila",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012341"
+        }
+      ],
+      "standfirst": "A Drosophila model study published in PLOS Genetics shows that different NLGN3 variants associated with autism spectrum disorder have separable effects on synapse function and sleep behaviour.",
+      "summary": "Research published in PLOS Genetics by Townsley, Andrews, Srivastav, Jangam, Hannan, Kanca, Marcogliese, Yamamoto, and Wangler examines how distinct variants in NLGN3 — an X-linked gene encoding neuroligin-3 — affect synaptic function and sleep behaviour using Drosophila melanogaster as a model organism.\n\nNLGN3 was first identified as a risk gene for autism spectrum disorder (ASD). The canonical p.R451C variant, which has been the focus of extensive prior investigation, was studied alongside other reported patient variants, including de novo changes identified in heterozygous females and hemizygous males. The study finds that different NLGN3 variants produce functionally distinct consequences at synapses and result in separable changes in sleep behaviour in the fly model — suggesting that variant-level resolution matters when characterising the biology of NLGN3-associated neurodevelopmental conditions.\n\nThe investigators note that most reported NLGN3 variants arise in males who have inherited them from an unaffected mother, though de novo variants have been described in both sexes. The use of Drosophila enables precise genetic manipulation and high-throughput phenotyping, though findings require subsequent validation in mammalian systems before conclusions about human neurobiology can be drawn.\n\nThe paper contributes to the broader effort to move beyond gene-level to variant-level functional characterisation in ASD research, which has implications for understanding genotype–phenotype relationships in neurodevelopmental genetics.",
+      "tags": [
+        "nlgn3",
+        "autism-spectrum-disorder",
+        "neuroligin",
+        "drosophila",
+        "synapse",
+        "sleep",
+        "neurodevelopmental-disorders",
+        "x-linked-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Deep-ocean metagenome yields cold-adapted Cas9 nuclease with high specificity at low temperatures",
+      "is_preprint": true,
+      "run_date": "2026-10-17",
+      "run_iso": "2026-10-17T11:19:27Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-10-16T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "do1cas9-cold-adapted-deep-ocean-crispr",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A cold-adapted Cas9 nuclease from the deep ocean",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759226v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes DO1Cas9, isolated from 1,500 m depth in the Atlantic Ocean, which edits genomes efficiently under cold conditions where the widely used SpCas9 retains only residual activity.",
+      "summary": "Researchers report the characterisation of Deep Ocean 1 Cas9 (DO1Cas9), described in a bioRxiv preprint as the first Cas9-family nuclease recovered from the deep ocean. The enzyme was isolated from a metagenomic sample collected at approximately 1,500 m depth in the Atlantic Ocean.\n\nDO1Cas9 displays several properties that distinguish it from Streptococcus pyogenes Cas9 (SpCas9), the most widely deployed CRISPR nuclease. The enzyme exhibits cold-adapted structural flexibility, retains efficient double-stranded DNA cleavage activity at temperatures where SpCas9 is largely inactive, and shows higher on-target specificity than SpCas9 under the conditions tested. The authors also report that DO1Cas9 stability is influenced by salt concentration. In cell-based experiments, the enzyme successfully edited genomes in cultured cells.\n\nThe findings have potential relevance for CRISPR applications that require activity at lower temperatures — including certain ex vivo cell-engineering protocols, environmental biotechnology contexts, and applications in cold-adapted organisms — though all such uses would require substantial further development and optimisation.\n\nThis work has not yet undergone peer review. As with all preprints, findings should be treated as preliminary until independently validated and published in a peer-reviewed journal.",
+      "tags": [
+        "crispr",
+        "cas9",
+        "metagenomics",
+        "deep-ocean",
+        "gene-editing",
+        "enzyme-engineering",
+        "cold-adaptation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "GEMS framework links non-coding GWAS variants to specific cell types using sequence-to-function modelling",
+      "is_preprint": true,
+      "run_date": "2026-10-17",
+      "run_iso": "2026-10-17T11:19:27Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 7,
+        "newest_iso": "2026-10-16T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "gems-gwas-cell-type-mechanisms-sequence-to-function",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "GEMS (GWAS Effect Mechanisms via Sequence-to-Function): Unveiling cell type-specific mechanisms for GWAS variants",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759213v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces GEMS, a computational framework that uses multimodal variant effect predictions and SHAP-based attribution to identify the cell types through which individual GWAS risk variants act.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing GEMS (GWAS Effect Mechanisms via Sequence-to-Function), a computational framework aimed at one of the central outstanding problems in human genetics: determining through which cell types and cellular states the thousands of non-coding variants identified by genome-wide association studies (GWAS) exert their effects.\n\nThe majority of GWAS signals fall in non-coding regions of the genome, where the relevant regulatory context — including which cell types have open chromatin at the locus in question — is critical to interpreting biological meaning. GEMS addresses this by training supervised classifiers on multimodal variant effect predictions derived from the sequence-to-function model Borzoi, which integrates ATAC-seq (chromatin accessibility) and RNA-seq (gene expression) predictions. SHAP-based attribution — a method from machine learning used to assign feature importance — is then applied to link individual variants to their most relevant cell types.\n\nThe approach offers a more interpretable alternative to existing methods, which the authors argue often operate in an opaque manner that limits biological inference. GEMS is positioned as a tool for researchers seeking to generate mechanistic hypotheses about GWAS loci, particularly for complex common diseases.\n\nThis is a preprint and has not undergone peer review. Results and claims should be regarded as preliminary pending independent evaluation.",
+      "tags": [
+        "gwas",
+        "non-coding-variants",
+        "regulatory-genomics",
+        "sequence-to-function",
+        "machine-learning",
+        "cell-type-specificity",
+        "computational-genomics",
+        "borzoi"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have been studying a rare inherited kidney disease called ADTKD-UMOD, which is caused by a fault in a gene called UMOD. People with this condition produce a misfolded version of a protein called uromodulin, which gets stuck inside kidney cells and gradually damages them. There is currently no treatment that targets the underlying cause.\n\nIn a new laboratory study — not yet peer-reviewed — researchers tested a gene-editing technique called base editing, which can make very precise, letter-by-letter changes to DNA. They found they could correct one of the genetic faults responsible for the disease with high efficiency in laboratory cell models and in tiny 3D models of kidney tissue grown from human cells.\n\nThis is early-stage, preclinical research. It has not been tested in people, and a great deal more work would be needed before anything like this could be considered as a possible treatment.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint evaluates base editing as a strategy for monogenic kidney disease caused by UMOD variants",
+      "is_preprint": true,
+      "run_date": "2026-10-17",
+      "run_iso": "2026-10-17T11:19:27Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-10-16T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "base-editing-umod-adtkd-kidney-disease",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Base Editing as a Therapeutic Strategy for Autosomal Dominant Tubulointerstitial Kidney Disease caused by Pathogenic UMOD Variants",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.758759v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers report that base editors corrected a representative UMOD missense variant with up to 83.4% efficiency in cell lines and human 3D kidney tubuloids, restoring normal uromodulin trafficking.",
+      "summary": "A preprint posted to bioRxiv describes a systematic evaluation of base editing strategies targeting the UMOD gene as a potential therapeutic approach for autosomal dominant tubulointerstitial kidney disease caused by pathogenic UMOD variants (ADTKD-UMOD). This is an untreatable monogenic kidney condition in which misfolded uromodulin protein is retained in the endoplasmic reticulum, where it exerts a toxic gain-of-function effect on tubular cells.\n\nThe researchers tested the full spectrum of base editing approaches applicable to the UMOD locus and focused detailed analysis on the p.Cys170Tyr missense variant, a representative pathogenic change. Adenine base editors achieved A-to-G correction efficiencies of up to 83.4% in cell line experiments, and corrected cells showed restored trafficking of uromodulin to the plasma membrane — the normal destination for the protein. The correction was also demonstrated in human 3D kidney tubuloids, which are organoid models that more closely approximate the structure of native renal tubular tissue than standard cell lines.\n\nADTKD-UMOD is a rare disease with no approved disease-modifying therapies. The results presented here are at a preclinical stage; substantial further development — including assessment of off-target editing, in vivo delivery, and safety — would be required before any potential translation. This work has not undergone peer review and should be treated as preliminary.",
+      "tags": [
+        "base-editing",
+        "umod",
+        "adtkd",
+        "rare-disease",
+        "kidney-disease",
+        "gene-editing",
+        "organoids",
+        "monogenic-disease"
+      ]
     }
   ],
-  "last_run": "2026-10-16T12:05:57.821152+00:00",
+  "last_run": "2026-10-17T11:21:15.775587+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012139": "2026-10-15T12:26:51.800470+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012255": "2026-10-02T13:33:27.695086+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012302": "2026-10-10T13:17:27.873990+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012313": "2026-10-06T13:55:26.940932+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012321": "2026-10-07T14:12:55.544786+00:00",
@@ -28806,7 +29069,8 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012334": "2026-10-13T14:48:16.207143+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012336": "2026-10-08T14:23:05.539264+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012339": "2026-10-13T14:48:16.207143+00:00",
-    "https://news.cancerresearchuk.org/2026/10/01/research-integrity-why-robust-antibody-validation-is-vital-for-drug-discovery/": "2026-10-02T13:33:27.695086+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012340": "2026-10-17T11:21:15.775587+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012341": "2026-10-17T11:21:15.775587+00:00",
     "https://news.cancerresearchuk.org/2026/10/05/prospect-uk-250000-people-investigate-diet-lifestyle-and-the-rise-of-early-onset-bowel-cancer/": "2026-10-05T15:32:42.485173+00:00",
     "https://news.cancerresearchuk.org/2026/10/06/a-moment-with-mariam-meeting-cruks-new-chief-clinician/": "2026-10-06T13:55:26.940932+00:00",
     "https://news.cancerresearchuk.org/2026/10/06/cancer-research-uk-appoints-professor-mariam-jamal-hanjani-as-its-new-chief-clinician/": "2026-10-06T13:55:26.940932+00:00",
@@ -28816,17 +29080,9 @@
     "https://news.cancerresearchuk.org/2026/10/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-10-12T16:26:59.841194+00:00",
     "https://news.cancerresearchuk.org/2026/10/14/understanding-the-architecture-of-pancreatic-cancer-risk/": "2026-10-15T12:26:51.800470+00:00",
     "https://news.cancerresearchuk.org/2026/10/16/fibremaxxing-sleepmaxxing-can-maxxing-help-prevent-cancer/": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.25.753906v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.25.754494v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.26.754598v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.26.754731v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.27.754858v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.28.755174v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755427v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.29.755441v1?rss=1": "2026-10-06T13:55:26.940932+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.09.30.752484v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.30.755531v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.09.30.755759v1?rss=1": "2026-10-02T13:33:27.695086+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.01.754889v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.01.754988v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.01.755638v1?rss=1": "2026-10-07T14:12:55.544786+00:00",
@@ -28847,18 +29103,23 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.08.757717v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.08.757734v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757075v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.09.757598v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757836v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757891v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757896v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.11.758340v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.12.758413v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.14.759213v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.14.759226v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.15.758759v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.15.759360v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.15.759374v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.15.759392v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.16.757273v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-cuts-british-forces-waiting-times-by-a-month-in-targeted-campaign/": "2026-10-04T13:01:58.816580+00:00",
-    "https://www.england.nhs.uk/2026/10/nhs-protects-thousands-of-rough-sleepers-ahead-of-winter-with-vital-vaccines/": "2026-10-02T13:33:27.695086+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-rolls-out-prescription-ready-alerts-on-smartwatches-and-mobiles/": "2026-10-12T16:26:59.841194+00:00",
     "https://www.england.nhs.uk/2026/10/ominous-signs-of-winter-pressure-growing-as-aes-and-ambulances-see-record-september/": "2026-10-08T14:23:05.539264+00:00",
     "https://www.phgfoundation.org/blog/phg-foundation-becomes-phg-cambridge/": "2026-10-14T12:38:26.625335+00:00",
-    "https://www.sciencedaily.com/releases/2026/09/260930020257.htm": "2026-10-02T13:33:27.695086+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261001095319.htm": "2026-10-04T13:01:58.816580+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080013.htm": "2026-10-05T15:32:42.485173+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261002080023.htm": "2026-10-05T15:32:42.485173+00:00",
@@ -28890,7 +29151,10 @@
     "https://www.sciencedaily.com/releases/2026/10/261013015838.htm": "2026-10-14T12:38:26.625335+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261013234801.htm": "2026-10-14T12:38:26.625335+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014015501.htm": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261014015509.htm": "2026-10-17T11:21:15.775587+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014015521.htm": "2026-10-15T12:26:51.800470+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261015003550.htm": "2026-10-17T11:21:15.775587+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261015003803.htm": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/2026/10/01/biotech-news-journey-to-witness-chinas-biotech-boom-up-close/": "2026-10-03T12:12:53.972950+00:00",
     "https://www.statnews.com/2026/10/01/cdc-health-survey-redesign-removes-questions-about-disabilities/": "2026-10-03T12:12:53.972950+00:00",
     "https://www.statnews.com/2026/10/01/maha-goes-corporate-trump-waters-down-medicare-drug-pricing-model/": "2026-10-03T12:12:53.972950+00:00",
@@ -29015,10 +29279,14 @@
     "https://www.statnews.com/2026/10/15/teenage-binge-eating-cdc-survey-finds-alarming-rate/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/15/wall-street-biotech-trouble-stirring/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
+    "https://www.statnews.com/2026/10/16/biotech-news-revmed-pancreatic-cancer-drug-nears-european-approval/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/2026/10/16/david-sabatini-civil-trial-highlights-permissive-sexual-norms-whitehead-metoo/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/16/david-sabatini-wins-sexual-misconduct-lawsuit-metoo/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/2026/10/16/federal-performance-reviews-health-agency-employees-wary-after-doge/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/16/health-news-what-to-read-before-elizabeth-holmes-you-can-see-everything/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/2026/10/16/neoliberalism-health-care-milton-friedman-john-mcdonough-stuart-butler-debate/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/16/nonadherence-medication-stopped-identity-pharmacist-side-effects-prevent/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/16/readout-loud-podcast-hospitals-longevity-clinics-northwestern/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/pharmalot/2026/10/02/up-and-down-the-ladder-comings-goings-pharma-biotech-jobs/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/pharmalot/2026/10/05/vaxcyte-pneumococcal-vaccine-rising-pharma-mergers-acquisitions/": "2026-10-06T13:55:26.940932+00:00",
@@ -29042,7 +29310,9 @@
     "https://www.statnews.com/pharmalot/2026/10/14/sanofi-avoids-fine-as-eu-accepts-offer-ends-antitrust-probe-over-disparaging-rival-vaccine/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/pharmalot/2026/10/14/sanofi-settling-european-antitrust-probe-pharma-bro-shkreli/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/pharmalot/2026/10/14/trump-administration-delays-new-rule-that-could-restrict-imported-meds-from-canad-and-overseas/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/15/former-fda-commissioner-califf-criticized-doge-astrazeneca-ai-deal/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/15/former-fda-commissioner-califf-criticized-doge-astrazeneca-ai-deal/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/16/up-down-ladder-jobs-pharma-biotech-gilead-bausch-sanofi/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00"
   },
   "takedowns": []
 }
