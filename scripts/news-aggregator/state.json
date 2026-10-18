@@ -29052,9 +29052,53 @@
         "organoids",
         "monogenic-disease"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint examines how sample overlap distorts GWAS meta-analysis across significance thresholds",
+      "is_preprint": true,
+      "run_date": "2026-10-18",
+      "run_iso": "2026-10-18T11:55:40+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-18T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "gwas-meta-analysis-sample-overlap-significance-thresholds",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-18T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Sample overlap in genome-wide association meta-analysis: practical comparisons across significance thresholds",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759234v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint from the Canadian HostSeq initiative quantifies the practical impact of participant duplication across studies combined in genome-wide association meta-analyses.",
+      "summary": "A preprint posted to bioRxiv by researchers involved in HostSeq — a Canadian initiative assembling genomic data from approximately 10,000 participants across 15 clinical and epidemiological studies — investigates a methodological problem that has grown more pressing as GWAS meta-analyses have expanded in scale: sample overlap.\n\nWhen the same individual appears in more than one contributing study, the independence assumptions underlying standard meta-analysis methods are violated. The resulting statistical dependence between studies can distort effect-size estimates and inflate or deflate significance values in ways that vary depending on the significance threshold applied. The preprint conducts practical comparisons across a range of thresholds to characterise how severely overlap affects conclusions under different analytical conditions.\n\nThe HostSeq cohort provides a useful test bed because the degree of overlap between its constituent studies is known, allowing the authors to benchmark the magnitude of bias rather than estimate it theoretically. Their comparisons are intended to guide analysts choosing between overlap-correction strategies and to help readers of published meta-analyses interpret findings where overlap status is incompletely reported.\n\nThe work is a methods contribution rather than a disease-biology finding, and is directly relevant to statistical geneticists designing or reviewing large GWAS meta-analyses. It has not yet undergone peer review.",
+      "tags": [
+        "gwas",
+        "meta-analysis",
+        "sample-overlap",
+        "statistical-genetics",
+        "hostseq",
+        "population-genetics",
+        "computational-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-10-17T11:21:15.775587+00:00",
+  "last_run": "2026-10-18T11:56:01.309172+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012139": "2026-10-15T12:26:51.800470+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012302": "2026-10-10T13:17:27.873990+00:00",
@@ -29111,6 +29155,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.12.758413v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.14.759213v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.14.759226v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.14.759234v1?rss=1": "2026-10-18T11:56:01.309172+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.15.758759v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.15.759360v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.15.759374v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
@@ -29155,18 +29200,10 @@
     "https://www.sciencedaily.com/releases/2026/10/261014015521.htm": "2026-10-15T12:26:51.800470+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261015003550.htm": "2026-10-17T11:21:15.775587+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261015003803.htm": "2026-10-17T11:21:15.775587+00:00",
-    "https://www.statnews.com/2026/10/01/biotech-news-journey-to-witness-chinas-biotech-boom-up-close/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/01/cdc-health-survey-redesign-removes-questions-about-disabilities/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/01/maha-goes-corporate-trump-waters-down-medicare-drug-pricing-model/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/01/medicare-advantage-plans-have-higher-deductibles-fewer-benefits-in-2027/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/01/readout-loud-podcast-trust-in-science-gene-editing-lawsuit/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/01/womens-health-issues-academic-journal-science-special-edition/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/02/340b-policy-orphan-designated-drugs-pharmacy-losses-hrsa-congress/": "2026-10-03T12:12:53.972950+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261016080912.htm": "2026-10-18T11:56:01.309172+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261016081140.htm": "2026-10-18T11:56:01.309172+00:00",
     "https://www.statnews.com/2026/10/02/biotech-news-lilly-bypasses-australian-phramacies-with-dtc-model/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/2026/10/02/ebola-outbreak-congo-4000-deaths/": "2026-10-04T13:01:58.816580+00:00",
-    "https://www.statnews.com/2026/10/02/health-news-how-big-is-pennsylvania-measles-outbreak/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/02/marathons-climate-change-extreme-heat-medical-planning/": "2026-10-03T12:12:53.972950+00:00",
-    "https://www.statnews.com/2026/10/02/nih-grant-funding-fy2026-analysis/": "2026-10-03T12:12:53.972950+00:00",
     "https://www.statnews.com/2026/10/02/nih-launching-streamlined-website-to-help-public-find-information/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/2026/10/02/nobel-prize-2026-geneticist-mary-claire-king-long-waiting-not-getting-winner-call/": "2026-10-04T13:01:58.816580+00:00",
     "https://www.statnews.com/2026/10/02/youth-opioid-treatment-retention-study-barriers-to-care/": "2026-10-04T13:01:58.816580+00:00",
