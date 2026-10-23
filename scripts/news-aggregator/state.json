@@ -29497,9 +29497,402 @@
         "patient-experience",
         "neuroserpin"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers at Moderna and Merck have shared detailed results from a large clinical trial of a personalised cancer vaccine designed for people with melanoma (a type of skin cancer). The vaccine is made individually for each patient by reading the DNA of their tumour to find targets — called neoantigens — that are unique to that person's cancer. An mRNA molecule (similar technology to some COVID-19 vaccines) is then made to teach the immune system to attack any remaining cancer cells after surgery. In the trial, people who received the vaccine alongside an existing cancer medicine called pembrolizumab were 42% less likely to see their melanoma return compared with those who had pembrolizumab alone. These results were presented at Europe's biggest cancer conference, ESMO 2026, and represent the first time a personalised mRNA cancer vaccine has met its main goal in a large randomised trial. The vaccine is not yet approved for standard use, and researchers are continuing to study how long the benefit lasts. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Detailed phase 3 data confirm Moderna–Merck mRNA cancer vaccine cuts melanoma recurrence by 42%",
+      "is_preprint": false,
+      "run_date": "2026-10-23",
+      "run_iso": "2026-10-23T12:22:51Z",
+      "scores": {
+        "audience_breadth": 8,
+        "importance": 9,
+        "newest_iso": "2026-10-22T19:03:31Z",
+        "novelty": 6
+      },
+      "slug": "moderna-merck-mrna-cancer-vaccine-phase3-melanoma-esmo",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/05/AdobeStock_525738206_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-22T19:03:31Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial",
+          "url": "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-23T11:23:25Z",
+          "publisher": "Cancer Research UK",
+          "title": "ESMO 2026: First phase 3 trial results for a personalised cancer vaccine",
+          "url": "https://news.cancerresearchuk.org/2026/10/23/esmo-2026-updates/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/03/Adams-Biotech-Scorecard-Featured-Image-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-22T13:35:20Z",
+          "publisher": "Stat News",
+          "title": "STAT+: What to expect from the Moderna-Merck cancer vaccine data reveal",
+          "url": "https://www.statnews.com/2026/10/22/esmo-2026-what-to-know-ahead-of-moderna-merck-cancer-vaccine-data-reveal/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Full trial results presented at ESMO 2026 show intismeran combined with pembrolizumab reduced disease recurrence significantly versus standard treatment alone in resected high-risk melanoma.",
+      "summary": "Moderna and Merck have released detailed phase 3 trial data for their personalised mRNA cancer vaccine, intismeran (previously called mRNA-4157/V940), showing a 42% reduction in the risk of melanoma recurrence when combined with the checkpoint inhibitor pembrolizumab (Keytruda), compared with pembrolizumab alone. The results were presented at the European Society for Medical Oncology (ESMO) 2026 annual congress and confirm the primary endpoint that had been signalled in earlier interim analyses.\n\nThe vaccine is designed for individual patients: tumour tissue is sequenced to identify neoantigens — protein fragments unique to each person's cancer — and an mRNA construct encoding up to 34 of those targets is manufactured and administered alongside pembrolizumab. This personalised approach is intended to prime the immune system to recognise residual tumour cells following surgical resection.\n\nThe ESMO presentation marks a significant milestone for the neoantigen vaccine field, providing the first phase 3 evidence that a personalised mRNA cancer vaccine can meet a pre-specified efficacy endpoint in a randomised controlled trial. Cancer Research UK's experts noted the results at ESMO as among the most anticipated data of the conference.\n\nThe combination is not yet approved for routine use; regulatory submissions have not been publicly announced at the time of publication. Researchers and oncologists will be examining the full dataset — including durability of response and subgroup analyses — as it becomes available in peer-reviewed form.",
+      "tags": [
+        "mrna-cancer-vaccine",
+        "neoantigen",
+        "melanoma",
+        "pembrolizumab",
+        "esmo",
+        "phase-3-trial",
+        "cancer-immunotherapy",
+        "intismeran"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers from Tango Therapeutics and Revolution Medicines have shared early trial results for a two-drug combination being tested in people with advanced pancreatic cancer whose tumours carry a specific genetic change called MTAP deletion. In this early trial, eight out of ten patients with this type of tumour saw their cancer shrink. The two drugs work by targeting a weakness that appears in cancer cells when the MTAP gene is missing. These results were presented at a major cancer conference called ESMO 2026, but the trial is still at an early stage, involved a small number of patients, and the drugs are not yet approved for standard use. Larger trials will be needed to understand how long the benefit lasts and who benefits most. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Tango Therapeutics reports 82% tumour response rate for combination therapy in MTAP-deleted pancreatic cancer",
+      "is_preprint": false,
+      "run_date": "2026-10-23",
+      "run_iso": "2026-10-23T12:22:51Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-10-23T10:30:00Z",
+        "novelty": 9
+      },
+      "slug": "tango-vopimetostat-pancreatic-cancer-esmo-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/AdobeStock_499879090-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-23T10:30:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Tango reports 82% tumor response rate in trial of combo therapy for advanced pancreatic cancer",
+          "url": "https://www.statnews.com/2026/10/23/esmo-2026-trial-results-tango-therapeutics-vopimetostat-revolution-medicines-rasonque/?utm_campaign=rss"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/STATday1093-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-23T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "One family's story of a life-extending medicine for pancreatic cancer",
+          "url": "https://www.statnews.com/2026/10/23/patient-story-pancreatic-cancer-drug-daraxonrasib-rasonque/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Early-phase data presented at ESMO 2026 show a high response rate for vopimetostat plus a RAS inhibitor in patients whose pancreatic tumours carry a specific genomic deletion.",
+      "summary": "Tango Therapeutics has reported that 82% of patients with MTAP-deleted advanced pancreatic cancer showed tumour responses in a clinical trial of vopimetostat — a MAT2A inhibitor — combined with daraxonrasib (RAS-ON inhibitor, also known as RASonque), developed by Revolution Medicines. The results were disclosed at ESMO 2026.\n\nMTAP deletion is a relatively common genomic event in pancreatic ductal adenocarcinoma and several other tumour types. It creates a metabolic vulnerability that MAT2A inhibitors are designed to exploit by depleting methionine, an amino acid on which MTAP-deleted tumours disproportionately depend. The combination with RAS pathway inhibition represents a synthetic-lethality and co-targeting strategy designed to address the limited therapeutic options currently available for pancreatic cancer with KRAS mutations.\n\nThese are early-phase results and the response rate — while striking — was observed in a selected population and a relatively small number of patients; the trial is not phase 3. Published peer-reviewed data have not yet appeared in the literature at the time of publication. Oncologists and researchers working in pancreatic cancer genomics will be watching whether response depth and duration are confirmed in larger cohorts.",
+      "tags": [
+        "pancreatic-cancer",
+        "mtap-deletion",
+        "vopimetostat",
+        "mat2a",
+        "daraxonrasib",
+        "esmo",
+        "synthetic-lethality",
+        "ras-inhibition"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers at Alnylam Pharmaceuticals have shared early results for a new medicine called brezosiran, which is being tested as a treatment for Huntington's disease — an inherited condition caused by a change in a gene called HTT. Huntington's disease causes progressive problems with movement, thinking, and mood. Brezosiran is designed to reduce the amount of a harmful protein that the faulty gene produces, using a technology called RNA interference (RNAi), which can switch off the instructions a cell uses to make a specific protein. The early results were described as encouraging, but this is a small, early-stage study; the drug is not approved and further large trials are needed before its effectiveness and safety can be properly assessed. Several other companies are also developing medicines that aim to silence the Huntington's gene in different ways, showing this is an active research area. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Alnylam reports early-phase data for brezosiran, an RNAi gene-silencing approach to Huntington's disease",
+      "is_preprint": false,
+      "run_date": "2026-10-23",
+      "run_iso": "2026-10-23T12:22:51Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-10-23T07:45:00Z",
+        "novelty": 8
+      },
+      "slug": "alnylam-brezosiran-huntingtons-gene-silencing-early-data",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/11/DSC09995-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-23T07:45:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Alnylam says Huntington's drug shows promise in early study",
+          "url": "https://www.statnews.com/2026/10/23/huntingtons-alnylam-gene-silencing-brezosiran/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Alnylam Pharmaceuticals says its investigational RNAi therapy brezosiran showed promising signals in an early study, adding to a competitive landscape of gene-silencing strategies for Huntington's disease.",
+      "summary": "Alnylam Pharmaceuticals has reported early-phase study data for brezosiran, an RNA interference (RNAi) agent designed to reduce expression of the mutant huntingtin (mHTT) protein that drives Huntington's disease. The company characterised the results as promising, though the study was early-stage and it remains to be seen whether the drug will demonstrate a meaningful effect on disease progression in larger, longer trials.\n\nRNAi works by introducing short double-stranded RNA molecules that guide cellular machinery to degrade a specific messenger RNA before it can be translated into protein — in this case, the expanded CAG repeat-carrying HTT transcript responsible for the toxic gain-of-function in Huntington's disease. Brezosiran joins a field that includes antisense oligonucleotide (ASO) approaches from other developers, reflecting sustained interest in lowering mHTT as a therapeutic strategy.\n\nHuntington's disease is a progressive autosomal dominant neurodegenerative disorder caused by a CAG trinucleotide repeat expansion in the HTT gene on chromosome 4. Genetic testing can identify carriers of the expanded repeat, and the disease has a well-defined genetic cause, making it a natural target for gene-silencing strategies. Full data from Alnylam's early study have not yet appeared in peer-reviewed publications at the time of publication.",
+      "tags": [
+        "huntingtons-disease",
+        "rnai",
+        "brezosiran",
+        "htt",
+        "gene-silencing",
+        "alnylam",
+        "trinucleotide-repeat",
+        "neurodegeneration"
+      ]
+    },
+    {
+      "audiences": [
+        "oncologists",
+        "genetic-counsellors",
+        "researchers",
+        "patients",
+        "educators"
+      ],
+      "for_patients": "A person living with a type of lung cancer caused by a change in a gene called ROS1 has shared their experience of surviving for fifteen years using a targeted medicine called crizotinib. This drug works by blocking a faulty signal produced by the altered ROS1 gene, which drives cancer cell growth. ROS1 changes are found in a small proportion — roughly one to two in a hundred — of people with non-small-cell lung cancer. Identifying this change requires genomic testing of the tumour. The account highlights that research tends to measure success by survival statistics, while patients often place equal or greater importance on quality of life during treatment. The person also reflects on the loss of other patients whose cancers did not respond as durably, which researchers are still working to understand. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "ROS1-mutant lung cancer patient describes 15 years of survival on targeted therapy crizotinib",
+      "is_preprint": false,
+      "run_date": "2026-10-23",
+      "run_iso": "2026-10-23T12:22:51Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 6,
+        "newest_iso": "2026-10-23T08:30:00Z",
+        "novelty": 7
+      },
+      "slug": "ros1-lung-cancer-crizotinib-long-term-survival",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/STATday1455-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-23T08:30:00Z",
+          "publisher": "Stat News",
+          "title": "How a targeted drug kept one patient alive 15 years — but failed to save her friends",
+          "url": "https://www.statnews.com/2026/10/23/lung-cancer-patient-ros1-mutation-on-crizotinib/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "A patient account published by Stat News illustrates the long-term benefit — and limitations — of molecularly matched targeted treatment for ROS1-rearranged non-small-cell lung cancer.",
+      "summary": "Stat News has published a personal account from a patient living with ROS1-rearranged non-small-cell lung cancer (NSCLC) who has survived for fifteen years on crizotinib, a tyrosine kinase inhibitor originally developed for ALK-rearranged lung cancer and subsequently approved for ROS1-positive disease. The account was presented at the STAT Summit.\n\nROS1 gene rearrangements are found in approximately 1–2% of NSCLC cases and define a molecularly distinct subgroup for which targeted therapies offer substantially better outcomes than historical chemotherapy benchmarks. Crizotinib was the first approved agent in this setting, and the field has since seen the development of next-generation ROS1 inhibitors with improved central nervous system penetration.\n\nThe patient's account focuses on quality of life alongside survival — raising the point that long-term survivorship, and what it means for daily functioning, receives less attention in research outcomes than survival statistics. The account also describes the loss of fellow patients who did not experience the same durability of response, highlighting variability in outcomes that remains incompletely understood.\n\nThis article is primarily a first-person narrative rather than a clinical study; it is included here because it illustrates the real-world application of somatic genomic tumour profiling in directing targeted oncology treatment, an area of broad relevance to oncologists, researchers in cancer genomics, and patients.",
+      "tags": [
+        "ros1",
+        "lung-cancer",
+        "nsclc",
+        "crizotinib",
+        "targeted-therapy",
+        "somatic-genomics",
+        "long-term-survival",
+        "cancer-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Multi-omics study maps how BRCA1/2 genotype shapes the immune microenvironment in high-grade serous ovarian cancer",
+      "is_preprint": false,
+      "run_date": "2026-10-23",
+      "run_iso": "2026-10-23T12:22:51Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-22T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "hgsoc-brca-tumour-immune-microenvironment-multi-omics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-22T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Multi-omics analysis of high-grade serous ovarian cancers reveals heterogeneity and distinct immunological patterns based upon clinico-genomic status",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012355"
+        }
+      ],
+      "standfirst": "Researchers publishing in PLOS Genetics used whole-exome sequencing, RNA sequencing, and spatial profiling to show that BRCA mutation status is associated with distinct immunological patterns in ovarian tumours.",
+      "summary": "A multi-omics analysis published in PLOS Genetics by Jing Qian, Rania Bassiouni, and colleagues at institutions including the Keck School of Medicine at the University of Southern California and the Karolinska Institute has characterised intratumoral heterogeneity and tumour immune microenvironment (TIME) composition across high-grade serous ovarian cancers (HGSOC) stratified by BRCA1/2 mutation status.\n\nThe team integrated whole-exome sequencing, total RNA sequencing, and spatial profiling approaches across a cohort of HGSOC samples. BRCA1 and BRCA2 germline and somatic mutations are established drivers of HGSOC and are associated with improved responses to platinum-based chemotherapy and PARP inhibitors. However, the mechanisms by which BRCA genotype influences the immunological composition of the tumour microenvironment have remained incompletely characterised.\n\nThe study identified distinct immunological patterns across clinico-genomic subgroups, including differences in immune cell infiltration and signalling, that may help explain observed differences in therapeutic response. The authors describe heterogeneous tissue architectures within tumours that appear to influence which immune populations are present and active. The findings are relevant to ongoing efforts to understand which HGSOC patients may benefit from immunotherapy combinations alongside standard-of-care approaches, though the authors note that further validation in larger independent cohorts will be needed.",
+      "tags": [
+        "hgsoc",
+        "ovarian-cancer",
+        "brca1",
+        "brca2",
+        "tumour-immune-microenvironment",
+        "multi-omics",
+        "intratumoral-heterogeneity",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: RNA m6A modifications recruit DNA methyltransferases to establish heritable gene silencing in human cells",
+      "is_preprint": true,
+      "run_date": "2026-10-23",
+      "run_iso": "2026-10-23T12:22:51Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 8,
+        "newest_iso": "2026-10-22T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "rna-m6a-de-novo-dna-methylation-epigenetic-silencing",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-22T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "RNA m6A mediates de novo DNA methylation and heritable epigenetic silencing in human cells",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760774v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using orthogonal CRISPR platforms and genome-wide screens reports a previously uncharacterised link between RNA N6-methyladenosine marks and de novo DNA methylation, with implications for understanding epigenetic memory.",
+      "summary": "A preprint deposited on bioRxiv describes a mechanistic connection between RNA N6-methyladenosine (m6A) modifications and the establishment of de novo DNA methylation in human cells. The work, from researchers using orthogonal CRISPR platforms, genome-wide CRISPR screens, and proximity-dependent proteomics, reports that the m6A writer complex — which deposits methyl groups onto adenosine residues in RNA — is recruited to chromatin in association with DNA methyltransferases (DNMTs), and that this interaction is required for establishing heritable epigenetic silencing at target loci.\n\nDNA methylation, primarily at CpG dinucleotides, is the most abundant epigenetic modification in the human genome and plays central roles in gene regulation, embryogenesis, cellular differentiation, and disease. How de novo methylation patterns are targeted to specific genomic locations has been an open question, with evidence implicating transcription, non-coding RNAs, and chromatin state. This study proposes m6A-marked RNA as an additional guidance mechanism that bridges the transcriptome and the epigenome.\n\nThe genome-wide screen data nominate specific components of the m6A and DNMT machinery as participants in a shared pathway. If the findings hold up to peer review, they would represent a new layer of epigenetic crosstalk relevant to development, ageing, and disease states in which DNA methylation patterns are disrupted — including cancer.\n\nThis is a preprint and has not yet undergone peer review. Findings should be interpreted with appropriate caution.",
+      "tags": [
+        "m6a",
+        "dna-methylation",
+        "epigenetics",
+        "epigenetic-memory",
+        "crispr-screen",
+        "dnmt",
+        "rna-modifications",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Cas9–DNA repair protein fusions fail to improve homing gene drive efficiency in Drosophila",
+      "is_preprint": true,
+      "run_date": "2026-10-23",
+      "run_iso": "2026-10-23T12:22:51Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-22T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "crispr-homing-gene-drives-cas9-fusions-drosophila",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-22T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The effects of DNA repair factor-Cas9 fusions on homing drive performance",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760381v1?rss=1"
+        }
+      ],
+      "standfirst": "A systematic evaluation of eight Cas9 fusion constructs in Drosophila melanogaster finds that strategies proven to boost homology-directed repair in standard editing systems do not translate to improved performance in CRISPR-based gene drives.",
+      "summary": "A bioRxiv preprint from researchers working with Drosophila melanogaster reports a systematic test of eight Cas9 constructs fused to DNA repair-associated proteins previously shown to improve homology-directed repair (HDR) in conventional genome editing contexts. The motivation for the study is a central challenge in CRISPR homing gene drive design: competing end-joining repair pathways generate resistance alleles — variants that can no longer be converted by the drive — limiting the spread of drive alleles through a target population.\n\nThe team tested whether fusing Cas9 to proteins that promote HDR could reduce resistance allele formation and improve drive performance, but found that none of the eight fusion constructs produced a consistent improvement relative to unfused Cas9 controls. The authors suggest the biology of gene drives — where Cas9 acts on the endogenous locus in the germline context — may be sufficiently different from standard editing in somatic cells or early embryos that repair-factor fusions do not confer the same advantage.\n\nThe negative result is scientifically informative for the gene drive field, which is exploring potential population suppression applications in insects that transmit diseases or threaten ecosystems. Understanding which engineering strategies do and do not scale to drive contexts is important for directing future development effort.\n\nThis is a preprint and has not undergone peer review.",
+      "tags": [
+        "gene-drive",
+        "crispr",
+        "cas9",
+        "homing-drive",
+        "drosophila",
+        "homology-directed-repair",
+        "resistance-alleles",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: Mitochondrial dysfunction contributes to accelerated musculoskeletal ageing in an FGFR3 hypochondroplasia mouse model",
+      "is_preprint": true,
+      "run_date": "2026-10-23",
+      "run_iso": "2026-10-23T12:22:51Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-22T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "fgfr3-hypochondroplasia-mitochondria-musculoskeletal-aging",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-22T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Mitochondrial dysfunction plays a key role in premature musculoskeletal aging in hypochondroplasia mouse model",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759608v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that mice carrying a disease-causing FGFR3 variant associated with hypochondroplasia show early bone fragility, cartilage deterioration, and muscle decline linked to a distinct mitochondrial ageing trajectory.",
+      "summary": "A bioRxiv preprint describes the musculoskeletal phenotype of a mouse model carrying a variant in the fibroblast growth factor receptor 3 gene (FGFR3) associated with hypochondroplasia (HCH) — a mild skeletal dysplasia in humans caused by activating FGFR3 variants. The study characterises progressive bone fragility, accelerated age-related changes in articular cartilage and subchondral bone, and reduced muscle fibre size and strength in Hch mice compared with wild-type controls.\n\nProteomics analyses of cortical bone revealed that the Hch model follows a distinct ageing trajectory from controls, and the authors identify mitochondrial dysfunction as a key molecular feature of this divergence. Disrupted mitochondrial function in musculoskeletal tissues may contribute to the accelerated tissue degeneration observed in the model, though the causal chain between FGFR3 activation, mitochondrial biology, and skeletal ageing phenotypes requires further characterisation.\n\nHypochondroplasia is a relatively under-studied skeletal dysplasia compared with achondroplasia, which is caused by a more severe activating variant in the same FGFR3 gene. The mechanistic findings reported here may inform understanding of premature musculoskeletal ageing more broadly and raise questions about whether mitochondrial pathways represent therapeutic targets in FGFR3-related skeletal conditions.\n\nThis is a preprint and has not undergone peer review.",
+      "tags": [
+        "fgfr3",
+        "hypochondroplasia",
+        "skeletal-dysplasia",
+        "mitochondrial-dysfunction",
+        "musculoskeletal-ageing",
+        "bone-biology",
+        "mouse-model",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-10-22T12:46:48.184592+00:00",
+  "last_run": "2026-10-23T12:25:34.319883+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012139": "2026-10-15T12:26:51.800470+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012302": "2026-10-10T13:17:27.873990+00:00",
@@ -29508,25 +29901,23 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012330": "2026-10-09T14:07:02.894122+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012331": "2026-10-10T13:17:27.873990+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012334": "2026-10-13T14:48:16.207143+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012336": "2026-10-08T14:23:05.539264+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012338": "2026-10-22T12:46:48.184592+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012339": "2026-10-13T14:48:16.207143+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012340": "2026-10-17T11:21:15.775587+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012341": "2026-10-17T11:21:15.775587+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012342": "2026-10-22T12:46:48.184592+00:00",
-    "https://news.cancerresearchuk.org/2026/10/07/could-clearing-immune-fog-stop-lung-cancer/": "2026-10-08T14:23:05.539264+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012355": "2026-10-23T12:25:34.319883+00:00",
     "https://news.cancerresearchuk.org/2026/10/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-10-12T16:26:59.841194+00:00",
     "https://news.cancerresearchuk.org/2026/10/14/understanding-the-architecture-of-pancreatic-cancer-risk/": "2026-10-15T12:26:51.800470+00:00",
     "https://news.cancerresearchuk.org/2026/10/16/fibremaxxing-sleepmaxxing-can-maxxing-help-prevent-cancer/": "2026-10-16T12:05:57.821152+00:00",
     "https://news.cancerresearchuk.org/2026/10/21/minding-the-gap-ai-regulators-should-learn-from-the-pharmaceutical-industry/": "2026-10-22T12:46:48.184592+00:00",
+    "https://news.cancerresearchuk.org/2026/10/23/esmo-2026-updates/": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.01.754889v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.02.756296v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.04.756277v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756630v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.05.756656v1?rss=1": "2026-10-08T14:23:05.539264+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756748v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756803v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.06.756460v1?rss=1": "2026-10-08T14:23:05.539264+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.06.757091v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.07.757262v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.07.757421v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
@@ -29550,16 +29941,19 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.15.759392v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.757273v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.759550v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.16.759608v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.16.759659v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.759663v1?rss=1": "2026-10-19T14:19:10.837886+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.17.759705v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.17.759807v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.18.759899v1?rss=1": "2026-10-19T14:19:10.837886+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.19.760269v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.20.760381v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760491v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.21.760774v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-rolls-out-prescription-ready-alerts-on-smartwatches-and-mobiles/": "2026-10-12T16:26:59.841194+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-supports-record-numbers-of-people-living-with-dementia-as-target-achieved/": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.england.nhs.uk/2026/10/ominous-signs-of-winter-pressure-growing-as-aes-and-ambulances-see-record-september/": "2026-10-08T14:23:05.539264+00:00",
     "https://www.phgfoundation.org/blog/phg-foundation-becomes-phg-cambridge/": "2026-10-14T12:38:26.625335+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261005071533.htm": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261006234528.htm": "2026-10-08T14:23:05.539264+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261006234531.htm": "2026-10-09T14:07:02.894122+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261006234534.htm": "2026-10-11T13:44:58.972773+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042111.htm": "2026-10-13T14:48:16.207143+00:00",
@@ -29595,29 +29989,19 @@
     "https://www.sciencedaily.com/releases/2026/10/261018205033.htm": "2026-10-19T14:19:10.837886+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261018205044.htm": "2026-10-19T14:19:10.837886+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261020085023.htm": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/07/biotech-news-forbion-raises-2-6-billion-largest-fundraise/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/07/health-news-er-visits-from-people-born-outside-the-u-s-dropped-after-ice-raids/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/07/optogenetics-restores-some-vision-retinitis-pigmentosa/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/07/phrma-sues-over-drug-pricing-model-globe/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/07/trump-administration-proposes-fee-targeting-interational-students-optional-practical-training/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/07/utah-sandbox-health-ai-pilots-and-fda-regulations-ai-prognosis/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/08/340b-drug-discount-program-cms-reform-proposal/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/08/argenx-autoimmune-disease-study-sjogrens/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261020085309.htm": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261020085427.htm": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261021231230.htm": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261021231235.htm": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261021231248.htm": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261022081314.htm": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/08/biotech-news-roche-goes-beyond-licensing-in-deal-with-chinese-biotech/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/08/breast-cancer-ai-goes-dtc-utah-sandbox-ai-psychosis-health-tech/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/breast-cancer-research-older-women-neil-carleton-stat-wunderkind/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/fda-mifepristone-abortion-pill-safety-review-continue-into-2027/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/health-news-nobel-boys-club-again-2026-winners/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/health-policy-news-fresh-faces-shake-up-senate-committees-2026-midterms/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/08/house-democrat-proposes-change-to-no-surprises-act-arbitration-process/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/midterm-election-democrats-vie-for-roles-house-health-care-committees/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/08/rare-disease-nicolaides-baraitser-syndrome-history-ncbrs-researchers/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/readout-loud-podcast-nih-funding-research-biotech-caribou-nobel-prize/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/roche-defand-therapeutics-drug-development-deal/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/08/trump-administration-investigates-universities-j1-visa-fraud/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/trump-tariffs-section-232-imported-prescription-drugs-challenge-biotech-companies/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/08/us-hepatitis-c-cure-medication-cost-elimination/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/2026/10/08/why-clairity-took-breast-cancer-risk-prediction-ai-directly-to-patients/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
     "https://www.statnews.com/2026/10/09/2030-census-public-health-data-equity-morbidity-mortality/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/09/betsy-pleasants-stat-wunderkind-abortion-access-reddit-nlp/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/": "2026-10-10T13:17:27.873990+00:00",
@@ -29701,15 +30085,27 @@
     "https://www.statnews.com/2026/10/21/nih-replication-process-type-1-error-bhattacharya/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/21/roivant-immune-drug-lisraya-noninfectious-uveitis-trial-results/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/21/whats-the-deal-with-isomorphic-labs-ai-prognosis/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.statnews.com/2026/10/22/abbvie-lutikizumab-hidradenitis-suppurativa-drug-phase-3-results/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/22/aca-failure-contain-healthcare-costs-economist-regret/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.statnews.com/2026/10/22/biotech-news-treasury-restrictions-for-us-investment-in-chinese-biotech/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/22/calley-means-resigns-white-house-adviser-maha-movement/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/22/china-biotech-coins-act-rule-health-insurance-costs-rise/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/22/esmo-2026-what-to-know-ahead-of-moderna-merck-cancer-vaccine-data-reveal/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/22/fda-pdurs-guidance-dtx-telehealth-glp1-addiction-health-tech/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/22/glp-1-drugs-substance-use-disorder-telehealth-off-label-prescription/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/22/health-news-insurance-premiums-jump-more-americans-lose-coverage/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/22/rare-disease-family-name-fenib-personal-essay/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/07/merck-suffers-setback-in-europe-over-new-keytruda-formulation/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/07/trump-administration-adds-pharma-to-list-priorities-combating-white-collar-fraud/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/08/phrma-suing-trump-biotech-frustration-tariffs-pharmalittle-newsletter/?utm_campaign=rss": "2026-10-08T14:23:05.539264+00:00",
+    "https://www.statnews.com/2026/10/22/ultra-processed-food-definition-maha-white-house/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/esmo-2026-trial-results-tango-therapeutics-vopimetostat-revolution-medicines-rasonque/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/explain-appeal-elizabeth-holmes-doc-status-report/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/huntingtons-alnylam-gene-silencing-brezosiran/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/lung-cancer-patient-ros1-mutation-on-crizotinib/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/opioid-deaths-fallen-naloxone-treatment-supply-shock-public-health/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/patient-story-pancreatic-cancer-drug-daraxonrasib-rasonque/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/severe-pain-policy-medicare-coverage-macs-nerve-block/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/state-medicaid-officials-prepare-for-new-work-requirements/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
     "https://www.statnews.com/pharmalot/2026/10/09/pharmalittle-were-reading-about-a-setback-for-argenx-lilly-suits-over-copycat-versions-of-an-obesity-drug-and-more/": "2026-10-10T13:17:27.873990+00:00",
@@ -29726,7 +30122,9 @@
     "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/pharmalot/2026/10/16/up-down-ladder-jobs-pharma-biotech-gilead-bausch-sanofi/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/pharmalot/2026/10/19/roche-investments-in-germany-gilead-bowel-disease-drug/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/21/mark-cuban-eyes-rare-disease-drugs-ketamine-gold-rush/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/21/mark-cuban-eyes-rare-disease-drugs-ketamine-gold-rush/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/22/chinese-biotech-deals-scrutiny-belgium-refuses-mounjaro-coverage/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00"
   },
   "takedowns": []
 }
