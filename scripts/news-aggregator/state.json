@@ -29890,15 +29890,56 @@
         "mouse-model",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "CAR-T therapy is a type of treatment where immune cells are taken from a patient, modified in a laboratory to recognise a particular target, and then returned to the body. It has been used for some blood cancers for several years. Scientists are now testing whether the same approach might help people with severe autoimmune diseases — conditions where the immune system mistakenly attacks the body's own tissues.\n\nA patient taking part in a trial of this kind, run by the pharmaceutical company Bristol Myers Squibb, has died. Researchers and regulators are now discussing what level of risk is acceptable in these studies, particularly when the disease being treated is not immediately life-threatening.\n\nThis is early-stage research. Published guidance on CAR-T therapy for autoimmune conditions is still developing, and no approved treatments of this kind currently exist for most autoimmune diseases.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Patient dies in Bristol Myers Squibb CAR-T autoimmune disease trial",
+      "is_preprint": false,
+      "run_date": "2026-10-24",
+      "run_iso": "2026-10-24T11:50:28Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-10-23T18:55:12Z",
+        "novelty": 7
+      },
+      "slug": "bms-car-t-autoimmune-trial-patient-death",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/AdobeStock_1846705681_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-23T18:55:12Z",
+          "publisher": "Stat News",
+          "title": "Patient dies in Bristol Myers Squibb autoimmune CAR-T trial",
+          "url": "https://www.statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death/"
+        }
+      ],
+      "standfirst": "A patient death in a BMS-sponsored CAR-T cell therapy trial for autoimmune conditions raises questions about safety thresholds in an emerging treatment area.",
+      "summary": "A patient enrolled in a Bristol Myers Squibb clinical trial investigating CAR-T cell therapy for autoimmune diseases has died, according to reporting by STAT News. The death adds to a growing body of safety data being accumulated as CAR-T approaches — which engineer a patient's own immune cells to attack specific targets — are extended from haematological cancers, where they are established, into autoimmune conditions such as lupus and myositis.\n\nCAR-T therapies carry well-characterised risks including cytokine release syndrome and neurotoxicity. Whether those risk profiles remain acceptable when the underlying condition is not itself immediately life-threatening is a question researchers and regulators are actively working through. The STAT News report notes that no consensus safety bar yet exists for autoimmune CAR-T trials, and that the field is grappling with how to weigh early signals against potential long-term benefit.\n\nThe BMS trial in question has not been publicly identified beyond the STAT report, which is behind a paywall. Details of the patient, cause of death, and the specific autoimmune indication are not available from the public lede alone. Researchers and clinicians following this area should consult the primary STAT News article and any subsequent regulatory communications for specifics.",
+      "tags": [
+        "car-t",
+        "autoimmune-disease",
+        "cell-therapy",
+        "clinical-trial-safety",
+        "bristol-myers-squibb",
+        "gene-editing"
+      ]
     }
   ],
-  "last_run": "2026-10-23T12:25:34.319883+00:00",
+  "last_run": "2026-10-24T11:51:12.943289+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012139": "2026-10-15T12:26:51.800470+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012302": "2026-10-10T13:17:27.873990+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012322": "2026-10-16T12:05:57.821152+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012329": "2026-10-09T14:07:02.894122+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012330": "2026-10-09T14:07:02.894122+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012331": "2026-10-10T13:17:27.873990+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012334": "2026-10-13T14:48:16.207143+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012338": "2026-10-22T12:46:48.184592+00:00",
@@ -29912,9 +29953,6 @@
     "https://news.cancerresearchuk.org/2026/10/16/fibremaxxing-sleepmaxxing-can-maxxing-help-prevent-cancer/": "2026-10-16T12:05:57.821152+00:00",
     "https://news.cancerresearchuk.org/2026/10/21/minding-the-gap-ai-regulators-should-learn-from-the-pharmaceutical-industry/": "2026-10-22T12:46:48.184592+00:00",
     "https://news.cancerresearchuk.org/2026/10/23/esmo-2026-updates/": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.01.754889v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.02.756296v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.04.756277v1?rss=1": "2026-10-09T14:07:02.894122+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756630v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756748v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756803v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
@@ -29954,10 +29992,8 @@
     "https://www.england.nhs.uk/2026/10/nhs-rolls-out-prescription-ready-alerts-on-smartwatches-and-mobiles/": "2026-10-12T16:26:59.841194+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-supports-record-numbers-of-people-living-with-dementia-as-target-achieved/": "2026-10-22T12:46:48.184592+00:00",
     "https://www.phgfoundation.org/blog/phg-foundation-becomes-phg-cambridge/": "2026-10-14T12:38:26.625335+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261006234531.htm": "2026-10-09T14:07:02.894122+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261006234534.htm": "2026-10-11T13:44:58.972773+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042111.htm": "2026-10-13T14:48:16.207143+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261007233136.htm": "2026-10-09T14:07:02.894122+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008005254.htm": "2026-10-11T13:44:58.972773+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008102716.htm": "2026-10-12T16:26:59.841194+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008102718.htm": "2026-10-11T13:44:58.972773+00:00",
@@ -30098,14 +30134,26 @@
     "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/22/rare-disease-family-name-fenib-personal-essay/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/22/ultra-processed-food-definition-maha-white-house/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/ada-new-orleans-convention-new-report-on-controversial-june-ejections/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/23/christina-applegate-ms-misdiagnosis/": "2026-10-24T11:51:12.943289+00:00",
     "https://www.statnews.com/2026/10/23/esmo-2026-trial-results-tango-therapeutics-vopimetostat-revolution-medicines-rasonque/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/explain-appeal-elizabeth-holmes-doc-status-report/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/huntingtons-alnylam-gene-silencing-brezosiran/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/lung-cancer-patient-ros1-mutation-on-crizotinib/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/medicaid-work-requirements-anxiety-morning-rounds-health-news/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/23/new-china-biotech-limits-coins-act-proposal-us-pharma-reaction/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/23/novartis-remibrutinib-multiple-sclerosis-trial-results/": "2026-10-24T11:51:12.943289+00:00",
     "https://www.statnews.com/2026/10/23/opioid-deaths-fallen-naloxone-treatment-supply-shock-public-health/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/pathos-ai-bristol-myers-squibb-tempus-deal/": "2026-10-24T11:51:12.943289+00:00",
     "https://www.statnews.com/2026/10/23/patient-story-pancreatic-cancer-drug-daraxonrasib-rasonque/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/readout-loud-podcast-remembering-helen-branswell-infectious-disease/": "2026-10-24T11:51:12.943289+00:00",
     "https://www.statnews.com/2026/10/23/severe-pain-policy-medicare-coverage-macs-nerve-block/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/state-medicaid-officials-prepare-for-new-work-requirements/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/10/23/tango-pancreatic-cancer-star-moderna-readout-newsletter/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/24/christina-applegate-multiple-sclerosis-why-ms-misdiagnosis-happens/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/24/you-can-see-everything-stat-letters-to-editor/": "2026-10-24T11:51:12.943289+00:00",
     "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
     "https://www.statnews.com/pharmalot/2026/10/09/pharmalittle-were-reading-about-a-setback-for-argenx-lilly-suits-over-copycat-versions-of-an-obesity-drug-and-more/": "2026-10-10T13:17:27.873990+00:00",
@@ -30124,7 +30172,10 @@
     "https://www.statnews.com/pharmalot/2026/10/19/roche-investments-in-germany-gilead-bowel-disease-drug/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
     "https://www.statnews.com/pharmalot/2026/10/21/mark-cuban-eyes-rare-disease-drugs-ketamine-gold-rush/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/pharmalot/2026/10/22/chinese-biotech-deals-scrutiny-belgium-refuses-mounjaro-coverage/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/23/up-and-down-ladder-pharma-jobs-callio/": "2026-10-24T11:51:12.943289+00:00"
   },
   "takedowns": []
 }
