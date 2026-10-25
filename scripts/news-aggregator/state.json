@@ -29933,14 +29933,313 @@
         "bristol-myers-squibb",
         "gene-editing"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "Researchers at Moderna and Merck have been developing a personalised cancer vaccine — a treatment made individually for each patient by reading the genetic code of their tumour and designing a molecule to help the immune system recognise and attack it. Earlier data showed this approach cut the chance of melanoma (a type of skin cancer) coming back after surgery by 42% compared with a standard immunotherapy drug alone. At the ESMO cancer conference in Madrid, both companies described plans to test the same approach in other cancer types. The vaccine is still investigational — meaning it is being studied in clinical trials and is not yet a standard treatment for most cancers. Researchers are still working out which patients and which cancer types are most likely to benefit, and how to manufacture the vaccine at scale.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "After melanoma success, Moderna and Merck push mRNA cancer vaccine into broader tumour types",
+      "is_preprint": false,
+      "run_date": "2026-10-25",
+      "run_iso": "2026-10-25T12:18:59+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-10-25T08:31:01+00:00",
+        "novelty": 5
+      },
+      "slug": "moderna-merck-mrna-vaccine-expansion-esmo-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/IMG_5891-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-25T08:31:01+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: After a cancer vaccine's first success, the race is on to expand the impact",
+          "url": "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/07/AdobeStock_1069389777_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-24T17:00:59+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: The ESMO presentation everyone's been waiting for",
+          "url": "https://www.statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2016/07/03_NIHCancerCells-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-23T15:24:28+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Tango builds on Revolution Medicines' pancreatic cancer success",
+          "url": "https://www.statnews.com/2026/10/23/tango-pancreatic-cancer-star-moderna-readout-newsletter/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-23T13:45:14+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Pharmalittle: We're reading about a cancer vaccine, an experimental pancreatic cancer drug, and more",
+          "url": "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/"
+        }
+      ],
+      "standfirst": "New ESMO presentations and pipeline announcements signal the next phase of the personalised mRNA cancer vaccine programme beyond melanoma.",
+      "summary": "Following the phase 3 data confirmed at the European Society for Medical Oncology (ESMO) meeting in Madrid — which showed a 42% reduction in melanoma recurrence for the Moderna–Merck personalised mRNA vaccine intismeran (mRNA-4157) combined with pembrolizumab — both companies have now outlined efforts to extend the platform into additional tumour types. Presentations and briefings at ESMO described the strategic rationale for expanding into indications including non-small-cell lung cancer and other solid tumours with high neoantigen burden.\n\nThe vaccine works by sequencing a patient's tumour, identifying mutations unique to that individual's cancer, and generating a bespoke mRNA construct encoding up to 34 neoantigens. Paired with immune checkpoint blockade via pembrolizumab (Keytruda), the combination is designed to amplify a tumour-specific T-cell response. The melanoma phase 3 results, published earlier this week, represent the first randomised trial to confirm survival benefit for a personalised neoantigen vaccine approach.\n\nReporters at Stat News note that the field now faces questions of cost, manufacturing scalability, and which tumour types — and which patients within those types — are most likely to benefit. Expansion trials are under way or planned, though peer-reviewed publications covering the new indication data have not yet appeared. The programme remains investigational in all settings beyond the adjuvant melanoma approval pathway.",
+      "tags": [
+        "mrna-cancer-vaccine",
+        "neoantigen",
+        "melanoma",
+        "cancer-immunotherapy",
+        "intismeran",
+        "esmo",
+        "moderna",
+        "merck"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Bestrophinopathies are a group of rare inherited eye diseases caused by faults (called variants or mutations) in a gene called BEST1, which helps cells in the back of the eye manage the flow of charged particles called chloride ions. Researchers have now described a laboratory test that can check whether a specific BEST1 fault actually stops the gene working properly — something that could not always be confirmed for many of the 250-plus known faults. This matters because a gene therapy called OPGx-BEST1 is being developed that aims to restore BEST1 function, and knowing which genetic faults it might help with is an important step. This work is a preprint, meaning it has been shared publicly but has not yet been formally checked by independent scientists.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint describes high-throughput assay to validate BEST1 variants for bestrophinopathy gene therapy",
+      "is_preprint": true,
+      "run_date": "2026-10-25",
+      "run_iso": "2026-10-25T12:18:59+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-10-24T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "best1-variant-functional-assay-gene-therapy-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-24T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Functional Validation of Known BEST1 Variants Using a Robust Halide-Sensitive YFP Quenching Assay",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760219v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers have used a halide-sensitive YFP quenching assay to functionally characterise known BEST1 variants, supporting variant classification for an investigational gene therapy programme.",
+      "summary": "A preprint posted to bioRxiv from researchers working on the OPGx-BEST1 programme describes a robust, scalable cell-based assay for functionally validating variants in the Bestrophin-1 gene (BEST1). Bestrophinopathies are a heterogeneous group of inherited retinal degenerative diseases caused by pathogenic BEST1 variants; more than 250 have been reported, but only a small proportion have been functionally interrogated to confirm loss-of-function status.\n\nThe assay uses a halide-sensitive yellow fluorescent protein (YFP) reporter to measure chloride channel activity in retinal pigment epithelium (RPE) cells. Loss-of-function variants — those that impair BEST1's chloride channel activity — produce a measurable reduction in YFP quenching. OPGx-BEST1 is an investigational gene therapy designed to restore BEST1 function via augmented wild-type expression; functional evidence of loss-of-function is therefore a prerequisite for establishing which patients' variants are likely to be complemented by the approach.\n\nThe authors report that the assay reliably distinguishes pathogenic from benign variants across a tested panel, and propose it as a scalable platform for functional classification of variants of uncertain significance (VUS) — a long-standing challenge in BEST1-related disease. Because this work is a preprint, it has not yet undergone formal peer review, and the assay's performance characteristics should be considered preliminary.",
+      "tags": [
+        "best1",
+        "bestrophinopathy",
+        "retinal-degeneration",
+        "variant-interpretation",
+        "gene-therapy",
+        "vus",
+        "functional-assay",
+        "inherited-eye-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Fragile X syndrome is the most common inherited form of intellectual disability; it is caused by a large repetition of a DNA sequence in a gene called FMR1. People who carry a smaller repetition — called a premutation — do not usually have fragile X syndrome but can develop a different condition called FXTAS (fragile X-associated tremor/ataxia syndrome), which affects movement and memory in older age. Researchers looked at nearly 900 people screened for these FMR1 gene changes and found that both groups showed differences in how their bodies regulate a stress hormone called cortisol, compared with people without the gene changes. Cortisol is produced by the adrenal glands and plays many roles in the body's stress response and metabolism. The researchers suggest that problems with cortisol regulation may be part of what makes these conditions difficult for affected individuals. This is early-stage research shared as a preprint, meaning it has not yet been independently checked by other scientists.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint finds altered cortisol homeostasis in FMR1 full mutation and premutation carriers",
+      "is_preprint": true,
+      "run_date": "2026-10-25",
+      "run_iso": "2026-10-25T12:18:59+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-10-24T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "fmr1-cortisol-glucocorticoid-fragile-x-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-24T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cortisol homeostasis and glucocorticoid signaling are altered in FMR1 full mutation and premutation carriers.",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.759351v1?rss=1"
+        }
+      ],
+      "standfirst": "A cohort study of 891 individuals screened for FMR1 CGG-repeat expansions reports dysregulation of glucocorticoid signalling pathways in both fragile X syndrome and FXTAS.",
+      "summary": "A preprint posted to bioRxiv describes altered cortisol homeostasis and glucocorticoid signalling in individuals carrying CGG-repeat expansions in the FMR1 gene, covering both the full mutation range (causing fragile X syndrome, FXS) and the premutation range (associated with fragile X-associated tremor/ataxia syndrome, FXTAS).\n\nFXS is the most common inherited cause of intellectual disability; FXTAS is a neurodegenerative condition that typically manifests in older premutation carriers. The genetic mechanisms underlying both are well characterised — silencing of FMR1 protein (FMRP) in the full mutation, and RNA toxicity in the premutation — but the contribution of neuroendocrine pathways has received comparatively little attention.\n\nThe authors screened a clinically referred cohort of 891 individuals using conventional and methylation-specific PCR for FMR1 CGG-repeat status, then examined markers of glucocorticoid signalling. They report that both full-mutation and premutation carriers show evidence of disrupted cortisol regulation relative to controls, suggesting that glucocorticoid pathway dysregulation may be a shared feature across the FMR1 expansion spectrum. The authors propose this could have implications for understanding the broader clinical phenotype in FMR1-related disorders. As a preprint, these findings await formal peer review and independent replication.",
+      "tags": [
+        "fmr1",
+        "fragile-x-syndrome",
+        "fxtas",
+        "premutation",
+        "glucocorticoid",
+        "cortisol",
+        "neuroendocrine",
+        "trinucleotide-repeat"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint identifies Amus/MePCE capping enzyme as essential for minor spliceosome stability and reveals cross-pathway splicing interactions",
+      "is_preprint": true,
+      "run_date": "2026-10-25",
+      "run_iso": "2026-10-25T12:18:59+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-24T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "u6-snrna-capping-mepce-minor-spliceosome-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-24T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The U6 snRNA capping enzyme Amus/MePCE is required for the stability of U6atac and the processing of introns with features of both major and minor classes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761030v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers studying the Drosophila Amus protein and its mammalian homologue MePCE report that loss of U6 snRNA capping destabilises the minor spliceosome and uncovers mechanistic links between the major and minor splicing pathways.",
+      "summary": "A preprint on bioRxiv describes a previously uncharacterised genetic condition in which both the major and minor splicing pathways are simultaneously impaired, arising from loss of the Amus protein in Drosophila — and its mammalian homologue MePCE — which functions as the methyltransferase responsible for capping the U6 small nuclear RNA (snRNA).\n\nThe major spliceosome, which removes more than 99% of human introns and uses U6 snRNA as its catalytic component, and the minor spliceosome, which processes the remaining approximately 1% of introns using the related U6atac snRNA, have conventionally been regarded as largely independent pathways. The authors report that Amus/MePCE is required for the stability of U6atac, so its loss preferentially disrupts minor-class intron processing. They further present evidence that this creates downstream effects on major-class splicing, supporting the view that the two pathways interact mechanistically rather than operating in strict parallel.\n\nThe findings have potential relevance to understanding a class of rare diseases caused by minor spliceosome dysfunction — including some forms of microcephalic osteodysplastic primordial dwarfism and Roifman syndrome — though the authors do not make direct clinical claims. The work is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "minor-spliceosome",
+        "u6atac",
+        "mepce",
+        "snrna",
+        "rna-splicing",
+        "drosophila",
+        "spliceosome-disease",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint calibrates AlphaGenome and SpliceAI2 scores as graded evidence for variant classification across coding and non-coding sites",
+      "is_preprint": true,
+      "run_date": "2026-10-25",
+      "run_iso": "2026-10-25T12:18:59+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-10-24T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "alphagenome-spliceai2-variant-classification-calibration-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-24T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Calibration of AlphaGenome Variant Impact and SpliceAI2 scores as PP3/BP4 evidence for missense, non-coding, and synonymous variants",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760715v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers have systematically calibrated two computational prediction tools against clinical variant classifications, proposing their use as PP3/BP4 evidence in ACMG/AMP variant interpretation frameworks.",
+      "summary": "A preprint posted to bioRxiv describes the calibration of two computational variant effect prediction scores — AlphaGenome Variant Impact (AVI) and SpliceAI2 — for use as graded evidence within the ACMG/AMP variant classification framework, specifically as PP3 (pathogenic computational evidence) and BP4 (benign computational evidence) criteria.\n\nThe authors calibrated AVI across missense variants and six classes of non-coding and synonymous variants, and calibrated SpliceAI2 across the same six classes. For missense variants, AVI achieved evidence strength falling between moderate and strong in both pathogenic and benign directions, though it did not outperform its component model, AlphaMissense. For variants adjacent to exons — including those at canonical splice sites and nearby intronic positions — AVI reached strong pathogenic evidence. At proximal intronic and synonymous sites, moderate evidence was the highest estimable level.\n\nThe calibration framework follows previously established methodologies for translating computational scores into quantitative likelihood ratios, enabling structured integration into variant classification workflows. The work has direct relevance for clinical and research variant interpretation, particularly for the large proportion of variants in classes — non-coding, synonymous — that have historically been difficult to classify using experimental evidence alone. The paper is a preprint and has not yet undergone peer review; calibration estimates should be treated as preliminary until validated independently.",
+      "tags": [
+        "variant-classification",
+        "alphagenome",
+        "spliceai",
+        "acmg-amp",
+        "computational-genomics",
+        "non-coding-variants",
+        "pp3-bp4",
+        "variant-interpretation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Most cancer drugs approved by European regulators over a four-year period lack evidence of high clinical benefit, analysis finds",
+      "is_preprint": false,
+      "run_date": "2026-10-25",
+      "run_iso": "2026-10-25T12:18:59+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-10-23T18:48:10+00:00",
+        "novelty": 5
+      },
+      "slug": "most-european-approved-cancer-drugs-lack-high-benefit",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2017/10/AP17277633763476-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-23T18:48:10+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Most cancer drugs approved by European regulators lack a high clinical benefit, analysis finds",
+          "url": "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/"
+        }
+      ],
+      "standfirst": "A new analysis of European Medicines Agency approvals finds that the majority of newly authorised cancer medicines did not demonstrate high clinical benefit at the point of regulatory approval.",
+      "summary": "A newly published analysis reported by Stat News finds that most cancer drugs approved by European regulators over a recent four-year period did not meet thresholds for high clinical benefit at the time of authorisation. The analysis, details of which were reported at or around the ESMO 2026 meeting in Madrid, examined medicines approved by the European Medicines Agency (EMA) and assessed them against established frameworks for rating the magnitude of clinical benefit — such as the European Society for Medical Oncology Magnitude of Clinical Benefit Scale (ESMO-MCBS).\n\nThe findings are consistent with a body of prior literature — including analyses published in the BMJ and JAMA Oncology — that has raised sustained questions about whether regulatory approval thresholds for oncology medicines adequately reflect clinical meaningfulness for patients. Approval may be granted on the basis of surrogate endpoints (such as progression-free survival or tumour response rate) that do not always translate into improvements in overall survival or quality of life.\n\nThe analysis has relevance for health technology assessment bodies, payers, and oncology researchers evaluating the real-world value of the cancer drug pipeline. The primary source for this item is a Stat News report; the full underlying analysis had not, at time of publication, been verified against a peer-reviewed journal article.",
+      "tags": [
+        "cancer-drugs",
+        "regulatory-approval",
+        "ema",
+        "esmo-mcbs",
+        "clinical-benefit",
+        "health-technology-assessment",
+        "oncology-policy"
+      ]
     }
   ],
-  "last_run": "2026-10-24T11:51:12.943289+00:00",
+  "last_run": "2026-10-25T12:21:08.016375+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012139": "2026-10-15T12:26:51.800470+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012302": "2026-10-10T13:17:27.873990+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012322": "2026-10-16T12:05:57.821152+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012331": "2026-10-10T13:17:27.873990+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012334": "2026-10-13T14:48:16.207143+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012338": "2026-10-22T12:46:48.184592+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012339": "2026-10-13T14:48:16.207143+00:00",
@@ -29957,11 +30256,8 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756748v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756803v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.06.757091v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.07.757262v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.07.757421v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.08.756769v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.08.757717v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.08.757734v1?rss=1": "2026-10-10T13:17:27.873990+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757075v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757598v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757836v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
@@ -29985,10 +30281,14 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.17.759705v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.17.759807v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.18.759899v1?rss=1": "2026-10-19T14:19:10.837886+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.19.760219v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.19.760269v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.20.759351v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760381v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760491v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.21.760715v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.21.760774v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.22.761030v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-rolls-out-prescription-ready-alerts-on-smartwatches-and-mobiles/": "2026-10-12T16:26:59.841194+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-supports-record-numbers-of-people-living-with-dementia-as-target-achieved/": "2026-10-22T12:46:48.184592+00:00",
     "https://www.phgfoundation.org/blog/phg-foundation-becomes-phg-cambridge/": "2026-10-14T12:38:26.625335+00:00",
@@ -30031,25 +30331,11 @@
     "https://www.sciencedaily.com/releases/2026/10/261021231235.htm": "2026-10-23T12:25:34.319883+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261021231248.htm": "2026-10-23T12:25:34.319883+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261022081314.htm": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/08/biotech-news-roche-goes-beyond-licensing-in-deal-with-chinese-biotech/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/breast-cancer-ai-goes-dtc-utah-sandbox-ai-psychosis-health-tech/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/fda-mifepristone-abortion-pill-safety-review-continue-into-2027/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/health-policy-news-fresh-faces-shake-up-senate-committees-2026-midterms/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/house-democrat-proposes-change-to-no-surprises-act-arbitration-process/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/readout-loud-podcast-nih-funding-research-biotech-caribou-nobel-prize/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/08/trump-administration-investigates-universities-j1-visa-fraud/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/09/2030-census-public-health-data-equity-morbidity-mortality/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/09/betsy-pleasants-stat-wunderkind-abortion-access-reddit-nlp/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261023002905.htm": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261023023726.htm": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.statnews.com/2026/10/09/health-news-census-changes-threaten-public-data-collection/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/09/hospitals-sue-to-halt-340b-rebate-pilot-trump/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/09/hospitals-sue-to-halt-340b-rebate-pilot-trump/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.statnews.com/2026/10/09/maha-movement-rfk-jr-campaign-trail-midterm-elections/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.statnews.com/2026/10/09/robert-gallo-interleukin-2-human-retroviruses-immunotherapy-basic-science/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/2026/10/09/steven-quay-no-longer-in-consideration-for-top-infectious-disease-role/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/2026/10/09/steven-quay-no-longer-in-consideration-for-top-infectious-disease-role/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
     "https://www.statnews.com/2026/10/10/u-s-trust-science-higher-than-other-nations-wellcome-survey/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
     "https://www.statnews.com/2026/10/13/animosity-in-north-carolina-and-ma-shooting-stars-health-care-inc/": "2026-10-14T12:38:26.625335+00:00",
@@ -30134,30 +30420,29 @@
     "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/22/rare-disease-family-name-fenib-personal-essay/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/22/ultra-processed-food-definition-maha-white-house/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/23/ada-new-orleans-convention-new-report-on-controversial-june-ejections/": "2026-10-24T11:51:12.943289+00:00",
-    "https://www.statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death/": "2026-10-24T11:51:12.943289+00:00",
-    "https://www.statnews.com/2026/10/23/christina-applegate-ms-misdiagnosis/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/23/ada-new-orleans-convention-new-report-on-controversial-june-ejections/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/10/23/christina-applegate-ms-misdiagnosis/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/23/esmo-2026-trial-results-tango-therapeutics-vopimetostat-revolution-medicines-rasonque/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/explain-appeal-elizabeth-holmes-doc-status-report/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/huntingtons-alnylam-gene-silencing-brezosiran/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/lung-cancer-patient-ros1-mutation-on-crizotinib/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/23/medicaid-work-requirements-anxiety-morning-rounds-health-news/": "2026-10-24T11:51:12.943289+00:00",
-    "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/": "2026-10-24T11:51:12.943289+00:00",
-    "https://www.statnews.com/2026/10/23/new-china-biotech-limits-coins-act-proposal-us-pharma-reaction/": "2026-10-24T11:51:12.943289+00:00",
-    "https://www.statnews.com/2026/10/23/novartis-remibrutinib-multiple-sclerosis-trial-results/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/23/medicaid-work-requirements-anxiety-morning-rounds-health-news/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/10/23/new-china-biotech-limits-coins-act-proposal-us-pharma-reaction/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/10/23/novartis-remibrutinib-multiple-sclerosis-trial-results/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/23/opioid-deaths-fallen-naloxone-treatment-supply-shock-public-health/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/23/pathos-ai-bristol-myers-squibb-tempus-deal/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/23/pathos-ai-bristol-myers-squibb-tempus-deal/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/23/patient-story-pancreatic-cancer-drug-daraxonrasib-rasonque/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/23/readout-loud-podcast-remembering-helen-branswell-infectious-disease/": "2026-10-24T11:51:12.943289+00:00",
+    "https://www.statnews.com/2026/10/23/readout-loud-podcast-remembering-helen-branswell-infectious-disease/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/23/severe-pain-policy-medicare-coverage-macs-nerve-block/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/state-medicaid-officials-prepare-for-new-work-requirements/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/23/tango-pancreatic-cancer-star-moderna-readout-newsletter/": "2026-10-24T11:51:12.943289+00:00",
-    "https://www.statnews.com/2026/10/24/christina-applegate-multiple-sclerosis-why-ms-misdiagnosis-happens/": "2026-10-24T11:51:12.943289+00:00",
-    "https://www.statnews.com/2026/10/24/you-can-see-everything-stat-letters-to-editor/": "2026-10-24T11:51:12.943289+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/": "2026-10-10T13:17:27.873990+00:00",
+    "https://www.statnews.com/2026/10/23/tango-pancreatic-cancer-star-moderna-readout-newsletter/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/10/24/christina-applegate-multiple-sclerosis-why-ms-misdiagnosis-happens/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/10/24/you-can-see-everything-stat-letters-to-editor/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/09/pharmalittle-were-reading-about-a-setback-for-argenx-lilly-suits-over-copycat-versions-of-an-obesity-drug-and-more/": "2026-10-10T13:17:27.873990+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/": "2026-10-10T13:17:27.873990+00:00",
     "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
     "https://www.statnews.com/pharmalot/2026/10/13/many-patient-and-consumer-reps-on-fda-advisory-committees-ties-to-groups-funded-by-pharma/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.statnews.com/pharmalot/2026/10/13/neurocrine-rare-disease-drug-concerns-pharma-payments-to-doctors/": "2026-10-14T12:38:26.625335+00:00",
@@ -30173,9 +30458,9 @@
     "https://www.statnews.com/pharmalot/2026/10/21/mark-cuban-eyes-rare-disease-drugs-ketamine-gold-rush/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/pharmalot/2026/10/22/chinese-biotech-deals-scrutiny-belgium-refuses-mounjaro-coverage/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/": "2026-10-24T11:51:12.943289+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/": "2026-10-24T11:51:12.943289+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/23/up-and-down-ladder-pharma-jobs-callio/": "2026-10-24T11:51:12.943289+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/23/up-and-down-ladder-pharma-jobs-callio/": "2026-10-25T12:21:08.016375+00:00"
   },
   "takedowns": []
 }
