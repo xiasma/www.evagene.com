@@ -30234,9 +30234,173 @@
         "health-technology-assessment",
         "oncology-policy"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists"
+      ],
+      "for_patients": null,
+      "headline": "Moderna CEO sets 2027 FDA submission target for personalised cancer vaccine intismeran",
+      "is_preprint": false,
+      "run_date": "2026-10-26",
+      "run_iso": "2026-10-26T13:50:17+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-26T13:38:56+00:00",
+        "novelty": 3
+      },
+      "slug": "intismeran-mrna-vaccine-fda-submission-2027",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2023/03/GettyImages-1475304113-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-26T08:30:00+00:00",
+          "publisher": "Stat News",
+          "title": "Moderna CEO on what's next after success in cancer vaccine",
+          "url": "https://www.statnews.com/2026/10/26/moderna-ceo-stephane-bancel-interview-cancer-vaccine-intismeran/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/05/AdobeStock_525738206_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-26T13:38:56+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Five biotech updates to read after ESMO this weekend",
+          "url": "https://www.statnews.com/2026/10/26/biotech-news-moderna-ceo-on-whats-next-after-intismeran-success/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/IMG_5891-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-25T08:31:01+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: After a cancer vaccine's first success, the race is on to expand the impact",
+          "url": "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/07/AdobeStock_1069389777_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-10-24T17:00:59+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: The ESMO presentation everyone's been waiting for",
+          "url": "https://www.statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news/"
+        }
+      ],
+      "standfirst": "Stéphane Bancel has outlined a regulatory timeline and expansion strategy for intismeran following phase 3 melanoma data presented at ESMO 2026.",
+      "summary": "Moderna CEO Stéphane Bancel has indicated the company intends to submit intismeran — its personalised mRNA neoantigen vaccine developed with Merck — for FDA approval in 2027, following the phase 3 data presented at the European Society for Medical Oncology (ESMO) meeting in Madrid earlier this month. Speaking to STAT News, Bancel outlined plans for the vaccine's commercial and pipeline strategy beyond melanoma.\n\nIntismeran works by generating a bespoke mRNA sequence tailored to the mutational profile of an individual patient's tumour, enabling the immune system to target neoantigens specific to that cancer. The phase 3 KEYNOTE-942 / mRNA-4157-P201 data, reported at ESMO and widely covered in recent days, showed a 42% reduction in melanoma recurrence when intismeran was combined with pembrolizumab (Keytruda).\n\nThis item adds business-strategy and regulatory-timeline context to the clinical data already summarised in Genetic Current on 23 October and 25 October 2026. The underlying science of the vaccine and the ESMO data presentation have been covered in previous clusters; the primary new element here is the CEO's stated 2027 submission target and comments on expansion into further tumour types. Readers seeking the clinical trial data should refer to the 23 October cluster.",
+      "tags": [
+        "mrna-cancer-vaccine",
+        "intismeran",
+        "neoantigen",
+        "melanoma",
+        "cancer-immunotherapy",
+        "moderna",
+        "merck",
+        "fda"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: brain infection triggers reversible RNAi epimutations in Mucor fungi, aiding blood-brain barrier breach",
+      "is_preprint": true,
+      "run_date": "2026-10-26",
+      "run_iso": "2026-10-26T13:50:17+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-25T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "mucor-rnai-epimutation-brain-invasion-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-25T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Host brain infection induces RNAi epimutation in Mucor circinelloides and enhances blood-brain barrier invasion",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761329v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that Mucor circinelloides generates heritable but reversible gene-silencing epimutations during brain infection, potentially enabling enhanced central-nervous-system invasion.",
+      "summary": "A preprint posted to bioRxiv from Cold Spring Harbor Laboratory describes a previously uncharacterised adaptive mechanism in Mucor circinelloides, the fungal pathogen responsible for a subset of mucormycosis cases. The authors report that exposure to the brain microenvironment induces RNA interference (RNAi)-based epimutations — heritable but reversible silencing of specific genes achieved without any change to the underlying DNA sequence — and that fungi bearing these epimutations show enhanced capacity to cross the blood-brain barrier.\n\nMucormycosis is a rapidly progressive invasive fungal infection associated with high mortality, particularly in immunocompromised individuals. Central nervous system (CNS) involvement is among the most severe disease manifestations, yet the molecular mechanisms that allow Mucorales fungi to colonise brain tissue have been poorly understood. The findings, if confirmed, would identify RNAi-mediated epigenetic plasticity as a factor in CNS tropism and potentially in antifungal drug resistance — the preprint lede notes the mechanism can also silence genes conferring drug susceptibility.\n\nThe work is of direct interest to researchers in fungal genetics, epigenetics, and infection biology. It touches on broader questions about non-genetic inheritance and phenotypic plasticity in pathogens. This material has not yet undergone peer review and should be read accordingly.",
+      "tags": [
+        "mucormycosis",
+        "rnai",
+        "epimutation",
+        "fungal-genetics",
+        "blood-brain-barrier",
+        "epigenetics",
+        "infection-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: GWAS across 335 pea accessions maps genetic basis of rhizobial partner choice and root nodule architecture",
+      "is_preprint": true,
+      "run_date": "2026-10-26",
+      "run_iso": "2026-10-26T13:50:17+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-25T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "pea-gwas-nodulation-rhizobial-partner-choice",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-25T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genetic Dissection of Pea Nodulated Root Architecture and Early Rhizobial Partner Choice Across a Diverse 335-Line Panel",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.758806v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies candidate genes controlling nitrogen-fixing symbiosis partner selection and nodulated root-system architecture across a diverse panel of domesticated and wild pea lines.",
+      "summary": "A preprint submitted to bioRxiv describes a genome-wide association study (GWAS) of 335 pea (Pisum sativum) accessions evaluated for their capacity to select among 28 diverse rhizobial strains and for variation in nodulated root-system architecture (NRSA). Rhizobia are soil bacteria that colonise legume roots and fix atmospheric nitrogen, reducing the need for synthetic fertilisers — a trait of growing relevance to sustainable agriculture.\n\nThe authors used a high-throughput phenotyping platform in which all lines were inoculated with the same mixture of rhizobial strains, enabling direct comparison of partner-choice specificity alongside root architectural traits. They report that domesticated pea lines showed greater variation in NRSA, while wild accessions displayed broader diversity in rhizobial partner selection. GWAS analysis identified several candidate genes associated with these traits, providing a starting point for understanding the molecular underpinnings of the legume–rhizobium symbiosis.\n\nThe study is primarily of interest to plant geneticists, quantitative geneticists working on crop improvement, and researchers studying symbiotic nitrogen fixation. It has not yet undergone peer review.",
+      "tags": [
+        "plant-genetics",
+        "gwas",
+        "pisum-sativum",
+        "rhizobium",
+        "nitrogen-fixation",
+        "symbiosis",
+        "crop-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-10-25T12:21:08.016375+00:00",
+  "last_run": "2026-10-26T13:51:20.780431+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012139": "2026-10-15T12:26:51.800470+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012322": "2026-10-16T12:05:57.821152+00:00",
@@ -30288,16 +30452,14 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760491v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.21.760715v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.21.760774v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.22.758806v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761030v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.23.761329v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-rolls-out-prescription-ready-alerts-on-smartwatches-and-mobiles/": "2026-10-12T16:26:59.841194+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-supports-record-numbers-of-people-living-with-dementia-as-target-achieved/": "2026-10-22T12:46:48.184592+00:00",
     "https://www.phgfoundation.org/blog/phg-foundation-becomes-phg-cambridge/": "2026-10-14T12:38:26.625335+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261006234534.htm": "2026-10-11T13:44:58.972773+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042111.htm": "2026-10-13T14:48:16.207143+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261008005254.htm": "2026-10-11T13:44:58.972773+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261008102716.htm": "2026-10-12T16:26:59.841194+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261008102718.htm": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261009025434.htm": "2026-10-11T13:44:58.972773+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261009025708.htm": "2026-10-12T16:26:59.841194+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261011211550.htm": "2026-10-12T16:26:59.841194+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261011211552.htm": "2026-10-13T14:48:16.207143+00:00",
@@ -30332,12 +30494,8 @@
     "https://www.sciencedaily.com/releases/2026/10/261021231248.htm": "2026-10-23T12:25:34.319883+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261022081314.htm": "2026-10-23T12:25:34.319883+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261023002905.htm": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261023003337.htm": "2026-10-26T13:51:20.780431+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261023023726.htm": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/09/biotech-news-life-biosciences-share-glaucoma-cellular-reprogramming-drug-update/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.statnews.com/2026/10/09/hospitals-sue-to-halt-340b-rebate-pilot-trump/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.statnews.com/2026/10/09/medicare-advantage-insurers-star-ratings-2027-humana-alignment/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.statnews.com/2026/10/09/steven-quay-no-longer-in-consideration-for-top-infectious-disease-role/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.statnews.com/2026/10/10/u-s-trust-science-higher-than-other-nations-wellcome-survey/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
     "https://www.statnews.com/2026/10/13/animosity-in-north-carolina-and-ma-shooting-stars-health-care-inc/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
@@ -30439,11 +30597,17 @@
     "https://www.statnews.com/2026/10/23/state-medicaid-officials-prepare-for-new-work-requirements/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/tango-pancreatic-cancer-star-moderna-readout-newsletter/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/24/christina-applegate-multiple-sclerosis-why-ms-misdiagnosis-happens/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/24/you-can-see-everything-stat-letters-to-editor/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/09/pharma-free-lunches-to-doctors-boost-inappropriate-prescribing/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/09/up-and-down-ladder-latest-comings-and-goings-jobs/?utm_campaign=rss": "2026-10-11T13:44:58.972773+00:00",
+    "https://www.statnews.com/2026/10/25/esmo-astrazeneca-adcs-lung-gastric-cancer/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/biotech-news-moderna-ceo-on-whats-next-after-intismeran-success/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/cumulative-ai-use-isolation-research-data-missing/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/health-news-virus-afflicting-cows-makes-the-jump-to-humans/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/heart-health-women-four-life-stages-qa-sadiya-khan/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/how-bad-should-a-healthy-person-feel/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/moderna-ceo-stephane-bancel-interview-cancer-vaccine-intismeran/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/nih-vaccine-injury-center-probes-post-infection-illness/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/pharmalot/2026/10/13/many-patient-and-consumer-reps-on-fda-advisory-committees-ties-to-groups-funded-by-pharma/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.statnews.com/pharmalot/2026/10/13/neurocrine-rare-disease-drug-concerns-pharma-payments-to-doctors/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.statnews.com/pharmalot/2026/10/14/compass-pathways-psychedelics-stat-summit/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
@@ -30460,7 +30624,8 @@
     "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/23/up-and-down-ladder-pharma-jobs-callio/": "2026-10-25T12:21:08.016375+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/23/up-and-down-ladder-pharma-jobs-callio/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/26/roche-lung-cancer-drug-patient-death-in-bristol-trial/": "2026-10-26T13:51:20.780431+00:00"
   },
   "takedowns": []
 }
