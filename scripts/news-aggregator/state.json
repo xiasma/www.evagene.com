@@ -30398,30 +30398,344 @@
         "crop-genomics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": "When scientists try to work out whether a change in someone's DNA is harmful or harmless, they often use computer programs to help make that judgement. A new preliminary study — not yet checked by independent reviewers — suggests there may be a problem with how these programs are tested. The programs can influence the official databases used to label DNA changes as likely harmful or harmless. Those same databases are then used to check how good the programs are. This could mean the programs appear more accurate than they really are. The researchers are calling for better methods to keep these two things separate. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint warns that variant effect predictors are shaping the very data used to train them",
+      "is_preprint": true,
+      "run_date": "2026-10-27",
+      "run_iso": "2026-10-27T12:56:45+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-10-27T00:00:00+00:00",
+        "novelty": 9
+      },
+      "slug": "vep-clinvar-circularity-variant-classification",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-27T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Variant effect predictors are shaping the ClinVar classifications used to train and evaluate them",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761512v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies a circularity problem in clinical variant classification: computational predictors are influencing ClinVar entries that are then used to benchmark those same tools.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing a classification-level circularity in the variant interpretation pipeline. Variant effect predictors (VEPs) — computational tools that estimate the pathogenicity of DNA variants — have, following recent calibration work and the adoption of points-based ACMG/AMP classification standards, accumulated enough evidential weight to shift variants out of uncertain significance (VUS status) with limited supporting data. The authors show that this creates a feedback loop: VEP predictions help determine how variants are classified in ClinVar, and those ClinVar classifications are subsequently used to train, benchmark, and calibrate the same predictors.\n\nThe finding has direct relevance to the reliability of computational variant interpretation. If VEPs are evaluated against labels they have themselves helped to generate, measures of their performance — sensitivity, specificity, calibration — may be inflated in ways that are difficult to detect from standard benchmarking alone. The preprint does not argue that VEPs are unhelpful, but calls for greater methodological awareness of how training and evaluation data are assembled, and whether computational evidence has been stripped out before benchmarks are constructed.\n\nThis work sits alongside recently published preprints calibrating AlphaGenome and SpliceAI2 scores for variant classification (covered in Genetic Current, 25 October 2026) and represents a cautionary complement to that literature. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "variant-interpretation",
+        "variant-classification",
+        "clinvar",
+        "vep",
+        "computational-genomics",
+        "acmg-amp",
+        "benchmarking",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint describes automated multi-agent system for interpreting GWAS loci at scale",
+      "is_preprint": true,
+      "run_date": "2026-10-27",
+      "run_iso": "2026-10-27T12:56:45+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-27T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "post-gwas-intelligence-automated-loci-interpretation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-27T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Scaling genetic discovery through automated post-GWAS interpretation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761278v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint introduces Post-GWAS Intelligence (PGI), a multi-agent computational framework designed to standardise and scale the interpretation of genetic association findings beyond the discovery stage.",
+      "summary": "A team has posted a preprint to bioRxiv describing Post-GWAS Intelligence (PGI), a computational framework that couples context-dependent post-GWAS analysis to a common evidence representation. Its central component, VariantAgent, executes analytical workflows, records tool-derived results in standardised variant-centred units, and generates trait-level interpretations linked to their analytical basis and evidential status.\n\nGWAS have made the identification of genetic associations systematic, but translating those associations into biological insight — fine-mapping causal variants, linking them to genes, and contextualising them across studies — remains selective, heterogeneous, and labour-intensive. PGI aims to make this interpretation layer cumulative and reproducible in the same way that association discovery itself has become.\n\nThe framework is relevant to researchers who generate or consume GWAS outputs, and to educators and students seeking to understand the post-discovery pipeline in modern genomics. By standardising how analytical evidence is recorded and presented, PGI could reduce the inconsistency that currently characterises the literature between initial association and functional follow-up. The preprint has not yet been peer-reviewed, and independent validation of the system's outputs across diverse trait domains will be needed before its utility can be fully assessed.",
+      "tags": [
+        "gwas",
+        "post-gwas",
+        "computational-genomics",
+        "variant-interpretation",
+        "fine-mapping",
+        "multi-agent",
+        "automation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint reports integrated high-resolution KIR genotyping system tested across 24 human populations",
+      "is_preprint": true,
+      "run_date": "2026-10-27",
+      "run_iso": "2026-10-27T12:56:45+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-10-27T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "kir-genotyping-high-resolution-24-populations",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-27T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Technology solutions for immune loci: integrated high-resolution KIR genotyping reveals allelic, structural, and KIR-HLA diversity across 24 human populations",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761185v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint describes a short-read sequencing system that resolves killer cell immunoglobulin-like receptor alleles, copy-number variation, and KIR–HLA interactions at population scale.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing a high-resolution genotyping system for killer cell immunoglobulin-like receptor (KIR) genes — a family of immune-regulatory loci on chromosome 19q13 that influence natural killer cell function. KIR genes are notoriously difficult to type at allele resolution because of extensive sequence homology between family members, copy-number variation across haplotypes, and complex structural diversity. Until now, routine typing has largely been limited to gene presence or absence, rather than allele-level resolution.\n\nThe system evaluated in the preprint integrates a four-reaction, two-stage multiplex PCR assay (ScisGo-KIR-v3) with centralised cloud-based copy-aware allele analysis and interactive genotype review. The authors applied it to 2,298 individuals across 24 human populations, generating data on allelic, structural, and KIR–HLA diversity at a scale not previously reported.\n\nKIR–HLA combinations are relevant to transplantation outcomes, susceptibility to certain infectious and autoimmune conditions, and reproductive immunology — making high-resolution population-scale data of interest to researchers in immunogenetics, population genetics, and transplant science. The study also has relevance for researchers studying genetic diversity across ancestry groups. The preprint has not yet undergone peer review.",
+      "tags": [
+        "kir-genes",
+        "immunogenetics",
+        "hla",
+        "copy-number-variation",
+        "population-genetics",
+        "high-resolution-genotyping",
+        "natural-killer-cells",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint finds cytoplasmic genomes alter nuclear allele expression in Arabidopsis seeds, independent of imprinting",
+      "is_preprint": true,
+      "run_date": "2026-10-27",
+      "run_iso": "2026-10-27T12:56:45+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-26T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "cytonuclear-epistasis-allelic-expression-arabidopsis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-26T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cytoplasmic genomes change allelic expression bias in plant seeds independently of parental imprinting: evidence for cytonuclear regulatory epistasis in Arabidopsis thaliana",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760594v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses cytoplasmic genome swaps in Arabidopsis thaliana to show that mitochondrial and plastid genotypes influence nuclear allelic expression bias through mechanisms distinct from parental imprinting.",
+      "summary": "A preprint posted to bioRxiv by researchers working with the model plant Arabidopsis thaliana presents evidence that cytoplasmic genomes — mitochondria and plastids — can alter which parental allele is preferentially expressed at nuclear loci, independently of the imprinting mechanisms previously thought to govern allelic bias in plant seeds.\n\nThe study used hybrid plant lines in which cytoplasmic genomes had been swapped between accessions, allowing the authors to disentangle cytoplasmic from nuclear and imprinting effects on allele-specific expression (ASE). Using a bias-free ASE analysis pipeline based on dual pseudo-genome alignment, they profiled ASE across 48 RNA-seq datasets. Their findings suggest cytonuclear regulatory epistasis — a form of interaction between organelle genomes and the nuclear genome — shapes allelic dominance at a substantial number of nuclear loci.\n\nThe findings are relevant to plant geneticists and evolutionary biologists interested in genome conflict, cytonuclear co-evolution, and the mechanisms governing gene regulation in hybrid and polyploid plants. For researchers working with Arabidopsis or crop species where cytoplasmic diversity is actively managed, the results raise questions about how cytoplasmic background should be controlled in expression studies. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "cytonuclear-epistasis",
+        "allele-specific-expression",
+        "arabidopsis",
+        "plant-genetics",
+        "mitochondrial-genome",
+        "plastid",
+        "epigenetics",
+        "imprinting",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study identifies auxilin in gut hormone cells as a regulator of intestinal stem cell behaviour",
+      "is_preprint": false,
+      "run_date": "2026-10-27",
+      "run_iso": "2026-10-27T12:56:45+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-26T14:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "auxilin-enteroendocrine-intestinal-stem-cell-homeostasis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-26T14:00:00+00:00",
+          "publisher": "Public Library of Science",
+          "title": "Auxilin in enteroendocrine cells controls intestinal homeostasis through inter-cell signaling relays",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012353"
+        }
+      ],
+      "standfirst": "Researchers publishing in PLOS Genetics show that the protein auxilin, acting within enteroendocrine cells, controls intestinal stem cell proliferation through inter-cell signalling relays.",
+      "summary": "A study published in PLOS Genetics by Runqi Wang, Zhengran Li, and colleagues describes a previously uncharacterised role for the protein auxilin in maintaining intestinal tissue homeostasis. Working in a model system, the team found that auxilin expressed within enteroendocrine cells — specialised hormone-secreting cells lining the gut — acts as a node in a signalling relay that governs how frequently neighbouring intestinal stem cells divide.\n\nAdult stem cells must continuously calibrate their proliferation rate to replenish tissue without overproducing cells. How differentiated, non-dividing cells influence this calibration through paracrine signals has been incompletely understood. The authors demonstrate that auxilin, a protein previously studied primarily for its role in clathrin-mediated endocytosis, participates in an inter-cell communication pathway that links enteroendocrine cell activity to stem cell behaviour.\n\nThe findings add a new layer to the understanding of gut homeostasis and may be relevant to researchers studying intestinal biology, tissue renewal, and the signalling pathways that become dysregulated in inflammatory bowel conditions or intestinal cancer. The study appears in the peer-reviewed journal PLOS Genetics.",
+      "tags": [
+        "auxilin",
+        "enteroendocrine-cells",
+        "intestinal-stem-cells",
+        "tissue-homeostasis",
+        "cell-signalling",
+        "gut-biology",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "PLOS Genetics study charts mobile genetic element diversity in Wolbachia from common mosquitoes",
+      "is_preprint": false,
+      "run_date": "2026-10-27",
+      "run_iso": "2026-10-27T12:56:45+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-10-26T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "wolbachia-mobilome-culex-pipiens-plasmid-prophage",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-26T14:00:00+00:00",
+          "publisher": "Public Library of Science",
+          "title": "Extensive mobilome heterogeneity in a widespread endosymbiont: A candidate dimeric plasmid and highly fragmented prophages in Wolbachia from Culex pipiens",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012347"
+        }
+      ],
+      "standfirst": "Researchers publishing in PLOS Genetics characterise an unexpectedly diverse mobilome in Wolbachia bacteria from Culex pipiens mosquitoes, including a candidate dimeric plasmid and highly fragmented prophages.",
+      "summary": "A study published in PLOS Genetics by Alice Brunner, Maxime Mahout, and colleagues describes the mobile genetic element landscape — the mobilome — of Wolbachia strains infecting Culex pipiens, one of the world's most widespread mosquito vectors. Wolbachia are obligate intracellular bacteria that have attracted considerable research interest because of their capacity to manipulate host arthropod reproduction and their use as a strategy for suppressing arbovirus transmission in mosquito biocontrol programmes.\n\nDespite having highly reduced genomes, Wolbachia are known to harbour phages, insertion sequences, and plasmids. The study reveals substantial heterogeneity in the Culex pipiens Wolbachia mobilome, including a candidate dimeric plasmid and prophage elements that appear highly fragmented — a finding that has implications for understanding Wolbachia genome evolution and strain variation. Mobile elements can mediate horizontal gene transfer, influence phenotype, and complicate genomic analyses.\n\nThe work is relevant to researchers in vector biology, evolutionary microbiology, and population genetics, particularly those working on Wolbachia-based biocontrol strategies where strain selection depends on a detailed understanding of genomic architecture. The study appears in the peer-reviewed journal PLOS Genetics.",
+      "tags": [
+        "wolbachia",
+        "mobilome",
+        "culex-pipiens",
+        "mosquito-genetics",
+        "endosymbiont",
+        "prophage",
+        "plasmid",
+        "vector-biology",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "genealogists",
+        "patients"
+      ],
+      "for_patients": "Some inherited diseases are so rare that large pharmaceutical companies do not develop treatments for them. A community of Amish and Mennonite families in the United States has responded by setting up its own effort to develop a gene therapy — a type of treatment that aims to correct or compensate for a faulty gene. The community has a higher rate of certain inherited conditions because it descends from a relatively small number of founders, a well-understood pattern in genetics. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Pennsylvania Dutch community builds its own gene therapy programme after biopharma passes on rare disease",
+      "is_preprint": false,
+      "run_date": "2026-10-27",
+      "run_iso": "2026-10-27T12:56:45+00:00",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 7,
+        "newest_iso": "2026-10-27T08:30:00+00:00",
+        "novelty": 9
+      },
+      "slug": "pennsylvania-dutch-rare-disease-gene-therapy-community",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/DrStrauss-012-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-27T08:30:00+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Pennsylvania Dutch country, tired of waiting for biopharma, builds drug company of its own",
+          "url": "https://www.statnews.com/2026/10/27/gene-therapy-cow-rare-disease-amish-mennonite-patients-waiting/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "A STAT News report describes how an Amish and Mennonite community in Pennsylvania Dutch country has established its own drug development effort to tackle a rare inherited disease that larger pharmaceutical companies declined to pursue.",
+      "summary": "A report by STAT News describes an unusual community-led drug development initiative in Pennsylvania Dutch country, where an Amish and Mennonite community has established its own organisation to develop a gene therapy for a rare inherited disease disproportionately affecting its members. The community, which has long faced a higher burden of certain recessive genetic conditions because of founder effects and historical population bottlenecks, had been unable to attract sustained biopharma investment for the condition in question.\n\nThe initiative — which the report describes as pairing community resources, local clinical knowledge, and academic partnerships — represents a model of patient-community-driven rare disease research that sits outside the conventional pharmaceutical development pathway. Founder effects, in which a small founding population transmits rare recessive variants at elevated frequency to a large descendant population, are well characterised in Anabaptist communities and have historically posed challenges for matching patients to clinical trial recruitment.\n\nThe story is of interest to researchers working in rare disease, genetic counsellors involved in community genetics, and educators teaching about population genetics, health equity, and the challenges of orphan disease drug development. It also illustrates how founder population genetics intersects with real-world access to therapeutic research. The underlying article is behind a STAT+ paywall; this summary is based on the publicly available lede and contextual knowledge.",
+      "tags": [
+        "rare-disease",
+        "gene-therapy",
+        "founder-effects",
+        "amish-mennonite",
+        "orphan-disease",
+        "community-genetics",
+        "health-equity",
+        "population-genetics"
+      ]
     }
   ],
-  "last_run": "2026-10-26T13:51:20.780431+00:00",
+  "last_run": "2026-10-27T12:59:04.058569+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012139": "2026-10-15T12:26:51.800470+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012322": "2026-10-16T12:05:57.821152+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012334": "2026-10-13T14:48:16.207143+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012337": "2026-10-27T12:59:04.058569+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012338": "2026-10-22T12:46:48.184592+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012339": "2026-10-13T14:48:16.207143+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012340": "2026-10-17T11:21:15.775587+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012341": "2026-10-17T11:21:15.775587+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012342": "2026-10-22T12:46:48.184592+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012347": "2026-10-27T12:59:04.058569+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012353": "2026-10-27T12:59:04.058569+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012355": "2026-10-23T12:25:34.319883+00:00",
-    "https://news.cancerresearchuk.org/2026/10/12/cancer-waiting-times-latest-updates-and-analysis/": "2026-10-12T16:26:59.841194+00:00",
     "https://news.cancerresearchuk.org/2026/10/14/understanding-the-architecture-of-pancreatic-cancer-risk/": "2026-10-15T12:26:51.800470+00:00",
     "https://news.cancerresearchuk.org/2026/10/16/fibremaxxing-sleepmaxxing-can-maxxing-help-prevent-cancer/": "2026-10-16T12:05:57.821152+00:00",
     "https://news.cancerresearchuk.org/2026/10/21/minding-the-gap-ai-regulators-should-learn-from-the-pharmaceutical-industry/": "2026-10-22T12:46:48.184592+00:00",
     "https://news.cancerresearchuk.org/2026/10/23/esmo-2026-updates/": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.05.756630v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
+    "https://news.cancerresearchuk.org/2026/10/27/the-alborada-trust-donates-9m-to-help-develop-the-next-generation-of-cancer-research-leaders/": "2026-10-27T12:59:04.058569+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756748v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756803v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.06.757091v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.08.756769v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.08.757717v1?rss=1": "2026-10-12T16:26:59.841194+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757075v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757598v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757836v1?rss=1": "2026-10-13T14:48:16.207143+00:00",
@@ -30450,18 +30764,18 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.20.759351v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760381v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760491v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.20.760594v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.21.760715v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.21.760774v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.758806v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761030v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.22.761185v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.23.761278v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761329v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
-    "https://www.england.nhs.uk/2026/10/nhs-rolls-out-prescription-ready-alerts-on-smartwatches-and-mobiles/": "2026-10-12T16:26:59.841194+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.24.761512v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-supports-record-numbers-of-people-living-with-dementia-as-target-achieved/": "2026-10-22T12:46:48.184592+00:00",
     "https://www.phgfoundation.org/blog/phg-foundation-becomes-phg-cambridge/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261007042111.htm": "2026-10-13T14:48:16.207143+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261008102716.htm": "2026-10-12T16:26:59.841194+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261009025708.htm": "2026-10-12T16:26:59.841194+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261011211550.htm": "2026-10-12T16:26:59.841194+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261011211552.htm": "2026-10-13T14:48:16.207143+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261011211556.htm": "2026-10-13T14:48:16.207143+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261011211613.htm": "2026-10-13T14:48:16.207143+00:00",
@@ -30496,6 +30810,8 @@
     "https://www.sciencedaily.com/releases/2026/10/261023002905.htm": "2026-10-25T12:21:08.016375+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261023003337.htm": "2026-10-26T13:51:20.780431+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261023023726.htm": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261025073049.htm": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261025222538.htm": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/13/animosity-in-north-carolina-and-ma-shooting-stars-health-care-inc/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
@@ -30602,12 +30918,30 @@
     "https://www.statnews.com/2026/10/25/esmo-astrazeneca-adcs-lung-gastric-cancer/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/26/biotech-news-moderna-ceo-on-whats-next-after-intismeran-success/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/biotech-news-moderna-ceo-on-whats-next-after-intismeran-success/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/26/bon-secours-mercy-health-surgery-partners-deal-ambulatory-surgery-centers-bain-capital/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/cumulative-ai-use-isolation-research-data-missing/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/cumulative-ai-use-isolation-research-data-missing/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/26/gsk-cancer-esmo-adcs-jemperli/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/26/health-data-interoperability-hti5-relaxes-privacy-security-requirements/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/26/health-insurance-costs-medicaid-challenges-cms-fraud-crackdown-dc-diagnosis/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/health-news-virus-afflicting-cows-makes-the-jump-to-humans/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/health-news-virus-afflicting-cows-makes-the-jump-to-humans/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/heart-health-women-four-life-stages-qa-sadiya-khan/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/heart-health-women-four-life-stages-qa-sadiya-khan/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/how-bad-should-a-healthy-person-feel/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/how-bad-should-a-healthy-person-feel/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/26/incyte-esmo-pancreatic-cancer-incb161734-results/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/26/merck-kelun-sac-tmt-endometrial-cancer-study-esmo-2026/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/moderna-ceo-stephane-bancel-interview-cancer-vaccine-intismeran/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/moderna-ceo-stephane-bancel-interview-cancer-vaccine-intismeran/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/nih-vaccine-injury-center-probes-post-infection-illness/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/2026/10/26/nih-vaccine-injury-center-probes-post-infection-illness/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/26/roche-kras-drug-divarasib-lung-cancer-treatment-win/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/27/cancer-vaccines-intismeran-autogene-esmo-results-delivery-access/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/27/gene-therapy-cow-rare-disease-amish-mennonite-patients-waiting/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/27/health-news-possible-treatment-for-brain-eating-amoebas-found-in-sea/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/2026/10/27/pediatric-emergency-care-rural-hospital-closures/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/pharmalot/2026/10/13/many-patient-and-consumer-reps-on-fda-advisory-committees-ties-to-groups-funded-by-pharma/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.statnews.com/pharmalot/2026/10/13/neurocrine-rare-disease-drug-concerns-pharma-payments-to-doctors/": "2026-10-14T12:38:26.625335+00:00",
     "https://www.statnews.com/pharmalot/2026/10/14/compass-pathways-psychedelics-stat-summit/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
@@ -30625,7 +30959,9 @@
     "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/pharmalot/2026/10/23/up-and-down-ladder-pharma-jobs-callio/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/26/roche-lung-cancer-drug-patient-death-in-bristol-trial/": "2026-10-26T13:51:20.780431+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/26/lawmaker-probes-pbms-for-punitive-audits-independent-pharmacies/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/26/roche-lung-cancer-drug-patient-death-in-bristol-trial/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/26/roche-lung-cancer-drug-patient-death-in-bristol-trial/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00"
   },
   "takedowns": []
 }
