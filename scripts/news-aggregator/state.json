@@ -31062,13 +31062,240 @@
         "genome-evolution",
         "chemical-communication"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "Scientists at the Dana-Farber Cancer Institute in the United States have created a detailed map of colorectal cancer tumours — the type of cancer that affects the large bowel — to understand why this cancer seems to be more dangerous when it develops in younger people (those under 50). Rates of bowel cancer in younger adults have been going up in recent years, and doctors have noticed that the disease often behaves more aggressively in this group. By studying the biology of tumours in detail across many patients, researchers hope to find out why this happens and what might be done about it in future. This research is at an early stage and the findings have not yet been fully reported in a publicly accessible form. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "New tumour atlas maps why early-onset colorectal cancer behaves more aggressively",
+      "is_preprint": false,
+      "run_date": "2026-10-29",
+      "run_iso": "2026-10-29T13:55:04Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-10-29T10:00:00Z",
+        "novelty": 7
+      },
+      "slug": "colorectal-cancer-atlas-young-onset-dana-farber",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/C0226518-Colorectal_cancer_cell_SEM-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-29T10:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: New atlas of colorectal tumors sheds light on why cancers in young people are more dangerous",
+          "url": "https://www.statnews.com/2026/10/29/early-onset-colorectal-cancer-dana-farber-study-qa-kimmie-ng/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "A molecular atlas of colorectal tumours from Dana-Farber Cancer Institute is shedding light on the biological features that may make cancers diagnosed in younger adults more dangerous than those in older patients.",
+      "summary": "Researchers at Dana-Farber Cancer Institute have constructed a detailed molecular atlas of colorectal tumours with the aim of understanding why cancers arising in younger adults tend to follow a more aggressive clinical course than those diagnosed later in life. The work, reported by STAT News, involves characterising the genomic and biological landscape of early-onset colorectal cancer — a disease whose incidence has been rising in people under 50 across several high-income countries.\n\nEarly-onset colorectal cancer has attracted growing research attention because its epidemiology does not fit neatly with the classical risk factors associated with the disease in older populations, and because outcomes for younger patients are frequently worse despite, in many cases, more intensive treatment. The atlas approach — compiling high-resolution molecular data across many tumours — is intended to identify patterns that distinguish early-onset from later-onset disease at a biological level and potentially to illuminate the mechanisms behind more aggressive behaviour.\n\nThe full dataset and methodology are behind a STAT+ paywall and the primary journal publication has not been identified from the available lede; readers wishing to access the detailed findings should consult the original STAT News report and the associated peer-reviewed publication. The work is relevant to researchers in cancer genomics and somatic genetics, oncologists with an interest in hereditary and early-onset colorectal cancer, and genetic counsellors working with families affected by this disease.",
+      "tags": [
+        "colorectal-cancer",
+        "early-onset-cancer",
+        "tumour-atlas",
+        "somatic-genomics",
+        "cancer-biology",
+        "dana-farber"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Stickleback study tests theory linking population size, recombination rate, and selection efficiency",
+      "is_preprint": false,
+      "run_date": "2026-10-29",
+      "run_iso": "2026-10-29T13:55:04Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-28T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "stickleback-recombination-linked-selection-population-size",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-28T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Recombination rate and efficiency of linked selection in small and large stickleback populations",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012335"
+        }
+      ],
+      "standfirst": "A PLOS Genetics analysis of threespine stickleback populations examines whether small populations evolve higher recombination rates and whether natural selection operates less efficiently in them, as population genetic theory predicts.",
+      "summary": "Researchers including Hongbo Wang, Chaowei Zhang, Kerry Reid, and Juha Merilä have published a study in PLOS Genetics examining two linked predictions from population genetics theory: that natural selection is less efficient in small populations due to the influence of genetic drift, and that small populations adapting to new environments should evolve higher recombination rates to facilitate adaptation and the removal of harmful mutations.\n\nThe team tested these hypotheses using threespine sticklebacks (Gasterosteus aculeatus), a well-established model system in evolutionary and population genetics. Their approach combined investigation of the relationship between nucleotide diversity and recombination rate across genomes — a signature used to assess the strength of linked selection — with comparative analysis across populations of differing sizes.\n\nThe study contributes to a long-standing body of theory and empirical work on how effective population size shapes the power of natural selection and the evolution of genetic architecture. Threespine sticklebacks have repeatedly adapted to freshwater environments from marine ancestors, providing natural replication of evolutionary transitions that make them well-suited to testing such population genetic predictions. The findings are most directly relevant to researchers in evolutionary genetics, population genomics, and those with interests in recombination biology. They also offer useful illustrative material for educators teaching core concepts in population genetics and evolutionary theory.",
+      "tags": [
+        "recombination",
+        "linked-selection",
+        "population-genetics",
+        "stickleback",
+        "genetic-drift",
+        "evolutionary-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Fast probabilistic whitening method tackles linkage disequilibrium in ultra-high-dimensional genetic data",
+      "is_preprint": false,
+      "run_date": "2026-10-29",
+      "run_iso": "2026-10-29T13:55:04Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-10-28T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "whitening-transformation-linkage-disequilibrium-statistical-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-28T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Fast probabilistic whitening transformation for ultra-high dimensional genetic data",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012320"
+        }
+      ],
+      "standfirst": "Gabriel Hoffman and colleagues at the Icahn School of Medicine describe a computationally efficient whitening transformation for removing linkage disequilibrium correlation structure from large-scale statistical genetics datasets.",
+      "summary": "Gabriel E. Hoffman, Christian P. Dillard, Kiran Girdhar, and Panos Roussos have published a methods paper in PLOS Genetics describing a fast probabilistic whitening transformation designed to handle the correlation structures that complicate analysis of ultra-high-dimensional genetic data.\n\nA central challenge in statistical genetics is that variants located close together on the genome tend to be inherited together — a phenomenon known as linkage disequilibrium (LD). This correlation between nearby variants can distort downstream analyses, including applications that use GWAS summary statistics. Many existing methods address LD using reference panels, but scaling these approaches to very large datasets presents computational challenges.\n\nThe whitening transformation described in this paper offers a way to remove correlation structure from data before analysis, improving the validity of methods that assume independence between features or samples. The authors apply their approach to statistical genetics contexts where LD between regression summary statistics is a recognised complication. The work is a technical methods contribution most directly useful to statistical geneticists and computational genomics researchers developing or applying large-scale genetic association and functional genomics pipelines. It will also be of interest to educators covering the statistical foundations of genome-wide association studies.",
+      "tags": [
+        "linkage-disequilibrium",
+        "statistical-genetics",
+        "whitening-transformation",
+        "gwas",
+        "computational-genomics",
+        "summary-statistics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint pair presents structure-aware graph neural network system for de novo protein design",
+      "is_preprint": true,
+      "run_date": "2026-10-29",
+      "run_iso": "2026-10-29T13:55:04Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-10-28T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "de-novo-protein-design-gnn-esm-bidirectional-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "An Interactive Bidirectional De Novo Protein Design System",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762208v1?rss=1"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": false,
+          "published_iso": "2026-10-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "De novo Protein Generating Model via Structure-Aware Graph Neural Networks",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762190v1?rss=1"
+        }
+      ],
+      "standfirst": "Two related bioRxiv preprints describe a graph neural network framework and an interactive web server that combine sequence design with ESMFold-based structure prediction in a bidirectional design loop — neither has yet been peer-reviewed.",
+      "summary": "Two companion preprints posted to bioRxiv describe closely related work on computational de novo protein design using graph neural networks (GNNs) and ESMFold-based structure prediction.\n\nThe first preprint presents a GNN model trained to predict amino acid sequences from protein backbone coordinates, using a composite loss function that heavily weights structural similarity rather than sequence recovery alone. By integrating differentiable structure prediction via ESMFold, the model can directly optimise 3D conformational accuracy — an approach the authors argue better suits applications where structural fidelity to a target backbone is the primary goal.\n\nThe second preprint describes an interactive web server that wraps a structure-aware GNN for sequence design and an ESMFold-based structure predictor into a single bidirectional design loop accessible through a web browser, without requiring local software installation. The server includes a Kabsch alignment tool for superimposing predicted structures onto target backbones and visualises both directions of the sequence–structure mapping.\n\nBoth preprints are from bioRxiv and have not been peer-reviewed. The work is relevant to structural biologists, computational biologists, and protein engineers, and intersects with the active field of AI-assisted protein design. As preprints, the findings and methods should be treated as preliminary until they have undergone peer review and independent replication.",
+      "tags": [
+        "protein-design",
+        "graph-neural-network",
+        "esm-fold",
+        "structural-biology",
+        "computational-biology",
+        "de-novo-design",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint delivers high-resolution HLA and MICA/MICB typing across the 1000 Genomes panel",
+      "is_preprint": true,
+      "run_date": "2026-10-29",
+      "run_iso": "2026-10-29T13:55:04Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-10-28T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "hla-mica-micb-high-resolution-1000-genomes-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "High-resolution HLA and MICA/MICB typing of the 1000 Genomes panel: a resource for precision medicine",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761181v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports high-resolution typing of 13 HLA and MIC loci across 2,486 individuals from the 1000 Genomes Phase 3 panel, providing a population reference resource for transplantation immunogenetics and MHC disease-association research — not yet peer-reviewed.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing high-resolution typing of human leukocyte antigen (HLA) and MICA/MICB loci across the 1000 Genomes Phase 3 panel, a widely used population reference dataset. The study generated HLA genotypes for 2,486 individuals across 13 HLA and MIC loci, including extended allele assignments for HLA-A, HLA-B, and HLA-C, and MICA/MICB genotypes for 2,393 individuals representing populations from multiple global ancestries.\n\nHigh-resolution characterisation of variation at the major histocompatibility complex (MHC) is important in several contexts: donor–recipient matching in solid organ and haematopoietic stem cell transplantation; immunogenetics research; and the interpretation of disease association signals within the MHC region, which remains one of the most gene-dense and variant-rich regions of the human genome. The authors note that publicly available population reference datasets have until now been limited in their resolution and coverage of these loci.\n\nBy generating a more complete high-resolution resource anchored to the well-characterised 1000 Genomes panel, the work aims to improve the quality of reference data available for downstream analyses in immunogenetics and population genomics. This is a preprint and has not yet been peer-reviewed. Researchers working in immunogenetics, transplantation genomics, and population genetics, as well as genetic counsellors involved in HLA-related clinical contexts, will find the resource most directly relevant.",
+      "tags": [
+        "hla",
+        "mica-micb",
+        "immunogenetics",
+        "mhc",
+        "1000-genomes",
+        "population-genetics",
+        "transplantation",
+        "high-resolution-genotyping",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-10-28T13:49:55.376432+00:00",
+  "last_run": "2026-10-29T13:56:37.272747+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012139": "2026-10-15T12:26:51.800470+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012320": "2026-10-29T13:56:37.272747+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012322": "2026-10-16T12:05:57.821152+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012333": "2026-10-28T13:49:55.376432+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012335": "2026-10-29T13:56:37.272747+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012337": "2026-10-27T12:59:04.058569+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012338": "2026-10-22T12:46:48.184592+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012340": "2026-10-17T11:21:15.775587+00:00",
@@ -31078,11 +31305,11 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012351": "2026-10-28T13:49:55.376432+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012353": "2026-10-27T12:59:04.058569+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012355": "2026-10-23T12:25:34.319883+00:00",
-    "https://news.cancerresearchuk.org/2026/10/14/understanding-the-architecture-of-pancreatic-cancer-risk/": "2026-10-15T12:26:51.800470+00:00",
     "https://news.cancerresearchuk.org/2026/10/16/fibremaxxing-sleepmaxxing-can-maxxing-help-prevent-cancer/": "2026-10-16T12:05:57.821152+00:00",
     "https://news.cancerresearchuk.org/2026/10/21/minding-the-gap-ai-regulators-should-learn-from-the-pharmaceutical-industry/": "2026-10-22T12:46:48.184592+00:00",
     "https://news.cancerresearchuk.org/2026/10/23/esmo-2026-updates/": "2026-10-23T12:25:34.319883+00:00",
     "https://news.cancerresearchuk.org/2026/10/27/the-alborada-trust-donates-9m-to-help-develop-the-next-generation-of-cancer-research-leaders/": "2026-10-27T12:59:04.058569+00:00",
+    "https://news.cancerresearchuk.org/2026/10/28/latest-winner-in-our-research-is-beautiful-competition-8/": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.08.756769v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757075v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757598v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
@@ -31113,6 +31340,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.22.758806v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761030v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761079v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.22.761181v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761185v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761278v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761329v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
@@ -31126,12 +31354,13 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.26.761893v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.762008v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762151v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.27.762190v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762198v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.27.762208v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-supports-record-numbers-of-people-living-with-dementia-as-target-achieved/": "2026-10-22T12:46:48.184592+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261013015814.htm": "2026-10-16T12:05:57.821152+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014015501.htm": "2026-10-16T12:05:57.821152+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014015509.htm": "2026-10-17T11:21:15.775587+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261014015521.htm": "2026-10-15T12:26:51.800470+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261015003550.htm": "2026-10-17T11:21:15.775587+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261015003803.htm": "2026-10-17T11:21:15.775587+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261016070646.htm": "2026-10-19T14:19:10.837886+00:00",
@@ -31158,31 +31387,16 @@
     "https://www.sciencedaily.com/releases/2026/10/261026225608.htm": "2026-10-28T13:49:55.376432+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261027063704.htm": "2026-10-28T13:49:55.376432+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261027230715.htm": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/2026/10/13/blackrock-humana-centerwell-deal-senior-care-medicare-clinics/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/13/helen-branswell-stat-reporter-obituary/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/14/american-science-funding-university-industry-shift-stat-summit-boston-2026/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/14/biotech-news-fda-adcomm-member-ties-to-industry-under-scrutiny/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/14/former-fda-commissioners-say-recruit-defend-support-agency-workforce/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/14/gut-microbiome-baby-brain-health-research/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/14/health-news-glp-1-study-impact-interactions-with-criminal-justice-system-employment/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/14/lobbyists-trade-groups-ama-push-autonomous-clinical-ai-regulations/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/14/state-vaccine-factories-trump-shortages-vicp/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/14/the-startup-chasing-general-biological-intelligence-ai-prognosis/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/14/whoop-ami-bhatt-population-health-stat-summit-boston-2026/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
+    "https://www.sciencedaily.com/releases/2026/10/261028232701.htm": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/15/auchincloss-us-biotech-vs-china-protectionism/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/15/biotech-news-verastem-kras-inhibitor-shows-promise-in-pancreatic-cancer/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/15/compass-pathways-psychedelics-stat-summit/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/health-data-privacy-medical-record-opt-out-barriers-investigated/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/2026/10/15/health-news-kenya-reports-second-ebola-case/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/2026/10/15/health-policy-news-fda-califf-gottlieb-sharpless-criticize-hhs-leadership/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/15/healthcare-fraud-new-doj-policy-rewards-self-disclosure/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/15/melanoma-diagnosis-mrna-cancer-vaccine-stat-summit-boston-2026/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/15/moderna-merck-keytruda-mrna-cancer-vaccine-strategy/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/nursing-shortage-workforce-direct-support-home-care-workers-group-home/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/2026/10/15/scramble-to-shape-regulations-around-state-ai-sandboxes-health-tech/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/teenage-binge-eating-cdc-survey-finds-alarming-rate/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/wall-street-biotech-trouble-stirring/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
     "https://www.statnews.com/2026/10/16/biotech-news-revmed-pancreatic-cancer-drug-nears-european-approval/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/2026/10/16/david-sabatini-civil-trial-highlights-permissive-sexual-norms-whitehead-metoo/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/16/david-sabatini-wins-sexual-misconduct-lawsuit-metoo/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
@@ -31278,17 +31492,24 @@
     "https://www.statnews.com/2026/10/27/health-news-possible-treatment-for-brain-eating-amoebas-found-in-sea/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/27/pediatric-emergency-care-rural-hospital-closures/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/27/rfk-jr-campaigns-zach-lahn-iowa-coins-binsa-china-biotech-rules/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.statnews.com/2026/10/28/abdul-el-sayed-profile-midterm-policy-issues-health-care/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/28/biotech-news-lillys-triple-g-drug-beats-ozempic-in-head-to-head-study/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/2026/10/28/epic-systems-ehr-dominance-health-tech-antitrust-scrutiny/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/2026/10/28/epic-systems-electronic-health-records-reader-callout/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/2026/10/28/fertility-industry-private-equity-egg-freezing-ethics-costs/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.statnews.com/2026/10/28/health-care-ai-innovation-challenge-epic-ai-prognosis/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/28/health-news-why-are-overdose-deaths-declining/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.statnews.com/2026/10/28/hhs-enforcement-discretion-policy-allows-peptide-compounding/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/28/measles-parents-panic-pennsylvania-vaccines-education/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/2026/10/28/retatrutide-vs-ozempic-lilly-diabetes-study/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/14/compass-pathways-psychedelics-stat-summit/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/14/sanofi-avoids-fine-as-eu-accepts-offer-ends-antitrust-probe-over-disparaging-rival-vaccine/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/14/sanofi-settling-european-antitrust-probe-pharma-bro-shkreli/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/14/trump-administration-delays-new-rule-that-could-restrict-imported-meds-from-canad-and-overseas/?utm_campaign=rss": "2026-10-15T12:26:51.800470+00:00",
+    "https://www.statnews.com/2026/10/29/ai-science-biology-dependence-ethics-research/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/2026/10/29/biotech-licensing-deals-treasury-rules-stir-debate/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/2026/10/29/biotech-news-hhs-green-lights-six-peptides-for-now/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/2026/10/29/biotech-news-vertex-kidney-disease-drug-scrutinized-for-infection-risk/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/2026/10/29/early-onset-colorectal-cancer-dana-farber-study-qa-kimmie-ng/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/2026/10/29/health-care-costs-midterms-issue-out-of-pocket-series-part-6/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/2026/10/29/health-care-premiums-open-enrollment-employer-costs/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/2026/10/29/health-news-martin-kulldorff-critiques-scientific-gatekeepers-at-nih-lecture/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/pharmalot/2026/10/15/former-fda-commissioner-califf-criticized-doge-astrazeneca-ai-deal/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/pharmalot/2026/10/16/up-down-ladder-jobs-pharma-biotech-gilead-bausch-sanofi/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
@@ -31304,7 +31525,9 @@
     "https://www.statnews.com/pharmalot/2026/10/26/roche-lung-cancer-drug-patient-death-in-bristol-trial/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/pharmalot/2026/10/27/missouri-ag-warns-lilly-340b-drug-pricing-data/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/pharmalot/2026/10/27/novo-setback-in-court-house-probe-into-big-pbms/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/28/battles-over-340b-lilly-reports-weight-loss-drug-results/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/28/battles-over-340b-lilly-reports-weight-loss-drug-results/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/28/lawmaker-wants-gao-probe-trumprx-drug-pricing/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/29/peptides-policy-released-by-hhs-pbm-disclosure-requirements/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00"
   },
   "takedowns": []
 }
