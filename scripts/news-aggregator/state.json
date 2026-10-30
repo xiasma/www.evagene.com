@@ -31288,12 +31288,192 @@
         "high-resolution-genotyping",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists studying Alzheimer's disease have published early-stage research — not yet checked by independent reviewers — looking at a specific genetic variant called rs28834970 in a gene known as PTK2B. This gene makes a protein involved in how brain cells communicate with one another. In laboratory-grown human brain cells, the researchers found that this variant appeared to affect electrical activity in the cells and to influence two processes that have long been associated with Alzheimer's disease: the build-up of a protein called Tau and the processing of another protein linked to amyloid plaques. The research is at a very early stage and does not tell us anything about individual risk or what any person should do. It adds to scientific understanding of why certain genetic variants spotted in large population studies might be connected to Alzheimer's disease. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "PTK2B variant linked to Alzheimer's risk impairs electrical activity and Tau processing in human neurons",
+      "is_preprint": true,
+      "run_date": "2026-10-30",
+      "run_iso": "2026-10-30T13:47:25Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-10-30T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "ptk2b-rs28834970-alzheimers-neuronal-cultures",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-30T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The Alzheimer's disease-associated rs28834970 variant in PTK2B impairs electrical activity and regulates Tau phosphorylation and APP processing in human neuronal cultures",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761842v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint identifies how the rs28834970 variant in PTK2B disrupts neuronal function and influences two hallmark Alzheimer's pathways in cultured human neurones.",
+      "summary": "A preprint posted to bioRxiv describes work characterising the functional consequences of rs28834970, a single-nucleotide variant in the PTK2B gene that genome-wide association studies have previously linked to Alzheimer's disease risk. PTK2B encodes Proline-rich tyrosine kinase 2 (PYK2), a signalling protein implicated in synaptic function, but its precise contribution to Alzheimer's disease aetiology has remained disputed owing to contradictory evidence regarding amyloid-beta toxicity, tauopathy, and neuronal dysfunction.\n\nThe authors combined in silico variant-effect prediction with luciferase reporter assays and human neuronal culture models to investigate whether rs28834970 is likely to be the causal variant among associated PTK2B signals, and to determine how it impairs PYK2 function. Their experiments indicate that the variant reduces neuronal electrical activity and alters both Tau phosphorylation and amyloid precursor protein (APP) processing — two processes central to established models of Alzheimer's pathology.\n\nThe study has not yet been peer-reviewed and should be interpreted accordingly. Nonetheless, it contributes mechanistic detail to the genetics of a GWAS locus that has so far resisted functional explanation. Researchers working on neurodegeneration, synaptic signalling, or the functional interpretation of non-coding GWAS variants may find the methodology and findings of interest. The work does not assess clinical outcomes and no therapeutic implications are discussed by the authors.",
+      "tags": [
+        "ptk2b",
+        "alzheimers-disease",
+        "gwas",
+        "tau-phosphorylation",
+        "app-processing",
+        "neuronal-function",
+        "variant-interpretation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Usher syndrome type 1B is a rare inherited condition that causes profound deafness from birth and, over time, leads to progressive loss of vision due to a condition called retinitis pigmentosa. It is caused by faults in a gene called MYO7A. Researchers have published early-stage laboratory results — not yet independently reviewed — describing a new way to try to deliver a working copy of the MYO7A gene into the cells of the retina. The difficulty is that this gene is too large to fit inside the microscopic biological 'package' (called a virus vector) normally used for this kind of gene therapy, so the team developed a two-part system to get around this problem. The work is at a preclinical stage, meaning it has been tested in laboratory models and has not yet been tested in people. There is no approved treatment for Usher syndrome type 1B at this time. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Dual AAV vector strategy for Usher syndrome type 1B shows preclinical safety data",
+      "is_preprint": true,
+      "run_date": "2026-10-30",
+      "run_iso": "2026-10-30T13:47:25Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-10-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "dual-aav-myo7a-usher-syndrome-1b-preclinical",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Preclinical Development and Safety of Laterally Spreading Dual AAV.SPR-MYO7A Vectors for the Treatment of Usher Syndrome Type 1B",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.760972v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports preclinical development and safety evaluation of laterally spreading dual AAV vectors designed to deliver the large MYO7A gene in a model of the most severe form of Usher syndrome.",
+      "summary": "A preprint deposited on bioRxiv describes the preclinical development of a dual adeno-associated virus (AAV) gene therapy strategy targeting Usher syndrome type 1B (USH1B), the most common and most severe subtype of Usher syndrome. USH1B is caused by mutations in MYO7A and presents at birth with profound deafness and vestibular dysfunction, with progressive retinitis pigmentosa developing over time. No approved treatment currently exists.\n\nThe central technical challenge is that the MYO7A coding sequence exceeds the packaging capacity of a single AAV vector, which is the most widely used delivery platform for retinal gene therapies. The authors report that they developed dual AAV hybrid and overlap platforms designed to reconstitute full-length MYO7A expression in photoreceptors and retinal pigment epithelium. The preprint details safety evaluations in preclinical models, describing what the authors term a 'laterally spreading' mechanism intended to widen the transduction footprint beyond the injection site.\n\nThe work has not yet been peer-reviewed. For researchers and genetic counsellors with an interest in inherited retinal dystrophies, the study represents a methodological step in addressing the vector-capacity barrier that has long complicated gene therapy development for large-gene conditions. The authors make no clinical claims. This type of research is part of an active field working to translate gene therapy approaches to a group of rare diseases that currently have no approved pharmacological treatment.",
+      "tags": [
+        "usher-syndrome",
+        "myo7a",
+        "aav",
+        "gene-therapy",
+        "retinitis-pigmentosa",
+        "inherited-retinal-dystrophy",
+        "rare-disease",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "genealogists",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Probabilistic pedigree tracking improves monitoring of recessive disease alleles in registered dog breeds",
+      "is_preprint": true,
+      "run_date": "2026-10-30",
+      "run_iso": "2026-10-30T13:47:25Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-10-29T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "pedigree-tracking-recessive-alleles-canine-populations",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-10-29T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Pedigree-tracking improved population monitoring of recessive disease-causing alleles in pedigreed canine populations",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.761507v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint shows that incorporating full pedigree information and unknown parent groups into carrier-frequency estimates gives a more accurate picture of inherited disease allele burden in pedigreed canine populations.",
+      "summary": "A preprint posted to bioRxiv presents a method for improved population-level monitoring of recessive disease-causing alleles in pedigreed dog breeds, applied to five populations registered with the Royal Kennel Club (RKC). Most monogenic inherited diseases in dogs follow an autosomal recessive pattern, meaning that effective disease control depends on identifying heterozygous carriers through genetic testing. However, the authors argue that current monitoring approaches underestimate true carrier frequencies because they consider only part of the pedigree — specifically, dogs with a known genotype through direct genetic testing or an assigned 'hereditary status' derived from known parental genotypes.\n\nTo address this, the researchers applied probabilistic inference with unknown parent groups (UPGs), a statistical framework that accounts for founders whose genotypes are not directly observed. Applying this approach to five RKC-registered breeds allowed them to estimate allele frequencies across the full pedigree rather than only among genotyped individuals, with the authors reporting that this produced materially different frequency estimates compared with simpler methods.\n\nThe work is relevant to breeding programme managers, canine genetics researchers, and population geneticists interested in rare recessive alleles in closed or semi-closed pedigree populations. The method also has conceptual relevance for human pedigree-modelling contexts, where incomplete genotyping and founder uncertainty raise analogous analytical challenges. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "canine-genetics",
+        "recessive-disease",
+        "pedigree-analysis",
+        "carrier-frequency",
+        "population-genetics",
+        "unknown-parent-groups",
+        "royal-kennel-club",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Nicotinic receptor in dopamine neurones mediates learned odour preference in Drosophila",
+      "is_preprint": false,
+      "run_date": "2026-10-30",
+      "run_iso": "2026-10-30T13:47:25Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-10-29T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "nicotinic-receptor-dopamine-neurons-drosophila-odour-learning",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-10-29T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Nicotinic receptor in dopamine neurons mediates learned odor choice",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012356"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study by Yamagata and colleagues identifies how nicotinic acetylcholine receptor signalling in sugar-reward dopamine neurones shapes odour-based associative learning in fruit flies.",
+      "summary": "Research published in PLOS Genetics by Nobuhiro Yamagata, Nobuhiro Takahashi, and colleagues describes a role for nicotinic acetylcholine receptor (nAChR) signalling in the dopaminergic circuits that underlie associative olfactory learning in Drosophila melanogaster. The study focuses on the protocerebral anterior medial (PAM) cluster of dopamine neurones, which convey sugar reward signals and promote approach behaviour towards an odour that has been paired with reward during training.\n\nThe authors investigated how nAChRs regulate PAM dopamine neurone excitability and thereby modulate the fly's learned odour choice. Nicotinic acetylcholine signalling plays well-established roles in modulating dopaminergic output in mammalian midbrain circuits — including circuits relevant to decision-making and reward — making the Drosophila system a useful genetically tractable model for exploring conserved principles.\n\nThe work is of primary interest to researchers working in Drosophila neuroscience, learning and memory, and the neuromodulatory basis of decision-making. For educators and students, the study illustrates how invertebrate model organisms continue to yield insights into fundamental circuit mechanisms that parallel those of vertebrate reward systems. The paper does not address clinical or therapeutic contexts.",
+      "tags": [
+        "drosophila",
+        "dopamine-neurons",
+        "nicotinic-receptors",
+        "associative-learning",
+        "olfactory-learning",
+        "reward-circuits",
+        "neuromodulation",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-10-29T13:56:37.272747+00:00",
+  "last_run": "2026-10-30T13:48:55.767653+00:00",
   "seen_urls": {
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012320": "2026-10-29T13:56:37.272747+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012322": "2026-10-16T12:05:57.821152+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012333": "2026-10-28T13:49:55.376432+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012335": "2026-10-29T13:56:37.272747+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012337": "2026-10-27T12:59:04.058569+00:00",
@@ -31305,20 +31485,18 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012351": "2026-10-28T13:49:55.376432+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012353": "2026-10-27T12:59:04.058569+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012355": "2026-10-23T12:25:34.319883+00:00",
-    "https://news.cancerresearchuk.org/2026/10/16/fibremaxxing-sleepmaxxing-can-maxxing-help-prevent-cancer/": "2026-10-16T12:05:57.821152+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012356": "2026-10-30T13:48:55.767653+00:00",
     "https://news.cancerresearchuk.org/2026/10/21/minding-the-gap-ai-regulators-should-learn-from-the-pharmaceutical-industry/": "2026-10-22T12:46:48.184592+00:00",
     "https://news.cancerresearchuk.org/2026/10/23/esmo-2026-updates/": "2026-10-23T12:25:34.319883+00:00",
     "https://news.cancerresearchuk.org/2026/10/27/the-alborada-trust-donates-9m-to-help-develop-the-next-generation-of-cancer-research-leaders/": "2026-10-27T12:59:04.058569+00:00",
     "https://news.cancerresearchuk.org/2026/10/28/latest-winner-in-our-research-is-beautiful-competition-8/": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.08.756769v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.09.757075v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
+    "https://news.cancerresearchuk.org/2026/10/29/autumn-budget-2026-what-does-it-mean-for-people-affected-by-cancer/": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.09.757598v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.12.758020v1?rss=1": "2026-10-19T14:19:10.837886+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.14.759213v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.14.759226v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.14.759234v1?rss=1": "2026-10-18T11:56:01.309172+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.15.758759v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.15.759360v1?rss=1": "2026-10-16T12:05:57.821152+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.15.759374v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.15.759392v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.757273v1?rss=1": "2026-10-17T11:21:15.775587+00:00",
@@ -31342,24 +31520,26 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761079v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761181v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761185v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.23.757543v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761278v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761329v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761354v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761428v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761457v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.24.760972v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.24.761512v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.24.761599v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.25.761580v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.761611v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.26.761842v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.761893v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.762008v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.27.761507v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762151v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762190v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762198v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762208v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-supports-record-numbers-of-people-living-with-dementia-as-target-achieved/": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261013015814.htm": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261014015501.htm": "2026-10-16T12:05:57.821152+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261014015509.htm": "2026-10-17T11:21:15.775587+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261015003550.htm": "2026-10-17T11:21:15.775587+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261015003803.htm": "2026-10-17T11:21:15.775587+00:00",
@@ -31388,22 +31568,9 @@
     "https://www.sciencedaily.com/releases/2026/10/261027063704.htm": "2026-10-28T13:49:55.376432+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261027230715.htm": "2026-10-28T13:49:55.376432+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261028232701.htm": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/15/auchincloss-us-biotech-vs-china-protectionism/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/biotech-news-verastem-kras-inhibitor-shows-promise-in-pancreatic-cancer/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/compass-pathways-psychedelics-stat-summit/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/health-policy-news-fda-califf-gottlieb-sharpless-criticize-hhs-leadership/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/healthcare-fraud-new-doj-policy-rewards-self-disclosure/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/melanoma-diagnosis-mrna-cancer-vaccine-stat-summit-boston-2026/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/moderna-merck-keytruda-mrna-cancer-vaccine-strategy/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/scramble-to-shape-regulations-around-state-ai-sandboxes-health-tech/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/16/biotech-news-revmed-pancreatic-cancer-drug-nears-european-approval/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
-    "https://www.statnews.com/2026/10/16/david-sabatini-civil-trial-highlights-permissive-sexual-norms-whitehead-metoo/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/16/david-sabatini-wins-sexual-misconduct-lawsuit-metoo/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
-    "https://www.statnews.com/2026/10/16/federal-performance-reviews-health-agency-employees-wary-after-doge/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/16/health-news-what-to-read-before-elizabeth-holmes-you-can-see-everything/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
-    "https://www.statnews.com/2026/10/16/neoliberalism-health-care-milton-friedman-john-mcdonough-stuart-butler-debate/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
-    "https://www.statnews.com/2026/10/16/nonadherence-medication-stopped-identity-pharmacist-side-effects-prevent/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
     "https://www.statnews.com/2026/10/16/readout-loud-podcast-hospitals-longevity-clinics-northwestern/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/2026/10/18/david-sabatini-speaks-out-after-courtroom-win-metoo-trial/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
     "https://www.statnews.com/2026/10/19/california-prop-38-immunology-research-bond-oddly-specific-earmark/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
@@ -31507,10 +31674,21 @@
     "https://www.statnews.com/2026/10/29/biotech-news-hhs-green-lights-six-peptides-for-now/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/29/biotech-news-vertex-kidney-disease-drug-scrutinized-for-infection-risk/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/29/early-onset-colorectal-cancer-dana-farber-study-qa-kimmie-ng/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/2026/10/29/el-sayed-claps-back-at-rfk-jr-fda-peptide-policy-dc-diagnosis/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/10/29/epic-investigation-teladoc-surprise-ai-payment-model-health-tech/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
     "https://www.statnews.com/2026/10/29/health-care-costs-midterms-issue-out-of-pocket-series-part-6/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/29/health-care-premiums-open-enrollment-employer-costs/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/29/health-news-martin-kulldorff-critiques-scientific-gatekeepers-at-nih-lecture/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/15/former-fda-commissioner-califf-criticized-doge-astrazeneca-ai-deal/?utm_campaign=rss": "2026-10-16T12:05:57.821152+00:00",
+    "https://www.statnews.com/2026/10/29/medicaid-work-requirements-judge-blocks-new-limits-medical-frailty/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/10/29/prescription-drug-price-reform-pbm-disclosure-rules-face-challenge/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/10/29/rfk-jr-midterm-health-care-policy-maha-fraud-vaccines/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/10/30/fda-cms-health-ai-regulation-state-sandboxes-run-into-federal-rules/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/10/30/health-care-policy-midterm-elections-status-report-alex-hogan/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/10/30/health-news-the-paradox-of-men-health/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/10/30/hybrid-er-urgent-care-clinics-hidden-billing-complaints-intuitive-health/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/10/30/maha-measles-letter-1834-pseudoscience-women/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/10/30/readout-loud-podcast-oncology-cancer-vaccine-moderna-merck-amgen-roche/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/10/30/scientific-expert-advisory-committees-fda-hhs-congress/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
     "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/pharmalot/2026/10/16/up-down-ladder-jobs-pharma-biotech-gilead-bausch-sanofi/?utm_campaign=rss": "2026-10-17T11:21:15.775587+00:00",
     "https://www.statnews.com/pharmalot/2026/10/19/roche-investments-in-germany-gilead-bowel-disease-drug/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
@@ -31527,7 +31705,8 @@
     "https://www.statnews.com/pharmalot/2026/10/27/novo-setback-in-court-house-probe-into-big-pbms/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/pharmalot/2026/10/28/battles-over-340b-lilly-reports-weight-loss-drug-results/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/pharmalot/2026/10/28/lawmaker-wants-gao-probe-trumprx-drug-pricing/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/29/peptides-policy-released-by-hhs-pbm-disclosure-requirements/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/29/peptides-policy-released-by-hhs-pbm-disclosure-requirements/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/pharmalot/2026/10/30/astrazeneca-cost-cutting-sun-pharma-facility-problems/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00"
   },
   "takedowns": []
 }
