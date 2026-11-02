@@ -31733,9 +31733,253 @@
         "non-coding-variants",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "genetic-counsellors",
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Mitochondrial replacement therapy (MRT) is a specialist IVF technique originally developed to help women who carry certain inherited mitochondrial conditions — serious diseases passed down through the mother's egg — avoid passing those conditions to their children. In the UK it is regulated for that specific purpose.\n\nA news investigation published by STAT News reports that some clinics around the world are now offering MRT to older women who are struggling to conceive, marketing it as a way to improve their chances of pregnancy. Researchers quoted in the investigation say there is currently little scientific evidence that it works for this purpose, and that some women seeking treatment may not have been given a full picture of what the evidence shows.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Investigation finds mitochondrial replacement therapy marketed to older women despite scant evidence",
+      "is_preprint": false,
+      "run_date": "2026-11-02",
+      "run_iso": "2026-11-02T16:47:20+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-11-02T13:08:42+00:00",
+        "novelty": 8
+      },
+      "slug": "mrt-three-parent-ivf-fertility-tourism-investigation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/10/DSCF5498-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-02T09:30:00+00:00",
+          "publisher": "Stat News",
+          "title": "Women travel thousands of miles for a reproductive moonshot. Scientists say they've been misled",
+          "url": "https://www.statnews.com/2026/11/02/three-parent-ivf-fertility-tourism-investigation-mrt-therapy/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2017/07/AP106886737-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-11-02T13:08:42+00:00",
+          "publisher": "Stat News",
+          "title": "A STAT reporter on covering MRT as an experimental fertility treatment",
+          "url": "https://www.statnews.com/2026/11/02/health-news-stat-reporter-qa-on-mit-as-experimental-fertility-treatment/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-11-02T09:30:00+00:00",
+          "publisher": "Stat News",
+          "title": "Are you pursuing MRT as a treatment for infertility? Tell us about your experience",
+          "url": "https://www.statnews.com/2026/11/02/mrt-fertility-treatment-advanced-maternal-age-three-parent-ivf-reader-callout/"
+        }
+      ],
+      "standfirst": "A STAT News investigation reports that a reproductive technique developed to prevent mitochondrial disease inheritance is being sold internationally as a fertility treatment for advanced maternal age, with researchers quoted saying the evidence base is thin.",
+      "summary": "A STAT News investigation published on 2 November 2026 reports that mitochondrial replacement therapy (MRT) — a technique originally developed to reduce the risk of children inheriting serious mitochondrial diseases — is being marketed to women of advanced maternal age as a fertility treatment, despite limited published evidence that it improves live birth rates in that population.\n\nMRT, sometimes called \"three-parent IVF\", involves transferring nuclear genetic material from one egg or embryo into an enucleated donor egg, with the aim of replacing dysfunctional maternal mitochondria. The technique carries regulatory approval in the United Kingdom specifically for preventing the transmission of mitochondrial disease; the STAT investigation describes women travelling internationally to clinics offering it off-label as a fertility intervention.\n\nScientists quoted in the investigation say women are being misled about the strength of the supporting evidence. A separate STAT reporter Q&A and reader callout published on the same date explore the ethics and personal experiences involved in seeking MRT as an infertility treatment.\n\nThe story raises questions relevant to genetic counsellors, reproductive specialists, and patient advocates about how emerging reproductive genetic technologies move from a narrowly defined regulatory indication into broader commercial use, and what informed consent looks like in that context. Mitochondrial genetics and inheritance patterns — including the maternal-only transmission of mitochondrial DNA — are directly implicated in the original clinical rationale for MRT.",
+      "tags": [
+        "mrt",
+        "mitochondrial-replacement-therapy",
+        "reproductive-genetics",
+        "fertility",
+        "mitochondrial-disease",
+        "reproductive-ethics",
+        "three-parent-ivf"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: cell type shapes how somatic variants alter gene expression in cancer",
+      "is_preprint": true,
+      "run_date": "2026-11-02",
+      "run_iso": "2026-11-02T16:47:20+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-02T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "somatic-snv-transcriptomic-impact-cell-type-specific-prismsnv",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-02T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cellular context shapes the transcriptomic impact of somatic variants",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.760887v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory describes PrismSNV and Ligo-Seq, single-cell tools that reveal over 60% of candidate somatic SNVs produce cell-type-specific transcriptomic effects poorly predicted by sequence-based deleteriousness scores.",
+      "summary": "A preprint posted to bioRxiv on 2 November 2026 introduces PrismSNV and Ligo-Seq, a paired computational and experimental platform designed to measure the transcriptomic consequences of individual somatic single-nucleotide variants (SNVs) at single-cell resolution.\n\nThe authors applied their approach across 26 samples spanning three cancer types. They report that more than 60% of candidate SNVs showed statistically significant displacement in gene expression, but that the magnitude of that displacement varied by more than 30% depending on the cell type in which the variant was observed. Critically, established sequence-based deleteriousness metrics — tools commonly used to prioritise somatic variants in cancer genomics workflows — showed poor correlation with the measured cellular displacement, and fewer than 3% of the highest-displacing variants would have been ranked as top priorities by sequence annotation alone.\n\nThe findings suggest that cellular context is a major determinant of how a somatic variant manifests functionally, and that recurrence or sequence-based scoring alone may be insufficient to identify the variants with the greatest molecular impact. The work is relevant to researchers developing variant prioritisation frameworks for somatic cancer genomics and to those studying the functional consequences of private (non-recurrent) variants, which comprise the majority of the somatic mutation landscape in most tumour types.\n\nThis is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "somatic-variants",
+        "single-cell-sequencing",
+        "cancer-genomics",
+        "transcriptomics",
+        "variant-interpretation",
+        "functional-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: long-read sequencing of 1,490 Hispanic/Latino participants in All of Us yields 10 million novel variants",
+      "is_preprint": true,
+      "run_date": "2026-11-02",
+      "run_iso": "2026-11-02T16:47:20+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 8,
+        "newest_iso": "2026-11-02T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "all-of-us-hispanic-latino-long-read-sequencing-novel-variants",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-02T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genetic and Epigenetic Landscape of Self-Identified Hispanics/Latino in All Of Us",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763191v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses long-read sequencing and ancestry-aware methods to characterise genetic and epigenetic variation in a large, admixed Hispanic/Latino cohort, identifying candidate associations absent from existing reference datasets.",
+      "summary": "A preprint posted to bioRxiv on 2 November 2026 reports findings from long-read whole-genome sequencing of 1,490 self-identified Hispanic/Latino participants enrolled in the National Institutes of Health All of Us Research Program.\n\nThe authors used long-read sequencing — which resolves complex structural variants and repetitive regions that short-read technologies often miss — alongside ancestry-aware analytical frameworks to characterise genetic variation, local ancestry, and DNA methylation patterns across this admixed cohort. They identify approximately 10 million novel variants not previously catalogued in existing reference databases, along with more than 100 candidate phenotype associations that were not detectable using conventional short-read approaches or population reference panels that do not adequately represent admixed Latino ancestry.\n\nThe study speaks directly to the persistent underrepresentation of Hispanic/Latino populations in large-scale human genetic studies, a gap that limits both the discovery of medically relevant variants and the accuracy of polygenic models when applied to these populations. The authors emphasise the importance of ancestry-aware interpretation and representative reference data for variant classification in admixed individuals.\n\nThe work is of interest to population genetics researchers, those working on health equity in genomics, and educators discussing the limitations and future directions of genome-wide association and sequencing studies. This is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "population-genetics",
+        "hispanic-latino",
+        "all-of-us",
+        "long-read-sequencing",
+        "health-disparities",
+        "dna-methylation",
+        "admixture",
+        "novel-variants",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: pangenome framework maps genetic architecture of human DNA methylation variation",
+      "is_preprint": true,
+      "run_date": "2026-11-02",
+      "run_iso": "2026-11-02T16:47:20+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-02T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "pangenome-dna-methylome-genetic-architecture-cpg",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-02T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The genetic architecture of human DNA methylome variation",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.01.763325v1?rss=1"
+        }
+      ],
+      "standfirst": "Using 460 haplotypes from the Human Pangenome Reference Consortium, researchers describe two complementary methods for comparing methylation across structurally diverse genomes and mapping the genetic variants that drive methylome differences between individuals.",
+      "summary": "A preprint posted to bioRxiv on 2 November 2026 describes two pangenome-based analytical frameworks for characterising how human genetic variation shapes DNA methylation patterns across the genome.\n\nExisting population-scale methylation studies have largely been conducted by mapping sequencing reads to a single linear reference genome, a strategy that misses or misrepresents methylation at structurally variable loci, repetitive regions, and sites where CpG content itself differs between haplotypes. The authors address this by working with 460 phased haplotypes from the Human Pangenome Reference Consortium Release 2, developing one framework that compares methylation within homologous regions while preserving haplotype-specific structural context, and a second that models CpG island methylation variation across structurally distinct haplotypes.\n\nThe approach allows quantitative trait locus mapping — identifying genetic variants that influence methylation levels (methylation QTLs, or mQTLs) — in a way that accounts for structural heterogeneity across diverse human genomes rather than projecting everything onto a single reference. This is particularly important for genomic regions that are poorly resolved by the GRCh38 reference, including pericentromeric sequences, segmental duplications, and complex regulatory loci.\n\nThe work is relevant to researchers in epigenomics, statistical genetics, and population genomics, and to those developing pangenome-aware tools for variant and epigenetic analysis. This is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "dna-methylation",
+        "epigenomics",
+        "pangenome",
+        "mqtl",
+        "cpg-islands",
+        "population-genomics",
+        "human-pangenome-reference-consortium",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: genetic diversity analysis guides restoration of critically endangered Caribbean corals in Bonaire",
+      "is_preprint": true,
+      "run_date": "2026-11-02",
+      "run_iso": "2026-11-02T16:47:20+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-01T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "acropora-coral-genetic-diversity-bonaire-restoration",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-01T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genetic diversity of endangered Acropora spp. corals in Bonaire: implications for restoration and gene banking",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762239v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint characterises the genetic diversity of elkhorn and staghorn coral restoration stocks in Bonaire, finding clonal structure that has implications for gene banking and long-term reef resilience.",
+      "summary": "A preprint posted to bioRxiv on 1 November 2026 reports a genetic diversity assessment of Acropora palmata (elkhorn coral) and Acropora cervicornis (staghorn coral) held in a restoration programme on the Caribbean island of Bonaire. Both species are listed as critically endangered reef-building corals and are major targets for active restoration efforts across the Caribbean.\n\nThe authors used population genomic methods to characterise the genotypic composition of restoration stocks, with particular attention to the challenge posed by asexual reproduction. Corals can propagate clonally through fragmentation, meaning that a collection of individuals that appear morphologically distinct may in fact represent few underlying genotypes. The preprint reports that clonal structure was detected within the Bonaire stocks and discusses its implications for maintaining adequate genetic diversity in ex situ and in situ restoration programmes, and for gene banking strategies intended to preserve evolutionary potential.\n\nThe findings are relevant to conservation geneticists, ecological geneticists, and those working on restoration biology for species with mixed sexual and asexual reproductive modes. The work illustrates broader principles about how genetic diversity assessment informs collection strategies for threatened species, themes relevant to educators and students of conservation genetics and population biology. This is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "conservation-genetics",
+        "coral-reefs",
+        "acropora",
+        "clonal-reproduction",
+        "gene-banking",
+        "caribbean",
+        "restoration-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-01T14:01:38.695732+00:00",
+  "last_run": "2026-11-02T16:48:50.557415+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
@@ -31756,14 +32000,11 @@
     "https://news.cancerresearchuk.org/2026/10/27/the-alborada-trust-donates-9m-to-help-develop-the-next-generation-of-cancer-research-leaders/": "2026-10-27T12:59:04.058569+00:00",
     "https://news.cancerresearchuk.org/2026/10/28/latest-winner-in-our-research-is-beautiful-competition-8/": "2026-10-29T13:56:37.272747+00:00",
     "https://news.cancerresearchuk.org/2026/10/29/autumn-budget-2026-what-does-it-mean-for-people-affected-by-cancer/": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.12.758020v1?rss=1": "2026-10-19T14:19:10.837886+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.759550v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.759608v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.759659v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.16.759663v1?rss=1": "2026-10-19T14:19:10.837886+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.17.759705v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.17.759807v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.18.759899v1?rss=1": "2026-10-19T14:19:10.837886+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.19.760219v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.19.760269v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.759351v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
@@ -31799,17 +32040,16 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762190v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762198v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762208v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.27.762239v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.27.762259v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.28.760887v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.29.762850v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.762954v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.30.763191v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.01.763325v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-supports-record-numbers-of-people-living-with-dementia-as-target-achieved/": "2026-10-22T12:46:48.184592+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261016070646.htm": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261016081103.htm": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261017230025.htm": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261017230036.htm": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261018084421.htm": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261018205033.htm": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261018205044.htm": "2026-10-19T14:19:10.837886+00:00",
+    "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261020085023.htm": "2026-10-22T12:46:48.184592+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261020085309.htm": "2026-10-23T12:25:34.319883+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261020085427.htm": "2026-10-23T12:25:34.319883+00:00",
@@ -31831,14 +32071,6 @@
     "https://www.sciencedaily.com/releases/2026/10/261030003017.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261031012912.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261031013035.htm": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.statnews.com/2026/10/18/david-sabatini-speaks-out-after-courtroom-win-metoo-trial/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.statnews.com/2026/10/19/california-prop-38-immunology-research-bond-oddly-specific-earmark/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.statnews.com/2026/10/19/can-isomorphic-labs-revolutionize-drugmaking/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.statnews.com/2026/10/19/gilead-ibs-drug-succeeds-phase-2-trial/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.statnews.com/2026/10/19/health-news-two-former-republican-congressmen-against-gop-vaccine-liability/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.statnews.com/2026/10/19/measles-2026-midterms-vaccine-hesitancy-liability-republicans/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.statnews.com/2026/10/19/medical-aid-in-dying-mental-illness-canada/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
-    "https://www.statnews.com/2026/10/19/no-surprises-act-billing-arbitration-profits-stat-investigation/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
     "https://www.statnews.com/2026/10/20/health-policy-news-bipartisan-group-of-lawmaker-urges-fda-to-close-peptide-loophole/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/20/massachusetts-regulators-move-to-seize-regal-care-nursing-home-licenses-boston-globe-investigation/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/20/nursing-home-chains-slash-quality-massachusetts/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
@@ -31950,7 +32182,12 @@
     "https://www.statnews.com/2026/10/30/readout-loud-podcast-oncology-cancer-vaccine-moderna-merck-amgen-roche/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
     "https://www.statnews.com/2026/10/30/scientific-expert-advisory-committees-fda-hhs-congress/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
     "https://www.statnews.com/2026/10/31/midterm-election-tipping-point-healthcare-policy/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/19/roche-investments-in-germany-gilead-bowel-disease-drug/?utm_campaign=rss": "2026-10-19T14:19:10.837886+00:00",
+    "https://www.statnews.com/2026/11/02/american-health-care-costs-broken-economics-solutions/": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.statnews.com/2026/11/02/health-news-stat-reporter-qa-on-mit-as-experimental-fertility-treatment/": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.statnews.com/2026/11/02/kymera-therapeutics-trial-results-eczema-dupixent-rival/": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.statnews.com/2026/11/02/mrt-fertility-treatment-advanced-maternal-age-three-parent-ivf-reader-callout/": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.statnews.com/2026/11/02/pregnant-cancer-patients-abortion-early-labor-research/": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.statnews.com/2026/11/02/three-parent-ivf-fertility-tourism-investigation-mrt-therapy/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.statnews.com/pharmalot/2026/10/21/mark-cuban-eyes-rare-disease-drugs-ketamine-gold-rush/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/pharmalot/2026/10/22/chinese-biotech-deals-scrutiny-belgium-refuses-mounjaro-coverage/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
@@ -31966,7 +32203,9 @@
     "https://www.statnews.com/pharmalot/2026/10/28/lawmaker-wants-gao-probe-trumprx-drug-pricing/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/pharmalot/2026/10/29/peptides-policy-released-by-hhs-pbm-disclosure-requirements/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/pharmalot/2026/10/30/astrazeneca-cost-cutting-sun-pharma-facility-problems/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/30/up-and-down-the-ladder-jobs-pharma-biotech-lilly/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00"
+    "https://www.statnews.com/pharmalot/2026/10/30/up-and-down-the-ladder-jobs-pharma-biotech-lilly/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/02/drugmaker-payments-to-russian-middlemen-possible-dupixent-rival/": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/02/lenacapavir-generic-version-approved-fda-hiv-prevention-dr-reddys/": "2026-11-02T16:48:50.557415+00:00"
   },
   "takedowns": []
 }
