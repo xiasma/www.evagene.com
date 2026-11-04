@@ -32219,13 +32219,368 @@
         "lipid-genetics",
         "plos-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "patients"
+      ],
+      "for_patients": "The MHRA is the UK body that decides whether medicines are safe and effective enough to be made available. It has updated its rules specifically for medicines that treat rare diseases — conditions that affect only a small number of people.\n\nResearchers at PHG Foundation, based at the University of Cambridge, have published a commentary asking an important follow-up question: once a rare disease medicine is approved by the MHRA, how do we make sure patients can actually get it on the NHS? Regulatory approval and NHS availability are separate steps, and there have often been long delays between the two.\n\nThe commentary does not name specific medicines or tell patients what to do. It focuses on how UK policymakers could design better systems so that approvals translate into access, particularly for newer types of treatment such as gene therapies.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "PHG Foundation asks how MHRA's refreshed rare disease framework will reach patients",
+      "is_preprint": false,
+      "run_date": "2026-11-04",
+      "run_iso": "2026-11-04T15:02:16+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-11-04T10:39:03+00:00",
+        "novelty": 7
+      },
+      "slug": "mhra-rare-disease-therapies-regulatory-framework-uk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-04T10:39:03+00:00",
+          "publisher": "PHG Foundation (University of Cambridge)",
+          "title": "Refreshing the rare disease therapies regulatory framework in the UK",
+          "url": "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/"
+        }
+      ],
+      "standfirst": "A new analysis from PHG Foundation (University of Cambridge) examines whether the MHRA's updated Rare Disease Therapies Regulatory Framework will translate regulatory approvals into real-world patient access in the UK.",
+      "summary": "PHG Foundation, the health genomics policy unit based at the University of Cambridge, has published a blog analysis asking how the MHRA's refreshed Rare Disease Therapies Regulatory Framework can ensure that approvals for rare disease therapies result in timely patient access, rather than stalling at reimbursement or commissioning stages.\n\nThe piece situates the question within longstanding concerns about the gap between regulatory approval and NHS availability for orphan and ultra-orphan medicines. It notes that regulatory flexibility — such as conditional authorisations, adaptive licensing, and rolling review — can accelerate access to promising therapies, but that these mechanisms function poorly if health technology assessment bodies, payers, and commissioners are not aligned with the revised framework from the outset.\n\nThe analysis does not evaluate specific drugs or recommend particular interventions, but it highlights structural questions about how evidence requirements at approval stage interact with NICE appraisal criteria and NHS England commissioning decisions. It also raises the question of whether the refreshed framework adequately addresses the particular challenges of gene and cell therapies, where long-term outcomes data are inherently limited at the point of initial authorisation.\n\nThe blog is a policy commentary rather than a peer-reviewed study, and reflects the authors' current view on a framework that is still being developed. It is relevant reading for anyone following UK rare disease policy, genomic medicine implementation, or the regulation of advanced therapy medicinal products.",
+      "tags": [
+        "rare-disease",
+        "regulatory-policy",
+        "mhra",
+        "gene-therapy",
+        "uk-policy",
+        "patient-access",
+        "atmp",
+        "phg-foundation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Gene-editing treatments could replace lifelong medication, but long-term safety data are years away",
+      "is_preprint": false,
+      "run_date": "2026-11-04",
+      "run_iso": "2026-11-04T15:02:16+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-04T04:30:57+00:00",
+        "novelty": 5
+      },
+      "slug": "gene-editing-lifetime-medication-long-term-safety",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-04T04:30:57+00:00",
+          "publisher": "ScienceDaily",
+          "title": "Gene editing could replace a lifetime of medication, but there's a catch",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261102202829.htm"
+        }
+      ],
+      "standfirst": "A broadly reported science communication piece examines research directions in which single-administration gene-editing therapies might address common conditions such as cardiovascular disease, while researchers caution that permanent genomic changes require decades of safety follow-up.",
+      "summary": "A widely circulated summary drawing on current gene-editing research describes the scientific rationale for single-administration therapies that could, in principle, durably alter how the body handles cardiovascular risk factors, potentially reducing or replacing lifelong medication regimens for conditions such as hypercholesterolaemia.\n\nThe piece — based on ScienceDaily coverage of research not yet attributed to a named paper or institution in the feed — describes how gene-editing platforms, including base editors and prime editors, can modify somatic cells in tissues such as the liver without altering germline DNA. The concept has been explored in peer-reviewed work by several groups, including studies using CRISPR-based approaches to target the PCSK9 gene, which regulates LDL cholesterol levels.\n\nResearchers quoted in the coverage are careful to flag the central challenge: permanent alteration of a patient's genome means that any unexpected long-term consequences — including off-target edits or unanticipated effects on tissue function — cannot be reversed. Safety signals that emerge years or decades after treatment will require extended registry follow-up comparable to that used in oncology trial survivorship programmes.\n\nThe story reflects genuine progress in translational gene-editing science, but no specific clinical trial read-out or institutional finding is presented in the feed item. The source lede is science communication rather than a primary research report. The piece is editorially relevant for providing context on the state of somatic gene-editing development and the regulatory and safety challenges the field faces.",
+      "tags": [
+        "gene-editing",
+        "crispr",
+        "base-editing",
+        "pcsk9",
+        "cardiovascular-disease",
+        "somatic-genome-editing",
+        "long-term-safety",
+        "science-communication"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Safety and ethics of mitochondrial replacement therapy face renewed scrutiny",
+      "is_preprint": false,
+      "run_date": "2026-11-04",
+      "run_iso": "2026-11-04T15:02:16+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-03T09:30:00+00:00",
+        "novelty": 4
+      },
+      "slug": "three-parent-ivf-safety-doubts-mitochondrial-replacement",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/DSCF5524-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-03T09:30:00+00:00",
+          "publisher": "Stat News",
+          "title": "'Three-parent IVF' was supposed to prevent mitochondrial disease. Studies are raising doubts",
+          "url": "https://www.statnews.com/2026/11/03/three-parent-ivf-safety-ethics-questions-mitochondrial-replacement-technology/"
+        }
+      ],
+      "standfirst": "A STAT News investigation and associated reporting examine mounting scientific and ethical concerns about mitochondrial replacement therapy — marketed as a fertility treatment — with researchers questioning whether evidence of efficacy and safety is sufficient.",
+      "summary": "STAT News has published reporting described as an investigation into mitochondrial replacement therapy (MRT), the technique in which the nuclear genetic material of a donor egg with healthy mitochondria is used to replace that in an affected woman's egg, with the aim of preventing transmission of mitochondrial disease. The piece examines whether the technique is delivering on its original purpose and how it has come to be marketed to older women as a fertility treatment — an application for which the evidence base is contested.\n\nThis story extends coverage that Genetic Current published on 2 November 2026 (noting MRT being marketed to older women despite limited evidence) and 3 November 2026 (studies raising safety and efficacy questions). The STAT News item tagged 'A STAT Investigation' adds further depth and brings in ethical perspectives alongside the scientific ones, with scientists and ethicists quoted as rethinking the balance of risks and benefits.\n\nMRT remains legal only in the UK under a tightly regulated framework administered by the Human Fertilisation and Embryology Authority (HFEA); it is not licensed as a general fertility treatment in the UK. The technique involves the genetic material of three individuals, hence the common descriptor 'three-parent IVF', though specialists note this framing requires careful qualification.\n\nThe ongoing coverage is relevant to genetic counsellors, reproductive medicine specialists, and policy-makers tracking how genomic technologies developed for rare disease prevention can migrate into contexts with different risk-benefit profiles and regulatory standing.",
+      "tags": [
+        "mrt",
+        "mitochondrial-replacement-therapy",
+        "three-parent-ivf",
+        "reproductive-genetics",
+        "mitochondrial-disease",
+        "reproductive-ethics",
+        "hfea",
+        "fertility"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Becker muscular dystrophy (BMD) is a genetic condition that weakens muscles over time. It is caused by changes in a gene called DMD, which normally provides the instructions for making a protein called dystrophin. In BMD, some dystrophin is still produced, but it does not work properly.\n\nA pharmaceutical company called Servier had been testing a medicine called sevasemten in people with BMD. The hope was that it might slow down muscle damage. However, the company has announced that this trial did not produce the results they were looking for, meaning the medicine did not show it worked well enough in this test.\n\nThere are currently no approved medicines that change the course of BMD, so researchers continue to look for new treatments. This kind of negative result, while disappointing, is part of how science works — it helps researchers understand which approaches to pursue and which to revise.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Servier's sevasemten fails first major trial in Becker muscular dystrophy",
+      "is_preprint": false,
+      "run_date": "2026-11-04",
+      "run_iso": "2026-11-04T15:02:16+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-11-03T20:33:22+00:00",
+        "novelty": 9
+      },
+      "slug": "servier-sevasemten-becker-muscular-dystrophy-trial-fails",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AP20187431953446-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-03T20:33:22+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Servier's $1.55 billion muscular dystrophy drug fails first major test",
+          "url": "https://www.statnews.com/2026/11/03/becker-muscular-dystrophy-servier-edgewise-sevasemten-fail/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Servier has reported a surprise negative result for sevasemten — the asset it acquired for $1.55 billion — in a phase trial for Becker muscular dystrophy, a condition that currently has no approved disease-modifying treatment.",
+      "summary": "Servier, the French pharmaceutical company, has disclosed that sevasemten — a cardiac myosin inhibitor originally developed by Edgewise Therapeutics — has failed its first major clinical test in Becker muscular dystrophy (BMD). STAT News reports the result as a surprise setback.\n\nBMD is caused by mutations in the DMD gene that result in a truncated but partially functional form of the dystrophin protein, distinguishing it from the more severe Duchenne muscular dystrophy. The condition typically manifests in adolescence or early adulthood with progressive skeletal and cardiac muscle weakness, and there are no approved disease-modifying treatments specifically for BMD. The myosin inhibitor class — which includes mavacamten, approved for hypertrophic cardiomyopathy — was being explored in BMD based on evidence that reducing excessive myosin activation might protect muscle fibres from damage.\n\nServier acquired sevasemten as part of a deal with Edgewise Therapeutics valued at approximately $1.55 billion. The nature and endpoints of the trial that failed have not been fully detailed in the feed item, and further results may be presented at a scientific meeting.\n\nThe setback is relevant to the rare disease field more broadly, as BMD represents a genetically defined patient population for whom no effective pharmacological option exists. The result also illustrates the persistent difficulty of translating myosin-targeting biology from cardiac to skeletal muscle contexts. No specific mechanistic interpretation is available from the feed item alone.",
+      "tags": [
+        "becker-muscular-dystrophy",
+        "dmd-gene",
+        "sevasemten",
+        "rare-disease",
+        "clinical-trial-news",
+        "myosin-inhibitor",
+        "servier",
+        "edgewise"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Ultragenyx cuts 20% of staff following failure of two rare disease drug programmes",
+      "is_preprint": false,
+      "run_date": "2026-11-04",
+      "run_iso": "2026-11-04T15:02:16+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-11-04T14:46:46+00:00",
+        "novelty": 9
+      },
+      "slug": "ultragenyx-layoffs-rare-disease-drug-failures",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/05/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_Wiggs-_Bedford_2-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-04T14:46:46+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Ultragenyx cuts staff after another study fails",
+          "url": "https://www.statnews.com/2026/11/04/biotech-news-ultragenyx-cuts-staff-after-another-study-fails/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Ultragenyx Pharmaceutical has announced it will lay off approximately 20% of its workforce after ending development of two rare disease drugs following trial failures.",
+      "summary": "Ultragenyx Pharmaceutical has announced that it is laying off approximately 20% of its staff after discontinuing development of two rare disease drug candidates. STAT News reported the news on 4 November 2026, noting that the cuts follow negative study results that forced the company to end both programmes.\n\nUltragenyx focuses specifically on rare and ultra-rare genetic metabolic diseases, making the dual failure particularly significant in terms of pipeline scope. The company did not release detailed data on the two failed assets in the item as reported, and no further mechanistic or clinical detail is available from the feed alone. Additional information is likely to follow in investor communications or scientific presentations.\n\nThe development is relevant to the rare disease genetics field for several reasons. First, it underlines the high attrition rate even for genetically validated targets in rare metabolic disease. Second, Ultragenyx has a track record of advancing therapies for conditions with very small patient populations, so programme discontinuation has a disproportionate impact on affected communities who may have few or no alternative treatments in development. Third, significant workforce reductions at a specialist rare-disease company can affect the capacity of a field that relies on small teams with deep expertise in specific disease areas.\n\nThe story sits alongside broader industry trends in which rising development costs and investor pressure are leading biotechnology companies to make faster portfolio prioritisation decisions, sometimes discontinuing programmes at an earlier stage than would historically have been the case.",
+      "tags": [
+        "rare-disease",
+        "ultragenyx",
+        "clinical-trial-news",
+        "drug-development",
+        "biotech",
+        "pipeline-attrition"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Perturbscape framework uses CRISPR Perturb-seq to map hidden regulatory architecture of complex diseases",
+      "is_preprint": true,
+      "run_date": "2026-11-04",
+      "run_iso": "2026-11-04T15:02:16+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 7,
+        "newest_iso": "2026-11-04T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "perturbscape-crispr-perturb-seq-disease-gene-programs",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-04T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Perturbation-induced gene programs map the hidden regulatory architecture of complex diseases",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.762080v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces Perturbscape, a computational framework that learns gene regulatory programmes from CRISPR perturbation screens and integrates them with human genetics data to identify disease-relevant genes and pathways.",
+      "summary": "A preprint posted to bioRxiv describes Perturbscape, a computational framework designed to extract regulatory gene programmes from CRISPR Perturb-seq screens — large-scale experiments in which individual genes are disrupted by CRISPR and the resulting changes in gene expression are measured at single-cell resolution.\n\nThe authors argue that steady-state molecular profiles, such as those obtained from standard transcriptomic studies of patient tissue, incompletely capture the regulatory logic through which genetic variants influence complex disease. Perturbational data, by contrast, can reveal programmes that only become apparent when cells are subjected to defined genetic or environmental stresses.\n\nPerturbscape combines linear and non-linear contrastive learning methods with complementary programme-learning approaches to characterise multiscale gene programmes across a screen of 15,859 perturbations — a substantial scale for this class of experiment. The framework then integrates the resulting programme landscape with human genetics data, including GWAS summary statistics and fine-mapping results, to prioritise disease-relevant genes and their downstream regulatory targets.\n\nThe preprint does not name a specific journal for peer-reviewed publication. As a preprint, the results have not yet undergone formal peer review and should be interpreted accordingly. The methodological approach is relevant to researchers working on functional genomics, post-GWAS interpretation, and the development of computational tools for gene regulatory analysis. The scale of the perturbation screen and the integration with human genetics data are notable features of the work.",
+      "tags": [
+        "crispr",
+        "perturb-seq",
+        "functional-genomics",
+        "gene-regulation",
+        "gwas",
+        "post-gwas",
+        "computational-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: model selection critically shapes interpretation of deep-intronic USH2A variants linked to Usher syndrome",
+      "is_preprint": true,
+      "run_date": "2026-11-04",
+      "run_iso": "2026-11-04T15:02:16+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-03T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "ush2a-deep-intronic-variants-model-selection-pathogenicity",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-03T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Deep-intronic variants in USH2A: the importance of model selection in variant interpretation and pathogenicity assessment",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.753787v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers present functional evidence for two deep-intronic USH2A variants from a single patient, finding that minigene assays and patient-derived cell models give discordant results — with implications for how splice-altering variants are assessed for pathogenicity.",
+      "summary": "A preprint posted to bioRxiv examines the interpretation of two deep-intronic variants in USH2A, the gene most commonly implicated in Usher syndrome type 2 — a recessively inherited condition causing combined congenital hearing loss and progressive retinitis pigmentosa.\n\nThe authors investigated two variants from a single case: an inherited variant (c.5573-834A>G) and a de novo variant (c.11047+345A>G). Both variants lie deep within intronic sequence and were assessed using a minigene splice assay — an experimental system in which the genomic region of interest is cloned into a reporter construct and expressed in cell culture to test whether aberrant splicing occurs.\n\nThe minigene assay detected pseudoexon inclusion for the de novo c.11047+345A>G variant, supporting pathogenicity, but failed to reproduce previously reported aberrant splicing for the inherited c.5573-834A>G variant. The authors then analysed patient-derived cells — photoreceptor precursor cells and nasal epithelial cells — which provide a more physiologically relevant context. The divergence between minigene and patient-cell results illustrates that model selection is not a neutral choice: the same variant can appear benign or damaging depending on the experimental system used.\n\nThe findings have practical relevance for variant classification under ACMG/AMP frameworks, particularly the application of functional evidence codes. The preprint has not yet undergone formal peer review. It is of particular interest to researchers working on inherited retinal dystrophies, variant interpretation methodology, and the design of functional assays for splicing variants.",
+      "tags": [
+        "ush2a",
+        "usher-syndrome",
+        "deep-intronic-variants",
+        "splicing",
+        "variant-interpretation",
+        "functional-assay",
+        "inherited-retinal-dystrophy",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: removing maternal compensation in zebrafish uncovers POMGNT1's specific role in retinal degeneration",
+      "is_preprint": true,
+      "run_date": "2026-11-04",
+      "run_iso": "2026-11-04T15:02:16+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-11-03T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "pomgnt1-zebrafish-retinal-dystrophy-maternal-compensation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-03T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Removal of maternal compensation reveals retinal-specific roles for Pomgnt1 in zebrafish",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763738v1?rss=1"
+        }
+      ],
+      "standfirst": "By eliminating maternal gene product carry-over, researchers reveal that POMGNT1 loss drives retinal-specific pathology in zebrafish earlier and more severely than previously appreciated, offering mechanistic insight into clinical variability in POMGNT1-related disorders.",
+      "summary": "A preprint posted to bioRxiv reports that removing maternal compensation in zebrafish — a methodological approach that eliminates the confounding contribution of maternally deposited protein to early development — reveals an earlier and more severe retinal phenotype associated with loss of POMGNT1 (Protein O-mannose N-acetylglucosaminyltransferase 1) than has been observed in conventional knockout lines.\n\nVariants in POMGNT1 cause a clinically variable spectrum of disorders in humans, ranging from Walker-Warburg syndrome and muscle-eye-brain disease at the severe end — characterised by congenital muscular dystrophy, brain malformations, and ocular defects — to non-syndromic retinitis pigmentosa at the milder end. POMGNT1 encodes an enzyme required for the glycosylation of alpha-dystroglycan, a transmembrane glycoprotein central to the dystrophin-associated protein complex.\n\nPrevious zebrafish knockout studies identified retinal degeneration at six months post-fertilisation. By generating maternal-zygotic mutants — in which maternal contribution of wild-type protein is also absent — the authors observe retinal-specific pathology emerging substantially earlier. The results suggest that maternal compensation had been masking the true severity and onset of the retinal phenotype in earlier models, and may partly explain why standard zebrafish knockouts of POMGNT1 have not fully recapitulated the range of human disease presentations.\n\nThe preprint has not yet been peer-reviewed. The work is relevant to researchers studying glycosylation disorders, inherited retinal dystrophies, zebrafish disease modelling, and the mechanistic basis of clinical variability in muscular dystrophy syndromes.",
+      "tags": [
+        "pomgnt1",
+        "zebrafish",
+        "retinal-degeneration",
+        "alpha-dystroglycan",
+        "glycosylation",
+        "rare-disease",
+        "inherited-retinal-dystrophy",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-03T14:51:58.015484+00:00",
+  "last_run": "2026-11-04T15:05:09.942874+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012180": "2026-11-03T14:51:58.015484+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012187": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012223": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012320": "2026-10-29T13:56:37.272747+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012333": "2026-10-28T13:49:55.376432+00:00",
@@ -32240,12 +32595,14 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012353": "2026-10-27T12:59:04.058569+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012355": "2026-10-23T12:25:34.319883+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012356": "2026-10-30T13:48:55.767653+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012362": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012366": "2026-11-03T14:51:58.015484+00:00",
     "https://news.cancerresearchuk.org/2026/10/21/minding-the-gap-ai-regulators-should-learn-from-the-pharmaceutical-industry/": "2026-10-22T12:46:48.184592+00:00",
     "https://news.cancerresearchuk.org/2026/10/23/esmo-2026-updates/": "2026-10-23T12:25:34.319883+00:00",
     "https://news.cancerresearchuk.org/2026/10/27/the-alborada-trust-donates-9m-to-help-develop-the-next-generation-of-cancer-research-leaders/": "2026-10-27T12:59:04.058569+00:00",
     "https://news.cancerresearchuk.org/2026/10/28/latest-winner-in-our-research-is-beautiful-competition-8/": "2026-10-29T13:56:37.272747+00:00",
     "https://news.cancerresearchuk.org/2026/10/29/autumn-budget-2026-what-does-it-mean-for-people-affected-by-cancer/": "2026-10-30T13:48:55.767653+00:00",
+    "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.759550v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.759608v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.759659v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
@@ -32291,15 +32648,30 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762239v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762259v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762344v1": "2026-11-03T14:51:58.015484+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.28.753787v1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.28.753787v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.28.760887v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.28.762411v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.29.762850v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.30.762947v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.762954v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.30.763041v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.763191v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.30.763219v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.10.30.763243v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.31.763309v1": "2026-11-03T14:51:58.015484+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.01.763325v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.02.763738v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.02.763739v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.02.763795v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.02.763796v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.03.762080v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.03.763566v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.03.764014v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-supports-record-numbers-of-people-living-with-dementia-as-target-achieved/": "2026-10-22T12:46:48.184592+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261020085023.htm": "2026-10-22T12:46:48.184592+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261020085309.htm": "2026-10-23T12:25:34.319883+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261020085427.htm": "2026-10-23T12:25:34.319883+00:00",
@@ -32321,7 +32693,12 @@
     "https://www.sciencedaily.com/releases/2026/10/261030003017.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261031012912.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261031013035.htm": "2026-11-01T14:01:38.695732+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261101010552.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261102075806.htm": "2026-11-03T14:51:58.015484+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261102202829.htm": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261104003157.htm": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261104004909.htm": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261104005226.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/10/20/health-policy-news-bipartisan-group-of-lawmaker-urges-fda-to-close-peptide-loophole/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/20/massachusetts-regulators-move-to-seize-regal-care-nursing-home-licenses-boston-globe-investigation/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/20/nursing-home-chains-slash-quality-massachusetts/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
@@ -32436,17 +32813,33 @@
     "https://www.statnews.com/2026/11/02/american-health-care-costs-broken-economics-solutions/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/biotech-news-psilocybin-lasting-benefits-prove-elusive-in-mice/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/": "2026-11-03T14:51:58.015484+00:00",
+    "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/02/health-care-affordability-midterms-hybrid-er-urgent-care-clinics-health-care-inc/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/health-news-stat-reporter-qa-on-mit-as-experimental-fertility-treatment/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/kymera-therapeutics-trial-results-eczema-dupixent-rival/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/mrt-fertility-treatment-advanced-maternal-age-three-parent-ivf-reader-callout/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/pregnant-cancer-patients-abortion-early-labor-research/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/three-parent-ivf-fertility-tourism-investigation-mrt-therapy/": "2026-11-03T14:51:58.015484+00:00",
+    "https://www.statnews.com/2026/11/03/becker-muscular-dystrophy-servier-edgewise-sevasemten-fail/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/03/biotech-news-who-will-get-the-first-psychedelic-approved/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/03/child-dies-measles-new-york-first-death-30-years/": "2026-11-03T14:51:58.015484+00:00",
+    "https://www.statnews.com/2026/11/03/child-dies-measles-new-york-first-death-30-years/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/03/electoral-map-reveals-red-state-blue-state-mortality-gap/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/2026/11/03/health-news-first-us-bird-flu-death-after-cattle-exposure-2026/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/2026/11/03/three-parent-ivf-safety-ethics-questions-mitochondrial-replacement-technology/": "2026-11-03T14:51:58.015484+00:00",
+    "https://www.statnews.com/2026/11/03/electoral-map-reveals-red-state-blue-state-mortality-gap/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/03/health-news-first-us-bird-flu-death-after-cattle-exposure-2026/": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/03/health-news-first-us-bird-flu-death-after-cattle-exposure-2026/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/03/mass-general-brigham-layoffs-ceo-letter-staff-anxiety/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/03/midterm-election-health-care-issues-dc-diagnosis-newsletter/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/03/midterm-elections-what-democratic-control-senate-means-healthcare/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/03/three-parent-ivf-safety-ethics-questions-mitochondrial-replacement-technology/": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/03/traumatic-eye-injuries-ophthalmologist-meditation-psychology/": "2026-11-03T14:51:58.015484+00:00",
+    "https://www.statnews.com/2026/11/03/traumatic-eye-injuries-ophthalmologist-meditation-psychology/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/04/biotech-news-ultragenyx-cuts-staff-after-another-study-fails/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/04/democratic-wins-medicare-for-all-momentum/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/04/former-madrigal-pharmaceuticals-executive-rezdiffra-lawsuit/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/04/health-news-midterm-elections-2026-democrats-control-congress/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/04/moving-to-europe-free-health-care-differences/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/04/the-biotech-startups-skipping-ai-for-drug-discovery-ai-prognosis/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/pharmalot/2026/10/21/mark-cuban-eyes-rare-disease-drugs-ketamine-gold-rush/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/pharmalot/2026/10/22/chinese-biotech-deals-scrutiny-belgium-refuses-mounjaro-coverage/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
@@ -32465,7 +32858,9 @@
     "https://www.statnews.com/pharmalot/2026/10/30/up-and-down-the-ladder-jobs-pharma-biotech-lilly/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
     "https://www.statnews.com/pharmalot/2026/11/02/drugmaker-payments-to-russian-middlemen-possible-dupixent-rival/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/pharmalot/2026/11/02/lenacapavir-generic-version-approved-fda-hiv-prevention-dr-reddys/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/": "2026-11-03T14:51:58.015484+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/": "2026-11-03T14:51:58.015484+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/04/cvs-plans-to-split-up-fda-inspections-in-india-and-china/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00"
   },
   "takedowns": []
 }
