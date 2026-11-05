@@ -32573,9 +32573,330 @@
         "inherited-retinal-dystrophy",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors"
+      ],
+      "for_patients": "Most of our DNA does not encode proteins directly — it contains switches that control when and where genes are turned on. Identifying which DNA changes in these switch regions actually matter for health is technically very difficult. Researchers at UC San Diego have used a type of machine learning called XGBoost, combined with an explanation tool called SHAP, to predict which DNA variants are most likely to disrupt the activity of a protein called HNF4A in developing pancreas cells. HNF4A is important for the cells that make insulin, and certain changes in this gene are linked to a rare inherited form of diabetes. The new analytical framework could help scientists sort important non-coding variants from background noise as they study the genetic basis of conditions like diabetes. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Machine learning prioritises non-coding HNF4A variants active in pancreatic progenitor cells",
+      "is_preprint": false,
+      "run_date": "2026-11-05",
+      "run_iso": "2026-11-05T15:08:27+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-11-04T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "hnf4a-noncoding-variants-xgboost-shap-pancreatic-progenitors",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-04T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "XGBoost-SHAP analysis prioritizes lower-frequency variants predicted to affect HNF4A binding motifs in pancreatic progenitors",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012361"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study applies XGBoost and SHAP analysis to single-nucleus chromatin data, ranking lower-frequency non-coding variants most likely to disrupt HNF4A transcription factor binding in pancreatic development.",
+      "summary": "Researchers led by Kelly A. Frazer and colleagues at the University of California San Diego have published a study in PLOS Genetics describing a machine-learning framework for identifying non-coding genetic variants predicted to affect binding of the transcription factor HNF4A in pancreatic progenitor cells.\n\nThe work uses XGBoost — a gradient-boosted decision tree algorithm — combined with SHAP (SHapley Additive exPlanations) values to disentangle the nonlinear relationships among chromatin accessibility, variant allele frequency, and transcription factor binding affinity. Single-nucleus ATAC-seq data from pancreatic progenitors provided the cell-type-specific chromatin landscape. The analysis prioritised lower-frequency variants predicted to alter HNF4A binding motifs, a finding the authors suggest reflects stronger purifying selection acting on variants with large regulatory effects.\n\nHNF4A encodes a nuclear receptor transcription factor with well-established roles in pancreatic beta-cell function and in maturity-onset diabetes of the young (MODY1). Understanding which non-coding variants plausibly disrupt its activity in a developmentally relevant cell type is a step towards interpreting the large fraction of GWAS signals that fall outside protein-coding sequence.\n\nThe study illustrates a broader methodological trend in regulatory genomics: moving from linear models of variant impact towards ensemble approaches that can capture context-dependent, nonlinear effects. The SHAP framework also adds interpretability, allowing researchers to understand which features — chromatin state, motif score, variant frequency — drive each prediction.",
+      "tags": [
+        "hnf4a",
+        "non-coding-variants",
+        "transcription-factor-binding",
+        "xgboost",
+        "shap",
+        "pancreatic-development",
+        "regulatory-genomics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint quantifies how reliably mouse gene knockouts predict human complex trait genetics",
+      "is_preprint": true,
+      "run_date": "2026-11-05",
+      "run_iso": "2026-11-05T15:08:27+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-05T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "mouse-knockout-transportability-human-complex-traits",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-05T00:00:00+00:00",
+          "publisher": "bioRxiv",
+          "title": "Transportability of mouse gene knockout models to human complex phenotypes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764243v1?rss=1"
+        }
+      ],
+      "standfirst": "Combining International Mouse Phenotyping Consortium knockout data with human GWAS, researchers assess which mouse models faithfully recapitulate the direction and magnitude of gene effects seen in people.",
+      "summary": "A preprint posted to bioRxiv by researchers using data from the International Mouse Phenotyping Consortium (IMPC) addresses a long-standing question in translational genetics: when a gene knockout produces a phenotype in mice, how often does the same gene influence the corresponding trait in humans, and in the same direction?\n\nThe authors introduce the concept of model 'transportability' — a mouse knockout is considered transportable if the gene perturbation affects both the mouse phenotype and the orthologous human trait, with consistent directionality of effect. By cross-referencing high-throughput IMPC knockout phenotype data with human genome-wide association study (GWAS) summary statistics across a range of complex traits, the study estimates transportability rates for different trait categories and gene classes.\n\nThe findings have practical implications for how the field interprets animal model data. High transportability in some domains would support the use of mouse knockouts as proxies for human gene function; systematic failures in others would counsel caution when extrapolating from mouse to human in those areas.\n\nThis work has not yet been peer-reviewed. The preprint is available at bioRxiv and should be read with that caveat in mind.",
+      "tags": [
+        "mouse-models",
+        "impc",
+        "gene-knockout",
+        "gwas",
+        "translational-genetics",
+        "model-organism",
+        "complex-traits",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Two preprints introduce methods to map variant pleiotropy and functional relatedness across the human phenome",
+      "is_preprint": true,
+      "run_date": "2026-11-05",
+      "run_iso": "2026-11-05T15:08:27+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-11-04T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "lrcq-lrcp-phenome-wide-variant-pleiotropy-gwas",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-04T00:00:00+00:00",
+          "publisher": "bioRxiv",
+          "title": "LRCQ: phenome-wide heritability enrichment of genomic loci from GWAS summary statistics",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763731v1?rss=1"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": false,
+          "published_iso": "2026-11-04T00:00:00+00:00",
+          "publisher": "bioRxiv",
+          "title": "LRCP: identifying functionally related SNPs and genes from phenome-wide genetic-effect correlations using GWAS summary statistics",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763232v1?rss=1"
+        }
+      ],
+      "standfirst": "LRCQ estimates per-locus phenome-wide heritability enrichment from GWAS summary statistics, while LRCP identifies variants and genes with correlated genetic effects across hundreds of traits — both correcting for linkage disequilibrium.",
+      "summary": "Two related preprints posted to bioRxiv describe complementary statistical frameworks for characterising how individual genetic variants influence multiple traits simultaneously, using GWAS summary statistics at scale.\n\nThe first, LRCQ (LD score regression on chi-squared across many GWAS), estimates the phenome-wide heritability enrichment of each genomic locus. Existing measures of per-variant pleiotropy — counts of significant associations or multi-trait tests — do not separate the contributions of linkage disequilibrium (LD), confounding, and true pleiotropic signal. LRCQ extends stratified LD score regression to address this across many traits simultaneously, producing a per-locus summary of how broadly and specifically a region influences the phenome.\n\nThe second, LRCP (LD-corrected correlation of GWAS Z-scores across the phenome), asks which variants act alike across the phenome — the transposed question from genetic correlation, which asks which traits share genetic causes. The authors demonstrate that in 452 Pan-UK Biobank GWAS, the effective number of independent traits is approximately 58, and that uncorrected analyses reject 51–70% of null variant pairs, motivating their LD and sample-overlap correction.\n\nTogether, these tools expand the statistical infrastructure for post-GWAS functional interpretation and for identifying shared biological mechanisms across diseases. Neither preprint has undergone peer review.",
+      "tags": [
+        "gwas",
+        "pleiotropy",
+        "linkage-disequilibrium",
+        "statistical-genetics",
+        "phenome-wide",
+        "post-gwas",
+        "summary-statistics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint delivers faster, more accurate method for mapping how geography shapes genetic relatedness",
+      "is_preprint": true,
+      "run_date": "2026-11-05",
+      "run_iso": "2026-11-05T15:08:27+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-04T00:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "effective-migration-surfaces-deep-recovery-method",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-04T00:00:00+00:00",
+          "publisher": "bioRxiv",
+          "title": "Deep Recovery of Effective Migration Surfaces",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763937v1?rss=1"
+        }
+      ],
+      "standfirst": "A new computational approach called Deep Recovery of Effective Migration Surfaces reduces the computational cost of fitting isolation-by-distance models to spatially referenced genotype data.",
+      "summary": "A preprint posted to bioRxiv presents a faster method for fitting effective migration surface (EMS) models to spatially referenced genomic data. EMS models visualise how the strength of isolation-by-distance — the tendency for genetic relatedness to decline with geographic distance — varies across a landscape, potentially revealing barriers such as mountain ranges, rivers, or historical population bottlenecks.\n\nFitting likelihood-based EMS models has historically been computationally demanding, limiting their application to large datasets or fine-scale geographic analyses. The authors, who describe their approach as 'Deep Recovery', report improvements in both computational efficiency and accuracy of surface estimation, benchmarked against existing methods.\n\nApplications of EMS methods span conservation genetics, human population history, and the study of non-human species. Faster fitting opens the door to larger sample sizes and more granular geographic grids, potentially improving the resolution with which migration barriers and corridors can be detected from genomic data.\n\nThis preprint has not been peer-reviewed.",
+      "tags": [
+        "isolation-by-distance",
+        "population-genetics",
+        "migration-surfaces",
+        "spatial-genomics",
+        "computational-genomics",
+        "landscape-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint describes SeverYX, a transparent ensemble framework for classifying variant severity from multiple predictors",
+      "is_preprint": true,
+      "run_date": "2026-11-05",
+      "run_iso": "2026-11-05T15:08:27+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-04T00:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "severyex-ensemble-variant-severity-classification",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-04T00:00:00+00:00",
+          "publisher": "bioRxiv",
+          "title": "SeverYX: An ensemble framework for robust variant severity classification",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763232v1?rss=1"
+        }
+      ],
+      "standfirst": "SeverYX consolidates conservation, splicing, and functional-impact scores into a three-tier severity classification using a rule-based, effect-aware decision architecture benchmarked on over 270,000 ClinVar variants.",
+      "summary": "A preprint posted to bioRxiv introduces SeverYX, an ensemble framework designed to reconcile disagreements among computational variant effect predictors and produce a stable, three-tier severity classification — 'High', 'Medium', and 'Low' — for variants assessed in clinical genomics workflows.\n\nA persistent challenge in variant interpretation is that individual predictors — covering sequence conservation, splicing impact, and functional consequences — frequently disagree with one another or return incomplete evidence. SeverYX addresses this through a transparent, rule-based decision architecture that the authors describe as 'effect-aware', meaning it weights predictor outputs differently depending on the likely functional mechanism of a given variant class.\n\nThe framework was benchmarked against a curated ClinVar dataset of 270,208 variants on MANE transcripts, comprising approximately 86,000 pathogenic or likely pathogenic variants and 184,000 benign or likely benign variants. The authors report performance metrics stratified by variant type.\n\nSeverYX joins a growing family of ensemble and meta-predictor approaches — including those recently calibrated for ACMG/AMP evidence codes — aimed at making computational evidence in variant classification more reproducible and auditable. This preprint has not been peer-reviewed and the tool should be treated as a research prototype.",
+      "tags": [
+        "variant-classification",
+        "variant-interpretation",
+        "ensemble-predictor",
+        "clinvar",
+        "acmg-amp",
+        "computational-genomics",
+        "splicing",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "DNM1L is a gene that makes a protein called DRP1, which helps cells manage their internal power sources — structures called mitochondria — by controlling how they divide and join together. Faults in DNM1L can cause rare conditions affecting the brain and nervous system, with different types of fault causing different levels of severity. Researchers have now described four people who share the same unusual fault in a specific part of the DNM1L protein known as the GTPase effector domain. By studying cells from these individuals in the laboratory, the team found that this particular fault causes intermediate problems — more severe than the mildest known DNM1L variants, but less severe than the most serious ones. The researchers also identified a related change in how the cells process certain nutrients, which they suggest could potentially be targeted in future research. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Preprint describes DNM1L GTPase effector domain deletion causing intermediate mitochondrial and peroxisomal defects",
+      "is_preprint": true,
+      "run_date": "2026-11-05",
+      "run_iso": "2026-11-05T15:08:27+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-11-04T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "dnm1l-ged-deletion-mitochondrial-peroxisomal-dynamics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-04T00:00:00+00:00",
+          "publisher": "bioRxiv",
+          "title": "A DNM1L GTPase Effector Domain Deletion Causes Intermediate Defects in Peroxisomal and Mitochondrial Dynamics and Reveals a Targetable Metabolic Vulnerability",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763232v1?rss=1"
+        }
+      ],
+      "standfirst": "Four individuals sharing a recurrent DNM1L GTPase effector domain deletion show a phenotypic severity intermediate between milder GTPase domain variants and severe middle-domain encephalopathy, and reveal a potentially targetable metabolic vulnerability.",
+      "summary": "A preprint posted to bioRxiv describes four individuals harbouring a recurrent deletion affecting the GTPase effector domain (GED) of DNM1L, the gene encoding dynamin-related protein 1 (DRP1). DRP1 is a key GTPase that regulates the fission of both mitochondria and peroxisomes, and pathogenic DNM1L variants are associated with a spectrum of neurodevelopmental and neurodegenerative disorders.\n\nExisting genotype–phenotype correlations in DNM1L-related disease suggest that variants in the GTPase domain tend towards milder presentations, while middle-domain variants are associated with severe developmental and epileptic encephalopathy. The functional impact of GED variants had been less well defined. The authors characterise this recurrent GED deletion at the cellular level and find that it produces intermediate defects in both mitochondrial and peroxisomal dynamics — consistent with a phenotypic severity between the two previously described poles.\n\nNotably, the study identifies a metabolic vulnerability associated with the GED deletion that the authors describe as potentially targetable, though further experimental and clinical work would be required before any therapeutic implications could be assessed.\n\nThe findings contribute to the genotype–phenotype map of DNM1L-related disease and may assist variant interpretation in clinical genomics. This preprint has not been peer-reviewed.",
+      "tags": [
+        "dnm1l",
+        "drp1",
+        "mitochondrial-dynamics",
+        "peroxisomal-dynamics",
+        "rare-disease",
+        "neurodevelopmental-disorders",
+        "genotype-phenotype",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Glioblastoma is a type of aggressive brain tumour that is very difficult to treat, partly because tumours tend to look very different from one another at the molecular level — a property scientists call heterogeneity. New research reported by Cancer Research UK suggests that underneath this apparent disorder, glioblastoma tumours actually follow predictable biological rules in how they grow and change. Scientists hope that identifying these rules could reveal weaknesses that new treatments might exploit. Research of this kind is at an early stage, and it does not yet translate directly into new treatment options, but it may help guide the direction of future studies. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Cancer Research UK reports that glioblastoma tumours follow predictable biological rules despite apparent chaos",
+      "is_preprint": false,
+      "run_date": "2026-11-05",
+      "run_iso": "2026-11-05T15:08:27+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-11-04T16:52:18+00:00",
+        "novelty": 6
+      },
+      "slug": "glioblastoma-predictable-rules-cancer-research-uk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-04T16:52:18+00:00",
+          "publisher": "Cancer Research UK",
+          "title": "Scientists uncover the hidden rules behind glioblastoma",
+          "url": "https://news.cancerresearchuk.org/2026/11/04/scientists-uncover-the-hidden-rules-behind-glioblastoma-brain-tumours/"
+        }
+      ],
+      "standfirst": "A new study suggests that the apparent disorder of glioblastoma brain tumours conceals consistent underlying patterns that could inform the development of new treatment approaches.",
+      "summary": "Cancer Research UK has reported on a study finding that glioblastoma brain tumours — widely regarded as among the most heterogeneous and unpredictable solid tumours — appear to follow consistent biological rules in how they develop and behave.\n\nGlioblastoma is an aggressive primary brain tumour with a poor prognosis. Its heterogeneity at both the cellular and molecular level has long been considered a major obstacle to effective treatment, as individual tumours often contain multiple distinct cell populations with different molecular profiles. The new findings suggest that despite this apparent chaos, there are predictable patterns governing tumour evolution — a result that the researchers indicate could identify points of vulnerability shared across tumours.\n\nFull details of the underlying research, including the institution, lead investigators, and publication venue, were not available from the feed lede. The Cancer Research UK report notes that understanding these rules could make glioblastoma more vulnerable to new therapeutic strategies.\n\nThe story will be of interest to oncologists and researchers working in neuro-oncology and cancer genomics.",
+      "tags": [
+        "glioblastoma",
+        "brain-cancer",
+        "tumour-heterogeneity",
+        "cancer-biology",
+        "neuro-oncology",
+        "tumour-evolution",
+        "cancer-research-uk"
+      ]
     }
   ],
-  "last_run": "2026-11-04T15:05:09.942874+00:00",
+  "last_run": "2026-11-05T15:10:43.488004+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
@@ -32586,8 +32907,6 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012333": "2026-10-28T13:49:55.376432+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012335": "2026-10-29T13:56:37.272747+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012337": "2026-10-27T12:59:04.058569+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012338": "2026-10-22T12:46:48.184592+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012342": "2026-10-22T12:46:48.184592+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012345": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012347": "2026-10-27T12:59:04.058569+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012348": "2026-11-01T14:01:38.695732+00:00",
@@ -32595,24 +32914,22 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012353": "2026-10-27T12:59:04.058569+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012355": "2026-10-23T12:25:34.319883+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012356": "2026-10-30T13:48:55.767653+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012361": "2026-11-05T15:10:43.488004+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012362": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012366": "2026-11-03T14:51:58.015484+00:00",
-    "https://news.cancerresearchuk.org/2026/10/21/minding-the-gap-ai-regulators-should-learn-from-the-pharmaceutical-industry/": "2026-10-22T12:46:48.184592+00:00",
     "https://news.cancerresearchuk.org/2026/10/23/esmo-2026-updates/": "2026-10-23T12:25:34.319883+00:00",
     "https://news.cancerresearchuk.org/2026/10/27/the-alborada-trust-donates-9m-to-help-develop-the-next-generation-of-cancer-research-leaders/": "2026-10-27T12:59:04.058569+00:00",
     "https://news.cancerresearchuk.org/2026/10/28/latest-winner-in-our-research-is-beautiful-competition-8/": "2026-10-29T13:56:37.272747+00:00",
     "https://news.cancerresearchuk.org/2026/10/29/autumn-budget-2026-what-does-it-mean-for-people-affected-by-cancer/": "2026-10-30T13:48:55.767653+00:00",
     "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.16.759550v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
+    "https://news.cancerresearchuk.org/2026/11/04/scientists-uncover-the-hidden-rules-behind-glioblastoma-brain-tumours/": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.759608v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.16.759659v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.17.759705v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.17.759807v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.19.760219v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.19.760269v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.759351v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760381v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.20.760491v1?rss=1": "2026-10-22T12:46:48.184592+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760594v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.21.760715v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.21.760774v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
@@ -32661,18 +32978,21 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.30.763243v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.31.763309v1": "2026-11-03T14:51:58.015484+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.01.763325v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.02.763731v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.02.763738v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.02.763739v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.02.763795v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.02.763796v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.762080v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.03.763232v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.763566v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.03.763937v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764014v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.england.nhs.uk/2026/10/nhs-supports-record-numbers-of-people-living-with-dementia-as-target-achieved/": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.04.764243v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.04.764251v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261020085023.htm": "2026-10-22T12:46:48.184592+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261020085309.htm": "2026-10-23T12:25:34.319883+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261020085427.htm": "2026-10-23T12:25:34.319883+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261021231230.htm": "2026-10-23T12:25:34.319883+00:00",
@@ -32694,37 +33014,23 @@
     "https://www.sciencedaily.com/releases/2026/10/261031012912.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261031013035.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261101010552.htm": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261101010554.htm": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261101010556.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261102075806.htm": "2026-11-03T14:51:58.015484+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261102202828.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261102202829.htm": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261103003157.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104003157.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104004909.htm": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261104005059.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104005226.htm": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/10/20/health-policy-news-bipartisan-group-of-lawmaker-urges-fda-to-close-peptide-loophole/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/20/massachusetts-regulators-move-to-seize-regal-care-nursing-home-licenses-boston-globe-investigation/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/20/nursing-home-chains-slash-quality-massachusetts/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/american-diabetes-association-leadership-change-controversy/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/biotech-news-gsk-picks-up-hep-b-drug-approval/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/cms-medicaid-fraud-nyc-adult-daycare-operators/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/health-news-nigeria-travel-related-ebola-case-outbreak/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/immatics-cancer-cell-therapy-targets-prame-protein/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/mark-cuban-cost-plus-drugs-rare-disease-medicines/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/measles-public-health-door-to-door-initiatives/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/measles-vaccination-uptake-experts-suggest-messaging-change/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/nih-replication-process-type-1-error-bhattacharya/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/roivant-immune-drug-lisraya-noninfectious-uveitis-trial-results/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/21/whats-the-deal-with-isomorphic-labs-ai-prognosis/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/22/abbvie-lutikizumab-hidradenitis-suppurativa-drug-phase-3-results/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/22/aca-failure-contain-healthcare-costs-economist-regret/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/22/biotech-news-treasury-restrictions-for-us-investment-in-chinese-biotech/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/22/calley-means-resigns-white-house-adviser-maha-movement/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/22/china-biotech-coins-act-rule-health-insurance-costs-rise/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/22/esmo-2026-what-to-know-ahead-of-moderna-merck-cancer-vaccine-data-reveal/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/22/fda-pdurs-guidance-dtx-telehealth-glp1-addiction-health-tech/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/22/glp-1-drugs-substance-use-disorder-telehealth-off-label-prescription/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/22/health-news-insurance-premiums-jump-more-americans-lose-coverage/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/22/kff-2026-benefits-survey-9-percent-premium-increase/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
-    "https://www.statnews.com/2026/10/22/rare-disease-family-name-fenib-personal-essay/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
     "https://www.statnews.com/2026/10/22/ultra-processed-food-definition-maha-white-house/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/ada-new-orleans-convention-new-report-on-controversial-june-ejections/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death/": "2026-10-25T12:21:08.016375+00:00",
@@ -32834,13 +33140,28 @@
     "https://www.statnews.com/2026/11/03/three-parent-ivf-safety-ethics-questions-mitochondrial-replacement-technology/": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/03/traumatic-eye-injuries-ophthalmologist-meditation-psychology/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/03/traumatic-eye-injuries-ophthalmologist-meditation-psychology/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/04/bernie-sanders-senate-help-key-role-pdufa-reauthorization/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/04/biotech-news-ultragenyx-cuts-staff-after-another-study-fails/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/04/democratic-wins-medicare-for-all-momentum/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/04/former-madrigal-pharmaceuticals-executive-rezdiffra-lawsuit/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/04/health-news-midterm-elections-2026-democrats-control-congress/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/04/lame-duck-session-congress-health-policy-aca-subsidies-medicaid-funding/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/04/maha-movement-future-after-midterm-losses/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/04/massachusetts-marijuana-question-8-results-recreational-cannabis/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/04/midterm-health-policy-winners-losers-medicare-for-all-rfk-jr/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/04/midterms-democrat-winners-doctors-scientists-medical-professionals/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/04/moving-to-europe-free-health-care-differences/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/04/the-biotech-startups-skipping-ai-for-drug-discovery-ai-prognosis/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/21/mark-cuban-eyes-rare-disease-drugs-ketamine-gold-rush/?utm_campaign=rss": "2026-10-22T12:46:48.184592+00:00",
+    "https://www.statnews.com/2026/11/05/china-biotech-restrictions-impact-rare-disease-investigator-initiated-trial/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/doctors-use-ai-chatbots-hipaa-compliance-questions/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/health-tech-news-medicare-delays-controversial-rpm-rule-update/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/midterms-shape-future-ai-in-health-care-fda/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/morning-rounds-single-payer-health-care-system-after-midterms/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/neurosurgeon-difference-between-pain-suffering-assisted-dying/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/promis-neurosciences-alzheimers-disease-acumen-vertex-kidney-drug/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/rasonque-revolution-medicines-pancreatic-cancer-commercial-launch/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/repatha-vs-zetia-cholesterol-study-heart-attack-risk/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/pharmalot/2026/10/22/chinese-biotech-deals-scrutiny-belgium-refuses-mounjaro-coverage/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/": "2026-10-25T12:21:08.016375+00:00",
@@ -32860,7 +33181,8 @@
     "https://www.statnews.com/pharmalot/2026/11/02/lenacapavir-generic-version-approved-fda-hiv-prevention-dr-reddys/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/04/cvs-plans-to-split-up-fda-inspections-in-india-and-china/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/04/cvs-plans-to-split-up-fda-inspections-in-india-and-china/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/05/india-new-manufacturing-rules-china-clinical-trials/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00"
   },
   "takedowns": []
 }
