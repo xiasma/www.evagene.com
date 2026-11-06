@@ -32894,9 +32894,240 @@
         "tumour-evolution",
         "cancer-research-uk"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "patients",
+        "educators"
+      ],
+      "for_patients": "Zolgensma is a gene therapy used to treat spinal muscular atrophy (SMA), a rare inherited condition that weakens muscles. It works by delivering a corrected copy of a faulty gene into the body using a modified virus. The company that makes it, Novartis, has reported that seven children who were treated with Zolgensma were later found to have tumours. It is not yet confirmed whether the therapy caused the tumours. Researchers and medicines regulators will now review the data carefully. Gene therapies are monitored closely over many years after they are approved, precisely to detect any long-term effects that could not be seen in shorter trials. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Novartis acknowledges seven tumour cases in children treated with Zolgensma SMA gene therapy",
+      "is_preprint": false,
+      "run_date": "2026-11-06",
+      "run_iso": "2026-11-06T14:45:49Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 9,
+        "newest_iso": "2026-11-06T14:41:03Z",
+        "novelty": 10
+      },
+      "slug": "novartis-zolgensma-sma-tumour-reports",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2021/05/ks051621_SMA_31-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-05T18:53:34Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Novartis cites cases of previously unknown tumors possibly tied to its SMA gene therapy",
+          "url": "https://www.statnews.com/pharmalot/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/?utm_campaign=rss"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-11-06T14:41:03Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Pharmalittle: We're reading about a Novartis gene therapy, faster U.K. drug reviews, and more",
+          "url": "https://www.statnews.com/pharmalot/2026/11/06/novartis-gene-therapy-tumors-found-faster-uk-drug-reviews/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Novartis has reported seven previously unknown instances of tumour development in paediatric patients who received its spinal muscular atrophy gene therapy, Zolgensma.",
+      "summary": "Novartis has acknowledged seven cases in which tumours were identified in children who had previously received Zolgensma (onasemnogene abeparvovec), its adeno-associated virus (AAV) gene therapy approved for spinal muscular atrophy (SMA). The cases were described as previously unknown — meaning they were not identified during the original clinical trial programme — and were reported by STAT News on 5 November 2026.\n\nZolgensma delivers a functional copy of the SMN1 gene via an AAV9 vector. The therapy has been in clinical use since FDA approval in 2019 and has been administered to thousands of children worldwide. AAV-based gene therapies carry a theoretical risk of insertional mutagenesis, in which vector integration near a proto-oncogene could, in principle, contribute to tumour formation, though establishing causality in individual cases is complex.\n\nNovartis has not, based on the available reporting, stated a confirmed causal link between Zolgensma and the tumours. The number of affected individuals relative to the total treated population has not yet been disclosed in full detail in public reporting. Regulatory authorities including the FDA and EMA are expected to review the data as part of ongoing pharmacovigilance obligations.\n\nThis story is developing. The lede text from STAT News is behind a paywall, and the full case report details — including tumour types, ages at onset, and time since treatment — have not been confirmed in publicly available sources at time of publication. Genetic Current will update as further information emerges.",
+      "tags": [
+        "gene-therapy",
+        "zolgensma",
+        "sma",
+        "spinal-muscular-atrophy",
+        "novartis",
+        "aav",
+        "pharmacovigilance",
+        "paediatric-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Telomerase is a protein that helps maintain the protective caps at the ends of chromosomes, known as telomeres. Some people are born with inherited changes (called variants) in the TERT gene, which provides instructions for making telomerase. These variants can be linked to conditions such as scarring of the lungs, liver disease, and bone marrow problems. Until now, most of what researchers knew about TERT variants came from families where the condition was already severe enough to prompt specialist referral — which can make the conditions appear worse on average than they really are across the broader population. This new study, published in the journal PLOS Genetics, used a much wider dataset of people whose genomes were sequenced without any pre-selection for illness. It found that TERT variants are more common than previously thought, and that many people who carry them do not develop serious disease. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Genomic ascertainment refines prevalence and disease associations of germline TERT variants",
+      "is_preprint": false,
+      "run_date": "2026-11-06",
+      "run_iso": "2026-11-06T14:45:49Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-11-05T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "tert-germline-variants-prevalence-phenotype-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-05T14:00:00Z",
+          "publisher": "Public Library of Science",
+          "title": "Genomic ascertainment refines the population prevalence and phenotype associations of germline TERT variants",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study using population-scale genomic data finds that germline TERT variants are more common than clinically ascertained cohorts suggest, with phenotype associations that differ from those observed in specialist referral populations.",
+      "summary": "A study published on 5 November 2026 in PLOS Genetics, led by Marena R. Niewisch, Sherifa A. Akinniyi, Kelvin C. de Andrade, and colleagues at the National Cancer Institute and Geisinger Health System, used genomic ascertainment to revisit the population prevalence and phenotype associations of deleterious germline variants in TERT, the gene encoding the catalytic subunit of telomerase.\n\nTERT encodes telomerase reverse transcriptase, and loss-of-function variants in TERT — along with other genes encoding components of the telomerase complex — underlie a spectrum of conditions collectively termed telomere biology disorders (TBDs). Clinically recognised manifestations include pulmonary fibrosis, liver disease, bone marrow failure, and head and neck squamous cell carcinoma. Prior knowledge of penetrance and phenotype in TERT variant carriers has been shaped largely by clinically ascertained cohorts, which are inherently biassed toward individuals with severe or early-onset disease and families with multiple affected members.\n\nBy analysing TERT variants in a broader, genomically ascertained population — drawn from biobank-linked data at Geisinger — the authors found that deleterious TERT variants are more prevalent in the general population than clinical series imply, and that many carriers do not present with the severe multi-system phenotypes seen in specialist referral settings. The findings have implications for how published penetrance estimates for TERT variants are interpreted in unselected genomic testing contexts, including population-scale sequencing programmes and research biobanks.\n\nThe study was published in PLOS Genetics (DOI: 10.1371/journal.pgen.1012352) under open access.",
+      "tags": [
+        "tert",
+        "telomere-biology-disorders",
+        "germline-variants",
+        "penetrance",
+        "pulmonary-fibrosis",
+        "ascertainment-bias",
+        "population-genomics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Cancer Research UK funds three teams to test AI co-scientists on major unsolved cancer questions",
+      "is_preprint": false,
+      "run_date": "2026-11-06",
+      "run_iso": "2026-11-06T14:45:49Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-11-06T14:32:27Z",
+        "novelty": 5
+      },
+      "slug": "ai-co-scientists-cancer-research-cruk",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-06T14:32:27Z",
+          "publisher": "Cancer Research UK",
+          "title": "Can AI \"co-scientists\" help answer cancer's biggest questions?",
+          "url": "https://news.cancerresearchuk.org/2026/11/06/can-ai-co-scientists-help-answer-cancers-biggest-questions/"
+        }
+      ],
+      "standfirst": "Three research teams are using large language model-based AI tools as collaborators to generate new experimental hypotheses from existing scientific literature and datasets.",
+      "summary": "Cancer Research UK has published details of three funded teams exploring whether AI tools — described as \"co-scientists\" — can identify research directions and experimental hypotheses that might otherwise be missed by human researchers working through the scientific literature and existing datasets.\n\nThe initiative reflects growing interest across the research community in using large language model-based systems to synthesise published evidence at scale, surface cross-domain connections, and suggest candidate experiments. The specific cancer questions being addressed by the three teams were not detailed in the feed lede available to Genetic Current.\n\nThe term \"co-scientist\" has entered research parlance through commercial and academic programmes, most prominently a 2025 publication from Google DeepMind describing an AI system designed to assist with experimental reasoning in biology. Cancer Research UK's programme positions the AI tools as aids to researcher thinking, not autonomous agents, consistent with current norms in responsible AI research deployment.\n\nThe initiative does not involve AI being used to interpret patient data or inform treatment decisions; it is framed as a tool for scientific hypothesis generation. How well such systems perform — and whether the resulting hypotheses translate into productive experiments — remains an open empirical question. Cancer Research UK is the primary funder of this initiative and published the news on 6 November 2026.",
+      "tags": [
+        "artificial-intelligence",
+        "cancer-research",
+        "hypothesis-generation",
+        "llm",
+        "cancer-research-uk",
+        "research-tools"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: paired genomic and epigenomic profiles reveal distinct contributions to environment-by-genotype interaction in Riesling clones",
+      "is_preprint": true,
+      "run_date": "2026-11-06",
+      "run_iso": "2026-11-06T14:45:49Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-06T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "grapevine-clone-genomic-epigenomic-gei-biorxiv",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genomic and Epigenomic Relationships Capture Different Patterns of Genotype-by-Environment Interaction in Grapevine Clones",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764487v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using a novel dual-assay sequencing approach finds that DNA methylation variation captures different aspects of clone-by-environment interaction than genetic variation alone in Vitis vinifera.",
+      "summary": "A preprint posted to bioRxiv on 6 November 2026 reports paired genomic and epigenomic profiling of 206 Riesling (Vitis vinifera L.) clones, using a sequencing approach called UMR-seq that recovers both single nucleotide polymorphisms and unmethylated-region (UMR) profiles from a single sequencing library. The work addresses a long-standing challenge in clonally propagated perennial crop breeding: genotype-by-environment interaction (GEI), in which a clone's performance varies across years and sites in ways that reduce the reliability of selection decisions.\n\nThe authors find that genomic and epigenomic relatedness matrices capture different components of GEI, with epigenomic profiles explaining variation not accounted for by genetic differences alone. This suggests that DNA methylation variation — which can be influenced by environmental exposure and can be heritable through clonal propagation — contributes independently to phenotypic plasticity in grapevine clones.\n\nThe work is primarily of relevance to plant genetics and crop genomics researchers, and to those studying epigenetic inheritance more broadly. It is not yet peer-reviewed. The preprint is available under a CC BY licence at bioRxiv.",
+      "tags": [
+        "plant-genetics",
+        "epigenomics",
+        "dna-methylation",
+        "genotype-by-environment",
+        "grapevine",
+        "crop-genomics",
+        "clonal-propagation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: deep transcriptomic atlas of heterogeneous stock rats expands functional genomics resources for GWAS follow-up",
+      "is_preprint": true,
+      "run_date": "2026-11-06",
+      "run_iso": "2026-11-06T14:45:49Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-11-06T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "hs-rats-transcriptomics-functional-genomics-biorxiv",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-06T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Deep transcriptomic analysis of molecular mediators of complex traits in heterogeneous stock (HS) rats",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764420v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports RNA-seq data from 3,160 samples across 13 tissues in heterogeneous stock rats, providing a large-scale functional genomics reference to support post-GWAS interpretation in this widely used model organism.",
+      "summary": "A preprint posted to bioRxiv on 6 November 2026 describes the generation and analysis of 3,160 RNA-seq samples — 1,932 of which were previously unpublished — from 13 tissues in heterogeneous stock (HS) rats, as part of a larger resource-building effort. HS rats are created by intercrossing eight inbred strains and maintained by outbreeding, producing animals with high genetic diversity and accumulated recombinations across more than 100 generations. These properties make them well suited to genome-wide association studies (GWAS) of physiological and behavioural traits, with improved fine-mapping resolution compared with standard inbred crosses.\n\nDespite their widespread use in trait mapping, functional genomics resources linking genetic variants to gene expression changes in specific tissues have been limited for HS rats relative to resources available for humans or mice. The preprint addresses this gap by generating transcriptomic profiles that researchers can use to interpret GWAS findings in the context of gene expression — analogous in concept to eQTL (expression quantitative trait locus) resources in human genetics.\n\nThe dataset will be of primary interest to researchers using rat models for complex trait genetics, addiction biology, cardiovascular physiology, and neuroscience. The preprint is not yet peer-reviewed and is available under a CC BY licence at bioRxiv.",
+      "tags": [
+        "rat-genetics",
+        "eqtl",
+        "transcriptomics",
+        "gwas",
+        "functional-genomics",
+        "model-organism",
+        "post-gwas",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-05T15:10:43.488004+00:00",
+  "last_run": "2026-11-06T14:47:34.173440+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
@@ -32911,28 +33142,22 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012347": "2026-10-27T12:59:04.058569+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012348": "2026-11-01T14:01:38.695732+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012351": "2026-10-28T13:49:55.376432+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352": "2026-11-06T14:47:34.173440+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012353": "2026-10-27T12:59:04.058569+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012355": "2026-10-23T12:25:34.319883+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012356": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012361": "2026-11-05T15:10:43.488004+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012362": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012366": "2026-11-03T14:51:58.015484+00:00",
-    "https://news.cancerresearchuk.org/2026/10/23/esmo-2026-updates/": "2026-10-23T12:25:34.319883+00:00",
     "https://news.cancerresearchuk.org/2026/10/27/the-alborada-trust-donates-9m-to-help-develop-the-next-generation-of-cancer-research-leaders/": "2026-10-27T12:59:04.058569+00:00",
     "https://news.cancerresearchuk.org/2026/10/28/latest-winner-in-our-research-is-beautiful-competition-8/": "2026-10-29T13:56:37.272747+00:00",
     "https://news.cancerresearchuk.org/2026/10/29/autumn-budget-2026-what-does-it-mean-for-people-affected-by-cancer/": "2026-10-30T13:48:55.767653+00:00",
     "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
     "https://news.cancerresearchuk.org/2026/11/04/scientists-uncover-the-hidden-rules-behind-glioblastoma-brain-tumours/": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.16.759608v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.16.759659v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.17.759705v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.17.759807v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
+    "https://news.cancerresearchuk.org/2026/11/06/can-ai-co-scientists-help-answer-cancers-biggest-questions/": "2026-11-06T14:47:34.173440+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.19.760219v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.759351v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.20.760381v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760594v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.21.760715v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.21.760774v1?rss=1": "2026-10-23T12:25:34.319883+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.758806v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761030v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761079v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
@@ -32990,15 +33215,12 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764014v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764243v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764251v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.05.764420v1?rss=1": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.05.764487v1?rss=1": "2026-11-06T14:47:34.173440+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
     "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261020085309.htm": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261020085427.htm": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261021231230.htm": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261021231235.htm": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261021231248.htm": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261022081314.htm": "2026-10-23T12:25:34.319883+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261023002905.htm": "2026-10-25T12:21:08.016375+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261023003337.htm": "2026-10-26T13:51:20.780431+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261023023726.htm": "2026-10-25T12:21:08.016375+00:00",
@@ -33024,31 +33246,17 @@
     "https://www.sciencedaily.com/releases/2026/11/261104004909.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104005059.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104005226.htm": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/10/22/abbvie-lutikizumab-hidradenitis-suppurativa-drug-phase-3-results/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/22/biotech-news-treasury-restrictions-for-us-investment-in-chinese-biotech/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/22/calley-means-resigns-white-house-adviser-maha-movement/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/22/china-biotech-coins-act-rule-health-insurance-costs-rise/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/22/esmo-2026-what-to-know-ahead-of-moderna-merck-cancer-vaccine-data-reveal/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/22/fda-pdurs-guidance-dtx-telehealth-glp1-addiction-health-tech/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/22/ultra-processed-food-definition-maha-white-house/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261105081000.htm": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261105224542.htm": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/10/23/ada-new-orleans-convention-new-report-on-controversial-june-ejections/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/23/christina-applegate-ms-misdiagnosis/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/esmo-2026-trial-results-tango-therapeutics-vopimetostat-revolution-medicines-rasonque/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/23/explain-appeal-elizabeth-holmes-doc-status-report/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/23/huntingtons-alnylam-gene-silencing-brezosiran/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/23/lung-cancer-patient-ros1-mutation-on-crizotinib/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/medicaid-work-requirements-anxiety-morning-rounds-health-news/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/23/new-china-biotech-limits-coins-act-proposal-us-pharma-reaction/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/23/novartis-remibrutinib-multiple-sclerosis-trial-results/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/opioid-deaths-fallen-naloxone-treatment-supply-shock-public-health/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/pathos-ai-bristol-myers-squibb-tempus-deal/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/patient-story-pancreatic-cancer-drug-daraxonrasib-rasonque/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/readout-loud-podcast-remembering-helen-branswell-infectious-disease/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/severe-pain-policy-medicare-coverage-macs-nerve-block/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/2026/10/23/state-medicaid-officials-prepare-for-new-work-requirements/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
     "https://www.statnews.com/2026/10/23/tango-pancreatic-cancer-star-moderna-readout-newsletter/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/24/christina-applegate-multiple-sclerosis-why-ms-misdiagnosis-happens/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news/": "2026-10-26T13:51:20.780431+00:00",
@@ -33153,17 +33361,26 @@
     "https://www.statnews.com/2026/11/04/midterms-democrat-winners-doctors-scientists-medical-professionals/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/04/moving-to-europe-free-health-care-differences/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/04/the-biotech-startups-skipping-ai-for-drug-discovery-ai-prognosis/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/05/biotech-news-a-possible-comeback-for-failed-sickle-cell-gene-therapy/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/2026/11/05/child-dies-measles-wisconsin-first-death-since-1990/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/05/china-biotech-restrictions-impact-rare-disease-investigator-initiated-trial/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/david-sabatini-defamation-verdict-reverberates-mit-scientific-community/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/05/doctors-use-ai-chatbots-hipaa-compliance-questions/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/end-of-maha-2026-midterms-losses-democrats-aoc-cory-booker/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/05/health-tech-news-medicare-delays-controversial-rpm-rule-update/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/midterm-election-health-care-takeaways-maha-rfk-medicare-for-all/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/05/midterms-shape-future-ai-in-health-care-fda/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/05/morning-rounds-single-payer-health-care-system-after-midterms/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/05/neurosurgeon-difference-between-pain-suffering-assisted-dying/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/2026/11/05/no-surprises-act-arbitrators-idr-ipro-network-medical-review-lose-contracts/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/05/promis-neurosciences-alzheimers-disease-acumen-vertex-kidney-drug/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/05/rasonque-revolution-medicines-pancreatic-cancer-commercial-launch/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/05/repatha-vs-zetia-cholesterol-study-heart-attack-risk/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/22/chinese-biotech-deals-scrutiny-belgium-refuses-mounjaro-coverage/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss": "2026-10-23T12:25:34.319883+00:00",
+    "https://www.statnews.com/2026/11/05/state-health-ballot-measures-abortion-marijuana-transgender-issues/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/2026/11/06/new-medicare-overhaul-of-remote-patient-monitoring-hospital-pushback/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/2026/11/06/pre-clinical-alzheimers-disease-biomarkers-tests-mental-health/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/2026/11/06/what-is-kratom-addiction-risks-explained-7-oh/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/2026/11/06/women-medical-records-artificial-intelligence-diagnosis-mental-health-pain/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/pharmalot/2026/10/23/up-and-down-ladder-pharma-jobs-callio/": "2026-10-25T12:21:08.016375+00:00",
@@ -33182,7 +33399,10 @@
     "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/pharmalot/2026/11/04/cvs-plans-to-split-up-fda-inspections-in-india-and-china/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/05/india-new-manufacturing-rules-china-clinical-trials/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/05/india-new-manufacturing-rules-china-clinical-trials/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/05/phrma-blamed-pbms-high-drug-prices-search-ads/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/06/novartis-gene-therapy-tumors-found-faster-uk-drug-reviews/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00"
   },
   "takedowns": []
 }
