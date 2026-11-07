@@ -33125,9 +33125,199 @@
         "post-gwas",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Friedreich ataxia is a rare inherited condition that gradually damages the nervous system. It is caused by a fault in a gene called FXN, which means the body produces too little of a protein called frataxin. Without enough frataxin, cells — especially nerve and heart cells — become easily damaged.\n\nResearchers have been investigating whether a natural chemical found in broccoli and other vegetables, called sulforaphane, might help. In laboratory experiments using cells and animals, sulforaphane appeared to boost frataxin levels and protect nerve cells from damage. Scientists think it works by switching on a natural defence system inside cells.\n\nThis research is at an early stage. Results in cells and animals do not always work the same way in people, and clinical trials would be needed before anything could be said about whether sulforaphane helps people with Friedreich ataxia. No dietary advice can be drawn from this study.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Broccoli compound sulforaphane boosts frataxin and protects nerve cells in Friedreich ataxia models",
+      "is_preprint": false,
+      "run_date": "2026-11-07",
+      "run_iso": "2026-11-07T13:43:27+00:00",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-11-06T23:30:16+00:00",
+        "novelty": 7
+      },
+      "slug": "broccoli-sulforaphane-friedreich-ataxia-nrf2",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-06T23:30:16+00:00",
+          "publisher": "ScienceDaily",
+          "title": "A compound hidden in broccoli could help fight a devastating genetic disease",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261104012259.htm"
+        }
+      ],
+      "standfirst": "Researchers report that sulforaphane, a compound abundant in broccoli, activates the NRF2 pathway to restore frataxin protein levels and reduce neurodegeneration in cell and animal models of Friedreich ataxia.",
+      "summary": "Scientists studying Friedreich ataxia — a progressive, inherited neurological disease caused by reduced levels of the mitochondrial protein frataxin — have found that sulforaphane, a naturally occurring isothiocyanate found in cruciferous vegetables including broccoli, can partially restore frataxin expression and protect neurones from oxidative damage in laboratory models.\n\nThe work, reported by ScienceDaily on 6 November 2026, describes how sulforaphane activates the transcription factor NRF2, which in turn upregulates antioxidant defence pathways. Because frataxin deficiency leaves cells unusually vulnerable to oxidative stress, the researchers propose that NRF2 activation represents a plausible therapeutic avenue. The team notes that sulforaphane is already well characterised in terms of safety and bioavailability in humans, which they argue could accelerate the path to clinical evaluation.\n\nFriedreich ataxia is an autosomal recessive condition caused predominantly by a GAA trinucleotide-repeat expansion in intron 1 of the FXN gene; it affects approximately 1 in 50,000 people and currently has only one approved disease-modifying therapy — omaveloxolone, which also targets the NRF2 pathway. The authors acknowledge that cell and animal model findings do not automatically translate to humans, and that clinical trials would be required to establish whether sulforaphane produces meaningful benefit in patients.\n\nThe study has not yet been linked to a peer-reviewed publication in the feed data provided; readers should seek the primary journal article to assess methodology and effect sizes.",
+      "tags": [
+        "friedreich-ataxia",
+        "fxn",
+        "sulforaphane",
+        "nrf2",
+        "rare-disease",
+        "neurodegeneration",
+        "frataxin"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Biotech roundup highlights fresh tumour reports linked to AAV gene therapy Zolgensma",
+      "is_preprint": false,
+      "run_date": "2026-11-07",
+      "run_iso": "2026-11-07T13:43:27+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-06T16:14:40+00:00",
+        "novelty": 2
+      },
+      "slug": "aav-zolgensma-tumour-risk-novartis-new-cases",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/F0367611-Adeno-associated_virus_illustration-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-06T16:14:40+00:00",
+          "publisher": "Stat News",
+          "title": "New tumor cases show common gene therapy tool can come with risk",
+          "url": "https://www.statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2024/11/DSC09982-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-11-06T15:14:53+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: Amgen's Repatha linked to fewer heart attacks",
+          "url": "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/"
+        }
+      ],
+      "standfirst": "A Stat News roundup covering new Novartis disclosures of tumour cases in children treated with Zolgensma duplicates the story already published in Genetic Current on 6 November 2026 and is logged as a repeat rather than a new cluster.",
+      "summary": "Items [9] and [10] from today's feed both reference Novartis's disclosure of seven additional tumour cases in children who received Zolgensma (onasemnogene abeparvovec), its adeno-associated virus (AAV) serotype 9 gene therapy for spinal muscular atrophy. The clinical safety signal and its implications for the broader AAV gene therapy field were covered in full in the Genetic Current cluster published on 6 November 2026 (slug: novartis-zolgensma-sma-tumour-cases). No substantively new information is present in either of today's items beyond what was reported in that cluster.\n\nThis entry is included in the emitted clusters for transparency but references the existing coverage. Readers are directed to the 6 November cluster for the full summary and audience guidance.",
+      "tags": [
+        "zolgensma",
+        "aav",
+        "gene-therapy",
+        "sma",
+        "spinal-muscular-atrophy",
+        "novartis",
+        "pharmacovigilance",
+        "paediatric-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "East-Asian-specific TWAS and MWAS models prioritise new lung cancer gene candidates",
+      "is_preprint": false,
+      "run_date": "2026-11-07",
+      "run_iso": "2026-11-07T13:43:27+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-06T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "twas-mwas-lung-cancer-east-asian-populations",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-06T14:00:00+00:00",
+          "publisher": "Public Library of Science",
+          "title": "Transcriptome- and methylome-wide association studies prioritized lung cancer genes in East Asian populations",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012332"
+        }
+      ],
+      "standfirst": "Researchers have built East-Asian-specific prediction models integrating gene expression and DNA methylation data to identify lung cancer–associated genes that European-derived references would miss.",
+      "summary": "A study published in PLOS Genetics (DOI: 10.1371/journal.pgen.1012332) by Xingjie Hao, Minghan Qu, Yi Jiang, and colleagues has applied transcriptome-wide association study (TWAS) and methylome-wide association study (MWAS) frameworks specifically trained on East Asian (EAS) reference panels to identify candidate lung cancer genes in EAS populations.\n\nThe authors, affiliated with institutions including Huazhong University of Science and Technology and Nanjing Medical University, used whole-blood gene expression and DNA methylation data from more than 800 EAS participants to build prediction models. By integrating multi-omics data with existing genome-wide association study (GWAS) summary statistics, the team prioritised loci and genes whose association with lung cancer would be obscured or attenuated when only European-ancestry reference panels are used — a well-documented problem in cross-population genomic research.\n\nThe work illustrates a broader challenge in the field: the majority of GWAS and downstream functional genomics resources remain heavily skewed towards populations of European descent, limiting the generalisability of findings to the global burden of disease. Lung cancer incidence and subtype distribution differ between populations, partly reflecting distinct environmental exposures and genetic architectures; this study underscores the value of ancestry-matched reference data for multi-omics integration.\n\nThe study is peer-reviewed and published in PLOS Genetics. Findings from population-level association studies identify candidate genes for further functional investigation; they do not, in themselves, establish causal mechanisms or clinical targets.",
+      "tags": [
+        "twas",
+        "mwas",
+        "lung-cancer",
+        "east-asian-populations",
+        "population-genomics",
+        "multi-omics",
+        "health-disparities",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint uses naturally occurring LPA knockouts in Pakistani cohort to assess reproductive safety of Lp(a) lowering",
+      "is_preprint": true,
+      "run_date": "2026-11-07",
+      "run_iso": "2026-11-07T13:43:27+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-06T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "lpa-loss-of-function-reproductive-outcomes-pakistan-genome",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-06T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Analysis of reproductive traits associated with lipoprotein(a) deficiency in participants from the Pakistan Genome Resource",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764746v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers analysed individuals carrying LPA loss-of-function variants in the Pakistan Genome Resource to evaluate whether the target of emerging Lp(a)-lowering therapies affects reproductive outcomes.",
+      "summary": "A preprint posted to bioRxiv (10.64898/2026.11.05.764746) by researchers drawing on the Pakistan Genome Resource reports an analysis of reproductive traits in individuals carrying high-confidence loss-of-function (LoF) variants in LPA, the gene encoding apolipoprotein(a) — the protein component unique to lipoprotein(a) [Lp(a)].\n\nLp(a) is a genetically determined, independent risk factor for atherosclerotic cardiovascular disease. Several pharmaceutical programmes are advancing LPA-targeting therapies designed to substantially reduce circulating Lp(a) levels. Because LPA is absent from most standard model organisms, conventional preclinical reproductive-safety studies have limited predictive value. The investigators reasoned that naturally occurring human LPA LoF variants — which effectively mimic on-target Lp(a) suppression — offer a more directly relevant approach to assessing reproductive safety in humans.\n\nUsing data from the Pakistan Genome Resource, the team identified carriers of high-confidence LPA LoF variants and compared reproductive traits — including fertility-related measures and pregnancy outcomes — against non-carriers. The preprint reports findings on whether Lp(a) deficiency is associated with altered reproductive outcomes, with implications for the safety evaluation of Lp(a)-targeting drugs currently in development.\n\nThis work has not yet been peer-reviewed. It is methodologically notable as an example of using large population genomic resources from under-represented ancestries to address translational questions that standard model-organism studies cannot answer.",
+      "tags": [
+        "lpa",
+        "lipoprotein-a",
+        "loss-of-function",
+        "cardiovascular-disease",
+        "pakistan-genome-resource",
+        "population-genomics",
+        "reproductive-safety",
+        "drug-target-validation"
+      ]
     }
   ],
-  "last_run": "2026-11-06T14:47:34.173440+00:00",
+  "last_run": "2026-11-07T13:44:44.698496+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
@@ -33135,6 +33325,7 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012187": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012223": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012320": "2026-10-29T13:56:37.272747+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012332": "2026-11-07T13:44:44.698496+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012333": "2026-10-28T13:49:55.376432+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012335": "2026-10-29T13:56:37.272747+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012337": "2026-10-27T12:59:04.058569+00:00",
@@ -33215,8 +33406,11 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764014v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764243v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764251v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.05.763758v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764420v1?rss=1": "2026-11-06T14:47:34.173440+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764487v1?rss=1": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.05.764684v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.05.764746v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
@@ -33246,6 +33440,8 @@
     "https://www.sciencedaily.com/releases/2026/11/261104004909.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104005059.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104005226.htm": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261104012259.htm": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261104012308.htm": "2026-11-07T13:44:44.698496+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105081000.htm": "2026-11-06T14:47:34.173440+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105224542.htm": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/10/23/ada-new-orleans-convention-new-report-on-controversial-june-ejections/": "2026-10-25T12:21:08.016375+00:00",
@@ -33377,9 +33573,17 @@
     "https://www.statnews.com/2026/11/05/rasonque-revolution-medicines-pancreatic-cancer-commercial-launch/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/05/repatha-vs-zetia-cholesterol-study-heart-attack-risk/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/05/state-health-ballot-measures-abortion-marijuana-transgender-issues/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/06/health-news-new-evidence-for-ancient-cannabis-use/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/new-medicare-overhaul-of-remote-patient-monitoring-hospital-pushback/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/pre-clinical-alzheimers-disease-biomarkers-tests-mental-health/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/2026/11/06/readout-loud-podcast-midterm-elections-fertility-ivf-mrt-therapy/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/what-is-kratom-addiction-risks-explained-7-oh/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/women-medical-records-artificial-intelligence-diagnosis-mental-health-pain/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/": "2026-10-25T12:21:08.016375+00:00",
@@ -33402,7 +33606,8 @@
     "https://www.statnews.com/pharmalot/2026/11/05/india-new-manufacturing-rules-china-clinical-trials/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/pharmalot/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/pharmalot/2026/11/05/phrma-blamed-pbms-high-drug-prices-search-ads/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/06/novartis-gene-therapy-tumors-found-faster-uk-drug-reviews/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/06/novartis-gene-therapy-tumors-found-faster-uk-drug-reviews/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/": "2026-11-07T13:44:44.698496+00:00"
   },
   "takedowns": []
 }
