@@ -33174,20 +33174,20 @@
     {
       "audiences": [
         "researchers",
-        "oncologists",
         "genetic-counsellors",
+        "patients",
         "educators"
       ],
-      "for_patients": null,
-      "headline": "Biotech roundup highlights fresh tumour reports linked to AAV gene therapy Zolgensma",
+      "for_patients": "Zolgensma is a gene therapy used to treat spinal muscular atrophy (SMA), a rare inherited condition that affects muscle strength. It works by delivering a corrected copy of a gene using a carrier called an adeno-associated virus (AAV). Novartis, the company that makes Zolgensma, has reported additional cases of tumours (abnormal growths) in some children who received the therapy. Researchers are studying whether the gene therapy itself may be connected to these cases, though no definite cause has been confirmed. The therapy remains approved, and regulators are continuing to review safety information. This is an evolving area of research and pharmacovigilance — the ongoing monitoring of medicines after approval. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "New tumour cases in Zolgensma recipients prompt fresh safety discussion at AHA",
       "is_preprint": false,
-      "run_date": "2026-11-07",
-      "run_iso": "2026-11-07T13:43:27+00:00",
+      "run_date": "2026-11-08",
+      "run_iso": "2026-11-08T14:02:06+00:00",
       "scores": {
-        "audience_breadth": 4,
+        "audience_breadth": 5,
         "importance": 7,
         "newest_iso": "2026-11-06T16:14:40+00:00",
-        "novelty": 2
+        "novelty": 4
       },
       "slug": "aav-zolgensma-tumour-risk-novartis-new-cases",
       "sources": [
@@ -33210,19 +33210,18 @@
           "is_primary": false,
           "published_iso": "2026-11-06T15:14:53+00:00",
           "publisher": "Stat News",
-          "title": "STAT+: Amgen's Repatha linked to fewer heart attacks",
+          "title": "Amgen's Repatha linked to fewer heart attacks",
           "url": "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/"
         }
       ],
-      "standfirst": "A Stat News roundup covering new Novartis disclosures of tumour cases in children treated with Zolgensma duplicates the story already published in Genetic Current on 6 November 2026 and is logged as a repeat rather than a new cluster.",
-      "summary": "Items [9] and [10] from today's feed both reference Novartis's disclosure of seven additional tumour cases in children who received Zolgensma (onasemnogene abeparvovec), its adeno-associated virus (AAV) serotype 9 gene therapy for spinal muscular atrophy. The clinical safety signal and its implications for the broader AAV gene therapy field were covered in full in the Genetic Current cluster published on 6 November 2026 (slug: novartis-zolgensma-sma-tumour-cases). No substantively new information is present in either of today's items beyond what was reported in that cluster.\n\nThis entry is included in the emitted clusters for transparency but references the existing coverage. Readers are directed to the 6 November cluster for the full summary and audience guidance.",
+      "standfirst": "Novartis has disclosed additional tumour reports in children treated with its AAV-based SMA gene therapy, adding to a pharmacovigilance picture already noted by researchers and regulators.",
+      "summary": "Items [15] and [16] in this feed cover further tumour cases linked to Zolgensma (onasemnogene abeparvovec), Novartis's adeno-associated virus (AAV) gene therapy approved for spinal muscular atrophy (SMA). Item [15] from Stat News reports that new cases show AAV-based gene therapies carry tumour risks, with Novartis having disclosed additional previously unreported cases in children who received Zolgensma. Item [16] (the Stat News 'Readout' briefing) reiterates the Zolgensma tumour disclosure alongside an unrelated cardiovascular drug story.\n\nThis cluster builds on reporting already published by Genetic Current on 6 and 7 November 2026. The new Stat News item [15] adds detail on the broader implications for the AAV gene therapy field — not solely for SMA — and notes that researchers are now examining whether insertional mutagenesis or other mechanisms may underlie the association. No causal mechanism has been established. Zolgensma remains approved; regulatory agencies continue to monitor safety data. The findings are relevant to researchers in gene therapy and to genetic counsellors advising families who have received or are considering AAV-based treatments. Published guidance from regulators should be consulted for the most current safety information.",
       "tags": [
         "zolgensma",
         "aav",
         "gene-therapy",
         "sma",
         "spinal-muscular-atrophy",
-        "novartis",
         "pharmacovigilance",
         "paediatric-genetics"
       ]
@@ -33315,9 +33314,109 @@
         "reproductive-safety",
         "drug-target-validation"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Novartis Lp(a)-lowering drug pelacarsen cuts biomarker but not heart attacks in trial",
+      "is_preprint": false,
+      "run_date": "2026-11-08",
+      "run_iso": "2026-11-08T14:02:06+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-07T14:50:00+00:00",
+        "novelty": 8
+      },
+      "slug": "novartis-pelacarsen-lpa-trial-failure-cardiovascular",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_450283499_Editorial_Use_Only-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-07T14:50:00+00:00",
+          "publisher": "Stat News",
+          "title": "Failure of Novartis Lp(a) drug raises questions about cardiovascular strategy",
+          "url": "https://www.statnews.com/2026/11/07/aha-conference-news-novartis-lp-a-pelacarsen-heart-disease-trial-mystery/"
+        }
+      ],
+      "standfirst": "A large cardiovascular outcomes trial of pelacarsen, which substantially reduced circulating Lp(a), showed no significant reduction in myocardial infarction or stroke, raising questions about Lp(a) as a therapeutic target.",
+      "summary": "Item [7] from Stat News reports on a clinical trial failure presented at the American Heart Association (AHA) 2026 conference: Novartis's pelacarsen, an RNA-targeted therapy designed to lower lipoprotein(a) — Lp(a) — reduced circulating Lp(a) levels as expected but did not translate this into a statistically significant reduction in hard cardiovascular endpoints, including myocardial infarction and stroke.\n\nLp(a) is an inherited, largely genetically determined lipoprotein particle whose elevated levels are associated with increased cardiovascular risk in population and genetic studies. The disconnect between biomarker reduction and clinical outcome mirrors earlier frustrations in the cardiovascular field, such as HDL-raising agents that also failed to show event reduction. Researchers at the AHA conference are reported to be re-examining whether Lp(a) itself is a causal risk factor or a marker correlated with other causal mechanisms.\n\nThe result has particular relevance for genetic researchers given that Lp(a) levels are largely controlled by variation at the LPA locus, and Genetic Current recently covered a preprint using naturally occurring LPA loss-of-function variants in a Pakistani cohort to explore drug-target validation (27 October 2026). That preprint used genetic evidence to anticipate cardiovascular benefit from Lp(a) lowering; the pelacarsen trial result now provides an important empirical counterpoint. Item [7] is behind a Stat News paywall; editorial notes are based on the available lede and feed-tag metadata.",
+      "tags": [
+        "lpa",
+        "lipoprotein-a",
+        "pelacarsen",
+        "cardiovascular-disease",
+        "clinical-trial-news",
+        "drug-target-validation",
+        "aha-conference",
+        "genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Chemical analysis of 2,800-year-old Siberian tomb confirms psychoactive cannabis use by Scythians",
+      "is_preprint": false,
+      "run_date": "2026-11-08",
+      "run_iso": "2026-11-08T14:02:06+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 4,
+        "newest_iso": "2026-11-08T08:14:23+00:00",
+        "novelty": 8
+      },
+      "slug": "ancient-scythian-cannabis-psychoactive-evidence-siberia",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2020/01/STAT_cannabis_GettyImages-658203110-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-06T14:59:42+00:00",
+          "publisher": "Stat News",
+          "title": "New evidence for ancient cannabis use",
+          "url": "https://www.statnews.com/2026/11/06/health-news-new-evidence-for-ancient-cannabis-use/"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-11-08T08:14:23+00:00",
+          "publisher": "ScienceDaily",
+          "title": "Ancient Siberian tomb reveals surprising secrets of cannabis use 2,800 years ago",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm"
+        }
+      ],
+      "standfirst": "A paper published in Science presents the oldest directly dated archaeological evidence of intentional psychoactive cannabis use, drawing on chemical residue analysis from a burial site in Siberia.",
+      "summary": "Items [1] (ScienceDaily) and [17] (Stat News) both cover a paper published in Science reporting chemical and archaeobotanical evidence for psychoactive cannabis use at a 2,800-year-old Scythian burial site in Siberia. Investigators recovered approximately 1,000 cannabis seeds alongside chemical residues consistent with burned cannabis — including cannabinoids associated with psychoactive effect — from vessels found within the tomb.\n\nWhile primarily an archaeological and archaeobotanical finding, the work is of interest to genetics and genomics audiences for several reasons. First, it contributes to the growing body of archaeogenomics-adjacent research that uses ancient biological material alongside cultural and chemical evidence to reconstruct past human practices. Second, the study speaks to the domestication and human-mediated dispersal of Cannabis sativa — a question with an active population and comparative genomics literature, including work on how selective breeding has shaped cannabinoid biosynthesis pathways at the genomic level. The paper was published in Science; the precise research group and lead authors are not specified in the available lede text.\n\nThis story is relevant primarily to researchers with interests in archaeobotany, plant genetics, population history, and the genomics of crop domestication, and to educators and students contextualising human–plant co-evolution.",
+      "tags": [
+        "archaeobotany",
+        "cannabis-sativa",
+        "plant-genetics",
+        "population-history",
+        "crop-domestication",
+        "archaeogenomics",
+        "ancient-dna-adjacent",
+        "scythian"
+      ]
     }
   ],
-  "last_run": "2026-11-07T13:44:44.698496+00:00",
+  "last_run": "2026-11-08T14:03:18.796758+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
@@ -33345,12 +33444,8 @@
     "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
     "https://news.cancerresearchuk.org/2026/11/04/scientists-uncover-the-hidden-rules-behind-glioblastoma-brain-tumours/": "2026-11-05T15:10:43.488004+00:00",
     "https://news.cancerresearchuk.org/2026/11/06/can-ai-co-scientists-help-answer-cancers-biggest-questions/": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.19.760219v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.20.759351v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760594v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.21.760715v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.758806v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.22.761030v1?rss=1": "2026-10-25T12:21:08.016375+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761079v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761181v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761185v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
@@ -33415,9 +33510,7 @@
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
     "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261023002905.htm": "2026-10-25T12:21:08.016375+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261023003337.htm": "2026-10-26T13:51:20.780431+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261023023726.htm": "2026-10-25T12:21:08.016375+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261025073049.htm": "2026-10-27T12:59:04.058569+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261025222538.htm": "2026-10-27T12:59:04.058569+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261026225608.htm": "2026-10-28T13:49:55.376432+00:00",
@@ -33442,21 +33535,12 @@
     "https://www.sciencedaily.com/releases/2026/11/261104005226.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104012259.htm": "2026-11-07T13:44:44.698496+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104012308.htm": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261104084015.htm": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261104084024.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105081000.htm": "2026-11-06T14:47:34.173440+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105224542.htm": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/2026/10/23/ada-new-orleans-convention-new-report-on-controversial-june-ejections/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/christina-applegate-ms-misdiagnosis/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/medicaid-work-requirements-anxiety-morning-rounds-health-news/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/new-china-biotech-limits-coins-act-proposal-us-pharma-reaction/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/novartis-remibrutinib-multiple-sclerosis-trial-results/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/pathos-ai-bristol-myers-squibb-tempus-deal/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/readout-loud-podcast-remembering-helen-branswell-infectious-disease/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/23/tango-pancreatic-cancer-star-moderna-readout-newsletter/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/2026/10/24/christina-applegate-multiple-sclerosis-why-ms-misdiagnosis-happens/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261106174528.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news/": "2026-10-26T13:51:20.780431+00:00",
-    "https://www.statnews.com/2026/10/24/you-can-see-everything-stat-letters-to-editor/": "2026-10-25T12:21:08.016375+00:00",
     "https://www.statnews.com/2026/10/25/esmo-astrazeneca-adcs-lung-gastric-cancer/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/26/biotech-news-moderna-ceo-on-whats-next-after-intismeran-success/": "2026-10-26T13:51:20.780431+00:00",
@@ -33574,20 +33658,27 @@
     "https://www.statnews.com/2026/11/05/repatha-vs-zetia-cholesterol-study-heart-attack-risk/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/05/state-health-ballot-measures-abortion-marijuana-transgender-issues/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/": "2026-11-07T13:44:44.698496+00:00",
-    "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/": "2026-11-07T13:44:44.698496+00:00",
-    "https://www.statnews.com/2026/11/06/health-news-new-evidence-for-ancient-cannabis-use/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.statnews.com/2026/11/06/health-news-new-evidence-for-ancient-cannabis-use/": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/new-medicare-overhaul-of-remote-patient-monitoring-hospital-pushback/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk/": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/pre-clinical-alzheimers-disease-biomarkers-tests-mental-health/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/06/readout-loud-podcast-midterm-elections-fertility-ivf-mrt-therapy/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/06/readout-loud-podcast-midterm-elections-fertility-ivf-mrt-therapy/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/what-is-kratom-addiction-risks-explained-7-oh/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/women-medical-records-artificial-intelligence-diagnosis-mental-health-pain/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/23/moderna-merck-cancer-vaccine-experimental-pancreatic-cancer-drug-esmo/": "2026-10-25T12:21:08.016375+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/23/up-and-down-ladder-pharma-jobs-callio/": "2026-10-25T12:21:08.016375+00:00",
+    "https://www.statnews.com/2026/11/07/aha-2026-conference-novo-nordisk-zeus-trial-ziltivekimab-results/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.statnews.com/2026/11/07/aha-conference-news-novartis-lp-a-pelacarsen-heart-disease-trial-mystery/": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.statnews.com/2026/11/07/bio-sues-to-block-globe-drug-pricing-model/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.statnews.com/2026/11/07/new-studies-on-blood-pressure-management-aha-conference-news/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.statnews.com/2026/11/08/heart-drug-failures-lessons-for-artificial-intelligence-from-aha-conference/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/pharmalot/2026/10/26/lawmaker-probes-pbms-for-punitive-audits-independent-pharmacies/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/pharmalot/2026/10/26/roche-lung-cancer-drug-patient-death-in-bristol-trial/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/pharmalot/2026/10/26/roche-lung-cancer-drug-patient-death-in-bristol-trial/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
@@ -33607,7 +33698,8 @@
     "https://www.statnews.com/pharmalot/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/pharmalot/2026/11/05/phrma-blamed-pbms-high-drug-prices-search-ads/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/pharmalot/2026/11/06/novartis-gene-therapy-tumors-found-faster-uk-drug-reviews/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/": "2026-11-07T13:44:44.698496+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00"
   },
   "takedowns": []
 }
