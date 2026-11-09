@@ -33414,9 +33414,235 @@
         "ancient-dna-adjacent",
         "scythian"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Gene therapy uses specially engineered viruses called AAV vectors to carry a working copy of a faulty gene into a patient's cells. Scientists have long wondered whether these viruses could, very rarely, cause cancer by disrupting other genes when they insert into DNA. A report by STAT News says a small number of cases now give strong evidence that this can happen in rare instances.\n\nThis news relates to ongoing discussion about Zolgensma, a gene therapy used in young children with a serious muscle-wasting condition called spinal muscular atrophy. Researchers say the cases do not mean gene therapy should stop, but that doctors and scientists need to monitor patients carefully over many years and think carefully about how to explain the risks and benefits to families.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Gene therapy's debated cancer risk moves from theory to documented cases",
+      "is_preprint": false,
+      "run_date": "2026-11-09",
+      "run_iso": "2026-11-09T17:06:32Z",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 9,
+        "newest_iso": "2026-11-09T14:36:12Z",
+        "novelty": 6
+      },
+      "slug": "gene-therapy-aav-tumour-risk-materialises-novartis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/07/AdobeStock_290077952-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-09T14:36:12Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Gene therapy's long-debated cancer risk materializes",
+          "url": "https://www.statnews.com/2026/11/09/biotech-news-gene-therapy-long-debated-cancer-risk-materializes/"
+        }
+      ],
+      "standfirst": "STAT News reports that a small number of tumour cases now provide strong evidence that AAV vectors used in gene therapy can, in rare instances, cause cancer — a risk long debated in the field.",
+      "summary": "For years, researchers in gene therapy have debated whether adeno-associated viral (AAV) vectors — the delivery vehicles most commonly used to ferry replacement genes into cells — could, in rare circumstances, trigger tumour formation through insertional mutagenesis or related mechanisms. According to reporting by STAT News, a small number of cases now provide what the article describes as strong evidence that this risk is real.\n\nThe report arrives in the same news cycle as continued coverage of the Novartis Zolgensma safety signal: seven cases of tumour development have been acknowledged in children treated with Zolgensma, the AAV9-based gene therapy for spinal muscular atrophy (SMA). That story was covered in Genetic Current on 6 November and again on 8 November 2026 in the context of the American Heart Association meeting; the new STAT item broadens the frame beyond any single product to the class-level question of AAV oncogenicity.\n\nThe STAT article is behind a paywall and full methodology details are not accessible from the lede alone. The reporting indicates that researchers are not interpreting the cases as a reason to abandon AAV-based gene therapy, but that the field will need to grapple seriously with long-term post-treatment surveillance, vector integration-site analysis, and risk–benefit communication with patients and families. Regulatory agencies, including the FDA, have previously required long-term follow-up studies for approved gene therapies; this emerging evidence is likely to inform how those requirements are applied and enforced going forward.",
+      "tags": [
+        "gene-therapy",
+        "aav",
+        "insertional-mutagenesis",
+        "oncogenicity",
+        "zolgensma",
+        "pharmacovigilance",
+        "long-term-safety",
+        "paediatric-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Diffuse midline glioma is a rare but very serious type of brain tumour that most often affects children and has very few treatment options. Researchers at UC San Francisco have designed a new type of immune cell therapy — called B-SYNC CAR-T — that is built to stay switched off until it reaches the brain, where it then attacks the tumour. In tests in mice, the therapy removed all detectable tumours in every animal tested.\n\nThis research is at a very early stage. Results in mice do not always translate to humans, and no trials in people have been reported yet. Scientists will need to do much more testing before knowing whether this approach could one day be used to treat children with this condition.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "UCSF team engineers B-SYNC CAR-T cells that eliminate diffuse midline glioma in mice",
+      "is_preprint": false,
+      "run_date": "2026-11-09",
+      "run_iso": "2026-11-09T17:06:32Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-11-08T23:24:50Z",
+        "novelty": 8
+      },
+      "slug": "b-sync-car-t-diffuse-midline-glioma-mouse-ucsf",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-08T23:24:50Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists wipe out deadly brain tumors in every mouse tested with new cancer therapy",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261104084009.htm"
+        }
+      ],
+      "standfirst": "Researchers at UC San Francisco report that a brain-activated version of CAR-T cell therapy wiped out diffuse midline glioma in two mouse models, offering a potential new approach for a childhood brain cancer with almost no survivors.",
+      "summary": "Scientists at UC San Francisco have developed an engineered immune cell therapy, dubbed B-SYNC CAR-T, designed to remain dormant during circulation and activate only on reaching the brain. In two independent mouse models of diffuse midline glioma (DMG) — an aggressive, treatment-resistant brain tumour that arises predominantly in children and carries a median survival of less than a year — the therapy eliminated tumours in every animal tested, according to a report by ScienceDaily drawing on a press release.\n\nDMG is defined in part by a recurrent histone mutation (H3K27M) and has proved refractory to conventional chemotherapy and radiotherapy. CAR-T cell approaches have been explored previously, but systemic toxicity and the challenges of delivering immune cells across the blood–brain barrier have limited progress. The B-SYNC design is reported to address the activation problem by coupling tumour-antigen recognition to a brain-environment sensor, though the full mechanism is not detailed in the publicly available summary.\n\nThe results are preclinical. Mouse models of brain tumours have historically shown limited predictive value for human outcomes, and no human trial data are yet reported. The source material does not name the specific journal or paper; the full peer-reviewed publication should be sought before treating these findings as definitive. For researchers and oncologists working in neuro-oncology and paediatric cancer, the activation-gating strategy represents a conceptually notable engineering approach regardless of whether this particular construct advances.",
+      "tags": [
+        "car-t",
+        "diffuse-midline-glioma",
+        "brain-cancer",
+        "paediatric-cancer",
+        "blood-brain-barrier",
+        "immunotherapy",
+        "neuro-oncology",
+        "ucsf"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Genome-wide study across 1.1 million participants maps host genetic control of anellovirus persistence",
+      "is_preprint": true,
+      "run_date": "2026-11-09",
+      "run_iso": "2026-11-09T17:06:32Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-09T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "anellovirus-gwas-121-loci-host-immune-nfkb",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Host control and regulation of human anellovirus persistence",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764726v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using three large genetic biobanks identifies 121 genomic loci associated with anellovirus levels in blood, with NF-κB immune signalling emerging as the dominant host-control pathway.",
+      "summary": "Anelloviruses are the most abundant eukaryotic viruses known to infect humans, present in virtually all adults, yet the host genetic factors governing their abundance and persistence have remained poorly understood. A preprint posted to bioRxiv reports results from genome-wide association studies (GWAS) of anellovirus DNA levels quantified in more than 1.1 million participants drawn from three genetic biobanks. To support this analysis, the authors constructed a viral pangenome from 2,023 anellovirus strains.\n\nThe study identifies 121 genomic loci associated with variation in viral persistence. The predominant biological signal implicates immune regulation via NF-κB signalling, suggesting that host control of anellovirus is primarily immunological rather than driven by direct antiviral restriction. The authors also report associations between anellovirus detection and a range of human health conditions, though the direction and magnitude of these associations are not fully described in the publicly available lede.\n\nAnelloviruses are of growing interest as potential biomarkers of immune competence — their titres are known to fluctuate with immunosuppression — and understanding the genetic architecture of host control could inform both basic immunology and applied contexts such as transplantation medicine. This work has not yet undergone peer review and should be treated accordingly.",
+      "tags": [
+        "anellovirus",
+        "gwas",
+        "virome",
+        "host-genetics",
+        "nfkb",
+        "immune-regulation",
+        "population-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Five decades of Langhill dairy cattle selection reveal genomic cost of directional breeding",
+      "is_preprint": true,
+      "run_date": "2026-11-09",
+      "run_iso": "2026-11-09T17:06:32Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-11-09T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "langhill-dairy-herd-five-decade-genomic-selection",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genomic signatures of long-term selection in the Langhill dairy herd: the power of a five-decade experiment for sustainable dairy cattle breeding",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764806v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint exploiting the 50-year Langhill selection experiment quantifies how sustained bull selection has eroded genetic diversity and identifies genomic regions bearing the strongest signatures of recent selection.",
+      "summary": "The Langhill dairy cattle experiment, established at the University of Edinburgh in 1973, is one of the world's longest-running controlled livestock selection trials. Its design — with selected and control lines maintained under common management for over five decades — provides a rare opportunity to quantify the genomic consequences of sustained directional selection with a contemporaneous comparison group, something that is difficult to achieve using commercial breeding records alone.\n\nA preprint posted to bioRxiv uses this resource to ask three questions: what has long-term bull selection cost in terms of genome-wide genetic diversity; where in the genome has selection acted most strongly; and what can this experiment reveal about the efficiency of artificial selection in cattle? The lede indicates the study documents measurable reductions in diversity and identifies selective sweeps at specific genomic loci, though full results are not accessible without the complete manuscript.\n\nThis work is relevant to animal and agricultural geneticists interested in the dynamics of artificial selection, as well as to conservation geneticists and those involved in livestock breeding programme design. It also serves as an empirically grounded illustration of concepts — selective sweeps, effective population size reduction, and the tension between short-term productivity gains and long-term genomic diversity — that are relevant to educators and students of quantitative and population genetics. This is a preprint and has not yet been peer reviewed.",
+      "tags": [
+        "livestock-genetics",
+        "cattle-breeding",
+        "selective-sweep",
+        "genetic-diversity",
+        "quantitative-genetics",
+        "langhill",
+        "artificial-selection",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint maps modifier loci that alter how strongly a MafA diabetes variant expresses across genetic backgrounds",
+      "is_preprint": true,
+      "run_date": "2026-11-09",
+      "run_iso": "2026-11-09T17:06:32Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-09T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "mafa-s64f-qtl-monogenic-diabetes-background-penetrance",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-09T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Quantitative trait loci mapping identifies genetic loci modifying MafAS64F-mediated dysglycemia",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764887v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers used genetically diverse mice carrying the MafAS64F variant linked to MODY and insulinomatosis to identify quantitative trait loci that modify the penetrance and severity of dysglycaemia.",
+      "summary": "The penetrance of monogenic forms of diabetes — that is, how often and how severely a known causative variant produces disease — varies considerably between individuals and across genetic backgrounds. A preprint posted to bioRxiv examines this phenomenon using mice carrying MafAS64F, a missense variant in the gene encoding MafA, a transcription factor enriched in pancreatic beta cells. This variant co-segregates with maturity-onset diabetes of the young (MODY) and with non-syndromic insulinomatosis in human families.\n\nBy leveraging a genetically diverse mouse population harbouring the same MafAS64F mutation, the authors applied quantitative trait loci (QTL) mapping to identify genomic regions that modify the degree of dysglycaemia produced by the variant. The experimental design exploits the principle that background genetic variation modulates penetrance — a concept directly relevant to understanding why individuals carrying the same pathogenic variant can present very differently in clinical and research settings.\n\nFor researchers in diabetes genetics, the findings advance understanding of epistasis and modifier genetics in a well-defined monogenic model. For educators and students, the study offers a worked example of QTL mapping applied to penetrance modifiers in a disease-relevant context. This preprint has not yet undergone peer review.",
+      "tags": [
+        "mafa",
+        "mody",
+        "monogenic-diabetes",
+        "penetrance",
+        "qtl-mapping",
+        "modifier-genetics",
+        "beta-cell",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-08T14:03:18.796758+00:00",
+  "last_run": "2026-11-09T17:08:17.639005+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
@@ -33444,14 +33670,15 @@
     "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
     "https://news.cancerresearchuk.org/2026/11/04/scientists-uncover-the-hidden-rules-behind-glioblastoma-brain-tumours/": "2026-11-05T15:10:43.488004+00:00",
     "https://news.cancerresearchuk.org/2026/11/06/can-ai-co-scientists-help-answer-cancers-biggest-questions/": "2026-11-06T14:47:34.173440+00:00",
+    "https://news.cancerresearchuk.org/2026/11/09/a-decade-of-the-crick-where-discovery-meets-hope/": "2026-11-09T17:08:17.639005+00:00",
+    "https://news.cancerresearchuk.org/2026/11/09/research-is-beautiful-autumns-best-of-the-rest/": "2026-11-09T17:08:17.639005+00:00",
+    "https://news.cancerresearchuk.org/2026/11/09/the-francis-crick-institute-a-decade-on-already-its-a-life-well-lived/": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.20.760594v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.22.758806v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761079v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761181v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761185v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.757543v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761278v1?rss=1": "2026-10-27T12:59:04.058569+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.23.761329v1?rss=1": "2026-10-26T13:51:20.780431+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761354v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761428v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.761457v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
@@ -33501,16 +33728,21 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764014v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764243v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764251v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.04.764303v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.763758v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764420v1?rss=1": "2026-11-06T14:47:34.173440+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764487v1?rss=1": "2026-11-06T14:47:34.173440+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764684v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.05.764726v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764746v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.06.764618v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.06.764806v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.06.764887v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.06.764943v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
     "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261023003337.htm": "2026-10-26T13:51:20.780431+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261025073049.htm": "2026-10-27T12:59:04.058569+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261025222538.htm": "2026-10-27T12:59:04.058569+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261026225608.htm": "2026-10-28T13:49:55.376432+00:00",
@@ -33535,33 +33767,26 @@
     "https://www.sciencedaily.com/releases/2026/11/261104005226.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104012259.htm": "2026-11-07T13:44:44.698496+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104012308.htm": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261104084009.htm": "2026-11-09T17:08:17.639005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084015.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084024.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105081000.htm": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261105083622.htm": "2026-11-09T17:08:17.639005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105224542.htm": "2026-11-06T14:47:34.173440+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261106174528.htm": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news/": "2026-10-26T13:51:20.780431+00:00",
-    "https://www.statnews.com/2026/10/25/esmo-astrazeneca-adcs-lung-gastric-cancer/": "2026-10-26T13:51:20.780431+00:00",
-    "https://www.statnews.com/2026/10/25/mrna-cancer-vaccine-merck-moderna-esmo-intismeran-next-applications/": "2026-10-26T13:51:20.780431+00:00",
-    "https://www.statnews.com/2026/10/26/biotech-news-moderna-ceo-on-whats-next-after-intismeran-success/": "2026-10-26T13:51:20.780431+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261106174543.htm": "2026-11-09T17:08:17.639005+00:00",
     "https://www.statnews.com/2026/10/26/biotech-news-moderna-ceo-on-whats-next-after-intismeran-success/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/bon-secours-mercy-health-surgery-partners-deal-ambulatory-surgery-centers-bain-capital/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
-    "https://www.statnews.com/2026/10/26/cumulative-ai-use-isolation-research-data-missing/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/26/cumulative-ai-use-isolation-research-data-missing/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/gsk-cancer-esmo-adcs-jemperli/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/health-data-interoperability-hti5-relaxes-privacy-security-requirements/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/health-insurance-costs-medicaid-challenges-cms-fraud-crackdown-dc-diagnosis/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
-    "https://www.statnews.com/2026/10/26/health-news-virus-afflicting-cows-makes-the-jump-to-humans/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/26/health-news-virus-afflicting-cows-makes-the-jump-to-humans/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
-    "https://www.statnews.com/2026/10/26/heart-health-women-four-life-stages-qa-sadiya-khan/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/26/heart-health-women-four-life-stages-qa-sadiya-khan/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
-    "https://www.statnews.com/2026/10/26/how-bad-should-a-healthy-person-feel/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/26/how-bad-should-a-healthy-person-feel/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/incyte-esmo-pancreatic-cancer-incb161734-results/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/merck-kelun-sac-tmt-endometrial-cancer-study-esmo-2026/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
-    "https://www.statnews.com/2026/10/26/moderna-ceo-stephane-bancel-interview-cancer-vaccine-intismeran/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/26/moderna-ceo-stephane-bancel-interview-cancer-vaccine-intismeran/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
-    "https://www.statnews.com/2026/10/26/nih-vaccine-injury-center-probes-post-infection-illness/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/2026/10/26/nih-vaccine-injury-center-probes-post-infection-illness/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/26/roche-kras-drug-divarasib-lung-cancer-treatment-win/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/2026/10/27/autoimmune-cell-therapy-trial-artiva-therapeutics-shutting-down/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
@@ -33679,8 +33904,17 @@
     "https://www.statnews.com/2026/11/07/bio-sues-to-block-globe-drug-pricing-model/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/07/new-studies-on-blood-pressure-management-aha-conference-news/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/08/heart-drug-failures-lessons-for-artificial-intelligence-from-aha-conference/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.statnews.com/2026/11/08/sudden-cardiac-arrest-survival-cpr-defibrillation-training/": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.statnews.com/2026/11/09/acute-on-chronic-liver-failure-new-definition/": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.statnews.com/2026/11/09/aha-2026-news-neutral-clinical-trials-lessons-learned/": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.statnews.com/2026/11/09/ai-chatbots-can-overcome-mental-health-barriers-in-men/": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.statnews.com/2026/11/09/biotech-news-gene-therapy-long-debated-cancer-risk-materializes/": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.statnews.com/2026/11/09/cvs-health-split-pbm-conflict-examined-anthony-loiacono-judi-health/": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.statnews.com/2026/11/09/democrat-healthcare-agenda-new-lawmakers-weigh-popular-vs-possible/": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.statnews.com/2026/11/09/eli-lilly-foundayo-sleep-apnea/": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.statnews.com/2026/11/09/glp-1-drugs-potential-risk-rare-eye-condition-naion-fda/": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.statnews.com/2026/11/09/health-news-new-rule-to-prevent-bioweapon-spread/": "2026-11-09T17:08:17.639005+00:00",
     "https://www.statnews.com/pharmalot/2026/10/26/lawmaker-probes-pbms-for-punitive-audits-independent-pharmacies/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/26/roche-lung-cancer-drug-patient-death-in-bristol-trial/": "2026-10-26T13:51:20.780431+00:00",
     "https://www.statnews.com/pharmalot/2026/10/26/roche-lung-cancer-drug-patient-death-in-bristol-trial/?utm_campaign=rss": "2026-10-27T12:59:04.058569+00:00",
     "https://www.statnews.com/pharmalot/2026/10/27/missouri-ag-warns-lilly-340b-drug-pricing-data/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/pharmalot/2026/10/27/novo-setback-in-court-house-probe-into-big-pbms/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
@@ -33699,7 +33933,8 @@
     "https://www.statnews.com/pharmalot/2026/11/05/phrma-blamed-pbms-high-drug-prices-search-ads/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/pharmalot/2026/11/06/novartis-gene-therapy-tumors-found-faster-uk-drug-reviews/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/": "2026-11-07T13:44:44.698496+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/09/novartis-abandons-heart-drug-bio-fighting-trump-program/": "2026-11-09T17:08:17.639005+00:00"
   },
   "takedowns": []
 }
