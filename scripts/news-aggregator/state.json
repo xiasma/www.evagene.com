@@ -33786,9 +33786,231 @@
         "cancer-research-uk",
         "cancer-biology"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists studying schizophrenia — a condition that affects how a person thinks and experiences reality — normally look at hundreds of common genetic differences spread across the genome to estimate how much inherited risk a person carries. This estimate is called a polygenic risk score.\n\nIn this study, researchers examined the genetic data from a person who had schizophrenia but had a very low polygenic risk score — meaning the usual common genetic factors explained very little of their illness. By looking more closely at the full set of their genes (their exome) and at which genes were switched on or off in their brain, the team hoped to find rarer genetic changes that might help explain why that person developed the condition.\n\nThis is early-stage research on a single case, shared as a preprint — meaning it has not yet been checked by independent scientific reviewers. It does not change how schizophrenia is diagnosed or treated. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Exome and transcriptome analysis probes schizophrenia in a case with exceptionally low polygenic risk",
+      "is_preprint": true,
+      "run_date": "2026-11-11",
+      "run_iso": "2026-11-11T14:53:48+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-11-11T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "schizophrenia-low-prs-exome-transcriptome-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-11T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Integrated exome-transcriptome analysis of a schizophrenia case with an exceptionally low polygenic risk score",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765277v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint applies integrated genomic analysis to a post-mortem schizophrenia case sitting below the first percentile for polygenic risk score, seeking rare variants that may account for liability in the absence of common-variant burden.",
+      "summary": "Researchers have posted a preprint on bioRxiv describing an integrated exome-sequencing and transcriptome analysis of a single post-mortem schizophrenia case — designated SZ07 — whose schizophrenia polygenic risk score (PRS) fell below the first percentile among ancestry-matched cases. The study asks whether individual-level genomic and transcriptomic analysis can identify rare or novel variants potentially relevant to disease liability when common-variant burden is minimal.\n\nThe team applied multiple variant-prediction tools to the exome to generate a prioritised panel of candidate variants and corresponding genes, then cross-referenced these with transcriptomic data from the same individual. The approach illustrates how rare variants of larger effect may contribute to schizophrenia in a subset of individuals who sit at the extreme low end of the polygenic risk distribution — a finding relevant to the broader question of how polygenic and monogenic or oligogenic contributions interact across the liability spectrum.\n\nThe work is a single-case study and carries the inherent limitations of post-mortem tissue analysis and N-of-1 design. As a preprint, it has not yet undergone peer review. Researchers in psychiatric genomics and variant interpretation may find the methodological framework — combining exome variant prioritisation with transcriptomic validation — of interest independent of the specific case findings.",
+      "tags": [
+        "schizophrenia",
+        "polygenic-risk-score",
+        "exome-sequencing",
+        "rare-variants",
+        "psychiatric-genomics",
+        "variant-interpretation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Largest cohort study to date maps clonal haematopoiesis dynamics in inherited neutropenia syndromes",
+      "is_preprint": true,
+      "run_date": "2026-11-11",
+      "run_iso": "2026-11-11T14:53:48+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-11T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "congenital-neutropenia-clonal-haematopoiesis-leukaemia-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-11T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Deciphering the Dynamics of Leukemogenic Transformation from Clonal Hematopoiesis in Congenital Neutropenia",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765578v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint analysing 658 samples from 309 patients with severe congenital neutropenia or Shwachman-Diamond syndrome characterises the somatic mutation patterns that precede transformation to myelodysplastic syndrome or acute myeloid leukaemia.",
+      "summary": "Researchers have posted a preprint to bioRxiv reporting clonal haematopoiesis (CH) analysis across the largest representative cohort of inherited neutropenia patients described to date: 658 samples from 309 individuals with either severe congenital neutropenia (CN) or Shwachman-Diamond syndrome (SDS), both of which confer a substantially elevated cumulative risk of myelodysplastic syndrome (MDS) and acute myeloid leukaemia (AML).\n\nUsing error-corrected panel sequencing with longitudinal sampling, complemented in selected cases by single-cell DNA sequencing, the team characterised which somatic mutations — in which combinations, allele frequencies, and temporal sequences — are associated with progression towards leukaemic transformation. The study aims to address a longstanding clinical question in inherited bone marrow failure syndromes: identifying which patients harbouring clonal haematopoiesis are at highest risk of malignant progression.\n\nThe findings are relevant to researchers in cancer genomics, haematological malignancy, and the biology of clonal evolution, as well as to oncologists and genetic counsellors who work with patients affected by inherited neutropenia syndromes. As a preprint, the work has not yet completed peer review. The researchers do not describe patient management recommendations; published clinical guidance from relevant professional bodies should be consulted for current practice.",
+      "tags": [
+        "clonal-haematopoiesis",
+        "congenital-neutropenia",
+        "shwachman-diamond-syndrome",
+        "aml",
+        "mds",
+        "leukaemia",
+        "somatic-variants",
+        "bone-marrow-failure",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Bacterially acquired guanine deaminase genes maintain purine balance in C. elegans",
+      "is_preprint": false,
+      "run_date": "2026-11-11",
+      "run_iso": "2026-11-11T14:53:48+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-10T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "c-elegans-horizontal-gene-transfer-purine-homeostasis",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-10T14:00:00+00:00",
+          "publisher": "Public Library of Science",
+          "title": "Paralogous guanine deaminases acquired from bacteria by horizontal gene transfer promote purine homeostasis in Caenorhabditis elegans",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012379"
+        }
+      ],
+      "standfirst": "A PLOS Genetics paper describes how two paralogous guanine deaminase genes, acquired from bacteria by horizontal gene transfer, regulate purine homeostasis in Caenorhabditis elegans — with parallels to rare human metabolic disorders including xanthinuria.",
+      "summary": "Researchers including Sushila Bhattacharya, Kurt Warnhoff, and colleagues have published a study in PLOS Genetics describing how Caenorhabditis elegans acquired two paralogous guanine deaminase genes from bacteria via horizontal gene transfer (HGT), and how these genes function to maintain purine homeostasis in the worm.\n\nTo investigate the metabolic networks regulating purines, the team developed a C. elegans model of xanthine dehydrogenase (xdh-1) deficiency. Mutant animals with disrupted xdh-1 formed xanthine stones — recapitulating a hallmark of human xanthinuria, a rare metabolic disorder caused by xanthine dehydrogenase deficiency. The bacterially derived guanine deaminase genes emerged as key regulators acting upstream of this pathway, capable of redirecting purine flux.\n\nThe study is primarily of interest to researchers in evolutionary genetics, model organism biology, and purine metabolism. It also illustrates a broader principle relevant to educators and students: that horizontal gene transfer — the movement of genes between unrelated organisms, more commonly associated with bacteria — can contribute functional metabolic capacity in animals. Disruptions in purine metabolism are associated with a range of human conditions including Lesch-Nyhan syndrome, xanthinuria, gout, and certain cancers, lending translational context to this fundamental biology, though the paper itself does not make clinical claims.",
+      "tags": [
+        "horizontal-gene-transfer",
+        "purine-metabolism",
+        "c-elegans",
+        "xanthinuria",
+        "xanthine-dehydrogenase",
+        "evolutionary-genetics",
+        "model-organism",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Forward genetic screen in C. elegans identifies host genes required for gut bacterial colonisation",
+      "is_preprint": true,
+      "run_date": "2026-11-11",
+      "run_iso": "2026-11-11T14:53:48+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-11-11T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "gut-microbiome-host-genetics-screen-c-elegans-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-11T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A genetic screen to identify host factors required for commensal bacterial adherence to the gut epithelia",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765429v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports a novel genetic screen using a fluorescently labelled gut commensal to identify C. elegans host genes necessary for bacterial adherence to intestinal epithelial cells.",
+      "summary": "Researchers have posted a preprint to bioRxiv describing a forward genetic screen developed in Caenorhabditis elegans to identify host genetic factors required for commensal bacterial adherence to the gut epithelium. The study used a gut commensal bacterium, Lelliottia jeotgali, that robustly colonises C. elegans by attaching to intestinal epithelial cells. By generating a transgenic strain of L. jeotgali expressing the red fluorescent protein tdTomato, the team were able to screen for worm mutants that completely lost colonisation.\n\nThe screen identified multiple allelic mutations in five C. elegans genes, providing a set of candidate host factors that mediate bacterial attachment. The approach offers a tractable invertebrate model for dissecting the genetic architecture of host-microbiome interactions at the level of epithelial colonisation.\n\nThe work is primarily of interest to researchers in host-microbiome genetics, C. elegans biology, and microbiology. As a model organism study, it does not directly address human gut microbiome composition or clinical applications, though the host-genetic determinants of bacterial adherence are a topic of broader relevance in microbiome research. This is a preprint and has not yet undergone peer review.",
+      "tags": [
+        "gut-microbiome",
+        "host-genetics",
+        "bacterial-adherence",
+        "c-elegans",
+        "forward-genetic-screen",
+        "epithelial-colonisation",
+        "model-organism",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Traces of ancient sheep virus recovered from 1,000-year-old manuscript parchment",
+      "is_preprint": false,
+      "run_date": "2026-11-11",
+      "run_iso": "2026-11-11T14:53:48+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-11-11T12:10:47+00:00",
+        "novelty": 8
+      },
+      "slug": "ancient-parchment-virus-dna-york-gospels",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-11T12:10:47+00:00",
+          "publisher": "ScienceDaily",
+          "title": "Scientists find deadly virus DNA hidden in 1,000-year-old manuscripts",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261106174545.htm"
+        }
+      ],
+      "standfirst": "Scientists analysing the York Gospels and other historic parchments have recovered viral DNA revealing that a deadly sheep pathogen has remained genetically stable for more than 3,700 years, turning animal-skin manuscripts into an unexpected archive of past disease.",
+      "summary": "Scientists have recovered traces of an ancient sheep virus from parchment manuscripts, including the York Gospels — a document approximately 1,000 years old — and have used the sequences to trace the virus's history back more than 3,700 years. The finding, reported by ScienceDaily, demonstrates that animal-skin parchments can preserve pathogen DNA over centuries and millennia, functioning as an unintended archive of historical disease.\n\nA notable feature of the results is the apparent genetic stability of the virus across the full span examined: the pathogen appears to have remained remarkably unchanged over thousands of years, suggesting either strong purifying selection or a slow evolutionary rate.\n\nFor genetics and genomics audiences, the study illustrates the expanding scope of ancient DNA (aDNA) methods, which now extend beyond the recovery of host genomes to the characterisation of historic pathogens preserved in archival biological materials. Parchment collections held in libraries, archives, and museums may represent an underexplored resource for palaeoviral research. The work is of interest to researchers in archaeogenomics, evolutionary virology, and the history of animal disease, as well as to educators and students exploring the breadth of aDNA applications. The source coverage is based on a press summary; the primary journal publication has not been separately identified in the feed.",
+      "tags": [
+        "ancient-dna",
+        "palaeoviral",
+        "archaeogenomics",
+        "parchment",
+        "animal-disease-history",
+        "evolutionary-virology",
+        "york-gospels"
+      ]
     }
   ],
-  "last_run": "2026-11-10T15:25:20.847223+00:00",
+  "last_run": "2026-11-11T14:55:34.525034+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
@@ -33797,16 +34019,15 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012223": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012320": "2026-10-29T13:56:37.272747+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012332": "2026-11-07T13:44:44.698496+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012333": "2026-10-28T13:49:55.376432+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012335": "2026-10-29T13:56:37.272747+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012345": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012348": "2026-11-01T14:01:38.695732+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012351": "2026-10-28T13:49:55.376432+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352": "2026-11-06T14:47:34.173440+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012356": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012361": "2026-11-05T15:10:43.488004+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012362": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012366": "2026-11-03T14:51:58.015484+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012379": "2026-11-11T14:55:34.525034+00:00",
     "https://news.cancerresearchuk.org/2026/10/28/latest-winner-in-our-research-is-beautiful-competition-8/": "2026-10-29T13:56:37.272747+00:00",
     "https://news.cancerresearchuk.org/2026/10/29/autumn-budget-2026-what-does-it-mean-for-people-affected-by-cancer/": "2026-10-30T13:48:55.767653+00:00",
     "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
@@ -33816,27 +34037,16 @@
     "https://news.cancerresearchuk.org/2026/11/09/research-is-beautiful-autumns-best-of-the-rest/": "2026-11-09T17:08:17.639005+00:00",
     "https://news.cancerresearchuk.org/2026/11/09/the-francis-crick-institute-a-decade-on-already-its-a-life-well-lived/": "2026-11-09T17:08:17.639005+00:00",
     "https://news.cancerresearchuk.org/2026/11/10/immune-system-proteins-prevent-prostate-cancer/": "2026-11-10T15:25:20.847223+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.22.761079v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.22.761181v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.757543v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.23.761354v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.23.761428v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.23.761457v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.24.760972v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.24.761599v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.25.761580v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.26.761611v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.761744v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.761791v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.761842v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.26.761893v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.26.762008v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.762026v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.761507v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762148v1": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.27.762151v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762190v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.27.762198v1?rss=1": "2026-10-28T13:49:55.376432+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762204v1": "2026-11-03T14:51:58.015484+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762208v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762239v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
@@ -33878,13 +34088,13 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764806v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764887v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764943v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.09.765277v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.09.765429v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.10.765578v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
     "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261026225608.htm": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261027063704.htm": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261027230715.htm": "2026-10-28T13:49:55.376432+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261028232701.htm": "2026-10-29T13:56:37.272747+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261028234813.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261029072123.htm": "2026-11-01T14:01:38.695732+00:00",
@@ -33906,26 +34116,19 @@
     "https://www.sciencedaily.com/releases/2026/11/261104012308.htm": "2026-11-07T13:44:44.698496+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084009.htm": "2026-11-09T17:08:17.639005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084015.htm": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261104084021.htm": "2026-11-11T14:55:34.525034+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084024.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105081000.htm": "2026-11-06T14:47:34.173440+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105083622.htm": "2026-11-09T17:08:17.639005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105224542.htm": "2026-11-06T14:47:34.173440+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261106174528.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261106174543.htm": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.statnews.com/2026/10/27/autoimmune-cell-therapy-trial-artiva-therapeutics-shutting-down/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/2026/10/27/biotech-news-nonprofit-resurrects-shelved-gene-therapy/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/2026/10/27/fda-personalized-gene-therapy-guidance-individualized-feature-space/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/2026/10/27/rfk-jr-campaigns-zach-lahn-iowa-coins-binsa-china-biotech-rules/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261106174545.htm": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261108203714.htm": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261109205415.htm": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/10/28/abdul-el-sayed-profile-midterm-policy-issues-health-care/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/28/biotech-news-lillys-triple-g-drug-beats-ozempic-in-head-to-head-study/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/2026/10/28/epic-systems-ehr-dominance-health-tech-antitrust-scrutiny/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/2026/10/28/epic-systems-electronic-health-records-reader-callout/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/2026/10/28/fertility-industry-private-equity-egg-freezing-ethics-costs/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/2026/10/28/health-care-ai-innovation-challenge-epic-ai-prognosis/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/28/health-news-why-are-overdose-deaths-declining/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/2026/10/28/hhs-enforcement-discretion-policy-allows-peptide-compounding/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/28/measles-parents-panic-pennsylvania-vaccines-education/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/2026/10/28/retatrutide-vs-ozempic-lilly-diabetes-study/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
     "https://www.statnews.com/2026/10/29/ai-science-biology-dependence-ethics-research/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/29/biotech-licensing-deals-treasury-rules-stir-debate/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/29/biotech-news-hhs-green-lights-six-peptides-for-now/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
@@ -34038,14 +34241,26 @@
     "https://www.statnews.com/2026/11/09/ionis-pharmaceuticals-shares-plummet-after-tryngolza-slow-rollout/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/2026/11/09/midterm-elections-good-news-for-hospitals-cvs-breakup-explained/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/2026/11/10/ai-health-advice-accuracy-messaging-risk-behavioral-benchmarking/": "2026-11-10T15:25:20.847223+00:00",
+    "https://www.statnews.com/2026/11/10/ai-health-advice-accuracy-messaging-risk-behavioral-benchmarking/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/10/biotech-news-glp-1-given-an-fda-warning-for-rare-eye-condition-risk/": "2026-11-10T15:25:20.847223+00:00",
+    "https://www.statnews.com/2026/11/10/biotech-news-glp-1-given-an-fda-warning-for-rare-eye-condition-risk/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/10/chatbots-for-men-and-earnings-highlights-health-tech/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/10/china-biotech-bio-plan-space-race/": "2026-11-10T15:25:20.847223+00:00",
+    "https://www.statnews.com/2026/11/10/china-biotech-bio-plan-space-race/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/10/dc-diagnosis-wyden-sanders-aligned-on-medicare-for-all/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/10/democrats-investigate-most-favored-nation-deals-letters-drugmakers/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/10/health-news-why-flu-season-could-hit-teens-and-young-adults-hard/": "2026-11-10T15:25:20.847223+00:00",
+    "https://www.statnews.com/2026/11/10/health-news-why-flu-season-could-hit-teens-and-young-adults-hard/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/10/medicaid-expansion-holdout-states-midterm-election-power-shift/": "2026-11-10T15:25:20.847223+00:00",
+    "https://www.statnews.com/2026/11/10/medicaid-expansion-holdout-states-midterm-election-power-shift/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/10/muscular-dystrophy-dm1-pepgen-pgn-edodm1-early-results/": "2026-11-10T15:25:20.847223+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/27/missouri-ag-warns-lilly-340b-drug-pricing-data/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/27/novo-setback-in-court-house-probe-into-big-pbms/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/28/battles-over-340b-lilly-reports-weight-loss-drug-results/?utm_campaign=rss": "2026-10-28T13:49:55.376432+00:00",
+    "https://www.statnews.com/2026/11/10/muscular-dystrophy-dm1-pepgen-pgn-edodm1-early-results/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/11/health-news-us-may-soon-lose-measles-elimination-status/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/11/kennedy-hhs-preventive-care-panel-conflict-interest-waivers/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/11/mdcalc-launches-crosscover-rumble-strip-for-clinical-ai-chatbots/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/11/no-surprises-act-phi-health-air-ambulance-sues-employers/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/11/picky-eating-kids-low-income-families-snap-wic/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/pharmalot/2026/10/28/lawmaker-wants-gao-probe-trumprx-drug-pricing/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/pharmalot/2026/10/29/peptides-policy-released-by-hhs-pbm-disclosure-requirements/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/pharmalot/2026/10/30/astrazeneca-cost-cutting-sun-pharma-facility-problems/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
@@ -34064,8 +34279,13 @@
     "https://www.statnews.com/pharmalot/2026/11/09/novartis-abandons-heart-drug-bio-fighting-trump-program/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/pharmalot/2026/11/09/trump-administration-removes-wuxi-apptec-from-its-chinese-military-list/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/pharmalot/2026/11/10/access-to-key-drugs-mixed-in-poor-countries-cancer-diabetes/": "2026-11-10T15:25:20.847223+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/10/access-to-key-drugs-mixed-in-poor-countries-cancer-diabetes/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/pharmalot/2026/11/10/dutch-antitrust-regulators-probe-biogen-over-multiple-sclerosis-drug-test/": "2026-11-10T15:25:20.847223+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/10/stroke-drug-sunharbo-eye-warning-glp-drugs-pharmalittle/": "2026-11-10T15:25:20.847223+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/10/dutch-antitrust-regulators-probe-biogen-over-multiple-sclerosis-drug-test/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/10/former-lilly-rep-claims-she-was-fired-for-complaining-about-marketing-of-mounjaro-diabetes-drug/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/10/stroke-drug-sunharbo-eye-warning-glp-drugs-pharmalittle/": "2026-11-10T15:25:20.847223+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/10/stroke-drug-sunharbo-eye-warning-glp-drugs-pharmalittle/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/11/dems-eye-trump-mfn-deals-fewer-drug-launches-in-europe/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00"
   },
   "takedowns": []
 }
