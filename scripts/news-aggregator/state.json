@@ -34008,19 +34008,210 @@
         "evolutionary-virology",
         "york-gospels"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers studying the NIH All of Us programme — a large US health research project — have found thousands of previously unknown differences in genes that affect how people respond to medicines. The findings came from studying the DNA of nearly 100,000 people from a wide range of backgrounds. Many of the new discoveries involve populations whose genetic information has not been well represented in earlier research databases.\n\nThis matters because guidance on which medicines work well — or cause side effects — for a given person can depend in part on inherited gene variants. If those variants have never been studied in a particular population, the guidance may be less accurate for people from that group. Researchers say the new findings are a step towards making pharmacogenomics — the science of matching medicines to genetic make-up — more applicable across different ancestries.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "All of Us study identifies thousands of new pharmacogenomic variants in diverse US population",
+      "is_preprint": false,
+      "run_date": "2026-11-12",
+      "run_iso": "2026-11-12T15:44:34+00:00",
+      "scores": {
+        "audience_breadth": 7,
+        "importance": 8,
+        "newest_iso": "2026-11-11T21:37:27+00:00",
+        "novelty": 7
+      },
+      "slug": "all-of-us-pharmacogenomics-diverse-variants",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_35613037-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-11T21:37:27+00:00",
+          "publisher": "STAT News",
+          "title": "All of Us study finds thousands of new genetic variants affecting drug responses",
+          "url": "https://www.statnews.com/2026/11/11/all-of-us-study-finds-gene-variants-drug-responses/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Analysis of nearly 100,000 participants in the NIH All of Us programme has uncovered thousands of previously undescribed variants in genes governing drug response, with gains concentrated in populations historically underrepresented in genomic research.",
+      "summary": "A large-scale pharmacogenomics study drawing on the NIH All of Us Research Programme has identified thousands of new genetic variants in genes that influence how individuals metabolise and respond to prescription medicines. The analysis, reported by STAT News on 11 November 2026, examined data from close to 100,000 participants and was notable for its demographic breadth, with the greatest number of novel discoveries arising from populations that have been underrepresented in previous pharmacogenomic reference datasets.\n\nPharmacogenomics — the study of how inherited variation shapes drug response — has historically relied on datasets skewed towards individuals of European ancestry. Researchers working with All of Us have argued that expanding diversity within the reference corpus is essential for ensuring that gene-drug interaction guidance is applicable across ancestry groups. The new findings add to a growing body of evidence that clinically relevant pharmacogenomic variants differ substantially in frequency between populations.\n\nThe study builds on earlier All of Us outputs, including a preprint published in late October 2026 that described long-read sequencing of 1,490 Hispanic and Latino participants and identified around ten million novel variants (covered previously by Genetic Current on 2 November 2026). The pharmacogenomics paper extends that diversity agenda into a domain with direct translational relevance: prescribing and drug safety. The original STAT News report did not name the journal of publication; further details are expected as the full paper becomes available.",
+      "tags": [
+        "pharmacogenomics",
+        "all-of-us",
+        "diverse-populations",
+        "drug-response",
+        "health-disparities",
+        "population-genomics",
+        "nih"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "gps",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "American Cancer Society reverses course, recommending routine PSA screening for prostate cancer",
+      "is_preprint": false,
+      "run_date": "2026-11-12",
+      "run_iso": "2026-11-12T15:44:34+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-11-12T12:32:57+00:00",
+        "novelty": 8
+      },
+      "slug": "acs-psa-screening-guidelines-update-2026",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_1544077528-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-12T12:00:00+00:00",
+          "publisher": "STAT News",
+          "title": "American Cancer Society revises guidelines, urges routine PSA screening for prostate cancer",
+          "url": "https://www.statnews.com/2026/11/12/prostate-cancer-screening-guidelines-updated-acs/?utm_campaign=rss"
+        },
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2017/02/Prostate_cancer_with_Gleason_pattern_4_low_mag-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": false,
+          "published_iso": "2026-11-12T12:32:57+00:00",
+          "publisher": "STAT News",
+          "title": "Experts update prostate cancer screening guidelines for men",
+          "url": "https://www.statnews.com/2026/11/12/health-news-experts-update-prostate-cancer-screening-guidelines-for-men/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "The American Cancer Society has updated its prostate cancer screening guidance to recommend routine PSA testing, reversing a position held since 2010 and reigniting debate about population-level screening strategy.",
+      "summary": "The American Cancer Society (ACS) has issued updated guidance recommending routine PSA (prostate-specific antigen) screening for prostate cancer, marking a significant reversal of the organisation's position held since 2010. Two reports from STAT News published on 12 November 2026 — a news article and a secondary morning briefing item — cover the development.\n\nThe ACS's previous guidance, adopted in 2010, moved away from recommending routine population-level PSA screening owing to concerns about overdiagnosis and the harms associated with follow-up investigation and treatment of clinically insignificant disease. The new guidance, details of which were reported by STAT News but not fully reproduced in the feed lede, appears to focus on men aged 50 to 69. The reporting frames this as a reversal rather than an incremental amendment.\n\nProstate cancer screening policy has long been contested territory in oncology and primary care. Published guidance from bodies including the US Preventive Services Task Force has previously recommended shared decision-making rather than universal screening for average-risk men. The ACS update does not supersede national regulatory or guideline-body positions in other jurisdictions; UK guidance from NICE and NHS England remains independent of ACS recommendations.\n\nGenetic factors — including pathogenic variants in BRCA2, BRCA1, ATM, and HOXB13, and polygenic risk scores — have an established role in hereditary prostate cancer risk assessment, though the ACS announcement as reported appears to address population-level PSA screening rather than hereditary risk pathways specifically. Genetic Current will update this summary when the full ACS guideline document is available.",
+      "tags": [
+        "prostate-cancer",
+        "psa-screening",
+        "cancer-screening",
+        "guideline-update",
+        "acs",
+        "oncology",
+        "cancer-policy"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "C. elegans study links tachykinin-like peptide NLP-58 to thermoregulatory signalling",
+      "is_preprint": false,
+      "run_date": "2026-11-12",
+      "run_iso": "2026-11-12T15:44:34+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-11T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "tachykinin-nlp58-thermotaxis-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-11T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Tachykinin-like NLP-58 signaling through TKR-1 modulates thermotaxis behavior in Caenorhabditis elegans",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012346"
+        }
+      ],
+      "standfirst": "Researchers have established a genetically tractable worm model for studying conserved tachykinin signalling relevant to mammalian thermoregulation, including pathways implicated in menopausal hot flushes.",
+      "summary": "A team led by researchers including Ikue Mori and colleagues has published a study in PLOS Genetics describing how NLP-58 — the C. elegans orthologue of mammalian neurokinin B (NKB) — signals through the receptor TKR-1 to modulate thermotaxis behaviour in the nematode worm.\n\nNeurokinin B signalling in mammals is known to play a central role in thermoregulatory dysfunction associated with menopause, including the hot flush response. Despite its medical importance, the neural circuit mechanisms underlying NKB-driven thermoregulation remain incompletely characterised. The new work, published 11 November 2026, establishes C. elegans thermotaxis as a genetically tractable platform in which to investigate conserved aspects of this pathway.\n\nThe authors report that overexpression of nlp-58 in worms disrupts directed movement along temperature gradients, an assay that reflects the animal's thermosensory neural circuitry. By working in C. elegans — a system where every neuron can be individually identified and manipulated — researchers can dissect the precise circuit architecture through which tachykinin-like peptides exert their thermosensory effects, providing a foundation for understanding the more complex mammalian system.\n\nThe study is primarily of interest to researchers in neuromodulation, neuropeptide biology, and evolutionary genetics, and to educators using invertebrate model systems to illustrate conserved signalling principles.",
+      "tags": [
+        "c-elegans",
+        "tachykinin",
+        "neuropeptide",
+        "thermosensory",
+        "neurokinin-b",
+        "neuromodulation",
+        "model-organism",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: pangenome and long-read sequencing improve genetic diagnosis in underrepresented NDD populations",
+      "is_preprint": true,
+      "run_date": "2026-11-12",
+      "run_iso": "2026-11-12T15:44:34+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-12T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "pangenome-long-read-wgs-neurodevelopmental-underrepresented",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-12T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Pangenome Discoveries from Clinical Long-Read Genomes in Underrepresented Populations with Neurodevelopmental Disorders",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.07.765034v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that integrating long-read whole-genome sequencing with pangenome references improved diagnostic yield in 211 cases of neurodevelopmental disorders drawn from 24 historically underrepresented populations.",
+      "summary": "A preprint posted to bioRxiv (7 November 2026, v1 published 12 November 2026) describes an analysis of 211 individuals with neurodevelopmental disorders (NDDs) and 107 unaffected relatives drawn from 24 populations that are poorly represented in existing genomic reference resources. The research team integrated long-read whole-genome sequencing (LR-WGS) assemblies with two pangenome datasets — the Human Pangenome Reference Consortium Release 2 (HPRC_r2) and the Arab Pangenome Reference (APR) — to generate a total of 1,204 haplotypes.\n\nThe central argument of the preprint is that standard short-read sequencing aligned to the GRCh38 linear reference genome misses a substantial fraction of clinically relevant structural and sequence variation in individuals from populations not well represented in that reference. Pangenome approaches, which represent multiple linear reference sequences simultaneously, reduce reference bias and can surface variants — including structural variants, repeat expansions, and mobile element insertions — that short-read pipelines miss. Long-read sequencing compounds this advantage by spanning repetitive regions that short reads cannot resolve.\n\nThe authors report improved clinical interpretation of NDD cases as a result of this combined approach, though the preprint has not yet undergone peer review and specific diagnostic yield figures should be treated cautiously until then. The work adds to a growing literature arguing for equity-centred genomic infrastructure as a prerequisite for equitable diagnostic performance across ancestry groups.\n\nThis is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "pangenome",
+        "long-read-sequencing",
+        "neurodevelopmental-disorders",
+        "underrepresented-populations",
+        "health-disparities",
+        "structural-variants",
+        "reference-genome",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-11T14:55:34.525034+00:00",
+  "last_run": "2026-11-12T15:46:09.466998+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012180": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012187": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012223": "2026-11-03T14:51:58.015484+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012320": "2026-10-29T13:56:37.272747+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012332": "2026-11-07T13:44:44.698496+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012335": "2026-10-29T13:56:37.272747+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012345": "2026-11-03T14:51:58.015484+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012346": "2026-11-12T15:46:09.466998+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012348": "2026-11-01T14:01:38.695732+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352": "2026-11-06T14:47:34.173440+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012356": "2026-10-30T13:48:55.767653+00:00",
@@ -34028,7 +34219,6 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012362": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012366": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012379": "2026-11-11T14:55:34.525034+00:00",
-    "https://news.cancerresearchuk.org/2026/10/28/latest-winner-in-our-research-is-beautiful-competition-8/": "2026-10-29T13:56:37.272747+00:00",
     "https://news.cancerresearchuk.org/2026/10/29/autumn-budget-2026-what-does-it-mean-for-people-affected-by-cancer/": "2026-10-30T13:48:55.767653+00:00",
     "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
     "https://news.cancerresearchuk.org/2026/11/04/scientists-uncover-the-hidden-rules-behind-glioblastoma-brain-tumours/": "2026-11-05T15:10:43.488004+00:00",
@@ -34037,7 +34227,8 @@
     "https://news.cancerresearchuk.org/2026/11/09/research-is-beautiful-autumns-best-of-the-rest/": "2026-11-09T17:08:17.639005+00:00",
     "https://news.cancerresearchuk.org/2026/11/09/the-francis-crick-institute-a-decade-on-already-its-a-life-well-lived/": "2026-11-09T17:08:17.639005+00:00",
     "https://news.cancerresearchuk.org/2026/11/10/immune-system-proteins-prevent-prostate-cancer/": "2026-11-10T15:25:20.847223+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.22.761181v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
+    "https://news.cancerresearchuk.org/2026/11/12/his-majesty-the-king-marks-the-cricks-tenth-anniversary/": "2026-11-12T15:46:09.466998+00:00",
+    "https://news.cancerresearchuk.org/2026/11/12/waiting-times-stall-on-diagnosis-for-people-with-cancer/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.23.757543v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.24.760972v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.761744v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
@@ -34046,9 +34237,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.26.762026v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.761507v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762148v1": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.27.762190v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762204v1": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.27.762208v1?rss=1": "2026-10-29T13:56:37.272747+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762239v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762259v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762344v1": "2026-11-03T14:51:58.015484+00:00",
@@ -34088,14 +34277,17 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764806v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764887v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764943v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.07.765034v1?rss=1": "2026-11-12T15:46:09.466998+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765277v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765429v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.09.765473v1?rss=1": "2026-11-12T15:46:09.466998+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.765578v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261028232701.htm": "2026-10-29T13:56:37.272747+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261028234813.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261029072123.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261030003017.htm": "2026-11-01T14:01:38.695732+00:00",
@@ -34126,19 +34318,8 @@
     "https://www.sciencedaily.com/releases/2026/11/261106174545.htm": "2026-11-11T14:55:34.525034+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261108203714.htm": "2026-11-11T14:55:34.525034+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261109205415.htm": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/10/28/abdul-el-sayed-profile-midterm-policy-issues-health-care/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/28/health-care-ai-innovation-challenge-epic-ai-prognosis/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/28/hhs-enforcement-discretion-policy-allows-peptide-compounding/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/29/ai-science-biology-dependence-ethics-research/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/29/biotech-licensing-deals-treasury-rules-stir-debate/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/29/biotech-news-hhs-green-lights-six-peptides-for-now/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/29/biotech-news-vertex-kidney-disease-drug-scrutinized-for-infection-risk/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/29/early-onset-colorectal-cancer-dana-farber-study-qa-kimmie-ng/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/29/el-sayed-claps-back-at-rfk-jr-fda-peptide-policy-dc-diagnosis/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
     "https://www.statnews.com/2026/10/29/epic-investigation-teladoc-surprise-ai-payment-model-health-tech/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/29/health-care-costs-midterms-issue-out-of-pocket-series-part-6/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/29/health-care-premiums-open-enrollment-employer-costs/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/2026/10/29/health-news-martin-kulldorff-critiques-scientific-gatekeepers-at-nih-lecture/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
     "https://www.statnews.com/2026/10/29/medicaid-work-requirements-judge-blocks-new-limits-medical-frailty/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
     "https://www.statnews.com/2026/10/29/prescription-drug-price-reform-pbm-disclosure-rules-face-challenge/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
     "https://www.statnews.com/2026/10/29/rfk-jr-midterm-health-care-policy-maha-fraud-vaccines/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
@@ -34256,13 +34437,26 @@
     "https://www.statnews.com/2026/11/10/muscular-dystrophy-dm1-pepgen-pgn-edodm1-early-results/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/2026/11/10/muscular-dystrophy-dm1-pepgen-pgn-edodm1-early-results/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/11/all-of-us-study-finds-gene-variants-drug-responses/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/11/biotech-news-mfn-makes-drugmakers-rethink-launches-abroad/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/11/fda-commissioner-nominee-heidi-overton-senate-committee-vote/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/11/health-news-us-may-soon-lose-measles-elimination-status/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/11/kennedy-hhs-preventive-care-panel-conflict-interest-waivers/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/11/maha-russell-brand-conviction-violence-rfk-jr/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/11/mdcalc-cofounder-graham-walker-on-crosscover-ai-prognosis/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/11/mdcalc-launches-crosscover-rumble-strip-for-clinical-ai-chatbots/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/11/no-surprises-act-phi-health-air-ambulance-sues-employers/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/11/obesity-diagnosis-bmi-lancet-commission-proposal-impact/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/11/picky-eating-kids-low-income-families-snap-wic/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/28/lawmaker-wants-gao-probe-trumprx-drug-pricing/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/29/peptides-policy-released-by-hhs-pbm-disclosure-requirements/?utm_campaign=rss": "2026-10-29T13:56:37.272747+00:00",
+    "https://www.statnews.com/2026/11/12/alnylam-amvuttra-heart-drug-growth/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/12/biogen-lupus-litifilimab-what-to-know/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/12/health-news-experts-update-prostate-cancer-screening-guidelines-for-men/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/12/maha-black-american-activists-voters-health-care-midterms/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/12/new-documents-raise-more-questions-about-medicares-ai-prior-authorization-experiment/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/12/new-governors-2027-health-priorities-agenda/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/12/prostate-cancer-screening-guidelines-updated-acs/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/12/trust-in-science-physician-lawmakers-rebuild-belief/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/12/will-heidi-overton-be-confirmed-fda-commissioner-dc-diagnosis/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/pharmalot/2026/10/30/astrazeneca-cost-cutting-sun-pharma-facility-problems/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
     "https://www.statnews.com/pharmalot/2026/10/30/up-and-down-the-ladder-jobs-pharma-biotech-lilly/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
     "https://www.statnews.com/pharmalot/2026/11/02/drugmaker-payments-to-russian-middlemen-possible-dupixent-rival/": "2026-11-03T14:51:58.015484+00:00",
@@ -34285,7 +34479,8 @@
     "https://www.statnews.com/pharmalot/2026/11/10/former-lilly-rep-claims-she-was-fired-for-complaining-about-marketing-of-mounjaro-diabetes-drug/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/pharmalot/2026/11/10/stroke-drug-sunharbo-eye-warning-glp-drugs-pharmalittle/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/pharmalot/2026/11/10/stroke-drug-sunharbo-eye-warning-glp-drugs-pharmalittle/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/11/dems-eye-trump-mfn-deals-fewer-drug-launches-in-europe/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/11/dems-eye-trump-mfn-deals-fewer-drug-launches-in-europe/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/12/fda-fast-track-review-shelved-canadian-importer-arrested/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00"
   },
   "takedowns": []
 }
