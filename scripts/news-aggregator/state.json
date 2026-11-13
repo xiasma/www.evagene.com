@@ -34200,11 +34200,274 @@
         "reference-genome",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists studying muscle repair have found that a protein called TRF2 — previously known mainly for protecting the ends of chromosomes — also plays a vital role in keeping muscle stem cells healthy. Muscle stem cells are the body's repair workers: they activate when muscle is damaged and grow into new muscle fibres. In mice where TRF2 was removed from these stem cells, damaged muscle filled with fat and scar tissue instead of healing properly. In mice that also had a form of muscular dystrophy, the disease worsened much more quickly than expected.\n\nThis is early-stage laboratory research in mice, and no treatment for humans has been developed or tested based on these findings. Researchers will need to do further work to understand whether the same process happens in people and whether it could be targeted safely. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Telomere protein TRF2 found to govern muscle stem cell identity and repair",
+      "is_preprint": false,
+      "run_date": "2026-11-13",
+      "run_iso": "2026-11-13T15:04:22Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-11-13T00:29:34Z",
+        "novelty": 8
+      },
+      "slug": "trf2-muscle-stem-cells-muscular-dystrophy",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-13T02:28:20Z",
+          "publisher": "ScienceDaily",
+          "title": "Without this protein, damaged muscle fills with fat and scar tissue",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111221643.htm"
+        }
+      ],
+      "standfirst": "Researchers report that TRF2, a chromosome-end guardian protein, has a second role directing muscle stem cells to regenerate tissue — and that its loss dramatically accelerates muscular dystrophy in mice.",
+      "summary": "A study reported by ScienceDaily has identified an unexpected second function for TRF2 (telomeric repeat-binding factor 2), a protein best known for capping and protecting chromosome ends. When researchers deleted TRF2 specifically in muscle stem cells (satellite cells) in mice, the animals lost the ability to repair damaged muscle effectively: injured tissue filled with fat deposits and fibrotic scar rather than regenerating muscle fibres. In animals that also carried a muscular dystrophy model, disease progression was markedly faster than in controls that retained TRF2.\n\nThe findings suggest TRF2 is required for satellite cells to maintain what researchers describe as their 'identity' — the transcriptional and epigenetic state that allows them to activate, proliferate, and differentiate into new muscle after injury. The original source and journal of publication were not specified in the feed lede, so primary attribution cannot be confirmed from available information.\n\nIf the mechanism is validated in further work, TRF2 regulation in muscle progenitor cells could become a focus of translational research into inherited and acquired muscle-wasting conditions. No human clinical application has been described, and the present findings are based on mouse models. Genetic Current will update coverage when a primary journal reference is confirmed.",
+      "tags": [
+        "trf2",
+        "muscle-stem-cells",
+        "satellite-cells",
+        "muscular-dystrophy",
+        "telomere-biology",
+        "muscle-regeneration",
+        "mouse-models"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "DNA and ultraviolet wing patterns expose three species hidden within one familiar tropical butterfly",
+      "is_preprint": false,
+      "run_date": "2026-11-13",
+      "run_iso": "2026-11-13T15:04:22Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-11-12T10:47:43Z",
+        "novelty": 8
+      },
+      "slug": "cryptic-butterfly-species-uv-dna-divergence",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-12T10:47:43Z",
+          "publisher": "ScienceDaily",
+          "title": "A butterfly that fooled scientists for 200 years finally reveals its secrets",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042556.htm"
+        }
+      ],
+      "standfirst": "Researchers have found that a tropical butterfly long treated as a single species is in fact three genetically distinct species, kept separate despite overlapping ranges — a finding with implications for speciation research.",
+      "summary": "A study reported by ScienceDaily has resolved a 200-year taxonomic puzzle: a tropical butterfly considered a single species is, on closer examination, three nearly identical but genetically distinct species, one of them previously unknown to science. The key to untangling them was a combination of DNA sequencing and imaging of ultraviolet wing patterns invisible to the human eye — patterns that presumably matter to the butterflies themselves for mate recognition.\n\nThe finding raises a question that researchers describe as puzzling: how do the three lineages maintain genetic separation when they live in the same habitats? In most scenarios, geographically overlapping populations interbreed and merge genetically over time. That they have not suggests some combination of behavioural, visual, or temporal barriers is operating, though the mechanism is not yet characterised.\n\nThe work is a useful case study for genetics educators covering speciation, cryptic species, and the limits of morphological taxonomy. It also illustrates how ultraviolet reflectance, invisible to vertebrate observers, can be a primary signal in insect communication and reproductive isolation. The original institution and journal of publication were not specified in the feed lede; Genetic Current will update when the primary reference is confirmed.",
+      "tags": [
+        "cryptic-species",
+        "speciation",
+        "ultraviolet-signalling",
+        "lepidoptera",
+        "population-genetics",
+        "reproductive-isolation",
+        "taxonomic-revision"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "K-mer method reveals population-scale variation in Y chromosome's large heterochromatic region",
+      "is_preprint": true,
+      "run_date": "2026-11-13",
+      "run_iso": "2026-11-13T15:04:22Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-13T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "yq12-heterochromatin-population-variation-testis-rna",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-13T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Assembly-independent measurement of human Yq12 heterochromatin reveals population-scale variation and Yq12-derived RNA in testis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765874v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from the 1000 Genomes Project introduces assembly-free tools to measure the size of Yq12, a megabase-scale satellite array, across 1,597 males — and reports that it produces RNA in testis tissue.",
+      "summary": "A preprint posted to bioRxiv describes new computational tools for measuring the size of Yq12, the large heterochromatic block at the distal long arm of the human Y chromosome, without requiring a complete, sample-specific genome assembly. The region is composed predominantly of two classes of satellite repeat — DYZ1 (HSat3A6) and DYZ2 (HSat1B) — whose proportions remain roughly equal despite wide variation in total array length between individuals.\n\nThe authors, drawing on complete Y-chromosome assemblies from the 1000 Genomes Project, developed k-mer-based approaches applicable to both short- and long-read sequencing datasets. Applying these tools to 1,597 male participants, they characterised population-scale variation in Yq12 size. A secondary finding is that the region generates RNA detectable in testis tissue, raising questions about whether satellite sequences previously assumed to be transcriptionally inert have regulatory or structural roles.\n\nThe work addresses a persistent gap in human genome analysis: large repeat arrays have remained poorly measured in population-scale studies because standard short-read assemblies cannot span them. Tools enabling their survey without bespoke long-read assemblies for each sample could benefit studies of Y chromosome biology, male reproductive genetics, and the broader field of satellite DNA variation. This is a preprint; it has not yet completed peer review.",
+      "tags": [
+        "y-chromosome",
+        "heterochromatin",
+        "satellite-dna",
+        "population-genomics",
+        "k-mer-methods",
+        "repeat-elements",
+        "long-read-sequencing",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Allele-specific expression study shows genetic ancestry shapes gene regulation within admixed individuals",
+      "is_preprint": true,
+      "run_date": "2026-11-13",
+      "run_iso": "2026-11-13T15:04:22Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-13T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "ancestral-haplotype-expression-admixed-individuals-magenta",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-13T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genetic ancestry influences the relative expression of ancestral haplotypes within admixed individuals",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765740v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using the MAGENTA cohort finds that the ancestral origin of a haplotype — not just its sequence — influences how much it is expressed, with implications for understanding health disparities.",
+      "summary": "A preprint posted to bioRxiv reports that the ancestry of a chromosomal haplotype influences its gene expression levels independently of the haplotype's sequence content. The study, using 779 participants from the MAGENTA cohort — comprising non-Hispanic White, African American, Caribbean Hispanic, and Peruvian individuals — integrated phased whole-blood RNA sequencing with local ancestry inference to measure allele-specific expression (ASE) in an admixed setting.\n\nIn admixed individuals, one copy of each chromosomal region derives from one ancestral background and the other from a different background, within the same cell. This design allows the authors to test whether West African-derived haplotypes are expressed differently from European-derived haplotypes even when they carry similar sequences. Higher proportions of West African (YRI) ancestry were associated with altered expression patterns at a substantial number of loci.\n\nThe finding has implications for how researchers interpret gene expression studies conducted predominantly in European-descent cohorts, and for understanding why polygenic risk scores and eQTL maps built in one population can perform poorly in others. For genetics educators and researchers working on health equity and population genomics, the MAGENTA cohort data offer a resource for studying ancestry-specific regulatory effects in a setting closer to real-world population diversity. This is a preprint; it has not yet completed peer review.",
+      "tags": [
+        "allele-specific-expression",
+        "admixture",
+        "local-ancestry",
+        "population-genomics",
+        "eqtl",
+        "health-disparities",
+        "gene-regulation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Single-cell coexpression networks link genome-wide risk variants to core disease genes via cell-type-specific hubs",
+      "is_preprint": true,
+      "run_date": "2026-11-13",
+      "run_iso": "2026-11-13T15:04:22Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-12T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "cell-type-coexpression-networks-gwas-core-genes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Cell type-specific coexpression networks funnel genetic risk into core genes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.764265v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint using population-scale single-cell immune transcriptomes demonstrates that cell-type-specific gene networks, invisible to bulk methods, channel dispersed GWAS signals towards a smaller set of core disease genes.",
+      "summary": "A preprint posted to bioRxiv describes a framework for decomposing gene coexpression networks into components shared across cell types and those specific to individual cell types, using population-scale single-cell immune transcriptome data. The two network classes, the authors report, have nearly opposite properties: shared hubs are enriched for constrained housekeeping genes under strong evolutionary pressure, while cell-type-specific hubs are enriched for genes mediating disease risk.\n\nBy connecting GWAS loci to these cell-type-specific network hubs, the approach offers a route to identifying 'core' disease genes — a small number of highly connected nodes through which the polygenic signal converges. The method addresses a recognised limitation: bulk and pseudobulk coexpression analyses pool signal across cell types and can obscure the cell-type context in which a risk variant acts.\n\nThe work is relevant to researchers working on post-GWAS functional genomics, particularly for immune-mediated diseases where the causal cell type is often uncertain. It is also instructive for educators covering how networks and single-cell methods are being integrated into the analysis of common disease genetics. This is a preprint; it has not yet completed peer review.",
+      "tags": [
+        "coexpression-networks",
+        "single-cell-sequencing",
+        "gwas",
+        "post-gwas",
+        "immune-cells",
+        "functional-genomics",
+        "gene-regulation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Founder-haplotype Mendelian randomisation method improves causal inference in Diversity Outbred mice",
+      "is_preprint": true,
+      "run_date": "2026-11-13",
+      "run_iso": "2026-11-13T15:04:22Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-12T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "founder-haplotype-mendelian-randomisation-diversity-outbred-mice",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-12T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Extending Mendelian randomisation to founder-haplotype data in Diversity Outbred mice",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.763681v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces Founder GLS-IVW, which leverages the eight-founder-strain structure of Diversity Outbred mice to improve Mendelian randomisation estimates and validate them against experimental knockouts.",
+      "summary": "A preprint posted to bioRxiv presents Founder GLS-IVW, a Mendelian randomisation (MR) method tailored to the Diversity Outbred (DO) mouse population. Standard summary-data MR methods summarise each genetic variant's association with an exposure as a single scalar, discarding information about which of the eight inbred founder strains contributes the effect. Founder GLS-IVW instead models the full pattern of founder-haplotype effects at each locus, using this richer signal for both causal estimation and instrument-validity diagnostics.\n\nAs a demonstration, the authors applied the method to the Qsox1 locus. Founder GLS-IVW recovered the direction of effect seen in published knockout mouse experiments — a direction that scalar MR approaches failed to capture correctly. Because DO mice allow causal hypotheses generated by MR to be tested directly through experimental intervention, the system offers a relatively rare opportunity to benchmark MR methodology against ground truth.\n\nThe work is primarily of interest to statistical geneticists and quantitative geneticists developing or applying MR methods, and to researchers using DO mice as a model system for complex trait genetics. It also has pedagogical value for courses covering instrumental variable methods and their assumptions. This is a preprint; it has not yet completed peer review.",
+      "tags": [
+        "mendelian-randomisation",
+        "diversity-outbred",
+        "mouse-models",
+        "statistical-genetics",
+        "causal-inference",
+        "founder-haplotypes",
+        "instrumental-variables",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-12T15:46:09.466998+00:00",
+  "last_run": "2026-11-13T15:06:08.250090+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012147": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012180": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012187": "2026-11-04T15:05:09.942874+00:00",
@@ -34214,12 +34477,11 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012346": "2026-11-12T15:46:09.466998+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012348": "2026-11-01T14:01:38.695732+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352": "2026-11-06T14:47:34.173440+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012356": "2026-10-30T13:48:55.767653+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012361": "2026-11-05T15:10:43.488004+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012362": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012366": "2026-11-03T14:51:58.015484+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012372": "2026-11-13T15:06:08.250090+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012379": "2026-11-11T14:55:34.525034+00:00",
-    "https://news.cancerresearchuk.org/2026/10/29/autumn-budget-2026-what-does-it-mean-for-people-affected-by-cancer/": "2026-10-30T13:48:55.767653+00:00",
     "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
     "https://news.cancerresearchuk.org/2026/11/04/scientists-uncover-the-hidden-rules-behind-glioblastoma-brain-tumours/": "2026-11-05T15:10:43.488004+00:00",
     "https://news.cancerresearchuk.org/2026/11/06/can-ai-co-scientists-help-answer-cancers-biggest-questions/": "2026-11-06T14:47:34.173440+00:00",
@@ -34229,13 +34491,9 @@
     "https://news.cancerresearchuk.org/2026/11/10/immune-system-proteins-prevent-prostate-cancer/": "2026-11-10T15:25:20.847223+00:00",
     "https://news.cancerresearchuk.org/2026/11/12/his-majesty-the-king-marks-the-cricks-tenth-anniversary/": "2026-11-12T15:46:09.466998+00:00",
     "https://news.cancerresearchuk.org/2026/11/12/waiting-times-stall-on-diagnosis-for-people-with-cancer/": "2026-11-12T15:46:09.466998+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.23.757543v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.24.760972v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.761744v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.761791v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.26.761842v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.26.762026v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.27.761507v1?rss=1": "2026-10-30T13:48:55.767653+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762148v1": "2026-11-03T14:51:58.015484+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762204v1": "2026-11-03T14:51:58.015484+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762239v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
@@ -34278,15 +34536,20 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764887v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764943v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.07.765034v1?rss=1": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.09.764265v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765277v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765429v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765473v1?rss=1": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.10.763681v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.765578v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.11.765740v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.11.765874v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.england.nhs.uk/2026/11/nhs-statement-on-microsoft-outage/": "2026-11-13T15:06:08.250090+00:00",
     "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261028234813.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/10/261029072123.htm": "2026-11-01T14:01:38.695732+00:00",
@@ -34318,19 +34581,10 @@
     "https://www.sciencedaily.com/releases/2026/11/261106174545.htm": "2026-11-11T14:55:34.525034+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261108203714.htm": "2026-11-11T14:55:34.525034+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261109205415.htm": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/10/29/el-sayed-claps-back-at-rfk-jr-fda-peptide-policy-dc-diagnosis/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/29/epic-investigation-teladoc-surprise-ai-payment-model-health-tech/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/29/medicaid-work-requirements-judge-blocks-new-limits-medical-frailty/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/29/prescription-drug-price-reform-pbm-disclosure-rules-face-challenge/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/29/rfk-jr-midterm-health-care-policy-maha-fraud-vaccines/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261110042556.htm": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261111005845.htm": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261111221643.htm": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/2026/10/30/election-stress-heart-attack-risk/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.statnews.com/2026/10/30/fda-cms-health-ai-regulation-state-sandboxes-run-into-federal-rules/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/30/health-care-policy-midterm-elections-status-report-alex-hogan/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/30/health-news-the-paradox-of-men-health/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/30/hybrid-er-urgent-care-clinics-hidden-billing-complaints-intuitive-health/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/30/maha-measles-letter-1834-pseudoscience-women/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/30/readout-loud-podcast-oncology-cancer-vaccine-moderna-merck-amgen-roche/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
-    "https://www.statnews.com/2026/10/30/scientific-expert-advisory-committees-fda-hhs-congress/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
     "https://www.statnews.com/2026/10/31/midterm-election-tipping-point-healthcare-policy/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
     "https://www.statnews.com/2026/11/02/american-health-care-costs-broken-economics-solutions/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/biotech-news-psilocybin-lasting-benefits-prove-elusive-in-mice/": "2026-11-03T14:51:58.015484+00:00",
@@ -34450,6 +34704,8 @@
     "https://www.statnews.com/2026/11/11/picky-eating-kids-low-income-families-snap-wic/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/12/alnylam-amvuttra-heart-drug-growth/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/12/biogen-lupus-litifilimab-what-to-know/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/2026/11/12/biotech-news-blackstone-backs-pfizer-bet-on-monthly-obesity-treatment/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/12/brain-map-basal-ganglia-offers-treatment-clues-parkinsons-schizophrenia/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/2026/11/12/health-news-experts-update-prostate-cancer-screening-guidelines-for-men/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/12/maha-black-american-activists-voters-health-care-midterms/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/12/new-documents-raise-more-questions-about-medicares-ai-prior-authorization-experiment/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
@@ -34457,7 +34713,15 @@
     "https://www.statnews.com/2026/11/12/prostate-cancer-screening-guidelines-updated-acs/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/12/trust-in-science-physician-lawmakers-rebuild-belief/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/12/will-heidi-overton-be-confirmed-fda-commissioner-dc-diagnosis/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/30/astrazeneca-cost-cutting-sun-pharma-facility-problems/?utm_campaign=rss": "2026-10-30T13:48:55.767653+00:00",
+    "https://www.statnews.com/2026/11/13/alzheimers-disease-biomarker-tests-psychological-legal-challenges/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/cardiovascular-disease-heart-drug-failures-readout-loud-podcast/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/fertility-tourism-5-takeaways-mrt-investigation/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/health-news-brain-implant-startup-pauses-trials/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/organ-donation-policy-life-sustaining-treatment-brain-death/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/oura-acquisition-counsel-health-eli-lilly/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/phone-addiction-young-people-fight-back-attention-activism/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/senator-abdul-el-sayed-interview-public-health-rfk-jr-trust-in-science/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/uspstf-preventive-care-panel-senators-target-conflicts-of-interest/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/pharmalot/2026/10/30/up-and-down-the-ladder-jobs-pharma-biotech-lilly/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
     "https://www.statnews.com/pharmalot/2026/11/02/drugmaker-payments-to-russian-middlemen-possible-dupixent-rival/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/pharmalot/2026/11/02/lenacapavir-generic-version-approved-fda-hiv-prevention-dr-reddys/": "2026-11-03T14:51:58.015484+00:00",
@@ -34480,7 +34744,8 @@
     "https://www.statnews.com/pharmalot/2026/11/10/stroke-drug-sunharbo-eye-warning-glp-drugs-pharmalittle/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/pharmalot/2026/11/10/stroke-drug-sunharbo-eye-warning-glp-drugs-pharmalittle/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/pharmalot/2026/11/11/dems-eye-trump-mfn-deals-fewer-drug-launches-in-europe/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/12/fda-fast-track-review-shelved-canadian-importer-arrested/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/12/fda-fast-track-review-shelved-canadian-importer-arrested/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/13/lilly-conflict-questions-dea-okays-takeda-narcolepsy-pill/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00"
   },
   "takedowns": []
 }
