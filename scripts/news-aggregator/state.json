@@ -34464,9 +34464,272 @@
         "instrumental-variables",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Comparative genomics of 190 beetle genomes reveals deep conservation and rampant karyotype reshaping",
+      "is_preprint": false,
+      "run_date": "2026-11-14",
+      "run_iso": "2026-11-14T13:55:38+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-13T14:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "beetle-chromosome-evolution-comparative-genomics-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-13T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Species-rich and genomically diverse: Comparative genomics reveals how fusions, fissions, and sex chromosomes have shaped beetle evolution",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012371"
+        }
+      ],
+      "standfirst": "Analysis of 190 chromosome-level assemblies across Coleoptera shows how ancestral linkage groups have been preserved, fragmented, and fused across the most species-rich animal order.",
+      "summary": "A study published in PLOS Genetics by Dwayne G. Tally, Charlie Pittman, Ryan R. Bracewell and colleagues presents a comparative genomic analysis spanning 190 chromosome-level genome assemblies drawn from 39 beetle families and 16 superfamilies — the broadest karyotype-level survey of Coleoptera conducted to date.\n\nBeetles (order Coleoptera) comprise roughly 400,000 described species and display extraordinary variation in chromosome number and structure, making them an informative system for studying how genomes evolve. The study characterised the extent to which chromosomes retain ancestral linkage groups inherited from deep arthropod ancestors alongside the frequency and direction of lineage-specific rearrangements — fusions, fissions, and changes in sex-chromosome systems — that have reshaped genome architecture across beetle lineages.\n\nThe authors found that large blocks of ancestral genomic content have been conserved across highly divergent beetle taxa, yet the same lineages have experienced repeated, independent episodes of chromosomal fusion and fission. Sex chromosome evolution emerges as a particularly dynamic element, with multiple origins identified within the order. The genomic diversity uncovered substantially exceeds earlier estimates based on cytogenetic data alone.\n\nThe dataset and analytical framework described offer a resource for researchers working on genome evolution, synteny, and the genomic consequences of rapid speciation.",
+      "tags": [
+        "coleoptera",
+        "chromosome-evolution",
+        "comparative-genomics",
+        "karyotype",
+        "sex-chromosomes",
+        "ancestral-linkage-groups",
+        "genome-structure",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Drosophila antimicrobial peptide mutants reveal unexpected roles in sleep and neural plasticity",
+      "is_preprint": false,
+      "run_date": "2026-11-14",
+      "run_iso": "2026-11-14T13:55:38+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-13T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "antimicrobial-peptides-sleep-plasticity-drosophila-plos-genetics",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-13T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Mutations in antimicrobial peptides differently affect sleep and plasticity",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012363"
+        }
+      ],
+      "standfirst": "Mutations in fly immune effectors known as antimicrobial peptides produce distinct effects on sleep duration and neuronal plasticity, independent of their defensive roles.",
+      "summary": "Research published in PLOS Genetics by Rahul Kumar, Gokul Madhav, Priyanka Balasubramanian and colleagues at institutions including those represented by co-authors Imroze Khan and Krishna Melnattur examines whether antimicrobial peptides (AMPs) — molecules central to innate immunity in Drosophila — also regulate sleep and synaptic plasticity when studied outside an infectious context.\n\nIn mammals, immune signalling molecules such as tumour necrosis factor-α and interleukin-1β are established sleep modulators. The parallel question in insects — whether the fly equivalents, the AMPs released systemically in response to infection, play analogous roles in neural function — had not been systematically addressed. The team generated and characterised mutants in a panel of distinct AMP genes and assessed sleep architecture and markers of neuronal plasticity.\n\nTheir results show that individual AMP mutations produced non-identical phenotypes: disrupting different AMPs altered sleep duration and plasticity in distinguishable ways, indicating that these molecules do not function as a redundant block but have separable neural roles. The findings extend the known biology of AMP molecules beyond host defence and add Drosophila to the growing list of model organisms in which immune and neural circuitry are functionally intertwined.\n\nThe work was conducted using established fly genetics approaches and is relevant to researchers studying sleep, neuroimmunology, and the pleiotropic functions of immune genes.",
+      "tags": [
+        "antimicrobial-peptides",
+        "drosophila",
+        "sleep-genetics",
+        "neuroimmunology",
+        "synaptic-plasticity",
+        "innate-immunity",
+        "model-organism",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Single-vector rAAV9 gene replacement restores cardiac function in mouse model of LRPPRC mitochondrial disease",
+      "is_preprint": true,
+      "run_date": "2026-11-14",
+      "run_iso": "2026-11-14T13:55:38+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 7,
+        "newest_iso": "2026-11-13T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "lrpprc-gene-replacement-therapy-mitochondrial-disease-mouse",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-13T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "LRPPRC gene replacement therapy preserves cardiac function and prevents premature death in a mouse model of mitochondrial disease",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.762002v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes compact rAAV9 vectors that overcome LRPPRC's large coding sequence to rescue heart function and prevent early death in a tissue-specific knockout mouse.",
+      "summary": "A preprint posted to bioRxiv reports the development of a gene replacement strategy for LRPPRC-linked mitochondrial disease, a severe and currently incurable condition in which pathogenic variants disrupt mitochondrial gene expression, leading to neurological involvement alongside hepatopathy or cardiomyopathy.\n\nA central technical obstacle to gene therapy for LRPPRC-related disease is that the LRPPRC coding sequence is too large to fit within the cargo capacity of adeno-associated virus (AAV) vectors when combined with conventional regulatory elements. The authors engineered compact single rAAV9 vectors — using abbreviated regulatory sequences — expressing either human or mouse LRPPRC, and administered them intravenously to mice with heart- and skeletal-muscle-specific Lrpprc knockout.\n\nThe approach restored cardiac LRPPRC expression, preserved heart function, and prevented the premature death seen in untreated knockouts. The strategy of compressing regulatory elements to accommodate large transgenes may have implications for gene therapy development in other mitochondrial and neuromuscular diseases where cargo size is similarly limiting.\n\nThis work is a preprint and has not yet completed peer review. The findings should be regarded as preliminary until independently evaluated.",
+      "tags": [
+        "lrpprc",
+        "mitochondrial-disease",
+        "aav-gene-therapy",
+        "cardiomyopathy",
+        "mouse-models",
+        "rare-disease",
+        "gene-replacement",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint argues additive gene effects underlie Mendelian inheritance patterns and explain heterosis in hybrids",
+      "is_preprint": true,
+      "run_date": "2026-11-14",
+      "run_iso": "2026-11-14T13:55:38+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-13T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "additive-genes-mendelian-inheritance-heterosis-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-13T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Additive genes underlie Mendelian inheritance and contribute to heterosis",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766085v1?rss=1"
+        }
+      ],
+      "standfirst": "Analysis of four representative genes proposes that additive effects on component traits are the fundamental genetic unit of inheritance, with non-additive hybrid vigour emerging as a consequence of combining multiple such loci.",
+      "summary": "A preprint posted to bioRxiv revisits a gap in Mendel's original work: whilst Mendel focused on 'dominant' characters, he set aside 'intermediate' ones. The authors use genotypic and phenotypic data for four representative genes to examine the relationship between these two classes of character.\n\nThe central argument is that additive effects on both component traits and compound traits represent the fundamental mode of inheritance for the genes examined. Under this framework, the apparently non-additive effects seen in hybrids — a phenomenon known as heterosis or hybrid vigour, with well-known practical consequences in crop breeding — arise as an emergent property when additive effects involving more than two genes combine across compound traits such as grain yield.\n\nThe paper engages directly with foundational quantitative genetics theory and may be of interest to researchers working on the genetic architecture of complex traits, plant breeders, and educators who teach Mendelian and quantitative genetics. It also provides a potential conceptual bridge between classical Mendelian genetics and modern polygenic models.\n\nThis work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "additive-genetics",
+        "mendelian-inheritance",
+        "heterosis",
+        "hybrid-vigour",
+        "quantitative-genetics",
+        "plant-genetics",
+        "crop-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "genealogists",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint shows continuous ancestry profiles from genomes and genealogies outperform categorical ancestry labels",
+      "is_preprint": true,
+      "run_date": "2026-11-14",
+      "run_iso": "2026-11-14T13:55:38+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-13T00:00:00+00:00",
+        "novelty": 8
+      },
+      "slug": "continuous-ancestry-profiles-genomes-genealogies-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-13T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Continuous ancestry profiles from genomes and genealogies",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765992v1?rss=1"
+        }
+      ],
+      "standfirst": "Using haplotype painting and deep genealogical records across 28,332 individuals, researchers demonstrate that multidimensional ancestry profiles capture genetic relatedness more accurately than single population labels.",
+      "summary": "A preprint posted to bioRxiv presents an empirical comparison of continuous ancestry profiles against categorical population labels for capturing genetic relatedness, drawing on a cohort of 28,332 genotyped individuals for whom deep genealogical records were available for approximately one-third of participants.\n\nThe authors measured genetic relatedness using haplotype painting and ordination, then regressed these relatedness estimates on regional ancestry proportions derived from genealogical data. When tested in a held-out validation set, predicted ancestry profiles derived from this approach showed stronger correspondence with observed genetic relatedness than did single categorical population labels.\n\nThe findings are relevant to multiple areas of genomics research. Ancestry profiles that treat ancestry as multidimensional and continuous — reflecting contributions from multiple ancestral sources — may improve correction for population structure in genome-wide association studies, refine polygenic score portability assessments, and offer more accurate descriptors for population genomics studies. The integration of genealogical and genomic data is also of interest to genealogists and population historians.\n\nThis work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "ancestry-profiles",
+        "population-genomics",
+        "genealogy",
+        "haplotype-painting",
+        "population-structure",
+        "gwas",
+        "admixture",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Microhaplotype sequencing classifies the origins of recurrent Plasmodium vivax infections in Ethiopia",
+      "is_preprint": true,
+      "run_date": "2026-11-14",
+      "run_iso": "2026-11-14T13:55:38+00:00",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-11-13T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "plasmodium-vivax-relapse-microhaplotype-ethiopia-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-13T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Plasmodium vivax relapse reservoirs in Ethiopia: microhaplotype sequencing informs recurrent infection origins",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.765293v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint applies a 93-marker microhaplotype panel and probabilistic classification to distinguish relapse from reinfection in Ethiopian P. vivax cases, quantifying the hypnozoite reservoir's contribution to recurrent malaria.",
+      "summary": "A preprint posted to bioRxiv reports microhaplotype genotyping of recurrent Plasmodium vivax malaria samples collected in Ethiopia, aiming to distinguish between infections arising from liver-stage relapse (from dormant hypnozoites) and those representing new mosquito-borne transmission events.\n\nP. vivax is a major contributor to malaria burden in Ethiopia, and the hypnozoite reservoir — which causes clinical relapses weeks to months after initial infection — complicates both treatment evaluation and transmission modelling. The authors applied a panel of 93 genome-wide microhaplotype markers and a probabilistic recurrence classification framework to samples from two Ethiopian radical cure trials.\n\nThe microhaplotype approach offers higher resolution for distinguishing clonal and non-clonal infections compared with earlier genotyping methods. The study's probabilistic framework provides estimates of the relative contribution of relapse versus reinfection to observed recurrent infections, information that is relevant to understanding hypnozoite reservoir size, evaluating anti-relapse drug efficacy, and informing malaria elimination strategies in settings where both P. vivax and other Plasmodium species co-circulate.\n\nA companion bioRxiv preprint (item [10]) examining P. falciparum and P. malariae genetic diversity in Cameroon addresses related questions of parasite diversity and transmission but covers a different parasite species and country context, and has been treated as a separate cluster. This work is a preprint and has not yet completed peer review.",
+      "tags": [
+        "plasmodium-vivax",
+        "malaria",
+        "hypnozoite",
+        "relapse",
+        "microhaplotype",
+        "population-genetics",
+        "ethiopia",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-13T15:06:08.250090+00:00",
+  "last_run": "2026-11-14T13:57:07.401002+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012180": "2026-11-03T14:51:58.015484+00:00",
@@ -34479,7 +34742,9 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352": "2026-11-06T14:47:34.173440+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012361": "2026-11-05T15:10:43.488004+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012362": "2026-11-04T15:05:09.942874+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012363": "2026-11-14T13:57:07.401002+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012366": "2026-11-03T14:51:58.015484+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012371": "2026-11-14T13:57:07.401002+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012372": "2026-11-13T15:06:08.250090+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012379": "2026-11-11T14:55:34.525034+00:00",
     "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
@@ -34538,12 +34803,17 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.07.765034v1?rss=1": "2026-11-12T15:46:09.466998+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.764265v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765277v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.09.765288v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765429v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765473v1?rss=1": "2026-11-12T15:46:09.466998+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.763681v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.765578v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.11.765740v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.11.765874v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.11.765992v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.12.762002v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.12.765293v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.12.766085v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
     "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
@@ -34584,6 +34854,7 @@
     "https://www.sciencedaily.com/releases/2026/11/261110042556.htm": "2026-11-13T15:06:08.250090+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261111005845.htm": "2026-11-13T15:06:08.250090+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261111221643.htm": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261112025538.htm": "2026-11-14T13:57:07.401002+00:00",
     "https://www.statnews.com/2026/10/30/election-stress-heart-attack-risk/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
     "https://www.statnews.com/2026/10/31/midterm-election-tipping-point-healthcare-policy/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
     "https://www.statnews.com/2026/11/02/american-health-care-costs-broken-economics-solutions/": "2026-11-03T14:51:58.015484+00:00",
@@ -34714,9 +34985,14 @@
     "https://www.statnews.com/2026/11/12/trust-in-science-physician-lawmakers-rebuild-belief/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/12/will-heidi-overton-be-confirmed-fda-commissioner-dc-diagnosis/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/13/alzheimers-disease-biomarker-tests-psychological-legal-challenges/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/biotech-news-hhs-funding-for-research-into-ibogaine-for-ptsd/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
     "https://www.statnews.com/2026/11/13/cardiovascular-disease-heart-drug-failures-readout-loud-podcast/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/democrats-eye-medicare-for-more-vs-medicare-for-all/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
     "https://www.statnews.com/2026/11/13/fertility-tourism-5-takeaways-mrt-investigation/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/2026/11/13/health-news-brain-implant-startup-pauses-trials/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/13/investigation-boston-scientific-watchman-cardiac-implant-marketing-science/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
+    "https://www.statnews.com/2026/11/13/medetomidine-withdrawal-asam-new-treatment-guidance/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
+    "https://www.statnews.com/2026/11/13/medicaid-work-requirements-implementation-delayed-six-months/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
     "https://www.statnews.com/2026/11/13/organ-donation-policy-life-sustaining-treatment-brain-death/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/2026/11/13/oura-acquisition-counsel-health-eli-lilly/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/2026/11/13/phone-addiction-young-people-fight-back-attention-activism/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
@@ -34745,7 +35021,8 @@
     "https://www.statnews.com/pharmalot/2026/11/10/stroke-drug-sunharbo-eye-warning-glp-drugs-pharmalittle/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/pharmalot/2026/11/11/dems-eye-trump-mfn-deals-fewer-drug-launches-in-europe/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/pharmalot/2026/11/12/fda-fast-track-review-shelved-canadian-importer-arrested/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/13/lilly-conflict-questions-dea-okays-takeda-narcolepsy-pill/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/13/lilly-conflict-questions-dea-okays-takeda-narcolepsy-pill/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/13/up-down-ladder-jobs-pharma-biotech-2/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00"
   },
   "takedowns": []
 }
