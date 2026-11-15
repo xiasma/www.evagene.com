@@ -34727,18 +34727,104 @@
         "ethiopia",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have found a genetic link to a process in which minerals build up in the spine abnormally — a process thought to contribute to chronic back pain. Working with zebrafish, whose spines share some biological similarities with human spines, the researchers showed that a drug already used to treat osteoporosis (a condition that weakens bones) could stop this harmful mineral buildup from happening.\n\nThis is early-stage research in fish, not in people, so it is a long way from becoming a treatment. Scientists will need to test the finding in other animal models and, eventually, in clinical trials before any conclusions about human benefit can be drawn. Researchers say the discovery opens a new avenue worth exploring for conditions involving spinal degeneration.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Existing osteoporosis drug blocks spinal mineralisation in zebrafish model",
+      "is_preprint": false,
+      "run_date": "2026-11-15",
+      "run_iso": "2026-11-15T14:29:37Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 5,
+        "newest_iso": "2026-11-15T14:03:39Z",
+        "novelty": 7
+      },
+      "slug": "osteoporosis-drug-blocks-spinal-mineralisation-zebrafish",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-15T14:03:39Z",
+          "publisher": "ScienceDaily",
+          "title": "A common osteoporosis drug blocked spinal damage in a surprising new study",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm"
+        }
+      ],
+      "standfirst": "A genetic study links a known pathway to ectopic spinal calcification and finds that a licensed osteoporosis drug prevents the damage in zebrafish — pointing to a potential repurposing avenue.",
+      "summary": "Researchers have identified a genetic connection between a known molecular pathway and aberrant mineral deposition in the spine, and shown that an existing osteoporosis drug can block that process in zebrafish. The work, reported by ScienceDaily on 15 November 2026, draws on a zebrafish model of spinal degeneration in which progressive mineralisation damages vertebral tissue in a manner thought to parallel mechanisms implicated in human chronic back pain.\n\nThe study characterised loss-of-function perturbations that lead to ectopic calcification along the spine, then tested whether pharmacological inhibition using the repurposed compound could interrupt that process. In the zebrafish model, treatment with the drug prevented the pathological mineral buildup, leaving spinal architecture intact over the observation period.\n\nThe lede does not identify the specific gene, pathway, drug, institution, or journal involved, so those details cannot be confirmed from available source material. The ScienceDaily item appears to be a press-release rewrite; the primary source — including authorship and journal — is not accessible from the feed lede alone.\n\nThe findings are at an early, pre-clinical stage in an animal model. Zebrafish share key aspects of vertebral mineralisation biology with mammals, but the translational distance to human therapeutics remains substantial. Researchers typically require replication in mammalian models and eventual clinical evaluation before any repurposing conclusion could be drawn.",
+      "tags": [
+        "zebrafish",
+        "spinal-degeneration",
+        "ectopic-mineralisation",
+        "drug-repurposing",
+        "osteoporosis",
+        "bone-biology",
+        "animal-models"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Pigmentation gene knockouts validated as co-CRISPR selection markers in pantry moth",
+      "is_preprint": true,
+      "run_date": "2026-11-15",
+      "run_iso": "2026-11-15T14:29:37Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 4,
+        "newest_iso": "2026-11-14T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "crispr-co-selection-pigmentation-markers-plodia-interpunctella",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-14T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Pigmentation markers enable efficient co-CRISPR selection in the pantry moth Plodia interpunctella",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.760159v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint characterises eight pigmentation pathway genes in Plodia interpunctella, establishing visible co-CRISPR markers that could accelerate genome editing in this emerging lepidopteran model.",
+      "summary": "A preprint posted to bioRxiv on 14 November 2026 describes the systematic characterisation of eight genes involved in melanin and ommochrome biosynthesis in the Indian meal moth Plodia interpunctella — an emerging model organism for lepidopteran genetics. The genes examined include black, ebony, yellow, tan, vermilion, kynurenine 3-monooxygenase/cinnabar (kmo/cn), scarlet, and white.\n\nUsing CRISPR-Cas9 to disrupt each gene individually, the team assessed the resulting pigmentation phenotypes as candidates for co-CRISPR selection. Co-CRISPR (also termed coconversion) is a strategy in which a gene producing a visible or screenable phenotype is targeted simultaneously with the gene of interest, so that edited individuals can be rapidly identified by eye rather than by laborious molecular screening. The approach has been widely adopted in Caenorhabditis elegans and Drosophila melanogaster but requires validated marker genes in each new organism.\n\nDisruption of black, ebony, and yellow produced distinctive alterations to larval sclerite pigmentation, pupal cuticle colouration, and adult wing patterning — phenotypes that the authors report are sufficiently robust and penetrant to serve as reliable co-selection markers. The ommochrome pathway genes produced a separate class of colour changes affecting eye and body pigmentation.\n\nP. interpunctella is of interest both as a pest species and as a tractable non-drosophilid lepidopteran for studying metamorphosis, immunity, and genome function. Establishing efficient selection tools lowers the barrier to functional genomic work in moths and butterflies more broadly. This work has not yet been peer reviewed.",
+      "tags": [
+        "crispr",
+        "co-crispr",
+        "lepidoptera",
+        "plodia-interpunctella",
+        "pigmentation",
+        "model-organism",
+        "functional-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-14T13:57:07.401002+00:00",
+  "last_run": "2026-11-15T14:30:19.052005+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012166": "2026-11-01T14:01:38.695732+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012180": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012187": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012223": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012332": "2026-11-07T13:44:44.698496+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012345": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012346": "2026-11-12T15:46:09.466998+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012348": "2026-11-01T14:01:38.695732+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352": "2026-11-06T14:47:34.173440+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012361": "2026-11-05T15:10:43.488004+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012362": "2026-11-04T15:05:09.942874+00:00",
@@ -34756,9 +34842,6 @@
     "https://news.cancerresearchuk.org/2026/11/10/immune-system-proteins-prevent-prostate-cancer/": "2026-11-10T15:25:20.847223+00:00",
     "https://news.cancerresearchuk.org/2026/11/12/his-majesty-the-king-marks-the-cricks-tenth-anniversary/": "2026-11-12T15:46:09.466998+00:00",
     "https://news.cancerresearchuk.org/2026/11/12/waiting-times-stall-on-diagnosis-for-people-with-cancer/": "2026-11-12T15:46:09.466998+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.26.761744v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.26.761791v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.26.762026v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762148v1": "2026-11-03T14:51:58.015484+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762204v1": "2026-11-03T14:51:58.015484+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762239v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
@@ -34768,9 +34851,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.10.28.753787v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.28.760887v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.28.762411v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.29.762850v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.762947v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.30.762954v1?rss=1": "2026-11-01T14:01:38.695732+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.763041v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.763191v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.763219v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
@@ -34814,18 +34895,13 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.12.762002v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.12.765293v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.12.766085v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
-    "https://www.england.nhs.uk/2026/10/nhs-warns-of-life-changing-injuries-as-bonfire-night-approaches/": "2026-11-01T14:01:38.695732+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.13.760159v1?rss=1": "2026-11-15T14:30:19.052005+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-statement-on-microsoft-outage/": "2026-11-13T15:06:08.250090+00:00",
     "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261028234813.htm": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261029072123.htm": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261030003017.htm": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261031012912.htm": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.sciencedaily.com/releases/2026/10/261031013035.htm": "2026-11-01T14:01:38.695732+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261101010552.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261101010554.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261101010556.htm": "2026-11-05T15:10:43.488004+00:00",
@@ -34855,8 +34931,10 @@
     "https://www.sciencedaily.com/releases/2026/11/261111005845.htm": "2026-11-13T15:06:08.250090+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261111221643.htm": "2026-11-13T15:06:08.250090+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261112025538.htm": "2026-11-14T13:57:07.401002+00:00",
-    "https://www.statnews.com/2026/10/30/election-stress-heart-attack-risk/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
-    "https://www.statnews.com/2026/10/31/midterm-election-tipping-point-healthcare-policy/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261112230458.htm": "2026-11-15T14:30:19.052005+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261113232000.htm": "2026-11-15T14:30:19.052005+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261113232105.htm": "2026-11-15T14:30:19.052005+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261114202130.htm": "2026-11-15T14:30:19.052005+00:00",
     "https://www.statnews.com/2026/11/02/american-health-care-costs-broken-economics-solutions/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/biotech-news-psilocybin-lasting-benefits-prove-elusive-in-mice/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/": "2026-11-03T14:51:58.015484+00:00",
@@ -34998,7 +35076,6 @@
     "https://www.statnews.com/2026/11/13/phone-addiction-young-people-fight-back-attention-activism/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/2026/11/13/senator-abdul-el-sayed-interview-public-health-rfk-jr-trust-in-science/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/2026/11/13/uspstf-preventive-care-panel-senators-target-conflicts-of-interest/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
-    "https://www.statnews.com/pharmalot/2026/10/30/up-and-down-the-ladder-jobs-pharma-biotech-lilly/?utm_campaign=rss": "2026-11-01T14:01:38.695732+00:00",
     "https://www.statnews.com/pharmalot/2026/11/02/drugmaker-payments-to-russian-middlemen-possible-dupixent-rival/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/pharmalot/2026/11/02/lenacapavir-generic-version-approved-fda-hiv-prevention-dr-reddys/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/": "2026-11-03T14:51:58.015484+00:00",
