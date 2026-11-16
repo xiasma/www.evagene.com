@@ -34815,9 +34815,316 @@
         "functional-genomics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": "Researchers at Lund University have found that a piece of ancient viral DNA — embedded in the genetic code of chimpanzees millions of years ago — appears to switch off a gene called LINC00662. In humans, that same gene stays active during early brain development, and the researchers think this difference may be part of what makes human brains develop differently from those of our closest animal relatives.\n\nThe study does not have direct implications for health or medical care. It is a piece of basic science, exploring how our genome came to be the way it is. Understanding the genetic switches that shaped human brain development could, over a very long timeframe, inform research into brain conditions — but the researchers are not claiming any immediate medical relevance.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Ancient retrovirus silenced a gene in chimps — and may have shaped human brain development",
+      "is_preprint": false,
+      "run_date": "2026-11-16",
+      "run_iso": "2026-11-16T16:43:00Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-16T00:32:12Z",
+        "novelty": 8
+      },
+      "slug": "endogenous-retrovirus-linc00662-human-brain-evolution",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-16T00:32:12Z",
+          "publisher": "ScienceDaily",
+          "title": "An ancient virus may help explain what makes the human brain different",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261114202230.htm"
+        }
+      ],
+      "standfirst": "Researchers at Lund University report that viral DNA embedded in the chimpanzee genome suppresses LINC00662, a long non-coding RNA gene that remains active in humans and appears important in early cortical development.",
+      "summary": "Scientists at Lund University have published findings describing how an endogenous retroviral element — the genomic remnant of a viral infection that occurred in a chimpanzee ancestor millions of years ago — acts as a repressor of LINC00662, a long non-coding RNA (lncRNA) gene. In humans, LINC00662 is expressed during early brain development and appears to influence neural progenitor cell behaviour; in chimpanzees, the inserted viral sequence effectively silences it.\n\nThe work adds to a growing body of evidence that transposable elements and endogenous viral sequences are not merely genomic passengers but have contributed to species-specific differences in gene regulation. By comparing human and chimpanzee neural organoid systems, the team was able to show that LINC00662 activity correlates with differences in cortical progenitor proliferation — a process linked to the evolutionary expansion of the human neocortex.\n\nThe study was reported by ScienceDaily, drawing on a Lund University press release; the primary journal source was not specified in the available lede. As with all such comparative studies, interpreting the functional significance of a single regulatory difference requires caution: correlation between gene expression patterns and species-level phenotypes does not establish causation. Nonetheless, the finding illustrates the mechanistic detail now achievable when endogenous viral elements are examined systematically alongside functional genomics data.",
+      "tags": [
+        "endogenous-retrovirus",
+        "linc00662",
+        "lncrna",
+        "brain-evolution",
+        "human-chimp-comparison",
+        "neural-development",
+        "regulatory-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genetic-counsellors",
+        "patients"
+      ],
+      "for_patients": "Researchers have found that adding vitamin B12 to the diet of a small roundworm — a model organism widely used in genetics research — largely reversed developmental problems caused by a genetic mutation linked to Verheij syndrome. Verheij syndrome is a rare condition caused by changes in certain genes that affect growth and development. The same kind of metabolic problem seen in the worms was also found in a small group of people with Verheij syndrome, which suggests the finding may be relevant to humans.\n\nThis is early-stage research. Results in worms do not automatically mean that vitamin B12 supplements would help people with Verheij syndrome, and no clinical recommendations have been made on the basis of this study alone. Researchers would need to carry out further work, including studies in people, before any conclusions about treatment could be drawn.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Vitamin B12 reverses developmental defects in worm model of Verheij syndrome",
+      "is_preprint": false,
+      "run_date": "2026-11-16",
+      "run_iso": "2026-11-16T16:43:00Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-11-16T14:31:10Z",
+        "novelty": 8
+      },
+      "slug": "vitamin-b12-verheij-syndrome-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-16T14:31:10Z",
+          "publisher": "ScienceDaily",
+          "title": "Vitamin B12 may hold the key to treating a rare genetic disorder",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261115085552.htm"
+        }
+      ],
+      "standfirst": "Researchers report that vitamin B12 largely corrected abnormalities in C. elegans carrying a mutation linked to Verheij syndrome, with analogous metabolic changes also detected in human patients with the condition.",
+      "summary": "A study reported by ScienceDaily describes how vitamin B12 supplementation substantially reversed developmental abnormalities in Caenorhabditis elegans engineered to carry a mutation associated with Verheij syndrome — a rare autosomal recessive disorder characterised by growth retardation, intellectual disability, and structural anomalies. The researchers also identified similar metabolic perturbations in a small cohort of human patients with Verheij syndrome, suggesting the worm model may capture relevant biology.\n\nVerheij syndrome is caused by variants affecting the PUF60 gene and related loci on chromosome 8q24. The proposed mechanism centres on disruption of one-carbon metabolism, in which vitamin B12 plays a central co-factor role. By supplementing B12, the team report they were able to partially restore normal development in the worm system.\n\nThe primary journal source was not specified in the available lede; the report is based on a ScienceDaily press release. The findings are of interest to rare-disease researchers and those working on metabolic supplementation strategies for Mendelian disorders, as well as genetic counsellors and clinicians managing patients with Verheij syndrome. Importantly, animal model results do not translate automatically into clinical practice: published guidance from treating clinicians and relevant specialist bodies would need to be consulted before any supplementation approach is considered in patients. The work nonetheless illustrates the utility of invertebrate models in identifying candidate metabolic interventions for rare genetic diseases.",
+      "tags": [
+        "verheij-syndrome",
+        "puf60",
+        "vitamin-b12",
+        "one-carbon-metabolism",
+        "rare-disease",
+        "c-elegans",
+        "metabolic-supplementation"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Versant Ventures and Eli Lilly invest $100 million in startup targeting a core gene therapy challenge",
+      "is_preprint": false,
+      "run_date": "2026-11-16",
+      "run_iso": "2026-11-16T16:43:00Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-16T10:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gene-therapy-startup-versant-lilly-100m",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_331634765-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-16T10:00:00Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Versant, Lilly put $100 million behind new startup aimed at solving one of gene therapy's thorniest issues",
+          "url": "https://www.statnews.com/2026/11/16/versant-lilly-put-100-million-behind-new-startup-aimed-at-solving-one-of-gene-therapys-thorniest-issues/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "A new startup has secured $100 million from Versant Ventures, Eli Lilly, and co-investors to address an unresolved delivery or manufacturing problem in gene therapy — details of the specific challenge were not disclosed in available reporting.",
+      "summary": "Versant Ventures and Eli Lilly have led a $100 million funding round into an unnamed new startup focused on solving what STAT News describes as one of gene therapy's \"thorniest\" unresolved issues. The report, published behind STAT's subscription wall, did not specify the nature of the technical challenge in the available lede — possibilities in the field currently include issues related to vector immunogenicity, tissue targeting specificity, large-scale manufacturing consistency, and re-dosing barriers with adeno-associated virus platforms.\n\nThe scale of the investment reflects continued institutional confidence in gene therapy despite recent high-profile setbacks, including safety discussions around AAV-based programmes. Eli Lilly's participation is notable given the company's historically cautious posture towards early-stage gene therapy; it may signal a strategic broadening of Lilly's pipeline or a specific partnership interest.\n\nFull details of the startup's focus, name, and scientific rationale are behind a paywall. The item is included here on the basis of the publicly available lede, which confirms the investment and the investors. Researchers, biotech professionals, and those following the gene therapy investment landscape will want to monitor STAT News for the full story.",
+      "tags": [
+        "gene-therapy",
+        "investment",
+        "biotech",
+        "drug-development",
+        "versant-ventures",
+        "eli-lilly",
+        "aav"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: medieval cemetery on Lake Onega yields five-generation pedigree from ancient DNA",
+      "is_preprint": true,
+      "run_date": "2026-11-16",
+      "run_iso": "2026-11-16T16:43:00Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-11-16T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "kondopoga-medieval-karelia-ancient-dna-pedigree",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A single kindred across centuries: patrilineal continuity and a female-mediated increase in the local genetic component of the Lake Onega area at the Kondopoga cemetery",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766448v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports the first genome-wide ancient DNA data from medieval Karelia, placing eight individuals from the Kondopoga churchyard in a single pedigree spanning five generations and tracing patrilineal continuity alongside a female-mediated shift in local ancestry.",
+      "summary": "A preprint posted to bioRxiv by researchers working on the Kondopoga cemetery — a churchyard on Lake Onega in present-day Karelia, Russia, used from the 12th to the 19th century — presents 1240K capture ancient DNA data from 22 individuals. Using a combination of genome-wide identity-by-descent (IBD) analysis, X-chromosomal IBD, uniparental lineages (Y-chromosome and mitochondrial haplogroups), burial position, and archaeological dating, the team reconstruct a five-generation pedigree anchored on a founding couple buried at the cemetery's highest point.\n\nEight individuals are placed within this single kindred, making it one of the more extensively documented multigenerational pedigrees recovered from ancient DNA to date. The authors report evidence for patrilineal continuity across the pedigree — consistent with a patrilocal social organisation — alongside a detectable female-mediated increase in what they characterise as the local genetic component of the Lake Onega region over the period sampled. This is consistent with incoming women from geographically proximate populations contributing to shifts in autosomal ancestry composition.\n\nThe work contributes to the archaeogenomics of medieval northern Europe and the Russian forest zone, a region underrepresented in ancient DNA datasets relative to central and western Europe. As a preprint, the findings have not yet been peer-reviewed. Researchers in population genetics, historical demography, genealogy, and archaeogenomics will find the pedigree reconstruction and IBD methodology of interest.",
+      "tags": [
+        "ancient-dna",
+        "archaeogenomics",
+        "medieval-karelia",
+        "pedigree-reconstruction",
+        "identity-by-descent",
+        "population-history",
+        "russia",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: STRUCTURE reliably detects contemporary hybridisation when tested against simulated conservation scenarios",
+      "is_preprint": true,
+      "run_date": "2026-11-16",
+      "run_iso": "2026-11-16T16:43:00Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-16T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "structure-program-contemporary-hybridisation-detection",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The program STRUCTURE is good at detecting contemporary hybridization",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766246v1?rss=1"
+        }
+      ],
+      "standfirst": "A simulation study finds that the widely used STRUCTURE program correctly identifies at least one hybrid individual in 100% of tested scenarios when population differentiation is sufficient, offering reassurance for its use in conservation genetics.",
+      "summary": "A preprint posted to bioRxiv evaluates how well the STRUCTURE program — one of the most widely used tools in population genetics — performs at a specific, practically important task: detecting contemporary hybridisation between previously isolated populations, as might occur following human-caused range overlap or translocation in conservation contexts.\n\nThe authors simulated hybridisation between two populations across timescales comparable to documented real-world cases, then tested STRUCTURE's ability to detect at least one hybrid individual — a threshold they term the \"hybrid signal\". They report a 100% correct detection rate across all scenarios when the fixation index (Fst) between the source populations was sufficient, though performance varied with sample size, number of markers used, and the generation of hybridisation.\n\nThe study also critiques the wide variation in how researchers interpret STRUCTURE output in published conservation studies, and proposes clearer guidelines for threshold-setting. The findings are relevant to researchers in conservation genetics, population genomics, and those applying model-based clustering methods to wildlife management questions. As a preprint, the results have not yet been peer-reviewed. The conclusions apply to the specific task of hybrid detection; broader claims about STRUCTURE's performance in other population-structure contexts are not addressed.",
+      "tags": [
+        "conservation-genetics",
+        "population-structure",
+        "hybridisation",
+        "structure-program",
+        "simulation-study",
+        "model-based-clustering",
+        "wildlife-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: population-aware computational audit maps base-editing accessibility of chromosome 21 variants with African-ancestry focus",
+      "is_preprint": true,
+      "run_date": "2026-11-16",
+      "run_iso": "2026-11-16T16:43:00Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-16T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "base-editing-chromosome-21-african-ancestry-pilot",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-16T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Population-aware computational assessment of base-editing accessibility among pathogenic variants on human chromosome 21: an African-ancestry-focused pilot study",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766091v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes a source-traceable pipeline linking ClinVar pathogenic variants on chromosome 21 to gnomAD allele frequency data and base-editing sequence constraints, with particular attention to African and African-American ancestry strata.",
+      "summary": "A preprint posted to bioRxiv presents a computational pilot study assessing how accessible pathogenic single-nucleotide variants on human chromosome 21 are to base-editing correction, using a framework explicitly stratified by population ancestry. The authors matched ClinVar pathogenic and likely pathogenic single-nucleotide variants to GRCh38 coordinates, then cross-referenced these against overall and African/African-American (AFR) allele counts from gnomAD v4.1 exomes, before assessing sequence-level constraints relevant to adenine and cytosine base editors.\n\nThe study is framed as a population-aware resource rather than a therapeutic roadmap: the authors are careful to note that computational accessibility to base editing does not equate to therapeutic editability, and that clinical variant evidence, ancestry-stratified allele observations, correction chemistry, and sequence context each require independent evaluation. The focus on African-ancestry allele frequencies addresses a persistent gap in gene-editing research, where variant prioritisation has historically over-represented European-ancestry populations.\n\nChromosome 21 was chosen as a tractable pilot scope; the methods are designed to be scalable. The work is relevant to researchers in base editing, variant interpretation, and health equity in genomics, as well as those thinking about population-specific approaches to gene therapy target selection. As a preprint, it has not yet undergone peer review.",
+      "tags": [
+        "base-editing",
+        "chromosome-21",
+        "african-ancestry",
+        "clinvar",
+        "gnomad",
+        "health-disparities",
+        "variant-interpretation",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: untuned tabular foundation model matches or beats specialist methods across 18 genomic prediction tasks",
+      "is_preprint": true,
+      "run_date": "2026-11-16",
+      "run_iso": "2026-11-16T16:43:00Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-15T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "tabpfn-genomic-prediction-foundation-model",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-15T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Is the Bitter Lesson coming to genomic prediction? An untuned tabular foundation model matches or beats specialized methods",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764067v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint benchmarks TabPFN-3.5, a general-purpose pretrained model with no genetics-specific design, against 18 published genomic prediction methods across 18 traits in six plant species — finding it ranks first on eleven traits with no tuning.",
+      "summary": "A preprint posted to bioRxiv asks whether a general-purpose tabular foundation model — TabPFN-3.5, trained without any genetics-specific assumptions — can compete with specialist genomic prediction methods when given only marker genotype data. The authors benchmark the model against a published comparison of 18 genomic prediction approaches across 18 quantitative traits in six plant species, using the same evaluation structure where possible, and report that TabPFN-3.5 ranked first on 11 of 18 traits and achieved the best median rank across all comparisons.\n\nThe authors frame this as a contribution to a broader question in machine learning — sometimes called the \"bitter lesson\" — about whether domain-specific inductive biases continue to confer an advantage as general-purpose models scale. In genomic prediction, methods such as GBLUP and BayesB incorporate explicit assumptions about the genetic architecture of traits; that an untuned foundation model can match or exceed these on plant breeding benchmarks is a methodologically significant observation.\n\nThe authors note that the published benchmark they used did not specify its test sets, so they re-ran GBLUP and RR-BLUP as internal controls to validate comparability. The preprint has not been peer-reviewed. Researchers in quantitative genetics, plant breeding, statistical genomics, and those following the intersection of large language and foundation models with biological data will find the benchmarking analysis of direct interest.",
+      "tags": [
+        "genomic-prediction",
+        "foundation-model",
+        "tabpfn",
+        "machine-learning",
+        "quantitative-genetics",
+        "plant-genetics",
+        "gblup",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-15T14:30:19.052005+00:00",
+  "last_run": "2026-11-16T16:45:16.098298+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012180": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012187": "2026-11-04T15:05:09.942874+00:00",
@@ -34842,6 +35149,8 @@
     "https://news.cancerresearchuk.org/2026/11/10/immune-system-proteins-prevent-prostate-cancer/": "2026-11-10T15:25:20.847223+00:00",
     "https://news.cancerresearchuk.org/2026/11/12/his-majesty-the-king-marks-the-cricks-tenth-anniversary/": "2026-11-12T15:46:09.466998+00:00",
     "https://news.cancerresearchuk.org/2026/11/12/waiting-times-stall-on-diagnosis-for-people-with-cancer/": "2026-11-12T15:46:09.466998+00:00",
+    "https://news.cancerresearchuk.org/2026/11/16/cancer-waiting-times-latest-updates-and-analysis/": "2026-11-16T16:45:16.098298+00:00",
+    "https://news.cancerresearchuk.org/2026/11/16/capsule-sponge-recommended-for-thousands-more-people-on-the-nhs/": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762148v1": "2026-11-03T14:51:58.015484+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762204v1": "2026-11-03T14:51:58.015484+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.27.762239v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
@@ -34868,6 +35177,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.03.763566v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.763937v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764014v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.03.764067v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764243v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764251v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764303v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
@@ -34888,14 +35198,22 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765429v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765473v1?rss=1": "2026-11-12T15:46:09.466998+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.763681v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.10.765400v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.10.765550v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.765578v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.11.765740v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.11.765874v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.11.765992v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.11.766034v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.12.762002v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.12.765293v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.12.766085v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.12.766091v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.12.766233v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.12.766240v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.12.766246v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.13.760159v1?rss=1": "2026-11-15T14:30:19.052005+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.13.766448v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
@@ -34935,6 +35253,10 @@
     "https://www.sciencedaily.com/releases/2026/11/261113232000.htm": "2026-11-15T14:30:19.052005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261113232105.htm": "2026-11-15T14:30:19.052005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261114202130.htm": "2026-11-15T14:30:19.052005+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261114202230.htm": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261115085535.htm": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261115085550.htm": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261115085552.htm": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/2026/11/02/american-health-care-costs-broken-economics-solutions/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/biotech-news-psilocybin-lasting-benefits-prove-elusive-in-mice/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/": "2026-11-03T14:51:58.015484+00:00",
@@ -35076,6 +35398,18 @@
     "https://www.statnews.com/2026/11/13/phone-addiction-young-people-fight-back-attention-activism/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/2026/11/13/senator-abdul-el-sayed-interview-public-health-rfk-jr-trust-in-science/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/2026/11/13/uspstf-preventive-care-panel-senators-target-conflicts-of-interest/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
+    "https://www.statnews.com/2026/11/15/fda-rejects-ivonescimab-lung-cancer-treatment-summit-therapeutics/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/aamc-ceo-david-skorton-qa-challenges-academic-medicine/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/ai-company-tom-health-fix-primary-care-new-tool/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/apple-openevidence-launch-health-chat-app-experiment-ai/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/beone-hengrui-top-list-of-chinas-most-powerful-drugmakers/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/bladder-cancer-immunotherapy-reduced-tumor-recurrence-cg-oncology/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/doctors-self-care-limits-literature-systems/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/health-news-democrats-settle-on-medicare-for-more-message/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/helus-psychedelics-depression-phase-3-trial/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/medical-school-step-1-exam-redesign-proposal/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/stephen-miller-chief-of-staff-boosts-power-of-kennedy-maha/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/versant-lilly-put-100-million-behind-new-startup-aimed-at-solving-one-of-gene-therapys-thorniest-issues/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/pharmalot/2026/11/02/drugmaker-payments-to-russian-middlemen-possible-dupixent-rival/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/pharmalot/2026/11/02/lenacapavir-generic-version-approved-fda-hiv-prevention-dr-reddys/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/": "2026-11-03T14:51:58.015484+00:00",
@@ -35099,7 +35433,8 @@
     "https://www.statnews.com/pharmalot/2026/11/11/dems-eye-trump-mfn-deals-fewer-drug-launches-in-europe/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/pharmalot/2026/11/12/fda-fast-track-review-shelved-canadian-importer-arrested/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/pharmalot/2026/11/13/lilly-conflict-questions-dea-okays-takeda-narcolepsy-pill/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/13/up-down-ladder-jobs-pharma-biotech-2/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/13/up-down-ladder-jobs-pharma-biotech-2/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/16/glp1-use-covid-19-vaccines-return-on-investment/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00"
   },
   "takedowns": []
 }
