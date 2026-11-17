@@ -35122,23 +35122,333 @@
         "gblup",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Sickle cell disease is a blood disorder caused by a change in one gene, called the β-globin gene, which affects how red blood cells are shaped. More than seven million people around the world live with this condition, and the number of medicines available to treat it is still small.\n\nResearchers have now measured more than 5,000 proteins found in the blood of people with sickle cell disease and looked for connections between those protein levels and the patients' genetic make-up. The idea is that if a protein's level in the blood is shaped by a gene, that protein might be a useful target for a future medicine.\n\nThis kind of large-scale catalogue does not lead directly to new treatments — that takes many more years of research — but it gives scientists a detailed map to work from when deciding which biological pathways to study next.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Proteogenomic screen of 5,411 plasma proteins maps new drug target candidates in sickle cell disease",
+      "is_preprint": false,
+      "run_date": "2026-11-17",
+      "run_iso": "2026-11-17T16:39:30+00:00",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-11-16T14:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "sickle-cell-proteogenomics-plos-genetics-drug-targets",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-16T14:00:00+00:00",
+          "publisher": "PLOS Genetics",
+          "title": "Proteogenomic analysis of 5,411 plasma proteins in sickle cell disease patients",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012377"
+        }
+      ],
+      "standfirst": "A study combining genomics and high-throughput proteomics in 343 sickle cell disease patients has identified plasma protein associations that could guide future therapeutic development.",
+      "summary": "Researchers led by Cristian Groza, Guillaume Lettre, and colleagues have published a proteogenomic analysis of plasma proteins in sickle cell disease (SCD) patients, with results appearing in PLOS Genetics. The team measured levels of 5,411 plasma proteins in 343 SCD patients and tested associations between those protein levels and common genetic variation — an approach that integrates genomics with high-throughput proteomics to surface candidate drug targets.\n\nSickle cell disease, caused by mutations in the β-globin gene, affects more than seven million people worldwide and has a limited therapeutic landscape. By pairing protein-level measurements with genetic data, the analysis can identify proteins whose circulating levels are under genetic control and whose variation tracks with disease-relevant biology — a step that may help prioritise which molecular pathways are worth pursuing in drug discovery.\n\nThe study does not propose clinical interventions. Rather, it offers a large-scale catalogue of genetically influenced plasma proteins in SCD patients that researchers can mine when evaluating potential drug targets. The dataset represents one of the most comprehensive proteogenomic resources assembled specifically for this condition to date, and may also serve as a reference for future studies interrogating the role of the plasma proteome in haematological disease.",
+      "tags": [
+        "sickle-cell-disease",
+        "proteogenomics",
+        "plasma-proteome",
+        "drug-targets",
+        "plos-genetics",
+        "haematology",
+        "population-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "STAMPEDE prostate cancer trial closes after reshaping global treatment practice",
+      "is_preprint": false,
+      "run_date": "2026-11-17",
+      "run_iso": "2026-11-17T16:39:30+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-17T13:11:37+00:00",
+        "novelty": 5
+      },
+      "slug": "stampede-trial-legacy-prostate-cancer-treatment",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-17T13:11:37+00:00",
+          "publisher": "Cancer Research UK",
+          "title": "The 'mad thought' that changed millions of lives",
+          "url": "https://news.cancerresearchuk.org/2026/11/17/the-mad-thought-that-changed-millions-of-lives/"
+        }
+      ],
+      "standfirst": "Cancer Research UK reflects on the STAMPEDE trial's closure and its practice-changing legacy for men with advanced prostate cancer.",
+      "summary": "Cancer Research UK has published a long-read retrospective examining the STAMPEDE trial, which wound down earlier in 2026 after more than a decade of operation. STAMPEDE — Systemic Therapy in Advancing or Metastatic Prostate cancer: Evaluation of Drug Efficacy — was an adaptive, multi-arm, multi-stage platform trial that ran across numerous UK hospitals and international sites.\n\nThe trial's adaptive design allowed researchers to test several treatments simultaneously against a shared control arm, dramatically improving efficiency compared with running separate trials for each agent. Over its lifetime, STAMPEDE generated evidence that influenced international clinical guidelines on the treatment of newly diagnosed metastatic and high-risk localised prostate cancer, including the adoption of upfront combination hormone therapy regimens.\n\nCancer Research UK's retrospective traces the origins of the trial's design — described at the time as a 'mad thought' by some — through to its scientific and clinical outputs. The piece does not constitute guidance for individual patients; it documents the history and published evidence base of a major publicly funded trial. For oncologists and researchers, the STAMPEDE body of work remains a reference point for platform trial methodology and for the evidence underpinning current prostate cancer management approaches.",
+      "tags": [
+        "prostate-cancer",
+        "stampede-trial",
+        "platform-trial",
+        "clinical-trial-news",
+        "oncology",
+        "cancer-research-uk",
+        "trial-methodology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Cancer Research UK profiles AI-assisted blood test research for lung cancer detection",
+      "is_preprint": false,
+      "run_date": "2026-11-17",
+      "run_iso": "2026-11-17T16:39:30+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-11-17T10:36:26+00:00",
+        "novelty": 5
+      },
+      "slug": "ai-blood-test-lung-cancer-screening-caroline-dive",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-17T10:36:26+00:00",
+          "publisher": "Cancer Research UK",
+          "title": "Can AI help spot early signs of lung cancer in the blood?",
+          "url": "https://news.cancerresearchuk.org/2026/11/17/can-ai-help-spot-early-signs-of-lung-cancer-in-the-blood/"
+        }
+      ],
+      "standfirst": "Professor Caroline Dive's group is investigating whether machine-learning analysis of blood samples could complement existing approaches to early lung cancer detection.",
+      "summary": "Cancer Research UK has published a feature on research led by Professor Caroline Dive at the Cancer Research UK Manchester Institute, exploring whether artificial-intelligence analysis of blood-based samples could improve early detection of lung cancer.\n\nThe work centres on liquid biopsy — the detection of tumour-derived material such as circulating tumour DNA or circulating tumour cells in blood — combined with machine-learning models trained to identify signals associated with early-stage disease. Lung cancer remains the leading cause of cancer death in the UK, and earlier detection is widely regarded as the most effective lever for improving outcomes.\n\nThe Cancer Research UK piece describes the scientific rationale and ongoing research programme rather than a completed clinical study. No peer-reviewed trial results are cited in the coverage. The research is at an exploratory stage; published guidance on lung cancer screening in the UK reflects the current evidence base from established imaging-based programmes, not liquid biopsy. This is an account of active research directions and should be read as such by all audiences.",
+      "tags": [
+        "lung-cancer",
+        "liquid-biopsy",
+        "ai-assisted-analysis",
+        "early-detection",
+        "circulating-tumour-dna",
+        "cancer-research-uk",
+        "research-tools"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Researchers report progress on safer delivery after death in Capsida gene therapy brain trial",
+      "is_preprint": false,
+      "run_date": "2026-11-17",
+      "run_iso": "2026-11-17T16:39:30+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-17T09:30:00+00:00",
+        "novelty": 7
+      },
+      "slug": "gene-therapy-trial-death-capsida-brain-disease-follow-up",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/AdobeStock_331634765-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-17T09:30:00+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: After death in gene therapy trial for a brain disease, progress is reported",
+          "url": "https://www.statnews.com/2026/11/17/capsida-gene-therapy-trial-death-follow-up-investigation/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Following a patient death in a gene therapy trial targeting a brain disease, investigators say they have identified approaches to reduce the risks associated with crossing the blood–brain barrier.",
+      "summary": "STAT News reports that researchers have shared updated findings following an unexpected patient death in a gene therapy trial run by Capsida Biotherapeutics, a company focused on central nervous system gene delivery. The death occurred during a trial designed to deliver a gene therapy across the blood–brain barrier, a notoriously difficult technical challenge in neurological gene therapy.\n\nAccording to the STAT News report, the incident prompted investigators to examine the mechanisms underlying the adverse event, and some researchers now believe they have identified approaches that may reduce the associated risks — though the report does not specify which disease the trial targets beyond its broad neurological context, nor does it detail the specific mitigation strategies in peer-reviewed form.\n\nThe story is relevant context for the ongoing discussion around the safety of viral vector-based gene therapy, particularly high-dose delivery to the central nervous system. It follows the broader conversation documented in earlier Genetic Current coverage around AAV-associated oncogenicity and pharmacovigilance. The underlying investigation has not yet produced published peer-reviewed safety data; this is news reporting on work in progress. Researchers, clinicians, and regulators monitoring gene therapy safety will find the development noteworthy.",
+      "tags": [
+        "gene-therapy",
+        "blood-brain-barrier",
+        "aav",
+        "clinical-trial-safety",
+        "neurology",
+        "capsida",
+        "pharmacovigilance",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Start-up raises $173 million to develop gene-therapy-alternative infusion for sickle cell disease",
+      "is_preprint": false,
+      "run_date": "2026-11-17",
+      "run_iso": "2026-11-17T16:39:30+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-17T12:00:00+00:00",
+        "novelty": 6
+      },
+      "slug": "sickle-cell-startup-173m-non-gene-therapy-infusion",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2026/11/M1080443-Coloured_SEM_of_blood_in_sickle_cell_anaemia-1024x576.jpg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-17T12:00:00+00:00",
+          "publisher": "Stat News",
+          "title": "STAT+: With $173 million, new startup takes aim at sickle cell",
+          "url": "https://www.statnews.com/2026/11/17/new-startup-developing-novel-sickle-cell-anemia-infusion-no-gene-therapy/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "A new biotechnology company has secured substantial funding to pursue a sickle cell treatment designed to match gene therapy efficacy without the manufacturing and delivery complexities associated with current gene-based approaches.",
+      "summary": "STAT News reports that a new start-up has raised $173 million to develop an infusion-based treatment for sickle cell disease that its founders say could achieve outcomes comparable to gene therapy, without the drawbacks — including the high cost, lengthy manufacturing time, and conditioning regimens currently required for gene therapy approaches.\n\nSickle cell disease affects millions of people worldwide and is caused by a well-characterised mutation in the β-globin gene. While gene therapies for SCD have received regulatory approval in recent years, their real-world uptake has been limited by logistical and cost barriers. The start-up's approach, described in STAT News but not yet in peer-reviewed literature, is positioned as a simpler alternative delivery modality.\n\nThe report does not provide detailed mechanistic information about the treatment or preclinical data. As a funding announcement, it reflects investor and founder confidence in a research hypothesis rather than documented clinical efficacy. Researchers and those tracking the sickle cell therapeutic landscape may note it as a signal of continued interest in non-gene-therapy modalities for haemoglobinopathies.",
+      "tags": [
+        "sickle-cell-disease",
+        "drug-development",
+        "biotech",
+        "haemoglobinopathy",
+        "investment",
+        "rare-disease"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint models how genome segments survive and descend through population pedigrees in small founder groups",
+      "is_preprint": true,
+      "run_date": "2026-11-17",
+      "run_iso": "2026-11-17T16:39:30+00:00",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-11-17T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "genome-survival-descent-population-pedigrees-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-17T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Genome survival and descent in population pedigrees",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766719v1?rss=1"
+        }
+      ],
+      "standfirst": "A theoretical population genetics preprint extends methods for tracing genome ancestry and descent across pedigrees, with direct relevance to conservation genetics and the study of small founder populations.",
+      "summary": "A preprint posted to bioRxiv extends earlier work on the population genetics of genome segment ancestry and descent, focusing on how genomic material survives across generations within population pedigrees. The authors, motivated by questions around genetic variation maintenance in highly endangered species, model the survival and transmission of genome segments in a diploid, dioecious population — taking as their canonical example a randomly mating population of 100 males and 100 females founded from a small base.\n\nThe work shows how methods previously developed to examine the ancestry of a single genome within such a population can be extended to account for the broader descent of genomic material across a pedigree. This has implications for understanding how much genetic diversity is retained — or lost — over time in small, isolated populations, a central concern in conservation genetics and in the study of founder-effect populations of human interest.\n\nFor pedigree-modelling researchers, genealogists, and population geneticists, the preprint offers a formal treatment of questions that connect mathematical population genetics to real-world scenarios involving finite pedigrees. As a preprint, the work has not yet been peer-reviewed.",
+      "tags": [
+        "population-genetics",
+        "pedigree-reconstruction",
+        "genome-descent",
+        "founder-effect",
+        "conservation-genetics",
+        "identity-by-descent",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint introduces LAMP framework to improve how genomic sequence-to-function models learn variant effects",
+      "is_preprint": true,
+      "run_date": "2026-11-17",
+      "run_iso": "2026-11-17T16:39:30+00:00",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-17T00:00:00+00:00",
+        "novelty": 7
+      },
+      "slug": "lamp-sequence-to-function-models-noncoding-variant-effects",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-17T00:00:00+00:00",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "LAMP sheds light on how sequence to function models learn variant effects during post-training",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766567v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes LAMP, a post-training approach that addresses systematic underestimation of noncoding variant effects in sequence-to-function models used for gene expression prediction.",
+      "summary": "A preprint posted to bioRxiv describes LAMP, a framework designed to improve genomic sequence-to-function (S2F) models during post-training. S2F models predict molecular phenotypes — such as chromatin accessibility or gene expression — from DNA sequence, and are increasingly used to interpret noncoding genetic variation in the context of genome-wide association studies and functional genomics.\n\nThe authors identify a specific limitation: current S2F models systematically underestimate the effects of most causal noncoding variants, which causes fine-mapping failures and means these models underperform relative to simpler linear baselines when predicting gene expression from personal genome sequences. LAMP is presented as a post-training intervention that improves personal genome predictions by addressing this underestimation, offering better calibration without retraining models from scratch.\n\nThe work is relevant to researchers using computational tools to interpret noncoding variants, particularly in GWAS follow-up and functional prioritisation pipelines. As a preprint on bioRxiv, the findings have not yet undergone peer review. The authors' framing situates LAMP within the ongoing challenge of moving from association to function in complex trait genetics — a problem that remains active across the field.",
+      "tags": [
+        "sequence-to-function-models",
+        "noncoding-variants",
+        "gene-expression",
+        "gwas",
+        "functional-genomics",
+        "post-gwas",
+        "computational-genomics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-16T16:45:16.098298+00:00",
+  "last_run": "2026-11-17T16:41:34.279019+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012180": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012187": "2026-11-04T15:05:09.942874+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012223": "2026-11-03T14:51:58.015484+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012270": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012332": "2026-11-07T13:44:44.698496+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012345": "2026-11-03T14:51:58.015484+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012346": "2026-11-12T15:46:09.466998+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012350": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352": "2026-11-06T14:47:34.173440+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012361": "2026-11-05T15:10:43.488004+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012362": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012363": "2026-11-14T13:57:07.401002+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012366": "2026-11-03T14:51:58.015484+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012369": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012371": "2026-11-14T13:57:07.401002+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012372": "2026-11-13T15:06:08.250090+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012377": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012379": "2026-11-11T14:55:34.525034+00:00",
     "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
     "https://news.cancerresearchuk.org/2026/11/04/scientists-uncover-the-hidden-rules-behind-glioblastoma-brain-tumours/": "2026-11-05T15:10:43.488004+00:00",
@@ -35151,22 +35461,15 @@
     "https://news.cancerresearchuk.org/2026/11/12/waiting-times-stall-on-diagnosis-for-people-with-cancer/": "2026-11-12T15:46:09.466998+00:00",
     "https://news.cancerresearchuk.org/2026/11/16/cancer-waiting-times-latest-updates-and-analysis/": "2026-11-16T16:45:16.098298+00:00",
     "https://news.cancerresearchuk.org/2026/11/16/capsule-sponge-recommended-for-thousands-more-people-on-the-nhs/": "2026-11-16T16:45:16.098298+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.27.762148v1": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.27.762204v1": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.27.762239v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.27.762259v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.27.762344v1": "2026-11-03T14:51:58.015484+00:00",
+    "https://news.cancerresearchuk.org/2026/11/17/can-ai-help-spot-early-signs-of-lung-cancer-in-the-blood/": "2026-11-17T16:41:34.279019+00:00",
+    "https://news.cancerresearchuk.org/2026/11/17/the-mad-thought-that-changed-millions-of-lives/": "2026-11-17T16:41:34.279019+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.28.753787v1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.28.753787v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.28.760887v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.28.762411v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.762947v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.763041v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.30.763191v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.763219v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.10.30.763243v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.31.763309v1": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.01.763325v1?rss=1": "2026-11-02T16:48:50.557415+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.02.763731v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.02.763738v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.02.763739v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
@@ -35187,6 +35490,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764684v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764726v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764746v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.06.763794v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764618v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764806v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764887v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
@@ -35214,7 +35518,10 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.12.766246v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.13.760159v1?rss=1": "2026-11-15T14:30:19.052005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.13.766448v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
-    "https://www.england.nhs.uk/2026/11/new-nhs-system-to-help-doctors-spot-deteriorating-children-faster-in-emergency-departments/": "2026-11-02T16:48:50.557415+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.13.766567v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.14.766682v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.14.766719v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.15.766793v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/": "2026-11-12T15:46:09.466998+00:00",
@@ -35223,7 +35530,6 @@
     "https://www.sciencedaily.com/releases/2026/11/261101010552.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261101010554.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261101010556.htm": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261102075806.htm": "2026-11-03T14:51:58.015484+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261102202828.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261102202829.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261103003157.htm": "2026-11-05T15:10:43.488004+00:00",
@@ -35257,21 +35563,10 @@
     "https://www.sciencedaily.com/releases/2026/11/261115085535.htm": "2026-11-16T16:45:16.098298+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261115085550.htm": "2026-11-16T16:45:16.098298+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261115085552.htm": "2026-11-16T16:45:16.098298+00:00",
-    "https://www.statnews.com/2026/11/02/american-health-care-costs-broken-economics-solutions/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/2026/11/02/biotech-news-psilocybin-lasting-benefits-prove-elusive-in-mice/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/02/health-care-affordability-midterms-hybrid-er-urgent-care-clinics-health-care-inc/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/2026/11/02/health-news-stat-reporter-qa-on-mit-as-experimental-fertility-treatment/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/2026/11/02/kymera-therapeutics-trial-results-eczema-dupixent-rival/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/2026/11/02/mrt-fertility-treatment-advanced-maternal-age-three-parent-ivf-reader-callout/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/2026/11/02/pregnant-cancer-patients-abortion-early-labor-research/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/2026/11/02/three-parent-ivf-fertility-tourism-investigation-mrt-therapy/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/03/becker-muscular-dystrophy-servier-edgewise-sevasemten-fail/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/03/biotech-news-who-will-get-the-first-psychedelic-approved/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/child-dies-measles-new-york-first-death-30-years/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/03/child-dies-measles-new-york-first-death-30-years/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/electoral-map-reveals-red-state-blue-state-mortality-gap/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/03/electoral-map-reveals-red-state-blue-state-mortality-gap/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/03/health-news-first-us-bird-flu-death-after-cattle-exposure-2026/": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/03/health-news-first-us-bird-flu-death-after-cattle-exposure-2026/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
@@ -35279,7 +35574,6 @@
     "https://www.statnews.com/2026/11/03/midterm-election-health-care-issues-dc-diagnosis-newsletter/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/03/midterm-elections-what-democratic-control-senate-means-healthcare/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/03/three-parent-ivf-safety-ethics-questions-mitochondrial-replacement-technology/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/traumatic-eye-injuries-ophthalmologist-meditation-psychology/": "2026-11-03T14:51:58.015484+00:00",
     "https://www.statnews.com/2026/11/03/traumatic-eye-injuries-ophthalmologist-meditation-psychology/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/04/bernie-sanders-senate-help-key-role-pdufa-reauthorization/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/04/biotech-news-ultragenyx-cuts-staff-after-another-study-fails/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
@@ -35403,16 +35697,29 @@
     "https://www.statnews.com/2026/11/16/ai-company-tom-health-fix-primary-care-new-tool/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/2026/11/16/apple-openevidence-launch-health-chat-app-experiment-ai/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/2026/11/16/beone-hengrui-top-list-of-chinas-most-powerful-drugmakers/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/biotech-news-rebound-isnt-lifting-all-boats-equally/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/2026/11/16/bladder-cancer-immunotherapy-reduced-tumor-recurrence-cg-oncology/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/cms-proposes-more-agressive-audits-medicare-advantage-crush/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/2026/11/16/doctors-self-care-limits-literature-systems/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/fda-approves-new-roche-breast-cancer-drug/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/16/fda-proposes-new-category-supplement-nac/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/2026/11/16/health-news-democrats-settle-on-medicare-for-more-message/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/2026/11/16/helus-psychedelics-depression-phase-3-trial/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/john-powers-appointed-niaid-director/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/16/judge-rejects-visa-limits-international-researchers-upholds-duration-of-status-policy/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/2026/11/16/medical-school-step-1-exam-redesign-proposal/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/16/providers-sue-employers-to-collect-payment-health-insurance-costs-climb/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/16/sellas-blood-cancer-immunotherapy-succeeds-clinical-trial/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/2026/11/16/stephen-miller-chief-of-staff-boosts-power-of-kennedy-maha/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/2026/11/16/versant-lilly-put-100-million-behind-new-startup-aimed-at-solving-one-of-gene-therapys-thorniest-issues/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/02/drugmaker-payments-to-russian-middlemen-possible-dupixent-rival/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/02/lenacapavir-generic-version-approved-fda-hiv-prevention-dr-reddys/": "2026-11-03T14:51:58.015484+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/": "2026-11-03T14:51:58.015484+00:00",
+    "https://www.statnews.com/2026/11/17/capsida-gene-therapy-trial-death-follow-up-investigation/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/17/democrats-new-health-policy-medicare-for-more-stephen-miller-embraces-maha/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/17/health-news-nih-infectious-disease-unit-has-a-new-head-at-last/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/17/hospital-signs-violence-health-care-workers-research-stigma/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/17/new-startup-developing-novel-sickle-cell-anemia-infusion-no-gene-therapy/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/17/rfk-jr-federal-funding-faith-based-recovery-groups/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/17/us-loses-measles-elimination-status-public-health-victory-lost/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/17/zyn-melts-tobacco-firms-test-market-nicotine-pouch-alternatives/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/pharmalot/2026/11/04/cvs-plans-to-split-up-fda-inspections-in-india-and-china/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/pharmalot/2026/11/05/india-new-manufacturing-rules-china-clinical-trials/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
@@ -35434,7 +35741,9 @@
     "https://www.statnews.com/pharmalot/2026/11/12/fda-fast-track-review-shelved-canadian-importer-arrested/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/pharmalot/2026/11/13/lilly-conflict-questions-dea-okays-takeda-narcolepsy-pill/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/pharmalot/2026/11/13/up-down-ladder-jobs-pharma-biotech-2/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/16/glp1-use-covid-19-vaccines-return-on-investment/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/16/glp1-use-covid-19-vaccines-return-on-investment/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/16/semaglutide-obesity-glp1-access-medicines-low-income-countries/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/17/roche-breast-cancer-pill-obesity-drugs-in-children/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00"
   },
   "takedowns": []
 }
