@@ -35432,25 +35432,332 @@
         "computational-genomics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists studying Alzheimer's disease have found that a protein called SORLA — made by a gene already known to affect Alzheimer's risk — appears to protect brain cells in mice. When researchers increased the amount of SORLA in mice, there were fewer of the sticky protein clumps called tau tangles, the connections between brain cells were better preserved, and there was less brain shrinkage. When they removed SORLA, the damage got worse. This research was done in animals, so it is a long way from becoming a treatment for people. Researchers now need to understand how SORLA works in detail before any potential therapy could be developed and tested in humans. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "SORLA protein reduces tau tangles and brain shrinkage in Alzheimer's mouse models",
+      "is_preprint": false,
+      "run_date": "2026-11-18",
+      "run_iso": "2026-11-18T16:08:30Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 6,
+        "newest_iso": "2026-11-18T11:53:30Z",
+        "novelty": 7
+      },
+      "slug": "sorla-protein-tau-alzheimers-neuroprotection",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-18T11:53:30Z",
+          "publisher": "ScienceDaily",
+          "title": "A little-known protein could be a powerful weapon against Alzheimer's",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261114202233.htm"
+        }
+      ],
+      "standfirst": "Researchers have found that boosting the SORLA protein sharply reduced toxic tau aggregates and synaptic loss in mice, identifying a potential new target for Alzheimer's disease research.",
+      "summary": "A study reported by ScienceDaily on 18 November 2026 describes how researchers investigated the role of the protein SORLA (also known as SORL1) in Alzheimer's disease pathology. Working in mouse models, the team found that experimentally increasing SORLA levels significantly reduced accumulation of toxic tau tangles, protected synaptic connections between neurones, and attenuated the brain-volume loss associated with neurodegeneration. Conversely, removing SORLA from the animals worsened all three outcomes, suggesting the protein plays a constitutive protective role rather than merely a compensatory one.\n\nSORLA is encoded by the SORL1 gene, which has previously been identified through genome-wide association studies as a risk locus for late-onset Alzheimer's disease. This new functional work adds mechanistic detail to that genetic signal, linking SORLA activity directly to tau pathology as well as to previously described roles in amyloid precursor protein trafficking.\n\nThe findings are at a preclinical stage; no primary journal citation or institutional affiliation was included in the feed item, and the full paper could not be verified from the available lede alone. The work is nonetheless of interest to researchers studying neurodegenerative disease mechanisms and the translational genetics of Alzheimer's risk variants.",
+      "tags": [
+        "sorla",
+        "sorl1",
+        "alzheimers-disease",
+        "tau",
+        "neurodegeneration",
+        "mouse-models",
+        "neuroscience"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "POLG is a gene that helps copy the DNA found inside the energy-producing parts of cells called mitochondria. Faults in POLG cause a range of serious mitochondrial diseases, some of which begin in early childhood and have no effective treatments. Scientists have published a preprint — an early research report that has not yet been checked by independent experts — describing an experiment in mice where a single dose of gene replacement therapy given shortly after birth helped the mice live longer and kept their movement better than untreated mice with the same gene fault. This is mouse research at an early stage, and it is not known yet whether a similar approach could work safely in people. Researchers will need to do much more work before any treatment could be tested in patients. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Single neonatal dose of gene therapy extends survival in mouse model of POLG mitochondrial disease",
+      "is_preprint": true,
+      "run_date": "2026-11-18",
+      "run_iso": "2026-11-18T16:08:30Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 7,
+        "newest_iso": "2026-11-18T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "polg-neonatal-gene-therapy-mitochondrial-disease",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-18T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "Single-dose neonatal gene therapy preserves motor coordination and extends survival of Polg-deficient mice",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.762423v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes gene replacement therapy that preserved motor coordination and improved survival in mice lacking functional POLG, the most commonly mutated single nuclear gene in mitochondrial disease.",
+      "summary": "A preprint posted to bioRxiv on 18 November 2026 reports that a single dose of gene replacement therapy administered to newborn mice lacking functional POLG — the gene encoding the mitochondrial DNA polymerase gamma — preserved motor coordination and significantly extended survival compared with untreated animals.\n\nPOLG mutations are the most common single nuclear gene cause of mitochondrial disease in humans, encompassing a clinical spectrum that ranges from severe early-onset conditions such as Alpers syndrome and myocerebrohepatopathy to milder adult-onset presentations including progressive external ophthalmoplegia. No disease-modifying treatments currently exist; available supportive therapies do not halt progression.\n\nThe preprint authors describe a gene replacement approach delivered in the neonatal window, taking advantage of the rapid tissue growth in early life to achieve broad biodistribution. The specific vector, dose, and institutional affiliation were not fully detailed in the available lede text. As a preprint, this work has not yet undergone peer review, and results in mouse models do not straightforwardly predict outcomes in patients with POLG disease, whose genetic backgrounds and disease trajectories are highly variable.\n\nThe study is of particular relevance to researchers working in mitochondrial disease, to genetic counsellors who work with families affected by POLG conditions, and to educators covering gene therapy strategies for recessive nuclear-encoded mitochondrial disorders.",
+      "tags": [
+        "polg",
+        "mitochondrial-disease",
+        "gene-therapy",
+        "alpers-syndrome",
+        "rare-disease",
+        "mouse-models",
+        "neonatal-treatment",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "GBA1 is a gene that carries instructions for making an enzyme called glucocerebrosidase, which breaks down certain fatty substances inside cells. When both copies of GBA1 are severely faulty, a person develops Gaucher disease, a rare inherited condition. Having one mildly faulty copy also increases the risk of Parkinson's disease. Doctors often find small changes in this gene whose effects are unknown — these are called variants of uncertain significance, or VUS. Scientists have published a preprint — an early-stage research report awaiting independent expert review — describing an experiment that tested the effect of more than 10,000 different changes to the GBA1 gene on enzyme activity. The result is a large reference map that researchers hope will help interpret whether a given variant is harmful or harmless. This research does not change clinical care today, but it may help scientists and clinicians understand GBA1 variants better in the future. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Multiplexed assay maps function of more than 10,000 GBA1 variants relevant to Gaucher and Parkinson's disease",
+      "is_preprint": true,
+      "run_date": "2026-11-18",
+      "run_iso": "2026-11-18T16:08:30Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-11-17T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "gba1-mave-functional-atlas-gaucher-parkinson",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-17T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "A harmonized functional reference framework for GBA1",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766795v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint presents a near-comprehensive functional atlas of GBA1 single-amino-acid substitutions, offering a potential resource for interpreting variants of uncertain significance in Gaucher disease and Parkinson's disease research.",
+      "summary": "A preprint deposited on bioRxiv on 17 November 2026 reports a multiplexed assay of variant effect (MAVE) applied to GBA1, the gene encoding lysosomal glucocerebrosidase. The team generated functional activity scores for more than 10,400 GBA1 variants, covering approximately 97 per cent of all possible single-amino-acid substitutions.\n\nGBA1 is clinically important across two disease contexts: biallelic loss-of-function variants cause Gaucher disease, the most prevalent lysosomal storage disorder, while heterozygous GBA1 variants are among the most common genetic risk factors for Parkinson's disease. Despite this dual significance, systematic functional evidence for the majority of rare GBA1 variants has been lacking, leaving a large proportion of observed variants classified as variants of uncertain significance (VUS).\n\nThe authors report that their atlas recapitulated known structural and biochemical determinants of glucocerebrosidase activity and showed strong concordance with expert-curated pathogenicity classifications where those exist. The dataset is described as a harmonised functional reference framework intended to support variant interpretation across both disease contexts.\n\nAs a preprint, this work has not yet completed peer review. If the findings are confirmed, they could substantially reduce the VUS burden in GBA1 — a challenge familiar to genetic counsellors managing families with Gaucher disease or with a family history of Parkinson's risk. The scale of the dataset also makes it a resource of methodological interest for researchers developing or benchmarking variant effect predictors.",
+      "tags": [
+        "gba1",
+        "gaucher-disease",
+        "parkinsons-disease",
+        "mave",
+        "variant-interpretation",
+        "vus",
+        "lysosomal-storage-disorder",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint exposes training-data bias in methods used to link GWAS signals to target genes",
+      "is_preprint": true,
+      "run_date": "2026-11-18",
+      "run_iso": "2026-11-18T16:08:30Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-18T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "gwas-effector-gene-assignment-training-data-dependence",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-18T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "Domain-informed effector gene assignment exposes training-data dependence of drug target prioritisation from GWAS",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.766419v1?rss=1"
+        }
+      ],
+      "standfirst": "A benchmarking preprint finds that widely used GWAS effector-gene prioritisation methods are critically dependent on the evidence type used to train them, with implications for how post-GWAS analyses inform drug target selection.",
+      "summary": "A preprint posted to bioRxiv on 18 November 2026 reports a systematic benchmarking study of methods used to assign effector genes at genome-wide association study (GWAS) loci — the step that translates a statistical association signal into a candidate biological mechanism.\n\nApproximately 90 per cent of trait-associated lead variants from GWAS lie outside protein-coding regions, making effector gene nomination a central bottleneck in translational genetics. The authors benchmarked established prioritisation methods across three independent evaluation sets and trained five domain-informed models, each anchored to a different biological line of evidence. They applied these across six common traits and found that method performance was strongly dependent on which quasi-true-positive set was used for training — a circularity risk that the authors argue is widely underappreciated in the field.\n\nThe study does not propose a single preferred method but instead argues for greater transparency about training-data assumptions in published prioritisation pipelines. The findings are particularly relevant to researchers designing post-GWAS functional follow-up studies and to those evaluating the genetic support for drug targets — a step that pharmaceutical and translational research groups routinely perform before committing resources to target validation.\n\nAs a preprint, the work has not yet been peer-reviewed. The methodological critique it raises has implications for how the field interprets the strength of genetic evidence for any given gene target.",
+      "tags": [
+        "gwas",
+        "effector-gene-assignment",
+        "post-gwas",
+        "drug-target-validation",
+        "benchmarking",
+        "statistical-genetics",
+        "computational-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint quantifies genetic nurture alongside shared environment across 40 cognitive and educational traits",
+      "is_preprint": true,
+      "run_date": "2026-11-18",
+      "run_iso": "2026-11-18T16:08:30Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-11-18T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "genetic-nurture-shared-environment-cognitive-outcomes",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-18T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "Genetic nurture and shared environmental effects across cognitive, educational, and mental health outcomes",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767077v1?rss=1"
+        }
+      ],
+      "standfirst": "Using 2,559 genotyped parent–offspring families alongside 6,710 twin pairs, researchers find that genetic nurture — the influence of parental genotype on offspring independent of inherited DNA — systematically accounts for a portion of shared environmental effects across cognitive, educational, and anthropometric outcomes.",
+      "summary": "A preprint deposited on bioRxiv on 18 November 2026 reports one of the most systematic comparisons to date between genetic nurture and the shared environmental component (C) estimated from classical twin designs, covering 40 trait domains including educational attainment, cognitive performance, and anthropometric measures.\n\nGenetic nurture describes the phenomenon whereby parental genotype shapes offspring outcomes through the rearing environment rather than through direct genetic transmission — for example, parents with genotypes associated with higher educational attainment may create home environments that independently foster children's educational outcomes. The authors used polygenic scores derived from published GWAS to estimate genetic nurture in 2,559 families with genotyped parents, and compared these estimates with C parameters from 6,710 twin pairs across the same traits.\n\nThe study found that genetic nurture represents a consistent, quantifiable portion of the shared environmental signal in twin models, though the proportion varied across trait domains. The work contributes to ongoing methodological discussion about the interpretation of heritability estimates and the partitioning of genetic and environmental influences on complex traits.\n\nThe findings are of particular interest to researchers in behavioural genetics and to educators who teach the distinction between additive genetic effects and gene–environment interplay. As a preprint, the work has not yet completed peer review.",
+      "tags": [
+        "genetic-nurture",
+        "heritability",
+        "twin-design",
+        "shared-environment",
+        "polygenic-scores",
+        "behavioural-genetics",
+        "educational-attainment",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "QuadSeq method converts linear DNA amplicons into duplicated duplexes to cut nanopore sequencing error rates",
+      "is_preprint": true,
+      "run_date": "2026-11-18",
+      "run_iso": "2026-11-18T16:08:30Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-11-18T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "quadseq-high-fidelity-nanopore-linear-amplicons",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-18T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "QuadSeq: A duplicated-duplex DNA-synthesis technology for high-fidelity nanopore sequencing of linear DNA amplicons",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767292v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces QuadSeq, a three-step DNA-synthesis approach that encodes four redundant read orientations per molecule, addressing a core accuracy limitation of long-read nanopore sequencing without requiring DNA circularisation.",
+      "summary": "A preprint posted to bioRxiv on 18 November 2026 describes QuadSeq, a laboratory method designed to improve the accuracy of nanopore long-read sequencing of linear DNA amplicons. Current consensus-based error-correction strategies — such as those relying on rolling-circle amplification or multiple-displacement amplification — require an initial circularisation step and are prone to generating chimeric molecules, complicating downstream analysis.\n\nQuadSeq addresses these limitations through a three-step synthesis protocol that converts a linear amplicon into a duplicated DNA duplex encoding two forward and two reverse strand sequences in a single molecule. Reading all four orientations in one nanopore pass allows consensus-based error correction without circularisation, potentially improving genotyping accuracy in complex or heterogeneous DNA samples.\n\nThe method is presented as a sequencing technology advance rather than a biological discovery. Its primary audience is researchers developing or applying long-read sequencing workflows, particularly those requiring accurate genotyping of repetitive regions, structural variants, or low-frequency variants where nanopore error rates currently limit sensitivity. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "nanopore-sequencing",
+        "long-read-sequencing",
+        "dna-synthesis",
+        "error-correction",
+        "sequencing-methods",
+        "genotyping",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "CASTLE method improves spatial domain detection in tissue by incorporating cell-type information",
+      "is_preprint": false,
+      "run_date": "2026-11-18",
+      "run_iso": "2026-11-18T16:08:30Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-11-17T14:00:00Z",
+        "novelty": 6
+      },
+      "slug": "castle-cell-type-aware-spatial-transcriptomics-clustering",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-17T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "CASTLE: Cell-type aware SpaTial domain detection via contrastive learning embedding",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012365"
+        }
+      ],
+      "standfirst": "Researchers at PLOS Genetics describe CASTLE, a contrastive learning approach that uses cell-type composition to sharpen the delineation of spatial domains in spatially resolved transcriptomics data.",
+      "summary": "Published in PLOS Genetics on 17 November 2026, a study by Lai Wei, Aoqi Xie, and Yuehua Cui introduces CASTLE (Cell-type Aware SpaTial domain detection via contrastive Learning Embedding), a computational method for identifying spatial domains in spatially resolved transcriptomics datasets.\n\nSpatially resolved transcriptomics technologies measure gene-expression profiles while preserving information about where cells are located within a tissue section. Identifying coherent spatial domains — regions of tissue with similar gene-expression programmes — is a central analytical task, but accurately delineating domain boundaries remains difficult, particularly where cell-type composition changes gradually rather than sharply.\n\nCASTLE addresses this by leveraging cell-type proportion estimates alongside gene-expression similarity within a graph neural network (GNN) framework, using contrastive learning to improve the separation of domain boundaries. The authors benchmark CASTLE against existing GNN-based approaches across multiple platforms and resolutions, reporting improved accuracy in domain boundary delineation.\n\nThe method is a computational tools paper of primary interest to researchers developing or applying spatial transcriptomics pipelines. It has no direct clinical application at present but is relevant to those studying the tumour microenvironment, neural tissue architecture, or developmental biology contexts where spatial organisation is biologically meaningful.",
+      "tags": [
+        "spatial-transcriptomics",
+        "graph-neural-network",
+        "contrastive-learning",
+        "tissue-architecture",
+        "computational-genomics",
+        "single-cell-sequencing",
+        "plos-genetics"
+      ]
     }
   ],
-  "last_run": "2026-11-17T16:41:34.279019+00:00",
+  "last_run": "2026-11-18T16:10:42.323485+00:00",
   "seen_urls": {
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012187": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012270": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012332": "2026-11-07T13:44:44.698496+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012346": "2026-11-12T15:46:09.466998+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012350": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352": "2026-11-06T14:47:34.173440+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012361": "2026-11-05T15:10:43.488004+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012362": "2026-11-04T15:05:09.942874+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012363": "2026-11-14T13:57:07.401002+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012365": "2026-11-18T16:10:42.323485+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012369": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012371": "2026-11-14T13:57:07.401002+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012372": "2026-11-13T15:06:08.250090+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012374": "2026-11-18T16:10:42.323485+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012377": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012379": "2026-11-11T14:55:34.525034+00:00",
-    "https://news.cancerresearchuk.org/2026/11/03/from-the-dance-floor-to-the-lab-one-researchers-connection-to-alcohol-decentring/": "2026-11-04T15:05:09.942874+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012380": "2026-11-18T16:10:42.323485+00:00",
     "https://news.cancerresearchuk.org/2026/11/04/scientists-uncover-the-hidden-rules-behind-glioblastoma-brain-tumours/": "2026-11-05T15:10:43.488004+00:00",
     "https://news.cancerresearchuk.org/2026/11/06/can-ai-co-scientists-help-answer-cancers-biggest-questions/": "2026-11-06T14:47:34.173440+00:00",
     "https://news.cancerresearchuk.org/2026/11/09/a-decade-of-the-crick-where-discovery-meets-hope/": "2026-11-09T17:08:17.639005+00:00",
@@ -35463,23 +35770,9 @@
     "https://news.cancerresearchuk.org/2026/11/16/capsule-sponge-recommended-for-thousands-more-people-on-the-nhs/": "2026-11-16T16:45:16.098298+00:00",
     "https://news.cancerresearchuk.org/2026/11/17/can-ai-help-spot-early-signs-of-lung-cancer-in-the-blood/": "2026-11-17T16:41:34.279019+00:00",
     "https://news.cancerresearchuk.org/2026/11/17/the-mad-thought-that-changed-millions-of-lives/": "2026-11-17T16:41:34.279019+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.28.753787v1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.28.753787v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.28.762411v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.30.762947v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.30.763041v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.30.763219v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.10.30.763243v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.02.763731v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.02.763738v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.02.763739v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.02.763795v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.02.763796v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.03.762080v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.763232v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.03.763566v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.763937v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.03.764014v1?rss=1": "2026-11-04T15:05:09.942874+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764067v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764243v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764251v1?rss=1": "2026-11-05T15:10:43.488004+00:00",
@@ -35522,21 +35815,24 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.14.766682v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.14.766719v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.15.766793v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.15.766795v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.16.766232v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.16.767017v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.16.767077v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.16.767078v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.16.767110v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.17.762423v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.17.766419v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.17.767292v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-statement-on-microsoft-outage/": "2026-11-13T15:06:08.250090+00:00",
-    "https://www.phgcambridge.org/blog/refreshing-the-rare-disease-therapies-regulatory-framework-in-the-uk/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261101010552.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261101010554.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261101010556.htm": "2026-11-05T15:10:43.488004+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261102202828.htm": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261102202829.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261103003157.htm": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261104003157.htm": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261104004909.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104005059.htm": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261104005226.htm": "2026-11-04T15:05:09.942874+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104012259.htm": "2026-11-07T13:44:44.698496+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104012308.htm": "2026-11-07T13:44:44.698496+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084009.htm": "2026-11-09T17:08:17.639005+00:00",
@@ -35560,34 +35856,17 @@
     "https://www.sciencedaily.com/releases/2026/11/261113232105.htm": "2026-11-15T14:30:19.052005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261114202130.htm": "2026-11-15T14:30:19.052005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261114202230.htm": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261114202233.htm": "2026-11-18T16:10:42.323485+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261115085535.htm": "2026-11-16T16:45:16.098298+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261115085550.htm": "2026-11-16T16:45:16.098298+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261115085552.htm": "2026-11-16T16:45:16.098298+00:00",
-    "https://www.statnews.com/2026/11/02/bird-flu-washington-state-resident-dies-infected-cattle-exposure/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/becker-muscular-dystrophy-servier-edgewise-sevasemten-fail/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/biotech-news-who-will-get-the-first-psychedelic-approved/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/child-dies-measles-new-york-first-death-30-years/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/electoral-map-reveals-red-state-blue-state-mortality-gap/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/health-news-first-us-bird-flu-death-after-cattle-exposure-2026/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/health-news-first-us-bird-flu-death-after-cattle-exposure-2026/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/mass-general-brigham-layoffs-ceo-letter-staff-anxiety/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/midterm-election-health-care-issues-dc-diagnosis-newsletter/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/midterm-elections-what-democratic-control-senate-means-healthcare/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/three-parent-ivf-safety-ethics-questions-mitochondrial-replacement-technology/": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/03/traumatic-eye-injuries-ophthalmologist-meditation-psychology/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/04/bernie-sanders-senate-help-key-role-pdufa-reauthorization/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.statnews.com/2026/11/04/biotech-news-ultragenyx-cuts-staff-after-another-study-fails/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/04/cvs-splits-pharmacy-from-insurance/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.statnews.com/2026/11/04/democratic-wins-medicare-for-all-momentum/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/04/former-madrigal-pharmaceuticals-executive-rezdiffra-lawsuit/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/04/health-news-midterm-elections-2026-democrats-control-congress/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/04/lame-duck-session-congress-health-policy-aca-subsidies-medicaid-funding/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/04/maha-movement-future-after-midterm-losses/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/04/massachusetts-marijuana-question-8-results-recreational-cannabis/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/04/midterm-health-policy-winners-losers-medicare-for-all-rfk-jr/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/2026/11/04/midterms-democrat-winners-doctors-scientists-medical-professionals/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
-    "https://www.statnews.com/2026/11/04/moving-to-europe-free-health-care-differences/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/2026/11/04/the-biotech-startups-skipping-ai-for-drug-discovery-ai-prognosis/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
     "https://www.statnews.com/2026/11/05/biotech-news-a-possible-comeback-for-failed-sickle-cell-gene-therapy/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/05/child-dies-measles-wisconsin-first-death-since-1990/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/05/china-biotech-restrictions-impact-rare-disease-investigator-initiated-trial/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
@@ -35712,16 +35991,26 @@
     "https://www.statnews.com/2026/11/16/sellas-blood-cancer-immunotherapy-succeeds-clinical-trial/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/2026/11/16/stephen-miller-chief-of-staff-boosts-power-of-kennedy-maha/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/2026/11/16/versant-lilly-put-100-million-behind-new-startup-aimed-at-solving-one-of-gene-therapys-thorniest-issues/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
+    "https://www.statnews.com/2026/11/17/biotech-news-flagship-opens-biotech-creation-uk-outpost/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
     "https://www.statnews.com/2026/11/17/capsida-gene-therapy-trial-death-follow-up-investigation/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/17/cms-ai-roadmap-and-news-from-hlth-health-tech/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
     "https://www.statnews.com/2026/11/17/democrats-new-health-policy-medicare-for-more-stephen-miller-embraces-maha/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/2026/11/17/health-news-nih-infectious-disease-unit-has-a-new-head-at-last/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/17/heidi-overton-fda-commissioner-nomination-vote-vaping-controversy/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.statnews.com/2026/11/17/heidi-overton-fda-commissioner-nomination-withdrawn/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.statnews.com/2026/11/17/hipaa-privacy-rule-update-aims-to-improve-patient-access-to-records/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
     "https://www.statnews.com/2026/11/17/hospital-signs-violence-health-care-workers-research-stigma/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/2026/11/17/new-startup-developing-novel-sickle-cell-anemia-infusion-no-gene-therapy/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/2026/11/17/rfk-jr-federal-funding-faith-based-recovery-groups/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/2026/11/17/sellas-blood-cancer-immunotherapy-succeeds-clinical-trial/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
     "https://www.statnews.com/2026/11/17/us-loses-measles-elimination-status-public-health-victory-lost/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/2026/11/17/zyn-melts-tobacco-firms-test-market-nicotine-pouch-alternatives/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/03/generic-hiv-prevention-shot-lonza-buying-facilities-in-us/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/04/cvs-plans-to-split-up-fda-inspections-in-india-and-china/?utm_campaign=rss": "2026-11-04T15:05:09.942874+00:00",
+    "https://www.statnews.com/2026/11/18/bill-cassidy-rejects-jim-oneill-lead-national-science-foundation/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.statnews.com/2026/11/18/biotech-news-fda-discloses-reasons-for-rejecting-summit-drug/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.statnews.com/2026/11/18/core-to-clinic-medical-education-radical-proposal/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.statnews.com/2026/11/18/health-news-what-redesigning-medical-school-might-look-like/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.statnews.com/2026/11/18/kennedy-impeachment-paul-knoepfler-says-time-is-now/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.statnews.com/2026/11/18/susan-collins-election-loss-impact-science-funding/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
     "https://www.statnews.com/pharmalot/2026/11/05/india-new-manufacturing-rules-china-clinical-trials/?utm_campaign=rss": "2026-11-05T15:10:43.488004+00:00",
     "https://www.statnews.com/pharmalot/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/pharmalot/2026/11/05/phrma-blamed-pbms-high-drug-prices-search-ads/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
@@ -35743,7 +36032,8 @@
     "https://www.statnews.com/pharmalot/2026/11/13/up-down-ladder-jobs-pharma-biotech-2/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
     "https://www.statnews.com/pharmalot/2026/11/16/glp1-use-covid-19-vaccines-return-on-investment/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/pharmalot/2026/11/16/semaglutide-obesity-glp1-access-medicines-low-income-countries/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/17/roche-breast-cancer-pill-obesity-drugs-in-children/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/17/roche-breast-cancer-pill-obesity-drugs-in-children/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/18/heidi-overton-fda-nomination-yanked-merck-cancer-drug-setback/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00"
   },
   "takedowns": []
 }
