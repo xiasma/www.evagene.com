@@ -35871,25 +35871,380 @@
         "crop-genomics",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Researchers publishing in the journal PLOS Genetics have found that a gene called GATA2 appears to play an important role in the development of the female reproductive tract during embryo growth. Until now, scientists believed this process happened automatically unless a specific hormone switched it off. The new study — which used mice with the GATA2 gene switched off, and also described two people with variants in this gene — suggests that GATA2 is needed to actively keep the reproductive tract developing correctly. When it is absent or altered, a condition called Müllerian duct agenesis can result. This condition, sometimes known as MRKH syndrome, means parts of the uterus and vagina do not develop as expected. The research is at an early stage and was conducted in mice and two individual cases, so a great deal more work is needed before it changes how clinicians approach diagnosis or care. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "GATA2 transcription factor found necessary for Müllerian duct maintenance in female development",
+      "is_preprint": false,
+      "run_date": "2026-11-20",
+      "run_iso": "2026-11-20T15:53:52Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-11-19T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "gata2-mullerian-duct-maintenance-female-development",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-19T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Müllerian duct maintenance is promoted by GATA2: Evidence from genetic mouse studies and two human cases of Müllerian duct agenesis",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012392"
+        }
+      ],
+      "standfirst": "A study in PLOS Genetics combining mouse genetics and two human cases shows that the transcription factor GATA2 plays an active role in maintaining the Müllerian ducts, challenging the assumption that female reproductive tract development requires no positive signalling.",
+      "summary": "The classical model of sexual differentiation holds that Müllerian duct retention in female embryos occurs passively — by default, in the absence of anti-Müllerian hormone (AMH). A peer-reviewed study published in PLOS Genetics by Shuai Jia, Margaret Woodward, and colleagues (including researchers at the Eunice Kennedy Shriver National Institute of Child Health and Human Development and the University of Wisconsin) challenges this view by demonstrating that active signalling is in fact required.\n\nUsing conditional knockout mouse models, the team deleted the transcription factor GATA2 specifically in Müllerian duct mesenchyme and observed selective regression of the duct — a phenotype that mirrors Müllerian duct agenesis (also known as Mayer-Rokitansky-Küster-Hauser syndrome, or MRKH syndrome). Two human cases with GATA2 variants and clinical Müllerian duct agenesis are described alongside the mouse data, adding translational context to the mechanistic findings.\n\nThe study identifies GATA2 — previously characterised for roles in haematopoiesis and lymphatic development — as a mesenchymal factor required to maintain ductal integrity during a critical developmental window. The authors propose this represents an active, positive-signalling requirement rather than a purely permissive process.\n\nThe findings are of interest to researchers in reproductive developmental biology, clinical geneticists evaluating MRKH syndrome, and genetic counsellors working with families affected by Müllerian anomalies. The human cases reported are small in number, and functional validation at scale remains a future research goal.",
+      "tags": [
+        "gata2",
+        "mullerian-duct-agenesis",
+        "mrkh-syndrome",
+        "reproductive-development",
+        "transcription-factors",
+        "developmental-genetics",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "GPCR–Gαq signalling identified as a driver of MEK inhibitor resistance in BRAF-mutant melanoma",
+      "is_preprint": false,
+      "run_date": "2026-11-20",
+      "run_iso": "2026-11-20T15:53:52Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-19T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "gpcr-gaq-mek-inhibitor-resistance-braf-melanoma",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-19T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "GPCR-Gαq signaling drives adaptive resistance to MEK inhibition in BRAF-mutant melanoma",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012373"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study using a C. elegans model of oncogenic BRAF signalling finds that GPCR–Gαq pathway activity sustains MAPK output and confers resistance to the MEK inhibitor trametinib, suggesting a potential co-targeting strategy.",
+      "summary": "Resistance to MEK inhibitors such as trametinib remains a significant obstacle in treating cancers driven by BRAFV600E mutations, including melanoma. A study published in PLOS Genetics by Jingyi Ke, Zi Wang, and colleagues at Tsinghua University describes a mechanism by which GPCR–Gαq signalling maintains MAPK pathway activity even in the presence of MEK inhibition.\n\nThe researchers developed a C. elegans model carrying a lin-45(V627E) allele — the nematode equivalent of human BRAFV600E — and used it to perform transcriptomic analysis under high-dose trametinib treatment. They identified increased expression of egl-30, a Gαq homologue, in resistant animals. Genetic and pharmacological suppression of this pathway re-sensitised animals to trametinib, and the team report that the mechanism appears conserved in human melanoma cell lines.\n\nThe use of C. elegans as a tractable in vivo platform for dissecting oncogenic signalling resistance is itself methodologically noteworthy: the relatively uncharacterised genetic background of the worm allows cleaner separation of pathway contributions than mammalian cell lines often permit.\n\nThe findings are at a preclinical stage and require validation in mammalian cancer models and ultimately in clinical material. Oncologists and researchers working on resistance mechanisms in BRAF-mutant tumours, and educators teaching cancer signalling, are the primary audience for this work.",
+      "tags": [
+        "braf",
+        "mek-inhibitor-resistance",
+        "trametinib",
+        "melanoma",
+        "gpcr-signalling",
+        "mapk-pathway",
+        "c-elegans",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "New computational method resolves Lp(a) genetic architecture across ancestries using KIV-2 repeat genotyping",
+      "is_preprint": true,
+      "run_date": "2026-11-20",
+      "run_iso": "2026-11-20T15:53:52Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-20T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "lpa-kringle-repeat-genetic-architecture-ancestry",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-20T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The genetic architecture of lipoprotein(a): simplicity, complexity, and mutability",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767202v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that newly developed tools for accurately measuring the size-polymorphic KIV-2 repeat in LPA clarify how genetic variants determine lipoprotein(a) levels, including in populations of non-European ancestry where this has previously been poorly characterised.",
+      "summary": "Lipoprotein(a) — Lp(a) — is a genetically determined cardiovascular risk factor whose concentration is controlled predominantly (more than 80%) by variation at the LPA locus, particularly through copy-number variation in the kringle IV type 2 (KIV-2) repeat region. Because KIV-2 is a large, size-polymorphic tandem repeat, it has historically been difficult to genotype accurately from short-read whole-genome sequencing data, leaving gaps in understanding — especially in individuals of non-European ancestry.\n\nA preprint posted to bioRxiv describes new computational methods for accurately genotyping KIV-2 variation from population-scale whole-genome sequencing data. The authors apply these tools to large cohorts and report that the relationship between KIV-2 copy number, other LPA variants, and circulating Lp(a) concentration is more nuanced than previously appreciated. They also identify signals at other loci that modify Lp(a) levels in ways that differ across ancestral populations.\n\nThis work builds on a research context already covered by Genetic Current: a previous preprint used naturally occurring LPA knockouts in a Pakistani cohort to assess the reproductive safety of Lp(a) lowering (published 7 November 2026), and a pelacarsen clinical trial report was covered on 8 November 2026. The current preprint addresses the upstream question of how Lp(a) genetics can be measured accurately in diverse populations — a methodological advance with implications for population genomics and drug target validation research.\n\nThis is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "lpa",
+        "lipoprotein-a",
+        "kiv-2-repeat",
+        "population-genomics",
+        "cardiovascular-disease",
+        "diverse-populations",
+        "computational-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "genealogists"
+      ],
+      "for_patients": null,
+      "headline": "Preprint maps genetic and environmental drivers of blood chimerism in common marmosets",
+      "is_preprint": true,
+      "run_date": "2026-11-20",
+      "run_iso": "2026-11-20T15:53:52Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 6,
+        "newest_iso": "2026-11-20T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "marmoset-hematopoietic-chimerism-genetics-environment",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-20T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "The genetic and environmental basis of hematopoietic chimerism in marmosets",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767351v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using pedigree records and amplicon sequencing across 145 marmosets finds that litter size is a major determinant of haematopoietic chimerism, and links chimerism to lifespan — findings with broader relevance to stem cell biology and evolutionary genetics.",
+      "summary": "Common marmosets (Callithrix jacchus) have an unusually high twinning rate and exhibit a remarkable biological phenomenon: stem cells migrate between fetuses sharing a placenta in utero, so that each individual is born a genetic chimera — carrying a mixture of its own cells and those derived from a twin or other litter mate. This natural model of chimerism is of interest to researchers in stem cell biology, haematology, and evolutionary genetics.\n\nA preprint posted to bioRxiv describes the most systematic characterisation of this chimerism to date, using amplicon sequencing to map chimerism levels across 145 marmosets and integrating these data with pedigree records and clinical histories maintained at a research colony. The authors show that chimerism is highest in tissues derived from lateral mesoderm — particularly haematopoietic (blood-forming) cells — consistent with known biology. By linking pedigree structure to chimerism estimates, they identify litter size as the strongest single determinant of chimerism levels.\n\nStrikingly, the preprint also reports an association between degree of chimerism and lifespan, though the direction and mechanisms of this relationship require further investigation. The pedigree-based analytical approach demonstrates the utility of combining deep genealogical records with molecular data, a methodological angle of relevance to researchers using pedigree modelling platforms.\n\nThis is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "chimerism",
+        "marmoset",
+        "haematopoiesis",
+        "stem-cells",
+        "pedigree-analysis",
+        "evolutionary-genetics",
+        "litter-size",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint finds ribosomal RNA spacer sequences share similarity with herpesviruses and respond to infection",
+      "is_preprint": true,
+      "run_date": "2026-11-20",
+      "run_iso": "2026-11-20T15:53:52Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-19T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "ribosomal-rna-spacers-antiviral-herpesvirus",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-19T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Eukaryotic 45S ribosomal RNA spacers encode an ancient layer of antiviral response",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767335v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers report in a bioRxiv preprint that internal transcribed spacers — sequences discarded during ribosome assembly — show unexpectedly widespread similarity to DNA viruses and are remodelled during herpesvirus infection, suggesting a previously unrecognised layer of antiviral response.",
+      "summary": "Internal transcribed spacers (ITSs) are non-coding RNA sequences produced during ribosome biogenesis in eukaryotes. They are transcribed as part of the 45S ribosomal RNA precursor and then excised and degraded during ribosome maturation — widely regarded as functionless by-products of the production process.\n\nA preprint posted to bioRxiv challenges this view by presenting comparative genomic evidence for extensive sequence similarity between vertebrate ITSs and herpesviruses, as well as between eukaryotic ITSs and DNA viruses more broadly. The authors show that during herpesvirus infections, ITS-derived transcripts undergo virus-specific remodelling that is largely independent of changes to mature ribosomal RNA levels — implying the response is not simply a consequence of altered ribosome production.\n\nThe authors propose that ITS sequences may represent an evolutionarily ancient layer of host antiviral defence: their similarity to viral sequences could allow them to act as decoys or to participate in antiviral RNA-based surveillance. The hypothesis is novel and the mechanistic details remain to be established.\n\nThis is a preprint and has not undergone peer review. The findings, if validated, would be of significant interest to researchers in evolutionary genomics, RNA biology, and virology, as well as to educators and advanced students exploring the functions of non-coding RNA.",
+      "tags": [
+        "ribosomal-rna",
+        "internal-transcribed-spacers",
+        "antiviral-response",
+        "herpesvirus",
+        "evolutionary-genomics",
+        "non-coding-rna",
+        "rna-biology",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint reveals continuous chromosomal instability driving acral melanoma evolution",
+      "is_preprint": true,
+      "run_date": "2026-11-20",
+      "run_iso": "2026-11-20T15:53:52Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-19T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "acral-melanoma-continuous-karyotype-evolution",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-19T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Continuous karyotypic and cryptic structural fluctuations drive acral melanoma evolution",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767656v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint using single-cell approaches finds that acral melanoma — a subtype arising on palms, soles, and nail beds — undergoes ongoing karyotypic fluctuation rather than the punctuated rearrangement events assumed by classical cancer evolution models.",
+      "summary": "The standard model of cancer genome evolution proposes that catastrophic chromosomal rearrangements occur in bursts and are followed by clonal expansion of a stabilised genome. Bulk genomic sequencing, the dominant approach in cancer genetics for the past two decades, has largely supported this view — but its resolution is limited when it comes to detecting structural heterogeneity within tumour subpopulations.\n\nA preprint posted to bioRxiv examines acral melanoma — a subtype of melanoma occurring on acral surfaces (palms, soles, and nail beds) that is disproportionately prevalent in people of non-European ancestry and is associated with a poor prognosis — using single-cell genomic approaches capable of resolving tumour-to-tumour-cell variation. The authors report that acral melanoma genomes undergo continuous karyotypic fluctuations and cryptic structural rearrangements throughout tumour evolution, rather than stabilising after an initial catastrophic event.\n\nThis pattern of ongoing chromosomal instability has implications for understanding how acral melanomas develop resistance to treatment and why they are difficult to characterise by standard bulk sequencing. The authors' methodology — applying single-cell resolution to structural genome variation — represents a technical approach of interest to cancer genomics researchers more broadly.\n\nThis is a preprint and has not yet been peer-reviewed. Oncologists and researchers with an interest in melanoma genomics and chromosomal instability are the primary audience.",
+      "tags": [
+        "acral-melanoma",
+        "chromosomal-instability",
+        "cancer-evolution",
+        "single-cell-sequencing",
+        "structural-variants",
+        "karyotype",
+        "cancer-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "CRISPR knockin isolates fitness costs of dieldrin-resistance mutation in malaria mosquito Anopheles funestus",
+      "is_preprint": true,
+      "run_date": "2026-11-20",
+      "run_iso": "2026-11-20T15:53:52Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-19T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "insecticide-resistance-rdl-anopheles-crispr-fitness",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-19T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Functional regeneration of the Rdl-A296S mutation in Anopheles funestus decouples insecticide resistance from genetic background and isolates its life-history costs",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767793v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint uses marker-less CRISPR/Cas9 to introduce the A296S resistance-to-dieldrin mutation in isolation into a susceptible Anopheles funestus background, separating the mutation's effects from the confounding genetic context of field populations.",
+      "summary": "Understanding why insecticide resistance mutations persist in wild mosquito populations long after the relevant insecticide has been withdrawn is a central question in vector genetics and public health entomology. The A296S variant in the resistance-to-dieldrin (Rdl) gene of Anopheles funestus — the mosquito species responsible for a significant fraction of malaria transmission in sub-Saharan Africa — has remained at high frequency in African populations even though the insecticide dieldrin was withdrawn decades ago.\n\nA preprint posted to bioRxiv reports the first successful germline transformation of Anopheles funestus using a marker-less CRISPR/Cas9 homology-directed repair strategy — itself a technical advance, as this species has historically resisted such approaches. The authors introduced the A296S mutation into an insecticide-susceptible laboratory background, allowing them to characterise its effects on insecticide resistance and life-history traits (such as development time and survival) independently of the polygenic and metabolic context present in field-caught mosquitoes.\n\nBy decoupling the resistance mutation from its natural genetic background, the study provides cleaner estimates of the fitness costs and benefits the mutation confers — information relevant to predicting resistance evolution and informing resistance management strategies. The authors report that A296S confers measurable resistance in isolation, with specific life-history costs that can now be characterised without the confounding effects of co-selected loci.\n\nThis is a preprint and has not yet been peer-reviewed. The work is of interest to vector biologists, evolutionary geneticists, and researchers in global health entomology.",
+      "tags": [
+        "insecticide-resistance",
+        "anopheles-funestus",
+        "rdl-gene",
+        "crispr",
+        "malaria-vector",
+        "fitness-costs",
+        "vector-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint introduces Bayesian framework for multi-trait allele pyramiding in crop breeding",
+      "is_preprint": true,
+      "run_date": "2026-11-20",
+      "run_iso": "2026-11-20T15:53:52Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-19T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "bpea-pleiotropy-epistasis-allele-pyramiding-crops",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-19T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "BPEA integrates pleiotropy and epistasis to guide allele pyramiding for multi-trait crop improvement",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767717v1?rss=1"
+        }
+      ],
+      "standfirst": "Researchers describe BPEA, a Bayesian method that jointly models pleiotropy and epistasis to rank allele combinations meeting multiple breeding objectives simultaneously — addressing a persistent challenge in quantitative crop genetics.",
+      "summary": "Improving multiple traits simultaneously — such as yield, disease resistance, and drought tolerance — is a central goal of modern crop breeding. Achieving this requires identifying allele combinations that do not conflict through pleiotropic or epistatic interactions, a problem that existing computational approaches have handled only partially.\n\nA preprint posted to bioRxiv describes BPEA (Bayesian Pleiotropy and Epistasis Analysis), a Bayesian computational framework designed to jointly infer pleiotropic and epistatic effects among quantitative trait loci (QTL), estimate the probability that a given allele combination improves multiple traits simultaneously, and rank combinations for use in marker-assisted selection or allele-pyramiding programmes.\n\nThe framework uses linkage-disequilibrium-guided QTL interval identification and estimates a quantity the authors term the posterior probability of simultaneous improvement (PPSI) — a measure that integrates uncertainty about both pleiotropy and epistasis when evaluating candidate allele stacks. The authors demonstrate the method using simulated and real plant breeding data.\n\nPlant breeders, quantitative geneticists, and researchers in agricultural genomics are the primary audience. The method may also be of pedagogical interest to educators teaching Bayesian approaches in quantitative genetics. This is a preprint and has not yet been peer-reviewed.",
+      "tags": [
+        "allele-pyramiding",
+        "pleiotropy",
+        "epistasis",
+        "bayesian-statistics",
+        "qtl",
+        "crop-genomics",
+        "plant-breeding",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-19T16:17:25.119383+00:00",
+  "last_run": "2026-11-20T15:56:17.592598+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012270": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012332": "2026-11-07T13:44:44.698496+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012346": "2026-11-12T15:46:09.466998+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012350": "2026-11-17T16:41:34.279019+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012352": "2026-11-06T14:47:34.173440+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012363": "2026-11-14T13:57:07.401002+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012365": "2026-11-18T16:10:42.323485+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012369": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012371": "2026-11-14T13:57:07.401002+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012372": "2026-11-13T15:06:08.250090+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012373": "2026-11-20T15:56:17.592598+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012374": "2026-11-18T16:10:42.323485+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012377": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012379": "2026-11-11T14:55:34.525034+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012380": "2026-11-18T16:10:42.323485+00:00",
-    "https://news.cancerresearchuk.org/2026/11/06/can-ai-co-scientists-help-answer-cancers-biggest-questions/": "2026-11-06T14:47:34.173440+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012392": "2026-11-20T15:56:17.592598+00:00",
     "https://news.cancerresearchuk.org/2026/11/09/a-decade-of-the-crick-where-discovery-meets-hope/": "2026-11-09T17:08:17.639005+00:00",
     "https://news.cancerresearchuk.org/2026/11/09/research-is-beautiful-autumns-best-of-the-rest/": "2026-11-09T17:08:17.639005+00:00",
     "https://news.cancerresearchuk.org/2026/11/09/the-francis-crick-institute-a-decade-on-already-its-a-life-well-lived/": "2026-11-09T17:08:17.639005+00:00",
@@ -35907,8 +36262,6 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764067v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764303v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.763758v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.05.764420v1?rss=1": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.05.764487v1?rss=1": "2026-11-06T14:47:34.173440+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764684v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764726v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764746v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
@@ -35951,11 +36304,17 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.16.767078v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.16.767096v1?rss=1": "2026-11-19T16:17:25.119383+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.16.767110v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.16.767202v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.17.762423v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.17.766419v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.17.767052v1?rss=1": "2026-11-19T16:17:25.119383+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.17.767292v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
-    "https://www.england.nhs.uk/2026/11/nhs-diagnoses-one-thousand-cancers-a-day/": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.17.767335v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.18.767656v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.18.767712v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.18.767717v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.19.767351v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.19.767793v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-statement-on-microsoft-outage/": "2026-11-13T15:06:08.250090+00:00",
@@ -35965,9 +36324,7 @@
     "https://www.sciencedaily.com/releases/2026/11/261104084015.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084021.htm": "2026-11-11T14:55:34.525034+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084024.htm": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261105081000.htm": "2026-11-06T14:47:34.173440+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105083622.htm": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261105224542.htm": "2026-11-06T14:47:34.173440+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261106174528.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261106174543.htm": "2026-11-09T17:08:17.639005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261106174545.htm": "2026-11-11T14:55:34.525034+00:00",
@@ -35991,30 +36348,20 @@
     "https://www.sciencedaily.com/releases/2026/11/261118065512.htm": "2026-11-19T16:17:25.119383+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261118065521.htm": "2026-11-19T16:17:25.119383+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261118073749.htm": "2026-11-19T16:17:25.119383+00:00",
-    "https://www.statnews.com/2026/11/05/biotech-news-a-possible-comeback-for-failed-sickle-cell-gene-therapy/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/2026/11/05/child-dies-measles-wisconsin-first-death-since-1990/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/2026/11/05/david-sabatini-defamation-verdict-reverberates-mit-scientific-community/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/2026/11/05/end-of-maha-2026-midterms-losses-democrats-aoc-cory-booker/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/2026/11/05/midterm-election-health-care-takeaways-maha-rfk-medicare-for-all/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/2026/11/05/no-surprises-act-arbitrators-idr-ipro-network-medical-review-lose-contracts/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/2026/11/05/state-health-ballot-measures-abortion-marijuana-transgender-issues/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261118073918.htm": "2026-11-20T15:56:17.592598+00:00",
     "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/health-news-new-evidence-for-ancient-cannabis-use/": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/new-medicare-overhaul-of-remote-patient-monitoring-hospital-pushback/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk/": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/pre-clinical-alzheimers-disease-biomarkers-tests-mental-health/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/06/readout-loud-podcast-midterm-elections-fertility-ivf-mrt-therapy/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/readout-loud-podcast-midterm-elections-fertility-ivf-mrt-therapy/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/what-is-kratom-addiction-risks-explained-7-oh/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/women-medical-records-artificial-intelligence-diagnosis-mental-health-pain/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
     "https://www.statnews.com/2026/11/07/aha-2026-conference-novo-nordisk-zeus-trial-ziltivekimab-results/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/07/aha-conference-news-novartis-lp-a-pelacarsen-heart-disease-trial-mystery/": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/07/bio-sues-to-block-globe-drug-pricing-model/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
@@ -36130,16 +36477,25 @@
     "https://www.statnews.com/2026/11/18/kennedy-impeachment-paul-knoepfler-says-time-is-now/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
     "https://www.statnews.com/2026/11/18/susan-collins-election-loss-impact-science-funding/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
     "https://www.statnews.com/2026/11/18/uspstf-task-force-after-rfk-jr-shakeup-to-meet/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
+    "https://www.statnews.com/2026/11/19/biotech-news-lawmakers-want-us-biotech-to-outcompete-china/": "2026-11-20T15:56:17.592598+00:00",
     "https://www.statnews.com/2026/11/19/deprescribing-statins-study-stream-trial-aha-questions/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/epic-defends-competitive-practices-promises-ai-access-health-tech/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/erasca-kras-targeted-treatment-new-data-pancreatic-cancer/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/health-news-sanders-medicare-for-all-plan-accrues-more-support-in-congress/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
+    "https://www.statnews.com/2026/11/19/hims-noom-enter-peptide-market-mainstream-products-health-risks/": "2026-11-20T15:56:17.592598+00:00",
     "https://www.statnews.com/2026/11/19/maha-pac-how-it-spent-money-insiders-candidates-nonprofit/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
+    "https://www.statnews.com/2026/11/19/maha-pac-midterm-election-spending-fda-questions-after-heidi-overton/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/19/malaria-monoclonal-antibody-l9ls-vaccine-r21-infant-study-mali/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/19/measles-elimination-status-congress-should-prioritize-restoration/": "2026-11-20T15:56:17.592598+00:00",
     "https://www.statnews.com/2026/11/19/merck-isomorphic-labs-partner-to-develop-oncology-drug-candidates/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/national-academies-report-proposes-faster-research-retractions/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/05/novartis-sma-zolgensma-tumor-case-reports/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/05/phrma-blamed-pbms-high-drug-prices-search-ads/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/06/novartis-gene-therapy-tumors-found-faster-uk-drug-reviews/?utm_campaign=rss": "2026-11-06T14:47:34.173440+00:00",
+    "https://www.statnews.com/2026/11/20/biotech-news-early-results-for-alterome-kras-drug-arrive/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/concussion-exercise-dark-room-leddy-robert-perske-cardiology/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/health-news-researchers-explore-possibility-of-cte-blood-test/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/ian-burkhart-how-brain-implant-trials-can-serve-patients-better/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/new-fda-commissioner-summit-lung-cancer-drug-readout-loud-podcast/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/unitedhealth-cms-medicare-advantage-lawsuit-star-rating/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/women-surgeon-shortage-global-cosecsa-lancet-commission-mukagaju-africa-making-of-a-surgeon/": "2026-11-20T15:56:17.592598+00:00",
     "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/pharmalot/2026/11/09/novartis-abandons-heart-drug-bio-fighting-trump-program/": "2026-11-10T15:25:20.847223+00:00",
@@ -36160,7 +36516,10 @@
     "https://www.statnews.com/pharmalot/2026/11/17/roche-breast-cancer-pill-obesity-drugs-in-children/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/pharmalot/2026/11/18/heidi-overton-fda-nomination-yanked-merck-cancer-drug-setback/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
     "https://www.statnews.com/pharmalot/2026/11/18/nih-to-move-last-group-of-research-chimps-to-sanctuary/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/19/merck-isomorphic-ai-deal-china-pharmaceutical-supply-chain/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/19/china-pharma-biotech-clinical-trials-security-risk-patents-drug-development/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/19/merck-isomorphic-ai-deal-china-pharmaceutical-supply-chain/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/20/sanofi-eyeing-insmed-ai-speeding-drug-development/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/20/up-and-down-the-ladder-latest-comings-and-goings-jobs-2/": "2026-11-20T15:56:17.592598+00:00"
   },
   "takedowns": []
 }
