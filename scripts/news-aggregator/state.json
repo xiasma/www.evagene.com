@@ -36226,12 +36226,188 @@
         "plant-breeding",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "students",
+        "patients"
+      ],
+      "for_patients": "KRAS is a gene that, when mutated, can drive the growth of several types of cancer, including cancers of the pancreas, lung, and bowel. Some drugs that block specific KRAS mutations already exist, but they only work against one particular change in the gene. A company called Alterome Therapeutics has shared early results from a clinical trial of a drug designed to block a wider range of KRAS mutations at once. The results are very early — only a small number of patients have been treated so far — and the data have not yet been reviewed and published in a scientific journal. Researchers and doctors will need much more information before knowing how effective or safe this approach might be. This is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Early Phase 1 data published for Alterome's KRAS multi-mutation inhibitor",
+      "is_preprint": false,
+      "run_date": "2026-11-21",
+      "run_iso": "2026-11-21T15:03:46Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-11-20T14:01:41Z",
+        "novelty": 8
+      },
+      "slug": "alterome-kras-multiselective-inhibitor-phase-1-results",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": "https://www.statnews.com/wp-content/uploads/2025/08/AdobeStock_170266737-1024x576.jpeg",
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-20T14:01:41Z",
+          "publisher": "Stat News",
+          "title": "STAT+: Early results for Alterome's KRAS drug for pancreas, lung and colon cancer arrive",
+          "url": "https://www.statnews.com/2026/11/20/biotech-news-early-results-for-alterome-kras-drug-arrive/?utm_campaign=rss"
+        }
+      ],
+      "standfirst": "Alterome Therapeutics has presented preliminary Phase 1 results for a small-molecule drug designed to inhibit a range of KRAS mutations found in pancreatic, lung, and colorectal cancers.",
+      "summary": "Alterome Therapeutics has released preliminary Phase 1 clinical results for its investigational KRAS inhibitor, which is designed to target multiple KRAS variants simultaneously rather than a single mutation. KRAS mutations are among the most common oncogenic drivers in solid tumours, found in roughly 90 per cent of pancreatic ductal adenocarcinomas, approximately 30 per cent of lung adenocarcinomas, and around 40 per cent of colorectal cancers. Earlier approved KRAS inhibitors — sotorasib and adagrasib — target only the KRAS G12C variant, leaving the majority of KRAS-mutant cancers without a direct targeted option.\n\nAlterome's candidate is described by the company as 'selectively' targeting a broader range of mutations. The Phase 1 readout was reported by STAT News; full data including dosing, response rates, and safety profile had not been published in a peer-reviewed journal at the time of this summary. As with all early-phase oncology trials, results at this stage reflect a small number of patients and are exploratory rather than definitive.\n\nThe development of inhibitors that can address multiple KRAS variants is an active area of translational research interest given the prevalence of KRAS-driven cancers and the unmet need in KRAS G12D, G12V, and other non-G12C contexts. Oncologists and researchers will await peer-reviewed publication and further dose-escalation data before the clinical significance of these preliminary findings can be assessed.",
+      "tags": [
+        "kras",
+        "pancreatic-cancer",
+        "lung-cancer",
+        "colorectal-cancer",
+        "targeted-therapy",
+        "phase-1",
+        "clinical-trial-news",
+        "oncology"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Comprehensive visible-mutant toolkit reported for Caenorhabditis briggsae",
+      "is_preprint": true,
+      "run_date": "2026-11-21",
+      "run_iso": "2026-11-21T15:03:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-20T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "caenorhabditis-briggsae-visible-mutant-genetic-toolkit",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-20T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "A genetic toolkit of visible mutants for Caenorhabditis briggsae",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767928v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint describes 183 characterised mutants spanning 11 phenotypic classes in C. briggsae, providing the most extensive genetic reference collection to date for this comparative-genetics model organism.",
+      "summary": "Researchers have produced and characterised 183 mutants of Caenorhabditis briggsae, a nematode widely used alongside the better-known C. elegans for comparative genetic studies. The preprint, posted to bioRxiv, reports mutants belonging to 11 distinct phenotypic classes — covering traits such as body shape, movement, egg-laying, and growth — almost all recovered from EMS (ethyl methanesulphonate) chemical mutagenesis screens of the reference strain AF16.\n\nGenetic analysis in C. briggsae has historically been hampered because most previously reported mutants existed only as names and linkage-group assignments, with little or no underlying experimental data to support their use in crosses or genetic mapping. The new collection formally defines 121 mutations at 55 loci, substantially improving the resources available for comparative functional genetics between the two Caenorhabditis species.\n\nVisible-phenotype mutants serve as essential markers in classical genetics: they enable researchers to track chromosomal regions through crosses, map new mutations, and design co-CRISPR selection strategies. By standardising and experimentally validating this toolkit, the authors provide a resource intended to lower the barrier to genetic work in C. briggsae and facilitate comparisons with the more extensively annotated C. elegans genome. The work has not yet been peer-reviewed.",
+      "tags": [
+        "c-briggsae",
+        "c-elegans",
+        "model-organism",
+        "forward-genetics",
+        "ems-mutagenesis",
+        "comparative-genetics",
+        "genetic-mapping",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "TFEB homologue HLH-30 shows age-dependent transcriptome effects in C. elegans",
+      "is_preprint": true,
+      "run_date": "2026-11-21",
+      "run_iso": "2026-11-21T15:03:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-20T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "hlh-30-tfeb-age-dependent-transcriptome-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-20T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Caenorhabditis elegans HLH-30/TFEB has age-dependent effects on the transcriptome and is required for normal progeny number and larval survival under basal growth conditions",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767989v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that the transcription factor HLH-30 — the C. elegans orthologue of human TFEB — regulates lysosomal gene expression and influences progeny number and larval survival under normal, non-stressed growth conditions.",
+      "summary": "TFEB is a transcription factor best known for its role in activating autophagy and lysosomal biogenesis during cellular stress, particularly nutrient deprivation. Its C. elegans orthologue, HLH-30, has been studied in similar contexts. A new preprint posted to bioRxiv extends this picture by examining whether HLH-30 also shapes the transcriptome under routine, unstressed physiological conditions — and whether its effects change with the animal's age.\n\nThe authors report that HLH-30 has age-dependent effects on gene expression across the C. elegans transcriptome, promoting lysosomal gene expression more broadly during early adulthood than in later life stages. The study also finds that animals lacking HLH-30 show reduced progeny number and decreased larval survival even under standard laboratory growth conditions, suggesting functions for this transcription factor that extend well beyond its established stress-response roles.\n\nThis work builds on the same group's earlier finding that HLH-30 regulates endo-lysosomal capacity in mature neurons during early adulthood. The broader transcriptomic analysis presented here suggests that lysosomal pathway regulation by TFEB-family proteins under basal conditions may be more pervasive than previously appreciated. Because TFEB is a therapeutic target of interest in lysosomal storage disorders and neurodegeneration, understanding its baseline functions in tractable model systems is of interest to researchers in those fields. The preprint has not been peer-reviewed.",
+      "tags": [
+        "tfeb",
+        "hlh-30",
+        "autophagy",
+        "lysosomal-biogenesis",
+        "c-elegans",
+        "transcriptomics",
+        "ageing",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Elongating RNA polymerase II phosphorylation shown to licence epigenetic silencing",
+      "is_preprint": true,
+      "run_date": "2026-11-21",
+      "run_iso": "2026-11-21T15:03:46Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-20T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "rnapii-ser2p-epigenetic-silencing-initiation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-20T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Intragenic redistribution of RNA polymerase II licenses epigenetic silencing",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.766859v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports that RNA polymerase II phosphorylated at serine 2 acts as an instructive signal that couples active transcription to the initiation of stable epigenetic gene silencing during developmental transitions.",
+      "summary": "Co-transcriptional regulation of chromatin is widely understood to reinforce active gene expression, but how actively transcribed genes can transition into stable epigenetic silencing — as they must during development and in response to environmental cues — has remained poorly understood. A new preprint posted to bioRxiv proposes a mechanistic link between the transcription machinery itself and the onset of silencing.\n\nThe authors show that RNA polymerase II phosphorylated at serine 2 (RNAPII-Ser2P) — the elongating, actively transcribing form of the polymerase — acts as an instructive signal for epigenetic silencing initiation. Rather than simply being removed to allow silencing to occur, RNAPII-Ser2P appears to actively position and recruit components of the silencing machinery. The work frames the elongating polymerase as a dual-role factor: it drives expression while simultaneously licensing the capacity for future silencing at the same locus.\n\nThis finding, if confirmed by peer review and independent replication, would add a mechanistic dimension to the understanding of how gene-expression states are switched during development. The intragenic redistribution of RNAPII described in the preprint's title refers to changes in the polymerase's distribution along the gene body that accompany this transition. Researchers studying chromatin biology, developmental gene regulation, and epigenetic inheritance will find the proposed framework of interest. The preprint has not yet been peer-reviewed.",
+      "tags": [
+        "rna-polymerase-ii",
+        "epigenetic-silencing",
+        "chromatin",
+        "transcription",
+        "gene-regulation",
+        "developmental-genetics",
+        "co-transcriptional",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-20T15:56:17.592598+00:00",
+  "last_run": "2026-11-21T15:05:19.585382+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012270": "2026-11-17T16:41:34.279019+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012332": "2026-11-07T13:44:44.698496+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012346": "2026-11-12T15:46:09.466998+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012350": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012363": "2026-11-14T13:57:07.401002+00:00",
@@ -36261,10 +36437,7 @@
     "https://news.cancerresearchuk.org/2026/11/19/scottishpower-strengthens-support-for-pioneering-lung-cancer-research/": "2026-11-19T16:17:25.119383+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764067v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.04.764303v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.05.763758v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.05.764684v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.05.764726v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.05.764746v1?rss=1": "2026-11-07T13:44:44.698496+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.763794v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764618v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.764806v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
@@ -36313,13 +36486,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.18.767656v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.18.767712v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.18.767717v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.19.766859v1?rss=1": "2026-11-21T15:05:19.585382+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767351v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767793v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.19.767928v1?rss=1": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.19.767989v1?rss=1": "2026-11-21T15:05:19.585382+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-statement-on-microsoft-outage/": "2026-11-13T15:06:08.250090+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261104012259.htm": "2026-11-07T13:44:44.698496+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261104012308.htm": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.england.nhs.uk/2026/11/nhs-urges-over-40s-to-know-their-numbers-amid-alarming-rise-in-high-blood-pressure-emergencies/": "2026-11-21T15:05:19.585382+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084009.htm": "2026-11-09T17:08:17.639005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084015.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084021.htm": "2026-11-11T14:55:34.525034+00:00",
@@ -36349,18 +36524,13 @@
     "https://www.sciencedaily.com/releases/2026/11/261118065521.htm": "2026-11-19T16:17:25.119383+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261118073749.htm": "2026-11-19T16:17:25.119383+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261118073918.htm": "2026-11-20T15:56:17.592598+00:00",
-    "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/health-news-new-evidence-for-ancient-cannabis-use/": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk/": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/readout-loud-podcast-midterm-elections-fertility-ivf-mrt-therapy/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/readout-loud-podcast-midterm-elections-fertility-ivf-mrt-therapy/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/": "2026-11-07T13:44:44.698496+00:00",
     "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/07/aha-2026-conference-novo-nordisk-zeus-trial-ziltivekimab-results/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/2026/11/07/aha-conference-news-novartis-lp-a-pelacarsen-heart-disease-trial-mystery/": "2026-11-08T14:03:18.796758+00:00",
@@ -36478,25 +36648,41 @@
     "https://www.statnews.com/2026/11/18/susan-collins-election-loss-impact-science-funding/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
     "https://www.statnews.com/2026/11/18/uspstf-task-force-after-rfk-jr-shakeup-to-meet/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/biotech-news-lawmakers-want-us-biotech-to-outcompete-china/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/19/biotech-news-lawmakers-want-us-biotech-to-outcompete-china/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/19/deprescribing-statins-study-stream-trial-aha-questions/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/epic-defends-competitive-practices-promises-ai-access-health-tech/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/erasca-kras-targeted-treatment-new-data-pancreatic-cancer/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/health-news-sanders-medicare-for-all-plan-accrues-more-support-in-congress/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/hims-noom-enter-peptide-market-mainstream-products-health-risks/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/19/hims-noom-enter-peptide-market-mainstream-products-health-risks/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/19/maha-pac-how-it-spent-money-insiders-candidates-nonprofit/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/maha-pac-midterm-election-spending-fda-questions-after-heidi-overton/": "2026-11-20T15:56:17.592598+00:00",
     "https://www.statnews.com/2026/11/19/malaria-monoclonal-antibody-l9ls-vaccine-r21-infant-study-mali/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/19/malaria-monoclonal-antibody-l9ls-vaccine-r21-infant-study-mali/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/19/measles-elimination-status-congress-should-prioritize-restoration/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/19/measles-elimination-status-congress-should-prioritize-restoration/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/19/merck-isomorphic-labs-partner-to-develop-oncology-drug-candidates/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/19/national-academies-report-proposes-faster-research-retractions/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/2026/11/20/biotech-news-early-results-for-alterome-kras-drug-arrive/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/biotech-news-early-results-for-alterome-kras-drug-arrive/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/20/concussion-exercise-dark-room-leddy-robert-perske-cardiology/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/concussion-exercise-dark-room-leddy-robert-perske-cardiology/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.statnews.com/2026/11/20/fda-rejects-capricor-duchenne-therapy/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/20/health-news-researchers-explore-possibility-of-cte-blood-test/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/health-news-researchers-explore-possibility-of-cte-blood-test/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/20/ian-burkhart-how-brain-implant-trials-can-serve-patients-better/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/ian-burkhart-how-brain-implant-trials-can-serve-patients-better/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.statnews.com/2026/11/20/kennedy-food-is-medicine-maha-elevate-pilot/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.statnews.com/2026/11/20/maha-institute-tax-filings-rfk-jr-health-agenda-spending/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/20/new-fda-commissioner-summit-lung-cancer-drug-readout-loud-podcast/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/new-fda-commissioner-summit-lung-cancer-drug-readout-loud-podcast/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.statnews.com/2026/11/20/princeton-researcher-eva-yi-xie-ice-detention-rattles-interational-scholars/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/20/unitedhealth-cms-medicare-advantage-lawsuit-star-rating/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/2026/11/20/unitedhealth-cms-medicare-advantage-lawsuit-star-rating/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/20/women-surgeon-shortage-global-cosecsa-lancet-commission-mukagaju-africa-making-of-a-surgeon/": "2026-11-20T15:56:17.592598+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/": "2026-11-07T13:44:44.698496+00:00",
+    "https://www.statnews.com/2026/11/20/women-surgeon-shortage-global-cosecsa-lancet-commission-mukagaju-africa-making-of-a-surgeon/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.statnews.com/2026/11/21/rfk-jr-maha-measles-outbreak-elimination-status-promote-mmr-vaccine/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.statnews.com/2026/11/21/stat-letters-to-editor-medical-school-pediatric-emergency-care/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/pharmalot/2026/11/09/novartis-abandons-heart-drug-bio-fighting-trump-program/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/pharmalot/2026/11/09/trump-administration-removes-wuxi-apptec-from-its-chinese-military-list/": "2026-11-10T15:25:20.847223+00:00",
@@ -36517,9 +36703,12 @@
     "https://www.statnews.com/pharmalot/2026/11/18/heidi-overton-fda-nomination-yanked-merck-cancer-drug-setback/?utm_campaign=rss": "2026-11-18T16:10:42.323485+00:00",
     "https://www.statnews.com/pharmalot/2026/11/18/nih-to-move-last-group-of-research-chimps-to-sanctuary/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/pharmalot/2026/11/19/china-pharma-biotech-clinical-trials-security-risk-patents-drug-development/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/19/china-pharma-biotech-clinical-trials-security-risk-patents-drug-development/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/pharmalot/2026/11/19/merck-isomorphic-ai-deal-china-pharmaceutical-supply-chain/?utm_campaign=rss": "2026-11-19T16:17:25.119383+00:00",
     "https://www.statnews.com/pharmalot/2026/11/20/sanofi-eyeing-insmed-ai-speeding-drug-development/": "2026-11-20T15:56:17.592598+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/20/up-and-down-the-ladder-latest-comings-and-goings-jobs-2/": "2026-11-20T15:56:17.592598+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/20/sanofi-eyeing-insmed-ai-speeding-drug-development/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/20/up-and-down-the-ladder-latest-comings-and-goings-jobs-2/": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/20/up-and-down-the-ladder-latest-comings-and-goings-jobs-2/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00"
   },
   "takedowns": []
 }
