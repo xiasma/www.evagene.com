@@ -36403,9 +36403,141 @@
         "co-transcriptional",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": "Scientists studying how living things evolve have long believed that the genes most important for keeping cells alive are somehow protected from random changes in the DNA code — mutations. A new large study of bacteria and yeast suggests this idea may be mistaken. The researchers found that important genes do not actually change less often than other genes. Instead, earlier studies were probably misled: when a harmful mutation does happen in a critical gene, the organism usually dies or fails to reproduce, so the mutation disappears quickly and scientists never get to see it.\n\nThis is a finding about fundamental biology and how we study it — it does not change anything about everyday health or genetics testing. It may, however, help scientists build more accurate computer models of how genetic changes spread through populations over time.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Landmark analysis finds no evidence essential genes mutate less frequently",
+      "is_preprint": false,
+      "run_date": "2026-11-22",
+      "run_iso": "2026-11-22T15:01:39Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 7,
+        "newest_iso": "2026-11-21T14:06:15Z",
+        "novelty": 8
+      },
+      "slug": "mutation-rate-essential-genes-theory-overturned",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-21T14:06:15Z",
+          "publisher": "ScienceDaily",
+          "title": "A 50-year-old theory about evolution may have been wrong all along",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm"
+        }
+      ],
+      "standfirst": "An extensive study of bacteria and yeast mutations challenges a 50-year-old evolutionary theory, attributing apparent protection of essential genes to natural selection removing harmful variants before detection.",
+      "summary": "A widely held theory in evolutionary genetics — that essential genes are inherently buffered against mutation — has been dealt a significant blow by a large-scale new analysis reported by ScienceDaily on 21 November 2026. The theory, now approximately five decades old, proposed that the most functionally critical genes in an organism accumulate mutations at lower rates, an idea sometimes termed \"mutation rate modulation\" or \"reduced mutability\" of essential genes.\n\nThe new study, drawing on extensive mutation data from bacteria and yeast, found no statistical evidence that essential genes mutate less frequently than non-essential ones when examined directly. Instead, the researchers argue that earlier studies supporting the theory were confounded by a form of ascertainment bias: harmful mutations in essential genes are rapidly removed from populations by purifying natural selection before researchers can observe them. The apparent scarcity of mutations in essential genes, the authors contend, reflects survival bias in the data rather than a genuine reduction in the rate at which mutations arise.\n\nThe findings have implications for how evolutionary geneticists model mutation rates across the genome and for how genome-wide studies interpret variation in essential versus non-essential loci. The institution, researchers, and journal in which the work is published were not specified in the available reporting; a primary source should be consulted for full attribution. The study adds to a growing body of work revisiting foundational assumptions in molecular evolution.",
+      "tags": [
+        "mutation-rate",
+        "essential-genes",
+        "natural-selection",
+        "purifying-selection",
+        "molecular-evolution",
+        "bacteria",
+        "yeast"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Mitochondrial trifunctional protein deficiency (TFP-D) is a rare inherited condition in which the body cannot properly break down certain fats for energy. This causes harmful substances to build up and can lead to serious health problems affecting the heart, muscles, and nervous system. Current dietary treatments help but cannot fully prevent these complications.\n\nIn a new piece of research — not yet reviewed by independent scientists — a team has tested a novel approach in mice with TFP-D. They used tiny fat particles called lipid nanoparticles to deliver two synthetic messenger RNA molecules into cells. These molecules temporarily instructed the cells to make the two proteins that are faulty in TFP-D. In mouse cells grown in a laboratory dish, this restored the missing protein activity. Early results in living mice with the condition were also reported as encouraging.\n\nThis is early-stage laboratory research in mice, and a great deal more work would be required before any approach like this could be tested in people.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Dual mRNA delivery via lipid nanoparticles corrects fatty acid oxidation disorder in mice",
+      "is_preprint": true,
+      "run_date": "2026-11-22",
+      "run_iso": "2026-11-22T15:01:39Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-11-21T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "mrna-lipid-nanoparticle-trifunctional-protein-deficiency-mouse",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-21T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Dual mRNA delivery corrects physical and biochemical deficits in a mouse model of hepatic onset trifunctional protein deficiency",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767734v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint from Cold Spring Harbor Laboratory describes lipid-nanoparticle-mediated co-delivery of two mRNAs restoring mitochondrial trifunctional protein function in a mouse model of a rare, life-threatening metabolic disorder.",
+      "summary": "Researchers have published a preprint on bioRxiv describing a lipid nanoparticle (LNP)-based mRNA replacement strategy targeting mitochondrial trifunctional protein deficiency (TFP-D), a rare and life-threatening disorder of long-chain fatty acid oxidation. TFP-D is caused by pathogenic variants in either the HADHA or HADHB genes, which encode the two subunits of the mitochondrial trifunctional protein complex. Loss of function in this complex leads to toxic accumulation of fatty acid metabolites and systemic energy deficiency; current management relies on dietary restriction of long-chain fats and supplementation, approaches that the authors note are only partially effective and do not prevent long-term morbidity or mortality.\n\nThe preprint reports that simultaneous LNP-mediated delivery of both Hadha and Hadhb mRNAs restored TFP enzymatic activity in cultured TFP-D mouse fibroblasts. The researchers then applied the strategy in vivo using a moderate-severity TFP-D mouse model, reporting corrections in both physical and biochemical measures of disease. The preprint does not yet specify full in vivo outcome data in the available lede text.\n\nThe work contributes to the expanding field of mRNA-based therapies for inherited metabolic disorders affecting the liver, complementing parallel programmes using mRNA for other rare diseases. As a bioRxiv preprint, this work has not yet undergone peer review and the findings should be interpreted accordingly.",
+      "tags": [
+        "trifunctional-protein-deficiency",
+        "hadha",
+        "hadhb",
+        "mrna-therapy",
+        "lipid-nanoparticles",
+        "fatty-acid-oxidation",
+        "rare-disease",
+        "mouse-models"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "genetic-counsellors"
+      ],
+      "for_patients": null,
+      "headline": "Structural audit of CTSC variants proposes research prioritisation rule for Papillon-Lefèvre syndrome",
+      "is_preprint": true,
+      "run_date": "2026-11-22",
+      "run_iso": "2026-11-22T15:01:39Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-21T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "ctsc-papillon-lefevre-structural-variant-audit",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-21T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Structural correlates of disease-associated CTSC variants in Papillon-Lefevre syndrome",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767647v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint evaluates structural features of disease-associated missense variants in cathepsin C, comparing pathogenic substitutions against population variants to test a structure-based rule for research-use prioritisation.",
+      "summary": "A preprint posted to bioRxiv by Cold Spring Harbor Laboratory describes a structural analysis of missense substitutions in CTSC, the gene encoding cathepsin C (dipeptidyl peptidase I), pathogenic variants in which cause Papillon-Lefèvre syndrome — a rare autosomal recessive condition characterised by palmoplantar keratoderma and severe early-onset periodontitis.\n\nThe authors compared 16 ClinVar-annotated pathogenic or likely pathogenic missense substitutions against 234 recurrent population-level substitutions catalogued in gnomAD, using the solved crystal structure of mature cathepsin C (Protein Data Bank entry 1K3B) as the reference. An expanded exploratory analysis incorporated 35 additional literature-indexed substitutions. The study also benchmarked AlphaGenome splice scores against a consequence-only baseline and audited documentation surrounding a historical validation holdout dataset.\n\nThe work is positioned as a research prioritisation exercise — evaluating whether structural features of a variant's location within the cathepsin C protein can distinguish pathogenic from benign substitutions — rather than as a clinical variant classification tool. Such structural analyses inform computational approaches to variant interpretation research and may be of interest to those working on missense variant effect prediction methods.\n\nAs a bioRxiv preprint, the findings have not yet undergone peer review.",
+      "tags": [
+        "ctsc",
+        "cathepsin-c",
+        "papillon-lefevre-syndrome",
+        "missense-variants",
+        "variant-interpretation",
+        "structural-biology",
+        "alphagenome",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-21T15:05:19.585382+00:00",
+  "last_run": "2026-11-22T15:02:38.175145+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012270": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012346": "2026-11-12T15:46:09.466998+00:00",
@@ -36483,24 +36615,24 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.17.767052v1?rss=1": "2026-11-19T16:17:25.119383+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.17.767292v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.17.767335v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.18.767647v1?rss=1": "2026-11-22T15:02:38.175145+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.18.767656v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.18.767712v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.18.767717v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.766859v1?rss=1": "2026-11-21T15:05:19.585382+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767351v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.19.767734v1?rss=1": "2026-11-22T15:02:38.175145+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767793v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767928v1?rss=1": "2026-11-21T15:05:19.585382+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767989v1?rss=1": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.20.768204v1?rss=1": "2026-11-22T15:02:38.175145+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-statement-on-microsoft-outage/": "2026-11-13T15:06:08.250090+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-urges-over-40s-to-know-their-numbers-amid-alarming-rise-in-high-blood-pressure-emergencies/": "2026-11-21T15:05:19.585382+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084009.htm": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261104084015.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084021.htm": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261104084024.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261105083622.htm": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261106174528.htm": "2026-11-08T14:03:18.796758+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261106174543.htm": "2026-11-09T17:08:17.639005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261106174545.htm": "2026-11-11T14:55:34.525034+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261108203714.htm": "2026-11-11T14:55:34.525034+00:00",
@@ -36524,19 +36656,8 @@
     "https://www.sciencedaily.com/releases/2026/11/261118065521.htm": "2026-11-19T16:17:25.119383+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261118073749.htm": "2026-11-19T16:17:25.119383+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261118073918.htm": "2026-11-20T15:56:17.592598+00:00",
-    "https://www.statnews.com/2026/11/06/abdul-el-sayed-jasmine-clark-defend-health-equity-from-cuts/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/biotech-news-amgen-repatha-linked-to-fewer-heart-attacks/": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/calley-means-joe-rogan-trump-maha-agenda-derailed-by-corporate-influence/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/health-news-new-evidence-for-ancient-cannabis-use/": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/novartis-zolgensma-gene-therapy-tumor-risk/": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/readout-loud-podcast-midterm-elections-fertility-ivf-mrt-therapy/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/states-sue-trump-delay-medicaid-work-requirements/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/06/why-democrats-midterm-landslide-helps-hospital-industry/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/07/aha-2026-conference-novo-nordisk-zeus-trial-ziltivekimab-results/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/07/aha-conference-news-novartis-lp-a-pelacarsen-heart-disease-trial-mystery/": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/07/bio-sues-to-block-globe-drug-pricing-model/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/07/new-studies-on-blood-pressure-management-aha-conference-news/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
-    "https://www.statnews.com/2026/11/08/heart-drug-failures-lessons-for-artificial-intelligence-from-aha-conference/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261119194538.htm": "2026-11-22T15:02:38.175145+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261120075549.htm": "2026-11-22T15:02:38.175145+00:00",
     "https://www.statnews.com/2026/11/08/sudden-cardiac-arrest-survival-cpr-defibrillation-training/": "2026-11-09T17:08:17.639005+00:00",
     "https://www.statnews.com/2026/11/09/acute-on-chronic-liver-failure-new-definition/": "2026-11-09T17:08:17.639005+00:00",
     "https://www.statnews.com/2026/11/09/aha-2026-news-neutral-clinical-trials-lessons-learned/": "2026-11-10T15:25:20.847223+00:00",
@@ -36683,7 +36804,6 @@
     "https://www.statnews.com/2026/11/20/women-surgeon-shortage-global-cosecsa-lancet-commission-mukagaju-africa-making-of-a-surgeon/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/21/rfk-jr-maha-measles-outbreak-elimination-status-promote-mmr-vaccine/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/21/stat-letters-to-editor-medical-school-pediatric-emergency-care/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/06/pharma-biotech-jobs-ladder-pfizer-amgen-astrazeneca-novonordisk/?utm_campaign=rss": "2026-11-08T14:03:18.796758+00:00",
     "https://www.statnews.com/pharmalot/2026/11/09/novartis-abandons-heart-drug-bio-fighting-trump-program/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/pharmalot/2026/11/09/trump-administration-removes-wuxi-apptec-from-its-chinese-military-list/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/pharmalot/2026/11/10/access-to-key-drugs-mixed-in-poor-countries-cancer-diabetes/": "2026-11-10T15:25:20.847223+00:00",
