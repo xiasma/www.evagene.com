@@ -36535,10 +36535,227 @@
         "alphagenome",
         "preprint"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "genetic-counsellors",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "A new study has found that the blood cancer known as acute myeloid leukaemia, or AML, may start with a single genetic change many decades before the disease is ever diagnosed — in some cases when a person is still a teenager. The cancer cells carrying this first change grow slowly at first, but speed up as more genetic faults accumulate over the years.\n\nThis does not mean that people who had a genetic change in their youth will develop leukaemia — most will not. It is a research finding about how the biology of this cancer unfolds over very long timescales, and it may help scientists understand the disease better in future.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Acute myeloid leukaemia can begin with mutations arising 50 years before diagnosis",
+      "is_preprint": false,
+      "run_date": "2026-11-23",
+      "run_iso": "2026-11-23T18:56:51Z",
+      "scores": {
+        "audience_breadth": 6,
+        "importance": 8,
+        "newest_iso": "2026-11-22T11:31:14Z",
+        "novelty": 8
+      },
+      "slug": "aml-mutation-decades-before-diagnosis-study",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-22T11:31:14Z",
+          "publisher": "ScienceDaily",
+          "title": "Scientists discover that leukemia can begin developing 50 years before diagnosis",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm"
+        }
+      ],
+      "standfirst": "A new study tracking AML's mutational history finds the first cancer-driving change typically occurs before age 20, with subsequent mutations accumulating in a predictable pattern over decades.",
+      "summary": "A study reported by ScienceDaily has found that acute myeloid leukaemia (AML), one of the most aggressive blood cancers, can have its origins in a single mutational event occurring more than 50 years before clinical diagnosis. According to the research, this initial cancer-driving mutation arises before the age of 20 in approximately two-thirds of cases examined.\n\nThe investigators tracked how the resulting mutated cell population grows and diversifies over time, finding that early clonal expansion proceeds at a surprisingly predictable rate. The pace of change then accelerates sharply as additional driver mutations accumulate — a pattern consistent with a multi-hit model of leukaemogenesis in which each successive mutation confers a greater proliferative advantage on the clone.\n\nThe findings add to a growing body of evidence that haematological malignancies have extended preclinical phases, overlapping conceptually with research into clonal haematopoiesis of indeterminate potential (CHIP). Understanding the timeline and dynamics of early mutational events may inform future research into which clonal trajectories carry the highest risk of progression — an area of active investigation in somatic genomics. The original research source and journal are not specified in the feed item; the full primary paper should be consulted for methodological detail.",
+      "tags": [
+        "aml",
+        "acute-myeloid-leukaemia",
+        "clonal-haematopoiesis",
+        "somatic-variants",
+        "cancer-evolution",
+        "leukaemia",
+        "mutation-timing"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "California trapdoor spider's genome is 50% larger than the human genome",
+      "is_preprint": false,
+      "run_date": "2026-11-23",
+      "run_iso": "2026-11-23T18:56:51Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-23T03:54:27Z",
+        "novelty": 7
+      },
+      "slug": "trapdoor-spider-genome-larger-than-human",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-23T03:54:27Z",
+          "publisher": "ScienceDaily",
+          "title": "This tiny spider named after Stephen Colbert has a genome 50% larger than a human's",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261122060343.htm"
+        }
+      ],
+      "standfirst": "Sequencing of a spider species named after Stephen Colbert has revealed 4.6 billion base pairs and 52 chromosomes, offering new insights into the evolutionary forces behind genome size variation.",
+      "summary": "Scientists sequencing the genome of a small California trapdoor spider — formally named after the television personality Stephen Colbert — have found it to be roughly 50% larger than the human genome, despite the animal being approximately the size of a coin. The genome contains an estimated 4.6 billion DNA base pairs arranged across 52 chromosomes.\n\nThe finding, reported by ScienceDaily, provides a striking illustration of the lack of correlation between genome size and organismal complexity — a long-established but still incompletely understood phenomenon known in the literature as the C-value enigma. Spiders as a group are known to harbour large and structurally complex genomes, and the new data are reported to shed light on the evolutionary mechanisms driving genome expansion in this lineage, including the role of repetitive elements and transposable sequences.\n\nThe primary research paper and the institution responsible have not been specified in the feed summary; readers are encouraged to consult the original publication for full methodological detail. The study illustrates how non-model organisms can illuminate fundamental questions in genome biology and evolutionary genetics.",
+      "tags": [
+        "genome-size",
+        "c-value-enigma",
+        "spider-genomics",
+        "chromosome-evolution",
+        "comparative-genomics",
+        "transposable-elements"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "DNA's photochemical properties may have helped shield early life from ultraviolet radiation",
+      "is_preprint": false,
+      "run_date": "2026-11-23",
+      "run_iso": "2026-11-23T18:56:51Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-22T03:00:27Z",
+        "novelty": 7
+      },
+      "slug": "dna-uv-protection-early-earth-prebiotic",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-22T11:31:14Z",
+          "publisher": "ScienceDaily",
+          "title": "DNA's secret sunscreen may have helped life survive on early Earth",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261121221128.htm"
+        }
+      ],
+      "standfirst": "New research proposes that a structural feature of DNA converts potentially lethal ultraviolet damage into a more readily repairable form, possibly explaining how life survived Earth's early high-UV environment.",
+      "summary": "Scientists have reported evidence that DNA itself possesses an intrinsic photochemical property that may have served as a form of protection against the intense ultraviolet radiation present on early Earth, before the development of a protective ozone layer. The proposed mechanism involves a key structural component of DNA converting otherwise lethal photodamage into a form that is more amenable to cellular repair.\n\nReported by ScienceDaily, the finding addresses a long-standing question in origins-of-life research: how the first nucleic acid polymers could have persisted in an environment of high ultraviolet flux. The study appears to suggest that the photoprotective chemistry is an intrinsic property of the base structure rather than a later biological acquisition, which would have implications for understanding the conditions under which early genetic material was selected.\n\nThe institution, research group, and journal associated with this work are not identified in the feed summary. The finding is relevant to evolutionary genetics and chemical biology, particularly to researchers interested in prebiotic chemistry and the early evolution of genomes. It is a mechanistic study without direct clinical implications.",
+      "tags": [
+        "prebiotic-chemistry",
+        "dna-photochemistry",
+        "ultraviolet-radiation",
+        "origins-of-life",
+        "evolutionary-genetics",
+        "dna-repair"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Four-codon sequence in MAP3K10's untranslated region found to regulate gene expression",
+      "is_preprint": false,
+      "run_date": "2026-11-23",
+      "run_iso": "2026-11-23T18:56:51Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-23T14:00:00Z",
+        "novelty": 7
+      },
+      "slug": "map3k10-four-codon-dorf-expression-regulation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-23T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "Translation of a four-codon ORF in the 3′UTR of MAP3K10 regulates its expression",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012146"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study identifies a translatable downstream open reading frame in the 3′UTR of MAP3K10, adding to evidence that short ORFs outside coding sequences can influence how genes are expressed.",
+      "summary": "Researchers including Kirtana Vasu, Swati Ghosh, Sarthak Sahoo, and colleagues have published findings in *PLOS Genetics* describing a translatable open reading frame (ORF) located in the 3′ untranslated region (3′UTR) of the MAP3K10 gene — a kinase involved in cellular signalling.\n\nMost characterised regulatory ORFs in eukaryotic transcripts are found in the 5′UTR (upstream ORFs, or uORFs), where they are well known to modulate translation of the primary protein-coding sequence. Downstream ORFs (dORFs), situated in the 3′UTR, are considerably less studied and their functional significance has been less clear. The new study identifies and characterises a dORF comprising just four codons in MAP3K10 and presents evidence that its translation influences the expression level of the host gene.\n\nThe work contributes to growing appreciation that eukaryotic mRNAs can be functionally polycistronic — that is, capable of producing more than one peptide product from a single transcript — with regulatory consequences extending beyond what the primary coding sequence alone would predict. The findings are relevant to researchers in RNA biology, translational regulation, and gene expression, and to educators covering post-transcriptional gene regulation.",
+      "tags": [
+        "utranslated-regions",
+        "downstream-orf",
+        "map3k10",
+        "translational-regulation",
+        "rna-biology",
+        "plos-genetics",
+        "polycistronic-mrna"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: reproductive competition can amplify purifying selection beyond what hard selection achieves",
+      "is_preprint": true,
+      "run_date": "2026-11-23",
+      "run_iso": "2026-11-23T18:56:51Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-23T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "reproductive-competition-purifying-selection-genetic-load",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-23T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Reproductive competition amplifies purifying selection and reduces genetic load",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768053v1?rss=1"
+        }
+      ],
+      "standfirst": "Forward-time simulations show that competition among multiple rivals for reproductive opportunities removes deleterious variants more efficiently than equivalent hard selection, with implications for understanding genetic load.",
+      "summary": "A preprint posted to bioRxiv presents forward-time population genetic simulations examining how reproductive competition — including competitive and sexual selection — compares with conventional hard selection in removing deleterious mutations from populations.\n\nThe investigators quantify the efficiency of competition by expressing its effect as an effective selection coefficient (s_e) calibrated against an equivalent episode of hard selection. Their results indicate that competition among multiple rivals substantially amplifies purifying selection, reducing genetic load more efficiently than hard selection of the same nominal intensity. The analysis also explores the mechanistic basis for this advantage, linking it to variance in reproductive success generated by competitive interactions.\n\nThe work is relevant to evolutionary geneticists and population geneticists interested in the maintenance of genetic variation, the evolution of sexual selection, and the factors governing mutation load in natural populations. It may also interest researchers working on conservation genetics, where small population sizes and altered competitive environments can affect the efficacy of selection. As a preprint, these findings have not yet been peer-reviewed and should be interpreted with appropriate caution.",
+      "tags": [
+        "purifying-selection",
+        "genetic-load",
+        "sexual-selection",
+        "reproductive-competition",
+        "population-genetics",
+        "simulation-study",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-22T15:02:38.175145+00:00",
+  "last_run": "2026-11-23T18:58:20.115777+00:00",
   "seen_urls": {
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012146": "2026-11-23T18:58:20.115777+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012270": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012346": "2026-11-12T15:46:09.466998+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012350": "2026-11-17T16:41:34.279019+00:00",
@@ -36553,9 +36770,6 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012379": "2026-11-11T14:55:34.525034+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012380": "2026-11-18T16:10:42.323485+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012392": "2026-11-20T15:56:17.592598+00:00",
-    "https://news.cancerresearchuk.org/2026/11/09/a-decade-of-the-crick-where-discovery-meets-hope/": "2026-11-09T17:08:17.639005+00:00",
-    "https://news.cancerresearchuk.org/2026/11/09/research-is-beautiful-autumns-best-of-the-rest/": "2026-11-09T17:08:17.639005+00:00",
-    "https://news.cancerresearchuk.org/2026/11/09/the-francis-crick-institute-a-decade-on-already-its-a-life-well-lived/": "2026-11-09T17:08:17.639005+00:00",
     "https://news.cancerresearchuk.org/2026/11/10/immune-system-proteins-prevent-prostate-cancer/": "2026-11-10T15:25:20.847223+00:00",
     "https://news.cancerresearchuk.org/2026/11/12/his-majesty-the-king-marks-the-cricks-tenth-anniversary/": "2026-11-12T15:46:09.466998+00:00",
     "https://news.cancerresearchuk.org/2026/11/12/waiting-times-stall-on-diagnosis-for-people-with-cancer/": "2026-11-12T15:46:09.466998+00:00",
@@ -36568,13 +36782,7 @@
     "https://news.cancerresearchuk.org/2026/11/19/julias-story-sp/": "2026-11-19T16:17:25.119383+00:00",
     "https://news.cancerresearchuk.org/2026/11/19/scottishpower-strengthens-support-for-pioneering-lung-cancer-research/": "2026-11-19T16:17:25.119383+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764067v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.04.764303v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.05.764726v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.763794v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.06.764618v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.06.764806v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.06.764887v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.06.764943v1?rss=1": "2026-11-09T17:08:17.639005+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.07.765034v1?rss=1": "2026-11-12T15:46:09.466998+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.764265v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765277v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
@@ -36625,15 +36833,15 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767793v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767928v1?rss=1": "2026-11-21T15:05:19.585382+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767989v1?rss=1": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.20.765463v1?rss=1": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.20.768053v1?rss=1": "2026-11-23T18:58:20.115777+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.20.768204v1?rss=1": "2026-11-22T15:02:38.175145+00:00",
+    "https://www.england.nhs.uk/2026/11/first-women-join-world-leading-ai-assisted-nhs-breast-screening-trial/": "2026-11-23T18:58:20.115777+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-statement-on-microsoft-outage/": "2026-11-13T15:06:08.250090+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-urges-over-40s-to-know-their-numbers-amid-alarming-rise-in-high-blood-pressure-emergencies/": "2026-11-21T15:05:19.585382+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261104084009.htm": "2026-11-09T17:08:17.639005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261104084021.htm": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261105083622.htm": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261106174543.htm": "2026-11-09T17:08:17.639005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261106174545.htm": "2026-11-11T14:55:34.525034+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261108203714.htm": "2026-11-11T14:55:34.525034+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261109205415.htm": "2026-11-11T14:55:34.525034+00:00",
@@ -36658,15 +36866,16 @@
     "https://www.sciencedaily.com/releases/2026/11/261118073918.htm": "2026-11-20T15:56:17.592598+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261119194538.htm": "2026-11-22T15:02:38.175145+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261120075549.htm": "2026-11-22T15:02:38.175145+00:00",
-    "https://www.statnews.com/2026/11/08/sudden-cardiac-arrest-survival-cpr-defibrillation-training/": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.statnews.com/2026/11/09/acute-on-chronic-liver-failure-new-definition/": "2026-11-09T17:08:17.639005+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261120075600.htm": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261121221122.htm": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261121221128.htm": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261122060334.htm": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261122060343.htm": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261123005356.htm": "2026-11-23T18:58:20.115777+00:00",
     "https://www.statnews.com/2026/11/09/aha-2026-news-neutral-clinical-trials-lessons-learned/": "2026-11-10T15:25:20.847223+00:00",
-    "https://www.statnews.com/2026/11/09/ai-chatbots-can-overcome-mental-health-barriers-in-men/": "2026-11-09T17:08:17.639005+00:00",
     "https://www.statnews.com/2026/11/09/bill-ackman-launches-new-brain-research-institute/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/2026/11/09/biotech-news-gene-therapy-long-debated-cancer-risk-materializes/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/2026/11/09/cardiovascular-stroke-recurrence-bayer-drug-fda-approval/": "2026-11-10T15:25:20.847223+00:00",
-    "https://www.statnews.com/2026/11/09/cvs-health-split-pbm-conflict-examined-anthony-loiacono-judi-health/": "2026-11-09T17:08:17.639005+00:00",
-    "https://www.statnews.com/2026/11/09/democrat-healthcare-agenda-new-lawmakers-weigh-popular-vs-possible/": "2026-11-09T17:08:17.639005+00:00",
     "https://www.statnews.com/2026/11/09/eli-lilly-foundayo-sleep-apnea/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/2026/11/09/glp-1-drugs-potential-risk-rare-eye-condition-naion-fda/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/2026/11/09/health-news-new-rule-to-prevent-bioweapon-spread/": "2026-11-10T15:25:20.847223+00:00",
@@ -36804,6 +37013,15 @@
     "https://www.statnews.com/2026/11/20/women-surgeon-shortage-global-cosecsa-lancet-commission-mukagaju-africa-making-of-a-surgeon/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/21/rfk-jr-maha-measles-outbreak-elimination-status-promote-mmr-vaccine/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/2026/11/21/stat-letters-to-editor-medical-school-pediatric-emergency-care/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.statnews.com/2026/11/23/ada-convention-fallout-will-turmoil-impact-patients-research/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.statnews.com/2026/11/23/biotech-news-a-big-win-for-potential-dupixent-competitor-eczema-treatment/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.statnews.com/2026/11/23/caronilex-dual-targeting-car-t-overcomes-myeloma-resistance/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.statnews.com/2026/11/23/foia-scientific-research-china-legal-loophole/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.statnews.com/2026/11/23/genmab-cancer-drugs-oncology-clinical-trials/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.statnews.com/2026/11/23/health-news-preventive-services-panel-votes-cast-in-private/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.statnews.com/2026/11/23/invivyd-covid-monoclonal-antibody-declaration-trial-vyd2311/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.statnews.com/2026/11/23/kymera-therapeutics-eczema-trial-success-potential-dupixent-rival/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
     "https://www.statnews.com/pharmalot/2026/11/09/novartis-abandons-heart-drug-bio-fighting-trump-program/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/pharmalot/2026/11/09/trump-administration-removes-wuxi-apptec-from-its-chinese-military-list/": "2026-11-10T15:25:20.847223+00:00",
     "https://www.statnews.com/pharmalot/2026/11/10/access-to-key-drugs-mixed-in-poor-countries-cancer-diabetes/": "2026-11-10T15:25:20.847223+00:00",
@@ -36828,7 +37046,8 @@
     "https://www.statnews.com/pharmalot/2026/11/20/sanofi-eyeing-insmed-ai-speeding-drug-development/": "2026-11-20T15:56:17.592598+00:00",
     "https://www.statnews.com/pharmalot/2026/11/20/sanofi-eyeing-insmed-ai-speeding-drug-development/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/pharmalot/2026/11/20/up-and-down-the-ladder-latest-comings-and-goings-jobs-2/": "2026-11-20T15:56:17.592598+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/20/up-and-down-the-ladder-latest-comings-and-goings-jobs-2/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/20/up-and-down-the-ladder-latest-comings-and-goings-jobs-2/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/23/fda-rejects-capricor-duchenne-drug-lilly-acquires-loqus23-therapeutics/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00"
   },
   "takedowns": []
 }
