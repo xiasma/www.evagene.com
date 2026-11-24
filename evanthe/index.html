@@ -323,6 +323,33 @@
     .panel,#search,.btn{ transition:none; }
   }
 
+  /* ---------- Demo (projector) mode ---------- */
+  #demoBtn.on{ background:rgba(46,230,200,0.18); color:var(--txt); }
+  #topbar,#hint{ transition:opacity .9s ease; }
+  body.demo #topbar, body.demo #hint, body.demo #hoverTip{ opacity:0 !important; pointer-events:none !important; }
+  body.demo .panel{ opacity:0 !important; pointer-events:none !important; transition:opacity .9s ease; }
+  body.demo #hud .ui{ pointer-events:none !important; }
+  body.demo:not(.demo-pointer), body.demo:not(.demo-pointer) *{ cursor:none !important; }
+  #demoExit{ position:fixed; z-index:30; top:max(14px, env(safe-area-inset-top)); right:16px; display:none; }
+  body.demo.demo-pointer #demoExit{ display:inline-flex; }
+  #demoCaption{
+    position:fixed; z-index:11; left:50%; bottom:max(7vh, 28px); pointer-events:none;
+    transform:translate(-50%, 14px); opacity:0; text-align:center;
+    width:min(1100px, 88vw);
+    padding:1.6em 3.2em 1.4em; border-radius:50%;
+    background:radial-gradient(ellipse at 50% 55%, rgba(3,4,10,0.72) 0%, rgba(3,4,10,0.5) 45%, rgba(3,4,10,0) 72%);
+    transition:opacity 1.4s ease, transform 1.8s cubic-bezier(.2,.7,.2,1);
+  }
+  #demoCaption.show{ opacity:1; transform:translate(-50%, 0); }
+  #demoCaption .dc-kicker{ font-size:clamp(11px,1.05vw,15px); letter-spacing:.26em; text-transform:uppercase;
+    color:var(--warm); opacity:.85; text-shadow:0 0 18px rgba(255,200,120,.35); }
+  #demoCaption .dc-names{ font-size:clamp(18px,2.2vw,34px); font-weight:300; line-height:1.4; color:var(--txt);
+    margin-top:.45em; text-shadow:0 0 22px rgba(0,0,0,.9), 0 0 16px rgba(46,230,200,.22); }
+  #demoCaption .dc-names .nm{ white-space:nowrap; }
+  #demoCaption .dc-names .sep{ color:var(--txt-faint); padding:0 .35em; }
+  #demoCaption .dc-names .sci{ font-style:italic; color:var(--accent); font-size:.6em; margin-left:.3em; }
+  #demoCaption .dc-kin{ font-size:clamp(12px,1.15vw,17px); color:var(--txt-dim); margin-top:.7em; letter-spacing:.04em; }
+
   /* ---------- Sound control panel ---------- */
   #soundWrap{ position:relative; }
   #soundBtn.on{ background:rgba(46,230,200,0.18); color:var(--txt); }
@@ -415,6 +442,7 @@
             </div>
           </div>
         </div>
+        <button class="btn icon" id="demoBtn" title="Demo mode: slow, hands-free tour of cousin species (for projectors). Esc to exit." aria-label="Demo mode">&#9655;&#xFE0E;</button>
         <button class="btn icon" id="helpBtn" title="Show controls">?</button>
       </div>
       <div id="legend" class="ui"></div>
@@ -438,6 +466,9 @@
 
     <div id="hint">Drag to orbit · Scroll / pinch to zoom · Tap a star to select · Pick two to find their ancestor</div>
   </div>
+
+  <div id="demoCaption" aria-live="polite"></div>
+  <button class="btn" id="demoExit" title="Exit demo mode (Esc)">Exit demo</button>
 
   <div id="mrcaLabel"></div>
   <div id="hoverTip"></div>
@@ -1462,6 +1493,7 @@ if(HOVER_OK){
    ============================================================================ */
 let idleTimer=0, autoRotateTarget=reduceMotion?0:0.28;
 function userInteracted(){
+  if(demo.on) return;           // demo mode is hands-free; stray input must not stall it
   controls.autoRotate=false;
   controls.autoRotateSpeed=0;
   idleTimer=performance.now();
@@ -1559,7 +1591,7 @@ function cancelFly(){ fly=null; }
 function updateFly(dt){
   if(!fly) return;
   fly.t=Math.min(1, fly.t+dt/fly.dur);
-  const e=easeInOut(fly.t);
+  const e=(fly.ease||easeInOut)(fly.t);
   camera.position.lerpVectors(fly.camFrom, fly.camTo, e);
   controls.target.lerpVectors(fly.tgtFrom, fly.tgtTo, e);
   if(fly.t>=1){ fly=null; idleTimer=performance.now(); }
@@ -1638,6 +1670,195 @@ $('helpBtn').onclick=()=>{
   hintHidden=false; hint.classList.remove('hide');
   hintReshowTimer=setTimeout(hideHint, 9000);
 };
+
+/* ============================================================================
+   Demo mode — hands-free projector loop. Picks a random species, lights up it
+   and its nearest cousins, glides in and slowly orbits them for a while, then
+   drifts back out to the wider galaxy and on to a new family. Every few groups
+   it rests on the whole galaxy. Esc / "Exit demo" / leaving fullscreen stops it.
+   Add ?demo or #demo to the URL to start automatically (kiosk use).
+   ============================================================================ */
+var demo={on:false, gen:0, cycle:0, recent:[], wakeLock:null, enteredFS:false};
+const DEMO={ flyOut:6.0, flyIn:7.0, preview:1.8, holdMin:26, holdMax:38, wideHold:18, wideEvery:6, maxGroup:12 };
+const demoBtn=$('demoBtn'), demoCaption=$('demoCaption'), demoExit=$('demoExit');
+const smoother=(t)=>t*t*t*(t*(t*6-15)+10);   // gentle quintic ease for long glides
+
+function demoSleep(sec, gen){ return new Promise(r=>setTimeout(()=>r(demo.on && demo.gen===gen), sec*1000)); }
+function demoFly(camTo, tgtTo, dur){
+  fly={ t:0, dur:reduceMotion?0.001:dur, ease:smoother,
+    camFrom:camera.position.clone(), camTo, tgtFrom:controls.target.clone(), tgtTo };
+  controls.autoRotate=false; controls.autoRotateSpeed=0;
+}
+function leafPos(id){ return new THREE.Vector3(positions[id*3], positions[id*3+1], positions[id*3+2]); }
+function leavesUnder(n){
+  const out=[];
+  for(const id of leafIds) if(T.enter[id]>=T.enter[n] && T.enter[id]<=T.exit[n]) out.push(id);
+  return out;
+}
+
+// A random species plus its nearest cousins: a readable group of 3..12 leaves,
+// not a repeat of the last few families shown, preferring species with common names.
+function demoPickGroup(){
+  for(let tries=0; tries<80; tries++){
+    const s=leafIds[(Math.random()*leafIds.length)|0];
+    if(tries<50 && !NAMES.common[s]) continue;
+    let members=null;
+    const res=closestCousins(s);
+    if(res && res.leaves.length>=2) members=[s, ...res.leaves];
+    else {
+      let a=T.parent[s];
+      while(a>=0 && T.leafCount[a]<4) a=T.parent[a];
+      if(a<0 || T.leafCount[a]>60) continue;
+      members=leavesUnder(a);
+    }
+    if(members.length>DEMO.maxGroup){
+      const rest=members.filter(id=>id!==s);
+      rest.sort((x,y)=>((NAMES.common[y]?1:0)-(NAMES.common[x]?1:0)) || (Math.random()-0.5));
+      members=[s, ...rest.slice(0, DEMO.maxGroup-1)];
+    }
+    if(members.length<3) continue;
+    const m=mrcaOfAll(members);
+    if(demo.recent.includes(m)) continue;
+    demo.recent.push(m); if(demo.recent.length>12) demo.recent.shift();
+    return {seed:s, members, mrca:m};
+  }
+  return null;
+}
+
+// Camera pose that frames a group, slightly off-axis so the cluster reads in depth.
+function demoFrame(ids){
+  const center=new THREE.Vector3();
+  for(const id of ids) center.add(leafPos(id));
+  center.multiplyScalar(1/ids.length);
+  let rad=0; for(const id of ids) rad=Math.max(rad, leafPos(id).distanceTo(center));
+  const vfov=camera.fov*Math.PI/180;
+  const dist=clamp(Math.max(rad, R_MAX*0.035)/Math.tan(vfov/2)*2.1, controls.minDistance*1.2, controls.maxDistance*0.9);
+  const dir=center.lengthSq()>1e-6 ? center.clone().normalize() : new THREE.Vector3(0,0,1);
+  const side=new THREE.Vector3().crossVectors(dir, camera.up);
+  if(side.lengthSq()<1e-6) side.set(1,0,0);
+  side.normalize().multiplyScalar(Math.random()<0.5?-1:1);
+  const camTo=center.clone().addScaledVector(dir, dist*0.9).addScaledVector(side, dist*0.42).addScaledVector(camera.up, dist*0.12);
+  // aim a little below the cluster so it sits above the caption
+  return {camTo, tgtTo:center.clone().addScaledVector(camera.up, -Math.max(rad, R_MAX*0.035)*0.45)};
+}
+// A wide, whole-galaxy pose leaning towards `towards` (the next group), centred on the root.
+function demoWide(towards){
+  const here=camera.position.clone().normalize();
+  const dir=towards ? here.add(towards.clone().normalize()).normalize() : here;
+  if(!isFinite(dir.x) || dir.lengthSq()<1e-6) dir.set(0,0.2,1).normalize();
+  const camTo=dir.multiplyScalar(R_MAX*2.25).add(new THREE.Vector3(0, R_MAX*0.25, 0));
+  return {camTo, tgtTo:new THREE.Vector3(0,0,0)};
+}
+
+function demoCaptionShow(g){
+  const m=mrcaOfAll(g.members);
+  const shown=g.members.slice(0,5);
+  const names=shown.map(id=>{
+    const com=NAMES.common[id], sci=NAMES.name[id];
+    return com ? `<span class="nm">${esc(com)}<span class="sci">${esc(sci)}</span></span>`
+               : `<span class="nm sci" style="font-size:.8em;margin:0">${esc(sci)}</span>`;
+  }).join(' <span class="sep">·</span> ');
+  const more=g.members.length-shown.length;
+  demoCaption.innerHTML=
+    `<div class="dc-kicker">Cousins · ${esc(NAMES.label[m])}</div>`+
+    `<div class="dc-names">${names}${more>0?` <span class="sep">·</span> <span class="nm" style="color:var(--txt-dim);font-size:.62em">and ${more} more</span>`:''}</div>`+
+    `<div class="dc-kin">${esc(kinPhrase(m))}</div>`;
+  demoCaption.classList.add('show');
+}
+function demoCaptionHide(){ demoCaption.classList.remove('show'); }
+
+async function demoLoop(gen){
+  // Open on the whole galaxy before the first dive.
+  clearSelection(); demoCaptionHide();
+  const w0=demoWide(null); demoFly(w0.camTo, w0.tgtTo, 4.5);
+  if(!await demoSleep(8, gen)) return;
+  let first=true;
+  while(demo.on && demo.gen===gen){
+    demo.cycle++;
+    demoCaptionHide();
+    if(!first && !await demoSleep(1.6, gen)) return;          // let the caption fade first
+
+    if(!first && demo.cycle%DEMO.wideEvery===0){                // breathe: rest on the whole galaxy
+      clearSelection();
+      const w=demoWide(null); demoFly(w.camTo, w.tgtTo, DEMO.flyOut+1.5);
+      if(!await demoSleep(DEMO.flyOut+1.5+DEMO.wideHold, gen)) return;
+      continue;
+    }
+
+    const g=demoPickGroup();
+    if(!g){ if(!await demoSleep(4, gen)) return; continue; }
+    const f=demoFrame(g.members);
+
+    // drift back out, leaning towards the next family
+    clearSelection();
+    if(!first){
+      const w=demoWide(f.tgtTo); demoFly(w.camTo, w.tgtTo, DEMO.flyOut);
+      if(!await demoSleep(DEMO.flyOut*0.92, gen)) return;
+    }
+    // light the new cousins from afar, then glide in
+    selection=g.members.slice(); spotlight(); refreshHighlights();
+    window.dispatchEvent(new CustomEvent('evo:cousins', {detail:{id:g.seed, count:g.members.length-1, age:T.age[g.seed], depth:T.depth[g.seed]}}));
+    if(!await demoSleep(DEMO.preview, gen)) return;
+    demoFly(f.camTo, f.tgtTo, DEMO.flyIn);
+    if(!await demoSleep(DEMO.flyIn*0.8, gen)) return;
+    demoCaptionShow(g);
+    const hold=DEMO.holdMin+Math.random()*(DEMO.holdMax-DEMO.holdMin);
+    if(!await demoSleep(hold, gen)) return;
+    first=false;
+  }
+}
+
+async function demoWakeLock(){
+  try{
+    if('wakeLock' in navigator && !demo.wakeLock){
+      demo.wakeLock=await navigator.wakeLock.request('screen');
+      demo.wakeLock.addEventListener('release', ()=>{ demo.wakeLock=null; });
+    }
+  }catch(_){}
+}
+let demoPtrTimer=null;
+function startDemo(){
+  if(demo.on) return;
+  demo.on=true; demo.gen++; demo.cycle=0;
+  document.body.classList.add('demo');
+  demoBtn.classList.add('on');
+  renderer.domElement.style.pointerEvents='none';
+  hideHoverTip(); results.classList.remove('show'); search.blur();
+  try{
+    if(!document.fullscreenElement && document.documentElement.requestFullscreen){
+      document.documentElement.requestFullscreen().then(()=>{ demo.enteredFS=true; }).catch(()=>{});
+    }
+  }catch(_){}
+  demoWakeLock();
+  demoLoop(demo.gen);
+}
+function stopDemo(){
+  if(!demo.on) return;
+  demo.on=false; demo.gen++;
+  document.body.classList.remove('demo','demo-pointer');
+  demoBtn.classList.remove('on');
+  renderer.domElement.style.pointerEvents='';
+  demoCaptionHide();
+  fly=null; idleTimer=performance.now();
+  if(demo.wakeLock){ demo.wakeLock.release().catch(()=>{}); demo.wakeLock=null; }
+  if(demo.enteredFS && document.fullscreenElement){ document.exitFullscreen().catch(()=>{}); }
+  demo.enteredFS=false;
+}
+demoBtn.onclick=startDemo;
+demoExit.onclick=stopDemo;
+window.addEventListener('keydown', (e)=>{ if(demo.on && e.key==='Escape') stopDemo(); });
+document.addEventListener('fullscreenchange', ()=>{
+  if(!document.fullscreenElement && demo.on && demo.enteredFS){ demo.enteredFS=false; stopDemo(); }
+});
+document.addEventListener('visibilitychange', ()=>{ if(demo.on && document.visibilityState==='visible') demoWakeLock(); });
+// The cursor stays hidden on the projector; moving the mouse briefly reveals "Exit demo".
+window.addEventListener('pointermove', ()=>{
+  if(!demo.on) return;
+  document.body.classList.add('demo-pointer');
+  clearTimeout(demoPtrTimer);
+  demoPtrTimer=setTimeout(()=>document.body.classList.remove('demo-pointer'), 2500);
+});
+if(/(^|[?&#])demo\b/.test(location.search+location.hash)) setTimeout(startDemo, 3500);
 
 /* ============================================================================
    Resize handling
@@ -1756,7 +1977,7 @@ function animate(){
 
   // idle auto-rotate re-arm
   if(!reduceMotion && !fly){
-    if(!controls.autoRotate && (now-idleTimer)>6000){
+    if(!controls.autoRotate && (now-idleTimer)>(demo.on?900:6000)){
       controls.autoRotate=true;
     }
     if(controls.autoRotate && controls.autoRotateSpeed<autoRotateTarget){
