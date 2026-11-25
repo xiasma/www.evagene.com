@@ -36886,9 +36886,308 @@
         "evo-devo",
         "plos-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "Rare-variant study of 1.4 million individuals maps genetic architecture of human height",
+      "is_preprint": false,
+      "run_date": "2026-11-25",
+      "run_iso": "2026-11-25T17:46:30Z",
+      "scores": {
+        "audience_breadth": 4,
+        "importance": 8,
+        "newest_iso": "2026-11-25T00:00:00Z",
+        "novelty": 9
+      },
+      "slug": "rare-variant-architecture-height-14-million",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "all_rights",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-25T00:00:00Z",
+          "publisher": "Nature",
+          "title": "Rare-variant genetic architecture of height in over 1.4 million individuals",
+          "url": "https://www.nature.com/articles/s41586-026-11345-2"
+        }
+      ],
+      "standfirst": "A Nature study using data from more than 1.4 million people characterises how rare coding variants contribute to height variation across the human population.",
+      "summary": "A large-scale analysis published in Nature has examined the rare-variant genetic architecture of human height using data from over 1.4 million individuals — one of the largest samples assembled for a complex-trait genetics study to date.\n\nHeight is a canonical polygenic trait, and while common variants identified through genome-wide association studies collectively explain a substantial portion of its heritability, the contribution of rare coding variants has remained less fully characterised at scale. This study directly addresses that gap by analysing rare variation alongside common-variant signals across a population of this size.\n\nThe findings have implications for understanding the architecture of other quantitative traits and for calibrating the statistical frameworks used to detect rare-variant associations. The scale of the dataset also allows researchers to assess how rare-variant effects vary across the allele-frequency spectrum and to compare effect sizes with those of common variants at the same loci.\n\nThe paper is relevant to statistical geneticists developing methods for rare-variant analysis, population geneticists studying the distribution of effect sizes under selection, and educators teaching the relationship between allele frequency, effect size, and heritability in complex traits. Full details of the study methodology, cohorts, and results are reported in the Nature publication.",
+      "tags": [
+        "rare-variants",
+        "height",
+        "population-genomics",
+        "gwas",
+        "statistical-genetics",
+        "complex-traits",
+        "nature"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "ADAR enzyme ADR-2 required for lifespan extension under metabolic stress in C. elegans",
+      "is_preprint": false,
+      "run_date": "2026-11-25",
+      "run_iso": "2026-11-25T17:46:30Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 6,
+        "newest_iso": "2026-11-24T14:00:00Z",
+        "novelty": 8
+      },
+      "slug": "adar-rna-editing-metabolic-stress-longevity-c-elegans",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "mixed",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-24T14:00:00Z",
+          "publisher": "PLOS Genetics",
+          "title": "RNA deaminase modulates metabolic stress-induced longevity in Caenorhabditis elegans",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012385"
+        }
+      ],
+      "standfirst": "A PLOS Genetics study shows that adenosine-to-inosine RNA editing by the ADR-2 deaminase is specifically needed for longevity conferred by mitochondrial dysfunction and dietary restriction, but not by reduced insulin or mTOR signalling.",
+      "summary": "Research published in PLOS Genetics by Ke and colleagues examines how adenosine-to-inosine (A-to-I) RNA editing — a post-transcriptional modification that diversifies transcriptome output — contributes to lifespan regulation in the nematode Caenorhabditis elegans.\n\nThe study shows that the ADAR enzyme ADR-2 is specifically required for lifespan extension triggered by metabolic stress, including mitochondrial dysfunction (in isp-1 mutants) and dietary restriction (in eat-2 mutants). Loss of adr-2 abolished longevity in both settings. Notably, the requirement is pathway-selective: lifespan extension mediated by reduced insulin/IGF-1 signalling (daf-2 mutants) or reduced mTOR signalling (rsks-1 mutants) remained intact in the absence of ADR-2.\n\nRNA editome analysis identified increased ADR-2-dependent editing activity under metabolic stress conditions, suggesting a mechanistic link between transcriptomic recoding and stress-induced longevity programmes. The work adds RNA editing to the set of regulatory layers known to modulate ageing, alongside transcriptional and translational mechanisms.\n\nThe findings are of interest to researchers working on the biology of ageing, RNA modification, and metabolic stress responses. As a C. elegans study, the results describe mechanisms in a model organism; their relevance to mammalian ageing biology remains to be established through further investigation.",
+      "tags": [
+        "adar",
+        "rna-editing",
+        "a-to-i-editing",
+        "ageing",
+        "c-elegans",
+        "metabolic-stress",
+        "dietary-restriction",
+        "plos-genetics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: sequence-to-function embeddings capture heritability from both rare and common variants across individuals",
+      "is_preprint": true,
+      "run_date": "2026-11-25",
+      "run_iso": "2026-11-25T17:46:30Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 7,
+        "newest_iso": "2026-11-24T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "embher-sequence-embeddings-heritability-rare-common-variants",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-24T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "Sequence-to-function embeddings across individuals capture rare and common variant heritability",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768687v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint introduces EMBHER, a variance-component framework using deep-learning sequence embeddings to estimate expression heritability, showing the representations capture individual-level genetic differences.",
+      "summary": "A preprint posted to bioRxiv introduces EMBHER (Embedding-based Heritability), a statistical framework that estimates the heritability of gene expression captured by intermediate representations from sequence-to-function deep learning models.\n\nSequence-to-function models are trained to predict molecular readouts — such as chromatin accessibility or gene expression — from DNA sequence variation along the genome. Their internal representations encode information about how sequence features relate to function. EMBHER asks whether these representations can also describe differences between individuals, which requires detecting signals across people rather than across genomic positions.\n\nThe authors report that EMBHER representations capture heritability from both rare and common variants, suggesting that the learned embeddings encode biologically meaningful information about individual variation. This is distinct from prior work, which typically evaluated such models in a population-agnostic manner.\n\nThe framework is relevant to researchers at the intersection of statistical genetics and machine learning, particularly those working on post-GWAS functional interpretation and the deployment of sequence models for variant effect prediction. As a preprint, this work has not yet been peer-reviewed and findings should be treated accordingly.",
+      "tags": [
+        "sequence-to-function-models",
+        "heritability",
+        "rare-variants",
+        "common-variants",
+        "gene-expression",
+        "statistical-genetics",
+        "computational-genomics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: lineage-specific retrotransposons engage OCT4–SOX2–SMARCA4 chromatin architecture in pluripotent stem cells",
+      "is_preprint": true,
+      "run_date": "2026-11-25",
+      "run_iso": "2026-11-25T17:46:30Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 6,
+        "newest_iso": "2026-11-24T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "ltr-retrotransposon-oct4-sox2-smarca4-pluripotency-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-24T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "Lineage-specific LTR Retrotransposon Repertoires Engage OCT4-SOX2-SMARCA4 Chromatin Regulatory Architecture in Mouse and Human Pluripotent Stem Cells",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768445v1?rss=1"
+        }
+      ],
+      "standfirst": "A bioRxiv preprint reports that LTR retrotransposon subfamilies differ between mouse and human pluripotent cells and interact with the BAF chromatin remodeller SMARCA4 alongside core pluripotency transcription factors.",
+      "summary": "A preprint posted to bioRxiv examines how long terminal repeat (LTR) retrotransposons — repetitive elements derived from ancient retroviruses that now constitute a substantial fraction of mammalian genomes — contribute to the regulatory architecture of pluripotent stem cells.\n\nThe study focuses on the relationship between LTR subfamilies and three factors known to be central to pluripotency: the transcription factors OCT4 (POU5F1) and SOX2, and SMARCA4 (also called BRG1), the ATPase catalytic subunit of the BAF chromatin-remodelling complex. The authors find that SMARCA4 preferentially occupies specific LTR subfamilies and promotes chromatin accessibility at those elements, with its occupancy pattern intersecting with that of OCT4 and SOX2.\n\nImportantly, the LTR subfamilies involved differ between mouse and human pluripotent cells, reflecting the lineage-specific nature of transposable element insertions and their co-option by host regulatory networks. This extends understanding of how transposable elements contribute to species-specific gene regulation during early development.\n\nThe work is primarily of interest to researchers in developmental genetics, chromatin biology, and the evolutionary genomics of repetitive elements. As a preprint, it has not yet undergone peer review.",
+      "tags": [
+        "ltr-retrotransposons",
+        "pluripotency",
+        "oct4",
+        "smarca4",
+        "chromatin-remodelling",
+        "developmental-genetics",
+        "transposable-elements",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: integrating splicing and expression QTLs refines causal gene identification across IBD risk loci",
+      "is_preprint": true,
+      "run_date": "2026-11-25",
+      "run_iso": "2026-11-25T17:46:30Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 7,
+        "newest_iso": "2026-11-24T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "sqtl-eqtl-ibd-colon-causal-gene-mapping-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-24T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "Beyond Abundance: Integrated Splicing and Expression Quantitative Trait Loci Refine Causal Gene Mapping in IBD",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768449v1?rss=1"
+        }
+      ],
+      "standfirst": "Analysis of 1,149 colon samples from SPARC IBD participants maps both eQTL and sQTL signals, colocalising with 147 of 320 IBD risk loci and identifying splicing consequences including nonsense-mediated decay.",
+      "summary": "A bioRxiv preprint reports a systematic effort to map both expression quantitative trait loci (eQTL) and splicing quantitative trait loci (sQTL) in colon tissue from 1,149 participants in the SPARC IBD cohort, accessed through the IBD Plexus initiative.\n\nThe analysis identified 20,566 genes with significant eQTL signals and 9,906 with sQTL signals. Colocalisation analysis — which tests whether a GWAS risk variant and a molecular QTL share the same underlying causal variant — prioritised 239 eGenes and 164 sGenes across 147 of 320 IBD risk loci. Fifty-eight genes were supported by evidence from both eQTL and sQTL colocalisation simultaneously.\n\nThe authors assessed specific splicing consequences for the sQTL-colocalised genes, identifying events likely to trigger nonsense-mediated decay, to remodel 5' untranslated regions, and to alter protein domains — mechanisms that could affect protein output and function. The study argues that sQTL signals add information not captured by expression-level analyses alone and that integrating the two improves prioritisation of candidate causal genes at GWAS loci.\n\nThe work is relevant to researchers working on post-GWAS functional genomics, particularly in inflammatory bowel disease and other immune-mediated conditions. As a preprint, findings require independent peer review before they can be considered established.",
+      "tags": [
+        "sqtl",
+        "eqtl",
+        "inflammatory-bowel-disease",
+        "colon",
+        "causal-gene-mapping",
+        "post-gwas",
+        "splicing",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: isoGS method aims to balance genetic diversity and elite performance in crop breeding programmes",
+      "is_preprint": true,
+      "run_date": "2026-11-25",
+      "run_iso": "2026-11-25T17:46:30Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 5,
+        "newest_iso": "2026-11-25T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "isogs-genomic-selection-breeders-dilemma-crop-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-25T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "isoGS: A genomic method to navigate the breeder's dilemma of diversity versus eliteness",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768689v1?rss=1"
+        }
+      ],
+      "standfirst": "Breeding simulations introduce isoGS, a genomic selection approach designed to introduce diversity into elite crop gene pools while protecting favourable epistatic haplotypes underlying key agronomic traits.",
+      "summary": "A bioRxiv preprint describes isoGS, a genomic method proposed to address what the authors term the breeder's dilemma: the tension between expanding genetic diversity in elite breeding programmes and preserving the combinations of favourable alleles — particularly epistatic haplotypes — that underpin desirable agronomic performance.\n\nThe study uses breeding simulations to model how genomic selection can be adapted to discriminate between novel variation worth introducing and variation likely to disrupt essential trait architecture. The method is motivated by challenges that arise specifically in admixed germplasm, where crosses between elite and diverse lines can release transgressive segregation that disrupts epistatic interactions.\n\nThe isoGS framework is designed for use in public crop breeding networks that exchange germplasm internationally, where the goal is to broaden the genetic base of elite lines without sacrificing performance. The authors evaluate the method's behaviour across a range of simulated scenarios.\n\nThe work is of interest to plant and crop geneticists, quantitative geneticists working in applied breeding contexts, and researchers modelling selection responses. As a preprint, this work has not yet been peer-reviewed.",
+      "tags": [
+        "genomic-selection",
+        "crop-breeding",
+        "epistasis",
+        "diversity",
+        "elite-germplasm",
+        "plant-genetics",
+        "quantitative-genetics",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers"
+      ],
+      "for_patients": null,
+      "headline": "Preprint: multi-resolution QTL mapping in four interconnected rice populations reveals background-specific and environment-dependent loci",
+      "is_preprint": true,
+      "run_date": "2026-11-25",
+      "run_iso": "2026-11-25T17:46:30Z",
+      "scores": {
+        "audience_breadth": 1,
+        "importance": 5,
+        "newest_iso": "2026-11-24T00:00:00Z",
+        "novelty": 6
+      },
+      "slug": "rice-qtl-multi-resolution-ril-populations-brazil-preprint",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-24T00:00:00Z",
+          "publisher": "bioRxiv",
+          "title": "Multi-resolution QTL mapping in four interconnected rice RIL populations reveals recurrent, background-specific, and environment-dependent loci",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768548v1?rss=1"
+        }
+      ],
+      "standfirst": "Evaluation of grain yield, plant height, and flowering time across interconnected recombinant inbred rice lines at two Brazilian sites shows that marker density and genetic background substantially influence QTL detection.",
+      "summary": "A bioRxiv preprint reports multi-resolution quantitative trait locus (QTL) mapping across four interconnected recombinant inbred line (RIL) populations in rice (Oryza sativa), evaluated at two field sites in Brazil — Goianira and Boa Vista.\n\nThe study examined three agronomically important traits: grain yield, plant height, and flowering time. By designing the populations so that each parent contributed to two separate crosses, the authors were able to compare the direction and magnitude of parental allelic effects across different genetic backgrounds — a design suited to detecting background-specific QTL.\n\nComparison of a shared backbone of 2,060 DArTseq SNPs with denser, cross-specific marker sets revealed that marker density influenced the precision of QTL localisation as well as the detection of some loci. The analysis identified both recurrent loci — those with consistent effects across backgrounds — and background-specific and environment-dependent loci, which only manifested in particular cross or site combinations.\n\nThe findings are relevant to rice geneticists and applied breeders seeking to understand genotype-by-environment interaction and to prioritise QTL targets for marker-assisted selection. As a preprint, the results have not yet been subject to formal peer review.",
+      "tags": [
+        "qtl-mapping",
+        "rice",
+        "recombinant-inbred-lines",
+        "marker-density",
+        "genotype-by-environment",
+        "crop-genomics",
+        "plant-breeding",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-24T18:37:09.649277+00:00",
+  "last_run": "2026-11-25T17:48:27.455191+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012146": "2026-11-23T18:58:20.115777+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012270": "2026-11-17T16:41:34.279019+00:00",
@@ -36902,8 +37201,8 @@
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012373": "2026-11-20T15:56:17.592598+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012374": "2026-11-18T16:10:42.323485+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012377": "2026-11-17T16:41:34.279019+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012379": "2026-11-11T14:55:34.525034+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012380": "2026-11-18T16:10:42.323485+00:00",
+    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012385": "2026-11-25T17:48:27.455191+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012390": "2026-11-24T18:37:09.649277+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012392": "2026-11-20T15:56:17.592598+00:00",
     "https://news.cancerresearchuk.org/2026/11/12/his-majesty-the-king-marks-the-cricks-tenth-anniversary/": "2026-11-12T15:46:09.466998+00:00",
@@ -36916,18 +37215,17 @@
     "https://news.cancerresearchuk.org/2026/11/19/cachexia-understanding-why-some-people-with-cancer-lose-weight/": "2026-11-19T16:17:25.119383+00:00",
     "https://news.cancerresearchuk.org/2026/11/19/julias-story-sp/": "2026-11-19T16:17:25.119383+00:00",
     "https://news.cancerresearchuk.org/2026/11/19/scottishpower-strengthens-support-for-pioneering-lung-cancer-research/": "2026-11-19T16:17:25.119383+00:00",
+    "https://news.cancerresearchuk.org/2026/11/25/its-all-a-question-of-timing/": "2026-11-25T17:48:27.455191+00:00",
+    "https://news.cancerresearchuk.org/2026/11/25/latest-winner-in-our-research-is-beautiful-competition-9/": "2026-11-25T17:48:27.455191+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764067v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.763794v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.07.765034v1?rss=1": "2026-11-12T15:46:09.466998+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.764265v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.09.765277v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765288v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.09.765429v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.09.765473v1?rss=1": "2026-11-12T15:46:09.466998+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.763681v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.765400v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.765550v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.10.765578v1?rss=1": "2026-11-11T14:55:34.525034+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.11.765740v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.11.765874v1?rss=1": "2026-11-13T15:06:08.250090+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.11.765992v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
@@ -36971,16 +37269,19 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.20.765463v1?rss=1": "2026-11-23T18:58:20.115777+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.20.768053v1?rss=1": "2026-11-23T18:58:20.115777+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.20.768204v1?rss=1": "2026-11-22T15:02:38.175145+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.22.768449v1?rss=1": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.23.768445v1?rss=1": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.23.768548v1?rss=1": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.23.768687v1?rss=1": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.23.768689v1?rss=1": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.23.768758v1?rss=1": "2026-11-25T17:48:27.455191+00:00",
     "https://www.england.nhs.uk/2026/11/first-women-join-world-leading-ai-assisted-nhs-breast-screening-trial/": "2026-11-23T18:58:20.115777+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-elective-performance-at-5-year-high-amid-record-demand/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-fast-tracks-rollout-of-first-ever-targeted-treatment-for-anal-cancer/": "2026-11-12T15:46:09.466998+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-rolls-out-new-staff-training-to-crack-down-on-snooping/": "2026-11-24T18:37:09.649277+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-statement-on-microsoft-outage/": "2026-11-13T15:06:08.250090+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-urges-over-40s-to-know-their-numbers-amid-alarming-rise-in-high-blood-pressure-emergencies/": "2026-11-21T15:05:19.585382+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261104084021.htm": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261106174545.htm": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261108203714.htm": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261109205415.htm": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.nature.com/articles/s41586-026-11345-2": "2026-11-25T17:48:27.455191+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261110042556.htm": "2026-11-13T15:06:08.250090+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261111005845.htm": "2026-11-13T15:06:08.250090+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261111221643.htm": "2026-11-13T15:06:08.250090+00:00",
@@ -37007,28 +37308,14 @@
     "https://www.sciencedaily.com/releases/2026/11/261121221128.htm": "2026-11-23T18:58:20.115777+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261122060334.htm": "2026-11-23T18:58:20.115777+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261122060343.htm": "2026-11-23T18:58:20.115777+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261123005337.htm": "2026-11-25T17:48:27.455191+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261123005356.htm": "2026-11-23T18:58:20.115777+00:00",
-    "https://www.statnews.com/2026/11/10/ai-health-advice-accuracy-messaging-risk-behavioral-benchmarking/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/10/biotech-news-glp-1-given-an-fda-warning-for-rare-eye-condition-risk/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/10/chatbots-for-men-and-earnings-highlights-health-tech/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/10/china-biotech-bio-plan-space-race/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/10/dc-diagnosis-wyden-sanders-aligned-on-medicare-for-all/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/10/democrats-investigate-most-favored-nation-deals-letters-drugmakers/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/10/health-news-why-flu-season-could-hit-teens-and-young-adults-hard/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/10/medicaid-expansion-holdout-states-midterm-election-power-shift/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/10/muscular-dystrophy-dm1-pepgen-pgn-edodm1-early-results/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/11/all-of-us-study-finds-gene-variants-drug-responses/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/11/biotech-news-mfn-makes-drugmakers-rethink-launches-abroad/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/11/fda-commissioner-nominee-heidi-overton-senate-committee-vote/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
-    "https://www.statnews.com/2026/11/11/health-news-us-may-soon-lose-measles-elimination-status/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/11/kennedy-hhs-preventive-care-panel-conflict-interest-waivers/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/11/maha-russell-brand-conviction-violence-rfk-jr/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/11/mdcalc-cofounder-graham-walker-on-crosscover-ai-prognosis/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
-    "https://www.statnews.com/2026/11/11/mdcalc-launches-crosscover-rumble-strip-for-clinical-ai-chatbots/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/2026/11/11/no-surprises-act-phi-health-air-ambulance-sues-employers/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/11/obesity-diagnosis-bmi-lancet-commission-proposal-impact/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
-    "https://www.statnews.com/2026/11/11/picky-eating-kids-low-income-families-snap-wic/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
     "https://www.statnews.com/2026/11/12/alnylam-amvuttra-heart-drug-growth/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/12/biogen-lupus-litifilimab-what-to-know/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/2026/11/12/biotech-news-blackstone-backs-pfizer-bet-on-monthly-obesity-treatment/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
@@ -37139,24 +37426,33 @@
     "https://www.statnews.com/2026/11/23/biotech-news-a-big-win-for-potential-dupixent-competitor-eczema-treatment/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
     "https://www.statnews.com/2026/11/23/caronilex-dual-targeting-car-t-overcomes-myeloma-resistance/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
     "https://www.statnews.com/2026/11/23/fda-approves-bridgebio-lgmd-drug-welgemda/": "2026-11-24T18:37:09.649277+00:00",
+    "https://www.statnews.com/2026/11/23/fda-approves-bridgebio-lgmd-drug-welgemda/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/2026/11/23/foia-scientific-research-china-legal-loophole/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
     "https://www.statnews.com/2026/11/23/genmab-cancer-drugs-oncology-clinical-trials/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
     "https://www.statnews.com/2026/11/23/health-news-preventive-services-panel-votes-cast-in-private/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
     "https://www.statnews.com/2026/11/23/invivyd-covid-monoclonal-antibody-declaration-trial-vyd2311/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
     "https://www.statnews.com/2026/11/23/kymera-therapeutics-eczema-trial-success-potential-dupixent-rival/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
     "https://www.statnews.com/2026/11/23/medicare-drug-price-negotiations-announcement-third-round/": "2026-11-24T18:37:09.649277+00:00",
+    "https://www.statnews.com/2026/11/23/medicare-drug-price-negotiations-announcement-third-round/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/2026/11/24/alaskan-hospitals-artificial-intelligence-bet-improve-stroke-care/": "2026-11-24T18:37:09.649277+00:00",
+    "https://www.statnews.com/2026/11/24/alaskan-hospitals-artificial-intelligence-bet-improve-stroke-care/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/2026/11/24/alaskan-hospitals-using-ai-rsna-2026-peptides-health-tech/": "2026-11-24T18:37:09.649277+00:00",
+    "https://www.statnews.com/2026/11/24/alaskan-hospitals-using-ai-rsna-2026-peptides-health-tech/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/": "2026-11-24T18:37:09.649277+00:00",
+    "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/": "2026-11-24T18:37:09.649277+00:00",
+    "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/2026/11/24/genomic-testing-sequenced-once-tested-often/": "2026-11-24T18:37:09.649277+00:00",
+    "https://www.statnews.com/2026/11/24/genomic-testing-sequenced-once-tested-often/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/2026/11/24/health-news-menopause-hormone-therapy-med-popularity-increases-141-percent/": "2026-11-24T18:37:09.649277+00:00",
+    "https://www.statnews.com/2026/11/24/health-news-menopause-hormone-therapy-med-popularity-increases-141-percent/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/2026/11/24/medical-school-class-attendance-why-i-keep-going/": "2026-11-24T18:37:09.649277+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/10/access-to-key-drugs-mixed-in-poor-countries-cancer-diabetes/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/10/dutch-antitrust-regulators-probe-biogen-over-multiple-sclerosis-drug-test/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/10/former-lilly-rep-claims-she-was-fired-for-complaining-about-marketing-of-mounjaro-diabetes-drug/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/10/stroke-drug-sunharbo-eye-warning-glp-drugs-pharmalittle/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/11/dems-eye-trump-mfn-deals-fewer-drug-launches-in-europe/?utm_campaign=rss": "2026-11-11T14:55:34.525034+00:00",
+    "https://www.statnews.com/2026/11/24/medical-school-class-attendance-why-i-keep-going/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.statnews.com/2026/11/24/rfk-jr-calendar-hhs-records-rollout/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.statnews.com/2026/11/24/sanofi-insmed-acquisition-dupixent-rare-disease-inflammation/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.statnews.com/2026/11/25/foreign-students-us-biomedical-science-enrollment-drop-trump/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.statnews.com/2026/11/25/health-news-rfk-jr-weighs-in-on-plan-to-detonate-toxic-material-in-iowa/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/pharmalot/2026/11/12/fda-fast-track-review-shelved-canadian-importer-arrested/?utm_campaign=rss": "2026-11-12T15:46:09.466998+00:00",
     "https://www.statnews.com/pharmalot/2026/11/13/lilly-conflict-questions-dea-okays-takeda-narcolepsy-pill/?utm_campaign=rss": "2026-11-13T15:06:08.250090+00:00",
     "https://www.statnews.com/pharmalot/2026/11/13/up-down-ladder-jobs-pharma-biotech-2/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
@@ -37174,8 +37470,11 @@
     "https://www.statnews.com/pharmalot/2026/11/20/up-and-down-the-ladder-latest-comings-and-goings-jobs-2/?utm_campaign=rss": "2026-11-21T15:05:19.585382+00:00",
     "https://www.statnews.com/pharmalot/2026/11/23/fda-rejects-capricor-duchenne-drug-lilly-acquires-loqus23-therapeutics/?utm_campaign=rss": "2026-11-23T18:58:20.115777+00:00",
     "https://www.statnews.com/pharmalot/2026/11/24/fda-cites-two-drugmakers-for-failing-to-report-clinical-trial-results/": "2026-11-24T18:37:09.649277+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/24/fda-cites-two-drugmakers-for-failing-to-report-clinical-trial-results/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/pharmalot/2026/11/24/sanofi-buying-insmed-roche-breast-cancer-pill/": "2026-11-24T18:37:09.649277+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/24/sanofi-insmed-acquisition-dupixent-rare-disease-inflammation/": "2026-11-24T18:37:09.649277+00:00"
+    "https://www.statnews.com/pharmalot/2026/11/24/sanofi-buying-insmed-roche-breast-cancer-pill/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/24/sanofi-insmed-acquisition-dupixent-rare-disease-inflammation/": "2026-11-24T18:37:09.649277+00:00",
+    "https://www.statnews.com/pharmalot/2026/11/25/biontech-founders-oncology-startup-gsk-egpa-drug-exdensur/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00"
   },
   "takedowns": []
 }
