@@ -37407,17 +37407,190 @@
         "recombination-plasticity",
         "population-genetics"
       ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "oncologists",
+        "educators",
+        "students",
+        "patients"
+      ],
+      "for_patients": "Scientists have published a study finding that exposure to two types of 'forever chemicals' — a group of synthetic substances found in many everyday products that do not break down easily in the environment or the body — is linked to higher odds of liver cancer. The researchers also found that people with a certain inherited genetic variation linked to a liver condition called fatty liver disease might be more affected by this exposure than others.\n\nThis is early research reported through a press-release summary, and more work is needed to understand what the finding means and how it might apply more broadly. It does not tell individuals what their personal risk is.\n\nThis is an educational summary, not medical advice. If anything here raises questions for you, please speak with your GP or a clinical professional.",
+      "headline": "Two lesser-known PFAS chemicals linked to 2.5-fold higher odds of liver cancer",
+      "is_preprint": false,
+      "run_date": "2026-11-28",
+      "run_iso": "2026-11-28T15:56:52Z",
+      "scores": {
+        "audience_breadth": 5,
+        "importance": 7,
+        "newest_iso": "2026-11-28T05:32:52Z",
+        "novelty": 8
+      },
+      "slug": "pfas-liver-cancer-genetic-susceptibility-fatty-liver",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "press_release",
+          "image_url": null,
+          "is_preprint": false,
+          "is_primary": true,
+          "published_iso": "2026-11-28T05:32:52Z",
+          "publisher": "ScienceDaily",
+          "title": "Two overlooked \"forever chemicals\" linked to up to 2.5 times the odds of liver cancer",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261128010416.htm"
+        }
+      ],
+      "standfirst": "A new study reports that two under-studied 'forever chemicals' are associated with substantially elevated odds of liver cancer, with a gene variant linked to fatty liver disease appearing to amplify the effect.",
+      "summary": "Researchers have identified an association between exposure to two per- and polyfluoroalkyl substances (PFAS) — a class of synthetic chemicals widely called 'forever chemicals' because of their environmental persistence — and up to 2.5 times the odds of developing liver cancer. The finding, reported via ScienceDaily from a study yet to be identified by journal in the available lede, draws attention to PFAS compounds that have received less regulatory scrutiny than the more extensively studied PFOA and PFOS.\n\nParticularly notable is an apparent interaction between PFAS exposure and a genetic variant associated with susceptibility to non-alcoholic fatty liver disease. The researchers report that individuals carrying this variant may face a greater increase in liver cancer odds when exposed to the chemicals, suggesting that genetic background could modulate how environmental exposures translate into cancer risk. The underlying mechanism is not yet characterised in the available reporting, and the study design — whether case-control, cohort, or cross-sectional — cannot be confirmed from the lede alone.\n\nThe findings add to a growing body of epidemiological literature linking PFAS exposure to hepatic outcomes, and may be of interest to researchers investigating gene–environment interactions in cancer aetiology. The source is a ScienceDaily press-release summary; the primary journal publication has not been identified from available feed information, and readers should seek the peer-reviewed article before drawing detailed conclusions.",
+      "tags": [
+        "pfas",
+        "liver-cancer",
+        "gene-environment-interaction",
+        "fatty-liver-disease",
+        "cancer-epidemiology",
+        "environmental-genomics"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators"
+      ],
+      "for_patients": null,
+      "headline": "THREAD framework resolves polygenic disease risk into coordinated cellular programmes",
+      "is_preprint": true,
+      "run_date": "2026-11-28",
+      "run_iso": "2026-11-28T15:56:52Z",
+      "scores": {
+        "audience_breadth": 2,
+        "importance": 7,
+        "newest_iso": "2026-11-28T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "thread-bayesian-polygenic-risk-multicellular-programs",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "THREAD: a Bayesian nonparametric framework for resolving polygenic risk into multicellular programs",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769208v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint introduces THREAD, a Bayesian nonparametric method that integrates GWAS summary statistics with single-cell expression data to partition heritable risk across multicellular biological programmes rather than individual cell types.",
+      "summary": "Researchers have posted a preprint describing THREAD (Tracing Heritable Risk through Expressed And Developmental programmes), a Bayesian nonparametric computational framework designed to address a persistent gap in post-GWAS interpretation. Genome-wide association studies have mapped thousands of loci to complex diseases, but translating statistical associations into the cellular and molecular mechanisms that generate risk remains difficult. Existing approaches typically relate genetic risk to individual cell types or, at single-cell resolution, to individual cells; how risk is organised across coordinated, multicellular programmes has been less tractable.\n\nTHREAD uses a Dirichlet process mixture over genes to partition heritable risk into a data-driven number of gene modules, each associated with a multicellular programme identified from single-cell RNA expression data. By integrating GWAS summary statistics with single-cell expression profiles, the method aims to reveal how polygenic risk is distributed across biological processes that span cell types rather than being confined to any single population.\n\nThe preprint has not yet undergone peer review. The method is of potential interest to statistical geneticists, computational biologists, and researchers working on post-GWAS functional interpretation. If validated, frameworks of this type could help prioritise mechanistic hypotheses for complex diseases by revealing the cellular architecture of inherited risk.",
+      "tags": [
+        "polygenic-risk-scores",
+        "gwas",
+        "single-cell-sequencing",
+        "bayesian-statistics",
+        "post-gwas",
+        "computational-genomics",
+        "gene-modules",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "cenlen method estimates human centromere array lengths from standard short-read sequencing data",
+      "is_preprint": true,
+      "run_date": "2026-11-28",
+      "run_iso": "2026-11-28T15:56:52Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 7,
+        "newest_iso": "2026-11-28T00:00:00Z",
+        "novelty": 8
+      },
+      "slug": "cenlen-centromere-array-length-short-read-sequencing",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "Population-scale measurement of human centromere array length variation from short-read sequencing",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769230v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reports cenlen, an alignment-free tool that measures alpha-satellite higher-order repeat array lengths across all 24 human chromosomes directly from short-read or long-read sequencing files, opening centromere variation to large-cohort study.",
+      "summary": "Alpha-satellite higher-order repeat (HOR) arrays at human centromeres vary several-fold in length between individuals and have been linked to kinetochore function and chromosome missegregation. Characterising this variation at population scale has been difficult because the repetitive, megabase-scale architecture of centromeres has largely restricted length measurement to the relatively small number of genomes assembled using long-read sequencing technologies.\n\nResearchers posting a preprint to bioRxiv describe cenlen, an alignment-free computational method that estimates active centromeric array lengths across all 24 human chromosomes directly from short-read or long-read CRAM files. By enabling centromere length estimation from the far more numerous short-read cohorts that exist in public and institutional databases, cenlen could allow researchers to investigate how centromere length variation correlates with health and disease outcomes at a scale not previously feasible.\n\nThe preprint has not yet been peer-reviewed. The method is likely of interest to researchers in structural genomics, cytogenetics, and population genomics, as well as those working on the biological consequences of chromosome instability. Access to population-scale centromere measurements could also inform studies of conditions associated with aneuploidy and chromosome segregation errors.",
+      "tags": [
+        "centromere",
+        "alpha-satellite",
+        "short-read-sequencing",
+        "chromosome-structure",
+        "population-genomics",
+        "structural-genomics",
+        "aneuploidy",
+        "preprint"
+      ]
+    },
+    {
+      "audiences": [
+        "researchers",
+        "educators",
+        "students"
+      ],
+      "for_patients": null,
+      "headline": "High connectivity buffers genetic consequences of population decline in Australian little penguins",
+      "is_preprint": true,
+      "run_date": "2026-11-28",
+      "run_iso": "2026-11-28T15:56:52Z",
+      "scores": {
+        "audience_breadth": 3,
+        "importance": 5,
+        "newest_iso": "2026-11-28T00:00:00Z",
+        "novelty": 7
+      },
+      "slug": "little-penguin-connectivity-genetic-diversity-conservation",
+      "sources": [
+        {
+          "image_alt": null,
+          "image_licence_class": "cc_by",
+          "image_url": null,
+          "is_preprint": true,
+          "is_primary": true,
+          "published_iso": "2026-11-28T00:00:00Z",
+          "publisher": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "title": "High connectivity of an iconic seabird species may buffer genetic consequences of population declines",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769595v1?rss=1"
+        }
+      ],
+      "standfirst": "A preprint reporting range-wide SNP data from 772 Australian little penguins across 42 colonies finds that high inter-colony connectivity may help maintain genetic diversity even as individual populations decline.",
+      "summary": "Researchers have posted a preprint to bioRxiv presenting range-wide single-nucleotide polymorphism (SNP) data from 772 Australian little penguins (Eudyptula minor novaehollandiae) sampled across 42 colonies between 2003 and 2025. The study was designed to characterise population genetic structure, estimate connectivity between colonies, and assess whether declining population sizes have led to measurable erosion of genetic diversity.\n\nThe findings indicate that Australian little penguins show weak genetic structure across their range — a pattern also observed in many other seabird species — and that high levels of gene flow between colonies may buffer the genetic consequences of local population declines. The dataset, which spans more than two decades and represents one of the most comprehensive range-wide sampling efforts for this species, also allows the researchers to refine estimates of connectivity and explore whether individual birds can be assigned to source populations.\n\nThe work has not yet been peer-reviewed. It is of interest to conservation geneticists and population biologists, and illustrates how molecular techniques — including SNP genotyping and population structure analysis — can be applied to inform conservation management units and assess the status of wildlife populations facing environmental pressure. The study may also serve as a methodological reference for comparable work in other highly mobile, wide-ranging species.",
+      "tags": [
+        "conservation-genetics",
+        "population-genomics",
+        "seabird-genetics",
+        "gene-flow",
+        "genetic-diversity",
+        "snp-genotyping",
+        "wildlife-genetics",
+        "preprint"
+      ]
     }
   ],
-  "last_run": "2026-11-27T17:12:39.744369+00:00",
+  "last_run": "2026-11-28T15:58:12.365469+00:00",
   "seen_urls": {
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012146": "2026-11-23T18:58:20.115777+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012270": "2026-11-17T16:41:34.279019+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012350": "2026-11-17T16:41:34.279019+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012363": "2026-11-14T13:57:07.401002+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012365": "2026-11-18T16:10:42.323485+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012369": "2026-11-17T16:41:34.279019+00:00",
-    "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012371": "2026-11-14T13:57:07.401002+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012373": "2026-11-20T15:56:17.592598+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012374": "2026-11-18T16:10:42.323485+00:00",
     "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012377": "2026-11-17T16:41:34.279019+00:00",
@@ -37438,14 +37611,9 @@
     "https://news.cancerresearchuk.org/2026/11/25/latest-winner-in-our-research-is-beautiful-competition-9/": "2026-11-25T17:48:27.455191+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.03.764067v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.06.763794v1?rss=1": "2026-11-17T16:41:34.279019+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.09.765288v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.765400v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.10.765550v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.11.765992v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.11.766034v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.12.762002v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.12.765293v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
-    "https://www.biorxiv.org/content/10.64898/2026.11.12.766085v1?rss=1": "2026-11-14T13:57:07.401002+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.12.766091v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.12.766233v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.12.766240v1?rss=1": "2026-11-16T16:45:16.098298+00:00",
@@ -37469,6 +37637,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.17.767052v1?rss=1": "2026-11-19T16:17:25.119383+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.17.767292v1?rss=1": "2026-11-18T16:10:42.323485+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.17.767335v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.17.767435v1?rss=1": "2026-11-28T15:58:12.365469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.18.767647v1?rss=1": "2026-11-22T15:02:38.175145+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.18.767656v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.18.767712v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
@@ -37478,6 +37647,7 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767351v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767734v1?rss=1": "2026-11-22T15:02:38.175145+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767793v1?rss=1": "2026-11-20T15:56:17.592598+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.19.767865v1?rss=1": "2026-11-28T15:58:12.365469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767928v1?rss=1": "2026-11-21T15:05:19.585382+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.19.767989v1?rss=1": "2026-11-21T15:05:19.585382+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.20.765463v1?rss=1": "2026-11-23T18:58:20.115777+00:00",
@@ -37491,12 +37661,20 @@
     "https://www.biorxiv.org/content/10.64898/2026.11.23.768758v1?rss=1": "2026-11-25T17:48:27.455191+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.25.769104v1?rss=1": "2026-11-27T17:12:39.744369+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.25.769110v1?rss=1": "2026-11-27T17:12:39.744369+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.25.769208v1?rss=1": "2026-11-28T15:58:12.365469+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.25.769230v1?rss=1": "2026-11-28T15:58:12.365469+00:00",
     "https://www.biorxiv.org/content/10.64898/2026.11.25.769255v1?rss=1": "2026-11-27T17:12:39.744369+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.26.768981v1?rss=1": "2026-11-28T15:58:12.365469+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.26.769528v1?rss=1": "2026-11-28T15:58:12.365469+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.26.769574v1?rss=1": "2026-11-28T15:58:12.365469+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.26.769580v1?rss=1": "2026-11-28T15:58:12.365469+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.26.769595v1?rss=1": "2026-11-28T15:58:12.365469+00:00",
+    "https://www.biorxiv.org/content/10.64898/2026.11.27.769230v1?rss=1": "2026-11-28T15:58:12.365469+00:00",
     "https://www.england.nhs.uk/2026/11/first-women-join-world-leading-ai-assisted-nhs-breast-screening-trial/": "2026-11-23T18:58:20.115777+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-rolls-out-new-staff-training-to-crack-down-on-snooping/": "2026-11-24T18:37:09.649277+00:00",
     "https://www.england.nhs.uk/2026/11/nhs-urges-over-40s-to-know-their-numbers-amid-alarming-rise-in-high-blood-pressure-emergencies/": "2026-11-21T15:05:19.585382+00:00",
+    "https://www.england.nhs.uk/2026/11/parents-use-pharmacies-childrens-flu-vaccines/": "2026-11-28T15:58:12.365469+00:00",
     "https://www.nature.com/articles/s41586-026-11345-2": "2026-11-25T17:48:27.455191+00:00",
-    "https://www.sciencedaily.com/releases/2026/11/261112025538.htm": "2026-11-14T13:57:07.401002+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261112230458.htm": "2026-11-15T14:30:19.052005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261113232000.htm": "2026-11-15T14:30:19.052005+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261113232105.htm": "2026-11-15T14:30:19.052005+00:00",
@@ -37525,11 +37703,9 @@
     "https://www.sciencedaily.com/releases/2026/11/261125045304.htm": "2026-11-27T17:12:39.744369+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261125045310.htm": "2026-11-27T17:12:39.744369+00:00",
     "https://www.sciencedaily.com/releases/2026/11/261126033031.htm": "2026-11-26T17:31:13.881609+00:00",
-    "https://www.statnews.com/2026/11/13/biotech-news-hhs-funding-for-research-into-ibogaine-for-ptsd/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
-    "https://www.statnews.com/2026/11/13/democrats-eye-medicare-for-more-vs-medicare-for-all/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
-    "https://www.statnews.com/2026/11/13/investigation-boston-scientific-watchman-cardiac-implant-marketing-science/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
-    "https://www.statnews.com/2026/11/13/medetomidine-withdrawal-asam-new-treatment-guidance/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
-    "https://www.statnews.com/2026/11/13/medicaid-work-requirements-implementation-delayed-six-months/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261128010416.htm": "2026-11-28T15:58:12.365469+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261128013220.htm": "2026-11-28T15:58:12.365469+00:00",
+    "https://www.sciencedaily.com/releases/2026/11/261128014255.htm": "2026-11-28T15:58:12.365469+00:00",
     "https://www.statnews.com/2026/11/15/fda-rejects-ivonescimab-lung-cancer-treatment-summit-therapeutics/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/2026/11/16/aamc-ceo-david-skorton-qa-challenges-academic-medicine/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/2026/11/16/ai-company-tom-health-fix-primary-care-new-tool/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
@@ -37645,13 +37821,18 @@
     "https://www.statnews.com/2026/11/25/medicare-physician-fee-schedule-change-worry-some-specialists/?utm_campaign=rss": "2026-11-26T17:31:13.881609+00:00",
     "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss": "2026-11-25T17:48:27.455191+00:00",
     "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/": "2026-11-27T17:12:39.744369+00:00",
+    "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/?utm_campaign=rss": "2026-11-28T15:58:12.365469+00:00",
     "https://www.statnews.com/2026/11/26/primary-care-appointment-times-doctor-shortage/?utm_campaign=rss": "2026-11-26T17:31:13.881609+00:00",
     "https://www.statnews.com/2026/11/27/favorite-stat-stories-health-news-morning-rounds/": "2026-11-27T17:12:39.744369+00:00",
+    "https://www.statnews.com/2026/11/27/favorite-stat-stories-health-news-morning-rounds/?utm_campaign=rss": "2026-11-28T15:58:12.365469+00:00",
     "https://www.statnews.com/2026/11/27/fda-vertex-povetacicept-kidney-capricor-duchenne-readout-newsletter/": "2026-11-27T17:12:39.744369+00:00",
+    "https://www.statnews.com/2026/11/27/fda-vertex-povetacicept-kidney-capricor-duchenne-readout-newsletter/?utm_campaign=rss": "2026-11-28T15:58:12.365469+00:00",
     "https://www.statnews.com/2026/11/27/health-ai-conversation-starters-for-holidays-ai-prognosis/": "2026-11-27T17:12:39.744369+00:00",
+    "https://www.statnews.com/2026/11/27/health-ai-conversation-starters-for-holidays-ai-prognosis/?utm_campaign=rss": "2026-11-28T15:58:12.365469+00:00",
     "https://www.statnews.com/2026/11/27/montana-sb-535-right-to-try-questions-risks-costs-insurance/": "2026-11-27T17:12:39.744369+00:00",
+    "https://www.statnews.com/2026/11/27/montana-sb-535-right-to-try-questions-risks-costs-insurance/?utm_campaign=rss": "2026-11-28T15:58:12.365469+00:00",
     "https://www.statnews.com/2026/11/27/pregnancy-eating-disorders-expanded-doctor-screening-needed/": "2026-11-27T17:12:39.744369+00:00",
-    "https://www.statnews.com/pharmalot/2026/11/13/up-down-ladder-jobs-pharma-biotech-2/?utm_campaign=rss": "2026-11-14T13:57:07.401002+00:00",
+    "https://www.statnews.com/2026/11/27/pregnancy-eating-disorders-expanded-doctor-screening-needed/?utm_campaign=rss": "2026-11-28T15:58:12.365469+00:00",
     "https://www.statnews.com/pharmalot/2026/11/16/glp1-use-covid-19-vaccines-return-on-investment/?utm_campaign=rss": "2026-11-16T16:45:16.098298+00:00",
     "https://www.statnews.com/pharmalot/2026/11/16/semaglutide-obesity-glp1-access-medicines-low-income-countries/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
     "https://www.statnews.com/pharmalot/2026/11/17/roche-breast-cancer-pill-obesity-drugs-in-children/?utm_campaign=rss": "2026-11-17T16:41:34.279019+00:00",
